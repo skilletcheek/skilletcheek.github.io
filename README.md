@@ -68,29 +68,46 @@ still provisioned free and automatically.
 
 ## Add real live events
 
-Open `js/data.js` and fill in the `CONFIG` block:
+The site aggregates **seven** sources; all are optional and fail gracefully.
+
+### A. Nightly auto-fetch (recommended — keys stay secret)
+A GitHub Action (`.github/workflows/fetch-events.yml`) runs every night on
+GitHub's servers, pulls the next 30 days of events, and commits them to
+`live-events.json`, which the site loads automatically.
+
+To turn it on, add repo secrets at **Settings → Secrets and variables →
+Actions → New repository secret**:
+
+| Secret name | Where to get it |
+|---|---|
+| `TICKETMASTER_KEY` | free — https://developer-acct.ticketmaster.com → create app → copy **Consumer Key** |
+| `SEATGEEK_CLIENT_ID` | free — https://seatgeek.com/account/develop → register app → copy **Client ID** |
+
+You can also run it on demand: **Actions tab → "Fetch events nightly" → Run
+workflow**. Any public **iCal/ICS calendar feed** (venue, city, church,
+library — look for a "Subscribe/Export .ics" link) can be added to
+`scripts/feeds.json` and will be pulled nightly too, no key needed.
+
+### B. In-browser live lookups (instant, per-date)
+Fill these in `js/data.js` → `CONFIG` for real-time lookups on whatever date
+the visitor picks (beyond the 30-day prefetch window):
 
 ```js
-ticketmasterApiKey: "YOUR_KEY",   // free at developer.ticketmaster.com
+ticketmasterApiKey: "YOUR_KEY",   // same key as above
+seatgeekClientId:   "YOUR_ID",    // same client id as above
 ```
 
-**Ticketmaster (recommended, free):**
-1. Sign up at https://developer-acct.ticketmaster.com
-2. Create an app → copy the **Consumer Key**.
-3. Paste it into `CONFIG.ticketmasterApiKey`. Done — concerts, sports and
-   theatre across a 40-mile DFW radius now appear on the day they occur.
+> Keys placed in `CONFIG` are visible in the browser (it's a static site).
+> Ticketmaster/SeatGeek browser keys are designed for this and rate-limited,
+> so that's fine. Anything secret belongs in the GitHub Action secrets instead.
 
-**Google Sheet (let non-coders add events):**
-1. Make a sheet with columns: `name, category, area, date, time, cost, description, url`
-   (`date` as `YYYY-MM-DD`, `category` one of the keys in `CATEGORIES`).
-2. **File → Share → Publish to web → CSV**.
-3. Paste that URL into `CONFIG.googleSheetCsvUrl`.
+### C. Your own listings
+* **events.json** — hand-edit the file; columns:
+  `name, category, area, date (YYYY-MM-DD), time, cost, description, url`.
+* **Google Sheet** — same columns; **File → Share → Publish to web → CSV**,
+  paste the URL into `CONFIG.googleSheetCsvUrl`. Great for non-coders.
 
-**events.json:** just edit the file — same columns, ships with the site.
-
-> Note: API keys placed in `CONFIG` are visible in the browser (it's a static
-> site). Ticketmaster keys are meant to be public/rate-limited, so that's fine.
-> For anything secret, put a serverless function in front (ask and I'll add one).
+Duplicates across sources are removed automatically (your own listings win).
 
 ---
 

@@ -78,6 +78,51 @@ async function loadTicketmaster(date) {
   }
 }
 
+/* ---- SeatGeek ----------------------------------------------------------- */
+async function loadSeatGeek(date) {
+  const id = CONFIG.seatgeekClientId;
+  if (!id) return [];
+  const iso = _isoDate(date);
+  const tax = (name) => {
+    if (!name) return "festival";
+    if (/sports|nba|nfl|mlb|nhl|mls|soccer|baseball|basketball|football|hockey|racing|rodeo/.test(name)) return "sports";
+    if (/concert|music/.test(name)) return "music";
+    if (/theater|broadway|classical|opera|ballet|dance|literary/.test(name)) return "arts";
+    if (/comedy/.test(name)) return "nightlife";
+    if (/family/.test(name)) return "family";
+    if (/festival/.test(name)) return "festival";
+    return "festival";
+  };
+  const url = new URL("https://api.seatgeek.com/2/events");
+  url.search = new URLSearchParams({
+    client_id: id,
+    lat: String(CONFIG.geo.lat), lon: String(CONFIG.geo.lng),
+    range: CONFIG.geo.radiusMiles + "mi",
+    "datetime_local.gte": iso + "T00:00:00",
+    "datetime_local.lte": iso + "T23:59:59",
+    per_page: "100",
+  }).toString();
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error("SG " + res.status);
+    const data = await res.json();
+    return (data.events || []).map((ev) => _normalize({
+      name: ev.short_title || ev.title,
+      cat: tax(((ev.taxonomies && ev.taxonomies[0]) || {}).name),
+      area: ev.venue ? [ev.venue.name, ev.venue.city].filter(Boolean).join(", ") : "DFW",
+      time: ev.datetime_local ? _pretty12h(ev.datetime_local.slice(11, 16)) : "See details",
+      cost: ev.stats && ev.stats.lowest_price != null ? Math.round(ev.stats.lowest_price) : null,
+      desc: ev.type ? `${ev.type.replace(/_/g, " ")} via SeatGeek.` : "Live event via SeatGeek.",
+      url: ev.url,
+      dateISO: ev.datetime_local ? ev.datetime_local.slice(0, 10) : null,
+      source: "seatgeek",
+    }));
+  } catch (err) {
+    console.warn("SeatGeek source unavailable:", err.message);
+    return [];
+  }
+}
+
 /* ---- PredictHQ (optional, paid) ---------------------------------------- */
 async function loadPredictHQ(date) {
   const token = CONFIG.predicthqToken;
@@ -130,14 +175,23 @@ async function loadGoogleSheet(date) {
 
 /* ---- Hand-editable events.json (ships with the site) ------------------- */
 async function loadEventsJson(date) {
-  if (!CONFIG.eventsJsonUrl) return [];
+  return _loadJsonFile(CONFIG.eventsJsonUrl, date, "json");
+}
+
+/* ---- Aggregated live-events.json (written nightly by GitHub Action) ---- */
+async function loadAggregatedJson(date) {
+  return _loadJsonFile(CONFIG.aggregatedJsonUrl, date, "auto");
+}
+
+async function _loadJsonFile(fileUrl, date, source) {
+  if (!fileUrl) return [];
   try {
-    const res = await fetch(CONFIG.eventsJsonUrl, { cache: "no-cache" });
+    const res = await fetch(fileUrl, { cache: "no-cache" });
     if (!res.ok) throw new Error("JSON " + res.status);
     const rows = await res.json();
-    return _fromRows(rows, date, "json");
+    return _fromRows(rows, date, source);
   } catch (err) {
-    // Silent: over file:// this is expected to fail; curated data covers it.
+    // Silent: over file:// (or before the Action's first run) this is expected.
     return [];
   }
 }
@@ -207,13 +261,24 @@ function _parseCsv(text) {
   });
 }
 
-/* Aggregate every configured live source for a given date. */
+/* Aggregate every configured live source for a given date.
+   Order matters: earlier sources win when two carry the same event name
+   (your own JSON/Sheet beats the auto-fetched file, which beats direct APIs). */
 async function loadLiveEvents(date) {
   const results = await Promise.allSettled([
     loadEventsJson(date),
     loadGoogleSheet(date),
+    loadAggregatedJson(date),
     loadTicketmaster(date),
+    loadSeatGeek(date),
     loadPredictHQ(date),
   ]);
-  return results.flatMap((r) => (r.status === "fulfilled" ? r.value : []));
+  const all = results.flatMap((r) => (r.status === "fulfilled" ? r.value : []));
+  const seen = new Set();
+  return all.filter((e) => {
+    const key = (e.name || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }

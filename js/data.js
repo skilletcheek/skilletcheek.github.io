@@ -12,9 +12,15 @@ const CONFIG = {
   /* Live event sources. Fill these in AFTER you deploy (see README).
      Leave blank to run on curated + JSON data only — the site still works. */
   ticketmasterApiKey: "",        // https://developer.ticketmaster.com (free)
+  seatgeekClientId: "",          // https://seatgeek.com/account/develop (free)
   predicthqToken: "",            // optional: https://www.predicthq.com (paid)
   googleSheetCsvUrl: "",         // optional: a "Publish to web -> CSV" URL
   eventsJsonUrl: "events.json",  // simple file you can hand-edit; ships with the site
+  aggregatedJsonUrl: "live-events.json", // written nightly by the GitHub Action (see scripts/)
+
+  /* Where newsletter signups, event submissions and advertising inquiries go
+     when no form endpoint is configured (opens the visitor's email app). */
+  contactEmail: "richard.jenkins@student.uagc.edu",
 
   /* DFW search box for live APIs */
   geo: { lat: 32.7767, lng: -96.7970, radiusMiles: 40 },

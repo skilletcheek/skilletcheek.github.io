@@ -249,7 +249,14 @@ function openModal(a) {
     </div>`;
   el("modal").classList.add("open");
   if (isHouseAd) {
-    el("advertiseBtn").onclick = () => { closeModal(); el("submitModal").classList.add("open"); };
+    el("advertiseBtn").onclick = () => {
+      location.href = "mailto:" + CONFIG.contactEmail
+        + "?subject=" + encodeURIComponent("Sponsored listing inquiry — " + CONFIG.siteName)
+        + "&body=" + encodeURIComponent(
+          "Hi! I'd like to feature my event/venue on " + CONFIG.siteName + ".\n\n"
+          + "Business/event name:\nDates I want featured:\nLink:\n");
+      closeModal();
+    };
   } else {
     el("icsBtn").onclick = () => downloadIcs(a);
     el("shareBtn").onclick = () => shareEvent(a);
@@ -322,7 +329,10 @@ function wireForms() {
     const email = el("nlEmail").value.trim();
     if (!email) return;
     if (!CONFIG.newsletterEndpoint) {
-      toast("Thanks! (Connect a mailing list to collect these.)");
+      location.href = "mailto:" + CONFIG.contactEmail
+        + "?subject=" + encodeURIComponent("Newsletter signup — " + CONFIG.siteName)
+        + "&body=" + encodeURIComponent("Please add me to the weekly rundown: " + email);
+      toast("Opening your email app to finish signing up…");
       el("nlEmail").value = ""; return;
     }
     try {
@@ -340,7 +350,12 @@ function wireForms() {
     e.preventDefault();
     const payload = Object.fromEntries(new FormData(e.target).entries());
     if (!CONFIG.submitEventEndpoint) {
-      toast("Received! (Connect a form endpoint to receive submissions.)");
+      const body = Object.entries(payload)
+        .map(([k, v]) => `${k}: ${v}`).join("\n");
+      location.href = "mailto:" + CONFIG.contactEmail
+        + "?subject=" + encodeURIComponent("Event submission — " + (payload.name || "untitled"))
+        + "&body=" + encodeURIComponent(body + "\n\nSubmitted via " + CONFIG.siteName);
+      toast("Opening your email app to send your event…");
       el("submitModal").classList.remove("open"); e.target.reset(); return;
     }
     try {

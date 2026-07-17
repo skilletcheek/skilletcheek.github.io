@@ -1,0 +1,5 @@
+{
+  "_readme": "Add any public iCal/ICS calendar feed here and the nightly fetcher will pull its events. Many venue, church, city, and library calendars offer an 'Export/Subscribe to calendar (.ics)' link — paste that URL below. 'category' must be one of: music, food, arts, outdoors, sports, family, market, nightlife, festival.",
+  "ics_feeds": [
+  ]
+}
