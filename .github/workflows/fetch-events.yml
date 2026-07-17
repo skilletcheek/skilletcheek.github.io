@@ -1,0 +1,37 @@
+name: Fetch events nightly
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # 9:00 UTC = 3–4 AM Dallas, daily
+  workflow_dispatch: {}    # allows manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch and aggregate events
+        env:
+          TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+        run: python scripts/fetch_events.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add live-events.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: nightly refresh of live-events.json"
+            git push
+          fi
