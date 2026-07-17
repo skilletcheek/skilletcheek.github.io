@@ -15,7 +15,10 @@
 </head>
 <body>
 <header class="hero">
-  <div class="wrap">
+  <div class="scene-stage" id="sceneStage"></div>
+  <div class="hero-scrim"></div>
+
+  <div class="wrap hero-content">
     <div class="topbar">
       <div class="brand">
         <div class="logo">🤠</div>
@@ -30,7 +33,11 @@
       </div>
     </div>
 
-    <div class="controls">
+    <div class="hero-title">
+      <h2 class="display">Every day, something<br/>worth leaving the house for.</h2>
+    </div>
+
+    <div class="controls glass">
       <div class="datebar">
         <div class="date-nav">
           <button id="prevDay" title="Previous day (←)" aria-label="Previous day">‹</button>
@@ -52,7 +59,18 @@
       </div>
     </div>
   </div>
+
+  <div class="scene-meta">
+    <span class="scene-caption" id="sceneCaption"></span>
+    <span class="scene-dots" id="sceneDots"></span>
+  </div>
 </header>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Live Music ✦ Farmers Markets ✦ Museums ✦ Ballparks ✦ Festivals ✦ Patios ✦ Trails ✦ Honky-Tonks ✦ Food Trucks ✦ Art Walks ✦&nbsp;</span><span>Live Music ✦ Farmers Markets ✦ Museums ✦ Ballparks ✦ Festivals ✦ Patios ✦ Trails ✦ Honky-Tonks ✦ Food Trucks ✦ Art Walks ✦&nbsp;</span>
+  </div>
+</div>
 
 <main class="wrap">
   <div class="ad-leader">Advertisement · leaderboard (728×90)</div>
@@ -139,6 +157,7 @@
 
 <script src="js/data.js"></script>
 <script src="js/sources.js"></script>
+<script src="js/scenes.js"></script>
 <script src="js/app.js"></script>
 <script>
   if (typeof CONFIG !== "undefined" && CONFIG.adsEnabled) document.body.classList.add("ads");

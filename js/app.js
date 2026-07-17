@@ -123,14 +123,15 @@ function costBadge(a) {
   return `<span class="badge">$${a.cost}${a.cost >= 25 ? "+" : ""}</span>`;
 }
 
-function cardHtml(a) {
+function cardHtml(a, i) {
   const c = CATEGORIES[a.cat] || { label: "Event", color: "#4f8cff" };
   const fav = state.faves.has(uid(a));
   const sponsored = a.source === "sponsored" || a.sponsor;
-  const liveTag = (a.source === "ticketmaster" || a.source === "predicthq")
+  const liveTag = (a.source === "ticketmaster" || a.source === "seatgeek" || a.source === "predicthq")
     ? `<span class="src">● live</span>` : "";
   return `
-    <article class="card ${sponsored ? "sponsored" : ""}" data-id="${uid(a)}">
+    <article class="card ${sponsored ? "sponsored" : ""}" data-id="${uid(a)}"
+             style="--d:${Math.min((i || 0) * 45, 450)}ms">
       ${sponsored ? `<div class="sponsor-ribbon">★ Sponsored${a.sponsor && a.sponsor !== "Sponsored" ? " · " + a.sponsor : ""}</div>` : ""}
       <div class="top">
         <h3>${a.name}</h3>
@@ -188,7 +189,7 @@ function render() {
   }
   let html = "";
   list.forEach((a, i) => {
-    html += cardHtml(a);
+    html += cardHtml(a, i);
     if (CONFIG.adsEnabled && i === 5) html += adCardHtml(); // one native ad slot after row 2
   });
   grid.innerHTML = html;
