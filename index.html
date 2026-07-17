@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="RJ Does Dallas — your daily guide to the best things to do across Dallas–Fort Worth. Pick any day and see what's happening: live music, markets, festivals, sports, family fun and more." />
+<meta property="og:title" content="RJ Does Dallas" />
+<meta property="og:description" content="What's happening in Dallas–Fort Worth today? Pick a day and find out." />
+<meta property="og:type" content="website" />
+<title>RJ Does Dallas — Your daily guide to Dallas–Fort Worth</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤠</text></svg>" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="logo">🤠</div>
+        <div>
+          <h1 id="brandName">RJ Does Dallas</h1>
+          <p id="brandTag">Your daily guide to Dallas–Fort Worth</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="btn-ghost" id="faveToggle">♥ Saved (0)</button>
+        <button class="btn-ghost" id="submitEventBtn">+ Submit an event</button>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div class="datebar">
+        <div class="date-nav">
+          <button id="prevDay" title="Previous day (←)" aria-label="Previous day">‹</button>
+          <span class="date-display" id="dateDisplay">—</span>
+          <button id="nextDay" title="Next day (→)" aria-label="Next day">›</button>
+        </div>
+        <input type="date" id="datePicker" />
+      </div>
+      <div class="searchrow">
+        <div class="quick">
+          <button data-quick="today">Today</button>
+          <button data-quick="tomorrow">Tomorrow</button>
+          <button data-quick="weekend">This Weekend</button>
+        </div>
+        <div class="search">
+          <span>🔎</span>
+          <input id="searchInput" type="text" placeholder="Search activities, venues, neighborhoods…" />
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="ad-leader">Advertisement · leaderboard (728×90)</div>
+
+  <div class="filters" id="filters"></div>
+
+  <div class="toolbar">
+    <div class="toolbar-left">
+      <button class="toggle" id="freeToggle">🆓 Free only</button>
+      <span class="count" id="count">Loading…</span>
+    </div>
+    <select class="sortsel" id="sort">
+      <option value="time">Sort by time</option>
+      <option value="name">Sort by name</option>
+      <option value="cost">Sort by cost (free first)</option>
+    </select>
+  </div>
+
+  <div class="grid" id="grid"></div>
+</main>
+
+<section class="newsletter wrap">
+  <h2>🗞️ Get the DFW weekend rundown</h2>
+  <p>One email every Thursday with the best things to do across Dallas–Fort Worth. Free, no spam.</p>
+  <form class="nl-form" id="newsletterForm">
+    <input type="email" id="nlEmail" placeholder="you@email.com" required />
+    <button class="btn primary" type="submit">Subscribe</button>
+  </form>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>© <span id="year"></span> RJ Does Dallas · A community guide to Dallas–Fort Worth happenings.</div>
+    <div>Always confirm times &amp; tickets on the venue's site before heading out.</div>
+  </div>
+</footer>
+
+<!-- Event detail modal -->
+<div class="modal" id="modal">
+  <div class="modal-panel">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<!-- Submit-an-event modal -->
+<div class="modal" id="submitModal">
+  <div class="modal-panel">
+    <button class="modal-close" id="submitClose" aria-label="Close">×</button>
+    <h2>Submit an event</h2>
+    <p class="modal-meta">Have something happening in DFW? Tell us and we'll consider it for the calendar.</p>
+    <form id="submitForm">
+      <label>Event name</label>
+      <input name="name" required />
+      <div class="form-grid">
+        <div><label>Date</label><input name="date" type="date" required /></div>
+        <div><label>Time</label><input name="time" placeholder="7:00 PM" /></div>
+        <div><label>Neighborhood / city</label><input name="area" placeholder="Deep Ellum, Dallas" /></div>
+        <div><label>Cost (USD, 0 = free)</label><input name="cost" type="number" min="0" /></div>
+      </div>
+      <label>Category</label>
+      <select name="category">
+        <option value="music">Live Music</option>
+        <option value="food">Food &amp; Drink</option>
+        <option value="arts">Arts &amp; Museums</option>
+        <option value="outdoors">Outdoors &amp; Parks</option>
+        <option value="sports">Sports</option>
+        <option value="family">Family &amp; Kids</option>
+        <option value="market">Markets</option>
+        <option value="nightlife">Nightlife</option>
+        <option value="festival">Festivals</option>
+      </select>
+      <label>Link (tickets or info)</label>
+      <input name="url" type="url" placeholder="https://…" />
+      <label>Short description</label>
+      <textarea name="description" rows="3"></textarea>
+      <div class="upsell">✨ <strong>Want the spotlight?</strong> Featured &amp; sponsored placements pin your event to the top with a gold badge. Ask about promoted listings after you submit.</div>
+      <div class="modal-actions">
+        <button class="btn primary" type="submit">Submit event</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/sources.js"></script>
+<script src="js/app.js"></script>
+<script>
+  if (typeof CONFIG !== "undefined" && CONFIG.adsEnabled) document.body.classList.add("ads");
+</script>
+</body>
+</html>

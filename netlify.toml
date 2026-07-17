@@ -1,0 +1,16 @@
+# Netlify config — HTTPS/TLS certificate is provisioned automatically (free, Let's Encrypt).
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/events.json"
+  [headers.values]
+    Cache-Control = "public, max-age=300"
