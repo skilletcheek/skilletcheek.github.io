@@ -115,27 +115,54 @@
     }
   }
 
+  function backdrop(cx, cy) {
+    // soft emerald "skyline" glow anchored behind the sphere, so the wireframe
+    // reads as a lit landmark rather than floating lines on black
+    const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, SPHERE_R * 2.1);
+    g.addColorStop(0, "rgba(0,255,135,0.16)");
+    g.addColorStop(0.45, "rgba(0,255,135,0.05)");
+    g.addColorStop(1, "rgba(0,255,135,0)");
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, W, H);
+  }
+
   function frame(tms) {
     ctx.clearRect(0, 0, W, H);
     const rotY = theta + scrollBoost;
     tiltX += (tiltTarget - tiltX) * 0.06;
 
+    // ambient glow behind the sphere center
+    const [scx, scy] = project([0, SPHERE_CY, 0], rotY, tiltX);
+    backdrop(scx, scy);
+
+    // additive blending so overlapping strokes build up light like neon
+    ctx.globalCompositeOperation = "lighter";
+
     // column behind
-    drawLoops(COLUMN_LOOPS, rotY * 0.4, tiltX * 0.5, "rgba(0,255,135,0.20)", 1);
-    // sphere mesh, two passes for depth glow
-    drawLoops(SPHERE_LOOPS, rotY, tiltX, "rgba(0,255,135,0.10)", 2.2);
-    drawLoops(SPHERE_LOOPS, rotY, tiltX, "rgba(0,255,135,0.34)", 0.8);
+    drawLoops(COLUMN_LOOPS, rotY * 0.4, tiltX * 0.5, "rgba(0,255,135,0.30)", 1);
+    // sphere mesh: wide soft glow pass (its own blur) + crisp bright pass with
+    // a shadow halo on top — only the thin pass pays for shadowBlur
+    drawLoops(SPHERE_LOOPS, rotY, tiltX, "rgba(0,255,135,0.16)", 2.4);
+    ctx.shadowColor = "rgba(0,255,135,0.9)";
+    ctx.shadowBlur = 10;
+    drawLoops(SPHERE_LOOPS, rotY, tiltX, "rgba(0,255,150,0.62)", 1);
+    ctx.shadowBlur = 0;
 
     // vertex lights
     const t = tms / 1000;
     for (const L of lights) {
       const [px, py, s] = project(L.p, rotY, tiltX);
-      const a = 0.25 + 0.75 * (0.5 + 0.5 * Math.sin(L.ph + t * L.sp));
-      ctx.fillStyle = `rgba(0,255,135,${(a * (s > 0.72 ? 1 : 0.35)).toFixed(3)})`;
+      const a = 0.3 + 0.7 * (0.5 + 0.5 * Math.sin(L.ph + t * L.sp));
+      const front = s > 0.72 ? 1 : 0.45;
+      ctx.shadowColor = "rgba(0,255,135,0.95)";
+      ctx.shadowBlur = 8 * front;
+      ctx.fillStyle = `rgba(150,255,200,${(a * front).toFixed(3)})`;
       ctx.beginPath();
-      ctx.arc(px, py, 1.6 * s + a * 1.2, 0, Math.PI * 2);
+      ctx.arc(px, py, 1.8 * s + a * 1.4, 0, Math.PI * 2);
       ctx.fill();
     }
+    ctx.shadowBlur = 0;
+    ctx.globalCompositeOperation = "source-over";
 
     theta += 0.0035;
     if (!REDUCED) requestAnimationFrame(frame);
