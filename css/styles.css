@@ -54,7 +54,8 @@ button { font-family: var(--mono); }
 }
 .sb-left { display: flex; gap: 10px; align-items: center; min-width: 0; overflow: hidden; }
 .sb-div { color: var(--line); }
-.sb-right { color: var(--em); }
+.sb-right { color: var(--em); cursor: pointer; transition: opacity .15s; }
+.sb-right:hover { opacity: .7; }
 @media (max-width: 720px) { .sb-right { display: none; } }
 #statusLive { color: var(--em); display: inline-flex; align-items: center; gap: 6px; }
 
@@ -108,6 +109,11 @@ button { font-family: var(--mono); }
   display: inline-flex; align-items: center; gap: 10px; align-self: flex-start;
   font-family: var(--mono); font-size: 11px; letter-spacing: .1em; color: var(--em);
   border: 1px solid var(--jade); padding: 10px 14px; background: rgba(14, 58, 47, .18);
+  cursor: pointer; transition: background .15s, border-color .15s, box-shadow .15s;
+}
+.hero-badge:hover {
+  background: rgba(14, 58, 47, .35); border-color: var(--em);
+  box-shadow: 0 0 16px rgba(0, 255, 135, .25);
 }
 .hero-canvas { position: relative; min-height: 380px; }
 #towerCanvas { position: absolute; inset: 0; width: 100%; height: 100%; }
@@ -290,11 +296,20 @@ body.ads .ad-leader { display: block; }
 @keyframes cardin { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 
 /* ============================== BRIDGE ============================== */
-.bridge { position: relative; border-bottom: 1px solid var(--line); padding: 30px 0 14px; overflow: hidden; }
+.bridge {
+  position: relative; border-bottom: 1px solid var(--line); padding: 30px 0 14px; overflow: hidden;
+  background: radial-gradient(60% 120% at 50% 0%, rgba(0, 255, 135, .07), transparent 70%);
+}
 .bridge svg { display: block; width: 100%; height: auto; }
-.b-arch { stroke: var(--em); stroke-width: 2; stroke-dasharray: 2200; stroke-dashoffset: 2200; }
-.b-cables { stroke: var(--em-dim); stroke-width: 1; stroke-dasharray: 1400; stroke-dashoffset: 1400; }
-.b-deck { stroke: var(--line); stroke-width: 2; }
+.b-arch {
+  stroke: var(--em); stroke-width: 2.4; stroke-dasharray: 2200; stroke-dashoffset: 2200;
+  filter: drop-shadow(0 0 6px rgba(0, 255, 135, .7));
+}
+.b-cables {
+  stroke: var(--em); stroke-width: 1.2; stroke-dasharray: 1400; stroke-dashoffset: 1400;
+  filter: drop-shadow(0 0 4px rgba(0, 255, 135, .5));
+}
+.b-deck { stroke: var(--em-dim); stroke-width: 2; filter: drop-shadow(0 0 3px rgba(0, 255, 135, .35)); }
 .bridge.drawn .b-arch { transition: stroke-dashoffset 2.4s ease; stroke-dashoffset: 0; }
 .bridge.drawn .b-cables { transition: stroke-dashoffset 2.4s ease .8s; stroke-dashoffset: 0; }
 .bridge-cap {

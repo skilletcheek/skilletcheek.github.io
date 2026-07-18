@@ -594,6 +594,21 @@ async function refreshLive() {
 
 /* ---- navigation ------------------------------------------------------------ */
 function goToDate(d) { state.date = d; refreshLive(); }
+
+/* "LIVE IN DALLAS — EXPLORE TONIGHT" CTA: clear filters, jump to today,
+   and scroll the full event list into view. */
+function exploreTonight() {
+  state.activeCats.clear();
+  state.vibes.clear();
+  state.district = null;
+  state.freeOnly = false;
+  state.favesOnly = false;
+  state.search = "";
+  const s = el("searchInput"); if (s) s.value = "";
+  goToDate(new Date());
+  const main = document.querySelector("main");
+  if (main) main.scrollIntoView({ behavior: "smooth", block: "start" });
+}
 function nextWeekend(from) {
   const d = new Date(from);
   if (d.getDay() === 6 || d.getDay() === 0) return d;
@@ -619,6 +634,14 @@ function wireControls() {
       if (q === "tomorrow") t.setDate(t.getDate() + 1);
       else if (q === "weekend") return goToDate(nextWeekend(t));
       goToDate(t);
+    };
+  });
+  document.querySelectorAll(".hero-badge, .sb-right").forEach((b) => {
+    b.setAttribute("role", "button");
+    b.setAttribute("tabindex", "0");
+    b.onclick = exploreTonight;
+    b.onkeydown = (e) => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); exploreTonight(); }
     };
   });
   el("modalClose").onclick = closeDrawer;
