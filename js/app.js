@@ -636,6 +636,14 @@ function wireControls() {
       goToDate(t);
     };
   });
+  document.querySelectorAll(".marquee-track button").forEach((b) => {
+    b.onclick = () => {
+      state.activeCats = new Set([b.dataset.cat]);
+      render();
+      const main = document.querySelector("main");
+      if (main) main.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+  });
   document.querySelectorAll(".hero-badge, .sb-right").forEach((b) => {
     b.setAttribute("role", "button");
     b.setAttribute("tabindex", "0");

@@ -187,6 +187,11 @@ input[type="date"] {
 .marquee-track span {
   font-family: var(--mono); font-size: 11px; letter-spacing: .22em; color: #3A3F4B;
 }
+.marquee-track button {
+  all: unset; font: inherit; letter-spacing: inherit; color: inherit;
+  cursor: pointer; transition: color .15s;
+}
+.marquee-track button:hover, .marquee-track button:focus-visible { color: var(--em); }
 .marquee:hover .marquee-track { animation-play-state: paused; }
 @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 

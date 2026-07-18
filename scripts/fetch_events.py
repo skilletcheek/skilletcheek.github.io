@@ -255,6 +255,58 @@ def fetch_ics_feeds(start, end):
     return out
 
 
+# -------------------------------------------------------------------- Prekindle
+def fetch_prekindle(start, end):
+    """Local venues that sell through Prekindle. Their public listing page
+    (prekindle.com/events/<slug>) embeds a schema.org JSON-LD array of
+    upcoming events — machine-readable without any API key."""
+    if not FEEDS_FILE.exists():
+        return []
+    try:
+        pages = json.loads(FEEDS_FILE.read_text()).get("prekindle_pages", [])
+    except Exception:  # noqa: BLE001
+        return []
+    lo, hi = start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
+    out = []
+    for p in pages:
+        venue, area = p.get("venue", "Venue"), p.get("area", "Dallas")
+        url = p.get("url") or (p.get("slug") and f"https://www.prekindle.com/events/{p['slug']}")
+        if not url:
+            continue
+        try:
+            html = http_text(url)
+        except Exception as e:  # noqa: BLE001
+            print(f"prekindle failed ({venue}): {e}", file=sys.stderr)
+            continue
+        m = re.search(r'application/ld\+json[^>]*>(.*?)</script>', html, re.S)
+        if not m:
+            print(f"prekindle ({venue}): no JSON-LD block")
+            continue
+        try:
+            events = json.loads(m.group(1))
+        except Exception as e:  # noqa: BLE001
+            print(f"prekindle ({venue}): bad JSON-LD: {e}", file=sys.stderr)
+            continue
+        count = 0
+        for ev in events if isinstance(events, list) else [events]:
+            date = str(ev.get("startDate") or "")[:10]
+            if not (ev.get("name") and lo <= date <= hi):
+                continue
+            price = (ev.get("offers") or {}).get("price")
+            try:
+                cost = float(price) if price is not None else None
+            except (TypeError, ValueError):
+                cost = None
+            desc = (ev.get("description") or "").strip()
+            if not desc or desc == ev.get("name"):
+                desc = f"Live at {venue}."
+            out.append(row(ev["name"], p.get("category", "music"), area,
+                           date, "Doors — see listing", cost, desc, ev.get("url")))
+            count += 1
+        print(f"prekindle ({venue}): {count} events")
+    return out
+
+
 # ----------------------------------------------------------------- press wire
 def _strip_cdata(s: str) -> str:
     import html as _html
@@ -405,7 +457,8 @@ def main():
     start = now.replace(hour=0, minute=0, second=0, microsecond=0)
     end = start + timedelta(days=DAYS_AHEAD)
 
-    rows = fetch_ticketmaster(start, end) + fetch_seatgeek(start, end) + fetch_ics_feeds(start, end)
+    rows = (fetch_ticketmaster(start, end) + fetch_seatgeek(start, end)
+            + fetch_ics_feeds(start, end) + fetch_prekindle(start, end))
 
     seen, unique = set(), []
     for r in rows:

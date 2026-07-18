@@ -1,6 +1,15 @@
 {
-  "_readme": "ics_feeds: any public iCal/ICS calendar feed (venue, city, church, library — look for a 'Subscribe/Export .ics' link); events land in live-events.json nightly. category must be one of: music, food, arts, outdoors, sports, family, market, nightlife, festival. rss_feeds: DFW publication article feeds shown in the site's press wire (headlines, not event rows). CultureMap Dallas and Visit Dallas publish no machine-readable feeds as of 2026-07; their events can arrive via the Google Sheet or any ICS they add later.",
+  "_readme": "ics_feeds: any public iCal/ICS calendar feed (venue, city, church, library — look for a 'Subscribe/Export .ics' link); events land in live-events.json nightly. category must be one of: music, food, arts, outdoors, sports, family, market, nightlife, festival. prekindle_pages: local venues that sell through Prekindle — their public listing page (prekindle.com/events/<slug>) embeds schema.org JSON-LD we parse nightly; to add a venue, find its slug on prekindle.com and add {slug, venue, area}. rss_feeds: DFW publication article feeds shown in the site's press wire (headlines, not event rows). CultureMap Dallas and Visit Dallas publish no machine-readable feeds as of 2026-07; their events can arrive via the Google Sheet or any ICS they add later.",
   "ics_feeds": [
+  ],
+  "prekindle_pages": [
+    { "url": "https://www.prekindle.com/organizer-grid-widget-main/id/22562449555234986/?fp=false&thumbs=false&style=null",
+      "venue": "Granada Theater", "area": "Lower Greenville" },
+    { "url": "https://www.prekindle.com/organizer-grid-widget-main/id/24898848614692498/?fp=false&thumbs=false&style=null",
+      "venue": "Sundown at Granada", "area": "Lower Greenville" },
+    { "url": "https://www.prekindle.com/kessler/", "venue": "The Kessler Theater", "area": "Oak Cliff" },
+    { "url": "https://www.prekindle.com/events/poordavidspub", "venue": "Poor David's Pub", "area": "The Cedars, Dallas" },
+    { "url": "https://www.prekindle.com/events/threelinks", "venue": "Three Links", "area": "Deep Ellum" }
   ],
   "rss_feeds": [
     { "url": "https://lakewood.advocatemag.com/feed/", "source": "THE ADVOCATE" },
