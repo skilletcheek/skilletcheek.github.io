@@ -90,6 +90,10 @@ function isLiveNow(a) {
   return (n >= s && n <= e) || (n + 24 * 60 >= s && n + 24 * 60 <= e);
 }
 
+/* Before the evening, "12 LIVE NOW" mostly means parks and museums are open —
+   say so. After 5 PM the word earns its stage energy. */
+function liveWord() { return new Date().getHours() < 17 ? "OPEN" : "LIVE"; }
+
 /* ---- vibes (derived from existing fields only) --------------------------- */
 const VIBES = {
   "chill":      { label: "CHILL & ACOUSTIC", test: (a) => ["arts", "outdoors", "market"].includes(a.cat) || /jazz|acoustic|garden|trail|museum|story|stroll/i.test(a.name + " " + (a.desc || "")) },
@@ -185,18 +189,26 @@ function cardHtml(a, i) {
   const live = isLiveNow(a);
   const districtSlug = RADAR.districtOf(a);
   const dLabel = districtSlug ? (DISTRICTS.find((d) => d.slug === districtSlug) || {}).label : null;
+  const thumb = a.image
+    ? `<div class="card-thumb"><img src="${a.image}" alt="" loading="lazy" onerror="this.parentElement.remove()"></div>`
+    : "";
   return `
     <article class="card ${sponsored ? "sponsored" : ""}" data-id="${uid(a)}"
              style="--d:${Math.min((i || 0) * 40, 400)}ms">
       <div class="card-toprow">
         <span class="idx">(${String((i || 0) + 1).padStart(2, "0")})</span>
         <span class="tag">/ ${c.label.toUpperCase()}</span>
-        ${live ? `<span class="live-ring" title="Happening now"><i></i>LIVE</span>` : ""}
+        ${live ? `<span class="live-ring" title="Happening now"><i></i>${liveWord()}</span>` : ""}
         ${sponsored ? `<span class="spon">★ SPONSORED</span>` : ""}
       </div>
-      <h3>${a.name}</h3>
-      <div class="meta">/ ${fmtMono(state.date)} · ${String(a.time).toUpperCase()}</div>
-      <div class="meta">/ ${(dLabel || a.area || "DFW").toUpperCase()}</div>
+      <div class="card-mid">
+        <div class="card-txt">
+          <h3>${a.name}</h3>
+          <div class="meta">/ ${fmtMono(state.date)} · ${String(a.time).toUpperCase()}</div>
+          <div class="meta">/ ${(dLabel || a.area || "DFW").toUpperCase()}</div>
+        </div>
+        ${thumb}
+      </div>
       <p class="desc">${a.desc || ""}</p>
       <div class="card-foot">
         ${costBadge(a)}
@@ -246,8 +258,24 @@ function render() {
       <div><strong>NO SIGNALS ON THIS FREQUENCY.</strong></div>
       <div>Try another date, clear filters, or widen your search.</div></div>`;
   } else {
-    let html = "";
+    // Group the day into scannable stretches when sorted by time. Unparseable
+    // times sort to 24h+ and land under LISTED (doors/times on the venue page).
+    const daypart = (a) => {
+      const t = parseTimeToMinutes(a.time);
+      if (t >= 24 * 60) return "/ ALSO ON — SEE LISTINGS FOR TIMES";
+      if (t < 12 * 60) return "/ MORNING";
+      if (t < 17 * 60) return "/ AFTERNOON";
+      if (t < 21 * 60) return "/ TONIGHT";
+      return "/ LATE NIGHT";
+    };
+    const useBreaks = state.sort === "time" && list.length > 9;
+    let html = "", lastPart = null;
     list.forEach((a, i) => {
+      // pinned sponsored cards sit above the timeline — no header over them
+      if (useBreaks && !(a.source === "sponsored" || a.sponsor)) {
+        const part = daypart(a);
+        if (part !== lastPart) { html += `<div class="time-break">${part}</div>`; lastPart = part; }
+      }
       html += cardHtml(a, i);
       if (CONFIG.adsEnabled && i === 5) html += adCardHtml();
     });
@@ -265,9 +293,37 @@ function render() {
   }
 
   RADAR.update(baseListForDate(state.date).concat(sponsored));
+  renderOnNow();
+  const sky = el("skyDate");
+  if (sky) sky.textContent = fmtDate(state.date).toUpperCase();
   updateStatusCount();
   updateSeo(list);
   syncUrl();
+}
+
+/* ---- ON NOW rail: what's literally happening at this minute --------------- */
+function renderOnNow() {
+  const box = el("onnow");
+  if (!box) return;
+  const live = isToday(state.date)
+    ? baseListForDate(state.date).concat(sponsoredForDate(state.date)).filter(isLiveNow)
+    : [];
+  if (!live.length) { box.hidden = true; return; }
+  box.hidden = false;
+  el("onnowLabel").textContent = `${liveWord()} NOW — ${live.length}`;
+  live.sort((a, b) => timeRange(a.time)[1] - timeRange(b.time)[1]); // ending soonest first
+  el("onnowRail").innerHTML = live.map((a) => `
+    <div class="onnow-card" data-id="${uid(a)}">
+      <div class="oc-name">${a.name}</div>
+      <div class="oc-meta">/ ${String(a.time).toUpperCase()}</div>
+      <div class="oc-meta">/ ${(a.area || "DFW").toUpperCase()}</div>
+    </div>`).join("");
+  el("onnowRail").querySelectorAll(".onnow-card").forEach((c) => {
+    c.onclick = () => {
+      const item = live.find((x) => uid(x) === c.dataset.id);
+      if (item) openDrawer(item);
+    };
+  });
 }
 
 function updateQuickButtons() {
@@ -375,7 +431,7 @@ function updateStatusCount() {
   if (!box) return;
   if (!isToday(state.date)) { box.textContent = ""; return; }
   const n = baseListForDate(state.date).filter(isLiveNow).length;
-  box.innerHTML = n ? `<i class="pulse"></i>${n} LIVE NOW` : "";
+  box.innerHTML = n ? `<i class="pulse"></i>${n} ${liveWord()} NOW` : "";
 }
 
 /* ---- favorites ----------------------------------------------------------- */
@@ -394,7 +450,8 @@ function openDrawer(a) {
   const isHouseAd = a.url === "#advertise";
   const live = isLiveNow(a);
   el("modalBody").innerHTML = `
-    <div class="dr-tag">/ ${c.label.toUpperCase()} ${live ? '<span class="live-ring"><i></i>LIVE NOW</span>' : ""}</div>
+    <div class="dr-tag">/ ${c.label.toUpperCase()} ${live ? `<span class="live-ring"><i></i>${liveWord()} NOW</span>` : ""}</div>
+    ${a.image ? `<div class="dr-img"><img src="${a.image}" alt="" onerror="this.parentElement.remove()"></div>` : ""}
     <h2>${a.name}</h2>
     <div class="dr-meta">/ ${fmtDate(state.date).toUpperCase()}</div>
     <div class="dr-meta">/ ${String(a.time).toUpperCase()}</div>
@@ -636,6 +693,29 @@ function wireControls() {
       goToDate(t);
     };
   });
+  /* sticky date bar: slides in once the console scrolls out of view */
+  el("skyPrev").onclick = () => el("prevDay").click();
+  el("skyNext").onclick = () => el("nextDay").click();
+  el("skyTonight").onclick = () => goToDate(new Date());
+  el("skyTop").onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+  const consoleEl = document.querySelector(".console");
+  window.addEventListener("scroll", () => {
+    const past = consoleEl && consoleEl.getBoundingClientRect().bottom < 0;
+    el("skybar").classList.toggle("show", !!past);
+  }, { passive: true });
+
+  el("vibesToggle").onclick = (e) => {
+    e.stopPropagation();
+    const row = el("vibesRow");
+    const collapsed = row.classList.toggle("collapsed");
+    el("vibesToggle").textContent = collapsed ? "+ SHOW" : "− HIDE";
+    el("vibesToggle").setAttribute("aria-expanded", String(!collapsed));
+  };
+  el("radarJump").onclick = () => {
+    const r = document.querySelector(".radar-section") || el("radarMap");
+    if (r) r.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   document.querySelectorAll(".marquee-track button").forEach((b) => {
     b.onclick = () => {
       state.activeCats = new Set([b.dataset.cat]);

@@ -76,7 +76,7 @@ def pretty_time(hhmm: str) -> str:
     return f"{h}:{mi} {ap}"
 
 
-def row(name, category, area, date, time, cost, desc, url):
+def row(name, category, area, date, time, cost, desc, url, image=None):
     return {
         "name": (name or "").strip()[:140],
         "category": category or "festival",
@@ -86,6 +86,7 @@ def row(name, category, area, date, time, cost, desc, url):
         "cost": cost,
         "description": (desc or "").strip()[:280],
         "url": url or "#",
+        "image": image,
     }
 
 
@@ -122,12 +123,16 @@ def fetch_ticketmaster(start, end):
             price = (ev.get("priceRanges") or [{}])[0].get("min")
             genre = ((cls.get("genre") or {}).get("name") or "").strip()
             desc = f"{genre} event via Ticketmaster." if genre and genre != "Undefined" else "Live event via Ticketmaster."
+            imgs = ev.get("images") or []
+            img = next((im.get("url") for im in imgs
+                        if im.get("ratio") == "16_9" and 500 <= (im.get("width") or 0) <= 1200),
+                       imgs[0].get("url") if imgs else None)
             out.append(row(
                 ev.get("name"), TM_SEGMENT.get(seg, "festival"),
                 ", ".join(x for x in [venue.get("name"), (venue.get("city") or {}).get("name")] if x),
                 dates.get("localDate"), pretty_time(dates.get("localTime", "")),
                 round(price) if isinstance(price, (int, float)) else None,
-                desc, ev.get("url"),
+                desc, ev.get("url"), img,
             ))
         if page >= int((data.get("page") or {}).get("totalPages", 1)) - 1:
             break
@@ -182,6 +187,7 @@ def fetch_seatgeek(start, end):
                 round(price) if isinstance(price, (int, float)) else None,
                 f"{(ev.get('type') or 'live').replace('_', ' ')} event via SeatGeek.",
                 ev.get("url"),
+                ((ev.get("performers") or [{}])[0]).get("image"),
             ))
         if len(events) < 100:
             break
@@ -301,7 +307,8 @@ def fetch_prekindle(start, end):
             if not desc or desc == ev.get("name"):
                 desc = f"Live at {venue}."
             out.append(row(ev["name"], p.get("category", "music"), area,
-                           date, "Doors — see listing", cost, desc, ev.get("url")))
+                           date, "Doors — see listing", cost, desc, ev.get("url"),
+                           ev.get("image")))
             count += 1
         print(f"prekindle ({venue}): {count} events")
     return out

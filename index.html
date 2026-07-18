@@ -29,6 +29,15 @@
   <div class="sb-right">( LIVE IN DALLAS — EXPLORE TONIGHT )</div>
 </div>
 
+<!-- slim date bar that slides in once the console scrolls away -->
+<div class="skybar" id="skybar" aria-hidden="true">
+  <button id="skyPrev" title="Previous day">‹</button>
+  <span class="sky-date" id="skyDate">—</span>
+  <button id="skyNext" title="Next day">›</button>
+  <button id="skyTonight">TONIGHT</button>
+  <button class="sky-top" id="skyTop" title="Back to top">↑</button>
+</div>
+
 <!-- ============ NAV ============ -->
 <nav class="nav">
   <a class="brand" href="/">LETS DO IT <em>DALLAS</em></a>
@@ -76,8 +85,8 @@
     <span class="row-label">/ CATEGORY</span>
     <div class="filters" id="filters"></div>
   </div>
-  <div class="console-row chips-row">
-    <span class="row-label">/ VIBE</span>
+  <div class="console-row chips-row vibes-row collapsed" id="vibesRow">
+    <span class="row-label">/ VIBE <button class="vibes-toggle" id="vibesToggle" aria-expanded="false">+ SHOW</button></span>
     <div class="filters" id="vibes"></div>
   </div>
 </section>
@@ -91,9 +100,14 @@
 
 <!-- ============ EVENT GRID ============ -->
 <main>
+  <div class="onnow" id="onnow" hidden>
+    <div class="onnow-head"><i class="pulse"></i><span id="onnowLabel">ON NOW</span></div>
+    <div class="onnow-rail" id="onnowRail"></div>
+  </div>
   <div class="toolbar">
     <div class="toolbar-left">
       <button class="toggle" id="freeToggle">FREE ONLY</button>
+      <button class="toggle" id="radarJump" title="Browse by district">◎ DISTRICTS</button>
       <span class="count" id="count">LOADING…</span>
     </div>
     <select class="sortsel" id="sort">

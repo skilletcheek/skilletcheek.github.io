@@ -57,6 +57,11 @@ button { font-family: var(--mono); }
 .sb-right { color: var(--em); cursor: pointer; transition: opacity .15s; }
 .sb-right:hover { opacity: .7; }
 @media (max-width: 720px) { .sb-right { display: none; } }
+@media (max-width: 560px) {
+  /* keep time + live count from clipping: drop weather, tighten tracking */
+  .statusbar { font-size: 10px; letter-spacing: .04em; }
+  #statusWx, .sb-div:has(+ #statusWx) { display: none; }
+}
 #statusLive { color: var(--em); display: inline-flex; align-items: center; gap: 6px; }
 
 .pulse {
@@ -92,7 +97,7 @@ button { font-family: var(--mono); }
   display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
   border-bottom: 1px solid var(--line); min-height: 520px;
 }
-@media (max-width: 900px) { .hero { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .hero { grid-template-columns: 1fr; position: relative; } }
 .hero-copy {
   padding: clamp(28px, 6vw, 72px) var(--pad);
   display: flex; flex-direction: column; justify-content: center; gap: 22px;
@@ -121,6 +126,13 @@ button { font-family: var(--mono); }
   position: absolute; bottom: 12px; right: var(--pad);
   font-family: var(--mono); font-size: 10px; letter-spacing: .12em; color: var(--silver);
   opacity: .7;
+}
+@media (max-width: 900px) {
+  /* On small screens the tower becomes a dim backdrop behind the copy instead
+     of a full screen of its own — first event cards land near the fold. */
+  .hero-canvas { position: absolute; inset: 0; min-height: 0; opacity: .3; pointer-events: none; }
+  .hero-copy { position: relative; z-index: 1; }
+  .canvas-cap { display: none; }
 }
 
 /* ============================= CONSOLE ============================= */
@@ -178,6 +190,27 @@ input[type="date"] {
 .chip.active { background: var(--em); border-color: var(--em); color: var(--bg); font-weight: 500; }
 .chip.vibe.active { background: var(--jade); border-color: var(--em-dim); color: var(--em); }
 
+/* touch: 44px minimum tap targets; category row scrolls instead of stacking */
+@media (pointer: coarse), (max-width: 720px) {
+  .chip { min-height: 44px; padding: 12px 16px; font-size: 11px; }
+  .quick button, .icon-btn { min-height: 44px; }
+}
+@media (max-width: 720px) {
+  .chips-row .filters {
+    flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; padding-bottom: 2px;
+  }
+  .chips-row .filters::-webkit-scrollbar { display: none; }
+  .chip { flex: none; white-space: nowrap; }
+  /* vibes collapsed behind a toggle on mobile */
+  .vibes-row.collapsed .filters { display: none; }
+  .vibes-toggle { display: inline-block; }
+}
+.vibes-toggle {
+  display: none; cursor: pointer; background: transparent; border: 0;
+  font-family: var(--mono); font-size: 10px; letter-spacing: .1em; color: var(--em); padding: 4px 0 4px 8px;
+}
+
 /* ============================= MARQUEE ============================= */
 .marquee {
   overflow: hidden; white-space: nowrap; border-bottom: 1px solid var(--line);
@@ -188,7 +221,7 @@ input[type="date"] {
   font-family: var(--mono); font-size: 11px; letter-spacing: .22em; color: #3A3F4B;
 }
 .marquee-track button {
-  all: unset; font: inherit; letter-spacing: inherit; color: inherit;
+  all: unset; font: inherit; letter-spacing: inherit; color: #6E7482;
   cursor: pointer; transition: color .15s;
 }
 .marquee-track button:hover, .marquee-track button:focus-visible { color: var(--em); }
@@ -272,7 +305,7 @@ body.ads .ad-leader { display: block; }
 }
 .card h3 { font-size: 19px; font-weight: 700; letter-spacing: .01em; line-height: 1.2; transition: color .18s; }
 .card .meta { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; color: var(--silver); }
-.card .desc { margin: 2px 0 0; font-size: 13.5px; color: #6E7482; }
+.card .desc { margin: 2px 0 0; font-size: 13.5px; color: #7A8090; }
 .card-foot { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 10px; }
 .foot-actions { display: flex; gap: 6px; }
 .icon-btn {
@@ -297,6 +330,92 @@ body.ads .ad-leader { display: block; }
   font-family: var(--mono); font-size: 12px; letter-spacing: .08em; line-height: 2;
 }
 .empty strong { color: var(--white); }
+
+/* ======================= ON NOW rail ======================= */
+.onnow { border-bottom: 1px solid var(--line); background: var(--bg); }
+.onnow-head {
+  display: flex; align-items: center; gap: 8px; padding: 12px var(--pad) 0;
+  font-family: var(--mono); font-size: 10px; letter-spacing: .14em; color: var(--em);
+}
+.onnow-rail {
+  display: flex; gap: 1px; overflow-x: auto; padding: 10px var(--pad) 14px;
+  -webkit-overflow-scrolling: touch; scrollbar-width: none;
+}
+.onnow-rail::-webkit-scrollbar { display: none; }
+.onnow-card {
+  flex: 0 0 auto; width: 230px; padding: 12px 14px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--bg-2); transition: border-color .15s;
+}
+.onnow-card:hover { border-color: var(--em-dim); }
+.onnow-card .oc-name {
+  font-weight: 600; font-size: 13.5px; color: var(--white); line-height: 1.25;
+  overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+}
+.onnow-card .oc-meta {
+  margin-top: 6px; font-family: var(--mono); font-size: 9.5px; letter-spacing: .1em; color: var(--silver);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+/* ======================= sticky date bar ======================= */
+.skybar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 45;
+  display: flex; align-items: center; justify-content: center; gap: 4px;
+  padding: 6px var(--pad);
+  background: rgba(8, 9, 11, .95); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--jade);
+  transform: translateY(-110%); transition: transform .25s ease;
+}
+.skybar.show { transform: translateY(0); }
+.skybar button {
+  cursor: pointer; background: transparent; border: 1px solid var(--line); color: var(--silver);
+  font-family: var(--mono); font-size: 11px; letter-spacing: .08em; padding: 8px 13px;
+  min-height: 36px; transition: all .15s;
+}
+.skybar button:hover { color: var(--em); border-color: var(--em-dim); }
+.skybar .sky-date {
+  font-family: var(--mono); font-size: 11px; letter-spacing: .1em; color: var(--white);
+  padding: 0 12px; min-width: 150px; text-align: center;
+}
+.skybar .sky-top { margin-left: 10px; border-color: transparent; }
+
+/* ======================= time-of-day group headers ======================= */
+.time-break {
+  grid-column: 1 / -1; display: flex; align-items: center; gap: 12px;
+  padding: 20px var(--pad) 8px; background: var(--bg);
+  font-family: var(--mono); font-size: 10px; letter-spacing: .18em; color: var(--em);
+}
+.time-break::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+
+/* ======================= card / drawer thumbnails ======================= */
+.card-mid { display: flex; gap: 14px; align-items: flex-start; }
+.card-txt { min-width: 0; flex: 1; display: flex; flex-direction: column; gap: 7px; }
+.card-thumb {
+  flex: none; width: 64px; height: 64px; overflow: hidden; position: relative;
+  border: 1px solid var(--line); background: var(--bg-2);
+}
+.card-thumb img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  filter: grayscale(1) contrast(1.02) brightness(.95);
+}
+.card-thumb::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(160deg, rgba(0, 255, 135, .12), rgba(8, 9, 11, .18));
+  pointer-events: none;
+}
+.card:hover .card-thumb img { filter: grayscale(.3) contrast(1.02) brightness(.95); }
+.dr-img {
+  margin: 0 0 14px; border: 1px solid var(--line); overflow: hidden; position: relative;
+  aspect-ratio: 16 / 9; background: var(--bg-2);
+}
+.dr-img img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  filter: grayscale(.6) contrast(1.02) brightness(.9);
+}
+.dr-img::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(160deg, rgba(0, 255, 135, .10), rgba(8, 9, 11, .3));
+  pointer-events: none;
+}
 
 @keyframes cardin { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 

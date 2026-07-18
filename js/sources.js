@@ -25,6 +25,7 @@ function _normalize(e) {
     dateISO: e.dateISO || null,      // one-off events carry a concrete date
     source: e.source || "local",
     sponsor: e.sponsor || null,
+    image: e.image || null,          // optional artwork (duotone-treated in CSS)
   };
 }
 
@@ -70,6 +71,11 @@ async function loadTicketmaster(date) {
         url: ev.url,
         dateISO: ev.dates && ev.dates.start && ev.dates.start.localDate,
         source: "ticketmaster",
+        image: (() => {
+          const imgs = ev.images || [];
+          const good = imgs.find((im) => im.ratio === "16_9" && im.width >= 500 && im.width <= 1200) || imgs[0];
+          return good ? good.url : null;
+        })(),
       });
     });
   } catch (err) {
@@ -116,6 +122,7 @@ async function loadSeatGeek(date) {
       url: ev.url,
       dateISO: ev.datetime_local ? ev.datetime_local.slice(0, 10) : null,
       source: "seatgeek",
+      image: (ev.performers && ev.performers[0] && ev.performers[0].image) || null,
     }));
   } catch (err) {
     console.warn("SeatGeek source unavailable:", err.message);
@@ -212,6 +219,7 @@ function _fromRows(rows, date, source) {
       dateISO: r.date || r.dateISO,
       source,
       sponsor: r.sponsor || null,
+      image: r.image || null,
     }));
 }
 
