@@ -3,135 +3,216 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="RJ Does Dallas — your daily guide to the best things to do across Dallas–Fort Worth. Pick any day and see what's happening: live music, markets, festivals, sports, family fun and more." />
-<meta property="og:title" content="RJ Does Dallas" />
-<meta property="og:description" content="What's happening in Dallas–Fort Worth today? Pick a day and find out." />
+<meta name="description" content="Discover live events, music, pop-ups, and nightlife across Dallas–Fort Worth. Real-time event radar on Lets Do It Dallas." />
+<meta property="og:title" content="Lets Do It Dallas — The Curated Radar for Dallas Culture & Events" />
+<meta property="og:description" content="What's happening in Dallas–Fort Worth tonight? Live music, markets, festivals, sports and nightlife on one radar." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://letsdoitdallas.com/" />
 <link rel="canonical" href="https://letsdoitdallas.com/" />
-<title>RJ Does Dallas — Your daily guide to Dallas–Fort Worth</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤠</text></svg>" />
-<link rel="stylesheet" href="css/styles.css" />
+<title>Things to Do in Dallas–Fort Worth Tonight | Lets Do It Dallas</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%2308090B'/><circle cx='50' cy='42' r='22' fill='none' stroke='%2300FF87' stroke-width='6'/><path d='M50 64 L50 92 M38 92 L50 64 L62 92' stroke='%2300FF87' stroke-width='5' fill='none'/></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/css/styles.css" />
 </head>
 <body>
-<header class="hero">
-  <div class="scene-stage" id="sceneStage"></div>
-  <div class="hero-scrim"></div>
 
-  <div class="wrap hero-content">
-    <div class="topbar">
-      <div class="brand">
-        <div class="logo">🤠</div>
-        <div>
-          <h1 id="brandName">RJ Does Dallas</h1>
-          <p id="brandTag">Your daily guide to Dallas–Fort Worth</p>
-        </div>
-      </div>
-      <div class="header-actions">
-        <button class="btn-ghost" id="faveToggle">♥ Saved (0)</button>
-        <button class="btn-ghost" id="submitEventBtn">+ Submit an event</button>
-      </div>
-    </div>
-
-    <div class="hero-title">
-      <h2 class="display">Every day, something<br/>worth leaving the house for.</h2>
-    </div>
-
-    <div class="controls glass">
-      <div class="datebar">
-        <div class="date-nav">
-          <button id="prevDay" title="Previous day (←)" aria-label="Previous day">‹</button>
-          <span class="date-display" id="dateDisplay">—</span>
-          <button id="nextDay" title="Next day (→)" aria-label="Next day">›</button>
-        </div>
-        <input type="date" id="datePicker" />
-      </div>
-      <div class="searchrow">
-        <div class="quick">
-          <button data-quick="today">Today</button>
-          <button data-quick="tomorrow">Tomorrow</button>
-          <button data-quick="weekend">This Weekend</button>
-        </div>
-        <div class="search">
-          <span>🔎</span>
-          <input id="searchInput" type="text" placeholder="Search activities, venues, neighborhoods…" />
-        </div>
-      </div>
-    </div>
+<!-- ============ LIVE STATUS BAR ============ -->
+<div class="statusbar">
+  <div class="sb-left">
+    <span id="statusClock">DALLAS — —:— CT</span>
+    <span class="sb-div">/</span>
+    <span id="statusWx"></span>
+    <span id="statusLive"></span>
   </div>
+  <div class="sb-right">( LIVE IN DALLAS — EXPLORE TONIGHT )</div>
+</div>
 
-  <div class="scene-meta">
-    <span class="scene-caption" id="sceneCaption"></span>
-    <span class="scene-dots" id="sceneDots"></span>
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <a class="brand" href="/">LETS DO IT <em>DALLAS</em></a>
+  <div class="nav-actions">
+    <button class="btn-ghost" id="faveToggle">♥ SAVED (0)</button>
+    <button class="btn-ghost" id="submitEventBtn">+ SUBMIT AN EVENT</button>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero-copy">
+    <div class="hero-kicker">/ THE CURATED RADAR FOR DALLAS CULTURE &amp; EVENTS</div>
+    <h1>LETS<br/>DO IT<br/>DALLAS</h1>
+    <p class="hero-sub">Pick any day. See everything worth leaving the house for —
+    live music, markets, festivals, sports and nightlife across the whole metroplex.</p>
+    <div class="hero-badge"><i class="pulse"></i>( LIVE IN DALLAS — EXPLORE TONIGHT )</div>
+  </div>
+  <div class="hero-canvas">
+    <canvas id="towerCanvas" aria-label="Rotating wireframe of Reunion Tower"></canvas>
+    <div class="canvas-cap">/ REUNION TOWER — 561 FT · WIREFRAME 01</div>
   </div>
 </header>
 
+<!-- ============ CONSOLE (date / search) ============ -->
+<section class="console">
+  <div class="console-row">
+    <div class="date-nav">
+      <button id="prevDay" title="Previous day (←)" aria-label="Previous day">‹</button>
+      <span class="date-display" id="dateDisplay">—</span>
+      <button id="nextDay" title="Next day (→)" aria-label="Next day">›</button>
+    </div>
+    <input type="date" id="datePicker" />
+    <div class="quick">
+      <button data-quick="today">TONIGHT</button>
+      <button data-quick="tomorrow">TOMORROW</button>
+      <button data-quick="weekend">THIS WEEKEND</button>
+    </div>
+    <div class="search">
+      <span class="s-ico">⌕</span>
+      <input id="searchInput" type="text" placeholder="SEARCH EVENTS / VENUES / DISTRICTS" />
+    </div>
+  </div>
+  <div class="console-row chips-row">
+    <span class="row-label">/ CATEGORY</span>
+    <div class="filters" id="filters"></div>
+  </div>
+  <div class="console-row chips-row">
+    <span class="row-label">/ VIBE</span>
+    <div class="filters" id="vibes"></div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
 <div class="marquee" aria-hidden="true">
   <div class="marquee-track">
-    <span>Live Music ✦ Farmers Markets ✦ Museums ✦ Ballparks ✦ Festivals ✦ Patios ✦ Trails ✦ Honky-Tonks ✦ Food Trucks ✦ Art Walks ✦&nbsp;</span><span>Live Music ✦ Farmers Markets ✦ Museums ✦ Ballparks ✦ Festivals ✦ Patios ✦ Trails ✦ Honky-Tonks ✦ Food Trucks ✦ Art Walks ✦&nbsp;</span>
+    <span>LIVE MUSIC / FARMERS MARKETS / MUSEUMS / BALLPARKS / FESTIVALS / PATIOS / TRAILS / HONKY-TONKS / FOOD TRUCKS / ART WALKS /&nbsp;</span><span>LIVE MUSIC / FARMERS MARKETS / MUSEUMS / BALLPARKS / FESTIVALS / PATIOS / TRAILS / HONKY-TONKS / FOOD TRUCKS / ART WALKS /&nbsp;</span>
   </div>
 </div>
 
-<main class="wrap">
-  <div class="ad-leader">Advertisement · leaderboard (728×90)</div>
-
-  <div class="filters" id="filters"></div>
-
+<!-- ============ EVENT GRID ============ -->
+<main>
   <div class="toolbar">
     <div class="toolbar-left">
-      <button class="toggle" id="freeToggle">🆓 Free only</button>
-      <span class="count" id="count">Loading…</span>
+      <button class="toggle" id="freeToggle">FREE ONLY</button>
+      <span class="count" id="count">LOADING…</span>
     </div>
     <select class="sortsel" id="sort">
-      <option value="time">Sort by time</option>
-      <option value="name">Sort by name</option>
-      <option value="cost">Sort by cost (free first)</option>
+      <option value="time">SORT / TIME</option>
+      <option value="name">SORT / NAME</option>
+      <option value="cost">SORT / COST</option>
     </select>
   </div>
-
+  <div class="ad-leader">ADVERTISEMENT · LEADERBOARD (728×90)</div>
   <div class="grid" id="grid"></div>
 </main>
 
-<section class="newsletter wrap">
-  <h2>🗞️ Get the DFW weekend rundown</h2>
-  <p>One email every Thursday with the best things to do across Dallas–Fort Worth. Free, no spam.</p>
+<!-- ============ BRIDGE DIVIDER ============ -->
+<section class="bridge" id="bridgeDivider" aria-hidden="true">
+  <svg viewBox="0 0 1600 240" preserveAspectRatio="xMidYMid meet">
+    <path class="b-arch" d="M140 210 Q800 -40 1460 210" fill="none"/>
+    <path class="b-cables" d="M340 133 L420 210 M480 92 L540 210 M620 66 L660 210 M760 55 L780 210
+             M800 54 L800 210 M840 55 L820 210 M980 66 L940 210 M1120 92 L1060 210 M1260 133 L1180 210" fill="none"/>
+    <line class="b-deck" x1="60" y1="210" x2="1540" y2="210"/>
+  </svg>
+  <div class="bridge-cap">/ MARGARET HUNT HILL BRIDGE — TRINITY RIVER</div>
+</section>
+
+<!-- ============ DISTRICT RADAR ============ -->
+<section class="radar-section">
+  <div class="sec-head">
+    <span class="idx">(01)</span>
+    <h2>DALLAS RADAR</h2>
+    <span class="sec-note">/ TONIGHT'S SIGNAL BY DISTRICT — CLICK A NODE TO FILTER</span>
+  </div>
+  <div class="radar-split">
+    <div class="radar-mapwrap">
+      <svg id="radarMap" viewBox="0 0 800 520" preserveAspectRatio="xMidYMid meet"></svg>
+      <div class="radar-card" id="radarCard"></div>
+    </div>
+    <div class="radar-list" id="radarList"></div>
+  </div>
+</section>
+
+<!-- ============ ITINERARIES ============ -->
+<section class="itin-section">
+  <div class="sec-head">
+    <span class="idx">(02)</span>
+    <h2>DISTRICT ITINERARIES</h2>
+    <span class="sec-note">/ PRE-BUILT EVENING FLOWS — THREE STOPS, ZERO PLANNING</span>
+  </div>
+  <div class="itin-grid" id="itinGrid"></div>
+</section>
+
+<!-- ============ PRESS WIRE ============ -->
+<section class="wire-section" id="wireSection">
+  <div class="sec-head">
+    <span class="idx">(03)</span>
+    <h2>THE WIRE</h2>
+    <span class="sec-note">/ DFW CULTURE PRESS — ADVOCATE · OBSERVER · DALLAS VOICE · DFWCHILD</span>
+  </div>
+  <div class="wire-list" id="wireList"></div>
+</section>
+
+<!-- ============ NEWSLETTER ============ -->
+<section class="newsletter">
+  <div class="nl-copy">
+    <h2>[ SUBSCRIBE TO THE PULSE ]</h2>
+    <p>/ ONE EMAIL EVERY THURSDAY — THE WEEKEND'S BEST ACROSS DFW. FREE, NO SPAM.</p>
+  </div>
   <form class="nl-form" id="newsletterForm">
-    <input type="email" id="nlEmail" placeholder="you@email.com" required />
-    <button class="btn primary" type="submit">Subscribe</button>
+    <input type="email" id="nlEmail" placeholder="YOU@EMAIL.COM" required />
+    <button class="btn primary" type="submit">SUBSCRIBE</button>
   </form>
 </section>
 
+<!-- ============ FOOTER ============ -->
 <footer>
-  <div class="wrap">
-    <div>© <span id="year"></span> RJ Does Dallas · A community guide to Dallas–Fort Worth happenings.</div>
-    <div>Always confirm times &amp; tickets on the venue's site before heading out.</div>
+  <div class="f-col">
+    <div class="brand">LETS DO IT <em>DALLAS</em></div>
+    <p>The curated radar for Dallas–Fort Worth culture and events. Always confirm times &amp; tickets with the venue before heading out.</p>
+    <p class="f-mono">© <span id="year"></span> LETSDOITDALLAS.COM</p>
+  </div>
+  <div class="f-col">
+    <div class="f-head">/ EXPLORE</div>
+    <a href="/tonight/">Tonight</a>
+    <a href="/this-weekend/">This Weekend</a>
+    <a href="/free-events/">Free Events</a>
+    <a href="/district/deep-ellum/">Deep Ellum</a>
+    <a href="/district/bishop-arts/">Bishop Arts</a>
+    <a href="/district/fort-worth/">Fort Worth</a>
+  </div>
+  <div class="f-col">
+    <div class="f-head">/ CONNECT</div>
+    <a href="mailto:richard.jenkins@student.uagc.edu">Advertise with us</a>
+    <a href="#" onclick="document.getElementById('submitEventBtn').click();return false;">Submit an event</a>
+    <a href="https://github.com/skilletcheek/skilletcheek.github.io" target="_blank" rel="noopener">Source</a>
   </div>
 </footer>
 
-<!-- Event detail modal -->
-<div class="modal" id="modal">
+<!-- ============ EVENT DRAWER ============ -->
+<div class="modal drawer" id="modal">
   <div class="modal-panel">
     <button class="modal-close" id="modalClose" aria-label="Close">×</button>
     <div id="modalBody"></div>
   </div>
 </div>
 
-<!-- Submit-an-event modal -->
-<div class="modal" id="submitModal">
+<!-- ============ SUBMIT MODAL ============ -->
+<div class="modal center" id="submitModal">
   <div class="modal-panel">
     <button class="modal-close" id="submitClose" aria-label="Close">×</button>
-    <h2>Submit an event</h2>
-    <p class="modal-meta">Have something happening in DFW? Tell us and we'll consider it for the calendar.</p>
+    <h2>SUBMIT AN EVENT</h2>
+    <p class="dr-meta">/ HAVE SOMETHING HAPPENING IN DFW? TELL US.</p>
     <form id="submitForm">
-      <label>Event name</label>
+      <label>EVENT NAME</label>
       <input name="name" required />
       <div class="form-grid">
-        <div><label>Date</label><input name="date" type="date" required /></div>
-        <div><label>Time</label><input name="time" placeholder="7:00 PM" /></div>
-        <div><label>Neighborhood / city</label><input name="area" placeholder="Deep Ellum, Dallas" /></div>
-        <div><label>Cost (USD, 0 = free)</label><input name="cost" type="number" min="0" /></div>
+        <div><label>DATE</label><input name="date" type="date" required /></div>
+        <div><label>TIME</label><input name="time" placeholder="7:00 PM" /></div>
+        <div><label>NEIGHBORHOOD / CITY</label><input name="area" placeholder="Deep Ellum, Dallas" /></div>
+        <div><label>COST (USD, 0 = FREE)</label><input name="cost" type="number" min="0" /></div>
       </div>
-      <label>Category</label>
+      <label>CATEGORY</label>
       <select name="category">
         <option value="music">Live Music</option>
         <option value="food">Food &amp; Drink</option>
@@ -143,22 +224,23 @@
         <option value="nightlife">Nightlife</option>
         <option value="festival">Festivals</option>
       </select>
-      <label>Link (tickets or info)</label>
+      <label>LINK (TICKETS OR INFO)</label>
       <input name="url" type="url" placeholder="https://…" />
-      <label>Short description</label>
+      <label>SHORT DESCRIPTION</label>
       <textarea name="description" rows="3"></textarea>
-      <div class="upsell">✨ <strong>Want the spotlight?</strong> Featured &amp; sponsored placements pin your event to the top with a gold badge. Ask about promoted listings after you submit.</div>
+      <div class="upsell">★ <strong>WANT THE SPOTLIGHT?</strong> Featured placements pin your event to the top of the radar with emerald edge-light. Ask about promoted listings after you submit.</div>
       <div class="modal-actions">
-        <button class="btn primary" type="submit">Submit event</button>
+        <button class="btn primary" type="submit">SUBMIT EVENT</button>
       </div>
     </form>
   </div>
 </div>
 
-<script src="js/data.js"></script>
-<script src="js/sources.js"></script>
-<script src="js/scenes.js"></script>
-<script src="js/app.js"></script>
+<script src="/js/data.js"></script>
+<script src="/js/sources.js"></script>
+<script src="/js/tower.js"></script>
+<script src="/js/radar.js"></script>
+<script src="/js/app.js"></script>
 <script>
   if (typeof CONFIG !== "undefined" && CONFIG.adsEnabled) document.body.classList.add("ads");
 </script>

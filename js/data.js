@@ -209,3 +209,47 @@ const ACTIVITIES = [
     desc: "Indoor LEGO play zones, rides and a 4D cinema at Grapevine Mills.",
     url: "https://legolanddiscoverycenter.com/dallas-fort-worth" },
 ];
+
+/* ---- DISTRICTS (radar map + hub pages) ----------------------------------
+   Approximate positions on the 800x520 radar canvas; `match` strings are
+   tested against each event's `area` (lowercased). Additive config only —
+   event content above is untouched. ------------------------------------- */
+const DISTRICTS = [
+  { slug: "downtown-dallas",  label: "Downtown Dallas",   x: 588, y: 318, match: ["downtown dallas", "victory park"] },
+  { slug: "deep-ellum",       label: "Deep Ellum",        x: 626, y: 322, match: ["deep ellum"] },
+  { slug: "arts-district",    label: "Arts District",     x: 598, y: 300, match: ["arts district"] },
+  { slug: "uptown",           label: "Uptown",            x: 578, y: 288, match: ["uptown"] },
+  { slug: "bishop-arts",      label: "Bishop Arts",       x: 562, y: 356, match: ["oak cliff", "bishop arts"] },
+  { slug: "design-district",  label: "Design District",   x: 552, y: 300, match: ["design district"] },
+  { slug: "lower-greenville", label: "Lower Greenville",  x: 614, y: 280, match: ["lower greenville", "east dallas"] },
+  { slug: "fort-worth",       label: "Fort Worth",        x: 150, y: 318, match: ["fort worth", "southside"] },
+  { slug: "stockyards",       label: "The Stockyards",    x: 142, y: 258, match: ["stockyards"] },
+  { slug: "arlington",        label: "Arlington",         x: 330, y: 352, match: ["arlington"] },
+  { slug: "grapevine",        label: "Grapevine",         x: 356, y: 190, match: ["grapevine"] },
+  { slug: "irving",           label: "Irving",            x: 440, y: 272, match: ["irving", "las colinas"] },
+  { slug: "frisco",           label: "Frisco",            x: 560, y: 96,  match: ["frisco"] },
+  { slug: "plano",            label: "Plano",             x: 610, y: 150, match: ["plano", "coppell", "addison", "richardson", "northwest dallas"] },
+  { slug: "mckinney",         label: "McKinney",          x: 676, y: 78,  match: ["mckinney", "allen"] },
+];
+
+/* ---- CURATED DISTRICT ITINERARIES (numbered evening flows) ------------- */
+const ITINERARIES = [
+  { district: "Deep Ellum", title: "The Deep Ellum Night",
+    steps: [
+      { time: "6:30 PM", title: "Dinner on Main Street", note: "Pick a patio among the murals — walkable blocks of indie kitchens." },
+      { time: "8:00 PM", title: "Live jazz at Sandaga 813", note: "Thursday sessions in the arts corridor (see listing for other nights)." },
+      { time: "10:00 PM", title: "Venue-hop the crawl", note: "Dozens of stages, breweries and neon rooms within a few blocks." },
+    ] },
+  { district: "Bishop Arts", title: "The Oak Cliff Evening",
+    steps: [
+      { time: "5:30 PM", title: "Bishop Arts food stroll", note: "Bakeries, taquerias and patios in North Oak Cliff." },
+      { time: "7:45 PM", title: "Sunset on the Hunt Hill Bridge", note: "Skyline gold hour over the Trinity — bring a camera." },
+      { time: "9:30 PM", title: "Dessert + a nightcap", note: "Back to the district for pie and a quiet patio finish." },
+    ] },
+  { district: "Fort Worth", title: "The Cowtown Classic",
+    steps: [
+      { time: "4:00 PM", title: "Stockyards cattle drive", note: "The daily longhorn drive down Exchange Avenue — free to watch." },
+      { time: "6:00 PM", title: "Taproom hour at Rahr & Sons", note: "Fort Worth's original craft brewery, Near Southside." },
+      { time: "8:00 PM", title: "Billy Bob's Texas", note: "Live country and bull riding at the world's largest honky-tonk." },
+    ] },
+];

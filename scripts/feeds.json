@@ -1,5 +1,11 @@
 {
-  "_readme": "Add any public iCal/ICS calendar feed here and the nightly fetcher will pull its events. Many venue, church, city, and library calendars offer an 'Export/Subscribe to calendar (.ics)' link — paste that URL below. 'category' must be one of: music, food, arts, outdoors, sports, family, market, nightlife, festival.",
+  "_readme": "ics_feeds: any public iCal/ICS calendar feed (venue, city, church, library — look for a 'Subscribe/Export .ics' link); events land in live-events.json nightly. category must be one of: music, food, arts, outdoors, sports, family, market, nightlife, festival. rss_feeds: DFW publication article feeds shown in the site's press wire (headlines, not event rows). CultureMap Dallas and Visit Dallas publish no machine-readable feeds as of 2026-07; their events can arrive via the Google Sheet or any ICS they add later.",
   "ics_feeds": [
+  ],
+  "rss_feeds": [
+    { "url": "https://lakewood.advocatemag.com/feed/", "source": "THE ADVOCATE" },
+    { "url": "https://www.dallasobserver.com/dallas/Rss.xml", "source": "DALLAS OBSERVER" },
+    { "url": "https://dallasvoice.com/feed/", "source": "DALLAS VOICE" },
+    { "url": "https://www.dfwchild.com/feed/", "source": "DFWCHILD" }
   ]
 }

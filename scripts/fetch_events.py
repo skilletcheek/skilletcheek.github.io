@@ -28,9 +28,30 @@ ROOT = Path(__file__).resolve().parent.parent
 FEEDS_FILE = Path(__file__).resolve().parent / "feeds.json"
 OUT_FILE = ROOT / "live-events.json"
 
-GEO = {"lat": 32.7767, "lng": -96.7970, "radius_miles": 40}
+GEO = {"lat": 32.7767, "lng": -96.7970, "radius_miles": 50}  # 50mi covers the DFW suburbs
 DAYS_AHEAD = 30
 UA = "rj-does-dallas-fetcher/1.0 (+https://letsdoitdallas.com)"
+SITE = "https://letsdoitdallas.com"
+PRESS_FILE = ROOT / "press.json"
+
+# Keep in sync with DISTRICTS in js/data.js (slug, label, match substrings)
+DISTRICTS = [
+    ("downtown-dallas", "Downtown Dallas", ["downtown dallas", "victory park"]),
+    ("deep-ellum", "Deep Ellum", ["deep ellum"]),
+    ("arts-district", "Arts District", ["arts district"]),
+    ("uptown", "Uptown", ["uptown"]),
+    ("bishop-arts", "Bishop Arts", ["oak cliff", "bishop arts"]),
+    ("design-district", "Design District", ["design district"]),
+    ("lower-greenville", "Lower Greenville", ["lower greenville", "east dallas"]),
+    ("fort-worth", "Fort Worth", ["fort worth", "southside"]),
+    ("stockyards", "The Stockyards", ["stockyards"]),
+    ("arlington", "Arlington", ["arlington"]),
+    ("grapevine", "Grapevine", ["grapevine"]),
+    ("irving", "Irving", ["irving", "las colinas"]),
+    ("frisco", "Frisco", ["frisco"]),
+    ("plano", "Plano", ["plano", "coppell", "addison", "richardson", "northwest dallas"]),
+    ("mckinney", "McKinney", ["mckinney", "allen"]),
+]
 
 
 def http_json(url: str, headers: dict | None = None):
@@ -234,6 +255,150 @@ def fetch_ics_feeds(start, end):
     return out
 
 
+# ----------------------------------------------------------------- press wire
+def _strip_cdata(s: str) -> str:
+    import html as _html
+    s = re.sub(r"<!\[CDATA\[(.*?)\]\]>", r"\1", s, flags=re.S)
+    s = re.sub(r"<[^>]+>", "", s)
+    return _html.unescape(s).strip()
+
+
+def fetch_press():
+    """Latest culture headlines from DFW publication RSS feeds -> press.json."""
+    if not FEEDS_FILE.exists():
+        return []
+    try:
+        feeds = json.loads(FEEDS_FILE.read_text()).get("rss_feeds", [])
+    except Exception:  # noqa: BLE001
+        return []
+    items = []
+    for feed in feeds:
+        url, source = feed.get("url"), feed.get("source", "PRESS")
+        if not url:
+            continue
+        try:
+            xml = http_text(url)
+        except Exception as e:  # noqa: BLE001
+            print(f"rss failed ({source}): {e}", file=sys.stderr)
+            continue
+        got = 0
+        for m in re.finditer(r"<item>(.*?)</item>", xml, flags=re.S):
+            block = m.group(1)
+            t = re.search(r"<title>(.*?)</title>", block, flags=re.S)
+            l = re.search(r"<link>(.*?)</link>", block, flags=re.S)
+            if not t or not l:
+                continue
+            items.append({"title": _strip_cdata(t.group(1))[:140],
+                          "url": _strip_cdata(l.group(1)),
+                          "source": source})
+            got += 1
+            if got >= 3:
+                break
+        print(f"rss ({source}): {got} headlines")
+    return items[:12]
+
+
+# ----------------------------------------------------------- hub page builder
+def _slugify_matches(area: str):
+    a = (area or "").lower()
+    for slug, _label, match in DISTRICTS:
+        if any(m in a for m in match):
+            return slug
+    return None
+
+
+def _jsonld(events):
+    out = []
+    for i, e in enumerate(events[:30]):
+        t = re.match(r"(\d{1,2}):(\d{2})\s*(AM|PM)", e.get("time") or "")
+        start = e["date"]
+        if t:
+            h = int(t.group(1)) % 12 + (12 if t.group(3) == "PM" else 0)
+            start = f"{e['date']}T{h:02d}:{t.group(2)}:00-05:00"
+        item = {"@type": "Event", "name": e["name"], "startDate": start,
+                "eventStatus": "https://schema.org/EventScheduled",
+                "location": {"@type": "Place", "name": e["area"],
+                             "address": {"@type": "PostalAddress", "addressRegion": "TX",
+                                         "addressLocality": e["area"]}},
+                "url": e["url"] if e["url"] != "#" else SITE}
+        if e.get("description"):
+            item["description"] = e["description"]
+        if e.get("cost") is not None:
+            item["offers"] = {"@type": "Offer", "price": e["cost"], "priceCurrency": "USD"}
+        out.append({"@type": "ListItem", "position": i + 1, "item": item})
+    return json.dumps({"@context": "https://schema.org", "@type": "ItemList", "itemListElement": out})
+
+
+def _hub_html(title, desc, canonical, events, app_link, heading, note):
+    rows = "\n".join(
+        f'<li><a href="{e["url"]}" rel="noopener"><strong>{e["name"]}</strong></a> '
+        f'<span>/ {e["date"]} · {e["time"]} · {e["area"]}</span></li>'
+        for e in events[:60]) or "<li>Fresh listings load nightly — check the live radar.</li>"
+    return f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>{title}</title>
+<meta name="description" content="{desc}"/>
+<link rel="canonical" href="{canonical}"/>
+<script type="application/ld+json">{_jsonld(events)}</script>
+<style>
+body{{background:#08090B;color:#8A909E;font:15px/1.6 Inter,-apple-system,sans-serif;margin:0;padding:40px 6vw}}
+h1{{color:#fff;font-size:2rem;letter-spacing:.01em}}a{{color:#00FF87;text-decoration:none}}
+.k{{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.12em;color:#00FF87}}
+ul{{list-style:none;padding:0}}li{{padding:12px 0;border-bottom:1px solid #191C22}}
+li span{{display:block;font-family:ui-monospace,monospace;font-size:11px;color:#8A909E}}
+.cta{{display:inline-block;margin:18px 0;border:1px solid #0E3A2F;padding:12px 18px}}
+</style></head><body>
+<p class="k">/ LETS DO IT DALLAS — {note}</p>
+<h1>{heading}</h1>
+<a class="cta" href="{app_link}">( OPEN THE LIVE RADAR ↗ )</a>
+<ul>{rows}</ul>
+<p><a href="/">← letsdoitdallas.com</a></p>
+</body></html>"""
+
+
+def write_hubs(events):
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    pages = []
+
+    def emit(path, title, desc, evs, app_link, heading, note):
+        d = ROOT / path
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(_hub_html(title, desc, f"{SITE}/{path}/", evs, app_link, heading, note))
+        pages.append(f"{SITE}/{path}/")
+
+    tonight = [e for e in events if e["date"] == today]
+    emit("tonight", "Things to Do in Dallas–Fort Worth Tonight | Lets Do It Dallas",
+         "Tonight's live events, music, pop-ups, and nightlife across DFW. Real-time event radar on Lets Do It Dallas.",
+         tonight, "/?view=tonight", "TONIGHT IN DALLAS–FORT WORTH", "TIME HUB")
+
+    now = datetime.now(timezone.utc)
+    sat = now + timedelta(days=(5 - now.weekday()) % 7)
+    wknd = {sat.strftime("%Y-%m-%d"), (sat + timedelta(days=1)).strftime("%Y-%m-%d")}
+    emit("this-weekend", "Things to Do in DFW This Weekend | Lets Do It Dallas",
+         "This weekend's events, festivals, markets and shows across Dallas–Fort Worth.",
+         [e for e in events if e["date"] in wknd], "/?view=weekend", "THIS WEEKEND IN DFW", "TIME HUB")
+
+    emit("free-events", "Free Things to Do in Dallas–Fort Worth | Lets Do It Dallas",
+         "Free events, free museums, free live music and markets across DFW.",
+         [e for e in events if e.get("cost") == 0], "/?free=1", "FREE IN DFW", "COST HUB")
+
+    for slug, label, _match in DISTRICTS:
+        evs = [e for e in events if _slugify_matches(e["area"]) == slug]
+        emit(f"district/{slug}", f"Things to Do in {label} | Lets Do It Dallas",
+             f"Live events, music, and nightlife in {label} — part of the Lets Do It Dallas real-time event radar.",
+             evs, f"/?district={slug}", label.upper(), "DISTRICT HUB")
+
+    sitemap = "\n".join(
+        f"<url><loc>{u}</loc><lastmod>{today}</lastmod></url>"
+        for u in [SITE + "/"] + pages)
+    (ROOT / "sitemap.xml").write_text(
+        f'<?xml version="1.0" encoding="UTF-8"?>\n'
+        f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{sitemap}\n</urlset>\n')
+    (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
+    print(f"wrote {len(pages)} hub pages + sitemap.xml + robots.txt")
+
+
 # ------------------------------------------------------------------------ main
 def main():
     now = datetime.now(timezone.utc)
@@ -257,6 +422,9 @@ def main():
 
     OUT_FILE.write_text(json.dumps(unique, indent=1, ensure_ascii=False) + "\n")
     print(f"wrote {len(unique)} events -> {OUT_FILE.name}")
+
+    PRESS_FILE.write_text(json.dumps(fetch_press(), indent=1, ensure_ascii=False) + "\n")
+    write_hubs(unique)
 
 
 if __name__ == "__main__":

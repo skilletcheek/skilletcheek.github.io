@@ -1,8 +1,12 @@
 /* =========================================================================
- *  RJ Does Dallas — application logic
+ *  Lets Do It Dallas — application logic
+ *  All original functionality (recurrence engine, sources, filters, faves,
+ *  calendar export, forms, sponsored pinning) is preserved; this build adds
+ *  the status bar, vibe filters, district radar wiring, live-now detection,
+ *  JSON-LD injection, dynamic meta, URL params and the slide-out drawer.
  *  ========================================================================= */
 
-/* ---- recurrence engine (for curated + sponsored) ----------------------- */
+/* ---- recurrence engine (curated + sponsored) ---------------------------- */
 function _mmdd(d) {
   return String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
 }
@@ -26,10 +30,12 @@ function happensOn(activity, date) {
   return false;
 }
 
-/* ---- state ------------------------------------------------------------- */
+/* ---- state -------------------------------------------------------------- */
 const state = {
   date: new Date(),
   activeCats: new Set(),
+  vibes: new Set(),
+  district: null,
   search: "",
   sort: "time",
   freeOnly: false,
@@ -42,12 +48,12 @@ const state = {
 const el = (id) => document.getElementById(id);
 const uid = (a) => `${a.name}|${a.area}`.toLowerCase().replace(/\s+/g, "-");
 
-/* ---- date helpers ------------------------------------------------------ */
+/* ---- date/time helpers --------------------------------------------------- */
 function fmtDate(d) {
   return d.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
 }
-function fmtShort(d) {
-  return d.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
+function fmtMono(d) {
+  return d.toLocaleDateString("en-US", { month: "short", day: "2-digit" }).toUpperCase();
 }
 function isoDate(d) {
   return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
@@ -62,8 +68,41 @@ function parseTimeToMinutes(t) {
   if (ap === "AM" && h === 12) h = 0;
   return h * 60 + min;
 }
+function timeRange(t) {
+  const parts = String(t).split(/[–—-]/);
+  const start = parseTimeToMinutes(parts[0]);
+  let end = parts[1] ? parseTimeToMinutes(parts[1]) : start + 150;
+  if (/late/i.test(t)) end = 26 * 60;
+  if (end < start) end += 24 * 60;           // ranges crossing midnight
+  return [start, end];
+}
+function isToday(d) {
+  const n = new Date();
+  return d.getFullYear() === n.getFullYear() && d.getMonth() === n.getMonth() && d.getDate() === n.getDate();
+}
+function nowMins() { const n = new Date(); return n.getHours() * 60 + n.getMinutes(); }
 
-/* ---- data assembly ----------------------------------------------------- */
+function isLiveNow(a) {
+  if (!isToday(state.date)) return false;
+  if (parseTimeToMinutes(a.time) >= 24 * 60) return false;
+  const [s, e] = timeRange(a.time);
+  const n = nowMins();
+  return (n >= s && n <= e) || (n + 24 * 60 >= s && n + 24 * 60 <= e);
+}
+
+/* ---- vibes (derived from existing fields only) --------------------------- */
+const VIBES = {
+  "chill":      { label: "CHILL & ACOUSTIC", test: (a) => ["arts", "outdoors", "market"].includes(a.cat) || /jazz|acoustic|garden|trail|museum|story|stroll/i.test(a.name + " " + (a.desc || "")) },
+  "high":       { label: "HIGH ENERGY", test: (a) => ["sports", "nightlife", "festival"].includes(a.cat) || /crawl|rodeo|honky|concert|country/i.test(a.name + " " + (a.desc || "")) },
+  "late":       { label: "LATE NIGHT", test: (a) => parseTimeToMinutes(a.time) >= 21 * 60 || /late|midnight|2:00 AM/i.test(a.time) },
+  "date":       { label: "FIRST DATE APPROVED", test: (a) => ["arts", "food", "music"].includes(a.cat) && (a.cost == null || a.cost <= 30) },
+  "solo":       { label: "SOLO EXPLORER", test: (a) => ["arts", "outdoors", "market"].includes(a.cat) },
+  "group":      { label: "GROUP OUTING", test: (a) => ["sports", "nightlife", "festival", "food"].includes(a.cat) },
+  "next2h":     { label: "IN NEXT 2 HOURS", test: (a) => { if (!isToday(state.date)) return false; const s = parseTimeToMinutes(a.time); const n = nowMins(); return s >= n && s <= n + 120; } },
+  "gems":       { label: "HIDDEN GEMS", test: (a) => ["curated", "json", "sheet", "sponsored"].includes(a.source) && (a.cost == null || a.cost <= 15) },
+};
+
+/* ---- data assembly ------------------------------------------------------- */
 function sponsoredForDate(date) {
   const iso = isoDate(date);
   return SPONSORED
@@ -74,10 +113,8 @@ function sponsoredForDate(date) {
 
 function baseListForDate(date) {
   const curated = ACTIVITIES.filter((a) => happensOn(a, date)).map((a) => ({ ...a, source: "curated" }));
-  const live = state.live.slice();
-  // de-dupe live against curated by name similarity
   const seen = new Set(curated.map((c) => c.name.toLowerCase()));
-  const liveClean = live.filter((l) => !seen.has((l.name || "").toLowerCase()));
+  const liveClean = state.live.filter((l) => !seen.has((l.name || "").toLowerCase()));
   return [...curated, ...liveClean];
 }
 
@@ -85,6 +122,8 @@ function applyFilters(list) {
   const q = state.search.trim().toLowerCase();
   let out = list.slice();
   if (state.activeCats.size) out = out.filter((a) => state.activeCats.has(a.cat));
+  if (state.district) out = out.filter((a) => RADAR.districtOf(a) === state.district);
+  for (const v of state.vibes) out = out.filter((a) => VIBES[v].test(a));
   if (state.freeOnly) out = out.filter((a) => a.cost === 0);
   if (state.favesOnly) out = out.filter((a) => state.faves.has(uid(a)));
   if (q) out = out.filter((a) =>
@@ -97,54 +136,73 @@ function applyFilters(list) {
   return out;
 }
 
-/* ---- rendering --------------------------------------------------------- */
+/* ---- filter bars --------------------------------------------------------- */
 function buildFilters() {
   const box = el("filters");
   box.innerHTML = "";
-  const mk = (label, active, onclick, dot) => {
+  const mk = (label, active, onclick) => {
     const c = document.createElement("button");
     c.className = "chip" + (active ? " active" : "");
-    c.innerHTML = (dot ? `<span class="dot" style="background:${dot}"></span>` : "") + label;
+    c.textContent = label;
     c.onclick = onclick;
     return c;
   };
-  box.appendChild(mk("All", state.activeCats.size === 0, () => { state.activeCats.clear(); render(); }));
+  box.appendChild(mk("ALL", state.activeCats.size === 0, () => { state.activeCats.clear(); render(); }));
   for (const [key, c] of Object.entries(CATEGORIES)) {
-    box.appendChild(mk(`${c.emoji} ${c.label}`, state.activeCats.has(key), () => {
+    box.appendChild(mk(c.label.toUpperCase(), state.activeCats.has(key), () => {
       state.activeCats.has(key) ? state.activeCats.delete(key) : state.activeCats.add(key);
       render();
-    }, c.color));
+    }));
+  }
+}
+function buildVibes() {
+  const box = el("vibes");
+  if (!box) return;
+  box.innerHTML = "";
+  for (const [key, v] of Object.entries(VIBES)) {
+    const c = document.createElement("button");
+    c.className = "chip vibe" + (state.vibes.has(key) ? " active" : "");
+    c.textContent = "/ " + v.label;
+    c.onclick = () => {
+      state.vibes.has(key) ? state.vibes.delete(key) : state.vibes.add(key);
+      render();
+    };
+    box.appendChild(c);
   }
 }
 
+/* ---- cards --------------------------------------------------------------- */
 function costBadge(a) {
-  if (a.cost === 0) return `<span class="badge free">Free</span>`;
-  if (a.cost == null) return `<span class="badge">Ticketed</span>`;
+  if (a.cost === 0) return `<span class="badge free">FREE</span>`;
+  if (a.cost == null) return `<span class="badge">TICKETED</span>`;
   return `<span class="badge">$${a.cost}${a.cost >= 25 ? "+" : ""}</span>`;
 }
 
 function cardHtml(a, i) {
-  const c = CATEGORIES[a.cat] || { label: "Event", color: "#4f8cff" };
+  const c = CATEGORIES[a.cat] || { label: "Event" };
   const fav = state.faves.has(uid(a));
   const sponsored = a.source === "sponsored" || a.sponsor;
-  const liveTag = (a.source === "ticketmaster" || a.source === "seatgeek" || a.source === "predicthq")
-    ? `<span class="src">● live</span>` : "";
+  const live = isLiveNow(a);
+  const districtSlug = RADAR.districtOf(a);
+  const dLabel = districtSlug ? (DISTRICTS.find((d) => d.slug === districtSlug) || {}).label : null;
   return `
     <article class="card ${sponsored ? "sponsored" : ""}" data-id="${uid(a)}"
-             style="--d:${Math.min((i || 0) * 45, 450)}ms">
-      ${sponsored ? `<div class="sponsor-ribbon">★ Sponsored${a.sponsor && a.sponsor !== "Sponsored" ? " · " + a.sponsor : ""}</div>` : ""}
-      <div class="top">
-        <h3>${a.name}</h3>
-        <span class="cat-tag" style="background:${c.color}">${c.label}</span>
+             style="--d:${Math.min((i || 0) * 40, 400)}ms">
+      <div class="card-toprow">
+        <span class="idx">(${String((i || 0) + 1).padStart(2, "0")})</span>
+        <span class="tag">/ ${c.label.toUpperCase()}</span>
+        ${live ? `<span class="live-ring" title="Happening now"><i></i>LIVE</span>` : ""}
+        ${sponsored ? `<span class="spon">★ SPONSORED</span>` : ""}
       </div>
-      <div class="time">🕒 ${a.time} ${liveTag}</div>
-      <div class="where">📍 ${a.area}</div>
-      <div class="desc">${a.desc || ""}</div>
-      <div class="foot">
+      <h3>${a.name}</h3>
+      <div class="meta">/ ${fmtMono(state.date)} · ${String(a.time).toUpperCase()}</div>
+      <div class="meta">/ ${(dLabel || a.area || "DFW").toUpperCase()}</div>
+      <p class="desc">${a.desc || ""}</p>
+      <div class="card-foot">
         ${costBadge(a)}
         <div class="foot-actions">
-          <button class="icon-btn fav ${fav ? "on" : ""}" title="Save" data-act="fav">${fav ? "♥" : "♡"}</button>
-          <button class="icon-btn" title="Details" data-act="open">Details</button>
+          <button class="icon-btn fav ${fav ? "on" : ""}" data-act="fav" title="Save">${fav ? "♥" : "♡"}</button>
+          <button class="icon-btn" data-act="open">DETAILS</button>
         </div>
       </div>
     </article>`;
@@ -152,58 +210,64 @@ function cardHtml(a, i) {
 
 function adCardHtml() {
   if (!CONFIG.adsEnabled) return "";
-  return `<article class="card ad-card"><div class="ad-label">Advertisement</div>
+  return `<article class="card ad-card"><div class="ad-label">ADVERTISEMENT</div>
     <div class="ad-slot">Your 300×250 ad here</div></article>`;
 }
 
+/* ---- render -------------------------------------------------------------- */
 function render() {
   el("dateDisplay").textContent = fmtDate(state.date);
   el("datePicker").value = isoDate(state.date);
   buildFilters();
+  buildVibes();
   updateQuickButtons();
   el("freeToggle").classList.toggle("active", state.freeOnly);
   el("faveToggle").classList.toggle("active", state.favesOnly);
-  el("faveToggle").textContent = `♥ Saved (${state.faves.size})`;
+  el("faveToggle").textContent = `♥ SAVED (${state.faves.size})`;
 
   const sponsored = sponsoredForDate(state.date);
   const base = applyFilters(baseListForDate(state.date));
-  // sponsored always pinned on top, not duplicated
   const sponsoredIds = new Set(sponsored.map(uid));
   const list = [...sponsored.filter((s) => {
       if (state.activeCats.size && !state.activeCats.has(s.cat)) return false;
       if (state.freeOnly && s.cost !== 0) return false;
+      if (state.district && RADAR.districtOf(s) !== state.district) return false;
       return true;
     }), ...base.filter((b) => !sponsoredIds.has(uid(b)))];
 
   const total = list.length;
   el("count").innerHTML = state.loadingLive
-    ? `${total} ${total === 1 ? "activity" : "activities"} · <span class="live-loading">checking live events…</span>`
-    : `${total} ${total === 1 ? "activity" : "activities"} on ${fmtDate(state.date)}`;
+    ? `${total} LISTED · <span class="live-loading">SYNCING LIVE FEEDS…</span>`
+    : `${total} ${total === 1 ? "EVENT" : "EVENTS"} — ${fmtDate(state.date).toUpperCase()}${state.district ? " / " + state.district.replace(/-/g, " ").toUpperCase() : ""}`;
 
   const grid = el("grid");
   if (!total) {
     grid.innerHTML = `<div class="empty" style="grid-column:1/-1">
-      <div class="big">🗺️</div><div><strong>Nothing matches yet.</strong></div>
+      <div><strong>NO SIGNALS ON THIS FREQUENCY.</strong></div>
       <div>Try another date, clear filters, or widen your search.</div></div>`;
-    return;
+  } else {
+    let html = "";
+    list.forEach((a, i) => {
+      html += cardHtml(a, i);
+      if (CONFIG.adsEnabled && i === 5) html += adCardHtml();
+    });
+    grid.innerHTML = html;
+    grid.querySelectorAll(".card").forEach((cardEl) => {
+      const id = cardEl.dataset.id;
+      const item = list.find((x) => uid(x) === id);
+      if (!item) return;
+      const favBtn = cardEl.querySelector('[data-act="fav"]');
+      const openBtn = cardEl.querySelector('[data-act="open"]');
+      if (favBtn) favBtn.onclick = (e) => { e.stopPropagation(); toggleFav(item); };
+      if (openBtn) openBtn.onclick = (e) => { e.stopPropagation(); openDrawer(item); };
+      cardEl.onclick = () => openDrawer(item);
+    });
   }
-  let html = "";
-  list.forEach((a, i) => {
-    html += cardHtml(a, i);
-    if (CONFIG.adsEnabled && i === 5) html += adCardHtml(); // one native ad slot after row 2
-  });
-  grid.innerHTML = html;
 
-  grid.querySelectorAll(".card").forEach((cardEl) => {
-    const id = cardEl.dataset.id;
-    const item = list.find((x) => uid(x) === id);
-    if (!item) return;
-    const favBtn = cardEl.querySelector('[data-act="fav"]');
-    const openBtn = cardEl.querySelector('[data-act="open"]');
-    if (favBtn) favBtn.onclick = (e) => { e.stopPropagation(); toggleFav(item); };
-    if (openBtn) openBtn.onclick = (e) => { e.stopPropagation(); openModal(item); };
-    cardEl.onclick = () => openModal(item);
-  });
+  RADAR.update(baseListForDate(state.date).concat(sponsored));
+  updateStatusCount();
+  updateSeo(list);
+  syncUrl();
 }
 
 function updateQuickButtons() {
@@ -218,7 +282,103 @@ function updateQuickButtons() {
   });
 }
 
-/* ---- favorites --------------------------------------------------------- */
+/* ---- SEO: dynamic meta + JSON-LD ----------------------------------------- */
+function updateSeo(list) {
+  const where = state.district
+    ? state.district.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
+    : "Dallas–Fort Worth";
+  const when = isToday(state.date) ? "Tonight" : fmtDate(state.date);
+  document.title = `Things to Do in ${where} ${when} | Lets Do It Dallas`;
+  const md = document.querySelector('meta[name="description"]');
+  if (md) md.setAttribute("content",
+    `Discover live events, music, pop-ups, and nightlife in ${where} for ${fmtDate(state.date)}. Real-time event radar on Lets Do It Dallas.`);
+
+  let tag = el("jsonld");
+  if (!tag) {
+    tag = document.createElement("script");
+    tag.type = "application/ld+json"; tag.id = "jsonld";
+    document.head.appendChild(tag);
+  }
+  const iso = isoDate(state.date);
+  const events = list.slice(0, 30).filter((a) => a.url && a.url !== "#" && a.url !== "#advertise").map((a) => {
+    const startMins = parseTimeToMinutes(a.time);
+    const hh = String(Math.floor(startMins / 60) % 24).padStart(2, "0");
+    const mm = String(startMins % 60).padStart(2, "0");
+    return {
+      "@type": "Event",
+      name: a.name,
+      startDate: startMins < 24 * 60 ? `${iso}T${hh}:${mm}:00-05:00` : iso,
+      eventStatus: "https://schema.org/EventScheduled",
+      eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+      location: { "@type": "Place", name: a.area, address: { "@type": "PostalAddress", addressRegion: "TX", addressLocality: a.area } },
+      description: a.desc || undefined,
+      url: a.url,
+      organizer: { "@type": "Organization", name: a.sponsor || a.area },
+      offers: a.cost != null ? { "@type": "Offer", price: a.cost, priceCurrency: "USD", url: a.url } : undefined,
+    };
+  });
+  tag.textContent = JSON.stringify({ "@context": "https://schema.org", "@type": "ItemList",
+    itemListElement: events.map((e, i) => ({ "@type": "ListItem", position: i + 1, item: e })) });
+}
+
+function syncUrl() {
+  const p = new URLSearchParams();
+  if (!isToday(state.date)) p.set("date", isoDate(state.date));
+  if (state.district) p.set("district", state.district);
+  if (state.activeCats.size) p.set("cat", [...state.activeCats].join(","));
+  if (state.freeOnly) p.set("free", "1");
+  const qs = p.toString();
+  history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+}
+
+function readUrl() {
+  const p = new URLSearchParams(location.search);
+  const d = p.get("date");
+  if (d && /^\d{4}-\d{2}-\d{2}$/.test(d)) {
+    const [y, m, dd] = d.split("-").map(Number);
+    state.date = new Date(y, m - 1, dd);
+  }
+  const view = p.get("view");
+  if (view === "weekend") state.date = nextWeekend(new Date());
+  if (view === "tonight") state.date = new Date();
+  if (p.get("free") === "1") state.freeOnly = true;
+  const cat = p.get("cat");
+  if (cat) cat.split(",").forEach((c) => CATEGORIES[c] && state.activeCats.add(c));
+  const dist = p.get("district");
+  if (dist && DISTRICTS.some((x) => x.slug === dist)) state.district = dist;
+}
+
+/* ---- status bar ---------------------------------------------------------- */
+const WMO = { 0: "CLEAR", 1: "CLEAR", 2: "PARTLY CLOUDY", 3: "OVERCAST", 45: "FOG", 48: "FOG",
+  51: "DRIZZLE", 53: "DRIZZLE", 55: "DRIZZLE", 61: "RAIN", 63: "RAIN", 65: "HEAVY RAIN",
+  80: "SHOWERS", 81: "SHOWERS", 82: "STORMS", 95: "THUNDERSTORMS", 96: "THUNDERSTORMS", 99: "THUNDERSTORMS" };
+let weatherTxt = "";
+
+function tickClock() {
+  const t = new Date().toLocaleTimeString("en-US", { timeZone: "America/Chicago", hour: "numeric", minute: "2-digit" });
+  const box = el("statusClock");
+  if (box) box.textContent = `DALLAS — ${t} CT`;
+}
+async function fetchWeather() {
+  try {
+    const res = await fetch("https://api.open-meteo.com/v1/forecast?latitude=32.7767&longitude=-96.797&current=temperature_2m,weather_code&temperature_unit=fahrenheit");
+    if (!res.ok) return;
+    const d = await res.json();
+    const c = d.current || {};
+    weatherTxt = `${Math.round(c.temperature_2m)}°F ${WMO[c.weather_code] || ""}`.trim();
+    const box = el("statusWx");
+    if (box) box.textContent = weatherTxt;
+  } catch (_) { /* status bar degrades gracefully */ }
+}
+function updateStatusCount() {
+  const box = el("statusLive");
+  if (!box) return;
+  if (!isToday(state.date)) { box.textContent = ""; return; }
+  const n = baseListForDate(state.date).filter(isLiveNow).length;
+  box.innerHTML = n ? `<i class="pulse"></i>${n} LIVE NOW` : "";
+}
+
+/* ---- favorites ----------------------------------------------------------- */
 function toggleFav(item) {
   const id = uid(item);
   state.faves.has(id) ? state.faves.delete(id) : state.faves.add(id);
@@ -226,29 +386,32 @@ function toggleFav(item) {
   render();
 }
 
-/* ---- modal ------------------------------------------------------------- */
-function openModal(a) {
-  const c = CATEGORIES[a.cat] || { label: "Event", color: "#4f8cff" };
+/* ---- drawer (event detail) ----------------------------------------------- */
+function openDrawer(a) {
+  const c = CATEGORIES[a.cat] || { label: "Event" };
   const mapQ = encodeURIComponent(`${a.name} ${a.area}`);
   const outUrl = withAffiliate(a.url);
   const isHouseAd = a.url === "#advertise";
+  const live = isLiveNow(a);
   el("modalBody").innerHTML = `
-    <span class="cat-tag" style="background:${c.color}">${c.label}</span>
+    <div class="dr-tag">/ ${c.label.toUpperCase()} ${live ? '<span class="live-ring"><i></i>LIVE NOW</span>' : ""}</div>
     <h2>${a.name}</h2>
-    <p class="modal-meta">🗓️ ${fmtDate(state.date)} &nbsp; 🕒 ${a.time}</p>
-    <p class="modal-meta">📍 ${a.area}</p>
-    <p class="modal-desc">${a.desc || "No description provided."}</p>
-    <p class="modal-meta">${costBadge(a)} ${a.sponsor ? `<span class="badge">Sponsored</span>` : ""}</p>
+    <div class="dr-meta">/ ${fmtDate(state.date).toUpperCase()}</div>
+    <div class="dr-meta">/ ${String(a.time).toUpperCase()}</div>
+    <div class="dr-meta">/ ${(a.area || "DFW").toUpperCase()}</div>
+    <p class="dr-desc">${a.desc || "No description provided."}</p>
+    <div class="dr-meta">${costBadge(a)} ${a.sponsor ? `<span class="badge">SPONSORED · ${a.sponsor.toUpperCase()}</span>` : ""}</div>
     <div class="modal-actions">
       ${isHouseAd
-        ? `<button class="btn primary" id="advertiseBtn">Get started ↗</button>`
-        : (a.url && a.url !== "#" ? `<a class="btn primary" href="${outUrl}" target="_blank" rel="noopener">Tickets & info ↗</a>` : "")}
-      ${isHouseAd ? "" : `<a class="btn" href="https://www.google.com/maps/search/?api=1&query=${mapQ}" target="_blank" rel="noopener">Map ↗</a>
-      <button class="btn" id="icsBtn">Add to calendar</button>
-      <button class="btn" id="shareBtn">Share</button>
-      <button class="btn ${state.faves.has(uid(a)) ? "primary" : ""}" id="modalFav">${state.faves.has(uid(a)) ? "♥ Saved" : "♡ Save"}</button>`}
+        ? `<button class="btn primary" id="advertiseBtn">GET STARTED ↗</button>`
+        : (a.url && a.url !== "#" ? `<a class="btn primary" href="${outUrl}" target="_blank" rel="noopener">TICKETS & INFO ↗</a>` : "")}
+      ${isHouseAd ? "" : `<a class="btn" href="https://www.google.com/maps/search/?api=1&query=${mapQ}" target="_blank" rel="noopener">DIRECTIONS ↗</a>
+      <button class="btn" id="icsBtn">ADD TO CALENDAR</button>
+      <button class="btn" id="shareBtn">SHARE</button>
+      <button class="btn ${state.faves.has(uid(a)) ? "primary" : ""}" id="modalFav">${state.faves.has(uid(a)) ? "♥ SAVED" : "♡ SAVE"}</button>`}
     </div>`;
   el("modal").classList.add("open");
+  document.body.classList.add("drawer-open");
   if (isHouseAd) {
     el("advertiseBtn").onclick = () => {
       location.href = "mailto:" + CONFIG.contactEmail
@@ -256,17 +419,20 @@ function openModal(a) {
         + "&body=" + encodeURIComponent(
           "Hi! I'd like to feature my event/venue on " + CONFIG.siteName + ".\n\n"
           + "Business/event name:\nDates I want featured:\nLink:\n");
-      closeModal();
+      closeDrawer();
     };
   } else {
     el("icsBtn").onclick = () => downloadIcs(a);
     el("shareBtn").onclick = () => shareEvent(a);
-    el("modalFav").onclick = () => { toggleFav(a); openModal(a); };
+    el("modalFav").onclick = () => { toggleFav(a); openDrawer(a); };
   }
 }
-function closeModal() { el("modal").classList.remove("open"); }
+function closeDrawer() {
+  el("modal").classList.remove("open");
+  document.body.classList.remove("drawer-open");
+}
 
-/* ---- calendar (.ics) --------------------------------------------------- */
+/* ---- calendar (.ics) ------------------------------------------------------ */
 function downloadIcs(a) {
   const start = new Date(state.date);
   const mins = parseTimeToMinutes(a.time);
@@ -275,11 +441,11 @@ function downloadIcs(a) {
   const end = new Date(start.getTime() + 2 * 3600 * 1000);
   const fmt = (d) => d.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
   const ics = [
-    "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//RJ Does Dallas//EN",
-    "BEGIN:VEVENT", `UID:${uid(a)}-${fmt(start)}@rjdoesdallas`,
+    "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Lets Do It Dallas//EN",
+    "BEGIN:VEVENT", `UID:${uid(a)}-${fmt(start)}@letsdoitdallas`,
     `DTSTAMP:${fmt(new Date())}`, `DTSTART:${fmt(start)}`, `DTEND:${fmt(end)}`,
     `SUMMARY:${a.name}`, `LOCATION:${a.area}`,
-    `DESCRIPTION:${(a.desc || "").replace(/\n/g, " ")} — via RJ Does Dallas`,
+    `DESCRIPTION:${(a.desc || "").replace(/\n/g, " ")} — via Lets Do It Dallas`,
     a.url && a.url !== "#" ? `URL:${a.url}` : "", "END:VEVENT", "END:VCALENDAR",
   ].filter(Boolean).join("\r\n");
   const blob = new Blob([ics], { type: "text/calendar" });
@@ -289,9 +455,9 @@ function downloadIcs(a) {
   link.click();
 }
 
-/* ---- share ------------------------------------------------------------- */
+/* ---- share ---------------------------------------------------------------- */
 async function shareEvent(a) {
-  const text = `${a.name} — ${a.time}, ${a.area}. Found on RJ Does Dallas.`;
+  const text = `${a.name} — ${a.time}, ${a.area}. Found on Lets Do It Dallas.`;
   const url = location.href;
   if (navigator.share) {
     try { await navigator.share({ title: a.name, text, url }); return; } catch (_) {}
@@ -302,7 +468,7 @@ async function shareEvent(a) {
   } catch (_) { toast("Share not supported here"); }
 }
 
-/* ---- affiliate wrapping ------------------------------------------------ */
+/* ---- affiliate wrapping --------------------------------------------------- */
 function withAffiliate(url) {
   if (!url || url === "#" || !CONFIG.affiliateTag) return url;
   try {
@@ -312,7 +478,7 @@ function withAffiliate(url) {
   } catch (_) { return url; }
 }
 
-/* ---- toast ------------------------------------------------------------- */
+/* ---- toast ---------------------------------------------------------------- */
 let toastTimer;
 function toast(msg) {
   let t = el("toast");
@@ -322,7 +488,7 @@ function toast(msg) {
   toastTimer = setTimeout(() => t.classList.remove("show"), 2200);
 }
 
-/* ---- newsletter + submit-event forms ----------------------------------- */
+/* ---- newsletter + submit-event forms -------------------------------------- */
 function wireForms() {
   const nl = el("newsletterForm");
   nl.onsubmit = async (e) => {
@@ -351,8 +517,7 @@ function wireForms() {
     e.preventDefault();
     const payload = Object.fromEntries(new FormData(e.target).entries());
     if (!CONFIG.submitEventEndpoint) {
-      const body = Object.entries(payload)
-        .map(([k, v]) => `${k}: ${v}`).join("\n");
+      const body = Object.entries(payload).map(([k, v]) => `${k}: ${v}`).join("\n");
       location.href = "mailto:" + CONFIG.contactEmail
         + "?subject=" + encodeURIComponent("Event submission — " + (payload.name || "untitled"))
         + "&body=" + encodeURIComponent(body + "\n\nSubmitted via " + CONFIG.siteName);
@@ -369,7 +534,51 @@ function wireForms() {
   };
 }
 
-/* ---- live loading ------------------------------------------------------ */
+/* ---- press wire ----------------------------------------------------------- */
+async function loadWire() {
+  try {
+    const res = await fetch("press.json", { cache: "no-cache" });
+    if (!res.ok) throw 0;
+    const items = await res.json();
+    if (!items.length) throw 0;
+    el("wireList").innerHTML = items.slice(0, 10).map((p, i) => `
+      <a class="wire-row" href="${p.url}" target="_blank" rel="noopener">
+        <span class="idx">(${String(i + 1).padStart(2, "0")})</span>
+        <span class="wl-title">${p.title}</span>
+        <span class="wl-src">/ ${(p.source || "").toUpperCase()}</span>
+      </a>`).join("");
+  } catch (_) {
+    const sec = el("wireSection");
+    if (sec) sec.style.display = "none";
+  }
+}
+
+/* ---- itineraries ----------------------------------------------------------- */
+function renderItineraries() {
+  const box = el("itinGrid");
+  if (!box || typeof ITINERARIES === "undefined") return;
+  box.innerHTML = ITINERARIES.map((it) => `
+    <div class="itin">
+      <div class="itin-head"><span class="tag">/ ${it.district.toUpperCase()}</span><h3>${it.title}</h3></div>
+      ${it.steps.map((s, i) => `
+        <div class="itin-step">
+          <span class="idx">(${String(i + 1).padStart(2, "0")})</span>
+          <span class="itin-time">${s.time}</span>
+          <div><div class="itin-title">${s.title}</div><div class="itin-note">${s.note}</div></div>
+        </div>`).join("")}
+    </div>`).join("");
+}
+
+/* ---- bridge scroll-draw ---------------------------------------------------- */
+function wireBridge() {
+  const sec = el("bridgeDivider");
+  if (!sec || !("IntersectionObserver" in window)) { sec && sec.classList.add("drawn"); return; }
+  new IntersectionObserver((entries, obs) => {
+    entries.forEach((en) => { if (en.isIntersecting) { sec.classList.add("drawn"); obs.disconnect(); } });
+  }, { threshold: 0.35 }).observe(sec);
+}
+
+/* ---- live loading ---------------------------------------------------------- */
 let liveToken = 0;
 async function refreshLive() {
   const my = ++liveToken;
@@ -377,13 +586,13 @@ async function refreshLive() {
   state.live = [];
   render();
   const events = await loadLiveEvents(state.date);
-  if (my !== liveToken) return;          // a newer date was picked; ignore stale
+  if (my !== liveToken) return;
   state.live = events;
   state.loadingLive = false;
   render();
 }
 
-/* ---- navigation -------------------------------------------------------- */
+/* ---- navigation ------------------------------------------------------------ */
 function goToDate(d) { state.date = d; refreshLive(); }
 function nextWeekend(from) {
   const d = new Date(from);
@@ -412,11 +621,11 @@ function wireControls() {
       goToDate(t);
     };
   });
-  el("modalClose").onclick = closeModal;
-  el("modal").onclick = (e) => { if (e.target.id === "modal") closeModal(); };
+  el("modalClose").onclick = closeDrawer;
+  el("modal").onclick = (e) => { if (e.target.id === "modal") closeDrawer(); };
   el("submitModal").onclick = (e) => { if (e.target.id === "submitModal") el("submitModal").classList.remove("open"); };
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") { closeModal(); el("submitModal").classList.remove("open"); }
+    if (e.key === "Escape") { closeDrawer(); el("submitModal").classList.remove("open"); }
     if (e.key === "ArrowLeft" && !isTyping()) el("prevDay").click();
     if (e.key === "ArrowRight" && !isTyping()) el("nextDay").click();
   });
@@ -426,14 +635,25 @@ function isTyping() {
   return a && (a.tagName === "INPUT" || a.tagName === "TEXTAREA");
 }
 
-/* ---- boot -------------------------------------------------------------- */
+/* ---- boot ------------------------------------------------------------------ */
 function boot() {
-  el("brandName").textContent = CONFIG.siteName;
-  el("brandTag").textContent = CONFIG.tagline;
-  document.title = `${CONFIG.siteName} — ${CONFIG.tagline}`;
   el("year").textContent = new Date().getFullYear();
+  readUrl();
+  RADAR.init({
+    getDayList: () => baseListForDate(state.date).concat(sponsoredForDate(state.date)),
+    onDistrict: (slug) => { state.district = slug; render(); },
+    activeDistrict: () => state.district,
+  });
   wireControls();
   wireForms();
+  wireBridge();
+  renderItineraries();
+  loadWire();
+  tickClock();
+  setInterval(tickClock, 30 * 1000);
+  fetchWeather();
+  setInterval(fetchWeather, 15 * 60 * 1000);
+  setInterval(updateStatusCount, 60 * 1000);
   render();
   refreshLive();
 }
