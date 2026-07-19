@@ -199,6 +199,9 @@ input[type="date"] {
   .chips-row .filters {
     flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch;
     scrollbar-width: none; padding-bottom: 2px;
+    /* soft fade on the right edge signals there are more chips to scroll to */
+    -webkit-mask-image: linear-gradient(to right, #000 88%, transparent);
+    mask-image: linear-gradient(to right, #000 88%, transparent);
   }
   .chips-row .filters::-webkit-scrollbar { display: none; }
   .chip { flex: none; white-space: nowrap; }
@@ -278,6 +281,12 @@ body.ads .ad-leader { display: block; }
 }
 .card:hover::after { outline-color: var(--em-dim); }
 
+/* sponsored pin runs the full row as a billboard — no orphaned cells beside it */
+.card.sponsored { grid-column: 1 / -1; min-height: 0; }
+@media (min-width: 661px) {
+  .card.sponsored .desc { max-width: 70ch; }
+  .card.sponsored .card-foot { justify-content: flex-start; gap: 14px; }
+}
 /* neon edge-light for sponsored (Bank of America trim homage) */
 .card.sponsored::after { outline-color: var(--em-dim); animation: edgelight 3.2s ease-in-out infinite; }
 @keyframes edgelight {
@@ -457,6 +466,10 @@ body.ads .ad-leader { display: block; }
   gap: 1px; background: var(--line); border-top: 1px solid var(--line);
 }
 @media (max-width: 900px) { .radar-split { grid-template-columns: 1fr; } }
+/* the SVG map's labels/nodes are too small to read or tap on phones — the
+   ranked district list below is fully legible and click-to-filter, so lead
+   with it and drop the map */
+@media (max-width: 660px) { .radar-mapwrap { display: none; } }
 .radar-mapwrap { position: relative; background: var(--bg); padding: 10px; }
 #radarMap { display: block; width: 100%; height: auto; }
 .radar-grid line { stroke: #0E1014; stroke-width: 1; }
@@ -571,6 +584,7 @@ footer {
 
 /* ============================== DRAWER ============================== */
 .modal { position: fixed; inset: 0; background: rgba(4, 5, 7, .72); display: none; z-index: 50; }
+body.drawer-open { overflow: hidden; }
 .modal.open { display: flex; }
 .modal.center { align-items: center; justify-content: center; padding: 20px; }
 .modal.drawer { justify-content: flex-end; }

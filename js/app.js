@@ -240,10 +240,15 @@ function render() {
   const sponsored = sponsoredForDate(state.date);
   const base = applyFilters(baseListForDate(state.date));
   const sponsoredIds = new Set(sponsored.map(uid));
+  const q = state.search.trim().toLowerCase();
   const list = [...sponsored.filter((s) => {
       if (state.activeCats.size && !state.activeCats.has(s.cat)) return false;
       if (state.freeOnly && s.cost !== 0) return false;
       if (state.district && RADAR.districtOf(s) !== state.district) return false;
+      if (state.favesOnly && !state.faves.has(uid(s))) return false;
+      // sponsored pins must match an active search too — otherwise a fruitless
+      // query returns the house ad as its only "result"
+      if (q && !`${s.name} ${s.desc} ${s.area}`.toLowerCase().includes(q)) return false;
       return true;
     }), ...base.filter((b) => !sponsoredIds.has(uid(b)))];
 
@@ -305,13 +310,15 @@ function render() {
 function renderOnNow() {
   const box = el("onnow");
   if (!box) return;
-  const live = isToday(state.date)
+  let live = isToday(state.date)
     ? baseListForDate(state.date).concat(sponsoredForDate(state.date)).filter(isLiveNow)
     : [];
+  const count = live.length;
+  live.sort((a, b) => timeRange(a.time)[1] - timeRange(b.time)[1]); // ending soonest first
+  live = live.slice(0, 8);                                          // cap the rail
   if (!live.length) { box.hidden = true; return; }
   box.hidden = false;
-  el("onnowLabel").textContent = `${liveWord()} NOW — ${live.length}`;
-  live.sort((a, b) => timeRange(a.time)[1] - timeRange(b.time)[1]); // ending soonest first
+  el("onnowLabel").textContent = `${liveWord()} NOW — ${count}`;
   el("onnowRail").innerHTML = live.map((a) => `
     <div class="onnow-card" data-id="${uid(a)}">
       <div class="oc-name">${a.name}</div>
@@ -333,8 +340,11 @@ function updateQuickButtons() {
   const isWeekend = sel.getDay() === 6 || sel.getDay() === 0;
   document.querySelectorAll(".quick button").forEach((b) => {
     const q = b.dataset.quick;
+    // TONIGHT wins when the date is today; WEEKEND only lights on a non-today weekend
     b.classList.toggle("active",
-      (q === "today" && diff === 0) || (q === "tomorrow" && diff === 1) || (q === "weekend" && isWeekend));
+      (q === "today" && diff === 0) ||
+      (q === "tomorrow" && diff === 1) ||
+      (q === "weekend" && isWeekend && diff !== 0));
   });
 }
 
@@ -701,7 +711,9 @@ function wireControls() {
   const consoleEl = document.querySelector(".console");
   window.addEventListener("scroll", () => {
     const past = consoleEl && consoleEl.getBoundingClientRect().bottom < 0;
-    el("skybar").classList.toggle("show", !!past);
+    const bar = el("skybar");
+    bar.classList.toggle("show", !!past);
+    bar.setAttribute("aria-hidden", past ? "false" : "true");
   }, { passive: true });
 
   el("vibesToggle").onclick = (e) => {

@@ -399,6 +399,13 @@ def _hub_html(title, desc, canonical, events, app_link, heading, note):
 <title>{title}</title>
 <meta name="description" content="{desc}"/>
 <link rel="canonical" href="{canonical}"/>
+<meta property="og:title" content="{title}"/>
+<meta property="og:description" content="{desc}"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="{canonical}"/>
+<meta property="og:image" content="{SITE}/og-image.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{SITE}/og-image.png"/>
 <script type="application/ld+json">{_jsonld(events)}</script>
 <style>
 body{{background:#08090B;color:#8A909E;font:15px/1.6 Inter,-apple-system,sans-serif;margin:0;padding:40px 6vw}}
