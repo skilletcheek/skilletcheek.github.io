@@ -29,6 +29,41 @@ FEEDS_FILE = Path(__file__).resolve().parent / "feeds.json"
 OUT_FILE = ROOT / "live-events.json"
 
 GEO = {"lat": 32.7767, "lng": -96.7970, "radius_miles": 50}  # 50mi covers the DFW suburbs
+
+# Cities we consider "DFW". The lat/long radius sent to Ticketmaster/SeatGeek is
+# NOT trustworthy on its own — TM has returned El Paso (600 mi away) inside a
+# 50-mile query because of bad venue geo — so every source that reports a real
+# city is gated on this list as well. Hand-configured feeds (ICS, Prekindle) are
+# exempt: their `area` is a curated neighborhood like "Deep Ellum", not a city.
+DFW_CITIES = {
+    "dallas", "fort worth", "arlington", "plano", "irving", "garland", "frisco",
+    "mckinney", "grand prairie", "mesquite", "carrollton", "denton", "richardson",
+    "lewisville", "allen", "flower mound", "north richland hills", "mansfield",
+    "rowlett", "bedford", "euless", "grapevine", "cedar hill", "wylie", "keller",
+    "coppell", "hurst", "duncanville", "the colony", "little elm", "prosper",
+    "rockwall", "burleson", "haltom city", "southlake", "waxahachie", "cleburne",
+    "weatherford", "desoto", "lancaster", "farmers branch", "addison", "sachse",
+    "murphy", "highland village", "corinth", "saginaw", "watauga", "crowley",
+    "benbrook", "azle", "granbury", "midlothian", "ennis", "greenville",
+    "sanger", "roanoke", "argyle", "justin", "aubrey", "melissa", "anna",
+    "forney", "terrell", "seagoville", "balch springs", "glenn heights",
+    "red oak", "arlington heights", "colleyville", "trophy club", "westlake",
+    "las colinas", "university park", "highland park", "farmersville",
+}
+
+
+def is_dfw_city(city: str, state: str | None = None) -> bool:
+    """True when a source-reported city is in the DFW metro. A missing city is
+    allowed through (the radius query already constrained it, and we'd rather
+    keep a local event than drop it); a city we DO know and don't recognize is
+    rejected. State, when reported, must be Texas — that alone kills the
+    'Arlington, VA' / 'Dallas, GA' class of false positive."""
+    if state and state.strip().upper() not in ("TX", "TEXAS"):
+        return False
+    c = (city or "").strip().lower()
+    if not c:
+        return True
+    return c in DFW_CITIES
 DAYS_AHEAD = 30
 UA = "rj-does-dallas-fetcher/1.0 (+https://letsdoitdallas.com)"
 SITE = "https://letsdoitdallas.com"
@@ -115,9 +150,14 @@ def fetch_ticketmaster(start, end):
             print(f"ticketmaster: page {page} failed: {e}", file=sys.stderr)
             break
         events = (data.get("_embedded") or {}).get("events") or []
+        skipped = 0
         for ev in events:
             dates = (ev.get("dates") or {}).get("start") or {}
             venue = ((ev.get("_embedded") or {}).get("venues") or [{}])[0]
+            if not is_dfw_city((venue.get("city") or {}).get("name"),
+                               (venue.get("state") or {}).get("stateCode")):
+                skipped += 1
+                continue
             cls = (ev.get("classifications") or [{}])[0]
             seg = ((cls.get("segment") or {}).get("name"))
             price = (ev.get("priceRanges") or [{}])[0].get("min")
@@ -134,6 +174,8 @@ def fetch_ticketmaster(start, end):
                 round(price) if isinstance(price, (int, float)) else None,
                 desc, ev.get("url"), img,
             ))
+        if skipped:
+            print(f"ticketmaster: page {page} dropped {skipped} non-DFW events")
         if page >= int((data.get("page") or {}).get("totalPages", 1)) - 1:
             break
     print(f"ticketmaster: {len(out)} events")
@@ -175,9 +217,13 @@ def fetch_seatgeek(start, end):
             print(f"seatgeek: page {page} failed: {e}", file=sys.stderr)
             break
         events = data.get("events") or []
+        skipped = 0
         for ev in events:
             dt = ev.get("datetime_local") or ""
             venue = ev.get("venue") or {}
+            if not is_dfw_city(venue.get("city"), venue.get("state")):
+                skipped += 1
+                continue
             price = (ev.get("stats") or {}).get("lowest_price")
             tax = ((ev.get("taxonomies") or [{}])[0]).get("name", "")
             out.append(row(
@@ -189,6 +235,8 @@ def fetch_seatgeek(start, end):
                 ev.get("url"),
                 ((ev.get("performers") or [{}])[0]).get("image"),
             ))
+        if skipped:
+            print(f"seatgeek: page {page} dropped {skipped} non-DFW events")
         if len(events) < 100:
             break
     print(f"seatgeek: {len(out)} events")
@@ -331,28 +379,15 @@ def fetch_prekindle(start, end):
 SEATED_API = "https://cdn.seated.com/api/tour"
 SEATED_LINK = "https://link.seated.com"
 
-# Metro cities we consider "DFW". Seated gives a "City, ST" formatted-address,
-# not coordinates, so the radius filter used for TM/SG can't apply here.
-DFW_CITIES = {
-    "dallas", "fort worth", "arlington", "plano", "irving", "garland", "frisco",
-    "mckinney", "grand prairie", "mesquite", "carrollton", "denton", "richardson",
-    "lewisville", "allen", "flower mound", "north richland hills", "mansfield",
-    "rowlett", "bedford", "euless", "grapevine", "cedar hill", "wylie", "keller",
-    "coppell", "hurst", "duncanville", "the colony", "little elm", "prosper",
-    "rockwall", "burleson", "haltom city", "southlake", "waxahachie", "cleburne",
-    "weatherford", "desoto", "lancaster", "farmers branch", "addison", "sachse",
-    "murphy", "highland village", "corinth", "saginaw", "watauga", "crowley",
-    "benbrook", "azle", "granbury", "midlothian", "ennis", "greenville",
-}
-
-
 def _seated_is_dfw(formatted_address: str) -> bool:
-    """formatted-address looks like 'Fort Worth, TX'. Match the city half only,
-    and require Texas so a 'Dallas, GA' or 'Arlington, VA' can't sneak in."""
-    parts = [p.strip().lower() for p in (formatted_address or "").split(",")]
-    if len(parts) < 2 or not parts[-1].startswith("tx"):
+    """formatted-address looks like 'Fort Worth, TX'. Split it and hand both
+    halves to the shared gate. Stricter than is_dfw_city in one way: Seated
+    always reports a city, so a missing one here means malformed data, not an
+    unknown-but-probably-local venue."""
+    parts = [p.strip() for p in (formatted_address or "").split(",")]
+    if len(parts) < 2 or not parts[0]:
         return False
-    return parts[0] in DFW_CITIES
+    return is_dfw_city(parts[0], parts[-1])
 
 
 def _seated_local_time(starts_at: str, known: bool) -> str:
@@ -597,43 +632,95 @@ def _norm_name(name: str) -> str:
     return re.sub(r"^the ", "", n)              # "The Randy Rogers Band" == "Randy Rogers Band"
 
 
+_STOP = {"the", "a", "an", "at", "vs", "v", "and", "of", "in", "on", "for",
+         "with", "not", "featuring", "night", "show", "series"}
+_VAGUE_TIMES = ("", "see details", "all day", "doors — see listing")
+# Sources disagree about whether a listing's time is doors or downbeat, so allow
+# an hour and a half of slack. Wide enough to merge a 7:00/8:00 PM disagreement,
+# narrow enough to keep a 2:00 PM matinee separate from the 8:00 PM performance
+# (and an early comedy set separate from the late one).
+_TIME_SLACK_MIN = 90
+
+
+def _times_compatible(a, b) -> bool:
+    """Could these two start times be the same performance? An unknown time
+    can't prove separation, so it counts as compatible."""
+    if a is None or b is None:
+        return True
+    return abs(a - b) <= _TIME_SLACK_MIN
+
+
+def _venue_tokens(area: str) -> set:
+    """Comparable token set for the venue half of an `area` string. Sources
+    punctuate and suffix venues differently — "Cooper's Bar & Grill - Arlington"
+    and "Coopers Bar and Grill" must land on the same tokens."""
+    v = (area or "").split(",")[0].strip().lower()
+    v = re.sub(r"\s+-\s+[^-]+$", "", v)        # trailing city: "… - Sanger"
+    v = v.replace("&", " and ").replace("'", "").replace("’", "")
+    v = re.sub(r"[^a-z0-9]+", " ", v)
+    return {t for t in v.split() if t not in _STOP and len(t) > 1}
+
+
+def _time_minutes(t: str):
+    if (t or "").strip().lower() in _VAGUE_TIMES:
+        return None
+    m = re.match(r"\s*(\d{1,2}):(\d{2})\s*(AM|PM)", t or "", re.I)
+    if not m:
+        return None
+    h = int(m.group(1)) % 12 + (12 if m.group(3).upper() == "PM" else 0)
+    return h * 60 + int(m.group(2))
+
+
+def _same_event(tokens, venue, mins, p_tokens, p_venue, p_mins) -> bool:
+    """Two rows on the same date describe one event when the titles share a
+    meaningful word, the venues agree, and the times are close.
+
+    Every clause matters. Titles alone miss "White Sox at Rangers" vs "Texas
+    Rangers vs. Chicago White Sox". Venue+time alone wrongly merged Jackie
+    Fabulous into Cipha Sounds at one comedy club, and Ultimate Bullfighters
+    into the Stockyards Championship Rodeo."""
+    if not (tokens & p_tokens):            # unrelated titles => different events
+        return False
+    if not venue or not p_venue:           # unknown venue => don't guess
+        return False
+    # one venue string may be a fuller form of the other ("Roanoke Live" vs
+    # "Roanoke ChopShop Live"), so accept either being a subset
+    if not (venue <= p_venue or p_venue <= venue):
+        return False
+    return _times_compatible(mins, p_mins)
+
+
 def dedupe(rows):
     """Collapse the same event arriving from multiple sources. Keeps the FIRST
     occurrence, so callers should order rows richest-source-first.
 
-    Two keys, because sources disagree about titles:
-      1. normalized title + date   — catches most matches
-      2. venue + date + start time — catches the same show titled differently
-         ("White Sox at Rangers" vs "Texas Rangers vs. Chicago White Sox").
-
-    Key 2 additionally requires the two titles to share a meaningful word.
-    Without that guard it over-collapses: a comedy club running Jackie Fabulous
-    and Cipha Sounds at the same 7:00 PM slot, or a rodeo arena running
-    Ultimate Bullfighters alongside the Stockyards Championship Rodeo, are
-    genuinely different events and must both survive.
-    Key 2 is skipped when the time is a placeholder, since many placeholder
-    rows at one venue would otherwise collapse into each other."""
-    VAGUE_TIMES = ("", "see details", "all day", "doors — see listing")
-    STOP = {"the", "a", "an", "at", "vs", "v", "and", "of", "in", "on", "for",
-            "with", "not", "featuring", "night", "show", "series"}
-    seen_name, seen_slot, unique = {}, {}, []
+    Two passes, because sources disagree about titles:
+      1. exact normalized title + date — cheap, catches most matches
+      2. fuzzy same-date comparison via _same_event() — catches the same show
+         listed under different titles, venue spellings, or start times.
+    See _same_event() for why each of its clauses is required."""
+    by_date, unique = {}, []
     for r in rows:
         if not r.get("date") or not r.get("name"):
             continue
         norm = _norm_name(r["name"])
-        name_key = (norm, r["date"])
-        if name_key in seen_name:
+        tokens = {t for t in norm.split() if t not in _STOP and len(t) > 1}
+        venue = _venue_tokens(r.get("area"))
+        mins = _time_minutes(r.get("time"))
+        dup = False
+        for p_norm, p_tokens, p_venue, p_mins in by_date.get(r["date"], []):
+            # identical title on the same day — a duplicate unless the times are
+            # far enough apart to be genuinely separate performances (a 2:00 PM
+            # matinee and an 8:00 PM show are two different tickets)
+            if norm == p_norm and _times_compatible(mins, p_mins):
+                dup = True
+                break
+            if _same_event(tokens, venue, mins, p_tokens, p_venue, p_mins):
+                dup = True
+                break
+        if dup:
             continue
-        tokens = {t for t in norm.split() if t not in STOP and len(t) > 1}
-        venue = (r.get("area") or "").split(",")[0].strip().lower()
-        time = (r.get("time") or "").strip().lower()
-        slot_key = (venue, r["date"], time) if venue and time not in VAGUE_TIMES else None
-        # same venue + same start time AND a shared word => same event, retitled
-        if slot_key and any(tokens & prev for prev in seen_slot.get(slot_key, [])):
-            continue
-        seen_name[name_key] = True
-        if slot_key:
-            seen_slot.setdefault(slot_key, []).append(tokens)
+        by_date.setdefault(r["date"], []).append((norm, tokens, venue, mins))
         unique.append(r)
     unique.sort(key=lambda r: (r["date"], r["name"]))
     return unique
