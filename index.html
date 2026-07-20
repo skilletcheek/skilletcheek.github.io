@@ -30,6 +30,30 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
       media="print" onload="this.media='all';this.onload=null" />
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" /></noscript>
+
+<!-- ============ ANALYTICS ============
+     Cloudflare Web Analytics. Cookie-free, so it needs no consent banner, and
+     the beacon is a deferred third-party script kept out of the critical path.
+
+     The token below is a public beacon id, not a secret — it ships in the HTML
+     of every page by design. Re-copy it from the Cloudflare dash under
+     Analytics & Logs -> Web Analytics -> letsdoitdallas.com -> Manage site.
+
+     This is the ONE place the token lives — scripts/fetch_events.py reads it
+     out of this file when it generates the static hub pages, so /tonight,
+     /this-weekend, /free-events and /district/* all report to the same
+     dashboard. Leave it empty and no request is made at all.
+     ==================================== -->
+<script>
+  var CF_BEACON_TOKEN = "0bcd976f1a2b4d7c9a21df7cac865d47";
+  if (CF_BEACON_TOKEN) {
+    var _b = document.createElement("script");
+    _b.type = "module"; // Cloudflare ships beacon.min.js as an ES module.
+    _b.src = "https://static.cloudflareinsights.com/beacon.min.js";
+    _b.setAttribute("data-cf-beacon", JSON.stringify({ token: CF_BEACON_TOKEN }));
+    document.head.appendChild(_b);
+  }
+</script>
 </head>
 <body>
 

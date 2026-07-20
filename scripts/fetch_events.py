@@ -724,6 +724,26 @@ def _jsonld(events):
     return json.dumps({"@context": "https://schema.org", "@type": "ItemList", "itemListElement": out})
 
 
+def _analytics_snippet():
+    """Mirror index.html's Cloudflare beacon onto the generated hub pages.
+
+    The token is read out of index.html rather than duplicated here so there is
+    exactly one place to paste it. Returns "" when it is unset (or index.html
+    has been restructured), which leaves the hub pages making no beacon call.
+    """
+    try:
+        html = (ROOT / "index.html").read_text()
+    except OSError:
+        return ""
+    m = re.search(r'var\s+CF_BEACON_TOKEN\s*=\s*"([^"]*)"', html)
+    token = m.group(1) if m else ""
+    if not token:
+        return ""
+    cfg = json.dumps({"token": token})
+    return ('<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" '
+            f"data-cf-beacon='{cfg}'></script>")
+
+
 def _hub_html(title, desc, canonical, events, app_link, heading, note):
     rows = "\n".join(
         f'<li><a href="{e["url"]}" rel="noopener"><strong>{e["name"]}</strong></a> '
@@ -750,7 +770,7 @@ h1{{color:#fff;font-size:2rem;letter-spacing:.01em}}a{{color:#00FF87;text-decora
 ul{{list-style:none;padding:0}}li{{padding:12px 0;border-bottom:1px solid #191C22}}
 li span{{display:block;font-family:ui-monospace,monospace;font-size:11px;color:#8A909E}}
 .cta{{display:inline-block;margin:18px 0;border:1px solid #0E3A2F;padding:12px 18px}}
-</style></head><body>
+</style>{_analytics_snippet()}</head><body>
 <p class="k">/ LETS DO IT DALLAS — {note}</p>
 <h1>{heading}</h1>
 <a class="cta" href="{app_link}">( OPEN THE LIVE RADAR ↗ )</a>
