@@ -371,19 +371,34 @@ def _jsonld(events):
     for i, e in enumerate(events[:30]):
         t = re.match(r"(\d{1,2}):(\d{2})\s*(AM|PM)", e.get("time") or "")
         start = e["date"]
+        end = e["date"]
         if t:
             h = int(t.group(1)) % 12 + (12 if t.group(3) == "PM" else 0)
-            start = f"{e['date']}T{h:02d}:{t.group(2)}:00-05:00"
-        item = {"@type": "Event", "name": e["name"], "startDate": start,
+            mi = int(t.group(2))
+            start = f"{e['date']}T{h:02d}:{mi:02d}:00-05:00"
+            # default a 3-hour run, clamped to the same day
+            end_min = min(h * 60 + mi + 180, 23 * 60 + 59)
+            end = f"{e['date']}T{end_min // 60:02d}:{end_min % 60:02d}:00-05:00"
+        url = e["url"] if e["url"] and e["url"] != "#" else SITE
+        item = {"@type": "Event", "name": e["name"], "startDate": start, "endDate": end,
                 "eventStatus": "https://schema.org/EventScheduled",
+                "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
                 "location": {"@type": "Place", "name": e["area"],
                              "address": {"@type": "PostalAddress", "addressRegion": "TX",
                                          "addressLocality": e["area"]}},
-                "url": e["url"] if e["url"] != "#" else SITE}
+                "image": [e.get("image") or f"{SITE}/og-image.png"],
+                "url": url,
+                "organizer": {"@type": "Organization", "name": e["area"], "url": url},
+                "performer": {"@type": "PerformingGroup", "name": e["name"]}}
         if e.get("description"):
             item["description"] = e["description"]
+        offer = {"@type": "Offer", "url": url,
+                 "availability": "https://schema.org/InStock",
+                 "validFrom": f"{e['date']}T00:00:00-05:00"}
         if e.get("cost") is not None:
-            item["offers"] = {"@type": "Offer", "price": e["cost"], "priceCurrency": "USD"}
+            offer["price"] = e["cost"]
+            offer["priceCurrency"] = "USD"
+        item["offers"] = offer
         out.append({"@type": "ListItem", "position": i + 1, "item": item})
     return json.dumps({"@context": "https://schema.org", "@type": "ItemList", "itemListElement": out})
 
@@ -474,16 +489,32 @@ def main():
     rows = (fetch_ticketmaster(start, end) + fetch_seatgeek(start, end)
             + fetch_ics_feeds(start, end) + fetch_prekindle(start, end))
 
-    seen, unique = set(), []
+    # De-dupe across sources. Ticketmaster and SeatGeek routinely list the same
+    # show under slightly different titles, so we collapse on two keys:
+    #   1. normalized title + date   (catches most matches)
+    #   2. venue + date + start time (catches the same show titled differently;
+    #      two events never share a venue AND an exact start time)
+    seen_name, seen_slot, unique = set(), set(), []
     for r in rows:
+        if not r["date"] or not r["name"]:
+            continue
         norm = r["name"].lower()
         norm = re.sub(r"\(.*?\)", " ", norm)          # drop parentheticals like (18+)
         norm = norm.replace("&", " and ")
+        # strip generic show words so "X Tour" and "X" collapse together
+        norm = re.sub(r"\b(tickets?|tour|live|concert|presents?|featuring|feat|"
+                      r"with special guests?)\b", " ", norm)
         norm = re.sub(r"[^a-z0-9]+", " ", norm).strip()
-        key = (norm, r["date"])
-        if not r["date"] or not r["name"] or key in seen:
+        name_key = (norm, r["date"])
+        venue = (r.get("area") or "").split(",")[0].strip().lower()
+        time = (r.get("time") or "").strip().lower()
+        slot_key = (venue, r["date"], time) if venue and time not in (
+            "", "see details", "all day", "doors — see listing") else None
+        if name_key in seen_name or (slot_key and slot_key in seen_slot):
             continue
-        seen.add(key)
+        seen_name.add(name_key)
+        if slot_key:
+            seen_slot.add(slot_key)
         unique.append(r)
     unique.sort(key=lambda r: (r["date"], r["name"]))
 

@@ -366,21 +366,35 @@ function updateSeo(list) {
     document.head.appendChild(tag);
   }
   const iso = isoDate(state.date);
+  const fallbackImg = `${location.origin}/og-image.png`;
   const events = list.slice(0, 30).filter((a) => a.url && a.url !== "#" && a.url !== "#advertise").map((a) => {
     const startMins = parseTimeToMinutes(a.time);
-    const hh = String(Math.floor(startMins / 60) % 24).padStart(2, "0");
-    const mm = String(startMins % 60).padStart(2, "0");
+    const timed = startMins < 24 * 60;
+    const pad = (n) => String(n).padStart(2, "0");
+    const startDate = timed ? `${iso}T${pad(Math.floor(startMins / 60) % 24)}:${pad(startMins % 60)}:00-05:00` : iso;
+    // default a 3-hour run, clamped to the same day
+    const endMins = Math.min(startMins + 180, 23 * 60 + 59);
+    const endDate = timed ? `${iso}T${pad(Math.floor(endMins / 60))}:${pad(endMins % 60)}:00-05:00` : iso;
     return {
       "@type": "Event",
       name: a.name,
-      startDate: startMins < 24 * 60 ? `${iso}T${hh}:${mm}:00-05:00` : iso,
+      startDate,
+      endDate,
       eventStatus: "https://schema.org/EventScheduled",
       eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
       location: { "@type": "Place", name: a.area, address: { "@type": "PostalAddress", addressRegion: "TX", addressLocality: a.area } },
+      image: [a.image || fallbackImg],
       description: a.desc || undefined,
       url: a.url,
-      organizer: { "@type": "Organization", name: a.sponsor || a.area },
-      offers: a.cost != null ? { "@type": "Offer", price: a.cost, priceCurrency: "USD", url: a.url } : undefined,
+      organizer: { "@type": "Organization", name: a.sponsor || a.area, url: a.url },
+      performer: { "@type": "PerformingGroup", name: a.name },
+      offers: {
+        "@type": "Offer",
+        url: a.url,
+        availability: "https://schema.org/InStock",
+        validFrom: `${iso}T00:00:00-05:00`,
+        ...(a.cost != null ? { price: a.cost, priceCurrency: "USD" } : {}),
+      },
     };
   });
   tag.textContent = JSON.stringify({ "@context": "https://schema.org", "@type": "ItemList",

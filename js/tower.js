@@ -165,7 +165,19 @@
     ctx.globalCompositeOperation = "source-over";
 
     theta += 0.0035;
-    if (!REDUCED) requestAnimationFrame(frame);
+    // Only keep the loop alive while the canvas is on-screen and the tab is
+    // visible — a rotating, shadow-blurred canvas burns CPU/GPU for nothing
+    // once it scrolls out of view.
+    if (!REDUCED && onScreen && !document.hidden) requestAnimationFrame(frame);
+    else running = false;
+  }
+
+  let running = false;
+  let onScreen = true;
+  function start() {
+    if (running || REDUCED) return;
+    running = true;
+    requestAnimationFrame(frame);
   }
 
   function fit() {
@@ -194,7 +206,17 @@
     window.addEventListener("scroll", () => {
       scrollBoost = window.scrollY * 0.0006;
     }, { passive: true });
-    if (REDUCED) { frame(0); } else { requestAnimationFrame(frame); }
+    if (REDUCED) { frame(0); return; }
+    // Pause when scrolled off-screen; resume when it comes back into view.
+    if ("IntersectionObserver" in window) {
+      new IntersectionObserver((entries) => {
+        onScreen = entries[0].isIntersecting;
+        if (onScreen) start();
+      }, { threshold: 0.01 }).observe(canvas);
+    }
+    // Pause when the tab is backgrounded; resume on return.
+    document.addEventListener("visibilitychange", () => { if (!document.hidden) start(); });
+    start();
   }
 
   document.addEventListener("DOMContentLoaded", init);

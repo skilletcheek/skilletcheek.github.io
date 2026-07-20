@@ -9,10 +9,11 @@ const CONFIG = {
   siteName: "RJ Does Dallas",
   tagline: "Your daily guide to Dallas–Fort Worth",
 
-  /* Live event sources. Fill these in AFTER you deploy (see README).
-     Leave blank to run on curated + JSON data only — the site still works. */
-  ticketmasterApiKey: "1TMfuA687o9YVX8gTnBmVIvzWZ6s1VGh", // https://developer.ticketmaster.com
-  seatgeekClientId: "NTk2OTQ4OTV8MTc4NDMxODM2OC4xMjA3NDc2", // https://seatgeek.com/account/develop
+  /* Live event sources. Ticketmaster & SeatGeek are fetched server-side by the
+     nightly GitHub Action (scripts/fetch_events.py, using repo secrets) and
+     merged into live-events.json — so no API keys are exposed in the browser. */
+  ticketmasterApiKey: "", // pulled nightly via repo secret TICKETMASTER_KEY
+  seatgeekClientId: "",   // pulled nightly via repo secret SEATGEEK_CLIENT_ID
   predicthqToken: "",            // optional: https://www.predicthq.com (paid)
   googleSheetCsvUrl: "",         // optional: a "Publish to web -> CSV" URL
   eventsJsonUrl: "events.json",  // simple file you can hand-edit; ships with the site
@@ -228,6 +229,52 @@ const ACTIVITIES = [
     recur: { daily: true }, time: "10:00 AM – 6:00 PM", cost: 25,
     desc: "Indoor LEGO play zones, rides and a 4D cinema at Grapevine Mills.",
     url: "https://legolanddiscoverycenter.com/dallas-fort-worth" },
+
+  // Recreation & attractions (added 2026-07-20)
+  { name: "Dallas Arboretum & Botanical Garden", cat: "outdoors", area: "East Dallas",
+    recur: { daily: true }, time: "9:00 AM – 5:00 PM", cost: 20,
+    desc: "66 acres of display gardens on the shore of White Rock Lake, with seasonal shows (Dallas Blooms in spring, Autumn at the Arboretum's pumpkin village in fall).",
+    url: "https://www.dallasarboretum.org" },
+  { name: "Perot Museum of Nature and Science", cat: "family", area: "Victory Park, Dallas",
+    recur: { daily: true }, time: "10:00 AM – 5:00 PM", cost: 25,
+    desc: "Five floors of hands-on science — dinosaurs, a shake-table earthquake, and a birding-to-space sweep — in the striking cube downtown.",
+    url: "https://www.perotmuseum.org" },
+  { name: "Dallas World Aquarium", cat: "family", area: "Downtown Dallas",
+    recur: { daily: true }, time: "10:00 AM – 5:00 PM", cost: 30,
+    desc: "A walk-through rainforest and tunnel aquarium downtown — sloths, manatees, sharks and a free-flight aviary under one roof.",
+    url: "https://dwazoo.com" },
+  { name: "Fort Worth Zoo", cat: "family", area: "Fort Worth",
+    recur: { daily: true }, time: "10:00 AM – 5:00 PM", cost: 18,
+    desc: "Consistently ranked among the nation's best zoos — the African Savanna, Elephant Springs and a walkable Texas Wild! section.",
+    url: "https://www.fortworthzoo.org" },
+  { name: "Cedar Ridge Preserve Hiking", cat: "outdoors", area: "Cedar Hill",
+    recur: { daily: true }, time: "6:30 AM – Sunset", cost: 0,
+    desc: "600 acres of Escarpment hills with 9+ miles of rugged trails, a butterfly garden and skyline overlooks — free, managed by Audubon Dallas.",
+    url: "https://audubondallas.org/cedar-ridge-preserve" },
+  { name: "Arbor Hills Nature Preserve", cat: "outdoors", area: "Plano",
+    recur: { daily: true }, time: "Sunrise – Sunset", cost: 0,
+    desc: "200 acres of prairie, forest and creek in Plano with paved and mountain-bike trails and a stone lookout tower — free to roam.",
+    url: "https://www.plano.gov/168/Arbor-Hills-Nature-Preserve" },
+  { name: "Trinity River Audubon Center", cat: "outdoors", area: "Southeast Dallas",
+    recur: { weekly: [3,4,5,6,0] }, time: "9:00 AM – 4:00 PM", cost: 6,
+    desc: "A LEED-platinum nature center in the Great Trinity Forest — boardwalks, wetlands, birding blinds and family programs.",
+    url: "https://trinityriver.audubon.org" },
+  { name: "Topgolf The Colony", cat: "sports", area: "The Colony",
+    recur: { daily: true }, time: "9:00 AM – 12:00 AM", cost: null,
+    desc: "Climate-controlled hitting bays, food and drinks — target golf that's fun whether or not you play. Bay pricing rises later in the day.",
+    url: "https://topgolf.com/us/the-colony" },
+  { name: "Epic Waters Indoor Waterpark", cat: "family", area: "Grand Prairie",
+    recur: { daily: true }, time: "11:00 AM – 7:00 PM", cost: 30,
+    desc: "80,000 sq ft of retractable-roof waterpark in Grand Prairie — slides, a wave pool and a lazy river, open rain or shine.",
+    url: "https://epicwatersgp.com" },
+  { name: "Six Flags Over Texas", cat: "family", area: "Arlington",
+    recur: { dateRange: { start: "03-01", end: "11-30", weekly: [5,6,0] } }, time: "11:00 AM – 8:00 PM", cost: null,
+    desc: "The original Six Flags — coasters, thrill rides and family attractions in Arlington, open weekends through the season.",
+    url: "https://www.sixflags.com/overtexas" },
+  { name: "Grapevine Vintage Railroad", cat: "family", area: "Grapevine",
+    recur: { weekly: [5,6] }, time: "Departures — see schedule", cost: 28,
+    desc: "Ride a restored early-1900s train from historic Grapevine to the Fort Worth Stockyards and back behind a vintage locomotive.",
+    url: "https://www.grapevinetexasusa.com/grapevine-vintage-railroad" },
 ];
 
 /* ---- DISTRICTS (radar map + hub pages) ----------------------------------

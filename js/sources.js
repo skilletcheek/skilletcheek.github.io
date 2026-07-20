@@ -271,25 +271,38 @@ function _parseCsv(text) {
 
 /* Aggregate every configured live source for a given date.
    Order matters: earlier sources win when two carry the same event name
-   (your own JSON/Sheet beats the auto-fetched file, which beats direct APIs). */
+   (your own JSON/Sheet beats the auto-fetched file).
+
+   NOTE: Ticketmaster and SeatGeek are intentionally NOT called from the
+   browser. The nightly GitHub Action (scripts/fetch_events.py) already pulls
+   both, de-duplicates them across sources, and writes live-events.json. Calling
+   the APIs again here re-introduced the same events under slightly different
+   titles (so the name-dedupe below missed them) and added a slow cross-origin
+   round-trip to every date change. Loading the pre-built file instead is both
+   duplicate-free and much faster. loadTicketmaster/loadSeatGeek/loadPredictHQ
+   remain defined above if you ever want live API calls back. */
 async function loadLiveEvents(date) {
   const results = await Promise.allSettled([
     loadEventsJson(date),
     loadGoogleSheet(date),
     loadAggregatedJson(date),
-    loadTicketmaster(date),
-    loadSeatGeek(date),
-    loadPredictHQ(date),
   ]);
   const all = results.flatMap((r) => (r.status === "fulfilled" ? r.value : []));
   const seen = new Set();
   return all.filter((e) => {
-    const key = (e.name || "").toLowerCase()
-      .replace(/\(.*?\)/g, " ")      // drop parentheticals like (18+)
-      .replace(/&/g, " and ")
-      .replace(/[^a-z0-9]+/g, " ").trim();
+    const key = _dedupeKey(e.name);
     if (!key || seen.has(key)) return false;
     seen.add(key);
     return true;
   });
+}
+
+/* Normalized title used for de-duplication. Mirrors the server-side key in
+   scripts/fetch_events.py so both layers collapse the same near-duplicates. */
+function _dedupeKey(name) {
+  return (name || "").toLowerCase()
+    .replace(/\(.*?\)/g, " ")            // drop parentheticals like (18+)
+    .replace(/&/g, " and ")
+    .replace(/\b(tickets?|tour|live|concert|presents?|featuring|feat|with special guests?)\b/g, " ")
+    .replace(/[^a-z0-9]+/g, " ").trim();
 }
