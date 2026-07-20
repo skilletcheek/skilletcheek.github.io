@@ -189,8 +189,10 @@ function cardHtml(a, i) {
   const live = isLiveNow(a);
   const districtSlug = RADAR.districtOf(a);
   const dLabel = districtSlug ? (DISTRICTS.find((d) => d.slug === districtSlug) || {}).label : null;
+  // width/height match the .card-thumb box so the browser can reserve the space
+  // before the remote image lands (and it satisfies Lighthouse's sizing audit)
   const thumb = a.image
-    ? `<div class="card-thumb"><img src="${a.image}" alt="" loading="lazy" onerror="this.parentElement.remove()"></div>`
+    ? `<div class="card-thumb"><img src="${a.image}" alt="" width="64" height="64" loading="lazy" decoding="async" onerror="this.parentElement.remove()"></div>`
     : "";
   return `
     <article class="card ${sponsored ? "sponsored" : ""}" data-id="${uid(a)}"
@@ -475,7 +477,7 @@ function openDrawer(a) {
   const live = isLiveNow(a);
   el("modalBody").innerHTML = `
     <div class="dr-tag">/ ${c.label.toUpperCase()} ${live ? `<span class="live-ring"><i></i>${liveWord()} NOW</span>` : ""}</div>
-    ${a.image ? `<div class="dr-img"><img src="${a.image}" alt="" onerror="this.parentElement.remove()"></div>` : ""}
+    ${a.image ? `<div class="dr-img"><img src="${a.image}" alt="" width="640" height="360" decoding="async" onerror="this.parentElement.remove()"></div>` : ""}
     <h2>${a.name}</h2>
     <div class="dr-meta">/ ${fmtDate(state.date).toUpperCase()}</div>
     <div class="dr-meta">/ ${String(a.time).toUpperCase()}</div>
@@ -788,8 +790,12 @@ function boot() {
   loadWire();
   tickClock();
   setInterval(tickClock, 30 * 1000);
-  fetchWeather();
-  setInterval(fetchWeather, 15 * 60 * 1000);
+  // The weather call is decorative (a line in the status bar) and goes to a
+  // third-party host, so keep it off the critical path — it competed with the
+  // event feed at boot for ~600ms.
+  const startWeather = () => { fetchWeather(); setInterval(fetchWeather, 15 * 60 * 1000); };
+  if ("requestIdleCallback" in window) requestIdleCallback(startWeather, { timeout: 3000 });
+  else setTimeout(startWeather, 1200);
   setInterval(updateStatusCount, 60 * 1000);
   render();
   refreshLive();

@@ -20,8 +20,16 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%2308090B'/><circle cx='50' cy='42' r='22' fill='none' stroke='%2300FF87' stroke-width='6'/><path d='M50 64 L50 92 M38 92 L50 64 L62 92' stroke='%2300FF87' stroke-width='5' fill='none'/></svg>" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<!-- Our own CSS first, and it is the only render-blocking stylesheet. The
+     Google Fonts sheet is a third-party request in the critical path, so it is
+     loaded asynchronously (media=print until it arrives, then applied) and the
+     page paints in the fallback stack instead of waiting on fonts.gstatic.com.
+     display=swap already prevents invisible text once it does load. -->
 <link rel="stylesheet" href="/css/styles.css" />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      media="print" onload="this.media='all';this.onload=null" />
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" /></noscript>
 </head>
 <body>
 
