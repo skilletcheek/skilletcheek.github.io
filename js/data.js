@@ -24,7 +24,7 @@ const CONFIG = {
 
   /* Where newsletter signups, event submissions and advertising inquiries go
      when no form endpoint is configured (opens the visitor's email app). */
-  contactEmail: "skilletcheek@gmail.com",
+  contactEmail: "hello@letsdoitdallas.com",
 
   /* DFW search box for live APIs */
   geo: { lat: 32.7767, lng: -96.7970, radiusMiles: 40 },
