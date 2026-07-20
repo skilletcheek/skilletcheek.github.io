@@ -838,6 +838,13 @@ function isTyping() {
 /* ---- boot ------------------------------------------------------------------ */
 function boot() {
   el("year").textContent = new Date().getFullYear();
+  // The footer ships with a working mailto so the link survives a JS failure;
+  // point it at CONFIG so data.js stays the single source for the address.
+  const advertise = el("advertiseLink");
+  if (advertise && CONFIG.contactEmail) {
+    advertise.href = "mailto:" + CONFIG.contactEmail
+      + "?subject=" + encodeURIComponent("Sponsored listing inquiry — " + CONFIG.siteName);
+  }
   readUrl();
   RADAR.init({
     getDayList: () => baseListForDate(state.date).concat(sponsoredForDate(state.date)),

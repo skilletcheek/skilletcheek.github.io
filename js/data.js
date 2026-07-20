@@ -6,7 +6,9 @@
 
 /* ---- SITE CONFIG -------------------------------------------------------- */
 const CONFIG = {
-  siteName: "RJ Does Dallas",
+  // Used only in the mailto subject/body fallbacks — this is the name an
+  // advertiser or subscriber sees in their inbox, so keep it on-brand.
+  siteName: "Lets Do It Dallas",
   tagline: "Your daily guide to Dallas–Fort Worth",
 
   /* Live event sources. Ticketmaster & SeatGeek are fetched server-side by the
@@ -22,7 +24,7 @@ const CONFIG = {
 
   /* Where newsletter signups, event submissions and advertising inquiries go
      when no form endpoint is configured (opens the visitor's email app). */
-  contactEmail: "richard.jenkins@student.uagc.edu",
+  contactEmail: "skilletcheek@gmail.com",
 
   /* DFW search box for live APIs */
   geo: { lat: 32.7767, lng: -96.7970, radiusMiles: 40 },
