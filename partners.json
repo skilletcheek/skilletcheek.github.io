@@ -1,0 +1,5 @@
+{
+  "_readme": "Founding partners shown on /advertise/. Three spots by design — the page counts the open ones automatically, so the hero headline and the 'spots left' badge stay truthful without you editing copy. Add a venue the day they say yes; the page regenerates nightly (or run scripts/fetch_events.py). Fields: name (required), url, area, since (YYYY-MM-DD), logo (path under /img, optional — falls back to a typographic wordmark so you don't need an asset to look finished), quote + quote_by (their 90-day testimonial; leave empty until they give you one).",
+  "seats": 3,
+  "partners": []
+}

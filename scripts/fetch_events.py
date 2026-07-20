@@ -15,6 +15,7 @@ Output rows use the same schema as events.json:
 Stdlib only — no pip installs needed.
 """
 
+import html as _html
 import json
 import os
 import re
@@ -838,10 +839,98 @@ _ADVERTISE_CSS = """
   padding:15px;font-size:12px;letter-spacing:.14em;cursor:pointer;transition:all .18s}
 .a-form button:hover{background:var(--jade);color:var(--white)}
 .a-foot{padding:34px 0;font-family:var(--mono);font-size:11px;letter-spacing:.1em}
+.p-wall{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);margin-top:26px}
+.p-cell{background:var(--bg);min-height:132px;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:8px;padding:24px 16px;text-align:center}
+.p-cell.filled .p-word{font-family:var(--display);font-weight:800;font-size:19px;
+  color:var(--white);letter-spacing:-.01em;line-height:1.2}
+.p-cell.filled img{max-width:160px;max-height:52px;object-fit:contain}
+.p-cell.filled a{display:block}
+.p-area{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;color:#7A8090;margin-top:8px}
+/* Open seats are the offer, not a gap — dashed rule reads as reserved. */
+.p-cell.open{border:1px dashed rgba(255,207,92,.22);margin:-1px;background:var(--bg)}
+.p-num{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:#3A3F4B}
+.p-open{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--gold)}
+@media(max-width:760px){.p-wall{grid-template-columns:1fr}}
+.p-quote{margin:26px 0 0;padding:20px 0 0;border-top:1px solid var(--line);max-width:64ch}
+.p-quote blockquote{margin:0;font-size:16px;color:#C7CCD6;line-height:1.6}
+.p-quote figcaption{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;
+  color:#7A8090;margin-top:12px}
 .demo{border:1px solid var(--line);margin-top:24px}
 .demo-label{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;color:#4A4F5C;
   padding:10px 14px;border-bottom:1px solid var(--line)}
 """
+
+
+def _load_partners():
+    """Read partners.json -> (seats, [partner, ...]). Missing/broken file is
+    treated as "no partners yet" rather than an error: a malformed edit should
+    degrade the section to its empty state, not take the sales page down."""
+    try:
+        d = json.loads((ROOT / "partners.json").read_text())
+    except (ValueError, OSError):
+        return 3, []
+    partners = [p for p in d.get("partners", []) if p.get("name")]
+    return int(d.get("seats", 3) or 3), partners
+
+
+def _partners_section(seats, partners):
+    """The founding-partner wall.
+
+    /advertise/ promises each partner a spot on this page, so the section has to
+    exist before the first venue says yes — otherwise the offer reads hollow at
+    exactly the moment it needs to land. With nobody in it, it renders as three
+    deliberately open slots rather than a blank gap: an empty seat is the offer,
+    not a missing feature.
+    """
+    cells = []
+    for p in partners:
+        name = _html.escape(p.get("name", ""))
+        area = _html.escape(p.get("area", ""))
+        url = _html.escape(safe_http(p.get("url", "")))
+        logo = p.get("logo", "")
+        if logo:
+            mark = '<img src="%s" alt="%s" loading="lazy"/>' % (_html.escape(logo), name)
+        else:
+            mark = '<span class="p-word">%s</span>' % name
+        inner = mark + ('<div class="p-area">%s</div>' % area if area else "")
+        if url:
+            inner = '<a href="%s" target="_blank" rel="noopener">%s</a>' % (url, inner)
+        cells.append('<div class="p-cell filled">%s</div>' % inner)
+
+    for i in range(max(0, seats - len(partners))):
+        cells.append(
+            '<div class="p-cell open"><span class="p-num">%s</span>'
+            '<span class="p-open">OPEN</span></div>'
+            % str(len(partners) + i + 1).zfill(2))
+
+    quotes = "".join(
+        f'<figure class="p-quote"><blockquote>{_html.escape(p["quote"])}</blockquote>'
+        f'<figcaption>— {_html.escape(p.get("quote_by") or p["name"])}</figcaption></figure>'
+        for p in partners if p.get("quote"))
+
+    if partners:
+        lead = ("These venues went first, before there were any numbers to show them.")
+    else:
+        lead = ("Nobody has taken one yet — the site is new and we're not going to "
+                "pretend otherwise. All three seats are open.")
+
+    return f"""
+<section class="a-sec"><div class="wrap">
+  <div class="a-lead">/ FOUNDING PARTNERS</div>
+  <h2>{len(partners)} of {seats} claimed.</h2>
+  <p class="a-sub" style="margin-top:12px">{lead}</p>
+  <div class="p-wall">{"".join(cells)}</div>
+  {quotes}
+</div></section>"""
+
+
+def safe_http(url):
+    """Only http(s) URLs reach the page — a partner entry is hand-edited, but a
+    javascript: or data: URL in a link is not something to ship either way."""
+    u = (url or "").strip()
+    return u if u.startswith(("http://", "https://")) else ""
 
 
 def write_advertise():
@@ -872,6 +961,29 @@ def write_advertise():
     hubs = sum(1 for p in ROOT.rglob("index.html")
                if p.parent != ROOT and p.parent.name != "advertise")
 
+    seats, partners = _load_partners()
+    remaining = max(0, seats - len(partners))
+    _words = {0: "no", 1: "one", 2: "two", 3: "three", 4: "four", 5: "five"}
+    word = _words.get(remaining, str(remaining))
+
+    # Hero copy is derived, not hand-written, so the page can never advertise
+    # seats that are already gone — the wall and the headline can't disagree.
+    if remaining == 0:
+        kicker = "/ FOUNDING PARTNERS — ALL CLAIMED"
+        hero_h1 = "All three founding spots are taken."
+        hero_sub = ("The founding round is closed. If you want the pinned slot when "
+                    "one opens up, tell us and you'll get first refusal — and "
+                    "founding rates when we do start charging.")
+        cta_label = "GET ON THE LIST →"
+    else:
+        seat_word = "spot" if remaining == 1 else "spots"
+        kicker = "/ FOUNDING PARTNERS — %d %s LEFT" % (remaining, seat_word.upper())
+        hero_h1 = "Own the top of Dallas for 90 days. Free."
+        hero_sub = ("We're giving the pinned #1 slot to %s DFW %s at no charge. "
+                    "No card, no contract, no auto-renew. We're new, and we'd rather "
+                    "prove this works than talk you into it." % (word, "venue" if remaining == 1 else "venues"))
+        cta_label = "CLAIM A FOUNDING SPOT →"
+
     email = _config_value("contactEmail") or "hello@letsdoitdallas.com"
     endpoint = _config_value("advertiseEndpoint")
     subject = urllib.parse.quote("Founding partner — Lets Do It Dallas")
@@ -888,10 +1000,10 @@ def write_advertise():
 <input name="email" type="email" placeholder="Your email" required/>
 <input name="link" placeholder="Website or Instagram"/>
 <textarea name="about" rows="3" placeholder="What would you want to promote?"></textarea>
-<button type="submit">CLAIM A FOUNDING SPOT →</button>
+<button type="submit">{cta_label}</button>
 </form>"""
     else:
-        form = f'<a class="a-cta" href="{mailto}">CLAIM A FOUNDING SPOT →</a>'
+        form = f'<a class="a-cta" href="{mailto}">{cta_label}</a>'
 
     title = "Advertise on Lets Do It Dallas — Founding Partners, Free for 90 Days"
     desc = ("Three DFW venues get the pinned top spot on Lets Do It Dallas free "
@@ -919,11 +1031,9 @@ def write_advertise():
 <div class="a-nav"><a href="/">← LETS DO IT DALLAS</a></div>
 
 <header class="a-hero"><div class="wrap">
-  <div class="a-kicker">/ FOUNDING PARTNERS — 3 SPOTS</div>
-  <h1>Own the top of Dallas for 90 days. Free.</h1>
-  <p class="a-sub">We're giving the pinned #1 slot to three DFW venues at no charge.
-  No card, no contract, no auto-renew. We're new, and we'd rather prove this
-  works than talk you into it.</p>
+  <div class="a-kicker">{kicker}</div>
+  <h1>{hero_h1}</h1>
+  <p class="a-sub">{hero_sub}</p>
   {form}
 </div></header>
 
@@ -1009,6 +1119,7 @@ def write_advertise():
   If you want to keep the spot, founding partners keep founding rates.</p>
   {form}
 </div></section>
+{_partners_section(seats, partners)}
 
 <footer class="a-foot"><div class="wrap">
   <a href="/">← BACK TO THE RADAR</a> &nbsp;·&nbsp;

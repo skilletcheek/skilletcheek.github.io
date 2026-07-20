@@ -58,6 +58,24 @@
   padding:15px;font-size:12px;letter-spacing:.14em;cursor:pointer;transition:all .18s}
 .a-form button:hover{background:var(--jade);color:var(--white)}
 .a-foot{padding:34px 0;font-family:var(--mono);font-size:11px;letter-spacing:.1em}
+.p-wall{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);margin-top:26px}
+.p-cell{background:var(--bg);min-height:132px;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:8px;padding:24px 16px;text-align:center}
+.p-cell.filled .p-word{font-family:var(--display);font-weight:800;font-size:19px;
+  color:var(--white);letter-spacing:-.01em;line-height:1.2}
+.p-cell.filled img{max-width:160px;max-height:52px;object-fit:contain}
+.p-cell.filled a{display:block}
+.p-area{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;color:#7A8090;margin-top:8px}
+/* Open seats are the offer, not a gap — dashed rule reads as reserved. */
+.p-cell.open{border:1px dashed rgba(255,207,92,.22);margin:-1px;background:var(--bg)}
+.p-num{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:#3A3F4B}
+.p-open{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--gold)}
+@media(max-width:760px){.p-wall{grid-template-columns:1fr}}
+.p-quote{margin:26px 0 0;padding:20px 0 0;border-top:1px solid var(--line);max-width:64ch}
+.p-quote blockquote{margin:0;font-size:16px;color:#C7CCD6;line-height:1.6}
+.p-quote figcaption{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;
+  color:#7A8090;margin-top:12px}
 .demo{border:1px solid var(--line);margin-top:24px}
 .demo-label{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;color:#4A4F5C;
   padding:10px 14px;border-bottom:1px solid var(--line)}
@@ -66,11 +84,9 @@
 <div class="a-nav"><a href="/">← LETS DO IT DALLAS</a></div>
 
 <header class="a-hero"><div class="wrap">
-  <div class="a-kicker">/ FOUNDING PARTNERS — 3 SPOTS</div>
+  <div class="a-kicker">/ FOUNDING PARTNERS — 3 SPOTS LEFT</div>
   <h1>Own the top of Dallas for 90 days. Free.</h1>
-  <p class="a-sub">We're giving the pinned #1 slot to three DFW venues at no charge.
-  No card, no contract, no auto-renew. We're new, and we'd rather prove this
-  works than talk you into it.</p>
+  <p class="a-sub">We're giving the pinned #1 slot to three DFW venues at no charge. No card, no contract, no auto-renew. We're new, and we'd rather prove this works than talk you into it.</p>
   <a class="a-cta" href="mailto:skilletcheek@gmail.com?subject=Founding%20partner%20%E2%80%94%20Lets%20Do%20It%20Dallas&body=Venue%20/%20business%20name%3A%0AWhat%20you%27d%20want%20to%20promote%3A%0AWebsite%20or%20socials%3A%0ABest%20contact%3A%0A">CLAIM A FOUNDING SPOT →</a>
 </div></header>
 
@@ -155,6 +171,14 @@
   <p class="a-sub">After 90 days there's no obligation and nothing auto-charges.
   If you want to keep the spot, founding partners keep founding rates.</p>
   <a class="a-cta" href="mailto:skilletcheek@gmail.com?subject=Founding%20partner%20%E2%80%94%20Lets%20Do%20It%20Dallas&body=Venue%20/%20business%20name%3A%0AWhat%20you%27d%20want%20to%20promote%3A%0AWebsite%20or%20socials%3A%0ABest%20contact%3A%0A">CLAIM A FOUNDING SPOT →</a>
+</div></section>
+
+<section class="a-sec"><div class="wrap">
+  <div class="a-lead">/ FOUNDING PARTNERS</div>
+  <h2>0 of 3 claimed.</h2>
+  <p class="a-sub" style="margin-top:12px">Nobody has taken one yet — the site is new and we're not going to pretend otherwise. All three seats are open.</p>
+  <div class="p-wall"><div class="p-cell open"><span class="p-num">01</span><span class="p-open">OPEN</span></div><div class="p-cell open"><span class="p-num">02</span><span class="p-open">OPEN</span></div><div class="p-cell open"><span class="p-num">03</span><span class="p-open">OPEN</span></div></div>
+  
 </div></section>
 
 <footer class="a-foot"><div class="wrap">
