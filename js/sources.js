@@ -167,17 +167,25 @@ async function loadPredictHQ(date) {
 }
 
 /* ---- Google Sheet (Publish to web -> CSV) ------------------------------ */
+/* Cached like the JSON feeds — the sheet is a whole-catalog CSV, so pulling it
+   again on every date change was a cross-origin round-trip for data we had. */
+let _sheetRows = null;
 async function loadGoogleSheet(date) {
   if (!CONFIG.googleSheetCsvUrl) return [];
-  try {
-    const res = await fetch(CONFIG.googleSheetCsvUrl);
-    if (!res.ok) throw new Error("Sheet " + res.status);
-    const rows = _parseCsv(await res.text());
-    return _fromRows(rows, date, "sheet");
-  } catch (err) {
-    console.warn("Google Sheet source unavailable:", err.message);
-    return [];
+  if (!_sheetRows) {
+    _sheetRows = fetch(CONFIG.googleSheetCsvUrl)
+      .then((res) => {
+        if (!res.ok) throw new Error("Sheet " + res.status);
+        return res.text();
+      })
+      .then(_parseCsv)
+      .catch((err) => {
+        console.warn("Google Sheet source unavailable:", err.message);
+        _sheetRows = null;
+        return [];
+      });
   }
+  return _fromRows(await _sheetRows, date, "sheet");
 }
 
 /* ---- Hand-editable events.json (ships with the site) ------------------- */
@@ -197,17 +205,35 @@ async function loadEventbriteJson(date) {
   return _loadJsonFile(CONFIG.eventbriteJsonUrl, date, "eventbrite");
 }
 
+/* Feed files are whole-catalog snapshots (live-events.json alone is ~226 KB
+   covering 30 days), but each render needs a single date out of them. Fetching
+   per date change meant three revalidation round-trips and a full re-parse
+   every time the user pressed ← or →. Fetch each file at most once per page
+   view instead, keep the parsed rows in memory, and filter by date locally.
+   The in-flight promise is cached too, so the four parallel loaders never
+   race into duplicate requests for the same file. */
+const _fileCache = new Map();
+
+function _fetchRows(fileUrl) {
+  if (_fileCache.has(fileUrl)) return _fileCache.get(fileUrl);
+  const p = fetch(fileUrl, { cache: "no-cache" })
+    .then((res) => {
+      if (!res.ok) throw new Error("JSON " + res.status);
+      return res.json();
+    })
+    .catch(() => {
+      // Silent: over file:// (or before the Action's first run) this is expected.
+      // Drop the rejected promise so a later navigation can retry.
+      _fileCache.delete(fileUrl);
+      return [];
+    });
+  _fileCache.set(fileUrl, p);
+  return p;
+}
+
 async function _loadJsonFile(fileUrl, date, source) {
   if (!fileUrl) return [];
-  try {
-    const res = await fetch(fileUrl, { cache: "no-cache" });
-    if (!res.ok) throw new Error("JSON " + res.status);
-    const rows = await res.json();
-    return _fromRows(rows, date, source);
-  } catch (err) {
-    // Silent: over file:// (or before the Action's first run) this is expected.
-    return [];
-  }
+  return _fromRows(await _fetchRows(fileUrl), date, source);
 }
 
 /* ---- helpers ----------------------------------------------------------- */
@@ -289,23 +315,33 @@ function _parseCsv(text) {
    duplicate-free and much faster. loadTicketmaster/loadSeatGeek/loadPredictHQ
    remain defined above if you ever want live API calls back. */
 async function loadLiveEvents(date) {
-  const results = await Promise.allSettled([
-    loadEventsJson(date),
-    loadGoogleSheet(date),
-    loadAggregatedJson(date),
-    loadEventbriteJson(date),
+  // The alias table must be in place before the dedupe pass below, but it is
+  // not a source of rows — keep it out of the results array.
+  const [results] = await Promise.all([
+    Promise.allSettled([
+      loadEventsJson(date),
+      loadGoogleSheet(date),
+      loadAggregatedJson(date),
+      loadEventbriteJson(date),
+    ]),
+    _loadVenueAliases(),
   ]);
   const all = results.flatMap((r) => (r.status === "fulfilled" ? r.value : []));
-  const seen = new Set();
-  return all.filter((e) => {
-    const key = _dedupeKey(e.name);
-    if (!key || seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
+  const kept = [];
+  for (const e of all) {
+    const norm = _dedupeKey(e.name);
+    if (!norm) continue;
+    const cand = {
+      tokens: _meaningfulTokens(norm),
+      venue: _venueTokens(e.area),
+      mins: _timeMinutes(e.time),
+    };
+    if (!kept.some((k) => _sameEvent(cand, k.key))) kept.push({ event: e, key: cand });
+  }
+  return kept.map((k) => k.event);
 }
 
-/* Normalized title used for de-duplication. Mirrors the server-side key in
+/* Normalized title used for de-duplication. Mirrors _norm_name() in
    scripts/fetch_events.py so both layers collapse the same near-duplicates. */
 function _dedupeKey(name) {
   return (name || "").toLowerCase()
@@ -314,4 +350,81 @@ function _dedupeKey(name) {
     .replace(/\b(tickets?|tour|live|concert|presents?|featuring|feat|with special guests?)\b/g, " ")
     .replace(/[^a-z0-9]+/g, " ").trim()
     .replace(/^the /, "");
+}
+
+/* The rest of this block mirrors _same_event()/_venue_tokens()/_time_minutes()
+   in scripts/fetch_events.py. It has to: this layer only exists to catch the
+   same show arriving from two *different* browser sources, and a title-only
+   key is far too blunt for that. Keying on the name alone silently deleted
+   every second showtime a venue runs — the 9:45 PM comedy set vanished because
+   it shares a headliner with the 7:30, and the 8:00 PM performance vanished
+   because it shares a title with the matinee. That was ~14% of the catalog on
+   a busy Saturday. Two rows are one event only when the titles share a
+   meaningful word AND the venues agree AND the start times are close. */
+const _STOP = new Set(["the", "a", "an", "at", "vs", "v", "and", "of", "in", "on",
+  "for", "with", "not", "featuring", "night", "show", "series"]);
+const _VAGUE_TIMES = ["", "see details", "all day", "doors — see listing"];
+// Sources disagree about doors vs downbeat, so allow slack — but keep it under
+// the gap between a matinee and an evening show so those stay separate.
+const _TIME_SLACK_MIN = 90;
+
+function _meaningfulTokens(norm) {
+  return new Set(norm.split(" ").filter((t) => t.length > 1 && !_STOP.has(t)));
+}
+
+/* variant venue name -> canonical, keyed by _venueKey. Populated from
+   venue-aliases.json, the same file the nightly fetch reads. Empty until that
+   file loads, which only costs us the duplicates it would have merged. */
+let _venueAliases = new Map();
+
+async function _loadVenueAliases() {
+  if (_venueAliases.size) return;
+  try {
+    const raw = await _fetchRows("venue-aliases.json");
+    const map = new Map();
+    for (const [canonical, variants] of Object.entries(raw.aliases || {})) {
+      for (const v of [...variants, canonical]) map.set(_venueKey(v), canonical);
+    }
+    _venueAliases = map;
+  } catch (_) { /* duplicates survive; nothing else breaks */ }
+}
+
+/* Punctuation/suffix-insensitive form used to look an alias up. Mirrors
+   _venue_key() in scripts/fetch_events.py. */
+function _venueKey(name) {
+  let v = String(name || "").split(",")[0].trim().toLowerCase();
+  v = v.replace(/\s+-\s+[^-]+$/, "");          // trailing city: "… - Sanger"
+  v = v.replace(/&/g, " and ").replace(/['’]/g, "");
+  return v.replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+/* A renamed venue shares no tokens with its old name, so rewrite known
+   variants to one canonical name first — see venue-aliases.json. */
+function _venueTokens(area) {
+  const key = _venueKey(area);
+  const canonical = _venueAliases.get(key);
+  const v = canonical ? _venueKey(canonical) : key;
+  return new Set(v.split(" ").filter((t) => t.length > 1 && !_STOP.has(t)));
+}
+
+function _timeMinutes(t) {
+  const s = String(t || "").trim().toLowerCase();
+  if (_VAGUE_TIMES.includes(s)) return null;
+  const m = String(t || "").match(/^\s*(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+  if (!m) return null;
+  return (parseInt(m[1], 10) % 12 + (m[3].toUpperCase() === "PM" ? 12 : 0)) * 60
+    + parseInt(m[2], 10);
+}
+
+function _subsetOrEqual(a, b) {
+  const fits = (x, y) => [...x].every((t) => y.has(t));
+  return fits(a, b) || fits(b, a);
+}
+
+function _sameEvent(a, b) {
+  if (![...a.tokens].some((t) => b.tokens.has(t))) return false;  // unrelated titles
+  if (!a.venue.size || !b.venue.size) return false;               // unknown venue: don't guess
+  if (!_subsetOrEqual(a.venue, b.venue)) return false;
+  if (a.mins == null || b.mins == null) return true;              // unknown time can't prove separation
+  return Math.abs(a.mins - b.mins) <= _TIME_SLACK_MIN;
 }

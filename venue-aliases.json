@@ -1,0 +1,53 @@
+{
+  "_comment": [
+    "Venues that appear under more than one name across our sources. Both the",
+    "nightly fetch (scripts/fetch_events.py) and the browser (js/sources.js)",
+    "rewrite any variant to its canonical name BEFORE comparing venues, so the",
+    "same show listed by two sources collapses into one card.",
+    "",
+    "WHY THIS EXISTS: duplicate detection requires the two venue names to share",
+    "tokens. A renamed venue defeats that -- 'Southwest Center Mall' and 'The",
+    "Shops at Redbird' are the same address with no word in common, so the same",
+    "UniverSoul Circus run showed up twice, three shows each.",
+    "",
+    "WHY THIS IS THE SAFE FIX: an alias only ever causes a merge when the two",
+    "listings ALSO share a meaningful title word and start within 90 minutes of",
+    "each other. Loosening the venue comparison itself is what previously",
+    "collapsed Jackie Fabulous into Cipha Sounds -- don't do that; add data here",
+    "instead.",
+    "",
+    "ONLY add a genuine rename or spelling variant of ONE physical place. Do NOT",
+    "add two rooms in the same building (House of Blues vs its Cambridge Room,",
+    "South Side Ballroom vs South Side Music Hall) -- those run different shows",
+    "on the same night and must stay separate. Same-name venues in different",
+    "cities (Hyena's Fort Worth vs Hyena's Dallas) are already kept apart by the",
+    "city gate and must not be aliased.",
+    "",
+    "Matching ignores case, punctuation, '&' vs 'and', and a trailing ' - City'.",
+    "So 'Coopers Bar & Grill - Arlington' already matches 'Coopers Bar and Grill'",
+    "without an entry here."
+  ],
+
+  "aliases": {
+    "The Shops at Redbird": [
+      "Southwest Center Mall",
+      "Universoul Circus - Dallas - The Shops at Redbird"
+    ],
+    "Dos Equis Pavilion": [
+      "Gexa Energy Pavilion",
+      "Starplex Pavilion",
+      "Smirnoff Music Centre"
+    ],
+    "Texas Trust CU Theatre": [
+      "Verizon Theatre at Grand Prairie",
+      "Nokia Theatre at Grand Prairie"
+    ],
+    "Choctaw Stadium": [
+      "Globe Life Park in Arlington",
+      "Rangers Ballpark in Arlington"
+    ],
+    "Amplified Live": [
+      "Gas Monkey Live"
+    ]
+  }
+}

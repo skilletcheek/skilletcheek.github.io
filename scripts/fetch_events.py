@@ -833,14 +833,46 @@ def _times_compatible(a, b) -> bool:
     return abs(a - b) <= _TIME_SLACK_MIN
 
 
+ALIAS_FILE = ROOT / "venue-aliases.json"
+
+
+def _load_venue_aliases() -> dict:
+    """variant name -> canonical name, both reduced to a comparison key.
+    Shared with js/sources.js so the browser collapses the same pairs."""
+    try:
+        raw = json.loads(ALIAS_FILE.read_text()).get("aliases", {})
+    except (OSError, ValueError):
+        return {}
+    out = {}
+    for canonical, variants in raw.items():
+        for v in list(variants) + [canonical]:
+            out[_venue_key(v)] = canonical
+    return out
+
+
+def _venue_key(name: str) -> str:
+    """Punctuation/suffix-insensitive form used to look an alias up."""
+    v = (name or "").split(",")[0].strip().lower()
+    v = re.sub(r"\s+-\s+[^-]+$", "", v)        # trailing city: "… - Sanger"
+    v = v.replace("&", " and ").replace("'", "").replace("’", "")
+    return re.sub(r"[^a-z0-9]+", " ", v).strip()
+
+
+_VENUE_ALIASES = _load_venue_aliases()
+
+
 def _venue_tokens(area: str) -> set:
     """Comparable token set for the venue half of an `area` string. Sources
     punctuate and suffix venues differently — "Cooper's Bar & Grill - Arlington"
-    and "Coopers Bar and Grill" must land on the same tokens."""
-    v = (area or "").split(",")[0].strip().lower()
-    v = re.sub(r"\s+-\s+[^-]+$", "", v)        # trailing city: "… - Sanger"
-    v = v.replace("&", " and ").replace("'", "").replace("’", "")
-    v = re.sub(r"[^a-z0-9]+", " ", v)
+    and "Coopers Bar and Grill" must land on the same tokens.
+
+    A renamed venue shares no tokens at all with its old name, which no amount
+    of normalization fixes, so variants are first rewritten to a canonical name
+    via venue-aliases.json (see that file for why this is data and not a looser
+    comparison)."""
+    key = _venue_key(area)
+    canonical = _VENUE_ALIASES.get(key)
+    v = _venue_key(canonical) if canonical else key
     return {t for t in v.split() if t not in _STOP and len(t) > 1}
 
 

@@ -41,12 +41,39 @@ const state = {
   freeOnly: false,
   favesOnly: false,
   live: [],
+  liveStamp: 0,          // bumped whenever state.live is replaced (memo key)
   loadingLive: false,
   faves: new Set(JSON.parse(localStorage.getItem("rjdd:faves") || "[]")),
 };
 
 const el = (id) => document.getElementById(id);
-const uid = (a) => `${a.name}|${a.area}`.toLowerCase().replace(/\s+/g, "-");
+
+/* Event text comes from third-party feeds (Ticketmaster, Eventbrite, Prekindle,
+   the Google Sheet) and goes straight into innerHTML, so it must be escaped.
+   This is not hypothetical: a real listing titled
+   "2026 CORTIS TOUR <PUT YOUR PHONE DOWN> IN IRVING" rendered as
+   "2026 CORTIS TOUR  IN IRVING" — the browser parsed the angle brackets as a
+   tag and ate the words. Titles containing a double quote broke out of
+   data-id="…" and left the card with no working click handler at all. */
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+/* Feed URLs land in href/src attributes. Anything that is not http(s) — a
+   javascript: or data: URL from a compromised or sloppy feed — becomes a
+   harmless "#" rather than something the visitor can click into. */
+function safeUrl(u) {
+  const s = String(u ?? "").trim();
+  return /^https?:\/\//i.test(s) ? s : "#";
+}
+
+/* Stable per-event identity, used for favorites and for matching a clicked
+   card back to its data. Must include the time: venues run the same act twice
+   in one night (a 7:30 and a 9:45 set) at the same address, and keying on
+   name+area alone made those two cards indistinguishable — clicking the late
+   show opened the early show's drawer and its ticket link. */
+const uid = (a) => `${a.name}|${a.area}|${a.time}`.toLowerCase().replace(/[^a-z0-9|]+/g, "-");
 
 /* ---- date/time helpers --------------------------------------------------- */
 function fmtDate(d) {
@@ -115,11 +142,20 @@ function sponsoredForDate(date) {
     .map((s) => ({ ...s, source: "sponsored", sponsor: s.sponsor || "Sponsored" }));
 }
 
+/* A single render asks for the day's list up to four times (grid, radar, ON NOW
+   rail, status count), and each call re-ran the recurrence engine over every
+   curated activity and rebuilt the array. Memoize it for the current date +
+   live payload; refreshLive() and any state change that swaps state.live bumps
+   the stamp, so this can never serve a stale day. */
+let _dayCache = { key: null, list: null };
 function baseListForDate(date) {
+  const key = isoDate(date) + "|" + state.liveStamp;
+  if (_dayCache.key === key) return _dayCache.list;
   const curated = ACTIVITIES.filter((a) => happensOn(a, date)).map((a) => ({ ...a, source: "curated" }));
   const seen = new Set(curated.map((c) => c.name.toLowerCase()));
   const liveClean = state.live.filter((l) => !seen.has((l.name || "").toLowerCase()));
-  return [...curated, ...liveClean];
+  _dayCache = { key, list: [...curated, ...liveClean] };
+  return _dayCache.list;
 }
 
 function applyFilters(list) {
@@ -192,26 +228,26 @@ function cardHtml(a, i) {
   // width/height match the .card-thumb box so the browser can reserve the space
   // before the remote image lands (and it satisfies Lighthouse's sizing audit)
   const thumb = a.image
-    ? `<div class="card-thumb"><img src="${a.image}" alt="" width="64" height="64" loading="lazy" decoding="async" onerror="this.parentElement.remove()"></div>`
+    ? `<div class="card-thumb"><img src="${esc(safeUrl(a.image))}" alt="" width="64" height="64" loading="lazy" decoding="async" onerror="this.parentElement.remove()"></div>`
     : "";
   return `
-    <article class="card ${sponsored ? "sponsored" : ""}" data-id="${uid(a)}"
+    <article class="card ${sponsored ? "sponsored" : ""}" data-id="${esc(uid(a))}"
              style="--d:${Math.min((i || 0) * 40, 400)}ms">
       <div class="card-toprow">
         <span class="idx">(${String((i || 0) + 1).padStart(2, "0")})</span>
-        <span class="tag">/ ${c.label.toUpperCase()}</span>
+        <span class="tag">/ ${esc(c.label.toUpperCase())}</span>
         ${live ? `<span class="live-ring" title="Happening now"><i></i>${liveWord()}</span>` : ""}
         ${sponsored ? `<span class="spon">★ SPONSORED</span>` : ""}
       </div>
       <div class="card-mid">
         <div class="card-txt">
-          <h3>${a.name}</h3>
-          <div class="meta">/ ${fmtMono(state.date)} · ${String(a.time).toUpperCase()}</div>
-          <div class="meta">/ ${(dLabel || a.area || "DFW").toUpperCase()}</div>
+          <h3>${esc(a.name)}</h3>
+          <div class="meta">/ ${fmtMono(state.date)} · ${esc(String(a.time).toUpperCase())}</div>
+          <div class="meta">/ ${esc((dLabel || a.area || "DFW").toUpperCase())}</div>
         </div>
         ${thumb}
       </div>
-      <p class="desc">${a.desc || ""}</p>
+      <p class="desc">${esc(a.desc || "")}</p>
       <div class="card-foot">
         ${costBadge(a)}
         <div class="foot-actions">
@@ -229,6 +265,23 @@ function adCardHtml() {
 }
 
 /* ---- render -------------------------------------------------------------- */
+/* Maps the data-id on a rendered card back to its event. Rebuilt each render. */
+let gridIndex = new Map();
+
+function wireGridDelegation() {
+  const grid = el("grid");
+  if (!grid) return;
+  grid.addEventListener("click", (e) => {
+    const cardEl = e.target.closest(".card");
+    if (!cardEl) return;
+    const item = gridIndex.get(cardEl.dataset.id);
+    if (!item) return;
+    const act = e.target.closest("[data-act]");
+    if (act && act.dataset.act === "fav") { e.stopPropagation(); toggleFav(item); return; }
+    openDrawer(item);
+  });
+}
+
 function render() {
   el("dateDisplay").textContent = fmtDate(state.date);
   el("datePicker").value = isoDate(state.date);
@@ -287,16 +340,11 @@ function render() {
       if (CONFIG.adsEnabled && i === 5) html += adCardHtml();
     });
     grid.innerHTML = html;
-    grid.querySelectorAll(".card").forEach((cardEl) => {
-      const id = cardEl.dataset.id;
-      const item = list.find((x) => uid(x) === id);
-      if (!item) return;
-      const favBtn = cardEl.querySelector('[data-act="fav"]');
-      const openBtn = cardEl.querySelector('[data-act="open"]');
-      if (favBtn) favBtn.onclick = (e) => { e.stopPropagation(); toggleFav(item); };
-      if (openBtn) openBtn.onclick = (e) => { e.stopPropagation(); openDrawer(item); };
-      cardEl.onclick = () => openDrawer(item);
-    });
+    // Look-ups go through a Map instead of list.find() per card: wiring 400
+    // cards meant 400 linear scans, each rebuilding uid() strings — ~80k
+    // needless string ops. The click handlers themselves are delegated once in
+    // wireControls() rather than re-bound on every render.
+    gridIndex = new Map(list.map((a) => [uid(a), a]));
   }
 
   RADAR.update(baseListForDate(state.date).concat(sponsored));
@@ -322,14 +370,15 @@ function renderOnNow() {
   box.hidden = false;
   el("onnowLabel").textContent = `${liveWord()} NOW — ${count}`;
   el("onnowRail").innerHTML = live.map((a) => `
-    <div class="onnow-card" data-id="${uid(a)}">
-      <div class="oc-name">${a.name}</div>
-      <div class="oc-meta">/ ${String(a.time).toUpperCase()}</div>
-      <div class="oc-meta">/ ${(a.area || "DFW").toUpperCase()}</div>
+    <div class="onnow-card" data-id="${esc(uid(a))}">
+      <div class="oc-name">${esc(a.name)}</div>
+      <div class="oc-meta">/ ${esc(String(a.time).toUpperCase())}</div>
+      <div class="oc-meta">/ ${esc((a.area || "DFW").toUpperCase())}</div>
     </div>`).join("");
+  const byId = new Map(live.map((a) => [uid(a), a]));
   el("onnowRail").querySelectorAll(".onnow-card").forEach((c) => {
     c.onclick = () => {
-      const item = live.find((x) => uid(x) === c.dataset.id);
+      const item = byId.get(c.dataset.id);
       if (item) openDrawer(item);
     };
   });
@@ -476,18 +525,18 @@ function openDrawer(a) {
   const isHouseAd = a.url === "#advertise";
   const live = isLiveNow(a);
   el("modalBody").innerHTML = `
-    <div class="dr-tag">/ ${c.label.toUpperCase()} ${live ? `<span class="live-ring"><i></i>${liveWord()} NOW</span>` : ""}</div>
-    ${a.image ? `<div class="dr-img"><img src="${a.image}" alt="" width="640" height="360" decoding="async" onerror="this.parentElement.remove()"></div>` : ""}
-    <h2>${a.name}</h2>
+    <div class="dr-tag">/ ${esc(c.label.toUpperCase())} ${live ? `<span class="live-ring"><i></i>${liveWord()} NOW</span>` : ""}</div>
+    ${a.image ? `<div class="dr-img"><img src="${esc(safeUrl(a.image))}" alt="" width="640" height="360" decoding="async" onerror="this.parentElement.remove()"></div>` : ""}
+    <h2>${esc(a.name)}</h2>
     <div class="dr-meta">/ ${fmtDate(state.date).toUpperCase()}</div>
-    <div class="dr-meta">/ ${String(a.time).toUpperCase()}</div>
-    <div class="dr-meta">/ ${(a.area || "DFW").toUpperCase()}</div>
-    <p class="dr-desc">${a.desc || "No description provided."}</p>
-    <div class="dr-meta">${costBadge(a)} ${a.sponsor ? `<span class="badge">SPONSORED · ${a.sponsor.toUpperCase()}</span>` : ""}</div>
+    <div class="dr-meta">/ ${esc(String(a.time).toUpperCase())}</div>
+    <div class="dr-meta">/ ${esc((a.area || "DFW").toUpperCase())}</div>
+    <p class="dr-desc">${esc(a.desc || "No description provided.")}</p>
+    <div class="dr-meta">${costBadge(a)} ${a.sponsor ? `<span class="badge">SPONSORED · ${esc(a.sponsor.toUpperCase())}</span>` : ""}</div>
     <div class="modal-actions">
       ${isHouseAd
         ? `<button class="btn primary" id="advertiseBtn">GET STARTED ↗</button>`
-        : (a.url && a.url !== "#" ? `<a class="btn primary" href="${outUrl}" target="_blank" rel="noopener">TICKETS & INFO ↗</a>` : "")}
+        : (a.url && a.url !== "#" ? `<a class="btn primary" href="${esc(safeUrl(outUrl))}" target="_blank" rel="noopener">TICKETS & INFO ↗</a>` : "")}
       ${isHouseAd ? "" : `<a class="btn" href="https://www.google.com/maps/search/?api=1&query=${mapQ}" target="_blank" rel="noopener">DIRECTIONS ↗</a>
       <button class="btn" id="icsBtn">ADD TO CALENDAR</button>
       <button class="btn" id="shareBtn">SHARE</button>
@@ -625,10 +674,10 @@ async function loadWire() {
     const items = await res.json();
     if (!items.length) throw 0;
     el("wireList").innerHTML = items.slice(0, 10).map((p, i) => `
-      <a class="wire-row" href="${p.url}" target="_blank" rel="noopener">
+      <a class="wire-row" href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener">
         <span class="idx">(${String(i + 1).padStart(2, "0")})</span>
-        <span class="wl-title">${p.title}</span>
-        <span class="wl-src">/ ${(p.source || "").toUpperCase()}</span>
+        <span class="wl-title">${esc(p.title)}</span>
+        <span class="wl-src">/ ${esc((p.source || "").toUpperCase())}</span>
       </a>`).join("");
   } catch (_) {
     const sec = el("wireSection");
@@ -667,10 +716,12 @@ async function refreshLive() {
   const my = ++liveToken;
   state.loadingLive = true;
   state.live = [];
+  state.liveStamp++;
   render();
   const events = await loadLiveEvents(state.date);
   if (my !== liveToken) return;
   state.live = events;
+  state.liveStamp++;
   state.loadingLive = false;
   render();
 }
@@ -707,7 +758,17 @@ function wireControls() {
     const [y, m, d] = e.target.value.split("-").map(Number);
     goToDate(new Date(y, m - 1, d));
   };
-  el("searchInput").oninput = (e) => { state.search = e.target.value; render(); };
+  /* Every keystroke used to rebuild the whole grid, re-serialize the JSON-LD
+     block and call history.replaceState — ~5 ms a character on a desktop and
+     several times that on a phone, so fast typing visibly stuttered. (Safari
+     also rate-limits replaceState and throws once a burst exceeds its cap.)
+     Coalesce to one render per input pause instead. */
+  let searchTimer;
+  el("searchInput").oninput = (e) => {
+    state.search = e.target.value;
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(render, 120);
+  };
   el("sort").onchange = (e) => { state.sort = e.target.value; render(); };
   el("freeToggle").onclick = () => { state.freeOnly = !state.freeOnly; render(); };
   el("faveToggle").onclick = () => { state.favesOnly = !state.favesOnly; render(); };
@@ -784,6 +845,7 @@ function boot() {
     activeDistrict: () => state.district,
   });
   wireControls();
+  wireGridDelegation();
   wireForms();
   wireBridge();
   renderItineraries();

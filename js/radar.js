@@ -63,7 +63,8 @@ const RADAR = (function () {
     card.innerHTML = `
       <div class="rc-head">/ ${d.label.toUpperCase()} — ${todays.length} TODAY</div>
       ${top.length
-        ? top.map((a) => `<div class="rc-row"><span>${a.name}</span><em>${a.time}</em></div>`).join("")
+        // event names/times are third-party feed text — escape (esc() lives in app.js)
+        ? top.map((a) => `<div class="rc-row"><span>${esc(a.name)}</span><em>${esc(a.time)}</em></div>`).join("")
         : `<div class="rc-row"><span>Quiet today — check another date.</span></div>`}`;
     card.style.left = Math.min(d.x / 800 * 100, 62) + "%";
     card.style.top = Math.max(d.y / 520 * 100 - 8, 4) + "%";
