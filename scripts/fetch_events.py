@@ -19,6 +19,8 @@ import json
 import os
 import re
 import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -359,6 +361,187 @@ def fetch_prekindle(start, end):
                            ev.get("image")))
             count += 1
         print(f"prekindle ({venue}): {count} events")
+    return out
+
+
+# ------------------------------------------------------------------- Eventbrite
+# Eventbrite retired its public event-search API (/v3/events/search/ now 404s
+# without a token, and tokens only reach events you own), so there is no
+# supported way to query "events in Dallas" through the API.
+#
+# Their city discovery pages, however, embed a schema.org ItemList of Events —
+# the same machine-readable pattern we already parse for Prekindle. As of
+# 2026-07 robots.txt allows /d/ for generic user agents (it disallows their
+# internal /api/v3/destination/* and /rss/ paths, which we don't touch).
+# 20 events per page; we walk a few pages per city.
+EVENTBRITE_PAGE = "https://www.eventbrite.com/d/{slug}/all-events/?page={page}"
+
+# Eventbrite tags each event with its own taxonomy, which beats guessing from
+# the title. Anything unmapped (or their catch-all "Other") falls through to the
+# keyword pass below.
+EB_CATEGORY_MAP = {
+    "music": "music",
+    "food & drink": "food",
+    "arts": "arts", "film & media": "arts", "science & technology": "arts",
+    "sports & fitness": "sports", "health & wellness": "sports",
+    "travel & outdoor": "outdoors",
+    "family & education": "family",
+    "fashion & beauty": "market", "home & lifestyle": "market",
+    "hobbies & special interest": "market",
+    "seasonal & holiday": "festival", "community & culture": "festival",
+    "charity & causes": "festival", "religion & spirituality": "festival",
+    "business & professional": "festival", "government & politics": "festival",
+    "auto, boat & air": "festival",
+}
+EB_KEYWORDS = [
+    ("music",     r"concert|live music|\bband\b|orchestra|jazz|hip hop|open mic|karaoke"),
+    ("food",      r"\bfood\b|wine|beer|brunch|tasting|dinner|cocktail|brewery|culinary|bbq"),
+    ("arts",      r"\bart\b|gallery|museum|theat|painting|poetry|exhibit"),
+    ("outdoors",  r"hike|hiking|\b5k\b|yoga|trail|cycling|kayak|garden"),
+    ("sports",    r"tournament|rodeo|league|boxing|wrestl|\bgolf\b"),
+    ("family",    r"\bkids\b|family|children|storytime|toddler"),
+    ("market",    r"market|vendor|pop-?up|bazaar|craft fair|flea"),
+    ("nightlife", r"party|comedy|nightclub|late night|happy hour|day party"),
+    ("festival",  r"festival|\bfest\b|celebration|expo|convention"),
+]
+
+
+def eb_category(tags, text: str) -> str:
+    for t in tags or []:
+        if t.get("prefix") == "EventbriteCategory":
+            mapped = EB_CATEGORY_MAP.get((t.get("display_name") or "").strip().lower())
+            if mapped:
+                return mapped
+    low = (text or "").lower()
+    for cat, pattern in EB_KEYWORDS:
+        if re.search(pattern, low):
+            return cat
+    return "festival"
+
+
+def _eb_from_server_data(html: str):
+    """Preferred path: the page's own __SERVER_DATA__ blob. Richer than the
+    JSON-LD — it carries start_time, the online-event flag and Eventbrite's
+    category tags, none of which appear in the structured-data block."""
+    i = html.find("window.__SERVER_DATA__")
+    if i < 0:
+        return []
+    j = html.find("{", i)
+    if j < 0:
+        return []
+    try:
+        data, _ = json.JSONDecoder().raw_decode(html[j:])
+        results = ((data.get("search_data") or {}).get("events") or {}).get("results") or []
+    except Exception:  # noqa: BLE001
+        return []
+    out = []
+    for e in results:
+        if e.get("is_online_event") or e.get("is_cancelled"):
+            continue           # a city guide wants things you can physically attend
+        venue = e.get("primary_venue") or {}
+        addr = venue.get("address") or {}
+        out.append({
+            "name": e.get("name"),
+            "date": (e.get("start_date") or "")[:10],
+            "time": pretty_time(e.get("start_time") or "") if e.get("start_time") else "See details",
+            "venue": venue.get("name"),
+            "city": addr.get("city"),
+            "region": addr.get("region"),
+            "desc": e.get("summary"),
+            "url": (e.get("url") or "").split("?")[0],
+            "image": e.get("image", {}).get("url") if isinstance(e.get("image"), dict) else e.get("image"),
+            "cat": eb_category(e.get("tags"), f"{e.get('name','')} {e.get('summary','')}"),
+        })
+    return out
+
+
+def _eb_from_jsonld(html: str):
+    """Fallback if the blob above moves or is renamed: the schema.org ItemList
+    is a public contract and less likely to change, but it has no start times."""
+    out = []
+    for block in re.findall(r'<script type="application/ld\+json"[^>]*>(.*?)</script>',
+                            html, re.S):
+        try:
+            data = json.loads(block)
+        except Exception:  # noqa: BLE001
+            continue
+        if not (isinstance(data, dict) and data.get("@type") == "ItemList"):
+            continue
+        for item in data.get("itemListElement") or []:
+            ev = item.get("item") or {}
+            if ev.get("@type") != "Event":
+                continue
+            place = ev.get("location") or {}
+            addr = place.get("address") or {}
+            raw = str(ev.get("startDate") or "")
+            out.append({
+                "name": ev.get("name"), "date": raw[:10],
+                "time": pretty_time(raw[11:16]) if len(raw) >= 16 else "See details",
+                "venue": place.get("name"), "city": addr.get("addressLocality"),
+                "region": addr.get("addressRegion"), "desc": ev.get("description"),
+                "url": (ev.get("url") or "").split("?")[0], "image": ev.get("image"),
+                "cat": eb_category(None, f"{ev.get('name','')} {ev.get('description','')}"),
+            })
+    return out
+
+
+def _eb_get(url: str, label: str, attempts: int = 3):
+    """Fetch a discovery page, backing off on 429. Eventbrite throttles bursts,
+    and a throttled source must degrade to "no events" rather than fail the
+    nightly build — every caller treats None as 'stop walking this city'."""
+    for attempt in range(attempts):
+        try:
+            return http_text(url)
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < attempts - 1:
+                wait = 5 * (attempt + 1)
+                print(f"eventbrite throttled ({label}), retrying in {wait}s", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            print(f"eventbrite failed ({label}): {e}", file=sys.stderr)
+            return None
+        except Exception as e:  # noqa: BLE001
+            print(f"eventbrite failed ({label}): {e}", file=sys.stderr)
+            return None
+    return None
+
+
+def fetch_eventbrite(start, end):
+    if not FEEDS_FILE.exists():
+        return []
+    try:
+        locations = json.loads(FEEDS_FILE.read_text()).get("eventbrite_locations", [])
+    except Exception:  # noqa: BLE001
+        return []
+    lo, hi = start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
+    out = []
+    for loc in locations:
+        slug = loc.get("slug")
+        if not slug:
+            continue
+        kept = 0
+        for page in range(1, int(loc.get("pages", 3)) + 1):
+            html = _eb_get(EVENTBRITE_PAGE.format(slug=slug, page=page), f"{slug} p{page}")
+            if html is None:
+                break
+            events = _eb_from_server_data(html) or _eb_from_jsonld(html)
+            if not events:
+                break                  # out of results, or the markup moved on us
+            for e in events:
+                if not (e["name"] and lo <= e["date"] <= hi):
+                    continue
+                if not is_dfw_city(e["city"], e["region"]):
+                    continue
+                out.append(row(
+                    e["name"], e["cat"],
+                    ", ".join(x for x in [e["venue"], e["city"]] if x),
+                    e["date"], e["time"],
+                    None,              # the discovery page carries no price
+                    e["desc"], e["url"], e["image"],
+                ))
+                kept += 1
+            time.sleep(2.0)            # be a polite guest on someone else's HTML
+        print(f"eventbrite ({slug}): {kept} events")
     return out
 
 
@@ -737,7 +920,7 @@ def main():
     # contribute shows the ticketing APIs don't already have.
     rows = (fetch_ticketmaster(start, end) + fetch_seatgeek(start, end)
             + fetch_ics_feeds(start, end) + fetch_prekindle(start, end)
-            + fetch_seated(start, end))
+            + fetch_eventbrite(start, end) + fetch_seated(start, end))
 
     unique = dedupe(rows)
 

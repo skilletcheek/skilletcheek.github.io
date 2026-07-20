@@ -1,5 +1,5 @@
 {
-  "_readme": "ics_feeds: any public iCal/ICS calendar feed (venue, city, church, library — look for a 'Subscribe/Export .ics' link); events land in live-events.json nightly. category must be one of: music, food, arts, outdoors, sports, family, market, nightlife, festival. prekindle_pages: local venues that sell through Prekindle — their public listing page (prekindle.com/events/<slug>) embeds schema.org JSON-LD we parse nightly; to add a venue, find its slug on prekindle.com and add {slug, venue, area}. seated_artists: artists who sell direct through seated.com — its API is keyed by ARTIST, not city, so we walk this watchlist and keep only their DFW-area dates. To add one: open the artist's tour page, view source, copy the UUID from data-artist-id=\"...\", and add {artist, id, category}. Best used for artists who are NOT on Ticketmaster; anything that is on TM will already arrive there and get deduped away. rss_feeds: DFW publication article feeds shown in the site's press wire (headlines, not event rows). CultureMap Dallas and Visit Dallas publish no machine-readable feeds as of 2026-07; their events can arrive via the Google Sheet or any ICS they add later.",
+  "_readme": "ics_feeds: any public iCal/ICS calendar feed (venue, city, church, library — look for a 'Subscribe/Export .ics' link); events land in live-events.json nightly. category must be one of: music, food, arts, outdoors, sports, family, market, nightlife, festival. prekindle_pages: local venues that sell through Prekindle — their public listing page (prekindle.com/events/<slug>) embeds schema.org JSON-LD we parse nightly; to add a venue, find its slug on prekindle.com and add {slug, venue, area}. eventbrite_locations: Eventbrite city discovery pages (eventbrite.com/d/<slug>/all-events/), whose HTML embeds a schema.org ItemList of Events — their public search API was retired, so this is the only key-free route. 20 events per page; \"pages\" controls how deep to walk each city. Add a city as {slug, pages} using Eventbrite's own slug format (tx--city-name). seated_artists: artists who sell direct through seated.com — its API is keyed by ARTIST, not city, so we walk this watchlist and keep only their DFW-area dates. To add one: open the artist's tour page, view source, copy the UUID from data-artist-id=\"...\", and add {artist, id, category}. Best used for artists who are NOT on Ticketmaster; anything that is on TM will already arrive there and get deduped away. rss_feeds: DFW publication article feeds shown in the site's press wire (headlines, not event rows). CultureMap Dallas and Visit Dallas publish no machine-readable feeds as of 2026-07; their events can arrive via the Google Sheet or any ICS they add later.",
   "ics_feeds": [
   ],
   "prekindle_pages": [
@@ -10,6 +10,14 @@
     { "url": "https://www.prekindle.com/kessler/", "venue": "The Kessler Theater", "area": "Oak Cliff" },
     { "url": "https://www.prekindle.com/events/poordavidspub", "venue": "Poor David's Pub", "area": "The Cedars, Dallas" },
     { "url": "https://www.prekindle.com/events/threelinks", "venue": "Three Links", "area": "Deep Ellum" }
+  ],
+  "eventbrite_locations": [
+    { "slug": "tx--dallas", "pages": 4 },
+    { "slug": "tx--fort-worth", "pages": 3 },
+    { "slug": "tx--arlington", "pages": 2 },
+    { "slug": "tx--plano", "pages": 2 },
+    { "slug": "tx--irving", "pages": 1 },
+    { "slug": "tx--frisco", "pages": 1 }
   ],
   "seated_artists": [
     { "artist": "Charley Crockett", "id": "eb7c2b87-b4c8-4918-9a17-a36371d524a9", "category": "music" },
