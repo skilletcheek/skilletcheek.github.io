@@ -32,6 +32,9 @@ const CONFIG = {
   /* Monetization endpoints (optional — forms degrade gracefully if blank) */
   newsletterEndpoint: "",        // e.g. a Formspree or Mailchimp form-action URL
   submitEventEndpoint: "",       // e.g. a Formspree URL for the "Submit an event" form
+  advertiseEndpoint: "",         // Formspree URL for /advertise/ — blank falls back to a
+                                 // pre-filled mailto. Read at build time by
+                                 // scripts/fetch_events.py, so regenerate after changing it.
   affiliateTag: "",              // appended to outbound ticket links, if your program uses one
   adsEnabled: false,             // flip true once an ad network (AdSense/Ezoic) is approved
 };

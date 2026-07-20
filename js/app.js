@@ -545,14 +545,9 @@ function openDrawer(a) {
   el("modal").classList.add("open");
   document.body.classList.add("drawer-open");
   if (isHouseAd) {
-    el("advertiseBtn").onclick = () => {
-      location.href = "mailto:" + CONFIG.contactEmail
-        + "?subject=" + encodeURIComponent("Sponsored listing inquiry — " + CONFIG.siteName)
-        + "&body=" + encodeURIComponent(
-          "Hi! I'd like to feature my event/venue on " + CONFIG.siteName + ".\n\n"
-          + "Business/event name:\nDates I want featured:\nLink:\n");
-      closeDrawer();
-    };
+    // Send them to the sales page rather than straight to a mailto — the page
+    // does the selling, and a blank compose window converts badly.
+    el("advertiseBtn").onclick = () => { location.href = "/advertise/"; };
   } else {
     el("icsBtn").onclick = () => downloadIcs(a);
     el("shareBtn").onclick = () => shareEvent(a);
@@ -840,11 +835,8 @@ function boot() {
   el("year").textContent = new Date().getFullYear();
   // The footer ships with a working mailto so the link survives a JS failure;
   // point it at CONFIG so data.js stays the single source for the address.
-  const advertise = el("advertiseLink");
-  if (advertise && CONFIG.contactEmail) {
-    advertise.href = "mailto:" + CONFIG.contactEmail
-      + "?subject=" + encodeURIComponent("Sponsored listing inquiry — " + CONFIG.siteName);
-  }
+  // Footer link now points at /advertise/; the mailto in the markup stays as the
+  // no-JS fallback, so this override is no longer needed.
   readUrl();
   RADAR.init({
     getDayList: () => baseListForDate(state.date).concat(sponsoredForDate(state.date)),

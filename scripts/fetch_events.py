@@ -779,6 +779,250 @@ li span{{display:block;font-family:ui-monospace,monospace;font-size:11px;color:#
 </body></html>"""
 
 
+def _config_value(key):
+    """Pull a string value out of the CONFIG block in js/data.js.
+
+    Same single-source trick as _analytics_snippet(): data.js stays the one
+    place a non-coder edits, and generated pages follow it instead of keeping
+    their own copy that silently drifts.
+    """
+    try:
+        js = (ROOT / "js" / "data.js").read_text()
+    except OSError:
+        return ""
+    m = re.search(key + r'\s*:\s*"([^"]*)"', js)
+    return m.group(1) if m else ""
+
+
+# Kept out of the f-string below so the CSS braces don't need doubling.
+_ADVERTISE_CSS = """
+.wrap{max-width:1100px;margin:0 auto;padding:0 var(--pad)}
+.a-nav{border-bottom:1px solid var(--line);padding:14px var(--pad);
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em}
+.a-hero{padding:clamp(40px,8vw,90px) 0 clamp(30px,5vw,60px);border-bottom:1px solid var(--line)}
+.a-kicker{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--gold);margin-bottom:18px}
+.a-hero h1{font-size:clamp(32px,6vw,60px);line-height:1.04;letter-spacing:-.01em;max-width:16ch}
+.a-sub{font-size:clamp(15px,2vw,18px);max-width:56ch;margin-top:20px;color:#9AA1B0}
+.a-sec{padding:clamp(36px,6vw,68px) 0;border-bottom:1px solid var(--line)}
+.a-sec h2{font-size:clamp(20px,3vw,28px);margin-bottom:8px}
+.a-lead{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--em);margin-bottom:16px}
+.a-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);margin-top:26px}
+.a-cols>div{background:var(--bg);padding:24px 20px}
+.a-cols h3{font-size:15px;margin-bottom:8px}
+.a-cols p{margin:0;font-size:13.5px;color:#7A8090}
+@media(max-width:760px){.a-cols{grid-template-columns:1fr}}
+.a-stats{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);margin-top:26px}
+.a-stats>div{background:var(--bg);padding:22px 16px;text-align:center}
+.a-stats .n{font-family:var(--display);font-size:clamp(22px,3vw,32px);color:var(--em);font-weight:800;line-height:1}
+.a-stats .l{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;margin-top:9px;color:#7A8090}
+/* 5 stats into 2 columns leaves an empty 6th cell that reads as a broken
+   box against the 1px grid — let the last one span the row instead. */
+@media(max-width:760px){.a-stats{grid-template-columns:repeat(2,1fr)}
+  .a-stats>div:last-child{grid-column:1/-1}}
+.a-note{border-left:2px solid var(--jade);padding:4px 0 4px 20px;margin-top:24px;
+  max-width:68ch;color:#9AA1B0;font-size:14.5px}
+.a-ask{margin:22px 0 0;padding:0;list-style:none;max-width:64ch}
+.a-ask li{padding:12px 0;border-bottom:1px solid var(--line);font-size:14.5px}
+.a-ask li::before{content:"/ ";color:var(--em);font-family:var(--mono)}
+.a-cta{display:inline-block;margin-top:26px;border:1px solid var(--em-dim);color:var(--em);
+  background:rgba(14,58,47,.18);padding:16px 26px;font-family:var(--mono);
+  font-size:12px;letter-spacing:.14em;transition:all .18s}
+.a-cta:hover{background:var(--jade);color:var(--white)}
+.a-form{display:grid;gap:12px;max-width:520px;margin-top:24px}
+.a-form input,.a-form textarea{background:var(--bg-2);border:1px solid var(--line);color:var(--white);
+  padding:13px 14px;font-family:var(--body);font-size:14px;border-radius:0}
+.a-form input:focus,.a-form textarea:focus{outline:none;border-color:var(--em-dim)}
+.a-form button{background:rgba(14,58,47,.18);border:1px solid var(--em-dim);color:var(--em);
+  padding:15px;font-size:12px;letter-spacing:.14em;cursor:pointer;transition:all .18s}
+.a-form button:hover{background:var(--jade);color:var(--white)}
+.a-foot{padding:34px 0;font-family:var(--mono);font-size:11px;letter-spacing:.1em}
+.demo{border:1px solid var(--line);margin-top:24px}
+.demo-label{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;color:#4A4F5C;
+  padding:10px 14px;border-bottom:1px solid var(--line)}
+"""
+
+
+def write_advertise():
+    """Generate /advertise/ — the sponsorship sales page.
+
+    Generated rather than hand-written so the inventory numbers are recomputed
+    from the real feed every night. A stale "648 events" on a page a venue
+    owner is reading is exactly the kind of thing that costs a sale.
+
+    Deliberately quotes INVENTORY, never audience. The site is new and has no
+    meaningful traffic history, and inventing one for a sales page aimed at
+    local business owners is both dishonest and trivially checkable.
+    """
+    events = []
+    for fname in ("live-events.json", "eventbrite.json"):
+        p = ROOT / fname
+        if p.exists():
+            try:
+                events += json.loads(p.read_text())
+            except (ValueError, OSError):
+                pass
+
+    venues = {e.get("area") for e in events if e.get("area")}
+    dates = sorted({e.get("date") for e in events if e.get("date")})
+    span = len(dates)
+    # Count the generated SEO hubs only: skip the site root and this page
+    # itself, which isn't a landing page and would inflate the number.
+    hubs = sum(1 for p in ROOT.rglob("index.html")
+               if p.parent != ROOT and p.parent.name != "advertise")
+
+    email = _config_value("contactEmail") or "hello@letsdoitdallas.com"
+    endpoint = _config_value("advertiseEndpoint")
+    subject = urllib.parse.quote("Founding partner — Lets Do It Dallas")
+    body = urllib.parse.quote(
+        "Venue / business name:\n"
+        "What you'd want to promote:\n"
+        "Website or socials:\n"
+        "Best contact:\n")
+    mailto = f"mailto:{email}?subject={subject}&body={body}"
+
+    if endpoint:
+        form = f"""<form class="a-form" action="{endpoint}" method="POST">
+<input name="venue" placeholder="Venue or business name" required/>
+<input name="email" type="email" placeholder="Your email" required/>
+<input name="link" placeholder="Website or Instagram"/>
+<textarea name="about" rows="3" placeholder="What would you want to promote?"></textarea>
+<button type="submit">CLAIM A FOUNDING SPOT →</button>
+</form>"""
+    else:
+        form = f'<a class="a-cta" href="{mailto}">CLAIM A FOUNDING SPOT →</a>'
+
+    title = "Advertise on Lets Do It Dallas — Founding Partners, Free for 90 Days"
+    desc = ("Three DFW venues get the pinned top spot on Lets Do It Dallas free "
+            "for 90 days. No card, no contract.")
+
+    html = f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>{title}</title>
+<meta name="description" content="{desc}"/>
+<link rel="canonical" href="{SITE}/advertise/"/>
+<meta property="og:title" content="{title}"/>
+<meta property="og:description" content="{desc}"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="{SITE}/advertise/"/>
+<meta property="og:image" content="{SITE}/og-image.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{SITE}/og-image.png"/>
+<link rel="stylesheet" href="/css/styles.css"/>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all';this.onload=null"/>
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"/></noscript>
+<style>{_ADVERTISE_CSS}</style>{_analytics_snippet()}</head><body>
+
+<div class="a-nav"><a href="/">← LETS DO IT DALLAS</a></div>
+
+<header class="a-hero"><div class="wrap">
+  <div class="a-kicker">/ FOUNDING PARTNERS — 3 SPOTS</div>
+  <h1>Own the top of Dallas for 90 days. Free.</h1>
+  <p class="a-sub">We're giving the pinned #1 slot to three DFW venues at no charge.
+  No card, no contract, no auto-renew. We're new, and we'd rather prove this
+  works than talk you into it.</p>
+  {form}
+</div></header>
+
+<section class="a-sec"><div class="wrap">
+  <div class="a-lead">/ WHAT YOU GET</div>
+  <h2>The gold-badge slot, on the nights you pick.</h2>
+  <div class="a-cols">
+    <div><h3>Pinned to the top</h3><p>Your card sits above every other listing
+    for that day, full-width, with an animated emerald edge and a gold
+    SPONSORED badge. It's the first thing anyone browsing that date sees.</p></div>
+    <div><h3>Only the days you want</h3><p>Run it every day, or only Fridays and
+    Saturdays, or only the week of your event. You're not buying a banner that
+    shows up whenever — you're buying the nights that matter to you.</p></div>
+    <div><h3>Your link, your copy</h3><p>Headline, description, neighborhood,
+    times and a direct link to your own ticketing. We don't put an aggregator
+    in between you and your customer.</p></div>
+  </div>
+
+  <div class="demo">
+    <div class="demo-label">ACTUAL RENDER — THIS IS THE REAL COMPONENT</div>
+    <article class="card sponsored" style="cursor:default">
+      <div class="card-toprow">
+        <span class="idx">(01)</span>
+        <span class="tag">/ LIVE MUSIC</span>
+        <span class="spon">★ SPONSORED</span>
+      </div>
+      <div class="card-mid"><div class="card-txt">
+        <h3>Your headline goes right here</h3>
+        <div class="meta">/ FRI 07 AUG · 8:00 PM</div>
+        <div class="meta">/ DEEP ELLUM, DALLAS</div>
+      </div></div>
+      <p class="desc">Two sentences about the night, in your words. Doors, the
+      lineup, the thing that makes someone pick you over the other forty things
+      happening in DFW that evening.</p>
+      <div class="card-foot"><span class="badge">YOUR VENUE</span></div>
+    </article>
+  </div>
+</div></section>
+
+<section class="a-sec"><div class="wrap">
+  <div class="a-lead">/ THE INVENTORY</div>
+  <h2>What's already on the page.</h2>
+  <p class="a-sub" style="margin-top:12px">These are listings, not audience
+  numbers — see below. Recounted from the live feed every night.</p>
+  <div class="a-stats">
+    <div><div class="n">{len(events)}</div><div class="l">EVENTS LISTED</div></div>
+    <div><div class="n">{len(venues)}</div><div class="l">DFW VENUES</div></div>
+    <div><div class="n">{span}</div><div class="l">DAYS AHEAD</div></div>
+    <div><div class="n">{hubs}</div><div class="l">SEO LANDING PAGES</div></div>
+    <div><div class="n">24h</div><div class="l">REFRESH CYCLE</div></div>
+  </div>
+</div></section>
+
+<section class="a-sec"><div class="wrap">
+  <div class="a-lead">/ STRAIGHT TALK</div>
+  <h2>Why it's free, honestly.</h2>
+  <div class="a-note">
+  <p style="margin-top:0">We're not going to quote you a traffic number. The site
+  launched in July 2026 and we only turned on analytics a few days later, so we
+  don't have meaningful audience data yet — and making one up for a page aimed
+  at people who run real businesses isn't something we're willing to do.</p>
+  <p>That's the entire reason the first three spots cost nothing. You'd be
+  taking a chance on reach we can't prove, so you shouldn't be paying for it.
+  If it sends you people, you'll know, and we can talk about what's fair after
+  that. If it doesn't, you've lost an email.</p>
+  <p style="margin-bottom:0">What we can tell you is exactly what's above:
+  what's listed, how often it updates, and where it shows up in search.</p>
+  </div>
+</div></section>
+
+<section class="a-sec"><div class="wrap">
+  <div class="a-lead">/ WHAT WE ASK</div>
+  <h2>Three things, none of them money.</h2>
+  <ul class="a-ask">
+    <li>Your name and logo on this page as a founding partner, so the venues
+    after you can see someone went first.</li>
+    <li>A sentence at the end of the 90 days about how it actually went —
+    good or bad. We'll publish it either way.</li>
+    <li>Tell us when something's wrong. Wrong showtime, dead link, a night we
+    missed. You know your calendar better than any feed does.</li>
+  </ul>
+  <p class="a-sub">After 90 days there's no obligation and nothing auto-charges.
+  If you want to keep the spot, founding partners keep founding rates.</p>
+  {form}
+</div></section>
+
+<footer class="a-foot"><div class="wrap">
+  <a href="/">← BACK TO THE RADAR</a> &nbsp;·&nbsp;
+  <a href="{mailto}">{email}</a>
+</div></footer>
+
+</body></html>"""
+
+    d = ROOT / "advertise"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "index.html").write_text(html)
+    return f"{SITE}/advertise/"
+
+
 def write_hubs(events):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     pages = []
@@ -810,6 +1054,9 @@ def write_hubs(events):
         emit(f"district/{slug}", f"Things to Do in {label} | Lets Do It Dallas",
              f"Live events, music, and nightlife in {label} — part of the Lets Do It Dallas real-time event radar.",
              evs, f"/?district={slug}", label.upper(), "DISTRICT HUB")
+
+    # After the hubs exist, so its "SEO landing pages" count is accurate.
+    pages.append(write_advertise())
 
     sitemap = "\n".join(
         f"<url><loc>{u}</loc><lastmod>{today}</lastmod></url>"
