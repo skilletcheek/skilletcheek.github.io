@@ -918,9 +918,12 @@ def main():
     # Order matters: the dedupe below keeps the FIRST occurrence, so richer
     # sources go first. Seated is last — it carries no price, so it should only
     # contribute shows the ticketing APIs don't already have.
+    # Eventbrite is deliberately absent: it answers 405 to datacenter IPs, so it
+    # is refreshed by hand via scripts/fetch_eventbrite_local.py into
+    # eventbrite.json, which the site loads as a separate source.
     rows = (fetch_ticketmaster(start, end) + fetch_seatgeek(start, end)
             + fetch_ics_feeds(start, end) + fetch_prekindle(start, end)
-            + fetch_eventbrite(start, end) + fetch_seated(start, end))
+            + fetch_seated(start, end))
 
     unique = dedupe(rows)
 

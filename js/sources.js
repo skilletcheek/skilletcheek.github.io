@@ -190,6 +190,13 @@ async function loadAggregatedJson(date) {
   return _loadJsonFile(CONFIG.aggregatedJsonUrl, date, "auto");
 }
 
+/* ---- eventbrite.json (refreshed by hand — see scripts/fetch_eventbrite_local.py)
+   Eventbrite blocks datacenter IPs, so it can't run in the nightly Action. The
+   file already excludes anything live-events.json carries. ---------------- */
+async function loadEventbriteJson(date) {
+  return _loadJsonFile(CONFIG.eventbriteJsonUrl, date, "eventbrite");
+}
+
 async function _loadJsonFile(fileUrl, date, source) {
   if (!fileUrl) return [];
   try {
@@ -286,6 +293,7 @@ async function loadLiveEvents(date) {
     loadEventsJson(date),
     loadGoogleSheet(date),
     loadAggregatedJson(date),
+    loadEventbriteJson(date),
   ]);
   const all = results.flatMap((r) => (r.status === "fulfilled" ? r.value : []));
   const seen = new Set();

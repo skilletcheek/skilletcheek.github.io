@@ -18,6 +18,7 @@ const CONFIG = {
   googleSheetCsvUrl: "",         // optional: a "Publish to web -> CSV" URL
   eventsJsonUrl: "events.json",  // simple file you can hand-edit; ships with the site
   aggregatedJsonUrl: "live-events.json", // written nightly by the GitHub Action (see scripts/)
+  eventbriteJsonUrl: "eventbrite.json",  // refreshed by hand: scripts/fetch_eventbrite_local.py
 
   /* Where newsletter signups, event submissions and advertising inquiries go
      when no form endpoint is configured (opens the visitor's email app). */
