@@ -1,5 +1,8 @@
 {
   "_readme": "Founding partners shown on /advertise/. Three spots by design — the page counts the open ones automatically, so the hero headline and the 'spots left' badge stay truthful without you editing copy. Add a venue the day they say yes; the page regenerates nightly (or run scripts/fetch_events.py). Fields: name (required), url, area, since (YYYY-MM-DD), logo (path under /img, optional — falls back to a typographic wordmark so you don't need an asset to look finished), quote + quote_by (their 90-day testimonial; leave empty until they give you one).",
   "seats": 3,
+  "founding_rate": "$50",
+  "founding_rate_lock": "six months",
+  "founding_rate_note": "Per month after the free 90 days, locked for the period in founding_rate_lock. Set at $50 deliberately: it sits under the threshold where a venue manager needs sign-off from an owner, which is where small local ad deals usually stall. It's also roughly two tickets, so it stays defensible even if traffic comes in modest. Lock is six months rather than twelve — the price is easy to live with, but committing for a year before knowing what the slot is worth was the actual risk, and halving it is unlikely to cost a single yes. Do NOT publish a standard (non-founding) rate until Cloudflare Analytics can justify one — planned internally around $125-150, to be set at the 90-day mark. Leaving founding_rate empty reverts the page to the older vague 'founding rates' wording.",
   "partners": []
 }

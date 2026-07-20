@@ -870,9 +870,11 @@ def _load_partners():
     try:
         d = json.loads((ROOT / "partners.json").read_text())
     except (ValueError, OSError):
-        return 3, []
+        return 3, [], "", "a year"
     partners = [p for p in d.get("partners", []) if p.get("name")]
-    return int(d.get("seats", 3) or 3), partners
+    return (int(d.get("seats", 3) or 3), partners,
+            (d.get("founding_rate") or "").strip(),
+            (d.get("founding_rate_lock") or "a year").strip())
 
 
 def _partners_section(seats, partners):
@@ -961,7 +963,7 @@ def write_advertise():
     hubs = sum(1 for p in ROOT.rglob("index.html")
                if p.parent != ROOT and p.parent.name != "advertise")
 
-    seats, partners = _load_partners()
+    seats, partners, rate, rate_lock = _load_partners()
     remaining = max(0, seats - len(partners))
     _words = {0: "no", 1: "one", 2: "two", 3: "three", 4: "four", 5: "five"}
     word = _words.get(remaining, str(remaining))
@@ -983,6 +985,19 @@ def write_advertise():
                     "No card, no contract, no auto-renew. We're new, and we'd rather "
                     "prove this works than talk you into it." % (word, "venue" if remaining == 1 else "venues"))
         cta_label = "CLAIM A FOUNDING SPOT →"
+
+    # Naming the post-trial price beats "founding rates" as a vague promise —
+    # unspecified future pricing reads as a setup for a bait-and-switch to
+    # anyone who has been sold to before, and it invites the question anyway.
+    if rate:
+        after_copy = (
+            "After 90 days there's no obligation and nothing auto-charges. If you "
+            "want to keep the spot it's <strong>%s a month, locked for %s</strong> "
+            "— that's the founding rate, and it doesn't move on you later."
+            % (_html.escape(rate), _html.escape(rate_lock)))
+    else:
+        after_copy = ("After 90 days there's no obligation and nothing auto-charges. "
+                      "If you want to keep the spot, founding partners keep founding rates.")
 
     email = _config_value("contactEmail") or "hello@letsdoitdallas.com"
     endpoint = _config_value("advertiseEndpoint")
@@ -1115,8 +1130,7 @@ def write_advertise():
     <li>Tell us when something's wrong. Wrong showtime, dead link, a night we
     missed. You know your calendar better than any feed does.</li>
   </ul>
-  <p class="a-sub">After 90 days there's no obligation and nothing auto-charges.
-  If you want to keep the spot, founding partners keep founding rates.</p>
+  <p class="a-sub">{after_copy}</p>
   {form}
 </div></section>
 {_partners_section(seats, partners)}
