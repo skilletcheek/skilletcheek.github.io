@@ -304,5 +304,6 @@ function _dedupeKey(name) {
     .replace(/\(.*?\)/g, " ")            // drop parentheticals like (18+)
     .replace(/&/g, " and ")
     .replace(/\b(tickets?|tour|live|concert|presents?|featuring|feat|with special guests?)\b/g, " ")
-    .replace(/[^a-z0-9]+/g, " ").trim();
+    .replace(/[^a-z0-9]+/g, " ").trim()
+    .replace(/^the /, "");
 }

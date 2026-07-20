@@ -314,6 +314,109 @@ def fetch_prekindle(start, end):
     return out
 
 
+# ----------------------------------------------------------------------- Seated
+# Seated (seated.com) is artist-direct ticketing: the artists who sell through it
+# often bypass Ticketmaster entirely, which is exactly the gap it fills here.
+# Its API is keyed by ARTIST, not by city — there is no "events in Dallas" query
+# — so we walk a watchlist of artist UUIDs and keep only their DFW-area dates.
+#
+# To add an artist: open their tour page, view source, and copy the UUID out of
+# `data-artist-id="..."` (that's the same id their Seated widget uses). Then add
+# {artist, id} to "seated_artists" in feeds.json.
+#
+# Endpoint (public, no key):
+#   https://cdn.seated.com/api/tour/<artist-uuid>?include=tour-events
+# NOTE: tours.seated.com/api/... answers 200 with text/html (an SPA fallback) —
+# it is NOT an API. Only cdn.seated.com returns application/vnd.api+json.
+SEATED_API = "https://cdn.seated.com/api/tour"
+SEATED_LINK = "https://link.seated.com"
+
+# Metro cities we consider "DFW". Seated gives a "City, ST" formatted-address,
+# not coordinates, so the radius filter used for TM/SG can't apply here.
+DFW_CITIES = {
+    "dallas", "fort worth", "arlington", "plano", "irving", "garland", "frisco",
+    "mckinney", "grand prairie", "mesquite", "carrollton", "denton", "richardson",
+    "lewisville", "allen", "flower mound", "north richland hills", "mansfield",
+    "rowlett", "bedford", "euless", "grapevine", "cedar hill", "wylie", "keller",
+    "coppell", "hurst", "duncanville", "the colony", "little elm", "prosper",
+    "rockwall", "burleson", "haltom city", "southlake", "waxahachie", "cleburne",
+    "weatherford", "desoto", "lancaster", "farmers branch", "addison", "sachse",
+    "murphy", "highland village", "corinth", "saginaw", "watauga", "crowley",
+    "benbrook", "azle", "granbury", "midlothian", "ennis", "greenville",
+}
+
+
+def _seated_is_dfw(formatted_address: str) -> bool:
+    """formatted-address looks like 'Fort Worth, TX'. Match the city half only,
+    and require Texas so a 'Dallas, GA' or 'Arlington, VA' can't sneak in."""
+    parts = [p.strip().lower() for p in (formatted_address or "").split(",")]
+    if len(parts) < 2 or not parts[-1].startswith("tx"):
+        return False
+    return parts[0] in DFW_CITIES
+
+
+def _seated_local_time(starts_at: str, known: bool) -> str:
+    """starts-at is UTC; the widget shows it in venue-local time. Convert to
+    Central. If the artist hasn't published a set time, say so rather than
+    inventing midnight."""
+    if not known or not starts_at:
+        return "See details"
+    try:
+        from zoneinfo import ZoneInfo
+        dt = datetime.fromisoformat(starts_at.replace("Z", "+00:00"))
+        local = dt.astimezone(ZoneInfo("America/Chicago"))
+        return pretty_time(local.strftime("%H:%M"))
+    except Exception:  # noqa: BLE001  (no tzdata on the runner, bad timestamp…)
+        return "See details"
+
+
+def fetch_seated(start, end):
+    if not FEEDS_FILE.exists():
+        return []
+    try:
+        artists = json.loads(FEEDS_FILE.read_text()).get("seated_artists", [])
+    except Exception:  # noqa: BLE001
+        return []
+    lo, hi = start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
+    out = []
+    for a in artists:
+        aid, name = a.get("id"), a.get("artist", "Artist")
+        if not aid:
+            continue
+        try:
+            data = http_json(f"{SEATED_API}/{aid}?include=tour-events")
+        except Exception as e:  # noqa: BLE001
+            print(f"seated failed ({name}): {e}", file=sys.stderr)
+            continue
+        artist_name = ((data.get("data") or {}).get("attributes") or {}).get("name") or name
+        artist_img = ((data.get("data") or {}).get("attributes") or {}).get("image-url")
+        kept = 0
+        for ev in data.get("included") or []:
+            if ev.get("type") != "tour-events":
+                continue
+            at = ev.get("attributes") or {}
+            date = at.get("starts-at-date-local") or ""
+            if not (lo <= date <= hi) or not _seated_is_dfw(at.get("formatted-address")):
+                continue
+            venue = at.get("venue-name") or ""
+            city = (at.get("formatted-address") or "").split(",")[0].strip()
+            desc = f"{artist_name} live at {venue}." if venue else f"{artist_name} live in {city}."
+            if at.get("is-sold-out"):
+                desc += " Sold out."
+            out.append(row(
+                artist_name, a.get("category", "music"),
+                ", ".join(x for x in [venue, city] if x),
+                date, _seated_local_time(at.get("starts-at"), at.get("is-starts-at-known")),
+                None,  # Seated's API carries no price
+                desc,
+                f"{SEATED_LINK}/{ev.get('id')}" if ev.get("id") else a.get("url", "#"),
+                artist_img,
+            ))
+            kept += 1
+        print(f"seated ({artist_name}): {kept} DFW events")
+    return out
+
+
 # ----------------------------------------------------------------- press wire
 def _strip_cdata(s: str) -> str:
     import html as _html
@@ -480,43 +583,76 @@ def write_hubs(events):
     print(f"wrote {len(pages)} hub pages + sitemap.xml + robots.txt")
 
 
+# ---------------------------------------------------------------------- dedupe
+def _norm_name(name: str) -> str:
+    """Normalized title used for de-duplication. Mirrored by _dedupeKey in
+    js/sources.js so both layers collapse the same near-duplicates."""
+    n = (name or "").lower()
+    n = re.sub(r"\(.*?\)", " ", n)              # drop parentheticals like (18+)
+    n = n.replace("&", " and ")
+    # strip generic show words so "X Tour" and "X" collapse together
+    n = re.sub(r"\b(tickets?|tour|live|concert|presents?|featuring|feat|"
+               r"with special guests?)\b", " ", n)
+    n = re.sub(r"[^a-z0-9]+", " ", n).strip()
+    return re.sub(r"^the ", "", n)              # "The Randy Rogers Band" == "Randy Rogers Band"
+
+
+def dedupe(rows):
+    """Collapse the same event arriving from multiple sources. Keeps the FIRST
+    occurrence, so callers should order rows richest-source-first.
+
+    Two keys, because sources disagree about titles:
+      1. normalized title + date   — catches most matches
+      2. venue + date + start time — catches the same show titled differently
+         ("White Sox at Rangers" vs "Texas Rangers vs. Chicago White Sox").
+
+    Key 2 additionally requires the two titles to share a meaningful word.
+    Without that guard it over-collapses: a comedy club running Jackie Fabulous
+    and Cipha Sounds at the same 7:00 PM slot, or a rodeo arena running
+    Ultimate Bullfighters alongside the Stockyards Championship Rodeo, are
+    genuinely different events and must both survive.
+    Key 2 is skipped when the time is a placeholder, since many placeholder
+    rows at one venue would otherwise collapse into each other."""
+    VAGUE_TIMES = ("", "see details", "all day", "doors — see listing")
+    STOP = {"the", "a", "an", "at", "vs", "v", "and", "of", "in", "on", "for",
+            "with", "not", "featuring", "night", "show", "series"}
+    seen_name, seen_slot, unique = {}, {}, []
+    for r in rows:
+        if not r.get("date") or not r.get("name"):
+            continue
+        norm = _norm_name(r["name"])
+        name_key = (norm, r["date"])
+        if name_key in seen_name:
+            continue
+        tokens = {t for t in norm.split() if t not in STOP and len(t) > 1}
+        venue = (r.get("area") or "").split(",")[0].strip().lower()
+        time = (r.get("time") or "").strip().lower()
+        slot_key = (venue, r["date"], time) if venue and time not in VAGUE_TIMES else None
+        # same venue + same start time AND a shared word => same event, retitled
+        if slot_key and any(tokens & prev for prev in seen_slot.get(slot_key, [])):
+            continue
+        seen_name[name_key] = True
+        if slot_key:
+            seen_slot.setdefault(slot_key, []).append(tokens)
+        unique.append(r)
+    unique.sort(key=lambda r: (r["date"], r["name"]))
+    return unique
+
+
 # ------------------------------------------------------------------------ main
 def main():
     now = datetime.now(timezone.utc)
     start = now.replace(hour=0, minute=0, second=0, microsecond=0)
     end = start + timedelta(days=DAYS_AHEAD)
 
+    # Order matters: the dedupe below keeps the FIRST occurrence, so richer
+    # sources go first. Seated is last — it carries no price, so it should only
+    # contribute shows the ticketing APIs don't already have.
     rows = (fetch_ticketmaster(start, end) + fetch_seatgeek(start, end)
-            + fetch_ics_feeds(start, end) + fetch_prekindle(start, end))
+            + fetch_ics_feeds(start, end) + fetch_prekindle(start, end)
+            + fetch_seated(start, end))
 
-    # De-dupe across sources. Ticketmaster and SeatGeek routinely list the same
-    # show under slightly different titles, so we collapse on two keys:
-    #   1. normalized title + date   (catches most matches)
-    #   2. venue + date + start time (catches the same show titled differently;
-    #      two events never share a venue AND an exact start time)
-    seen_name, seen_slot, unique = set(), set(), []
-    for r in rows:
-        if not r["date"] or not r["name"]:
-            continue
-        norm = r["name"].lower()
-        norm = re.sub(r"\(.*?\)", " ", norm)          # drop parentheticals like (18+)
-        norm = norm.replace("&", " and ")
-        # strip generic show words so "X Tour" and "X" collapse together
-        norm = re.sub(r"\b(tickets?|tour|live|concert|presents?|featuring|feat|"
-                      r"with special guests?)\b", " ", norm)
-        norm = re.sub(r"[^a-z0-9]+", " ", norm).strip()
-        name_key = (norm, r["date"])
-        venue = (r.get("area") or "").split(",")[0].strip().lower()
-        time = (r.get("time") or "").strip().lower()
-        slot_key = (venue, r["date"], time) if venue and time not in (
-            "", "see details", "all day", "doors — see listing") else None
-        if name_key in seen_name or (slot_key and slot_key in seen_slot):
-            continue
-        seen_name.add(name_key)
-        if slot_key:
-            seen_slot.add(slot_key)
-        unique.append(r)
-    unique.sort(key=lambda r: (r["date"], r["name"]))
+    unique = dedupe(rows)
 
     OUT_FILE.write_text(json.dumps(unique, indent=1, ensure_ascii=False) + "\n")
     print(f"wrote {len(unique)} events -> {OUT_FILE.name}")
