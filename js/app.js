@@ -643,6 +643,19 @@ function wireForms() {
   el("submitForm").onsubmit = async (e) => {
     e.preventDefault();
     const payload = Object.fromEntries(new FormData(e.target).entries());
+
+    // Spam trap: only a bot fills a field positioned off-screen. Fake success
+    // rather than showing an error — telling a bot it failed invites a retry
+    // with the field cleared.
+    if (payload.company_website) {
+      el("submitModal").classList.remove("open"); e.target.reset();
+      toast("Thanks! We'll review your event."); return;
+    }
+    delete payload.company_website;
+
+    const btn = e.target.querySelector('button[type="submit"]');
+    if (btn && btn.disabled) return;          // double-submit guard
+
     if (!CONFIG.submitEventEndpoint) {
       const body = Object.entries(payload).map(([k, v]) => `${k}: ${v}`).join("\n");
       location.href = "mailto:" + CONFIG.contactEmail
@@ -651,13 +664,29 @@ function wireForms() {
       toast("Opening your email app to send your event…");
       el("submitModal").classList.remove("open"); e.target.reset(); return;
     }
+
+    if (btn) { btn.disabled = true; btn.textContent = "SENDING…"; }
     try {
-      await fetch(CONFIG.submitEventEndpoint, {
-        method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
+      // Formspree needs an explicit Accept: application/json or it replies with
+      // an HTML redirect page instead of a JSON result.
+      const res = await fetch(CONFIG.submitEventEndpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          ...payload,
+          _subject: "Event submission — " + (payload.name || "untitled"),
+        }),
       });
-      toast("Thanks! We'll review your event."); el("submitModal").classList.remove("open"); e.target.reset();
-    } catch (_) { toast("Something went wrong — try again."); }
+      if (!res.ok) throw new Error(res.status);
+      toast("Thanks! We'll review your event.");
+      el("submitModal").classList.remove("open"); e.target.reset();
+    } catch (_) {
+      // Don't lose what they typed — the form stays filled so they can retry
+      // or fall back to email.
+      toast("Couldn't send — try again, or email " + CONFIG.contactEmail);
+    } finally {
+      if (btn) { btn.disabled = false; btn.textContent = "SUBMIT EVENT"; }
+    }
   };
 }
 

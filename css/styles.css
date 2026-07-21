@@ -635,6 +635,10 @@ body.drawer-open { overflow: hidden; }
 .modal-panel input:focus, .modal-panel select:focus, .modal-panel textarea:focus { border-color: var(--em-dim); }
 .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 12px; }
 @media (max-width: 520px) { .form-grid { grid-template-columns: 1fr; } }
+/* Spam trap on the submit form. Off-screen rather than display:none — some
+   bots skip hidden inputs, and this stays in the tab order for nobody because
+   the field carries tabindex="-1". */
+.hp-field { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 .upsell {
   margin-top: 16px; padding: 12px 14px; border: 1px solid var(--jade);
   background: rgba(14, 58, 47, .18); font-size: 12.5px; color: var(--silver);

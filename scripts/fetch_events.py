@@ -1329,6 +1329,274 @@ def write_advertise():
     return f"{SITE}/advertise/"
 
 
+# ------------------------------------------------------------------ /submit/
+# THE single definition of the submission form. Both the standalone /submit/
+# page (generated here) and the on-site modal in index.html render these exact
+# fields, and _check_modal_drift() fails loudly if index.html falls behind —
+# two hand-maintained copies of one form is how a venue ends up filling in a
+# field we never read.
+#
+# (name, label, kind, required, placeholder-or-options, half_width)
+_SUBMIT_CATEGORIES = [
+    ("music", "Live Music"), ("food", "Food & Drink"), ("arts", "Arts & Museums"),
+    ("outdoors", "Outdoors & Parks"), ("sports", "Sports"), ("family", "Family & Kids"),
+    ("market", "Markets"), ("nightlife", "Nightlife"), ("festival", "Festivals"),
+]
+_SUBMIT_RECUR = [
+    ("once", "One-off"), ("weekly", "Every week"), ("monthly", "Every month"),
+]
+SUBMIT_FIELDS = [
+    ("name", "EVENT NAME", "text", True, "Thursday Night Residency", False),
+    ("venue", "VENUE", "text", True, "The Free Man", True),
+    ("area", "NEIGHBORHOOD / CITY", "text", True, "Deep Ellum, Dallas", True),
+    ("date", "DATE", "date", True, "", True),
+    ("time", "START TIME", "text", False, "7:00 PM", True),
+    ("recurring", "REPEATS", "select", False, _SUBMIT_RECUR, True),
+    ("cost", "COST (USD, 0 = FREE)", "number", False, "0", True),
+    ("category", "CATEGORY", "select", False, _SUBMIT_CATEGORIES, False),
+    ("url", "LINK (TICKETS OR INFO)", "url", False, "https://", False),
+    ("description", "SHORT DESCRIPTION", "textarea", False,
+     "One or two lines — what makes it worth leaving the house for?", False),
+    ("contact_name", "YOUR NAME", "text", True, "", True),
+    ("contact_email", "YOUR EMAIL", "email", True, "you@venue.com", True),
+]
+# Bots fill every input they find, including ones humans can't see. A submission
+# with this field set is dropped. Named innocuously — "honeypot" in the markup
+# is a giveaway to anything that reads the DOM.
+SUBMIT_HONEYPOT = "company_website"
+
+
+def _submit_field_html(field, cls=""):
+    name, label, kind, required, extra, _half = field
+    req = " required" if required else ""
+    lab = f'<label for="f_{name}">{label}{"" if required else " <i>(optional)</i>"}</label>'
+    if kind == "select":
+        opts = "".join(f'<option value="{v}">{_html.escape(t)}</option>' for v, t in extra)
+        return f'{lab}<select id="f_{name}" name="{name}"{req}>{opts}</select>'
+    if kind == "textarea":
+        return (f'{lab}<textarea id="f_{name}" name="{name}" rows="3" '
+                f'placeholder="{_html.escape(extra)}"{req}></textarea>')
+    ph = f' placeholder="{_html.escape(extra)}"' if extra else ""
+    mn = ' min="0"' if kind == "number" else ""
+    cl = f' class="{cls}"' if cls else ""
+    return f'{lab}<input id="f_{name}" name="{name}" type="{kind}"{ph}{mn}{req}{cl}/>'
+
+
+def _check_modal_drift():
+    """The modal in index.html is hand-written; this spec is not. Warn when they
+    disagree so a field added here doesn't silently exist on only one of the two
+    forms. A warning, not an exception — a drifted modal must never be able to
+    break the nightly event fetch."""
+    try:
+        page = (ROOT / "index.html").read_text()
+    except OSError:
+        return
+    modal = page.partition('id="submitModal"')[2].partition("</div>")[0] or page
+    missing = [f[0] for f in SUBMIT_FIELDS if f'name="{f[0]}"' not in page]
+    if missing:
+        print(f"WARNING: index.html submit modal is missing fields {missing} "
+              f"— update it to match SUBMIT_FIELDS in fetch_events.py",
+              file=sys.stderr)
+    if SUBMIT_HONEYPOT not in modal and SUBMIT_HONEYPOT not in page:
+        print("WARNING: index.html submit modal has no honeypot field",
+              file=sys.stderr)
+
+
+_SUBMIT_CSS = """
+.wrap{max-width:1100px;margin:0 auto;padding:0 var(--pad)}
+.a-nav{border-bottom:1px solid var(--line);padding:14px var(--pad);
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em}
+.a-hero{padding:clamp(40px,8vw,90px) 0 clamp(30px,5vw,60px);border-bottom:1px solid var(--line)}
+.a-kicker{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--em);margin-bottom:18px}
+.a-hero h1{font-size:clamp(32px,6vw,60px);line-height:1.04;letter-spacing:-.01em;max-width:15ch}
+.a-sub{font-size:clamp(15px,2vw,18px);max-width:58ch;margin-top:20px;color:#9AA1B0}
+.a-sec{padding:clamp(36px,6vw,68px) 0;border-bottom:1px solid var(--line)}
+.a-sec h2{font-size:clamp(20px,3vw,28px);margin-bottom:8px}
+.a-lead{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--em);margin-bottom:16px}
+.a-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);margin-top:26px}
+.a-cols>div{background:var(--bg);padding:24px 20px}
+.a-cols h3{font-size:15px;margin-bottom:8px}
+.a-cols p{margin:0;font-size:13.5px;color:#7A8090}
+@media(max-width:760px){.a-cols{grid-template-columns:1fr}}
+.a-note{border-left:2px solid var(--jade);padding:4px 0 4px 20px;margin-top:24px;
+  max-width:68ch;color:#9AA1B0;font-size:14.5px}
+.s-form{max-width:760px;margin-top:26px}
+.s-form label{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;
+  color:var(--silver);margin:20px 0 7px}
+.s-form label i{color:var(--dim);font-style:normal;text-transform:none;letter-spacing:.04em}
+.s-form input,.s-form select,.s-form textarea{width:100%;background:#0C0E12;color:var(--ink);
+  border:1px solid var(--line);padding:12px 13px;font-family:var(--body);font-size:14.5px;
+  border-radius:0;-webkit-appearance:none;appearance:none}
+.s-form select{background-image:linear-gradient(45deg,transparent 50%,var(--silver) 50%),
+  linear-gradient(135deg,var(--silver) 50%,transparent 50%);
+  background-position:calc(100% - 19px) 50%,calc(100% - 13px) 50%;
+  background-size:6px 6px,6px 6px;background-repeat:no-repeat;padding-right:38px}
+.s-form input:focus,.s-form select:focus,.s-form textarea:focus{outline:none;
+  border-color:var(--em);box-shadow:0 0 0 1px var(--em)}
+.s-form textarea{resize:vertical}
+.s-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 22px}
+@media(max-width:640px){.s-grid{grid-template-columns:1fr}}
+.s-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.s-btn{margin-top:28px;background:var(--em);color:#04120C;border:none;padding:15px 26px;
+  font-family:var(--mono);font-size:12px;letter-spacing:.14em;cursor:pointer;font-weight:500}
+.s-btn:hover{filter:brightness(1.1)}
+.s-cta{display:inline-block;margin-top:24px;border:1px solid var(--em);color:var(--em);
+  padding:14px 22px;font-family:var(--mono);font-size:12px;letter-spacing:.14em}
+.s-msg{margin-top:18px;font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--em)}
+.s-steps{margin:22px 0 0;padding:0;list-style:none;max-width:64ch;counter-reset:s}
+.s-steps li{padding:13px 0;border-bottom:1px solid var(--line);font-size:14.5px;counter-increment:s}
+.s-steps li::before{content:"0" counter(s) " / ";color:var(--em);font-family:var(--mono);font-size:11px}
+"""
+
+
+def write_submit(events):
+    """Standalone, linkable event-submission page.
+
+    Exists because the on-site modal has no URL: venue outreach needs something
+    to paste into an email, and "add your shows free" is a far easier first
+    conversation with a venue than "buy a sponsorship" — it warms the same list
+    /advertise/ sells to. Same intake model the big DFW aggregators run on.
+    """
+    email = _config_value("contactEmail") or "hello@letsdoitdallas.com"
+    endpoint = _config_value("submitEventEndpoint")
+    _check_modal_drift()
+
+    rows = []
+    pending = []
+    for f in SUBMIT_FIELDS:
+        (pending if f[5] else rows).append(f)
+        if f[5] and len(pending) == 2:
+            rows.append(tuple(pending)); pending.clear()
+        elif not f[5] and pending:                      # a full-width field
+            rows.insert(-1, tuple(pending)); pending.clear()
+    if pending:
+        rows.append(tuple(pending))
+
+    body = []
+    for r in rows:
+        if isinstance(r, tuple) and r and isinstance(r[0], tuple):
+            cells = "".join(f"<div>{_submit_field_html(f)}</div>" for f in r)
+            body.append(f'<div class="s-grid">{cells}</div>')
+        else:
+            body.append(_submit_field_html(r))
+    fields_html = "\n".join(body)
+
+    if endpoint:
+        form = f"""<form class="s-form" action="{endpoint}" method="POST" id="submitPageForm">
+{fields_html}
+<div class="s-hp" aria-hidden="true"><label for="f_{SUBMIT_HONEYPOT}">Leave this empty</label>
+<input id="f_{SUBMIT_HONEYPOT}" name="{SUBMIT_HONEYPOT}" tabindex="-1" autocomplete="off"/></div>
+<input type="hidden" name="_subject" value="Event submission — letsdoitdallas.com"/>
+<button class="s-btn" type="submit">SUBMIT EVENT →</button>
+<p class="s-msg">Free. No account needed.</p>
+</form>"""
+    else:
+        # No endpoint configured yet — a mailto keeps the page honest rather
+        # than rendering a form that silently posts nowhere.
+        subject = urllib.parse.quote("Event submission — letsdoitdallas.com")
+        mail_body = urllib.parse.quote(
+            "Event name:\nVenue:\nNeighborhood / city:\nDate:\nStart time:\n"
+            "Repeats (one-off / weekly / monthly):\nCost (0 = free):\n"
+            "Category:\nLink:\nShort description:\n\nYour name:\nYour email:\n")
+        form = (f'<a class="s-cta" href="mailto:{email}?subject={subject}'
+                f'&body={mail_body}">EMAIL US YOUR EVENT →</a>'
+                f'<p class="s-msg">Free. We reply to every one.</p>')
+
+    title = "Submit an Event — Lets Do It Dallas"
+    desc = ("List your DFW event free on Lets Do It Dallas. Music, food, markets, "
+            "family and outdoors — send it over and we'll get it on the radar.")
+
+    html = f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>{title}</title>
+<meta name="description" content="{desc}"/>
+<link rel="canonical" href="{SITE}/submit/"/>
+<meta property="og:title" content="{title}"/>
+<meta property="og:description" content="{desc}"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="{SITE}/submit/"/>
+<meta property="og:image" content="{SITE}/og-image.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{SITE}/og-image.png"/>
+<link rel="stylesheet" href="/css/styles.css"/>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all';this.onload=null"/>
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"/></noscript>
+<style>{_SUBMIT_CSS}</style>{_analytics_snippet()}</head><body>
+
+<div class="a-nav"><a href="/">← LETS DO IT DALLAS</a></div>
+
+<header class="a-hero"><div class="wrap">
+  <p class="a-kicker">/ SUBMIT AN EVENT</p>
+  <h1>Put your event on the radar.</h1>
+  <p class="a-sub">Free, and it always will be. We pull {len(events)} events a night
+  from the ticketing feeds — but the good stuff those feeds never see is the
+  residency, the pop-up, the trivia night, the market. That part only gets here
+  if you tell us.</p>
+</div></header>
+
+<section class="a-sec"><div class="wrap">
+  <p class="a-lead">/ WHY BOTHER</p>
+  <h2>What you get out of it</h2>
+  <div class="a-cols">
+    <div><h3>A real listing</h3><p>Your event shows up on the day it happens,
+      in the right category, with your ticket link — not buried in a feed.</p></div>
+    <div><h3>Search pages</h3><p>Listings feed our nightly-built pages for tonight,
+      this weekend, free events, and each district. Those are indexed by Google.</p></div>
+    <div><h3>Recurring is fine</h3><p>Tell us it's every Thursday and we'll set it up
+      once. You don't have to submit it 52 times.</p></div>
+  </div>
+</div></section>
+
+<section class="a-sec"><div class="wrap">
+  <p class="a-lead">/ THE FORM</p>
+  <h2>Tell us what's happening</h2>
+  <p class="a-sub">Takes about a minute. Only the marked fields are required —
+  send what you have and we'll chase the rest if we need it.</p>
+  {form}
+</div></section>
+
+<section class="a-sec"><div class="wrap">
+  <p class="a-lead">/ WHAT HAPPENS NEXT</p>
+  <h2>How it gets on the site</h2>
+  <ol class="s-steps">
+    <li>A human reads it. Every submission, no auto-publish.</li>
+    <li>We check it's real, in DFW, and not already on the site from a ticketing feed.</li>
+    <li>It goes live, usually within a couple of days.</li>
+    <li>If it clashes with something we already list, we merge rather than double it up.</li>
+  </ol>
+  <p class="a-note"><strong>Straight talk:</strong> we're a young site and we're not
+  going to quote you a traffic number we can't back up. Listing is free precisely
+  because we'd rather earn the relationship than sell you on numbers.
+  If you want the pinned top spot instead, that's <a href="/advertise/">on the advertise page</a>.</p>
+</div></section>
+
+<section class="a-sec"><div class="wrap">
+  <p class="a-lead">/ HOUSE RULES</p>
+  <h2>What we'll list</h2>
+  <p class="a-sub">Anything open to the public and actually happening in the
+  DFW metro — music, food and drink, markets, arts, outdoors, sports, family,
+  nightlife, festivals. We skip online-only events, anything outside the metro,
+  affiliate-link farms, and events with no fixed date. We'll trim marketing
+  copy down to a line or two so it reads like the rest of the site.</p>
+</div></section>
+
+<footer style="padding:34px 0 60px"><div class="wrap">
+  <p style="font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--dim)">
+  / QUESTIONS? <a href="mailto:{email}">{email}</a> &nbsp;·&nbsp;
+  <a href="/">← BACK TO THE RADAR</a></p>
+</div></footer>
+
+</body></html>
+"""
+    out = ROOT / "submit"
+    out.mkdir(exist_ok=True)
+    (out / "index.html").write_text(html)
+    return f"{SITE}/submit/"
+
+
 def write_hubs(events):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     pages = []
@@ -1363,6 +1631,7 @@ def write_hubs(events):
 
     # After the hubs exist, so its "SEO landing pages" count is accurate.
     pages.append(write_advertise())
+    pages.append(write_submit(events))
 
     sitemap = "\n".join(
         f"<url><loc>{u}</loc><lastmod>{today}</lastmod></url>"

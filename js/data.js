@@ -31,7 +31,12 @@ const CONFIG = {
 
   /* Monetization endpoints (optional — forms degrade gracefully if blank) */
   newsletterEndpoint: "",        // e.g. a Formspree or Mailchimp form-action URL
-  submitEventEndpoint: "",       // e.g. a Formspree URL for the "Submit an event" form
+  // Powers BOTH the on-site modal and the /submit/ page. Blank = both fall back
+  // to a pre-filled mailto. To turn on the real form: create a form at
+  // formspree.io (free tier = 50 submissions/mo), paste its endpoint here
+  // (https://formspree.io/f/xxxxxxxx), then re-run scripts/fetch_events.py —
+  // /submit/ reads this at BUILD time, so it must be regenerated after a change.
+  submitEventEndpoint: "",
   advertiseEndpoint: "",         // Formspree URL for /advertise/ — blank falls back to a
                                  // pre-filled mailto. Read at build time by
                                  // scripts/fetch_events.py, so regenerate after changing it.

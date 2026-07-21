@@ -244,7 +244,9 @@
     <!-- href is a working default; boot() re-syncs it from CONFIG.contactEmail
          so the address only ever has to change in one place (js/data.js) -->
     <a id="advertiseLink" href="/advertise/">Advertise with us</a>
-    <a href="#" onclick="document.getElementById('submitEventBtn').click();return false;">Submit an event</a>
+    <!-- Real href so it is crawlable and middle-clickable; the modal is the
+         progressive enhancement, not the only way in. -->
+    <a href="/submit/" onclick="document.getElementById('submitEventBtn').click();return false;">Submit an event</a>
   </div>
 </footer>
 
@@ -262,13 +264,22 @@
     <button class="modal-close" id="submitClose" aria-label="Close">×</button>
     <h2>SUBMIT AN EVENT</h2>
     <p class="dr-meta">/ HAVE SOMETHING HAPPENING IN DFW? TELL US.</p>
+    <!-- Fields here MUST match SUBMIT_FIELDS in scripts/fetch_events.py, which
+         also renders /submit/. The nightly build warns when they drift. -->
     <form id="submitForm">
       <label>EVENT NAME</label>
       <input name="name" required />
       <div class="form-grid">
+        <div><label>VENUE</label><input name="venue" placeholder="The Free Man" required /></div>
+        <div><label>NEIGHBORHOOD / CITY</label><input name="area" placeholder="Deep Ellum, Dallas" required /></div>
         <div><label>DATE</label><input name="date" type="date" required /></div>
-        <div><label>TIME</label><input name="time" placeholder="7:00 PM" /></div>
-        <div><label>NEIGHBORHOOD / CITY</label><input name="area" placeholder="Deep Ellum, Dallas" /></div>
+        <div><label>START TIME</label><input name="time" placeholder="7:00 PM" /></div>
+        <div><label>REPEATS</label>
+          <select name="recurring">
+            <option value="once">One-off</option>
+            <option value="weekly">Every week</option>
+            <option value="monthly">Every month</option>
+          </select></div>
         <div><label>COST (USD, 0 = FREE)</label><input name="cost" type="number" min="0" /></div>
       </div>
       <label>CATEGORY</label>
@@ -286,11 +297,22 @@
       <label>LINK (TICKETS OR INFO)</label>
       <input name="url" type="url" placeholder="https://…" />
       <label>SHORT DESCRIPTION</label>
-      <textarea name="description" rows="3"></textarea>
+      <textarea name="description" rows="3" placeholder="One or two lines — what makes it worth leaving the house for?"></textarea>
+      <div class="form-grid">
+        <div><label>YOUR NAME</label><input name="contact_name" required /></div>
+        <div><label>YOUR EMAIL</label><input name="contact_email" type="email" placeholder="you@venue.com" required /></div>
+      </div>
+      <!-- Spam trap: hidden from people, filled in by bots. Submissions with a
+           value here are dropped in app.js. -->
+      <div class="hp-field" aria-hidden="true">
+        <label for="company_website">Leave this empty</label>
+        <input id="company_website" name="company_website" tabindex="-1" autocomplete="off" />
+      </div>
       <div class="upsell">★ <strong>WANT THE SPOTLIGHT?</strong> Featured placements pin your event to the top of the radar with emerald edge-light. Ask about promoted listings after you submit.</div>
       <div class="modal-actions">
         <button class="btn primary" type="submit">SUBMIT EVENT</button>
       </div>
+      <p class="dr-meta" style="margin-top:14px">/ FREE. A HUMAN READS EVERY ONE. <a href="/submit/">FULL PAGE VERSION ↗</a></p>
     </form>
   </div>
 </div>
