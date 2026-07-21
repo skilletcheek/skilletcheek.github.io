@@ -858,7 +858,7 @@ _ADVERTISE_CSS = """
 .p-quote figcaption{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;
   color:#7A8090;margin-top:12px}
 .demo{border:1px solid var(--line);margin-top:24px}
-.demo-label{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;color:#4A4F5C;
+.demo-label{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;color:#767D8C;
   padding:10px 14px;border-bottom:1px solid var(--line)}
 """
 

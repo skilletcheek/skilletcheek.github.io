@@ -13,6 +13,10 @@
   --jade: #0E3A2F;
   --white: #FFFFFF;
   --silver: #8A909E;
+  /* De-emphasised text. Replaces the old 4A4F5C (2.4:1) and 6E7482 (4.3:1),
+     both of which failed WCAG AA on --bg. This clears it at 4.8:1 while
+     staying a step below --silver so the hierarchy survives. */
+  --dim: #767D8C;
   --gold: #FFCF5C;
   --display: "Syne", "Avenir Next", sans-serif;
   --body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
@@ -21,6 +25,12 @@
 }
 
 * { box-sizing: border-box; }
+
+/* Available to assistive tech, invisible on screen. */
+.sr-only {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+  overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
+}
 html { scroll-behavior: smooth; }
 html, body { margin: 0; padding: 0; }
 body {
@@ -179,7 +189,7 @@ input[type="date"] {
   font-family: var(--mono); font-size: 12px; letter-spacing: .04em;
   padding: 11px 0; width: 100%; outline: none;
 }
-.search input::placeholder { color: #4A4F5C; }
+.search input::placeholder { color: var(--dim); }
 
 .filters { display: flex; gap: 8px; flex-wrap: wrap; }
 .chip {
@@ -224,7 +234,7 @@ input[type="date"] {
   font-family: var(--mono); font-size: 11px; letter-spacing: .22em; color: #3A3F4B;
 }
 .marquee-track button {
-  all: unset; font: inherit; letter-spacing: inherit; color: #6E7482;
+  all: unset; font: inherit; letter-spacing: inherit; color: var(--dim);
   cursor: pointer; transition: color .15s;
 }
 .marquee-track button:hover, .marquee-track button:focus-visible { color: var(--em); }
@@ -298,7 +308,7 @@ body.ads .ad-leader { display: block; }
   display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
   font-family: var(--mono); font-size: 10px; letter-spacing: .12em;
 }
-.card-toprow .idx { color: #4A4F5C; }
+.card-toprow .idx { color: var(--dim); }
 .card-toprow .tag { color: var(--em); }
 .card-toprow .spon { color: var(--gold); }
 .live-ring {
@@ -457,7 +467,7 @@ body.ads .ad-leader { display: block; }
 }
 .sec-head .idx { font-family: var(--mono); font-size: 12px; color: var(--em); }
 .sec-head h2 { font-size: clamp(1.5rem, 3.4vw, 2.2rem); font-weight: 800; letter-spacing: .02em; }
-.sec-note { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; color: #4A4F5C; }
+.sec-note { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; color: var(--dim); }
 
 /* ------------------------------ radar ------------------------------ */
 .radar-section { border-bottom: 1px solid var(--line); }
@@ -479,7 +489,7 @@ body.ads .ad-leader { display: block; }
 .radar-node .core { fill: #3A3F4B; transition: all .25s; }
 .radar-node .halo { fill: none; stroke: transparent; }
 .radar-node .nlabel {
-  font-family: var(--mono); font-size: 9.5px; letter-spacing: .1em; fill: #4A4F5C;
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: .1em; fill: var(--dim);
   transition: fill .2s;
 }
 .radar-node.hot .core { fill: var(--em); }
@@ -507,7 +517,7 @@ body.ads .ad-leader { display: block; }
 .radar-row:hover { background: var(--bg-2); }
 .radar-row.sel { background: var(--jade); }
 .radar-row.dim { opacity: .45; }
-.radar-row .idx { font-family: var(--mono); font-size: 10px; color: #4A4F5C; }
+.radar-row .idx { font-family: var(--mono); font-size: 10px; color: var(--dim); }
 .radar-row .lbl { color: var(--white); font-size: 13px; flex: 1; }
 .radar-row.sel .lbl { color: var(--em); }
 .radar-row .cnt { font-family: var(--mono); font-size: 10px; letter-spacing: .1em; color: var(--em); }
@@ -529,7 +539,7 @@ body.ads .ad-leader { display: block; }
 .itin-step .idx { font-family: var(--mono); font-size: 10px; color: var(--em); flex: none; }
 .itin-time { font-family: var(--mono); font-size: 11px; color: var(--white); flex: none; width: 64px; }
 .itin-title { color: var(--white); font-size: 13.5px; font-weight: 600; }
-.itin-note { font-size: 12.5px; color: #6E7482; }
+.itin-note { font-size: 12.5px; color: var(--dim); }
 
 /* ------------------------------ wire ------------------------------- */
 .wire-section { border-bottom: 1px solid var(--line); }
@@ -541,9 +551,9 @@ body.ads .ad-leader { display: block; }
 }
 .wire-row:hover { background: var(--bg-2); }
 .wire-row:hover .wl-title { color: var(--em); }
-.wire-row .idx { font-family: var(--mono); font-size: 10px; color: #4A4F5C; flex: none; }
+.wire-row .idx { font-family: var(--mono); font-size: 10px; color: var(--dim); flex: none; }
 .wl-title { color: var(--white); font-size: 13.5px; flex: 1; transition: color .15s; }
-.wl-src { font-family: var(--mono); font-size: 10px; letter-spacing: .1em; color: #4A4F5C; flex: none; }
+.wl-src { font-family: var(--mono); font-size: 10px; letter-spacing: .1em; color: var(--dim); flex: none; }
 
 /* ---------------------------- newsletter --------------------------- */
 .newsletter {
@@ -576,8 +586,8 @@ footer {
 }
 @media (max-width: 800px) { footer { grid-template-columns: 1fr; } }
 .f-col { background: var(--bg); padding: 30px var(--pad); display: flex; flex-direction: column; gap: 8px; }
-.f-col p { margin: 0; font-size: 12.5px; color: #6E7482; max-width: 36em; }
-.f-mono { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; color: #4A4F5C; }
+.f-col p { margin: 0; font-size: 12.5px; color: var(--dim); max-width: 36em; }
+.f-mono { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; color: var(--dim); }
 .f-head { font-family: var(--mono); font-size: 10px; letter-spacing: .14em; color: var(--em); margin-bottom: 6px; }
 .f-col a { color: var(--silver); font-size: 13px; transition: color .15s; }
 .f-col a:hover { color: var(--em); }

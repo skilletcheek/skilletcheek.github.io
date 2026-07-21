@@ -19,6 +19,15 @@
   let tiltX = 0, tiltTarget = 0; // cursor-driven X tilt
   let scrollBoost = 0;
   let lights = [];               // twinkling vertex lights on the sphere
+  let glowSprite = null, glowR = 0;   // pre-rendered vertex-light dot
+  let backdropCv = null, backdropR = 0; // pre-rendered ambient glow
+
+  // Under 900px the tower is a 30%-opacity backdrop behind the hero copy
+  // (see .hero-canvas in styles.css), so it renders one static frame there:
+  // nobody perceives the rotation, and phones are where the frame cost hurts.
+  const SMALL = window.matchMedia && window.matchMedia("(max-width: 900px)").matches;
+  const STATIC = REDUCED || SMALL;
+  const FRAME_MS = 1000 / 30;    // 30fps is plenty for a 0.0035rad/frame drift
 
   /* model geometry: arrays of 3D point loops (each loop is drawn as a path) */
   function buildLoops() {
@@ -90,6 +99,43 @@
     }
   }
 
+  /* Pre-render the ambient glow once into an offscreen canvas. Building a
+     radial gradient and filling the whole canvas every frame was pure waste —
+     the gradient never changes, only where it's stamped. */
+  function makeBackdrop() {
+    backdropR = Math.ceil(SPHERE_R * 2.1);
+    const s = document.createElement("canvas");
+    s.width = s.height = backdropR * 2;
+    const c = s.getContext("2d");
+    const g = c.createRadialGradient(backdropR, backdropR, 0, backdropR, backdropR, backdropR);
+    g.addColorStop(0, "rgba(0,255,135,0.16)");
+    g.addColorStop(0.45, "rgba(0,255,135,0.05)");
+    g.addColorStop(1, "rgba(0,255,135,0)");
+    c.fillStyle = g;
+    c.fillRect(0, 0, backdropR * 2, backdropR * 2);
+    backdropCv = s;
+  }
+
+  /* Pre-render one soft dot. Drawn with drawImage per light instead of
+     shadowBlur, which is a per-call gaussian blur — the single most expensive
+     thing you can ask a 2d canvas to do. */
+  function makeGlowSprite() {
+    glowR = 16;
+    const s = document.createElement("canvas");
+    s.width = s.height = glowR * 2;
+    const c = s.getContext("2d");
+    const g = c.createRadialGradient(glowR, glowR, 0, glowR, glowR, glowR);
+    // tight bright core + fast falloff, so a scaled stamp still reads as a
+    // point light rather than a blob
+    g.addColorStop(0, "rgba(200,255,225,1)");
+    g.addColorStop(0.16, "rgba(170,255,210,0.95)");
+    g.addColorStop(0.34, "rgba(0,255,135,0.38)");
+    g.addColorStop(1, "rgba(0,255,135,0)");
+    c.fillStyle = g;
+    c.fillRect(0, 0, glowR * 2, glowR * 2);
+    glowSprite = s;
+  }
+
   function project(p, rotY, rotX) {
     let [x, y, z] = p;
     // rotate around Y
@@ -102,28 +148,25 @@
     return [W / 2 + x * s, H * 0.88 + y * s, s];
   }
 
+  // All loops sharing a style go into ONE path and one stroke() — a stroke per
+  // loop meant 18 separate rasterisations of the same colour.
   function drawLoops(loops, rotY, rotX, style, width) {
     ctx.strokeStyle = style;
     ctx.lineWidth = width;
+    ctx.beginPath();
     for (const loop of loops) {
-      ctx.beginPath();
       loop.pts.forEach((p, i) => {
         const [px, py] = project(p, rotY, rotX);
         i === 0 ? ctx.moveTo(px, py) : ctx.lineTo(px, py);
       });
-      ctx.stroke();
     }
+    ctx.stroke();
   }
 
   function backdrop(cx, cy) {
     // soft emerald "skyline" glow anchored behind the sphere, so the wireframe
     // reads as a lit landmark rather than floating lines on black
-    const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, SPHERE_R * 2.1);
-    g.addColorStop(0, "rgba(0,255,135,0.16)");
-    g.addColorStop(0.45, "rgba(0,255,135,0.05)");
-    g.addColorStop(1, "rgba(0,255,135,0)");
-    ctx.fillStyle = g;
-    ctx.fillRect(0, 0, W, H);
+    ctx.drawImage(backdropCv, cx - backdropR, cy - backdropR);
   }
 
   function frame(tms) {
@@ -140,53 +183,62 @@
 
     // column behind
     drawLoops(COLUMN_LOOPS, rotY * 0.4, tiltX * 0.5, "rgba(0,255,135,0.30)", 1);
-    // sphere mesh: wide soft glow pass (its own blur) + crisp bright pass with
-    // a shadow halo on top — only the thin pass pays for shadowBlur
+    // sphere mesh: three stacked passes, widest+faintest first. Under "lighter"
+    // these sum into the same neon bloom shadowBlur gave us, but as plain fill
+    // rate instead of a gaussian blur per stroke.
+    drawLoops(SPHERE_LOOPS, rotY, tiltX, "rgba(0,255,135,0.10)", 4.5);
     drawLoops(SPHERE_LOOPS, rotY, tiltX, "rgba(0,255,135,0.16)", 2.4);
-    ctx.shadowColor = "rgba(0,255,135,0.9)";
-    ctx.shadowBlur = 10;
     drawLoops(SPHERE_LOOPS, rotY, tiltX, "rgba(0,255,150,0.62)", 1);
-    ctx.shadowBlur = 0;
 
-    // vertex lights
+    // vertex lights — pre-rendered sprite, scaled per light
     const t = tms / 1000;
     for (const L of lights) {
       const [px, py, s] = project(L.p, rotY, tiltX);
       const a = 0.3 + 0.7 * (0.5 + 0.5 * Math.sin(L.ph + t * L.sp));
       const front = s > 0.72 ? 1 : 0.45;
-      ctx.shadowColor = "rgba(0,255,135,0.95)";
-      ctx.shadowBlur = 8 * front;
-      ctx.fillStyle = `rgba(150,255,200,${(a * front).toFixed(3)})`;
-      ctx.beginPath();
-      ctx.arc(px, py, 1.8 * s + a * 1.4, 0, Math.PI * 2);
-      ctx.fill();
+      const rad = (1.8 * s + a * 1.4) * 2.1; // sprite is mostly falloff, so scale up
+      ctx.globalAlpha = a * front;
+      ctx.drawImage(glowSprite, px - rad, py - rad, rad * 2, rad * 2);
     }
-    ctx.shadowBlur = 0;
+    ctx.globalAlpha = 1;
     ctx.globalCompositeOperation = "source-over";
 
-    theta += 0.0035;
+    theta += 0.0035 * (STATIC ? 1 : 2); // 30fps: advance twice per frame
+
     // Only keep the loop alive while the canvas is on-screen and the tab is
-    // visible — a rotating, shadow-blurred canvas burns CPU/GPU for nothing
-    // once it scrolls out of view.
-    if (!REDUCED && onScreen && !document.hidden) requestAnimationFrame(frame);
+    // visible — a rotating canvas burns CPU/GPU for nothing once it scrolls
+    // out of view.
+    if (!STATIC && onScreen && !document.hidden) requestAnimationFrame(tick);
+    else running = false;
+  }
+
+  // Throttle to ~30fps. The rotation drifts slowly enough that 60fps bought
+  // nothing visible while doubling the frame budget.
+  let lastDraw = 0;
+  function tick(tms) {
+    if (tms - lastDraw >= FRAME_MS) { lastDraw = tms; frame(tms); return; }
+    if (!STATIC && onScreen && !document.hidden) requestAnimationFrame(tick);
     else running = false;
   }
 
   let running = false;
   let onScreen = true;
   function start() {
-    if (running || REDUCED) return;
+    if (running || STATIC) return;
     running = true;
-    requestAnimationFrame(frame);
+    requestAnimationFrame(tick);
   }
 
   function fit() {
     const rect = canvas.parentElement.getBoundingClientRect();
-    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    // A soft glowing wireframe gains nothing from a 2x buffer, and fill rate
+    // scales with the square of this — 1.5 costs 44% less than 2.
+    dpr = Math.min(window.devicePixelRatio || 1, SMALL ? 1 : 1.5);
     W = rect.width; H = rect.height;
     canvas.width = W * dpr; canvas.height = H * dpr;
     canvas.style.width = W + "px"; canvas.style.height = H + "px";
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    if (STATIC) frame(0); // re-draw the single frame at the new size
   }
 
   function init() {
@@ -194,6 +246,8 @@
     if (!canvas) return;
     ctx = canvas.getContext("2d");
     makeLights();
+    makeBackdrop();
+    makeGlowSprite();
     fit();
     window.addEventListener("resize", fit);
     window.addEventListener("pointermove", (e) => {
@@ -206,7 +260,7 @@
     window.addEventListener("scroll", () => {
       scrollBoost = window.scrollY * 0.0006;
     }, { passive: true });
-    if (REDUCED) { frame(0); return; }
+    if (STATIC) { frame(0); return; } // fit() already drew; keep it explicit
     // Pause when scrolled off-screen; resume when it comes back into view.
     if ("IntersectionObserver" in window) {
       new IntersectionObserver((entries) => {

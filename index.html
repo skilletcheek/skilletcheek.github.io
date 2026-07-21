@@ -69,12 +69,15 @@
 </div>
 
 <!-- slim date bar that slides in once the console scrolls away -->
+<!-- Duplicates the console controls for mouse users on scroll. It's aria-hidden,
+     so its buttons are taken out of the tab order too — otherwise keyboard users
+     land on controls a screen reader never announces. -->
 <div class="skybar" id="skybar" aria-hidden="true">
-  <button id="skyPrev" title="Previous day">‹</button>
+  <button id="skyPrev" title="Previous day" tabindex="-1">‹</button>
   <span class="sky-date" id="skyDate">—</span>
-  <button id="skyNext" title="Next day">›</button>
-  <button id="skyTonight">TONIGHT</button>
-  <button class="sky-top" id="skyTop" title="Back to top">↑</button>
+  <button id="skyNext" title="Next day" tabindex="-1">›</button>
+  <button id="skyTonight" tabindex="-1">TONIGHT</button>
+  <button class="sky-top" id="skyTop" title="Back to top" tabindex="-1">↑</button>
 </div>
 
 <!-- ============ NAV ============ -->
@@ -109,7 +112,7 @@
       <span class="date-display" id="dateDisplay">—</span>
       <button id="nextDay" title="Next day (→)" aria-label="Next day">›</button>
     </div>
-    <input type="date" id="datePicker" />
+    <input type="date" id="datePicker" aria-label="Jump to a specific date" />
     <div class="quick">
       <button data-quick="today">TONIGHT</button>
       <button data-quick="tomorrow">TOMORROW</button>
@@ -149,13 +152,15 @@
       <button class="toggle" id="radarJump" title="Browse by district">◎ DISTRICTS</button>
       <span class="count" id="count">LOADING…</span>
     </div>
-    <select class="sortsel" id="sort">
+    <select class="sortsel" id="sort" aria-label="Sort events">
       <option value="time">SORT / TIME</option>
       <option value="name">SORT / NAME</option>
       <option value="cost">SORT / COST</option>
     </select>
   </div>
   <div class="ad-leader">ADVERTISEMENT · LEADERBOARD (728×90)</div>
+  <!-- The cards render as <h3>; without this the page jumps h1 -> h3. -->
+  <h2 class="sr-only">Events for the selected day</h2>
   <div class="grid" id="grid"></div>
 </main>
 
