@@ -110,6 +110,19 @@ rejected** so they don't get re-probed.
   by hand via `scripts/fetch_eventbrite_local.py`, never in CI.
 - Do214's parser is written but **disabled**: it 403s all non-browser UAs and
   their ToS forbids scraping. Don't enable it by faking a User-Agent.
+- Dallasites101 (`fetch_dallasites101`) follows links off its `/calendar/`
+  page rather than an API — small yield (~8), no key, `Crawl-delay: 2` in its
+  robots.txt is honored with a `time.sleep(2.0)` per event page. Its JSON-LD
+  has no time-of-day and no ticket link; both are recovered from a `var time
+  = "..."` string and an embedded `"Tickets URL"`/`"admission"` blob in the
+  page source. CultureMap Fort Worth was evaluated the same day and rejected
+  (client-rendered shell, no feed) — see the module docstring before
+  re-probing either.
+- A run that produces fewer than half the previous file's events refuses to
+  write (`COLLAPSE_GUARD_RATIO` in `fetch_events.py`, main()) and exits
+  non-zero instead — this is almost always a dead API key or a source's
+  markup changing, not DFW actually going quiet. The Action then fails
+  visibly rather than silently pushing a gutted site.
 - Adding an ICS feed: try `<site>/events/?ical=1`, then
   `/wp-json/tribe/events/v1/events`. **Confirm the content-type is
   `text/calendar`** — several DFW sites answer 200 with an HTML page.

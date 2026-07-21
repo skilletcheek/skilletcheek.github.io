@@ -9,6 +9,8 @@ Sources (all optional — missing keys/feeds are skipped gracefully):
   * SeatGeek API                 (env SEATGEEK_CLIENT_ID)
   * Any iCal/ICS feeds listed in scripts/feeds.json
   * Prekindle venue pages, Seated artist tours (scripts/feeds.json)
+  * Dallasites101 — /calendar/ listing page + per-event JSON-LD (see
+    fetch_dallasites101 docstring below). Small yield (~8 events), no key.
   * Do214 — parser written, DISABLED: it 403s all non-browser UAs, so running
     it would mean spoofing one. See `_disabled_because` in feeds.json.
 
@@ -18,6 +20,12 @@ Sources evaluated and rejected (2026-07-21, so nobody re-litigates them):
     unused, and there is no free tier worth wiring.
   * fortworthtexas.gov — edge-blocked (403 to every UA, browser included).
   * fortworth.com (Simpleview CVB), dfwi.org — HTML only, no ICS/RSS/JSON-LD.
+  * fortworth.culturemap.com (CultureMap Fort Worth) — not WordPress, no RSS
+    at any common path, and /events/ is a client-rendered app shell with no
+    server-side event data and no per-event JSON-LD (the only JSON-LD on that
+    page is a contentless CollectionPage stub). Same failure shape as the
+    other Simpleview/CVB-style sites above. Re-probe only if the site visibly
+    changes platforms.
   * TPWD — has an RSS feed but its items carry NO dates, so it cannot drive a
     date-picking site. Per-park RSS paths 404.
   * Patch DFW — no RSS endpoint (404).
@@ -814,6 +822,95 @@ def fetch_do214(start, end):
         if kept:
             print(f"do214 ({day:%Y-%m-%d}): {kept} events")
     print(f"do214: {len(out)} events total")
+    return out
+
+
+# ---------------------------------------------------------------- Dallasites101
+# Dallasites101 is a Dallas lifestyle blog that also runs its own ticketed
+# social meetups (pool parties, silent discos, "serve & social" volunteer
+# nights). Its /calendar/ page links to individual /event/<slug>/<id>/ pages,
+# each carrying a real schema.org Event JSON-LD block (name/date/venue/address)
+# — same pattern as Prekindle. Two things the JSON-LD does NOT carry, both
+# recovered from the surrounding page source instead:
+#   * time-of-day — a `var time = "8:00 PM to 11:00 PM"` string
+#   * a real outbound ticket link + price — some of these events are actually
+#     sold through Eventbrite under Dallasites101's own affiliate link, buried
+#     in an embedded `{"name":"Tickets URL","value":"...","admission":"$25..."}`
+#     blob. Falls back to the event's own page when absent.
+# Small yield (checked 2026-07-21: 8 events on /calendar/, a strict superset of
+# its /calendar/101media-events/ sub-page) but genuine, and not carried by any
+# other source we pull. robots.txt allows / with `Crawl-delay: 2`, honored
+# below with a sleep between each per-event fetch (there is no bulk/API route —
+# the listing page itself carries no JSON-LD, only links to follow).
+DALLASITES101_BASE = "https://www.dallasites101.com"
+DALLASITES101_CALENDAR = f"{DALLASITES101_BASE}/calendar/"
+
+
+def fetch_dallasites101(start, end):
+    lo, hi = start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
+    try:
+        listing = http_text(DALLASITES101_CALENDAR)
+    except Exception as e:  # noqa: BLE001
+        print(f"dallasites101: calendar page failed: {e}", file=sys.stderr)
+        return []
+
+    links = sorted(set(re.findall(r'href="(/event/[^"]+/\d+/)"', listing)))
+    out = []
+    for href in links:
+        url = DALLASITES101_BASE + href
+        try:
+            html = http_text(url)
+        except Exception as e:  # noqa: BLE001
+            print(f"dallasites101 ({href}): fetch failed: {e}", file=sys.stderr)
+            continue
+        finally:
+            time.sleep(2.0)     # robots.txt: Crawl-delay: 2
+
+        m = re.search(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
+        if not m:
+            continue
+        try:
+            ev = json.loads(m.group(1))
+        except (ValueError, TypeError):
+            continue
+        if ev.get("@type") != "Event" or not ev.get("name"):
+            continue
+
+        date = str(ev.get("startDate") or "")[:10]
+        if not (lo <= date <= hi):
+            continue
+
+        loc = ev.get("location") or {}
+        addr = loc.get("address") or {}
+        city, region = addr.get("addressLocality"), addr.get("addressRegion")
+        if not is_dfw_city(city, region):
+            continue
+        area = ", ".join(x for x in [loc.get("name"), city] if x) or "Dallas"
+
+        tm = re.search(r'var\s+time\s*=\s*"([^"]*)"', html)
+        # the site writes ranges as "8:00 PM to 11:00 PM"; the site's own
+        # timeRange() parser (js/app.js) splits on an en/em dash, not "to"
+        time_str = tm.group(1).replace(" to ", "–") if tm else "See details"
+
+        ticket_m = re.search(r'"name":"Tickets URL","value":"([^"]*)"', html)
+        ticket_url = ticket_m.group(1) if ticket_m else (ev.get("url") or url)
+
+        cost = None
+        adm_m = re.search(r'"admission":"([^"]*)"', html)
+        if adm_m:
+            price_m = re.search(r"\$(\d+(?:\.\d+)?)", adm_m.group(1))
+            if price_m:
+                cost = float(price_m.group(1))          # lowest listed tier
+            elif re.search(r"\bfree\b", adm_m.group(1), re.I):
+                cost = 0
+
+        # reuses Eventbrite's generic keyword pass (no Eventbrite-specific tags
+        # involved when `tags` is None) rather than duplicating EB_KEYWORDS
+        out.append(row(
+            ev["name"], eb_category(None, ev["name"] + " " + (ev.get("description") or "")),
+            area, date, time_str, cost, ev.get("description"), ticket_url, ev.get("image"),
+        ))
+    print(f"dallasites101: {len(out)} events")
     return out
 
 
@@ -2042,6 +2139,17 @@ def dedupe(rows):
 
 
 # ------------------------------------------------------------------------ main
+# If a source silently breaks (bad key, schema change, vendor outage), the
+# fetchers above already degrade gracefully — they catch the error and return
+# [], same as an intentionally-unconfigured source. main() couldn't tell "TM
+# had zero events tonight" apart from "TM's key just died", and would happily
+# overwrite live-events.json with whatever survived, commit it, push it, and
+# exit 0. The site would quietly go from ~500 events to ~30 with no failed
+# build to flag it. A run is only allowed to shrink the catalog by this much;
+# past that it almost certainly means a source broke, not that DFW went quiet.
+COLLAPSE_GUARD_RATIO = 0.5
+
+
 def main():
     now = datetime.now(timezone.utc)
     start = now.replace(hour=0, minute=0, second=0, microsecond=0)
@@ -2057,12 +2165,34 @@ def main():
     # when it carries the same show as Ticketmaster we want TM's row (direct
     # ticket link, firmer price) to win dedupe. Its value is the small-venue
     # and food/arts inventory the ticketing APIs never list at all.
+    # Dallasites101 sits alongside Do214: it's a small-yield lifestyle-blog
+    # source (~8 events at a time) that sometimes carries a real ticket link
+    # and price, so it deserves the same "before Seated" priority.
     rows = (fetch_ticketmaster(start, end) + fetch_seatgeek(start, end)
             + fetch_ics_feeds(start, end) + fetch_prekindle(start, end)
-            + fetch_do214(start, end)
+            + fetch_do214(start, end) + fetch_dallasites101(start, end)
             + fetch_seated(start, end))
 
     unique = dedupe(rows)
+
+    previous_count = None
+    if OUT_FILE.exists():
+        try:
+            previous_count = len(json.loads(OUT_FILE.read_text()))
+        except (OSError, ValueError):
+            previous_count = None   # unreadable old file can't gate anything
+
+    if previous_count and len(unique) < previous_count * COLLAPSE_GUARD_RATIO:
+        print(
+            f"REFUSING TO WRITE: {len(unique)} events is less than "
+            f"{COLLAPSE_GUARD_RATIO:.0%} of the previous {previous_count}. "
+            f"This almost always means a source broke (dead API key, schema "
+            f"change, vendor outage), not that DFW genuinely went quiet. "
+            f"live-events.json, press.json and the hub pages are left "
+            f"untouched — investigate the per-source counts printed above.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
     OUT_FILE.write_text(json.dumps(unique, indent=1, ensure_ascii=False) + "\n")
     print(f"wrote {len(unique)} events -> {OUT_FILE.name}")
