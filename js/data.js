@@ -36,7 +36,7 @@ const CONFIG = {
   // formspree.io (free tier = 50 submissions/mo), paste its endpoint here
   // (https://formspree.io/f/xxxxxxxx), then re-run scripts/fetch_events.py —
   // /submit/ reads this at BUILD time, so it must be regenerated after a change.
-  submitEventEndpoint: "",
+  submitEventEndpoint: "https://formspree.io/f/mojgllbd",
   advertiseEndpoint: "",         // Formspree URL for /advertise/ — blank falls back to a
                                  // pre-filled mailto. Read at build time by
                                  // scripts/fetch_events.py, so regenerate after changing it.

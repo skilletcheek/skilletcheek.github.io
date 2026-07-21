@@ -91,7 +91,21 @@
   <h2>Tell us what's happening</h2>
   <p class="a-sub">Takes about a minute. Only the marked fields are required —
   send what you have and we'll chase the rest if we need it.</p>
-  <a class="s-cta" href="mailto:hello@letsdoitdallas.com?subject=Event%20submission%20%E2%80%94%20letsdoitdallas.com&body=Event%20name%3A%0AVenue%3A%0ANeighborhood%20/%20city%3A%0ADate%3A%0AStart%20time%3A%0ARepeats%20%28one-off%20/%20weekly%20/%20monthly%29%3A%0ACost%20%280%20%3D%20free%29%3A%0ACategory%3A%0ALink%3A%0AShort%20description%3A%0A%0AYour%20name%3A%0AYour%20email%3A%0A">EMAIL US YOUR EVENT →</a><p class="s-msg">Free. We reply to every one.</p>
+  <form class="s-form" action="https://formspree.io/f/mojgllbd" method="POST" id="submitPageForm">
+<label for="f_name">EVENT NAME</label><input id="f_name" name="name" type="text" placeholder="Thursday Night Residency" required/>
+<div class="s-grid"><div><label for="f_venue">VENUE</label><input id="f_venue" name="venue" type="text" placeholder="The Free Man" required/></div><div><label for="f_area">NEIGHBORHOOD / CITY</label><input id="f_area" name="area" type="text" placeholder="Deep Ellum, Dallas" required/></div></div>
+<div class="s-grid"><div><label for="f_date">DATE</label><input id="f_date" name="date" type="date" required/></div><div><label for="f_time">START TIME <i>(optional)</i></label><input id="f_time" name="time" type="text" placeholder="7:00 PM"/></div></div>
+<div class="s-grid"><div><label for="f_recurring">REPEATS <i>(optional)</i></label><select id="f_recurring" name="recurring"><option value="once">One-off</option><option value="weekly">Every week</option><option value="monthly">Every month</option></select></div><div><label for="f_cost">COST (USD, 0 = FREE) <i>(optional)</i></label><input id="f_cost" name="cost" type="number" placeholder="0" min="0"/></div></div>
+<label for="f_category">CATEGORY <i>(optional)</i></label><select id="f_category" name="category"><option value="music">Live Music</option><option value="food">Food &amp; Drink</option><option value="arts">Arts &amp; Museums</option><option value="outdoors">Outdoors &amp; Parks</option><option value="sports">Sports</option><option value="family">Family &amp; Kids</option><option value="market">Markets</option><option value="nightlife">Nightlife</option><option value="festival">Festivals</option></select>
+<label for="f_url">LINK (TICKETS OR INFO) <i>(optional)</i></label><input id="f_url" name="url" type="url" placeholder="https://"/>
+<label for="f_description">SHORT DESCRIPTION <i>(optional)</i></label><textarea id="f_description" name="description" rows="3" placeholder="One or two lines — what makes it worth leaving the house for?"></textarea>
+<div class="s-grid"><div><label for="f_contact_name">YOUR NAME</label><input id="f_contact_name" name="contact_name" type="text" required/></div><div><label for="f_contact_email">YOUR EMAIL</label><input id="f_contact_email" name="contact_email" type="email" placeholder="you@venue.com" required/></div></div>
+<div class="s-hp" aria-hidden="true"><label for="f_company_website">Leave this empty</label>
+<input id="f_company_website" name="company_website" tabindex="-1" autocomplete="off"/></div>
+<input type="hidden" name="_subject" value="Event submission — letsdoitdallas.com"/>
+<button class="s-btn" type="submit">SUBMIT EVENT →</button>
+<p class="s-msg">Free. No account needed.</p>
+</form>
 </div></section>
 
 <section class="a-sec"><div class="wrap">
