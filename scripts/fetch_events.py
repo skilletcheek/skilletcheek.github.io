@@ -869,6 +869,50 @@ def _slugify_matches(area: str):
     return None
 
 
+_ADDR_NOISE = re.compile(r"^(united states|usa|us|tx|texas)$", re.I)
+_POSTAL = re.compile(r"^\d{5}(-\d{4})?$")
+
+
+def _split_area(area: str):
+    """Split a free-text `area` into (venue, street, city) for schema.org.
+
+    `area` is one field carrying several shapes: a bare district
+    ("Lower Greenville"), Ticketmaster's "Venue, City", or an ICS feed's full
+    postal address ("Tulips FTW, 112 Saint Louis Avenue, Fort Worth, 76104,
+    United States"). Feeding the whole string to `addressLocality` — which the
+    JSON-LD did — puts a street address in a field Google reads as a city name
+    and risks Event rich-result eligibility.
+
+    Any component may be None; callers must omit rather than guess. In
+    particular a single-part area has no discoverable city: "Lower Greenville"
+    is a Dallas neighborhood, but inferring "Dallas" from that is exactly the
+    guess that produces wrong data for the Fort Worth entries.
+
+    Note `row()` truncates `area` to 80 chars, so the tail of a long address
+    can arrive already mangled ("..., Fort Worth, 76107, "). Dropping empty and
+    noise parts absorbs that.
+    """
+    def noise(p):
+        # row()'s 80-char cap can sever the trailing country mid-word, leaving
+        # "Un" — short enough to survive as a locality. Any prefix of "united
+        # states" is that artifact; no DFW city collides ("Union" diverges at
+        # the fourth character).
+        return (_ADDR_NOISE.match(p) or _POSTAL.match(p)
+                or (len(p) >= 2 and "united states".startswith(p.lower())))
+
+    parts = [p.strip() for p in (area or "").split(",")]
+    parts = [p for p in parts if p and not noise(p)]
+    if not parts:
+        return None, None, None
+    if len(parts) == 1:
+        return parts[0], None, None
+    venue, rest = parts[0], parts[1:]
+    # A street line starts with a house number; everything else is locality.
+    street = [p for p in rest if re.match(r"^\d", p)]
+    city = [p for p in rest if p not in street]
+    return venue, (", ".join(street) or None), (city[-1] if city else None)
+
+
 def _jsonld(events):
     out = []
     for i, e in enumerate(events[:30]):
@@ -883,16 +927,22 @@ def _jsonld(events):
             end_min = min(h * 60 + mi + 180, 23 * 60 + 59)
             end = f"{e['date']}T{end_min // 60:02d}:{end_min % 60:02d}:00-05:00"
         url = e["url"] if e["url"] and e["url"] != "#" else SITE
+        venue, street, city = _split_area(e["area"])
+        addr = {"@type": "PostalAddress", "addressRegion": "TX"}
+        if street:
+            addr["streetAddress"] = street
+        if city:
+            addr["addressLocality"] = city
         item = {"@type": "Event", "name": e["name"], "startDate": start, "endDate": end,
                 "eventStatus": "https://schema.org/EventScheduled",
                 "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-                "location": {"@type": "Place", "name": e["area"],
-                             "address": {"@type": "PostalAddress", "addressRegion": "TX",
-                                         "addressLocality": e["area"]}},
+                "location": {"@type": "Place", "name": venue or e["area"], "address": addr},
                 "image": [e.get("image") or f"{SITE}/og-image.png"],
                 "url": url,
-                "organizer": {"@type": "Organization", "name": e["area"], "url": url},
                 "performer": {"@type": "PerformingGroup", "name": e["name"]}}
+        if venue:
+            # No url: `url` is the ticketing listing, not the venue's own site.
+            item["organizer"] = {"@type": "Organization", "name": venue}
         if e.get("description"):
             item["description"] = e["description"]
         offer = {"@type": "Offer", "url": url,
@@ -926,11 +976,116 @@ def _analytics_snippet():
             f"data-cf-beacon='{cfg}'></script>")
 
 
+def _display_area(area: str) -> str:
+    """Human-readable venue line: "Tulips FTW · Fort Worth".
+
+    Printing the raw `area` leaked full postal addresses into the listing, and
+    `row()`'s 80-char cap chopped them mid-field ("..., Fort Worth, 76107, ").
+    Reuses the JSON-LD split so the visible text and the structured data name
+    the same place; the street number is dropped as noise for a reader.
+    """
+    venue, _street, city = _split_area(area)
+    if venue and city and city.lower() not in venue.lower():
+        return f"{venue} · {city}"
+    return venue or (area or "")
+
+
+# Venues carrying at least this many upcoming events get their own page. Below
+# it the page is too thin to rank and just dilutes the crawl budget; at 3 the
+# current feed yields ~40 pages.
+VENUE_MIN_EVENTS = 3
+
+# Touring productions that report themselves as a venue. They travel, so a
+# venue page would outlive the run and strand the URL. Substring, lowercased.
+_NOT_VENUES = ("universoul circus",)
+
+# slug -> display name, populated by write_venues() and read by _hub_row() so
+# listings can link to a venue page. write_venues() must therefore run before
+# the hubs are written; write_hubs() enforces that ordering.
+_VENUE_PAGES = {}
+
+
+def _venue_slug(name: str) -> str:
+    s = re.sub(r"[^a-z0-9]+", "-", (name or "").lower()).strip("-")
+    return s[:60].strip("-")
+
+
+def _is_real_venue(name: str) -> bool:
+    """Reject district labels and touring shows masquerading as venues.
+
+    `area` is one field doing several jobs, so a Ticketmaster row can report
+    "Lower Greenville" — a neighbourhood that already has a district hub. Giving
+    it a venue page too would put two of our own URLs on one query. The district
+    check reads DISTRICTS rather than a hand-list so the two stay consistent.
+    """
+    n = (name or "").strip().lower()
+    if not n or any(bad in n for bad in _NOT_VENUES):
+        return False
+    return not any(n == m for _slug, _label, match in DISTRICTS for m in match)
+
+
+def _hub_row(e, omit_venue=None, count=1, last=None):
+    """One listing line. Everything from a feed is escaped.
+
+    107 of the current 541 names carry a bare "&" ("County Line Records & WMG
+    Vinyl Take-Back Event"), which went into the markup raw; a name with an
+    angle bracket would break the page outright. This is the Python-side
+    counterpart of the esc()/safeUrl() rule that js/sources.js already follows.
+
+    `omit_venue` drops the venue from the line on that venue's own page, where
+    repeating it on all 60 rows is noise and reads as boilerplate to a crawler.
+    """
+    url = e["url"] if str(e.get("url") or "").startswith(("http://", "https://")) else "#"
+    venue, _street, _city = _split_area(e["area"])
+    slug = _venue_slug(venue) if venue else None
+    if count > 1 and last and last != e["date"]:
+        bits = [f'{count} dates', f'{_fmt_day(e["date"])} – {_fmt_day(last)}']
+    else:
+        bits = [e["date"], _html.escape(e["time"])]
+    if slug != omit_venue:
+        where = _html.escape(_display_area(e["area"]))
+        bits.append(f'<a href="/venue/{slug}/">{where}</a>' if slug in _VENUE_PAGES else where)
+    return (f'<li><a href="{_html.escape(url, quote=True)}" rel="noopener">'
+            f'<strong>{_html.escape(e["name"])}</strong></a> '
+            f'<span>/ {" · ".join(bits)}</span></li>')
+
+
+def _fmt_day(iso):
+    try:
+        return datetime.strptime(iso, "%Y-%m-%d").strftime("%b %-d")
+    except ValueError:
+        return iso
+
+
+def _group_repeats(events):
+    """Collapse a repeated title into one entry carrying its date range.
+
+    Residencies and tours report one row per performance, so Deep Ellum Art Co
+    listed "Drunk Shakespeare" 33 times and was 100% one title; 7 of 38 venue
+    pages had a single title over half their rows. That reads as doorway
+    content to a crawler and tells a reader nothing 33 times over.
+
+    Yields (event, count, last_date) keeping first-seen order, so the caller
+    still has the earliest occurrence to link to. The JSON-LD is deliberately
+    left ungrouped: each performance is a real dated Event and Google wants
+    them individually.
+    """
+    order, seen = [], {}
+    for e in events:
+        key = e["name"].strip().lower()
+        if key in seen:
+            seen[key][1] += 1
+            seen[key][2] = max(seen[key][2], e["date"])
+        else:
+            seen[key] = [e, 1, e["date"]]
+            order.append(key)
+    return [tuple(seen[k]) for k in order]
+
+
 def _hub_html(title, desc, canonical, events, app_link, heading, note):
-    rows = "\n".join(
-        f'<li><a href="{e["url"]}" rel="noopener"><strong>{e["name"]}</strong></a> '
-        f'<span>/ {e["date"]} · {e["time"]} · {e["area"]}</span></li>'
-        for e in events[:60]) or "<li>Fresh listings load nightly — check the live radar.</li>"
+    rows = "\n".join(_hub_row(e, count=n, last=last)
+                     for e, n, last in _group_repeats(events)[:60]) \
+        or "<li>Fresh listings load nightly — check the live radar.</li>"
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -959,6 +1114,107 @@ li span{{display:block;font-family:ui-monospace,monospace;font-size:11px;color:#
 <ul>{rows}</ul>
 <p><a href="/">← letsdoitdallas.com</a></p>
 </body></html>"""
+
+
+def _venue_html(name, city, street, canonical, events):
+    """Venue page: the long-tail surface the site otherwise has none of.
+
+    Every listing links straight out to Ticketmaster, so nothing on this domain
+    could rank for "<act> <venue>". This page also doubles as outreach — it is
+    something to point a venue at that already exists.
+
+    Carries a Place node alongside the event ItemList so the venue reads as an
+    entity rather than just a list.
+    """
+    place = {"@context": "https://schema.org", "@type": "Place", "name": name,
+             "url": canonical,
+             "address": {"@type": "PostalAddress", "addressRegion": "TX",
+                         **({"streetAddress": street} if street else {}),
+                         **({"addressLocality": city} if city else {})}}
+    esc_name = _html.escape(name)
+    # The <h1> already carries the name; this line adds only what it doesn't.
+    where = " · ".join(([_html.escape(city)] if city else []) + [f"{len(events)} UPCOMING"])
+    title = f"{esc_name} Events — Upcoming Shows{f' in {_html.escape(city)}' if city else ''} | Lets Do It Dallas"
+    desc = (f"Upcoming events at {esc_name}"
+            f"{f' in {_html.escape(city)}' if city else ''} — dates, times and tickets on the "
+            "Lets Do It Dallas event radar.")
+    rows = "\n".join(_hub_row(e, omit_venue=_venue_slug(name), count=n, last=last)
+                     for e, n, last in _group_repeats(events)[:60])
+    return f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>{title}</title>
+<meta name="description" content="{desc}"/>
+<link rel="canonical" href="{canonical}"/>
+<meta property="og:title" content="{title}"/>
+<meta property="og:description" content="{desc}"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="{canonical}"/>
+<meta property="og:image" content="{SITE}/og-image.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{SITE}/og-image.png"/>
+<script type="application/ld+json">{_jsonld(events)}</script>
+<script type="application/ld+json">{json.dumps(place)}</script>
+<style>
+body{{background:#08090B;color:#8A909E;font:15px/1.6 Inter,-apple-system,sans-serif;margin:0;padding:40px 6vw}}
+h1{{color:#fff;font-size:2rem;letter-spacing:.01em}}a{{color:#00FF87;text-decoration:none}}
+.k{{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.12em;color:#00FF87}}
+ul{{list-style:none;padding:0}}li{{padding:12px 0;border-bottom:1px solid #191C22}}
+li span{{display:block;font-family:ui-monospace,monospace;font-size:11px;color:#8A909E}}
+.cta{{display:inline-block;margin:18px 0;border:1px solid #0E3A2F;padding:12px 18px}}
+.foot{{margin-top:28px;font-size:13px}}
+</style>{_analytics_snippet()}</head><body>
+<p class="k">/ LETS DO IT DALLAS — VENUE</p>
+<h1>{esc_name}</h1>
+<p class="k">{where}</p>
+<a class="cta" href="/?q={urllib.parse.quote(name)}">( OPEN THE LIVE RADAR ↗ )</a>
+<ul>{rows}</ul>
+<p class="foot">Run {esc_name}? <a href="/submit/">List your shows free</a> — or
+<a href="/advertise/">see partner options</a>.</p>
+<p><a href="/">← letsdoitdallas.com</a></p>
+</body></html>"""
+
+
+def write_venues(events):
+    """Emit /venue/<slug>/ for every venue clearing VENUE_MIN_EVENTS.
+
+    Returns the canonical URLs for the sitemap, and fills _VENUE_PAGES so the
+    hub listings can link here.
+    """
+    by_venue = {}
+    for e in events:
+        venue, street, city = _split_area(e.get("area", ""))
+        if not venue or not _is_real_venue(venue):
+            continue
+        slug = _venue_slug(venue)
+        if not slug:
+            continue
+        # First spelling seen wins the display name; a later row may be the
+        # truncated one. Keep the longest street/city seen for the same reason.
+        g = by_venue.setdefault(slug, {"name": venue, "street": None, "city": None, "events": []})
+        g["events"].append(e)
+        if street and not g["street"]:
+            g["street"] = street
+        if city and not g["city"]:
+            g["city"] = city
+        if len(venue) > len(g["name"]):
+            g["name"] = venue
+
+    urls = []
+    _VENUE_PAGES.clear()
+    for slug, g in sorted(by_venue.items()):
+        if len(g["events"]) < VENUE_MIN_EVENTS:
+            continue
+        evs = sorted(g["events"], key=lambda e: (e["date"], e.get("time") or ""))
+        canonical = f"{SITE}/venue/{slug}/"
+        d = ROOT / "venue" / slug
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(
+            _venue_html(g["name"], g["city"], g["street"], canonical, evs))
+        _VENUE_PAGES[slug] = g["name"]
+        urls.append(canonical)
+    print(f"wrote {len(urls)} venue pages (of {len(by_venue)} venues seen)")
+    return urls
 
 
 def _config_value(key):
@@ -1599,7 +1855,9 @@ def write_submit(events):
 
 def write_hubs(events):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    pages = []
+    # First: it fills _VENUE_PAGES, which _hub_row() reads to link listings to
+    # venue pages. Emitting the hubs before this leaves those links off.
+    pages = write_venues(events)
 
     def emit(path, title, desc, evs, app_link, heading, note):
         d = ROOT / path

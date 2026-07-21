@@ -40,7 +40,14 @@ get clobbered; change the **Python** instead:
 
 - `live-events.json`, `press.json`, `sitemap.xml`, `robots.txt`
 - `/tonight/`, `/this-weekend/`, `/free-events/`, `/district/*/` hub pages
+- `/venue/*/` venue pages (`write_venues()`)
 - `/advertise/` (`write_advertise()`), `/submit/` (`write_submit()`)
+
+`write_hubs()` calls `write_venues()` **first** — it populates `_VENUE_PAGES`,
+which `_hub_row()` reads to link listings to venue pages. Reorder that and the
+links silently vanish. A venue needs `VENUE_MIN_EVENTS` (3) upcoming events to
+get a page; `_is_real_venue()` rejects district labels (`area` sometimes
+reports "Lower Greenville") and touring shows that pose as venues.
 
 `/advertise/` and `/submit/` read `CONFIG` values from `js/data.js` at **build
 time** — after changing an endpoint there, regenerate the page.
@@ -124,6 +131,16 @@ diverge. Add a field in both places.
   (`sources.js`). Don't re-fetch on date change.
 - All feed text must go through `esc()` before `innerHTML`, and feed URLs
   through `safeUrl()`. Real listings contain `<angle brackets>` and quotes.
+  **The same rule applies in Python**: `_hub_row()` escapes via `_html.escape`
+  and whitelists the URL scheme. 107 of 541 names carry a bare `&`.
+
+## Two-layer mirrors
+
+Like `dedupe()`, some logic exists in both Python and JS and **both must
+agree**: `_split_area()` (`fetch_events.py`) / `splitArea()` (`js/app.js`) feed
+the same schema.org address into the generated pages and the homepage's runtime
+JSON-LD. Cross-check by hashing both over `live-events.json` after any change.
+`addressLocality` must be a city — it once held the whole postal address.
 
 ## Verification gotchas
 

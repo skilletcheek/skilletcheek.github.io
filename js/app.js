@@ -68,6 +68,25 @@ function safeUrl(u) {
   return /^https?:\/\//i.test(s) ? s : "#";
 }
 
+/* Split a free-text `area` into [venue, street, city] for schema.org.
+
+   Mirror of _split_area() in scripts/fetch_events.py — see that docstring for
+   the shapes involved and why a missing city stays missing rather than being
+   guessed at. Any element may be null; the caller omits the field. */
+const _ADDR_NOISE = /^(united states|usa|us|tx|texas)$/i;
+const _POSTAL = /^\d{5}(-\d{4})?$/;
+
+function splitArea(area) {
+  const parts = String(area ?? "").split(",").map((p) => p.trim())
+    .filter((p) => p && !_ADDR_NOISE.test(p) && !_POSTAL.test(p));
+  if (!parts.length) return [null, null, null];
+  if (parts.length === 1) return [parts[0], null, null];
+  const [venue, ...rest] = parts;
+  const street = rest.filter((p) => /^\d/.test(p));
+  const city = rest.filter((p) => !street.includes(p));
+  return [venue, street.join(", ") || null, city.length ? city[city.length - 1] : null];
+}
+
 /* Stable per-event identity, used for favorites and for matching a clicked
    card back to its data. Must include the time: venues run the same act twice
    in one night (a 7:30 and a 9:45 set) at the same address, and keying on
@@ -405,7 +424,14 @@ function updateSeo(list) {
     ? state.district.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
     : "Dallas–Fort Worth";
   const when = isToday(state.date) ? "Tonight" : fmtDate(state.date);
-  document.title = `Things to Do in ${where} ${when} | Lets Do It Dallas`;
+  /* Only retitle once the view is actually filtered. In the default state this
+     used to render "Things to Do in Dallas–Fort Worth Tonight | ...", which is
+     character-for-character the <title> of the /tonight/ hub — and since Google
+     renders JS, the rewrite reached the index and put the two pages in the same
+     query. The static <title> in index.html owns the unfiltered homepage; the
+     dynamic one still earns its keep on shared ?district=/?date= URLs. */
+  const filtered = state.district || !isToday(state.date);
+  if (filtered) document.title = `Things to Do in ${where} ${when} | Lets Do It Dallas`;
   const md = document.querySelector('meta[name="description"]');
   if (md) md.setAttribute("content",
     `Discover live events, music, pop-ups, and nightlife in ${where} for ${fmtDate(state.date)}. Real-time event radar on Lets Do It Dallas.`);
@@ -421,6 +447,9 @@ function updateSeo(list) {
   const events = list.slice(0, 30).filter((a) => a.url && a.url !== "#" && a.url !== "#advertise").map((a) => {
     const startMins = parseTimeToMinutes(a.time);
     const timed = startMins < 24 * 60;
+    // Mirrors _split_area() in scripts/fetch_events.py — both layers emit the
+    // same schema.org address for the same event, so keep them in step.
+    const [venue, street, city] = splitArea(a.area);
     const pad = (n) => String(n).padStart(2, "0");
     const startDate = timed ? `${iso}T${pad(Math.floor(startMins / 60) % 24)}:${pad(startMins % 60)}:00-05:00` : iso;
     // default a 3-hour run, clamped to the same day
@@ -433,11 +462,11 @@ function updateSeo(list) {
       endDate,
       eventStatus: "https://schema.org/EventScheduled",
       eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-      location: { "@type": "Place", name: a.area, address: { "@type": "PostalAddress", addressRegion: "TX", addressLocality: a.area } },
+      location: { "@type": "Place", name: venue || a.area, address: { "@type": "PostalAddress", addressRegion: "TX", ...(street ? { streetAddress: street } : {}), ...(city ? { addressLocality: city } : {}) } },
       image: [a.image || fallbackImg],
       description: a.desc || undefined,
       url: a.url,
-      organizer: { "@type": "Organization", name: a.sponsor || a.area, url: a.url },
+      organizer: (a.sponsor || venue) ? { "@type": "Organization", name: a.sponsor || venue } : undefined,
       performer: { "@type": "PerformingGroup", name: a.name },
       offers: {
         "@type": "Offer",
