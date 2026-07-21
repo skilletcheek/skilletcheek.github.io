@@ -8,6 +8,19 @@ Sources (all optional — missing keys/feeds are skipped gracefully):
   * Ticketmaster Discovery API   (env TICKETMASTER_KEY)
   * SeatGeek API                 (env SEATGEEK_CLIENT_ID)
   * Any iCal/ICS feeds listed in scripts/feeds.json
+  * Prekindle venue pages, Seated artist tours (scripts/feeds.json)
+  * Do214 — parser written, DISABLED: it 403s all non-browser UAs, so running
+    it would mean spoofing one. See `_disabled_because` in feeds.json.
+
+Sources evaluated and rejected (2026-07-21, so nobody re-litigates them):
+  * Bandsintown — 403 "explicit deny"; partner/affiliate app_id required.
+  * PredictHQ — paid commercial product; loader exists in js/sources.js but is
+    unused, and there is no free tier worth wiring.
+  * fortworthtexas.gov — edge-blocked (403 to every UA, browser included).
+  * fortworth.com (Simpleview CVB), dfwi.org — HTML only, no ICS/RSS/JSON-LD.
+  * TPWD — has an RSS feed but its items carry NO dates, so it cannot drive a
+    date-picking site. Per-park RSS paths 404.
+  * Patch DFW — no RSS endpoint (404).
 
 Output rows use the same schema as events.json:
   {name, category, area, date, time, cost, description, url}
@@ -268,6 +281,39 @@ def parse_ics_datetime(val: str):
     return date, time
 
 
+# Many calendars (anything running The Events Calendar plugin) ship a
+# CATEGORIES line per event. Without this every ICS row landed in the catch-all
+# "festival" bucket, which made the vibe filters useless for those venues.
+# Matched as substrings, longest first, so "Live Music" wins before "Music".
+ICS_CATEGORY = [
+    ("live music", "music"), ("concert", "music"), ("music", "music"),
+    ("nightlife", "nightlife"), ("bar", "nightlife"),
+    ("comedy", "arts"), ("theatre", "arts"), ("theater", "arts"),
+    ("performing arts", "arts"), ("galler", "arts"), ("museum", "arts"),
+    ("art", "arts"),
+    ("food", "food"), ("dining", "food"), ("restaurant", "food"),
+    ("market", "market"), ("farmers", "market"),
+    ("sports", "sports"), ("rodeo", "sports"), ("equestrian", "sports"),
+    ("outdoor", "outdoors"), ("hike", "outdoors"), ("nature", "outdoors"),
+    ("park", "outdoors"),
+    ("family", "family"), ("kids", "family"), ("children", "family"),
+    ("festival", "festival"),
+]
+
+
+def ics_category(raw: str, default: str) -> str:
+    """Map an ICS CATEGORIES value onto our vocabulary. An event can carry
+    several ('Live Music,Special Event'); first recognised one wins. Falls back
+    to the feed's configured category so a hand-tuned feed keeps its label."""
+    text = (raw or "").lower()
+    if not text:
+        return default
+    for needle, cat in ICS_CATEGORY:
+        if needle in text:
+            return cat
+    return default
+
+
 def fetch_ics_feeds(start, end):
     if not FEEDS_FILE.exists():
         return []
@@ -295,7 +341,9 @@ def fetch_ics_feeds(start, end):
                 date, time = parse_ics_datetime(ev.get("DTSTART", ""))
                 if date and lo <= date <= hi and ev.get("SUMMARY"):
                     out.append(row(
-                        ev.get("SUMMARY"), feed.get("category", "festival"),
+                        ev.get("SUMMARY"),
+                        ics_category(ev.get("CATEGORIES"),
+                                     feed.get("category", "festival")),
                         ev.get("LOCATION") or feed.get("area"),
                         date, time, feed.get("cost"),
                         re.sub(r"\\n", " ", ev.get("DESCRIPTION", ""))[:280],
@@ -306,7 +354,8 @@ def fetch_ics_feeds(start, end):
             elif ev is not None and ":" in line:
                 key, _, val = line.partition(":")
                 key = key.split(";", 1)[0].upper()
-                if key in ("SUMMARY", "DTSTART", "LOCATION", "DESCRIPTION", "URL"):
+                if key in ("SUMMARY", "DTSTART", "LOCATION", "DESCRIPTION",
+                           "URL", "CATEGORIES"):
                     ev[key] = val.replace("\\,", ",").replace("\\;", ";")
         print(f"ics ({url}): {count} events")
     return out
@@ -633,6 +682,138 @@ def fetch_seated(start, end):
             ))
             kept += 1
         print(f"seated ({artist_name}): {kept} DFW events")
+    return out
+
+
+# --------------------------------------------------------------------- Do214
+# Do214 (DoStuff Media) publishes the DFW city calendar as JSON at the same
+# paths as the HTML site, with `.json` appended:
+#   https://do214.com/events/<YYYY>/<M>/<D>.json?page=N
+# It is versioned (`api_version` in the payload) and key-free. robots.txt
+# disallows /assets, /locales, /features, /search, /latest and *view=map — the
+# event paths we walk are NOT disallowed.
+#
+# DISABLED BY DEFAULT — see `_disabled_because` in feeds.json. The endpoint
+# 403s every non-browser User-Agent and only answers 'Mozilla/5.0', so running
+# it means spoofing a browser to evade a bot block. This parser is finished and
+# tested against their live payload; turn it on if Do214 grants access. Do not
+# turn it on by faking the UA.
+#
+# Two deliberate calls here:
+#  * We link to the Do214 event page, NOT the payload's `buy_url`. Those are
+#    Do214's own affiliate links (etix.prf.hn/click/camref:.../pubref:dostuff),
+#    so forwarding them would route our visitors through their commission —
+#    and linking back is the fair trade for using their feed.
+#  * Results are sorted by popularity, so `max_pages` is a quality knob, not
+#    just a rate limit: page 1 is the best of the night, page 8 is the dregs.
+DO214_BASE = "https://do214.com/events"
+DO214_SITE = "https://do214.com"
+
+DO214_CATEGORY = {
+    "music/nightlife": "music",
+    "arts/culture": "arts",
+    "comedy": "arts",
+    "food/drinks": "food",
+    "sports/recreation": "sports",
+    "sports": "sports",
+    "arts & family": "family",
+    "family": "family",
+    "community": "festival",
+}
+
+
+def do214_category(cat: str) -> str:
+    """Map Do214's category to ours. Some rows arrive tagged
+    'Arts/Culture (Hidden)' — an internal visibility marker, not a category —
+    so strip any trailing parenthetical before matching."""
+    c = re.sub(r"\s*\(.*?\)\s*$", "", (cat or "")).strip().lower()
+    return DO214_CATEGORY.get(c, "festival")
+
+
+def _do214_price(ev: dict):
+    """ticket_info is free text: '$20-$24, All Ages', '$245', 'All Ages'.
+    Pull the money out and ignore the age rating."""
+    if ev.get("is_free"):
+        return "Free"
+    m = re.search(r"\$\d[\d,]*(?:\.\d{2})?(?:\s*[-–]\s*\$?\d[\d,]*(?:\.\d{2})?)?",
+                  ev.get("ticket_info") or "")
+    return m.group(0).replace(" ", "") if m else None
+
+
+def _do214_image(ev: dict, photos_base: str):
+    img = ev.get("imagery") or {}
+    aws = img.get("aws") or {}
+    for key in ("poster_w_800", "poster_w_400", "cover_image_w_1200_h_450"):
+        if aws.get(key):
+            return aws[key]
+    photo = img.get("photo") or img.get("poster")
+    return f"{photos_base}{photo}" if photo and photos_base else None
+
+
+def fetch_do214(start, end):
+    """Walk Do214's per-day JSON. Keyed by DATE (unlike Seated, which is keyed
+    by artist), so we request each day in the window rather than paging a
+    single firehose."""
+    if not FEEDS_FILE.exists():
+        return []
+    try:
+        cfg = json.loads(FEEDS_FILE.read_text()).get("do214") or {}
+    except Exception:  # noqa: BLE001
+        return []
+    if not cfg.get("enabled"):
+        return []
+
+    days = min(int(cfg.get("days", 14)), DAYS_AHEAD)
+    max_pages = max(1, int(cfg.get("max_pages", 3)))
+    delay = float(cfg.get("delay_ms", 400)) / 1000.0
+
+    out, seen_ids = [], set()
+    for offset in range(days):
+        day = start + timedelta(days=offset)
+        path = f"{DO214_BASE}/{day.year}/{day.month}/{day.day}.json"
+        pages, page, kept = max_pages, 1, 0
+        while page <= pages:
+            try:
+                data = http_json(f"{path}?page={page}" if page > 1 else path)
+            except Exception as e:  # noqa: BLE001
+                print(f"do214 failed ({day:%Y-%m-%d} p{page}): {e}", file=sys.stderr)
+                break
+            # Page 1 tells us how deep the day actually goes; never exceed
+            # max_pages even on a busy Saturday (8+ pages).
+            total = ((data.get("paging") or {}).get("total_pages")) or 1
+            pages = min(int(total), max_pages)
+            photos_base = data.get("photos_base") or ""
+
+            for ev in data.get("events") or []:
+                eid = ev.get("id")
+                if eid in seen_ids:      # an event can span days and repeat
+                    continue
+                date = ev.get("begin_date") or ""
+                if not date or ev.get("past"):
+                    continue
+                venue = ev.get("venue") or {}
+                if not is_dfw_city(venue.get("city"), venue.get("state")):
+                    continue
+                seen_ids.add(eid)
+                begin = ev.get("tz_adjusted_begin_date") or ev.get("begin_time") or ""
+                m = re.search(r"T(\d{2}):(\d{2})", begin)
+                out.append(row(
+                    ev.get("title"), do214_category(ev.get("category")),
+                    ", ".join(x for x in [venue.get("title"), venue.get("city")] if x),
+                    date,
+                    pretty_time(f"{m.group(1)}:{m.group(2)}") if m else "See details",
+                    _do214_price(ev),
+                    ev.get("excerpt") or ev.get("description"),
+                    f"{DO214_SITE}{ev.get('permalink')}" if ev.get("permalink") else DO214_SITE,
+                    _do214_image(ev, photos_base),
+                ))
+                kept += 1
+            page += 1
+            if delay:
+                time.sleep(delay)
+        if kept:
+            print(f"do214 ({day:%Y-%m-%d}): {kept} events")
+    print(f"do214: {len(out)} events total")
     return out
 
 
@@ -1345,8 +1526,13 @@ def main():
     # Eventbrite is deliberately absent: it answers 405 to datacenter IPs, so it
     # is refreshed by hand via scripts/fetch_eventbrite_local.py into
     # eventbrite.json, which the site loads as a separate source.
+    # Do214 sits after the primaries and before Seated: it is an aggregator, so
+    # when it carries the same show as Ticketmaster we want TM's row (direct
+    # ticket link, firmer price) to win dedupe. Its value is the small-venue
+    # and food/arts inventory the ticketing APIs never list at all.
     rows = (fetch_ticketmaster(start, end) + fetch_seatgeek(start, end)
             + fetch_ics_feeds(start, end) + fetch_prekindle(start, end)
+            + fetch_do214(start, end)
             + fetch_seated(start, end))
 
     unique = dedupe(rows)
