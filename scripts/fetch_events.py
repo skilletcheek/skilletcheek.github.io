@@ -603,6 +603,64 @@ def fetch_eventbrite(start, end):
     return out
 
 
+# Companion to fetch_eventbrite() above: that one scrapes public discovery
+# pages because Eventbrite's search API is gone. This one uses a real token,
+# which only reaches events under organizations the token owner belongs to —
+# i.e. events YOU create/host on Eventbrite, not a citywide search. Meant for
+# self-published local listings, run locally alongside fetch_eventbrite().
+EVENTBRITE_API = "https://www.eventbriteapi.com/v3"
+
+
+def fetch_eventbrite_api(start, end):
+    token = os.environ.get("EVENTBRITE_TOKEN", "").strip()
+    if not token:
+        return []
+    headers = {"Authorization": f"Bearer {token}"}
+    try:
+        orgs = http_json(f"{EVENTBRITE_API}/users/me/organizations/", headers).get("organizations", [])
+    except Exception as e:  # noqa: BLE001
+        print(f"eventbrite api: failed to list organizations: {e}", file=sys.stderr)
+        return []
+    lo, hi = start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
+    out = []
+    for org in orgs:
+        org_id = org.get("id")
+        if not org_id:
+            continue
+        kept, page = 0, 1
+        while True:
+            params = urllib.parse.urlencode({
+                "status": "live", "order_by": "start_asc", "expand": "venue", "page": page,
+            })
+            try:
+                data = http_json(f"{EVENTBRITE_API}/organizations/{org_id}/events/?{params}", headers)
+            except Exception as e:  # noqa: BLE001
+                print(f"eventbrite api: org {org_id} page {page} failed: {e}", file=sys.stderr)
+                break
+            for ev in data.get("events") or []:
+                local = ((ev.get("start") or {}).get("local") or "")
+                date = local[:10]
+                if not (date and lo <= date <= hi):
+                    continue
+                venue = ev.get("venue") or {}
+                addr = venue.get("address") or {}
+                name = (ev.get("name") or {}).get("text")
+                desc = (ev.get("description") or {}).get("text") or ""
+                out.append(row(
+                    name, eb_category(None, f"{name} {desc}"),
+                    ", ".join(x for x in [venue.get("name"), addr.get("city")] if x),
+                    date, pretty_time(local[11:16]) if len(local) >= 16 else "See details",
+                    0 if ev.get("is_free") else None,
+                    desc, ev.get("url"), (ev.get("logo") or {}).get("url"),
+                ))
+                kept += 1
+            if not (data.get("pagination") or {}).get("has_more_items"):
+                break
+            page += 1
+        print(f"eventbrite api (org {org_id}): {kept} events")
+    return out
+
+
 # ----------------------------------------------------------------------- Seated
 # Seated (seated.com) is artist-direct ticketing: the artists who sell through it
 # often bypass Ticketmaster entirely, which is exactly the gap it fills here.

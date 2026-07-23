@@ -13,11 +13,17 @@ live-events.json. Only events that are NOT already in live-events.json are
 written, using the same dedupe the nightly job uses, so the browser never has
 to reconcile two copies of the same show.
 
-Needs no API keys. Re-run whenever you want; weekly is plenty, since it covers
-a 30-day window and the site hides events once their date has passed.
+The discovery-page scrape needs no API keys. If EVENTBRITE_TOKEN is set (in
+a local .env, gitignored, never committed), this also pulls events from the
+token owner's own Eventbrite organizations via fetch_eventbrite_api() — use
+that route to self-publish local events by creating them on Eventbrite.
+
+Re-run whenever you want; weekly is plenty, since it covers a 30-day window
+and the site hides events once their date has passed.
 """
 
 import json
+import os
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -26,13 +32,26 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import fetch_events as fe  # noqa: E402
 
 OUT = fe.ROOT / "eventbrite.json"
+ENV_FILE = fe.ROOT / ".env"
+
+
+def _load_env():
+    if not ENV_FILE.exists():
+        return
+    for line in ENV_FILE.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        os.environ.setdefault(key.strip(), value.strip())
 
 
 def main():
+    _load_env()
     start = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
     end = start + timedelta(days=fe.DAYS_AHEAD)
 
-    rows = fe.fetch_eventbrite(start, end)
+    rows = fe.fetch_eventbrite(start, end) + fe.fetch_eventbrite_api(start, end)
     if not rows:
         print("\nNo Eventbrite events fetched — leaving eventbrite.json untouched.")
         print("If every city logged 405/429, the host is throttling or blocking this")

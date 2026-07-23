@@ -30,7 +30,17 @@
     { "slug": "tx--arlington", "pages": 2 },
     { "slug": "tx--plano", "pages": 2 },
     { "slug": "tx--irving", "pages": 1 },
-    { "slug": "tx--frisco", "pages": 1 }
+    { "slug": "tx--frisco", "pages": 1 },
+    { "slug": "tx--mckinney", "pages": 2 },
+    { "slug": "tx--garland", "pages": 2 },
+    { "slug": "tx--denton", "pages": 2 },
+    { "slug": "tx--grand-prairie", "pages": 1 },
+    { "slug": "tx--richardson", "pages": 1 },
+    { "slug": "tx--lewisville", "pages": 1 },
+    { "slug": "tx--allen", "pages": 1 },
+    { "slug": "tx--grapevine", "pages": 1 },
+    { "slug": "tx--carrollton", "pages": 1 },
+    { "slug": "tx--mesquite", "pages": 1 }
   ],
   "seated_artists": [
     { "artist": "Charley Crockett", "id": "eb7c2b87-b4c8-4918-9a17-a36371d524a9", "category": "music" },
