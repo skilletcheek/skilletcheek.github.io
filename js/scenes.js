@@ -1,5 +1,5 @@
 /* =========================================================================
- *  RJ Does Dallas — animated landmark scenes
+ *  Lets Do It Dallas — animated landmark scenes
  *  Four hand-built SVG scenes of DFW landmarks that crossfade periodically.
  *  Self-contained: no images, no libraries. Animations live in styles.css
  *  (classes inside the inline SVG), so prefers-reduced-motion can kill them.

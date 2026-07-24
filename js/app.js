@@ -43,6 +43,8 @@ const state = {
   live: [],
   liveStamp: 0,          // bumped whenever state.live is replaced (memo key)
   loadingLive: false,
+  openEvent: null,       // uid of the event in the drawer, mirrored to ?e=
+  pendingEvent: null,    // ?e= read at boot, opened once the day's list exists
   faves: new Set(JSON.parse(localStorage.getItem("rjdd:faves") || "[]")),
 };
 
@@ -94,12 +96,13 @@ function splitArea(area) {
    show opened the early show's drawer and its ticket link. */
 const uid = (a) => `${a.name}|${a.area}|${a.time}`.toLowerCase().replace(/[^a-z0-9|]+/g, "-");
 
+/* How many real events a visitor sees before the unsold-inventory house ad.
+   Low enough to still be seen, high enough that the page opens with events. */
+const HOUSE_AD_SLOT = 4;
+
 /* ---- date/time helpers --------------------------------------------------- */
 function fmtDate(d) {
   return d.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
-}
-function fmtMono(d) {
-  return d.toLocaleDateString("en-US", { month: "short", day: "2-digit" }).toUpperCase();
 }
 function isoDate(d) {
   return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
@@ -261,7 +264,10 @@ function cardHtml(a, i) {
       <div class="card-mid">
         <div class="card-txt">
           <h3>${esc(a.name)}</h3>
-          <div class="meta">/ ${fmtMono(state.date)} · ${esc(String(a.time).toUpperCase())}</div>
+          <!-- No date here: the grid only ever holds one day, and the toolbar
+               above already names it. Repeating it printed the same string on
+               all 91 cards and cost a line of height on each. -->
+          <div class="meta">/ ${esc(String(a.time).toUpperCase())}</div>
           <div class="meta">/ ${esc((dLabel || a.area || "DFW").toUpperCase())}</div>
         </div>
         ${thumb}
@@ -311,31 +317,64 @@ function render() {
   el("faveToggle").classList.toggle("active", state.favesOnly);
   el("faveToggle").textContent = `♥ SAVED (${state.faves.size})`;
 
-  const sponsored = sponsoredForDate(state.date);
+  const q = state.search.trim().toLowerCase();
+  const sponsored = sponsoredForDate(state.date).filter((s) => {
+    if (state.activeCats.size && !state.activeCats.has(s.cat)) return false;
+    if (state.freeOnly && s.cost !== 0) return false;
+    if (state.district && RADAR.districtOf(s) !== state.district) return false;
+    if (state.favesOnly && !state.faves.has(uid(s))) return false;
+    // sponsored pins must match an active search too — otherwise a fruitless
+    // query returns the house ad as its only "result"
+    if (q && !`${s.name} ${s.desc} ${s.area}`.toLowerCase().includes(q)) return false;
+    return true;
+  });
   const base = applyFilters(baseListForDate(state.date));
   const sponsoredIds = new Set(sponsored.map(uid));
-  const q = state.search.trim().toLowerCase();
-  const list = [...sponsored.filter((s) => {
-      if (state.activeCats.size && !state.activeCats.has(s.cat)) return false;
-      if (state.freeOnly && s.cost !== 0) return false;
-      if (state.district && RADAR.districtOf(s) !== state.district) return false;
-      if (state.favesOnly && !state.faves.has(uid(s))) return false;
-      // sponsored pins must match an active search too — otherwise a fruitless
-      // query returns the house ad as its only "result"
-      if (q && !`${s.name} ${s.desc} ${s.area}`.toLowerCase().includes(q)) return false;
-      return true;
-    }), ...base.filter((b) => !sponsoredIds.has(uid(b)))];
+  const organic = base.filter((b) => !sponsoredIds.has(uid(b)));
 
-  const total = list.length;
+  // A paying sponsor bought position 1 — that is the product, so it pins.
+  // The house ad has not; it used to take the same slot, which meant the first
+  // thing every visitor met was a full-width pulsing advert for advert space
+  // (an entire screen of it on a phone) before a single real event.
+  const paid = sponsored.filter((s) => !s.house);
+  const house = sponsored.filter((s) => s.house);
+  const list = [...paid, ...organic];
+  const total = list.length;                 // the ad is not an event; don't count it
+  // and don't run it at all on a day with nothing to advertise against
+  if (house.length && total) list.splice(Math.min(HOUSE_AD_SLOT, list.length), 0, ...house);
   el("count").innerHTML = state.loadingLive
     ? `${total} LISTED · <span class="live-loading">SYNCING LIVE FEEDS…</span>`
     : `${total} ${total === 1 ? "EVENT" : "EVENTS"} — ${fmtDate(state.date).toUpperCase()}${state.district ? " / " + state.district.replace(/-/g, " ").toUpperCase() : ""}`;
 
   const grid = el("grid");
   if (!total) {
+    // Offer the way out, don't just describe it — the console is a scroll away.
+    const filtered = state.activeCats.size || state.vibes.size || state.freeOnly
+      || state.favesOnly || state.district || q;
     grid.innerHTML = `<div class="empty" style="grid-column:1/-1">
       <div><strong>NO SIGNALS ON THIS FREQUENCY.</strong></div>
-      <div>Try another date, clear filters, or widen your search.</div></div>`;
+      <div>${filtered ? "Nothing matches those filters on this date." : "Nothing listed for this date yet."}</div>
+      <div class="empty-actions">
+        ${filtered ? `<button class="btn" data-empty="clear">CLEAR FILTERS</button>` : ""}
+        <button class="btn" data-empty="next">NEXT DAY ›</button>
+        <button class="btn" data-empty="weekend">THIS WEEKEND</button>
+      </div></div>`;
+    grid.querySelectorAll("[data-empty]").forEach((b) => {
+      b.onclick = () => {
+        const act = b.dataset.empty;
+        if (act === "clear") {
+          state.activeCats.clear(); state.vibes.clear();
+          state.freeOnly = false; state.favesOnly = false; state.district = null;
+          state.search = ""; el("searchInput").value = "";
+          render();
+        } else if (act === "next") {
+          el("nextDay").click();
+        } else {
+          state.date = nextWeekend(new Date()); render();
+        }
+      };
+    });
+    gridIndex = new Map();   // otherwise a stale ?e= could resolve against the last day
   } else {
     // Group the day into scannable stretches when sorted by time. Unparseable
     // times sort to 24h+ and land under LISTED (doors/times on the venue page).
@@ -371,7 +410,13 @@ function render() {
   const sky = el("skyDate");
   if (sky) sky.textContent = fmtDate(state.date).toUpperCase();
   updateStatusCount();
-  updateSeo(list);
+  updateSeo(list.filter((a) => !a.house));
+  // A shared ?e= link. Held until the event actually exists in the day's list —
+  // live feeds land after the first render, so the target often isn't there yet.
+  if (state.pendingEvent) {
+    const target = gridIndex.get(state.pendingEvent);
+    if (target) { state.pendingEvent = null; openDrawer(target); }
+  }
   syncUrl();
 }
 
@@ -487,6 +532,9 @@ function syncUrl() {
   if (state.district) p.set("district", state.district);
   if (state.activeCats.size) p.set("cat", [...state.activeCats].join(","));
   if (state.freeOnly) p.set("free", "1");
+  // SHARE used to send location.href, which was the day + filters and not the
+  // event — the recipient landed on 91 cards with no idea which one you meant.
+  if (state.openEvent) p.set("e", state.openEvent);
   const qs = p.toString();
   history.replaceState(null, "", qs ? "?" + qs : location.pathname);
 }
@@ -506,6 +554,8 @@ function readUrl() {
   if (cat) cat.split(",").forEach((c) => CATEGORIES[c] && state.activeCats.add(c));
   const dist = p.get("district");
   if (dist && DISTRICTS.some((x) => x.slug === dist)) state.district = dist;
+  // resolved in render(), once the day's events have actually been built
+  state.pendingEvent = p.get("e") || null;
 }
 
 /* ---- status bar ---------------------------------------------------------- */
@@ -546,8 +596,25 @@ function toggleFav(item) {
   render();
 }
 
-/* ---- drawer (event detail) ----------------------------------------------- */
+/* ---- drawer (event detail) -----------------------------------------------
+   The drawer used to open with focus left on <body>: a keyboard user pressed
+   DETAILS and their next Tab went to the top of the page *behind* the panel,
+   and a screen reader announced nothing. It now takes focus, keeps it, and
+   hands it back to whatever opened it. -------------------------------------- */
+let drawerOpener = null;
+
+function trapFocus(panel, e) {
+  if (e.key !== "Tab") return;
+  const f = [...panel.querySelectorAll('a[href],button:not([disabled]),input,select,textarea,[tabindex]:not([tabindex="-1"])')]
+    .filter((n) => n.offsetParent !== null || n === document.activeElement);
+  if (!f.length) return;
+  const first = f[0], last = f[f.length - 1];
+  if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+  else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+}
+
 function openDrawer(a) {
+  drawerOpener = document.activeElement;
   const c = CATEGORIES[a.cat] || { label: "Event" };
   const mapQ = encodeURIComponent(`${a.name} ${a.area}`);
   const outUrl = withAffiliate(a.url);
@@ -556,7 +623,7 @@ function openDrawer(a) {
   el("modalBody").innerHTML = `
     <div class="dr-tag">/ ${esc(c.label.toUpperCase())} ${live ? `<span class="live-ring"><i></i>${liveWord()} NOW</span>` : ""}</div>
     ${a.image ? `<div class="dr-img"><img src="${esc(safeUrl(a.image))}" alt="" width="640" height="360" decoding="async" onerror="this.parentElement.remove()"></div>` : ""}
-    <h2>${esc(a.name)}</h2>
+    <h2 id="drawerTitle">${esc(a.name)}</h2>
     <div class="dr-meta">/ ${fmtDate(state.date).toUpperCase()}</div>
     <div class="dr-meta">/ ${esc(String(a.time).toUpperCase())}</div>
     <div class="dr-meta">/ ${esc((a.area || "DFW").toUpperCase())}</div>
@@ -571,8 +638,15 @@ function openDrawer(a) {
       <button class="btn" id="shareBtn">SHARE</button>
       <button class="btn ${state.faves.has(uid(a)) ? "primary" : ""}" id="modalFav">${state.faves.has(uid(a)) ? "♥ SAVED" : "♡ SAVE"}</button>`}
     </div>`;
-  el("modal").classList.add("open");
+  const modal = el("modal");
+  modal.classList.add("open");
   document.body.classList.add("drawer-open");
+  // deep-link the open event so SHARE and a browser reload both land on it
+  state.openEvent = uid(a);
+  syncUrl();
+  const panel = modal.querySelector(".modal-panel");
+  panel.onkeydown = (e) => trapFocus(panel, e);
+  el("modalClose").focus();
   if (isHouseAd) {
     // Send them to the sales page rather than straight to a mailto — the page
     // does the selling, and a blank compose window converts badly.
@@ -584,8 +658,15 @@ function openDrawer(a) {
   }
 }
 function closeDrawer() {
-  el("modal").classList.remove("open");
+  const modal = el("modal");
+  if (!modal.classList.contains("open")) return;
+  modal.classList.remove("open");
   document.body.classList.remove("drawer-open");
+  state.openEvent = null;
+  syncUrl();
+  // back to the card they came from, not the top of the document
+  if (drawerOpener && document.contains(drawerOpener)) drawerOpener.focus();
+  drawerOpener = null;
 }
 
 /* ---- calendar (.ics) ------------------------------------------------------ */
@@ -614,6 +695,8 @@ function downloadIcs(a) {
 /* ---- share ---------------------------------------------------------------- */
 async function shareEvent(a) {
   const text = `${a.name} — ${a.time}, ${a.area}. Found on Lets Do It Dallas.`;
+  // location.href already carries ?e= while the drawer is open (see syncUrl),
+  // so the recipient opens on this event rather than the whole day's list.
   const url = location.href;
   if (navigator.share) {
     try { await navigator.share({ title: a.name, text, url }); return; } catch (_) {}
@@ -645,6 +728,27 @@ function toast(msg) {
 }
 
 /* ---- newsletter + submit-event forms -------------------------------------- */
+/* Same focus contract as the drawer — take focus, keep it, hand it back. */
+let submitOpener = null;
+function openSubmit() {
+  submitOpener = document.activeElement;
+  const m = el("submitModal");
+  m.classList.add("open");
+  document.body.classList.add("drawer-open");
+  const panel = m.querySelector(".modal-panel");
+  panel.onkeydown = (e) => trapFocus(panel, e);
+  // the first field, not the close button — they came here to type
+  (m.querySelector('input[name="name"]') || el("submitClose")).focus();
+}
+function closeSubmit() {
+  const m = el("submitModal");
+  if (!m.classList.contains("open")) return;
+  m.classList.remove("open");
+  if (!el("modal").classList.contains("open")) document.body.classList.remove("drawer-open");
+  if (submitOpener && document.contains(submitOpener)) submitOpener.focus();
+  submitOpener = null;
+}
+
 function wireForms() {
   const nl = el("newsletterForm");
   nl.onsubmit = async (e) => {
@@ -667,8 +771,8 @@ function wireForms() {
     } catch (_) { toast("Something went wrong — try again."); }
   };
 
-  el("submitEventBtn").onclick = () => el("submitModal").classList.add("open");
-  el("submitClose").onclick = () => el("submitModal").classList.remove("open");
+  el("submitEventBtn").onclick = () => openSubmit();
+  el("submitClose").onclick = () => closeSubmit();
   el("submitForm").onsubmit = async (e) => {
     e.preventDefault();
     const payload = Object.fromEntries(new FormData(e.target).entries());
@@ -677,7 +781,7 @@ function wireForms() {
     // rather than showing an error — telling a bot it failed invites a retry
     // with the field cleared.
     if (payload.company_website) {
-      el("submitModal").classList.remove("open"); e.target.reset();
+      closeSubmit(); e.target.reset();
       toast("Thanks! We'll review your event."); return;
     }
     delete payload.company_website;
@@ -691,7 +795,7 @@ function wireForms() {
         + "?subject=" + encodeURIComponent("Event submission — " + (payload.name || "untitled"))
         + "&body=" + encodeURIComponent(body + "\n\nSubmitted via " + CONFIG.siteName);
       toast("Opening your email app to send your event…");
-      el("submitModal").classList.remove("open"); e.target.reset(); return;
+      closeSubmit(); e.target.reset(); return;
     }
 
     if (btn) { btn.disabled = true; btn.textContent = "SENDING…"; }
@@ -708,7 +812,7 @@ function wireForms() {
       });
       if (!res.ok) throw new Error(res.status);
       toast("Thanks! We'll review your event.");
-      el("submitModal").classList.remove("open"); e.target.reset();
+      closeSubmit(); e.target.reset();
     } catch (_) {
       // Don't lose what they typed — the form stays filled so they can retry
       // or fall back to email.
@@ -866,7 +970,9 @@ function wireControls() {
       if (main) main.scrollIntoView({ behavior: "smooth", block: "start" });
     };
   });
-  document.querySelectorAll(".hero-badge, .sb-right").forEach((b) => {
+  // .sb-right used to be wired here too, with copy identical to the hero badge.
+  // It's a real link to /this-weekend/ now, so it needs nothing from JS.
+  document.querySelectorAll(".hero-badge").forEach((b) => {
     b.setAttribute("role", "button");
     b.setAttribute("tabindex", "0");
     b.onclick = exploreTonight;
@@ -876,9 +982,9 @@ function wireControls() {
   });
   el("modalClose").onclick = closeDrawer;
   el("modal").onclick = (e) => { if (e.target.id === "modal") closeDrawer(); };
-  el("submitModal").onclick = (e) => { if (e.target.id === "submitModal") el("submitModal").classList.remove("open"); };
+  el("submitModal").onclick = (e) => { if (e.target.id === "submitModal") closeSubmit(); };
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") { closeDrawer(); el("submitModal").classList.remove("open"); }
+    if (e.key === "Escape") { closeDrawer(); closeSubmit(); }
     if (e.key === "ArrowLeft" && !isTyping()) el("prevDay").click();
     if (e.key === "ArrowRight" && !isTyping()) el("nextDay").click();
   });
@@ -891,6 +997,12 @@ function isTyping() {
 /* ---- boot ------------------------------------------------------------------ */
 function boot() {
   el("year").textContent = new Date().getFullYear();
+  // Full hero on a first visit, slim band on every one after — see .returning
+  // in styles.css. Wrapped because Safari private mode throws on localStorage.
+  try {
+    if (localStorage.getItem("rjdd:seen")) document.body.classList.add("returning");
+    else localStorage.setItem("rjdd:seen", "1");
+  } catch (_) {}
   // The footer ships with a working mailto so the link survives a JS failure;
   // point it at CONFIG so data.js stays the single source for the address.
   // Footer link now points at /advertise/; the mailto in the markup stays as the

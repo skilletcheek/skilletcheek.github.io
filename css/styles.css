@@ -44,6 +44,20 @@ body {
 a { color: var(--em); text-decoration: none; }
 h1, h2, h3 { color: var(--white); font-family: var(--display); margin: 0; }
 button { font-family: var(--mono); }
+
+/* One visible focus indicator for every control, keyboard-only so a mouse click
+   still looks clean. Several rules below used to `outline: none` and lean on a
+   border-colour change to --em-dim instead; that composites to 2.8:1 on --bg,
+   under the 3:1 minimum for a non-text indicator, and it was the only focus
+   signal across the ten fields of the submit form. Those rules now keep the
+   border tint as reinforcement and let this provide the actual ring. */
+:focus-visible {
+  outline: 2px solid var(--em);
+  outline-offset: 2px;
+}
+/* .card::after already owns the element's outline for the hover edge-light, so
+   give focus its own ring that can't be clobbered by it. */
+.card:focus-visible { outline-offset: -3px; }
 ::selection { background: var(--jade); color: var(--white); }
 
 /* thin emerald scrollbar */
@@ -64,7 +78,8 @@ button { font-family: var(--mono); }
 }
 .sb-left { display: flex; gap: 10px; align-items: center; min-width: 0; overflow: hidden; }
 .sb-div { color: var(--line); }
-.sb-right { color: var(--em); cursor: pointer; transition: opacity .15s; }
+.sb-right { color: var(--em); transition: opacity .15s; }
+.sb-right a { color: inherit; }
 .sb-right:hover { opacity: .7; }
 @media (max-width: 720px) { .sb-right { display: none; } }
 @media (max-width: 560px) {
@@ -103,39 +118,46 @@ button { font-family: var(--mono); }
 .btn-ghost:hover, .btn-ghost.active { color: var(--em); border-color: var(--em-dim); background: var(--bg-2); }
 
 /* =============================== HERO =============================== */
+/* This is a tool, not a brochure — a returning visitor is here to find out
+   what's on tonight, and every pixel of hero is a toll they pay to get there.
+   min-height was 520px, which put the first real event card ~1700px down the
+   page and left a 1280x800 desktop with zero events above the fold. */
 .hero {
   display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
-  border-bottom: 1px solid var(--line); min-height: 520px;
+  border-bottom: 1px solid var(--line); min-height: 380px;
 }
 @media (max-width: 900px) { .hero { grid-template-columns: 1fr; position: relative; } }
 .hero-copy {
-  padding: clamp(28px, 6vw, 72px) var(--pad);
-  display: flex; flex-direction: column; justify-content: center; gap: 22px;
+  padding: clamp(22px, 4vw, 48px) var(--pad);
+  display: flex; flex-direction: column; justify-content: center; gap: 16px;
   border-right: 1px solid var(--line);
 }
 @media (max-width: 900px) { .hero-copy { border-right: 0; border-bottom: 1px solid var(--line); } }
 .hero-kicker { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; color: var(--em); }
 .hero h1 {
-  font-size: clamp(3rem, 9vw, 6.4rem); font-weight: 800; line-height: .94;
+  font-size: clamp(2.6rem, 7.4vw, 5rem); font-weight: 800; line-height: .94;
   letter-spacing: -.01em;
 }
 .hero-sub { max-width: 34em; margin: 0; color: var(--silver); }
+/* The primary action on the page. It was a thin outlined badge — quieter than
+   the SORT dropdown next to it. Filled emerald, matching .btn.primary. */
 .hero-badge {
   display: inline-flex; align-items: center; gap: 10px; align-self: flex-start;
-  font-family: var(--mono); font-size: 11px; letter-spacing: .1em; color: var(--em);
-  border: 1px solid var(--jade); padding: 10px 14px; background: rgba(14, 58, 47, .18);
-  cursor: pointer; transition: background .15s, border-color .15s, box-shadow .15s;
+  font-family: var(--mono); font-size: 11px; letter-spacing: .1em; font-weight: 600;
+  color: var(--bg); background: var(--em); border: 1px solid var(--em);
+  padding: 12px 18px; min-height: 44px;
+  cursor: pointer; transition: filter .15s, box-shadow .15s;
 }
-.hero-badge:hover {
-  background: rgba(14, 58, 47, .35); border-color: var(--em);
-  box-shadow: 0 0 16px rgba(0, 255, 135, .25);
-}
-.hero-canvas { position: relative; min-height: 380px; }
+.hero-badge .pulse { background: var(--bg); }
+.hero-badge .pulse::after { border-color: var(--bg); }
+.hero-badge:hover { filter: brightness(1.1); box-shadow: 0 0 18px rgba(0, 255, 135, .3); }
+.hero-canvas { position: relative; min-height: 300px; }
 #towerCanvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+/* opacity:.7 on --silver composited to 3.5:1 — under AA for 10px text. The
+   caption carries real information, so let it meet contrast on its own. */
 .canvas-cap {
   position: absolute; bottom: 12px; right: var(--pad);
-  font-family: var(--mono); font-size: 10px; letter-spacing: .12em; color: var(--silver);
-  opacity: .7;
+  font-family: var(--mono); font-size: 10px; letter-spacing: .12em; color: var(--dim);
 }
 @media (max-width: 900px) {
   /* On small screens the tower becomes a dim backdrop behind the copy instead
@@ -143,6 +165,25 @@ button { font-family: var(--mono); }
   .hero-canvas { position: absolute; inset: 0; min-height: 0; opacity: .3; pointer-events: none; }
   .hero-copy { position: relative; z-index: 1; }
   .canvas-cap { display: none; }
+}
+
+/* Returning visitors (boot() sets .returning from localStorage) get a slim band
+   instead of the full hero. A first-timer should meet the brand; someone who
+   comes back on a Friday to see what's on shouldn't re-scroll a 478px wordmark
+   every visit when the nav already carries the name. */
+body.returning .hero { min-height: 0; grid-template-columns: 1fr; }
+body.returning .hero h1,
+body.returning .hero-sub,
+body.returning .hero-canvas { display: none; }
+body.returning .hero-copy {
+  flex-direction: row; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 14px; padding: 14px var(--pad); border-right: 0;
+}
+/* the kicker sits beside the button on a wide band, but wraps to two lines on a
+   phone and pushes the band to 122px for a tagline the nav already implies */
+@media (max-width: 620px) {
+  body.returning .hero-kicker { display: none; }
+  body.returning .hero-badge { width: 100%; justify-content: center; }
 }
 
 /* ============================= CONSOLE ============================= */
@@ -187,7 +228,7 @@ input[type="date"] {
 .search input {
   border: 0; background: transparent; color: var(--white);
   font-family: var(--mono); font-size: 12px; letter-spacing: .04em;
-  padding: 11px 0; width: 100%; outline: none;
+  padding: 11px 0; width: 100%;
 }
 .search input::placeholder { color: var(--dim); }
 
@@ -200,10 +241,11 @@ input[type="date"] {
 .chip.active { background: var(--em); border-color: var(--em); color: var(--bg); font-weight: 500; }
 .chip.vibe.active { background: var(--jade); border-color: var(--em-dim); color: var(--em); }
 
-/* touch: 44px minimum tap targets; category row scrolls instead of stacking */
+/* touch: category row scrolls instead of stacking. The 44px minimums live in
+   one block at the end of this file — several of these components set their own
+   min-height further down, and at equal specificity the later rule wins. */
 @media (pointer: coarse), (max-width: 720px) {
   .chip { min-height: 44px; padding: 12px 16px; font-size: 11px; }
-  .quick button, .icon-btn { min-height: 44px; }
 }
 @media (max-width: 720px) {
   .chips-row .filters {
@@ -215,12 +257,17 @@ input[type="date"] {
   }
   .chips-row .filters::-webkit-scrollbar { display: none; }
   .chip { flex: none; white-space: nowrap; }
-  /* vibes collapsed behind a toggle on mobile */
-  .vibes-row.collapsed .filters { display: none; }
-  .vibes-toggle { display: inline-block; }
 }
+/* Vibes start collapsed at every width, not just mobile. Expanded, the row cost
+   87px above the fold and put eight secondary filters at the same visual weight
+   as the nine categories that are the primary way in. */
+.vibes-row.collapsed .filters { display: none; }
+/* the shared .row-label is a fixed 92px column, which wrapped "+ SHOW" onto its
+   own line and left a 66px row holding one toggle */
+.vibes-row .row-label { width: auto; display: inline-flex; align-items: center; }
+.vibes-row.collapsed { padding-top: 9px; padding-bottom: 9px; }
 .vibes-toggle {
-  display: none; cursor: pointer; background: transparent; border: 0;
+  display: inline-block; cursor: pointer; background: transparent; border: 0;
   font-family: var(--mono); font-size: 10px; letter-spacing: .1em; color: var(--em); padding: 4px 0 4px 8px;
 }
 
@@ -233,13 +280,26 @@ input[type="date"] {
 .marquee-track span {
   font-family: var(--mono); font-size: 11px; letter-spacing: .22em; color: #3A3F4B;
 }
+/* `all: unset` also strips the focus ring, so restore one explicitly below.
+   Vertical padding lifts the hit box off 17px. */
 .marquee-track button {
   all: unset; font: inherit; letter-spacing: inherit; color: var(--dim);
-  cursor: pointer; transition: color .15s;
+  cursor: pointer; transition: color .15s; padding: 6px 2px;
 }
 .marquee-track button:hover, .marquee-track button:focus-visible { color: var(--em); }
-.marquee:hover .marquee-track { animation-play-state: paused; }
+/* pause for keyboard users too, not just the mouse */
+.marquee:hover .marquee-track,
+.marquee:focus-within .marquee-track { animation-play-state: paused; }
 @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+/* A moving target can't be tapped reliably and there's no hover to pause it on
+   touch. Stop the scroll and make the strip a swipeable row instead. */
+@media (pointer: coarse) {
+  .marquee { overflow-x: auto; scrollbar-width: none; }
+  .marquee::-webkit-scrollbar { display: none; }
+  .marquee-track { animation: none; }
+  .marquee-track .marquee-set[aria-hidden="true"] { display: none; }
+  /* the button padding that goes with this lives in the TOUCH TARGETS block */
+}
 
 /* =============================== GRID =============================== */
 main { padding: 0; }
@@ -324,7 +384,14 @@ body.ads .ad-leader { display: block; }
 }
 .card h3 { font-size: 19px; font-weight: 700; letter-spacing: .01em; line-height: 1.2; transition: color .18s; }
 .card .meta { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; color: var(--silver); }
-.card .desc { margin: 2px 0 0; font-size: 13.5px; color: #7A8090; }
+/* Unclamped, descriptions ran 24-280 chars and card heights swung 255-361px,
+   which made 91 cards ~25,600px of grid — about 32 phone screens — and gave the
+   column a ragged rhythm. Two lines is enough to decide; Details has the rest. */
+.card .desc {
+  margin: 2px 0 0; font-size: 13.5px; color: #7A8090;
+  overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+}
+.card.sponsored .desc { -webkit-line-clamp: 3; }
 .card-foot { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 10px; }
 .foot-actions { display: flex; gap: 6px; }
 .icon-btn {
@@ -349,6 +416,12 @@ body.ads .ad-leader { display: block; }
   font-family: var(--mono); font-size: 12px; letter-spacing: .08em; line-height: 2;
 }
 .empty strong { color: var(--white); }
+/* The empty state used to read "try another date, clear filters, or widen your
+   search" and offer no way to do any of it — the controls were a scroll away,
+   back up past the hero. */
+.empty-actions {
+  display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-top: 20px;
+}
 
 /* ======================= ON NOW rail ======================= */
 .onnow { border-bottom: 1px solid var(--line); background: var(--bg); }
@@ -455,9 +528,10 @@ body.ads .ad-leader { display: block; }
 .b-deck { stroke: var(--em-dim); stroke-width: 2; filter: drop-shadow(0 0 3px rgba(0, 255, 135, .35)); }
 .bridge.drawn .b-arch { transition: stroke-dashoffset 2.4s ease; stroke-dashoffset: 0; }
 .bridge.drawn .b-cables { transition: stroke-dashoffset 2.4s ease .8s; stroke-dashoffset: 0; }
+/* was #3A3F4B — 1.89:1 on --bg, effectively invisible */
 .bridge-cap {
   position: absolute; bottom: 14px; left: var(--pad);
-  font-family: var(--mono); font-size: 10px; letter-spacing: .14em; color: #3A3F4B;
+  font-family: var(--mono); font-size: 10px; letter-spacing: .14em; color: var(--dim);
 }
 
 /* ============================ SECTIONS ============================ */
@@ -567,7 +641,6 @@ body.ads .ad-leader { display: block; }
 .nl-form input {
   flex: 1; background: var(--bg-2); border: 1px solid var(--line); border-right: 0; color: var(--white);
   border-radius: 0; padding: 12px 14px; font-family: var(--mono); font-size: 12px; letter-spacing: .04em;
-  outline: none;
 }
 .nl-form input:focus { border-color: var(--em-dim); }
 .btn {
@@ -630,7 +703,6 @@ body.drawer-open { overflow: hidden; }
 .modal-panel input, .modal-panel select, .modal-panel textarea {
   width: 100%; background: var(--bg); border: 1px solid var(--line); color: var(--white);
   border-radius: 0; padding: 10px 12px; font-size: 13px; font-family: var(--body);
-  outline: none;
 }
 .modal-panel input:focus, .modal-panel select:focus, .modal-panel textarea:focus { border-color: var(--em-dim); }
 .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 12px; }
@@ -653,6 +725,32 @@ body.drawer-open { overflow: hidden; }
   opacity: 0; pointer-events: none; transition: all .2s; z-index: 60;
 }
 .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* ========================= TOUCH TARGETS ============================
+   Last in the file on purpose. The 44px rule used to cover only .chip,
+   .quick button and .icon-btn, which left the nav buttons, day arrows,
+   toolbar toggles, sort select, date picker and the whole skybar at
+   35-38px on a phone. Several of those components set their own
+   min-height in the sections above, so this has to come after them to
+   win on source order.
+   ==================================================================== */
+@media (pointer: coarse), (max-width: 720px) {
+  .quick button, .icon-btn, .btn-ghost, .toggle, .sortsel, .btn,
+  .date-nav button, .skybar button, input[type="date"],
+  .radar-row, .wire-row { min-height: 44px; }
+  .date-nav button { padding: 8px 18px; }
+  .modal-close { width: 44px; height: 44px; }
+  .vibes-toggle { padding: 12px 0 12px 8px; }
+  .search { min-height: 44px; }
+  /* footer links are a nav list, not prose — 20px tall on a 8px gap was a
+     28px pitch for eight stacked thumb targets */
+  .f-col a { padding: 6px 0; }
+}
+@media (pointer: coarse) {
+  /* the marquee is a static swipeable strip here, so its labels can be real
+     buttons rather than 17px words sliding past */
+  .marquee-track button { padding: 14px 6px; }
+}
 
 /* ======================== REDUCED MOTION ============================ */
 @media (prefers-reduced-motion: reduce) {

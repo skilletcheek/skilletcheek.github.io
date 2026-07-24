@@ -65,7 +65,9 @@
     <span id="statusWx"></span>
     <span id="statusLive"></span>
   </div>
-  <div class="sb-right">( LIVE IN DALLAS — EXPLORE TONIGHT )</div>
+  <!-- The hero badge is the single "explore tonight" CTA. This bar used to
+       duplicate it verbatim, two identical calls to action on one screen. -->
+  <div class="sb-right"><a href="/this-weekend/">THIS WEEKEND ↗</a></div>
 </div>
 
 <!-- slim date bar that slides in once the console scrolls away -->
@@ -93,7 +95,9 @@
 <header class="hero">
   <div class="hero-copy">
     <div class="hero-kicker">/ THE CURATED RADAR FOR DALLAS CULTURE &amp; EVENTS</div>
-    <h1>LETS<br/>DO IT<br/>DALLAS</h1>
+    <!-- Trailing spaces before each <br> are invisible but keep the extracted
+         text "LETS DO IT DALLAS" rather than "LETSDO ITDALLAS". -->
+    <h1>LETS <br/>DO IT <br/>DALLAS</h1>
     <p class="hero-sub">Pick any day. See everything worth leaving the house for —
     live music, markets, festivals, sports and nightlife across the whole metroplex.</p>
     <div class="hero-badge"><i class="pulse"></i>( LIVE IN DALLAS — EXPLORE TONIGHT )</div>
@@ -134,9 +138,15 @@
 </section>
 
 <!-- ============ MARQUEE (each item filters that category) ============ -->
+<!-- Labels are the CATEGORIES labels verbatim, one per category. They used to be
+     evocative (HONKY-TONKS, FOOD TRUCKS, ART WALKS) but ten labels mapped onto
+     seven categories, so three of them filtered to something broader than they
+     named — tapping FOOD TRUCKS returned brewery tours. A filter has to do what
+     its label says. These also match the chip row, so the chip that lights up
+     after a click is the one the visitor just pressed. -->
 <div class="marquee">
   <div class="marquee-track">
-    <span class="marquee-set"><button data-cat="music">LIVE MUSIC</button> / <button data-cat="market">FARMERS MARKETS</button> / <button data-cat="arts">MUSEUMS</button> / <button data-cat="sports">BALLPARKS</button> / <button data-cat="festival">FESTIVALS</button> / <button data-cat="food">PATIOS</button> / <button data-cat="outdoors">TRAILS</button> / <button data-cat="music">HONKY-TONKS</button> / <button data-cat="food">FOOD TRUCKS</button> / <button data-cat="arts">ART WALKS</button> /&nbsp;</span><span class="marquee-set" aria-hidden="true"><button data-cat="music" tabindex="-1">LIVE MUSIC</button> / <button data-cat="market" tabindex="-1">FARMERS MARKETS</button> / <button data-cat="arts" tabindex="-1">MUSEUMS</button> / <button data-cat="sports" tabindex="-1">BALLPARKS</button> / <button data-cat="festival" tabindex="-1">FESTIVALS</button> / <button data-cat="food" tabindex="-1">PATIOS</button> / <button data-cat="outdoors" tabindex="-1">TRAILS</button> / <button data-cat="music" tabindex="-1">HONKY-TONKS</button> / <button data-cat="food" tabindex="-1">FOOD TRUCKS</button> / <button data-cat="arts" tabindex="-1">ART WALKS</button> /&nbsp;</span>
+    <span class="marquee-set"><button data-cat="music">LIVE MUSIC</button> / <button data-cat="food">FOOD &amp; DRINK</button> / <button data-cat="arts">ARTS &amp; MUSEUMS</button> / <button data-cat="outdoors">OUTDOORS &amp; PARKS</button> / <button data-cat="sports">SPORTS</button> / <button data-cat="family">FAMILY &amp; KIDS</button> / <button data-cat="market">MARKETS</button> / <button data-cat="nightlife">NIGHTLIFE</button> / <button data-cat="festival">FESTIVALS</button> /&nbsp;</span><span class="marquee-set" aria-hidden="true"><button data-cat="music" tabindex="-1">LIVE MUSIC</button> / <button data-cat="food" tabindex="-1">FOOD &amp; DRINK</button> / <button data-cat="arts" tabindex="-1">ARTS &amp; MUSEUMS</button> / <button data-cat="outdoors" tabindex="-1">OUTDOORS &amp; PARKS</button> / <button data-cat="sports" tabindex="-1">SPORTS</button> / <button data-cat="family" tabindex="-1">FAMILY &amp; KIDS</button> / <button data-cat="market" tabindex="-1">MARKETS</button> / <button data-cat="nightlife" tabindex="-1">NIGHTLIFE</button> / <button data-cat="festival" tabindex="-1">FESTIVALS</button> /&nbsp;</span>
   </div>
 </div>
 
@@ -213,13 +223,17 @@
 
 <!-- ============ NEWSLETTER ============ -->
 <section class="newsletter">
+  <!-- The copy here promised "one email every Thursday" while CONFIG.newsletterEndpoint
+       was blank — submitting only opened a mailto, which silently does nothing on a
+       desktop with no mail client, and the field cleared as if it had worked. Until
+       there is a real list behind it, say what actually happens. -->
   <div class="nl-copy">
-    <h2>[ SUBSCRIBE TO THE PULSE ]</h2>
-    <p>/ ONE EMAIL EVERY THURSDAY — THE WEEKEND'S BEST ACROSS DFW. FREE, NO SPAM.</p>
+    <h2>[ THE PULSE — COMING SOON ]</h2>
+    <p>/ A WEEKLY DFW RUNDOWN, LAUNCHING SOON. LEAVE YOUR EMAIL AND YOU'LL BE ON THE FIRST ONE.</p>
   </div>
   <form class="nl-form" id="newsletterForm">
     <input type="email" id="nlEmail" placeholder="YOU@EMAIL.COM" required />
-    <button class="btn primary" type="submit">SUBSCRIBE</button>
+    <button class="btn primary" type="submit">NOTIFY ME</button>
   </form>
 </section>
 
@@ -251,7 +265,10 @@
 </footer>
 
 <!-- ============ EVENT DRAWER ============ -->
-<div class="modal drawer" id="modal">
+<!-- role/aria-modal so assistive tech announces the panel and treats the page
+     behind it as inert; openDrawer() moves focus in and traps it, closeDrawer()
+     hands focus back to whatever opened it. -->
+<div class="modal drawer" id="modal" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
   <div class="modal-panel">
     <button class="modal-close" id="modalClose" aria-label="Close">×</button>
     <div id="modalBody"></div>
@@ -259,10 +276,10 @@
 </div>
 
 <!-- ============ SUBMIT MODAL ============ -->
-<div class="modal center" id="submitModal">
+<div class="modal center" id="submitModal" role="dialog" aria-modal="true" aria-labelledby="submitTitle">
   <div class="modal-panel">
     <button class="modal-close" id="submitClose" aria-label="Close">×</button>
-    <h2>SUBMIT AN EVENT</h2>
+    <h2 id="submitTitle">SUBMIT AN EVENT</h2>
     <p class="dr-meta">/ HAVE SOMETHING HAPPENING IN DFW? TELL US.</p>
     <!-- Fields here MUST match SUBMIT_FIELDS in scripts/fetch_events.py, which
          also renders /submit/. The nightly build warns when they drift. -->

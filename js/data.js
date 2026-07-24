@@ -1,5 +1,5 @@
 /* =========================================================================
- *  RJ Does Dallas — data & configuration
+ *  Lets Do It Dallas — data & configuration
  *  -------------------------------------------------------------------------
  *  Everything a non-coder needs to tweak lives at the top of this file.
  *  ========================================================================= */
@@ -78,12 +78,16 @@ const CATEGORIES = {
  *  The entry below is a "house ad": it fills the sponsored slot while you have
  *  no paying advertiser, turning empty inventory into a sales pitch. Delete it
  *  the moment a real sponsor takes the spot.
+ *
+ *  `house: true` marks it as unsold inventory. A PAYING sponsor pins to #1 —
+ *  that is the product. The house ad does not: render() drops it to HOUSE_AD_SLOT
+ *  so a visitor meets real events first. Leave `house` off any real sale.
  * ------------------------------------------------------------------------ */
 const SPONSORED = [
   { name: "Promote your event right here", cat: "festival", area: "Dallas–Fort Worth",
     recur: { daily: true }, time: "Featured placement", cost: 0,
-    sponsor: "Advertise with us",
-    desc: "Own the top of RJ Does Dallas. Pin your venue, market, or event to the #1 spot with a gold badge — seen by everyone browsing that day. Tap Details to get started.",
+    sponsor: "Advertise with us", house: true,
+    desc: "Own the top of Lets Do It Dallas. Pin your venue, market, or event to the #1 spot with a gold badge — seen by everyone browsing that day. Tap Details to get started.",
     url: "#advertise" },
 ];
 

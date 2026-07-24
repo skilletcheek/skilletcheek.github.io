@@ -1,5 +1,5 @@
 /* =========================================================================
- *  RJ Does Dallas — live event sources
+ *  Lets Do It Dallas — live event sources
  *  -------------------------------------------------------------------------
  *  Each loader takes a JS Date and returns a Promise<normalizedEvent[]>.
  *  Everything fails gracefully: if a key is missing or a request errors,

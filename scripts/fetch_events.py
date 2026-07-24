@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Nightly event aggregator for RJ Does Dallas.
+"""Nightly event aggregator for Lets Do It Dallas.
 
 Runs in GitHub Actions (see .github/workflows/fetch-events.yml) and writes
 live-events.json in the repo root, which the site loads alongside events.json.
