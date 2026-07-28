@@ -40,8 +40,26 @@ get clobbered; change the **Python** instead:
 
 - `live-events.json`, `press.json`, `sitemap.xml`, `robots.txt`
 - `/tonight/`, `/this-weekend/`, `/free-events/`, `/district/*/` hub pages
-- `/venue/*/` venue pages (`write_venues()`)
+- `/venue/*/` venue pages (`write_venues()`), `/venue/` directory
+  (`write_venue_index()`)
 - `/advertise/` (`write_advertise()`), `/submit/` (`write_submit()`)
+- the district link block in **`index.html`**, between the `SITEMAP-NAV:START`
+  / `SITEMAP-NAV:END` comments (`write_home_nav()`). The rest of index.html is
+  hand-written; only that block is generated, so DISTRICTS isn't hand-copied a
+  third time. Delete the markers and the build warns and leaves it stale.
+
+Pages go through `_write_page()`, which skips the write when the bytes are
+unchanged and records that in `_PAGE_CHANGED`. The sitemap reads it and carries
+the previously published `<lastmod>` forward for anything that didn't move —
+stamping all 59 URLs with today's date every night is a freshness signal Google
+learns to discard. The homepage is deliberately always today: its markup is
+static but the listings it renders come from `live-events.json`.
+
+`write_venues()` **deletes** venue directories that no longer clear
+`VENUE_MIN_EVENTS` (`_prune_stale_venues()`). Without it a venue that went
+quiet kept serving a 200 while dropping out of the sitemap and every listing —
+an orphan Google can never confirm. It refuses to prune when it would delete
+more pages than it kept, on the same reasoning as `COLLAPSE_GUARD_RATIO`.
 
 `write_hubs()` calls `write_venues()` **first** — it populates `_VENUE_PAGES`,
 which `_hub_row()` reads to link listings to venue pages. Reorder that and the
@@ -51,6 +69,37 @@ reports "Lower Greenville") and touring shows that pose as venues.
 
 `/advertise/` and `/submit/` read `CONFIG` values from `js/data.js` at **build
 time** — after changing an endpoint there, regenerate the page.
+
+## Internal links are the crawl budget
+
+Search Console had all 56 sub-pages in "Discovered - currently not indexed" on
+2026-07-23: Google had crawled the homepage and nothing else. Nothing was
+technically wrong — 200s, canonicals, valid sitemap — the site just had almost
+no internal linking, and on a domain this new that is the whole signal. The
+homepage linked 3 of 15 districts and 0 of 38 venue pages; venue pages linked
+only to `/`, `/submit/` and `/advertise/`, so every crawl path dead-ended.
+
+Every generated page now carries `_site_nav()` (all hubs, all districts,
+`/venue/`), venue pages carry a district breadcrumb plus same-city siblings,
+and `/venue/` is a permanent parent for all of them. **Keep the audit at zero
+orphans** — no page below the homepage should depend on a listing row for its
+only inbound link, because those rows move every night:
+
+```python
+import re, pathlib, collections
+pages = {}
+for f in list(pathlib.Path('.').glob('*/index.html')) + list(pathlib.Path('.').glob('*/*/index.html')) + [pathlib.Path('index.html')]:
+    u = str(f.parent).replace('.', '').strip('/')
+    pages['/' if not u else f'/{u}/'] = {h.split('?')[0] for h in
+        re.findall(r'href="(/[^"]*)"', f.read_text().split('</head>', 1)[-1])}
+inbound = collections.Counter(l for s, ls in pages.items() for l in ls if l in pages and l != s)
+print([u for u in pages if not inbound[u] and u != '/'])   # must be []
+```
+
+Those links must be in the **served HTML**, not rendered by `app.js`. Google
+defers JS rendering to a second queue and a new domain does not get to the
+front of it — that is why the district block in index.html is generated into
+the markup rather than built from `DISTRICTS` at runtime.
 
 ## Do NOT run `main()` locally
 

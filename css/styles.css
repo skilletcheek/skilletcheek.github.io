@@ -664,6 +664,10 @@ footer {
 .f-head { font-family: var(--mono); font-size: 10px; letter-spacing: .14em; color: var(--em); margin-bottom: 6px; }
 .f-col a { color: var(--silver); font-size: 13px; transition: color .15s; }
 .f-col a:hover { color: var(--em); }
+/* The district index spans the whole footer and flows as a link row rather
+   than a fourth column — 16 links stacked would be taller than the footer. */
+.f-wide { grid-column: 1 / -1; flex-direction: row; flex-wrap: wrap; gap: 8px 20px; align-items: baseline; }
+.f-wide .f-head { flex-basis: 100%; margin-bottom: 0; }
 
 /* ============================== DRAWER ============================== */
 .modal { position: fixed; inset: 0; background: rgba(4, 5, 7, .72); display: none; z-index: 50; }

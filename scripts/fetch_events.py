@@ -1179,6 +1179,107 @@ def _is_real_venue(name: str) -> bool:
     return not any(n == m for _slug, _label, match in DISTRICTS for m in match)
 
 
+# slug -> {name, city, district, count}. Superset of _VENUE_PAGES, filled by the
+# same pass; the venue index and the "nearby venues" cross-links read it.
+_VENUE_META = {}
+
+
+# ------------------------------------------------------ crawlable site nav
+# Search Console reported all 56 sub-pages as "Discovered - currently not
+# indexed" on 2026-07-23: Google had crawled the homepage and nothing else. On
+# a domain this new the deciding signal is internal linking, and there was
+# almost none — the homepage linked 3 of 15 districts and 0 of 38 venue pages,
+# and the venue pages were reachable only from hub pages Google had not
+# crawled either. Every generated page now carries this block, so nothing is an
+# orphan and no page is more than one hop from every hub.
+_TIME_HUBS = [("/tonight/", "Tonight"), ("/this-weekend/", "This Weekend"),
+              ("/free-events/", "Free Events")]
+
+
+def _nav_links(pairs, current):
+    """Render a link row, printing the current page as text rather than a
+    self-link — a page linking to itself is noise for a reader and a crawler."""
+    return "\n".join(
+        f"<span>{_html.escape(label)}</span>" if href == current
+        else f'<a href="{href}">{_html.escape(label)}</a>'
+        for href, label in pairs)
+
+
+def _site_nav(current: str = "") -> str:
+    """Footer navigation shared by every generated page. `current` is the
+    page's own absolute path (e.g. "/district/uptown/")."""
+    districts = [(f"/district/{slug}/", label) for slug, label, _m in DISTRICTS]
+    more = [("/venue/", "All venues"), ("/advertise/", "Advertise"),
+            ("/submit/", "Submit an event"), ("/", "letsdoitdallas.com")]
+    return (f'<nav class="sitenav" aria-label="Browse Lets Do It Dallas">'
+            f'<p class="k">/ WHEN</p>'
+            f'<p class="nav">{_nav_links(_TIME_HUBS, current)}</p>'
+            f'<p class="k">/ DISTRICTS</p>'
+            f'<p class="nav">{_nav_links(districts, current)}</p>'
+            f'<p class="k">/ MORE</p>'
+            f'<p class="nav">{_nav_links(more, current)}</p>'
+            f'</nav>')
+
+
+# One copy of the generated-page stylesheet. The hub, venue and venue-index
+# templates all inline it; keeping three near-identical copies in sync by hand
+# is how the nav ends up styled on two pages out of three.
+_PAGE_CSS = """
+body{background:#08090B;color:#8A909E;font:15px/1.6 Inter,-apple-system,sans-serif;margin:0;padding:40px 6vw}
+h1{color:#fff;font-size:2rem;letter-spacing:.01em}a{color:#00FF87;text-decoration:none}
+.k{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.12em;color:#00FF87}
+ul{list-style:none;padding:0}li{padding:12px 0;border-bottom:1px solid #191C22}
+li span{display:block;font-family:ui-monospace,monospace;font-size:11px;color:#8A909E}
+.cta{display:inline-block;margin:18px 0;border:1px solid #0E3A2F;padding:12px 18px}
+.foot{margin-top:28px;font-size:13px}
+.sitenav{margin-top:40px;border-top:1px solid #191C22;padding-top:20px}
+.sitenav .k{margin:16px 0 6px}
+.nav{margin:0}
+.nav a,.nav span{display:inline-block;margin:0 16px 8px 0;font-size:13px}
+.nav a{color:#C7CBD4}.nav a:hover{color:#00FF87}.nav span{color:#4A505C}
+"""
+
+
+# url -> did this run actually change the file. Read when the sitemap is built.
+_PAGE_CHANGED = {}
+
+
+def _write_page(path: str, html: str) -> str:
+    """Write a generated page, recording whether its bytes actually changed.
+
+    Every URL claiming <lastmod>today</lastmod> on every nightly run is a
+    signal Google learns to discard — its sitemap docs say values it finds
+    inconsistent with the page are ignored — and all 59 URLs were doing exactly
+    that. Most venue pages are unchanged on most nights; only the ones that
+    really moved should get a new date.
+
+    Returns the canonical URL, so callers can append it to the sitemap list.
+    """
+    d = ROOT / path if path else ROOT
+    d.mkdir(parents=True, exist_ok=True)
+    f = d / "index.html"
+    old = f.read_text() if f.exists() else None
+    changed = old != html
+    if changed:
+        f.write_text(html)
+    url = f"{SITE}/{path}/" if path else f"{SITE}/"
+    _PAGE_CHANGED[url] = changed
+    return url
+
+
+def _published_lastmods() -> dict:
+    """URL -> the lastmod already published, so an unchanged page keeps its
+    real date instead of being restamped to today."""
+    p = ROOT / "sitemap.xml"
+    if not p.exists():
+        return {}
+    try:
+        return dict(re.findall(r"<loc>([^<]+)</loc><lastmod>([^<]+)</lastmod>",
+                               p.read_text()))
+    except OSError:
+        return {}
+
+
 def _hub_row(e, omit_venue=None, count=1, last=None):
     """One listing line. Everything from a feed is escaped.
 
@@ -1237,7 +1338,7 @@ def _group_repeats(events):
     return [tuple(seen[k]) for k in order]
 
 
-def _hub_html(title, desc, canonical, events, app_link, heading, note):
+def _hub_html(title, desc, canonical, events, app_link, heading, note, path):
     rows = "\n".join(_hub_row(e, count=n, last=last)
                      for e, n, last in _group_repeats(events)[:60]) \
         or "<li>Fresh listings load nightly — check the live radar.</li>"
@@ -1255,23 +1356,31 @@ def _hub_html(title, desc, canonical, events, app_link, heading, note):
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="{SITE}/og-image.png"/>
 <script type="application/ld+json">{_jsonld(events)}</script>
-<style>
-body{{background:#08090B;color:#8A909E;font:15px/1.6 Inter,-apple-system,sans-serif;margin:0;padding:40px 6vw}}
-h1{{color:#fff;font-size:2rem;letter-spacing:.01em}}a{{color:#00FF87;text-decoration:none}}
-.k{{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.12em;color:#00FF87}}
-ul{{list-style:none;padding:0}}li{{padding:12px 0;border-bottom:1px solid #191C22}}
-li span{{display:block;font-family:ui-monospace,monospace;font-size:11px;color:#8A909E}}
-.cta{{display:inline-block;margin:18px 0;border:1px solid #0E3A2F;padding:12px 18px}}
-</style>{_analytics_snippet()}</head><body>
+<style>{_PAGE_CSS}</style>{_analytics_snippet()}</head><body>
 <p class="k">/ LETS DO IT DALLAS — {note}</p>
 <h1>{heading}</h1>
 <a class="cta" href="{app_link}">( OPEN THE LIVE RADAR ↗ )</a>
 <ul>{rows}</ul>
-<p><a href="/">← letsdoitdallas.com</a></p>
+{_site_nav(f"/{path}/")}
 </body></html>"""
 
 
-def _venue_html(name, city, street, canonical, events):
+def _nearby_venues(slug, city, district, limit=6):
+    """Sibling venues in the same city, else the same district.
+
+    A venue page used to link only to /, /submit/ and /advertise/, so every
+    crawl path through the site terminated there. These links give the crawler
+    somewhere to go and a reader the obvious next question ("what else is on
+    near here?").
+    """
+    same = [(s, m) for s, m in _VENUE_META.items()
+            if s != slug and ((city and m["city"] == city)
+                              or (not city and district and m["district"] == district))]
+    same.sort(key=lambda sm: (-sm[1]["count"], sm[1]["name"]))
+    return same[:limit]
+
+
+def _venue_html(name, city, street, canonical, events, slug, district):
     """Venue page: the long-tail surface the site otherwise has none of.
 
     Every listing links straight out to Ticketmaster, so nothing on this domain
@@ -1295,6 +1404,18 @@ def _venue_html(name, city, street, canonical, events):
             "Lets Do It Dallas event radar.")
     rows = "\n".join(_hub_row(e, omit_venue=_venue_slug(name), count=n, last=last)
                      for e, n, last in _group_repeats(events)[:60])
+    d_label = next((l for s, l, _m in DISTRICTS if s == district), None)
+    breadcrumb = (f'<p class="k">/ LETS DO IT DALLAS — <a href="/venue/">VENUE</a>'
+                  + (f' — <a href="/district/{district}/">{_html.escape(d_label.upper())}</a>'
+                     if d_label else "")
+                  + "</p>")
+    near = _nearby_venues(slug, city, district)
+    nearby = ""
+    if near:
+        links = " · ".join(f'<a href="/venue/{s}/">{_html.escape(m["name"])}</a>'
+                           for s, m in near)
+        where = _html.escape(city) if city else (d_label or "DFW")
+        nearby = f'<p class="foot">More in {where}: {links}</p>'
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -1310,23 +1431,16 @@ def _venue_html(name, city, street, canonical, events):
 <meta name="twitter:image" content="{SITE}/og-image.png"/>
 <script type="application/ld+json">{_jsonld(events)}</script>
 <script type="application/ld+json">{json.dumps(place)}</script>
-<style>
-body{{background:#08090B;color:#8A909E;font:15px/1.6 Inter,-apple-system,sans-serif;margin:0;padding:40px 6vw}}
-h1{{color:#fff;font-size:2rem;letter-spacing:.01em}}a{{color:#00FF87;text-decoration:none}}
-.k{{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.12em;color:#00FF87}}
-ul{{list-style:none;padding:0}}li{{padding:12px 0;border-bottom:1px solid #191C22}}
-li span{{display:block;font-family:ui-monospace,monospace;font-size:11px;color:#8A909E}}
-.cta{{display:inline-block;margin:18px 0;border:1px solid #0E3A2F;padding:12px 18px}}
-.foot{{margin-top:28px;font-size:13px}}
-</style>{_analytics_snippet()}</head><body>
-<p class="k">/ LETS DO IT DALLAS — VENUE</p>
+<style>{_PAGE_CSS}</style>{_analytics_snippet()}</head><body>
+{breadcrumb}
 <h1>{esc_name}</h1>
 <p class="k">{where}</p>
 <a class="cta" href="/?q={urllib.parse.quote(name)}">( OPEN THE LIVE RADAR ↗ )</a>
 <ul>{rows}</ul>
+{nearby}
 <p class="foot">Run {esc_name}? <a href="/submit/">List your shows free</a> — or
 <a href="/advertise/">see partner options</a>.</p>
-<p><a href="/">← letsdoitdallas.com</a></p>
+{_site_nav(f"/venue/{slug}/")}
 </body></html>"""
 
 
@@ -1355,21 +1469,112 @@ def write_venues(events):
         if len(venue) > len(g["name"]):
             g["name"] = venue
 
-    urls = []
+    # Two passes on purpose. _nearby_venues() and _hub_row() both read the
+    # slug maps, so every venue that will get a page has to be known before the
+    # first page renders — filling the maps as we render meant a venue could
+    # only ever cross-link to venues earlier in the alphabet.
+    keep = {}
     _VENUE_PAGES.clear()
+    _VENUE_META.clear()
     for slug, g in sorted(by_venue.items()):
         if len(g["events"]) < VENUE_MIN_EVENTS:
             continue
-        evs = sorted(g["events"], key=lambda e: (e["date"], e.get("time") or ""))
-        canonical = f"{SITE}/venue/{slug}/"
-        d = ROOT / "venue" / slug
-        d.mkdir(parents=True, exist_ok=True)
-        (d / "index.html").write_text(
-            _venue_html(g["name"], g["city"], g["street"], canonical, evs))
+        g["events"].sort(key=lambda e: (e["date"], e.get("time") or ""))
+        keep[slug] = g
         _VENUE_PAGES[slug] = g["name"]
-        urls.append(canonical)
-    print(f"wrote {len(urls)} venue pages (of {len(by_venue)} venues seen)")
+        _VENUE_META[slug] = {
+            "name": g["name"], "city": g["city"], "count": len(g["events"]),
+            "district": _slugify_matches(g["events"][0].get("area", "")),
+        }
+
+    urls = []
+    for slug, g in keep.items():
+        urls.append(_write_page(f"venue/{slug}", _venue_html(
+            g["name"], g["city"], g["street"], f"{SITE}/venue/{slug}/",
+            g["events"], slug, _VENUE_META[slug]["district"])))
+    urls.append(write_venue_index())
+    print(f"wrote {len(keep)} venue pages (of {len(by_venue)} venues seen) + /venue/")
+    _prune_stale_venues(keep)
     return urls
+
+
+def _prune_stale_venues(keep):
+    """Delete venue pages for venues that have dropped below VENUE_MIN_EVENTS.
+
+    Nothing removed a venue directory once written, so a room that stopped
+    announcing shows kept serving a 200 while falling out of the sitemap and
+    out of every listing — an orphan the crawler had been told about once and
+    could never confirm. /venue/trees-dallas/ was sitting in Search Console's
+    "Discovered - currently not indexed" bucket in exactly that state. A 404 is
+    the honest answer; if the venue books three more shows the page comes back
+    on the next run.
+    """
+    d = ROOT / "venue"
+    if not d.exists():
+        return
+    stale = [p for p in d.iterdir() if p.is_dir() and p.name not in keep]
+    # A run that would delete more pages than it kept is a broken feed, not a
+    # quiet month. Same reasoning as COLLAPSE_GUARD_RATIO in main().
+    if stale and len(stale) > len(keep):
+        print(f"REFUSING TO PRUNE: {len(stale)} stale venue pages vs {len(keep)} "
+              f"kept — that looks like a broken feed, not venues going quiet.",
+              file=sys.stderr)
+        return
+    for p in stale:
+        for f in p.iterdir():
+            f.unlink()
+        p.rmdir()
+    if stale:
+        print(f"pruned {len(stale)} stale venue pages: "
+              f"{', '.join(sorted(p.name for p in stale))}")
+
+
+def write_venue_index():
+    """/venue/ — the directory page the venue pages never had.
+
+    38 venue pages sat in the sitemap with no single parent linking to them;
+    the only inbound links were listing rows on hub pages that Google had not
+    crawled. This gives every venue page one stable, permanent link from a page
+    that is itself one hop from the homepage, instead of a link that moves the
+    moment tonight's lineup changes.
+    """
+    by_city = {}
+    for slug, m in _VENUE_META.items():
+        by_city.setdefault(m["city"] or "Dallas–Fort Worth", []).append((slug, m))
+    blocks = []
+    for city in sorted(by_city):
+        rows = "\n".join(
+            f'<li><a href="/venue/{slug}/"><strong>{_html.escape(m["name"])}</strong></a> '
+            f'<span>/ {m["count"]} upcoming</span></li>'
+            for slug, m in sorted(by_city[city], key=lambda sm: sm[1]["name"]))
+        blocks.append(f'<p class="k">/ {_html.escape(city.upper())}</p><ul>{rows}</ul>')
+    title = "DFW Venues — Every Room We Track | Lets Do It Dallas"
+    desc = ("Every Dallas–Fort Worth venue on the Lets Do It Dallas radar, with "
+            "upcoming shows, dates and tickets for each room.")
+    canonical = f"{SITE}/venue/"
+    return _write_page("venue", f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>{title}</title>
+<meta name="description" content="{desc}"/>
+<link rel="canonical" href="{canonical}"/>
+<meta property="og:title" content="{title}"/>
+<meta property="og:description" content="{desc}"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="{canonical}"/>
+<meta property="og:image" content="{SITE}/og-image.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{SITE}/og-image.png"/>
+<style>{_PAGE_CSS}</style>{_analytics_snippet()}</head><body>
+<p class="k">/ LETS DO IT DALLAS — VENUE DIRECTORY</p>
+<h1>DFW VENUES</h1>
+<p>{len(_VENUE_META)} rooms across Dallas–Fort Worth, each with its own page of
+upcoming shows.</p>
+<a class="cta" href="/">( OPEN THE LIVE RADAR ↗ )</a>
+{"".join(blocks)}
+<p class="foot">Run one of these rooms? <a href="/submit/">List your shows free</a>.</p>
+{_site_nav("/venue/")}
+</body></html>""")
 
 
 def _config_value(key):
@@ -1734,10 +1939,7 @@ def write_advertise():
 
 </body></html>"""
 
-    d = ROOT / "advertise"
-    d.mkdir(parents=True, exist_ok=True)
-    (d / "index.html").write_text(html)
-    return f"{SITE}/advertise/"
+    return _write_page("advertise", html)
 
 
 # ------------------------------------------------------------------ /submit/
@@ -2002,10 +2204,47 @@ def write_submit(events):
 
 </body></html>
 """
-    out = ROOT / "submit"
-    out.mkdir(exist_ok=True)
-    (out / "index.html").write_text(html)
-    return f"{SITE}/submit/"
+    return _write_page("submit", html)
+
+
+_HOME_NAV_START = "<!-- SITEMAP-NAV:START — generated by write_home_nav(); edit the generator -->"
+_HOME_NAV_END = "<!-- SITEMAP-NAV:END -->"
+
+
+def write_home_nav():
+    """Rewrite the district/venue link block in index.html between its markers.
+
+    The homepage is the only page Google had crawled, and it linked 3 of 15
+    districts and none of the venue pages — which is why everything below it
+    sat in "Discovered - currently not indexed". These links have to be in the
+    served HTML, not rendered by app.js: Google defers rendering to a second
+    queue, and a new domain does not get to the front of it.
+
+    Generated rather than hand-written because DISTRICTS is already mirrored in
+    js/data.js; a third hand-maintained copy is a third thing to drift, and a
+    stale entry here is a link to a district page that no longer exists.
+    """
+    f = ROOT / "index.html"
+    html = f.read_text()
+    if _HOME_NAV_START not in html or _HOME_NAV_END not in html:
+        print("WARNING: SITEMAP-NAV markers missing from index.html — "
+              "homepage district links not refreshed", file=sys.stderr)
+        return
+    links = "\n".join(f'    <a href="/district/{slug}/">{label}</a>'
+                      for slug, label, _m in DISTRICTS)
+    block = (f'{_HOME_NAV_START}\n'
+             f'  <div class="f-col f-wide">\n'
+             f'    <div class="f-head">/ DISTRICTS</div>\n'
+             f'{links}\n'
+             f'    <a href="/venue/">All DFW venues →</a>\n'
+             f'  </div>\n'
+             f'  {_HOME_NAV_END}')
+    start = html.index(_HOME_NAV_START)
+    end = html.index(_HOME_NAV_END) + len(_HOME_NAV_END)
+    updated = html[:start] + block + html[end:]
+    if updated != html:
+        f.write_text(updated)
+        print("refreshed homepage district nav")
 
 
 def write_hubs(events):
@@ -2015,10 +2254,8 @@ def write_hubs(events):
     pages = write_venues(events)
 
     def emit(path, title, desc, evs, app_link, heading, note):
-        d = ROOT / path
-        d.mkdir(parents=True, exist_ok=True)
-        (d / "index.html").write_text(_hub_html(title, desc, f"{SITE}/{path}/", evs, app_link, heading, note))
-        pages.append(f"{SITE}/{path}/")
+        pages.append(_write_page(path, _hub_html(
+            title, desc, f"{SITE}/{path}/", evs, app_link, heading, note, path)))
 
     tonight = [e for e in events if e["date"] == today]
     emit("tonight", "Things to Do in Dallas–Fort Worth Tonight | Lets Do It Dallas",
@@ -2046,8 +2283,16 @@ def write_hubs(events):
     pages.append(write_advertise())
     pages.append(write_submit(events))
 
+    write_home_nav()
+
+    # An unchanged page keeps the date it was really last modified. The
+    # homepage is the exception: its markup is static but the listings it
+    # renders come from live-events.json, which is rewritten every night.
+    published = _published_lastmods()
     sitemap = "\n".join(
-        f"<url><loc>{u}</loc><lastmod>{today}</lastmod></url>"
+        f"<url><loc>{u}</loc><lastmod>"
+        f"{today if _PAGE_CHANGED.get(u, True) else published.get(u, today)}"
+        f"</lastmod></url>"
         for u in [SITE + "/"] + pages)
     (ROOT / "sitemap.xml").write_text(
         f'<?xml version="1.0" encoding="UTF-8"?>\n'
