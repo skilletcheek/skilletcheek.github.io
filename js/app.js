@@ -315,7 +315,12 @@ function render() {
   updateQuickButtons();
   el("freeToggle").classList.toggle("active", state.freeOnly);
   el("faveToggle").classList.toggle("active", state.favesOnly);
-  el("faveToggle").textContent = `♥ SAVED (${state.faves.size})`;
+  /* Must reproduce the .nav-lbl span from index.html — CSS drops it below 720px
+     so the label reads "♥ (3)" and the three nav actions fit one row. Only
+     interpolation is Set.size, an integer, so there's nothing to esc() here.
+     display:none also drops the word from the a11y tree, hence the aria-label. */
+  el("faveToggle").innerHTML = `♥ <span class="nav-lbl">SAVED </span>(${state.faves.size})`;
+  el("faveToggle").setAttribute("aria-label", `Saved events (${state.faves.size})`);
 
   const q = state.search.trim().toLowerCase();
   const sponsored = sponsoredForDate(state.date).filter((s) => {

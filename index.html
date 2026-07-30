@@ -85,16 +85,27 @@
 <!-- ============ NAV ============ -->
 <nav class="nav">
   <a class="brand" href="/">LETS DO IT <em>DALLAS</em></a>
+  <!-- The .nav-lbl spans are dropped below 720px so all three actions sit on one
+       row instead of wrapping into a stack. app.js rewrites #faveToggle's inner
+       HTML on every render and reproduces this same span — keep them in sync. -->
   <div class="nav-actions">
-    <button class="btn-ghost" id="faveToggle">♥ SAVED (0)</button>
-    <button class="btn-ghost" id="submitEventBtn">+ SUBMIT AN EVENT</button>
+    <button class="btn-ghost" id="faveToggle" aria-label="Saved events (0)">♥ <span class="nav-lbl">SAVED </span>(0)</button>
+    <button class="btn-ghost" id="submitEventBtn" aria-label="Submit an event">+ SUBMIT<span class="nav-lbl"> AN EVENT</span></button>
+    <a class="btn-ghost nav-advertise" href="/advertise/">ADVERTISE</a>
   </div>
 </nav>
 
 <!-- ============ HERO ============ -->
 <header class="hero">
   <div class="hero-copy">
-    <div class="hero-kicker">/ THE CURATED RADAR FOR DALLAS CULTURE &amp; EVENTS</div>
+    <!-- The long kicker is 383px and cannot fit a 375px phone, so it wrapped to
+         two lines everywhere and was simply hidden on the returning slim band —
+         which left a returning mobile visitor no text at all saying what this
+         site is. The short variant is the phone copy; CSS picks one per width. -->
+    <div class="hero-kicker">
+      <span class="kicker-long">/ THE CURATED RADAR FOR DALLAS CULTURE &amp; EVENTS</span>
+      <span class="kicker-short">/ WHAT&#39;S ON IN DALLAS&#8211;FORT WORTH</span>
+    </div>
     <!-- Trailing spaces before each <br> are invisible but keep the extracted
          text "LETS DO IT DALLAS" rather than "LETSDO ITDALLAS". -->
     <h1>LETS <br/>DO IT <br/>DALLAS</h1>

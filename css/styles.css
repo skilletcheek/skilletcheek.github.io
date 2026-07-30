@@ -31,7 +31,12 @@
   position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
   overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
 }
-html { scroll-behavior: smooth; }
+/* .skybar is position:fixed and 57px tall, and it slides in at exactly the
+   point the three scrollIntoView({block:"start"}) calls in app.js fire (reset
+   filters, radar jump, marquee category) — so the element they scroll to
+   landed underneath it with its kicker and half its title covered. Padding the
+   scrollport keeps every programmatic scroll and anchor jump clear of the bar. */
+html { scroll-behavior: smooth; scroll-padding-top: 68px; }
 html, body { margin: 0; padding: 0; }
 body {
   background: var(--bg);
@@ -109,7 +114,25 @@ button { font-family: var(--mono); }
   color: var(--white);
 }
 .brand em { font-style: normal; color: var(--em); }
-.nav-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.nav-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+/* /advertise/ was reachable only from the footer — past all 65 cards on a phone.
+   Mobile-only on purpose: the desktop nav is signed off as-is. */
+.nav-advertise { display: none; text-decoration: none; }
+
+/* The phone nav cost 133px before the hero started: the brand wrapped onto two
+   lines and the two ghost buttons stacked. Brand on one line + one row of three
+   short-labelled actions takes ~97px and fits /advertise/ in as well. */
+@media (max-width: 720px) {
+  .nav { padding: 12px var(--pad); gap: 10px; flex-wrap: wrap; }
+  .brand { font-size: 16px; white-space: nowrap; flex: 1 1 100%; }
+  .nav-actions { width: 100%; flex-wrap: nowrap; gap: 6px; }
+  .nav-actions .btn-ghost {
+    padding: 9px 10px; font-size: 10px; white-space: nowrap;
+    display: inline-flex; align-items: center; justify-content: center;
+  }
+  .nav-advertise { display: inline-flex; }
+  .nav-lbl { display: none; }
+}
 .btn-ghost {
   cursor: pointer; background: transparent; color: var(--silver);
   border: 1px solid var(--line); border-radius: 0; padding: 9px 14px;
@@ -134,6 +157,13 @@ button { font-family: var(--mono); }
 }
 @media (max-width: 900px) { .hero-copy { border-right: 0; border-bottom: 1px solid var(--line); } }
 .hero-kicker { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; color: var(--em); }
+/* One tagline per width — see the note in index.html. Below 720px the long one
+   can't fit on a line, so the phone gets the short variant instead of a wrap. */
+.kicker-short { display: none; }
+@media (max-width: 720px) {
+  .kicker-long { display: none; }
+  .kicker-short { display: inline; }
+}
 .hero h1 {
   font-size: clamp(2.6rem, 7.4vw, 5rem); font-weight: 800; line-height: .94;
   letter-spacing: -.01em;
@@ -179,10 +209,12 @@ body.returning .hero-copy {
   flex-direction: row; align-items: center; justify-content: space-between;
   flex-wrap: wrap; gap: 14px; padding: 14px var(--pad); border-right: 0;
 }
-/* the kicker sits beside the button on a wide band, but wraps to two lines on a
-   phone and pushes the band to 122px for a tagline the nav already implies */
+/* The kicker used to be hidden here: the long copy wrapped to two lines and
+   pushed the band to 122px. It now carries the short one-line variant, so it
+   stays — a returning visitor on a phone sees the whole hero collapse to this
+   band, and hiding it left the brand name as the only text on screen. A name
+   is not a description: nothing said this was a Dallas–Fort Worth events site. */
 @media (max-width: 620px) {
-  body.returning .hero-kicker { display: none; }
   body.returning .hero-badge { width: 100%; justify-content: center; }
 }
 
@@ -742,6 +774,10 @@ body.drawer-open { overflow: hidden; }
   .quick button, .icon-btn, .btn-ghost, .toggle, .sortsel, .btn,
   .date-nav button, .skybar button, input[type="date"],
   .radar-row, .wire-row { min-height: 44px; }
+  /* min-height alone left the card's ♡ button 31px wide — a single glyph in
+     11px of padding — sitting 6px from DETAILS, so a slightly low thumb hit
+     the wrong control. Only the heart is affected; DETAILS is already ~73px. */
+  .icon-btn { min-width: 44px; }
   .date-nav button { padding: 8px 18px; }
   .modal-close { width: 44px; height: 44px; }
   .vibes-toggle { padding: 12px 0 12px 8px; }
