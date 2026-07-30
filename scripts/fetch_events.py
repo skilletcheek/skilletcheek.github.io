@@ -1221,6 +1221,35 @@ def _site_nav(current: str = "") -> str:
             f'</nav>')
 
 
+# Tap-target minimums for the generated pages. index.html got these in the
+# TOUCH TARGETS block of css/styles.css; nothing ever applied them here, and
+# /tonight/ shipped 65 of its 66 links under 44px -- 13-30px event titles
+# stacked at a 12px pitch, which on a phone is a row of near-misses.
+#
+# Appended to all three sheets below rather than written into each, for the
+# reason the _PAGE_CSS comment gives: near-identical copies are how a rule ends
+# up live on two page types out of three. Selectors that don't apply to a given
+# sheet simply don't match, which is cheaper than keeping three lists correct.
+#
+# It has to be appended LAST. Several rules here override an earlier one at
+# equal specificity (li, .a-nav), where source order is what decides.
+#
+# The li>a titles and .nav links are the primary target on their row and get
+# the full 44px. The venue link inside the meta line is an inline secondary
+# target in a run of text, so it gets 30px -- past the 24px WCAG 2.5.8 floor
+# without turning a metadata line into a stack of buttons.
+_TOUCH_CSS = """
+@media(pointer:coarse),(max-width:720px){
+li{padding:2px 0}
+li>a{display:block;padding:10px 0}
+li span a{display:inline-block;padding:6px 0}
+.nav a,.nav span{padding:12px 0;margin:0 16px 0 0}
+.a-nav{padding:2px var(--pad)}
+.a-nav a,.a-foot a{display:inline-block;padding:15px 0}
+}
+"""
+
+
 # One copy of the generated-page stylesheet. The hub, venue and venue-index
 # templates all inline it; keeping three near-identical copies in sync by hand
 # is how the nav ends up styled on two pages out of three.
@@ -1237,7 +1266,7 @@ li span{display:block;font-family:ui-monospace,monospace;font-size:11px;color:#8
 .nav{margin:0}
 .nav a,.nav span{display:inline-block;margin:0 16px 8px 0;font-size:13px}
 .nav a{color:#C7CBD4}.nav a:hover{color:#00FF87}.nav span{color:#4A505C}
-"""
+""" + _TOUCH_CSS
 
 
 # url -> did this run actually change the file. Read when the sitemap is built.
@@ -1657,7 +1686,7 @@ _ADVERTISE_CSS = """
 .demo{border:1px solid var(--line);margin-top:24px}
 .demo-label{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;color:#767D8C;
   padding:10px 14px;border-bottom:1px solid var(--line)}
-"""
+""" + _TOUCH_CSS
 
 
 def _load_partners():
@@ -2060,7 +2089,7 @@ _SUBMIT_CSS = """
 .s-steps{margin:22px 0 0;padding:0;list-style:none;max-width:64ch;counter-reset:s}
 .s-steps li{padding:13px 0;border-bottom:1px solid var(--line);font-size:14.5px;counter-increment:s}
 .s-steps li::before{content:"0" counter(s) " / ";color:var(--em);font-family:var(--mono);font-size:11px}
-"""
+""" + _TOUCH_CSS
 
 
 def write_submit(events):
