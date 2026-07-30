@@ -139,7 +139,16 @@ def row(name, category, area, date, time, cost, desc, url, image=None):
     return {
         "name": (name or "").strip()[:140],
         "category": category or "festival",
-        "area": (area or "Dallas–Fort Worth").strip()[:80],
+        # 80 used to cut this before _split_area() ever saw a city: a real ICS
+        # LOCATION ("The National Multicultural Western Heritage Museum, 2201
+        # Dottie Lynn Pkwy, Suite 115, Fort Worth, 76120, United States") is 118
+        # chars, and the venue name alone can run past 50. Once severed, no
+        # downstream parsing recovers the city -- it's just gone. 160 clears
+        # every real address seen so far (longest to date: 118) with margin,
+        # while still bounding a feed that dumped paragraph text into LOCATION.
+        # _split_area()'s "Un"-prefix noise filter stays regardless, as a
+        # second line of defense if a value is ever severed anyway.
+        "area": (area or "Dallas–Fort Worth").strip()[:160],
         "date": date,
         "time": time or "See details",
         "cost": cost,
@@ -1043,15 +1052,16 @@ def _split_area(area: str):
     is a Dallas neighborhood, but inferring "Dallas" from that is exactly the
     guess that produces wrong data for the Fort Worth entries.
 
-    Note `row()` truncates `area` to 80 chars, so the tail of a long address
-    can arrive already mangled ("..., Fort Worth, 76107, "). Dropping empty and
-    noise parts absorbs that.
+    Note `row()` caps `area` at 160 chars, past every real address seen so
+    far, but a feed could still hand back something longer than that. Dropping
+    empty and noise parts absorbs a tail mangled by that cap ("..., Fort
+    Worth, 76107, ").
     """
     def noise(p):
-        # row()'s 80-char cap can sever the trailing country mid-word, leaving
-        # "Un" — short enough to survive as a locality. Any prefix of "united
-        # states" is that artifact; no DFW city collides ("Union" diverges at
-        # the fourth character).
+        # If `area` is ever severed by row()'s cap, it lands mid-word in the
+        # trailing country, leaving "Un" -- short enough to survive as a
+        # locality otherwise. Any prefix of "united states" is that artifact;
+        # no DFW city collides ("Union" diverges at the fourth character).
         return (_ADDR_NOISE.match(p) or _POSTAL.match(p)
                 or (len(p) >= 2 and "united states".startswith(p.lower())))
 
@@ -1135,9 +1145,10 @@ def _display_area(area: str) -> str:
     """Human-readable venue line: "Tulips FTW · Fort Worth".
 
     Printing the raw `area` leaked full postal addresses into the listing, and
-    `row()`'s 80-char cap chopped them mid-field ("..., Fort Worth, 76107, ").
-    Reuses the JSON-LD split so the visible text and the structured data name
-    the same place; the street number is dropped as noise for a reader.
+    a long one could arrive already mangled by row()'s length cap ("..., Fort
+    Worth, 76107, "). Reuses the JSON-LD split so the visible text and the
+    structured data name the same place; the street number is dropped as noise
+    for a reader.
     """
     venue, _street, city = _split_area(area)
     if venue and city and city.lower() not in venue.lower():

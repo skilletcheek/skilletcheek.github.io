@@ -81,12 +81,14 @@ const _POSTAL = /^\d{5}(-\d{4})?$/;
 function splitArea(area) {
   const parts = String(area ?? "").split(",").map((p) => p.trim())
     .filter((p) => p && !_ADDR_NOISE.test(p) && !_POSTAL.test(p)
-      // row()'s 80-char cap in fetch_events.py can sever the trailing country
-      // mid-word, leaving "Un" -- short enough to otherwise survive as a
-      // locality. Any prefix of "united states" is that artifact; no DFW city
-      // collides ("Union" diverges at the fourth character). Ported from
-      // _split_area()'s noise() after that exact truncation ("...Fort Worth,
-      // 76102, Un") made this pick "Un" as the city instead of "Fort Worth".
+      // If row()'s length cap in fetch_events.py ever severs an address, it
+      // lands mid-word in the trailing country, leaving "Un" -- short enough
+      // to otherwise survive as a locality. Any prefix of "united states" is
+      // that artifact; no DFW city collides ("Union" diverges at the fourth
+      // character). Ported from _split_area()'s noise() after that exact
+      // truncation ("...Fort Worth, 76102, Un") made this pick "Un" as the
+      // city instead of "Fort Worth" -- the cap has since been raised, but
+      // this stays as a second line of defense.
       && !(p.length >= 2 && "united states".startsWith(p.toLowerCase())));
   if (!parts.length) return [null, null, null];
   if (parts.length === 1) return [parts[0], null, null];
