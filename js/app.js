@@ -80,13 +80,33 @@ const _POSTAL = /^\d{5}(-\d{4})?$/;
 
 function splitArea(area) {
   const parts = String(area ?? "").split(",").map((p) => p.trim())
-    .filter((p) => p && !_ADDR_NOISE.test(p) && !_POSTAL.test(p));
+    .filter((p) => p && !_ADDR_NOISE.test(p) && !_POSTAL.test(p)
+      // row()'s 80-char cap in fetch_events.py can sever the trailing country
+      // mid-word, leaving "Un" -- short enough to otherwise survive as a
+      // locality. Any prefix of "united states" is that artifact; no DFW city
+      // collides ("Union" diverges at the fourth character). Ported from
+      // _split_area()'s noise() after that exact truncation ("...Fort Worth,
+      // 76102, Un") made this pick "Un" as the city instead of "Fort Worth".
+      && !(p.length >= 2 && "united states".startsWith(p.toLowerCase())));
   if (!parts.length) return [null, null, null];
   if (parts.length === 1) return [parts[0], null, null];
   const [venue, ...rest] = parts;
   const street = rest.filter((p) => /^\d/.test(p));
   const city = rest.filter((p) => !street.includes(p));
   return [venue, street.join(", ") || null, city.length ? city[city.length - 1] : null];
+}
+
+/* Mirror of _display_area() in scripts/fetch_events.py: "Tulips FTW · Fort
+   Worth" instead of the raw feed string. cardHtml() and the OPEN NOW rail
+   printed a.area directly, which is fine for "Downtown Dallas" but leaks the
+   full postal address -- street, ZIP, "United States" -- for any venue the
+   feed didn't already shorten, wrapping a row built to be one line into two
+   or three. Deliberately not used in the drawer or the map/ICS/share strings:
+   there, the full address is the useful form, not noise. */
+function displayArea(area) {
+  const [venue, , city] = splitArea(area);
+  if (venue && city && !venue.toLowerCase().includes(city.toLowerCase())) return `${venue} · ${city}`;
+  return venue || area || "";
 }
 
 /* Stable per-event identity, used for favorites and for matching a clicked
@@ -268,7 +288,7 @@ function cardHtml(a, i) {
                above already names it. Repeating it printed the same string on
                all 91 cards and cost a line of height on each. -->
           <div class="meta">/ ${esc(String(a.time).toUpperCase())}</div>
-          <div class="meta">/ ${esc((dLabel || a.area || "DFW").toUpperCase())}</div>
+          <div class="meta">/ ${esc((dLabel || displayArea(a.area) || "DFW").toUpperCase())}</div>
         </div>
         ${thumb}
       </div>
@@ -442,7 +462,7 @@ function renderOnNow() {
     <div class="onnow-card" data-id="${esc(uid(a))}">
       <div class="oc-name">${esc(a.name)}</div>
       <div class="oc-meta">/ ${esc(String(a.time).toUpperCase())}</div>
-      <div class="oc-meta">/ ${esc((a.area || "DFW").toUpperCase())}</div>
+      <div class="oc-meta">/ ${esc((displayArea(a.area) || "DFW").toUpperCase())}</div>
     </div>`).join("");
   const byId = new Map(live.map((a) => [uid(a), a]));
   el("onnowRail").querySelectorAll(".onnow-card").forEach((c) => {
