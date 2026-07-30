@@ -1243,10 +1243,49 @@ _TOUCH_CSS = """
 li{padding:2px 0}
 li>a{display:block;padding:10px 0}
 li span a{display:inline-block;padding:6px 0}
-.nav a,.nav span{padding:12px 0;margin:0 16px 0 0}
+.sitenav .nav a,.sitenav .nav span{padding:12px 0;margin:0 16px 0 0}
 .a-nav{padding:2px var(--pad)}
 .a-nav a,.a-foot a{display:inline-block;padding:15px 0}
 }
+"""
+
+
+# _site_nav()'s own styling, shared by all three sheets because /advertise/ and
+# /submit/ now carry it too.
+#
+# Everything is scoped under .sitenav for one specific reason: those two pages
+# <link> the real /css/styles.css to get the design tokens, and that sheet
+# already owns `.nav` -- the site header, display:flex with space-between and a
+# bottom border. An unscoped `.nav` here would let the header rules style the
+# footer link rows into three bordered flex bars. `class="nav"` is only ever
+# emitted by _site_nav(), so scoping costs the hub pages nothing.
+#
+# `.k` is deliberately NOT redefined unscoped: the hub, venue and directory
+# pages use it outside the sitenav as well (breadcrumbs, city headings), and
+# that rule stays in _PAGE_CSS. .sitenav .k is what /advertise/ and /submit/
+# need, since neither the shared sheet nor their own defines a bare `.k`.
+#
+# The .a-foot reset is the same class of problem and the sitenav now sits in
+# that footer, so it rides along here. /css/styles.css styles the bare element
+# `footer` as the homepage's three-column grid with a --line background; both
+# these pages inherit it, and above 720px that laid the footer out as
+# 1.4fr 1fr 1fr, leaving the content in 41% of the width with two empty, paler
+# columns beside it. Harmless while the footer held two links; putting 21 in
+# there makes it obvious. The mobile override in that sheet drops the grid to
+# one column, which is why this only ever showed on desktop.
+#
+# Hex rather than var() so the same block works on the standalone hub pages,
+# which don't link the shared stylesheet and so have no custom properties.
+_SITENAV_CSS = """
+.a-foot{display:block;background:none}
+.sitenav{margin-top:40px;border-top:1px solid #191C22;padding-top:20px}
+.sitenav .k{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.12em;
+  color:#00FF87;margin:16px 0 6px}
+.sitenav .nav{display:block;margin:0;padding:0;border:0}
+.sitenav .nav a,.sitenav .nav span{display:inline-block;margin:0 16px 8px 0;font-size:13px}
+.sitenav .nav a{color:#C7CBD4}
+.sitenav .nav a:hover{color:#00FF87}
+.sitenav .nav span{color:#4A505C}
 """
 
 
@@ -1261,12 +1300,7 @@ ul{list-style:none;padding:0}li{padding:12px 0;border-bottom:1px solid #191C22}
 li span{display:block;font-family:ui-monospace,monospace;font-size:11px;color:#8A909E}
 .cta{display:inline-block;margin:18px 0;border:1px solid #0E3A2F;padding:12px 18px}
 .foot{margin-top:28px;font-size:13px}
-.sitenav{margin-top:40px;border-top:1px solid #191C22;padding-top:20px}
-.sitenav .k{margin:16px 0 6px}
-.nav{margin:0}
-.nav a,.nav span{display:inline-block;margin:0 16px 8px 0;font-size:13px}
-.nav a{color:#C7CBD4}.nav a:hover{color:#00FF87}.nav span{color:#4A505C}
-""" + _TOUCH_CSS
+""" + _SITENAV_CSS + _TOUCH_CSS
 
 
 # url -> did this run actually change the file. Read when the sitemap is built.
@@ -1686,7 +1720,7 @@ _ADVERTISE_CSS = """
 .demo{border:1px solid var(--line);margin-top:24px}
 .demo-label{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;color:#767D8C;
   padding:10px 14px;border-bottom:1px solid var(--line)}
-""" + _TOUCH_CSS
+""" + _SITENAV_CSS + _TOUCH_CSS
 
 
 def _load_partners():
@@ -1964,6 +1998,7 @@ def write_advertise():
 <footer class="a-foot"><div class="wrap">
   <a href="/">← BACK TO THE RADAR</a> &nbsp;·&nbsp;
   <a href="{mailto}">{email}</a>
+  {_site_nav("/advertise/")}
 </div></footer>
 
 </body></html>"""
@@ -2089,7 +2124,7 @@ _SUBMIT_CSS = """
 .s-steps{margin:22px 0 0;padding:0;list-style:none;max-width:64ch;counter-reset:s}
 .s-steps li{padding:13px 0;border-bottom:1px solid var(--line);font-size:14.5px;counter-increment:s}
 .s-steps li::before{content:"0" counter(s) " / ";color:var(--em);font-family:var(--mono);font-size:11px}
-""" + _TOUCH_CSS
+""" + _SITENAV_CSS + _TOUCH_CSS
 
 
 def write_submit(events):
@@ -2225,10 +2260,13 @@ def write_submit(events):
   copy down to a line or two so it reads like the rest of the site.</p>
 </div></section>
 
-<footer style="padding:34px 0 60px"><div class="wrap">
+<!-- carries .a-foot purely so the tap-target rule in _TOUCH_CSS reaches these
+     two links; the inline padding still wins over the class's own. -->
+<footer class="a-foot" style="padding:34px 0 60px"><div class="wrap">
   <p style="font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--dim)">
   / QUESTIONS? <a href="mailto:{email}">{email}</a> &nbsp;·&nbsp;
   <a href="/">← BACK TO THE RADAR</a></p>
+  {_site_nav("/submit/")}
 </div></footer>
 
 </body></html>
