@@ -473,6 +473,21 @@ function renderOnNow() {
       if (item) openDrawer(item);
     };
   });
+  updateOnNowArrows();
+}
+
+/* Shows only the arrow(s) that have somewhere left to go, so a day with few
+   enough live events that the rail fits needs no controls at all. Called
+   after every render and on scroll/resize, since a window resize can turn a
+   scrollable rail into one that fits (or the reverse). */
+function updateOnNowArrows() {
+  const rail = el("onnowRail"), prev = el("onnowPrev"), next = el("onnowNext");
+  if (!rail || !prev || !next) return;
+  const overflows = rail.scrollWidth > rail.clientWidth + 1;
+  const atStart = rail.scrollLeft <= 1;
+  const atEnd = rail.scrollLeft >= rail.scrollWidth - rail.clientWidth - 1;
+  prev.hidden = !overflows || atStart;
+  next.hidden = !overflows || atEnd;
 }
 
 function updateQuickButtons() {
@@ -964,6 +979,20 @@ function wireControls() {
       goToDate(t);
     };
   });
+  /* ON NOW rail arrows: scroll by ~90% of a viewport-width "page" rather than
+     a fixed card count, so the click feels proportionate at any width. The
+     rail's own scroll (drag, trackpad, shift+wheel) also needs to keep the
+     arrows in sync, hence the scroll listener alongside the click handlers. */
+  const onnowRail = el("onnowRail");
+  el("onnowPrev").onclick = () => onnowRail.scrollBy({ left: -onnowRail.clientWidth * 0.9 });
+  el("onnowNext").onclick = () => onnowRail.scrollBy({ left: onnowRail.clientWidth * 0.9 });
+  onnowRail.addEventListener("scroll", updateOnNowArrows, { passive: true });
+  let onnowResizeTimer;
+  window.addEventListener("resize", () => {
+    clearTimeout(onnowResizeTimer);
+    onnowResizeTimer = setTimeout(updateOnNowArrows, 120);
+  });
+
   /* sticky date bar: slides in once the console scrolls out of view */
   el("skyPrev").onclick = () => el("prevDay").click();
   el("skyNext").onclick = () => el("nextDay").click();

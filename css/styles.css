@@ -461,9 +461,25 @@ body.ads .ad-leader { display: block; }
   display: flex; align-items: center; gap: 8px; padding: 12px var(--pad) 0;
   font-family: var(--mono); font-size: 10px; letter-spacing: .14em; color: var(--em);
 }
+/* The rail overflows on most days (8 cards at 230px easily exceeds a 1430px
+   viewport) with nothing marking it as scrollable beyond a card sliced off at
+   the edge -- a real hint on touch, where swiping a card row is the standard
+   gesture, but a plain desktop mouse has no equivalent built-in affordance.
+   These arrows are that affordance; updateOnNowArrows() in app.js shows only
+   the one(s) with somewhere left to go. Touch already has swipe, so this is
+   pointer:fine only -- see the override below. */
+.onnow-arrows { display: flex; gap: 4px; margin-left: auto; }
+.onnow-arrow {
+  cursor: pointer; border: 1px solid var(--line); background: transparent; color: var(--white);
+  font-size: 14px; line-height: 1; padding: 4px 9px; transition: all .15s;
+}
+.onnow-arrow:hover { background: var(--bg-2); color: var(--em); border-color: var(--em-dim); }
+@media (pointer: coarse) {
+  .onnow-arrows { display: none; }
+}
 .onnow-rail {
   display: flex; gap: 1px; overflow-x: auto; padding: 10px var(--pad) 14px;
-  -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  -webkit-overflow-scrolling: touch; scrollbar-width: none; scroll-behavior: smooth;
 }
 .onnow-rail::-webkit-scrollbar { display: none; }
 .onnow-card {

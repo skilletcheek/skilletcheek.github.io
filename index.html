@@ -164,7 +164,16 @@
 <!-- ============ EVENT GRID ============ -->
 <main>
   <div class="onnow" id="onnow" hidden>
-    <div class="onnow-head"><i class="pulse"></i><span id="onnowLabel">ON NOW</span></div>
+    <div class="onnow-head">
+      <i class="pulse"></i><span id="onnowLabel">ON NOW</span>
+      <!-- Hidden by default; renderOnNow() only reveals whichever arrow has
+           somewhere to go, so a rail that happens to fit doesn't show dead
+           controls. -->
+      <div class="onnow-arrows">
+        <button id="onnowPrev" class="onnow-arrow" aria-label="Scroll left" title="Scroll left" hidden>‹</button>
+        <button id="onnowNext" class="onnow-arrow" aria-label="Scroll right" title="Scroll right" hidden>›</button>
+      </div>
+    </div>
     <div class="onnow-rail" id="onnowRail"></div>
   </div>
   <div class="toolbar">
