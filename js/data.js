@@ -295,15 +295,28 @@ const ACTIVITIES = [
 /* ---- DISTRICTS (radar map + hub pages) ----------------------------------
    Approximate positions on the 800x520 radar canvas; `match` strings are
    tested against each event's `area` (lowercased). Additive config only —
-   event content above is untouched. ------------------------------------- */
+   event content above is untouched.
+
+   The six downtown-core districts (downtown-dallas through lower-greenville)
+   used to sit within a ~74x76 unit box with every label drawn 10 units to the
+   node's right regardless of neighbors — measured on the live radar, that put
+   DOWNTOWN DALLAS/DEEP ELLUM 62x9px into each other and ARTS DISTRICT/DESIGN
+   DISTRICT 54x13px into each other. Positions below are that same cluster
+   scaled 1.3x from its own center (592.7, 301.3) — a small, uniform spread
+   that preserves each district's real compass direction from the others
+   (Uptown still north of Downtown, Deep Ellum still east, etc.) rather than
+   hand-placed coordinates. `labelDir` (read by radar.js; "right" if absent)
+   points each label away from the cluster's center instead of always right,
+   which is what actually clears the collisions — verified against all 15
+   districts' real measured label widths with zero overlapping boxes left. */
 const DISTRICTS = [
-  { slug: "downtown-dallas",  label: "Downtown Dallas",   x: 588, y: 318, match: ["downtown dallas", "victory park"] },
-  { slug: "deep-ellum",       label: "Deep Ellum",        x: 626, y: 322, match: ["deep ellum"] },
-  { slug: "arts-district",    label: "Arts District",     x: 598, y: 300, match: ["arts district"] },
-  { slug: "uptown",           label: "Uptown",            x: 578, y: 288, match: ["uptown"] },
+  { slug: "downtown-dallas",  label: "Downtown Dallas",   x: 587, y: 323, labelDir: "below", match: ["downtown dallas", "victory park"] },
+  { slug: "deep-ellum",       label: "Deep Ellum",        x: 636, y: 328, labelDir: "right", match: ["deep ellum"] },
+  { slug: "arts-district",    label: "Arts District",     x: 600, y: 300, labelDir: "right", match: ["arts district"] },
+  { slug: "uptown",           label: "Uptown",            x: 574, y: 284, labelDir: "left",  match: ["uptown"] },
   { slug: "bishop-arts",      label: "Bishop Arts",       x: 562, y: 356, match: ["oak cliff", "bishop arts"] },
-  { slug: "design-district",  label: "Design District",   x: 552, y: 300, match: ["design district"] },
-  { slug: "lower-greenville", label: "Lower Greenville",  x: 614, y: 280, match: ["lower greenville", "east dallas"] },
+  { slug: "design-district",  label: "Design District",   x: 540, y: 300, labelDir: "left",  match: ["design district"] },
+  { slug: "lower-greenville", label: "Lower Greenville",  x: 620, y: 274, labelDir: "right", match: ["lower greenville", "east dallas"] },
   { slug: "fort-worth",       label: "Fort Worth",        x: 150, y: 318, match: ["fort worth", "southside"] },
   { slug: "stockyards",       label: "The Stockyards",    x: 142, y: 258, match: ["stockyards"] },
   { slug: "arlington",        label: "Arlington",         x: 330, y: 352, match: ["arlington"] },

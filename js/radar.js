@@ -39,14 +39,28 @@ const RADAR = (function () {
     // range rings centered between the two downtowns
     const rings = el("g", { class: "radar-rings" }, svg);
     [90, 180, 270].forEach((r) => el("circle", { cx: 400, cy: 280, r }, rings));
-    el("line", { x1: 150, y1: 318, x2: 588, y2: 318, class: "radar-axis" }, svg);
+    el("line", { x1: 150, y1: 318, x2: 587, y2: 323, class: "radar-axis" }, svg);
 
     // nodes
+    // Label placement per `d.labelDir` ("right" if a district doesn't set
+    // one): a label fixed 10 units to every node's right worked until six
+    // downtown-core districts landed within one ~74x76 unit box, where it put
+    // DOWNTOWN DALLAS's label into DEEP ELLUM's and ARTS DISTRICT's into
+    // DESIGN DISTRICT's. Pointing each of those six away from the cluster's
+    // own center instead of always right is what actually clears it — see the
+    // comment on DISTRICTS in data.js for the measurements.
+    const LABEL_POS = {
+      right: { x: 10, y: 4, anchor: "start" },
+      left: { x: -10, y: 4, anchor: "end" },
+      above: { x: 0, y: -16, anchor: "middle" },
+      below: { x: 0, y: 18, anchor: "middle" },
+    };
     for (const d of DISTRICTS) {
       const g = el("g", { class: "radar-node", "data-slug": d.slug, transform: `translate(${d.x} ${d.y})` }, svg);
       el("circle", { class: "halo", r: 14 }, g);
       el("circle", { class: "core", r: 4 }, g);
-      const lbl = el("text", { class: "nlabel", x: 10, y: 4 }, g);
+      const lp = LABEL_POS[d.labelDir] || LABEL_POS.right;
+      const lbl = el("text", { class: "nlabel", x: lp.x, y: lp.y, "text-anchor": lp.anchor }, g);
       lbl.textContent = d.label.toUpperCase();
 
       g.addEventListener("mouseenter", () => showCard(d));
