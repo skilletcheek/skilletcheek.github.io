@@ -30,8 +30,12 @@ Sources evaluated and rejected (2026-07-21, so nobody re-litigates them):
     date-picking site. Per-park RSS paths 404.
   * Patch DFW — no RSS endpoint (404).
 
-Output rows use the same schema as events.json:
-  {name, category, area, date, time, cost, description, url}
+Output rows use the same schema as events.json, plus a derived `city`:
+  {name, category, area, city, date, time, cost, description, url}
+
+`city` is the canonical DFW city name (or null) resolved by _city_of(); the
+curated rows in events.json carry no such field, so js/app.js recomputes it
+from `area` when it is absent rather than assuming it is always present.
 
 Stdlib only — no pip installs needed.
 """
@@ -74,6 +78,39 @@ DFW_CITIES = {
     "red oak", "arlington heights", "colleyville", "trophy club", "westlake",
     "las colinas", "university park", "highland park", "farmersville",
 }
+
+
+# Neighborhoods and district labels that are NOT municipalities, mapped to the
+# city they sit inside. `area` for the hand-configured ICS/Prekindle feeds is a
+# curated district ("Lower Greenville", "Deep Ellum"), which _split_area()
+# correctly refuses to guess a city from — 40 of 604 rows on 2026-07-31 had no
+# discoverable city, and 39 of those were the labels below. This is the same
+# "fix it as data, not by loosening the parser" move as venue-aliases.json.
+#
+# Municipalities stay OUT of this map even when they are surrounded by another
+# city: University Park, Highland Park and Las Colinas are their own entries in
+# DFW_CITIES and filter as themselves. Only sub-city neighborhoods belong here.
+DISTRICT_CITY = {
+    "downtown dallas": "Dallas",
+    "victory park": "Dallas",
+    "deep ellum": "Dallas",
+    "arts district": "Dallas",
+    "uptown": "Dallas",
+    "oak cliff": "Dallas",
+    "bishop arts": "Dallas",
+    "design district": "Dallas",
+    "lower greenville": "Dallas",
+    "east dallas": "Dallas",
+    "northwest dallas": "Dallas",
+    # Fort Worth's Near Southside; the DISTRICTS radar in js/data.js makes the
+    # same call for the same bare token.
+    "southside": "Fort Worth",
+    "stockyards": "Fort Worth",
+}
+
+# str.title() is wrong for these and only these: it produces "Mckinney" and
+# "Desoto". Every other name in DFW_CITIES title-cases correctly.
+_CITY_CASE = {"mckinney": "McKinney", "desoto": "DeSoto"}
 
 
 def is_dfw_city(city: str, state: str | None = None) -> bool:
@@ -136,6 +173,10 @@ def pretty_time(hhmm: str) -> str:
 
 
 def row(name, category, area, date, time, cost, desc, url, image=None):
+    # city is derived from the CAPPED area, not the raw one, so the stored
+    # field always matches what cityOf() in js/app.js computes from the same
+    # stored string.
+    area = (area or "Dallas–Fort Worth").strip()[:160]
     return {
         "name": (name or "").strip()[:140],
         "category": category or "festival",
@@ -148,7 +189,12 @@ def row(name, category, area, date, time, cost, desc, url, image=None):
         # while still bounding a feed that dumped paragraph text into LOCATION.
         # _split_area()'s "Un"-prefix noise filter stays regardless, as a
         # second line of defense if a value is ever severed anyway.
-        "area": (area or "Dallas–Fort Worth").strip()[:160],
+        "area": area,
+        # Canonical city for the city filter, or None when `area` carries no
+        # discoverable one. Deliberately NOT part of dedupe: two sources
+        # reporting the same show resolve to the same city anyway, and a null
+        # here must never split a duplicate pair into two cards.
+        "city": _city_of(area),
         "date": date,
         "time": time or "See details",
         "cost": cost,
@@ -1078,6 +1124,34 @@ def _split_area(area: str):
     return venue, (", ".join(street) or None), (city[-1] if city else None)
 
 
+def _city_of(area: str) -> str | None:
+    """Resolve `area` to a canonical DFW city name, or None.
+
+    Mirrored by cityOf() in js/app.js — _check_city_drift() fails the nightly
+    build if the two lists stop agreeing. Built on _split_area() rather than
+    beside it so there is still exactly one address parser.
+
+    Returns None rather than guessing. A row with no resolvable city is not a
+    bug to paper over: it drops out of the city filter and stays in the
+    unfiltered list, which is the honest outcome for "Dallas–Fort Worth".
+
+    The single-part case is why `venue` is consulted at all: _split_area()
+    returns a bare label like "Lower Greenville" in the venue slot with no
+    city, and those labels are exactly what DISTRICT_CITY exists to resolve.
+    Reading the venue slot is safe only because both lookups are whitelists —
+    an actual venue name ("Granada Theater") matches neither and yields None.
+    """
+    venue, _street, city = _split_area(area)
+    cand = (city or venue or "").strip().lower()
+    if not cand:
+        return None
+    if cand in DISTRICT_CITY:
+        return DISTRICT_CITY[cand]
+    if cand in DFW_CITIES:
+        return _CITY_CASE.get(cand, cand.title())
+    return None
+
+
 def _jsonld(events):
     out = []
     for i, e in enumerate(events[:30]):
@@ -1161,6 +1235,44 @@ def _display_area(area: str) -> str:
 # current feed yields ~40 pages.
 VENUE_MIN_EVENTS = 3
 
+# A /city/<slug>/ page needs this many upcoming events to be worth serving.
+# Lower than this is a doorway page: a "things to do in X" URL with two
+# listings is the kind of thin page Google files under "Discovered - currently
+# not indexed" and never comes back to, which is the exact hole this site
+# spent 2026-07-23 climbing out of. This is the dial — raise it if the city
+# pages start reading thin, lower it as the feed grows.
+CITY_MIN_EVENTS = 5
+
+# ...and listings from at least this many distinct venues. Measured against
+# live-events.json on 2026-07-31, every suburb that cleared CITY_MIN_EVENTS on
+# its own was dominated by ONE room: Addison was 29/29 Addison Improv, Grand
+# Prairie 6/6 Texas Trust CU Theatre. Both already have a /venue/ page carrying
+# those exact listings, so "things to do in Addison" would have shipped as a
+# near-copy of /venue/addison-improv/ — the same two-of-our-own-URLs-on-one-
+# query trap that _is_real_venue() and _CITY_HUB_SKIP exist to avoid, arriving
+# from a different direction. A city hub has to be a genuine round-up of the
+# city, not one venue's calendar with a city name on it.
+CITY_MIN_VENUES = 2
+
+# Cities the site already has a surface for. Emitting /city/<slug>/ for these
+# would put two of our own URLs on one query — the same reasoning that makes
+# _is_real_venue() reject district labels.
+#
+#   * Seven DISTRICTS slugs are really cities (fort-worth, arlington, irving,
+#     frisco, grapevine, plano, mckinney). Measured against live-events.json on
+#     2026-07-31, the district hub for each already selects EXACTLY the same
+#     events the city filter does — 113/113 Fort Worth, 107/107 Arlington,
+#     49/49 Irving, 20/20 Frisco, 2/2 Grapevine — so a city page would be a
+#     byte-for-byte competitor to a URL that is already indexed. Derived from
+#     DISTRICTS rather than hand-listed so a new district can't silently
+#     reintroduce the collision.
+#   * Dallas is excluded separately: the homepage IS the "things to do in
+#     Dallas" page (that is its <title>), and splitting that query across two
+#     of our own URLs is a bad trade on the site's flagship term. Neighborhood
+#     coverage inside Dallas is what the district hubs are for. Drop "Dallas"
+#     from this set if you'd rather have the dedicated page.
+_CITY_HUB_SKIP = {s for s, _l, _m in DISTRICTS} | {"dallas"}
+
 # Touring productions that report themselves as a venue. They travel, so a
 # venue page would outlive the run and strand the URL. Substring, lowercased.
 _NOT_VENUES = ("universoul circus",)
@@ -1174,6 +1286,65 @@ _VENUE_PAGES = {}
 def _venue_slug(name: str) -> str:
     s = re.sub(r"[^a-z0-9]+", "-", (name or "").lower()).strip("-")
     return s[:60].strip("-")
+
+
+def _city_slug(city: str) -> str:
+    """Cities slug by the same rules as venues. One slugifier, so /city/ and
+    /venue/ can never disagree about how a name becomes a path."""
+    return _venue_slug(city)
+
+
+# slug -> {name, count}, filled by _collect_city_pages() BEFORE write_venues()
+# runs. The venue pages and the venue directory link to city hubs, so the set
+# has to be known before the first venue page renders — the same ordering
+# hazard _VENUE_PAGES documents, one level up.
+_CITY_PAGES = {}
+
+
+def _collect_city_pages(events):
+    """Decide which cities get a /city/<slug>/ page. Writes nothing.
+
+    Split out from write_cities() so the venue pages, which render first, can
+    already link to the city hubs.
+    """
+    counts, venues = {}, {}
+    for e in events:
+        city = e.get("city") or _city_of(e.get("area", ""))
+        if not city:
+            continue
+        counts[city] = counts.get(city, 0) + 1
+        venue, _street, _c = _split_area(e.get("area", ""))
+        if venue and _is_real_venue(venue):
+            venues.setdefault(city, set()).add(_venue_slug(venue))
+    _CITY_PAGES.clear()
+    for city, n in sorted(counts.items()):
+        slug = _city_slug(city)
+        if (not slug or slug in _CITY_HUB_SKIP or n < CITY_MIN_EVENTS
+                or len(venues.get(city, ())) < CITY_MIN_VENUES):
+            continue
+        _CITY_PAGES[slug] = {"name": city, "count": n}
+    return _CITY_PAGES
+
+
+def _city_surface(city: str):
+    """The canonical URL for a city, wherever it lives — its own hub, or the
+    district hub that already owns the query. None when we have no page for it.
+
+    The venue pages and /city/ both link cities, and both have to point at
+    whichever surface actually exists rather than assuming /city/<slug>/."""
+    slug = _city_slug(city or "")
+    if not slug:
+        return None
+    if slug in _CITY_PAGES:
+        return f"/city/{slug}/"
+    if any(slug == s for s, _l, _m in DISTRICTS):
+        return f"/district/{slug}/"
+    # Dallas gets no /city/ page because the homepage already targets that
+    # query — which makes the homepage its surface. Without this the single
+    # biggest entry in the city directory renders as dead text.
+    if slug == "dallas":
+        return "/"
+    return None
 
 
 def _is_real_venue(name: str) -> bool:
@@ -1220,13 +1391,22 @@ def _site_nav(current: str = "") -> str:
     """Footer navigation shared by every generated page. `current` is the
     page's own absolute path (e.g. "/district/uptown/")."""
     districts = [(f"/district/{slug}/", label) for slug, label, _m in DISTRICTS]
-    more = [("/venue/", "All venues"), ("/advertise/", "Advertise"),
-            ("/submit/", "Submit an event"), ("/", "letsdoitdallas.com")]
+    # Every city hub is linked from every generated page, for the same reason
+    # the districts are: a page whose only inbound link is a listing row is an
+    # orphan by the next nightly run, when the rows move.
+    cities = [(f"/city/{slug}/", m["name"]) for slug, m in _CITY_PAGES.items()]
+    more = [("/city/", "All cities"), ("/venue/", "All venues"),
+            ("/advertise/", "Advertise"), ("/submit/", "Submit an event"),
+            ("/", "letsdoitdallas.com")]
+    city_block = (f'<p class="k">/ CITIES</p>'
+                  f'<p class="nav">{_nav_links(cities, current)}</p>'
+                  if cities else "")
     return (f'<nav class="sitenav" aria-label="Browse Lets Do It Dallas">'
             f'<p class="k">/ WHEN</p>'
             f'<p class="nav">{_nav_links(_TIME_HUBS, current)}</p>'
             f'<p class="k">/ DISTRICTS</p>'
             f'<p class="nav">{_nav_links(districts, current)}</p>'
+            f'{city_block}'
             f'<p class="k">/ MORE</p>'
             f'<p class="nav">{_nav_links(more, current)}</p>'
             f'</nav>')
@@ -1479,9 +1659,16 @@ def _venue_html(name, city, street, canonical, events, slug, district):
     rows = "\n".join(_hub_row(e, omit_venue=_venue_slug(name), count=n, last=last)
                      for e, n, last in _group_repeats(events)[:60])
     d_label = next((l for s, l, _m in DISTRICTS if s == district), None)
+    d_href = f"/district/{district}/" if d_label else None
+    # The city crumb is skipped when it would resolve to the district link
+    # already in this line — for Fort Worth, Arlington, Irving, Frisco and
+    # Grapevine the district hub IS the city surface.
+    c_href = _city_surface(city)
     breadcrumb = (f'<p class="k">/ LETS DO IT DALLAS — <a href="/venue/">VENUE</a>'
-                  + (f' — <a href="/district/{district}/">{_html.escape(d_label.upper())}</a>'
+                  + (f' — <a href="{d_href}">{_html.escape(d_label.upper())}</a>'
                      if d_label else "")
+                  + (f' — <a href="{c_href}">{_html.escape(city.upper())}</a>'
+                     if c_href and c_href != d_href else "")
                   + "</p>")
     near = _nearby_venues(slug, city, district)
     nearby = ""
@@ -1621,7 +1808,12 @@ def write_venue_index():
             f'<li><a href="/venue/{slug}/"><strong>{_html.escape(m["name"])}</strong></a> '
             f'<span>/ {m["count"]} upcoming</span></li>'
             for slug, m in sorted(by_city[city], key=lambda sm: sm[1]["name"]))
-        blocks.append(f'<p class="k">/ {_html.escape(city.upper())}</p><ul>{rows}</ul>')
+        # The heading links to the city's own surface where one exists, so the
+        # directory feeds the city hubs instead of dead-ending at the venues.
+        href = _city_surface(city)
+        head = (f'<a href="{href}">{_html.escape(city.upper())}</a>' if href
+                else _html.escape(city.upper()))
+        blocks.append(f'<p class="k">/ {head}</p><ul>{rows}</ul>')
     title = "DFW Venues — Every Room We Track | Lets Do It Dallas"
     desc = ("Every Dallas–Fort Worth venue on the Lets Do It Dallas radar, with "
             "upcoming shows, dates and tickets for each room.")
@@ -1648,6 +1840,126 @@ upcoming shows.</p>
 {"".join(blocks)}
 <p class="foot">Run one of these rooms? <a href="/submit/">List your shows free</a>.</p>
 {_site_nav("/venue/")}
+</body></html>""")
+
+
+def write_cities(events):
+    """Emit /city/<slug>/ for every city _collect_city_pages() kept, plus the
+    /city/ directory. Returns canonical URLs for the sitemap.
+
+    The city filter this backs is client-side, and Google defers JS rendering
+    to a second queue a new domain does not get to the front of — so the only
+    version of "things to do in Addison" a crawler will actually see is a page
+    that exists in the served HTML.
+    """
+    by_city = {}
+    for e in events:
+        city = e.get("city") or _city_of(e.get("area", ""))
+        if city:
+            by_city.setdefault(_city_slug(city), []).append(e)
+
+    urls = []
+    for slug, meta in _CITY_PAGES.items():
+        evs = sorted(by_city.get(slug, []),
+                     key=lambda e: (e["date"], e.get("time") or ""))
+        name = meta["name"]
+        esc_name = _html.escape(name)
+        urls.append(_write_page(f"city/{slug}", _hub_html(
+            f"Things to Do in {esc_name}, TX | Lets Do It Dallas",
+            f"Upcoming events, live music, markets and things to do in "
+            f"{esc_name}, Texas — dates, times and tickets on the Lets Do It "
+            f"Dallas event radar.",
+            f"{SITE}/city/{slug}/", evs,
+            # the ?city= filter Phase 2 wired up, so the page hands off to the
+            # live app already filtered to the same city
+            f"/?city={urllib.parse.quote(name)}",
+            esc_name.upper(), "CITY HUB", f"city/{slug}")))
+    urls.append(write_city_index(by_city))
+    print(f"wrote {len(_CITY_PAGES)} city pages + /city/")
+    _prune_stale_cities()
+    return urls
+
+
+def _prune_stale_cities():
+    """Delete city pages that no longer clear CITY_MIN_EVENTS.
+
+    Identical reasoning to _prune_stale_venues(): a page left serving a 200
+    after it fell out of the sitemap and every listing is an orphan the crawler
+    was told about once and can never confirm.
+    """
+    d = ROOT / "city"
+    if not d.exists():
+        return
+    stale = [p for p in d.iterdir() if p.is_dir() and p.name not in _CITY_PAGES]
+    # Same guard as _prune_stale_venues(), plus an absolute floor. That one
+    # compares against ~36 kept pages, where "more stale than kept" really does
+    # mean a broken feed. The city set is a handful by design, so the bare
+    # ratio is hair-trigger AND self-locking: 2 stale vs 1 kept refuses, the
+    # two directories survive to be counted stale again tomorrow, and they
+    # serve a 200 forever while sitting in no sitemap and no listing — the
+    # exact orphan this function exists to delete. The floor keeps the
+    # protection that matters (a feed break stranding a whole set) without
+    # deadlocking on the small numbers that are normal here.
+    if stale and len(stale) > max(len(_CITY_PAGES), 3):
+        print(f"REFUSING TO PRUNE: {len(stale)} stale city pages vs "
+              f"{len(_CITY_PAGES)} kept — that looks like a broken feed, not "
+              f"cities going quiet.", file=sys.stderr)
+        return
+    for p in stale:
+        for f in p.iterdir():
+            f.unlink()
+        p.rmdir()
+    if stale:
+        print(f"pruned {len(stale)} stale city pages: "
+              f"{', '.join(sorted(p.name for p in stale))}")
+
+
+def write_city_index(by_city):
+    """/city/ — the permanent parent for the city hubs.
+
+    Lists every city the feed actually covers, not just the ones with their own
+    page: a city whose query a district hub already owns links there instead, so
+    this is one page that reaches every city surface on the site. Cities below
+    CITY_MIN_EVENTS are named with their count but not linked — there is
+    nowhere honest to send that click yet.
+    """
+    rows = []
+    for slug in sorted(by_city, key=lambda s: (-len(by_city[s]), s)):
+        evs = by_city[slug]
+        name = _html.escape(
+            (evs[0].get("city") or _city_of(evs[0].get("area", "")) or slug))
+        href = _city_surface(name)
+        label = (f'<a href="{href}"><strong>{name}</strong></a>' if href
+                 else f"<strong>{name}</strong>")
+        rows.append(f'<li>{label} <span>/ {len(evs)} upcoming</span></li>')
+    title = "Things to Do by City in Dallas–Fort Worth | Lets Do It Dallas"
+    desc = ("Every Dallas–Fort Worth city on the Lets Do It Dallas radar — "
+            "upcoming events, live music and markets, city by city.")
+    canonical = f"{SITE}/city/"
+    return _write_page("city", f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>{title}</title>
+<meta name="description" content="{desc}"/>
+<link rel="canonical" href="{canonical}"/>
+<meta property="og:title" content="{title}"/>
+<meta property="og:description" content="{desc}"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="{canonical}"/>
+<meta property="og:image" content="{SITE}/og-image.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{SITE}/og-image.png"/>
+<style>{_PAGE_CSS}</style>{_analytics_snippet()}</head><body>
+<p class="k">/ LETS DO IT DALLAS — CITY DIRECTORY</p>
+<h1>BY CITY</h1>
+<p>{len(by_city)} Dallas–Fort Worth cities on the radar right now. The busiest
+have their own page of upcoming events; the rest are listed here with what's
+on, and show up on the live radar.</p>
+<a class="cta" href="/">( OPEN THE LIVE RADAR ↗ )</a>
+<ul>{"".join(rows)}</ul>
+<p class="foot">Putting on something we're missing?
+<a href="/submit/">Submit an event free</a>.</p>
+{_site_nav("/city/")}
 </body></html>""")
 
 
@@ -2090,6 +2402,58 @@ def _check_modal_drift():
               file=sys.stderr)
 
 
+def _check_city_drift():
+    """cityOf() in js/app.js mirrors _city_of() here, and carries copies of
+    DFW_CITIES / DISTRICT_CITY / _CITY_CASE because the browser has to resolve
+    a city for rows that have no build-time `city` field (curated events.json,
+    a hand-refreshed eventbrite.json, and every row until the next nightly
+    run). A name in one table and not the other means an event filters into a
+    city on one layer and out of it on the other.
+
+    A warning, not an exception — same reasoning as _check_modal_drift(): a
+    drifted mirror must never be able to break the nightly event fetch."""
+    try:
+        src = (ROOT / "js" / "app.js").read_text()
+    except OSError:
+        return
+
+    def block(pattern):
+        m = re.search(pattern, src, re.S)
+        return m.group(1) if m else None
+
+    cities_src = block(r"const DFW_CITIES = new Set\(\[(.*?)\]\)")
+    district_src = block(r"const DISTRICT_CITY = \{(.*?)\n\}")
+    case_src = block(r"const _CITY_CASE = \{(.*?)\}")
+    if cities_src is None or district_src is None or case_src is None:
+        print("WARNING: could not locate the city tables in js/app.js — "
+              "cannot verify they still mirror _city_of()", file=sys.stderr)
+        return
+
+    js_cities = set(re.findall(r'"([^"]+)"', cities_src))
+    js_district = dict(re.findall(r'"([^"]+)"\s*:\s*"([^"]+)"', district_src))
+    js_case = dict(re.findall(r'(\w+)\s*:\s*"([^"]+)"', case_src))
+
+    for label, only_py, only_js in (
+        ("DFW_CITIES", DFW_CITIES - js_cities, js_cities - DFW_CITIES),
+        ("DISTRICT_CITY", set(DISTRICT_CITY) - set(js_district),
+         set(js_district) - set(DISTRICT_CITY)),
+        ("_CITY_CASE", set(_CITY_CASE) - set(js_case),
+         set(js_case) - set(_CITY_CASE)),
+    ):
+        if only_py or only_js:
+            print(f"WARNING: {label} has drifted between fetch_events.py and "
+                  f"js/app.js — only in Python: {sorted(only_py)}; "
+                  f"only in JS: {sorted(only_js)}", file=sys.stderr)
+
+    mismatched = {k: (v, js_district.get(k)) for k, v in DISTRICT_CITY.items()
+                  if k in js_district and js_district[k] != v}
+    mismatched.update({k: (v, js_case.get(k)) for k, v in _CITY_CASE.items()
+                       if k in js_case and js_case[k] != v})
+    if mismatched:
+        print(f"WARNING: city mappings disagree between fetch_events.py and "
+              f"js/app.js (python, js): {mismatched}", file=sys.stderr)
+
+
 _SUBMIT_CSS = """
 .wrap{max-width:1100px;margin:0 auto;padding:0 var(--pad)}
 .a-nav{border-bottom:1px solid var(--line);padding:14px var(--pad);
@@ -2310,12 +2674,21 @@ def write_home_nav():
         return
     links = "\n".join(f'    <a href="/district/{slug}/">{label}</a>'
                       for slug, label, _m in DISTRICTS)
+    city_links = "\n".join(
+        f'    <a href="/city/{slug}/">{_html.escape(m["name"])}</a>'
+        for slug, m in _CITY_PAGES.items())
+    city_col = (f'  <div class="f-col f-wide">\n'
+                f'    <div class="f-head">/ CITIES</div>\n'
+                f'{city_links}\n'
+                f'    <a href="/city/">All DFW cities →</a>\n'
+                f'  </div>\n') if city_links else ""
     block = (f'{_HOME_NAV_START}\n'
              f'  <div class="f-col f-wide">\n'
              f'    <div class="f-head">/ DISTRICTS</div>\n'
              f'{links}\n'
              f'    <a href="/venue/">All DFW venues →</a>\n'
              f'  </div>\n'
+             f'{city_col}'
              f'  {_HOME_NAV_END}')
     start = html.index(_HOME_NAV_START)
     end = html.index(_HOME_NAV_END) + len(_HOME_NAV_END)
@@ -2327,8 +2700,15 @@ def write_home_nav():
 
 def write_hubs(events):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    # First: it fills _VENUE_PAGES, which _hub_row() reads to link listings to
-    # venue pages. Emitting the hubs before this leaves those links off.
+    _check_city_drift()
+    # Before write_venues(): this only decides which cities get a page and
+    # writes nothing, but _site_nav(), the venue breadcrumbs and the venue
+    # directory all read _CITY_PAGES, and the venue pages render first. Move
+    # this below and every city link on the site silently disappears.
+    _collect_city_pages(events)
+    # First of the writers: it fills _VENUE_PAGES, which _hub_row() reads to
+    # link listings to venue pages. Emitting the hubs before this leaves those
+    # links off.
     pages = write_venues(events)
 
     def emit(path, title, desc, evs, app_link, heading, note):
@@ -2356,6 +2736,8 @@ def write_hubs(events):
         emit(f"district/{slug}", f"Things to Do in {label} | Lets Do It Dallas",
              f"Live events, music, and nightlife in {label} — part of the Lets Do It Dallas real-time event radar.",
              evs, f"/?district={slug}", label.upper(), "DISTRICT HUB")
+
+    pages += write_cities(events)
 
     # After the hubs exist, so its "SEO landing pages" count is accurate.
     pages.append(write_advertise())

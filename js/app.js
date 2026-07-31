@@ -36,6 +36,7 @@ const state = {
   activeCats: new Set(),
   vibes: new Set(),
   district: null,
+  city: null,             // canonical city name from cityOf(), or null for all
   search: "",
   sort: "time",
   freeOnly: false,
@@ -96,6 +97,73 @@ function splitArea(area) {
   const street = rest.filter((p) => /^\d/.test(p));
   const city = rest.filter((p) => !street.includes(p));
   return [venue, street.join(", ") || null, city.length ? city[city.length - 1] : null];
+}
+
+/* ---- city resolution -----------------------------------------------------
+
+   Mirror of DFW_CITIES / DISTRICT_CITY / _CITY_CASE / _city_of() in
+   scripts/fetch_events.py. _check_city_drift() warns during the nightly build
+   if the two sets stop agreeing — a city that exists on one side only would
+   filter events out of the list on one layer and not the other.
+
+   live-events.json rows carry a build-time `city`, so cityOf() usually just
+   reads the field. The derive path is not dead code and cannot be dropped:
+   the curated rows in js/data.js have no city field at all, eventbrite.json
+   is refreshed by hand and keeps whatever schema it had at the time, and
+   every row lacks the field until the next nightly build runs. */
+const DFW_CITIES = new Set([
+  "addison", "allen", "anna", "argyle", "arlington", "arlington heights",
+  "aubrey", "azle", "balch springs", "bedford", "benbrook", "burleson",
+  "carrollton", "cedar hill", "cleburne", "colleyville", "coppell",
+  "corinth", "crowley", "dallas", "denton", "desoto", "duncanville",
+  "ennis", "euless", "farmers branch", "farmersville", "flower mound",
+  "forney", "fort worth", "frisco", "garland", "glenn heights", "granbury",
+  "grand prairie", "grapevine", "greenville", "haltom city",
+  "highland park", "highland village", "hurst", "irving", "justin",
+  "keller", "lancaster", "las colinas", "lewisville", "little elm",
+  "mansfield", "mckinney", "melissa", "mesquite", "midlothian", "murphy",
+  "north richland hills", "plano", "prosper", "red oak", "richardson",
+  "roanoke", "rockwall", "rowlett", "sachse", "saginaw", "sanger",
+  "seagoville", "southlake", "terrell", "the colony", "trophy club",
+  "university park", "watauga", "waxahachie", "weatherford", "westlake",
+  "wylie",
+]);
+
+/* Sub-city neighborhoods only. Municipalities that happen to be surrounded by
+   a bigger city — University Park, Highland Park, Las Colinas — stay out of
+   this map on purpose and filter as themselves. */
+const DISTRICT_CITY = {
+  "downtown dallas": "Dallas",
+  "victory park": "Dallas",
+  "deep ellum": "Dallas",
+  "arts district": "Dallas",
+  "uptown": "Dallas",
+  "oak cliff": "Dallas",
+  "bishop arts": "Dallas",
+  "design district": "Dallas",
+  "lower greenville": "Dallas",
+  "east dallas": "Dallas",
+  "northwest dallas": "Dallas",
+  "southside": "Fort Worth",
+  "stockyards": "Fort Worth",
+};
+
+/* Title-casing is wrong for these and only these. */
+const _CITY_CASE = { mckinney: "McKinney", desoto: "DeSoto" };
+
+function cityOf(a) {
+  if (a && a.city) return a.city;
+  const [venue, , city] = splitArea(a && a.area);
+  // The venue slot is consulted because splitArea() returns a bare label
+  // ("Lower Greenville") there with no city. Safe only because both lookups
+  // below are whitelists — a real venue name matches neither and yields null.
+  const cand = String(city || venue || "").trim().toLowerCase();
+  if (!cand) return null;
+  if (DISTRICT_CITY[cand]) return DISTRICT_CITY[cand];
+  if (DFW_CITIES.has(cand)) {
+    return _CITY_CASE[cand] || cand.replace(/\b[a-z]/g, (c) => c.toUpperCase());
+  }
+  return null;
 }
 
 /* Mirror of _display_area() in scripts/fetch_events.py: "Tulips FTW · Fort
@@ -207,6 +275,7 @@ function applyFilters(list) {
   let out = list.slice();
   if (state.activeCats.size) out = out.filter((a) => state.activeCats.has(a.cat));
   if (state.district) out = out.filter((a) => RADAR.districtOf(a) === state.district);
+  if (state.city) out = out.filter((a) => cityOf(a) === state.city);
   for (const v of state.vibes) out = out.filter((a) => VIBES[v].test(a));
   if (state.freeOnly) out = out.filter((a) => a.cost === 0);
   if (state.favesOnly) out = out.filter((a) => state.faves.has(uid(a)));
@@ -239,6 +308,43 @@ function buildFilters() {
     }));
   }
 }
+/* Rebuilt per day from that day's events, so the list only offers cities the
+   visitor can actually get results in — a static list of all 76 DFW_CITIES
+   would be mostly dead options on any given night.
+
+   Counts are taken BEFORE the other filters run, on purpose: making them
+   react to the category and vibe chips would leave the numbers shifting under
+   the visitor between every click, and a city reading "(0)" that still had
+   events on it reads as a bug. */
+function buildCities() {
+  const sel = el("citySel");
+  if (!sel) return;
+  const counts = new Map();
+  for (const a of baseListForDate(state.date)) {
+    const c = cityOf(a);
+    if (c) counts.set(c, (counts.get(c) || 0) + 1);
+  }
+  // A city picked on a busy night must survive the date moving to a quiet one.
+  // Without this the select would fall back to showing ALL CITIES while
+  // state.city was still filtering — the control and the list disagreeing.
+  if (state.city && !counts.has(state.city)) counts.set(state.city, 0);
+
+  const opts = [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  sel.innerHTML = "";
+  const all = document.createElement("option");
+  all.value = "";
+  all.textContent = "ALL CITIES";
+  sel.appendChild(all);
+  for (const [city, n] of opts) {
+    const o = document.createElement("option");
+    o.value = city;
+    o.textContent = `${city.toUpperCase()} (${n})`;
+    sel.appendChild(o);
+  }
+  sel.value = state.city || "";
+}
+
 function buildVibes() {
   const box = el("vibes");
   if (!box) return;
@@ -333,6 +439,7 @@ function render() {
   el("dateDisplay").textContent = fmtDate(state.date);
   el("datePicker").value = isoDate(state.date);
   buildFilters();
+  buildCities();
   buildVibes();
   updateQuickButtons();
   el("freeToggle").classList.toggle("active", state.freeOnly);
@@ -349,6 +456,9 @@ function render() {
     if (state.activeCats.size && !state.activeCats.has(s.cat)) return false;
     if (state.freeOnly && s.cost !== 0) return false;
     if (state.district && RADAR.districtOf(s) !== state.district) return false;
+    // A paid placement still has to be in the city the visitor asked for —
+    // same call the district filter already makes one line up.
+    if (state.city && cityOf(s) !== state.city) return false;
     if (state.favesOnly && !state.faves.has(uid(s))) return false;
     // sponsored pins must match an active search too — otherwise a fruitless
     // query returns the house ad as its only "result"
@@ -371,13 +481,13 @@ function render() {
   if (house.length && total) list.splice(Math.min(HOUSE_AD_SLOT, list.length), 0, ...house);
   el("count").innerHTML = state.loadingLive
     ? `${total} LISTED · <span class="live-loading">SYNCING LIVE FEEDS…</span>`
-    : `${total} ${total === 1 ? "EVENT" : "EVENTS"} — ${fmtDate(state.date).toUpperCase()}${state.district ? " / " + state.district.replace(/-/g, " ").toUpperCase() : ""}`;
+    : `${total} ${total === 1 ? "EVENT" : "EVENTS"} — ${fmtDate(state.date).toUpperCase()}${state.district ? " / " + state.district.replace(/-/g, " ").toUpperCase() : ""}${state.city ? " / " + esc(state.city.toUpperCase()) : ""}`;
 
   const grid = el("grid");
   if (!total) {
     // Offer the way out, don't just describe it — the console is a scroll away.
     const filtered = state.activeCats.size || state.vibes.size || state.freeOnly
-      || state.favesOnly || state.district || q;
+      || state.favesOnly || state.district || state.city || q;
     grid.innerHTML = `<div class="empty" style="grid-column:1/-1">
       <div><strong>NO SIGNALS ON THIS FREQUENCY.</strong></div>
       <div>${filtered ? "Nothing matches those filters on this date." : "Nothing listed for this date yet."}</div>
@@ -392,6 +502,7 @@ function render() {
         if (act === "clear") {
           state.activeCats.clear(); state.vibes.clear();
           state.freeOnly = false; state.favesOnly = false; state.district = null;
+          state.city = null;
           state.search = ""; el("searchInput").value = "";
           render();
         } else if (act === "next") {
@@ -572,6 +683,7 @@ function syncUrl() {
   const p = new URLSearchParams();
   if (!isToday(state.date)) p.set("date", isoDate(state.date));
   if (state.district) p.set("district", state.district);
+  if (state.city) p.set("city", state.city);
   if (state.activeCats.size) p.set("cat", [...state.activeCats].join(","));
   if (state.freeOnly) p.set("free", "1");
   // SHARE used to send location.href, which was the day + filters and not the
@@ -596,6 +708,12 @@ function readUrl() {
   if (cat) cat.split(",").forEach((c) => CATEGORIES[c] && state.activeCats.add(c));
   const dist = p.get("district");
   if (dist && DISTRICTS.some((x) => x.slug === dist)) state.district = dist;
+  // Run the param back through cityOf() so ?city=fort%20worth, ?city=FORT
+  // WORTH and ?city=Fort+Worth all canonicalize to the same "Fort Worth" the
+  // rows carry. Anything unrecognized resolves to null and is ignored, so a
+  // junk param shows the full list rather than an empty one.
+  const city = p.get("city");
+  if (city) state.city = cityOf({ area: city });
   // resolved in render(), once the day's events have actually been built
   state.pendingEvent = p.get("e") || null;
 }
@@ -969,6 +1087,7 @@ function wireControls() {
     searchTimer = setTimeout(render, 120);
   };
   el("sort").onchange = (e) => { state.sort = e.target.value; render(); };
+  el("citySel").onchange = (e) => { state.city = e.target.value || null; render(); };
   el("freeToggle").onclick = () => { state.freeOnly = !state.freeOnly; render(); };
   el("faveToggle").onclick = () => { state.favesOnly = !state.favesOnly; render(); };
   document.querySelectorAll(".quick button").forEach((b) => {

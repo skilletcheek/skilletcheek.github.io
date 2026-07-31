@@ -60,6 +60,25 @@
 .s-steps{margin:22px 0 0;padding:0;list-style:none;max-width:64ch;counter-reset:s}
 .s-steps li{padding:13px 0;border-bottom:1px solid var(--line);font-size:14.5px;counter-increment:s}
 .s-steps li::before{content:"0" counter(s) " / ";color:var(--em);font-family:var(--mono);font-size:11px}
+
+.a-foot{display:block;background:none}
+.sitenav{margin-top:40px;border-top:1px solid #191C22;padding-top:20px}
+.sitenav .k{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.12em;
+  color:#00FF87;margin:16px 0 6px}
+.sitenav .nav{display:block;margin:0;padding:0;border:0}
+.sitenav .nav a,.sitenav .nav span{display:inline-block;margin:0 16px 8px 0;font-size:13px}
+.sitenav .nav a{color:#C7CBD4}
+.sitenav .nav a:hover{color:#00FF87}
+.sitenav .nav span{color:#4A505C}
+
+@media(pointer:coarse),(max-width:720px){
+li{padding:2px 0}
+li>a{display:block;padding:10px 0}
+li span a{display:inline-block;padding:6px 0}
+.sitenav .nav a,.sitenav .nav span{padding:12px 0;margin:0 16px 0 0}
+.a-nav{padding:2px var(--pad)}
+.a-nav a,.a-foot a{display:inline-block;padding:15px 0}
+}
 </style><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "0bcd976f1a2b4d7c9a21df7cac865d47"}'></script></head><body>
 
 <div class="a-nav"><a href="/">← LETS DO IT DALLAS</a></div>
@@ -67,7 +86,7 @@
 <header class="a-hero"><div class="wrap">
   <p class="a-kicker">/ SUBMIT AN EVENT</p>
   <h1>Put your event on the radar.</h1>
-  <p class="a-sub">Free, and it always will be. We pull 564 events a night
+  <p class="a-sub">Free, and it always will be. We pull 604 events a night
   from the ticketing feeds — but the good stuff those feeds never see is the
   residency, the pop-up, the trivia night, the market. That part only gets here
   if you tell us.</p>
@@ -133,10 +152,33 @@
   copy down to a line or two so it reads like the rest of the site.</p>
 </div></section>
 
-<footer style="padding:34px 0 60px"><div class="wrap">
+<!-- carries .a-foot purely so the tap-target rule in _TOUCH_CSS reaches these
+     two links; the inline padding still wins over the class's own. -->
+<footer class="a-foot" style="padding:34px 0 60px"><div class="wrap">
   <p style="font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--dim)">
   / QUESTIONS? <a href="mailto:hello@letsdoitdallas.com">hello@letsdoitdallas.com</a> &nbsp;·&nbsp;
   <a href="/">← BACK TO THE RADAR</a></p>
+  <nav class="sitenav" aria-label="Browse Lets Do It Dallas"><p class="k">/ WHEN</p><p class="nav"><a href="/tonight/">Tonight</a>
+<a href="/this-weekend/">This Weekend</a>
+<a href="/free-events/">Free Events</a></p><p class="k">/ DISTRICTS</p><p class="nav"><a href="/district/downtown-dallas/">Downtown Dallas</a>
+<a href="/district/deep-ellum/">Deep Ellum</a>
+<a href="/district/arts-district/">Arts District</a>
+<a href="/district/uptown/">Uptown</a>
+<a href="/district/bishop-arts/">Bishop Arts</a>
+<a href="/district/design-district/">Design District</a>
+<a href="/district/lower-greenville/">Lower Greenville</a>
+<a href="/district/fort-worth/">Fort Worth</a>
+<a href="/district/stockyards/">The Stockyards</a>
+<a href="/district/arlington/">Arlington</a>
+<a href="/district/grapevine/">Grapevine</a>
+<a href="/district/irving/">Irving</a>
+<a href="/district/frisco/">Frisco</a>
+<a href="/district/plano/">Plano</a>
+<a href="/district/mckinney/">McKinney</a></p><p class="k">/ CITIES</p><p class="nav"><a href="/city/mesquite/">Mesquite</a></p><p class="k">/ MORE</p><p class="nav"><a href="/city/">All cities</a>
+<a href="/venue/">All venues</a>
+<a href="/advertise/">Advertise</a>
+<span>Submit an event</span>
+<a href="/">letsdoitdallas.com</a></p></nav>
 </div></footer>
 
 </body></html>

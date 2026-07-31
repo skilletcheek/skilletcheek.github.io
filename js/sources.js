@@ -18,6 +18,10 @@ function _normalize(e) {
     name: e.name || "Untitled event",
     cat: e.cat || "festival",
     area: e.area || "Dallas–Fort Worth",
+    // Resolved by _city_of() at build time. Null is a legitimate value (the
+    // area carried no discoverable city), so cityOf() in app.js re-derives
+    // from `area` whenever this is missing rather than trusting the absence.
+    city: e.city || null,
     time: e.time || "See details",
     cost: (e.cost === 0 || e.cost) ? e.cost : null,
     desc: e.desc || "",
@@ -245,6 +249,7 @@ function _fromRows(rows, date, source) {
       name: r.name,
       cat: (r.category || r.cat || "festival").toLowerCase(),
       area: r.area,
+      city: r.city || null,
       time: r.time,
       cost: r.cost === "" || r.cost == null ? null : Number(r.cost),
       desc: r.description || r.desc,
