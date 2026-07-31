@@ -20,11 +20,25 @@ ul{list-style:none;padding:0}li{padding:12px 0;border-bottom:1px solid #191C22}
 li span{display:block;font-family:ui-monospace,monospace;font-size:11px;color:#8A909E}
 .cta{display:inline-block;margin:18px 0;border:1px solid #0E3A2F;padding:12px 18px}
 .foot{margin-top:28px;font-size:13px}
+
+.a-foot{display:block;background:none}
 .sitenav{margin-top:40px;border-top:1px solid #191C22;padding-top:20px}
-.sitenav .k{margin:16px 0 6px}
-.nav{margin:0}
-.nav a,.nav span{display:inline-block;margin:0 16px 8px 0;font-size:13px}
-.nav a{color:#C7CBD4}.nav a:hover{color:#00FF87}.nav span{color:#4A505C}
+.sitenav .k{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.12em;
+  color:#00FF87;margin:16px 0 6px}
+.sitenav .nav{display:block;margin:0;padding:0;border:0}
+.sitenav .nav a,.sitenav .nav span{display:inline-block;margin:0 16px 8px 0;font-size:13px}
+.sitenav .nav a{color:#C7CBD4}
+.sitenav .nav a:hover{color:#00FF87}
+.sitenav .nav span{color:#4A505C}
+
+@media(pointer:coarse),(max-width:720px){
+li{padding:2px 0}
+li>a{display:block;padding:10px 0}
+li span a{display:inline-block;padding:6px 0}
+.sitenav .nav a,.sitenav .nav span{padding:12px 0;margin:0 16px 0 0}
+.a-nav{padding:2px var(--pad)}
+.a-nav a,.a-foot a{display:inline-block;padding:15px 0}
+}
 </style><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "0bcd976f1a2b4d7c9a21df7cac865d47"}'></script></head><body>
 <p class="k">/ LETS DO IT DALLAS — DISTRICT HUB</p>
 <h1>THE STOCKYARDS</h1>
