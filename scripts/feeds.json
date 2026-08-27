@@ -47,8 +47,9 @@
     { "artist": "Randy Rogers Band", "id": "bbc5a3e2-ef1c-4ef6-820a-b0994dcc1e31", "category": "music" },
     { "artist": "Wade Bowen", "id": "579ee5f3-ed71-42f7-a21a-9d993887feb1", "category": "music" }
   ],
+  "_rss_note": "fetch_press() takes the RSS feed's top 3 items UNFILTERED — whatever leads the feed that day runs verbatim under 'THE WIRE / DFW CULTURE PRESS' on the homepage. A publication's general/section feed is whatever is trending in local news, not curated for that label: on 2026-08-27 the Advocate's general /feed/ led with a drive-by shooting and the Observer's /dallas/Rss.xml with an officer-involved-shootings roundup. Prefer a narrower category feed WHEN ONE ACTUALLY WORKS — verified 2026-08-27: the Observer's own category URLs (<section>/feed/, <section>/Rss.xml) resolve but contain exactly one placeholder <item> (title is just the section name, e.g. 'Music') with no real articles, so there is no working category feed for it and /dallas/Rss.xml stays as the least-bad option. Don't re-probe those same URLs expecting a different result; a still-general Observer alternative worth trying is /dallas/lifestyle/Rss.xml if the arts/food/music coverage moves sections again.",
   "rss_feeds": [
-    { "url": "https://lakewood.advocatemag.com/feed/", "source": "THE ADVOCATE" },
+    { "url": "https://lakewood.advocatemag.com/category/events/feed/", "source": "THE ADVOCATE" },
     { "url": "https://www.dallasobserver.com/dallas/Rss.xml", "source": "DALLAS OBSERVER" },
     { "url": "https://dallasvoice.com/feed/", "source": "DALLAS VOICE" },
     { "url": "https://www.dfwchild.com/feed/", "source": "DFWCHILD" }

@@ -1704,7 +1704,15 @@ def _venue_html(name, city, street, canonical, events, slug, district):
     esc_name = _html.escape(name)
     # The <h1> already carries the name; this line adds only what it doesn't.
     where = " · ".join(([_html.escape(city)] if city else []) + [f"{len(events)} UPCOMING"])
-    title = f"{esc_name} Events — Upcoming Shows{f' in {_html.escape(city)}' if city else ''} | Lets Do It Dallas"
+    # Google truncates SERP titles at ~60 characters. "{Venue} Events —
+    # Upcoming Shows in {City} | Lets Do It Dallas" cleared that on 47 of 48
+    # venue pages (max 101 chars) — long venue names ate the budget before the
+    # brand suffix even started. Drop the suffix rather than the venue name or
+    # city when it doesn't fit; the domain still shows on its own SERP line.
+    title_base = f"{esc_name} — Shows{f' in {_html.escape(city)}' if city else ''}"
+    title = f"{title_base} | Lets Do It Dallas"
+    if len(title) > 60:
+        title = title_base
     desc = (f"Upcoming events at {esc_name}"
             f"{f' in {_html.escape(city)}' if city else ''} — dates, times and tickets on the "
             "Lets Do It Dallas event radar.")
