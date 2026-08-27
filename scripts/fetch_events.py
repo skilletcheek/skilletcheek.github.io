@@ -10,8 +10,8 @@ Sources (all optional — missing keys/feeds are skipped gracefully):
   * Any iCal/ICS feeds listed in scripts/feeds.json
   * Prekindle venue pages, singles/speed-dating pages, Seated artist tours
     (scripts/feeds.json)
-  * Dallasites101 — /calendar/ listing page + per-event JSON-LD (see
-    fetch_dallasites101 docstring below). Small yield (~8 events), no key.
+  * Dallasites101 — /event/rss/ for discovery + per-event JSON-LD (see
+    fetch_dallasites101 comment above it). Small yield (~8 events), no key.
   * Do214 — parser written, DISABLED: it 403s all non-browser UAs, so running
     it would mean spoofing one. See `_disabled_because` in feeds.json.
 
@@ -1004,40 +1004,46 @@ def fetch_do214(start, end):
 # ---------------------------------------------------------------- Dallasites101
 # Dallasites101 is a Dallas lifestyle blog that also runs its own ticketed
 # social meetups (pool parties, silent discos, "serve & social" volunteer
-# nights). Its /calendar/ page links to individual /event/<slug>/<id>/ pages,
-# each carrying a real schema.org Event JSON-LD block (name/date/venue/address)
-# — same pattern as Prekindle. Two things the JSON-LD does NOT carry, both
-# recovered from the surrounding page source instead:
+# nights). Individual /event/<slug>/<id>/ pages each carry a real schema.org
+# Event JSON-LD block (name/date/venue/address) — same pattern as Prekindle.
+# Two things the JSON-LD does NOT carry, both recovered from the surrounding
+# page source instead:
 #   * time-of-day — a `var time = "8:00 PM to 11:00 PM"` string
 #   * a real outbound ticket link + price — some of these events are actually
 #     sold through Eventbrite under Dallasites101's own affiliate link, buried
 #     in an embedded `{"name":"Tickets URL","value":"...","admission":"$25..."}`
 #     blob. Falls back to the event's own page when absent.
-# Small yield (checked 2026-07-21: 8 events on /calendar/, a strict superset of
-# its /calendar/101media-events/ sub-page) but genuine, and not carried by any
-# other source we pull. robots.txt allows / with `Crawl-delay: 2`, honored
-# below with a sleep between each per-event fetch (there is no bulk/API route —
-# the listing page itself carries no JSON-LD, only links to follow).
+#
+# Discovery moved from scraping /calendar/ to /event/rss/ on 2026-08-27:
+# /calendar/ was rebuilt as a client-rendered widget sometime after
+# 2026-07-21 and now ships zero /event/ links in its server HTML — the scraper
+# had silently gone from ~8 events/night to 0. /event/rss/ is a real RSS feed
+# (confirmed: valid application/rss+xml, robots.txt allows it) whose <link>
+# values are the exact same /event/<slug>/<id>/ URLs the per-page JSON-LD step
+# below already expects, so only the discovery step changes. It has no
+# category or pagination params (?category=…, ?page=… both silently return
+# the same fixed ~30-item window) — it's whatever's currently "current" in
+# their system, not a filterable query.
 DALLASITES101_BASE = "https://www.dallasites101.com"
-DALLASITES101_CALENDAR = f"{DALLASITES101_BASE}/calendar/"
+DALLASITES101_RSS = f"{DALLASITES101_BASE}/event/rss/"
 
 
 def fetch_dallasites101(start, end):
     lo, hi = start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
     try:
-        listing = http_text(DALLASITES101_CALENDAR)
+        feed = http_text(DALLASITES101_RSS)
     except Exception as e:  # noqa: BLE001
-        print(f"dallasites101: calendar page failed: {e}", file=sys.stderr)
+        print(f"dallasites101: rss feed failed: {e}", file=sys.stderr)
         return []
 
-    links = sorted(set(re.findall(r'href="(/event/[^"]+/\d+/)"', listing)))
+    urls = sorted({_strip_cdata(m) for m in re.findall(r"<link>(.*?)</link>", feed, re.S)
+                   if "/event/" in m})
     out = []
-    for href in links:
-        url = DALLASITES101_BASE + href
+    for url in urls:
         try:
             html = http_text(url)
         except Exception as e:  # noqa: BLE001
-            print(f"dallasites101 ({href}): fetch failed: {e}", file=sys.stderr)
+            print(f"dallasites101 ({url}): fetch failed: {e}", file=sys.stderr)
             continue
         finally:
             time.sleep(2.0)     # robots.txt: Crawl-delay: 2

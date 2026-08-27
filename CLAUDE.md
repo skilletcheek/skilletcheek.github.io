@@ -175,12 +175,19 @@ rejected** so they don't get re-probed.
   by hand via `scripts/fetch_eventbrite_local.py`, never in CI.
 - Do214's parser is written but **disabled**: it 403s all non-browser UAs and
   their ToS forbids scraping. Don't enable it by faking a User-Agent.
-- Dallasites101 (`fetch_dallasites101`) follows links off its `/calendar/`
-  page rather than an API — small yield (~8), no key, `Crawl-delay: 2` in its
-  robots.txt is honored with a `time.sleep(2.0)` per event page. Its JSON-LD
-  has no time-of-day and no ticket link; both are recovered from a `var time
-  = "..."` string and an embedded `"Tickets URL"`/`"admission"` blob in the
-  page source. CultureMap Fort Worth was evaluated the same day and rejected
+- Dallasites101 (`fetch_dallasites101`) discovers events via `/event/rss/`
+  (its `/calendar/` page was rebuilt as a client-rendered widget sometime
+  after 2026-07-21 and stopped shipping any `/event/` links server-side,
+  silently taking the scraper from ~8 events/night to 0 until this was
+  caught and fixed 2026-08-27) then follows each RSS `<link>` to the
+  per-event page's JSON-LD — no bulk API. Small yield (~8), no key,
+  `Crawl-delay: 2` in its robots.txt is honored with a `time.sleep(2.0)` per
+  event page. Its JSON-LD has no time-of-day and no ticket link; both are
+  recovered from a `var time = "..."` string and an embedded `"Tickets
+  URL"`/`"admission"` blob in the page source. The RSS feed has no category
+  or pagination query params — `?category=`, `?page=` are silently ignored —
+  it's a fixed ~30-item rolling window, not a filterable query. CultureMap
+  Fort Worth was evaluated the same day (2026-07-21) and rejected
   (client-rendered shell, no feed) — see the module docstring before
   re-probing either.
 - A run that produces fewer than half the previous file's events refuses to
