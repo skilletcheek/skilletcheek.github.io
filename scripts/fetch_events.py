@@ -1789,6 +1789,13 @@ def write_venues(events):
         venue, street, city = _split_area(e.get("area", ""))
         if not venue or not _is_real_venue(venue):
             continue
+        # Same alias table dedupe already trusts (_venue_tokens()) — without
+        # this, a venue reported under a declared rename/suffix variant
+        # fragments across two page buckets that can each separately stay
+        # under VENUE_MIN_EVENTS forever. "Trees" / "Trees - Dallas" did
+        # exactly that: 1 event + 2 events, neither cleared the floor alone,
+        # so a real Deep Ellum room with real shows had no venue page.
+        venue = _VENUE_ALIASES.get(_venue_key(venue), venue)
         slug = _venue_slug(venue)
         if not slug:
             continue
