@@ -25,6 +25,10 @@
     { "url": "https://www.prekindle.com/events/threelinks", "venue": "Three Links", "area": "Deep Ellum" },
     { "url": "https://www.prekindle.com/events/trees", "venue": "Trees", "area": "Trees, Dallas" }
   ],
+  "_singles_note": "Evaluated 2026-08-27 against three lookalikes for a DFW singles/speed-dating source: CitySwoon, MyCheekyDate, TheFun.Singles. All three carry SOME JSON-LD on their Dallas landing page (Organization/WebSite/BreadcrumbList) but no @type Event anywhere -- don't re-add them expecting a different result unless their markup changes. speeddatingdallas.com is the one that actually embeds real, dated Event objects (8 upcoming at last check, $25-35, real DFW venues) with no API key needed.",
+  "singles_pages": [
+    { "url": "https://speeddatingdallas.com/", "source": "Speed Dating Dallas" }
+  ],
   "eventbrite_locations": [
     { "slug": "tx--dallas", "pages": 4 },
     { "slug": "tx--fort-worth", "pages": 3 },

@@ -8,7 +8,8 @@ Sources (all optional — missing keys/feeds are skipped gracefully):
   * Ticketmaster Discovery API   (env TICKETMASTER_KEY)
   * SeatGeek API                 (env SEATGEEK_CLIENT_ID)
   * Any iCal/ICS feeds listed in scripts/feeds.json
-  * Prekindle venue pages, Seated artist tours (scripts/feeds.json)
+  * Prekindle venue pages, singles/speed-dating pages, Seated artist tours
+    (scripts/feeds.json)
   * Dallasites101 — /calendar/ listing page + per-event JSON-LD (see
     fetch_dallasites101 docstring below). Small yield (~8 events), no key.
   * Do214 — parser written, DISABLED: it 403s all non-browser UAs, so running
@@ -475,6 +476,67 @@ def fetch_prekindle(start, end):
                            ev.get("image")))
             count += 1
         print(f"prekindle ({venue}): {count} events")
+    return out
+
+
+# ---------------------------------------------------------------- singles/dating
+def fetch_singles_pages(start, end):
+    """Singles/speed-dating event pages that embed schema.org Event JSON-LD
+    directly on the listing page — no per-event page visit needed, unlike
+    Prekindle. Configured in feeds.json's singles_pages.
+
+    Evaluated 2026-08-27 alongside three lookalikes (CitySwoon, MyCheekyDate,
+    TheFun.Singles): all three carry SOME JSON-LD, but only Organization/
+    WebSite/BreadcrumbList — no @type Event anywhere. speeddatingdallas.com is
+    the only one that actually embeds real, dated Event objects. Don't re-add
+    the other three expecting a different result unless their markup changes.
+    """
+    if not FEEDS_FILE.exists():
+        return []
+    try:
+        pages = json.loads(FEEDS_FILE.read_text()).get("singles_pages", [])
+    except Exception:  # noqa: BLE001
+        return []
+    lo, hi = start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
+    out = []
+    for p in pages:
+        source, url = p.get("source", "Singles"), p.get("url")
+        if not url:
+            continue
+        try:
+            html = http_text(url)
+        except Exception as e:  # noqa: BLE001
+            print(f"singles page failed ({source}): {e}", file=sys.stderr)
+            continue
+        count = 0
+        for m in re.finditer(r'<script type="application/ld\+json">(.*?)</script>', html, re.S):
+            try:
+                ev = json.loads(m.group(1))
+            except (ValueError, TypeError):
+                continue
+            if not isinstance(ev, dict) or ev.get("@type") != "Event":
+                continue
+            date = str(ev.get("startDate") or "")[:10]
+            if not (ev.get("name") and lo <= date <= hi):
+                continue
+            loc = ev.get("location") or {}
+            addr = loc.get("address") or {}
+            city, region = addr.get("addressLocality"), addr.get("addressRegion")
+            if not is_dfw_city(city, region):
+                continue
+            area = ", ".join(x for x in [loc.get("name"), city] if x) or "Dallas"
+            price = (ev.get("offers") or {}).get("price")
+            try:
+                cost = float(price) if price is not None else None
+            except (TypeError, ValueError):
+                cost = None
+            t = str(ev.get("startDate") or "")[11:16]
+            time_str = pretty_time(t) if t else "See details"
+            out.append(row(ev["name"], "nightlife", area, date, time_str, cost,
+                           ev.get("description"),
+                           (ev.get("offers") or {}).get("url") or url, ev.get("image")))
+            count += 1
+        print(f"singles ({source}): {count} events")
     return out
 
 
@@ -3083,8 +3145,11 @@ def main():
     # Dallasites101 sits alongside Do214: it's a small-yield lifestyle-blog
     # source (~8 events at a time) that sometimes carries a real ticket link
     # and price, so it deserves the same "before Seated" priority.
+    # fetch_singles_pages sits with Prekindle: same "scrape the listing page's
+    # own JSON-LD, no API key" shape and the same firm price.
     rows = (fetch_ticketmaster(start, end) + fetch_seatgeek(start, end)
             + fetch_ics_feeds(start, end) + fetch_prekindle(start, end)
+            + fetch_singles_pages(start, end)
             + fetch_do214(start, end) + fetch_dallasites101(start, end)
             + fetch_seated(start, end))
 
