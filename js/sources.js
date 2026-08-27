@@ -320,8 +320,9 @@ function _parseCsv(text) {
    duplicate-free and much faster. loadTicketmaster/loadSeatGeek/loadPredictHQ
    remain defined above if you ever want live API calls back. */
 async function loadLiveEvents(date) {
-  // The alias table must be in place before the dedupe pass below, but it is
-  // not a source of rows — keep it out of the results array.
+  // The alias and venue->district tables must be in place before the dedupe
+  // pass and the radar's first render, but neither is a source of rows — keep
+  // them out of the results array.
   const [results] = await Promise.all([
     Promise.allSettled([
       loadEventsJson(date),
@@ -330,6 +331,7 @@ async function loadLiveEvents(date) {
       loadEventbriteJson(date),
     ]),
     _loadVenueAliases(),
+    _loadVenueDistricts(),
   ]);
   const all = results.flatMap((r) => (r.status === "fulfilled" ? r.value : []));
   const kept = [];
@@ -392,6 +394,31 @@ async function _loadVenueAliases() {
     }
     _venueAliases = map;
   } catch (_) { /* duplicates survive; nothing else breaks */ }
+}
+
+/* _venueKey(venue) -> district slug, for venues whose `area` never names a
+   district. Mirrors _VENUE_DISTRICTS in scripts/fetch_events.py; read by
+   districtOf() in js/radar.js so the radar counts and the generated district
+   pages can never disagree. Empty until venue-districts.json loads, which only
+   costs us the districts it would have filled in. */
+let _venueDistricts = new Map();
+
+async function _loadVenueDistricts() {
+  if (_venueDistricts.size) return;
+  try {
+    const raw = await _fetchRows("venue-districts.json");
+    const map = new Map();
+    for (const [venue, slug] of Object.entries(raw.venues || {})) {
+      map.set(_venueKey(venue), slug);
+    }
+    _venueDistricts = map;
+  } catch (_) { /* districts fall back to the substring match; nothing breaks */ }
+}
+
+/* Looked up only after the substring pass fails — see districtOf() in
+   js/radar.js and _slugify_matches() in scripts/fetch_events.py. */
+function venueDistrictOf(area) {
+  return _venueDistricts.get(_venueKey(area)) || null;
 }
 
 /* Punctuation/suffix-insensitive form used to look an alias up. Mirrors

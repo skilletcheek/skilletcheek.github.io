@@ -17,6 +17,48 @@
 <meta name="twitter:image" content="https://letsdoitdallas.com/og-image.png" />
 <link rel="canonical" href="https://letsdoitdallas.com/" />
 <title>Lets Do It Dallas — Things to Do in Dallas–Fort Worth</title>
+<!-- The site's own identity, stated once on the homepage. app.js emits an
+     ItemList of the selected day's events at runtime, but that describes the
+     LISTINGS, never the publisher — so nothing on the domain told Google what
+     "Lets Do It Dallas" is as an entity. Static markup on purpose: this has to
+     be in the served HTML, not added by JS after render. Keep @id stable; it is
+     the node other schema on the site can point at later. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://letsdoitdallas.com/#org",
+      "name": "Lets Do It Dallas",
+      "url": "https://letsdoitdallas.com/",
+      "logo": "https://letsdoitdallas.com/og-image.png",
+      "description": "The curated radar for Dallas–Fort Worth culture and events.",
+      "email": "hello@letsdoitdallas.com",
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Dallas–Fort Worth metroplex"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://letsdoitdallas.com/#website",
+      "url": "https://letsdoitdallas.com/",
+      "name": "Lets Do It Dallas",
+      "publisher": { "@id": "https://letsdoitdallas.com/#org" },
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://letsdoitdallas.com/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
+</script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%2308090B'/><circle cx='50' cy='42' r='22' fill='none' stroke='%2300FF87' stroke-width='6'/><path d='M50 64 L50 92 M38 92 L50 64 L62 92' stroke='%2300FF87' stroke-width='5' fill='none'/></svg>" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -56,6 +98,11 @@
 </script>
 </head>
 <body>
+
+<!-- Keyboard users otherwise tab the status bar, the skybar, three nav actions,
+     the whole console and nine marquee buttons before reaching a single event.
+     Visually hidden until focused (.skip-link in css/styles.css). -->
+<a class="skip-link" href="#grid">Skip to events</a>
 
 <!-- ============ LIVE STATUS BAR ============ -->
 <div class="statusbar">
@@ -135,7 +182,10 @@
     </div>
     <div class="search">
       <span class="s-ico">⌕</span>
-      <input id="searchInput" type="text" placeholder="SEARCH EVENTS / VENUES / DISTRICTS" />
+      <!-- A placeholder is not an accessible name: it is announced as a hint,
+           not a label, and vanishes the moment anything is typed. -->
+      <input id="searchInput" type="text" aria-label="Search events, venues and districts"
+             placeholder="SEARCH EVENTS / VENUES / DISTRICTS" />
     </div>
   </div>
   <div class="console-row chips-row">
@@ -260,7 +310,8 @@
     <p>/ A WEEKLY DFW RUNDOWN, LAUNCHING SOON. LEAVE YOUR EMAIL AND YOU'LL BE ON THE FIRST ONE.</p>
   </div>
   <form class="nl-form" id="newsletterForm">
-    <input type="email" id="nlEmail" placeholder="YOU@EMAIL.COM" required />
+    <input type="email" id="nlEmail" aria-label="Your email address"
+           autocomplete="email" placeholder="YOU@EMAIL.COM" required />
     <button class="btn primary" type="submit">NOTIFY ME</button>
   </form>
 </section>
@@ -314,6 +365,7 @@
   <div class="f-col f-wide">
     <div class="f-head">/ CITIES</div>
     <a href="/city/denton/">Denton</a>
+    <a href="/city/grand-prairie/">Grand Prairie</a>
     <a href="/city/">All DFW cities →</a>
   </div>
   <!-- SITEMAP-NAV:END -->
@@ -338,24 +390,31 @@
     <p class="dr-meta">/ HAVE SOMETHING HAPPENING IN DFW? TELL US.</p>
     <!-- Fields here MUST match SUBMIT_FIELDS in scripts/fetch_events.py, which
          also renders /submit/. The nightly build warns when they drift. -->
+    <!-- Every label needs its `for` to match the input's `id`. These were bare
+         <label>s, which look identical on screen but leave a screen reader
+         announcing twelve unlabeled fields — on the site's main conversion
+         path. The generated /submit/ page (SUBMIT_FIELDS in fetch_events.py)
+         already emits for="f_<name>"; these ids match that scheme so the two
+         stay easy to diff by eye. _check_modal_drift() compares field NAMES,
+         so it will not catch a label that comes unhooked here — check both. -->
     <form id="submitForm">
-      <label>EVENT NAME</label>
-      <input name="name" required />
+      <label for="f_name">EVENT NAME</label>
+      <input id="f_name" name="name" required />
       <div class="form-grid">
-        <div><label>VENUE</label><input name="venue" placeholder="The Free Man" required /></div>
-        <div><label>NEIGHBORHOOD / CITY</label><input name="area" placeholder="Deep Ellum, Dallas" required /></div>
-        <div><label>DATE</label><input name="date" type="date" required /></div>
-        <div><label>START TIME</label><input name="time" placeholder="7:00 PM" /></div>
-        <div><label>REPEATS</label>
-          <select name="recurring">
+        <div><label for="f_venue">VENUE</label><input id="f_venue" name="venue" placeholder="The Free Man" required /></div>
+        <div><label for="f_area">NEIGHBORHOOD / CITY</label><input id="f_area" name="area" placeholder="Deep Ellum, Dallas" required /></div>
+        <div><label for="f_date">DATE</label><input id="f_date" name="date" type="date" required /></div>
+        <div><label for="f_time">START TIME</label><input id="f_time" name="time" placeholder="7:00 PM" /></div>
+        <div><label for="f_recurring">REPEATS</label>
+          <select id="f_recurring" name="recurring">
             <option value="once">One-off</option>
             <option value="weekly">Every week</option>
             <option value="monthly">Every month</option>
           </select></div>
-        <div><label>COST (USD, 0 = FREE)</label><input name="cost" type="number" min="0" /></div>
+        <div><label for="f_cost">COST (USD, 0 = FREE)</label><input id="f_cost" name="cost" type="number" min="0" /></div>
       </div>
-      <label>CATEGORY</label>
-      <select name="category">
+      <label for="f_category">CATEGORY</label>
+      <select id="f_category" name="category">
         <option value="music">Live Music</option>
         <option value="food">Food &amp; Drink</option>
         <option value="arts">Arts &amp; Museums</option>
@@ -366,13 +425,13 @@
         <option value="nightlife">Nightlife</option>
         <option value="festival">Festivals</option>
       </select>
-      <label>LINK (TICKETS OR INFO)</label>
-      <input name="url" type="url" placeholder="https://…" />
-      <label>SHORT DESCRIPTION</label>
-      <textarea name="description" rows="3" placeholder="One or two lines — what makes it worth leaving the house for?"></textarea>
+      <label for="f_url">LINK (TICKETS OR INFO)</label>
+      <input id="f_url" name="url" type="url" placeholder="https://…" />
+      <label for="f_description">SHORT DESCRIPTION</label>
+      <textarea id="f_description" name="description" rows="3" placeholder="One or two lines — what makes it worth leaving the house for?"></textarea>
       <div class="form-grid">
-        <div><label>YOUR NAME</label><input name="contact_name" required /></div>
-        <div><label>YOUR EMAIL</label><input name="contact_email" type="email" placeholder="you@venue.com" required /></div>
+        <div><label for="f_contact_name">YOUR NAME</label><input id="f_contact_name" name="contact_name" required /></div>
+        <div><label for="f_contact_email">YOUR EMAIL</label><input id="f_contact_email" name="contact_email" type="email" placeholder="you@venue.com" required /></div>
       </div>
       <!-- Spam trap: hidden from people, filled in by bots. Submissions with a
            value here are dropped in app.js. -->

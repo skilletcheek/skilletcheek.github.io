@@ -922,13 +922,27 @@ function wireForms() {
       toast("Opening your email app to finish signing up…");
       el("nlEmail").value = ""; return;
     }
+    const btn = nl.querySelector('button[type="submit"]');
+    if (btn && btn.disabled) return;            // double-submit guard
+    if (btn) { btn.disabled = true; btn.textContent = "SENDING…"; }
     try {
-      await fetch(CONFIG.newsletterEndpoint, {
-        method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+      // Same two rules as the submit form: Formspree needs an explicit
+      // Accept: application/json or it answers with an HTML redirect page, and
+      // a non-2xx has to throw — `await fetch` alone resolves happily on a 4xx,
+      // so every rejected signup was being toasted as a success.
+      const res = await fetch(CONFIG.newsletterEndpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({ email, _subject: "Newsletter signup — " + email }),
       });
+      if (!res.ok) throw new Error(res.status);
       toast("You're on the list! 🎉"); el("nlEmail").value = "";
-    } catch (_) { toast("Something went wrong — try again."); }
+    } catch (_) {
+      // Keep what they typed so a retry is one click, not a re-type.
+      toast("Something went wrong — try again.");
+    } finally {
+      if (btn) { btn.disabled = false; btn.textContent = "NOTIFY ME"; }
+    }
   };
 
   el("submitEventBtn").onclick = () => openSubmit();

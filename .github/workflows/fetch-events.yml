@@ -2,11 +2,26 @@ name: Fetch events nightly
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # 9:00 UTC = 3–4 AM Dallas, daily
+    # Twice daily, on purpose. GitHub does not guarantee scheduled runs — under
+    # load they are delayed and sometimes dropped outright, and on 2026-08-27
+    # the 09:00 slot never fired at all. Because the hub pages bake "today" in
+    # at build time, a skipped run leaves /tonight/ serving YESTERDAY's events
+    # under a heading that says TONIGHT, silently and all day. The second slot
+    # is the self-heal: it no-ops when the first one worked (the commit step
+    # already exits quietly when nothing changed).
+    - cron: "0 9 * * *"    # 09:00 UTC = 3-4 AM Dallas
+    - cron: "0 17 * * *"   # 17:00 UTC = 11 AM-noon Dallas, catches a dropped 09:00
   workflow_dispatch: {}    # allows manual "Run workflow" button in the Actions tab
 
 permissions:
   contents: write
+
+# Two schedules plus a manual dispatch can otherwise overlap and race on the
+# same push. Let a run in progress finish rather than cancelling it — a partial
+# regenerate that gets killed mid-write is worse than a slightly late one.
+concurrency:
+  group: fetch-events
+  cancel-in-progress: false
 
 jobs:
   fetch:
@@ -28,7 +43,13 @@ jobs:
         run: |
           git config user.name "events-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A live-events.json press.json sitemap.xml robots.txt tonight this-weekend free-events district venue city advertise submit
+          # Every path fetch_events.py generates must be listed here. It writes
+          # them to the runner's disk either way, so anything missing is thrown
+          # away at the end of the job while sitemap.xml still advertises it --
+          # which is how 14 venue pages 404'd for 18 days. If you add a writer
+          # to fetch_events.py, add its directory here in the same commit.
+          git add -A live-events.json press.json sitemap.xml robots.txt eventbrite.json \
+                     tonight this-weekend free-events district venue city advertise submit
           if git diff --cached --quiet; then
             echo "No changes."
           else

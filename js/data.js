@@ -30,7 +30,14 @@ const CONFIG = {
   geo: { lat: 32.7767, lng: -96.7970, radiusMiles: 40 },
 
   /* Monetization endpoints (optional — forms degrade gracefully if blank) */
-  newsletterEndpoint: "",        // e.g. a Formspree or Mailchimp form-action URL
+  // Signups were being dropped on the floor: this was blank, so the form fell
+  // back to a mailto that does nothing at all on a desktop with no mail client
+  // — and it cleared the field afterwards, so it looked like it had worked.
+  // Pointed at the same Formspree form the event submissions already use (it's
+  // one free 50/mo inbox); every signup posts with its own _subject, so they
+  // filter cleanly. Swap in a dedicated list endpoint when The Pulse actually
+  // launches — nothing else has to change.
+  newsletterEndpoint: "https://formspree.io/f/mojgllbd",
   // Powers BOTH the on-site modal and the /submit/ page. Blank = both fall back
   // to a pre-filled mailto. To turn on the real form: create a form at
   // formspree.io (free tier = 50 submissions/mo), paste its endpoint here

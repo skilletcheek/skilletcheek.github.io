@@ -11,12 +11,18 @@ const RADAR = (function () {
   let svg, card, listBox;
   let counts = {};
 
+  /* Mirror of _slugify_matches() in scripts/fetch_events.py — change both or
+     the radar and the generated district pages will place the same event
+     differently. The substring pass runs first and is unchanged; only when it
+     finds nothing do we consult venue-districts.json, which places the venues
+     whose `area` is just "Venue, City" (36% of rows, and the reason six
+     districts read 0 EVENTS while their rooms were booked all week). */
   function districtOf(a) {
     const area = (a.area || "").toLowerCase();
     for (const d of DISTRICTS) {
       if (d.match.some((m) => area.includes(m))) return d.slug;
     }
-    return null;
+    return typeof venueDistrictOf === "function" ? venueDistrictOf(a.area) : null;
   }
 
   function el(tag, attrs, parent) {

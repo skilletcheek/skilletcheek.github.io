@@ -29,6 +29,8 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
     scripts/fetch_events.py the nightly aggregator (also generates pages)
     scripts/feeds.json      DATA: which feeds/venues/artists to pull
     venue-aliases.json      DATA: venue rename map for dedupe
+    venue-districts.json    DATA: venue -> district, for venues whose `area`
+                                  never names one (36% of rows)
     partners.json           DATA: founding-partner wall
     live-events.json        GENERATED nightly
     press.json              GENERATED nightly
@@ -60,6 +62,20 @@ static but the listings it renders come from `live-events.json`.
 quiet kept serving a 200 while dropping out of the sitemap and every listing —
 an orphan Google can never confirm. It refuses to prune when it would delete
 more pages than it kept, on the same reasoning as `COLLAPSE_GUARD_RATIO`.
+
+A hub page with **no listings** is written and stays linked from `_site_nav()`,
+but gets `robots: noindex,follow` and is held out of the sitemap until it has
+something (`emit()` / `_hub_html()`). Boilerplate-plus-nav is what Google parks
+in "Discovered - currently not indexed"; this says so honestly instead, and
+reverses itself the first night the district books an event. The run prints
+which hubs it held back.
+
+`main()` also calls `prune_eventbrite()`, which drops finished events from
+`eventbrite.json`. That file is hand-refreshed (Eventbrite 405s datacenter IPs)
+so nothing else ages it out — by 2026-08-27 all 168 rows had expired and every
+visitor was downloading ~30 KB gzipped of them to render nothing. Pruning needs
+no network, so CI can do it even though the refresh can't. **An empty
+`eventbrite.json` means the source needs a hand refresh**, not that it broke.
 
 `write_hubs()` calls `write_venues()` **first** — it populates `_VENUE_PAGES`,
 which `_hub_row()` reads to link listings to venue pages. Reorder that and the
@@ -204,6 +220,27 @@ the same schema.org address into the generated pages and the homepage's runtime
 JSON-LD. Cross-check by hashing both over `live-events.json` after any change.
 `addressLocality` must be a city — it once held the whole postal address.
 
+`_slugify_matches()` (`fetch_events.py`) / `districtOf()` (`js/radar.js`) is the
+other one: it decides an event's district for both the generated
+`/district/*/` pages and the homepage radar's per-district counts. Both do a
+substring pass over `area` first, then fall back to `venue-districts.json`.
+
+**Districts are matched on free text, so a venue whose name doesn't contain its
+district never matched.** Most ticketing rows are just "Venue, City", so on
+2026-08-27 that was 230 of 635 events in no district at all and six district
+pages — Downtown Dallas, Arts District, Uptown, Design District, Stockyards,
+Grapevine — serving nothing but boilerplate and nav, which is exactly the
+"Discovered/Crawled - currently not indexed" bucket. Fix it by **adding the
+venue to `venue-districts.json`**, never by loosening the substring list: a
+term broad enough to catch American Airlines Center ("dallas") swallows the
+whole metroplex. Values are validated against `DISTRICTS` at load, so a typo'd
+slug fails the run instead of silently dropping the venue.
+
+Adding a NEW district means hand-placing it on the radar (`DISTRICTS` in
+`js/data.js` carries x/y and `labelDir` tuned to avoid label collisions), which
+is why Fair Park and The Cedars are currently filed under `downtown-dallas` in
+`venue-districts.json` rather than getting their own entries.
+
 ## Verification gotchas
 
 - **Grepping a generated page: split on `</head>` first.** The inline
@@ -226,6 +263,19 @@ PAT from `git credential fill`. A **204** means accepted. Parse run payloads
 with `json.loads(..., strict=False)`: they echo the triggering commit
 message, and a multi-line message puts raw control characters in a JSON
 string.
+
+The Action's commit step uses an **explicit path allowlist** for `git add`.
+Anything `fetch_events.py` writes that isn't listed is regenerated on the
+runner and then thrown away, while `sitemap.xml` — which *is* listed — still
+advertises it: that is how 14 venue pages 404'd for 18 days. **Add a writer,
+add its directory to that line in the same commit.**
+
+Scheduled runs are **not guaranteed** — GitHub delays them under load and
+sometimes drops them entirely (2026-08-27: the 09:00 slot never fired). Because
+hub pages bake "today" in at build time, a skipped run leaves `/tonight/`
+serving yesterday under a heading that says TONIGHT, silently and all day.
+Hence two crons; the second no-ops when the first worked. If you're debugging
+"the site says the wrong day", check the Actions run list before the code.
 
 ## Local shell
 

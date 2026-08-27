@@ -129,6 +129,7 @@ DAYS_AHEAD = 30
 UA = "rj-does-dallas-fetcher/1.0 (+https://letsdoitdallas.com)"
 SITE = "https://letsdoitdallas.com"
 PRESS_FILE = ROOT / "press.json"
+EVENTBRITE_FILE = ROOT / "eventbrite.json"
 
 # Keep in sync with DISTRICTS in js/data.js (slug, label, match substrings)
 DISTRICTS = [
@@ -1072,11 +1073,21 @@ def fetch_press():
 
 # ----------------------------------------------------------- hub page builder
 def _slugify_matches(area: str):
+    """District slug for an event's free-text `area`, or None.
+
+    The substring pass runs first and is untouched, so anything that already
+    resolved keeps resolving the same way. Only when it finds nothing do we ask
+    venue-districts.json, which places venues whose `area` is just
+    "Venue, City" and therefore never contained a district name — 36% of rows,
+    and the reason six district pages had no listings at all. Mirrored by
+    districtOf() in js/radar.js; change both or the radar and the generated
+    pages will disagree about the same event.
+    """
     a = (area or "").lower()
     for slug, _label, match in DISTRICTS:
         if any(m in a for m in match):
             return slug
-    return None
+    return _VENUE_DISTRICTS.get(_venue_key(area))
 
 
 _ADDR_NOISE = re.compile(r"^(united states|usa|us|tx|texas)$", re.I)
@@ -1150,6 +1161,39 @@ def _city_of(area: str) -> str | None:
     if cand in DFW_CITIES:
         return _CITY_CASE.get(cand, cand.title())
     return None
+
+
+def _breadcrumb_jsonld(trail):
+    """BreadcrumbList for a page, from [(label, path-or-None), ...].
+
+    The venue pages have carried a visual breadcrumb since the crawl-budget
+    work, but nothing machine-readable, so Google had to infer the hierarchy
+    from URL shape alone. This states it. The last crumb is the current page
+    and carries no item, per schema.org.
+    """
+    items = []
+    for i, (label, path) in enumerate(trail, 1):
+        node = {"@type": "ListItem", "position": i, "name": label}
+        if path is not None:
+            node["item"] = f"{SITE}{path}"
+        items.append(node)
+    return json.dumps({"@context": "https://schema.org",
+                       "@type": "BreadcrumbList", "itemListElement": items},
+                      ensure_ascii=False)
+
+
+def _hub_trail(path, heading):
+    """Breadcrumb trail for a page emitted by _hub_html().
+
+    /venue/ and /city/ are real directory pages, so those get a middle crumb.
+    Districts and the time/cost hubs sit directly under the homepage — there is
+    no /district/ index to point at, and inventing one in the markup would
+    breadcrumb to a 404.
+    """
+    label = heading.title() if heading.isupper() else heading
+    if path.startswith("city/"):
+        return [("Home", "/"), ("Cities", "/city/"), (label, None)]
+    return [("Home", "/"), (label, None)]
 
 
 def _jsonld(events):
@@ -1596,12 +1640,19 @@ def _hub_html(title, desc, canonical, events, app_link, heading, note, path):
     rows = "\n".join(_hub_row(e, count=n, last=last)
                      for e, n, last in _group_repeats(events)[:60]) \
         or "<li>Fresh listings load nightly — check the live radar.</li>"
+    # A hub with no listings is boilerplate plus nav — there is nothing on it to
+    # index, and asking anyway is how 41 URLs ended up in "Discovered/Crawled -
+    # currently not indexed". Say so honestly instead; `follow` keeps the crawl
+    # flowing through _site_nav(), and write_hubs() also keeps the page out of
+    # the sitemap until it has something. Both reverse themselves the first
+    # night the district books an event.
+    robots = "" if events else '<meta name="robots" content="noindex,follow"/>\n'
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>{title}</title>
 <meta name="description" content="{desc}"/>
-<link rel="canonical" href="{canonical}"/>
+{robots}<link rel="canonical" href="{canonical}"/>
 <meta property="og:title" content="{title}"/>
 <meta property="og:description" content="{desc}"/>
 <meta property="og:type" content="website"/>
@@ -1610,6 +1661,7 @@ def _hub_html(title, desc, canonical, events, app_link, heading, note, path):
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="{SITE}/og-image.png"/>
 <script type="application/ld+json">{_jsonld(events)}</script>
+<script type="application/ld+json">{_breadcrumb_jsonld(_hub_trail(path, heading))}</script>
 <style>{_PAGE_CSS}</style>{_analytics_snippet()}</head><body>
 <p class="k">/ LETS DO IT DALLAS — {note}</p>
 <h1>{heading}</h1>
@@ -1670,6 +1722,18 @@ def _venue_html(name, city, street, canonical, events, slug, district):
                   + (f' — <a href="{c_href}">{_html.escape(city.upper())}</a>'
                      if c_href and c_href != d_href else "")
                   + "</p>")
+    # The machine-readable twin of `breadcrumb` above — same crumbs, same
+    # order, same skip of a city that would duplicate the district link.
+    # It also drops a city whose surface IS the homepage (_city_surface()
+    # sends Dallas there): harmless as a visible link, but in a BreadcrumbList
+    # it puts the same URL at position 1 and again three crumbs later, which
+    # describes a trail that doesn't exist.
+    trail = [("Home", "/"), ("Venues", "/venue/")]
+    if d_label:
+        trail.append((d_label, d_href))
+    if c_href and c_href != d_href and c_href != "/":
+        trail.append((city, c_href))
+    trail.append((name, None))
     near = _nearby_venues(slug, city, district)
     nearby = ""
     if near:
@@ -1692,6 +1756,7 @@ def _venue_html(name, city, street, canonical, events, slug, district):
 <meta name="twitter:image" content="{SITE}/og-image.png"/>
 <script type="application/ld+json">{_jsonld(events)}</script>
 <script type="application/ld+json">{json.dumps(place)}</script>
+<script type="application/ld+json">{_breadcrumb_jsonld(trail)}</script>
 <style>{_PAGE_CSS}</style>{_analytics_snippet()}</head><body>
 {breadcrumb}
 <h1>{esc_name}</h1>
@@ -2711,9 +2776,16 @@ def write_hubs(events):
     # links off.
     pages = write_venues(events)
 
+    empty_hubs = []
+
     def emit(path, title, desc, evs, app_link, heading, note):
-        pages.append(_write_page(path, _hub_html(
-            title, desc, f"{SITE}/{path}/", evs, app_link, heading, note, path)))
+        # Always written and always linked from _site_nav(), so nothing here
+        # ever becomes an orphan — but a hub with no listings stays out of the
+        # sitemap and carries noindex (see _hub_html). It rejoins both the
+        # first night it has an event.
+        url = _write_page(path, _hub_html(
+            title, desc, f"{SITE}/{path}/", evs, app_link, heading, note, path))
+        (pages if evs else empty_hubs).append(url)
 
     tonight = [e for e in events if e["date"] == today]
     emit("tonight", "Things to Do in Dallas–Fort Worth Tonight | Lets Do It Dallas",
@@ -2759,6 +2831,10 @@ def write_hubs(events):
         f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{sitemap}\n</urlset>\n')
     (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
     print(f"wrote {len(pages)} hub pages + sitemap.xml + robots.txt")
+    if empty_hubs:
+        print(f"{len(empty_hubs)} hub(s) had no listings — noindexed and held "
+              f"out of the sitemap until they do: "
+              f"{', '.join(u.replace(SITE, '') for u in sorted(empty_hubs))}")
 
 
 # ---------------------------------------------------------------------- dedupe
@@ -2819,6 +2895,36 @@ def _venue_key(name: str) -> str:
 
 
 _VENUE_ALIASES = _load_venue_aliases()
+
+
+VENUE_DISTRICT_FILE = ROOT / "venue-districts.json"
+
+
+def _load_venue_districts() -> dict:
+    """_venue_key(venue) -> district slug, for venues whose `area` never names
+    a district. Mirrored in js/radar.js so the radar and the generated district
+    pages agree. See venue-districts.json for why this is data.
+
+    A value that is not a real DISTRICTS slug is a typo, and a silent one:
+    the venue would just keep falling through to "no district" exactly as it
+    did before the entry was added. Fail the run instead.
+    """
+    try:
+        raw = json.loads(VENUE_DISTRICT_FILE.read_text()).get("venues", {})
+    except (OSError, ValueError):
+        return {}
+    known = {slug for slug, _label, _match in DISTRICTS}
+    out = {}
+    for venue, slug in raw.items():
+        if slug not in known:
+            raise SystemExit(
+                f"venue-districts.json: {venue!r} -> {slug!r} is not a district "
+                f"slug. Known slugs: {', '.join(sorted(known))}")
+        out[_venue_key(venue)] = slug
+    return out
+
+
+_VENUE_DISTRICTS = _load_venue_districts()
 
 
 def _venue_tokens(area: str) -> set:
@@ -2913,6 +3019,37 @@ def dedupe(rows):
 COLLAPSE_GUARD_RATIO = 0.5
 
 
+def prune_eventbrite(start) -> None:
+    """Drop already-finished events from eventbrite.json.
+
+    Eventbrite answers 405 to datacenter IPs, so this file is refreshed by hand
+    (scripts/fetch_eventbrite_local.py) and never in CI — which means when the
+    refresh doesn't happen, nothing ages it out. On 2026-08-27 all 168 rows had
+    expired (the newest was 2026-08-22, five weeks after the last refresh), and
+    every visitor was still downloading ~30 KB gzipped of them on every page
+    view to render exactly nothing.
+
+    Pruning needs no network, so the nightly run can do it even though the
+    refresh can't. An empty file is the honest end state — it costs a visitor
+    almost nothing and says plainly that the source needs a refresh.
+    """
+    try:
+        rows = json.loads(EVENTBRITE_FILE.read_text())
+    except (OSError, ValueError):
+        return                      # missing or hand-mangled: leave it alone
+    if not isinstance(rows, list):
+        return
+    today = start.strftime("%Y-%m-%d")
+    keep = [r for r in rows if (r.get("date") or "") >= today]
+    if len(keep) == len(rows):
+        return
+    EVENTBRITE_FILE.write_text(json.dumps(keep, indent=1, ensure_ascii=False) + "\n")
+    print(f"pruned {len(rows) - len(keep)} past events from eventbrite.json "
+          f"({len(keep)} upcoming left)"
+          + ("  <- EMPTY: re-run scripts/fetch_eventbrite_local.py to refresh it"
+             if not keep else ""))
+
+
 def main():
     now = datetime.now(timezone.utc)
     start = now.replace(hour=0, minute=0, second=0, microsecond=0)
@@ -2961,6 +3098,7 @@ def main():
     print(f"wrote {len(unique)} events -> {OUT_FILE.name}")
 
     PRESS_FILE.write_text(json.dumps(fetch_press(), indent=1, ensure_ascii=False) + "\n")
+    prune_eventbrite(start)
     write_hubs(unique)
 
 
