@@ -12,8 +12,11 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
 - **No build step, no Node.** No bundler, no framework, no npm. There is no
   `node` on this machine; JS can't be syntax-checked locally — verify in the
   browser preview instead.
-- **Python stdlib only** in `scripts/`. It runs on a GitHub Actions runner
-  with no pip install step.
+- **Python stdlib only** in `scripts/fetch_events.py`. It runs on a GitHub
+  Actions runner with no pip install step. The one exception in `scripts/` is
+  the social poster (`social_card.py` needs Pillow), which runs in its own
+  workflow that *does* install — see "Daily social post". Nothing the nightly
+  aggregator imports may depend on it.
 - Only external dependency is Google Fonts.
 
 ## Layout
@@ -28,6 +31,10 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
     js/scenes.js            unloaded, kept in repo
     scripts/fetch_events.py the nightly aggregator (also generates pages)
     scripts/feeds.json      DATA: which feeds/venues/artists to pull
+    scripts/social_post.py  daily Facebook + Instagram poster (own workflow)
+    scripts/social_card.py  renders the 1080x1350 card social_post.py posts
+    social/cards/*.jpg      GENERATED daily; Instagram fetches these by URL
+    social/posted.json      GENERATED daily; the anti-double-post log
     venue-aliases.json      DATA: venue rename map for dedupe
     venue-districts.json    DATA: venue -> district, for venues whose `area`
                                   never names one (36% of rows)
@@ -41,6 +48,9 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
 get clobbered; change the **Python** instead:
 
 - `live-events.json`, `press.json`, `sitemap.xml`, `robots.txt`
+- `social/cards/*.jpg` and `social/posted.json` — written by the *other*
+  workflow (`scripts/social_post.py`, see "Daily social post"), not by
+  `fetch_events.py`. Editing `posted.json` by hand is how you double-post.
 - `/tonight/`, `/this-weekend/`, `/free-events/`, `/district/*/` hub pages
 - `/venue/*/` venue pages (`write_venues()`), `/venue/` directory
   (`write_venue_index()`)
@@ -206,6 +216,94 @@ rejected** so they don't get re-probed.
 match, and `_check_modal_drift()` warns during the nightly build when they
 diverge. Add a field in both places.
 
+## Daily social post
+
+`.github/workflows/social-post.yml` posts one "tonight in DFW" pick-list a day
+to the Facebook Page and the linked Instagram Business account, from
+`live-events.json`. `scripts/social_post.py` is the whole thing;
+`scripts/social_card.py` only draws the image.
+
+**It is a separate workflow on purpose.** The nightly refresh is the site;
+this is marketing. A dead Meta token or an Instagram outage must never be able
+to leave `/tonight/` serving yesterday, and a run that tripped
+`COLLAPSE_GUARD_RATIO` must never be able to post from a gutted feed. The
+poster only ever *reads* `live-events.json`.
+
+**The build/publish split is not stylistic — Instagram forces it.** The
+Content Publishing API takes an `image_url` that *Meta's* servers fetch; there
+is no way to hand it bytes, and no text-only post. So the card has to be
+committed and live on GitHub Pages *before* the container call, and the
+workflow runs `build` → commit+push → `publish`. `publish` blocks on the URL
+going live (`_wait_for_pages`), comparing `Content-Length` and not just the
+status — a re-run on the same date rewrites the same path, and Pages' CDN will
+serve the previous bytes for a while, which would publish yesterday's card
+under today's caption.
+
+Facebook has no such constraint: `/{page-id}/photos` takes a multipart upload
+(`_multipart()`, hand-rolled because stdlib has no encoder). That is why
+**Facebook is posted first** — it cannot be blocked by a slow Pages deploy.
+
+**Why the card is ours and not the feed's `image`.** Measured 2026-08-28: 647
+of 667 rows carry one, but 105 are 280x210 SeatGeek thumbnails (under
+Instagram's 320px floor), several hosts serve PNG (the API takes JPEG and
+nothing else), and the 485 usable Ticketmaster JPEGs are the promoter's
+copyrighted key art — not something to repost daily under our own handle
+forever. `verify_card()` asserts every constraint in the media spec locally,
+because a bad container comes back as a generic "media upload failed" with no
+field naming the reason.
+
+**Idempotency is keyed on date + platform**, in `social/posted.json`, written
+back after *each* platform. A Facebook-succeeded/Instagram-failed run exits
+non-zero but records the Facebook id, so the retry only retries Instagram.
+This is why the "Commit the posted log" step is `if: always()` — losing that
+file after a partial post is what makes the next run double-post to Facebook.
+
+Two secrets, both in repo Settings > Secrets, following the
+`TICKETMASTER_KEY` pattern: **`META_SYSTEM_USER_TOKEN`** (a Business
+*system-user* token — the 60-day Page token from the Graph Explorer expires
+and silently breaks this) and **`META_PAGE_ID`**. The Instagram user id is
+deliberately *not* configured: it is read from the Page node
+(`instagram_business_account`) at runtime, so there is one less thing to
+rotate and the preflight can tell "not linked" from "wrong id".
+
+`python scripts/social_post.py check` is the preflight — it prints the Page,
+the linked IG account, the 24h publishing quota, and whether the token is a
+system-user token that never expires. Run it after any credential change.
+
+**Both secrets absent = the run skips silently and touches nothing.** Standing
+up the Meta side is manual, Meta-UI-only work that takes days, and failing red
+every night through that window trains you to ignore the one alarm that
+matters. The quiet path is deliberately narrow: exactly *one* secret missing
+is a typo or a half-finished setup and exits non-zero, as does a token that is
+present but rejected. Deleting a secret later still fails loudly, because
+deleting one of two leaves the other behind. `_creds(allow_unconfigured=)` is
+the switch; `check` never takes the quiet path.
+
+What breaks it:
+
+- **The Instagram account being personal or unlinked.** `instagram_business_
+  account` is then *absent* from the Page node. This cannot be fixed in code
+  or over the API; it is a manual conversion in the Instagram app plus a link
+  in Meta Business Suite. `_accounts()` raises with those exact steps.
+- **Moving the cron into 00:00–05:00 UTC.** `_today()` uses the UTC date so it
+  agrees with `write_hubs()`; inside that band Dallas is still on the previous
+  day and the post would advertise picks that `/tonight/` does not list.
+- **Forgetting `social` in the workflow's `git add` allowlist** — the same
+  trap documented under Deploy, and worse here: an uncommitted card means the
+  Instagram fetch 404s.
+- Instagram allows 100 API-published posts per rolling 24h (verified
+  2026-08-28, printed by `check`). This posts once, so the limit is only ever
+  reached by a loop bug.
+
+Pick selection (`select_picks()`) is all proxies, because the feed has no
+attendance or capacity and `cost` is null on 83% of rows — so "price as a
+proxy for notability" can't carry it. It leans on what the site already
+computed: a venue that earned its own `/venue/` page is a real recurring room.
+Full scoring rationale is in that function's docstring. Three passes drop one
+constraint at a time (distinct category + distinct venue → distinct venue →
+anything); the venue rule outranks the category rule because the two-pass
+version put one Deep Ellum room in slots 01 and 03 of the same card.
+
 ## Performance rules learned the hard way
 
 - **Never use `ctx.shadowBlur` in a per-frame canvas path.** It's a full
@@ -262,8 +360,12 @@ is why Fair Park and The Cedars are currently filed under `downtown-dallas` in
 
 ## Deploy
 
-`git push origin main` deploys (PAT in macOS Keychain, no prompt). The
-nightly Action also pushes, so **rebase before pushing** if it has run.
+`git push origin main` deploys (PAT in macOS Keychain, no prompt). **Two**
+Actions also push — the nightly fetch and the daily social post — so **rebase
+before pushing** if either has run. They push through
+`.github/push-with-retry.sh`, which rebases and retries rather than failing,
+because a rejected push in the social job strands a card that the Instagram
+call is about to fetch from Pages.
 
 No `gh` CLI on this machine — dispatch workflows via the REST API using the
 PAT from `git credential fill`. A **204** means accepted. Parse run payloads

@@ -1,0 +1,120 @@
+name: Daily social post
+
+# Deliberately its own workflow rather than a job bolted onto
+# fetch-events.yml. The nightly refresh is the site; this is marketing. A dead
+# Meta token, a rate limit or an Instagram outage must never be able to leave
+# /tonight/ serving yesterday, and a collapsed feed (COLLAPSE_GUARD_RATIO)
+# must never be able to post garbage. Neither one can fail the other here.
+
+on:
+  schedule:
+    # 18:30 UTC = 1:30 PM Dallas. Two constraints pin this slot:
+    #   * AFTER the nightly fetch. fetch-events.yml runs at 09:00 and 17:00
+    #     UTC and takes several minutes (Dallasites101 alone sleeps 2s per
+    #     event page), so this leaves ~90 minutes of headroom and reads the
+    #     live-events.json that run committed.
+    #   * NOT between 00:00 and 05:00 UTC. social_post.py._today() uses the
+    #     UTC date so it agrees with write_hubs(), and Dallas is UTC-5/-6 --
+    #     inside that band the post would advertise tomorrow's picks and link
+    #     at a /tonight/ page still showing today's.
+    # Unlike the nightly fetch there is no second attempt: GitHub sometimes
+    # drops a scheduled run entirely, and a missed post is a missed post. A
+    # retry slot would risk posting yesterday's picks after midnight UTC.
+    - cron: "30 18 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Build the card and captions, print them, post nothing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# A manual dispatch during the scheduled run would otherwise race on the same
+# push, and both would try to post. Never cancel in flight: a run killed
+# between the Facebook post and the Instagram post loses the log entry that
+# stops the next run reposting to Facebook.
+concurrency:
+  group: social-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # The one pip install in this repo. scripts/fetch_events.py stays
+      # stdlib-only because it must run with no install step; that constraint
+      # is about the aggregator, not the repository.
+      - name: Install Pillow
+        run: pip install --disable-pip-version-check "Pillow~=12.3"
+
+      - name: Pick events and render the card
+        id: build
+        # The secrets are in scope here only so build can tell "not set up
+        # yet" (both unset -> skip the whole run quietly, no card committed)
+        # from "misconfigured" (one unset -> fail). It makes no API calls.
+        env:
+          META_SYSTEM_USER_TOKEN: ${{ secrets.META_SYSTEM_USER_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+        run: |
+          python scripts/social_post.py build \
+            --plan "$RUNNER_TEMP/plan.json" \
+            --font-cache "$RUNNER_TEMP/fonts"
+          if python -c "import json,sys; sys.exit(0 if json.load(open('$RUNNER_TEMP/plan.json')).get('skip') else 1)"; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      # The card must be live on GitHub Pages BEFORE the Instagram call:
+      # its Content Publishing API takes an image_url that Meta's own servers
+      # fetch, not image bytes. Hence commit-then-publish rather than one step.
+      #
+      # Per CLAUDE.md: every path a script writes must be listed here, or it
+      # is regenerated on the runner and thrown away at the end of the job.
+      # social/ covers both cards/ and posted.json.
+      - name: Commit the card
+        if: steps.build.outputs.skip == 'false' && !inputs.dry_run
+        run: |
+          git config user.name "social-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A social
+          if git diff --cached --quiet; then
+            echo "Card unchanged."
+          else
+            git commit -m "chore: social card for $(date -u +%F)"
+            ./.github/push-with-retry.sh
+          fi
+
+      - name: Post to Facebook and Instagram
+        if: steps.build.outputs.skip == 'false'
+        env:
+          META_SYSTEM_USER_TOKEN: ${{ secrets.META_SYSTEM_USER_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+        run: |
+          python scripts/social_post.py publish \
+            --plan "$RUNNER_TEMP/plan.json" \
+            ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      # Runs even when publishing failed: social_post.py writes the log after
+      # EACH platform, so a Facebook-succeeded/Instagram-failed run must still
+      # commit that fact or the retry reposts to Facebook.
+      - name: Commit the posted log
+        if: always() && steps.build.outputs.skip == 'false' && !inputs.dry_run
+        run: |
+          git config user.name "social-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A social
+          if git diff --cached --quiet; then
+            echo "Log unchanged."
+          else
+            git commit -m "chore: social post log for $(date -u +%F)"
+            ./.github/push-with-retry.sh
+          fi
