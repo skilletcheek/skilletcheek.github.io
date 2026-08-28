@@ -584,10 +584,6 @@ def cmd_publish(args) -> int:
     if plan.get("skip"):
         print(f"nothing to publish: {plan['skip']}")
         return 0
-    if args.dry_run:
-        print(f"dry run: would post {plan['card_url']} to both platforms")
-        return 0
-
     # build already skips when unconfigured, so this only fires if publish is
     # run on its own against an older plan file.
     if _creds(allow_unconfigured=True) is None:
@@ -595,7 +591,19 @@ def cmd_publish(args) -> int:
         return 0
 
     token, page_id = _creds()
+    # Resolved BEFORE the dry-run exit on purpose. A dry run that returned
+    # here would exercise none of the parts that actually break -- the token,
+    # the asset assignment, the Instagram linkage -- and would pass just as
+    # happily with no credentials at all, which makes it worse than useless as
+    # the "test it safely" button. This way it is a real preflight that stops
+    # one step short of posting.
     acct = _accounts(token, page_id)
+
+    if args.dry_run:
+        print(f"dry run: credentials resolve to "
+              f"{acct['page_name']} / @{acct['ig_username']}")
+        print(f"dry run: would post {plan['card_url']} to both platforms")
+        return 0
     today, log = plan["date"], load_posted()
     entry = log.setdefault(today, {})
     entry["picks"], entry["venues"] = plan["picks"], plan["venues"]
