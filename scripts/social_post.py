@@ -135,6 +135,23 @@ def _multipart(fields: dict, files: dict) -> tuple[bytes, dict]:
                         "Content-Length": str(len(out))}
 
 
+def _node_kind(token: str, node_id: str) -> str | None:
+    """What kind of Graph object is this id? `metadata=1` names the type.
+
+    Used only to turn a confusing failure into an actionable one -- see
+    _accounts(). Returns None rather than raising: this runs while already
+    handling an error, and a second failure here must not replace the first.
+    """
+    try:
+        meta = _graph(node_id, token, {"metadata": "1", "fields": "id"})
+        return (meta.get("metadata") or {}).get("type")
+    except GraphError:
+        return None
+
+
+_NO_TOKEN_FIELD = "nonexisting field (access_token)"
+
+
 def _accounts(token: str, page_id: str) -> dict:
     """Resolve the Page token and the linked Instagram account in one call.
 
@@ -143,8 +160,32 @@ def _accounts(token: str, page_id: str) -> dict:
     failure no code can fix -- the conversion is a manual step in the Meta
     UI -- so it gets its own message rather than a KeyError.
     """
-    node = _graph(page_id, token,
-                  {"fields": "name,access_token,instagram_business_account{id,username}"})
+    try:
+        node = _graph(page_id, token,
+                      {"fields": "name,access_token,instagram_business_account{id,username}"})
+    except GraphError as exc:
+        # Graph answers "(#100) Tried accessing nonexisting field
+        # (access_token)" for BOTH of the plausible setup mistakes, and the
+        # message names neither. Ask what the id actually points at, which
+        # separates them definitively.
+        if _NO_TOKEN_FIELD not in str(exc):
+            raise
+        kind = _node_kind(token, page_id)
+        if kind and kind != "page":
+            raise GraphError(
+                f"META_PAGE_ID points at a Graph object of type '{kind}', not a "
+                f"page, so there is no access_token on it to read. The App ID "
+                f"printed across the top of developers.facebook.com is the "
+                f"usual thing pasted here by mistake. The Page ID is the number "
+                f"under the Page's own name in Business settings > Accounts > "
+                f"Pages.") from None
+        raise GraphError(
+            f"Page {page_id} exists but exposes no access_token to this token, "
+            f"which means the system user has not been given the Page. Business "
+            f"settings > Users > System users > social-poster > Add assets > "
+            f"Pages > your Page, with the 'Manage Page' content task ticked. "
+            f"Assigning only the App is the easy half to stop at.") from None
+
     if not node.get("access_token"):
         raise GraphError(
             f"Page {page_id} returned no access_token. The system user is "
