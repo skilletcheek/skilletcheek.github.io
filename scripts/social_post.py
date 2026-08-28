@@ -152,8 +152,11 @@ def _node_kind(token: str, node_id: str) -> str | None:
 _NO_TOKEN_FIELD = "nonexisting field (access_token)"
 
 # Scopes needed to read a Page token off the Page node and then publish.
+# pages_show_list is deliberately NOT here: the 2026-08-28 run listed
+# /me/accounts and got a Page token back without it, so demanding it would send
+# someone off to regenerate a token that was already fine.
 _NEEDED_SCOPES = ("pages_manage_posts", "pages_read_engagement",
-                  "pages_show_list", "instagram_basic", "instagram_content_publish")
+                  "instagram_basic", "instagram_content_publish")
 
 
 def _diagnose(token: str, page_id: str, exc: Exception) -> str:
