@@ -279,12 +279,34 @@ present but rejected. Deleting a secret later still fails loudly, because
 deleting one of two leaves the other behind. `_creds(allow_unconfigured=)` is
 the switch; `check` never takes the quiet path.
 
+**The schedule is currently PAUSED** — the cron in `social-post.yml` is
+commented out while the two brand-new accounts are warmed up by hand.
+Everything else is live and verified against the real Meta setup on
+2026-08-28. Uncomment the cron to resume; nothing else changes.
+
 What breaks it:
 
 - **The Instagram account being personal or unlinked.** `instagram_business_
   account` is then *absent* from the Page node. This cannot be fixed in code
   or over the API; it is a manual conversion in the Instagram app plus a link
   in Meta Business Suite. `_accounts()` raises with those exact steps.
+- **That link is made from the PAGE, not from the Instagram asset.** Claiming
+  the Instagram account into the Business portfolio and assigning it to the
+  system user is *not* enough and does not populate the field — verified the
+  hard way on 2026-08-28, where the account was claimed, owned and assigned
+  with full access while the Page still reported nothing. `Business settings >
+  Accounts > Instagram accounts > Connect assets` offers only ad accounts. The
+  real control is `Business settings > Accounts > Pages > <page> > Connect
+  assets > Instagram account`, and it requires an interactive Instagram login,
+  so it can never be automated.
+- **Diagnosing a Page-token failure**: Graph returns the same
+  `(#100) nonexisting field (access_token)` for a wrong id, an unassigned Page
+  and a token missing scopes. `_diagnose()` prints what the id resolves to,
+  which Pages the token can list, and its scopes, because guessing between
+  them sent someone into the Meta UI twice for nothing. Note that ids matching
+  a secret come back masked as `***` in Actions logs — a Page id printing as
+  a raw number is itself proof it differs from `META_PAGE_ID`, which is how
+  the wrong-id case was finally caught.
 - **Moving the cron into 00:00–05:00 UTC.** `_today()` uses the UTC date so it
   agrees with `write_hubs()`; inside that band Dallas is still on the previous
   day and the post would advertise picks that `/tonight/` does not list.

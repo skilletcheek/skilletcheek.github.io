@@ -7,7 +7,22 @@ name: Daily social post
 # must never be able to post garbage. Neither one can fail the other here.
 
 on:
-  schedule:
+  # ---------------------------------------------------------------------
+  # SCHEDULE PAUSED 2026-08-28, deliberately, while the Instagram account
+  # is warmed up by hand. @letsdoitdallas was created the same day with 0
+  # posts and 0 followers, and an account whose first-ever activity is an
+  # API post is the profile most likely to be flagged. The Facebook Page
+  # is equally new.
+  #
+  # Everything else is live and verified: the dry run resolves
+  # "Lets Do It Dallas / @letsdoitdallas" and builds the card, so this is
+  # the ONLY thing standing between the repo and a daily post.
+  #
+  # TO RESUME: delete the two comment markers on the cron lines below.
+  # Nothing else has to change. Verify first with Actions > Daily social
+  # post > Run workflow > dry_run.
+  # ---------------------------------------------------------------------
+  # schedule:
     # 18:30 UTC = 1:30 PM Dallas. Two constraints pin this slot:
     #   * AFTER the nightly fetch. fetch-events.yml runs at 09:00 and 17:00
     #     UTC and takes several minutes (Dallasites101 alone sleeps 2s per
@@ -20,7 +35,7 @@ on:
     # Unlike the nightly fetch there is no second attempt: GitHub sometimes
     # drops a scheduled run entirely, and a missed post is a missed post. A
     # retry slot would risk posting yesterday's picks after midnight UTC.
-    - cron: "30 18 * * *"
+    # - cron: "30 18 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
