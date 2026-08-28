@@ -151,6 +151,65 @@ def _node_kind(token: str, node_id: str) -> str | None:
 
 _NO_TOKEN_FIELD = "nonexisting field (access_token)"
 
+# Scopes needed to read a Page token off the Page node and then publish.
+_NEEDED_SCOPES = ("pages_manage_posts", "pages_read_engagement",
+                  "pages_show_list", "instagram_basic", "instagram_content_publish")
+
+
+def _diagnose(token: str, page_id: str, exc: Exception) -> str:
+    """Report what the token can actually see, instead of guessing.
+
+    Graph returns the same "(#100) nonexisting field (access_token)" for a
+    wrong id, an unassigned Page and a token missing scopes, and guessing
+    between them cost two round trips through the Meta UI. So this asks three
+    questions whose answers separate every case, and prints all of them:
+    what the id is, what Pages the token can list, and what scopes it carries.
+
+    Note the ids below come back masked as *** in Actions logs when they equal
+    the META_PAGE_ID secret -- which is itself the answer to "is the secret the
+    same id as the Page the token can see?".
+    """
+    lines = [f"could not read a Page access token. Raw Graph error: {exc}", ""]
+
+    kind = _node_kind(token, page_id)
+    lines.append(f"  META_PAGE_ID resolves to  : {kind or 'UNREADABLE (the token '
+                 'cannot see this object at all)'}")
+
+    try:
+        pages = _graph("me/accounts", token, {"fields": "id,name,access_token"})
+        rows = pages.get("data") or []
+        if rows:
+            lines.append("  Pages this token can use  :")
+            for pg in rows:
+                lines.append(f"      {pg.get('id')}  {pg.get('name')}  "
+                             f"token={'yes' if pg.get('access_token') else 'NO'}")
+        else:
+            lines.append("  Pages this token can use  : NONE")
+    except GraphError as probe:
+        lines.append(f"  Pages this token can use  : listing failed -- {probe}")
+
+    try:
+        debug = _graph("debug_token", token, {"input_token": token}).get("data", {})
+        scopes = set(debug.get("scopes") or [])
+        lines.append(f"  token type                : {debug.get('type')}")
+        lines.append(f"  scopes granted            : {', '.join(sorted(scopes)) or 'NONE'}")
+        missing = [s for s in _NEEDED_SCOPES if s not in scopes]
+        if missing:
+            lines.append(f"  MISSING SCOPES            : {', '.join(missing)}")
+    except GraphError as probe:
+        lines.append(f"  token debug               : failed -- {probe}")
+
+    lines += ["", "  Read it like this:",
+              "   * Pages listed as NONE, or the Page missing from the list -> the",
+              "     system user does not have the Page. Business settings > Users >",
+              "     System users > social-poster > Add assets > Pages.",
+              "   * Page listed but token=NO, or scopes missing -> regenerate the",
+              "     token with every scope above ticked. Scopes are fixed when the",
+              "     token is made; assigning assets afterwards does not add them.",
+              "   * META_PAGE_ID resolving to something other than 'page' -> the",
+              "     secret holds the wrong id (the App ID is the usual mix-up)."]
+    return "\n".join(lines)
+
 
 def _accounts(token: str, page_id: str) -> dict:
     """Resolve the Page token and the linked Instagram account in one call.
@@ -170,21 +229,7 @@ def _accounts(token: str, page_id: str) -> dict:
         # separates them definitively.
         if _NO_TOKEN_FIELD not in str(exc):
             raise
-        kind = _node_kind(token, page_id)
-        if kind and kind != "page":
-            raise GraphError(
-                f"META_PAGE_ID points at a Graph object of type '{kind}', not a "
-                f"page, so there is no access_token on it to read. The App ID "
-                f"printed across the top of developers.facebook.com is the "
-                f"usual thing pasted here by mistake. The Page ID is the number "
-                f"under the Page's own name in Business settings > Accounts > "
-                f"Pages.") from None
-        raise GraphError(
-            f"Page {page_id} exists but exposes no access_token to this token, "
-            f"which means the system user has not been given the Page. Business "
-            f"settings > Users > System users > social-poster > Add assets > "
-            f"Pages > your Page, with the 'Manage Page' content task ticked. "
-            f"Assigning only the App is the easy half to stop at.") from None
+        raise GraphError(_diagnose(token, page_id, exc)) from None
 
     if not node.get("access_token"):
         raise GraphError(
