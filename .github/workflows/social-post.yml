@@ -7,27 +7,35 @@ name: Daily social post
 # must never be able to post garbage. Neither one can fail the other here.
 
 on:
-  # Resumed 2026-08-28 after a few days of hand-posting warmed up both
-  # brand-new accounts (see git history for the pause). Was paused because
-  # an account's first-ever activity being an API post is the profile most
-  # likely to get flagged; both accounts now carry real, human-posted
-  # history, so that risk is gone.
+  # Two posts a day since 2026-08-31, each with distinct picks -- see
+  # already_posted_today() in social_post.py, which hard-excludes anything
+  # the earlier slot already featured. Times are Dallas wall-clock, pinned to
+  # CDT (UTC-5, the offset in effect when these were chosen): 13:00 UTC =
+  # 8:00 AM, 17:00 UTC = 12:00 PM. GitHub Actions cron has no timezone
+  # concept, so once Dallas falls back to CST (UTC-6) in November both slots
+  # read an hour earlier on the clock -- 7:00 AM / 11:00 AM -- until DST
+  # resumes. This is the same tolerance fetch-events.yml already accepts for
+  # its own "3-4 AM Dallas" / "11 AM-noon Dallas" cron comments; a
+  # timezone-correct schedule would need a wrapper that checks the date and
+  # no-ops on the wrong hour, which is more machinery than an hour of seasonal
+  # drift on a marketing post has ever justified.
+  #
+  # The 17:00 UTC slot exactly matches fetch-events.yml's second (catch-up)
+  # cron. That is a known, accepted overlap, not an oversight: both jobs
+  # already push through push-with-retry.sh, which rebases and retries rather
+  # than failing, so a same-minute collision costs a few seconds of retry, not
+  # a broken run. Whichever side of the race the midday post lands on, it
+  # still reads a live-events.json from within the last few hours.
   schedule:
-    # 18:30 UTC = 1:30 PM Dallas. Two constraints pin this slot:
-    #   * AFTER the nightly fetch. fetch-events.yml runs at 09:00 and 17:00
-    #     UTC and takes several minutes (Dallasites101 alone sleeps 2s per
-    #     event page), so this leaves ~90 minutes of headroom and reads the
-    #     live-events.json that run committed.
-    #   * NOT between 00:00 and 05:00 UTC. social_post.py._today() uses the
-    #     UTC date so it agrees with write_hubs(), and Dallas is UTC-5/-6 --
-    #     inside that band the post would advertise tomorrow's picks and link
-    #     at a /tonight/ page still showing today's.
-    # Unlike the nightly fetch there is no second attempt: GitHub sometimes
-    # drops a scheduled run entirely, and a missed post is a missed post. A
-    # retry slot would risk posting yesterday's picks after midnight UTC.
-    - cron: "30 18 * * *"
+    - cron: "0 13 * * *"   # ~8:00 AM Dallas -- "morning" slot
+    - cron: "0 17 * * *"   # ~12:00 PM Dallas -- "midday" slot
   workflow_dispatch:
     inputs:
+      slot:
+        description: "Which of the day's two posts to run (ignored on a schedule -- that's inferred from which cron fired)"
+        type: choice
+        options: [morning, midday]
+        default: midday
       dry_run:
         description: "Build the card and captions, print them, post nothing"
         type: boolean
@@ -36,10 +44,14 @@ on:
 permissions:
   contents: write
 
-# A manual dispatch during the scheduled run would otherwise race on the same
-# push, and both would try to post. Never cancel in flight: a run killed
-# between the Facebook post and the Instagram post loses the log entry that
-# stops the next run reposting to Facebook.
+# Kept as ONE shared group (not per-slot) on purpose: the two slots still
+# commit to the same social/ directory in the same working tree, and never
+# running two of these jobs at once is simpler to reason about than relying
+# on push-with-retry.sh to untangle a genuine concurrent push. They are hours
+# apart on the real schedule, so this only ever matters for a manual dispatch
+# landing mid-run. Never cancel in flight: a run killed between the Facebook
+# post and the Instagram post loses the log entry that stops the next run
+# reposting to Facebook.
 concurrency:
   group: social-post
   cancel-in-progress: false
@@ -60,6 +72,21 @@ jobs:
       - name: Install Pillow
         run: pip install --disable-pip-version-check "Pillow~=12.3"
 
+      # github.event.schedule carries the exact cron string that fired, which
+      # is the one reliable way to know which slot a scheduled run is -- wall-
+      # clock time at the moment the job actually starts running can slip by
+      # minutes under GitHub's own queuing delay. Only workflow_dispatch has
+      # no schedule string, so that's the one case that falls back to the
+      # manual `slot` input.
+      - name: Determine slot
+        id: slot
+        run: |
+          case "${{ github.event.schedule }}" in
+            "0 13 * * *") echo "slot=morning" >> "$GITHUB_OUTPUT" ;;
+            "0 17 * * *") echo "slot=midday" >> "$GITHUB_OUTPUT" ;;
+            *) echo "slot=${{ inputs.slot }}" >> "$GITHUB_OUTPUT" ;;
+          esac
+
       - name: Pick events and render the card
         id: build
         # The secrets are in scope here only so build can tell "not set up
@@ -70,6 +97,7 @@ jobs:
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
         run: |
           python scripts/social_post.py build \
+            --slot "${{ steps.slot.outputs.slot }}" \
             --plan "$RUNNER_TEMP/plan.json" \
             --font-cache "$RUNNER_TEMP/fonts"
           if python -c "import json,sys; sys.exit(0 if json.load(open('$RUNNER_TEMP/plan.json')).get('skip') else 1)"; then
@@ -94,7 +122,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Card unchanged."
           else
-            git commit -m "chore: social card for $(date -u +%F)"
+            git commit -m "chore: social card for $(date -u +%F) [${{ steps.slot.outputs.slot }}]"
             ./.github/push-with-retry.sh
           fi
 
@@ -120,6 +148,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Log unchanged."
           else
-            git commit -m "chore: social post log for $(date -u +%F)"
+            git commit -m "chore: social post log for $(date -u +%F) [${{ steps.slot.outputs.slot }}]"
             ./.github/push-with-retry.sh
           fi

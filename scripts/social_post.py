@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
-"""Posts one "tonight in DFW" pick-list a day to the Facebook Page and the
-linked Instagram Business account. Driven by .github/workflows/social-post.yml.
+"""Posts two pick-lists a day -- "morning" and "midday" -- to the Facebook
+Page and the linked Instagram Business account. Driven by
+.github/workflows/social-post.yml.
 
 Deliberately a SEPARATE script and a separate workflow from fetch_events.py:
 a Meta outage, an expired token or a rate limit must never be able to block
 the nightly event refresh, and a collapsed feed must never post garbage. This
 one only ever READS live-events.json.
 
-    python scripts/social_post.py check                 credentials + linkage
-    python scripts/social_post.py build  --plan P       pick, render, write P
-    python scripts/social_post.py publish --plan P      post it, log it
+    python scripts/social_post.py check                        credentials + linkage
+    python scripts/social_post.py build  --slot S --plan P     pick, render, write P
+    python scripts/social_post.py publish --slot S --plan P    post it, log it
+
+`--slot` is one of SLOT_ORDER ("morning", "midday") and is required on build
+and publish -- see SLOTS below for what distinguishes them.
 
 build and publish are split because Instagram cannot be handed image bytes.
 Its Content Publishing API takes an `image_url` that Meta's servers fetch
@@ -32,7 +36,8 @@ and a preflight that can tell "not linked" from "wrong id".
 
 RATE LIMITS, checked against Meta's docs on 2026-08-28: Instagram allows 100
 API-published posts per rolling 24 hours, queryable at
-/{ig-id}/content_publishing_limit, which `check` prints. This posts once.
+/{ig-id}/content_publishing_limit, which `check` prints. Two slots a day is
+nowhere near that.
 """
 
 from __future__ import annotations
@@ -75,6 +80,16 @@ POSTED_FILE = ROOT / "social" / "posted.json"
 # time -- pruning a card does not blank out a live post.
 KEEP_DAYS = 60
 PICKS = 3
+
+# Two posts a day, each with its own card headline. Order matters: it is how
+# same-day de-duplication (already_posted_today(), recent_venues()) decides
+# which slot(s) count as "already happened today" when a later slot builds --
+# a slot only ever looks at slots earlier than itself in this tuple, never
+# itself or one that hasn't run yet. The actual times live in
+# social-post.yml's cron, not here, so there is exactly one place that can
+# drift out of sync with reality instead of two.
+SLOTS = {"morning": "DFW Today", "midday": "Tonight in DFW"}
+SLOT_ORDER = tuple(SLOTS)
 
 
 # ------------------------------------------------------------ graph client
@@ -295,7 +310,8 @@ def _hour(ev: dict) -> int | None:
     return hour + (12 if m.group(3).lower() == "p" else 0)
 
 
-def select_picks(events: list[dict], today: str, recent_venues: set[str]) -> list[dict]:
+def select_picks(events: list[dict], today: str, recent_venues: set[str],
+                  exclude_names: frozenset[str] = frozenset()) -> list[dict]:
     """Rank today's events and take up to PICKS, spread across categories.
 
     The scoring is all proxies, because live-events.json carries no
@@ -324,13 +340,21 @@ def select_picks(events: list[dict], today: str, recent_venues: set[str]) -> lis
     weights, because a constraint is easier to reason about than a tuned
     number: three arena concerts is a worse post than a concert, a game and a
     festival, whatever the individual scores say.
+
+    `exclude_names` is how the day's second post is guaranteed never to repeat
+    the first's: it is a hard filter, applied before scoring, of
+    F._norm_name() values already picked earlier the same day. Unlike
+    recent_venues (a soft -6, so a repeat is merely disfavored across days)
+    this one is absolute -- the same event cannot be featured twice on the
+    same day even if nothing else on the feed comes close to its score.
     """
     runs = {}
     for ev in events:                       # how many distinct dates each name runs
         runs.setdefault(F._norm_name(ev["name"]), set()).add(ev["date"])
 
     scored = []
-    for ev in [e for e in events if e["date"] == today]:
+    for ev in [e for e in events if e["date"] == today
+               and F._norm_name(e["name"]) not in exclude_names]:
         venue, _street, _city = F._split_area(ev["area"])
         slug = F._venue_slug(venue or "")
         district = F._slugify_matches(ev["area"])
@@ -406,8 +430,15 @@ def _line(pick: dict, index: int) -> str:
             f"     {ev['time']} · {F._display_area(ev['area'])}")
 
 
-def compose(picks: list[dict], today: str) -> dict:
-    """Facebook and Instagram captions.
+# CTA phrasing differs by slot for the same reason the headline does: an 8 AM
+# post saying "all of TONIGHT" reads oddly next to a pick that's an 8 AM tea
+# tasting. Both still link to /tonight/ -- it's the site's own hub for
+# "today's events" regardless of time of day, there's no separate /today/.
+_CTA = {"morning": "See everything on today", "midday": "All of tonight"}
+
+
+def compose(picks: list[dict], today: str, slot: str) -> dict:
+    """Facebook and Instagram captions for one of SLOTS.
 
     Same voice as the page -- slash kickers, caps, no adjectives (see
     index.html's hero and the hub headings in fetch_events.py). Instagram gets
@@ -415,7 +446,8 @@ def compose(picks: list[dict], today: str) -> dict:
     Facebook gets the real URLs.
     """
     stamp = datetime.strptime(today, "%Y-%m-%d")
-    head = f"TONIGHT IN DFW — {stamp.strftime('%a %b %d').upper()}"
+    label = SLOTS[slot]
+    head = f"{label.upper()} — {stamp.strftime('%a %b %d').upper()}"
     body = "\n".join(_line(p, i) for i, p in enumerate(picks, 1))
 
     top = picks[0]
@@ -425,7 +457,7 @@ def compose(picks: list[dict], today: str) -> dict:
     elif top["district"] and _page_exists(f"district/{top['district']}"):
         deep = f"{SITE}/district/{top['district']}/"
 
-    fb = f"{head}\n\n{body}\n\nAll of tonight → {SITE}/tonight/"
+    fb = f"{head}\n\n{body}\n\n{_CTA[slot]} → {SITE}/tonight/"
     if deep:
         fb += f"\nMore at {top['venue'] or top['district']} → {deep}"
 
@@ -444,18 +476,36 @@ def compose(picks: list[dict], today: str) -> dict:
     if len(ig) > 2200:
         ig = ig[:2197].rstrip() + "..."
     return {"facebook": fb, "instagram": ig,
-            "headline": "Tonight in DFW",
+            "headline": label,
             "datestamp": stamp.strftime("%a · %b %d · %Y")}
 
 
 # --------------------------------------------------------------- posted log
 def load_posted() -> dict:
-    if POSTED_FILE.exists():
-        try:
-            return json.loads(POSTED_FILE.read_text())
-        except ValueError:
-            print("  posted.json unreadable; treating as empty", file=sys.stderr)
-    return {}
+    """Read social/posted.json, migrating the pre-2026-08-31 single-post-a-day
+    shape (date -> {facebook, instagram, picks, venues}) to the slotted one
+    (date -> slot -> {...}) on the fly.
+
+    A day is detected as legacy-shaped when its value has no SLOT_ORDER key at
+    the second level -- i.e. it looks like an entry, not a dict of entries.
+    Folded into "midday", the new slot closest in time to the old single
+    18:30 UTC run. This never touches the file on disk; a day only gets
+    rewritten in the new shape once something posts for it again.
+    """
+    if not POSTED_FILE.exists():
+        return {}
+    try:
+        raw = json.loads(POSTED_FILE.read_text())
+    except ValueError:
+        print("  posted.json unreadable; treating as empty", file=sys.stderr)
+        return {}
+    migrated = {}
+    for date, entry in raw.items():
+        if isinstance(entry, dict) and any(k in SLOT_ORDER for k in entry):
+            migrated[date] = entry
+        else:
+            migrated[date] = {"midday": entry}
+    return migrated
 
 
 def save_posted(log: dict) -> None:
@@ -465,10 +515,36 @@ def save_posted(log: dict) -> None:
     POSTED_FILE.write_text(json.dumps(trimmed, indent=1, sort_keys=True) + "\n")
 
 
-def recent_venues(log: dict, today: str, days: int = 7) -> set[str]:
+def _entries_before(log: dict, today: str, slot: str):
+    """Yield every logged entry that should count as "already happened" from
+    the point of view of building `slot` on `today`: every entry on an
+    earlier date, and -- for today itself -- only the slots that come before
+    `slot` in SLOT_ORDER. A slot must never see itself (it hasn't run yet at
+    build time) or a slot later in the day that also hasn't run.
+    """
+    idx = SLOT_ORDER.index(slot)
+    for date, slots in log.items():
+        for s, entry in slots.items():
+            if date == today and SLOT_ORDER.index(s) >= idx:
+                continue
+            yield date, entry
+
+
+def recent_venues(log: dict, today: str, slot: str, days: int = 7) -> set[str]:
     since = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=days)).strftime("%Y-%m-%d")
-    return {v.lower() for date, entry in log.items() if since <= date < today
-            for v in entry.get("venues", []) if v}
+    return {v.lower() for date, entry in _entries_before(log, today, slot)
+            if since <= date <= today for v in entry.get("venues", []) if v}
+
+
+def already_posted_today(log: dict, today: str, slot: str) -> frozenset[str]:
+    """Normalized names of events already picked earlier TODAY (in a slot
+    before this one), so this slot can never repeat one of them -- see
+    select_picks()'s exclude_names. Checked against `picks`, which
+    cmd_publish() writes unconditionally before either platform is attempted,
+    so this still excludes correctly even if the earlier slot's post failed.
+    """
+    return frozenset(F._norm_name(n) for date, entry in _entries_before(log, today, slot)
+                     if date == today for n in entry.get("picks", []))
 
 
 def prune_cards(today: str) -> int:
@@ -622,26 +698,31 @@ def cmd_build(args) -> int:
         Path(args.plan).write_text(json.dumps({"skip": "not configured"}) + "\n")
         return 0
 
-    today = _today()
+    today, slot = _today(), args.slot
     log = load_posted()
-    done = log.get(today, {})
+    done = log.get(today, {}).get(slot, {})
     if done.get("facebook") and done.get("instagram"):
-        print(f"already posted for {today} (fb={done['facebook']['id']} "
+        print(f"already posted {slot} for {today} (fb={done['facebook']['id']} "
               f"ig={done['instagram']['id']}); nothing to do")
         Path(args.plan).write_text(json.dumps({"skip": "already posted"}) + "\n")
         return 0
 
     events = json.loads((ROOT / "live-events.json").read_text())
-    picks = select_picks(events, today, recent_venues(log, today))
+    exclude = already_posted_today(log, today, slot)
+    picks = select_picks(events, today, recent_venues(log, today, slot),
+                         exclude_names=exclude)
     if not picks:
-        # Not an error. DFW has quiet Mondays, and a run that posted an empty
-        # card would be worse than a run that posted nothing.
-        print(f"no events for {today}; nothing to post")
-        Path(args.plan).write_text(json.dumps({"skip": "no events"}) + "\n")
+        # Not an error either way. DFW has quiet Mondays (no events), and on
+        # a thin day the earlier slot can plausibly claim everything worth
+        # posting (exhausted) -- a run that posted an empty or repeat card
+        # would be worse than a run that posted nothing.
+        reason = "no distinct events left today" if exclude else "no events"
+        print(f"{reason} for {today} [{slot}]; nothing to post")
+        Path(args.plan).write_text(json.dumps({"skip": reason}) + "\n")
         return 0
 
-    text = compose(picks, today)
-    card = CARD_DIR / f"{today}.jpg"
+    text = compose(picks, today, slot)
+    card = CARD_DIR / f"{today}-{slot}.jpg"
     rows = [{"name": p["event"]["name"],
              "meta": f"{p['event']['time']} · {F._display_area(p['event']['area'])}",
              "tag": CATEGORY_LABEL.get(p["event"]["category"], p["event"]["category"])}
@@ -651,15 +732,15 @@ def cmd_build(args) -> int:
     social_card.verify_card(card)
     removed = prune_cards(today)
 
-    plan = {"date": today, "card": str(card.relative_to(ROOT)),
-            "card_url": f"{SITE}/social/cards/{today}.jpg",
+    plan = {"date": today, "slot": slot, "card": str(card.relative_to(ROOT)),
+            "card_url": f"{SITE}/social/cards/{today}-{slot}.jpg",
             "card_bytes": card.stat().st_size,
             "facebook": text["facebook"], "instagram": text["instagram"],
             "picks": [p["event"]["name"] for p in picks],
             "venues": [p["venue"] for p in picks if p["venue"]],
             "scores": [p["score"] for p in picks]}
     Path(args.plan).write_text(json.dumps(plan, indent=1, ensure_ascii=False) + "\n")
-    print(f"picked {len(picks)} for {today} (scores {plan['scores']}):")
+    print(f"picked {len(picks)} for {today} [{slot}] (scores {plan['scores']}):")
     for name in plan["picks"]:
         print(f"  - {name}")
     if removed:
@@ -693,8 +774,8 @@ def cmd_publish(args) -> int:
               f"{acct['page_name']} / @{acct['ig_username']}")
         print(f"dry run: would post {plan['card_url']} to both platforms")
         return 0
-    today, log = plan["date"], load_posted()
-    entry = log.setdefault(today, {})
+    today, slot, log = plan["date"], plan["slot"], load_posted()
+    entry = log.setdefault(today, {}).setdefault(slot, {})
     entry["picks"], entry["venues"] = plan["picks"], plan["venues"]
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -744,6 +825,11 @@ def main() -> int:
         p = sub.add_parser(name)
         p.add_argument("--plan", default="social-plan.json")
         if name == "build":
+            # publish takes no --slot: it reads "slot" back out of the plan
+            # file build wrote, which is the one place that value should
+            # live. A second copy on the CLI could disagree with the plan
+            # and nothing would ever catch it.
+            p.add_argument("--slot", required=True, choices=SLOT_ORDER)
             p.add_argument("--font-cache", default=".font-cache")
         else:
             p.add_argument("--dry-run", action="store_true")

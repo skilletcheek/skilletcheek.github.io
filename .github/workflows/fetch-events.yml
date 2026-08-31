@@ -55,8 +55,10 @@ jobs:
           else
             git commit -m "chore: nightly refresh of live-events.json"
             # Rebase-and-retry rather than a bare push: social-post.yml also
-            # pushes to main now (18:30 UTC), and either workflow can be
-            # delayed or manually dispatched onto the other. A rejected push
-            # here would throw away the whole night's regenerate.
+            # pushes to main now, twice a day (13:00 and 17:00 UTC -- the
+            # second exactly matches this workflow's own catch-up cron below,
+            # deliberately), and either workflow can be delayed or manually
+            # dispatched onto the other. A rejected push here would throw
+            # away the whole night's regenerate.
             ./.github/push-with-retry.sh
           fi

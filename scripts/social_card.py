@@ -188,12 +188,18 @@ def render_card(headline: str, datestamp: str, picks: list[dict],
     d.line([(PAD, PAD), (PAD + 92, PAD)], fill=EM, width=3)
     _tracked(d, (PAD, PAD + 22), "/ LETS DO IT DALLAS", mono(23), EM, 3.4)
 
-    # ---- headline. Two lines max; "TONIGHT IN DALLAS-FORT WORTH" needs both.
+    # ---- headline. Two lines max; "TONIGHT IN DALLAS-FORT WORTH" needs both,
+    # but a short one-line headline ("DFW TODAY") still reserves the same
+    # two-line height -- otherwise the listings start higher up and the card
+    # reads as unbalanced next to a two-line headline's card, which matters
+    # now that two different slot headlines both have to look right.
     y = PAD + 92
     hfont = disp(96)
-    for line in _wrap(headline.upper(), hfont, W - PAD * 2, 2):
+    lines = _wrap(headline.upper(), hfont, W - PAD * 2, 2)
+    for line in lines:
         d.text((PAD, y), line, font=hfont, fill=WHITE)
         y += 104
+    y += 104 * (2 - len(lines))
     y += 6
     _tracked(d, (PAD, y), datestamp.upper(), mono(25), SILVER, 4.0)
 

@@ -218,10 +218,10 @@ diverge. Add a field in both places.
 
 ## Daily social post
 
-`.github/workflows/social-post.yml` posts one "tonight in DFW" pick-list a day
-to the Facebook Page and the linked Instagram Business account, from
-`live-events.json`. `scripts/social_post.py` is the whole thing;
-`scripts/social_card.py` only draws the image.
+`.github/workflows/social-post.yml` posts two pick-lists a day -- "morning"
+and "midday" -- to the Facebook Page and the linked Instagram Business
+account, from `live-events.json`. `scripts/social_post.py` is the whole
+thing; `scripts/social_card.py` only draws the image.
 
 **It is a separate workflow on purpose.** The nightly refresh is the site;
 this is marketing. A dead Meta token or an Instagram outage must never be able
@@ -252,7 +252,7 @@ forever. `verify_card()` asserts every constraint in the media spec locally,
 because a bad container comes back as a generic "media upload failed" with no
 field naming the reason.
 
-**Idempotency is keyed on date + platform**, in `social/posted.json`, written
+**Idempotency is keyed on date + slot + platform**, in `social/posted.json`, written
 back after *each* platform. A Facebook-succeeded/Instagram-failed run exits
 non-zero but records the Facebook id, so the retry only retries Instagram.
 This is why the "Commit the posted log" step is `if: always()` — losing that
@@ -280,11 +280,35 @@ deleting one of two leaves the other behind. `_creds(allow_unconfigured=)` is
 the switch; `check` never takes the quiet path.
 
 **The schedule is live** — resumed 2026-08-31 after a few days of hand-posting
-warmed up both brand-new accounts, the risk the pause existed for. Runs daily
-at 18:30 UTC, verified against the real Meta setup. To pause it again (e.g. a
-new account needs warming up), comment out the `cron:` line in
+warmed up both brand-new accounts, the risk the pause existed for. To pause it
+again (e.g. a new account needs warming up), comment out both `cron:` lines in
 `social-post.yml`'s `schedule:` block — `workflow_dispatch` still works for a
 dry run either way.
+
+**Two posts a day, never the same events.** `morning` runs ~8:00 AM Dallas
+(13:00 UTC), `midday` ~12:00 PM Dallas (17:00 UTC) — both pinned to CDT; once
+Dallas falls back to CST in November both read an hour earlier on the clock
+until DST resumes, the same tolerance already accepted for
+`fetch-events.yml`'s own cron comments. The 17:00 UTC slot deliberately
+overlaps `fetch-events.yml`'s catch-up cron; both jobs push through
+`push-with-retry.sh`, so the collision costs a retry, not a broken run.
+`github.event.schedule` in the workflow tells the job which cron fired, since
+wall-clock time at job start can slip under GitHub's own queuing delay; a
+manual dispatch has no schedule string, so it falls back to a `slot` input.
+
+A day's second slot must never repeat the first's picks, so
+`social/posted.json` is nested `date -> slot -> {facebook, instagram, picks,
+venues}`, and `already_posted_today()` hard-excludes (in `select_picks()`,
+before scoring even starts) any event a same-day earlier slot already
+featured — see that function's docstring for why this is a hard filter and
+not the same -6 soft penalty `recent_venues` applies across days. On a day
+thin enough that the second slot has nothing left to post, it skips cleanly
+rather than repeating the first slot's picks or posting an empty card. Cards
+are named `<date>-<slot>.jpg` so the two posts never share a file.
+`load_posted()` migrates the pre-2026-08-31 flat one-post-a-day shape
+on read, folding a legacy day into `"midday"` (the closest slot in time to
+the old single 18:30 UTC run) without rewriting the file until something
+posts for that day again.
 
 What breaks it:
 
