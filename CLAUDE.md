@@ -279,10 +279,12 @@ present but rejected. Deleting a secret later still fails loudly, because
 deleting one of two leaves the other behind. `_creds(allow_unconfigured=)` is
 the switch; `check` never takes the quiet path.
 
-**The schedule is currently PAUSED** — the cron in `social-post.yml` is
-commented out while the two brand-new accounts are warmed up by hand.
-Everything else is live and verified against the real Meta setup on
-2026-08-28. Uncomment the cron to resume; nothing else changes.
+**The schedule is live** — resumed 2026-08-31 after a few days of hand-posting
+warmed up both brand-new accounts, the risk the pause existed for. Runs daily
+at 18:30 UTC, verified against the real Meta setup. To pause it again (e.g. a
+new account needs warming up), comment out the `cron:` line in
+`social-post.yml`'s `schedule:` block — `workflow_dispatch` still works for a
+dry run either way.
 
 What breaks it:
 
