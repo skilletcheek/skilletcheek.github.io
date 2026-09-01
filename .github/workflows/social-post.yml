@@ -20,15 +20,25 @@ on:
   # no-ops on the wrong hour, which is more machinery than an hour of seasonal
   # drift on a marketing post has ever justified.
   #
-  # The 17:00 UTC slot exactly matches fetch-events.yml's second (catch-up)
-  # cron. That is a known, accepted overlap, not an oversight: both jobs
-  # already push through push-with-retry.sh, which rebases and retries rather
-  # than failing, so a same-minute collision costs a few seconds of retry, not
-  # a broken run. Whichever side of the race the midday post lands on, it
-  # still reads a live-events.json from within the last few hours.
+  # EACH slot gets a PRIMARY cron and a CATCH-UP cron ~1.5h later, the same
+  # self-heal shape fetch-events.yml uses -- and needed for the same reason,
+  # proven the first two days this ran: on 2026-08-31 the only schedule-
+  # triggered run fired 4h42m late, and on 2026-09-01 the "morning" cron fired
+  # 4h07m late while "midday" never fired at all as of 1h42m past due. GitHub
+  # does not guarantee scheduled runs land on time, or at all, under load.
+  # The catch-up is a genuine second attempt, not just a later primary: build
+  # is idempotent per (date, slot) (see already_posted_today() /
+  # cmd_build()'s "already posted" skip), so if the primary already posted,
+  # the catch-up finds that and no-ops; if the primary was dropped or is
+  # still queued, the catch-up does the real work instead. 1.5h leaves the
+  # catch-up comfortably clear of the OTHER slot's own primary (morning's
+  # catch-up at 14:30 UTC, well before midday's 17:00; midday's catch-up at
+  # 18:30 UTC, well clear of tomorrow's 13:00).
   schedule:
-    - cron: "0 13 * * *"   # ~8:00 AM Dallas -- "morning" slot
-    - cron: "0 17 * * *"   # ~12:00 PM Dallas -- "midday" slot
+    - cron: "0 13 * * *"    # ~8:00 AM Dallas -- "morning" primary
+    - cron: "30 14 * * *"   # ~9:30 AM Dallas -- "morning" catch-up
+    - cron: "0 17 * * *"    # ~12:00 PM Dallas -- "midday" primary
+    - cron: "30 18 * * *"   # ~1:30 PM Dallas -- "midday" catch-up
   workflow_dispatch:
     inputs:
       slot:
@@ -75,15 +85,19 @@ jobs:
       # github.event.schedule carries the exact cron string that fired, which
       # is the one reliable way to know which slot a scheduled run is -- wall-
       # clock time at the moment the job actually starts running can slip by
-      # minutes under GitHub's own queuing delay. Only workflow_dispatch has
-      # no schedule string, so that's the one case that falls back to the
-      # manual `slot` input.
+      # HOURS under GitHub's own queuing delay (measured, not theoretical --
+      # see the schedule: comment above), so a run landing near 17:00 UTC is
+      # not proof it was the midday cron; it could be morning, badly late.
+      # Only workflow_dispatch has no schedule string, so that's the one case
+      # that falls back to the manual `slot` input.
       - name: Determine slot
         id: slot
         run: |
           case "${{ github.event.schedule }}" in
-            "0 13 * * *") echo "slot=morning" >> "$GITHUB_OUTPUT" ;;
-            "0 17 * * *") echo "slot=midday" >> "$GITHUB_OUTPUT" ;;
+            "0 13 * * *")  echo "slot=morning" >> "$GITHUB_OUTPUT" ;;
+            "30 14 * * *") echo "slot=morning" >> "$GITHUB_OUTPUT" ;;
+            "0 17 * * *")  echo "slot=midday" >> "$GITHUB_OUTPUT" ;;
+            "30 18 * * *") echo "slot=midday" >> "$GITHUB_OUTPUT" ;;
             *) echo "slot=${{ inputs.slot }}" >> "$GITHUB_OUTPUT" ;;
           esac
 

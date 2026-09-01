@@ -292,9 +292,26 @@ until DST resumes, the same tolerance already accepted for
 `fetch-events.yml`'s own cron comments. The 17:00 UTC slot deliberately
 overlaps `fetch-events.yml`'s catch-up cron; both jobs push through
 `push-with-retry.sh`, so the collision costs a retry, not a broken run.
-`github.event.schedule` in the workflow tells the job which cron fired, since
-wall-clock time at job start can slip under GitHub's own queuing delay; a
-manual dispatch has no schedule string, so it falls back to a `slot` input.
+`github.event.schedule` in the workflow tells the job which cron fired --
+**this is load-bearing, not cosmetic**: a run landing near 17:00 UTC is not
+proof it was the midday cron, it could be a badly-delayed morning one, which
+is exactly what happened on 2026-09-01 (see below). A manual dispatch has no
+schedule string, so it falls back to a `slot` input.
+
+**Each slot has a catch-up cron too**, ~1.5h after its primary (morning:
+13:00 + 14:30 UTC catch-up; midday: 17:00 + 18:30 UTC catch-up) — the same
+self-heal shape `fetch-events.yml` uses, added after the first two days of
+real operation proved it necessary: 2026-08-31's only schedule-triggered run
+fired 4h42m late, and on 2026-09-01 the morning cron fired 4h07m late while
+midday never fired at all as of 1h42m past due (both posted manually instead
+that day). The catch-up works because build is idempotent per (date, slot) --
+if the primary already posted, the catch-up's `already posted` check no-ops
+it; if the primary was dropped or still queued, the catch-up does the real
+work. The original single-cron-per-slot design accepted "a missed post is a
+missed post" as the tradeoff for never risking a stale retry after midnight
+UTC; two days of real data showed that tradeoff firing far more than a
+one-cron design can absorb, so a slot now gets two independent chances before
+that's actually true.
 
 A day's second slot must never repeat the first's picks, so
 `social/posted.json` is nested `date -> slot -> {facebook, instagram, picks,
