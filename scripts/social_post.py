@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Posts two pick-lists a day -- "morning" and "midday" -- to the Facebook
-Page and the linked Instagram Business account. Driven by
+"""Posts three pick-lists a day -- "morning", "midday" and "afternoon" -- to
+the Facebook Page and the linked Instagram Business account. Driven by
 .github/workflows/social-post.yml.
 
 Deliberately a SEPARATE script and a separate workflow from fetch_events.py:
@@ -12,7 +12,7 @@ one only ever READS live-events.json.
     python scripts/social_post.py build  --slot S --plan P     pick, render, write P
     python scripts/social_post.py publish --slot S --plan P    post it, log it
 
-`--slot` is one of SLOT_ORDER ("morning", "midday") and is required on build
+`--slot` is one of SLOT_ORDER ("morning", "midday", "afternoon") and is required on build
 and publish -- see SLOTS below for what distinguishes them.
 
 build and publish are split because Instagram cannot be handed image bytes.
@@ -36,7 +36,7 @@ and a preflight that can tell "not linked" from "wrong id".
 
 RATE LIMITS, checked against Meta's docs on 2026-08-28: Instagram allows 100
 API-published posts per rolling 24 hours, queryable at
-/{ig-id}/content_publishing_limit, which `check` prints. Two slots a day is
+/{ig-id}/content_publishing_limit, which `check` prints. Three slots a day is
 nowhere near that.
 """
 
@@ -81,14 +81,15 @@ POSTED_FILE = ROOT / "social" / "posted.json"
 KEEP_DAYS = 60
 PICKS = 3
 
-# Two posts a day, each with its own card headline. Order matters: it is how
+# Three posts a day, each with its own card headline. Order matters: it is how
 # same-day de-duplication (already_posted_today(), recent_venues()) decides
 # which slot(s) count as "already happened today" when a later slot builds --
 # a slot only ever looks at slots earlier than itself in this tuple, never
 # itself or one that hasn't run yet. The actual times live in
 # social-post.yml's cron, not here, so there is exactly one place that can
 # drift out of sync with reality instead of two.
-SLOTS = {"morning": "DFW Today", "midday": "Tonight in DFW"}
+SLOTS = {"morning": "DFW Today", "midday": "DFW This Afternoon",
+         "afternoon": "Tonight in DFW"}
 SLOT_ORDER = tuple(SLOTS)
 
 
@@ -434,7 +435,9 @@ def _line(pick: dict, index: int) -> str:
 # post saying "all of TONIGHT" reads oddly next to a pick that's an 8 AM tea
 # tasting. Both still link to /tonight/ -- it's the site's own hub for
 # "today's events" regardless of time of day, there's no separate /today/.
-_CTA = {"morning": "See everything on today", "midday": "All of tonight"}
+_CTA = {"morning": "See everything on today",
+        "midday": "See what's on this afternoon",
+        "afternoon": "All of tonight"}
 
 
 def compose(picks: list[dict], today: str, slot: str) -> dict:

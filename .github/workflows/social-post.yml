@@ -7,56 +7,65 @@ name: Daily social post
 # must never be able to post garbage. Neither one can fail the other here.
 
 on:
-  # Two posts a day since 2026-08-31, each with distinct picks -- see
+  # Three posts a day since 2026-09-02, each with distinct picks -- see
   # already_posted_today() in social_post.py, which hard-excludes anything
-  # the earlier slot already featured. Times are Dallas wall-clock, pinned to
-  # CDT (UTC-5, the offset in effect when these were chosen): 13:00 UTC =
-  # 8:00 AM, 17:00 UTC = 12:00 PM. GitHub Actions cron has no timezone
-  # concept, so once Dallas falls back to CST (UTC-6) in November both slots
-  # read an hour earlier on the clock -- 7:00 AM / 11:00 AM -- until DST
-  # resumes. This is the same tolerance fetch-events.yml already accepts for
-  # its own "3-4 AM Dallas" / "11 AM-noon Dallas" cron comments; a
-  # timezone-correct schedule would need a wrapper that checks the date and
-  # no-ops on the wrong hour, which is more machinery than an hour of seasonal
-  # drift on a marketing post has ever justified.
+  # an earlier slot already featured. Target wall-clock times are Dallas
+  # CDT (UTC-5, the offset in effect when these were chosen): 8:00 AM,
+  # 12:00 PM, 3:00 PM. Once Dallas falls back to CST (UTC-6) in November
+  # every trigger below reads an hour earlier on the clock until DST
+  # resumes -- the same tolerance fetch-events.yml already accepts for its
+  # own cron comments.
   #
-  # EACH slot gets a PRIMARY cron and a CATCH-UP cron, the same self-heal
-  # shape fetch-events.yml uses. The catch-up gap is 5h, not the 1.5h first
-  # tried on 2026-09-01 -- widened after checking fetch-events.yml's OWN
-  # history (a workflow this one never touches) and finding it delayed by
-  # 2.5-5h on EVERY recorded run for at least five straight days, not just
-  # this one. That rules out "social-post.yml is somehow misconfigured": the
-  # delay is a property of scheduled Actions on this repo during these hours
-  # (roughly 4 AM-1 PM Eastern, GitHub's own peak demand window for shared
-  # runners), not a bug in either workflow. A 1.5h gap does nothing against a
-  # delay that size; 5h at least sits inside the observed range.
+  # THE CRON TIMES BELOW ARE NOT THE TARGET TIMES. Checking fetch-events.yml's
+  # own history (a workflow this one never touches) found EVERY recorded
+  # scheduled run over 8 samples delayed 2.56-5.07h behind its nominal cron
+  # time (mean 3.93h, median 4.68h) -- a property of GitHub's scheduler on
+  # this repo during roughly 4 AM-1 PM Eastern (its own peak shared-runner
+  # demand window), not a bug in either workflow. So each PRIMARY cron is
+  # scheduled ~4h BEFORE its real target, betting on that typical delay to
+  # carry the actual run to near the target instead of hours past it:
   #
-  # IMPORTANT caveat this implies: the catch-up cron is ITSELF a scheduled
-  # Actions run, so it is subject to the exact same delay distribution as the
-  # primary -- it is not a faster or more reliable trigger, just a second,
-  # independent roll of the same dice. Two draws from the same distribution
-  # land earlier than one only in expectation, not by guarantee; this does
-  # not make either post land "on time" in any strict sense, it only shrinks
-  # the chance that a whole day's slot is missed outright. If a specific day
-  # needs a post out by a real deadline, that means a manual dispatch
+  #   slot        target (CDT)   primary cron (UTC)   primary cron (CDT)
+  #   morning     8:00 AM        09:00                4:00 AM
+  #   midday      12:00 PM       13:00                8:00 AM
+  #   afternoon   3:00 PM        16:00                11:00 AM
+  #
+  # This is a best-effort correction against a noisy distribution, not a
+  # guarantee -- a below-average delay lands the post noticeably EARLY of
+  # target, an above-average one lands it noticeably LATE. Each slot still
+  # gets a CATCH-UP cron +5h after its own primary, the same self-heal
+  # shape fetch-events.yml uses and unchanged in purpose: it is a second,
+  # independent draw from the same delay distribution, not a faster or more
+  # reliable one, so it shrinks the odds a whole slot is missed outright
+  # without making any post land "on time" in a strict sense. If a specific
+  # day needs a post out by a real deadline, that means a manual dispatch
   # (Actions > Daily social post > Run workflow), not a shorter cron gap --
   # no gap this workflow can set escapes GitHub's own queuing delay.
   #
   # Build is idempotent per (date, slot) (already_posted_today() /
-  # cmd_build()'s "already posted" skip), so whichever of the two actually
-  # fires first does the real work and the other is a free no-op -- there is
-  # no cost to keeping both.
+  # cmd_build()'s "already posted" skip), so whichever of a slot's two crons
+  # actually fires first does the real work and the other is a free no-op --
+  # there is no cost to keeping both, and no risk of a double post.
+  #
+  # 09:00 UTC (morning's primary) exactly matches fetch-events.yml's own
+  # 09:00 UTC primary cron -- a known, accepted overlap between the two
+  # workflows, not a collision within this one's own case statement below
+  # (every cron string in THIS workflow is unique). Both push through
+  # push-with-retry.sh, so a same-minute collision costs a retry, not a
+  # broken run.
   schedule:
-    - cron: "0 13 * * *"   # ~8:00 AM Dallas -- "morning" primary
-    - cron: "0 18 * * *"   # ~1:00 PM Dallas -- "morning" catch-up (+5h)
-    - cron: "0 17 * * *"   # ~12:00 PM Dallas -- "midday" primary
-    - cron: "0 22 * * *"   # ~5:00 PM Dallas -- "midday" catch-up (+5h)
+    - cron: "0 9 * * *"     # morning primary  (targets 8:00 AM CDT)
+    - cron: "0 14 * * *"    # morning catch-up (+5h)
+    - cron: "0 13 * * *"    # midday primary   (targets 12:00 PM CDT)
+    - cron: "0 18 * * *"    # midday catch-up  (+5h)
+    - cron: "0 16 * * *"    # afternoon primary  (targets 3:00 PM CDT)
+    - cron: "0 21 * * *"    # afternoon catch-up (+5h)
   workflow_dispatch:
     inputs:
       slot:
-        description: "Which of the day's two posts to run (ignored on a schedule -- that's inferred from which cron fired)"
+        description: "Which of the day's three posts to run (ignored on a schedule -- that's inferred from which cron fired)"
         type: choice
-        options: [morning, midday]
+        options: [morning, midday, afternoon]
         default: midday
       dry_run:
         description: "Build the card and captions, print them, post nothing"
@@ -66,12 +75,13 @@ on:
 permissions:
   contents: write
 
-# Kept as ONE shared group (not per-slot) on purpose: the two slots still
+# Kept as ONE shared group (not per-slot) on purpose: all three slots still
 # commit to the same social/ directory in the same working tree, and never
 # running two of these jobs at once is simpler to reason about than relying
-# on push-with-retry.sh to untangle a genuine concurrent push. They are hours
-# apart on the real schedule, so this only ever matters for a manual dispatch
-# landing mid-run. Never cancel in flight: a run killed between the Facebook
+# on push-with-retry.sh to untangle a genuine concurrent push. Six crons a
+# day means less spacing between some triggers than before, so this matters
+# more than it used to -- a run is queued and waits its turn rather than
+# racing another. Never cancel in flight: a run killed between the Facebook
 # post and the Instagram post loses the log entry that stops the next run
 # reposting to Facebook.
 concurrency:
@@ -98,18 +108,21 @@ jobs:
       # is the one reliable way to know which slot a scheduled run is -- wall-
       # clock time at the moment the job actually starts running can slip by
       # HOURS under GitHub's own queuing delay (measured, not theoretical --
-      # see the schedule: comment above), so a run landing near 17:00 UTC is
-      # not proof it was the midday cron; it could be morning, badly late.
-      # Only workflow_dispatch has no schedule string, so that's the one case
-      # that falls back to the manual `slot` input.
+      # see the schedule: comment above), so a run landing near a given hour
+      # is not proof of which slot it is; the cron TIMES were deliberately
+      # shifted off the target times for exactly this reason. Only
+      # workflow_dispatch has no schedule string, so that's the one case that
+      # falls back to the manual `slot` input.
       - name: Determine slot
         id: slot
         run: |
           case "${{ github.event.schedule }}" in
-            "0 13 * * *") echo "slot=morning" >> "$GITHUB_OUTPUT" ;;
-            "0 18 * * *") echo "slot=morning" >> "$GITHUB_OUTPUT" ;;
-            "0 17 * * *") echo "slot=midday" >> "$GITHUB_OUTPUT" ;;
-            "0 22 * * *") echo "slot=midday" >> "$GITHUB_OUTPUT" ;;
+            "0 9 * * *")  echo "slot=morning" >> "$GITHUB_OUTPUT" ;;
+            "0 14 * * *") echo "slot=morning" >> "$GITHUB_OUTPUT" ;;
+            "0 13 * * *") echo "slot=midday" >> "$GITHUB_OUTPUT" ;;
+            "0 18 * * *") echo "slot=midday" >> "$GITHUB_OUTPUT" ;;
+            "0 16 * * *") echo "slot=afternoon" >> "$GITHUB_OUTPUT" ;;
+            "0 21 * * *") echo "slot=afternoon" >> "$GITHUB_OUTPUT" ;;
             *) echo "slot=${{ inputs.slot }}" >> "$GITHUB_OUTPUT" ;;
           esac
 
