@@ -298,20 +298,31 @@ proof it was the midday cron, it could be a badly-delayed morning one, which
 is exactly what happened on 2026-09-01 (see below). A manual dispatch has no
 schedule string, so it falls back to a `slot` input.
 
-**Each slot has a catch-up cron too**, ~1.5h after its primary (morning:
-13:00 + 14:30 UTC catch-up; midday: 17:00 + 18:30 UTC catch-up) — the same
+**Each slot has a catch-up cron too**, 5h after its primary (morning:
+13:00 + 18:00 UTC catch-up; midday: 17:00 + 22:00 UTC catch-up) — the same
 self-heal shape `fetch-events.yml` uses, added after the first two days of
 real operation proved it necessary: 2026-08-31's only schedule-triggered run
 fired 4h42m late, and on 2026-09-01 the morning cron fired 4h07m late while
 midday never fired at all as of 1h42m past due (both posted manually instead
-that day). The catch-up works because build is idempotent per (date, slot) --
-if the primary already posted, the catch-up's `already posted` check no-ops
-it; if the primary was dropped or still queued, the catch-up does the real
-work. The original single-cron-per-slot design accepted "a missed post is a
-missed post" as the tradeoff for never risking a stale retry after midnight
-UTC; two days of real data showed that tradeoff firing far more than a
-one-cron design can absorb, so a slot now gets two independent chances before
-that's actually true.
+that day). The gap started at 1.5h and was widened to 5h the same week, after
+checking `fetch-events.yml`'s own history — a workflow this one never
+touches — and finding EVERY recorded run delayed 2.5–5h for at least five
+straight days. That rules out a bug in either workflow: GitHub's own
+scheduler runs this repo's Actions late, consistently, during roughly
+4 AM–1 PM Eastern (its own peak shared-runner demand window). **The catch-up
+cron is itself a scheduled run and inherits the same delay** — it is a second
+independent chance, not a faster or more reliable one, so it shrinks the odds
+a whole slot is missed outright without making any post land "on time" in a
+strict sense. A day that genuinely needs a post out by a deadline needs a
+manual dispatch (Actions → Daily social post → Run workflow), not a shorter
+cron gap — no gap here escapes GitHub's own queue. The catch-up works because
+build is idempotent per (date, slot): if the primary already posted, the
+catch-up's `already posted` check no-ops it; if the primary was dropped or
+still queued, the catch-up does the real work. The original single-cron-per-
+slot design accepted "a missed post is a missed post" as the tradeoff for
+never risking a stale retry after midnight UTC; two days of real data showed
+that tradeoff firing far more than a one-cron design can absorb, so a slot
+now gets two independent chances before that's actually true.
 
 A day's second slot must never repeat the first's picks, so
 `social/posted.json` is nested `date -> slot -> {facebook, instagram, picks,

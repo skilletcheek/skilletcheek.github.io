@@ -20,25 +20,37 @@ on:
   # no-ops on the wrong hour, which is more machinery than an hour of seasonal
   # drift on a marketing post has ever justified.
   #
-  # EACH slot gets a PRIMARY cron and a CATCH-UP cron ~1.5h later, the same
-  # self-heal shape fetch-events.yml uses -- and needed for the same reason,
-  # proven the first two days this ran: on 2026-08-31 the only schedule-
-  # triggered run fired 4h42m late, and on 2026-09-01 the "morning" cron fired
-  # 4h07m late while "midday" never fired at all as of 1h42m past due. GitHub
-  # does not guarantee scheduled runs land on time, or at all, under load.
-  # The catch-up is a genuine second attempt, not just a later primary: build
-  # is idempotent per (date, slot) (see already_posted_today() /
-  # cmd_build()'s "already posted" skip), so if the primary already posted,
-  # the catch-up finds that and no-ops; if the primary was dropped or is
-  # still queued, the catch-up does the real work instead. 1.5h leaves the
-  # catch-up comfortably clear of the OTHER slot's own primary (morning's
-  # catch-up at 14:30 UTC, well before midday's 17:00; midday's catch-up at
-  # 18:30 UTC, well clear of tomorrow's 13:00).
+  # EACH slot gets a PRIMARY cron and a CATCH-UP cron, the same self-heal
+  # shape fetch-events.yml uses. The catch-up gap is 5h, not the 1.5h first
+  # tried on 2026-09-01 -- widened after checking fetch-events.yml's OWN
+  # history (a workflow this one never touches) and finding it delayed by
+  # 2.5-5h on EVERY recorded run for at least five straight days, not just
+  # this one. That rules out "social-post.yml is somehow misconfigured": the
+  # delay is a property of scheduled Actions on this repo during these hours
+  # (roughly 4 AM-1 PM Eastern, GitHub's own peak demand window for shared
+  # runners), not a bug in either workflow. A 1.5h gap does nothing against a
+  # delay that size; 5h at least sits inside the observed range.
+  #
+  # IMPORTANT caveat this implies: the catch-up cron is ITSELF a scheduled
+  # Actions run, so it is subject to the exact same delay distribution as the
+  # primary -- it is not a faster or more reliable trigger, just a second,
+  # independent roll of the same dice. Two draws from the same distribution
+  # land earlier than one only in expectation, not by guarantee; this does
+  # not make either post land "on time" in any strict sense, it only shrinks
+  # the chance that a whole day's slot is missed outright. If a specific day
+  # needs a post out by a real deadline, that means a manual dispatch
+  # (Actions > Daily social post > Run workflow), not a shorter cron gap --
+  # no gap this workflow can set escapes GitHub's own queuing delay.
+  #
+  # Build is idempotent per (date, slot) (already_posted_today() /
+  # cmd_build()'s "already posted" skip), so whichever of the two actually
+  # fires first does the real work and the other is a free no-op -- there is
+  # no cost to keeping both.
   schedule:
-    - cron: "0 13 * * *"    # ~8:00 AM Dallas -- "morning" primary
-    - cron: "30 14 * * *"   # ~9:30 AM Dallas -- "morning" catch-up
-    - cron: "0 17 * * *"    # ~12:00 PM Dallas -- "midday" primary
-    - cron: "30 18 * * *"   # ~1:30 PM Dallas -- "midday" catch-up
+    - cron: "0 13 * * *"   # ~8:00 AM Dallas -- "morning" primary
+    - cron: "0 18 * * *"   # ~1:00 PM Dallas -- "morning" catch-up (+5h)
+    - cron: "0 17 * * *"   # ~12:00 PM Dallas -- "midday" primary
+    - cron: "0 22 * * *"   # ~5:00 PM Dallas -- "midday" catch-up (+5h)
   workflow_dispatch:
     inputs:
       slot:
@@ -94,10 +106,10 @@ jobs:
         id: slot
         run: |
           case "${{ github.event.schedule }}" in
-            "0 13 * * *")  echo "slot=morning" >> "$GITHUB_OUTPUT" ;;
-            "30 14 * * *") echo "slot=morning" >> "$GITHUB_OUTPUT" ;;
-            "0 17 * * *")  echo "slot=midday" >> "$GITHUB_OUTPUT" ;;
-            "30 18 * * *") echo "slot=midday" >> "$GITHUB_OUTPUT" ;;
+            "0 13 * * *") echo "slot=morning" >> "$GITHUB_OUTPUT" ;;
+            "0 18 * * *") echo "slot=morning" >> "$GITHUB_OUTPUT" ;;
+            "0 17 * * *") echo "slot=midday" >> "$GITHUB_OUTPUT" ;;
+            "0 22 * * *") echo "slot=midday" >> "$GITHUB_OUTPUT" ;;
             *) echo "slot=${{ inputs.slot }}" >> "$GITHUB_OUTPUT" ;;
           esac
 
