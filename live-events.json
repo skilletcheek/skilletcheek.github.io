@@ -41,30 +41,6 @@
   "area": "AT&T Stadium, Arlington",
   "city": "Arlington",
   "date": "2026-09-04",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-09-04-10-am/18374249",
-  "image": "https://seatgeekimages.com/performers-landscape/at-t-stadium-vip-guided-tour-3f0233/807539/huge.jpg"
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-09-04",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-09-04-12-pm/18374245",
-  "image": "https://seatgeekimages.com/performers-landscape/at-t-stadium-vip-guided-tour-3f0233/807539/huge.jpg"
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-09-04",
   "time": "2:00 PM",
   "cost": null,
   "description": "stadium tours event via SeatGeek.",
@@ -634,18 +610,6 @@
   "description": "Miscellaneous event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70MaA",
   "image": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "UT Arlington Invitational",
-  "category": "sports",
-  "area": "College Park Center, Arlington",
-  "city": "Arlington",
-  "date": "2026-09-04",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "womens college volleyball event via SeatGeek.",
-  "url": "https://seatgeek.com/ut-arlington-mavericks-womens-volleyball-tickets/womens-college-volleyball/2026-09-04-10-am/18391895",
-  "image": "https://seatgeekimages.com/performers-landscape/ut-arlington-mavericks-womens-volleyball-f51945/387856/huge.jpg"
  },
  {
   "name": "WESLEY HANNA w/ special guest Dalton Shackleford",
@@ -4742,6 +4706,18 @@
   "description": "comedy event via SeatGeek.",
   "url": "https://seatgeek.com/dan-lamorte-tickets/comedy/2026-09-18-7-pm/18535027",
   "image": "https://seatgeekimages.com/performers-landscape/dan-lamorte-ea6aef/706678/huge.jpg"
+ },
+ {
+  "name": "Dave Smith",
+  "category": "arts",
+  "area": "Hyena's Comedy Night Club - Fort Worth, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-09-18",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "comedy event via SeatGeek.",
+  "url": "https://seatgeek.com/dave-smith-tickets/comedy/2026-09-18-7-30-pm/18352867",
+  "image": "https://seatgeekimages.com/performers-landscape/generic-comedy-50e87f/677157/35975/huge.jpg"
  },
  {
   "name": "Donnell Rawlings",
