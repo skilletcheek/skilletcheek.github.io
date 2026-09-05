@@ -2506,7 +2506,7 @@ SUBMIT_FIELDS = [
     ("description", "SHORT DESCRIPTION", "textarea", False,
      "One or two lines — what makes it worth leaving the house for?", False),
     ("contact_name", "YOUR NAME", "text", True, "", True),
-    ("contact_email", "YOUR EMAIL", "email", True, "you@venue.com", True),
+    ("email", "YOUR EMAIL", "email", True, "you@venue.com", True),
 ]
 # Bots fill every input they find, including ones humans can't see. A submission
 # with this field set is dropped. Named innocuously — "honeypot" in the markup
