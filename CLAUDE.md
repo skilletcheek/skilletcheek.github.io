@@ -32,7 +32,7 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
     scripts/fetch_events.py the nightly aggregator (also generates pages)
     scripts/feeds.json      DATA: which feeds/venues/artists to pull
     scripts/social_post.py  daily Facebook + Instagram poster (own workflow)
-    scripts/social_card.py  renders the 1080x1350 card social_post.py posts
+    scripts/social_card.py  renders the 1080x1350 images social_post.py posts
     social/cards/*.jpg      GENERATED daily; Instagram fetches these by URL
     social/posted.json      GENERATED daily; the anti-double-post log
     venue-aliases.json      DATA: venue rename map for dedupe
@@ -218,10 +218,10 @@ diverge. Add a field in both places.
 
 ## Daily social post
 
-`.github/workflows/social-post.yml` posts two pick-lists a day -- "morning"
-and "midday" -- to the Facebook Page and the linked Instagram Business
-account, from `live-events.json`. `scripts/social_post.py` is the whole
-thing; `scripts/social_card.py` only draws the image.
+`.github/workflows/social-post.yml` posts three pick-lists a day -- "morning",
+"midday" and "afternoon" -- to the Facebook Page and the linked Instagram
+Business account, from `live-events.json`. `scripts/social_post.py` is the
+whole thing; `scripts/social_card.py` only draws the images.
 
 **It is a separate workflow on purpose.** The nightly refresh is the site;
 this is marketing. A dead Meta token or an Instagram outage must never be able
@@ -243,6 +243,41 @@ Facebook has no such constraint: `/{page-id}/photos` takes a multipart upload
 (`_multipart()`, hand-rolled because stdlib has no encoder). That is why
 **Facebook is posted first** — it cannot be blocked by a slow Pages deploy.
 
+**The two platforms get different images, since 2026-09-05.** Facebook still
+gets one dense card (`render_card()`, all three picks) — its caption already
+carries the full text and there's no algorithmic reward on FB for a format
+change. Instagram gets a carousel instead: a cover slide plus one slide per
+pick (`render_cover_slide()` / `render_pick_slide()`), posted with
+`post_instagram_carousel()`. A single static image is Instagram's
+weakest-performing native post type; carousels reliably get more reach and
+saves for the same content. Each pick slide's category tag renders in that
+category's own site color (`CATEGORY_COLOR`, mirroring `CATEGORIES` in
+`js/data.js` the same way `_split_area()` mirrors `splitArea()`) instead of
+the brand green everything else uses — color that changes slide to slide is
+itself a reason to keep swiping, not decoration.
+
+**A pick slide's content block is vertically centered, not pinned under the
+masthead.** The first version top-anchored everything, and a one-line name
+("Mo Amer") next to a four-line one ("Half Foot Hog, Asshats, Kiss With Your
+Teeth") left the short-name slides looking roughly half-empty while the long
+one filled the frame — inconsistent density between slides of the *same*
+carousel reads as unfinished, not intentional. `render_pick_slide()` measures
+the wrapped name first and centers the whole block (tag + name + meta) in the
+middle band between the masthead and the footer, so both cases land with the
+same visual weight.
+
+**The carousel's `children` parameter is a comma-separated string
+("id1,id2,id3"), not the JSON array Meta's own reference page describes it
+as** — verified against multiple independent working examples on 2026-09-05
+rather than trusted from the doc text, the same kind of doc/reality gap that
+already cost one wrong guess this session on the Page-token failure message.
+Carousel children also take NO caption (Instagram rejects it); the caption
+lives on the parent container only. Every container — each child, then the
+parent — is polled to FINISHED (`_poll_container()`) before the next step,
+the same caution the original single-image flow used, so an unfinished child
+referenced by the parent never surfaces as an opaque "media upload failed"
+with no field naming which slide was the problem.
+
 **Why the card is ours and not the feed's `image`.** Measured 2026-08-28: 647
 of 667 rows carry one, but 105 are 280x210 SeatGeek thumbnails (under
 Instagram's 320px floor), several hosts serve PNG (the API takes JPEG and
@@ -250,7 +285,8 @@ nothing else), and the 485 usable Ticketmaster JPEGs are the promoter's
 copyrighted key art — not something to repost daily under our own handle
 forever. `verify_card()` asserts every constraint in the media spec locally,
 because a bad container comes back as a generic "media upload failed" with no
-field naming the reason.
+field naming the reason. It runs on every slide of the carousel too, not just
+the Facebook card.
 
 **Idempotency is keyed on date + slot + platform**, in `social/posted.json`, written
 back after *each* platform. A Facebook-succeeded/Instagram-failed run exits

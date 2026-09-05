@@ -17,13 +17,21 @@ and publish -- see SLOTS below for what distinguishes them.
 
 build and publish are split because Instagram cannot be handed image bytes.
 Its Content Publishing API takes an `image_url` that Meta's servers fetch
-themselves, so the card has to be committed and live on GitHub Pages BEFORE
-the container call. The workflow therefore runs build -> git push -> publish,
-and publish blocks on the URL actually going live (_wait_for_pages).
+themselves, so every image has to be committed and live on GitHub Pages
+BEFORE the container call. The workflow therefore runs build -> git push ->
+publish, and publish blocks on each URL actually going live (_wait_for_pages).
 
 Facebook has no such constraint -- /{page-id}/photos accepts a multipart
 upload -- so the Facebook post never depends on Pages having deployed. It is
 posted first, for that reason.
+
+THE TWO PLATFORMS GET DIFFERENT IMAGES. Facebook gets one dense card (all
+three picks, render_card()) -- its caption already carries the full text and
+there's no algorithmic reward there for a format change. Instagram gets a
+carousel: a cover slide plus one slide per pick (render_cover_slide() /
+render_pick_slide() in social_card.py), posted via post_instagram_carousel().
+A single static image is Instagram's weakest-performing native post type;
+carousels reliably get more reach and saves for the same content.
 
 ENVIRONMENT (both from repo secrets, never from a file in this repo):
     META_SYSTEM_USER_TOKEN   Business system-user token. Long-lived by
@@ -606,28 +614,61 @@ def post_facebook(page_id: str, page_token: str, message: str, card: Path) -> st
     return str(res.get("post_id") or res.get("id"))
 
 
-def post_instagram(ig_id: str, token: str, caption: str, image_url: str) -> str:
-    """Two-step container publish, with the status poll the docs require.
+def _poll_container(container_id: str, token: str, attempts: int = 30,
+                    delay: int = 5) -> None:
+    """Block until a media container reaches FINISHED, the status poll the
+    docs require for every container -- child, parent, or single-image.
 
     media_publish on a container still IN_PROGRESS returns a generic error, so
-    status_code is polled to FINISHED first. ERROR carries status, which is
-    the only place the real reason (bad aspect, non-JPEG, unreachable URL)
-    ever appears.
+    status_code is polled first. ERROR carries status, which is the only
+    place the real reason (bad aspect, non-JPEG, unreachable URL) ever
+    appears.
     """
-    container = _graph(f"{ig_id}/media", token,
-                       {"image_url": image_url, "caption": caption}, post=True)["id"]
-    for _ in range(30):
-        state = _graph(container, token, {"fields": "status_code,status"})
+    for _ in range(attempts):
+        state = _graph(container_id, token, {"fields": "status_code,status"})
         code = state.get("status_code")
         if code == "FINISHED":
-            break
+            return
         if code == "ERROR":
-            raise GraphError(f"container {container} failed: {state.get('status')}")
-        time.sleep(5)
-    else:
-        raise GraphError(f"container {container} never reached FINISHED")
+            raise GraphError(f"container {container_id} failed: {state.get('status')}")
+        time.sleep(delay)
+    raise GraphError(f"container {container_id} never reached FINISHED")
+
+
+def post_instagram_carousel(ig_id: str, token: str, caption: str,
+                           image_urls: list[str]) -> str:
+    """Carousel publish: one child container per image, then a parent
+    container that references them, then media_publish on the parent.
+
+    Children take NO caption -- Instagram's own docs are explicit that
+    captions on carousel children are unsupported; the caption lives on the
+    parent only. `children` is a comma-separated STRING of container ids
+    ("id1,id2,id3"), not the JSON array Meta's own reference page describes
+    it as -- verified against multiple independent working examples on
+    2026-09-02 rather than trusting the doc text, since the ambiguity there
+    would have meant guessing wrong on a live post, the same kind of
+    doc/reality mismatch that cost a wrong guess earlier this session on the
+    Page-token failure message.
+
+    Each container (every child, then the parent) is polled to FINISHED
+    before the next step, the same caution the single-image flow already
+    used -- an unfinished child referenced by the parent is exactly the kind
+    of failure that would otherwise surface as an opaque media error with no
+    field naming which slide was the problem.
+    """
+    child_ids = []
+    for url in image_urls:
+        cid = _graph(f"{ig_id}/media", token,
+                     {"image_url": url, "is_carousel_item": "true"}, post=True)["id"]
+        _poll_container(cid, token)
+        child_ids.append(cid)
+
+    parent = _graph(f"{ig_id}/media", token,
+                    {"media_type": "CAROUSEL", "children": ",".join(child_ids),
+                     "caption": caption}, post=True)["id"]
+    _poll_container(parent, token)
     return str(_graph(f"{ig_id}/media_publish", token,
-                      {"creation_id": container}, post=True)["id"])
+                      {"creation_id": parent}, post=True)["id"])
 
 
 # ------------------------------------------------------------------ modes
@@ -725,19 +766,51 @@ def cmd_build(args) -> int:
         return 0
 
     text = compose(picks, today, slot)
+    font_cache = Path(args.font_cache)
+
+    # Facebook keeps the single dense card exactly as before: its caption
+    # already carries all three picks as text, and there is no algorithmic
+    # reward on FB for a format change the way there is on Instagram.
     card = CARD_DIR / f"{today}-{slot}.jpg"
     rows = [{"name": p["event"]["name"],
              "meta": f"{p['event']['time']} · {F._display_area(p['event']['area'])}",
              "tag": CATEGORY_LABEL.get(p["event"]["category"], p["event"]["category"])}
             for p in picks]
     social_card.render_card(text["headline"], text["datestamp"], rows,
-                            card, Path(args.font_cache))
+                            card, font_cache)
     social_card.verify_card(card)
+
+    # Instagram gets a carousel instead: a cover slide plus one slide per
+    # pick, each its own file so each becomes its own carousel child image.
+    # A single dense image is Instagram's weakest-performing native format;
+    # carousels reliably get more reach and saves for the same content.
+    ig_slides = []
+    cover = CARD_DIR / f"{today}-{slot}-ig0.jpg"
+    social_card.render_cover_slide(text["headline"], text["datestamp"],
+                                   len(picks), cover, font_cache)
+    social_card.verify_card(cover)
+    ig_slides.append(cover)
+
+    n = len(picks)
+    for i, p in enumerate(picks, 1):
+        ev = p["event"]
+        slide = CARD_DIR / f"{today}-{slot}-ig{i}.jpg"
+        social_card.render_pick_slide(
+            index=i, total=n, name=ev["name"],
+            meta=f"{ev['time']} · {F._display_area(ev['area'])}",
+            tag=CATEGORY_LABEL.get(ev["category"], ev["category"]),
+            cat_slug=ev["category"], is_last=(i == n),
+            out_path=slide, cache_dir=font_cache)
+        social_card.verify_card(slide)
+        ig_slides.append(slide)
+
     removed = prune_cards(today)
 
     plan = {"date": today, "slot": slot, "card": str(card.relative_to(ROOT)),
             "card_url": f"{SITE}/social/cards/{today}-{slot}.jpg",
             "card_bytes": card.stat().st_size,
+            "ig_slides": [{"url": f"{SITE}/social/cards/{s.name}",
+                          "bytes": s.stat().st_size} for s in ig_slides],
             "facebook": text["facebook"], "instagram": text["instagram"],
             "picks": [p["event"]["name"] for p in picks],
             "venues": [p["venue"] for p in picks if p["venue"]],
@@ -746,6 +819,7 @@ def cmd_build(args) -> int:
     print(f"picked {len(picks)} for {today} [{slot}] (scores {plan['scores']}):")
     for name in plan["picks"]:
         print(f"  - {name}")
+    print(f"rendered {len(ig_slides)}-slide carousel for Instagram")
     if removed:
         print(f"pruned {removed} card(s) older than {KEEP_DAYS} days")
     print(f"\n--- facebook ---\n{text['facebook']}\n\n--- instagram ---\n{text['instagram']}")
@@ -775,7 +849,8 @@ def cmd_publish(args) -> int:
     if args.dry_run:
         print(f"dry run: credentials resolve to "
               f"{acct['page_name']} / @{acct['ig_username']}")
-        print(f"dry run: would post {plan['card_url']} to both platforms")
+        print(f"dry run: would post {plan['card_url']} to Facebook and a "
+              f"{len(plan['ig_slides'])}-slide carousel to Instagram")
         return 0
     today, slot, log = plan["date"], plan["slot"], load_posted()
     entry = log.setdefault(today, {}).setdefault(slot, {})
@@ -802,12 +877,14 @@ def cmd_publish(args) -> int:
         print(f"instagram: already posted ({entry['instagram']['id']})")
     else:
         try:
-            _wait_for_pages(plan["card_url"], plan["card_bytes"])
-            media_id = post_instagram(acct["ig_id"], acct["page_token"],
-                                      plan["instagram"], plan["card_url"])
+            for slide in plan["ig_slides"]:
+                _wait_for_pages(slide["url"], slide["bytes"])
+            media_id = post_instagram_carousel(
+                acct["ig_id"], acct["page_token"], plan["instagram"],
+                [slide["url"] for slide in plan["ig_slides"]])
             entry["instagram"] = {"id": media_id, "at": now}
             save_posted(log)
-            print(f"instagram: posted {media_id}")
+            print(f"instagram: posted {media_id} ({len(plan['ig_slides'])}-slide carousel)")
         except (GraphError, OSError, TimeoutError) as exc:
             failures.append(f"instagram: {exc}")
 

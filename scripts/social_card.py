@@ -50,6 +50,21 @@ GOLD    = (255, 207, 92)     # --gold    #FFCF5C
 W, H = 1080, 1350
 PAD = 76
 
+# Mirrors js/data.js CATEGORIES. Two-layer mirror like _split_area()/
+# splitArea() elsewhere in this repo -- change one, change both, or a pick's
+# card color stops matching the color it has everywhere else on the site.
+CATEGORY_COLOR = {
+    "music":     (255, 93, 143),   # #ff5d8f
+    "food":      (255, 176, 32),   # #ffb020
+    "arts":      (167, 139, 250),  # #a78bfa
+    "outdoors":  (34, 211, 166),   # #22d3a6
+    "sports":    (79, 140, 255),   # #4f8cff
+    "family":    (56, 189, 248),   # #38bdf8
+    "market":    (249, 115, 22),   # #f97316
+    "nightlife": (192, 132, 252),  # #c084fc
+    "festival":  (244, 63, 94),    # #f43f5e
+}
+
 # ------------------------------------------------------------------ fonts
 # Google Fonts is already the site's only external dependency, so pulling the
 # same two families here keeps the card typographically identical to the page.
@@ -267,3 +282,135 @@ def verify_card(path: Path) -> None:
         raise ValueError(f"{path.name} violates the Instagram media spec: "
                          + "; ".join(problems))
     print(f"  card ok: {w}x{h} {fmt} {size / 1024:.0f} KB ratio {ratio:.3f}")
+
+
+# ------------------------------------------------------- carousel slides
+# A single dense card is Instagram's weakest-performing native format --
+# carousels (2-10 swipeable images under one post) reliably get more reach
+# and saves. These two functions render one carousel: a cover slide plus one
+# slide per pick, each slide the same 1080x1350 frame as render_card() so
+# Instagram's own "every child is cropped to the first image's aspect ratio"
+# behavior never bites. Facebook is untouched -- it keeps posting
+# render_card()'s single dense image, since FB's caption already carries the
+# full text and there's no algorithmic reward there for a format change.
+def _masthead(d, cache_dir):
+    mono = lambda s: _load("JetBrains+Mono:wght@500", s, cache_dir)
+    d.line([(PAD, PAD), (PAD + 92, PAD)], fill=EM, width=3)
+    _tracked(d, (PAD, PAD + 22), "/ LETS DO IT DALLAS", mono(23), EM, 3.4)
+
+
+def _footer(d, cache_dir, cta: str | None):
+    """Domain mark on every slide -- a screenshot of any ONE slide, out of
+    context, should still say where it came from, the same reasoning
+    render_card() carries for its single image. `cta` renders a second line
+    above it for the cover and final slides only; None leaves plain slides
+    uncluttered.
+    """
+    mono = lambda s: _load("JetBrains+Mono:wght@500", s, cache_dir)
+    fy = H - PAD - 58
+    d.line([(PAD, fy), (W - PAD, fy)], fill=LINE, width=2)
+    _tracked(d, (PAD, fy + 22), "LETSDOITDALLAS.COM", mono(26), GOLD, 3.8)
+    if cta:
+        tfont = mono(22)
+        _tracked(d, (W - PAD - _tracked_width(cta, tfont, 3.0), fy + 26),
+                 cta, tfont, DIM, 3.0)
+
+
+def render_cover_slide(headline: str, datestamp: str, pick_count: int,
+                       out_path: Path, cache_dir: Path) -> Path:
+    """Slide 1 of the carousel: title card + a swipe cue.
+
+    The cue exists because Instagram's carousel dots are small and easy to
+    miss -- a viewer who doesn't know there's more to see never swipes, and
+    the reach advantage of posting a carousel at all depends on them doing
+    so. Naming the pick count ("3 PICKS") gives a concrete reason to swipe
+    rather than a vague "see more."
+    """
+    img = Image.new("RGBA", (W, H), (*BG, 255))
+    _tower(img)
+    d = ImageDraw.Draw(img)
+    disp = lambda s: _load("Syne:wght@800", s, cache_dir)
+    mono = lambda s: _load("JetBrains+Mono:wght@500", s, cache_dir)
+
+    _masthead(d, cache_dir)
+
+    y = PAD + 92
+    hfont = disp(96)
+    lines = _wrap(headline.upper(), hfont, W - PAD * 2, 2)
+    for line in lines:
+        d.text((PAD, y), line, font=hfont, fill=WHITE)
+        y += 104
+    y += 104 * (2 - len(lines))
+    y += 6
+    _tracked(d, (PAD, y), datestamp.upper(), mono(25), SILVER, 4.0)
+
+    cue = f"{pick_count} PICKS — SWIPE →"
+    cfont = mono(30)
+    cy = (y + 60 + (H - PAD - 148)) // 2
+    _tracked(d, ((W - _tracked_width(cue, cfont, 3.0)) / 2, cy), cue, cfont,
+             GOLD, 3.0)
+
+    _footer(d, cache_dir, None)
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    img.convert("RGB").save(out_path, "JPEG", quality=88,
+                            optimize=True, progressive=False)
+    return out_path
+
+
+def render_pick_slide(index: int, total: int, name: str, meta: str,
+                      tag: str, cat_slug: str, is_last: bool,
+                      out_path: Path, cache_dir: Path) -> Path:
+    """One event per slide, page `index` of `total` (both 1-based).
+
+    Everything here is bigger than render_card()'s equivalent row, because a
+    single-pick slide has the room a 3-pick card never does. The category
+    label renders in CATEGORY_COLOR instead of always the brand green --
+    color that changes slide to slide is itself a reason to keep swiping,
+    and it is real information (what kind of event this is), not decoration.
+
+    The content block is vertically centered in the middle band rather than
+    pinned under the masthead: a one-line name ("Mo Amer") and a four-line
+    one ("Half Foot Hog, Asshats, Kiss With Your Teeth") sit in the same
+    frame, and top-anchoring left the short-name slides with roughly half
+    the frame empty while a long name filled it -- inconsistent density
+    between slides of the same carousel read as unfinished, not intentional.
+    """
+    img = Image.new("RGBA", (W, H), (*BG, 255))
+    d = ImageDraw.Draw(img)
+    disp = lambda s: _load("Syne:wght@800", s, cache_dir)
+    mono = lambda s: _load("JetBrains+Mono:wght@500", s, cache_dir)
+
+    _masthead(d, cache_dir)
+    page = f"{index:02d} / {total:02d}"
+    pfont = mono(23)
+    _tracked(d, (W - PAD - _tracked_width(page, pfont, 2.0), PAD + 4),
+             page, pfont, SILVER, 2.0)
+
+    color = CATEGORY_COLOR.get(cat_slug, EM)
+    tfont = mono(26)
+    nfont = disp(74)
+    mfont = mono(28)
+    name_lines = _wrap(name, nfont, W - PAD * 2, 4)
+
+    TAG_H, LINE_H, GAP, META_H = 56, 82, 20, 40
+    block_h = (TAG_H if tag else 0) + LINE_H * len(name_lines) + GAP + META_H
+    zone_top, zone_bottom = PAD + 170, H - PAD - 148
+    y = zone_top + max(0, (zone_bottom - zone_top - block_h)) // 2
+
+    if tag:
+        _tracked(d, (PAD, y), f"[ {tag.upper()} ]", tfont, color, 2.6)
+        y += TAG_H
+    for line in name_lines:
+        d.text((PAD, y), line, font=nfont, fill=WHITE)
+        y += LINE_H
+    y += GAP
+    _tracked(d, (PAD, y), meta.upper(), mfont, DIM, 2.2)
+
+    cta = "FULL LIST →" if is_last else "KEEP SWIPING →"
+    _footer(d, cache_dir, cta)
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    img.convert("RGB").save(out_path, "JPEG", quality=88,
+                            optimize=True, progressive=False)
+    return out_path

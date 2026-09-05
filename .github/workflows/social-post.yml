@@ -145,8 +145,9 @@ jobs:
             echo "skip=false" >> "$GITHUB_OUTPUT"
           fi
 
-      # The card must be live on GitHub Pages BEFORE the Instagram call:
-      # its Content Publishing API takes an image_url that Meta's own servers
+      # Every image -- the Facebook card and all of the Instagram carousel's
+      # slides -- must be live on GitHub Pages BEFORE the Instagram call: its
+      # Content Publishing API takes an image_url that Meta's own servers
       # fetch, not image bytes. Hence commit-then-publish rather than one step.
       #
       # Per CLAUDE.md: every path a script writes must be listed here, or it
