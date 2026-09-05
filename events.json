@@ -1,22 +1,82 @@
 [
   {
-    "name": "Example: Deep Ellum Art Walk",
-    "category": "arts",
-    "area": "Deep Ellum, Dallas",
-    "date": "2026-07-18",
-    "time": "6:00 PM",
+    "name": "Built For More: Rick Atchley — Built on the Rock",
+    "category": "family",
+    "area": "The Hills Dallas, 3014 Skillman St, Dallas",
+    "date": "2026-09-09",
+    "time": "6:00 PM – 8:00 PM",
     "cost": 0,
-    "description": "Galleries and studios open their doors with live muralists and food trucks. (This is a sample row — edit or delete it.)",
-    "url": "https://deepellumtexas.com"
+    "description": "Opening night of a four-part Wednesday series for men: worship, a message from Rick Atchley, and food trucks. Free, no ticket needed.",
+    "url": "https://www.builtformoremenseries.com"
   },
   {
-    "name": "Example: Rooftop Sunset Yoga",
-    "category": "outdoors",
-    "area": "Uptown Dallas",
-    "date": "2026-07-19",
-    "time": "7:30 AM",
-    "cost": 15,
-    "description": "All-levels flow with skyline views. Bring your own mat. (Sample row.)",
-    "url": "#"
+    "name": "Escher Quartet Live in Dallas",
+    "category": "music",
+    "area": "Caruth Auditorium, Dallas",
+    "date": "2026-09-28",
+    "time": "7:30 PM",
+    "cost": 50,
+    "description": "The Dallas Chamber Music Society hosts the Escher Quartet at Caruth Auditorium — one night only.",
+    "url": "https://events.ticketleap.com/tickets/dallaschambermusicsociety/the-escher-quartet"
+  },
+  {
+    "name": "Built For More: Chris Seidman — Built as Sons",
+    "category": "family",
+    "area": "The Hills Dallas, 3014 Skillman St, Dallas",
+    "date": "2026-10-14",
+    "time": "6:00 PM – 8:00 PM",
+    "cost": 0,
+    "description": "Second night of the Built For More men's series — worship, a message from Chris Seidman, and food trucks. Free, no ticket needed.",
+    "url": "https://www.builtformoremenseries.com"
+  },
+  {
+    "name": "ArmeniaFest 2026 — Armenian Food & Culture Festival",
+    "category": "food",
+    "area": "St. Sarkis Armenian Church, Carrollton",
+    "date": "2026-10-16",
+    "time": "5:00 PM",
+    "cost": 0,
+    "description": "Opening night of the 31st annual ArmeniaFest — homemade Armenian food, live music, folk dancing and a church tour. Free admission; runs through Sunday.",
+    "url": "https://www.armeniafest.com/"
+  },
+  {
+    "name": "ArmeniaFest 2026 — Armenian Food & Culture Festival",
+    "category": "food",
+    "area": "St. Sarkis Armenian Church, Carrollton",
+    "date": "2026-10-17",
+    "time": "See details",
+    "cost": 0,
+    "description": "Day two of the 31st annual ArmeniaFest — homemade Armenian food, live music, folk dancing and a church tour. Free admission; check the site for Saturday hours.",
+    "url": "https://www.armeniafest.com/"
+  },
+  {
+    "name": "ArmeniaFest 2026 — Armenian Food & Culture Festival",
+    "category": "food",
+    "area": "St. Sarkis Armenian Church, Carrollton",
+    "date": "2026-10-18",
+    "time": "See details",
+    "cost": 0,
+    "description": "Final day of the 31st annual ArmeniaFest — homemade Armenian food, live music, folk dancing and a church tour. Free admission; check the site for Sunday hours.",
+    "url": "https://www.armeniafest.com/"
+  },
+  {
+    "name": "Built For More: Michael Miller — Built in His Presence",
+    "category": "family",
+    "area": "The Hills Dallas, 3014 Skillman St, Dallas",
+    "date": "2026-11-11",
+    "time": "6:00 PM – 8:00 PM",
+    "cost": 0,
+    "description": "Third night of the Built For More men's series — worship, a message from Michael Miller, and food trucks. Free, no ticket needed.",
+    "url": "https://www.builtformoremenseries.com"
+  },
+  {
+    "name": "Built For More: Bob Rodgers — Built to Be Free",
+    "category": "family",
+    "area": "The Hills Dallas, 3014 Skillman St, Dallas",
+    "date": "2026-12-16",
+    "time": "6:00 PM – 8:00 PM",
+    "cost": 0,
+    "description": "Final night of the Built For More men's series — worship, a message from Bob Rodgers, and food trucks. Free, no ticket needed.",
+    "url": "https://www.builtformoremenseries.com"
   }
 ]
