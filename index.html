@@ -35,6 +35,10 @@
       "logo": "https://letsdoitdallas.com/og-image.png",
       "description": "The curated radar for Dallas–Fort Worth culture and events.",
       "email": "hello@letsdoitdallas.com",
+      "sameAs": [
+        "https://www.facebook.com/letsdoitdallas",
+        "https://www.instagram.com/letsdoitdallas"
+      ],
       "areaServed": {
         "@type": "AdministrativeArea",
         "name": "Dallas–Fort Worth metroplex"
@@ -338,6 +342,15 @@
     <!-- Real href so it is crawlable and middle-clickable; the modal is the
          progressive enhancement, not the only way in. -->
     <a href="/submit/" onclick="document.getElementById('submitEventBtn').click();return false;">Submit an event</a>
+    <!-- The site had no outbound link to either account, in any page, while
+         the daily posts sent traffic the other way — so every visitor who
+         arrived from search left without knowing the accounts exist. These
+         are also the two URLs in the Organization node's sameAs above, which
+         is what ties the domain and the profiles into one entity for Google.
+         rel="me" states the same claim in the microformats convention that
+         predates it; keep all three lists in step. -->
+    <a href="https://www.instagram.com/letsdoitdallas" target="_blank" rel="me noopener">Instagram</a>
+    <a href="https://www.facebook.com/letsdoitdallas" target="_blank" rel="me noopener">Facebook</a>
   </div>
   <!-- Every district page linked from the one page Google had actually crawled.
        Regenerated from DISTRICTS by write_home_nav() in scripts/fetch_events.py —

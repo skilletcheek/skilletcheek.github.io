@@ -126,6 +126,11 @@ jobs:
             *) echo "slot=${{ inputs.slot }}" >> "$GITHUB_OUTPUT" ;;
           esac
 
+      # Renders the Facebook card and, since 2026-09-10, the Instagram Reel.
+      # The reel is assembled with ffmpeg, which is PREINSTALLED on
+      # ubuntu-latest -- deliberately not added to the pip line above, since
+      # it is not a Python package. If a future runner image drops it,
+      # social_card._ffmpeg() fails with that named as the cause.
       - name: Pick events and render the card
         id: build
         # The secrets are in scope here only so build can tell "not set up
@@ -145,14 +150,15 @@ jobs:
             echo "skip=false" >> "$GITHUB_OUTPUT"
           fi
 
-      # Every image -- the Facebook card and all of the Instagram carousel's
-      # slides -- must be live on GitHub Pages BEFORE the Instagram call: its
-      # Content Publishing API takes an image_url that Meta's own servers
-      # fetch, not image bytes. Hence commit-then-publish rather than one step.
+      # Instagram's media -- the reel's .mp4, or every slide of a carousel --
+      # must be live on GitHub Pages BEFORE the Instagram call: the Content
+      # Publishing API takes a video_url/image_url that Meta's own servers
+      # fetch, not bytes. Hence commit-then-publish rather than one step.
+      # (Facebook's card is uploaded multipart and never waits on Pages.)
       #
       # Per CLAUDE.md: every path a script writes must be listed here, or it
       # is regenerated on the runner and thrown away at the end of the job.
-      # social/ covers both cards/ and posted.json.
+      # social/ covers cards/ (.jpg AND .mp4) and posted.json.
       - name: Commit the card
         if: steps.build.outputs.skip == 'false' && !inputs.dry_run
         run: |

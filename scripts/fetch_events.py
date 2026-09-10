@@ -129,6 +129,17 @@ def is_dfw_city(city: str, state: str | None = None) -> bool:
 DAYS_AHEAD = 30
 UA = "rj-does-dallas-fetcher/1.0 (+https://letsdoitdallas.com)"
 SITE = "https://letsdoitdallas.com"
+
+# The site's own accounts, one definition. Mirrored by hand in index.html in
+# TWO places -- the Organization node's sameAs and the footer's /CONNECT
+# column -- because that page is hand-written; change one, change all three.
+# _site_nav() puts them on every GENERATED page from here.
+#
+# Until 2026-09-10 nothing on the domain linked to either account: three posts
+# a day pushed traffic to the site and the site sent none back, and Google had
+# nothing tying letsdoitdallas.com to the profiles.
+SOCIAL = (("https://www.instagram.com/letsdoitdallas", "Instagram"),
+          ("https://www.facebook.com/letsdoitdallas", "Facebook"))
 PRESS_FILE = ROOT / "press.json"
 EVENTBRITE_FILE = ROOT / "eventbrite.json"
 
@@ -1521,7 +1532,55 @@ def _site_nav(current: str = "") -> str:
             f'{city_block}'
             f'<p class="k">/ MORE</p>'
             f'<p class="nav">{_nav_links(more, current)}</p>'
+            f'<p class="k">/ FOLLOW</p>'
+            f'<p class="nav">{_social_links()}</p>'
             f'</nav>')
+
+
+def _social_links() -> str:
+    """The two outbound account links, on every generated page.
+
+    Not run through _nav_links(): these are external, so the "don't self-link"
+    rule there never applies, and they need rel/target that internal nav does
+    not. They also do not participate in the zero-orphan audit in CLAUDE.md,
+    which only counts hrefs that resolve to a page in this repo.
+    """
+    return "\n".join(
+        f'<a href="{href}" target="_blank" rel="me noopener">{label}</a>'
+        for href, label in SOCIAL)
+
+
+# Every generated page shipped this same file as its og:image, so a share of
+# any one of them -- in a text, a DM, a Facebook post -- looked identical to a
+# share of every other.
+_OG_DEFAULT = f"{SITE}/og-image.png"
+
+
+def _og_image(events) -> tuple[str, str]:
+    """(url, alt) for a listing page's og:image: the first event carrying
+    usable art, falling back to the site card.
+
+    The image is the promoter's, exactly as it already appears in this same
+    page's Event JSON-LD `image` field -- this makes no claim the markup did
+    not already make. That is a different question from social_card.py's
+    refusal to build our DAILY POST out of the same art: reposting a
+    promoter's key art under our own handle forever is a licensing problem,
+    while showing a listing's own art on that listing's page is what the art
+    is for.
+
+    https only, mirroring the scheme whitelist _hub_row() applies to the
+    ticket link. Measured across live-events.json on 2026-09-10: every host
+    serving these (s1.ticketm.net, d1yf68t7nbxlyn.cloudfront.net,
+    assets.simpleviewinc.com, i.ticketweb.com, image.seated.com) returns at
+    least 640x360, which clears Facebook's 600px-wide threshold for the large
+    link card -- so there is nothing to gain from a per-host size filter, and
+    a page whose top listing has no art falls back rather than going blank.
+    """
+    for e in events or ():
+        img = str(e.get("image") or "")
+        if img.startswith("https://"):
+            return img, str(e.get("name") or "Lets Do It Dallas")
+    return _OG_DEFAULT, "Lets Do It Dallas"
 
 
 # Tap-target minimums for the generated pages. index.html got these in the
@@ -1715,6 +1774,11 @@ def _hub_html(title, desc, canonical, events, app_link, heading, note, path):
     # the sitemap until it has something. Both reverse themselves the first
     # night the district books an event.
     robots = "" if events else '<meta name="robots" content="noindex,follow"/>\n'
+    # Attribute-escaped: 107 of the current feed's names carry a bare "&",
+    # which is exactly the _hub_row() lesson one meta tag further up the page.
+    _img, _alt = _og_image(events)
+    og_img = _html.escape(_img, quote=True)
+    og_alt = _html.escape(_alt, quote=True)
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -1725,9 +1789,10 @@ def _hub_html(title, desc, canonical, events, app_link, heading, note, path):
 <meta property="og:description" content="{desc}"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="{canonical}"/>
-<meta property="og:image" content="{SITE}/og-image.png"/>
+<meta property="og:image" content="{og_img}"/>
+<meta property="og:image:alt" content="{og_alt}"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="{SITE}/og-image.png"/>
+<meta name="twitter:image" content="{og_img}"/>
 <script type="application/ld+json">{_jsonld(events)}</script>
 <script type="application/ld+json">{_breadcrumb_jsonld(_hub_trail(path, heading))}</script>
 <style>{_PAGE_CSS}</style>{_analytics_snippet()}</head><body>
@@ -1817,6 +1882,11 @@ def _venue_html(name, city, street, canonical, events, slug, district):
                            for s, m in near)
         where = _html.escape(city) if city else (d_label or "DFW")
         nearby = f'<p class="foot">More in {where}: {links}</p>'
+    # Attribute-escaped: 107 of the current feed's names carry a bare "&",
+    # which is exactly the _hub_row() lesson one meta tag further up the page.
+    _img, _alt = _og_image(events)
+    og_img = _html.escape(_img, quote=True)
+    og_alt = _html.escape(_alt, quote=True)
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -1827,9 +1897,10 @@ def _venue_html(name, city, street, canonical, events, slug, district):
 <meta property="og:description" content="{desc}"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="{canonical}"/>
-<meta property="og:image" content="{SITE}/og-image.png"/>
+<meta property="og:image" content="{og_img}"/>
+<meta property="og:image:alt" content="{og_alt}"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="{SITE}/og-image.png"/>
+<meta name="twitter:image" content="{og_img}"/>
 <script type="application/ld+json">{_jsonld(events)}</script>
 <script type="application/ld+json">{json.dumps(place)}</script>
 <script type="application/ld+json">{_breadcrumb_jsonld(trail)}</script>

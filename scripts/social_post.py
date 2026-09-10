@@ -25,13 +25,22 @@ Facebook has no such constraint -- /{page-id}/photos accepts a multipart
 upload -- so the Facebook post never depends on Pages having deployed. It is
 posted first, for that reason.
 
-THE TWO PLATFORMS GET DIFFERENT IMAGES. Facebook gets one dense card (all
+THE TWO PLATFORMS GET DIFFERENT MEDIA. Facebook gets one dense card (all
 three picks, render_card()) -- its caption already carries the full text and
-there's no algorithmic reward there for a format change. Instagram gets a
-carousel: a cover slide plus one slide per pick (render_cover_slide() /
-render_pick_slide() in social_card.py), posted via post_instagram_carousel().
-A single static image is Instagram's weakest-performing native post type;
-carousels reliably get more reach and saves for the same content.
+there's no algorithmic reward there for a format change.
+
+Instagram gets whatever IG_FORMAT names. Since 2026-09-10 that is a REEL: the
+same cover-plus-one-slide-per-pick sequence the carousel used, drawn at 9:16
+and muxed into a short .mp4 (render_reel()), posted via post_instagram_reel().
+A carousel beats a single image, which is why the 2026-09-05 switch happened,
+but both are FEED posts and reach mostly people who already follow the
+account; a Reel is the only native format Instagram pushes to people who do
+not. IG_FORMAT = "carousel" restores the previous behaviour exactly.
+
+Both formats need the same commit-then-publish ordering, because Meta fetches
+a video_url exactly the way it fetches an image_url. The reel commits ONE file
+a day where the carousel committed four, which matters in a public repo whose
+history keeps every card forever.
 
 ENVIRONMENT (both from repo secrets, never from a file in this repo):
     META_SYSTEM_USER_TOKEN   Business system-user token. Long-lived by
@@ -56,6 +65,7 @@ import mimetypes
 import os
 import re
 import sys
+import tempfile
 import time
 import urllib.error
 import urllib.parse
@@ -99,6 +109,20 @@ PICKS = 3
 SLOTS = {"morning": "DFW Today", "midday": "DFW This Afternoon",
          "afternoon": "Tonight in DFW"}
 SLOT_ORDER = tuple(SLOTS)
+
+# What Instagram gets. "reel" since 2026-09-10; "carousel" is the previous
+# behaviour, kept whole and one word away.
+#
+# A carousel outperforms a single image, which is why the 2026-09-05 switch
+# happened -- but both are FEED posts, shown mostly to people who already
+# follow the account. A Reel is the only native format Instagram pushes to
+# people who don't, which is the entire problem for an account this new.
+# Facebook is untouched either way: it keeps render_card()'s single dense
+# image, whose caption already carries all three picks as text.
+#
+# Never both in one slot. The reel and the carousel would be the same three
+# picks posted twice within a minute of each other.
+IG_FORMAT = "reel"
 
 
 # ------------------------------------------------------------ graph client
@@ -562,7 +586,9 @@ def prune_cards(today: str) -> int:
     cutoff = (datetime.strptime(today, "%Y-%m-%d")
               - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%d")
     gone = 0
-    for card in CARD_DIR.glob("*.jpg"):
+    # .mp4 as well as .jpg since the reel landed -- a card directory that
+    # pruned only the images would grow a video a day forever.
+    for card in sorted(CARD_DIR.glob("*.jpg")) + sorted(CARD_DIR.glob("*.mp4")):
         if card.stem < cutoff:
             card.unlink()
             gone += 1
@@ -671,6 +697,33 @@ def post_instagram_carousel(ig_id: str, token: str, caption: str,
                       {"creation_id": parent}, post=True)["id"])
 
 
+def post_instagram_reel(ig_id: str, token: str, caption: str,
+                        video_url: str) -> str:
+    """Reel publish: one container, polled to FINISHED, then media_publish.
+
+    Structurally the single-image flow with media_type=REELS and a video_url
+    -- Meta fetches the file itself here too, so the commit-to-Pages-first
+    ordering the carousel needs is unchanged and _wait_for_pages() still
+    guards it.
+
+    Polled longer than an image container (10 min against the carousel's
+    2.5): Meta transcodes the video server-side, so FINISHED arrives on
+    Meta's schedule rather than ours, and a poll that gives up early would
+    look exactly like a failed upload while the reel was still processing
+    fine.
+
+    share_to_feed puts it on the profile grid as well as in the Reels tab.
+    The grid is what a venue or a first-time visitor actually lands on, and
+    a grid with holes in it reads as an abandoned account.
+    """
+    cid = _graph(f"{ig_id}/media", token,
+                 {"media_type": "REELS", "video_url": video_url,
+                  "caption": caption, "share_to_feed": "true"}, post=True)["id"]
+    _poll_container(cid, token, attempts=60, delay=10)
+    return str(_graph(f"{ig_id}/media_publish", token,
+                      {"creation_id": cid}, post=True)["id"])
+
+
 # ------------------------------------------------------------------ modes
 def _creds(allow_unconfigured: bool = False) -> tuple[str, str] | None:
     """Read the two secrets, distinguishing "not set up yet" from "broken".
@@ -732,6 +785,71 @@ def cmd_check(_args) -> int:
     return 0
 
 
+def _slide_rows(picks: list[dict]) -> list[dict]:
+    """The per-pick text a slide needs, in the order the picks were chosen.
+    One derivation, used by both Instagram formats and the Facebook card."""
+    return [{"name": p["event"]["name"],
+             "meta": f"{p['event']['time']} · {F._display_area(p['event']['area'])}",
+             "tag": CATEGORY_LABEL.get(p["event"]["category"], p["event"]["category"]),
+             "cat": p["event"]["category"]}
+            for p in picks]
+
+
+def _render_instagram(text: dict, picks: list[dict], today: str, slot: str,
+                      font_cache: Path) -> list[Path]:
+    """Render Instagram's media and return what must be live on Pages.
+
+    Both formats are the same sequence of slides -- a cover, then one per
+    pick. The carousel commits each slide and posts them as children; the
+    reel draws the same slides at 9:16 into a TEMP directory, muxes them
+    into one .mp4 and commits only that. So the reel adds one file a day to
+    the repo where the carousel added four, which matters because
+    prune_cards() only deletes from the working tree: git keeps every card
+    this site has ever posted, forever, in a public repo.
+    """
+    rows = _slide_rows(picks)
+    n = len(rows)
+
+    if IG_FORMAT == "carousel":
+        out = [CARD_DIR / f"{today}-{slot}-ig0.jpg"]
+        social_card.render_cover_slide(text["headline"], text["datestamp"],
+                                       n, out[0], font_cache)
+        social_card.verify_card(out[0])
+        for i, r in enumerate(rows, 1):
+            slide = CARD_DIR / f"{today}-{slot}-ig{i}.jpg"
+            social_card.render_pick_slide(
+                index=i, total=n, name=r["name"], meta=r["meta"], tag=r["tag"],
+                cat_slug=r["cat"], is_last=(i == n),
+                out_path=slide, cache_dir=font_cache)
+            social_card.verify_card(slide)
+            out.append(slide)
+        return out
+
+    if IG_FORMAT != "reel":
+        raise ValueError(f"IG_FORMAT is {IG_FORMAT!r}; expected 'reel' or 'carousel'")
+
+    size = (social_card.REEL_W, social_card.REEL_H)
+    shared = dict(size=size, safe_bottom=social_card.REEL_SAFE_BOTTOM,
+                  swipe=False, scale=social_card.REEL_SCALE)
+    reel = CARD_DIR / f"{today}-{slot}.mp4"
+    with tempfile.TemporaryDirectory(prefix="reel-frames-") as tmp:
+        tmp = Path(tmp)
+        frames = [tmp / "f0.jpg"]
+        social_card.render_cover_slide(text["headline"], text["datestamp"],
+                                       n, frames[0], font_cache, **shared)
+        for i, r in enumerate(rows, 1):
+            frame = tmp / f"f{i}.jpg"
+            social_card.render_pick_slide(
+                index=i, total=n, name=r["name"], meta=r["meta"], tag=r["tag"],
+                cat_slug=r["cat"], is_last=(i == n),
+                out_path=frame, cache_dir=font_cache,
+                max_name_lines=social_card.REEL_NAME_LINES, **shared)
+            frames.append(frame)
+        social_card.render_reel(frames, reel)
+    social_card.verify_reel(reel)
+    return [reel]
+
+
 def cmd_build(args) -> int:
     # Checked here and not only in publish so the setup window leaves the repo
     # completely untouched. Rendering first would commit a card a day that
@@ -772,45 +890,22 @@ def cmd_build(args) -> int:
     # already carries all three picks as text, and there is no algorithmic
     # reward on FB for a format change the way there is on Instagram.
     card = CARD_DIR / f"{today}-{slot}.jpg"
-    rows = [{"name": p["event"]["name"],
-             "meta": f"{p['event']['time']} · {F._display_area(p['event']['area'])}",
-             "tag": CATEGORY_LABEL.get(p["event"]["category"], p["event"]["category"])}
-            for p in picks]
-    social_card.render_card(text["headline"], text["datestamp"], rows,
-                            card, font_cache)
+    social_card.render_card(text["headline"], text["datestamp"],
+                            _slide_rows(picks), card, font_cache)
     social_card.verify_card(card)
 
-    # Instagram gets a carousel instead: a cover slide plus one slide per
-    # pick, each its own file so each becomes its own carousel child image.
-    # A single dense image is Instagram's weakest-performing native format;
-    # carousels reliably get more reach and saves for the same content.
-    ig_slides = []
-    cover = CARD_DIR / f"{today}-{slot}-ig0.jpg"
-    social_card.render_cover_slide(text["headline"], text["datestamp"],
-                                   len(picks), cover, font_cache)
-    social_card.verify_card(cover)
-    ig_slides.append(cover)
-
-    n = len(picks)
-    for i, p in enumerate(picks, 1):
-        ev = p["event"]
-        slide = CARD_DIR / f"{today}-{slot}-ig{i}.jpg"
-        social_card.render_pick_slide(
-            index=i, total=n, name=ev["name"],
-            meta=f"{ev['time']} · {F._display_area(ev['area'])}",
-            tag=CATEGORY_LABEL.get(ev["category"], ev["category"]),
-            cat_slug=ev["category"], is_last=(i == n),
-            out_path=slide, cache_dir=font_cache)
-        social_card.verify_card(slide)
-        ig_slides.append(slide)
+    # Instagram gets whichever of the two native formats IG_FORMAT names,
+    # built from the same cover-plus-one-slide-per-pick sequence either way.
+    ig_assets = _render_instagram(text, picks, today, slot, font_cache)
 
     removed = prune_cards(today)
 
     plan = {"date": today, "slot": slot, "card": str(card.relative_to(ROOT)),
             "card_url": f"{SITE}/social/cards/{today}-{slot}.jpg",
             "card_bytes": card.stat().st_size,
-            "ig_slides": [{"url": f"{SITE}/social/cards/{s.name}",
-                          "bytes": s.stat().st_size} for s in ig_slides],
+            "ig_format": IG_FORMAT,
+            "ig_assets": [{"url": f"{SITE}/social/cards/{a.name}",
+                          "bytes": a.stat().st_size} for a in ig_assets],
             "facebook": text["facebook"], "instagram": text["instagram"],
             "picks": [p["event"]["name"] for p in picks],
             "venues": [p["venue"] for p in picks if p["venue"]],
@@ -819,7 +914,8 @@ def cmd_build(args) -> int:
     print(f"picked {len(picks)} for {today} [{slot}] (scores {plan['scores']}):")
     for name in plan["picks"]:
         print(f"  - {name}")
-    print(f"rendered {len(ig_slides)}-slide carousel for Instagram")
+    print(f"rendered {IG_FORMAT} for Instagram: "
+          + ", ".join(a.name for a in ig_assets))
     if removed:
         print(f"pruned {removed} card(s) older than {KEEP_DAYS} days")
     print(f"\n--- facebook ---\n{text['facebook']}\n\n--- instagram ---\n{text['instagram']}")
@@ -849,8 +945,10 @@ def cmd_publish(args) -> int:
     if args.dry_run:
         print(f"dry run: credentials resolve to "
               f"{acct['page_name']} / @{acct['ig_username']}")
-        print(f"dry run: would post {plan['card_url']} to Facebook and a "
-              f"{len(plan['ig_slides'])}-slide carousel to Instagram")
+        shape = ("a reel" if plan["ig_format"] == "reel"
+                 else f"a {len(plan['ig_assets'])}-slide carousel")
+        print(f"dry run: would post {plan['card_url']} to Facebook and "
+              f"{shape} to Instagram")
         return 0
     today, slot, log = plan["date"], plan["slot"], load_posted()
     entry = log.setdefault(today, {}).setdefault(slot, {})
@@ -877,14 +975,23 @@ def cmd_publish(args) -> int:
         print(f"instagram: already posted ({entry['instagram']['id']})")
     else:
         try:
-            for slide in plan["ig_slides"]:
-                _wait_for_pages(slide["url"], slide["bytes"])
-            media_id = post_instagram_carousel(
-                acct["ig_id"], acct["page_token"], plan["instagram"],
-                [slide["url"] for slide in plan["ig_slides"]])
-            entry["instagram"] = {"id": media_id, "at": now}
+            # Every asset, whatever the format: Meta fetches the reel's .mp4
+            # from Pages exactly as it fetches a carousel child's .jpg, so
+            # the same deploy race applies to both.
+            for asset in plan["ig_assets"]:
+                _wait_for_pages(asset["url"], asset["bytes"])
+            urls = [a["url"] for a in plan["ig_assets"]]
+            if plan["ig_format"] == "reel":
+                media_id = post_instagram_reel(
+                    acct["ig_id"], acct["page_token"], plan["instagram"], urls[0])
+                shape = "reel"
+            else:
+                media_id = post_instagram_carousel(
+                    acct["ig_id"], acct["page_token"], plan["instagram"], urls)
+                shape = f"{len(urls)}-slide carousel"
+            entry["instagram"] = {"id": media_id, "at": now, "format": plan["ig_format"]}
             save_posted(log)
-            print(f"instagram: posted {media_id} ({len(plan['ig_slides'])}-slide carousel)")
+            print(f"instagram: posted {media_id} ({shape})")
         except (GraphError, OSError, TimeoutError) as exc:
             failures.append(f"instagram: {exc}")
 

@@ -33,7 +33,8 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
     scripts/feeds.json      DATA: which feeds/venues/artists to pull
     scripts/social_post.py  daily Facebook + Instagram poster (own workflow)
     scripts/social_card.py  renders the 1080x1350 images social_post.py posts
-    social/cards/*.jpg      GENERATED daily; Instagram fetches these by URL
+    social/cards/*.jpg      GENERATED daily; the Facebook card
+    social/cards/*.mp4      GENERATED daily; the Instagram Reel, fetched by URL
     social/posted.json      GENERATED daily; the anti-double-post log
     venue-aliases.json      DATA: venue rename map for dedupe
     venue-districts.json    DATA: venue -> district, for venues whose `area`
@@ -121,6 +122,31 @@ for f in list(pathlib.Path('.').glob('*/index.html')) + list(pathlib.Path('.').g
 inbound = collections.Counter(l for s, ls in pages.items() for l in ls if l in pages and l != s)
 print([u for u in pages if not inbound[u] and u != '/'])   # must be []
 ```
+
+**The site links out to the accounts too, since 2026-09-10.** Until then the
+funnel ran one way: three posts a day pushed traffic to the site and not one
+of the 72 pages linked back to either profile, so everyone who arrived from
+search left without knowing the accounts existed. `SOCIAL` in
+`fetch_events.py` is the single definition and `_site_nav()` puts a `/ FOLLOW`
+row on every generated page. index.html is hand-written, so it mirrors that
+list in **two** more places — the `Organization` node's `sameAs` and the
+footer's `/ CONNECT` column. **Change one, change all three.** `sameAs` is the
+half that matters to Google: it is what ties the domain and the profiles into
+one entity, and nothing else on the domain asserted the connection.
+
+These are the only external links in `_site_nav()`, and they do not affect the
+orphan audit above — it counts only hrefs that resolve to a page in this repo.
+
+**`og:image` is per-page on listing pages**, via `_og_image()`. Every generated
+page used to ship the same `og-image.png`, so a share of any one of them — a
+text, a DM, a Facebook post — looked identical to a share of every other. Hub
+and venue pages now use their top listing's own art, falling back to the site
+card when the page has no events or the top row has no image. That art is the
+promoter's, exactly as it already appears in the same page's Event JSON-LD, so
+it asserts nothing new — which is a different question from `social_card.py`'s
+refusal to build the *daily post* out of the same images. The `/venue/` and
+`/city/` directories, `/advertise/` and `/submit/` keep the site card: they are
+not listings, so there is no "top event" whose art would mean anything.
 
 Those links must be in the **served HTML**, not rendered by `app.js`. Google
 defers JS rendering to a second queue and a new domain does not get to the
@@ -243,14 +269,50 @@ Facebook has no such constraint: `/{page-id}/photos` takes a multipart upload
 (`_multipart()`, hand-rolled because stdlib has no encoder). That is why
 **Facebook is posted first** — it cannot be blocked by a slow Pages deploy.
 
-**The two platforms get different images, since 2026-09-05.** Facebook still
-gets one dense card (`render_card()`, all three picks) — its caption already
-carries the full text and there's no algorithmic reward on FB for a format
-change. Instagram gets a carousel instead: a cover slide plus one slide per
-pick (`render_cover_slide()` / `render_pick_slide()`), posted with
-`post_instagram_carousel()`. A single static image is Instagram's
-weakest-performing native post type; carousels reliably get more reach and
-saves for the same content. Each pick slide's category tag renders in that
+**The two platforms get different media.** Facebook still gets one dense card
+(`render_card()`, all three picks) — its caption already carries the full text
+and there's no algorithmic reward on FB for a format change.
+
+**Instagram gets a Reel, since 2026-09-10** (`IG_FORMAT` in `social_post.py`;
+set it to `"carousel"` to restore exactly what ran between 2026-09-05 and
+then). It is the same cover-plus-one-slide-per-pick sequence the carousel
+used, drawn at 9:16 and muxed into a ~11s MP4 by `render_reel()`, posted with
+`post_instagram_reel()`. A carousel beats a single image — that was the
+2026-09-05 change — but both are *feed* posts, shown mostly to existing
+followers; a Reel is the only native format Instagram pushes to people who
+don't follow the account, which is the whole problem for an account this new.
+**Never post both in one slot**: they would be the same three picks twice.
+
+`render_reel()` shells out to **ffmpeg**, which is *not* a pip dependency and
+is not installed by the workflow — it is preinstalled on `ubuntu-latest`.
+`_ffmpeg()` names that as the cause when it is missing instead of raising a
+bare `FileNotFoundError`. `verify_reel()` is `verify_card()` for video and
+asserts the Reels spec locally, for the same reason: a bad container comes
+back from Meta as a generic "media upload failed" naming no field.
+
+The frames are **the carousel's own renderers** at a different size —
+`render_cover_slide()` / `render_pick_slide()` take `size`, `scale`,
+`safe_bottom`, `swipe` and `max_name_lines`, and that is the entire
+difference. A second set of reel-only drawing code would be exactly the
+two-layer-mirror drift this file warns about elsewhere. Three of those
+parameters are not cosmetic: `safe_bottom` (340px) keeps the footer out from
+under Instagram's caption overlay; `scale` (1.3) exists because a 1920-tall
+frame is 42% taller than the carousel slide but exactly as wide, so type sized
+for 4:5 reads small in it; and `max_name_lines` (6, against the carousel's 4)
+is required *by* that scale — at 1.3x a long name wraps past four lines, and
+leaving the cap alone made the bigger format ellipsize names the smaller one
+printed in full.
+
+The reel commits **one** file a day where the carousel committed four: the
+9:16 frames are rendered into a temp directory and only the MP4 is kept.
+`prune_cards()` deletes from the working tree but git keeps every card this
+site has ever posted, in a public repo, forever — so the frames are cuts over
+static images with a short crossfade rather than a pan/zoom, which would make
+every frame differ from the last and multiply the bitrate for decoration.
+A silent AAC track is muxed in deliberately; Meta's spec states audio
+requirements without stating audio is optional.
+
+Each pick slide's category tag renders in that
 category's own site color (`CATEGORY_COLOR`, mirroring `CATEGORIES` in
 `js/data.js` the same way `_split_area()` mirrors `splitArea()`) instead of
 the brand green everything else uses — color that changes slide to slide is
@@ -414,7 +476,8 @@ What breaks it:
   day and the post would advertise picks that `/tonight/` does not list.
 - **Forgetting `social` in the workflow's `git add` allowlist** — the same
   trap documented under Deploy, and worse here: an uncommitted card means the
-  Instagram fetch 404s.
+  Instagram fetch 404s. The reel is a `.mp4` under the same directory, so the
+  existing `git add -A social` covers it.
 - Instagram allows 100 API-published posts per rolling 24h (verified
   2026-08-28, printed by `check`). This posts once, so the limit is only ever
   reached by a loop bug.
@@ -448,6 +511,10 @@ agree**: `_split_area()` (`fetch_events.py`) / `splitArea()` (`js/app.js`) feed
 the same schema.org address into the generated pages and the homepage's runtime
 JSON-LD. Cross-check by hashing both over `live-events.json` after any change.
 `addressLocality` must be a city — it once held the whole postal address.
+
+`SOCIAL` (`fetch_events.py`) is a three-way one, and the only one where two of
+the three copies are hand-written markup: the constant, index.html's `sameAs`,
+and index.html's footer column. See "Internal links are the crawl budget".
 
 `_slugify_matches()` (`fetch_events.py`) / `districtOf()` (`js/radar.js`) is the
 other one: it decides an event's district for both the generated
