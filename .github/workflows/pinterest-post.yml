@@ -1,0 +1,80 @@
+name: Pinterest board
+
+# Its own workflow, and weekly rather than daily, because Pinterest is not a
+# feed. A pin is a search result with a multi-year half life, so the unit here
+# is a PLACE ("Things to Do in Deep Ellum"), pinned ONCE, not a day's picks --
+# see the module docstring in scripts/pinterest_post.py. A few a week fills the
+# board over a couple of months and then quietly stops; the whole catalogue in
+# one burst looks like a bot to Pinterest and to anyone scrolling the board.
+#
+# Separate from social-post.yml for the same reason that one is separate from
+# fetch-events.yml: a dead Pinterest token must not be able to stop the daily
+# Facebook and Instagram posts, and neither may touch the nightly refresh.
+#
+# 11:00 UTC Sunday is deliberately clear of every other cron in this repo
+# (09:00, 13:00, 14:00, 16:00, 17:00, 18:00, 21:00). GitHub still delays
+# scheduled runs by hours here; for a weekly evergreen pin that does not
+# matter, which is why there is no catch-up cron.
+on:
+  schedule:
+    - cron: "0 11 * * 0"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "How many new pins to post this run"
+        default: "5"
+      dry_run:
+        description: "Render and verify the pins, post nothing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pinterest-post
+  cancel-in-progress: false
+
+jobs:
+  pin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: pip install --disable-pip-version-check "Pillow~=12.3"
+
+      # No secret set = quiet skip that touches nothing, the same narrow path
+      # social_post.py takes while the Meta side is being stood up by hand.
+      - name: Pin new pages
+        env:
+          PINTEREST_ACCESS_TOKEN: ${{ secrets.PINTEREST_ACCESS_TOKEN }}
+        run: |
+          python scripts/pinterest_post.py run \
+            --limit "${{ inputs.limit || 5 }}" \
+            --font-cache "$RUNNER_TEMP/fonts" \
+            ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      # Only pinned.json. Nothing else here is generated -- the pin images are
+      # rendered to a temp dir and uploaded as bytes, never committed, so a
+      # public repo does not grow an image a week forever.
+      #
+      # if: always() because pinterest_post.py saves the log after EACH pin: a
+      # run that dies on pin 3 of 5 must still commit the two that landed, or
+      # the next run re-pins them.
+      - name: Commit the pinned log
+        if: always() && !inputs.dry_run
+        run: |
+          git config user.name "social-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A social/pinned.json
+          if git diff --cached --quiet; then
+            echo "No new pins."
+          else
+            git commit -m "chore: pinterest board log"
+            ./.github/push-with-retry.sh
+          fi

@@ -309,6 +309,111 @@ def verify_card(path: Path) -> None:
     print(f"  card ok: {w}x{h} {fmt} {size / 1024:.0f} KB ratio {ratio:.3f}")
 
 
+# ----------------------------------------------------------------- pins
+# Pinterest is not a feed. A pin is a SEARCH result with a multi-year half
+# life, so the daily "DFW Today - Thu Sep 10" card is exactly the wrong thing
+# to put on a board: it is stale tomorrow and stale forever after. A pin here
+# is therefore about a PLACE, never about a date -- "Things to Do in Deep
+# Ellum" stays true, and the page it links to updates itself nightly.
+#
+# 2:3 is Pinterest's own recommended ratio and the one the feed lays out
+# without cropping. Everything is drawn with the same primitives the cards and
+# reel frames use, so a pin is recognisably the same brand.
+PIN_W, PIN_H = 1000, 1500
+# The pin's title gets more lines than a card headline because it is a place
+# name, not a show title: it has to be readable in full or the pin does not
+# say what it is.
+PIN_TITLE_LINES = 4
+
+
+def render_pin(title: str, tagline: str, place: str,
+               out_path: Path, cache_dir: Path,
+               kicker: str = "THINGS TO DO IN") -> Path:
+    """One evergreen pin. `title` is the place ("Deep Ellum"), `tagline` the
+    categories that place actually books, `place` the city line in the footer.
+
+    Deliberately carries NO event names and no date. Listing "Sep 12: The
+    Holdup" would make a pin that is still being surfaced in two years look
+    abandoned, and the value of the pin is the click through to a page that is
+    always current -- not the sample.
+
+    `kicker` is a parameter because it does not compose with every title:
+    "THINGS TO DO IN" + "Free Things to Do" reads as
+    "THINGS TO DO IN FREE THINGS TO DO". Callers whose title is not a place
+    pass their own line, or "" for none.
+    """
+    img = Image.new("RGBA", (PIN_W, PIN_H), (*BG, 255))
+    _tower(img)
+    d = ImageDraw.Draw(img)
+    disp = lambda s: _load("Syne:wght@800", s, cache_dir)
+    mono = lambda s: _load("JetBrains+Mono:wght@500", s, cache_dir)
+
+    _masthead(d, cache_dir)
+
+    kfont = mono(26)
+    max_w = PIN_W - PAD * 2
+
+    # Shrink to fit rather than wrap-and-overflow OR ellipsize. Two distinct
+    # failures, both from treating venue and district names as if they were
+    # short: _wrap() breaks on spaces, so a single word longer than the column
+    # ("STOCKYARDS" at 88px) cannot be broken and ran off the right edge; and
+    # at the line cap it ellipsizes, which turned "The National Multicultural
+    # Western Heritage Museum" into "THE NATIONAL MULTICU...".
+    #
+    # A pin is a search result that has to say what it is, so the type adapts
+    # to the name instead of the name being cut to fit the type. Accept the
+    # largest size whose wrap both fits the width and did not ellipsize --
+    # _wrap() signals that by ending its last line with an ellipsis.
+    for size in range(88, 35, -4):
+        tfont = disp(size)
+        lines = _wrap(title.upper(), tfont, max_w, PIN_TITLE_LINES)
+        if (all(tfont.getlength(l) <= max_w for l in lines)
+                and not lines[-1].endswith("…")):
+            break
+    line_h = int(size * 1.09)
+
+    block_h = (56 if kicker else 0) + line_h * len(lines) + (54 if tagline else 0)
+    zone_top, zone_bottom = PAD + 190, PIN_H - PAD - 150
+    y = zone_top + max(0, (zone_bottom - zone_top - block_h)) // 2
+
+    if kicker:
+        _tracked(d, (PAD, y), kicker.upper(), kfont, EM, 3.4)
+        y += 56
+    for line in lines:
+        d.text((PAD, y), line, font=tfont, fill=WHITE)
+        y += line_h
+    if tagline:
+        y += 14
+        _tracked(d, (PAD, y), tagline.upper(), mono(24), SILVER, 2.6)
+
+    _footer(d, cache_dir, place.upper() if place else None, PIN_W, PIN_H)
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    img.convert("RGB").save(out_path, "JPEG", quality=88,
+                            optimize=True, progressive=False)
+    return out_path
+
+
+def verify_pin(path: Path) -> None:
+    """Pinterest's media limits, asserted locally for the same reason
+    verify_card() asserts Instagram's: the API answers a bad image with a
+    generic failure that names no field."""
+    size = path.stat().st_size
+    with Image.open(path) as im:
+        fmt, (w, h) = im.format, im.size
+    problems = []
+    if fmt != "JPEG":
+        problems.append(f"format is {fmt}; send JPEG")
+    if size > 20 * 1024 * 1024:
+        problems.append(f"{size} bytes exceeds Pinterest's 20 MB limit")
+    if abs((w / h) - (2 / 3)) > 0.01:
+        problems.append(f"aspect {w / h:.3f} is not 2:3 (0.667)")
+    if problems:
+        raise ValueError(f"{path.name} violates the Pinterest media spec: "
+                         + "; ".join(problems))
+    print(f"  pin ok: {w}x{h} {fmt} {size / 1024:.0f} KB")
+
+
 # --------------------------------------------------------------- reels
 # Instagram's Content Publishing API takes a video_url for media_type=REELS
 # exactly the way it takes an image_url for a photo -- Meta's servers fetch

@@ -33,11 +33,13 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
     scripts/feeds.json      DATA: which feeds/venues/artists to pull
     scripts/notify_submitter.py  hand-run: "your event is live" mail
     scripts/venue_outreach.py    hand-run: "we built you a page" mail
+    scripts/pinterest_post.py    weekly Pinterest board (own workflow)
     scripts/social_post.py  daily Facebook + Instagram poster (own workflow)
     scripts/social_card.py  renders the 1080x1350 images social_post.py posts
     social/cards/*.jpg      GENERATED daily; the Facebook card
     social/cards/*.mp4      GENERATED daily; the Instagram Reel, fetched by URL
     social/posted.json      GENERATED daily; the anti-double-post log
+    social/pinned.json      GENERATED weekly; which pages are already pinned
     venue-aliases.json      DATA: venue rename map for dedupe
     venue-districts.json    DATA: venue -> district, for venues whose `area`
                                   never names one (36% of rows)
@@ -357,6 +359,69 @@ green on the job, which is the visibility this deserves and no more.
 `/submit/` renders from it; the modal in `index.html` is hand-written to
 match, and `_check_modal_drift()` warns during the nightly build when they
 diverge. Add a field in both places.
+
+## Pinterest board
+
+`.github/workflows/pinterest-post.yml` runs `scripts/pinterest_post.py`
+weekly (Sunday 11:00 UTC, clear of every other cron here) and pins up to
+`--limit` (5) pages that have never been pinned.
+
+**Pinterest is a search index, not a feed, and that changes the unit.** A pin
+has a multi-year half life, so the daily "DFW TODAY — THU SEP 10" card is
+exactly the wrong thing to put on a board: stale tomorrow and stale forever
+after. The unit here is a **place** — one pin per district, city,
+`/free-events/` and venue page. "Things to Do in Deep Ellum" stays true, and
+the page it links to refreshes itself nightly.
+
+That is why it posts **once per target and then never again**, why it is
+weekly rather than daily, and why it is its own script and workflow rather
+than a third platform in `social_post.py`. It also means the board grows with
+the site by itself: a venue that clears `VENUE_MIN_EVENTS` next month becomes
+a new target on the next run, and when everything is pinned the run no-ops.
+
+**`render_pin()` carries no event names and no date.** Listing "Sep 12: The
+Holdup" would make a pin still being surfaced in two years look abandoned. The
+pin's value is the click through to a page that is always current, not the
+sample. The category tagline *is* read from the feed, so it cannot drift from
+what the place actually books.
+
+**The title shrinks to fit; it is never clipped.** `_wrap()` breaks on spaces,
+so a single word longer than the column ("STOCKYARDS" at 88px) ran off the
+edge, and at the line cap it ellipsized "The National Multicultural Western
+Heritage Museum" into "THE NATIONAL MULTICU…". A pin is a search result that
+has to say what it is, so the type adapts to the name. All 66 current target
+names were checked to render in full.
+
+**No build/publish split.** Unlike Instagram, Pinterest's create-pin endpoint
+takes the image bytes directly (`media_source.source_type = "image_base64"`),
+so there is no commit-to-Pages dance, no `_wait_for_pages()`, and **nothing is
+committed but the log** — a public repo does not grow an image a week forever.
+
+**A hub with no upcoming events is never pinned.** Those pages carry
+`noindex` until they have something; pinning boilerplate is how a board stops
+being worth following.
+
+One secret, **`PINTEREST_ACCESS_TOKEN`**. The board id is deliberately not
+configured — it is resolved from `BOARD_NAME` at runtime, the same reasoning
+that keeps the Instagram user id out of the secrets. Absent = the run skips
+quietly and touches nothing, the same narrow path `social_post.py` takes while
+a platform is being stood up by hand.
+
+What breaks it:
+
+- **Token expiry.** Pinterest access tokens are short-lived unless minted
+  through the refresh flow; there is no equivalent of Meta's never-expiring
+  system-user token. `python scripts/pinterest_post.py check` is the preflight.
+  A 401 is reported with that hint attached rather than as a traceback.
+- **The board not existing.** `_board_id()` raises with the boards it *did*
+  find and refuses to create one — a script should not guess which existing
+  board was meant, and creating one silently scatters pins onto a board you
+  use for something else.
+- The request *bodies* come from Pinterest's v5 docs and have **not** been
+  exercised against a real token. The three endpoints were probed on
+  2026-09-10 and all exist (401 to a bad token, not 404), but treat the first
+  live run as the test and read the error text — the same doc/reality gap that
+  cost a wrong guess on Instagram's carousel `children` parameter.
 
 ## Hand-run outreach mail
 
