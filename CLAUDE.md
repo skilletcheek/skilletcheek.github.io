@@ -582,6 +582,26 @@ the same schema.org address into the generated pages and the homepage's runtime
 JSON-LD. Cross-check by hashing both over `live-events.json` after any change.
 `addressLocality` must be a city — it once held the whole postal address.
 
+`_dallas_offset()` (`fetch_events.py`) / `dallasOffset()` (`js/app.js`) is the
+timezone half of that same schema.org pair. **Both hardcoded `-05:00` until
+2026-09-11** — correct on CDT, an hour wrong from early November to mid-March,
+and `startDate` is an instant, so half the year of listings told Google the
+wrong one. Both now ask their platform (`zoneinfo` / `Intl`) for the offset at
+**12:00 UTC on the event's date** — morning in Dallas, so always the same
+calendar day and safely past the 2 AM switch.
+
+Resolving per-date rather than per-instant is what makes the two layers
+trivially comparable; the exact cost is that an event starting between
+midnight and 2 AM on one of the two transition days a year takes the rest of
+that day's offset. Cross-check by running both over every date in
+`live-events.json` plus the transition dates — they agreed on all 41 on
+2026-09-11. `js/app.js` cannot be syntax-checked on this machine, so that
+check runs in the browser preview.
+
+Note the ICS feeds do **not** use this: `_event_start()` resolves the real
+instant through `ZoneInfo`, because a calendar entry is a promise about a
+moment and has no mirror to stay comparable with.
+
 `SOCIAL` (`fetch_events.py`) is a three-way one, and the only one where two of
 the three copies are hand-written markup: the constant, index.html's `sameAs`,
 and index.html's footer column. See "Internal links are the crawl budget".

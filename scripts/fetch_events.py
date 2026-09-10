@@ -1276,19 +1276,51 @@ def _hub_trail(path, heading):
     return [("Home", "/"), (label, None)]
 
 
+def _dallas_offset(date_iso: str) -> str:
+    """Dallas's UTC offset on a date, as a schema.org suffix ("-05:00" on CDT,
+    "-06:00" on CST).
+
+    Both layers hardcoded "-05:00" until 2026-09-11, which is correct for CDT
+    and an hour wrong for every event between early November and mid-March --
+    startDate is an instant, so half the year of listings told Google the wrong
+    one.
+
+    MIRRORED by dallasOffset() in js/app.js, which asks Intl the same question
+    about the same instant. Change one, change both.
+
+    The offset is resolved for the DATE (at 12:00 UTC, which is morning in
+    Dallas and so always the same calendar day, safely past the 2 AM DST
+    switch) rather than for the event's own start time. That makes the two
+    layers trivially comparable instead of requiring JS to re-derive a
+    per-instant offset. The cost is exact: an event starting between midnight
+    and 2 AM on one of the two transition dates a year gets the rest of that
+    day's offset. `area`-level precision this data does not have.
+    """
+    try:
+        noon = datetime.strptime(date_iso, "%Y-%m-%d").replace(
+            hour=12, tzinfo=timezone.utc)
+    except (ValueError, TypeError):
+        return "-06:00"
+    total = int(noon.astimezone(ZoneInfo("America/Chicago")).utcoffset().total_seconds())
+    sign = "-" if total < 0 else "+"
+    total = abs(total)
+    return f"{sign}{total // 3600:02d}:{total % 3600 // 60:02d}"
+
+
 def _jsonld(events):
     out = []
     for i, e in enumerate(events[:30]):
         t = re.match(r"(\d{1,2}):(\d{2})\s*(AM|PM)", e.get("time") or "")
         start = e["date"]
         end = e["date"]
+        tz = _dallas_offset(e["date"])
         if t:
             h = int(t.group(1)) % 12 + (12 if t.group(3) == "PM" else 0)
             mi = int(t.group(2))
-            start = f"{e['date']}T{h:02d}:{mi:02d}:00-05:00"
+            start = f"{e['date']}T{h:02d}:{mi:02d}:00{tz}"
             # default a 3-hour run, clamped to the same day
             end_min = min(h * 60 + mi + 180, 23 * 60 + 59)
-            end = f"{e['date']}T{end_min // 60:02d}:{end_min % 60:02d}:00-05:00"
+            end = f"{e['date']}T{end_min // 60:02d}:{end_min % 60:02d}:00{tz}"
         url = e["url"] if e["url"] and e["url"] != "#" else SITE
         venue, street, city = _split_area(e["area"])
         addr = {"@type": "PostalAddress", "addressRegion": "TX"}
@@ -1310,7 +1342,7 @@ def _jsonld(events):
             item["description"] = e["description"]
         offer = {"@type": "Offer", "url": url,
                  "availability": "https://schema.org/InStock",
-                 "validFrom": f"{e['date']}T00:00:00-05:00"}
+                 "validFrom": f"{e['date']}T00:00:00{tz}"}
         if e.get("cost") is not None:
             offer["price"] = e["cost"]
             offer["priceCurrency"] = "USD"

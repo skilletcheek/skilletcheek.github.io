@@ -617,6 +617,34 @@ function updateQuickButtons() {
 }
 
 /* ---- SEO: dynamic meta + JSON-LD ----------------------------------------- */
+/* Dallas's UTC offset on a date, as a schema.org suffix ("-05:00" on CDT,
+   "-06:00" on CST). MIRRORS _dallas_offset() in scripts/fetch_events.py —
+   the generated pages and this runtime block describe the same events, so
+   both must answer this identically. Change one, change both.
+
+   Both hardcoded "-05:00" until 2026-09-11: right for CDT, an hour wrong for
+   every event between early November and mid-March. startDate is an instant,
+   so half the year of listings told Google the wrong one.
+
+   Resolved for the DATE, at 12:00 UTC — morning in Dallas, so always the same
+   calendar day and safely past the 2 AM switch. An event starting between
+   midnight and 2 AM on one of the two transition days a year takes the rest of
+   that day's offset; that is the exact, documented cost of keeping the two
+   layers comparable instead of re-deriving a per-instant offset in both. */
+function dallasOffset(iso) {
+  try {
+    const parts = new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/Chicago", timeZoneName: "longOffset",
+    }).formatToParts(new Date(`${iso}T12:00:00Z`));
+    const name = (parts.find((p) => p.type === "timeZoneName") || {}).value || "";
+    const m = name.match(/GMT([+-])(\d{1,2})(?::(\d{2}))?/);
+    if (m) return `${m[1]}${m[2].padStart(2, "0")}:${m[3] || "00"}`;
+  } catch (_) { /* fall through */ }
+  // Engines without longOffset (pre-2021) get the old constant — no worse
+  // than what every browser got before this function existed.
+  return "-05:00";
+}
+
 function updateSeo(list) {
   const where = state.district
     ? state.district.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
@@ -641,6 +669,8 @@ function updateSeo(list) {
     document.head.appendChild(tag);
   }
   const iso = isoDate(state.date);
+  // One lookup per render, not per event: every row in `list` is the same day.
+  const tz = dallasOffset(iso);
   const fallbackImg = `${location.origin}/og-image.png`;
   const events = list.slice(0, 30).filter((a) => a.url && a.url !== "#" && a.url !== "#advertise").map((a) => {
     const startMins = parseTimeToMinutes(a.time);
@@ -649,10 +679,10 @@ function updateSeo(list) {
     // same schema.org address for the same event, so keep them in step.
     const [venue, street, city] = splitArea(a.area);
     const pad = (n) => String(n).padStart(2, "0");
-    const startDate = timed ? `${iso}T${pad(Math.floor(startMins / 60) % 24)}:${pad(startMins % 60)}:00-05:00` : iso;
+    const startDate = timed ? `${iso}T${pad(Math.floor(startMins / 60) % 24)}:${pad(startMins % 60)}:00${tz}` : iso;
     // default a 3-hour run, clamped to the same day
     const endMins = Math.min(startMins + 180, 23 * 60 + 59);
-    const endDate = timed ? `${iso}T${pad(Math.floor(endMins / 60))}:${pad(endMins % 60)}:00-05:00` : iso;
+    const endDate = timed ? `${iso}T${pad(Math.floor(endMins / 60))}:${pad(endMins % 60)}:00${tz}` : iso;
     return {
       "@type": "Event",
       name: a.name,
@@ -670,7 +700,7 @@ function updateSeo(list) {
         "@type": "Offer",
         url: a.url,
         availability: "https://schema.org/InStock",
-        validFrom: `${iso}T00:00:00-05:00`,
+        validFrom: `${iso}T00:00:00${tz}`,
         ...(a.cost != null ? { price: a.cost, priceCurrency: "USD" } : {}),
       },
     };
