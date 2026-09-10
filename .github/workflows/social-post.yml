@@ -126,11 +126,26 @@ jobs:
             *) echo "slot=${{ inputs.slot }}" >> "$GITHUB_OUTPUT" ;;
           esac
 
-      # Renders the Facebook card and, since 2026-09-10, the Instagram Reel.
-      # The reel is assembled with ffmpeg, which is PREINSTALLED on
-      # ubuntu-latest -- deliberately not added to the pip line above, since
-      # it is not a Python package. If a future runner image drops it,
-      # social_card._ffmpeg() fails with that named as the cause.
+      # ffmpeg assembles the reel. It is NOT preinstalled on ubuntu-latest --
+      # assumed it was on 2026-09-10 and a dry run on a throwaway branch
+      # proved otherwise, which is the entire reason that run existed. Not a
+      # third-party setup action: apt is already trusted here, and a marketing
+      # job is not worth a new supply-chain surface.
+      #
+      # Guarded by command -v so this costs nothing on a future image that
+      # does ship it, and --no-install-recommends keeps the pull to what the
+      # encode actually needs.
+      - name: Install ffmpeg
+        run: |
+          if command -v ffmpeg >/dev/null 2>&1; then
+            echo "ffmpeg already present: $(ffmpeg -version | head -1)"
+          else
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq --no-install-recommends ffmpeg
+            echo "installed: $(ffmpeg -version | head -1)"
+          fi
+
+      # Renders the Facebook card and the Instagram Reel.
       - name: Pick events and render the card
         id: build
         # The secrets are in scope here only so build can tell "not set up

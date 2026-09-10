@@ -32,11 +32,11 @@ real estate per post.
 
 The Reels spec, enforced the same way by verify_reel():
     MP4 . H.264 high . yuv420p . AAC audio . 9:16 . 3s..15min . <= 1 GB
-The reel is assembled by ffmpeg from frames this file draws — ffmpeg is NOT a
-pip dependency and is not installed by the workflow; it is preinstalled on
-ubuntu-latest runners, which is the only place this runs. _ffmpeg() says so
-when it is missing rather than letting subprocess raise a bare
-FileNotFoundError.
+The reel is assembled by ffmpeg from frames this file draws. ffmpeg is not a
+pip dependency; social-post.yml installs it with apt before the build step,
+because ubuntu-latest does NOT ship it (assumed on 2026-09-10, disproved the
+same day by a dry run). _ffmpeg() names that step when the binary is missing
+rather than letting subprocess raise a bare FileNotFoundError.
 """
 
 from __future__ import annotations
@@ -338,17 +338,19 @@ REEL_NAME_LINES = 6
 def _ffmpeg(name: str) -> str:
     """Locate ffmpeg/ffprobe, or say plainly that it is missing.
 
-    Preinstalled on GitHub's ubuntu-latest runners, which is the only place
-    this runs -- but a bare FileNotFoundError from subprocess names no cause,
-    and this is the one dependency in the repo that is neither stdlib nor the
-    workflow's single pip install.
+    NOT preinstalled on ubuntu-latest -- that was assumed on 2026-09-10 and
+    disproved by the first dry run -- so social-post.yml installs it with apt
+    before the build step. This is the one dependency in the repo that is
+    neither stdlib nor the workflow's single pip install, and a bare
+    FileNotFoundError from subprocess would name no cause.
     """
     found = shutil.which(name)
     if not found:
         raise RuntimeError(
-            f"{name} not found on PATH. render_reel() needs ffmpeg; it ships "
-            f"with ubuntu-latest runners, so on CI this means the image "
-            f"changed. Locally: brew install ffmpeg.")
+            f"{name} not found on PATH. render_reel() needs ffmpeg. On CI it "
+            f"is installed by the 'Install ffmpeg' step in social-post.yml, "
+            f"so this means that step was removed, renamed or failed. "
+            f"Locally: brew install ffmpeg.")
     return found
 
 

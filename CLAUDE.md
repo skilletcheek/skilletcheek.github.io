@@ -284,9 +284,12 @@ don't follow the account, which is the whole problem for an account this new.
 **Never post both in one slot**: they would be the same three picks twice.
 
 `render_reel()` shells out to **ffmpeg**, which is *not* a pip dependency and
-is not installed by the workflow — it is preinstalled on `ubuntu-latest`.
-`_ffmpeg()` names that as the cause when it is missing instead of raising a
-bare `FileNotFoundError`. `verify_reel()` is `verify_card()` for video and
+**is not preinstalled on `ubuntu-latest`** — `social-post.yml` installs it with
+apt in its own step before the build. That was assumed the other way on
+2026-09-10 and disproved the same day by a dry run on a throwaway branch; if
+you are tempted to drop the install step because "the runner has ffmpeg",
+it does not. `_ffmpeg()` names that step as the cause when the binary is
+missing instead of raising a bare `FileNotFoundError`. `verify_reel()` is `verify_card()` for video and
 asserts the Reels spec locally, for the same reason: a bad container comes
 back from Meta as a generic "media upload failed" naming no field.
 
