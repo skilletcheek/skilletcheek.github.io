@@ -31,6 +31,8 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
     js/scenes.js            unloaded, kept in repo
     scripts/fetch_events.py the nightly aggregator (also generates pages)
     scripts/feeds.json      DATA: which feeds/venues/artists to pull
+    scripts/notify_submitter.py  hand-run: "your event is live" mail
+    scripts/venue_outreach.py    hand-run: "we built you a page" mail
     scripts/social_post.py  daily Facebook + Instagram poster (own workflow)
     scripts/social_card.py  renders the 1080x1350 images social_post.py posts
     social/cards/*.jpg      GENERATED daily; the Facebook card
@@ -355,6 +357,50 @@ green on the job, which is the visibility this deserves and no more.
 `/submit/` renders from it; the modal in `index.html` is hand-written to
 match, and `_check_modal_drift()` warns during the nightly build when they
 diverge. Add a field in both places.
+
+## Hand-run outreach mail
+
+Two scripts draft an email and print it. **Neither one sends anything, and
+neither may grow the ability to** — `scripts/notify_submitter.py` (a submitter's
+event is live) and `scripts/venue_outreach.py` (a venue has its own page).
+
+**No contact list, ever.** This repo is public and `events.json` is served at
+`letsdoitdallas.com/events.json`, so an address stored anywhere in it is an
+address published to the world — a directory of local venue owners and event
+submitters. Both scripts take the address on `--to`, use it once for a
+`mailto:`, and write it nowhere. That is the reason the "email the submitter on
+publish" Action does not exist, and it is the same reason there is no outreach
+queue: the ceiling is deliberate.
+
+`venue_outreach.py` is the backlink half of the crawl-budget problem. Internal
+linking is what a new domain can do for itself; an inbound link from the
+venue's own site is the part it cannot, and the venue has a real reason to give
+one, because the page is about them. The second effect is the one that pays
+sooner: a venue that likes the page often posts it to their own audience.
+
+Details that matter in the draft:
+
+- **The correction offer comes before the link ask.** The correction is the
+  part with value for the venue and the part that gets a reply; leading with
+  the ask makes the whole email read as link-begging.
+- **Every number and date is read from the live feed**, so the venue can
+  verify the email by clicking one link. The ask only lands if what is being
+  offered is obviously already real.
+- **The calendar line only appears when that venue's `calendar.ics` actually
+  exists on disk.** The per-venue files are written by the nightly build, so
+  between shipping a change and the next run they do not — and a second link
+  that 404s undoes the one thing the email is trying to prove.
+- The venue-slug mapping is `_split_area()` + `_venue_slug()` **imported** from
+  `fetch_events.py`, not reimplemented. Get it wrong and you send a venue a
+  link to somebody else's page.
+- `--list` ranks by upcoming show count and flags likely arenas/sheds from
+  their name. It is a guess shown for skipping, never a filter: a
+  Ticketmaster-fed arena has a marketing department, no incentive to link out,
+  and nobody who answers this email.
+
+Bulk-mailing 48 venues from a script is how a new domain becomes a spam
+complaint. 48 personal emails sent by a person over a couple of weeks is how it
+gets 48 links.
 
 ## Daily social post
 
