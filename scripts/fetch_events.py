@@ -3270,6 +3270,153 @@ def write_feed(events) -> str:
     return f"{SITE}/feed.xml"
 
 
+# ============================================================== IndexNow
+# Bing, DuckDuckGo, Yandex, Ecosia and Seznam share one push endpoint: submit
+# a URL and they crawl it in minutes instead of finding it whenever they next
+# feel like re-reading the sitemap. Google does not participate, so this moves
+# the non-Google share only -- which on a domain this new is not noise.
+#
+# _write_page() already tracks exactly what this needs. Most pages are
+# unchanged on most nights (that is the whole point of _PAGE_CHANGED), so the
+# nightly submission is the handful that really moved, not all 72 -- and
+# repeatedly submitting unchanged URLs is what the protocol asks you not to do.
+#
+# THE KEY IS NOT A SECRET. It is an ownership proof, not a credential: the
+# protocol requires it to be readable by anyone at
+# https://letsdoitdallas.com/<key>.txt, which is how the endpoint confirms
+# whoever submitted the URL controls the host. Committing it to a public repo
+# is the intended use, and it is the ONE string in this repo that looks like
+# an API key and is meant to be published. Rotating it means changing this
+# constant and letting the nightly run write the new .txt.
+INDEXNOW_KEY = "ffd9813217969d9353baca4cea7b0cb1"
+INDEXNOW_ENDPOINT = "https://api.indexnow.org/indexnow"
+
+
+def write_indexnow_key() -> str:
+    """Write <key>.txt, the file the endpoint fetches to verify we own the
+    host. Content is the key itself and nothing else."""
+    f = ROOT / f"{INDEXNOW_KEY}.txt"
+    body = INDEXNOW_KEY + "\n"
+    if not f.exists() or f.read_text() != body:
+        f.write_text(body)
+    return f.name
+
+
+def changed_urls() -> list[str]:
+    """URLs whose bytes actually moved this run, plus the homepage.
+
+    The homepage is always included for the same reason write_hubs() always
+    stamps it with today in the sitemap: its markup is static, so _write_page()
+    never sees it change, but everything it renders comes from
+    live-events.json, which is rewritten every night.
+    """
+    urls = [u for u, moved in _PAGE_CHANGED.items() if moved]
+    home = f"{SITE}/"
+    return [home] + [u for u in urls if u != home]
+
+
+def _wait_for_pages(url: str, expect: bytes, timeout: int = 600) -> bool:
+    """Block until GitHub Pages serves the bytes we just pushed.
+
+    Submitting before the deploy lands would have every participating engine
+    fetch the PREVIOUS version of the page -- the exact failure the social
+    poster's own build/publish split exists to avoid, for the same reason:
+    someone else's servers do the fetching, on their schedule, not ours.
+
+    Compares the body rather than trusting a 200, because Pages' CDN serves
+    the old bytes for a while after a push to the same path.
+    """
+    deadline, delay, last = time.time() + timeout, 5, "no attempt"
+    while time.time() < deadline:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                if resp.status == 200 and resp.read() == expect:
+                    return True
+                last = f"HTTP {resp.status}, body differs"
+        except urllib.error.HTTPError as exc:
+            last = f"HTTP {exc.code}"
+        except OSError as exc:
+            last = str(exc)
+        print(f"  waiting on GitHub Pages: {last}")
+        time.sleep(delay)
+        delay = min(delay * 1.6, 60)
+    print(f"  gave up waiting for {url} ({last})", file=sys.stderr)
+    return False
+
+
+def submit_indexnow(urls: list[str]) -> int:
+    """POST the changed URLs. Returns a process exit code.
+
+    Deliberately tolerant of an empty list and loud about everything else:
+    403 and 422 mean the key file is not being served or the host does not
+    match, which is a real misconfiguration a silent success would hide for
+    months.
+    """
+    if not urls:
+        print("indexnow: nothing changed; not submitting")
+        return 0
+    if len(urls) > 10000:                       # the protocol's per-request cap
+        print(f"indexnow: truncating {len(urls)} URLs to 10000", file=sys.stderr)
+        urls = urls[:10000]
+
+    payload = json.dumps({
+        "host": SITE.split("://", 1)[1],
+        "key": INDEXNOW_KEY,
+        "keyLocation": f"{SITE}/{INDEXNOW_KEY}.txt",
+        "urlList": urls,
+    }).encode("utf-8")
+    req = urllib.request.Request(
+        INDEXNOW_ENDPOINT, data=payload, method="POST",
+        headers={"Content-Type": "application/json; charset=utf-8", "User-Agent": UA})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            # 200 = accepted, 202 = accepted with key validation pending.
+            print(f"indexnow: HTTP {resp.status} for {len(urls)} URL(s)")
+            return 0 if resp.status in (200, 202) else 1
+    except urllib.error.HTTPError as exc:
+        detail = {403: "key file not reachable or wrong contents",
+                  422: "URLs do not match host, or key mismatch",
+                  429: "rate limited"}.get(exc.code, exc.reason)
+        print(f"indexnow: HTTP {exc.code} — {detail}", file=sys.stderr)
+        return 1
+    except OSError as exc:
+        print(f"indexnow: submission failed — {exc}", file=sys.stderr)
+        return 1
+
+
+def cmd_indexnow(argv) -> int:
+    """`fetch_events.py indexnow <urls.json>` — run AFTER the push.
+
+    Split from the build for the ordering reason in _wait_for_pages(): the
+    engines fetch what we point them at, so it has to be live first.
+    """
+    if not argv:
+        print("usage: fetch_events.py indexnow <urls.json>", file=sys.stderr)
+        return 2
+    path = Path(argv[0])
+    if not path.exists():
+        print(f"indexnow: {path} not written; the build skipped or failed")
+        return 0
+    urls = json.loads(path.read_text())
+    if not urls:
+        print("indexnow: nothing changed; not submitting")
+        return 0
+    # Probe sitemap.xml, not one of the submitted URLs. Pages deploys the site
+    # as a unit, so any single path proves the rest -- but it has to be a path
+    # that actually MOVED in this push. changed_urls() always puts the
+    # homepage first and index.html is hand-written, so it usually did not
+    # change and would confirm a deploy that has not landed. sitemap.xml is
+    # rewritten every run and its bytes differ exactly when something did,
+    # which also makes the no-op case correct: nothing changed means nothing
+    # was pushed, and the served copy already matches.
+    probe = ROOT / "sitemap.xml"
+    if probe.exists() and not _wait_for_pages(f"{SITE}/sitemap.xml", probe.read_bytes()):
+        print("indexnow: deploy not confirmed; skipping submission", file=sys.stderr)
+        return 1
+    return submit_indexnow(urls)
+
+
 def write_hubs(events):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     _check_city_drift()
@@ -3344,6 +3491,20 @@ def write_hubs(events):
                               "Everything on the Dallas–Fort Worth radar for "
                               "the next 30 days.", events, always=True)
     print(f"wrote {feed.replace(SITE, '')} + {site_cal.replace(SITE, '')}")
+
+    # The IndexNow ownership file, rewritten only if the key changed.
+    write_indexnow_key()
+
+    # Hand the changed-URL list to the workflow step that runs AFTER the push.
+    # Written to a path the caller names (RUNNER_TEMP in CI) rather than into
+    # the repo, so a run leaves no untracked litter behind. Unset locally =
+    # not written, which is also what keeps this out of anyone's way when
+    # testing a single writer by hand.
+    urls_out = os.environ.get("INDEXNOW_URLS_OUT")
+    if urls_out:
+        moved = changed_urls()
+        Path(urls_out).write_text(json.dumps(moved))
+        print(f"indexnow: {len(moved)} changed URL(s) queued for submission")
 
     # An unchanged page keeps the date it was really last modified. The
     # homepage is the exception: its markup is static but the listings it
@@ -3634,4 +3795,9 @@ def main():
 
 
 if __name__ == "__main__":
+    # One extra mode, kept off main()'s path entirely: `indexnow` runs in its
+    # own workflow step after the push, submits nothing itself and fetches no
+    # feeds. main() stays the no-argument nightly build it has always been.
+    if len(sys.argv) > 1 and sys.argv[1] == "indexnow":
+        sys.exit(cmd_indexnow(sys.argv[2:]))
     main()

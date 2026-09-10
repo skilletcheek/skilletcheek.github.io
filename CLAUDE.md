@@ -44,6 +44,7 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
     press.json              GENERATED nightly
     feed.xml                GENERATED nightly; site-wide RSS
     calendar.ics            GENERATED nightly; site-wide iCalendar
+    <key>.txt               GENERATED; IndexNow ownership proof (public)
 
 ## Generated files — never hand-edit
 
@@ -53,6 +54,7 @@ get clobbered; change the **Python** instead:
 - `live-events.json`, `press.json`, `sitemap.xml`, `robots.txt`
 - `feed.xml`, `calendar.ics`, and every `*/calendar.ics` under `/district/`,
   `/city/`, `/venue/` and `/free-events/`
+- `ffd9813217969d9353baca4cea7b0cb1.txt` (`write_indexnow_key()`)
 - `social/cards/*.jpg` and `social/posted.json` — written by the *other*
   workflow (`scripts/social_post.py`, see "Daily social post"), not by
   `fetch_events.py`. Editing `posted.json` by hand is how you double-post.
@@ -301,6 +303,51 @@ timezones and cannot be reproduced server-side.
 - `webcal://` is what makes a calendar link a *subscription*; the `https`
   `.ics` sits beside it because `webcal://` does nothing on a machine with no
   calendar app registered.
+
+## IndexNow
+
+Bing, DuckDuckGo, Yandex, Ecosia and Seznam share one push endpoint: submit a
+URL and they crawl it in minutes rather than whenever they next re-read the
+sitemap. **Google does not participate**, so this moves the non-Google share
+only — which on a domain this new is not nothing.
+
+**The key is not a secret.** `INDEXNOW_KEY` is an ownership *proof*, not a
+credential: the protocol requires it to be readable by anyone at
+`https://letsdoitdallas.com/<key>.txt`, which is how the endpoint confirms whoever
+submitted a URL controls the host. It is the one string in this repo that looks
+like an API key and is *meant* to be published — the "never commit API keys"
+rule at the top does not apply to it. Rotating it means changing the constant,
+letting the nightly run write the new `.txt`, **and updating the filename in
+`fetch-events.yml`'s `git add` allowlist**, where it is spelled out literally.
+A wrong or missing name is loud rather than silent: the submit step reports
+`403 — key file not reachable`.
+
+**Only pages that actually moved get submitted.** `_write_page()` already
+tracks this in `_PAGE_CHANGED`, so `changed_urls()` is the handful that really
+changed and not all 72 — repeatedly resubmitting unchanged URLs is exactly
+what the protocol asks you not to do. On an unchanged rebuild the list settles
+to one entry. The homepage is *always* included, for the same reason
+`write_hubs()` always stamps it with today in the sitemap: its markup is
+static so `_write_page()` never sees it change, but everything it renders
+comes from `live-events.json`.
+
+**It runs in its own workflow step, AFTER the push** (`fetch_events.py
+indexnow <urls.json>`), for the same reason the social poster splits build
+from publish: the engines fetch what you point them at, so submitting before
+GitHub Pages has deployed makes every one of them re-crawl the *previous*
+version of each page. `cmd_indexnow()` blocks on the deploy actually landing
+first.
+
+**The deploy probe is `sitemap.xml`, deliberately, and not one of the
+submitted URLs.** `changed_urls()` puts the homepage first and `index.html` is
+hand-written, so it usually did *not* change in this push and would confirm a
+deploy that has not landed. `sitemap.xml` is rewritten every run and its bytes
+differ exactly when something moved — which also makes the no-op case right:
+nothing changed means nothing was pushed, and the served copy already matches.
+
+The step is **`continue-on-error: true`**. An indexing hint must never be able
+to fail the run that regenerates the site. A failure shows red on the step and
+green on the job, which is the visibility this deserves and no more.
 
 ## Submit form
 

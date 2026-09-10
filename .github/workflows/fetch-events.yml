@@ -37,6 +37,9 @@ jobs:
         env:
           TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
           SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+          # Where write_hubs() drops the list of pages whose bytes actually
+          # moved. Outside the repo, so a run leaves nothing untracked behind.
+          INDEXNOW_URLS_OUT: ${{ runner.temp }}/indexnow-urls.json
         run: python scripts/fetch_events.py
 
       - name: Commit if changed
@@ -49,10 +52,14 @@ jobs:
           # which is how 14 venue pages 404'd for 18 days. If you add a writer
           # to fetch_events.py, add its directory here in the same commit.
           # feed.xml and calendar.ics are the site-wide RSS/iCalendar feeds.
+          # The .txt is IndexNow's ownership proof, named after INDEXNOW_KEY in
+          # fetch_events.py -- rotate that constant and this line changes too.
+          # (A wrong or missing name is loud, not silent: the submit step
+          # reports "403 - key file not reachable".)
           # The per-district, per-city and per-venue calendar.ics files live
           # inside directories already listed here, so those are covered.
           git add -A live-events.json press.json sitemap.xml robots.txt eventbrite.json \
-                     feed.xml calendar.ics \
+                     feed.xml calendar.ics ffd9813217969d9353baca4cea7b0cb1.txt \
                      tonight this-weekend free-events district venue city advertise submit
           if git diff --cached --quiet; then
             echo "No changes."
@@ -66,3 +73,16 @@ jobs:
             # away the whole night's regenerate.
             ./.github/push-with-retry.sh
           fi
+
+      # AFTER the push, and in its own step, because the engines fetch what we
+      # point them at: submitting before GitHub Pages has deployed would have
+      # every one of them re-crawl the PREVIOUS version of each page. Same
+      # ordering the social poster needs for the same reason, and cmd_indexnow
+      # blocks on the deploy actually landing before it submits.
+      #
+      # continue-on-error: an indexing hint must never be able to fail the run
+      # that regenerates the site. A failure here shows red on the step and
+      # green on the job, which is the visibility this deserves and no more.
+      - name: Submit changed URLs to IndexNow
+        continue-on-error: true
+        run: python scripts/fetch_events.py indexnow "$RUNNER_TEMP/indexnow-urls.json"
