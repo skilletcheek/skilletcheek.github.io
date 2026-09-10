@@ -16,6 +16,11 @@
 <meta name="twitter:description" content="What's happening in Dallas–Fort Worth tonight? Live music, markets, festivals, sports and nightlife on one radar." />
 <meta name="twitter:image" content="https://letsdoitdallas.com/og-image.png" />
 <link rel="canonical" href="https://letsdoitdallas.com/" />
+<!-- Autodiscovery: a reader offers "subscribe" when someone pastes the site
+     URL into it, instead of making them find /feed.xml. Both files are
+     generated nightly by scripts/fetch_events.py (write_feed/write_calendar);
+     this tag is hand-written only because index.html is. -->
+<link rel="alternate" type="application/rss+xml" title="Lets Do It Dallas — What's On in DFW" href="https://letsdoitdallas.com/feed.xml" />
 <title>Lets Do It Dallas — Things to Do in Dallas–Fort Worth</title>
 <!-- The site's own identity, stated once on the homepage. app.js emits an
      ItemList of the selected day's events at runtime, but that describes the
@@ -351,6 +356,12 @@
          predates it; keep all three lists in step. -->
     <a href="https://www.instagram.com/letsdoitdallas" target="_blank" rel="me noopener">Instagram</a>
     <a href="https://www.facebook.com/letsdoitdallas" target="_blank" rel="me noopener">Facebook</a>
+    <!-- webcal:// is the scheme calendar apps register for, so this is a
+         subscription rather than a one-off download. The .ics over https is
+         beside it because webcal:// does nothing on a machine with no
+         calendar app registered. -->
+    <a href="webcal://letsdoitdallas.com/calendar.ics">Subscribe by calendar</a>
+    <a href="/feed.xml">RSS feed</a>
   </div>
   <!-- Every district page linked from the one page Google had actually crawled.
        Regenerated from DISTRICTS by write_home_nav() in scripts/fetch_events.py —

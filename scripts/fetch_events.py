@@ -52,6 +52,7 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 FEEDS_FILE = Path(__file__).resolve().parent / "feeds.json"
@@ -1521,6 +1522,9 @@ def _site_nav(current: str = "") -> str:
     more = [("/city/", "All cities"), ("/venue/", "All venues"),
             ("/advertise/", "Advertise"), ("/submit/", "Submit an event"),
             ("/", "letsdoitdallas.com")]
+    # Site-wide feeds, on every generated page. Not in `more` above because
+    # _nav_links() would compare them against `current` as if they were pages.
+    feeds = [(f"{SITE}/feed.xml", "RSS"), (f"{SITE}/{CAL_NAME}", "Calendar (.ics)")]
     city_block = (f'<p class="k">/ CITIES</p>'
                   f'<p class="nav">{_nav_links(cities, current)}</p>'
                   if cities else "")
@@ -1532,6 +1536,8 @@ def _site_nav(current: str = "") -> str:
             f'{city_block}'
             f'<p class="k">/ MORE</p>'
             f'<p class="nav">{_nav_links(more, current)}</p>'
+            f'<p class="k">/ FEEDS</p>'
+            f'<p class="nav">{_nav_links(feeds, "")}</p>'
             f'<p class="k">/ FOLLOW</p>'
             f'<p class="nav">{_social_links()}</p>'
             f'</nav>')
@@ -1763,7 +1769,8 @@ def _group_repeats(events):
     return [tuple(seen[k]) for k in order]
 
 
-def _hub_html(title, desc, canonical, events, app_link, heading, note, path):
+def _hub_html(title, desc, canonical, events, app_link, heading, note, path,
+              cal_url=None):
     rows = "\n".join(_hub_row(e, count=n, last=last)
                      for e, n, last in _group_repeats(events)[:60]) \
         or "<li>Fresh listings load nightly — check the live radar.</li>"
@@ -1779,6 +1786,7 @@ def _hub_html(title, desc, canonical, events, app_link, heading, note, path):
     _img, _alt = _og_image(events)
     og_img = _html.escape(_img, quote=True)
     og_alt = _html.escape(_alt, quote=True)
+    subscribe = _subscribe_block(cal_url)
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -1792,6 +1800,7 @@ def _hub_html(title, desc, canonical, events, app_link, heading, note, path):
 <meta property="og:image" content="{og_img}"/>
 <meta property="og:image:alt" content="{og_alt}"/>
 <meta name="twitter:card" content="summary_large_image"/>
+{_FEED_LINK}
 <meta name="twitter:image" content="{og_img}"/>
 <script type="application/ld+json">{_jsonld(events)}</script>
 <script type="application/ld+json">{_breadcrumb_jsonld(_hub_trail(path, heading))}</script>
@@ -1799,6 +1808,7 @@ def _hub_html(title, desc, canonical, events, app_link, heading, note, path):
 <p class="k">/ LETS DO IT DALLAS — {note}</p>
 <h1>{heading}</h1>
 <a class="cta" href="{app_link}">( OPEN THE LIVE RADAR ↗ )</a>
+{subscribe}
 <ul>{rows}</ul>
 {_site_nav(f"/{path}/")}
 </body></html>"""
@@ -1819,7 +1829,8 @@ def _nearby_venues(slug, city, district, limit=6):
     return same[:limit]
 
 
-def _venue_html(name, city, street, canonical, events, slug, district):
+def _venue_html(name, city, street, canonical, events, slug, district,
+                cal_url=None):
     """Venue page: the long-tail surface the site otherwise has none of.
 
     Every listing links straight out to Ticketmaster, so nothing on this domain
@@ -1887,6 +1898,7 @@ def _venue_html(name, city, street, canonical, events, slug, district):
     _img, _alt = _og_image(events)
     og_img = _html.escape(_img, quote=True)
     og_alt = _html.escape(_alt, quote=True)
+    subscribe = _subscribe_block(cal_url)
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -1900,6 +1912,7 @@ def _venue_html(name, city, street, canonical, events, slug, district):
 <meta property="og:image" content="{og_img}"/>
 <meta property="og:image:alt" content="{og_alt}"/>
 <meta name="twitter:card" content="summary_large_image"/>
+{_FEED_LINK}
 <meta name="twitter:image" content="{og_img}"/>
 <script type="application/ld+json">{_jsonld(events)}</script>
 <script type="application/ld+json">{json.dumps(place)}</script>
@@ -1909,6 +1922,7 @@ def _venue_html(name, city, street, canonical, events, slug, district):
 <h1>{esc_name}</h1>
 <p class="k">{where}</p>
 <a class="cta" href="/?q={urllib.parse.quote(name)}">( OPEN THE LIVE RADAR ↗ )</a>
+{subscribe}
 <ul>{rows}</ul>
 {nearby}
 <p class="foot">Run {esc_name}? <a href="/submit/">List your shows free</a> — or
@@ -1969,9 +1983,14 @@ def write_venues(events):
 
     urls = []
     for slug, g in keep.items():
+        # Calendar first: _venue_html() only prints the subscribe line when
+        # the file it points at was actually written, and write_calendar()
+        # returns None for a room with nothing in the next CAL_DAYS.
+        cal = write_calendar(f"venue/{slug}", f"{g['name']} — Lets Do It Dallas",
+                             f"Upcoming shows at {g['name']}.", g["events"])
         urls.append(_write_page(f"venue/{slug}", _venue_html(
             g["name"], g["city"], g["street"], f"{SITE}/venue/{slug}/",
-            g["events"], slug, _VENUE_META[slug]["district"])))
+            g["events"], slug, _VENUE_META[slug]["district"], cal_url=cal)))
     urls.append(write_venue_index())
     print(f"wrote {len(keep)} venue pages (of {len(by_venue)} venues seen) + /venue/")
     _prune_stale_venues(keep)
@@ -2049,6 +2068,7 @@ def write_venue_index():
 <meta property="og:url" content="{canonical}"/>
 <meta property="og:image" content="{SITE}/og-image.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
+{_FEED_LINK}
 <meta name="twitter:image" content="{SITE}/og-image.png"/>
 <style>{_PAGE_CSS}</style>{_analytics_snippet()}</head><body>
 <p class="k">/ LETS DO IT DALLAS — VENUE DIRECTORY</p>
@@ -2083,6 +2103,8 @@ def write_cities(events):
                      key=lambda e: (e["date"], e.get("time") or ""))
         name = meta["name"]
         esc_name = _html.escape(name)
+        cal = write_calendar(f"city/{slug}", f"{name}, TX — Lets Do It Dallas",
+                             f"Upcoming events in {name}, Texas.", evs)
         urls.append(_write_page(f"city/{slug}", _hub_html(
             f"Things to Do in {esc_name}, TX | Lets Do It Dallas",
             f"Upcoming events, live music, markets and things to do in "
@@ -2092,7 +2114,7 @@ def write_cities(events):
             # the ?city= filter Phase 2 wired up, so the page hands off to the
             # live app already filtered to the same city
             f"/?city={urllib.parse.quote(name)}",
-            esc_name.upper(), "CITY HUB", f"city/{slug}")))
+            esc_name.upper(), "CITY HUB", f"city/{slug}", cal_url=cal)))
     urls.append(write_city_index(by_city))
     print(f"wrote {len(_CITY_PAGES)} city pages + /city/")
     _prune_stale_cities()
@@ -2167,6 +2189,7 @@ def write_city_index(by_city):
 <meta property="og:url" content="{canonical}"/>
 <meta property="og:image" content="{SITE}/og-image.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
+{_FEED_LINK}
 <meta name="twitter:image" content="{SITE}/og-image.png"/>
 <style>{_PAGE_CSS}</style>{_analytics_snippet()}</head><body>
 <p class="k">/ LETS DO IT DALLAS — CITY DIRECTORY</p>
@@ -2438,6 +2461,7 @@ def write_advertise():
 <meta property="og:url" content="{SITE}/advertise/"/>
 <meta property="og:image" content="{SITE}/og-image.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
+{_FEED_LINK}
 <meta name="twitter:image" content="{SITE}/og-image.png"/>
 <link rel="stylesheet" href="/css/styles.css"/>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"/>
@@ -2790,6 +2814,7 @@ def write_submit(events):
 <meta property="og:url" content="{SITE}/submit/"/>
 <meta property="og:image" content="{SITE}/og-image.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
+{_FEED_LINK}
 <meta name="twitter:image" content="{SITE}/og-image.png"/>
 <link rel="stylesheet" href="/css/styles.css"/>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"/>
@@ -2917,6 +2942,302 @@ def write_home_nav():
         print("refreshed homepage district nav")
 
 
+# ============================================================ feeds (RSS/ICS)
+# The site consumed ICS from a dozen DFW venues and published none of its own.
+# These two formats are the cheapest distribution there is: an RSS item is
+# something a Discord/Slack bot or another DFW blog can republish without
+# asking, and a subscribed calendar puts the brand in someone's own week,
+# every week, without them visiting the site or opening an app.
+
+# RSS carries a rolling week; the calendars carry everything we hold.
+FEED_DAYS = 7
+CAL_DAYS = DAYS_AHEAD
+
+# Where a calendar is offered: only where the filter is DURABLE. A district,
+# a city, a venue or "free" is still the same query next month, so subscribing
+# means something. /tonight/ and /this-weekend/ are moving windows over events
+# the site-wide calendar already carries -- subscribing to "tonight" would
+# hand someone a feed whose meaning changes under them every night.
+CAL_NAME = "calendar.ics"
+
+
+def _event_uid(e) -> str:
+    """The app's own event key, mirroring uid() in js/app.js.
+
+    Carries NO date, because app.js resolves it inside a single day's list
+    where the date is implicit. Used only to build the ?e= deep link, which
+    that function has to match. For anything spanning days -- a calendar, a
+    feed -- use _feed_id().
+    """
+    return re.sub(r"[^a-z0-9|]+", "-",
+                  f"{e['name']}|{e['area']}|{e['time']}".lower())
+
+
+def _feed_id(e) -> str:
+    """Stable, date-scoped id: an iCalendar UID and an RSS guid.
+
+    _event_uid() alone is NOT unique across a multi-day file -- a daily
+    listing like "Tea Around Town" is one name at one venue at one time on 30
+    different dates, so 669 events collapsed to 554 ids. A calendar client
+    keyed on UID keeps ONE of those, so a daily tour showed up once a month;
+    an RSS reader does the same with a repeated guid.
+
+    FROZEN once published. Clients key on it: change the shape and every event
+    in every subscriber's calendar is deleted and re-added as new.
+
+    Deliberately NOT matched to the UID js/app.js writes for its single-event
+    ADD TO CALENDAR download (`uid(a)-<utc stamp>@letsdoitdallas`). That one
+    builds its stamp from the visitor's OWN clock -- setHours() on a local
+    Date -- so it already differs between two people in different timezones
+    and cannot be reproduced here. Someone who both subscribes and downloads
+    the same event gets a duplicate; matching an unmatchable format would be
+    the worse trade.
+    """
+    return f"{_event_uid(e)}-{e['date']}"
+
+
+def _event_permalink(e) -> str:
+    """Deep link back into the app: that day, drawer open on that event.
+    Both params are read by readUrl() in js/app.js -- and `e` must be the
+    date-less _event_uid(), because that is what app.js matches against."""
+    return (f"{SITE}/?date={e['date']}"
+            f"&e={urllib.parse.quote(_event_uid(e), safe='')}")
+
+
+def _event_day_start(e):
+    """Local midnight on the event's date -- the anchor for rows whose time
+    is unusable, so an all-day listing still sorts and dates correctly."""
+    try:
+        d = datetime.strptime(e["date"], "%Y-%m-%d")
+    except ValueError:
+        return None
+    return d.replace(tzinfo=ZoneInfo("America/Chicago"))
+
+
+def _event_start(e):
+    """Timezone-aware Dallas start, or None when the row has no usable time.
+
+    Uses the real America/Chicago zone rather than the fixed -05:00 that
+    _jsonld() hardcodes: a calendar entry is a promise about an instant, and
+    that constant is an hour wrong for every event between November and March.
+    """
+    mins = _time_minutes(e.get("time"))
+    if mins is None:
+        return None
+    try:
+        d = datetime.strptime(e["date"], "%Y-%m-%d")
+    except ValueError:
+        return None
+    return d.replace(hour=mins // 60, minute=mins % 60,
+                     tzinfo=ZoneInfo("America/Chicago"))
+
+
+def _ics_escape(text: str) -> str:
+    r"""RFC 5545 3.3.11: backslash, semicolon and comma are literals only when
+    escaped, and a newline becomes a literal \n. Feed text carries all four."""
+    return (str(text or "").replace("\\", "\\\\").replace(";", "\\;")
+            .replace(",", "\\,").replace("\r\n", "\\n").replace("\n", "\\n"))
+
+
+def _ics_fold(line: str) -> str:
+    """RFC 5545 3.1: content lines wrap at 75 OCTETS, continuation lines start
+    with a space. Folded on encoded bytes, not characters -- a name with an
+    em-dash or an accent is multi-byte, and splitting mid-character produces a
+    file some clients reject and others render as mojibake."""
+    raw = line.encode("utf-8")
+    if len(raw) <= 75:
+        return line
+    out, cur = [], b""
+    for ch in line:
+        b = ch.encode("utf-8")
+        # 74 leaves room for the leading space every continuation line carries
+        if len(cur) + len(b) > (75 if not out else 74):
+            out.append(cur)
+            cur = b""
+        cur += b
+    out.append(cur)
+    return "\r\n ".join(chunk.decode("utf-8") for chunk in out)
+
+
+def _vevent(e, home: str) -> list[str]:
+    """One VEVENT. A row with no usable time becomes an all-day entry rather
+    than being given an invented o'clock -- app.js's download button defaults
+    those to 10 AM, which is a guess a subscription should not repeat 30 times
+    in someone's calendar."""
+    start = _event_start(e)
+    if start is None:
+        stamp = ["DTSTART;VALUE=DATE:" + e["date"].replace("-", ""),
+                 "DTEND;VALUE=DATE:" + (
+                     datetime.strptime(e["date"], "%Y-%m-%d") + timedelta(days=1)
+                 ).strftime("%Y%m%d")]
+        anchor = datetime.strptime(e["date"], "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    else:
+        utc = lambda d: d.astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+        # 3 hours, matching _jsonld()'s assumed run. NOT clamped to midnight
+        # the way that one is: a 10 PM show really does end tomorrow, and
+        # clamping would give an 11:59 PM listing a one-minute duration.
+        stamp = [f"DTSTART:{utc(start)}", f"DTEND:{utc(start + timedelta(hours=3))}"]
+        anchor = start
+
+    # DTSTAMP is required and is normally "now" -- derived from the event
+    # instead so an unchanged calendar is byte-identical night to night. A
+    # nightly-churning DTSTAMP would rewrite every .ics on every run and
+    # commit 60 files whose content never moved.
+    lines = [f"UID:{_feed_id(e)}@letsdoitdallas.com",
+             f"DTSTAMP:{anchor.astimezone(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}",
+             *stamp,
+             f"SUMMARY:{_ics_escape(e['name'])}",
+             f"LOCATION:{_ics_escape(_display_area(e['area']))}",
+             f"URL:{_event_permalink(e)}"]
+    desc = (e.get("description") or "").strip()
+    # `home` -- this calendar's own page -- and NOT a second copy of the
+    # permalink already in URL: above. Google Calendar buries the URL property,
+    # so a link in the description earns its place; the permalink does not,
+    # because _event_uid() embeds the whole `area` and for an ICS-sourced row
+    # that is a full postal address. Duplicating it cost ~250 bytes on every
+    # one of 669 events -- 40% of the file, recommitted nightly, to say twice
+    # what the entry already said once.
+    lines.append(f"DESCRIPTION:{_ics_escape(desc + ' — ' if desc else '')}More: {home}")
+    return ["BEGIN:VEVENT", *lines, "END:VEVENT"]
+
+
+def write_calendar(path: str, name: str, desc: str, events,
+                   always: bool = False) -> str | None:
+    """Write <path>/calendar.ics (or /calendar.ics for the site-wide one).
+
+    Returns the URL, or None when there is nothing to publish -- an empty
+    calendar is worse than no link on a hub: it subscribes someone to silence
+    and looks broken rather than quiet.
+
+    `always` overrides that for the SITE-WIDE calendar, which must exist on
+    disk unconditionally for two reasons: _site_nav() links /calendar.ics from
+    every generated page without checking, and fetch-events.yml names it
+    literally in its `git add` allowlist -- and `git add` on a path that does
+    not exist is a fatal error that would fail the whole nightly run.
+    """
+    horizon = (datetime.now(timezone.utc) + timedelta(days=CAL_DAYS)).strftime("%Y-%m-%d")
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    rows = sorted((e for e in events if today <= e["date"] <= horizon),
+                  key=lambda e: (e["date"], _time_minutes(e.get("time")) or 0))
+    if not rows and not always:
+        return None
+
+    body = ["BEGIN:VCALENDAR", "VERSION:2.0",
+            "PRODID:-//Lets Do It Dallas//DFW Events//EN",
+            "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
+            f"X-WR-CALNAME:{_ics_escape(name)}",
+            f"X-WR-CALDESC:{_ics_escape(desc)}",
+            "X-WR-TIMEZONE:America/Chicago",
+            # Both spellings: REFRESH-INTERVAL is the RFC 7986 one,
+            # X-PUBLISHED-TTL is what Outlook actually reads. Without them a
+            # client picks its own interval, which can be days.
+            "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H"]
+    home = f"{SITE}/{path}/" if path else f"{SITE}/"
+    for e in rows:
+        body += _vevent(e, home)
+    body.append("END:VCALENDAR")
+
+    out = ROOT / path / CAL_NAME if path else ROOT / CAL_NAME
+    out.parent.mkdir(parents=True, exist_ok=True)
+    # CRLF is required by RFC 5545 3.1, not a Windows habit.
+    text = "\r\n".join(_ics_fold(l) for l in body) + "\r\n"
+    if not out.exists() or out.read_bytes() != text.encode("utf-8"):
+        out.write_bytes(text.encode("utf-8"))
+    return f"{SITE}/{path}/{CAL_NAME}" if path else f"{SITE}/{CAL_NAME}"
+
+
+def _subscribe_block(cal_url: str | None) -> str:
+    """The subscribe line for a page that has its own calendar.
+
+    webcal:// is the scheme calendar clients register for, and it is what
+    turns this into a SUBSCRIPTION -- one click, then the calendar re-reads
+    the file on its own schedule forever. The same file over https is offered
+    beside it because a plain link is what a bot or a spreadsheet wants, and
+    because webcal:// does nothing at all on a desktop with no calendar app
+    registered -- the same failure mode the newsletter mailto had.
+    """
+    if not cal_url:
+        return ""
+    webcal = cal_url.replace("https://", "webcal://", 1)
+    return (f'<p class="foot">/ SUBSCRIBE — '
+            f'<a href="{webcal}">add these to your calendar</a> · '
+            f'<a href="{cal_url}">.ics</a> · '
+            f'<a href="{SITE}/feed.xml">RSS</a></p>')
+
+
+# Autodiscovery: this is how a reader offered "subscribe" when someone pastes
+# a page URL into it, rather than making them find /feed.xml themselves.
+_FEED_LINK = (f'<link rel="alternate" type="application/rss+xml" '
+              f'title="Lets Do It Dallas — What\'s On in DFW" href="{SITE}/feed.xml"/>')
+
+
+def _rfc822(dt) -> str:
+    """RSS wants RFC-822 dates with an English day/month regardless of the
+    runner's locale, so the names are spelled out rather than strftime'd."""
+    days = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+    mons = ("Jan", "Feb", "Mar", "Apr", "May", "Jun",
+            "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+    return (f"{days[dt.weekday()]}, {dt.day:02d} {mons[dt.month - 1]} {dt.year} "
+            f"{dt:%H:%M:%S} {dt:%z}")
+
+
+def write_feed(events) -> str:
+    """/feed.xml -- the next FEED_DAYS of events, newest listing first.
+
+    One item per event rather than one per day: a bot republishing this wants
+    the events, and a reader scanning it wants to see what is actually on. The
+    guid is the frozen _event_uid(), so an event that stays in the window for
+    six nights running is ONE item a reader has already seen, not six.
+
+    No lastBuildDate: it would change every night whether or not the listings
+    did, rewriting the file and committing a diff that says nothing.
+    """
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    horizon = (datetime.now(timezone.utc) + timedelta(days=FEED_DAYS)).strftime("%Y-%m-%d")
+    rows = sorted((e for e in events if today <= e["date"] <= horizon),
+                  key=lambda e: (e["date"], _time_minutes(e.get("time")) or 0))[:60]
+
+    items = []
+    for e in rows:
+        start = _event_start(e)
+        # Only a real clock time. The feed carries rows whose `time` is prose
+        # ("Doors — see listing"), and pasting that into a title reads as a
+        # broken string rather than as information.
+        clock = e.get("time") if _time_minutes(e.get("time")) is not None else None
+        when = _fmt_day(e["date"]) + (f", {clock}" if clock else "")
+        where = _display_area(e["area"])
+        desc = (e.get("description") or "").strip()
+        summary = f"{when} · {where}." + (f" {desc}" if desc else "")
+        item = [f"<title>{_html.escape(e['name'])} — {_html.escape(when)}</title>",
+                f"<link>{_html.escape(_event_permalink(e), quote=True)}</link>",
+                f'<guid isPermaLink="false">{_html.escape(_feed_id(e))}</guid>',
+                f"<description>{_html.escape(summary)}</description>",
+                f"<category>{_html.escape(e.get('category') or 'event')}</category>"]
+        # Always present, so readers that sort on pubDate order the feed by
+        # event rather than by whatever they invent for an item lacking one.
+        stamp = start or _event_day_start(e)
+        if stamp:
+            item.append(f"<pubDate>{_rfc822(stamp)}</pubDate>")
+        items.append("<item>" + "".join(item) + "</item>")
+
+    xml = (f'<?xml version="1.0" encoding="UTF-8"?>\n'
+           f'<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+           f"<channel>\n"
+           f"<title>Lets Do It Dallas — What's On in DFW</title>\n"
+           f"<link>{SITE}/</link>\n"
+           f"<description>Live music, food, markets, arts and nightlife across "
+           f"Dallas–Fort Worth, refreshed nightly.</description>\n"
+           f"<language>en-us</language>\n"
+           f"<ttl>720</ttl>\n"
+           f'<atom:link href="{SITE}/feed.xml" rel="self" type="application/rss+xml"/>\n'
+           + "\n".join(items) +
+           f"\n</channel>\n</rss>\n")
+    out = ROOT / "feed.xml"
+    if not out.exists() or out.read_text() != xml:
+        out.write_text(xml)
+    return f"{SITE}/feed.xml"
+
+
 def write_hubs(events):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     _check_city_drift()
@@ -2932,13 +3253,22 @@ def write_hubs(events):
 
     empty_hubs = []
 
-    def emit(path, title, desc, evs, app_link, heading, note):
+    def emit(path, title, desc, evs, app_link, heading, note, calendar=False):
         # Always written and always linked from _site_nav(), so nothing here
         # ever becomes an orphan — but a hub with no listings stays out of the
         # sitemap and carries noindex (see _hub_html). It rejoins both the
         # first night it has an event.
+        #
+        # `calendar` is off by default because most hubs are moving time
+        # windows: subscribing to /tonight/ would hand someone a feed whose
+        # meaning changes under them every night, over events the site-wide
+        # calendar already carries. Districts and "free" are durable queries
+        # and get one.
+        cal = write_calendar(path, f"{heading.title()} — Lets Do It Dallas",
+                             desc, evs) if calendar else None
         url = _write_page(path, _hub_html(
-            title, desc, f"{SITE}/{path}/", evs, app_link, heading, note, path))
+            title, desc, f"{SITE}/{path}/", evs, app_link, heading, note, path,
+            cal_url=cal))
         (pages if evs else empty_hubs).append(url)
 
     tonight = [e for e in events if e["date"] == today]
@@ -2955,13 +3285,15 @@ def write_hubs(events):
 
     emit("free-events", "Free Things to Do in Dallas–Fort Worth | Lets Do It Dallas",
          "Free events, free museums, free live music and markets across DFW.",
-         [e for e in events if e.get("cost") == 0], "/?free=1", "FREE IN DFW", "COST HUB")
+         [e for e in events if e.get("cost") == 0], "/?free=1", "FREE IN DFW", "COST HUB",
+         calendar=True)
 
     for slug, label, _match in DISTRICTS:
         evs = [e for e in events if _slugify_matches(e["area"]) == slug]
         emit(f"district/{slug}", f"Things to Do in {label} | Lets Do It Dallas",
              f"Live events, music, and nightlife in {label} — part of the Lets Do It Dallas real-time event radar.",
-             evs, f"/?district={slug}", label.upper(), "DISTRICT HUB")
+             evs, f"/?district={slug}", label.upper(), "DISTRICT HUB",
+             calendar=True)
 
     pages += write_cities(events)
 
@@ -2970,6 +3302,16 @@ def write_hubs(events):
     pages.append(write_submit(events))
 
     write_home_nav()
+
+    # Not appended to `pages`: the sitemap is a list of HTML pages for a
+    # crawler, and neither of these is one. Discovery is the <link
+    # rel="alternate"> in every head, the / FEEDS row in _site_nav() and the
+    # subscribe line on each hub.
+    feed = write_feed(events)
+    site_cal = write_calendar("", "Lets Do It Dallas — All DFW Events",
+                              "Everything on the Dallas–Fort Worth radar for "
+                              "the next 30 days.", events, always=True)
+    print(f"wrote {feed.replace(SITE, '')} + {site_cal.replace(SITE, '')}")
 
     # An unchanged page keeps the date it was really last modified. The
     # homepage is the exception: its markup is static but the listings it

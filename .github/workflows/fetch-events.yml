@@ -48,7 +48,11 @@ jobs:
           # away at the end of the job while sitemap.xml still advertises it --
           # which is how 14 venue pages 404'd for 18 days. If you add a writer
           # to fetch_events.py, add its directory here in the same commit.
+          # feed.xml and calendar.ics are the site-wide RSS/iCalendar feeds.
+          # The per-district, per-city and per-venue calendar.ics files live
+          # inside directories already listed here, so those are covered.
           git add -A live-events.json press.json sitemap.xml robots.txt eventbrite.json \
+                     feed.xml calendar.ics \
                      tonight this-weekend free-events district venue city advertise submit
           if git diff --cached --quiet; then
             echo "No changes."

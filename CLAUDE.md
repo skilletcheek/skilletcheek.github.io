@@ -42,6 +42,8 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
     partners.json           DATA: founding-partner wall
     live-events.json        GENERATED nightly
     press.json              GENERATED nightly
+    feed.xml                GENERATED nightly; site-wide RSS
+    calendar.ics            GENERATED nightly; site-wide iCalendar
 
 ## Generated files — never hand-edit
 
@@ -49,6 +51,8 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
 get clobbered; change the **Python** instead:
 
 - `live-events.json`, `press.json`, `sitemap.xml`, `robots.txt`
+- `feed.xml`, `calendar.ics`, and every `*/calendar.ics` under `/district/`,
+  `/city/`, `/venue/` and `/free-events/`
 - `social/cards/*.jpg` and `social/posted.json` — written by the *other*
   workflow (`scripts/social_post.py`, see "Daily social post"), not by
   `fetch_events.py`. Editing `posted.json` by hand is how you double-post.
@@ -234,6 +238,69 @@ rejected** so they don't get re-probed.
 - Adding an ICS feed: try `<site>/events/?ical=1`, then
   `/wp-json/tribe/events/v1/events`. **Confirm the content-type is
   `text/calendar`** — several DFW sites answer 200 with an HTML page.
+
+## Feeds — RSS and iCalendar
+
+The site parsed ICS from a dozen DFW venues and published none of its own
+until 2026-09-10. `write_feed()` and `write_calendar()` in `fetch_events.py`
+fix that: `/feed.xml` carries the next `FEED_DAYS` (7) of events, and
+`calendar.ics` files carry the next `CAL_DAYS` (30).
+
+**Calendars are only offered where the filter is durable** — a district, a
+city, a venue, or "free". `/tonight/` and `/this-weekend/` deliberately get
+none: they are moving windows over events the site-wide calendar already
+carries, and subscribing to "tonight" hands someone a feed whose meaning
+changes under them every night. `emit(..., calendar=True)` is the switch.
+
+**A hub with no events gets no calendar and no subscribe link.** An empty
+calendar is worse than no link — it subscribes someone to silence and reads as
+broken rather than quiet. `write_calendar()` returns `None` and
+`_subscribe_block()` renders nothing. The site-wide `calendar.ics` is the one
+exception (`always=True`): `_site_nav()` links it from every page without
+checking, and `fetch-events.yml` names it literally in `git add`, where a
+missing path is a **fatal error that fails the whole nightly run**.
+
+### The two ids are not the same id
+
+- `_event_uid()` mirrors `uid()` in `js/app.js` and carries **no date**,
+  because app.js resolves it within a single day's list. It is used *only* to
+  build the `?e=` deep link, which that function has to match.
+- `_feed_id()` appends the date and is what iCalendar `UID` and RSS `guid`
+  use. Without the date, 669 events collapsed to 554 ids — a daily listing
+  like "Tea Around Town" is one name at one venue at one time on 30 dates, so
+  a calendar client keyed on UID kept **one** of them and the tour appeared
+  once a month. An RSS reader does the same with a repeated guid.
+
+**Both are frozen once published.** Clients key on them: change either shape
+and every event in every subscriber's calendar is deleted and re-added as new.
+`_feed_id()` deliberately does *not* match the UID `js/app.js` writes for its
+single-event ADD TO CALENDAR download — that one builds its timestamp from the
+visitor's own clock, so it already differs between two people in different
+timezones and cannot be reproduced server-side.
+
+### Details that are load-bearing
+
+- **`_event_start()` uses real `America/Chicago`**, not the fixed `-05:00`
+  that `_jsonld()` hardcodes. That constant is an hour wrong for every event
+  between November and March; a calendar entry is a promise about an instant,
+  so it cannot inherit that bug. **`_jsonld()` still has it** — worth fixing
+  separately.
+- **Rows with no usable time become all-day entries**, not 10 AM. `app.js`'s
+  download button guesses 10 AM; a subscription repeating that guess 30 times
+  in someone's calendar is a different thing from doing it once on request.
+- **ICS is CRLF and folded at 75 OCTETS** (RFC 5545 3.1), folded on encoded
+  bytes rather than characters — an em-dash or accent is multi-byte, and
+  splitting mid-character yields a file some clients reject.
+- **The feeds are byte-stable across identical builds.** `DTSTAMP` is derived
+  from the event rather than `now()`, and RSS carries no `lastBuildDate`;
+  otherwise all 66 files would rewrite every night and commit a diff that says
+  nothing.
+- **Neither goes in `sitemap.xml`** — that is a list of HTML pages for a
+  crawler. Discovery is `<link rel="alternate">` in every head, the `/ FEEDS`
+  row in `_site_nav()`, and the per-page subscribe line.
+- `webcal://` is what makes a calendar link a *subscription*; the `https`
+  `.ics` sits beside it because `webcal://` does nothing on a machine with no
+  calendar app registered.
 
 ## Submit form
 
