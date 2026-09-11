@@ -268,12 +268,28 @@ rejected** so they don't get re-probed.
   for exactly this reason: one combined "filtered" number is what disguised a
   parsing bug as a working noise filter.
 
-  **These feeds publish no venue name**, only a street line and the city, so
-  `area` is deliberately the city alone — feeding the street to
-  `_split_area()` would mint venue pages named "6861 W Eldorado Parkway" once
-  three library programs shared an address. The consequence is that this
-  source produces no venue pages and (via `CITY_MIN_VENUES`) no city pages
-  either; its events reach the homepage, the time hubs and the feeds only.
+  **`area` is "&lt;location line&gt;, &lt;City&gt;" and that is load-bearing for
+  DEDUPE.** The first version used the bare city, and because every row from
+  one city then had identical `_venue_tokens()`, the venue clause in
+  `_same_event()` was neutralised — two unrelated Garland library programs an
+  hour apart merged on a shared title word like "Library". That silently ate
+  **66 of 356 rows, 57 of them Garland's**, and the orphan audit does not
+  catch it: over-merging looks exactly like a correct merge to that check.
+  Using the location line dropped it to 35.
+
+  The line above the city is a street for most cities, an actual venue name
+  for some (Lancaster), and absent for others (Grapevine). `_is_real_venue()`
+  rejects the street-shaped ones so no `/venue/4845-broadway-blvd/` is built,
+  while a real name like "Lancaster Veterans Memorial Library" earns a page.
+  Grapevine keeps the bare city and still over-merges slightly (1%).
+
+  **~35 rows a run are still lost**, almost all Garland's, because it appends
+  the branch to every title ("…at the North Garland Library"): two different
+  programs in one building then share `{garland, library, north}`. The title
+  clause degenerates when a source repeats the venue in every title. Stripping
+  that suffix in the fetcher tests at 21 lost instead of 35, but costs the
+  branch name in the listing — unresolved, and a display tradeoff rather than
+  a bug.
 
   Its window is a rolling **~14 days**, not `DAYS_AHEAD`, so it thins toward
   the end of the month where Ticketmaster does not. `civicplus_skip` drops

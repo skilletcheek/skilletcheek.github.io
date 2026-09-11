@@ -491,6 +491,24 @@ def _cp_lines(html_fragment: str) -> list[str]:
     return [x for x in (_cp_text(p) for p in parts) if x]
 
 
+def _cp_street(loc_fragment: str):
+    """The address line(s) above the "City, TX ZIP" line, or None.
+
+    Load-bearing for DEDUPE, not for display. Every row from one city
+    otherwise reports the same `area`, which makes _venue_tokens() identical
+    for all of them and neutralises the venue clause in _same_event() -- two
+    unrelated Garland library programs an hour apart then merge on a shared
+    title word like "Library". Measured 2026-09-11: that silently ate 57 of
+    Garland's 104 events. The street is what tells one branch from another.
+    """
+    lines = _cp_lines(loc_fragment)
+    for i, line in enumerate(lines):
+        if _CP_CITY.match(line):
+            street = ", ".join(lines[:i]).strip(" ,")
+            return street or None
+    return None
+
+
 def _cp_find_city(loc_fragment: str):
     for line in _cp_lines(loc_fragment):
         m = _CP_CITY.match(line)
@@ -576,6 +594,7 @@ def fetch_civicplus(start, end):
 
             loc = _CP_LOC.search(item)
             city = (_cp_find_city(loc.group(1)) if loc else None) or site.get("city")
+            street = _cp_street(loc.group(1)) if loc else None
             # The repo rule for every city-reporting source. A feed that starts
             # syndicating a neighbouring metro's events gets caught here.
             if not is_dfw_city(city, "TX"):
@@ -584,14 +603,15 @@ def fetch_civicplus(start, end):
 
             tmm = _CP_TIME.search(item)
             body = _CP_BODY.search(item)
-            # `area` is the CITY ONLY, deliberately. CivicPlus publishes no
-            # venue name -- only a street line -- so feeding the street to
-            # _split_area() would mint venue pages named "6861 W Eldorado
-            # Parkway" once three library programs shared an address.
+            # "<street>, <City>" when the feed gives a street, else the bare
+            # city. CivicPlus publishes no venue NAME, so _split_area() reads
+            # the street as the venue -- which is what makes dedupe able to
+            # tell two library branches apart. _is_real_venue() rejects
+            # street-shaped names, so none of them becomes a venue page.
             out.append(row(
                 title,
                 _cp_category(title, hints, site.get("category", "family")),
-                city,
+                f"{street}, {city}" if street else city,
                 date,
                 (tmm.group(1).upper().replace(".", "") if tmm else None),
                 site.get("cost"),
@@ -1672,6 +1692,18 @@ def _city_surface(city: str):
     return None
 
 
+# "4845 Broadway Blvd.", "6861 W Eldorado Parkway" -- a house number followed
+# by a street-type word. Deliberately NOT "starts with a digit": see
+# _is_real_venue().
+# The house number may be a RANGE ("8800-8840 4th St") -- a suite/building
+# range is still an address, and requiring digits-then-space let that one
+# through and built /venue/8800-8840-4th-st/.
+_STREET_SHAPED = re.compile(
+    r"^\d{1,6}(?:\s*-\s*\d{1,6})?\s+.*\b(st|street|ave|avenue|blvd|boulevard|rd|road|dr|drive|"
+    r"pkwy|parkway|ln|lane|way|ct|court|hwy|highway|pl|place|ter|terrace|"
+    r"cir|circle|trl|trail|expy|expressway)\.?$", re.I)
+
+
 def _is_real_venue(name: str) -> bool:
     """Reject district labels and touring shows masquerading as venues.
 
@@ -1691,11 +1723,20 @@ def _is_real_venue(name: str) -> bool:
     Exact matches only. A venue may legitimately carry a city in its name
     ("Arlington Music Hall", "Addison Improv") and those must survive; it is
     the bare, unadorned city that is never a room.
+
+    A bare STREET ADDRESS is rejected too. Sources that publish an address but
+    no venue name -- CivicPlus, and some ICS feeds -- leave _split_area()
+    reading the street as the venue, which would build /venue/4845-broadway-blvd/.
+    Matched on shape (house number + a street-type word) rather than on a
+    leading digit, because real venues do start with numbers: "3015 at Trinity
+    Groves", "24 Hour Fitness".
     """
     n = (name or "").strip().lower()
     if not n or any(bad in n for bad in _NOT_VENUES):
         return False
     if n in DFW_CITIES:
+        return False
+    if _STREET_SHAPED.match(n):
         return False
     return not any(n == m for _slug, _label, match in DISTRICTS for m in match)
 
