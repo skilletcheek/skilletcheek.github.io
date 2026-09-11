@@ -179,6 +179,27 @@ function displayArea(area) {
   return venue || area || "";
 }
 
+/* Card location line. A district match used to REPLACE the venue outright
+   ("Gurriers / DOWNTOWN DALLAS" instead of "Gurriers / House of Blues ·
+   Downtown Dallas") -- the exact same information loss displayArea() above
+   already guards against for city, just re-introduced one layer up once
+   RADAR.districtOf() enters the picture. splitArea()'s venue slot is the
+   same string venueDistrictOf() in sources.js keyed the district match on
+   (both take area.split(",")[0]), so there's nothing to double-check here --
+   if a district matched, the venue it matched via is exactly this venue. The
+   bidirectional .includes() guard covers a bare-city area ("Downtown
+   Dallas", no comma) where splitArea's "venue" and the district label are
+   the same string; showing it twice would be noise, not information. */
+function locationLabel(a, dLabel) {
+  if (!dLabel) return displayArea(a.area) || "DFW";
+  const [venue] = splitArea(a.area);
+  if (venue) {
+    const v = venue.toLowerCase(), d = dLabel.toLowerCase();
+    if (!v.includes(d) && !d.includes(v)) return `${venue} · ${dLabel}`;
+  }
+  return dLabel;
+}
+
 /* Stable per-event identity, used for favorites and for matching a clicked
    card back to its data. Must include the time: venues run the same act twice
    in one night (a 7:30 and a 9:45 set) at the same address, and keying on
@@ -187,8 +208,12 @@ function displayArea(area) {
 const uid = (a) => `${a.name}|${a.area}|${a.time}`.toLowerCase().replace(/[^a-z0-9|]+/g, "-");
 
 /* How many real events a visitor sees before the unsold-inventory house ad.
-   Low enough to still be seen, high enough that the page opens with events. */
-const HOUSE_AD_SLOT = 4;
+   Was 4 (slot 5): the page's own highest-value inventory -- the first screen
+   a first-time visitor meets -- was being spent advertising ad space instead
+   of proving the feed works. High enough now to be well past the first
+   screen on any device; list.splice() below still clamps to list.length on a
+   thin day, so this never throws when there are fewer events than the slot. */
+const HOUSE_AD_SLOT = 14;
 
 /* ---- date/time helpers --------------------------------------------------- */
 function fmtDate(d) {
@@ -244,6 +269,10 @@ const VIBES = {
   "next2h":     { label: "IN NEXT 2 HOURS", test: (a) => { if (!isToday(state.date)) return false; const s = parseTimeToMinutes(a.time); const n = nowMins(); return s >= n && s <= n + 120; } },
   "gems":       { label: "HIDDEN GEMS", test: (a) => ["curated", "json", "sheet", "sponsored"].includes(a.source) && (a.cost == null || a.cost <= 15) },
 };
+// "+ SHOW" told a visitor there was more, never how much -- eight secondary
+// filters felt like an unknown-length list behind a vague link. Read off the
+// object so the count can't drift from the filters that actually render.
+const VIBES_COUNT = Object.keys(VIBES).length;
 
 /* ---- data assembly ------------------------------------------------------- */
 function sponsoredForDate(date) {
@@ -362,10 +391,35 @@ function buildVibes() {
 }
 
 /* ---- cards --------------------------------------------------------------- */
+/* Static — used in the drawer, where the price sits beside the real TICKETS &
+   INFO button and doesn't need to double as one. */
 function costBadge(a) {
   if (a.cost === 0) return `<span class="badge free">FREE</span>`;
   if (a.cost == null) return `<span class="badge">TICKETED</span>`;
   return `<span class="badge">$${a.cost}${a.cost >= 25 ? "+" : ""}</span>`;
+}
+
+/* Card-footer version: the price chip is the highest-visibility real estate
+   on the card after the title, and it used to just sit there as a label
+   while the actual call to action (DETAILS) rendered at the same size and
+   color as the ♡ button next to it. When there's a real URL to send someone
+   to, the chip IS that action. data-act="ticket" is read by
+   wireGridDelegation() so the click doesn't *also* pop the drawer open behind
+   the new tab -- same treatment the ♡ button already gets there.
+   The house ad (url === "#advertise") isn't an event and has no real price;
+   showing "FREE" on a pitch for ad space read as a data-entry mistake, so it
+   renders no chip at all -- the ★ SPONSORED tag above already marks the card. */
+function costAction(a) {
+  if (a.url === "#advertise") return "";
+  const hasLink = a.url && a.url !== "#";
+  // "TICKETED" reads as a static label; "TICKETS" reads as the start of an
+  // action -- use whichever one actually matches what the chip does.
+  const priceLabel = a.cost === 0 ? "FREE" : (a.cost == null ? (hasLink ? "TICKETS" : "TICKETED") : `$${a.cost}${a.cost >= 25 ? "+" : ""}`);
+  const label = hasLink ? `${priceLabel} →` : priceLabel;
+  const cls = "badge" + (a.cost === 0 ? " free" : "") + (hasLink ? " link" : "");
+  if (!hasLink) return `<span class="${cls}">${label}</span>`;
+  const href = esc(safeUrl(withAffiliate(a.url)));
+  return `<a class="${cls}" data-act="ticket" href="${href}" target="_blank" rel="noopener">${label}</a>`;
 }
 
 function cardHtml(a, i) {
@@ -396,19 +450,35 @@ function cardHtml(a, i) {
                above already names it. Repeating it printed the same string on
                all 91 cards and cost a line of height on each. -->
           <div class="meta">/ ${esc(String(a.time).toUpperCase())}</div>
-          <div class="meta">/ ${esc((dLabel || displayArea(a.area) || "DFW").toUpperCase())}</div>
+          <!-- ◎ instead of a plain "/" — same glyph the district picker uses
+               elsewhere on the page, and location is the field that actually
+               eliminates most rows on a metroplex this size, so it gets a
+               distinct signal instead of the time line's exact treatment. -->
+          <div class="meta loc">◎ ${esc(locationLabel(a, dLabel).toUpperCase())}</div>
         </div>
         ${thumb}
       </div>
       <p class="desc">${esc(a.desc || "")}</p>
       <div class="card-foot">
-        ${costBadge(a)}
+        ${costAction(a)}
         <div class="foot-actions">
           <button class="icon-btn fav ${fav ? "on" : ""}" data-act="fav" title="Save">${fav ? "♥" : "♡"}</button>
           <button class="icon-btn" data-act="open">DETAILS</button>
         </div>
       </div>
     </article>`;
+}
+
+/* Mirrors the two breakpoints on .grid in css/styles.css (1020px, 660px) --
+   same "two-layer" contract the rest of this file already keeps with
+   fetch_events.py, just CSS<->JS instead of Python<->JS. Needed because a
+   daypart group that isn't a multiple of the live column count leaves an
+   empty trailing cell painted in the grid's own gap color (a highlight, not
+   the page background), which reads as a broken card. See .card-filler. */
+function currentGridCols() {
+  if (window.innerWidth <= 660) return 1;
+  if (window.innerWidth <= 1020) return 2;
+  return 3;
 }
 
 function adCardHtml() {
@@ -431,6 +501,9 @@ function wireGridDelegation() {
     if (!item) return;
     const act = e.target.closest("[data-act]");
     if (act && act.dataset.act === "fav") { e.stopPropagation(); toggleFav(item); return; }
+    // The ticket chip is a real link (new tab) -- let the browser handle the
+    // navigation, just don't also pop the drawer open behind it.
+    if (act && act.dataset.act === "ticket") { e.stopPropagation(); return; }
     openDrawer(item);
   });
 }
@@ -444,6 +517,11 @@ function render() {
   updateQuickButtons();
   el("freeToggle").classList.toggle("active", state.freeOnly);
   el("faveToggle").classList.toggle("active", state.favesOnly);
+  // "Starting in the next two hours" is meaningless once the date picked
+  // isn't today -- VIBES.next2h.test() already always returns false then,
+  // this just stops offering a control that would silently do nothing.
+  el("soonToggle").hidden = !isToday(state.date);
+  el("soonToggle").classList.toggle("active", state.vibes.has("next2h"));
   /* Must reproduce the .nav-lbl span from index.html — CSS drops it below 720px
      so the label reads "♥ (3)" and the three nav actions fit one row. Only
      interpolation is Set.size, an integer, so there's nothing to esc() here.
@@ -525,16 +603,31 @@ function render() {
       return "/ LATE NIGHT";
     };
     const useBreaks = state.sort === "time" && list.length > 9;
-    let html = "", lastPart = null;
+    const cols = currentGridCols();
+    // Pads whatever group just closed out to a full row, so a trailing 1 or 2
+    // cards don't leave the grid's own gap color showing through an
+    // otherwise-empty tile. No-ops on a group that already divides evenly, or
+    // before the very first header (groupCount still 0).
+    const padGroup = (n) => { if (n % cols) return `<div class="card-filler" aria-hidden="true"></div>`.repeat(cols - (n % cols)); return ""; };
+    let html = "", lastPart = null, groupCount = 0;
     list.forEach((a, i) => {
-      // pinned sponsored cards sit above the timeline — no header over them
-      if (useBreaks && !(a.source === "sponsored" || a.sponsor)) {
+      // pinned sponsored cards sit above the timeline — no header over them,
+      // and being full-width (.card.sponsored spans 1/-1) they don't belong
+      // to either the group before or after for padding purposes
+      const isPinned = a.source === "sponsored" || a.sponsor;
+      if (useBreaks && !isPinned) {
         const part = daypart(a);
-        if (part !== lastPart) { html += `<div class="time-break">${part}</div>`; lastPart = part; }
+        if (part !== lastPart) {
+          html += padGroup(groupCount);
+          html += `<div class="time-break">${part}</div>`;
+          lastPart = part; groupCount = 0;
+        }
       }
       html += cardHtml(a, i);
-      if (CONFIG.adsEnabled && i === 5) html += adCardHtml();
+      if (!isPinned) groupCount++;
+      if (CONFIG.adsEnabled && i === 5) { html += adCardHtml(); groupCount++; }
     });
+    html += padGroup(groupCount);
     grid.innerHTML = html;
     // Look-ups go through a Map instead of list.find() per card: wiring 400
     // cards meant 400 linear scans, each rebuilding uid() strings — ~80k
@@ -547,6 +640,22 @@ function render() {
   renderOnNow();
   const sky = el("skyDate");
   if (sky) sky.textContent = fmtDate(state.date).toUpperCase();
+  // Every other filter control scrolls away with the console. This is the
+  // only surviving sign, once you've scrolled past it, that the list is
+  // narrowed -- and the one place on the whole page a scrolled-down visitor
+  // can act on that without a trip back to the top.
+  const activeFilterCount = state.activeCats.size + state.vibes.size
+    + (state.freeOnly ? 1 : 0) + (state.favesOnly ? 1 : 0)
+    + (state.district ? 1 : 0) + (state.city ? 1 : 0) + (q ? 1 : 0);
+  const skyFilters = el("skyFilters");
+  if (skyFilters) {
+    skyFilters.hidden = !activeFilterCount;
+    el("skyFilterCount").textContent = activeFilterCount;
+  }
+  el("radarJump").classList.toggle("active", !!state.district);
+  el("radarJump").innerHTML = state.district
+    ? `◎ ${esc(state.district.replace(/-/g, " ").toUpperCase())} ✕`
+    : "◎ DISTRICTS";
   updateStatusCount();
   updateSeo(list.filter((a) => !a.house));
   // A shared ?e= link. Held until the event actually exists in the day's list —
@@ -599,6 +708,10 @@ function updateOnNowArrows() {
   const atEnd = rail.scrollLeft >= rail.scrollWidth - rail.clientWidth - 1;
   prev.hidden = !overflows || atStart;
   next.hidden = !overflows || atEnd;
+  // Touch has no hover to reveal the arrows with -- the edge fade is that
+  // affordance there, and it's only honest to show it when there's actually
+  // more to scroll to.
+  rail.classList.toggle("has-more", overflows);
 }
 
 function updateQuickButtons() {
@@ -1119,6 +1232,20 @@ function wireControls() {
     const [y, m, d] = e.target.value.split("-").map(Number);
     goToDate(new Date(y, m - 1, d));
   };
+  /* Below 720px #datePicker is visually hidden (see css/styles.css) so the
+     friendly "Friday, September 11" label is the only date control a mouse/
+     touch visitor sees -- tapping it opens the real native picker.
+     showPicker() is the direct way where it exists; .focus() is the fallback
+     for engines without it (the OS still surfaces a picker on focus for a
+     date input on most of those). A keyboard user tabbing through reaches
+     #datePicker itself in document order regardless -- it's visually hidden,
+     not removed from the tab order, so this handler is a pointer-only path,
+     not the only path in. */
+  el("dateDisplay").onclick = () => {
+    const dp = el("datePicker");
+    if (dp.showPicker) { try { dp.showPicker(); return; } catch (_) { /* fall through */ } }
+    dp.focus();
+  };
   /* Every keystroke used to rebuild the whole grid, re-serialize the JSON-LD
      block and call history.replaceState — ~5 ms a character on a desktop and
      several times that on a phone, so fast typing visibly stuttered. (Safari
@@ -1133,6 +1260,10 @@ function wireControls() {
   el("sort").onchange = (e) => { state.sort = e.target.value; render(); };
   el("citySel").onchange = (e) => { state.city = e.target.value || null; render(); };
   el("freeToggle").onclick = () => { state.freeOnly = !state.freeOnly; render(); };
+  el("soonToggle").onclick = () => {
+    state.vibes.has("next2h") ? state.vibes.delete("next2h") : state.vibes.add("next2h");
+    render();
+  };
   el("faveToggle").onclick = () => { state.favesOnly = !state.favesOnly; render(); };
   document.querySelectorAll(".quick button").forEach((b) => {
     b.onclick = () => {
@@ -1161,33 +1292,59 @@ function wireControls() {
   el("skyNext").onclick = () => el("nextDay").click();
   el("skyTonight").onclick = () => goToDate(new Date());
   el("skyTop").onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+  // Scrolls to the controls, not the very top past the hero -- someone tapping
+  // this already knows a filter is on and wants to change it, not re-meet the
+  // brand.
   const consoleEl = document.querySelector(".console");
+  el("skyFilters").onclick = () => consoleEl && consoleEl.scrollIntoView({ behavior: "smooth", block: "start" });
   window.addEventListener("scroll", () => {
     const past = consoleEl && consoleEl.getBoundingClientRect().bottom < 0;
     const bar = el("skybar");
     bar.classList.toggle("show", !!past);
     bar.setAttribute("aria-hidden", past ? "false" : "true");
+    // Sticky .time-break headers read this custom property for their own
+    // `top` offset, so they stick just below the skybar instead of under it.
+    document.documentElement.style.setProperty("--sky-h", past ? bar.offsetHeight + "px" : "0px");
   }, { passive: true });
 
+  // A ragged daypart row's filler-cell count depends on the live column
+  // count (currentGridCols()), which only ever changes across the 1020px/
+  // 660px breakpoints -- re-render only when it actually crosses one, not on
+  // every resize tick.
+  let lastCols = currentGridCols(), gridResizeTimer;
+  window.addEventListener("resize", () => {
+    clearTimeout(gridResizeTimer);
+    gridResizeTimer = setTimeout(() => {
+      const cols = currentGridCols();
+      if (cols !== lastCols) { lastCols = cols; render(); }
+    }, 150);
+  });
+
+  el("vibesToggle").textContent = `+ SHOW (${VIBES_COUNT})`;
   el("vibesToggle").onclick = (e) => {
     e.stopPropagation();
     const row = el("vibesRow");
     const collapsed = row.classList.toggle("collapsed");
-    el("vibesToggle").textContent = collapsed ? "+ SHOW" : "− HIDE";
+    el("vibesToggle").textContent = collapsed ? `+ SHOW (${VIBES_COUNT})` : "− HIDE";
     el("vibesToggle").setAttribute("aria-expanded", String(!collapsed));
   };
-  el("radarJump").onclick = () => {
-    const r = document.querySelector(".radar-section") || el("radarMap");
-    if (r) r.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
 
-  document.querySelectorAll(".marquee-track button").forEach((b) => {
-    b.onclick = () => {
-      state.activeCats = new Set([b.dataset.cat]);
-      render();
-      const main = document.querySelector("main");
-      if (main) main.scrollIntoView({ behavior: "smooth", block: "start" });
-    };
+  /* District quick-filter: used to be a 23,000px smooth-scroll down to the
+     DFW Radar section and back -- several seconds of animated flight each
+     way to reach the site's one answer to "DFW spans massive distances." It
+     now opens the same ranked list in place, right where the toolbar already
+     is. The full radar section further down stays as a visual feature. */
+  const districtPanel = el("districtPanel");
+  const openDistrictPanel = (open) => {
+    districtPanel.hidden = !open;
+    el("radarJump").setAttribute("aria-expanded", String(open));
+  };
+  el("radarJump").onclick = () => openDistrictPanel(districtPanel.hidden);
+  el("districtPanelClose").onclick = () => openDistrictPanel(false);
+  document.addEventListener("click", (e) => {
+    if (districtPanel.hidden) return;
+    if (districtPanel.contains(e.target) || e.target === el("radarJump") || el("radarJump").contains(e.target)) return;
+    openDistrictPanel(false);
   });
   // .sb-right used to be wired here too, with copy identical to the hero badge.
   // It's a real link to /this-weekend/ now, so it needs nothing from JS.
@@ -1203,7 +1360,7 @@ function wireControls() {
   el("modal").onclick = (e) => { if (e.target.id === "modal") closeDrawer(); };
   el("submitModal").onclick = (e) => { if (e.target.id === "submitModal") closeSubmit(); };
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") { closeDrawer(); closeSubmit(); }
+    if (e.key === "Escape") { closeDrawer(); closeSubmit(); openDistrictPanel(false); }
     if (e.key === "ArrowLeft" && !isTyping()) el("prevDay").click();
     if (e.key === "ArrowRight" && !isTyping()) el("nextDay").click();
   });
@@ -1229,7 +1386,16 @@ function boot() {
   readUrl();
   RADAR.init({
     getDayList: () => baseListForDate(state.date).concat(sponsoredForDate(state.date)),
-    onDistrict: (slug) => { state.district = slug; render(); },
+    onDistrict: (slug) => {
+      state.district = slug;
+      render();
+      // Picking a district from the toolbar's quick panel is meant to get out
+      // of the way immediately, same as picking a date quick-button does --
+      // the filtered feed is the payoff, not the list it came from. A no-op
+      // if it's already closed (e.g. picked from the full radar section).
+      const p = el("districtPanel");
+      if (p && !p.hidden) { p.hidden = true; el("radarJump").setAttribute("aria-expanded", "false"); }
+    },
     activeDistrict: () => state.district,
   });
   wireControls();

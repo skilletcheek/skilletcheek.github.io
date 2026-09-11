@@ -8,7 +8,7 @@
 const RADAR = (function () {
   const NS = "http://www.w3.org/2000/svg";
   let api = null;
-  let svg, card, listBox;
+  let svg, card, listBox, quickBox;
   let counts = {};
 
   /* Mirror of _slugify_matches() in scripts/fetch_events.py — change both or
@@ -36,6 +36,11 @@ const RADAR = (function () {
     svg = document.getElementById("radarMap");
     card = document.getElementById("radarCard");
     listBox = document.getElementById("radarList");
+    // The toolbar's in-place quick-filter panel -- same rows, same click
+    // wiring, a different spot in the DOM. Not present until the panel is
+    // opened for the first time isn't an issue: it's static markup in
+    // index.html, so it's always here by the time build() runs.
+    quickBox = document.getElementById("districtQuick");
     if (!svg) return;
 
     // background grid
@@ -109,19 +114,25 @@ const RADAR = (function () {
       core.setAttribute("r", n ? Math.min(4 + Math.sqrt(n) * 2, 12) : 3);
     });
 
-    if (listBox) {
+    if (listBox || quickBox) {
       const rows = DISTRICTS
         .map((d) => ({ d, n: counts[d.slug] || 0 }))
         .sort((a, b) => b.n - a.n);
-      listBox.innerHTML = rows.map(({ d, n }, i) => `
+      const html = rows.map(({ d, n }, i) => `
         <button class="radar-row ${active === d.slug ? "sel" : ""} ${n ? "" : "dim"}" data-slug="${d.slug}">
           <span class="idx">(${String(i + 1).padStart(2, "0")})</span>
           <span class="lbl">${d.label}</span>
           <span class="cnt">${n} ${n === 1 ? "EVENT" : "EVENTS"}</span>
         </button>`).join("");
-      listBox.querySelectorAll(".radar-row").forEach((b) => {
-        b.onclick = () => api.onDistrict(api.activeDistrict() === b.dataset.slug ? null : b.dataset.slug);
-      });
+      const wire = (box) => {
+        if (!box) return;
+        box.innerHTML = html;
+        box.querySelectorAll(".radar-row").forEach((b) => {
+          b.onclick = () => api.onDistrict(api.activeDistrict() === b.dataset.slug ? null : b.dataset.slug);
+        });
+      };
+      wire(listBox);
+      wire(quickBox);
     }
   }
 

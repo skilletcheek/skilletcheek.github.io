@@ -22,6 +22,9 @@
   --body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   --mono: "JetBrains Mono", "SF Mono", Menlo, monospace;
   --pad: clamp(16px, 4vw, 48px);
+  /* Set to the skybar's real height, in px, only while it's visible -- see
+     .time-break and the scroll listener in wireControls() in js/app.js. */
+  --sky-h: 0px;
 }
 
 * { box-sizing: border-box; }
@@ -160,12 +163,16 @@ button { font-family: var(--mono); }
    page and left a 1280x800 desktop with zero events above the fold. */
 .hero {
   display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
-  border-bottom: 1px solid var(--line); min-height: 380px;
+  border-bottom: 1px solid var(--line); min-height: 300px;
 }
 @media (max-width: 900px) { .hero { grid-template-columns: 1fr; position: relative; } }
 .hero-copy {
-  padding: clamp(22px, 4vw, 48px) var(--pad);
-  display: flex; flex-direction: column; justify-content: center; gap: 16px;
+  /* Was clamp(22,4vw,48) with a 16px gap -- 478px tall at 1440px wide, which
+     left ZERO event cards above the fold on anything under ~900px of
+     viewport height. This is a tool people open to see what's on tonight,
+     not a brochure; every pixel here is a toll before the first real card. */
+  padding: clamp(18px, 3vw, 34px) var(--pad);
+  display: flex; flex-direction: column; justify-content: center; gap: 12px;
   border-right: 1px solid var(--line);
 }
 @media (max-width: 900px) { .hero-copy { border-right: 0; border-bottom: 1px solid var(--line); } }
@@ -178,7 +185,7 @@ button { font-family: var(--mono); }
   .kicker-short { display: inline; }
 }
 .hero h1 {
-  font-size: clamp(2.6rem, 7.4vw, 5rem); font-weight: 800; line-height: .94;
+  font-size: clamp(2.4rem, 6.2vw, 4.1rem); font-weight: 800; line-height: .94;
   letter-spacing: -.01em;
 }
 .hero-sub { max-width: 34em; margin: 0; color: var(--silver); }
@@ -255,6 +262,29 @@ input[type="date"] {
   border-radius: 0; padding: 9px 10px; font-family: var(--mono); font-size: 12px;
   color-scheme: dark;
 }
+/* Below 720px this was a fourth full-width row repeating what .date-display
+   two rows up already says ("Friday, September 11" vs. the OS's own raw
+   09/11/2026 picker chrome) -- same information, twice, at full row cost
+   each. Same .sr-only clip used for the skip link: still in the DOM, still
+   focusable and operable for a keyboard user tabbing through in document
+   order, just not occupying its own visible row. app.js wires a tap on
+   .date-display to open it programmatically for mouse/touch. */
+@media (max-width: 720px) {
+  /* #datePicker, not the bare type-selector: the TOUCH TARGETS block below
+     sets input[type="date"] { min-height: 44px }, deliberately last in the
+     file so it wins ties on source order against everything above it (see
+     that block's own comment) -- including this rule, if it only matched on
+     type. min-height wins over an explicit height in the same box regardless
+     of which rule is later, so without the ID bump this shipped as a
+     "hidden" control that was still a visible 1px x 44px sliver. An ID
+     selector's specificity beats a bare type selector no matter the order. */
+  input[type="date"]#datePicker {
+    position: absolute; width: 1px; height: 1px; min-height: 0; margin: -1px; padding: 0;
+    overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
+    border: 0;
+  }
+  .date-display { cursor: pointer; }
+}
 .quick { display: flex; gap: 0; border: 1px solid var(--line); }
 .quick button {
   cursor: pointer; background: transparent; border: 0; border-right: 1px solid var(--line);
@@ -317,6 +347,11 @@ input[type="date"] {
 }
 
 /* ============================= MARQUEE ============================= */
+/* Decorative only, since 2026-09. This used to be nine buttons wired to the
+   same category filter as the .chip row above it, but it never showed which
+   one was active (the chips do), and on desktop it was a MOVING click target
+   — two controls for one piece of state, one of which lied about it. The
+   .chip row is the only real category filter now; this is texture. */
 .marquee {
   overflow: hidden; white-space: nowrap; border-bottom: 1px solid var(--line);
   padding: 10px 0; background: var(--bg);
@@ -325,25 +360,26 @@ input[type="date"] {
 .marquee-track span {
   font-family: var(--mono); font-size: 11px; letter-spacing: .22em; color: #3A3F4B;
 }
-/* `all: unset` also strips the focus ring, so restore one explicitly below.
-   Vertical padding lifts the hit box off 17px. */
-.marquee-track button {
-  all: unset; font: inherit; letter-spacing: inherit; color: var(--dim);
-  cursor: pointer; transition: color .15s; padding: 6px 2px;
-}
-.marquee-track button:hover, .marquee-track button:focus-visible { color: var(--em); }
-/* pause for keyboard users too, not just the mouse */
+.marquee-set { padding: 6px 0; }
+/* pause for keyboard users too, not just the mouse -- kept even though the
+   strip is no longer interactive, since a moving line of text next to
+   keyboard focus elsewhere on the page is still worth stilling on :focus-within. */
 .marquee:hover .marquee-track,
 .marquee:focus-within .marquee-track { animation-play-state: paused; }
 @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-/* A moving target can't be tapped reliably and there's no hover to pause it on
-   touch. Stop the scroll and make the strip a swipeable row instead. */
+/* A moving line of text is illegible mid-swipe, so it stops moving and
+   becomes a plain swipeable strip on touch instead — with a fade on both
+   edges since, unlike the old click target, there's nothing else here to
+   hint it scrolls. */
 @media (pointer: coarse) {
-  .marquee { overflow-x: auto; scrollbar-width: none; }
+  .marquee {
+    overflow-x: auto; scrollbar-width: none;
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 92%, transparent);
+    mask-image: linear-gradient(to right, transparent, #000 4%, #000 92%, transparent);
+  }
   .marquee::-webkit-scrollbar { display: none; }
   .marquee-track { animation: none; }
   .marquee-track .marquee-set[aria-hidden="true"] { display: none; }
-  /* the button padding that goes with this lives in the TOUCH TARGETS block */
 }
 
 /* =============================== GRID =============================== */
@@ -372,6 +408,31 @@ main { padding: 0; }
 }
 body.ads .ad-leader { display: block; }
 
+/* In-place district quick-filter, opened by the ◎ DISTRICTS toggle. The full
+   DFW Radar section (map + this same ranked list) still exists further down
+   the page as a visual feature, but it sat 79-85% of the way down the page —
+   28.9 screens on a phone — which made the site's answer to "DFW spans
+   massive distances" the single hardest-to-reach control on it. This reuses
+   the radar's own row markup (RADAR.update() populates both) so the two never
+   drift out of sync. */
+.district-panel { border-bottom: 1px solid var(--line); background: var(--bg-2); }
+.district-panel[hidden] { display: none; }
+.district-panel-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px var(--pad); border-bottom: 1px solid var(--line);
+}
+.district-panel-head .row-label { width: auto; }
+.district-panel-close {
+  cursor: pointer; background: transparent; border: 1px solid var(--line); color: var(--silver);
+  width: 28px; height: 28px; font-size: 14px; transition: all .15s;
+}
+.district-panel-close:hover { color: var(--em); border-color: var(--em-dim); }
+.radar-list.panel { max-height: min(58vh, 480px); overflow-y: auto; }
+@media (min-width: 661px) {
+  .radar-list.panel { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); }
+  .radar-list.panel .radar-row { background: var(--bg); border-bottom: 0; }
+}
+
 .grid {
   display: grid; grid-template-columns: repeat(3, 1fr);
   gap: 1px; background: var(--line);
@@ -379,6 +440,14 @@ body.ads .ad-leader { display: block; }
 }
 @media (max-width: 1020px) { .grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 660px)  { .grid { grid-template-columns: 1fr; } }
+/* Each daypart group starts its own row (.time-break spans 1/-1), and most
+   groups aren't a multiple of the column count — the leftover cell(s) had no
+   card in them, so the grid's own gap color (--line, a highlight, not the
+   page background) filled the whole empty tile and read as a broken/loading
+   card. render() in app.js pads a short group's tail with these, sized to
+   match whatever column count is live at render time — see currentGridCols(),
+   which mirrors the two breakpoints just above. */
+.card-filler { background: var(--bg); }
 
 .card {
   position: relative; background: var(--bg); border: 0; border-radius: 0;
@@ -428,7 +497,15 @@ body.ads .ad-leader { display: block; }
   border: 1px solid var(--em); animation: ring 1.6s ease-out infinite;
 }
 .card h3 { font-size: 19px; font-weight: 700; letter-spacing: .01em; line-height: 1.2; transition: color .18s; }
-.card .meta { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; color: var(--silver); }
+.card .meta { font-family: var(--mono); font-size: 12px; letter-spacing: .06em; color: var(--silver); }
+/* The location line is the field that actually eliminates most rows in a
+   metroplex this size — a Plano parent isn't driving to the Stockyards at any
+   hour. It shared the time line's exact weight and color, so nothing on the
+   card said "read this one first." Lifted to --white and given the same
+   glyph the district picker uses elsewhere on the page, for a consistent
+   "this is a place" signal instead of the generic "/" every other meta line
+   uses. */
+.card .meta.loc { color: var(--white); }
 /* Unclamped, descriptions ran 24-280 chars and card heights swung 255-361px,
    which made 91 cards ~25,600px of grid — about 32 phone screens — and gave the
    column a ragged rhythm. Two lines is enough to decide; Details has the rest. */
@@ -447,9 +524,17 @@ body.ads .ad-leader { display: block; }
 .icon-btn.fav.on { color: var(--em); border-color: var(--em-dim); }
 .badge {
   font-family: var(--mono); font-size: 10px; letter-spacing: .1em; padding: 4px 9px;
-  border: 1px solid var(--line); color: var(--silver); border-radius: 0;
+  border: 1px solid var(--line); color: var(--silver); border-radius: 0; text-decoration: none;
+  display: inline-block;
 }
 .badge.free { color: var(--em); border-color: var(--jade); background: rgba(14, 58, 47, .2); }
+/* When the row has a real ticket/info URL the price chip IS the call to
+   action — it used to be a passive label sitting where a button belongs,
+   with the actual CTA (DETAILS) rendered in the same size and color as the
+   ♡ and the metadata one row down. */
+.badge.link { cursor: pointer; transition: all .15s; }
+.badge.link:hover, .badge.link:focus-visible { border-color: var(--em-dim); color: var(--em); }
+.badge.free.link:hover, .badge.free.link:focus-visible { filter: brightness(1.15); }
 
 .ad-card { align-items: center; justify-content: center; cursor: default; }
 .ad-card:hover { background: var(--bg); }
@@ -495,6 +580,15 @@ body.ads .ad-leader { display: block; }
   -webkit-overflow-scrolling: touch; scrollbar-width: none; scroll-behavior: smooth;
 }
 .onnow-rail::-webkit-scrollbar { display: none; }
+/* Touch has no hover to reveal .onnow-arrow with, and a card sliced off at
+   the edge was the only hint this rail scrolls at all. updateOnNowArrows() in
+   app.js toggles this class the same way it toggles the arrows — only when
+   the rail actually overflows, so a short rail that already fits isn't faded
+   for no reason. */
+.onnow-rail.has-more {
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 3%, #000 94%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 3%, #000 94%, transparent);
+}
 .onnow-card {
   flex: 0 0 auto; width: 230px; padding: 12px 14px; cursor: pointer;
   border: 1px solid var(--line); background: var(--bg-2); transition: border-color .15s;
@@ -530,12 +624,29 @@ body.ads .ad-leader { display: block; }
   padding: 0 12px; min-width: 150px; text-align: center;
 }
 .skybar .sky-top { margin-left: 10px; border-color: transparent; }
+/* Every other filter control scrolls away with the console -- this is the
+   only sign, once you've scrolled past it, that a category/district/city/
+   search/free-only filter is narrowing what you're looking at. Hidden by
+   default; render() in app.js reveals it and fills the count whenever any
+   filter is active, and clicking it scrolls straight back to the controls
+   instead of forcing a scroll to the very top past the hero. */
+.sky-filters { border-color: var(--em-dim); color: var(--em); }
+.sky-filters:hover { background: var(--jade); }
 
 /* ======================= time-of-day group headers ======================= */
+/* Sticky so MORNING/AFTERNOON/TONIGHT/LATE NIGHT stays pinned while its own
+   cards scroll past -- on a day with 88 events that's ~13 phone-screens with
+   no fixed reference point otherwise, easy to lose track of which stretch of
+   the evening you're even looking at. --sky-h is 0 normally and set to the
+   skybar's real height (in px, by the same scroll listener that shows it) the
+   moment the skybar slides in, so the header sticks just below it instead of
+   the two overlapping for the first ~50px of scroll. z-index only needs to
+   clear the cards (0) and sit under the skybar (45)/modals (50). */
 .time-break {
   grid-column: 1 / -1; display: flex; align-items: center; gap: 12px;
   padding: 20px var(--pad) 8px; background: var(--bg);
   font-family: var(--mono); font-size: 10px; letter-spacing: .18em; color: var(--em);
+  position: sticky; top: var(--sky-h, 0px); z-index: 10;
 }
 .time-break::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 
@@ -808,19 +919,17 @@ body.drawer-open { overflow: hidden; }
      the wrong control. Only the heart is affected; DETAILS is already ~73px. */
   .icon-btn { min-width: 44px; }
   .date-nav button { padding: 8px 18px; }
-  .modal-close { width: 44px; height: 44px; }
+  .modal-close, .district-panel-close { width: 44px; height: 44px; }
   .vibes-toggle { padding: 12px 0 12px 8px; }
   .search { min-height: 44px; }
+  /* iOS Safari zooms the whole viewport on focusing any input under 16px —
+     these were 12px, so tapping the search box or the date field jumped the
+     page to 150% and left it there until a manual pinch back out. */
+  .search input, input[type="date"] { font-size: 16px; }
   /* footer links are a nav list, not prose — 20px tall on a 8px gap was a
      28px pitch for eight stacked thumb targets */
   .f-col a { padding: 6px 0; }
 }
-@media (pointer: coarse) {
-  /* the marquee is a static swipeable strip here, so its labels can be real
-     buttons rather than 17px words sliding past */
-  .marquee-track button { padding: 14px 6px; }
-}
-
 /* ======================== REDUCED MOTION ============================ */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

@@ -135,6 +135,11 @@
   <span class="sky-date" id="skyDate">—</span>
   <button id="skyNext" title="Next day" tabindex="-1">›</button>
   <button id="skyTonight" tabindex="-1">TONIGHT</button>
+  <!-- Only visible sign, once the console has scrolled away, that a filter
+       is narrowing the list -- render() in app.js fills the count and shows
+       this whenever any filter is active. Scrolls to the controls, not the
+       very top past the hero. -->
+  <button class="sky-filters" id="skyFilters" title="Active filters" tabindex="-1" hidden>⚙ <span id="skyFilterCount">0</span></button>
   <button class="sky-top" id="skyTop" title="Back to top" tabindex="-1">↑</button>
 </div>
 
@@ -215,16 +220,14 @@
   </div>
 </section>
 
-<!-- ============ MARQUEE (each item filters that category) ============ -->
-<!-- Labels are the CATEGORIES labels verbatim, one per category. They used to be
-     evocative (HONKY-TONKS, FOOD TRUCKS, ART WALKS) but ten labels mapped onto
-     seven categories, so three of them filtered to something broader than they
-     named — tapping FOOD TRUCKS returned brewery tours. A filter has to do what
-     its label says. These also match the chip row, so the chip that lights up
-     after a click is the one the visitor just pressed. -->
-<div class="marquee">
+<!-- ============ MARQUEE (decorative — see css/styles.css) ============ -->
+<!-- Used to be nine buttons duplicating the .chip category row above, wired
+     to the same state but never showing which one was active — two controls,
+     one of which silently lied about the filter. The .chip row is the only
+     real category filter now; this is texture, and not in the tab order. -->
+<div class="marquee" aria-hidden="true">
   <div class="marquee-track">
-    <span class="marquee-set"><button data-cat="music">LIVE MUSIC</button> / <button data-cat="food">FOOD &amp; DRINK</button> / <button data-cat="arts">ARTS &amp; MUSEUMS</button> / <button data-cat="outdoors">OUTDOORS &amp; PARKS</button> / <button data-cat="sports">SPORTS</button> / <button data-cat="family">FAMILY &amp; KIDS</button> / <button data-cat="market">MARKETS</button> / <button data-cat="nightlife">NIGHTLIFE</button> / <button data-cat="festival">FESTIVALS</button> /&nbsp;</span><span class="marquee-set" aria-hidden="true"><button data-cat="music" tabindex="-1">LIVE MUSIC</button> / <button data-cat="food" tabindex="-1">FOOD &amp; DRINK</button> / <button data-cat="arts" tabindex="-1">ARTS &amp; MUSEUMS</button> / <button data-cat="outdoors" tabindex="-1">OUTDOORS &amp; PARKS</button> / <button data-cat="sports" tabindex="-1">SPORTS</button> / <button data-cat="family" tabindex="-1">FAMILY &amp; KIDS</button> / <button data-cat="market" tabindex="-1">MARKETS</button> / <button data-cat="nightlife" tabindex="-1">NIGHTLIFE</button> / <button data-cat="festival" tabindex="-1">FESTIVALS</button> /&nbsp;</span>
+    <span class="marquee-set">LIVE MUSIC / FOOD &amp; DRINK / ARTS &amp; MUSEUMS / OUTDOORS &amp; PARKS / SPORTS / FAMILY &amp; KIDS / MARKETS / NIGHTLIFE / FESTIVALS /&nbsp;</span><span class="marquee-set" aria-hidden="true">LIVE MUSIC / FOOD &amp; DRINK / ARTS &amp; MUSEUMS / OUTDOORS &amp; PARKS / SPORTS / FAMILY &amp; KIDS / MARKETS / NIGHTLIFE / FESTIVALS /&nbsp;</span>
   </div>
 </div>
 
@@ -246,7 +249,16 @@
   <div class="toolbar">
     <div class="toolbar-left">
       <button class="toggle" id="freeToggle">FREE ONLY</button>
-      <button class="toggle" id="radarJump" title="Browse by district">◎ DISTRICTS</button>
+      <!-- Highest-intent of the eight vibe filters ("what's on right now") and
+           the one most likely to be exactly what someone who opened the site
+           at all is after -- it was three interactions deep (+ SHOW, scroll
+           the revealed row, find it among eight). Same state.vibes entry the
+           chip inside that row still uses (buildVibes() in app.js), so the
+           two can never disagree -- this is a second door into the same
+           room, not a second room. Hidden on any date but today; "starting
+           soon" has no meaning once you've picked a different day. -->
+      <button class="toggle" id="soonToggle" title="Starting in the next two hours" hidden>⏱ NEXT 2 HRS</button>
+      <button class="toggle" id="radarJump" title="Browse by district" aria-expanded="false" aria-controls="districtPanel">◎ DISTRICTS</button>
       <span class="count" id="count">LOADING…</span>
     </div>
     <select class="sortsel" id="sort" aria-label="Sort events">
@@ -254,6 +266,19 @@
       <option value="name">SORT / NAME</option>
       <option value="cost">SORT / COST</option>
     </select>
+  </div>
+  <!-- Opened in place by ◎ DISTRICTS above. The DFW Radar section further down
+       the page (map + this same ranked, tap-to-filter list) still exists as a
+       visual feature, but it was 28.9 phone-screens from the top -- the site's
+       answer to "DFW spans massive distances" was the hardest-to-reach control
+       on it. RADAR.update() in js/radar.js fills #districtQuick with the exact
+       same rows as #radarList below, so the two can never drift apart. -->
+  <div class="district-panel" id="districtPanel" hidden>
+    <div class="district-panel-head">
+      <span class="row-label">/ JUMP TO A DISTRICT</span>
+      <button class="district-panel-close" id="districtPanelClose" aria-label="Close district list">×</button>
+    </div>
+    <div class="radar-list panel" id="districtQuick"></div>
   </div>
   <div class="ad-leader">ADVERTISEMENT · LEADERBOARD (728×90)</div>
   <!-- The cards render as <h3>; without this the page jumps h1 -> h3. -->
