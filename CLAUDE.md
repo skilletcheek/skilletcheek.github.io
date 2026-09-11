@@ -102,7 +102,12 @@ no network, so CI can do it even though the refresh can't. **An empty
 which `_hub_row()` reads to link listings to venue pages. Reorder that and the
 links silently vanish. A venue needs `VENUE_MIN_EVENTS` (3) upcoming events to
 get a page; `_is_real_venue()` rejects district labels (`area` sometimes
-reports "Lower Greenville") and touring shows that pose as venues.
+reports "Lower Greenville"), **bare city names** and touring shows that pose
+as venues. The city check reads `DFW_CITIES` and matches exactly, so a venue
+that legitimately carries a city in its name ("Arlington Music Hall",
+"Addison Improv") still passes. It was added 2026-09-11 when
+`fetch_civicplus` — whose `area` is a bare city — would otherwise have built
+`/venue/garland/` from 46 library programs and `/venue/cedar-hill/` from 94.
 
 `/advertise/` and `/submit/` read `CONFIG` values from `js/data.js` at **build
 time** — after changing an endpoint there, regenerate the page.
@@ -241,6 +246,41 @@ rejected** so they don't get re-probed.
   non-zero instead — this is almost always a dead API key or a source's
   markup changing, not DFW actually going quiet. The Action then fails
   visibly rather than silently pushing a gutted site.
+- **CivicPlus city calendars** (`fetch_civicplus`, `civicplus_sites` in
+  `feeds.json`) — six DFW suburbs (Garland, Cedar Hill, Grapevine, McKinney,
+  Frisco, Lancaster) all publish the same RSS at the same path, so this is
+  **one parser for six sources** and a seventh city is one `{site, city}` line.
+  ~350 events a run, the library/parks/rec layer the ticketing APIs never
+  list. Public records from municipal governments, so no ToS question.
+
+  **The RSS `pubDate` is NOT the event date** — it is when the listing was
+  published, and Garland's first item carried 22 May for an event on
+  11 September. The real date, time and address are inside the HTML-escaped
+  `<description>` on a fixed CivicPlus template. Parsing `pubDate` would file
+  every event under the wrong day while the feed still looked healthy.
+
+  **Read the city from its own line.** The first version ran the regex over
+  the flattened Location block and greedily matched `"Broadway Blvd. Garland"`
+  out of `"4845 Broadway Blvd. Garland, TX 75043"`, which is not a DFW city —
+  so `is_dfw_city()` silently dropped 104 of Garland's 105 events. Grapevine
+  was the only city that appeared to work, purely because its block carries no
+  street line. The counters print `municipal` and `off-area` **separately**
+  for exactly this reason: one combined "filtered" number is what disguised a
+  parsing bug as a working noise filter.
+
+  **These feeds publish no venue name**, only a street line and the city, so
+  `area` is deliberately the city alone — feeding the street to
+  `_split_area()` would mint venue pages named "6861 W Eldorado Parkway" once
+  three library programs shared an address. The consequence is that this
+  source produces no venue pages and (via `CITY_MIN_VENUES`) no city pages
+  either; its events reach the homepage, the time hubs and the feeds only.
+
+  Its window is a rolling **~14 days**, not `DAYS_AHEAD`, so it thins toward
+  the end of the month where Ticketmaster does not. `civicplus_skip` drops
+  municipal governance by title substring and `civicplus_categories` infers a
+  category (the RSS carries none) — both **data in `feeds.json`**, because
+  every city words its agendas differently and the mapping is a heuristic that
+  wants tuning from the feed, not a code change.
 - Adding an ICS feed: try `<site>/events/?ical=1`, then
   `/wp-json/tribe/events/v1/events`. **Confirm the content-type is
   `text/calendar`** — several DFW sites answer 200 with an HTML page.

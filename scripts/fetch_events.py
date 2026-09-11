@@ -8,6 +8,10 @@ Sources (all optional — missing keys/feeds are skipped gracefully):
   * Ticketmaster Discovery API   (env TICKETMASTER_KEY)
   * SeatGeek API                 (env SEATGEEK_CLIENT_ID)
   * Any iCal/ICS feeds listed in scripts/feeds.json
+  * CivicPlus city calendars (scripts/feeds.json `civicplus_sites`) — six DFW
+    suburbs on one shared RSS template; ~350 events a run, the library/parks/
+    rec layer the ticketing APIs never list. The RSS pubDate is NOT the event
+    date; see fetch_civicplus.
   * Prekindle venue pages, singles/speed-dating pages, Seated artist tours
     (scripts/feeds.json)
   * Dallasites101 — /event/rss/ for discovery + per-event JSON-LD (see
@@ -435,6 +439,171 @@ def fetch_ics_feeds(start, end):
                            "URL", "CATEGORIES"):
                     ev[key] = val.replace("\\,", ",").replace("\\;", ";")
         print(f"ics ({url}): {count} events")
+    return out
+
+
+# ------------------------------------------------------------------- CivicPlus
+# Six DFW suburbs run their city calendar on CivicPlus, which publishes the
+# same RSS at the same path on every one of them -- so this is ONE parser for
+# six sources, and adding a seventh city is one line in feeds.json.
+#
+# This is the suburban civic layer the ticketing APIs never see: library
+# programs, rec-centre classes, plant swaps, city festivals. Measured
+# 2026-09-11 across Garland, Cedar Hill, Grapevine, McKinney, Frisco and
+# Lancaster: 379 items, 317 of them absent from live-events.json.
+#
+# THE pubDate IS NOT THE EVENT DATE. It is when the listing was published --
+# Garland's first item carried pubDate 22 May for an event on 11 September.
+# The real date, time and address live inside the HTML-escaped <description>
+# on a fixed CivicPlus template, which is what the regexes below read. Parsing
+# pubDate instead would silently file every event under the wrong day, and the
+# feed would still look like it was working.
+#
+# The window is a rolling ~14 days, not DAYS_AHEAD -- these feeds simply do
+# not publish further out, so this source thins toward the end of the month
+# where Ticketmaster does not.
+CIVICPLUS_PATH = "/RSSFeed.aspx?ModID=58&CID=All-calendar.xml"
+
+_CP_ITEM = re.compile(r"<item>(.*?)</item>", re.S | re.I)
+_CP_TAG = lambda t: re.compile(rf"<{t}>(.*?)</{t}>", re.S | re.I)
+_CP_TITLE, _CP_LINK, _CP_DESC = _CP_TAG("title"), _CP_TAG("link"), _CP_TAG("description")
+_CP_DATE = re.compile(r"Event date:\s*</strong>\s*([A-Za-z]+ \d{1,2}, \d{4})", re.I)
+_CP_TIME = re.compile(r"Event Time:\s*</strong>\s*(\d{1,2}:\d{2}\s*[AP]\.?M\.?)", re.I)
+_CP_LOC = re.compile(r"Location:\s*</strong>(.*?)(?:<strong>|\Z)", re.I | re.S)
+_CP_BODY = re.compile(r"Description:\s*</strong>(.*)\Z", re.I | re.S)
+# "Grapevine, TX 76051" -- the one field in the block that is always present.
+# CivicPlus publishes no venue NAME, only a street line (sometimes) and this.
+#
+# ANCHORED to a whole line, and applied per line rather than to the flattened
+# block. The first version ran over the collapsed text and, because `.` and
+# space are in the city class, greedily matched "Broadway Blvd. Garland" out
+# of "4845 Broadway Blvd. Garland, TX 75043" -- which is not a DFW city, so
+# is_dfw_city() then dropped 104 of Garland's 105 events. Grapevine was the
+# only city that survived, purely because its block carries no street line.
+_CP_CITY = re.compile(r"^(.*?),\s*(?:TX|Texas)\.?\s*\d{5}", re.I)
+
+
+def _cp_lines(html_fragment: str) -> list[str]:
+    """The Location block split back into its <br>-separated lines. The city
+    has to be read from its OWN line; flattening the block first is what made
+    the street run into it."""
+    parts = re.split(r"<br\s*/?>|\n", html_fragment or "", flags=re.I)
+    return [x for x in (_cp_text(p) for p in parts) if x]
+
+
+def _cp_find_city(loc_fragment: str):
+    for line in _cp_lines(loc_fragment):
+        m = _CP_CITY.match(line)
+        if m:
+            city = m.group(1).strip(" .,")
+            # A street line ("4845 Broadway Blvd.") never reaches here because
+            # the pattern is anchored, but a leading suite/number can, so drop
+            # anything that still carries digits.
+            if city and not re.search(r"\d", city):
+                return city
+    return None
+
+
+def _cp_text(html_fragment: str) -> str:
+    """Strip the inner markup CivicPlus puts inside <description>."""
+    t = re.sub(r"<br\s*/?>", " ", html_fragment or "", flags=re.I)
+    t = re.sub(r"<[^>]+>", " ", t)
+    return re.sub(r"\s+", " ", _html.unescape(t)).strip()
+
+
+def _cp_category(title: str, hints: dict, default: str) -> str:
+    """Keyword map onto our vocabulary. CivicPlus RSS carries no category at
+    all, so this is a guess -- which is exactly why the keywords live in
+    feeds.json as DATA and can be tuned without touching this file."""
+    t = (title or "").lower()
+    for needle, cat in hints.items():
+        if needle in t:
+            return cat
+    return default
+
+
+def fetch_civicplus(start, end):
+    """City calendars on the CivicPlus platform.
+
+    Public records published by municipal governments, so there is no ToS
+    problem of the kind that keeps Do214 disabled -- and robots.txt on these
+    sites disallows `/` only for Baiduspider and Yandex. Note it DOES disallow
+    `/RSS.aspx` for everyone; the calendar is at `/RSSFeed.aspx`, a different
+    prefix, which is why this path is permitted and worth not "tidying".
+    """
+    if not FEEDS_FILE.exists():
+        return []
+    try:
+        cfg = json.loads(FEEDS_FILE.read_text())
+    except Exception as e:  # noqa: BLE001
+        print(f"feeds.json unreadable: {e}", file=sys.stderr)
+        return []
+    sites = cfg.get("civicplus_sites", [])
+    skip = tuple(k.lower() for k in cfg.get("civicplus_skip", []))
+    hints = {k.lower(): v for k, v in (cfg.get("civicplus_categories") or {}).items()}
+    lo, hi = start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
+
+    out = []
+    for site in sites:
+        base = (site.get("site") or "").rstrip("/")
+        url = site.get("url") or (base + CIVICPLUS_PATH if base else None)
+        if not url:
+            continue
+        try:
+            xml = http_text(url)
+        except Exception as e:  # noqa: BLE001
+            print(f"civicplus failed ({url}): {e}", file=sys.stderr)
+            continue
+
+        kept = muted = offarea = 0
+        for raw in _CP_ITEM.findall(xml):
+            item = _html.unescape(raw)
+            tm, dm = _CP_TITLE.search(item), _CP_DATE.search(item)
+            if not (tm and dm):
+                continue
+            title = _cp_text(tm.group(1))
+            # Municipal business is not an outing. The list is data in
+            # feeds.json because every city words its agendas differently.
+            if any(k in title.lower() for k in skip):
+                muted += 1
+                continue
+            try:
+                date = datetime.strptime(dm.group(1), "%B %d, %Y").strftime("%Y-%m-%d")
+            except ValueError:
+                continue
+            if not lo <= date <= hi:
+                continue
+
+            loc = _CP_LOC.search(item)
+            city = (_cp_find_city(loc.group(1)) if loc else None) or site.get("city")
+            # The repo rule for every city-reporting source. A feed that starts
+            # syndicating a neighbouring metro's events gets caught here.
+            if not is_dfw_city(city, "TX"):
+                offarea += 1
+                continue
+
+            tmm = _CP_TIME.search(item)
+            body = _CP_BODY.search(item)
+            # `area` is the CITY ONLY, deliberately. CivicPlus publishes no
+            # venue name -- only a street line -- so feeding the street to
+            # _split_area() would mint venue pages named "6861 W Eldorado
+            # Parkway" once three library programs shared an address.
+            out.append(row(
+                title,
+                _cp_category(title, hints, site.get("category", "family")),
+                city,
+                date,
+                (tmm.group(1).upper().replace(".", "") if tmm else None),
+                site.get("cost"),
+                _cp_text(body.group(1)) if body else "",
+                _CP_LINK.search(item).group(1).strip() if _CP_LINK.search(item) else base,
+            ))
+            kept += 1
+        # Reported separately on purpose. One combined "filtered" count is
+        # what disguised a city-parsing bug as a working noise filter.
+        print(f"civicplus ({site.get('city') or url}): {kept} events"
+              + (f", {muted} municipal" if muted else "")
+              + (f", {offarea} off-area" if offarea else ""))
     return out
 
 
@@ -1510,9 +1679,23 @@ def _is_real_venue(name: str) -> bool:
     "Lower Greenville" — a neighbourhood that already has a district hub. Giving
     it a venue page too would put two of our own URLs on one query. The district
     check reads DISTRICTS rather than a hand-list so the two stay consistent.
+
+    A bare CITY is rejected for the same reason, and reads from DFW_CITIES for
+    the same consistency. fetch_civicplus() is what exposed this: those feeds
+    publish no venue name at all, so their `area` is just "Garland" — which
+    _split_area() hands back as the venue, and which cleared this check because
+    Garland is a city and not one of the 15 DISTRICTS. That would have built
+    /venue/garland/ out of 46 library programs and /venue/cedar-hill/ out of 94.
+    Grapevine escaped only by coincidence: it happens to be a district slug too.
+
+    Exact matches only. A venue may legitimately carry a city in its name
+    ("Arlington Music Hall", "Addison Improv") and those must survive; it is
+    the bare, unadorned city that is never a room.
     """
     n = (name or "").strip().lower()
     if not n or any(bad in n for bad in _NOT_VENUES):
+        return False
+    if n in DFW_CITIES:
         return False
     return not any(n == m for _slug, _label, match in DISTRICTS for m in match)
 
@@ -3759,8 +3942,15 @@ def main():
     # and price, so it deserves the same "before Seated" priority.
     # fetch_singles_pages sits with Prekindle: same "scrape the listing page's
     # own JSON-LD, no API key" shape and the same firm price.
+    # fetch_civicplus sits with fetch_ics_feeds: both are calendars published
+    # by the organisation that runs the events, so neither is second-hand. It
+    # is placed after the ticketing APIs for the usual reason -- when the same
+    # show appears in both, Ticketmaster's row (direct ticket link, firmer
+    # price) should win dedupe. In practice these collide almost never: a
+    # library story time is not for sale anywhere.
     rows = (fetch_ticketmaster(start, end) + fetch_seatgeek(start, end)
-            + fetch_ics_feeds(start, end) + fetch_prekindle(start, end)
+            + fetch_ics_feeds(start, end) + fetch_civicplus(start, end)
+            + fetch_prekindle(start, end)
             + fetch_singles_pages(start, end)
             + fetch_do214(start, end) + fetch_dallasites101(start, end)
             + fetch_seated(start, end))
