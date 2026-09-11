@@ -322,19 +322,6 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:phora-i-was-there-tour|trees-dallas|doors-see-listing-2026-09-17@letsdo
- itdallas.com
-DTSTAMP:20260917T000000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:PHORA I WAS THERE TOUR
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=phora-i-was-there-tour%7C
- trees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:yearn-junebug-joseon-2026-fall-tour|three-links-deep-ellum-dallas|7-00-
  pm-2026-09-17@letsdoitdallas.com
 DTSTAMP:20260918T000000Z
@@ -685,19 +672,6 @@ DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:soulfly-nailbomb-incite|trees-dallas|doors-see-listing-2026-09-23@letsd
- oitdallas.com
-DTSTAMP:20260923T000000Z
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260924
-SUMMARY:SOULFLY * NAILBOMB * INCITE
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=soulfly-nailbomb-incite%7
- Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-rasmus-w-saint-agnes|the-studio-at-the-bomb-factory-dallas|7-30-pm-
  2026-09-23@letsdoitdallas.com
 DTSTAMP:20260924T003000Z
@@ -763,19 +737,6 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:gothicumbia|trees-dallas|doors-see-listing-2026-09-25@letsdoitdallas.co
- m
-DTSTAMP:20260925T000000Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:GOTHICUMBIA
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=gothicumbia%7Ctrees-dalla
- s%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:fetty-p-franklin-live-in-dallas|club-dada-dallas|7-00-pm-2026-09-25@let
  sdoitdallas.com
 DTSTAMP:20260926T000000Z
@@ -826,19 +787,6 @@ URL:https://letsdoitdallas.com/?date=2026-09-25&e=dj-jream%7Cthree-links-de
  ep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:jake-dexter-the-main-street-sound|trees-dallas|doors-see-listing-2026-0
- 9-26@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-SUMMARY:JAKE DEXTER & THE MAIN STREET SOUND
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=jake-dexter-the-main-stre
- et-sound%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-number-twelve-looks-like-you-kaonashi|three-links-deep-ellum-dallas
@@ -1076,19 +1024,6 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:brian-fallon|trees-dallas|doors-see-listing-2026-10-07@letsdoitdallas.c
- om
-DTSTAMP:20261007T000000Z
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
-SUMMARY:BRIAN FALLON
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=brian-fallon%7Ctrees-dall
- as%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:jack-white-this-is-a-phone-free-show-16-and-under-with-parent-or-legal-
  guardian-|the-bomb-factory-dallas|8-00-pm-2026-10-07@letsdoitdallas.com
 DTSTAMP:20261008T010000Z
@@ -1142,18 +1077,5 @@ URL:https://letsdoitdallas.com/?date=2026-10-09&e=bassvictim-w-thoom%7Cthe-
  studio-at-the-bomb-factory-dallas%7C8-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:hurricane-wisdom|trees-dallas|doors-see-listing-2026-10-11@letsdoitdall
- as.com
-DTSTAMP:20261011T000000Z
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
-SUMMARY:HURRICANE WISDOM
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=hurricane-wisdom%7Ctrees-
- dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lancaster Veterans Memorial Library — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Lancaster Veterans Memorial Library.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:toddler-story-time|lancaster-veterans-memorial-library-1600-veterans-me
+ morial-parkway-lancaster|10-30-am-2026-09-11@letsdoitdallas.com
+DTSTAMP:20260911T153000Z
+DTSTART:20260911T153000Z
+DTEND:20260911T183000Z
+SUMMARY:Toddler Story Time
+LOCATION:Lancaster Veterans Memorial Library
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=toddler-story-time%7Clanc
+ aster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%7
+ C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/venue/lancaster-veterans-memor
+ ial-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-story-time|lancaster-veterans-memorial-library-1600-veterans-mem
+ orial-parkway-lancaster|10-30-am-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T153000Z
+DTSTART:20260912T153000Z
+DTEND:20260912T183000Z
+SUMMARY:Family Story Time
+LOCATION:Lancaster Veterans Memorial Library
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=family-story-time%7Clanca
+ ster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%7C
+ 10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/venue/lancaster-veterans-memor
+ ial-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:block-builders-club|lancaster-veterans-memorial-library-1600-veterans-m
+ emorial-parkway-lancaster|11-30-am-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T163000Z
+DTSTART:20260912T163000Z
+DTEND:20260912T193000Z
+SUMMARY:Block Builders Club
+LOCATION:Lancaster Veterans Memorial Library
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=block-builders-club%7Clan
+ caster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%
+ 7C11-30-am
+DESCRIPTION:Where creativity meets construction! September 12\, 2026 11:30 
+ AM - 12:30 PM Lancaster Veterans Memorial Library 1600 Veterans Memorial P
+ arkwayLancaster\, TX 75146 https://www.lancaster-tx.com/Calendar.aspx?EID=
+ 8142/639151463420000000 — More: https://letsdoitdallas.com/venue/lancast
+ er-veterans-memorial-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-story-time|lancaster-veterans-memorial-library-1600-veterans-me
+ morial-parkway-lancaster|10-30-am-2026-09-18@letsdoitdallas.com
+DTSTAMP:20260918T153000Z
+DTSTART:20260918T153000Z
+DTEND:20260918T183000Z
+SUMMARY:Toddler Story Time
+LOCATION:Lancaster Veterans Memorial Library
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=toddler-story-time%7Clanc
+ aster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%7
+ C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/venue/lancaster-veterans-memor
+ ial-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-story-time|lancaster-veterans-memorial-library-1600-veterans-mem
+ orial-parkway-lancaster|10-30-am-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260919T153000Z
+DTSTART:20260919T153000Z
+DTEND:20260919T183000Z
+SUMMARY:Family Story Time
+LOCATION:Lancaster Veterans Memorial Library
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=family-story-time%7Clanca
+ ster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%7C
+ 10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/venue/lancaster-veterans-memor
+ ial-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:block-builders-club|lancaster-veterans-memorial-library-1600-veterans-m
+ emorial-parkway-lancaster|11-30-am-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260919T163000Z
+DTSTART:20260919T163000Z
+DTEND:20260919T193000Z
+SUMMARY:Block Builders Club
+LOCATION:Lancaster Veterans Memorial Library
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=block-builders-club%7Clan
+ caster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%
+ 7C11-30-am
+DESCRIPTION:Where creativity meets construction! September 19\, 2026 11:30 
+ AM - 12:30 PM Lancaster Veterans Memorial Library 1600 Veterans Memorial P
+ arkwayLancaster\, TX 75146 https://www.lancaster-tx.com/Calendar.aspx?EID=
+ 8143/639151463420000000 — More: https://letsdoitdallas.com/venue/lancast
+ er-veterans-memorial-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-story-time|lancaster-veterans-memorial-library-1600-veterans-me
+ morial-parkway-lancaster|10-30-am-2026-09-25@letsdoitdallas.com
+DTSTAMP:20260925T153000Z
+DTSTART:20260925T153000Z
+DTEND:20260925T183000Z
+SUMMARY:Toddler Story Time
+LOCATION:Lancaster Veterans Memorial Library
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=toddler-story-time%7Clanc
+ aster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%7
+ C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/venue/lancaster-veterans-memor
+ ial-library/
+END:VEVENT
+END:VCALENDAR

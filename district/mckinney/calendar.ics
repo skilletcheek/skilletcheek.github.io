@@ -10,63 +10,75 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:toddler-time-16-months-3-years-|mckinney|10-30-am-2026-09-11@letsdoitda
- llas.com
+UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
+ am-2026-09-11@letsdoitdallas.com
 DTSTAMP:20260911T153000Z
 DTSTART:20260911T153000Z
 DTEND:20260911T183000Z
 SUMMARY:Toddler Time (16 Months-3 Years)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-11&e=toddler-time-16-months-3-
- years-%7Cmckinney%7C10-30-am
+ years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:farmers-market-storytime-all-ages-10-am|mckinney|10-00-am-2026-09-12@le
- tsdoitdallas.com
+UID:farmers-market-storytime-all-ages-10-am|315-s-chestnut-st-mckinney|10-0
+ 0-am-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260912T150000Z
 DTSTART:20260912T150000Z
 DTEND:20260912T180000Z
 SUMMARY:Farmers Market Storytime (All Ages) - 10 AM
-LOCATION:McKinney
+LOCATION:315 S Chestnut St · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-12&e=farmers-market-storytime-
- all-ages-10-am%7Cmckinney%7C10-00-am
+ all-ages-10-am%7C315-s-chestnut-st-mckinney%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:watercolor-doodle-red-beets-src|mckinney|10-00-am-2026-09-12@letsdoitda
- llas.com
+UID:watercolor-doodle-red-beets-src|1400-s-college-st-mckinney|10-00-am-202
+ 6-09-12@letsdoitdallas.com
 DTSTAMP:20260912T150000Z
 DTSTART:20260912T150000Z
 DTEND:20260912T180000Z
 SUMMARY:Watercolor Doodle: “Red Beets” - SRC
-LOCATION:McKinney
+LOCATION:1400 S. College St. · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-12&e=watercolor-doodle-red-bee
- ts-src%7Cmckinney%7C10-00-am
+ ts-src%7C1400-s-college-st-mckinney%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:saturday-chess-meetup-all-ages-|mckinney|11-00-am-2026-09-12@letsdoitda
- llas.com
+UID:family-storytime-all-ages-|1201-e-louisiana-st-mckinney|10-30-am-2026-0
+ 9-12@letsdoitdallas.com
+DTSTAMP:20260912T153000Z
+DTSTART:20260912T153000Z
+DTEND:20260912T183000Z
+SUMMARY:Family Storytime (All Ages)
+LOCATION:1201 E. Louisiana St. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=family-storytime-all-ages
+ -%7C1201-e-louisiana-st-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-chess-meetup-all-ages-|6861-w-eldorado-parkway-mckinney|11-00-
+ am-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260912T160000Z
 DTSTART:20260912T160000Z
 DTEND:20260912T190000Z
 SUMMARY:Saturday Chess Meetup (All Ages)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-12&e=saturday-chess-meetup-all
- -ages-%7Cmckinney%7C11-00-am
+ -ages-%7C6861-w-eldorado-parkway-mckinney%7C11-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:chinese-tea-ceremony-adults-|mckinney|06-30-pm-2026-09-12@letsdoitdalla
- s.com
+UID:chinese-tea-ceremony-adults-|6861-w-eldorado-parkway-mckinney|06-30-pm-
+ 2026-09-12@letsdoitdallas.com
 DTSTAMP:20260912T233000Z
 DTSTART:20260912T233000Z
 DTEND:20260913T023000Z
 SUMMARY:Chinese Tea Ceremony (Adults)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-12&e=chinese-tea-ceremony-adul
- ts-%7Cmckinney%7C06-30-pm
+ ts-%7C6861-w-eldorado-parkway-mckinney%7C06-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
@@ -83,368 +95,375 @@ DESCRIPTION:Boxing event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:baby-me-0-10-months-|mckinney|10-30-am-2026-09-14@letsdoitdallas.com
+UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-09-14@
+ letsdoitdallas.com
 DTSTAMP:20260914T153000Z
 DTSTART:20260914T153000Z
 DTEND:20260914T183000Z
 SUMMARY:Baby & Me (0-10 Months)
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-14&e=baby-me-0-10-months-%7Cmc
- kinney%7C10-30-am
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-14&e=baby-me-0-10-months-%7C68
+ 61-w-eldorado-pkwy-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:wobblers-walkers-10-20-months-|mckinney|10-30-am-2026-09-15@letsdoitdal
- las.com
+UID:wobblers-walkers-10-20-months-|6861-w-eldorado-parkway-mckinney|10-30-a
+ m-2026-09-15@letsdoitdallas.com
 DTSTAMP:20260915T153000Z
 DTSTART:20260915T153000Z
 DTEND:20260915T183000Z
 SUMMARY:Wobblers & Walkers (10-20 Months)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-15&e=wobblers-walkers-10-20-mo
- nths-%7Cmckinney%7C10-30-am
+ nths-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:music-movement-storytime-3-5-years-|mckinney|11-30-am-2026-09-15@letsdo
- itdallas.com
+UID:music-movement-storytime-3-5-years-|6861-w-eldorado-pkwy-mckinney|11-30
+ -am-2026-09-15@letsdoitdallas.com
 DTSTAMP:20260915T163000Z
 DTSTART:20260915T163000Z
 DTEND:20260915T193000Z
 SUMMARY:Music & Movement Storytime (3-5 Years)
-LOCATION:McKinney
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-15&e=music-movement-storytime-
- 3-5-years-%7Cmckinney%7C11-30-am
+ 3-5-years-%7C6861-w-eldorado-pkwy-mckinney%7C11-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:mad-science-k-5th-grade-|mckinney|04-30-pm-2026-09-15@letsdoitdallas.co
- m
+UID:mad-science-k-5th-grade-|6861-w-eldorado-pkwy-mckinney|04-30-pm-2026-09
+ -15@letsdoitdallas.com
 DTSTAMP:20260915T213000Z
 DTSTART:20260915T213000Z
 DTEND:20260916T003000Z
 SUMMARY:Mad Science (K-5th Grade)
-LOCATION:McKinney
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-15&e=mad-science-k-5th-grade-%
- 7Cmckinney%7C04-30-pm
+ 7C6861-w-eldorado-pkwy-mckinney%7C04-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:unwind-with-yarn-adults-|mckinney|07-00-pm-2026-09-15@letsdoitdallas.co
- m
+UID:unwind-with-yarn-adults-|6861-w-eldorado-parkway-mckinney|07-00-pm-2026
+ -09-15@letsdoitdallas.com
 DTSTAMP:20260916T000000Z
 DTSTART:20260916T000000Z
 DTEND:20260916T030000Z
 SUMMARY:Unwind with Yarn (Adults)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-15&e=unwind-with-yarn-adults-%
- 7Cmckinney%7C07-00-pm
+ 7C6861-w-eldorado-parkway-mckinney%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:less-mess-more-life|mckinney|10-00-am-2026-09-16@letsdoitdallas.com
+UID:less-mess-more-life|6861-eldorado-pkwy-mckinney|10-00-am-2026-09-16@let
+ sdoitdallas.com
 DTSTAMP:20260916T150000Z
 DTSTART:20260916T150000Z
 DTEND:20260916T180000Z
 SUMMARY:Less Mess\, More Life
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=less-mess-more-life%7Cmck
- inney%7C10-00-am
+LOCATION:6861 Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=less-mess-more-life%7C686
+ 1-eldorado-pkwy-mckinney%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:baby-me-0-10-months-|mckinney|10-30-am-2026-09-16@letsdoitdallas.com
+UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-09-16@
+ letsdoitdallas.com
 DTSTAMP:20260916T153000Z
 DTSTART:20260916T153000Z
 DTEND:20260916T183000Z
 SUMMARY:Baby & Me (0-10 Months)
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=baby-me-0-10-months-%7Cmc
- kinney%7C10-30-am
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=baby-me-0-10-months-%7C68
+ 61-w-eldorado-pkwy-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:kids-art-studio-k-5th-grade-|mckinney|04-30-pm-2026-09-16@letsdoitdalla
- s.com
+UID:kids-art-studio-k-5th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-
+ 2026-09-16@letsdoitdallas.com
 DTSTAMP:20260916T213000Z
 DTSTART:20260916T213000Z
 DTEND:20260917T003000Z
 SUMMARY:Kids Art Studio (K-5th Grade)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-16&e=kids-art-studio-k-5th-gra
- de-%7Cmckinney%7C04-30-pm
+ de-%7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:toddler-time-16-months-3-years-|mckinney|10-30-am-2026-09-17@letsdoitda
- llas.com
+UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
+ am-2026-09-17@letsdoitdallas.com
 DTSTAMP:20260917T153000Z
 DTSTART:20260917T153000Z
 DTEND:20260917T183000Z
 SUMMARY:Toddler Time (16 Months-3 Years)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-17&e=toddler-time-16-months-3-
- years-%7Cmckinney%7C10-30-am
+ years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:little-explorers-3-5-years-|mckinney|11-30-am-2026-09-17@letsdoitdallas
- .com
+UID:little-explorers-3-5-years-|6861-w-eldorado-parkway-mckinney|11-30-am-2
+ 026-09-17@letsdoitdallas.com
 DTSTAMP:20260917T163000Z
 DTSTART:20260917T163000Z
 DTEND:20260917T193000Z
 SUMMARY:Little Explorers (3-5 Years)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-17&e=little-explorers-3-5-year
- s-%7Cmckinney%7C11-30-am
+ s-%7C6861-w-eldorado-parkway-mckinney%7C11-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:american-mahjong-hour-adults-|mckinney|01-00-pm-2026-09-17@letsdoitdall
- as.com
+UID:american-mahjong-hour-adults-|6861-w-eldorado-parkway-mckinney|01-00-pm
+ -2026-09-17@letsdoitdallas.com
 DTSTAMP:20260917T180000Z
 DTSTART:20260917T180000Z
 DTEND:20260917T210000Z
 SUMMARY:American Mahjong Hour (Adults)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-17&e=american-mahjong-hour-adu
- lts-%7Cmckinney%7C01-00-pm
+ lts-%7C6861-w-eldorado-parkway-mckinney%7C01-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:anime-art-6th-12th-grade-|mckinney|04-30-pm-2026-09-17@letsdoitdallas.c
- om
+UID:anime-art-6th-12th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-202
+ 6-09-17@letsdoitdallas.com
 DTSTAMP:20260917T213000Z
 DTSTART:20260917T213000Z
 DTEND:20260918T003000Z
 SUMMARY:Anime & Art (6th-12th Grade)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-17&e=anime-art-6th-12th-grade-
- %7Cmckinney%7C04-30-pm
+ %7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:toddler-time-16-months-3-years-|mckinney|10-30-am-2026-09-18@letsdoitda
- llas.com
+UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
+ am-2026-09-18@letsdoitdallas.com
 DTSTAMP:20260918T153000Z
 DTSTART:20260918T153000Z
 DTEND:20260918T183000Z
 SUMMARY:Toddler Time (16 Months-3 Years)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-18&e=toddler-time-16-months-3-
- years-%7Cmckinney%7C10-30-am
+ years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:nerf-attck-6th-12th-grade-|mckinney|06-30-pm-2026-09-18@letsdoitdallas.
- com
+UID:nerf-attck-6th-12th-grade-|6861-w-eldorado-parkway-mckinney|06-30-pm-20
+ 26-09-18@letsdoitdallas.com
 DTSTAMP:20260918T233000Z
 DTSTART:20260918T233000Z
 DTEND:20260919T023000Z
 SUMMARY:Nerf ATTCK (6th-12th Grade)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-18&e=nerf-attck-6th-12th-grade
- -%7Cmckinney%7C06-30-pm
+ -%7C6861-w-eldorado-parkway-mckinney%7C06-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:saturday-chess-meetup-all-ages-|mckinney|11-00-am-2026-09-19@letsdoitda
- llas.com
+UID:saturday-chess-meetup-all-ages-|6861-w-eldorado-parkway-mckinney|11-00-
+ am-2026-09-19@letsdoitdallas.com
 DTSTAMP:20260919T160000Z
 DTSTART:20260919T160000Z
 DTEND:20260919T190000Z
 SUMMARY:Saturday Chess Meetup (All Ages)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-19&e=saturday-chess-meetup-all
- -ages-%7Cmckinney%7C11-00-am
+ -ages-%7C6861-w-eldorado-parkway-mckinney%7C11-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:baby-me-0-10-months-|mckinney|10-30-am-2026-09-21@letsdoitdallas.com
+UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-09-21@
+ letsdoitdallas.com
 DTSTAMP:20260921T153000Z
 DTSTART:20260921T153000Z
 DTEND:20260921T183000Z
 SUMMARY:Baby & Me (0-10 Months)
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=baby-me-0-10-months-%7Cmc
- kinney%7C10-30-am
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-21&e=baby-me-0-10-months-%7C68
+ 61-w-eldorado-pkwy-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:wobblers-walkers-10-20-months-|mckinney|10-30-am-2026-09-22@letsdoitdal
- las.com
+UID:wobblers-walkers-10-20-months-|6861-w-eldorado-parkway-mckinney|10-30-a
+ m-2026-09-22@letsdoitdallas.com
 DTSTAMP:20260922T153000Z
 DTSTART:20260922T153000Z
 DTEND:20260922T183000Z
 SUMMARY:Wobblers & Walkers (10-20 Months)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-22&e=wobblers-walkers-10-20-mo
- nths-%7Cmckinney%7C10-30-am
+ nths-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:music-movement-storytime-3-5-years-|mckinney|11-30-am-2026-09-22@letsdo
- itdallas.com
+UID:music-movement-storytime-3-5-years-|6861-w-eldorado-pkwy-mckinney|11-30
+ -am-2026-09-22@letsdoitdallas.com
 DTSTAMP:20260922T163000Z
 DTSTART:20260922T163000Z
 DTEND:20260922T193000Z
 SUMMARY:Music & Movement Storytime (3-5 Years)
-LOCATION:McKinney
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-22&e=music-movement-storytime-
- 3-5-years-%7Cmckinney%7C11-30-am
+ 3-5-years-%7C6861-w-eldorado-pkwy-mckinney%7C11-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:mad-science-k-5th-grade-|mckinney|04-30-pm-2026-09-22@letsdoitdallas.co
- m
+UID:mad-science-k-5th-grade-|6861-w-eldorado-pkwy-mckinney|04-30-pm-2026-09
+ -22@letsdoitdallas.com
 DTSTAMP:20260922T213000Z
 DTSTART:20260922T213000Z
 DTEND:20260923T003000Z
 SUMMARY:Mad Science (K-5th Grade)
-LOCATION:McKinney
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-22&e=mad-science-k-5th-grade-%
- 7Cmckinney%7C04-30-pm
+ 7C6861-w-eldorado-pkwy-mckinney%7C04-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:how-texas-hoas-can-save-money-by-saving-water|mckinney|06-00-pm-2026-09
- -22@letsdoitdallas.com
+UID:how-texas-hoas-can-save-money-by-saving-water|401-e-virginia-st-mckinne
+ y|06-00-pm-2026-09-22@letsdoitdallas.com
 DTSTAMP:20260922T230000Z
 DTSTART:20260922T230000Z
 DTEND:20260923T020000Z
 SUMMARY:How Texas HOAs Can Save Money by Saving Water
-LOCATION:McKinney
+LOCATION:401 E. Virginia St. · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-22&e=how-texas-hoas-can-save-m
- oney-by-saving-water%7Cmckinney%7C06-00-pm
+ oney-by-saving-water%7C401-e-virginia-st-mckinney%7C06-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:planning-zoning-commission-p-z-|mckinney|06-00-pm-2026-09-22@letsdoitda
- llas.com
+UID:planning-zoning-commission-p-z-|401-e-virginia-st-mckinney|06-00-pm-202
+ 6-09-22@letsdoitdallas.com
 DTSTAMP:20260922T230000Z
 DTSTART:20260922T230000Z
 DTEND:20260923T020000Z
 SUMMARY:Planning & Zoning Commission (P&Z)
-LOCATION:McKinney
+LOCATION:401 E. Virginia St. · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-22&e=planning-zoning-commissio
- n-p-z-%7Cmckinney%7C06-00-pm
+ n-p-z-%7C401-e-virginia-st-mckinney%7C06-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:american-mahjong-hour-adults-|mckinney|06-30-pm-2026-09-22@letsdoitdall
- as.com
+UID:american-mahjong-hour-adults-|6861-w-eldorado-parkway-mckinney|06-30-pm
+ -2026-09-22@letsdoitdallas.com
 DTSTAMP:20260922T233000Z
 DTSTART:20260922T233000Z
 DTEND:20260923T023000Z
 SUMMARY:American Mahjong Hour (Adults)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-22&e=american-mahjong-hour-adu
- lts-%7Cmckinney%7C06-30-pm
+ lts-%7C6861-w-eldorado-parkway-mckinney%7C06-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:baby-me-0-10-months-|mckinney|10-30-am-2026-09-23@letsdoitdallas.com
+UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-09-23@
+ letsdoitdallas.com
 DTSTAMP:20260923T153000Z
 DTSTART:20260923T153000Z
 DTEND:20260923T183000Z
 SUMMARY:Baby & Me (0-10 Months)
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=baby-me-0-10-months-%7Cmc
- kinney%7C10-30-am
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=baby-me-0-10-months-%7C68
+ 61-w-eldorado-pkwy-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:kids-art-studio-k-5th-grade-|mckinney|04-30-pm-2026-09-23@letsdoitdalla
- s.com
+UID:kids-art-studio-k-5th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-
+ 2026-09-23@letsdoitdallas.com
 DTSTAMP:20260923T213000Z
 DTSTART:20260923T213000Z
 DTEND:20260924T003000Z
 SUMMARY:Kids Art Studio (K-5th Grade)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-23&e=kids-art-studio-k-5th-gra
- de-%7Cmckinney%7C04-30-pm
+ de-%7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:unidos|mckinney|06-00-pm-2026-09-23@letsdoitdallas.com
+UID:unidos|1201-e-louisiana-st-mckinney|06-00-pm-2026-09-23@letsdoitdallas.
+ com
 DTSTAMP:20260923T230000Z
 DTSTART:20260923T230000Z
 DTEND:20260924T020000Z
 SUMMARY:UNIDOS
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=unidos%7Cmckinney%7C06-00
- -pm
+LOCATION:1201 E. Louisiana St. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=unidos%7C1201-e-louisiana
+ -st-mckinney%7C06-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:exploring-texas-prairies-adults-|mckinney|07-00-pm-2026-09-23@letsdoitd
- allas.com
+UID:exploring-texas-prairies-adults-|6861-w-eldorado-parkway-mckinney|07-00
+ -pm-2026-09-23@letsdoitdallas.com
 DTSTAMP:20260924T000000Z
 DTSTART:20260924T000000Z
 DTEND:20260924T030000Z
 SUMMARY:Exploring Texas Prairies (Adults)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-23&e=exploring-texas-prairies-
- adults-%7Cmckinney%7C07-00-pm
+ adults-%7C6861-w-eldorado-parkway-mckinney%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:mckinney-community-development-corporation-mcdc-|mckinney|08-00-am-2026
- -09-24@letsdoitdallas.com
+UID:mckinney-community-development-corporation-mcdc-|401-e-virginia-st-mcki
+ nney|08-00-am-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260924T130000Z
 DTSTART:20260924T130000Z
 DTEND:20260924T160000Z
 SUMMARY:McKinney Community Development Corporation (MCDC)
-LOCATION:McKinney
+LOCATION:401 E. Virginia St. · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-24&e=mckinney-community-develo
- pment-corporation-mcdc-%7Cmckinney%7C08-00-am
+ pment-corporation-mcdc-%7C401-e-virginia-st-mckinney%7C08-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:toddler-time-16-months-3-years-|mckinney|10-30-am-2026-09-24@letsdoitda
- llas.com
+UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
+ am-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260924T153000Z
 DTSTART:20260924T153000Z
 DTEND:20260924T183000Z
 SUMMARY:Toddler Time (16 Months-3 Years)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-24&e=toddler-time-16-months-3-
- years-%7Cmckinney%7C10-30-am
+ years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:little-explorers-3-5-years-|mckinney|11-30-am-2026-09-24@letsdoitdallas
- .com
+UID:little-explorers-3-5-years-|6861-w-eldorado-parkway-mckinney|11-30-am-2
+ 026-09-24@letsdoitdallas.com
 DTSTAMP:20260924T163000Z
 DTSTART:20260924T163000Z
 DTEND:20260924T193000Z
 SUMMARY:Little Explorers (3-5 Years)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-24&e=little-explorers-3-5-year
- s-%7Cmckinney%7C11-30-am
+ s-%7C6861-w-eldorado-parkway-mckinney%7C11-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:toddler-time-16-months-3-years-|mckinney|10-30-am-2026-09-25@letsdoitda
- llas.com
+UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
+ am-2026-09-25@letsdoitdallas.com
 DTSTAMP:20260925T153000Z
 DTSTART:20260925T153000Z
 DTEND:20260925T183000Z
 SUMMARY:Toddler Time (16 Months-3 Years)
-LOCATION:McKinney
+LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-25&e=toddler-time-16-months-3-
- years-%7Cmckinney%7C10-30-am
+ years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:oktoberfest|mckinney|05-00-pm-2026-09-25@letsdoitdallas.com
+UID:oktoberfest|111-n-tennessee-st-mckinney|05-00-pm-2026-09-25@letsdoitdal
+ las.com
 DTSTAMP:20260925T220000Z
 DTSTART:20260925T220000Z
 DTEND:20260926T010000Z
 SUMMARY:Oktoberfest
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=oktoberfest%7Cmckinney%7C
- 05-00-pm
+LOCATION:111 N. Tennessee St. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=oktoberfest%7C111-n-tenne
+ ssee-st-mckinney%7C05-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
