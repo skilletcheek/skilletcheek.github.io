@@ -10,6 +10,66 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:slow-down-september-sunrise-yoga|frisco|07-30-am-2026-09-12@letsdoitdal
+ las.com
+DTSTAMP:20260912T123000Z
+DTSTART:20260912T123000Z
+DTEND:20260912T153000Z
+SUMMARY:Slow Down September: Sunrise Yoga
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=slow-down-september-sunri
+ se-yoga%7Cfrisco%7C07-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:nature-adventure-at-frisco-commons-park|frisco|08-30-am-2026-09-12@lets
+ doitdallas.com
+DTSTAMP:20260912T133000Z
+DTSTART:20260912T133000Z
+DTEND:20260912T163000Z
+SUMMARY:Nature Adventure at Frisco Commons Park
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=nature-adventure-at-frisc
+ o-commons-park%7Cfrisco%7C08-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:paws-in-the-pool-2026|frisco|08-30-am-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T133000Z
+DTSTART:20260912T133000Z
+DTEND:20260912T163000Z
+SUMMARY:Paws in the Pool 2026
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=paws-in-the-pool-2026%7Cf
+ risco%7C08-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:second-saturday-at-heritage|frisco|10-00-am-2026-09-12@letsdoitdallas.c
+ om
+DTSTAMP:20260912T150000Z
+DTSTART:20260912T150000Z
+DTEND:20260912T180000Z
+SUMMARY:Second Saturday at Heritage
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=second-saturday-at-herita
+ ge%7Cfrisco%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:artist-led-workshop-watercolor-and-mindful-self-expression-with-gaurii-
+ s-kumaar|frisco|01-00-pm-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T180000Z
+DTSTART:20260912T180000Z
+DTEND:20260912T210000Z
+SUMMARY:Artist-led Workshop: Watercolor and Mindful Self-expression with Ga
+ urii S Kumaar
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=artist-led-workshop-water
+ color-and-mindful-self-expression-with-gaurii-s-kumaar%7Cfrisco%7C01-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:fc-dallas-vs-portland-timbers|toyota-stadium-frisco|7-30-pm-2026-09-12@
  letsdoitdallas.com
 DTSTAMP:20260913T003000Z
@@ -21,6 +81,29 @@ URL:https://letsdoitdallas.com/?date=2026-09-12&e=fc-dallas-vs-portland-tim
  bers%7Ctoyota-stadium-frisco%7C7-30-pm
 DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:parks-for-pollinators-what-remains|frisco|07-30-am-2026-09-16@letsdoitd
+ allas.com
+DTSTAMP:20260916T123000Z
+DTSTART:20260916T123000Z
+DTEND:20260916T153000Z
+SUMMARY:Parks For Pollinators: What Remains
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=parks-for-pollinators-wha
+ t-remains%7Cfrisco%7C07-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:plaza-live-|frisco|05-00-pm-2026-09-16@letsdoitdallas.com
+DTSTAMP:20260916T220000Z
+DTSTART:20260916T220000Z
+DTEND:20260917T010000Z
+SUMMARY:Plaza Live!
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=plaza-live-%7Cfrisco%7C05
+ -00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:frisco-roughriders-division-series-game-2|riders-field-frisco|see-detai
@@ -49,6 +132,65 @@ DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
  as.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:coffee-with-the-mayor|frisco|08-00-am-2026-09-18@letsdoitdallas.com
+DTSTAMP:20260918T130000Z
+DTSTART:20260918T130000Z
+DTEND:20260918T160000Z
+SUMMARY:Coffee with the Mayor
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=coffee-with-the-mayor%7Cf
+ risco%7C08-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:reception-the-shape-of-now-|frisco|06-30-pm-2026-09-18@letsdoitdallas.c
+ om
+DTSTAMP:20260918T233000Z
+DTSTART:20260918T233000Z
+DTEND:20260919T023000Z
+SUMMARY:Reception "The Shape of Now"
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=reception-the-shape-of-no
+ w-%7Cfrisco%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-night-black-lights-a-mothing-adventure|frisco|07-00-pm-2026-09-1
+ 8@letsdoitdallas.com
+DTSTAMP:20260919T000000Z
+DTSTART:20260919T000000Z
+DTEND:20260919T030000Z
+SUMMARY:Friday Night Black Lights: A Mothing Adventure
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=friday-night-black-lights
+ -a-mothing-adventure%7Cfrisco%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:slow-down-september-sunrise-yoga|frisco|07-30-am-2026-09-19@letsdoitdal
+ las.com
+DTSTAMP:20260919T123000Z
+DTSTART:20260919T123000Z
+DTEND:20260919T153000Z
+SUMMARY:Slow Down September: Sunrise Yoga
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=slow-down-september-sunri
+ se-yoga%7Cfrisco%7C07-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:northwest-community-park-grand-opening|frisco|08-00-am-2026-09-19@letsd
+ oitdallas.com
+DTSTAMP:20260919T130000Z
+DTSTART:20260919T130000Z
+DTEND:20260919T160000Z
+SUMMARY:Northwest Community Park Grand Opening
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=northwest-community-park-
+ grand-opening%7Cfrisco%7C08-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:fc-dallas-vs-austin-fc|toyota-stadium-frisco|7-30-pm-2026-09-19@letsdoi
  tdallas.com
 DTSTAMP:20260920T003000Z
@@ -60,6 +202,18 @@ URL:https://letsdoitdallas.com/?date=2026-09-19&e=fc-dallas-vs-austin-fc%7C
  toyota-stadium-frisco%7C7-30-pm
 DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:parks-for-pollinators-what-remains|frisco|07-30-am-2026-09-23@letsdoitd
+ allas.com
+DTSTAMP:20260923T123000Z
+DTSTART:20260923T123000Z
+DTEND:20260923T153000Z
+SUMMARY:Parks For Pollinators: What Remains
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=parks-for-pollinators-wha
+ t-remains%7Cfrisco%7C07-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:fc-dallas-vs-los-angeles-football-club|toyota-stadium-frisco|7-30-pm-20

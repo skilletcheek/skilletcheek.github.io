@@ -38,6 +38,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:24k-magic-tribute-to-bruno-mars|legacy-hall-plano|8-00-pm-2026-09-11@le
+ tsdoitdallas.com
+DTSTAMP:20260912T010000Z
+DTSTART:20260912T010000Z
+DTEND:20260912T040000Z
+SUMMARY:24K Magic - Tribute to Bruno Mars
+LOCATION:Legacy Hall · Plano
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=24k-magic-tribute-to-brun
+ o-mars%7Clegacy-hall-plano%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:craig-robinson|addison-improv-addison|9-45-pm-2026-09-11@letsdoitdallas
  .com
 DTSTAMP:20260912T024500Z
