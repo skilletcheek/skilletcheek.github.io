@@ -491,6 +491,57 @@ def _cp_lines(html_fragment: str) -> list[str]:
     return [x for x in (_cp_text(p) for p in parts) if x]
 
 
+# Words that make a trailing phrase a PLACE rather than part of the title.
+# Checked as the first OR last word, because English puts the type last
+# ("South Garland Library") and Spanish puts it first ("Biblioteca Central").
+_CP_VENUE_WORDS = {
+    "library", "libraries", "biblioteca", "center", "centre", "hall", "canyon",
+    "museum", "theatre", "theater", "gallery", "garden", "gardens", "park",
+    "pool", "complex", "plaza", "branch", "station", "studio", "annex",
+    "campus", "arena", "field", "house", "commons", "pavilion", "amphitheater",
+}
+
+# " at the South Garland Library", " de la Biblioteca Central". Stops at a "/"
+# so the bilingual titles ("... at the South Garland Library / Arte de
+# Teselado") keep their Spanish half. Requires the phrase to start with a
+# capital, which is what keeps it off ordinary prose ("Look at the stars").
+_CP_AT = re.compile(r"\s+(?:at|de la|en la)\s+(?:the\s+)?"
+                    r"(?P<venue>[A-Z][^/]*?)\s*(?=/|$)")
+
+
+def _cp_venue_from_title(title: str):
+    """(title without the location phrase, venue) — or (title, None).
+
+    Garland appends the branch to every listing, which is why this exists:
+    with the venue left in the title, two different programs in one building
+    share {garland, library, north} and _same_event() merges them. Lifting it
+    out fixes the dedupe AND reads better, since the place then shows up as
+    the venue instead of as a street number.
+
+    The phrase must look like a PLACE, not just follow the word "at" —
+    "Days at Dogwood Canyon Podcast" ends on "Podcast" and is left alone,
+    while "at Dogwood Canyon" is not.
+    """
+    m = _CP_AT.search(title or "")
+    if not m:
+        return title, None
+    venue = m.group("venue").strip(" .,-–—")
+    words = [w.strip(".,!?()").lower() for w in venue.split()]
+    if not (2 <= len(words) <= 7):
+        return title, None
+    if not (words[0] in _CP_VENUE_WORDS or words[-1] in _CP_VENUE_WORDS):
+        return title, None
+    clean = (title[:m.start()] + title[m.end():]).strip(" -–—/")
+    # Cutting out of the middle of a bilingual title leaves "(Ages 6-12)/ Arte"
+    clean = re.sub(r"\s*/\s*", " / ", clean).strip()
+    # Never trade a real title for a venue: if removing the phrase leaves
+    # nothing meaningful, the phrase WAS the title ("Central Library Open
+    # House"), so keep the row exactly as it came.
+    if len(clean) < 6:
+        return title, None
+    return clean, venue
+
+
 def _cp_street(loc_fragment: str):
     """The address line(s) above the "City, TX ZIP" line, or None.
 
@@ -595,6 +646,11 @@ def fetch_civicplus(start, end):
             loc = _CP_LOC.search(item)
             city = (_cp_find_city(loc.group(1)) if loc else None) or site.get("city")
             street = _cp_street(loc.group(1)) if loc else None
+            # The venue named in the TITLE beats the address line: "North
+            # Garland Library" is both better dedupe input and better reading
+            # than "3845 Saturn Rd." `title` is rewritten without it.
+            title, titled_venue = _cp_venue_from_title(title)
+            place = titled_venue or street
             # The repo rule for every city-reporting source. A feed that starts
             # syndicating a neighbouring metro's events gets caught here.
             if not is_dfw_city(city, "TX"):
@@ -611,7 +667,7 @@ def fetch_civicplus(start, end):
             out.append(row(
                 title,
                 _cp_category(title, hints, site.get("category", "family")),
-                f"{street}, {city}" if street else city,
+                f"{place}, {city}" if place else city,
                 date,
                 (tmm.group(1).upper().replace(".", "") if tmm else None),
                 site.get("cost"),

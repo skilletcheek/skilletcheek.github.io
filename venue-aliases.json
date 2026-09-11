@@ -25,9 +25,13 @@
     "",
     "Matching ignores case, punctuation, '&' vs 'and', and a trailing ' - City'.",
     "So 'Coopers Bar & Grill - Arlington' already matches 'Coopers Bar and Grill'",
-    "without an entry here."
+    "without an entry here.",
+    "",
+    "The Garland library entries are the same branch listed in English and in",
+    "Spanish by the same CivicPlus feed ('at the North Garland Library' vs 'de",
+    "la Biblioteca North Garland'), not a rename. One physical building each,",
+    "so they belong here rather than in fetch_civicplus()."
   ],
-
   "aliases": {
     "The Shops at Redbird": [
       "Southwest Center Mall",
@@ -51,6 +55,18 @@
     ],
     "Trees": [
       "Trees - Dallas"
+    ],
+    "Central Library": [
+      "Biblioteca Central"
+    ],
+    "North Garland Library": [
+      "Biblioteca North Garland"
+    ],
+    "South Garland Library": [
+      "Biblioteca South Garland"
+    ],
+    "West Garland Library": [
+      "Biblioteca West Garland"
     ]
   }
 }

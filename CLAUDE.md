@@ -312,13 +312,27 @@ rejected** so they don't get re-probed.
   while a real name like "Lancaster Veterans Memorial Library" earns a page.
   Grapevine keeps the bare city and still over-merges slightly (1%).
 
-  **~35 rows a run are still lost**, almost all Garland's, because it appends
-  the branch to every title ("…at the North Garland Library"): two different
-  programs in one building then share `{garland, library, north}`. The title
-  clause degenerates when a source repeats the venue in every title. Stripping
-  that suffix in the fetcher tests at 21 lost instead of 35, but costs the
-  branch name in the listing — unresolved, and a display tradeoff rather than
-  a bug.
+  **`_cp_venue_from_title()` lifts the venue out of the title**, which is what
+  finally fixed the rest. Garland appends the branch to every listing ("…at
+  the North Garland Library"), so two different programs in one building
+  shared `{garland, library, north}` and merged — the title clause degenerates
+  when a source repeats the venue in every title. Moving it into `area`
+  improves both halves at once: dedupe gets a real venue to compare, and the
+  listing shows "North Garland Library" instead of a street number. Loss went
+  **66 (bare city) → 35 (address line) → 17**.
+
+  The phrase must look like a PLACE, not merely follow the word "at": its
+  first or last word has to be in `_CP_VENUE_WORDS`. "Days at Dogwood Canyon
+  Podcast" ends on "Podcast" and is left alone; "at Dogwood Canyon" is not.
+  Spanish puts the type first ("de la Biblioteca Central"), which is why both
+  ends are checked — and those are the SAME buildings as the English names, so
+  they are aliased in `venue-aliases.json` rather than special-cased here.
+
+  Side effect, and a welcome one: Garland and Cedar Hill now clear
+  `CITY_MIN_VENUES` and get their own `/city/` pages, because the library
+  branches are real distinct venues. Five new venue pages come with it
+  (the three Garland branches, Central Library, Dogwood Canyon) — that is the
+  intended trade, not drift.
 
   Its window is a rolling **~14 days**, not `DAYS_AHEAD`, so it thins toward
   the end of the month where Ticketmaster does not. `civicplus_skip` drops
