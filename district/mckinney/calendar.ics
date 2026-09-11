@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
- am-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T153000Z
-DTSTART:20260911T153000Z
-DTEND:20260911T183000Z
-SUMMARY:Toddler Time (16 Months-3 Years)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=toddler-time-16-months-3-
- years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:farmers-market-storytime-all-ages-10-am|315-s-chestnut-st-mckinney|10-0
  0-am-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260912T150000Z
@@ -239,18 +227,6 @@ URL:https://letsdoitdallas.com/?date=2026-09-17&e=anime-art-6th-12th-grade-
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
- am-2026-09-18@letsdoitdallas.com
-DTSTAMP:20260918T153000Z
-DTSTART:20260918T153000Z
-DTEND:20260918T183000Z
-SUMMARY:Toddler Time (16 Months-3 Years)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=toddler-time-16-months-3-
- years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:nerf-attck-6th-12th-grade-|6861-w-eldorado-parkway-mckinney|06-30-pm-20
  26-09-18@letsdoitdallas.com
 DTSTAMP:20260918T233000Z
@@ -440,18 +416,6 @@ SUMMARY:Little Explorers (3-5 Years)
 LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-24&e=little-explorers-3-5-year
  s-%7C6861-w-eldorado-parkway-mckinney%7C11-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
- am-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260925T153000Z
-DTSTART:20260925T153000Z
-DTEND:20260925T183000Z
-SUMMARY:Toddler Time (16 Months-3 Years)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=toddler-time-16-months-3-
- years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT

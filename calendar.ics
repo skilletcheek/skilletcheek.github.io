@@ -10,6 +10,44 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:cabaret-voltaire-final-usa-canada-tour|lower-greenville|doors-see-listi
+ ng-2026-09-11@letsdoitdallas.com
+DTSTAMP:20260911T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:CABARET VOLTAIRE -   FINAL USA + CANADA TOUR
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=cabaret-voltaire-final-us
+ a-canada-tour%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:dale-watson-with-special-guest-india-ramey|oak-cliff|doors-see-listing-
+ 2026-09-11@letsdoitdallas.com
+DTSTAMP:20260911T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:Dale Watson with special guest India Ramey
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=dale-watson-with-special-
+ guest-india-ramey%7Coak-cliff%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/
+END:VEVENT
+BEGIN:VEVENT
+UID:ian-mcconnell|lower-greenville|doors-see-listing-2026-09-11@letsdoitdal
+ las.com
+DTSTAMP:20260911T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:Ian McConnell
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=ian-mcconnell%7Clower-gre
+ enville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/
+END:VEVENT
+BEGIN:VEVENT
 UID:steps-in-the-square|104-s-broad-st-cedar-hill|12-00-am-2026-09-11@letsd
  oitdallas.com
 DTSTAMP:20260911T050000Z
@@ -59,71 +97,15 @@ DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:chair-volleyball|310-e-parkerville-road-cedar-hill|09-30-am-2026-09-11@
- letsdoitdallas.com
-DTSTAMP:20260911T143000Z
-DTSTART:20260911T143000Z
-DTEND:20260911T173000Z
-SUMMARY:Chair Volleyball
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=chair-volleyball%7C310-e-
- parkerville-road-cedar-hill%7C09-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:art-studio-18-|grapevine|10-00-am-2026-09-11@letsdoitdallas.com
+UID:friends-of-the-library-book-sale|south-garland-library-garland|10-00-am
+ -2026-09-11@letsdoitdallas.com
 DTSTAMP:20260911T150000Z
 DTSTART:20260911T150000Z
 DTEND:20260911T180000Z
-SUMMARY:Art Studio (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=art-studio-18-%7Cgrapevin
- e%7C10-00-am
-DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
- our own projects or start something new. Bring your own project and ideas!
-  This is a welcoming space for creatives 18+. *Library Card Required* Sept
- ember 11\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grap 
- — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:artist-in-residence-at-dogwood-canyon|cedar-hill|10-00-am-2026-09-11@le
- tsdoitdallas.com
-DTSTAMP:20260911T150000Z
-DTSTART:20260911T150000Z
-DTEND:20260911T180000Z
-SUMMARY:Artist in Residence at Dogwood Canyon
-LOCATION:Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=artist-in-residence-at-do
- gwood-canyon%7Ccedar-hill%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:basic-computer-practice-ages-18-at-the-central-library|625-austin-st-ga
- rland|10-00-am-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T150000Z
-DTSTART:20260911T150000Z
-DTEND:20260911T180000Z
-SUMMARY:Basic Computer Practice (Ages 18+) at the Central Library
-LOCATION:625 Austin St. · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=basic-computer-practice-a
- ges-18-at-the-central-library%7C625-austin-st-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Get basic computer practice every Friday morning. 
- Learn the coordination skills needed to use a computer independently with 
- confidence. Technology accessories like the mouse and keyboard take time a
- nd practice to master\; that’s why our computer classes are held almost 
- — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:friends-of-the-library-book-sale-at-the-south-garland-library|4845-broa
- dway-blvd-garland|10-00-am-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T150000Z
-DTSTART:20260911T150000Z
-DTEND:20260911T180000Z
-SUMMARY:Friends of the Library Book Sale at the South Garland Library
-LOCATION:4845 Broadway Blvd. · Garland
+SUMMARY:Friends of the Library Book Sale
+LOCATION:South Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-11&e=friends-of-the-library-bo
- ok-sale-at-the-south-garland-library%7C4845-broadway-blvd-garland%7C10-00-
- am
+ ok-sale%7Csouth-garland-library-garland%7C10-00-am
 DESCRIPTION:10 a.m. - 5:00 p.m.\; The Nicholson Memorial Library System's F
  riends of the Library organization holds an annual book sale at South Garl
  and Library. Shoppers may find bargains on a wide variety of adult and chi
@@ -147,78 +129,6 @@ DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
  e\, and an informative self-guided walking tour. Each adventure consists o
  f a series of locations that you are guided to where you are required t 
  — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:toddler-time-18-36-months-at-the-north-garland-library|3845-n-garland-a
- ve-garland|10-00-am-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T150000Z
-DTSTART:20260911T150000Z
-DTEND:20260911T180000Z
-SUMMARY:Toddler Time (18-36 Months) at the North Garland Library
-LOCATION:3845 N. Garland Ave.
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=toddler-time-18-36-months
- -at-the-north-garland-library%7C3845-n-garland-ave-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Toddler Time is a storytime for children ages 18 m
- onths to 3 years old. Toddler Time storytimes will be a mixture of age app
- ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
- rachute play. September 11\, 2026 10:00 AM - 11:00 AM 3845 N. Garland Ave.
- Ga — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:baby-bounce-read-birth-18-months-at-the-west-garland-library|3921-w-wal
- nut-st-garland|10-30-am-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T153000Z
-DTSTART:20260911T153000Z
-DTEND:20260911T183000Z
-SUMMARY:Baby Bounce & Read (Birth-18 Months) at the West Garland Library
-LOCATION:3921 W. Walnut St. · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=baby-bounce-read-birth-18
- -months-at-the-west-garland-library%7C3921-w-walnut-st-garland%7C10-30-am
-DESCRIPTION:10:30 a.m.\; Babies\, birth to 18 months\, and their caregivers
-  will learn\, play\, and grow together in this lap-sit storytime that intr
- oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
- y literacy practices into their everyday lives. September 11\, 2026 10:30 
- AM - — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:bouncing-babies|grapevine|10-30-am-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T153000Z
-DTSTART:20260911T153000Z
-DTEND:20260911T183000Z
-SUMMARY:Bouncing Babies
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=bouncing-babies%7Cgrapevi
- ne%7C10-30-am
-DESCRIPTION:Bouncing Babies is a program for babies from birth to 18 months
- . It includes songs\, bounces\, parachute\, as well as a social time for c
- aregivers. No registration needed. September 11\, 2026 10:30 AM - 11:00 AM
-  Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=177
-  — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:toddler-story-time|lancaster-veterans-memorial-library-1600-veterans-me
- morial-parkway-lancaster|10-30-am-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T153000Z
-DTSTART:20260911T153000Z
-DTEND:20260911T183000Z
-SUMMARY:Toddler Story Time
-LOCATION:Lancaster Veterans Memorial Library
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=toddler-story-time%7Clanc
- aster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%7
- C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
- am-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T153000Z
-DTSTART:20260911T153000Z
-DTEND:20260911T183000Z
-SUMMARY:Toddler Time (16 Months-3 Years)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=toddler-time-16-months-3-
- years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:county-line-records-wmg-vinyl-take-back-event|county-line-records-600-n
@@ -270,33 +180,6 @@ DESCRIPTION:Open Play Fridays 12:30-4:30. Tables available on a first come
  s and bags. Ages 18 and up. September 11\, 2026 12:30 PM - 04:30 PM Grapev
  ine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17585/639 
  — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:pilates-for-older-adults|310-e-parkerville-road-cedar-hill|01-00-pm-202
- 6-09-11@letsdoitdallas.com
-DTSTAMP:20260911T180000Z
-DTSTART:20260911T180000Z
-DTEND:20260911T210000Z
-SUMMARY:Pilates for Older Adults
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=pilates-for-older-adults%
- 7C310-e-parkerville-road-cedar-hill%7C01-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:bouncing-babies|grapevine|01-30-pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T183000Z
-DTSTART:20260911T183000Z
-DTEND:20260911T213000Z
-SUMMARY:Bouncing Babies
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=bouncing-babies%7Cgrapevi
- ne%7C01-30-pm
-DESCRIPTION:Bouncing Babies is a program for babies from birth to 18 months
- . It includes songs\, bounces\, parachute\, as well as a social time for c
- aregivers. No registration needed. September 11\, 2026 01:30 PM - 02:00 PM
-  Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=177
-  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:days-at-dogwood-canyon-podcast|cedar-hill|05-00-pm-2026-09-11@letsdoitd
@@ -353,15 +236,15 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:silent-book-club-ages-18-at-the-central-library|625-austin-st-garland|0
- 6-00-pm-2026-09-11@letsdoitdallas.com
+UID:silent-book-club-ages-18-|central-library-garland|06-00-pm-2026-09-11@l
+ etsdoitdallas.com
 DTSTAMP:20260911T230000Z
 DTSTART:20260911T230000Z
 DTEND:20260912T020000Z
-SUMMARY:Silent Book Club® (Ages 18+) at the Central Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:Silent Book Club® (Ages 18+)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-11&e=silent-book-club-ages-18-
- at-the-central-library%7C625-austin-st-garland%7C06-00-pm
+ %7Ccentral-library-garland%7C06-00-pm
 DESCRIPTION:6:00 p.m.\; Join us for Silent Book Club® at the Garland Centr
  al Library\, held once a month on Fridays at 6 p.m. — exclusively for ad
  ults 18+. Enjoy a relaxed\, quiet reading environment without assigned boo
@@ -996,6 +879,18 @@ DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:sleep-north-america-2026|lower-greenville|doors-see-listing-2026-09-12@
+ letsdoitdallas.com
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:SLEEP: North America 2026
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=sleep-north-america-2026%
+ 7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:smu-mustangs-football-vs-uc-davis-aggies-football|gerald-ford-stadium-d
  allas|see-details-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260912T000000Z
@@ -1007,6 +902,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-12&e=smu-mustangs-football-vs-
  uc-davis-aggies-football%7Cgerald-ford-stadium-dallas%7Csee-details
 DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:samantha-fish-paper-doll-live-world-tour|oak-cliff|doors-see-listing-20
+ 26-09-12@letsdoitdallas.com
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Samantha Fish - Paper Doll Live World Tour
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=samantha-fish-paper-doll-
+ live-world-tour%7Coak-cliff%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/
 END:VEVENT
 BEGIN:VEVENT
 UID:tcu-horned-frogs-football-vs-grambling-state-tigers-football|amon-g-car
@@ -1068,15 +976,15 @@ DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:nature-adventure-at-frisco-commons-park|8000-mckinney-road-frisco|08-30
- -am-2026-09-12@letsdoitdallas.com
+UID:nature-adventure|frisco-commons-park-frisco|08-30-am-2026-09-12@letsdoi
+ tdallas.com
 DTSTAMP:20260912T133000Z
 DTSTART:20260912T133000Z
 DTEND:20260912T163000Z
-SUMMARY:Nature Adventure at Frisco Commons Park
-LOCATION:8000 McKinney Road · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=nature-adventure-at-frisc
- o-commons-park%7C8000-mckinney-road-frisco%7C08-30-am
+SUMMARY:Nature Adventure
+LOCATION:Frisco Commons Park
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=nature-adventure%7Cfrisco
+ -commons-park-frisco%7C08-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
@@ -1144,15 +1052,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-12&e=40-double-dutch%7C310-e-p
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:artist-in-residence-at-dogwood-canyon|cedar-hill|10-00-am-2026-09-12@le
- tsdoitdallas.com
+UID:artist-in-residence|dogwood-canyon-cedar-hill|10-00-am-2026-09-12@letsd
+ oitdallas.com
 DTSTAMP:20260912T150000Z
 DTSTART:20260912T150000Z
 DTEND:20260912T180000Z
-SUMMARY:Artist in Residence at Dogwood Canyon
-LOCATION:Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=artist-in-residence-at-do
- gwood-canyon%7Ccedar-hill%7C10-00-am
+SUMMARY:Artist in Residence
+LOCATION:Dogwood Canyon · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=artist-in-residence%7Cdog
+ wood-canyon-cedar-hill%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
@@ -1210,20 +1118,35 @@ URL:https://letsdoitdallas.com/?date=2026-09-12&e=farmers-market-storytime-
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:friends-of-the-library-book-sale-at-the-south-garland-library|4845-broa
- dway-blvd-garland|10-00-am-2026-09-12@letsdoitdallas.com
+UID:friends-of-the-library-book-sale|south-garland-library-garland|10-00-am
+ -2026-09-12@letsdoitdallas.com
 DTSTAMP:20260912T150000Z
 DTSTART:20260912T150000Z
 DTEND:20260912T180000Z
-SUMMARY:Friends of the Library Book Sale at the South Garland Library
-LOCATION:4845 Broadway Blvd. · Garland
+SUMMARY:Friends of the Library Book Sale
+LOCATION:South Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-12&e=friends-of-the-library-bo
- ok-sale-at-the-south-garland-library%7C4845-broadway-blvd-garland%7C10-00-
- am
+ ok-sale%7Csouth-garland-library-garland%7C10-00-am
 DESCRIPTION:10 a.m. - 5:00 p.m.\; The Nicholson Memorial Library System's F
  riends of the Library organization holds an annual book sale at South Garl
  and Library. Shoppers may find bargains on a wide variety of adult and chi
  ldren's books\, fiction and nonfiction\, paperback and hardcover\, refere 
+ — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-09-12@letsd
+ oitdallas.com
+DTSTAMP:20260912T150000Z
+DTSTART:20260912T150000Z
+DTEND:20260912T180000Z
+SUMMARY:Play & Learn (0-5 years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=play-learn-0-5-years-%7Cc
+ entral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Families with children ages 0-5 can enjoy Play & L
+ earn\, a weekly event with toys\, games and activities that encourage imag
+ ination\, creativity and problem-solving. This program offers a chance for
+  children and caregivers to play together. September 12\, 2026 10:00 AM - 
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
@@ -1257,17 +1180,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-12&e=second-saturday-at-herita
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:small-hands-big-memories-grandparents-edition-at-the-west-garland-libra
- ry|3921-w-walnut-st-garland|10-00-am-2026-09-12@letsdoitdallas.com
+UID:small-hands-big-memories-grandparents-edition|west-garland-library-garl
+ and|10-00-am-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260912T150000Z
 DTSTART:20260912T150000Z
 DTEND:20260912T180000Z
-SUMMARY:Small Hands\, Big Memories: Grandparents Edition at the West Garlan
- d Library
-LOCATION:3921 W. Walnut St. · Garland
+SUMMARY:Small Hands\, Big Memories: Grandparents Edition
+LOCATION:West Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-12&e=small-hands-big-memories-
- grandparents-edition-at-the-west-garland-library%7C3921-w-walnut-st-garlan
- d%7C10-00-am
+ grandparents-edition%7Cwest-garland-library-garland%7C10-00-am
 DESCRIPTION:10:00 a.m.\; Create lasting keepsakes in this family storytelli
  ng program. Families will work together to create a personalized memory bo
  ok filled with stories from a loved one’s past\, while sharing memories 
@@ -1275,15 +1196,15 @@ DESCRIPTION:10:00 a.m.\; Create lasting keepsakes in this family storytelli
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:star-trek-maker-day-ages-13-at-the-central-library|625-austin-st-garlan
- d|10-00-am-2026-09-12@letsdoitdallas.com
+UID:star-trek-maker-day-ages-13-|central-library-garland|10-00-am-2026-09-1
+ 2@letsdoitdallas.com
 DTSTAMP:20260912T150000Z
 DTSTART:20260912T150000Z
 DTEND:20260912T180000Z
-SUMMARY:Star Trek® Maker Day! (Ages 13+) at the Central Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:Star Trek® Maker Day! (Ages 13+)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-12&e=star-trek-maker-day-ages-
- 13-at-the-central-library%7C625-austin-st-garland%7C10-00-am
+ 13-%7Ccentral-library-garland%7C10-00-am
 DESCRIPTION:10 a.m.-noon - Create your own Captain's Log 2-5 p.m. - Paint a
   Communicator Badge September 12\, 2026 10:00 AM - 05:00 PM 625 Austin St.
  Garland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12994/63922
@@ -1342,6 +1263,18 @@ URL:https://letsdoitdallas.com/?date=2026-09-12&e=family-storytime-all-ages
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:animal-encounter|dogwood-canyon-audubon-center-cedar-hill|11-00-am-2026
+ -09-12@letsdoitdallas.com
+DTSTAMP:20260912T160000Z
+DTSTART:20260912T160000Z
+DTEND:20260912T190000Z
+SUMMARY:Animal Encounter
+LOCATION:Dogwood Canyon Audubon Center · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=animal-encounter%7Cdogwoo
+ d-canyon-audubon-center-cedar-hill%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:artisan-circle-street-market|artisan-circle-fort-worth|11-00-am-4-00-pm
  -2026-09-12@letsdoitdallas.com
 DTSTAMP:20260912T160000Z
@@ -1371,6 +1304,22 @@ DESCRIPTION:Cool off and enjoy nature’s thrills—without the sweat and s
  Saturday\, September 12 from 11 a.m. to 2 p.m. at the Mockingbird store in
   Dallas. This family-friendly celebration brings the great outdoors inside
   wit — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:como-tener-un-jardin-exitoso-en-dallas-a-os-18-|biblioteca-north-garlan
+ d-garland|11-00-am-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T160000Z
+DTSTART:20260912T160000Z
+DTEND:20260912T190000Z
+SUMMARY:Como Tener un Jardin Exitoso en Dallas (Años 18+)
+LOCATION:Biblioteca North Garland
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=como-tener-un-jardin-exit
+ oso-en-dallas-a-os-18-%7Cbiblioteca-north-garland-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Acompañe a la Maestra Jardinera\, Judy Meagher\, 
+ en una sesión informativa y práctica sobre jardinería con uso eficiente
+  del agua en el norte de Texas. Cómo Tener un Jardín Exitoso en Dallas e
+ s una presentación en español que comparte siete consejos esenciales par
+ a ayud — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:county-line-records-wmg-vinyl-take-back-event|county-line-records-600-n
@@ -1614,17 +1563,15 @@ DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
  doitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:star-trek-the-trouble-with-tribbles-ages-10-17-at-the-central-library|6
- 25-austin-st-garland|02-00-pm-2026-09-12@letsdoitdallas.com
+UID:star-trek-the-trouble-with-tribbles-ages-10-17-|central-library-garland
+ |02-00-pm-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260912T190000Z
 DTSTART:20260912T190000Z
 DTEND:20260912T220000Z
-SUMMARY:Star Trek®: The Trouble with Tribbles (Ages 10-17) at the Central 
- Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:Star Trek®: The Trouble with Tribbles (Ages 10-17)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-12&e=star-trek-the-trouble-wit
- h-tribbles-ages-10-17-at-the-central-library%7C625-austin-st-garland%7C02-
- 00-pm
+ h-tribbles-ages-10-17-%7Ccentral-library-garland%7C02-00-pm
 DESCRIPTION:2:00 p.m.\; Celebrate the 60th anniversary of Star Trek® by ma
  king your own tribble keychain while supplies last. September 12\, 2026 02
  :00 PM - 04:00 PM 625 Austin St.Garland\, TX 75040 https://www.garlandtx.g
@@ -1632,18 +1579,18 @@ DESCRIPTION:2:00 p.m.\; Celebrate the 60th anniversary of Star Trek® by ma
  llas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:tessellation-art-ages-6-12-at-the-south-garland-library-arte-de-teselad
- o-6-12-a-os-de-la-biblioteca-south-garland|4845-broadway-blvd-garland|02-3
- 0-pm-2026-09-12@letsdoitdallas.com
+UID:tessellation-art-ages-6-12-arte-de-teselado-6-12-a-os-de-la-biblioteca-
+ south-garland|south-garland-library-garland|02-30-pm-2026-09-12@letsdoitda
+ llas.com
 DTSTAMP:20260912T193000Z
 DTSTART:20260912T193000Z
 DTEND:20260912T223000Z
-SUMMARY:Tessellation Art (Ages 6-12) at the South Garland Library / Arte de
-  Teselado (6-12 Años) de la Biblioteca South Garland
-LOCATION:4845 Broadway Blvd. · Garland
+SUMMARY:Tessellation Art (Ages 6-12) / Arte de Teselado (6-12 Años) de la 
+ Biblioteca South Garland
+LOCATION:South Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-12&e=tessellation-art-ages-6-1
- 2-at-the-south-garland-library-arte-de-teselado-6-12-a-os-de-la-biblioteca
- -south-garland%7C4845-broadway-blvd-garland%7C02-30-pm
+ 2-arte-de-teselado-6-12-a-os-de-la-biblioteca-south-garland%7Csouth-garlan
+ d-library-garland%7C02-30-pm
 DESCRIPTION:2:30 p.m.\; Learn about a famous artist or cool art technique t
  hen create your own masterpiece while enjoying light snacks. Art supplies 
  and light snacks are available while supplies last. 2:30 p.m.\; Aprende so
@@ -1695,15 +1642,15 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/
 END:VEVENT
 BEGIN:VEVENT
-UID:writers-club-ages-18-at-the-central-library|625-austin-st-garland|04-00
- -pm-2026-09-12@letsdoitdallas.com
+UID:writers-club-ages-18-|central-library-garland|04-00-pm-2026-09-12@letsd
+ oitdallas.com
 DTSTAMP:20260912T210000Z
 DTSTART:20260912T210000Z
 DTEND:20260913T000000Z
-SUMMARY:Writers’ Club (Ages 18+) at the Central Library
-LOCATION:625 Austin St. · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=writers-club-ages-18-at-t
- he-central-library%7C625-austin-st-garland%7C04-00-pm
+SUMMARY:Writers’ Club (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=writers-club-ages-18-%7Cc
+ entral-library-garland%7C04-00-pm
 DESCRIPTION:4:00 p.m.\; Join us to celebrate the 60th anniversary of Star T
  rek with a special edition of Writers' Club! Get writing inspiration with 
  sci-fi prompts. Not interested in sci-fi? No problem! Whether your favorit
@@ -2261,6 +2208,45 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:drink-the-sea-featuring-members-of-r-e-m-screaming-trees-and-qotsa|lowe
+ r-greenville|doors-see-listing-2026-09-13@letsdoitdallas.com
+DTSTAMP:20260913T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Drink The Sea featuring members of R.E.M.\, Screaming Trees\, and Q
+ OTSA
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=drink-the-sea-featuring-m
+ embers-of-r-e-m-screaming-trees-and-qotsa%7Clower-greenville%7Cdoors-see-l
+ isting
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:mountain-grass-unit-appalachian-smoke-tour|oak-cliff|doors-see-listing-
+ 2026-09-13@letsdoitdallas.com
+DTSTAMP:20260913T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Mountain Grass Unit: Appalachian Smoke Tour
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=mountain-grass-unit-appal
+ achian-smoke-tour%7Coak-cliff%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/
+END:VEVENT
+BEGIN:VEVENT
+UID:songwriter-sunday-with-cameron-matthew-ray-amber-lafrance|the-cedars-da
+ llas|doors-see-listing-2026-09-13@letsdoitdallas.com
+DTSTAMP:20260913T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Songwriter Sunday with CAMERON MATTHEW RAY & AMBER LAFRANCE
+LOCATION:The Cedars · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=songwriter-sunday-with-ca
+ meron-matthew-ray-amber-lafrance%7Cthe-cedars-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:fiber-arts-studio-18-|grapevine|10-00-am-2026-09-13@letsdoitdallas.com
 DTSTAMP:20260913T150000Z
 DTSTART:20260913T150000Z
@@ -2425,6 +2411,22 @@ LOCATION:310 E. Parkerville Road · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-09-13&e=sparkz-cheerleading%7C310
  -e-parkerville-road-cedar-hill%7C04-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:speed-dating-in-dallas-speed-dating-30s-40s|the-brass-tap-north-dallas-
+ dallas|4-00-pm-2026-09-13@letsdoitdallas.com
+DTSTAMP:20260913T210000Z
+DTSTART:20260913T210000Z
+DTEND:20260914T000000Z
+SUMMARY:Speed Dating In Dallas -  Speed Dating 30s/40s
+LOCATION:The Brass Tap North Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=speed-dating-in-dallas-sp
+ eed-dating-30s-40s%7Cthe-brass-tap-north-dallas-dallas%7C4-00-pm
+DESCRIPTION:Another Fabulous Singles Event ♥ For Ages 30-49 @ The Brass T
+ ap North Dallas in Dallas\, TX. As featured recently in the WSJ\, NPR and 
+ TLC 90 Day Fiance - The Single Life. Meet the love of your life at the bes
+ t and most trusted dating event company in the US. Where else can you mee 
+ — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:drunk-shakespeare-romeo-juliet-21-event-|deep-ellum-art-co-dallas|5-00-
@@ -2645,6 +2647,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
+UID:free-cult-classic-movie-monday-step-brothers|lower-greenville|doors-see
+ -listing-2026-09-14@letsdoitdallas.com
+DTSTAMP:20260914T000000Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:FREE Cult Classic Movie Monday: STEP BROTHERS
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-14&e=free-cult-classic-movie-m
+ onday-step-brothers%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/
+END:VEVENT
+BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-09-14
  @letsdoitdallas.com
 DTSTAMP:20260914T150000Z
@@ -2727,15 +2742,15 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:sbdc-workshop-how-to-start-a-business-at-the-central-library|625-austin
- -st-garland|12-00-pm-2026-09-14@letsdoitdallas.com
+UID:sbdc-workshop-how-to-start-a-business|central-library-garland|12-00-pm-
+ 2026-09-14@letsdoitdallas.com
 DTSTAMP:20260914T170000Z
 DTSTART:20260914T170000Z
 DTEND:20260914T200000Z
-SUMMARY:SBDC Workshop: How to Start a Business at the Central Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:SBDC Workshop: How to Start a Business
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-14&e=sbdc-workshop-how-to-star
- t-a-business-at-the-central-library%7C625-austin-st-garland%7C12-00-pm
+ t-a-business%7Ccentral-library-garland%7C12-00-pm
 DESCRIPTION:12:00 p.m.\; Meet us in the Small Business Incubator for Small 
  Business Development Centers (SBDC) presentations on professional business
   and finance topics. The SBDC provides trainings and support for small bus
@@ -2838,17 +2853,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-14&e=braiding-101%7C310-e-park
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:coi-small-business-leadership-series-ages-18-at-the-central-library|625
- -austin-st-garland|05-30-pm-2026-09-14@letsdoitdallas.com
+UID:coi-small-business-leadership-series-ages-18-|central-library-garland|0
+ 5-30-pm-2026-09-14@letsdoitdallas.com
 DTSTAMP:20260914T223000Z
 DTSTART:20260914T223000Z
 DTEND:20260915T013000Z
-SUMMARY:COI Small Business Leadership Series (Ages 18+) at the Central Libr
- ary
-LOCATION:625 Austin St. · Garland
+SUMMARY:COI Small Business Leadership Series (Ages 18+)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-14&e=coi-small-business-leader
- ship-series-ages-18-at-the-central-library%7C625-austin-st-garland%7C05-30
- -pm
+ ship-series-ages-18-%7Ccentral-library-garland%7C05-30-pm
 DESCRIPTION:5:30 p.m.\; In this five-part workshop\, Jennifer Jordan (MBA\,
   CPTD\, CPTM) of J2 Leadership and Learning Solutions\, will introduce asp
  iring entrepreneurs\, recent small business owners\, and established small
@@ -2912,6 +2925,22 @@ DESCRIPTION:Have you recently taken up writing as a hobby or have been writ
  ing for years? Enjoy journaling? Like writing poetry or short stories? Wor
  king on a novel? Play or screenplay? Would you like a place to share what 
  you’ve written or are currently writing? Let’s meet to share and disc 
+ — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:intro-to-laser-cutting-ages-13-|central-library-garland|06-00-pm-2026-0
+ 9-14@letsdoitdallas.com
+DTSTAMP:20260914T230000Z
+DTSTART:20260914T230000Z
+DTEND:20260915T020000Z
+SUMMARY:Intro to Laser Cutting (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-14&e=intro-to-laser-cutting-ag
+ es-13-%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Learn to laser cut in this intro makerspace class. 
+ This training class will set patrons up to use the laser cutter at the lib
+ rary! Open to adults ages 13+ with a library card in good standing. Septem
+ ber 14\, 2026 06:00 PM - 07:30 PM 625 Austin St.Garland\, TX 75040 https 
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
@@ -3029,6 +3058,19 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:free-tuesday-rooftop-movie-wedding-crashers|lower-greenville|doors-see-
+ listing-2026-09-15@letsdoitdallas.com
+DTSTAMP:20260915T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:FREE Tuesday Rooftop Movie: WEDDING CRASHERS
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=free-tuesday-rooftop-movi
+ e-wedding-crashers%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/
+END:VEVENT
+BEGIN:VEVENT
 UID:tiny-tots-sensory-adventures|1700-veterans-memorial-parkway-lancaster|0
  9-15-am-2026-09-15@letsdoitdallas.com
 DTSTAMP:20260915T141500Z
@@ -3072,15 +3114,15 @@ DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:baby-bounce-read-birth-18-months-at-the-central-library|625-austin-st-g
- arland|10-00-am-2026-09-15@letsdoitdallas.com
+UID:baby-bounce-read-birth-18-months-|central-library-garland|10-00-am-2026
+ -09-15@letsdoitdallas.com
 DTSTAMP:20260915T150000Z
 DTSTART:20260915T150000Z
 DTEND:20260915T180000Z
-SUMMARY:Baby Bounce & Read (Birth-18 Months) at the Central Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-15&e=baby-bounce-read-birth-18
- -months-at-the-central-library%7C625-austin-st-garland%7C10-00-am
+ -months-%7Ccentral-library-garland%7C10-00-am
 DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
   will learn\, play\, and grow together in this lap-sit storytime that intr
  oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
@@ -3126,6 +3168,22 @@ LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-15&e=wobblers-walkers-10-20-mo
  nths-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-18-36-months-|central-library-garland|11-00-am-2026-09-15@
+ letsdoitdallas.com
+DTSTAMP:20260915T160000Z
+DTSTART:20260915T160000Z
+DTEND:20260915T190000Z
+SUMMARY:Toddler Time (18-36 Months)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=toddler-time-18-36-months
+ -%7Ccentral-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Toddler Time is a storytime for children ages 18 m
+ onths to 3 years old. Toddler Time storytimes will be a mixture of age app
+ ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
+ rachute play. September 15\, 2026 11:00 AM - 12:00 PM 625 Austin St.Garlan
+ d\, — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:baby-story-time|lancaster|11-30-am-2026-09-15@letsdoitdallas.com
@@ -3178,17 +3236,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-15&e=yogalates%7C310-e-parkerv
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:homeschool-libratory-human-body-ages-6-12-at-the-south-garland-library|
- 4845-broadway-blvd-garland|12-30-pm-2026-09-15@letsdoitdallas.com
+UID:homeschool-libratory-human-body-ages-6-12-|south-garland-library-garlan
+ d|12-30-pm-2026-09-15@letsdoitdallas.com
 DTSTAMP:20260915T173000Z
 DTSTART:20260915T173000Z
 DTEND:20260915T203000Z
-SUMMARY:Homeschool Libratory: Human Body (Ages 6-12) at the South Garland L
- ibrary
-LOCATION:4845 Broadway Blvd. · Garland
+SUMMARY:Homeschool Libratory: Human Body (Ages 6-12)
+LOCATION:South Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-15&e=homeschool-libratory-huma
- n-body-ages-6-12-at-the-south-garland-library%7C4845-broadway-blvd-garland
- %7C12-30-pm
+ n-body-ages-6-12-%7Csouth-garland-library-garland%7C12-30-pm
 DESCRIPTION:12:30 p.m.\; Spend an afternoon exploring hands-on STEAM activi
  ties\, sharing what you’re reading and learning with your fellow homesch
  oolers! Families considering homeschooling are welcome. Caregivers are exp
@@ -3281,17 +3337,15 @@ DESCRIPTION:Build your own working AI writing assistant. Learn to draft ema
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-at-the-north-garland-library|3
- 845-n-garland-ave-garland|04-00-pm-2026-09-15@letsdoitdallas.com
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-09-15@letsdoitdallas.com
 DTSTAMP:20260915T210000Z
 DTSTART:20260915T210000Z
 DTEND:20260916T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17) at the North Garland Lib
- rary
-LOCATION:3845 N. Garland Ave.
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-15&e=teenz-place-after-school-
- hour-ages-13-17-at-the-north-garland-library%7C3845-n-garland-ave-garland%
- 7C04-00-pm
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
 DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
  eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
   snacks while supplies last. Bring your friends! September 15\, 2026 04:00
@@ -3366,18 +3420,17 @@ URL:https://letsdoitdallas.com/?date=2026-09-15&e=kids-jam-ages-5-12%7C1700
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:family-lab-pi-atas-at-the-central-library-laboratorio-familiar-pi-atas-
- de-la-biblioteca-central|625-austin-st-garland|05-30-pm-2026-09-15@letsdoi
- tdallas.com
+UID:family-lab-pi-atas-laboratorio-familiar-pi-atas-de-la-biblioteca-centra
+ l|central-library-garland|05-30-pm-2026-09-15@letsdoitdallas.com
 DTSTAMP:20260915T223000Z
 DTSTART:20260915T223000Z
 DTEND:20260916T013000Z
-SUMMARY:Family Lab: Piñatas! at the Central Library / Laboratorio Familiar
- : ¡Piñatas! de la Biblioteca Central
-LOCATION:625 Austin St. · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=family-lab-pi-atas-at-the
- -central-library-laboratorio-familiar-pi-atas-de-la-biblioteca-central%7C6
- 25-austin-st-garland%7C05-30-pm
+SUMMARY:Family Lab: Piñatas! / Laboratorio Familiar: ¡Piñatas! de la Bib
+ lioteca Central
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=family-lab-pi-atas-labora
+ torio-familiar-pi-atas-de-la-biblioteca-central%7Ccentral-library-garland%
+ 7C05-30-pm
 DESCRIPTION:5:30 p.m.\; It’s time to celebrate Hispanic Heritage Month wi
  th piñatas! Families with children ages 17 and younger are invited to wor
  k together to create and fill their own piñata out of simple materials an
@@ -3385,22 +3438,39 @@ DESCRIPTION:5:30 p.m.\; It’s time to celebrate Hispanic Heritage Month wi
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:intro-to-3d-modeling-tinkercad-ages-13-at-the-west-garland-library|3921
- -w-walnut-st-garland|06-00-pm-2026-09-15@letsdoitdallas.com
+UID:solving-the-retirement-estate-planning-puzzle-bringing-clarity-to-your-
+ financial-life|west-garland-library-garland|06-00-pm-2026-09-15@letsdoitda
+ llas.com
 DTSTAMP:20260915T230000Z
 DTSTART:20260915T230000Z
 DTEND:20260916T020000Z
-SUMMARY:Intro to 3D Modeling: Tinkercad (Ages 13+) at the West Garland Libr
- ary
-LOCATION:3921 W. Walnut St. · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=intro-to-3d-modeling-tink
- ercad-ages-13-at-the-west-garland-library%7C3921-w-walnut-st-garland%7C06-
- 00-pm
-DESCRIPTION:6:00 p.m.\; Ready to bring your ideas to life in 3D? Join us at
-  the library for an Intro to Tinkercad class\, where you'll learn the basi
- cs of 3D modeling in a fun\, beginner-friendly environment. No prior exper
- ience needed — just bring your creativity! September 15\, 2026 06:00 PM 
- - — More: https://letsdoitdallas.com/
+SUMMARY:Solving the Retirement & Estate Planning Puzzle: Bringing Clarity t
+ o Your Financial Life
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=solving-the-retirement-es
+ tate-planning-puzzle-bringing-clarity-to-your-financial-life%7Cwest-garlan
+ d-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Join us for a financial literacy workshop presented
+  by Massinburg Financial. This workshop focuses on retirement and estate p
+ lanning essentials. Learn the difference between wills and trusts\, and le
+ arn how beneficiaries and estate documents work together in financial p 
+ — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:speed-dating-in-dallas-all-single-professionals-24-45|the-westin-galler
+ ia-dallas-dallas|6-00-pm-2026-09-15@letsdoitdallas.com
+DTSTAMP:20260915T230000Z
+DTSTART:20260915T230000Z
+DTEND:20260916T020000Z
+SUMMARY:Speed Dating In Dallas - All Single Professionals 24-45
+LOCATION:The Westin Galleria Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=speed-dating-in-dallas-al
+ l-single-professionals-24-45%7Cthe-westin-galleria-dallas-dallas%7C6-00-pm
+DESCRIPTION:Another Fabulous Singles Event ♥ For Ages 25-45 @ The Westin 
+ Galleria Dallas in Dallas\, TX. As featured recently in the WSJ\, NPR and 
+ TLC 90 Day Fiance - The Single Life. Meet the love of your life at the bes
+ t and most trusted dating event company in the US. Where else can you mee 
+ — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:virtual-author-talk-with-veronica-roth|grapevine|06-00-pm-2026-09-15@le
@@ -3419,15 +3489,15 @@ DESCRIPTION:A single choice can transform your destiny. Join us for an onli
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:cuentos-y-cantos-0-5-a-os-de-la-biblioteca-south-garland|4845-broadway-
- blvd-garland|06-30-pm-2026-09-15@letsdoitdallas.com
+UID:cuentos-y-cantos-0-5-a-os-|biblioteca-south-garland-garland|06-30-pm-20
+ 26-09-15@letsdoitdallas.com
 DTSTAMP:20260915T233000Z
 DTSTART:20260915T233000Z
 DTEND:20260916T023000Z
-SUMMARY:Cuentos y Cantos (0-5 Años) de la Biblioteca South Garland
-LOCATION:4845 Broadway Blvd. · Garland
+SUMMARY:Cuentos y Cantos (0-5 Años)
+LOCATION:Biblioteca South Garland
 URL:https://letsdoitdallas.com/?date=2026-09-15&e=cuentos-y-cantos-0-5-a-os
- -de-la-biblioteca-south-garland%7C4845-broadway-blvd-garland%7C06-30-pm
+ -%7Cbiblioteca-south-garland-garland%7C06-30-pm
 DESCRIPTION:6:30 p.m.\; Acompáñenos para unos cuentos y cantos mientras a
  prendemos sobre temas escolares y lo más importante\, las habilidades nec
  esarias para leer. September 15\, 2026 06:30 PM - 07:30 PM 4845 Broadway B
@@ -3435,17 +3505,31 @@ DESCRIPTION:6:30 p.m.\; Acompáñenos para unos cuentos y cantos mientras a
  39 — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:open-books-open-minds-nonfiction-book-club-ages-18-at-the-north-garland
- -library|3845-n-garland-ave-garland|06-30-pm-2026-09-15@letsdoitdallas.com
+UID:graphic-novel-book-club-ages-18-|central-library-garland|06-30-pm-2026-
+ 09-15@letsdoitdallas.com
 DTSTAMP:20260915T233000Z
 DTSTART:20260915T233000Z
 DTEND:20260916T023000Z
-SUMMARY:Open Books\, Open Minds Nonfiction Book Club (Ages 18+) at the Nort
- h Garland Library
-LOCATION:3845 N. Garland Ave.
+SUMMARY:Graphic Novel Book Club (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=graphic-novel-book-club-a
+ ges-18-%7Ccentral-library-garland%7C06-30-pm
+DESCRIPTION:6:30 p.m.\; Join us for Graphic Novel Book Club where we talk o
+ ut exciting graphic novels every month. Read the book beforehand for discu
+ ssion. September 15\, 2026 06:30 PM - 07:30 PM 625 Austin St.Garland\, TX 
+ 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13000/6392275720100000 
+ — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:open-books-open-minds-nonfiction-book-club-ages-18-|north-garland-libra
+ ry-garland|06-30-pm-2026-09-15@letsdoitdallas.com
+DTSTAMP:20260915T233000Z
+DTSTART:20260915T233000Z
+DTEND:20260916T023000Z
+SUMMARY:Open Books\, Open Minds Nonfiction Book Club (Ages 18+)
+LOCATION:North Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-15&e=open-books-open-minds-non
- fiction-book-club-ages-18-at-the-north-garland-library%7C3845-n-garland-av
- e-garland%7C06-30-pm
+ fiction-book-club-ages-18-%7Cnorth-garland-library-garland%7C06-30-pm
 DESCRIPTION:6:30 p.m.\; An adult book club for those who enjoy reading wide
  ly and learning new things. Join us each month for polite\, thoughtful dis
  cussions and light refreshments. September 15\, 2026 06:30 PM - 07:30 PM 3
@@ -3645,16 +3729,15 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:baby-bounce-read-birth-18-months-at-the-north-garland-library|3845-n-ga
- rland-ave-garland|10-00-am-2026-09-16@letsdoitdallas.com
+UID:baby-bounce-read-birth-18-months-|north-garland-library-garland|10-00-a
+ m-2026-09-16@letsdoitdallas.com
 DTSTAMP:20260916T150000Z
 DTSTART:20260916T150000Z
 DTEND:20260916T180000Z
-SUMMARY:Baby Bounce & Read (Birth-18 Months) at the North Garland Library
-LOCATION:3845 N. Garland Ave.
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:North Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-16&e=baby-bounce-read-birth-18
- -months-at-the-north-garland-library%7C3845-n-garland-ave-garland%7C10-00-
- am
+ -months-%7Cnorth-garland-library-garland%7C10-00-am
 DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
   will learn\, play\, and grow together in this lap-sit storytime that intr
  oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
@@ -3701,15 +3784,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-16&e=baby-me-0-10-months-%7C68
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:family-read-play-ages-0-5-at-the-west-garland-library|3921-w-walnut-st-
- garland|10-30-am-2026-09-16@letsdoitdallas.com
+UID:family-read-play-ages-0-5-|west-garland-library-garland|10-30-am-2026-0
+ 9-16@letsdoitdallas.com
 DTSTAMP:20260916T153000Z
 DTSTART:20260916T153000Z
 DTEND:20260916T183000Z
-SUMMARY:Family Read & Play (Ages 0-5) at the West Garland Library
-LOCATION:3921 W. Walnut St. · Garland
+SUMMARY:Family Read & Play (Ages 0-5)
+LOCATION:West Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-16&e=family-read-play-ages-0-5
- -at-the-west-garland-library%7C3921-w-walnut-st-garland%7C10-30-am
+ -%7Cwest-garland-library-garland%7C10-30-am
 DESCRIPTION:10:30 a.m.\; The whole family will learn\, play\, and grow duri
  ng this interactive storytime full of stories\, creative movement\, and so
  ngs that will strengthen listening\, language\, and early literacy skills.
@@ -3733,15 +3816,31 @@ DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:preschool-discovery-3-5-years-at-the-south-garland-library|4845-broadwa
- y-blvd-garland|11-00-am-2026-09-16@letsdoitdallas.com
+UID:play-learn-0-5-years-|north-garland-library-garland|11-00-am-2026-09-16
+ @letsdoitdallas.com
 DTSTAMP:20260916T160000Z
 DTSTART:20260916T160000Z
 DTEND:20260916T190000Z
-SUMMARY:Preschool Discovery (3-5 Years) at the South Garland Library
-LOCATION:4845 Broadway Blvd. · Garland
+SUMMARY:Play & Learn (0-5 Years)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=play-learn-0-5-years-%7Cn
+ orth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; It’s playtime! Families can participate in Play 
+ & Learn\, a weekly event where children ages 0-5 and their caregivers can 
+ enjoy an assortment of toys\, games and activities that foster imagination
+ \, creativity and problem-solving. September 16\, 2026 11:00 AM - 12:00 PM
+  3 — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-discovery-3-5-years-|south-garland-library-garland|11-00-am-2
+ 026-09-16@letsdoitdallas.com
+DTSTAMP:20260916T160000Z
+DTSTART:20260916T160000Z
+DTEND:20260916T190000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:South Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-16&e=preschool-discovery-3-5-y
- ears-at-the-south-garland-library%7C4845-broadway-blvd-garland%7C11-00-am
+ ears-%7Csouth-garland-library-garland%7C11-00-am
 DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
  ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
  ters\, numbers\, and much more that will help develop your preschooler's e
@@ -3801,17 +3900,16 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
 END:VEVENT
 BEGIN:VEVENT
 UID:scams-uncovered-ai-deception-and-protecting-yourself-in-a-digital-world
- -at-the-central-library|625-austin-st-garland|02-00-pm-2026-09-16@letsdoit
- dallas.com
+ |central-library-garland|02-00-pm-2026-09-16@letsdoitdallas.com
 DTSTAMP:20260916T190000Z
 DTSTART:20260916T190000Z
 DTEND:20260916T220000Z
 SUMMARY:Scams Uncovered: AI\, Deception\, and Protecting Yourself in a Digi
- tal World at the Central Library
-LOCATION:625 Austin St. · Garland
+ tal World
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-16&e=scams-uncovered-ai-decept
- ion-and-protecting-yourself-in-a-digital-world-at-the-central-library%7C62
- 5-austin-st-garland%7C02-00-pm
+ ion-and-protecting-yourself-in-a-digital-world%7Ccentral-library-garland%7
+ C02-00-pm
 DESCRIPTION:2:00 p.m.\; Scams Uncovered: AI\, Deception\, and Protecting Yo
  urself in a Digital World is an informative presentation from the Garland 
  Police Department designed to help residents recognize scams and protect t
@@ -3848,17 +3946,15 @@ DESCRIPTION:Come and learn about the United States Constitution from Captai
  etsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-at-the-north-garland-library|3
- 845-n-garland-ave-garland|04-00-pm-2026-09-16@letsdoitdallas.com
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-09-16@letsdoitdallas.com
 DTSTAMP:20260916T210000Z
 DTSTART:20260916T210000Z
 DTEND:20260917T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17) at the North Garland Lib
- rary
-LOCATION:3845 N. Garland Ave.
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-16&e=teenz-place-after-school-
- hour-ages-13-17-at-the-north-garland-library%7C3845-n-garland-ave-garland%
- 7C04-00-pm
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
 DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
  eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
   snacks while supplies last. Bring your friends! September 16\, 2026 04:00
@@ -3917,17 +4013,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-16&e=art-is-life%7C310-e-parke
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:basic-mending-and-hand-sewing-workshop-ages-18-at-the-central-library|6
- 25-austin-st-garland|05-00-pm-2026-09-16@letsdoitdallas.com
+UID:basic-mending-and-hand-sewing-workshop-ages-18-|central-library-garland
+ |05-00-pm-2026-09-16@letsdoitdallas.com
 DTSTAMP:20260916T220000Z
 DTSTART:20260916T220000Z
 DTEND:20260917T010000Z
-SUMMARY:Basic Mending and Hand Sewing Workshop (Ages 18+) at the Central Li
- brary
-LOCATION:625 Austin St. · Garland
+SUMMARY:Basic Mending and Hand Sewing Workshop (Ages 18+)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-16&e=basic-mending-and-hand-se
- wing-workshop-ages-18-at-the-central-library%7C625-austin-st-garland%7C05-
- 00-pm
+ wing-workshop-ages-18-%7Ccentral-library-garland%7C05-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
@@ -3968,6 +4062,38 @@ DESCRIPTION:Come make a fun card with Kari and learn some cardmaking techni
  ques. Supplies and space are limited. This class is for adults 18+. Regist
  ration Required September 16\, 2026 06:00 PM - 07:30 PM Grapevine\, TX 760
  51 https://www.grapevinetexas.gov/Calendar.aspx?EID=17432/6391547321700 
+ — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:gentle-yoga-ages-18-|central-library-garland|06-00-pm-2026-09-16@letsdo
+ itdallas.com
+DTSTAMP:20260916T230000Z
+DTSTART:20260916T230000Z
+DTEND:20260917T020000Z
+SUMMARY:Gentle Yoga (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=gentle-yoga-ages-18-%7Cce
+ ntral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; A gentle yoga class suitable for adult participants
+  of all levels of experience. Participants should bring their own mat and/
+ or towel. Props such as chairs and blocks will be available. September 16\
+ , 2026 06:00 PM - 07:00 PM 625 Austin St.Garland\, TX 75040 https://www. 
+ — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:community-business-builders-small-business-spotlight-ages-18-|central-l
+ ibrary-garland|06-30-pm-2026-09-16@letsdoitdallas.com
+DTSTAMP:20260916T233000Z
+DTSTART:20260916T233000Z
+DTEND:20260917T023000Z
+SUMMARY:Community Business Builders: Small Business Spotlight (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=community-business-builde
+ rs-small-business-spotlight-ages-18-%7Ccentral-library-garland%7C06-30-pm
+DESCRIPTION:6:30 p.m.\; Attention Garland entrepreneurs and small business 
+ owners! Discover how the Central Library can support your business growth.
+  Join us for our Small Business Spotlight\, an informative session showcas
+ ing the powerful tools\, programs\, and resources available to help you s 
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
@@ -4168,6 +4294,43 @@ DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
  as.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:gannon-fremin-ccrev-with-special-guest-noah-bowman|oak-cliff|doors-see-
+ listing-2026-09-17@letsdoitdallas.com
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Gannon Fremin & CCREV with special guest Noah Bowman
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=gannon-fremin-ccrev-with-
+ special-guest-noah-bowman%7Coak-cliff%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/
+END:VEVENT
+BEGIN:VEVENT
+UID:phora-i-was-there-tour|trees-dallas|doors-see-listing-2026-09-17@letsdo
+ itdallas.com
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:PHORA I WAS THERE TOUR
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=phora-i-was-there-tour%7C
+ trees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:uncle-lucius-album-release-show|lower-greenville|doors-see-listing-2026
+ -09-17@letsdoitdallas.com
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Uncle Lucius: Album Release Show
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=uncle-lucius-album-releas
+ e-show%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|10-00-am-20
  26-09-17@letsdoitdallas.com
 DTSTAMP:20260917T150000Z
@@ -4181,15 +4344,15 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:preschool-discovery-3-5-years-at-the-central-library|625-austin-st-garl
- and|10-00-am-2026-09-17@letsdoitdallas.com
+UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-09
+ -17@letsdoitdallas.com
 DTSTAMP:20260917T150000Z
 DTSTART:20260917T150000Z
 DTEND:20260917T180000Z
-SUMMARY:Preschool Discovery (3-5 Years) at the Central Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-17&e=preschool-discovery-3-5-y
- ears-at-the-central-library%7C625-austin-st-garland%7C10-00-am
+ ears-%7Ccentral-library-garland%7C10-00-am
 DESCRIPTION:10:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
  ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
  ters\, numbers\, and much more that will help develop your preschooler's e
@@ -4221,6 +4384,22 @@ LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-17&e=toddler-time-16-months-3-
  years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:cuentos-y-cantos-0-5-a-os-|biblioteca-central-garland|11-00-am-2026-09-
+ 17@letsdoitdallas.com
+DTSTAMP:20260917T160000Z
+DTSTART:20260917T160000Z
+DTEND:20260917T190000Z
+SUMMARY:Cuentos y Cantos (0-5 Años)
+LOCATION:Biblioteca Central · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=cuentos-y-cantos-0-5-a-os
+ -%7Cbiblioteca-central-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Acompáñenos para unos cuentos y cantos mientras 
+ aprendemos sobre temas escolares y lo más importante\, las habilidades ne
+ cesarias para leer. September 17\, 2026 11:00 AM - 12:00 PM 625 Austin St.
+ Garland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12947/63922
+ 74 — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:little-explorers-3-5-years-|6861-w-eldorado-parkway-mckinney|11-30-am-2
@@ -4326,17 +4505,16 @@ DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:scams-uncovered-ai-deception-and-protecting-yourself-in-a-digital-world
- -at-the-south-garland-library|4845-broadway-blvd-garland|02-00-pm-2026-09-
- 17@letsdoitdallas.com
+ |south-garland-library-garland|02-00-pm-2026-09-17@letsdoitdallas.com
 DTSTAMP:20260917T190000Z
 DTSTART:20260917T190000Z
 DTEND:20260917T220000Z
 SUMMARY:Scams Uncovered: AI\, Deception\, and Protecting Yourself in a Digi
- tal World at the South Garland Library
-LOCATION:4845 Broadway Blvd. · Garland
+ tal World
+LOCATION:South Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-17&e=scams-uncovered-ai-decept
- ion-and-protecting-yourself-in-a-digital-world-at-the-south-garland-librar
- y%7C4845-broadway-blvd-garland%7C02-00-pm
+ ion-and-protecting-yourself-in-a-digital-world%7Csouth-garland-library-gar
+ land%7C02-00-pm
 DESCRIPTION:2:00 p.m.\; Scams Uncovered: AI\, Deception\, and Protecting Yo
  urself in a Digital World is an informative presentation from the Garland 
  Police Department designed to help residents recognize scams and protect t
@@ -4369,17 +4547,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-17&e=chat-youth-empowerment-pr
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-at-the-north-garland-library|3
- 845-n-garland-ave-garland|04-00-pm-2026-09-17@letsdoitdallas.com
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-09-17@letsdoitdallas.com
 DTSTAMP:20260917T210000Z
 DTSTART:20260917T210000Z
 DTEND:20260918T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17) at the North Garland Lib
- rary
-LOCATION:3845 N. Garland Ave.
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-17&e=teenz-place-after-school-
- hour-ages-13-17-at-the-north-garland-library%7C3845-n-garland-ave-garland%
- 7C04-00-pm
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
 DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
  eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
   snacks while supplies last. Bring your friends! September 17\, 2026 04:00
@@ -4411,15 +4587,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-17&e=art-is-life%7C310-e-parke
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:financial-education-for-kids-ages-6-12-at-the-central-library|625-austi
- n-st-garland|05-00-pm-2026-09-17@letsdoitdallas.com
+UID:financial-education-for-kids-ages-6-12-|central-library-garland|05-00-p
+ m-2026-09-17@letsdoitdallas.com
 DTSTAMP:20260917T220000Z
 DTSTART:20260917T220000Z
 DTEND:20260918T010000Z
-SUMMARY:Financial Education for Kids (Ages 6-12) at the Central Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:Financial Education for Kids (Ages 6-12)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-17&e=financial-education-for-k
- ids-ages-6-12-at-the-central-library%7C625-austin-st-garland%7C05-00-pm
+ ids-ages-6-12-%7Ccentral-library-garland%7C05-00-pm
 DESCRIPTION:5:00 p.m.\; Introduce your kids to early financial concepts at 
  this workshop presented by Navy Federal Credit Union. Kids will learn abou
  t topics including money management\, needs vs. wants and setting money go
@@ -4427,15 +4603,15 @@ DESCRIPTION:5:00 p.m.\; Introduce your kids to early financial concepts at
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:food-truck-league-at-signature-park|450-pioneer-trail-cedar-hill|05-00-
- pm-2026-09-17@letsdoitdallas.com
+UID:food-truck-league|signature-park-cedar-hill|05-00-pm-2026-09-17@letsdoi
+ tdallas.com
 DTSTAMP:20260917T220000Z
 DTSTART:20260917T220000Z
 DTEND:20260918T010000Z
-SUMMARY:Food Truck League at Signature Park
-LOCATION:450 Pioneer Trail · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=food-truck-league-at-sign
- ature-park%7C450-pioneer-trail-cedar-hill%7C05-00-pm
+SUMMARY:Food Truck League
+LOCATION:Signature Park · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=food-truck-league%7Csigna
+ ture-park-cedar-hill%7C05-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
@@ -4463,18 +4639,17 @@ URL:https://letsdoitdallas.com/?date=2026-09-17&e=parks-for-pollinators-bio
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:family-game-night-at-the-south-garland-library-noche-de-juegos-en-famil
- ia-de-la-biblioteca-south-garland|4845-broadway-blvd-garland|05-30-pm-2026
- -09-17@letsdoitdallas.com
+UID:family-game-night-noche-de-juegos-en-familia-de-la-biblioteca-south-gar
+ land|south-garland-library-garland|05-30-pm-2026-09-17@letsdoitdallas.com
 DTSTAMP:20260917T223000Z
 DTSTART:20260917T223000Z
 DTEND:20260918T013000Z
-SUMMARY:Family Game Night at the South Garland Library / Noche de Juegos en
-  Familia de la Biblioteca South Garland
-LOCATION:4845 Broadway Blvd. · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=family-game-night-at-the-
- south-garland-library-noche-de-juegos-en-familia-de-la-biblioteca-south-ga
- rland%7C4845-broadway-blvd-garland%7C05-30-pm
+SUMMARY:Family Game Night / Noche de Juegos en Familia de la Biblioteca Sou
+ th Garland
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=family-game-night-noche-d
+ e-juegos-en-familia-de-la-biblioteca-south-garland%7Csouth-garland-library
+ -garland%7C05-30-pm
 DESCRIPTION:5:30 p.m.\; Enjoy classic and modern games designed to bring fa
  milies together in a friendly\, welcoming atmosphere. Play together or mee
  t other families in your community. Games will be available in English and
@@ -4494,18 +4669,38 @@ URL:https://letsdoitdallas.com/?date=2026-09-17&e=cursive-and-handwriting-w
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:hispanic-heritage-month-intro-to-hand-embroidery-ages-13-mes-de-la-here
+ ncia-hispana-introducci-n-al-bordado-a-mano-a-os-13-de-la-b|central-librar
+ y-garland|06-00-pm-2026-09-17@letsdoitdallas.com
+DTSTAMP:20260917T230000Z
+DTSTART:20260917T230000Z
+DTEND:20260918T020000Z
+SUMMARY:Hispanic Heritage Month: Intro to Hand Embroidery (Ages 13+) / Mes 
+ de la Herencia Hispana: Introducción al Bordado a Mano (Años 13+) de la 
+ B
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=hispanic-heritage-month-i
+ ntro-to-hand-embroidery-ages-13-mes-de-la-herencia-hispana-introducci-n-al
+ -bordado-a-mano-a-os-13-de-la-b%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Join us during Hispanic Heritage Month for an intro
+  to hand embroidery! We’ll explore the tradition of hand embroidery in L
+ atin America\, then learn basic embroidery stitches to get you started on 
+ your first project. Supplies are limited\; attendees are encouraged to bri
+  — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:solving-the-retirement-estate-planning-puzzle-bringing-clarity-to-your-
- financial-life-at-the-west-garland-library|3921-w-walnut-st-garland|06-00-
- pm-2026-09-17@letsdoitdallas.com
+ financial-life|west-garland-library-garland|06-00-pm-2026-09-17@letsdoitda
+ llas.com
 DTSTAMP:20260917T230000Z
 DTSTART:20260917T230000Z
 DTEND:20260918T020000Z
 SUMMARY:Solving the Retirement & Estate Planning Puzzle: Bringing Clarity t
- o Your Financial Life at the West Garland Library
-LOCATION:3921 W. Walnut St. · Garland
+ o Your Financial Life
+LOCATION:West Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-17&e=solving-the-retirement-es
- tate-planning-puzzle-bringing-clarity-to-your-financial-life-at-the-west-g
- arland-library%7C3921-w-walnut-st-garland%7C06-00-pm
+ tate-planning-puzzle-bringing-clarity-to-your-financial-life%7Cwest-garlan
+ d-library-garland%7C06-00-pm
 DESCRIPTION:6:00 p.m.\; Join us for a financial literacy workshop presented
   by Massinburg Financial. This workshop focuses on retirement and estate p
  lanning essentials. Learn the difference between wills and trusts\, and le
@@ -4536,6 +4731,22 @@ URL:https://letsdoitdallas.com/?date=2026-09-17&e=candlelight-tribute-to-br
  itish-rock-legends%7Cfort-worth-botanic-garden-fort-worth%7C6-30-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/
+END:VEVENT
+BEGIN:VEVENT
+UID:fiction-book-club-ages-18-|south-garland-library-garland|06-30-pm-2026-
+ 09-17@letsdoitdallas.com
+DTSTAMP:20260917T233000Z
+DTSTART:20260917T233000Z
+DTEND:20260918T023000Z
+SUMMARY:Fiction Book Club (Ages 18+)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=fiction-book-club-ages-18
+ -%7Csouth-garland-library-garland%7C06-30-pm
+DESCRIPTION:6:30 p.m.\; Are you an avid reader looking to connect with othe
+ rs? Join us at the South Garland Library for our monthly book club\, where
+  we explore a new book each month and enjoy light refreshments. All perspe
+ ctives are welcome. Come share your thoughts! September 17\, 2026 06:30 
+ — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:fight-in-the-fort-tournament-day-1|ed-rae-schollmaier-arena-fort-worth|
@@ -4879,6 +5090,18 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/
 END:VEVENT
 BEGIN:VEVENT
+UID:cactus-lee-travelin-light-|the-cedars-dallas|doors-see-listing-2026-09-
+ 18@letsdoitdallas.com
+DTSTAMP:20260918T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Cactus Lee "Travelin' Light"
+LOCATION:The Cedars · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=cactus-lee-travelin-light
+ -%7Cthe-cedars-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:frisco-roughriders-division-series-game-3-if-necessary-|riders-field-fr
  isco|see-details-2026-09-18@letsdoitdallas.com
 DTSTAMP:20260918T000000Z
@@ -4890,6 +5113,33 @@ URL:https://letsdoitdallas.com/?date=2026-09-18&e=frisco-roughriders-divisi
  on-series-game-3-if-necessary-%7Criders-field-frisco%7Csee-details
 DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
  as.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:granadapalooza-janes-addiction-tribute-rhcp-tribute-green-day-tribute|l
+ ower-greenville|doors-see-listing-2026-09-18@letsdoitdallas.com
+DTSTAMP:20260918T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:GRANADAPALOOZA - JANES ADDICTION TRIBUTE / RHCP TRIBUTE / GREEN DAY
+  TRIBUTE
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=granadapalooza-janes-addi
+ ction-tribute-rhcp-tribute-green-day-tribute%7Clower-greenville%7Cdoors-se
+ e-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:tanner-usrey-with-special-guest-cam-allen|oak-cliff|doors-see-listing-2
+ 026-09-18@letsdoitdallas.com
+DTSTAMP:20260918T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Tanner Usrey with special guest Cam Allen
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=tanner-usrey-with-special
+ -guest-cam-allen%7Coak-cliff%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/
 END:VEVENT
 BEGIN:VEVENT
 UID:rocket-league-world-championship-2026-3-day-ticket|dickies-arena-fort-w
@@ -4957,28 +5207,27 @@ DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:artist-in-residence-at-dogwood-canyon|cedar-hill|10-00-am-2026-09-18@le
- tsdoitdallas.com
+UID:artist-in-residence|dogwood-canyon-cedar-hill|10-00-am-2026-09-18@letsd
+ oitdallas.com
 DTSTAMP:20260918T150000Z
 DTSTART:20260918T150000Z
 DTEND:20260918T180000Z
-SUMMARY:Artist in Residence at Dogwood Canyon
-LOCATION:Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=artist-in-residence-at-do
- gwood-canyon%7Ccedar-hill%7C10-00-am
+SUMMARY:Artist in Residence
+LOCATION:Dogwood Canyon · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=artist-in-residence%7Cdog
+ wood-canyon-cedar-hill%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:baby-bounce-read-birth-18-months-at-the-south-garland-library|4845-broa
- dway-blvd-garland|10-00-am-2026-09-18@letsdoitdallas.com
+UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a
+ m-2026-09-18@letsdoitdallas.com
 DTSTAMP:20260918T150000Z
 DTSTART:20260918T150000Z
 DTEND:20260918T180000Z
-SUMMARY:Baby Bounce & Read (Birth-18 Months) at the South Garland Library
-LOCATION:4845 Broadway Blvd. · Garland
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:South Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-18&e=baby-bounce-read-birth-18
- -months-at-the-south-garland-library%7C4845-broadway-blvd-garland%7C10-00-
- am
+ -months-%7Csouth-garland-library-garland%7C10-00-am
 DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
   will learn\, play\, and grow together in this lap-sit storytime that intr
  oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
@@ -4986,15 +5235,15 @@ DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
  AM - — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:basic-computer-practice-ages-18-at-the-central-library|625-austin-st-ga
- rland|10-00-am-2026-09-18@letsdoitdallas.com
+UID:basic-computer-practice-ages-18-|central-library-garland|10-00-am-2026-
+ 09-18@letsdoitdallas.com
 DTSTAMP:20260918T150000Z
 DTSTART:20260918T150000Z
 DTEND:20260918T180000Z
-SUMMARY:Basic Computer Practice (Ages 18+) at the Central Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:Basic Computer Practice (Ages 18+)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-18&e=basic-computer-practice-a
- ges-18-at-the-central-library%7C625-austin-st-garland%7C10-00-am
+ ges-18-%7Ccentral-library-garland%7C10-00-am
 DESCRIPTION:10:00 a.m.\; Get basic computer practice every Friday morning. 
  Learn the coordination skills needed to use a computer independently with 
  confidence. Technology accessories like the mouse and keyboard take time a
@@ -5002,36 +5251,20 @@ DESCRIPTION:10:00 a.m.\; Get basic computer practice every Friday morning.
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:toddler-time-18-36-months-at-the-north-garland-library|3845-n-garland-a
- ve-garland|10-00-am-2026-09-18@letsdoitdallas.com
+UID:toddler-time-18-36-months-|north-garland-library-garland|10-00-am-2026-
+ 09-18@letsdoitdallas.com
 DTSTAMP:20260918T150000Z
 DTSTART:20260918T150000Z
 DTEND:20260918T180000Z
-SUMMARY:Toddler Time (18-36 Months) at the North Garland Library
-LOCATION:3845 N. Garland Ave.
+SUMMARY:Toddler Time (18-36 Months)
+LOCATION:North Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-18&e=toddler-time-18-36-months
- -at-the-north-garland-library%7C3845-n-garland-ave-garland%7C10-00-am
+ -%7Cnorth-garland-library-garland%7C10-00-am
 DESCRIPTION:10:00 a.m.\; Toddler Time is a storytime for children ages 18 m
  onths to 3 years old. Toddler Time storytimes will be a mixture of age app
  ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
  rachute play. September 18\, 2026 10:00 AM - 11:00 AM 3845 N. Garland Ave.
  Ga — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:baby-bounce-read-birth-18-months-at-the-west-garland-library|3921-w-wal
- nut-st-garland|10-30-am-2026-09-18@letsdoitdallas.com
-DTSTAMP:20260918T153000Z
-DTSTART:20260918T153000Z
-DTEND:20260918T183000Z
-SUMMARY:Baby Bounce & Read (Birth-18 Months) at the West Garland Library
-LOCATION:3921 W. Walnut St. · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=baby-bounce-read-birth-18
- -months-at-the-west-garland-library%7C3921-w-walnut-st-garland%7C10-30-am
-DESCRIPTION:10:30 a.m.\; Babies\, birth to 18 months\, and their caregivers
-  will learn\, play\, and grow together in this lap-sit storytime that intr
- oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
- y literacy practices into their everyday lives. September 18\, 2026 10:30 
- AM - — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:bouncing-babies|grapevine|10-30-am-2026-09-18@letsdoitdallas.com
@@ -5062,16 +5295,20 @@ URL:https://letsdoitdallas.com/?date=2026-09-18&e=toddler-story-time%7Clanc
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
- am-2026-09-18@letsdoitdallas.com
-DTSTAMP:20260918T153000Z
-DTSTART:20260918T153000Z
-DTEND:20260918T183000Z
-SUMMARY:Toddler Time (16 Months-3 Years)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=toddler-time-16-months-3-
- years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/
+UID:preschool-discovery-3-5-years-|north-garland-library-garland|11-00-am-2
+ 026-09-18@letsdoitdallas.com
+DTSTAMP:20260918T160000Z
+DTSTART:20260918T160000Z
+DTEND:20260918T190000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=preschool-discovery-3-5-y
+ ears-%7Cnorth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
+ ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
+ ters\, numbers\, and much more that will help develop your preschooler's e
+ arly literacy skills. September 18\, 2026 11:00 AM - 12:00 PM 3845 N. Garl
+ an — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:rocket-league-world-championship-2026|dickies-arena-fort-worth|11-00-am
@@ -5129,16 +5366,15 @@ DESCRIPTION:Open Play Fridays 12:30-4:30. Tables available on a first come
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:homeschool-libratory-ancient-steam-at-the-west-garland-library|3921-w-w
- alnut-st-garland|01-00-pm-2026-09-18@letsdoitdallas.com
+UID:homeschool-libratory-ancient-steam|west-garland-library-garland|01-00-p
+ m-2026-09-18@letsdoitdallas.com
 DTSTAMP:20260918T180000Z
 DTSTART:20260918T180000Z
 DTEND:20260918T210000Z
-SUMMARY:Homeschool Libratory: Ancient STEAM at the West Garland Library
-LOCATION:3921 W. Walnut St. · Garland
+SUMMARY:Homeschool Libratory: Ancient STEAM
+LOCATION:West Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-18&e=homeschool-libratory-anci
- ent-steam-at-the-west-garland-library%7C3921-w-walnut-st-garland%7C01-00-p
- m
+ ent-steam%7Cwest-garland-library-garland%7C01-00-pm
 DESCRIPTION:1:00 p.m.\; Drop in for an afternoon of exploring hands-on STEA
  M activities with your fellow homeschoolers each month! Share your latest 
  discoveries\, books you’ve read and more while having fun and making fri
@@ -5852,6 +6088,34 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
+UID:chanpan|lower-greenville|doors-see-listing-2026-09-19@letsdoitdallas.co
+ m
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Chanpan
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=chanpan%7Clower-greenvill
+ e%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/
+END:VEVENT
+BEGIN:VEVENT
+UID:louder-than-stigma-fest-benefitting-amplified-minds-featuring-tye-harri
+ s|oak-cliff|doors-see-listing-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Louder Than Stigma Fest benefitting Amplified Minds featuring Tye H
+ arris
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=louder-than-stigma-fest-b
+ enefitting-amplified-minds-featuring-tye-harris%7Coak-cliff%7Cdoors-see-li
+ sting
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/
+END:VEVENT
+BEGIN:VEVENT
 UID:tcu-horned-frogs-football-vs-arkansas-state-red-wolves-football|amon-g-
  carter-stadium-fort-worth|see-details-2026-09-19@letsdoitdallas.com
 DTSTAMP:20260919T000000Z
@@ -5928,22 +6192,6 @@ URL:https://letsdoitdallas.com/?date=2026-09-19&e=best-southwest-emergency-
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:-cancelled-pop-up-storytime-at-bear-creek-park-|grapevine|10-00-am-2026
- -09-19@letsdoitdallas.com
-DTSTAMP:20260919T150000Z
-DTSTART:20260919T150000Z
-DTEND:20260919T180000Z
-SUMMARY:---CANCELLED---Pop-Up Storytime at Bear Creek Park!
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=-cancelled-pop-up-storyti
- me-at-bear-creek-park-%7Cgrapevine%7C10-00-am
-DESCRIPTION:Surprise! Pop-Up Storytime is coming to a Grapevine park near y
- ou! The Library Outreach Team is hitting the road from March through Octob
- er\, bringing stories\, songs\, and smiles to parks across our community. 
- Find us at Bear Creek Park this Saturday! Next stop: Parr Park (3010 Par 
- — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:40-double-dutch|310-e-parkerville-road-cedar-hill|10-00-am-2026-09-19@l
  etsdoitdallas.com
 DTSTAMP:20260919T150000Z
@@ -5956,16 +6204,32 @@ URL:https://letsdoitdallas.com/?date=2026-09-19&e=40-double-dutch%7C310-e-p
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:artist-in-residence-at-dogwood-canyon|cedar-hill|10-00-am-2026-09-19@le
- tsdoitdallas.com
+UID:artist-in-residence|dogwood-canyon-cedar-hill|10-00-am-2026-09-19@letsd
+ oitdallas.com
 DTSTAMP:20260919T150000Z
 DTSTART:20260919T150000Z
 DTEND:20260919T180000Z
-SUMMARY:Artist in Residence at Dogwood Canyon
-LOCATION:Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=artist-in-residence-at-do
- gwood-canyon%7Ccedar-hill%7C10-00-am
+SUMMARY:Artist in Residence
+LOCATION:Dogwood Canyon · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=artist-in-residence%7Cdog
+ wood-canyon-cedar-hill%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:cancelled-pop-up-storytime|bear-creek-park-grapevine|10-00-am-2026-09-1
+ 9@letsdoitdallas.com
+DTSTAMP:20260919T150000Z
+DTSTART:20260919T150000Z
+DTEND:20260919T180000Z
+SUMMARY:CANCELLED---Pop-Up Storytime
+LOCATION:Bear Creek Park! · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=cancelled-pop-up-storytim
+ e%7Cbear-creek-park-grapevine%7C10-00-am
+DESCRIPTION:Surprise! Pop-Up Storytime is coming to a Grapevine park near y
+ ou! The Library Outreach Team is hitting the road from March through Octob
+ er\, bringing stories\, songs\, and smiles to parks across our community. 
+ Find us at Bear Creek Park this Saturday! Next stop: Parr Park (3010 Par 
+ — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:coffee-with-the-birds|cedar-hill|10-00-am-2026-09-19@letsdoitdallas.com
@@ -5979,15 +6243,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-19&e=coffee-with-the-birds%7Cc
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:play-learn-0-5-years-at-the-central-library|625-austin-st-garland|10-00
- -am-2026-09-19@letsdoitdallas.com
+UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-09-19@letsd
+ oitdallas.com
 DTSTAMP:20260919T150000Z
 DTSTART:20260919T150000Z
 DTEND:20260919T180000Z
-SUMMARY:Play & Learn (0-5 years) at the Central Library
-LOCATION:625 Austin St. · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=play-learn-0-5-years-at-t
- he-central-library%7C625-austin-st-garland%7C10-00-am
+SUMMARY:Play & Learn (0-5 years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=play-learn-0-5-years-%7Cc
+ entral-library-garland%7C10-00-am
 DESCRIPTION:10:00 a.m.\; Families with children ages 0-5 can enjoy Play & L
  earn\, a weekly event with toys\, games and activities that encourage imag
  ination\, creativity and problem-solving. This program offers a chance for
@@ -6010,15 +6274,15 @@ DESCRIPTION:Help us make quilts for the Grapevine Animal Shelter & local ho
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:1-2-3-steam-ages-1-5-shapes-at-the-west-garland-library|3921-w-walnut-s
- t-garland|10-30-am-2026-09-19@letsdoitdallas.com
+UID:1-2-3-steam-ages-1-5-shapes|west-garland-library-garland|10-30-am-2026-
+ 09-19@letsdoitdallas.com
 DTSTAMP:20260919T153000Z
 DTSTART:20260919T153000Z
 DTEND:20260919T183000Z
-SUMMARY:1-2-3 STEAM (Ages 1-5): Shapes at the West Garland Library
-LOCATION:3921 W. Walnut St. · Garland
+SUMMARY:1-2-3 STEAM (Ages 1-5): Shapes
+LOCATION:West Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-19&e=1-2-3-steam-ages-1-5-shap
- es-at-the-west-garland-library%7C3921-w-walnut-st-garland%7C10-30-am
+ es%7Cwest-garland-library-garland%7C10-30-am
 DESCRIPTION:10:30 a.m.\; Explore science\, technology\, engineering\, art a
  nd math through play and discovery! Join us for a fun-filled session desig
  ned for little learners ages 1–5 and their caregivers. We’ll start wit
@@ -6351,15 +6615,15 @@ DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
  /letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:ecologies-game-day-at-dogwood-canyon|cedar-hill|02-00-pm-2026-09-19@let
- sdoitdallas.com
+UID:ecologies-game-day|dogwood-canyon-cedar-hill|02-00-pm-2026-09-19@letsdo
+ itdallas.com
 DTSTAMP:20260919T190000Z
 DTSTART:20260919T190000Z
 DTEND:20260919T220000Z
-SUMMARY:Ecologies Game Day at Dogwood Canyon
-LOCATION:Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=ecologies-game-day-at-dog
- wood-canyon%7Ccedar-hill%7C02-00-pm
+SUMMARY:Ecologies Game Day
+LOCATION:Dogwood Canyon · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=ecologies-game-day%7Cdogw
+ ood-canyon-cedar-hill%7C02-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
@@ -6403,17 +6667,15 @@ DESCRIPTION:The 1st and 3rd Saturday the library is visited by therapy dogs
  ttps://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:steam-lab-zipline-challenge-ages-6-12-at-the-north-garland-library|3845
- -n-garland-ave-garland|02-30-pm-2026-09-19@letsdoitdallas.com
+UID:steam-lab-zipline-challenge-ages-6-12-|north-garland-library-garland|02
+ -30-pm-2026-09-19@letsdoitdallas.com
 DTSTAMP:20260919T193000Z
 DTSTART:20260919T193000Z
 DTEND:20260919T223000Z
-SUMMARY:STEAM Lab: Zipline Challenge (Ages 6-12) at the North Garland Libra
- ry
-LOCATION:3845 N. Garland Ave.
+SUMMARY:STEAM Lab: Zipline Challenge (Ages 6-12)
+LOCATION:North Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-19&e=steam-lab-zipline-challen
- ge-ages-6-12-at-the-north-garland-library%7C3845-n-garland-ave-garland%7C0
- 2-30-pm
+ ge-ages-6-12-%7Cnorth-garland-library-garland%7C02-30-pm
 DESCRIPTION:2:30 p.m.\; Build It. Test it. Zip It! Design and build a zipli
  ne from recycled materials. Test your creations to see whose design zips f
  astest\, smoothest or carries the most weight. Perfect for kids who love t
@@ -6421,18 +6683,18 @@ DESCRIPTION:2:30 p.m.\; Build It. Test it. Zip It! Design and build a zipli
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:fall-plant-and-seed-swap-ages-18-at-the-south-garland-library-intercamb
- io-de-plantas-y-semillas-a-os-18-de-la-biblioteca-south-garla|4845-broadwa
- y-blvd-garland|03-00-pm-2026-09-19@letsdoitdallas.com
+UID:fall-plant-and-seed-swap-ages-18-intercambio-de-plantas-y-semillas-a-os
+ -18-de-la-biblioteca-south-garland|south-garland-library-garland|03-00-pm-
+ 2026-09-19@letsdoitdallas.com
 DTSTAMP:20260919T200000Z
 DTSTART:20260919T200000Z
 DTEND:20260919T230000Z
-SUMMARY:Fall Plant and Seed Swap (Ages 18+) at the South Garland Library / 
- Intercambio de Plantas y Semillas (Años 18+) de la Biblioteca South Garla
-LOCATION:4845 Broadway Blvd. · Garland
+SUMMARY:Fall Plant and Seed Swap (Ages 18+) / Intercambio de Plantas y Semi
+ llas (Años 18+) de la Biblioteca South Garland
+LOCATION:South Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-19&e=fall-plant-and-seed-swap-
- ages-18-at-the-south-garland-library-intercambio-de-plantas-y-semillas-a-o
- s-18-de-la-biblioteca-south-garla%7C4845-broadway-blvd-garland%7C03-00-pm
+ ages-18-intercambio-de-plantas-y-semillas-a-os-18-de-la-biblioteca-south-g
+ arland%7Csouth-garland-library-garland%7C03-00-pm
 DESCRIPTION:3:00 p.m.\; Love plants? Join us for a fun community swap at th
  e library! Bring a starter plant\, potted plant or seeds to exchange with 
  fellow gardeners and take home something new to grow. The library will pro
@@ -6482,18 +6744,17 @@ DESCRIPTION:Celebrate culture\, community\, and connection at the Best Sout
  is vi — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:one-book-one-garland-an-evening-with-the-author-emily-hunt-kivel-at-the
- -central-library|625-austin-st-garland|06-00-pm-2026-09-19@letsdoitdallas.
- com
+UID:one-book-one-garland-an-evening-with-the-author-emily-hunt-kivel|centra
+ l-library-garland|06-00-pm-2026-09-19@letsdoitdallas.com
 DTSTAMP:20260919T230000Z
 DTSTART:20260919T230000Z
 DTEND:20260920T020000Z
 SUMMARY:One Book\, One Garland: An Evening with the Author\, Emily Hunt Kiv
- el at the Central Library
-LOCATION:625 Austin St. · Garland
+ el
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-19&e=one-book-one-garland-an-e
- vening-with-the-author-emily-hunt-kivel-at-the-central-library%7C625-austi
- n-st-garland%7C06-00-pm
+ vening-with-the-author-emily-hunt-kivel%7Ccentral-library-garland%7C06-00-
+ pm
 DESCRIPTION:6:00 p.m.\; Join us at the Central Library for a special evenin
  g with Emily Hunt Kivel\, author of Dwelling. Enjoy a live reading from he
  r novel\, followed by an engaging Q&A session and book signing. September 
@@ -6953,6 +7214,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-19&e=shadowbanned%7Cthree-link
  s-deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:geeks-who-drink-free-trivia|lower-greenville|doors-see-listing-2026-09-
+ 20@letsdoitdallas.com
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:geeks who drink FREE Trivia
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=geeks-who-drink-free-triv
+ ia%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/
 END:VEVENT
 BEGIN:VEVENT
 UID:fiber-arts-studio-18-|grapevine|10-00-am-2026-09-20@letsdoitdallas.com
@@ -7455,6 +7729,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
+UID:free-cult-classic-movie-monday-la-la-land|lower-greenville|doors-see-li
+ sting-2026-09-21@letsdoitdallas.com
+DTSTAMP:20260921T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:FREE Cult Classic Movie Monday: LA LA LAND
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-21&e=free-cult-classic-movie-m
+ onday-la-la-land%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/
+END:VEVENT
+BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|9-00-am-2026-09-21@
  letsdoitdallas.com
 DTSTAMP:20260921T140000Z
@@ -7509,6 +7796,19 @@ LOCATION:6861 W. Eldorado Pkwy. · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-21&e=baby-me-0-10-months-%7C68
  61-w-eldorado-pkwy-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-45-am-2026-09-21
+ @letsdoitdallas.com
+DTSTAMP:20260921T154500Z
+DTSTART:20260921T154500Z
+DTEND:20260921T184500Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-21&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C10-45-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:chair-volleyball|310-e-parkerville-road-cedar-hill|11-00-am-2026-09-21@
@@ -7592,17 +7892,15 @@ DESCRIPTION:Who: Ages 10+ What: Join us at the Esports Academy this Monday
   — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:coi-small-business-leadership-series-ages-18-at-the-central-library|625
- -austin-st-garland|05-30-pm-2026-09-21@letsdoitdallas.com
+UID:coi-small-business-leadership-series-ages-18-|central-library-garland|0
+ 5-30-pm-2026-09-21@letsdoitdallas.com
 DTSTAMP:20260921T223000Z
 DTSTART:20260921T223000Z
 DTEND:20260922T013000Z
-SUMMARY:COI Small Business Leadership Series (Ages 18+) at the Central Libr
- ary
-LOCATION:625 Austin St. · Garland
+SUMMARY:COI Small Business Leadership Series (Ages 18+)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-21&e=coi-small-business-leader
- ship-series-ages-18-at-the-central-library%7C625-austin-st-garland%7C05-30
- -pm
+ ship-series-ages-18-%7Ccentral-library-garland%7C05-30-pm
 DESCRIPTION:5:30 p.m.\; In this five-part workshop\, Jennifer Jordan (MBA\,
   CPTD\, CPTM) of J2 Leadership and Learning Solutions\, will introduce asp
  iring entrepreneurs\, recent small business owners\, and established small
@@ -7625,15 +7923,15 @@ DESCRIPTION:Looking for a cozy way to unwind and connect with fellow yarn e
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:library-board-monthly-meeting-at-city-hall|200-n-fifth-street-garland|0
- 6-00-pm-2026-09-21@letsdoitdallas.com
+UID:library-board-monthly-meeting|city-hall-garland|06-00-pm-2026-09-21@let
+ sdoitdallas.com
 DTSTAMP:20260921T230000Z
 DTSTART:20260921T230000Z
 DTEND:20260922T020000Z
-SUMMARY:Library Board Monthly Meeting at City Hall
-LOCATION:200 N. Fifth Street · Garland
+SUMMARY:Library Board Monthly Meeting
+LOCATION:City Hall · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-21&e=library-board-monthly-mee
- ting-at-city-hall%7C200-n-fifth-street-garland%7C06-00-pm
+ ting%7Ccity-hall-garland%7C06-00-pm
 DESCRIPTION:6 p.m.\; The purpose of the Library Board is to advise the City
   Council on problems relating to the Public Library and to recommend plans
   and programs to promote the library system for the City. September 21\, 2
@@ -7728,6 +8026,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
+UID:free-tuesday-rooftop-movie-bridesmaids|lower-greenville|doors-see-listi
+ ng-2026-09-22@letsdoitdallas.com
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:FREE Tuesday Rooftop Movie: BRIDESMAIDS
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=free-tuesday-rooftop-movi
+ e-bridesmaids%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/
+END:VEVENT
+BEGIN:VEVENT
 UID:tiny-tots-sensory-adventures|1700-veterans-memorial-parkway-lancaster|0
  9-15-am-2026-09-22@letsdoitdallas.com
 DTSTAMP:20260922T141500Z
@@ -7758,15 +8069,15 @@ DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:baby-bounce-read-birth-18-months-at-the-central-library|625-austin-st-g
- arland|10-00-am-2026-09-22@letsdoitdallas.com
+UID:baby-bounce-read-birth-18-months-|central-library-garland|10-00-am-2026
+ -09-22@letsdoitdallas.com
 DTSTAMP:20260922T150000Z
 DTSTART:20260922T150000Z
 DTEND:20260922T180000Z
-SUMMARY:Baby Bounce & Read (Birth-18 Months) at the Central Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-22&e=baby-bounce-read-birth-18
- -months-at-the-central-library%7C625-austin-st-garland%7C10-00-am
+ -months-%7Ccentral-library-garland%7C10-00-am
 DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
   will learn\, play\, and grow together in this lap-sit storytime that intr
  oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
@@ -7812,6 +8123,22 @@ LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-22&e=wobblers-walkers-10-20-mo
  nths-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-18-36-months-|central-library-garland|11-00-am-2026-09-22@
+ letsdoitdallas.com
+DTSTAMP:20260922T160000Z
+DTSTART:20260922T160000Z
+DTEND:20260922T190000Z
+SUMMARY:Toddler Time (18-36 Months)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=toddler-time-18-36-months
+ -%7Ccentral-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Toddler Time is a storytime for children ages 18 m
+ onths to 3 years old. Toddler Time storytimes will be a mixture of age app
+ ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
+ rachute play. September 22\, 2026 11:00 AM - 12:00 PM 625 Austin St.Garlan
+ d\, — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:baby-story-time|lancaster|11-30-am-2026-09-22@letsdoitdallas.com
@@ -7863,17 +8190,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-22&e=chat-youth-empowerment-pr
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-at-the-north-garland-library|3
- 845-n-garland-ave-garland|04-00-pm-2026-09-22@letsdoitdallas.com
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-09-22@letsdoitdallas.com
 DTSTAMP:20260922T210000Z
 DTSTART:20260922T210000Z
 DTEND:20260923T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17) at the North Garland Lib
- rary
-LOCATION:3845 N. Garland Ave.
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-22&e=teenz-place-after-school-
- hour-ages-13-17-at-the-north-garland-library%7C3845-n-garland-ave-garland%
- 7C04-00-pm
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
 DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
  eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
   snacks while supplies last. Bring your friends! September 22\, 2026 04:00
@@ -7933,17 +8258,15 @@ DESCRIPTION:6:00 p.m.\; Curious about watercolor painting\, interested in t
   — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:financial-education-with-navy-federal-ages-18-at-the-central-library|62
- 5-austin-st-garland|06-00-pm-2026-09-22@letsdoitdallas.com
+UID:financial-education-with-navy-federal-ages-18-|central-library-garland|
+ 06-00-pm-2026-09-22@letsdoitdallas.com
 DTSTAMP:20260922T230000Z
 DTSTART:20260922T230000Z
 DTEND:20260923T020000Z
-SUMMARY:Financial Education with Navy Federal (Ages 18+) at the Central Lib
- rary
-LOCATION:625 Austin St. · Garland
+SUMMARY:Financial Education with Navy Federal (Ages 18+)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-22&e=financial-education-with-
- navy-federal-ages-18-at-the-central-library%7C625-austin-st-garland%7C06-0
- 0-pm
+ navy-federal-ages-18-%7Ccentral-library-garland%7C06-00-pm
 DESCRIPTION:6:00 p.m.\; Free financial education presentations from Navy Fe
  deral Credit Union. Learn about a variety of topics to enhance your financ
  ial awareness. September 22\, 2026 06:00 PM - 07:00 PM 625 Austin St.Garla
@@ -7975,17 +8298,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-22&e=planning-zoning-commissio
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:skill-building-series-scrunchies-ages-13-at-the-west-garland-library|39
- 21-w-walnut-st-garland|06-00-pm-2026-09-22@letsdoitdallas.com
+UID:skill-building-series-scrunchies-ages-13-|west-garland-library-garland|
+ 06-00-pm-2026-09-22@letsdoitdallas.com
 DTSTAMP:20260922T230000Z
 DTSTART:20260922T230000Z
 DTEND:20260923T020000Z
-SUMMARY:Skill Building Series: Scrunchies (Ages 13+) at the West Garland Li
- brary
-LOCATION:3921 W. Walnut St. · Garland
+SUMMARY:Skill Building Series: Scrunchies (Ages 13+)
+LOCATION:West Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-22&e=skill-building-series-scr
- unchies-ages-13-at-the-west-garland-library%7C3921-w-walnut-st-garland%7C0
- 6-00-pm
+ unchies-ages-13-%7Cwest-garland-library-garland%7C06-00-pm
 DESCRIPTION:6:00 p.m.\; Build your skills in this hands-on project class\, 
  designed for those already certified to use the sewing machine in our make
  rspace. Ready to stitch something fun? In this session\, you’ll level up
@@ -8005,16 +8326,31 @@ URL:https://letsdoitdallas.com/?date=2026-09-22&e=american-mahjong-hour-adu
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:spanish-conversation-circle-ages-18-at-the-south-garland-library|4845-b
- roadway-blvd-garland|06-30-pm-2026-09-22@letsdoitdallas.com
+UID:cuentos-y-cantos-0-5-a-os-|biblioteca-south-garland-garland|06-30-pm-20
+ 26-09-22@letsdoitdallas.com
 DTSTAMP:20260922T233000Z
 DTSTART:20260922T233000Z
 DTEND:20260923T023000Z
-SUMMARY:Spanish Conversation Circle (Ages 18+) at the South Garland Library
-LOCATION:4845 Broadway Blvd. · Garland
+SUMMARY:Cuentos y Cantos (0-5 Años)
+LOCATION:Biblioteca South Garland
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=cuentos-y-cantos-0-5-a-os
+ -%7Cbiblioteca-south-garland-garland%7C06-30-pm
+DESCRIPTION:6:30 p.m.\; Acompáñenos para unos cuentos y cantos mientras a
+ prendemos sobre temas escolares y lo más importante\, las habilidades nec
+ esarias para leer. September 22\, 2026 06:30 PM - 07:30 PM 4845 Broadway B
+ lvd.Garland\, TX 75043 https://www.garlandtx.gov/Calendar.aspx?EID=13102/6
+ 39 — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:spanish-conversation-circle-ages-18-|south-garland-library-garland|06-3
+ 0-pm-2026-09-22@letsdoitdallas.com
+DTSTAMP:20260922T233000Z
+DTSTART:20260922T233000Z
+DTEND:20260923T023000Z
+SUMMARY:Spanish Conversation Circle (Ages 18+)
+LOCATION:South Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-22&e=spanish-conversation-circ
- le-ages-18-at-the-south-garland-library%7C4845-broadway-blvd-garland%7C06-
- 30-pm
+ le-ages-18-%7Csouth-garland-library-garland%7C06-30-pm
 DESCRIPTION:6:30 p.m.\; Are you ready to take your Spanish conversation ski
  lls to the next level? Join our Spanish Conversation Circle\, where you'll
   engage in relaxed\, small‐group chats — no pressure\, just practice. 
@@ -8061,6 +8397,22 @@ LOCATION:310 E. Parkerville Road · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-09-22&e=beginner-s-yoga%7C310-e-p
  arkerville-road-cedar-hill%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:speed-dating-in-burleson-speed-dating-40s-50s|old-texas-brewing-burleso
+ n-burleson|7-00-pm-2026-09-22@letsdoitdallas.com
+DTSTAMP:20260923T000000Z
+DTSTART:20260923T000000Z
+DTEND:20260923T030000Z
+SUMMARY:Speed Dating In Burleson - Speed Dating 40s/50s
+LOCATION:Old Texas Brewing - Burleson
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=speed-dating-in-burleson-
+ speed-dating-40s-50s%7Cold-texas-brewing-burleson-burleson%7C7-00-pm
+DESCRIPTION:Another Fabulous Singles Event ♥ For Ages 40-59 @ Old Texas B
+ rewing - Burleson in Burleson\, TX. As featured recently in the WSJ\, NPR 
+ and TLC 90 Day Fiance - The Single Life. Meet the love of your life at the
+  best and most trusted dating event company in the US. Where else can you 
+ — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:yg-the-gentlemen-s-club-tour|the-echo-lounge-music-hall-dallas|7-00-pm-
@@ -8179,6 +8531,18 @@ DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
+UID:soulfly-nailbomb-incite|trees-dallas|doors-see-listing-2026-09-23@letsd
+ oitdallas.com
+DTSTAMP:20260923T000000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:SOULFLY * NAILBOMB * INCITE
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=soulfly-nailbomb-incite%7
+ Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:parks-for-pollinators-what-remains|frisco|07-30-am-2026-09-23@letsdoitd
  allas.com
 DTSTAMP:20260923T123000Z
@@ -8215,16 +8579,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-23&e=homeschool-p-e-%7C1700-ve
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:baby-bounce-read-birth-18-months-at-the-north-garland-library|3845-n-ga
- rland-ave-garland|10-00-am-2026-09-23@letsdoitdallas.com
+UID:baby-bounce-read-birth-18-months-|north-garland-library-garland|10-00-a
+ m-2026-09-23@letsdoitdallas.com
 DTSTAMP:20260923T150000Z
 DTSTART:20260923T150000Z
 DTEND:20260923T180000Z
-SUMMARY:Baby Bounce & Read (Birth-18 Months) at the North Garland Library
-LOCATION:3845 N. Garland Ave.
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:North Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-23&e=baby-bounce-read-birth-18
- -months-at-the-north-garland-library%7C3845-n-garland-ave-garland%7C10-00-
- am
+ -months-%7Cnorth-garland-library-garland%7C10-00-am
 DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
   will learn\, play\, and grow together in this lap-sit storytime that intr
  oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
@@ -8259,15 +8622,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-23&e=baby-me-0-10-months-%7C68
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:family-read-play-ages-0-5-at-the-west-garland-library|3921-w-walnut-st-
- garland|10-30-am-2026-09-23@letsdoitdallas.com
+UID:family-read-play-ages-0-5-|west-garland-library-garland|10-30-am-2026-0
+ 9-23@letsdoitdallas.com
 DTSTAMP:20260923T153000Z
 DTSTART:20260923T153000Z
 DTEND:20260923T183000Z
-SUMMARY:Family Read & Play (Ages 0-5) at the West Garland Library
-LOCATION:3921 W. Walnut St. · Garland
+SUMMARY:Family Read & Play (Ages 0-5)
+LOCATION:West Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-23&e=family-read-play-ages-0-5
- -at-the-west-garland-library%7C3921-w-walnut-st-garland%7C10-30-am
+ -%7Cwest-garland-library-garland%7C10-30-am
 DESCRIPTION:10:30 a.m.\; The whole family will learn\, play\, and grow duri
  ng this interactive storytime full of stories\, creative movement\, and so
  ngs that will strengthen listening\, language\, and early literacy skills.
@@ -8291,15 +8654,31 @@ DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:preschool-discovery-3-5-years-at-the-south-garland-library|4845-broadwa
- y-blvd-garland|11-00-am-2026-09-23@letsdoitdallas.com
+UID:play-learn-0-5-years-|north-garland-library-garland|11-00-am-2026-09-23
+ @letsdoitdallas.com
 DTSTAMP:20260923T160000Z
 DTSTART:20260923T160000Z
 DTEND:20260923T190000Z
-SUMMARY:Preschool Discovery (3-5 Years) at the South Garland Library
-LOCATION:4845 Broadway Blvd. · Garland
+SUMMARY:Play & Learn (0-5 Years)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=play-learn-0-5-years-%7Cn
+ orth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; It’s playtime! Families can participate in Play 
+ & Learn\, a weekly event where children ages 0-5 and their caregivers can 
+ enjoy an assortment of toys\, games and activities that foster imagination
+ \, creativity and problem-solving. September 23\, 2026 11:00 AM - 12:00 PM
+  3 — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-discovery-3-5-years-|south-garland-library-garland|11-00-am-2
+ 026-09-23@letsdoitdallas.com
+DTSTAMP:20260923T160000Z
+DTSTART:20260923T160000Z
+DTEND:20260923T190000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:South Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-23&e=preschool-discovery-3-5-y
- ears-at-the-south-garland-library%7C4845-broadway-blvd-garland%7C11-00-am
+ ears-%7Csouth-garland-library-garland%7C11-00-am
 DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
  ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
  ters\, numbers\, and much more that will help develop your preschooler's e
@@ -8319,35 +8698,50 @@ URL:https://letsdoitdallas.com/?date=2026-09-23&e=lunch-circuit%7C310-e-par
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:sewing-workshop-ages-13-at-the-central-library|625-austin-st-garland|12
- -00-pm-2026-09-23@letsdoitdallas.com
+UID:sewing-workshop-ages-13-|central-library-garland|12-00-pm-2026-09-23@le
+ tsdoitdallas.com
 DTSTAMP:20260923T170000Z
 DTSTART:20260923T170000Z
 DTEND:20260923T200000Z
-SUMMARY:Sewing Workshop (Ages 13+) at the Central Library
-LOCATION:625 Austin St. · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=sewing-workshop-ages-13-a
- t-the-central-library%7C625-austin-st-garland%7C12-00-pm
+SUMMARY:Sewing Workshop (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=sewing-workshop-ages-13-%
+ 7Ccentral-library-garland%7C12-00-pm
 DESCRIPTION:12:00 p.m.\; Learn new sewing techniques. September 23\, 2026 1
  2:00 PM - 02:30 PM 625 Austin St.Garland\, TX 75040 https://www.garlandtx.
  gov/Calendar.aspx?EID=12996/639239507460000000 — More: https://letsdoitd
  allas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:how-to-use-libby-ages-18-at-the-central-library|625-austin-st-garland|0
- 2-00-pm-2026-09-23@letsdoitdallas.com
+UID:how-to-use-libby-ages-18-|central-library-garland|02-00-pm-2026-09-23@l
+ etsdoitdallas.com
 DTSTAMP:20260923T190000Z
 DTSTART:20260923T190000Z
 DTEND:20260923T220000Z
-SUMMARY:How to Use Libby (Ages 18+) at the Central Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:How to Use Libby (Ages 18+)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-23&e=how-to-use-libby-ages-18-
- at-the-central-library%7C625-austin-st-garland%7C02-00-pm
+ %7Ccentral-library-garland%7C02-00-pm
 DESCRIPTION:2:00 p.m.\; Did you know your library card gives you access to 
  thousands of eBooks\, eAudiobooks and eMagazines? This technology class fo
  cuses on the library app Libby. Bring your Garland Library card and your p
  ersonal device to set up your account and follow along. September 23\, 2 
  — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:teen-craft-corner-ages-13-17-|central-library-garland|03-00-pm-2026-09-
+ 23@letsdoitdallas.com
+DTSTAMP:20260923T200000Z
+DTSTART:20260923T200000Z
+DTEND:20260923T230000Z
+SUMMARY:Teen Craft Corner (Ages 13-17)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=teen-craft-corner-ages-13
+ -17-%7Ccentral-library-garland%7C03-00-pm
+DESCRIPTION:3:00 p.m.\; Join us at the Teen Craft Corner for some relaxing 
+ creativity and fun! September 23\, 2026 03:00 PM - 04:00 PM 625 Austin St.
+ Garland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12977/63922
+ 7535210000000 — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:afternoon-storytime-and-crafts|grapevine|04-00-pm-2026-09-23@letsdoitda
@@ -8365,17 +8759,15 @@ DESCRIPTION:Join us on Wednesdays for a relaxing afternoon of storytime and
  17717/639228425570000000 — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-at-the-north-garland-library|3
- 845-n-garland-ave-garland|04-00-pm-2026-09-23@letsdoitdallas.com
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-09-23@letsdoitdallas.com
 DTSTAMP:20260923T210000Z
 DTSTART:20260923T210000Z
 DTEND:20260924T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17) at the North Garland Lib
- rary
-LOCATION:3845 N. Garland Ave.
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-23&e=teenz-place-after-school-
- hour-ages-13-17-at-the-north-garland-library%7C3845-n-garland-ave-garland%
- 7C04-00-pm
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
 DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
  eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
   snacks while supplies last. Bring your friends! September 23\, 2026 04:00
@@ -8446,17 +8838,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-23&e=you-up-next-live-music-ta
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:texas-true-crime-history-of-the-texas-rangers-ages-18-at-the-central-li
- brary|625-austin-st-garland|06-00-pm-2026-09-23@letsdoitdallas.com
+UID:texas-true-crime-history-of-the-texas-rangers-ages-18-|central-library-
+ garland|06-00-pm-2026-09-23@letsdoitdallas.com
 DTSTAMP:20260923T230000Z
 DTSTART:20260923T230000Z
 DTEND:20260924T020000Z
-SUMMARY:Texas True Crime: History of the Texas Rangers (Ages 18+) at the Ce
- ntral Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:Texas True Crime: History of the Texas Rangers (Ages 18+)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-23&e=texas-true-crime-history-
- of-the-texas-rangers-ages-18-at-the-central-library%7C625-austin-st-garlan
- d%7C06-00-pm
+ of-the-texas-rangers-ages-18-%7Ccentral-library-garland%7C06-00-pm
 DESCRIPTION:6:00 p.m.\; Join us for the next event in our riveting series e
  xploring true crime across the Lone Star State — from legendary criminal
  s to some of the most chilling cases in Texas history. This session featur
@@ -8476,16 +8866,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-23&e=unidos%7C1201-e-louisiana
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:bridging-the-gap-renters-ages-18-at-the-south-garland-library|4845-broa
- dway-blvd-garland|06-30-pm-2026-09-23@letsdoitdallas.com
+UID:bridging-the-gap-renters-ages-18-|south-garland-library-garland|06-30-p
+ m-2026-09-23@letsdoitdallas.com
 DTSTAMP:20260923T233000Z
 DTSTART:20260923T233000Z
 DTEND:20260924T023000Z
-SUMMARY:Bridging the Gap: Renters (Ages 18+) at the South Garland Library
-LOCATION:4845 Broadway Blvd. · Garland
+SUMMARY:Bridging the Gap: Renters (Ages 18+)
+LOCATION:South Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-23&e=bridging-the-gap-renters-
- ages-18-at-the-south-garland-library%7C4845-broadway-blvd-garland%7C06-30-
- pm
+ ages-18-%7Csouth-garland-library-garland%7C06-30-pm
 DESCRIPTION:6:30 p.m.\; Are you a renter in Garland? Learn basic preventati
  ve maintenance such as how to shut off your water and what you should and 
  should not do in your breaker box. Learn about trash\, recycling\, parking
@@ -8661,6 +9050,43 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:brother-and-the-hayes-release-party-|the-cedars-dallas|doors-see-listin
+ g-2026-09-24@letsdoitdallas.com
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Brother and The Hayes - Release Party!
+LOCATION:The Cedars · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=brother-and-the-hayes-rel
+ ease-party-%7Cthe-cedars-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:geordie-greep-an-evening-with|lower-greenville|doors-see-listing-2026-0
+ 9-24@letsdoitdallas.com
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Geordie Greep - An Evening With
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=geordie-greep-an-evening-
+ with%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:wade-forster-with-special-guest-danno-simpson|oak-cliff|doors-see-listi
+ ng-2026-09-24@letsdoitdallas.com
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Wade Forster with special guest Danno Simpson
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=wade-forster-with-special
+ -guest-danno-simpson%7Coak-cliff%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/
+END:VEVENT
+BEGIN:VEVENT
 UID:mckinney-community-development-corporation-mcdc-|401-e-virginia-st-mcki
  nney|08-00-am-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260924T130000Z
@@ -8673,15 +9099,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-24&e=mckinney-community-develo
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:preschool-discovery-3-5-years-at-the-central-library|625-austin-st-garl
- and|10-00-am-2026-09-24@letsdoitdallas.com
+UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-09
+ -24@letsdoitdallas.com
 DTSTAMP:20260924T150000Z
 DTSTART:20260924T150000Z
 DTEND:20260924T180000Z
-SUMMARY:Preschool Discovery (3-5 Years) at the Central Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-24&e=preschool-discovery-3-5-y
- ears-at-the-central-library%7C625-austin-st-garland%7C10-00-am
+ ears-%7Ccentral-library-garland%7C10-00-am
 DESCRIPTION:10:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
  ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
  ters\, numbers\, and much more that will help develop your preschooler's e
@@ -8713,6 +9139,22 @@ LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-24&e=toddler-time-16-months-3-
  years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:cuentos-y-cantos-0-5-a-os-|biblioteca-central-garland|11-00-am-2026-09-
+ 24@letsdoitdallas.com
+DTSTAMP:20260924T160000Z
+DTSTART:20260924T160000Z
+DTEND:20260924T190000Z
+SUMMARY:Cuentos y Cantos (0-5 Años)
+LOCATION:Biblioteca Central · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=cuentos-y-cantos-0-5-a-os
+ -%7Cbiblioteca-central-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Acompáñenos para unos cuentos y cantos mientras 
+ aprendemos sobre temas escolares y lo más importante\, las habilidades ne
+ cesarias para leer. September 24\, 2026 11:00 AM - 12:00 PM 625 Austin St.
+ Garland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12948/63922
+ 74 — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:little-explorers-3-5-years-|6861-w-eldorado-parkway-mckinney|11-30-am-2
@@ -8779,17 +9221,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-24&e=kidokinetics%7C310-e-park
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-social-hour-featuring-matt-tolentino-ages-18-at-the-central-library
- |625-austin-st-garland|02-00-pm-2026-09-24@letsdoitdallas.com
+UID:the-social-hour-featuring-matt-tolentino-ages-18-|central-library-garla
+ nd|02-00-pm-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260924T190000Z
 DTSTART:20260924T190000Z
 DTEND:20260924T220000Z
-SUMMARY:The Social Hour Featuring Matt Tolentino (Ages 18+) at the Central 
- Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:The Social Hour Featuring Matt Tolentino (Ages 18+)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-24&e=the-social-hour-featuring
- -matt-tolentino-ages-18-at-the-central-library%7C625-austin-st-garland%7C0
- 2-00-pm
+ -matt-tolentino-ages-18-%7Ccentral-library-garland%7C02-00-pm
 DESCRIPTION:2:00 p.m.\; The Social Hour is a special afternoon program for 
  older adults held throughout the year\, featuring live entertainment and e
  ducational presentations. This September\, enjoy an afternoon of music wit
@@ -8823,17 +9263,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-24&e=grapevine-housing-authori
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-at-the-north-garland-library|3
- 845-n-garland-ave-garland|04-00-pm-2026-09-24@letsdoitdallas.com
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260924T210000Z
 DTSTART:20260924T210000Z
 DTEND:20260925T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17) at the North Garland Lib
- rary
-LOCATION:3845 N. Garland Ave.
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-24&e=teenz-place-after-school-
- hour-ages-13-17-at-the-north-garland-library%7C3845-n-garland-ave-garland%
- 7C04-00-pm
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
 DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
  eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
   snacks while supplies last. Bring your friends! September 24\, 2026 04:00
@@ -8853,17 +9291,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-24&e=kids-crochet-club-ages-7-
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:teen-d-d-one-shot-adventure-ages-13-17-at-the-south-garland-library|484
- 5-broadway-blvd-garland|04-30-pm-2026-09-24@letsdoitdallas.com
+UID:teen-d-d-one-shot-adventure-ages-13-17-|south-garland-library-garland|0
+ 4-30-pm-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260924T213000Z
 DTSTART:20260924T213000Z
 DTEND:20260925T003000Z
-SUMMARY:Teen D&D One-Shot Adventure (Ages 13-17) at the South Garland Libra
- ry
-LOCATION:4845 Broadway Blvd. · Garland
+SUMMARY:Teen D&D One-Shot Adventure (Ages 13-17)
+LOCATION:South Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-24&e=teen-d-d-one-shot-adventu
- re-ages-13-17-at-the-south-garland-library%7C4845-broadway-blvd-garland%7C
- 04-30-pm
+ re-ages-13-17-%7Csouth-garland-library-garland%7C04-30-pm
 DESCRIPTION:4:30 p.m.\; Whether you’re new to tabletop roleplaying or a s
  easoned adventurer\, join us for a Dungeons & Dragons one-shot adventure! 
  For ages 13 to 17. No previous D&D experience required. Teens are welcome 
@@ -8883,15 +9319,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-24&e=art-is-life%7C310-e-parke
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:beginner-reader-book-club-at-the-west-garland-library|3921-w-walnut-st-
- garland|05-00-pm-2026-09-24@letsdoitdallas.com
+UID:beginner-reader-book-club|west-garland-library-garland|05-00-pm-2026-09
+ -24@letsdoitdallas.com
 DTSTAMP:20260924T220000Z
 DTSTART:20260924T220000Z
 DTEND:20260925T010000Z
-SUMMARY:Beginner Reader Book Club at the West Garland Library
-LOCATION:3921 W. Walnut St. · Garland
+SUMMARY:Beginner Reader Book Club
+LOCATION:West Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-24&e=beginner-reader-book-club
- -at-the-west-garland-library%7C3921-w-walnut-st-garland%7C05-00-pm
+ %7Cwest-garland-library-garland%7C05-00-pm
 DESCRIPTION:5:00 p.m.\; Join us for a fun read-aloud book club with activit
  ies and crafts just for beginner readers ages six to eight! This program i
  s perfect for children who have started their reading journey and want to 
@@ -8899,15 +9335,15 @@ DESCRIPTION:5:00 p.m.\; Join us for a fun read-aloud book club with activit
  More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:food-truck-league-at-signature-park|450-pioneer-trail-cedar-hill|05-00-
- pm-2026-09-24@letsdoitdallas.com
+UID:food-truck-league|signature-park-cedar-hill|05-00-pm-2026-09-24@letsdoi
+ tdallas.com
 DTSTAMP:20260924T220000Z
 DTSTART:20260924T220000Z
 DTEND:20260925T010000Z
-SUMMARY:Food Truck League at Signature Park
-LOCATION:450 Pioneer Trail · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=food-truck-league-at-sign
- ature-park%7C450-pioneer-trail-cedar-hill%7C05-00-pm
+SUMMARY:Food Truck League
+LOCATION:Signature Park · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=food-truck-league%7Csigna
+ ture-park-cedar-hill%7C05-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
@@ -9005,15 +9441,15 @@ DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
-UID:thrills-chills-book-club-ages-18-at-the-central-library|625-austin-st-g
- arland|06-30-pm-2026-09-24@letsdoitdallas.com
+UID:thrills-chills-book-club-ages-18-|central-library-garland|06-30-pm-2026
+ -09-24@letsdoitdallas.com
 DTSTAMP:20260924T233000Z
 DTSTART:20260924T233000Z
 DTEND:20260925T023000Z
-SUMMARY:Thrills & Chills Book Club (Ages 18+) at the Central Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:Thrills & Chills Book Club (Ages 18+)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-24&e=thrills-chills-book-club-
- ages-18-at-the-central-library%7C625-austin-st-garland%7C06-30-pm
+ ages-18-%7Ccentral-library-garland%7C06-30-pm
 DESCRIPTION:6:30 p.m.\; An adult book club for mystery and thriller enthusi
  asts! Join us for engaging discussions and enjoy light refreshments. Septe
  mber 24\, 2026 06:30 PM - 07:30 PM 625 Austin St.Garland\, TX 75040 https:
@@ -9299,6 +9735,31 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/
 END:VEVENT
 BEGIN:VEVENT
+UID:bob-schneider-early-show|oak-cliff|doors-see-listing-2026-09-25@letsdoi
+ tdallas.com
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Bob Schneider - Early Show
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=bob-schneider-early-show%
+ 7Coak-cliff%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/
+END:VEVENT
+BEGIN:VEVENT
+UID:gothicumbia|trees-dallas|doors-see-listing-2026-09-25@letsdoitdallas.co
+ m
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:GOTHICUMBIA
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=gothicumbia%7Ctrees-dalla
+ s%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:savannah-bananas-vs-texas-tailgaters|globe-life-field-arlington|see-det
  ails-2026-09-25@letsdoitdallas.com
 DTSTAMP:20260925T000000Z
@@ -9310,6 +9771,30 @@ URL:https://letsdoitdallas.com/?date=2026-09-25&e=savannah-bananas-vs-texas
  -tailgaters%7Cglobe-life-field-arlington%7Csee-details
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-flinns-max-and-brittney-flinn|the-cedars-dallas|doors-see-listing-2
+ 026-09-25@letsdoitdallas.com
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:The Flinns - Max and Brittney Flinn
+LOCATION:The Cedars · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=the-flinns-max-and-brittn
+ ey-flinn%7Cthe-cedars-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:ween-tribute-awesome-sound-nirvana-tribute-oatmeal-pizza|lower-greenvil
+ le|doors-see-listing-2026-09-25@letsdoitdallas.com
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:WEEN TRIBUTE - Awesome Sound & NIRVANA TRIBUTE - Oatmeal Pizza
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=ween-tribute-awesome-soun
+ d-nirvana-tribute-oatmeal-pizza%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:chair-volleyball|310-e-parkerville-road-cedar-hill|09-30-am-2026-09-25@
@@ -9339,28 +9824,27 @@ DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:artist-in-residence-at-dogwood-canyon|cedar-hill|10-00-am-2026-09-25@le
- tsdoitdallas.com
+UID:artist-in-residence|dogwood-canyon-cedar-hill|10-00-am-2026-09-25@letsd
+ oitdallas.com
 DTSTAMP:20260925T150000Z
 DTSTART:20260925T150000Z
 DTEND:20260925T180000Z
-SUMMARY:Artist in Residence at Dogwood Canyon
-LOCATION:Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=artist-in-residence-at-do
- gwood-canyon%7Ccedar-hill%7C10-00-am
+SUMMARY:Artist in Residence
+LOCATION:Dogwood Canyon · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=artist-in-residence%7Cdog
+ wood-canyon-cedar-hill%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:baby-bounce-read-birth-18-months-at-the-south-garland-library|4845-broa
- dway-blvd-garland|10-00-am-2026-09-25@letsdoitdallas.com
+UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a
+ m-2026-09-25@letsdoitdallas.com
 DTSTAMP:20260925T150000Z
 DTSTART:20260925T150000Z
 DTEND:20260925T180000Z
-SUMMARY:Baby Bounce & Read (Birth-18 Months) at the South Garland Library
-LOCATION:4845 Broadway Blvd. · Garland
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:South Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-25&e=baby-bounce-read-birth-18
- -months-at-the-south-garland-library%7C4845-broadway-blvd-garland%7C10-00-
- am
+ -months-%7Csouth-garland-library-garland%7C10-00-am
 DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
   will learn\, play\, and grow together in this lap-sit storytime that intr
  oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
@@ -9368,15 +9852,15 @@ DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
  AM - — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:basic-computer-practice-ages-18-at-the-central-library|625-austin-st-ga
- rland|10-00-am-2026-09-25@letsdoitdallas.com
+UID:basic-computer-practice-ages-18-|central-library-garland|10-00-am-2026-
+ 09-25@letsdoitdallas.com
 DTSTAMP:20260925T150000Z
 DTSTART:20260925T150000Z
 DTEND:20260925T180000Z
-SUMMARY:Basic Computer Practice (Ages 18+) at the Central Library
-LOCATION:625 Austin St. · Garland
+SUMMARY:Basic Computer Practice (Ages 18+)
+LOCATION:Central Library · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-25&e=basic-computer-practice-a
- ges-18-at-the-central-library%7C625-austin-st-garland%7C10-00-am
+ ges-18-%7Ccentral-library-garland%7C10-00-am
 DESCRIPTION:10:00 a.m.\; Get basic computer practice every Friday morning. 
  Learn the coordination skills needed to use a computer independently with 
  confidence. Technology accessories like the mouse and keyboard take time a
@@ -9384,36 +9868,20 @@ DESCRIPTION:10:00 a.m.\; Get basic computer practice every Friday morning.
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:toddler-time-18-36-months-at-the-north-garland-library|3845-n-garland-a
- ve-garland|10-00-am-2026-09-25@letsdoitdallas.com
+UID:toddler-time-18-36-months-|north-garland-library-garland|10-00-am-2026-
+ 09-25@letsdoitdallas.com
 DTSTAMP:20260925T150000Z
 DTSTART:20260925T150000Z
 DTEND:20260925T180000Z
-SUMMARY:Toddler Time (18-36 Months) at the North Garland Library
-LOCATION:3845 N. Garland Ave.
+SUMMARY:Toddler Time (18-36 Months)
+LOCATION:North Garland Library
 URL:https://letsdoitdallas.com/?date=2026-09-25&e=toddler-time-18-36-months
- -at-the-north-garland-library%7C3845-n-garland-ave-garland%7C10-00-am
+ -%7Cnorth-garland-library-garland%7C10-00-am
 DESCRIPTION:10:00 a.m.\; Toddler Time is a storytime for children ages 18 m
  onths to 3 years old. Toddler Time storytimes will be a mixture of age app
  ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
  rachute play. September 25\, 2026 10:00 AM - 11:00 AM 3845 N. Garland Ave.
  Ga — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:baby-bounce-read-birth-18-months-at-the-west-garland-library|3921-w-wal
- nut-st-garland|10-30-am-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260925T153000Z
-DTSTART:20260925T153000Z
-DTEND:20260925T183000Z
-SUMMARY:Baby Bounce & Read (Birth-18 Months) at the West Garland Library
-LOCATION:3921 W. Walnut St. · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=baby-bounce-read-birth-18
- -months-at-the-west-garland-library%7C3921-w-walnut-st-garland%7C10-30-am
-DESCRIPTION:10:30 a.m.\; Babies\, birth to 18 months\, and their caregivers
-  will learn\, play\, and grow together in this lap-sit storytime that intr
- oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
- y literacy practices into their everyday lives. September 25\, 2026 10:30 
- AM - — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:bouncing-babies|grapevine|10-30-am-2026-09-25@letsdoitdallas.com
@@ -9444,16 +9912,20 @@ URL:https://letsdoitdallas.com/?date=2026-09-25&e=toddler-story-time%7Clanc
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
- am-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260925T153000Z
-DTSTART:20260925T153000Z
-DTEND:20260925T183000Z
-SUMMARY:Toddler Time (16 Months-3 Years)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=toddler-time-16-months-3-
- years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/
+UID:preschool-discovery-3-5-years-|north-garland-library-garland|11-00-am-2
+ 026-09-25@letsdoitdallas.com
+DTSTAMP:20260925T160000Z
+DTSTART:20260925T160000Z
+DTEND:20260925T190000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=preschool-discovery-3-5-y
+ ears-%7Cnorth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
+ ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
+ ters\, numbers\, and much more that will help develop your preschooler's e
+ arly literacy skills. September 25\, 2026 11:00 AM - 12:00 PM 3845 N. Garl
+ an — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:mahjong-open-play|grapevine|12-30-pm-2026-09-25@letsdoitdallas.com
@@ -9891,6 +10363,57 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
+UID:blondie-ramones-tribute-blondie-ramone-w-dead-kennedys-tribute-dua|lowe
+ r-greenville|doors-see-listing-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:BLONDIE RAMONES TRIBUTE - Blondie Ramone w / DEAD KENNEDYS TRIBUTE 
+ - DUA
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=blondie-ramones-tribute-b
+ londie-ramone-w-dead-kennedys-tribute-dua%7Clower-greenville%7Cdoors-see-l
+ isting
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:creekbed-carter-hogan|the-cedars-dallas|doors-see-listing-2026-09-26@le
+ tsdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Creekbed Carter Hogan
+LOCATION:The Cedars · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=creekbed-carter-hogan%7Ct
+ he-cedars-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:isaac-slade-formerly-of-the-fray-songs-i-know-solo-tour-2026|oak-cliff|
+ doors-see-listing-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Isaac Slade (Formerly of The Fray): Songs I Know - Solo Tour 2026
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=isaac-slade-formerly-of-t
+ he-fray-songs-i-know-solo-tour-2026%7Coak-cliff%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/
+END:VEVENT
+BEGIN:VEVENT
+UID:jake-dexter-the-main-street-sound|trees-dallas|doors-see-listing-2026-0
+ 9-26@letsdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:JAKE DEXTER & THE MAIN STREET SOUND
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=jake-dexter-the-main-stre
+ et-sound%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:north-texas-mean-green-football-vs-houston-christian-huskies-football|d
  atcu-stadium-denton|see-details-2026-09-26@letsdoitdallas.com
 DTSTAMP:20260926T000000Z
@@ -10320,6 +10843,30 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:ariel-posen-w-zach-person|lower-greenville|doors-see-listing-2026-09-27
+ @letsdoitdallas.com
+DTSTAMP:20260927T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Ariel Posen w /  Zach Person
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=ariel-posen-w-zach-person
+ %7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:bluegrass-heritage-music-show-jam|the-cedars-dallas|doors-see-listing-2
+ 026-09-27@letsdoitdallas.com
+DTSTAMP:20260927T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Bluegrass Heritage Music Show & Jam
+LOCATION:The Cedars · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=bluegrass-heritage-music-
+ show-jam%7Cthe-cedars-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:savannah-bananas-vs-texas-tailgaters|globe-life-field-arlington|see-det
  ails-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260927T000000Z
@@ -10331,6 +10878,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-27&e=savannah-bananas-vs-texas
  -tailgaters%7Cglobe-life-field-arlington%7Csee-details
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:geeks-who-drink-free-trivia|lower-greenville|doors-see-listing-2026-09-
+ 27@letsdoitdallas.com
+DTSTAMP:20260927T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:geeks who drink FREE Trivia
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=geeks-who-drink-free-triv
+ ia%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-california-golden-bears-womens-volley
@@ -10584,6 +11144,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
+UID:free-cult-classic-movie-monday-zoolander|lower-greenville|doors-see-lis
+ ting-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T000000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:FREE Cult Classic Movie Monday: ZOOLANDER
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=free-cult-classic-movie-m
+ onday-zoolander%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/
+END:VEVENT
+BEGIN:VEVENT
 UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-09-28@
  letsdoitdallas.com
 DTSTAMP:20260928T173000Z
@@ -10663,6 +11236,22 @@ DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/
 END:VEVENT
 BEGIN:VEVENT
+UID:speed-dating-in-saginaw-speed-dating-ages-25-42|atheneum-cider-saginaw|
+ 7-00-pm-2026-09-29@letsdoitdallas.com
+DTSTAMP:20260930T000000Z
+DTSTART:20260930T000000Z
+DTEND:20260930T030000Z
+SUMMARY:Speed Dating In Saginaw - Speed Dating ages 25-42
+LOCATION:Atheneum Cider · Saginaw
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=speed-dating-in-saginaw-s
+ peed-dating-ages-25-42%7Catheneum-cider-saginaw%7C7-00-pm
+DESCRIPTION:Another Fabulous Singles Event ♥ For Ages 25-42 @ Atheneum Ci
+ der in Saginaw\, TX. As featured recently in the WSJ\, NPR and TLC 90 Day 
+ Fiance - The Single Life. Meet the love of your life at the best and most 
+ trusted dating event company in the US. Where else can you meet up 14 ama 
+ — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:tinlicker-north-america-2026|house-of-blues-dallas-dallas|7-00-pm-2026-
  09-29@letsdoitdallas.com
 DTSTAMP:20260930T000000Z
@@ -10727,6 +11316,31 @@ URL:https://letsdoitdallas.com/?date=2026-09-29&e=the-ox-and-the-waymakers%
  7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/
+END:VEVENT
+BEGIN:VEVENT
+UID:emmaline-sinatra-my-sweetheart-tour|oak-cliff|doors-see-listing-2026-09
+ -30@letsdoitdallas.com
+DTSTAMP:20260930T000000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Emmaline - Sinatra\, My Sweetheart Tour
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=emmaline-sinatra-my-sweet
+ heart-tour%7Coak-cliff%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/
+END:VEVENT
+BEGIN:VEVENT
+UID:poor-david-s-open-mic-hosted-by-rob-case|the-cedars-dallas|doors-see-li
+ sting-2026-09-30@letsdoitdallas.com
+DTSTAMP:20260930T000000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Poor David's Open Mic - Hosted by Rob Case
+LOCATION:The Cedars · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=poor-david-s-open-mic-hos
+ ted-by-rob-case%7Cthe-cedars-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-09-30@
@@ -10869,6 +11483,18 @@ URL:https://letsdoitdallas.com/?date=2026-09-30&e=wub-wednesday%7Cthree-lin
  ks-deep-ellum-dallas%7C10-30-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-special-tribute-to-dr-ralph-stanley|the-cedars-dallas|doors-see-listi
+ ng-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:A SPECIAL TRIBUTE TO DR. RALPH STANLEY
+LOCATION:The Cedars · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=a-special-tribute-to-dr-r
+ alph-stanley%7Cthe-cedars-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:amyl-and-the-sniffers|longhorn-backyard-amphitheater-dallas|7-00-pm-202
@@ -11024,6 +11650,56 @@ URL:https://letsdoitdallas.com/?date=2026-10-01&e=hybrid-minds-ages-18-%7Cs
  ilo-dallas%7C9-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/
+END:VEVENT
+BEGIN:VEVENT
+UID:bryce-bangs-w-j-hawkins-the-night-shift|lower-greenville|doors-see-list
+ ing-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Bryce Bangs w / J Hawkins & The Night Shift
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=bryce-bangs-w-j-hawkins-t
+ he-night-shift%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/
+END:VEVENT
+BEGIN:VEVENT
+UID:dawn-and-hawkes-return-to-poor-david-s|the-cedars-dallas|doors-see-list
+ ing-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Dawn and Hawkes Return to Poor David's
+LOCATION:The Cedars · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=dawn-and-hawkes-return-to
+ -poor-david-s%7Cthe-cedars-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:don-was-and-the-pan-detroit-ensemble|oak-cliff|doors-see-listing-2026-1
+ 0-02@letsdoitdallas.com
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Don Was and The Pan-Detroit Ensemble
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=don-was-and-the-pan-detro
+ it-ensemble%7Coak-cliff%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/
+END:VEVENT
+BEGIN:VEVENT
+UID:inxs-tribute-intxs-tears-for-fears-tribute-mad-world|lower-greenville|d
+ oors-see-listing-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:INXS TRIBUTE - INTXS & TEARS FOR FEARS TRIBUTE - Mad World
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=inxs-tribute-intxs-tears-
+ for-fears-tribute-mad-world%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:jurassic-quest-|-fort-worth-convention-center-|-fort-worth-tx-2026|fort
@@ -11323,6 +11999,30 @@ URL:https://letsdoitdallas.com/?date=2026-10-02&e=chris-young-18-event-%7Cb
  illy-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:blisspop-presents-hot-in-herre-2000s-dance-party|lower-greenville|doors
+ -see-listing-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Blisspop Presents: Hot In Herre: 2000s Dance Party
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=blisspop-presents-hot-in-
+ herre-2000s-dance-party%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-nissen|oak-cliff|doors-see-listing-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Emma Nissen
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=emma-nissen%7Coak-cliff%7
+ Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-mustangs-football-vs-boston-college-eagles-football|gerald-ford-sta
@@ -12001,6 +12701,31 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:honky-tonk-tuesdays-with-the-raised-right-men-|the-cedars-dallas|doors-
+ see-listing-2026-10-06@letsdoitdallas.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Honky Tonk Tuesdays with the Raised Right Men!
+LOCATION:The Cedars · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=honky-tonk-tuesdays-with-
+ the-raised-right-men-%7Cthe-cedars-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:world-famous-pets-with-special-guest-ceci-ceci|oak-cliff|doors-see-list
+ ing-2026-10-06@letsdoitdallas.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:World Famous Pets with special guest Ceci Ceci
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=world-famous-pets-with-sp
+ ecial-guest-ceci-ceci%7Coak-cliff%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/
+END:VEVENT
+BEGIN:VEVENT
 UID:laundry-day-presents-the-larger-than-life-tour|the-cambridge-room-at-ho
  use-of-blues-dallas|7-00-pm-2026-10-06@letsdoitdallas.com
 DTSTAMP:20261007T000000Z
@@ -12039,6 +12764,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-06&e=music-of-john-denver%7Cca
  sa-manana-fort-worth%7C7-30-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/
+END:VEVENT
+BEGIN:VEVENT
+UID:miranda-lambert-ages-18-|billy-bob-s-fort-worth|8-00-pm-2026-10-06@lets
+ doitdallas.com
+DTSTAMP:20261007T010000Z
+DTSTART:20261007T010000Z
+DTEND:20261007T040000Z
+SUMMARY:Miranda Lambert - Ages 18+
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=miranda-lambert-ages-18-%
+ 7Cbilly-bob-s-fort-worth%7C8-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:brian-fallon|trees-dallas|doors-see-listing-2026-10-07@letsdoitdallas.c
+ om
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:BRIAN FALLON
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=brian-fallon%7Ctrees-dall
+ as%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-red-clay-strays|dickies-arena-fort-worth|6-30-pm-2026-10-07@letsdoi
@@ -12145,6 +12895,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-07&e=jack-white-this-is-a-phon
  -dallas%7C8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:gareth-pearson-welsh-tornado-at-poor-david-s|the-cedars-dallas|doors-se
+ e-listing-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Gareth Pearson - Welsh Tornado at Poor David's
+LOCATION:The Cedars · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=gareth-pearson-welsh-torn
+ ado-at-poor-david-s%7Cthe-cedars-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:jack-blocker|three-links-deep-ellum-dallas|8-00-am-2026-10-08@letsdoitd
@@ -12365,6 +13127,31 @@ LOCATION:SILO · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-08&e=hvdes-ages-18-%7Csilo-dal
  las%7C9-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/
+END:VEVENT
+BEGIN:VEVENT
+UID:grateful-dead-tribute-forgotten-space-20th-anniversary-show|lower-green
+ ville|doors-see-listing-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:GRATEFUL DEAD TRIBUTE - Forgotten Space 20th Anniversary Show
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=grateful-dead-tribute-for
+ gotten-space-20th-anniversary-show%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-steeldrivers-with-special-guest-valley-flower|oak-cliff|doors-see-l
+ isting-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:The Steeldrivers with special guest Valley Flower
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=the-steeldrivers-with-spe
+ cial-guest-valley-flower%7Coak-cliff%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/
 END:VEVENT
 BEGIN:VEVENT
@@ -12727,6 +13514,43 @@ DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:chat-pile-who-loves-the-sun-tour-2026|lower-greenville|doors-see-listin
+ g-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Chat Pile - Who Loves The Sun Tour 2026
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=chat-pile-who-loves-the-s
+ un-tour-2026%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:del-castillo-with-special-guest-guy-forsyth|oak-cliff|doors-see-listing
+ -2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Del Castillo with special guest Guy Forsyth
+LOCATION:Oak Cliff
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=del-castillo-with-special
+ -guest-guy-forsyth%7Coak-cliff%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/
+END:VEVENT
+BEGIN:VEVENT
+UID:joe-bryson-kitchen-sink-country|the-cedars-dallas|doors-see-listing-202
+ 6-10-10@letsdoitdallas.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Joe Bryson - Kitchen Sink Country
+LOCATION:The Cedars · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=joe-bryson-kitchen-sink-c
+ ountry%7Cthe-cedars-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:north-texas-mean-green-football-vs-unc-charlotte-49ers-football|datcu-s
  tadium-denton|see-details-2026-10-10@letsdoitdallas.com
 DTSTAMP:20261010T000000Z
@@ -12963,5 +13787,29 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=zainab-johnson%7Carlingto
  n-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/
+END:VEVENT
+BEGIN:VEVENT
+UID:hurricane-wisdom|trees-dallas|doors-see-listing-2026-10-11@letsdoitdall
+ as.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:HURRICANE WISDOM
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=hurricane-wisdom%7Ctrees-
+ dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:pierre-bensusan-the-infinite-guitar-tour-2026|the-cedars-dallas|doors-s
+ ee-listing-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:PIERRE BENSUSAN - THE INFINITE GUITAR TOUR 2026
+LOCATION:The Cedars · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=pierre-bensusan-the-infin
+ ite-guitar-tour-2026%7Cthe-cedars-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
 END:VEVENT
 END:VCALENDAR

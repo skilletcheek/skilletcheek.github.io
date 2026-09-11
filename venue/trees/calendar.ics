@@ -33,6 +33,19 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
+UID:phora-i-was-there-tour|trees-dallas|doors-see-listing-2026-09-17@letsdo
+ itdallas.com
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:PHORA I WAS THERE TOUR
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=phora-i-was-there-tour%7C
+ trees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:ethan-regan|trees-dallas-dallas|8-00-pm-2026-09-18@letsdoitdallas.com
 DTSTAMP:20260919T010000Z
 DTSTART:20260919T010000Z
@@ -70,6 +83,45 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
+UID:soulfly-nailbomb-incite|trees-dallas|doors-see-listing-2026-09-23@letsd
+ oitdallas.com
+DTSTAMP:20260923T000000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:SOULFLY * NAILBOMB * INCITE
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=soulfly-nailbomb-incite%7
+ Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:gothicumbia|trees-dallas|doors-see-listing-2026-09-25@letsdoitdallas.co
+ m
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:GOTHICUMBIA
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=gothicumbia%7Ctrees-dalla
+ s%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:jake-dexter-the-main-street-sound|trees-dallas|doors-see-listing-2026-0
+ 9-26@letsdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:JAKE DEXTER & THE MAIN STREET SOUND
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=jake-dexter-the-main-stre
+ et-sound%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:french-police-w-social-order|trees-dallas|8-00-pm-2026-09-27@letsdoitda
  llas.com
 DTSTAMP:20260928T010000Z
@@ -81,5 +133,31 @@ URL:https://letsdoitdallas.com/?date=2026-09-27&e=french-police-w-social-or
  der%7Ctrees-dallas%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/trees/
+END:VEVENT
+BEGIN:VEVENT
+UID:brian-fallon|trees-dallas|doors-see-listing-2026-10-07@letsdoitdallas.c
+ om
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:BRIAN FALLON
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=brian-fallon%7Ctrees-dall
+ as%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:hurricane-wisdom|trees-dallas|doors-see-listing-2026-10-11@letsdoitdall
+ as.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:HURRICANE WISDOM
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=hurricane-wisdom%7Ctrees-
+ dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
 END:VEVENT
 END:VCALENDAR

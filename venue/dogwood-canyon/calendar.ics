@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dogwood Canyon — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Dogwood Canyon.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:artist-in-residence|dogwood-canyon-cedar-hill|10-00-am-2026-09-12@letsd
+ oitdallas.com
+DTSTAMP:20260912T150000Z
+DTSTART:20260912T150000Z
+DTEND:20260912T180000Z
+SUMMARY:Artist in Residence
+LOCATION:Dogwood Canyon · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=artist-in-residence%7Cdog
+ wood-canyon-cedar-hill%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/venue/dogwood-canyon/
+END:VEVENT
+BEGIN:VEVENT
+UID:artist-in-residence|dogwood-canyon-cedar-hill|10-00-am-2026-09-18@letsd
+ oitdallas.com
+DTSTAMP:20260918T150000Z
+DTSTART:20260918T150000Z
+DTEND:20260918T180000Z
+SUMMARY:Artist in Residence
+LOCATION:Dogwood Canyon · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=artist-in-residence%7Cdog
+ wood-canyon-cedar-hill%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/venue/dogwood-canyon/
+END:VEVENT
+BEGIN:VEVENT
+UID:artist-in-residence|dogwood-canyon-cedar-hill|10-00-am-2026-09-19@letsd
+ oitdallas.com
+DTSTAMP:20260919T150000Z
+DTSTART:20260919T150000Z
+DTEND:20260919T180000Z
+SUMMARY:Artist in Residence
+LOCATION:Dogwood Canyon · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=artist-in-residence%7Cdog
+ wood-canyon-cedar-hill%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/venue/dogwood-canyon/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecologies-game-day|dogwood-canyon-cedar-hill|02-00-pm-2026-09-19@letsdo
+ itdallas.com
+DTSTAMP:20260919T190000Z
+DTSTART:20260919T190000Z
+DTEND:20260919T220000Z
+SUMMARY:Ecologies Game Day
+LOCATION:Dogwood Canyon · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=ecologies-game-day%7Cdogw
+ ood-canyon-cedar-hill%7C02-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/venue/dogwood-canyon/
+END:VEVENT
+BEGIN:VEVENT
+UID:artist-in-residence|dogwood-canyon-cedar-hill|10-00-am-2026-09-25@letsd
+ oitdallas.com
+DTSTAMP:20260925T150000Z
+DTSTART:20260925T150000Z
+DTEND:20260925T180000Z
+SUMMARY:Artist in Residence
+LOCATION:Dogwood Canyon · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=artist-in-residence%7Cdog
+ wood-canyon-cedar-hill%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/venue/dogwood-canyon/
+END:VEVENT
+END:VCALENDAR

@@ -10,6 +10,32 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:cabaret-voltaire-final-usa-canada-tour|lower-greenville|doors-see-listi
+ ng-2026-09-11@letsdoitdallas.com
+DTSTAMP:20260911T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:CABARET VOLTAIRE -   FINAL USA + CANADA TOUR
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=cabaret-voltaire-final-us
+ a-canada-tour%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:ian-mcconnell|lower-greenville|doors-see-listing-2026-09-11@letsdoitdal
+ las.com
+DTSTAMP:20260911T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:Ian McConnell
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=ian-mcconnell%7Clower-gre
+ enville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
 UID:cabaret-voltaire-with-i-speak-machine|granada-theater-dallas-dallas|8-0
  0-pm-2026-09-11@letsdoitdallas.com
 DTSTAMP:20260912T010000Z
@@ -23,6 +49,19 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
+UID:sleep-north-america-2026|lower-greenville|doors-see-listing-2026-09-12@
+ letsdoitdallas.com
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:SLEEP: North America 2026
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=sleep-north-america-2026%
+ 7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
 UID:sleep|granada-theater-tx-dallas|8-00-pm-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260913T010000Z
 DTSTART:20260913T010000Z
@@ -33,6 +72,88 @@ URL:https://letsdoitdallas.com/?date=2026-09-12&e=sleep%7Cgranada-theater-t
  x-dallas%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:drink-the-sea-featuring-members-of-r-e-m-screaming-trees-and-qotsa|lowe
+ r-greenville|doors-see-listing-2026-09-13@letsdoitdallas.com
+DTSTAMP:20260913T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Drink The Sea featuring members of R.E.M.\, Screaming Trees\, and Q
+ OTSA
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=drink-the-sea-featuring-m
+ embers-of-r-e-m-screaming-trees-and-qotsa%7Clower-greenville%7Cdoors-see-l
+ isting
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-cult-classic-movie-monday-step-brothers|lower-greenville|doors-see
+ -listing-2026-09-14@letsdoitdallas.com
+DTSTAMP:20260914T000000Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:FREE Cult Classic Movie Monday: STEP BROTHERS
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-14&e=free-cult-classic-movie-m
+ onday-step-brothers%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-tuesday-rooftop-movie-wedding-crashers|lower-greenville|doors-see-
+ listing-2026-09-15@letsdoitdallas.com
+DTSTAMP:20260915T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:FREE Tuesday Rooftop Movie: WEDDING CRASHERS
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=free-tuesday-rooftop-movi
+ e-wedding-crashers%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:uncle-lucius-album-release-show|lower-greenville|doors-see-listing-2026
+ -09-17@letsdoitdallas.com
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Uncle Lucius: Album Release Show
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=uncle-lucius-album-releas
+ e-show%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:granadapalooza-janes-addiction-tribute-rhcp-tribute-green-day-tribute|l
+ ower-greenville|doors-see-listing-2026-09-18@letsdoitdallas.com
+DTSTAMP:20260918T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:GRANADAPALOOZA - JANES ADDICTION TRIBUTE / RHCP TRIBUTE / GREEN DAY
+  TRIBUTE
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=granadapalooza-janes-addi
+ ction-tribute-rhcp-tribute-green-day-tribute%7Clower-greenville%7Cdoors-se
+ e-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:chanpan|lower-greenville|doors-see-listing-2026-09-19@letsdoitdallas.co
+ m
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Chanpan
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=chanpan%7Clower-greenvill
+ e%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
 UID:lily-rose|granada-theater-tx-dallas|8-00-pm-2026-09-19@letsdoitdallas.c
@@ -48,6 +169,58 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
+UID:geeks-who-drink-free-trivia|lower-greenville|doors-see-listing-2026-09-
+ 20@letsdoitdallas.com
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:geeks who drink FREE Trivia
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=geeks-who-drink-free-triv
+ ia%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-cult-classic-movie-monday-la-la-land|lower-greenville|doors-see-li
+ sting-2026-09-21@letsdoitdallas.com
+DTSTAMP:20260921T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:FREE Cult Classic Movie Monday: LA LA LAND
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-21&e=free-cult-classic-movie-m
+ onday-la-la-land%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-tuesday-rooftop-movie-bridesmaids|lower-greenville|doors-see-listi
+ ng-2026-09-22@letsdoitdallas.com
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:FREE Tuesday Rooftop Movie: BRIDESMAIDS
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=free-tuesday-rooftop-movi
+ e-bridesmaids%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:geordie-greep-an-evening-with|lower-greenville|doors-see-listing-2026-0
+ 9-24@letsdoitdallas.com
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Geordie Greep - An Evening With
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=geordie-greep-an-evening-
+ with%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
 UID:geordie-greep|granada-theater-tx-dallas|8-00-pm-2026-09-24@letsdoitdall
  as.com
 DTSTAMP:20260925T010000Z
@@ -59,5 +232,137 @@ URL:https://letsdoitdallas.com/?date=2026-09-24&e=geordie-greep%7Cgranada-t
  heater-tx-dallas%7C8-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:ween-tribute-awesome-sound-nirvana-tribute-oatmeal-pizza|lower-greenvil
+ le|doors-see-listing-2026-09-25@letsdoitdallas.com
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:WEEN TRIBUTE - Awesome Sound & NIRVANA TRIBUTE - Oatmeal Pizza
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=ween-tribute-awesome-soun
+ d-nirvana-tribute-oatmeal-pizza%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:blondie-ramones-tribute-blondie-ramone-w-dead-kennedys-tribute-dua|lowe
+ r-greenville|doors-see-listing-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:BLONDIE RAMONES TRIBUTE - Blondie Ramone w / DEAD KENNEDYS TRIBUTE 
+ - DUA
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=blondie-ramones-tribute-b
+ londie-ramone-w-dead-kennedys-tribute-dua%7Clower-greenville%7Cdoors-see-l
+ isting
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:ariel-posen-w-zach-person|lower-greenville|doors-see-listing-2026-09-27
+ @letsdoitdallas.com
+DTSTAMP:20260927T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Ariel Posen w /  Zach Person
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=ariel-posen-w-zach-person
+ %7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:geeks-who-drink-free-trivia|lower-greenville|doors-see-listing-2026-09-
+ 27@letsdoitdallas.com
+DTSTAMP:20260927T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:geeks who drink FREE Trivia
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=geeks-who-drink-free-triv
+ ia%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-cult-classic-movie-monday-zoolander|lower-greenville|doors-see-lis
+ ting-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T000000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:FREE Cult Classic Movie Monday: ZOOLANDER
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=free-cult-classic-movie-m
+ onday-zoolander%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:bryce-bangs-w-j-hawkins-the-night-shift|lower-greenville|doors-see-list
+ ing-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Bryce Bangs w / J Hawkins & The Night Shift
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=bryce-bangs-w-j-hawkins-t
+ he-night-shift%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:inxs-tribute-intxs-tears-for-fears-tribute-mad-world|lower-greenville|d
+ oors-see-listing-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:INXS TRIBUTE - INTXS & TEARS FOR FEARS TRIBUTE - Mad World
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=inxs-tribute-intxs-tears-
+ for-fears-tribute-mad-world%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:blisspop-presents-hot-in-herre-2000s-dance-party|lower-greenville|doors
+ -see-listing-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Blisspop Presents: Hot In Herre: 2000s Dance Party
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=blisspop-presents-hot-in-
+ herre-2000s-dance-party%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:grateful-dead-tribute-forgotten-space-20th-anniversary-show|lower-green
+ ville|doors-see-listing-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:GRATEFUL DEAD TRIBUTE - Forgotten Space 20th Anniversary Show
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=grateful-dead-tribute-for
+ gotten-space-20th-anniversary-show%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:chat-pile-who-loves-the-sun-tour-2026|lower-greenville|doors-see-listin
+ g-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Chat Pile - Who Loves The Sun Tour 2026
+LOCATION:Lower Greenville
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=chat-pile-who-loves-the-s
+ un-tour-2026%7Clower-greenville%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
 END:VEVENT
 END:VCALENDAR

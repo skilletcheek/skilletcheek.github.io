@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:toddler-story-time|lancaster-veterans-memorial-library-1600-veterans-me
- morial-parkway-lancaster|10-30-am-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T153000Z
-DTSTART:20260911T153000Z
-DTEND:20260911T183000Z
-SUMMARY:Toddler Story Time
-LOCATION:Lancaster Veterans Memorial Library
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=toddler-story-time%7Clanc
- aster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%7
- C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/venue/lancaster-veterans-memor
- ial-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:family-story-time|lancaster-veterans-memorial-library-1600-veterans-mem
  orial-parkway-lancaster|10-30-am-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260912T153000Z

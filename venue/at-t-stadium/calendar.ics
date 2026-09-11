@@ -400,6 +400,19 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/at-t-stadium/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-45-am-2026-09-21
+ @letsdoitdallas.com
+DTSTAMP:20260921T154500Z
+DTSTART:20260921T154500Z
+DTEND:20260921T184500Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-21&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C10-45-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
 UID:monster-jam|at-t-stadium-arlington|7-00-pm-2026-10-03@letsdoitdallas.co
  m
 DTSTAMP:20261004T000000Z
