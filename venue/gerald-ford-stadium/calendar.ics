@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Gerald Ford Stadium — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Gerald Ford Stadium.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:smu-mustangs-football-vs-uc-davis-aggies-football|gerald-ford-stadium-d
+ allas|see-details-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:SMU Mustangs Football vs. UC Davis Aggies Football
+LOCATION:Gerald Ford Stadium · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=smu-mustangs-football-vs-
+ uc-davis-aggies-football%7Cgerald-ford-stadium-dallas%7Csee-details
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/gerald-ford-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:smu-mustangs-football-vs-missouri-state-bears-football|gerald-ford-stad
+ ium-dallas|see-details-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:SMU Mustangs Football vs. Missouri State Bears Football
+LOCATION:Gerald Ford Stadium · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=smu-mustangs-football-vs-
+ missouri-state-bears-football%7Cgerald-ford-stadium-dallas%7Csee-details
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/gerald-ford-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:smu-mustangs-football-vs-boston-college-eagles-football|gerald-ford-sta
+ dium-dallas|see-details-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:SMU Mustangs Football vs. Boston College Eagles Football
+LOCATION:Gerald Ford Stadium · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=smu-mustangs-football-vs-
+ boston-college-eagles-football%7Cgerald-ford-stadium-dallas%7Csee-details
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/gerald-ford-stadium/
+END:VEVENT
+END:VCALENDAR

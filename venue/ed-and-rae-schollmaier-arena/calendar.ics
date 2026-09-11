@@ -1,0 +1,86 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ed and Rae Schollmaier Arena — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Ed and Rae Schollmaier Arena.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:tcu-horned-frogs-womens-volleyball-vs-utep-miners-volleyball|ed-and-rae
+ -schollmaier-arena-fort-worth|6-30-pm-2026-09-16@letsdoitdallas.com
+DTSTAMP:20260916T233000Z
+DTSTART:20260916T233000Z
+DTEND:20260917T023000Z
+SUMMARY:TCU Horned Frogs Womens Volleyball vs. UTEP Miners Volleyball
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=tcu-horned-frogs-womens-v
+ olleyball-vs-utep-miners-volleyball%7Ced-and-rae-schollmaier-arena-fort-wo
+ rth%7C6-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/ed-and-rae-schollmaier-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-womens-volleyball-tournament-day-2|ed-and-rae-schollma
+ ier-arena-fort-worth|11-00-am-2026-09-18@letsdoitdallas.com
+DTSTAMP:20260918T160000Z
+DTSTART:20260918T160000Z
+DTEND:20260918T190000Z
+SUMMARY:TCU Horned Frogs Womens Volleyball - Tournament Day 2
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=tcu-horned-frogs-womens-v
+ olleyball-tournament-day-2%7Ced-and-rae-schollmaier-arena-fort-worth%7C11-
+ 00-am
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/ed-and-rae-schollmaier-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-womens-volleyball-vs-colorado-buffaloes-womens-volleyb
+ all|ed-and-rae-schollmaier-arena-fort-worth|6-30-pm-2026-10-02@letsdoitdal
+ las.com
+DTSTAMP:20261002T233000Z
+DTSTART:20261002T233000Z
+DTEND:20261003T023000Z
+SUMMARY:TCU Horned Frogs Womens Volleyball vs. Colorado Buffaloes Womens Vo
+ lleyball
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=tcu-horned-frogs-womens-v
+ olleyball-vs-colorado-buffaloes-womens-volleyball%7Ced-and-rae-schollmaier
+ -arena-fort-worth%7C6-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/ed-and-rae-schollmaier-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-womens-volleyball-vs-ucf-knights-womens-volleyball|ed-
+ and-rae-schollmaier-arena-fort-worth|2-00-pm-2026-10-04@letsdoitdallas.com
+DTSTAMP:20261004T190000Z
+DTSTART:20261004T190000Z
+DTEND:20261004T220000Z
+SUMMARY:TCU Horned Frogs Womens Volleyball vs. UCF Knights Womens Volleybal
+ l
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=tcu-horned-frogs-womens-v
+ olleyball-vs-ucf-knights-womens-volleyball%7Ced-and-rae-schollmaier-arena-
+ fort-worth%7C2-00-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/ed-and-rae-schollmaier-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-womens-volleyball-vs-arizona-wildcats-womens-volleybal
+ l|ed-and-rae-schollmaier-arena-fort-worth|6-30-pm-2026-10-09@letsdoitdalla
+ s.com
+DTSTAMP:20261009T233000Z
+DTSTART:20261009T233000Z
+DTEND:20261010T023000Z
+SUMMARY:TCU Horned Frogs Womens Volleyball vs. Arizona Wildcats Womens Voll
+ eyball
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=tcu-horned-frogs-womens-v
+ olleyball-vs-arizona-wildcats-womens-volleyball%7Ced-and-rae-schollmaier-a
+ rena-fort-worth%7C6-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/ed-and-rae-schollmaier-arena/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frisco — Lets Do It Dallas
+X-WR-CALDESC:Live events\, music\, and nightlife in Frisco — part of the 
+ Lets Do It Dallas real-time event radar.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fc-dallas-vs-portland-timbers|toyota-stadium-frisco|7-30-pm-2026-09-12@
+ letsdoitdallas.com
+DTSTAMP:20260913T003000Z
+DTSTART:20260913T003000Z
+DTEND:20260913T033000Z
+SUMMARY:FC Dallas vs. Portland Timbers
+LOCATION:Toyota Stadium · Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=fc-dallas-vs-portland-tim
+ bers%7Ctoyota-stadium-frisco%7C7-30-pm
+DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-roughriders-division-series-game-2|riders-field-frisco|see-detai
+ ls-2026-09-17@letsdoitdallas.com
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Frisco Roughriders - Division Series Game 2
+LOCATION:Riders Field · Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=frisco-roughriders-divisi
+ on-series-game-2%7Criders-field-frisco%7Csee-details
+DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
+ as.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-roughriders-division-series-game-3-if-necessary-|riders-field-fr
+ isco|see-details-2026-09-18@letsdoitdallas.com
+DTSTAMP:20260918T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Frisco Roughriders - Division Series Game 3 (IF NECESSARY)
+LOCATION:Riders Field · Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=frisco-roughriders-divisi
+ on-series-game-3-if-necessary-%7Criders-field-frisco%7Csee-details
+DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
+ as.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:fc-dallas-vs-austin-fc|toyota-stadium-frisco|7-30-pm-2026-09-19@letsdoi
+ tdallas.com
+DTSTAMP:20260920T003000Z
+DTSTART:20260920T003000Z
+DTEND:20260920T033000Z
+SUMMARY:FC Dallas vs. Austin FC
+LOCATION:Toyota Stadium · Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=fc-dallas-vs-austin-fc%7C
+ toyota-stadium-frisco%7C7-30-pm
+DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:fc-dallas-vs-los-angeles-football-club|toyota-stadium-frisco|7-30-pm-20
+ 26-09-26@letsdoitdallas.com
+DTSTAMP:20260927T003000Z
+DTSTART:20260927T003000Z
+DTEND:20260927T033000Z
+SUMMARY:FC Dallas vs. Los Angeles Football Club
+LOCATION:Toyota Stadium · Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=fc-dallas-vs-los-angeles-
+ football-club%7Ctoyota-stadium-frisco%7C7-30-pm
+DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/frisco/
+END:VEVENT
+END:VCALENDAR

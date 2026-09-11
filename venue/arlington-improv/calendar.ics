@@ -1,0 +1,401 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Arlington Improv — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Arlington Improv.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:chingo-bling|arlington-improv-arlington|7-30-pm-2026-09-11@letsdoitdall
+ as.com
+DTSTAMP:20260912T003000Z
+DTSTART:20260912T003000Z
+DTEND:20260912T033000Z
+SUMMARY:Chingo Bling
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=chingo-bling%7Carlington-
+ improv-arlington%7C7-30-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:chingo-bling|arlington-improv-arlington|9-45-pm-2026-09-11@letsdoitdall
+ as.com
+DTSTAMP:20260912T024500Z
+DTSTART:20260912T024500Z
+DTEND:20260912T054500Z
+SUMMARY:Chingo Bling
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=chingo-bling%7Carlington-
+ improv-arlington%7C9-45-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:chingo-bling|arlington-improv-arlington|7-00-pm-2026-09-12@letsdoitdall
+ as.com
+DTSTAMP:20260913T000000Z
+DTSTART:20260913T000000Z
+DTEND:20260913T030000Z
+SUMMARY:Chingo Bling
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=chingo-bling%7Carlington-
+ improv-arlington%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:chingo-bling|arlington-improv-arlington|9-30-pm-2026-09-12@letsdoitdall
+ as.com
+DTSTAMP:20260913T023000Z
+DTSTART:20260913T023000Z
+DTEND:20260913T053000Z
+SUMMARY:Chingo Bling
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=chingo-bling%7Carlington-
+ improv-arlington%7C9-30-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:chingo-bling|arlington-improv-arlington|7-00-pm-2026-09-13@letsdoitdall
+ as.com
+DTSTAMP:20260914T000000Z
+DTSTART:20260914T000000Z
+DTEND:20260914T030000Z
+SUMMARY:Chingo Bling
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=chingo-bling%7Carlington-
+ improv-arlington%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-09-15@letsdoitdal
+ las.com
+DTSTAMP:20260915T233000Z
+DTSTART:20260915T233000Z
+DTEND:20260916T023000Z
+SUMMARY:Test Your Mic
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=test-your-mic%7Carlington
+ -improv-arlington%7C6-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:bingo-and-friends|arlington-improv-arlington|7-30-pm-2026-09-17@letsdoi
+ tdallas.com
+DTSTAMP:20260918T003000Z
+DTSTART:20260918T003000Z
+DTEND:20260918T033000Z
+SUMMARY:Bingo and Friends
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=bingo-and-friends%7Carlin
+ gton-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:donnell-rawlings|arlington-improv-arlington|7-30-pm-2026-09-18@letsdoit
+ dallas.com
+DTSTAMP:20260919T003000Z
+DTSTART:20260919T003000Z
+DTEND:20260919T033000Z
+SUMMARY:Donnell Rawlings
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=donnell-rawlings%7Carling
+ ton-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:donnell-rawlings|arlington-improv-arlington|9-45-pm-2026-09-18@letsdoit
+ dallas.com
+DTSTAMP:20260919T024500Z
+DTSTART:20260919T024500Z
+DTEND:20260919T054500Z
+SUMMARY:Donnell Rawlings
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=donnell-rawlings%7Carling
+ ton-improv-arlington%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
+ 26-09-19@letsdoitdallas.com
+DTSTAMP:20260919T170000Z
+DTSTART:20260919T170000Z
+DTEND:20260919T200000Z
+SUMMARY:Family Magic & Comedy for All Ages
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=family-magic-comedy-for-a
+ ll-ages%7Carlington-improv-arlington%7C12-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:donnell-rawlings|arlington-improv-arlington|7-00-pm-2026-09-19@letsdoit
+ dallas.com
+DTSTAMP:20260920T000000Z
+DTSTART:20260920T000000Z
+DTEND:20260920T030000Z
+SUMMARY:Donnell Rawlings
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=donnell-rawlings%7Carling
+ ton-improv-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:donnell-rawlings|arlington-improv-arlington|9-30-pm-2026-09-19@letsdoit
+ dallas.com
+DTSTAMP:20260920T023000Z
+DTSTART:20260920T023000Z
+DTEND:20260920T053000Z
+SUMMARY:Donnell Rawlings
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=donnell-rawlings%7Carling
+ ton-improv-arlington%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:donnell-rawlings|arlington-improv-arlington|7-00-pm-2026-09-20@letsdoit
+ dallas.com
+DTSTAMP:20260921T000000Z
+DTSTART:20260921T000000Z
+DTEND:20260921T030000Z
+SUMMARY:Donnell Rawlings
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=donnell-rawlings%7Carling
+ ton-improv-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:justin-whitehead|arlington-improv-arlington|7-30-pm-2026-09-24@letsdoit
+ dallas.com
+DTSTAMP:20260925T003000Z
+DTSTART:20260925T003000Z
+DTEND:20260925T033000Z
+SUMMARY:Justin Whitehead
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=justin-whitehead%7Carling
+ ton-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:ryan-davis|arlington-improv-arlington|7-30-pm-2026-09-25@letsdoitdallas
+ .com
+DTSTAMP:20260926T003000Z
+DTSTART:20260926T003000Z
+DTEND:20260926T033000Z
+SUMMARY:Ryan Davis
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=ryan-davis%7Carlington-im
+ prov-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:ryan-davis|arlington-improv-arlington|9-45-pm-2026-09-25@letsdoitdallas
+ .com
+DTSTAMP:20260926T024500Z
+DTSTART:20260926T024500Z
+DTEND:20260926T054500Z
+SUMMARY:Ryan Davis
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=ryan-davis%7Carlington-im
+ prov-arlington%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:ryan-davis|arlington-improv-arlington|7-00-pm-2026-09-26@letsdoitdallas
+ .com
+DTSTAMP:20260927T000000Z
+DTSTART:20260927T000000Z
+DTEND:20260927T030000Z
+SUMMARY:Ryan Davis
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=ryan-davis%7Carlington-im
+ prov-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:ryan-davis|arlington-improv-arlington|9-30-pm-2026-09-26@letsdoitdallas
+ .com
+DTSTAMP:20260927T023000Z
+DTSTART:20260927T023000Z
+DTEND:20260927T053000Z
+SUMMARY:Ryan Davis
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=ryan-davis%7Carlington-im
+ prov-arlington%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:ryan-davis|arlington-improv-arlington|7-00-pm-2026-09-27@letsdoitdallas
+ .com
+DTSTAMP:20260928T000000Z
+DTSTART:20260928T000000Z
+DTEND:20260928T030000Z
+SUMMARY:Ryan Davis
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=ryan-davis%7Carlington-im
+ prov-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:just-nesh|arlington-improv-arlington|7-30-pm-2026-09-30@letsdoitdallas.
+ com
+DTSTAMP:20261001T003000Z
+DTSTART:20261001T003000Z
+DTEND:20261001T033000Z
+SUMMARY:Just Nesh
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=just-nesh%7Carlington-imp
+ rov-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:taylor-weddington-and-friends|arlington-improv-arlington|7-30-pm-2026-1
+ 0-01@letsdoitdallas.com
+DTSTAMP:20261002T003000Z
+DTSTART:20261002T003000Z
+DTEND:20261002T033000Z
+SUMMARY:Taylor Weddington and Friends
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=taylor-weddington-and-fri
+ ends%7Carlington-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:damon-williams|arlington-improv-arlington|7-30-pm-2026-10-02@letsdoitda
+ llas.com
+DTSTAMP:20261003T003000Z
+DTSTART:20261003T003000Z
+DTEND:20261003T033000Z
+SUMMARY:Damon Williams
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=damon-williams%7Carlingto
+ n-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:damon-williams|arlington-improv-arlington|9-45-pm-2026-10-02@letsdoitda
+ llas.com
+DTSTAMP:20261003T024500Z
+DTSTART:20261003T024500Z
+DTEND:20261003T054500Z
+SUMMARY:Damon Williams
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=damon-williams%7Carlingto
+ n-improv-arlington%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:damon-williams|arlington-improv-arlington|7-00-pm-2026-10-03@letsdoitda
+ llas.com
+DTSTAMP:20261004T000000Z
+DTSTART:20261004T000000Z
+DTEND:20261004T030000Z
+SUMMARY:Damon Williams
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=damon-williams%7Carlingto
+ n-improv-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:damon-williams|arlington-improv-arlington|9-30-pm-2026-10-03@letsdoitda
+ llas.com
+DTSTAMP:20261004T023000Z
+DTSTART:20261004T023000Z
+DTEND:20261004T053000Z
+SUMMARY:Damon Williams
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=damon-williams%7Carlingto
+ n-improv-arlington%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:damon-williams|arlington-improv-arlington|7-00-pm-2026-10-04@letsdoitda
+ llas.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261005T000000Z
+DTEND:20261005T030000Z
+SUMMARY:Damon Williams
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=damon-williams%7Carlingto
+ n-improv-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:wizop-live-at-the-improv|arlington-improv-arlington|7-30-pm-2026-10-07@
+ letsdoitdallas.com
+DTSTAMP:20261008T003000Z
+DTSTART:20261008T003000Z
+DTEND:20261008T033000Z
+SUMMARY:Wizop: Live At the Improv
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=wizop-live-at-the-improv%
+ 7Carlington-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:zainab-johnson|arlington-improv-arlington|7-30-pm-2026-10-09@letsdoitda
+ llas.com
+DTSTAMP:20261010T003000Z
+DTSTART:20261010T003000Z
+DTEND:20261010T033000Z
+SUMMARY:Zainab Johnson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=zainab-johnson%7Carlingto
+ n-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:zainab-johnson|arlington-improv-arlington|9-45-pm-2026-10-09@letsdoitda
+ llas.com
+DTSTAMP:20261010T024500Z
+DTSTART:20261010T024500Z
+DTEND:20261010T054500Z
+SUMMARY:Zainab Johnson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=zainab-johnson%7Carlingto
+ n-improv-arlington%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:zainab-johnson|arlington-improv-arlington|7-00-pm-2026-10-10@letsdoitda
+ llas.com
+DTSTAMP:20261011T000000Z
+DTSTART:20261011T000000Z
+DTEND:20261011T030000Z
+SUMMARY:Zainab Johnson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=zainab-johnson%7Carlingto
+ n-improv-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dos Equis Pavilion — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Dos Equis Pavilion.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:tim-mcgraw-pawn-shop-guitar-tour-2026|dos-equis-pavilion-dallas|7-00-pm
+ -2026-09-11@letsdoitdallas.com
+DTSTAMP:20260912T000000Z
+DTSTART:20260912T000000Z
+DTEND:20260912T030000Z
+SUMMARY:Tim McGraw: Pawn Shop Guitar Tour 2026
+LOCATION:Dos Equis Pavilion · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=tim-mcgraw-pawn-shop-guit
+ ar-tour-2026%7Cdos-equis-pavilion-dallas%7C7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/dos-equis-pavilion/
+END:VEVENT
+BEGIN:VEVENT
+UID:zeds-dead-journey-of-a-lifetime-tour|dos-equis-pavilion-dallas|6-55-pm-
+ 2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T235500Z
+DTSTART:20260912T235500Z
+DTEND:20260913T025500Z
+SUMMARY:Zeds Dead: Journey Of A Lifetime Tour
+LOCATION:Dos Equis Pavilion · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=zeds-dead-journey-of-a-li
+ fetime-tour%7Cdos-equis-pavilion-dallas%7C6-55-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/dos-equis-pavilion/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-kehlani-world-tour-north-america|dos-equis-pavilion-dallas|6-30-pm-
+ 2026-09-16@letsdoitdallas.com
+DTSTAMP:20260916T233000Z
+DTSTART:20260916T233000Z
+DTEND:20260917T023000Z
+SUMMARY:THE KEHLANI WORLD TOUR: North America
+LOCATION:Dos Equis Pavilion · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=the-kehlani-world-tour-no
+ rth-america%7Cdos-equis-pavilion-dallas%7C6-30-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/dos-equis-pavilion/
+END:VEVENT
+BEGIN:VEVENT
+UID:billy-idol-it-s-a-nice-day-to-tour-again-|dos-equis-pavilion-dallas|7-3
+ 0-pm-2026-09-18@letsdoitdallas.com
+DTSTAMP:20260919T003000Z
+DTSTART:20260919T003000Z
+DTEND:20260919T033000Z
+SUMMARY:Billy Idol:  It's A Nice Day To...Tour Again!
+LOCATION:Dos Equis Pavilion · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=billy-idol-it-s-a-nice-da
+ y-to-tour-again-%7Cdos-equis-pavilion-dallas%7C7-30-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/dos-equis-pavilion/
+END:VEVENT
+BEGIN:VEVENT
+UID:grupo-duelo-gravedad-tour-2026|dos-equis-pavilion-dallas|8-00-pm-2026-0
+ 9-19@letsdoitdallas.com
+DTSTAMP:20260920T010000Z
+DTSTART:20260920T010000Z
+DTEND:20260920T040000Z
+SUMMARY:Grupo Duelo - GRAVEDAD TOUR 2026
+LOCATION:Dos Equis Pavilion · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=grupo-duelo-gravedad-tour
+ -2026%7Cdos-equis-pavilion-dallas%7C8-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/dos-equis-pavilion/
+END:VEVENT
+BEGIN:VEVENT
+UID:empire-of-the-sun-ask-that-god-afterlife-north-american-tour|dos-equis-
+ pavilion-dallas|7-30-pm-2026-09-20@letsdoitdallas.com
+DTSTAMP:20260921T003000Z
+DTSTART:20260921T003000Z
+DTEND:20260921T033000Z
+SUMMARY:Empire of the Sun - Ask That God: Afterlife North American Tour
+LOCATION:Dos Equis Pavilion · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=empire-of-the-sun-ask-tha
+ t-god-afterlife-north-american-tour%7Cdos-equis-pavilion-dallas%7C7-30-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/dos-equis-pavilion/
+END:VEVENT
+BEGIN:VEVENT
+UID:babymetal-world-tour-2026|dos-equis-pavilion-dallas|7-20-pm-2026-09-23@
+ letsdoitdallas.com
+DTSTAMP:20260924T002000Z
+DTSTART:20260924T002000Z
+DTEND:20260924T032000Z
+SUMMARY:BABYMETAL WORLD TOUR 2026
+LOCATION:Dos Equis Pavilion · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=babymetal-world-tour-2026
+ %7Cdos-equis-pavilion-dallas%7C7-20-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/dos-equis-pavilion/
+END:VEVENT
+END:VCALENDAR

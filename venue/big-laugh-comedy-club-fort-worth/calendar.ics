@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big Laugh Comedy Club – Fort Worth — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Big Laugh Comedy Club – Fort Worth.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:luis-lopez-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-
+ fort-worth-tx-76102-united-states|7-30-pm-2026-09-11@letsdoitdallas.com
+DTSTAMP:20260912T003000Z
+DTSTART:20260912T003000Z
+DTEND:20260912T033000Z
+SUMMARY:Luis Lopez Live
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=luis-lopez-live%7Cbig-lau
+ gh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-united
+ -states%7C7-30-pm
+DESCRIPTION:Luis Lopez: Live In Fort Worth  Luis Lopez is coming to Big Lau
+ gh Comedy Club for 2 shows only\, and if you love seeing comedians before 
+ everyone else is talking about them\, this is your night.  Luis brings the
+  kind of storytelling that has the whole room locked in from the first —
+  More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-big-one|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort
+ -worth-tx-76102-united-states|9-30-pm-2026-09-11@letsdoitdallas.com
+DTSTAMP:20260912T023000Z
+DTSTART:20260912T023000Z
+DTEND:20260912T053000Z
+SUMMARY:The Big One
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=the-big-one%7Cbig-laugh-c
+ omedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-united-sta
+ tes%7C9-30-pm
+DESCRIPTION:The Comedy Show You’ll Text Your Friends About  You know that
+  feeling halfway through a show when you realize you’re about to be tell
+ ing people about this night for weeks? That’s the entire pitch for The B
+ ig One.  This is Big Laugh’s heavyweight showcase\, the night we stack t
+ he l — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fort
+ -worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:highly-offensive-a-comedy-show-for-thick-skinned-people|big-laugh-comed
+ y-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-united-states|
+ 10-00-pm-2026-09-11@letsdoitdallas.com
+DTSTAMP:20260912T030000Z
+DTSTART:20260912T030000Z
+DTEND:20260912T060000Z
+SUMMARY:Highly Offensive: A Comedy Show For Thick-Skinned People
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=highly-offensive-a-comedy
+ -show-for-thick-skinned-people%7Cbig-laugh-comedy-club-fort-worth-604-main
+ -st-suite-100-fort-worth-tx-76102-united-states%7C10-00-pm
+DESCRIPTION:Warning: If you cry easy\, stay home.  This is not your grandma
+ ’s comedy night. Highly Offensive is unapologetic\, unfiltered\, and gua
+ ranteed to hit nerves while splitting sides. Forget “safe spaces”. Thi
+ s is a funny space where comedians push boundaries\, roast reality\, and s
+ ay the — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fo
+ rt-worth/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,139 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Denton\, TX — Lets Do It Dallas
+X-WR-CALDESC:Upcoming events in Denton\, Texas.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:north-texas-mean-green-football-vs-unlv-rebels-football|datcu-stadium-d
+ enton|see-details-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:North Texas Mean Green Football vs. UNLV Rebels Football
+LOCATION:DATCU Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=north-texas-mean-green-fo
+ otball-vs-unlv-rebels-football%7Cdatcu-stadium-denton%7Csee-details
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:beginning-hand-lettering|wildflower-art-studio-715-north-locust-street-
+ denton-76201-united-states|3-00-pm-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T200000Z
+DTSTART:20260912T200000Z
+DTEND:20260912T230000Z
+SUMMARY:Beginning Hand Lettering
+LOCATION:Wildflower Art Studio · Denton
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=beginning-hand-lettering%
+ 7Cwildflower-art-studio-715-north-locust-street-denton-76201-united-states
+ %7C3-00-pm
+DESCRIPTION:Experience the Art of Hand Lettering in one of our most popular
+  workshops. Learn to design and style your favorite phrase in this beginne
+ r-level class.  Workshop participants will learn a variety of techniques i
+ ncluding:    Block Lettering    Modern “Faux” Calligraphy    Hand Let 
+ — More: https://letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:friko|rubber-gloves-denton|8-00-pm-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260913T010000Z
+DTSTART:20260913T010000Z
+DTEND:20260913T040000Z
+SUMMARY:Friko
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=friko%7Crubber-gloves-den
+ ton%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:south-florida-bulls-at-north-texas-mean-green-womens-soccer|norma-knobe
+ l-hunt-stadium-denton|7-00-pm-2026-09-17@letsdoitdallas.com
+DTSTAMP:20260918T000000Z
+DTSTART:20260918T000000Z
+DTEND:20260918T030000Z
+SUMMARY:South Florida Bulls at North Texas Mean Green Womens Soccer
+LOCATION:Norma Knobel Hunt Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=south-florida-bulls-at-no
+ rth-texas-mean-green-womens-soccer%7Cnorma-knobel-hunt-stadium-denton%7C7-
+ 00-pm
+DESCRIPTION:womens college soccer event via SeatGeek. — More: https://let
+ sdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:tarleton-state-texans-at-north-texas-mean-green-womens-volleyball|north
+ -texas-volleyball-center-denton|7-00-pm-2026-09-17@letsdoitdallas.com
+DTSTAMP:20260918T000000Z
+DTSTART:20260918T000000Z
+DTEND:20260918T030000Z
+SUMMARY:Tarleton State Texans at North Texas Mean Green Womens Volleyball
+LOCATION:North Texas Volleyball Center · Denton
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=tarleton-state-texans-at-
+ north-texas-mean-green-womens-volleyball%7Cnorth-texas-volleyball-center-d
+ enton%7C7-00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:west-virginia-mountaineers-at-north-texas-mean-green-womens-volleyball|
+ north-texas-volleyball-center-denton|7-00-pm-2026-09-18@letsdoitdallas.com
+DTSTAMP:20260919T000000Z
+DTSTART:20260919T000000Z
+DTEND:20260919T030000Z
+SUMMARY:West Virginia Mountaineers at North Texas Mean Green Womens Volleyb
+ all
+LOCATION:North Texas Volleyball Center · Denton
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=west-virginia-mountaineer
+ s-at-north-texas-mean-green-womens-volleyball%7Cnorth-texas-volleyball-cen
+ ter-denton%7C7-00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:east-texas-a-m-lions-at-north-texas-mean-green-womens-volleyball|north-
+ texas-volleyball-center-denton|2-00-pm-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260919T190000Z
+DTSTART:20260919T190000Z
+DTEND:20260919T220000Z
+SUMMARY:East Texas A&M Lions at North Texas Mean Green Womens Volleyball
+LOCATION:North Texas Volleyball Center · Denton
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=east-texas-a-m-lions-at-n
+ orth-texas-mean-green-womens-volleyball%7Cnorth-texas-volleyball-center-de
+ nton%7C2-00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-football-vs-houston-christian-huskies-football|d
+ atcu-stadium-denton|see-details-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:North Texas Mean Green Football vs. Houston Christian Huskies Footb
+ all
+LOCATION:DATCU Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=north-texas-mean-green-fo
+ otball-vs-houston-christian-huskies-football%7Cdatcu-stadium-denton%7Csee-
+ details
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-football-vs-unc-charlotte-49ers-football|datcu-s
+ tadium-denton|see-details-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:North Texas Mean Green Football vs. UNC Charlotte 49ers Football
+LOCATION:DATCU Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=north-texas-mean-green-fo
+ otball-vs-unc-charlotte-49ers-football%7Cdatcu-stadium-denton%7Csee-detail
+ s
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/city/denton/
+END:VEVENT
+END:VCALENDAR

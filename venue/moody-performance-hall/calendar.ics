@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Moody Performance Hall — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Moody Performance Hall.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:les-ballets-jazz-de-montreal-dallas|moody-performance-hall-dallas|7-30-
+ pm-2026-09-18@letsdoitdallas.com
+DTSTAMP:20260919T003000Z
+DTSTART:20260919T003000Z
+DTEND:20260919T033000Z
+SUMMARY:Les Ballets Jazz De Montreal - Dallas
+LOCATION:Moody Performance Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=les-ballets-jazz-de-montr
+ eal-dallas%7Cmoody-performance-hall-dallas%7C7-30-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/moody-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:les-ballets-jazz-de-montreal-dallas|moody-performance-hall-dallas|2-00-
+ pm-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260919T190000Z
+DTSTART:20260919T190000Z
+DTEND:20260919T220000Z
+SUMMARY:Les Ballets Jazz De Montreal - Dallas
+LOCATION:Moody Performance Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=les-ballets-jazz-de-montr
+ eal-dallas%7Cmoody-performance-hall-dallas%7C2-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/moody-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:les-ballets-jazz-de-montreal-dallas|moody-performance-hall-dallas|7-30-
+ pm-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260920T003000Z
+DTSTART:20260920T003000Z
+DTEND:20260920T033000Z
+SUMMARY:Les Ballets Jazz De Montreal - Dallas
+LOCATION:Moody Performance Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=les-ballets-jazz-de-montr
+ eal-dallas%7Cmoody-performance-hall-dallas%7C7-30-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/moody-performance-hall/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Granada Theater - TX — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Granada Theater - TX.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:sleep|granada-theater-tx-dallas|8-00-pm-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260913T010000Z
+DTSTART:20260913T010000Z
+DTEND:20260913T040000Z
+SUMMARY:Sleep
+LOCATION:Granada Theater - TX · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=sleep%7Cgranada-theater-t
+ x-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/granada-theater-tx/
+END:VEVENT
+BEGIN:VEVENT
+UID:lily-rose|granada-theater-tx-dallas|8-00-pm-2026-09-19@letsdoitdallas.c
+ om
+DTSTAMP:20260920T010000Z
+DTSTART:20260920T010000Z
+DTEND:20260920T040000Z
+SUMMARY:Lily Rose
+LOCATION:Granada Theater - TX · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=lily-rose%7Cgranada-theat
+ er-tx-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/granada-theater-tx/
+END:VEVENT
+BEGIN:VEVENT
+UID:geordie-greep|granada-theater-tx-dallas|8-00-pm-2026-09-24@letsdoitdall
+ as.com
+DTSTAMP:20260925T010000Z
+DTSTART:20260925T010000Z
+DTEND:20260925T040000Z
+SUMMARY:Geordie Greep
+LOCATION:Granada Theater - TX · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=geordie-greep%7Cgranada-t
+ heater-tx-dallas%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/granada-theater-tx/
+END:VEVENT
+END:VCALENDAR

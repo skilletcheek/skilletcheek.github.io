@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Arlington Music Hall — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Arlington Music Hall.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:creedence-revived-creedence-clearwater-revival-tribute|arlington-music-
+ hall-arlington|7-30-pm-2026-09-16@letsdoitdallas.com
+DTSTAMP:20260917T003000Z
+DTSTART:20260917T003000Z
+DTEND:20260917T033000Z
+SUMMARY:Creedence Revived - Creedence Clearwater Revival Tribute
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=creedence-revived-creeden
+ ce-clearwater-revival-tribute%7Carlington-music-hall-arlington%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-cowsills|arlington-music-hall-arlington|7-30-pm-2026-09-17@letsdoit
+ dallas.com
+DTSTAMP:20260918T003000Z
+DTSTART:20260918T003000Z
+DTEND:20260918T033000Z
+SUMMARY:The Cowsills
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=the-cowsills%7Carlington-
+ music-hall-arlington%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:jeff-allen|arlington-music-hall-arlington|7-00-pm-2026-09-18@letsdoitda
+ llas.com
+DTSTAMP:20260919T000000Z
+DTSTART:20260919T000000Z
+DTEND:20260919T030000Z
+SUMMARY:Jeff Allen
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=jeff-allen%7Carlington-mu
+ sic-hall-arlington%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:ana-popovic|arlington-music-hall-arlington|8-00-pm-2026-09-18@letsdoitd
+ allas.com
+DTSTAMP:20260919T010000Z
+DTSTART:20260919T010000Z
+DTEND:20260919T040000Z
+SUMMARY:Ana Popovic
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=ana-popovic%7Carlington-m
+ usic-hall-arlington%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:petra|arlington-music-hall-arlington|7-30-pm-2026-09-26@letsdoitdallas.
+ com
+DTSTAMP:20260927T003000Z
+DTSTART:20260927T003000Z
+DTEND:20260927T033000Z
+SUMMARY:Petra
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=petra%7Carlington-music-h
+ all-arlington%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/arlington-music-hall/
+END:VEVENT
+END:VCALENDAR

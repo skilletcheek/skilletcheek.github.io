@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DATCU Stadium — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at DATCU Stadium.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:north-texas-mean-green-football-vs-unlv-rebels-football|datcu-stadium-d
+ enton|see-details-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:North Texas Mean Green Football vs. UNLV Rebels Football
+LOCATION:DATCU Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=north-texas-mean-green-fo
+ otball-vs-unlv-rebels-football%7Cdatcu-stadium-denton%7Csee-details
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/datcu-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-football-vs-houston-christian-huskies-football|d
+ atcu-stadium-denton|see-details-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:North Texas Mean Green Football vs. Houston Christian Huskies Footb
+ all
+LOCATION:DATCU Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=north-texas-mean-green-fo
+ otball-vs-houston-christian-huskies-football%7Cdatcu-stadium-denton%7Csee-
+ details
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/datcu-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-football-vs-unc-charlotte-49ers-football|datcu-s
+ tadium-denton|see-details-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:North Texas Mean Green Football vs. UNC Charlotte 49ers Football
+LOCATION:DATCU Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=north-texas-mean-green-fo
+ otball-vs-unc-charlotte-49ers-football%7Cdatcu-stadium-denton%7Csee-detail
+ s
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/datcu-stadium/
+END:VEVENT
+END:VCALENDAR

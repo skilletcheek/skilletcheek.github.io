@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Majestic Theatre Dallas — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Majestic Theatre Dallas.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:genx-takeover-comedy-tour|majestic-theatre-dallas-dallas|8-00-pm-2026-0
+ 9-18@letsdoitdallas.com
+DTSTAMP:20260919T010000Z
+DTSTART:20260919T010000Z
+DTEND:20260919T040000Z
+SUMMARY:GenX Takeover Comedy Tour
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=genx-takeover-comedy-tour
+ %7Cmajestic-theatre-dallas-dallas%7C8-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:indigo-girls-w-linda-perry|majestic-theatre-dallas-dallas|7-00-pm-2026-
+ 09-27@letsdoitdallas.com
+DTSTAMP:20260928T000000Z
+DTSTART:20260928T000000Z
+DTEND:20260928T030000Z
+SUMMARY:Indigo Girls w/ Linda Perry
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=indigo-girls-w-linda-perr
+ y%7Cmajestic-theatre-dallas-dallas%7C7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:boz-scaggs|majestic-theatre-dallas-dallas|7-00-pm-2026-10-04@letsdoitda
+ llas.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261005T000000Z
+DTEND:20261005T030000Z
+SUMMARY:Boz Scaggs
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=boz-scaggs%7Cmajestic-the
+ atre-dallas-dallas%7C7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:my-hero-academia-in-concert|majestic-theatre-dallas-dallas|7-30-pm-2026
+ -10-07@letsdoitdallas.com
+DTSTAMP:20261008T003000Z
+DTSTART:20261008T003000Z
+DTEND:20261008T033000Z
+SUMMARY:My Hero Academia in Concert
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=my-hero-academia-in-conce
+ rt%7Cmajestic-theatre-dallas-dallas%7C7-30-pm
+DESCRIPTION:Animation event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:ryan-beatty-arms-over-armor-north-american-tour-26|majestic-theatre-dal
+ las-dallas|8-00-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261009T010000Z
+DTSTART:20261009T010000Z
+DTEND:20261009T040000Z
+SUMMARY:Ryan Beatty - Arms Over Armor North American Tour '26
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=ryan-beatty-arms-over-arm
+ or-north-american-tour-26%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/majestic-theatre-dallas/
+END:VEVENT
+END:VCALENDAR

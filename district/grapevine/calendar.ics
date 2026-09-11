@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Grapevine — Lets Do It Dallas
+X-WR-CALDESC:Live events\, music\, and nightlife in Grapevine — part of t
+ he Lets Do It Dallas real-time event radar.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
+ e-tx-76051-united-states|8-00-am-2026-09-11@letsdoitdallas.com
+DTSTAMP:20260911T130000Z
+DTSTART:20260911T130000Z
+DTEND:20260911T160000Z
+SUMMARY:Phenomenomaly at Meow Wolf
+LOCATION:Meow Wolf · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=phenomenomaly-at-meow-wol
+ f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
+ C8-00-am
+DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
+  live immersive performance series inside The Real Unreal. Blending intera
+ ctive theater with a rotating lineup of North Texas talent\, the experienc
+ e unfolds around guests as they explore\, featuring music\, dance\, comedy
+ \, — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
+ e-tx-76051-united-states|8-00-am-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T130000Z
+DTSTART:20260912T130000Z
+DTEND:20260912T160000Z
+SUMMARY:Phenomenomaly at Meow Wolf
+LOCATION:Meow Wolf · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=phenomenomaly-at-meow-wol
+ f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
+ C8-00-am
+DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
+  live immersive performance series inside The Real Unreal. Blending intera
+ ctive theater with a rotating lineup of North Texas talent\, the experienc
+ e unfolds around guests as they explore\, featuring music\, dance\, comedy
+ \, — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:day-out-with-thomas-tm-|museum-of-the-american-railroad-grapevine-vinta
+ ge-railroad-grapevine|10-00-am-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261009T150000Z
+DTSTART:20261009T150000Z
+DTEND:20261009T180000Z
+SUMMARY:Day Out With Thomas (TM)
+LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=day-out-with-thomas-tm-%7
+ Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-grapevine%7C10
+ -00-am
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:day-out-with-thomas-tm-|museum-of-the-american-railroad-grapevine-vinta
+ ge-railroad-grapevine|12-00-pm-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261009T170000Z
+DTSTART:20261009T170000Z
+DTEND:20261009T200000Z
+SUMMARY:Day Out With Thomas (TM)
+LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=day-out-with-thomas-tm-%7
+ Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-grapevine%7C12
+ -00-pm
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:day-out-with-thomas-tm-|museum-of-the-american-railroad-grapevine-vinta
+ ge-railroad-grapevine|2-30-pm-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261009T193000Z
+DTSTART:20261009T193000Z
+DTEND:20261009T223000Z
+SUMMARY:Day Out With Thomas (TM)
+LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=day-out-with-thomas-tm-%7
+ Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-grapevine%7C2-
+ 30-pm
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:day-out-with-thomas-tm-|museum-of-the-american-railroad-grapevine-vinta
+ ge-railroad-grapevine|4-30-pm-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261009T213000Z
+DTSTART:20261009T213000Z
+DTEND:20261010T003000Z
+SUMMARY:Day Out With Thomas (TM)
+LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=day-out-with-thomas-tm-%7
+ Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-grapevine%7C4-
+ 30-pm
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
+ rapevine-vintage-railroad-grapevine|10-00-am-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T150000Z
+DTSTART:20261010T150000Z
+DTEND:20261010T180000Z
+SUMMARY:Day Out With Thomas (TM)\, Thomas & Friends
+LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=day-out-with-thomas-tm-th
+ omas-friends%7Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-
+ grapevine%7C10-00-am
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
+ rapevine-vintage-railroad-grapevine|12-00-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T170000Z
+DTSTART:20261010T170000Z
+DTEND:20261010T200000Z
+SUMMARY:Day Out With Thomas (TM)\, Thomas & Friends
+LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=day-out-with-thomas-tm-th
+ omas-friends%7Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-
+ grapevine%7C12-00-pm
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
+ rapevine-vintage-railroad-grapevine|2-30-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T193000Z
+DTSTART:20261010T193000Z
+DTEND:20261010T223000Z
+SUMMARY:Day Out With Thomas (TM)\, Thomas & Friends
+LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=day-out-with-thomas-tm-th
+ omas-friends%7Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-
+ grapevine%7C2-30-pm
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
+ rapevine-vintage-railroad-grapevine|4-30-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T213000Z
+DTSTART:20261010T213000Z
+DTEND:20261011T003000Z
+SUMMARY:Day Out With Thomas (TM)\, Thomas & Friends
+LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=day-out-with-thomas-tm-th
+ omas-friends%7Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-
+ grapevine%7C4-30-pm
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/district/grapevine/
+END:VEVENT
+END:VCALENDAR

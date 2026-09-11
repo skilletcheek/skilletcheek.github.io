@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Moody Coliseum — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Moody Coliseum.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:yale-bulldogs-at-smu-mustangs-womens-volleyball|moody-coliseum-dallas|1
+ -00-pm-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260919T180000Z
+DTSTART:20260919T180000Z
+DTEND:20260919T210000Z
+SUMMARY:Yale Bulldogs at SMU Mustangs Womens Volleyball
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=yale-bulldogs-at-smu-must
+ angs-womens-volleyball%7Cmoody-coliseum-dallas%7C1-00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:smu-mustangs-womens-volleyball-vs-stanford-cardinal-womens-volleyball|m
+ oody-coliseum-dallas|8-00-pm-2026-09-25@letsdoitdallas.com
+DTSTAMP:20260926T010000Z
+DTSTART:20260926T010000Z
+DTEND:20260926T040000Z
+SUMMARY:SMU Mustangs Womens Volleyball vs. Stanford Cardinal Womens Volleyb
+ all
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=smu-mustangs-womens-volle
+ yball-vs-stanford-cardinal-womens-volleyball%7Cmoody-coliseum-dallas%7C8-0
+ 0-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:smu-mustangs-womens-volleyball-vs-california-golden-bears-womens-volley
+ ball|moody-coliseum-dallas|1-00-pm-2026-09-27@letsdoitdallas.com
+DTSTAMP:20260927T180000Z
+DTSTART:20260927T180000Z
+DTEND:20260927T210000Z
+SUMMARY:SMU Mustangs Womens Volleyball vs. California Golden Bears Womens V
+ olleyball
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=smu-mustangs-womens-volle
+ yball-vs-california-golden-bears-womens-volleyball%7Cmoody-coliseum-dallas
+ %7C1-00-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/moody-coliseum/
+END:VEVENT
+END:VCALENDAR

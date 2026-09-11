@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Margot and Bill Winspear Opera House — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Margot and Bill Winspear Opera House.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:texas-ballet-theater-casanova|margot-and-bill-winspear-opera-house-dall
+ as|8-00-pm-2026-09-18@letsdoitdallas.com
+DTSTAMP:20260919T010000Z
+DTSTART:20260919T010000Z
+DTEND:20260919T040000Z
+SUMMARY:Texas Ballet Theater - Casanova
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=texas-ballet-theater-casa
+ nova%7Cmargot-and-bill-winspear-opera-house-dallas%7C8-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/margot-and-bill-winspear-opera-house/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-ballet-theater-casanova|margot-and-bill-winspear-opera-house-dall
+ as|2-00-pm-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260919T190000Z
+DTSTART:20260919T190000Z
+DTEND:20260919T220000Z
+SUMMARY:Texas Ballet Theater - Casanova
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=texas-ballet-theater-casa
+ nova%7Cmargot-and-bill-winspear-opera-house-dallas%7C2-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/margot-and-bill-winspear-opera-house/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-ballet-theater-casanova|margot-and-bill-winspear-opera-house-dall
+ as|8-00-pm-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260920T010000Z
+DTSTART:20260920T010000Z
+DTEND:20260920T040000Z
+SUMMARY:Texas Ballet Theater - Casanova
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=texas-ballet-theater-casa
+ nova%7Cmargot-and-bill-winspear-opera-house-dallas%7C8-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/margot-and-bill-winspear-opera-house/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-ballet-theater-casanova|margot-and-bill-winspear-opera-house-dall
+ as|2-00-pm-2026-09-20@letsdoitdallas.com
+DTSTAMP:20260920T190000Z
+DTSTART:20260920T190000Z
+DTEND:20260920T220000Z
+SUMMARY:Texas Ballet Theater - Casanova
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=texas-ballet-theater-casa
+ nova%7Cmargot-and-bill-winspear-opera-house-dallas%7C2-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/margot-and-bill-winspear-opera-house/
+END:VEVENT
+END:VCALENDAR

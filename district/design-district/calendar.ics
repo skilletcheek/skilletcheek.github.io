@@ -1,0 +1,612 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Design District — Lets Do It Dallas
+X-WR-CALDESC:Live events\, music\, and nightlife in Design District — par
+ t of the Lets Do It Dallas real-time event radar.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:lsr-city-x-by-gareth-emery|silo-dallas|9-00-pm-2026-09-11@letsdoitdalla
+ s.com
+DTSTAMP:20260912T020000Z
+DTSTART:20260912T020000Z
+DTEND:20260912T050000Z
+SUMMARY:LSR/CITY X by Gareth Emery
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=lsr-city-x-by-gareth-emer
+ y%7Csilo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-bends|the-echo-lounge-music-hall-dallas|7-00-pm-2026-09-12@letsdoit
+ dallas.com
+DTSTAMP:20260913T000000Z
+DTSTART:20260913T000000Z
+DTEND:20260913T030000Z
+SUMMARY:The Bends
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=the-bends%7Cthe-echo-loun
+ ge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:indo-warehouse-18-and-over-|silo-dallas|9-00-pm-2026-09-12@letsdoitdall
+ as.com
+DTSTAMP:20260913T020000Z
+DTSTART:20260913T020000Z
+DTEND:20260913T050000Z
+SUMMARY:Indo Warehouse (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=indo-warehouse-18-and-ove
+ r-%7Csilo-dallas%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoff-tate-s-operation-mindcrime-the-final-chapter|the-echo-lounge-musi
+ c-hall-dallas|6-30-pm-2026-09-13@letsdoitdallas.com
+DTSTAMP:20260913T233000Z
+DTSTART:20260913T233000Z
+DTEND:20260914T023000Z
+SUMMARY:Geoff Tate's Operation: Mindcrime - The Final Chapter
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=geoff-tate-s-operation-mi
+ ndcrime-the-final-chapter%7Cthe-echo-lounge-music-hall-dallas%7C6-30-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:nitzer-ebb|am-fm-dallas-dallas|7-00-pm-2026-09-13@letsdoitdallas.com
+DTSTAMP:20260914T000000Z
+DTSTART:20260914T000000Z
+DTEND:20260914T030000Z
+SUMMARY:Nitzer Ebb
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=nitzer-ebb%7Cam-fm-dallas
+ -dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:wooden-wisdom-elijah-wood-and-zach-cowie-18-and-over-|silo-dallas|7-00-
+ pm-2026-09-13@letsdoitdallas.com
+DTSTAMP:20260914T000000Z
+DTSTART:20260914T000000Z
+DTEND:20260914T030000Z
+SUMMARY:Wooden Wisdom: Elijah Wood and Zach Cowie (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=wooden-wisdom-elijah-wood
+ -and-zach-cowie-18-and-over-%7Csilo-dallas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:psychedelic-porn-crumpets|am-fm-dallas-dallas|7-00-pm-2026-09-14@letsdo
+ itdallas.com
+DTSTAMP:20260915T000000Z
+DTSTART:20260915T000000Z
+DTEND:20260915T030000Z
+SUMMARY:Psychedelic Porn Crumpets
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-14&e=psychedelic-porn-crumpets
+ %7Cam-fm-dallas-dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:son-little|am-fm-dallas-dallas|7-00-pm-2026-09-15@letsdoitdallas.com
+DTSTAMP:20260916T000000Z
+DTSTART:20260916T000000Z
+DTEND:20260916T030000Z
+SUMMARY:Son Little
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=son-little%7Cam-fm-dallas
+ -dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:naomi-sharon-presents-no-sleep-in-paradise-tour|the-echo-lounge-music-h
+ all-dallas|7-00-pm-2026-09-16@letsdoitdallas.com
+DTSTAMP:20260917T000000Z
+DTSTART:20260917T000000Z
+DTEND:20260917T030000Z
+SUMMARY:Naomi Sharon Presents: No Sleep In Paradise Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=naomi-sharon-presents-no-
+ sleep-in-paradise-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:bassjackers-18-and-over-|silo-dallas|9-00-pm-2026-09-17@letsdoitdallas.
+ com
+DTSTAMP:20260918T020000Z
+DTSTART:20260918T020000Z
+DTEND:20260918T050000Z
+SUMMARY:Bassjackers (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=bassjackers-18-and-over-%
+ 7Csilo-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:sophie-truax-w-sasha-cee|am-fm-dallas-dallas|7-00-pm-2026-09-18@letsdoi
+ tdallas.com
+DTSTAMP:20260919T000000Z
+DTSTART:20260919T000000Z
+DTEND:20260919T030000Z
+SUMMARY:Sophie Truax w/ Sasha Cee
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=sophie-truax-w-sasha-cee%
+ 7Cam-fm-dallas-dallas%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:starjunk-95|the-echo-lounge-music-hall-dallas|8-00-pm-2026-09-18@letsdo
+ itdallas.com
+DTSTAMP:20260919T010000Z
+DTSTART:20260919T010000Z
+DTEND:20260919T040000Z
+SUMMARY:Starjunk 95
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=starjunk-95%7Cthe-echo-lo
+ unge-music-hall-dallas%7C8-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:swimming-paul-18-and-over-|silo-dallas|9-00-pm-2026-09-18@letsdoitdalla
+ s.com
+DTSTAMP:20260919T020000Z
+DTSTART:20260919T020000Z
+DTEND:20260919T050000Z
+SUMMARY:Swimming Paul (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=swimming-paul-18-and-over
+ -%7Csilo-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:it-s-a-2000s-party-dallas-18-|the-echo-lounge-music-hall-dallas|9-00-pm
+ -2026-09-19@letsdoitdallas.com
+DTSTAMP:20260920T020000Z
+DTSTART:20260920T020000Z
+DTEND:20260920T050000Z
+SUMMARY:It's A 2000s Party: Dallas - 18+
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=it-s-a-2000s-party-dallas
+ -18-%7Cthe-echo-lounge-music-hall-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:troyboi-18-and-over-|silo-dallas|9-00-pm-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260920T020000Z
+DTSTART:20260920T020000Z
+DTEND:20260920T050000Z
+SUMMARY:Troyboi (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=troyboi-18-and-over-%7Csi
+ lo-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-diesel-ages-18-|silo-dallas|7-00-pm-2026-09-20@letsdoitdallas.com
+DTSTAMP:20260921T000000Z
+DTSTART:20260921T000000Z
+DTEND:20260921T030000Z
+SUMMARY:DJ Diesel - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=dj-diesel-ages-18-%7Csilo
+ -dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-bad-plus-farewell-tour-18-event-|am-fm-dallas-dallas|9-00-pm-2026-0
+ 9-21@letsdoitdallas.com
+DTSTAMP:20260922T020000Z
+DTSTART:20260922T020000Z
+DTEND:20260922T050000Z
+SUMMARY:The Bad Plus Farewell Tour (18+ Event)
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-21&e=the-bad-plus-farewell-tou
+ r-18-event-%7Cam-fm-dallas-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:yg-the-gentlemen-s-club-tour|the-echo-lounge-music-hall-dallas|7-00-pm-
+ 2026-09-22@letsdoitdallas.com
+DTSTAMP:20260923T000000Z
+DTSTART:20260923T000000Z
+DTEND:20260923T030000Z
+SUMMARY:YG: THE GENTLEMEN'S CLUB TOUR
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=yg-the-gentlemen-s-club-t
+ our%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:arkose-ages-18-|am-fm-dallas-dallas|9-30-pm-2026-09-22@letsdoitdallas.c
+ om
+DTSTAMP:20260923T023000Z
+DTSTART:20260923T023000Z
+DTEND:20260923T053000Z
+SUMMARY:Arkose - Ages 18+
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=arkose-ages-18-%7Cam-fm-d
+ allas-dallas%7C9-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:built-to-spill|the-echo-lounge-music-hall-dallas|7-00-pm-2026-09-23@let
+ sdoitdallas.com
+DTSTAMP:20260924T000000Z
+DTSTART:20260924T000000Z
+DTEND:20260924T030000Z
+SUMMARY:Built To Spill
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=built-to-spill%7Cthe-echo
+ -lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-expendables|am-fm-dallas-dallas|6-30-pm-2026-09-24@letsdoitdallas.c
+ om
+DTSTAMP:20260924T233000Z
+DTSTART:20260924T233000Z
+DTEND:20260925T023000Z
+SUMMARY:The Expendables
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=the-expendables%7Cam-fm-d
+ allas-dallas%7C6-30-pm
+DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:gable-price-and-friends-too-good-tour|the-echo-lounge-music-hall-dallas
+ |7-00-pm-2026-09-24@letsdoitdallas.com
+DTSTAMP:20260925T000000Z
+DTSTART:20260925T000000Z
+DTEND:20260925T030000Z
+SUMMARY:Gable Price and Friends - Too Good Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=gable-price-and-friends-t
+ oo-good-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:haunt-me-ages-18-|am-fm-dallas-dallas|9-00-pm-2026-09-24@letsdoitdallas
+ .com
+DTSTAMP:20260925T020000Z
+DTSTART:20260925T020000Z
+DTEND:20260925T050000Z
+SUMMARY:Haunt Me - Ages 18+
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=haunt-me-ages-18-%7Cam-fm
+ -dallas-dallas%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:holy-priest-18-and-over-|silo-dallas|9-00-pm-2026-09-24@letsdoitdallas.
+ com
+DTSTAMP:20260925T020000Z
+DTSTART:20260925T020000Z
+DTEND:20260925T050000Z
+SUMMARY:Holy Priest (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=holy-priest-18-and-over-%
+ 7Csilo-dallas%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:ad-la-the-red-bottoms-tour|the-echo-lounge-music-hall-dallas|7-00-pm-20
+ 26-09-25@letsdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART:20260926T000000Z
+DTEND:20260926T030000Z
+SUMMARY:ADÉLA: The Red Bottoms Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=ad-la-the-red-bottoms-tou
+ r%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-motet|am-fm-dallas-dallas|7-00-pm-2026-09-25@letsdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART:20260926T000000Z
+DTEND:20260926T030000Z
+SUMMARY:The Motet
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=the-motet%7Cam-fm-dallas-
+ dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:holy-priest-18-and-over-|silo-dallas|9-00-pm-2026-09-25@letsdoitdallas.
+ com
+DTSTAMP:20260926T020000Z
+DTSTART:20260926T020000Z
+DTEND:20260926T050000Z
+SUMMARY:Holy Priest (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=holy-priest-18-and-over-%
+ 7Csilo-dallas%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:steel-beans-ages-18-|am-fm-dallas-dallas|9-30-pm-2026-09-25@letsdoitdal
+ las.com
+DTSTAMP:20260926T023000Z
+DTSTART:20260926T023000Z
+DTEND:20260926T053000Z
+SUMMARY:Steel Beans - Ages 18+
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=steel-beans-ages-18-%7Cam
+ -fm-dallas-dallas%7C9-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:mustard-service|am-fm-dallas-dallas|6-30-pm-2026-09-26@letsdoitdallas.c
+ om
+DTSTAMP:20260926T233000Z
+DTSTART:20260926T233000Z
+DTEND:20260927T023000Z
+SUMMARY:Mustard Service
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=mustard-service%7Cam-fm-d
+ allas-dallas%7C6-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:hey-nothing-the-hound-tour|the-echo-lounge-music-hall-dallas|7-00-pm-20
+ 26-09-26@letsdoitdallas.com
+DTSTAMP:20260927T000000Z
+DTSTART:20260927T000000Z
+DTEND:20260927T030000Z
+SUMMARY:HEY\, NOTHING - THE HOUND TOUR
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=hey-nothing-the-hound-tou
+ r%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:carbon-leaf-ages-18-|am-fm-dallas-dallas|8-30-pm-2026-09-26@letsdoitdal
+ las.com
+DTSTAMP:20260927T013000Z
+DTSTART:20260927T013000Z
+DTEND:20260927T043000Z
+SUMMARY:Carbon Leaf - Ages 18+
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=carbon-leaf-ages-18-%7Cam
+ -fm-dallas-dallas%7C8-30-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:zack-fox-dj|silo-dallas|9-00-pm-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260927T020000Z
+DTSTART:20260927T020000Z
+DTEND:20260927T050000Z
+SUMMARY:Zack Fox - DJ
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=zack-fox-dj%7Csilo-dallas
+ %7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:inquisitive-ages-18-|silo-dallas|7-00-pm-2026-09-27@letsdoitdallas.com
+DTSTAMP:20260928T000000Z
+DTSTART:20260928T000000Z
+DTEND:20260928T030000Z
+SUMMARY:Inquisitive - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=inquisitive-ages-18-%7Csi
+ lo-dallas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:scene-queen-metalicious|the-echo-lounge-music-hall-dallas|7-00-pm-2026-
+ 09-27@letsdoitdallas.com
+DTSTAMP:20260928T000000Z
+DTSTART:20260928T000000Z
+DTEND:20260928T030000Z
+SUMMARY:Scene Queen: METALICIOUS
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=scene-queen-metalicious%7
+ Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:fcukers|the-echo-lounge-music-hall-dallas|7-00-pm-2026-09-30@letsdoitda
+ llas.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261001T000000Z
+DTEND:20261001T030000Z
+SUMMARY:Fcukers
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=fcukers%7Cthe-echo-lounge
+ -music-hall-dallas%7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:grace-enger|am-fm-dallas-dallas|7-00-pm-2026-09-30@letsdoitdallas.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261001T000000Z
+DTEND:20261001T030000Z
+SUMMARY:Grace Enger
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=grace-enger%7Cam-fm-dalla
+ s-dallas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:rebecca-black-exhibitionism-on-tour|the-echo-lounge-music-hall-dallas|8
+ -00-pm-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261002T010000Z
+DTSTART:20261002T010000Z
+DTEND:20261002T040000Z
+SUMMARY:Rebecca Black - Exhibitionism on Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=rebecca-black-exhibitioni
+ sm-on-tour%7Cthe-echo-lounge-music-hall-dallas%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:hybrid-minds-ages-18-|silo-dallas|9-00-pm-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261002T020000Z
+DTSTART:20261002T020000Z
+DTEND:20261002T050000Z
+SUMMARY:Hybrid Minds - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=hybrid-minds-ages-18-%7Cs
+ ilo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:eli-brown-18-and-over-|silo-dallas|9-00-pm-2026-10-02@letsdoitdallas.co
+ m
+DTSTAMP:20261003T020000Z
+DTSTART:20261003T020000Z
+DTEND:20261003T050000Z
+SUMMARY:Eli Brown (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=eli-brown-18-and-over-%7C
+ silo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:sasha-and-john-digweed-18-and-over-|silo-dallas|9-00-pm-2026-10-03@lets
+ doitdallas.com
+DTSTAMP:20261004T020000Z
+DTSTART:20261004T020000Z
+DTEND:20261004T050000Z
+SUMMARY:Sasha and John Digweed (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=sasha-and-john-digweed-18
+ -and-over-%7Csilo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:joris-voorn-ages-18-|silo-dallas|5-00-pm-2026-10-04@letsdoitdallas.com
+DTSTAMP:20261004T220000Z
+DTSTART:20261004T220000Z
+DTEND:20261005T010000Z
+SUMMARY:JORIS VOORN - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=joris-voorn-ages-18-%7Csi
+ lo-dallas%7C5-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:mar-solis-tu-tutu-tour-2026|the-echo-lounge-music-hall-dallas|7-00-pm-2
+ 026-10-08@letsdoitdallas.com
+DTSTAMP:20261009T000000Z
+DTSTART:20261009T000000Z
+DTEND:20261009T030000Z
+SUMMARY:MAR SOLIS - TU TUTU TOUR 2026
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=mar-solis-tu-tutu-tour-20
+ 26%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:hvdes-ages-18-|silo-dallas|9-00-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261009T020000Z
+DTSTART:20261009T020000Z
+DTEND:20261009T050000Z
+SUMMARY:HVDES - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=hvdes-ages-18-%7Csilo-dal
+ las%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:claire-rosinkranz-my-lover-tour|the-echo-lounge-music-hall-dallas|7-00-
+ pm-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261010T000000Z
+DTSTART:20261010T000000Z
+DTEND:20261010T030000Z
+SUMMARY:Claire Rosinkranz - My Lover Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=claire-rosinkranz-my-love
+ r-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:steve-angello-ages-18-|silo-dallas|9-00-pm-2026-10-09@letsdoitdallas.co
+ m
+DTSTAMP:20261010T020000Z
+DTSTART:20261010T020000Z
+DTEND:20261010T050000Z
+SUMMARY:Steve Angello - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=steve-angello-ages-18-%7C
+ silo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:do-more-dallas-charity-concert|the-echo-lounge-music-hall-dallas|7-00-p
+ m-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261011T000000Z
+DTSTART:20261011T000000Z
+DTEND:20261011T030000Z
+SUMMARY:Do More Dallas: Charity Concert
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=do-more-dallas-charity-co
+ ncert%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:mariachi-el-bronx|am-fm-dallas-dallas|7-00-pm-2026-10-10@letsdoitdallas
+ .com
+DTSTAMP:20261011T000000Z
+DTSTART:20261011T000000Z
+DTEND:20261011T030000Z
+SUMMARY:Mariachi El Bronx
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=mariachi-el-bronx%7Cam-fm
+ -dallas-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,189 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AM/FM Dallas — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at AM/FM Dallas.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:nitzer-ebb|am-fm-dallas-dallas|7-00-pm-2026-09-13@letsdoitdallas.com
+DTSTAMP:20260914T000000Z
+DTSTART:20260914T000000Z
+DTEND:20260914T030000Z
+SUMMARY:Nitzer Ebb
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=nitzer-ebb%7Cam-fm-dallas
+ -dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:psychedelic-porn-crumpets|am-fm-dallas-dallas|7-00-pm-2026-09-14@letsdo
+ itdallas.com
+DTSTAMP:20260915T000000Z
+DTSTART:20260915T000000Z
+DTEND:20260915T030000Z
+SUMMARY:Psychedelic Porn Crumpets
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-14&e=psychedelic-porn-crumpets
+ %7Cam-fm-dallas-dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:son-little|am-fm-dallas-dallas|7-00-pm-2026-09-15@letsdoitdallas.com
+DTSTAMP:20260916T000000Z
+DTSTART:20260916T000000Z
+DTEND:20260916T030000Z
+SUMMARY:Son Little
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=son-little%7Cam-fm-dallas
+ -dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:sophie-truax-w-sasha-cee|am-fm-dallas-dallas|7-00-pm-2026-09-18@letsdoi
+ tdallas.com
+DTSTAMP:20260919T000000Z
+DTSTART:20260919T000000Z
+DTEND:20260919T030000Z
+SUMMARY:Sophie Truax w/ Sasha Cee
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=sophie-truax-w-sasha-cee%
+ 7Cam-fm-dallas-dallas%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-bad-plus-farewell-tour-18-event-|am-fm-dallas-dallas|9-00-pm-2026-0
+ 9-21@letsdoitdallas.com
+DTSTAMP:20260922T020000Z
+DTSTART:20260922T020000Z
+DTEND:20260922T050000Z
+SUMMARY:The Bad Plus Farewell Tour (18+ Event)
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-21&e=the-bad-plus-farewell-tou
+ r-18-event-%7Cam-fm-dallas-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:arkose-ages-18-|am-fm-dallas-dallas|9-30-pm-2026-09-22@letsdoitdallas.c
+ om
+DTSTAMP:20260923T023000Z
+DTSTART:20260923T023000Z
+DTEND:20260923T053000Z
+SUMMARY:Arkose - Ages 18+
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=arkose-ages-18-%7Cam-fm-d
+ allas-dallas%7C9-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-expendables|am-fm-dallas-dallas|6-30-pm-2026-09-24@letsdoitdallas.c
+ om
+DTSTAMP:20260924T233000Z
+DTSTART:20260924T233000Z
+DTEND:20260925T023000Z
+SUMMARY:The Expendables
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=the-expendables%7Cam-fm-d
+ allas-dallas%7C6-30-pm
+DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:haunt-me-ages-18-|am-fm-dallas-dallas|9-00-pm-2026-09-24@letsdoitdallas
+ .com
+DTSTAMP:20260925T020000Z
+DTSTART:20260925T020000Z
+DTEND:20260925T050000Z
+SUMMARY:Haunt Me - Ages 18+
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=haunt-me-ages-18-%7Cam-fm
+ -dallas-dallas%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-motet|am-fm-dallas-dallas|7-00-pm-2026-09-25@letsdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART:20260926T000000Z
+DTEND:20260926T030000Z
+SUMMARY:The Motet
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=the-motet%7Cam-fm-dallas-
+ dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:steel-beans-ages-18-|am-fm-dallas-dallas|9-30-pm-2026-09-25@letsdoitdal
+ las.com
+DTSTAMP:20260926T023000Z
+DTSTART:20260926T023000Z
+DTEND:20260926T053000Z
+SUMMARY:Steel Beans - Ages 18+
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=steel-beans-ages-18-%7Cam
+ -fm-dallas-dallas%7C9-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:mustard-service|am-fm-dallas-dallas|6-30-pm-2026-09-26@letsdoitdallas.c
+ om
+DTSTAMP:20260926T233000Z
+DTSTART:20260926T233000Z
+DTEND:20260927T023000Z
+SUMMARY:Mustard Service
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=mustard-service%7Cam-fm-d
+ allas-dallas%7C6-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:carbon-leaf-ages-18-|am-fm-dallas-dallas|8-30-pm-2026-09-26@letsdoitdal
+ las.com
+DTSTAMP:20260927T013000Z
+DTSTART:20260927T013000Z
+DTEND:20260927T043000Z
+SUMMARY:Carbon Leaf - Ages 18+
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=carbon-leaf-ages-18-%7Cam
+ -fm-dallas-dallas%7C8-30-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:grace-enger|am-fm-dallas-dallas|7-00-pm-2026-09-30@letsdoitdallas.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261001T000000Z
+DTEND:20261001T030000Z
+SUMMARY:Grace Enger
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=grace-enger%7Cam-fm-dalla
+ s-dallas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:mariachi-el-bronx|am-fm-dallas-dallas|7-00-pm-2026-10-10@letsdoitdallas
+ .com
+DTSTAMP:20261011T000000Z
+DTSTART:20261011T000000Z
+DTEND:20261011T030000Z
+SUMMARY:Mariachi El Bronx
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=mariachi-el-bronx%7Cam-fm
+ -dallas-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/am-fm-dallas/
+END:VEVENT
+END:VCALENDAR

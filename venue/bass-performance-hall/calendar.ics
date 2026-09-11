@@ -1,0 +1,167 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Bass Performance Hall — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Bass Performance Hall.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:opening-weekend-beethoven-s-fifth|bass-performance-hall-fort-worth|7-30
+ -pm-2026-09-11@letsdoitdallas.com
+DTSTAMP:20260912T003000Z
+DTSTART:20260912T003000Z
+DTEND:20260912T033000Z
+SUMMARY:Opening Weekend: Beethoven's Fifth
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=opening-weekend-beethoven
+ -s-fifth%7Cbass-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:fort-worth-symphony-orchestra-beethoven-s-fifth|bass-performance-hall-f
+ ort-worth|7-30-pm-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260913T003000Z
+DTSTART:20260913T003000Z
+DTEND:20260913T033000Z
+SUMMARY:Fort Worth Symphony Orchestra - Beethoven's Fifth
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=fort-worth-symphony-orche
+ stra-beethoven-s-fifth%7Cbass-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
+ com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:fort-worth-symphony-orchestra-beethoven-s-fifth|bass-performance-hall-f
+ ort-worth|2-00-pm-2026-09-13@letsdoitdallas.com
+DTSTAMP:20260913T190000Z
+DTSTART:20260913T190000Z
+DTEND:20260913T220000Z
+SUMMARY:Fort Worth Symphony Orchestra - Beethoven's Fifth
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=fort-worth-symphony-orche
+ stra-beethoven-s-fifth%7Cbass-performance-hall-fort-worth%7C2-00-pm
+DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
+ com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:bluey-s-big-play-the-stage-show|bass-performance-hall-fort-worth|10-30-
+ am-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260919T153000Z
+DTSTART:20260919T153000Z
+DTEND:20260919T183000Z
+SUMMARY:Bluey's Big Play - The Stage Show
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=bluey-s-big-play-the-stag
+ e-show%7Cbass-performance-hall-fort-worth%7C10-30-am
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:bluey-s-big-play|bass-performance-hall-fort-worth|2-00-pm-2026-09-19@le
+ tsdoitdallas.com
+DTSTAMP:20260919T190000Z
+DTSTART:20260919T190000Z
+DTEND:20260919T220000Z
+SUMMARY:Bluey's Big Play
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=bluey-s-big-play%7Cbass-p
+ erformance-hall-fort-worth%7C2-00-pm
+DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:bluey-s-big-play-the-stage-show|bass-performance-hall-fort-worth|11-00-
+ am-2026-09-20@letsdoitdallas.com
+DTSTAMP:20260920T160000Z
+DTSTART:20260920T160000Z
+DTEND:20260920T190000Z
+SUMMARY:Bluey's Big Play - The Stage Show
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=bluey-s-big-play-the-stag
+ e-show%7Cbass-performance-hall-fort-worth%7C11-00-am
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:bluey-s-big-play|bass-performance-hall-fort-worth|3-00-pm-2026-09-20@le
+ tsdoitdallas.com
+DTSTAMP:20260920T200000Z
+DTSTART:20260920T200000Z
+DTEND:20260920T230000Z
+SUMMARY:Bluey's Big Play
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=bluey-s-big-play%7Cbass-p
+ erformance-hall-fort-worth%7C3-00-pm
+DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:brahms-and-haydn-together|bass-performance-hall-fort-worth|7-30-pm-2026
+ -09-26@letsdoitdallas.com
+DTSTAMP:20260927T003000Z
+DTSTART:20260927T003000Z
+DTEND:20260927T033000Z
+SUMMARY:Brahms and Haydn\, Together
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=brahms-and-haydn-together
+ %7Cbass-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:brahms-and-haydn-together|bass-performance-hall-fort-worth|2-00-pm-2026
+ -09-27@letsdoitdallas.com
+DTSTAMP:20260927T190000Z
+DTSTART:20260927T190000Z
+DTEND:20260927T220000Z
+SUMMARY:Brahms and Haydn\, Together
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=brahms-and-haydn-together
+ %7Cbass-performance-hall-fort-worth%7C2-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:casanova|bass-performance-hall-fort-worth|8-00-pm-2026-10-02@letsdoitda
+ llas.com
+DTSTAMP:20261003T010000Z
+DTSTART:20261003T010000Z
+DTEND:20261003T040000Z
+SUMMARY:Casanova
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=casanova%7Cbass-performan
+ ce-hall-fort-worth%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:casanova|bass-performance-hall-fort-worth|2-00-pm-2026-10-04@letsdoitda
+ llas.com
+DTSTAMP:20261004T190000Z
+DTSTART:20261004T190000Z
+DTEND:20261004T220000Z
+SUMMARY:Casanova
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=casanova%7Cbass-performan
+ ce-hall-fort-worth%7C2-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-classical-style|bass-performance-hall-fort-worth|7-30-pm-2026-10-09
+ @letsdoitdallas.com
+DTSTAMP:20261010T003000Z
+DTSTART:20261010T003000Z
+DTEND:20261010T033000Z
+SUMMARY:The Classical Style
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=the-classical-style%7Cbas
+ s-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/bass-performance-hall/
+END:VEVENT
+END:VCALENDAR

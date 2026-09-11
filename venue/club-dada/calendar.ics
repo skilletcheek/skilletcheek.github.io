@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Club Dada — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Club Dada.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:west-22nd|club-dada-dallas|8-00-pm-2026-09-11@letsdoitdallas.com
+DTSTAMP:20260912T010000Z
+DTSTART:20260912T010000Z
+DTEND:20260912T040000Z
+SUMMARY:West 22nd
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=west-22nd%7Cclub-dada-dal
+ las%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/club-dada/
+END:VEVENT
+BEGIN:VEVENT
+UID:when-chai-met-toast|club-dada-dallas|8-00-pm-2026-09-12@letsdoitdallas.
+ com
+DTSTAMP:20260913T010000Z
+DTSTART:20260913T010000Z
+DTEND:20260913T040000Z
+SUMMARY:When Chai Met Toast
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=when-chai-met-toast%7Cclu
+ b-dada-dallas%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/club-dada/
+END:VEVENT
+BEGIN:VEVENT
+UID:king-mala-|-the-golden-thing-tour|club-dada-dallas|8-00-pm-2026-09-18@l
+ etsdoitdallas.com
+DTSTAMP:20260919T010000Z
+DTSTART:20260919T010000Z
+DTEND:20260919T040000Z
+SUMMARY:KiNG MALA | The Golden Thing Tour
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=king-mala-%7C-the-golden-
+ thing-tour%7Cclub-dada-dallas%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/club-dada/
+END:VEVENT
+BEGIN:VEVENT
+UID:fetty-p-franklin-live-in-dallas|club-dada-dallas|7-00-pm-2026-09-25@let
+ sdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART:20260926T000000Z
+DTEND:20260926T030000Z
+SUMMARY:Fetty P. Franklin Live In Dallas
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=fetty-p-franklin-live-in-
+ dallas%7Cclub-dada-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/club-dada/
+END:VEVENT
+END:VCALENDAR

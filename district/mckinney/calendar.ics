@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Mckinney — Lets Do It Dallas
+X-WR-CALDESC:Live events\, music\, and nightlife in McKinney — part of th
+ e Lets Do It Dallas real-time event radar.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:guns-and-hoses-boxing|credit-union-of-texas-event-center-allen|6-30-pm-
+ 2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T233000Z
+DTSTART:20260912T233000Z
+DTEND:20260913T023000Z
+SUMMARY:Guns And Hoses Boxing
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=guns-and-hoses-boxing%7Cc
+ redit-union-of-texas-event-center-allen%7C6-30-pm
+DESCRIPTION:Boxing event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:sonu-nigam|credit-union-of-texas-event-center-allen|8-30-pm-2026-09-26@
+ letsdoitdallas.com
+DTSTAMP:20260927T013000Z
+DTSTART:20260927T013000Z
+DTEND:20260927T043000Z
+SUMMARY:Sonu Nigam
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=sonu-nigam%7Ccredit-union
+ -of-texas-event-center-allen%7C8-30-pm
+DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:share-the-arrows-2026|credit-union-of-texas-event-center-allen|9-00-am-
+ 2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T140000Z
+DTSTART:20261010T140000Z
+DTEND:20261010T170000Z
+SUMMARY:Share the Arrows 2026
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=share-the-arrows-2026%7Cc
+ redit-union-of-texas-event-center-allen%7C9-00-am
+DESCRIPTION:Lecture/Seminar event via Ticketmaster. — More: https://letsd
+ oitdallas.com/district/mckinney/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,117 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Bomb Factory — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at The Bomb Factory.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:the-midnight-16-and-under-with-parent-or-legal-guardian-|the-bomb-facto
+ ry-dallas|8-00-pm-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260913T010000Z
+DTSTART:20260913T010000Z
+DTEND:20260913T040000Z
+SUMMARY:The Midnight (16 and Under with Parent or Legal Guardian)
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=the-midnight-16-and-under
+ -with-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:julia-wolf-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory
+ -dallas|8-00-pm-2026-09-18@letsdoitdallas.com
+DTSTAMP:20260919T010000Z
+DTSTART:20260919T010000Z
+DTEND:20260919T040000Z
+SUMMARY:Julia Wolf (16 and Under with Parent or Legal Guardian)
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=julia-wolf-16-and-under-w
+ ith-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:all-the-feels-r-and-b-16-and-under-with-parent-or-legal-guardian-|the-b
+ omb-factory-dallas|8-00-pm-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260920T010000Z
+DTSTART:20260920T010000Z
+DTEND:20260920T040000Z
+SUMMARY:All The Feels R and B (16 and Under with Parent or Legal Guardian)
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=all-the-feels-r-and-b-16-
+ and-under-with-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C8-00-
+ pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:muna-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory-dalla
+ s|7-00-pm-2026-09-20@letsdoitdallas.com
+DTSTAMP:20260921T000000Z
+DTSTART:20260921T000000Z
+DTEND:20260921T030000Z
+SUMMARY:Muna (16 and Under with Parent or Legal Guardian)
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=muna-16-and-under-with-pa
+ rent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:artemas|the-bomb-factory-dallas|8-00-pm-2026-09-22@letsdoitdallas.com
+DTSTAMP:20260923T010000Z
+DTSTART:20260923T010000Z
+DTEND:20260923T040000Z
+SUMMARY:Artemas
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=artemas%7Cthe-bomb-factor
+ y-dallas%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:starbomb-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory-d
+ allas|8-00-pm-2026-09-24@letsdoitdallas.com
+DTSTAMP:20260925T010000Z
+DTSTART:20260925T010000Z
+DTEND:20260925T040000Z
+SUMMARY:Starbomb (16 and Under with Parent or Legal Guardian)
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=starbomb-16-and-under-wit
+ h-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-jay-b-tape-roots|the-bomb-factory-dallas|7-30-pm-2026-09-25@letsdo
+ itdallas.com
+DTSTAMP:20260926T003000Z
+DTSTART:20260926T003000Z
+DTEND:20260926T033000Z
+SUMMARY:2026 JAY B tape: roots
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=2026-jay-b-tape-roots%7Ct
+ he-bomb-factory-dallas%7C7-30-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:jack-white-this-is-a-phone-free-show-16-and-under-with-parent-or-legal-
+ guardian-|the-bomb-factory-dallas|8-00-pm-2026-10-07@letsdoitdallas.com
+DTSTAMP:20261008T010000Z
+DTSTART:20261008T010000Z
+DTEND:20261008T040000Z
+SUMMARY:Jack White (This is a Phone Free Show - 16 and Under with Parent or
+  Legal Guardian)
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=jack-white-this-is-a-phon
+ e-free-show-16-and-under-with-parent-or-legal-guardian-%7Cthe-bomb-factory
+ -dallas%7C8-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/the-bomb-factory/
+END:VEVENT
+END:VCALENDAR

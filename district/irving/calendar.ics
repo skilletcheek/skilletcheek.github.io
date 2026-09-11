@@ -1,0 +1,675 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Irving — Lets Do It Dallas
+X-WR-CALDESC:Live events\, music\, and nightlife in Irving — part of the 
+ Lets Do It Dallas real-time event radar.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:liza-treyger|punch-line-irving-irving|7-00-pm-2026-09-11@letsdoitdallas
+ .com
+DTSTAMP:20260912T000000Z
+DTSTART:20260912T000000Z
+DTEND:20260912T030000Z
+SUMMARY:Liza Treyger
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=liza-treyger%7Cpunch-line
+ -irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:kany-garcia-puerta-abierta-tour|the-pavilion-at-toyota-music-factory-ir
+ ving|8-00-pm-2026-09-11@letsdoitdallas.com
+DTSTAMP:20260912T010000Z
+DTSTART:20260912T010000Z
+DTEND:20260912T040000Z
+SUMMARY:Kany Garcia: Puerta Abierta Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=kany-garcia-puerta-abiert
+ a-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:liza-treyger|punch-line-irving-irving|9-15-pm-2026-09-11@letsdoitdallas
+ .com
+DTSTAMP:20260912T021500Z
+DTSTART:20260912T021500Z
+DTEND:20260912T051500Z
+SUMMARY:Liza Treyger
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=liza-treyger%7Cpunch-line
+ -irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:patron-tequila-presents-the-irving-margarita-festival|irving|12-00-pm-6
+ -00-pm-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T170000Z
+DTSTART:20260912T170000Z
+DTEND:20260912T200000Z
+SUMMARY:Patron Tequila Presents the Irving Margarita Festival
+LOCATION:Irving
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=patron-tequila-presents-t
+ he-irving-margarita-festival%7Cirving%7C12-00-pm-6-00-pm
+DESCRIPTION:Get ready to sip\, savor\, and pick your favorite margarita at 
+ this flavor-packed tasting competition featuring 2\,500 margarita lovers a
+ nd samples from... — More: https://letsdoitdallas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:liza-treyger|punch-line-irving-irving|7-00-pm-2026-09-12@letsdoitdallas
+ .com
+DTSTAMP:20260913T000000Z
+DTSTART:20260913T000000Z
+DTEND:20260913T030000Z
+SUMMARY:Liza Treyger
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=liza-treyger%7Cpunch-line
+ -irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:thee-sacred-souls-la-lom-the-womack-sisters|the-pavilion-at-toyota-musi
+ c-factory-irving|7-00-pm-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260913T000000Z
+DTSTART:20260913T000000Z
+DTEND:20260913T030000Z
+SUMMARY:Thee Sacred Souls\, LA LOM\, & The Womack Sisters
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=thee-sacred-souls-la-lom-
+ the-womack-sisters%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:liza-treyger|punch-line-irving-irving|9-15-pm-2026-09-12@letsdoitdallas
+ .com
+DTSTAMP:20260913T021500Z
+DTSTART:20260913T021500Z
+DTEND:20260913T051500Z
+SUMMARY:Liza Treyger
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=liza-treyger%7Cpunch-line
+ -irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:splou|punch-line-irving-irving|7-00-pm-2026-09-13@letsdoitdallas.com
+DTSTAMP:20260914T000000Z
+DTSTART:20260914T000000Z
+DTEND:20260914T030000Z
+SUMMARY:Splou
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=splou%7Cpunch-line-irving
+ -irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:jill-scott-to-whom-this-may-concern-tour|the-pavilion-at-toyota-music-f
+ actory-irving|8-00-pm-2026-09-14@letsdoitdallas.com
+DTSTAMP:20260915T010000Z
+DTSTART:20260915T010000Z
+DTEND:20260915T040000Z
+SUMMARY:Jill Scott - To Whom This May Concern Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-14&e=jill-scott-to-whom-this-m
+ ay-concern-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:jill-scott-to-whom-this-may-concern-tour|the-pavilion-at-toyota-music-f
+ actory-irving|8-00-pm-2026-09-15@letsdoitdallas.com
+DTSTAMP:20260916T010000Z
+DTSTART:20260916T010000Z
+DTEND:20260916T040000Z
+SUMMARY:Jill Scott - To Whom This May Concern Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=jill-scott-to-whom-this-m
+ ay-concern-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:ken-carson-xperimenting-tour|the-pavilion-at-toyota-music-factory-irvin
+ g|7-30-pm-2026-09-16@letsdoitdallas.com
+DTSTAMP:20260917T003000Z
+DTSTART:20260917T003000Z
+DTEND:20260917T033000Z
+SUMMARY:Ken Carson - xperimenting tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=ken-carson-xperimenting-t
+ our%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-30-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:we-funny-wednesdays|punch-line-irving-irving|7-30-pm-2026-09-16@letsdoi
+ tdallas.com
+DTSTAMP:20260917T003000Z
+DTSTART:20260917T003000Z
+DTEND:20260917T033000Z
+SUMMARY:We Funny Wednesdays
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=we-funny-wednesdays%7Cpun
+ ch-line-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:ryan-goodcase|punch-line-irving-irving|7-30-pm-2026-09-17@letsdoitdalla
+ s.com
+DTSTAMP:20260918T003000Z
+DTSTART:20260918T003000Z
+DTEND:20260918T033000Z
+SUMMARY:Ryan Goodcase
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=ryan-goodcase%7Cpunch-lin
+ e-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:emily-catalano|punch-line-irving-irving|7-30-pm-2026-09-18@letsdoitdall
+ as.com
+DTSTAMP:20260919T003000Z
+DTSTART:20260919T003000Z
+DTEND:20260919T033000Z
+SUMMARY:Emily Catalano
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=emily-catalano%7Cpunch-li
+ ne-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:comedy-allstars|punch-line-irving-irving|9-45-pm-2026-09-18@letsdoitdal
+ las.com
+DTSTAMP:20260919T024500Z
+DTSTART:20260919T024500Z
+DTEND:20260919T054500Z
+SUMMARY:Comedy Allstars
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=comedy-allstars%7Cpunch-l
+ ine-irving-irving%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:emily-catalano|punch-line-irving-irving|7-00-pm-2026-09-19@letsdoitdall
+ as.com
+DTSTAMP:20260920T000000Z
+DTSTART:20260920T000000Z
+DTEND:20260920T030000Z
+SUMMARY:Emily Catalano
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=emily-catalano%7Cpunch-li
+ ne-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:emily-catalano|punch-line-irving-irving|9-15-pm-2026-09-19@letsdoitdall
+ as.com
+DTSTAMP:20260920T021500Z
+DTSTART:20260920T021500Z
+DTEND:20260920T051500Z
+SUMMARY:Emily Catalano
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=emily-catalano%7Cpunch-li
+ ne-irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:cynthia-lee-fontaine-presents-drag-brunch-at-the-punch|punch-line-irvin
+ g-irving|12-00-pm-2026-09-20@letsdoitdallas.com
+DTSTAMP:20260920T170000Z
+DTSTART:20260920T170000Z
+DTEND:20260920T200000Z
+SUMMARY:Cynthia Lee Fontaine Presents: Drag Brunch at the Punch
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=cynthia-lee-fontaine-pres
+ ents-drag-brunch-at-the-punch%7Cpunch-line-irving-irving%7C12-00-pm
+DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
+ oitdallas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:abelardo-en-espa-ol-|punch-line-irving-irving|7-00-pm-2026-09-20@letsdo
+ itdallas.com
+DTSTAMP:20260921T000000Z
+DTSTART:20260921T000000Z
+DTEND:20260921T030000Z
+SUMMARY:Abelardo (En Español)
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=abelardo-en-espa-ol-%7Cpu
+ nch-line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:comedy-allstars|punch-line-irving-irving|7-00-pm-2026-09-20@letsdoitdal
+ las.com
+DTSTAMP:20260921T000000Z
+DTSTART:20260921T000000Z
+DTEND:20260921T030000Z
+SUMMARY:Comedy Allstars
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=comedy-allstars%7Cpunch-l
+ ine-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:chief-keef-live-2026|the-pavilion-at-toyota-music-factory-irving|8-00-p
+ m-2026-09-20@letsdoitdallas.com
+DTSTAMP:20260921T010000Z
+DTSTART:20260921T010000Z
+DTEND:20260921T040000Z
+SUMMARY:Chief Keef Live 2026
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=chief-keef-live-2026%7Cth
+ e-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:crash-dummies|punch-line-irving-irving|7-30-pm-2026-09-23@letsdoitdalla
+ s.com
+DTSTAMP:20260924T003000Z
+DTSTART:20260924T003000Z
+DTEND:20260924T033000Z
+SUMMARY:Crash Dummies
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=crash-dummies%7Cpunch-lin
+ e-irving-irving%7C7-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:jenny-tian-ripe|punch-line-irving-irving|7-30-pm-2026-09-24@letsdoitdal
+ las.com
+DTSTAMP:20260925T003000Z
+DTSTART:20260925T003000Z
+DTEND:20260925T033000Z
+SUMMARY:Jenny Tian: Ripe
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=jenny-tian-ripe%7Cpunch-l
+ ine-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:alicia-villarreal-bendita-locura-tour-2026|the-pavilion-at-toyota-music
+ -factory-irving|8-00-pm-2026-09-24@letsdoitdallas.com
+DTSTAMP:20260925T010000Z
+DTSTART:20260925T010000Z
+DTEND:20260925T040000Z
+SUMMARY:Alicia Villarreal - Bendita Locura Tour 2026
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=alicia-villarreal-bendita
+ -locura-tour-2026%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:an-evening-with-tyler-fischer|punch-line-irving-irving|7-30-pm-2026-09-
+ 25@letsdoitdallas.com
+DTSTAMP:20260926T003000Z
+DTSTART:20260926T003000Z
+DTEND:20260926T033000Z
+SUMMARY:An Evening With Tyler Fischer
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=an-evening-with-tyler-fis
+ cher%7Cpunch-line-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:an-evening-with-tyler-fischer|punch-line-irving-irving|9-45-pm-2026-09-
+ 25@letsdoitdallas.com
+DTSTAMP:20260926T024500Z
+DTSTART:20260926T024500Z
+DTEND:20260926T054500Z
+SUMMARY:An Evening With Tyler Fischer
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=an-evening-with-tyler-fis
+ cher%7Cpunch-line-irving-irving%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:an-evening-with-tyler-fischer|punch-line-irving-irving|7-00-pm-2026-09-
+ 26@letsdoitdallas.com
+DTSTAMP:20260927T000000Z
+DTSTART:20260927T000000Z
+DTEND:20260927T030000Z
+SUMMARY:An Evening With Tyler Fischer
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=an-evening-with-tyler-fis
+ cher%7Cpunch-line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:an-evening-with-tyler-fischer|punch-line-irving-irving|9-15-pm-2026-09-
+ 26@letsdoitdallas.com
+DTSTAMP:20260927T021500Z
+DTSTART:20260927T021500Z
+DTEND:20260927T051500Z
+SUMMARY:An Evening With Tyler Fischer
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=an-evening-with-tyler-fis
+ cher%7Cpunch-line-irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:desi-alexander-stress-signal-tour|punch-line-irving-irving|7-00-pm-2026
+ -09-27@letsdoitdallas.com
+DTSTAMP:20260928T000000Z
+DTSTART:20260928T000000Z
+DTEND:20260928T030000Z
+SUMMARY:Desi Alexander: Stress Signal Tour
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=desi-alexander-stress-sig
+ nal-tour%7Cpunch-line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:freya-skye-stars-align-tour|the-pavilion-at-toyota-music-factory-irving
+ |8-00-pm-2026-09-27@letsdoitdallas.com
+DTSTAMP:20260928T010000Z
+DTSTART:20260928T010000Z
+DTEND:20260928T040000Z
+SUMMARY:Freya Skye - Stars Align Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=freya-skye-stars-align-to
+ ur%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:ysl-records-young-thug-present-the-new-generation-tour|the-pavilion-at-
+ toyota-music-factory-irving|8-00-pm-2026-09-29@letsdoitdallas.com
+DTSTAMP:20260930T010000Z
+DTSTART:20260930T010000Z
+DTEND:20260930T040000Z
+SUMMARY:YSL Records & Young Thug Present: The New Generation Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=ysl-records-young-thug-pr
+ esent-the-new-generation-tour%7Cthe-pavilion-at-toyota-music-factory-irvin
+ g%7C8-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:juanes-north-america-tour-2026|the-pavilion-at-toyota-music-factory-irv
+ ing|8-00-pm-2026-09-30@letsdoitdallas.com
+DTSTAMP:20261001T010000Z
+DTSTART:20261001T010000Z
+DTEND:20261001T040000Z
+SUMMARY:Juanes North America Tour 2026
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=juanes-north-america-tour
+ -2026%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:poly-d-az-en-espa-ol-|punch-line-irving-irving|7-30-pm-2026-10-01@letsd
+ oitdallas.com
+DTSTAMP:20261002T003000Z
+DTSTART:20261002T003000Z
+DTEND:20261002T033000Z
+SUMMARY:Poly Díaz (En Español)
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=poly-d-az-en-espa-ol-%7Cp
+ unch-line-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:stephen-wilson-jr-gary-the-torch-tour|the-pavilion-at-toyota-music-fact
+ ory-irving|7-30-pm-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261002T003000Z
+DTSTART:20261002T003000Z
+DTEND:20261002T033000Z
+SUMMARY:Stephen Wilson Jr. - Gary The Torch Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=stephen-wilson-jr-gary-th
+ e-torch-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-30-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:joe-fenti|punch-line-irving-irving|7-00-pm-2026-10-02@letsdoitdallas.co
+ m
+DTSTAMP:20261003T000000Z
+DTSTART:20261003T000000Z
+DTEND:20261003T030000Z
+SUMMARY:Joe Fenti
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=joe-fenti%7Cpunch-line-ir
+ ving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:phylicia-dshea|punch-line-irving-irving|9-30-pm-2026-10-02@letsdoitdall
+ as.com
+DTSTAMP:20261003T023000Z
+DTSTART:20261003T023000Z
+DTEND:20261003T053000Z
+SUMMARY:Phylicia Dshea
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=phylicia-dshea%7Cpunch-li
+ ne-irving-irving%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:joe-fenti|punch-line-irving-irving|7-00-pm-2026-10-03@letsdoitdallas.co
+ m
+DTSTAMP:20261004T000000Z
+DTSTART:20261004T000000Z
+DTEND:20261004T030000Z
+SUMMARY:Joe Fenti
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=joe-fenti%7Cpunch-line-ir
+ ving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:insecure-the-10th-anniversary-tour|the-pavilion-at-toyota-music-factory
+ -irving|8-00-pm-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261004T010000Z
+DTSTART:20261004T010000Z
+DTEND:20261004T040000Z
+SUMMARY:Insecure: The 10th Anniversary Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=insecure-the-10th-anniver
+ sary-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:joe-fenti|punch-line-irving-irving|9-15-pm-2026-10-03@letsdoitdallas.co
+ m
+DTSTAMP:20261004T021500Z
+DTSTART:20261004T021500Z
+DTEND:20261004T051500Z
+SUMMARY:Joe Fenti
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=joe-fenti%7Cpunch-line-ir
+ ving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:zz-top|the-pavilion-at-toyota-music-factory-irving|6-00-pm-2026-10-04@l
+ etsdoitdallas.com
+DTSTAMP:20261004T230000Z
+DTSTART:20261004T230000Z
+DTEND:20261005T020000Z
+SUMMARY:ZZ Top
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=zz-top%7Cthe-pavilion-at-
+ toyota-music-factory-irving%7C6-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:comedy-allstars|punch-line-irving-irving|7-00-pm-2026-10-04@letsdoitdal
+ las.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261005T000000Z
+DTEND:20261005T030000Z
+SUMMARY:Comedy Allstars
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=comedy-allstars%7Cpunch-l
+ ine-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:tlc-salt-n-pepa-with-en-vogue-it-s-iconic|the-pavilion-at-toyota-music-
+ factory-irving|7-30-pm-2026-10-05@letsdoitdallas.com
+DTSTAMP:20261006T003000Z
+DTSTART:20261006T003000Z
+DTEND:20261006T033000Z
+SUMMARY:TLC & Salt-N-Pepa with En Vogue - IT'S ICONIC
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=tlc-salt-n-pepa-with-en-v
+ ogue-it-s-iconic%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-30-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:we-funny-wednesdays|punch-line-irving-irving|7-30-pm-2026-10-07@letsdoi
+ tdallas.com
+DTSTAMP:20261008T003000Z
+DTSTART:20261008T003000Z
+DTEND:20261008T033000Z
+SUMMARY:We Funny Wednesdays
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=we-funny-wednesdays%7Cpun
+ ch-line-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:dark-and-darker-a-dark-comedy-show|punch-line-irving-irving|7-30-pm-202
+ 6-10-08@letsdoitdallas.com
+DTSTAMP:20261009T003000Z
+DTSTART:20261009T003000Z
+DTEND:20261009T033000Z
+SUMMARY:Dark and Darker: A Dark Comedy Show
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=dark-and-darker-a-dark-co
+ medy-show%7Cpunch-line-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:holmes|punch-line-irving-irving|7-30-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261009T003000Z
+DTSTART:20261009T003000Z
+DTEND:20261009T033000Z
+SUMMARY:Holmes
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=holmes%7Cpunch-line-irvin
+ g-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:sonic-live-in-concert|the-pavilion-at-toyota-music-factory-irving|8-00-
+ pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261009T010000Z
+DTSTART:20261009T010000Z
+DTEND:20261009T040000Z
+SUMMARY:Sonic Live in Concert
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=sonic-live-in-concert%7Ct
+ he-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:winston-hodges|punch-line-irving-irving|7-00-pm-2026-10-09@letsdoitdall
+ as.com
+DTSTAMP:20261010T000000Z
+DTSTART:20261010T000000Z
+DTEND:20261010T030000Z
+SUMMARY:Winston Hodges
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=winston-hodges%7Cpunch-li
+ ne-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:role-model-presents-chuck-on-tour|the-pavilion-at-toyota-music-factory-
+ irving|8-00-pm-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261010T010000Z
+DTSTART:20261010T010000Z
+DTEND:20261010T040000Z
+SUMMARY:Role Model Presents: Chuck On Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=role-model-presents-chuck
+ -on-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:winston-hodges|punch-line-irving-irving|9-15-pm-2026-10-09@letsdoitdall
+ as.com
+DTSTAMP:20261010T021500Z
+DTSTART:20261010T021500Z
+DTEND:20261010T051500Z
+SUMMARY:Winston Hodges
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=winston-hodges%7Cpunch-li
+ ne-irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:jokes-over-brunch|punch-line-irving-irving|2-00-pm-2026-10-10@letsdoitd
+ allas.com
+DTSTAMP:20261010T190000Z
+DTSTART:20261010T190000Z
+DTEND:20261010T220000Z
+SUMMARY:Jokes Over Brunch
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=jokes-over-brunch%7Cpunch
+ -line-irving-irving%7C2-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:winston-hodges|punch-line-irving-irving|7-00-pm-2026-10-10@letsdoitdall
+ as.com
+DTSTAMP:20261011T000000Z
+DTSTART:20261011T000000Z
+DTEND:20261011T030000Z
+SUMMARY:Winston Hodges
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=winston-hodges%7Cpunch-li
+ ne-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+END:VCALENDAR

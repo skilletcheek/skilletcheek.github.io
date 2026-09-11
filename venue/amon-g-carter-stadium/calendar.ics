@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Amon G. Carter Stadium — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Amon G. Carter Stadium.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:tcu-horned-frogs-football-vs-grambling-state-tigers-football|amon-g-car
+ ter-stadium-fort-worth|see-details-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:TCU Horned Frogs Football vs. Grambling State Tigers Football
+LOCATION:Amon G. Carter Stadium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=tcu-horned-frogs-football
+ -vs-grambling-state-tigers-football%7Camon-g-carter-stadium-fort-worth%7Cs
+ ee-details
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/amon-g-carter-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-football-vs-arkansas-state-red-wolves-football|amon-g-
+ carter-stadium-fort-worth|see-details-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:TCU Horned Frogs Football vs. Arkansas State Red Wolves Football
+LOCATION:Amon G. Carter Stadium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=tcu-horned-frogs-football
+ -vs-arkansas-state-red-wolves-football%7Camon-g-carter-stadium-fort-worth%
+ 7Csee-details
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/amon-g-carter-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-football-vs-byu-cougars-football|amon-g-carter-stadium
+ -fort-worth|see-details-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:TCU Horned Frogs Football vs. BYU Cougars Football
+LOCATION:Amon G. Carter Stadium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=tcu-horned-frogs-football
+ -vs-byu-cougars-football%7Camon-g-carter-stadium-fort-worth%7Csee-details
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/amon-g-carter-stadium/
+END:VEVENT
+END:VCALENDAR

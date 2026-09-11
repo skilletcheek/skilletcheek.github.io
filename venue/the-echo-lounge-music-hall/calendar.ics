@@ -1,0 +1,219 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Echo Lounge & Music Hall — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at The Echo Lounge & Music Hall.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:the-bends|the-echo-lounge-music-hall-dallas|7-00-pm-2026-09-12@letsdoit
+ dallas.com
+DTSTAMP:20260913T000000Z
+DTSTART:20260913T000000Z
+DTEND:20260913T030000Z
+SUMMARY:The Bends
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=the-bends%7Cthe-echo-loun
+ ge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoff-tate-s-operation-mindcrime-the-final-chapter|the-echo-lounge-musi
+ c-hall-dallas|6-30-pm-2026-09-13@letsdoitdallas.com
+DTSTAMP:20260913T233000Z
+DTSTART:20260913T233000Z
+DTEND:20260914T023000Z
+SUMMARY:Geoff Tate's Operation: Mindcrime - The Final Chapter
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=geoff-tate-s-operation-mi
+ ndcrime-the-final-chapter%7Cthe-echo-lounge-music-hall-dallas%7C6-30-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:naomi-sharon-presents-no-sleep-in-paradise-tour|the-echo-lounge-music-h
+ all-dallas|7-00-pm-2026-09-16@letsdoitdallas.com
+DTSTAMP:20260917T000000Z
+DTSTART:20260917T000000Z
+DTEND:20260917T030000Z
+SUMMARY:Naomi Sharon Presents: No Sleep In Paradise Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=naomi-sharon-presents-no-
+ sleep-in-paradise-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:starjunk-95|the-echo-lounge-music-hall-dallas|8-00-pm-2026-09-18@letsdo
+ itdallas.com
+DTSTAMP:20260919T010000Z
+DTSTART:20260919T010000Z
+DTEND:20260919T040000Z
+SUMMARY:Starjunk 95
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=starjunk-95%7Cthe-echo-lo
+ unge-music-hall-dallas%7C8-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:it-s-a-2000s-party-dallas-18-|the-echo-lounge-music-hall-dallas|9-00-pm
+ -2026-09-19@letsdoitdallas.com
+DTSTAMP:20260920T020000Z
+DTSTART:20260920T020000Z
+DTEND:20260920T050000Z
+SUMMARY:It's A 2000s Party: Dallas - 18+
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=it-s-a-2000s-party-dallas
+ -18-%7Cthe-echo-lounge-music-hall-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:yg-the-gentlemen-s-club-tour|the-echo-lounge-music-hall-dallas|7-00-pm-
+ 2026-09-22@letsdoitdallas.com
+DTSTAMP:20260923T000000Z
+DTSTART:20260923T000000Z
+DTEND:20260923T030000Z
+SUMMARY:YG: THE GENTLEMEN'S CLUB TOUR
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=yg-the-gentlemen-s-club-t
+ our%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:built-to-spill|the-echo-lounge-music-hall-dallas|7-00-pm-2026-09-23@let
+ sdoitdallas.com
+DTSTAMP:20260924T000000Z
+DTSTART:20260924T000000Z
+DTEND:20260924T030000Z
+SUMMARY:Built To Spill
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=built-to-spill%7Cthe-echo
+ -lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:gable-price-and-friends-too-good-tour|the-echo-lounge-music-hall-dallas
+ |7-00-pm-2026-09-24@letsdoitdallas.com
+DTSTAMP:20260925T000000Z
+DTSTART:20260925T000000Z
+DTEND:20260925T030000Z
+SUMMARY:Gable Price and Friends - Too Good Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=gable-price-and-friends-t
+ oo-good-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:ad-la-the-red-bottoms-tour|the-echo-lounge-music-hall-dallas|7-00-pm-20
+ 26-09-25@letsdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART:20260926T000000Z
+DTEND:20260926T030000Z
+SUMMARY:ADÉLA: The Red Bottoms Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=ad-la-the-red-bottoms-tou
+ r%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:hey-nothing-the-hound-tour|the-echo-lounge-music-hall-dallas|7-00-pm-20
+ 26-09-26@letsdoitdallas.com
+DTSTAMP:20260927T000000Z
+DTSTART:20260927T000000Z
+DTEND:20260927T030000Z
+SUMMARY:HEY\, NOTHING - THE HOUND TOUR
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=hey-nothing-the-hound-tou
+ r%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:scene-queen-metalicious|the-echo-lounge-music-hall-dallas|7-00-pm-2026-
+ 09-27@letsdoitdallas.com
+DTSTAMP:20260928T000000Z
+DTSTART:20260928T000000Z
+DTEND:20260928T030000Z
+SUMMARY:Scene Queen: METALICIOUS
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=scene-queen-metalicious%7
+ Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:fcukers|the-echo-lounge-music-hall-dallas|7-00-pm-2026-09-30@letsdoitda
+ llas.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261001T000000Z
+DTEND:20261001T030000Z
+SUMMARY:Fcukers
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=fcukers%7Cthe-echo-lounge
+ -music-hall-dallas%7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:rebecca-black-exhibitionism-on-tour|the-echo-lounge-music-hall-dallas|8
+ -00-pm-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261002T010000Z
+DTSTART:20261002T010000Z
+DTEND:20261002T040000Z
+SUMMARY:Rebecca Black - Exhibitionism on Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=rebecca-black-exhibitioni
+ sm-on-tour%7Cthe-echo-lounge-music-hall-dallas%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:mar-solis-tu-tutu-tour-2026|the-echo-lounge-music-hall-dallas|7-00-pm-2
+ 026-10-08@letsdoitdallas.com
+DTSTAMP:20261009T000000Z
+DTSTART:20261009T000000Z
+DTEND:20261009T030000Z
+SUMMARY:MAR SOLIS - TU TUTU TOUR 2026
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=mar-solis-tu-tutu-tour-20
+ 26%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:claire-rosinkranz-my-lover-tour|the-echo-lounge-music-hall-dallas|7-00-
+ pm-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261010T000000Z
+DTSTART:20261010T000000Z
+DTEND:20261010T030000Z
+SUMMARY:Claire Rosinkranz - My Lover Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=claire-rosinkranz-my-love
+ r-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:do-more-dallas-charity-concert|the-echo-lounge-music-hall-dallas|7-00-p
+ m-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261011T000000Z
+DTSTART:20261011T000000Z
+DTEND:20261011T030000Z
+SUMMARY:Do More Dallas: Charity Concert
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=do-more-dallas-charity-co
+ ncert%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-echo-lounge-music-hall/
+END:VEVENT
+END:VCALENDAR

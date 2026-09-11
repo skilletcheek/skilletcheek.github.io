@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Longhorn Ballroom & Backyard Amphitheater — Lets Do It Dalla
+ s
+X-WR-CALDESC:Upcoming shows at Longhorn Ballroom & Backyard Amphitheater.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:sex-pistols|longhorn-ballroom-backyard-amphitheater-dallas|8-00-pm-2026
+ -09-11@letsdoitdallas.com
+DTSTAMP:20260912T010000Z
+DTSTART:20260912T010000Z
+DTEND:20260912T040000Z
+SUMMARY:Sex Pistols
+LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=sex-pistols%7Clonghorn-ba
+ llroom-backyard-amphitheater-dallas%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/longhorn-ballroom-backyard-amphitheater/
+END:VEVENT
+BEGIN:VEVENT
+UID:still-the-king|longhorn-ballroom-backyard-amphitheater-dallas|4-00-pm-2
+ 026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T210000Z
+DTSTART:20260912T210000Z
+DTEND:20260913T000000Z
+SUMMARY:Still The King
+LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=still-the-king%7Clonghorn
+ -ballroom-backyard-amphitheater-dallas%7C4-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/longhorn-ballroom-backyard-amphitheater/
+END:VEVENT
+BEGIN:VEVENT
+UID:jimmie-vaughan|longhorn-ballroom-backyard-amphitheater-dallas|8-00-pm-2
+ 026-09-19@letsdoitdallas.com
+DTSTAMP:20260920T010000Z
+DTSTART:20260920T010000Z
+DTEND:20260920T040000Z
+SUMMARY:Jimmie Vaughan
+LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=jimmie-vaughan%7Clonghorn
+ -ballroom-backyard-amphitheater-dallas%7C8-00-pm
+DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/longhorn-ballroom-backyard-amphitheater/
+END:VEVENT
+BEGIN:VEVENT
+UID:amy-grant|longhorn-ballroom-backyard-amphitheater-dallas|8-00-pm-2026-0
+ 9-23@letsdoitdallas.com
+DTSTAMP:20260924T010000Z
+DTSTART:20260924T010000Z
+DTEND:20260924T040000Z
+SUMMARY:Amy Grant
+LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=amy-grant%7Clonghorn-ball
+ room-backyard-amphitheater-dallas%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/longhorn-ballroom-backyard-amphitheater/
+END:VEVENT
+BEGIN:VEVENT
+UID:american-aquarium|longhorn-ballroom-backyard-amphitheater-dallas|8-00-p
+ m-2026-09-27@letsdoitdallas.com
+DTSTAMP:20260928T010000Z
+DTSTART:20260928T010000Z
+DTEND:20260928T040000Z
+SUMMARY:American Aquarium
+LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=american-aquarium%7Clongh
+ orn-ballroom-backyard-amphitheater-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/longhorn-ballroom-backyard-amphitheater/
+END:VEVENT
+END:VCALENDAR

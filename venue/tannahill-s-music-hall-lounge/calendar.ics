@@ -1,0 +1,117 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tannahill's Music Hall & Lounge — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Tannahill's Music Hall & Lounge.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:the-four-horsemen-the-ultimate-metallica-tribute|tannahill-s-music-hall
+ -lounge-fort-worth|9-00-pm-2026-09-11@letsdoitdallas.com
+DTSTAMP:20260912T020000Z
+DTSTART:20260912T020000Z
+DTEND:20260912T050000Z
+SUMMARY:The Four Horsemen - The Ultimate Metallica Tribute
+LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-11&e=the-four-horsemen-the-ult
+ imate-metallica-tribute%7Ctannahill-s-music-hall-lounge-fort-worth%7C9-00-
+ pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/tannahill-s-music-hall-lounge/
+END:VEVENT
+BEGIN:VEVENT
+UID:geoff-tate-s-operation-mindcrime-the-final-chapter|tannahill-s-music-ha
+ ll-lounge-fort-worth|8-00-pm-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260913T010000Z
+DTSTART:20260913T010000Z
+DTEND:20260913T040000Z
+SUMMARY:Geoff Tate's Operation: Mindcrime - The Final Chapter
+LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=geoff-tate-s-operation-mi
+ ndcrime-the-final-chapter%7Ctannahill-s-music-hall-lounge-fort-worth%7C8-0
+ 0-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/tannahill-s-music-hall-lounge/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-ultimate-doors-tribute-to-the-doors|tannahill-s-music-hall-lounge-f
+ ort-worth|8-00-pm-2026-09-17@letsdoitdallas.com
+DTSTAMP:20260918T010000Z
+DTSTART:20260918T010000Z
+DTEND:20260918T040000Z
+SUMMARY:The Ultimate Doors - Tribute to The Doors
+LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=the-ultimate-doors-tribut
+ e-to-the-doors%7Ctannahill-s-music-hall-lounge-fort-worth%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/tannahill-s-music-hall-lounge/
+END:VEVENT
+BEGIN:VEVENT
+UID:built-to-spill|tannahill-s-music-hall-lounge-fort-worth|8-00-pm-2026-09
+ -22@letsdoitdallas.com
+DTSTAMP:20260923T010000Z
+DTSTART:20260923T010000Z
+DTEND:20260923T040000Z
+SUMMARY:Built To Spill
+LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=built-to-spill%7Ctannahil
+ l-s-music-hall-lounge-fort-worth%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/tannahill-s-music-hall-lounge/
+END:VEVENT
+BEGIN:VEVENT
+UID:bop-to-the-top-ages-18-up|tannahill-s-music-hall-lounge-fort-worth|9-00
+ -pm-2026-09-25@letsdoitdallas.com
+DTSTAMP:20260926T020000Z
+DTSTART:20260926T020000Z
+DTEND:20260926T050000Z
+SUMMARY:Bop To The Top - Ages 18 & Up
+LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=bop-to-the-top-ages-18-up
+ %7Ctannahill-s-music-hall-lounge-fort-worth%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/tannahill-s-music-hall-lounge/
+END:VEVENT
+BEGIN:VEVENT
+UID:dean-stanfield|tannahill-s-music-hall-lounge-fort-worth|9-00-pm-2026-09
+ -25@letsdoitdallas.com
+DTSTAMP:20260926T020000Z
+DTSTART:20260926T020000Z
+DTEND:20260926T050000Z
+SUMMARY:DEAN STANFIELD
+LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=dean-stanfield%7Ctannahil
+ l-s-music-hall-lounge-fort-worth%7C9-00-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/tannahill-s-music-hall-lounge/
+END:VEVENT
+BEGIN:VEVENT
+UID:straight-tequila-night|tannahill-s-music-hall-lounge-fort-worth|9-00-pm
+ -2026-09-26@letsdoitdallas.com
+DTSTAMP:20260927T020000Z
+DTSTART:20260927T020000Z
+DTEND:20260927T050000Z
+SUMMARY:Straight Tequila Night
+LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=straight-tequila-night%7C
+ tannahill-s-music-hall-lounge-fort-worth%7C9-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/tannahill-s-music-hall-lounge/
+END:VEVENT
+BEGIN:VEVENT
+UID:shawn-james-flew-too-close-to-the-sun-tour-|tannahill-s-music-hall-loun
+ ge-fort-worth|9-00-pm-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261004T020000Z
+DTSTART:20261004T020000Z
+DTEND:20261004T050000Z
+SUMMARY:SHAWN JAMES "FLEW TOO CLOSE TO THE SUN TOUR"
+LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=shawn-james-flew-too-clos
+ e-to-the-sun-tour-%7Ctannahill-s-music-hall-lounge-fort-worth%7C9-00-pm
+DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/tannahill-s-music-hall-lounge/
+END:VEVENT
+END:VCALENDAR

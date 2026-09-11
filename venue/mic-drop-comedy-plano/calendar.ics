@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Mic Drop Comedy - Plano — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Mic Drop Comedy - Plano.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:dan-lamorte|mic-drop-comedy-plano-plano|7-00-pm-2026-09-18@letsdoitdall
+ as.com
+DTSTAMP:20260919T000000Z
+DTSTART:20260919T000000Z
+DTEND:20260919T030000Z
+SUMMARY:Dan LaMorte
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=dan-lamorte%7Cmic-drop-co
+ medy-plano-plano%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/mic-drop-comedy-plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:dan-lamorte|mic-drop-comedy-plano-plano|9-30-pm-2026-09-18@letsdoitdall
+ as.com
+DTSTAMP:20260919T023000Z
+DTSTART:20260919T023000Z
+DTEND:20260919T053000Z
+SUMMARY:Dan LaMorte
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=dan-lamorte%7Cmic-drop-co
+ medy-plano-plano%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/mic-drop-comedy-plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:dan-lamorte|mic-drop-comedy-plano-plano|7-00-pm-2026-09-19@letsdoitdall
+ as.com
+DTSTAMP:20260920T000000Z
+DTSTART:20260920T000000Z
+DTEND:20260920T030000Z
+SUMMARY:Dan LaMorte
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=dan-lamorte%7Cmic-drop-co
+ medy-plano-plano%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/mic-drop-comedy-plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:dan-lamorte|mic-drop-comedy-plano-plano|9-30-pm-2026-09-19@letsdoitdall
+ as.com
+DTSTAMP:20260920T023000Z
+DTSTART:20260920T023000Z
+DTEND:20260920T053000Z
+SUMMARY:Dan LaMorte
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=dan-lamorte%7Cmic-drop-co
+ medy-plano-plano%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/mic-drop-comedy-plano/
+END:VEVENT
+END:VCALENDAR
