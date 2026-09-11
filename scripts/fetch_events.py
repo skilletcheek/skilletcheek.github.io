@@ -2760,7 +2760,11 @@ def write_advertise():
       <div class="card-mid"><div class="card-txt">
         <h3>Your headline goes right here</h3>
         <div class="meta">/ FRI 07 AUG · 8:00 PM</div>
-        <div class="meta">/ DEEP ELLUM, DALLAS</div>
+        <!-- Mirrors the ◎-prefixed .meta.loc line cardHtml() in js/app.js
+             renders on a real card (2026-09 UX pass) -- this demo is
+             labeled "THE REAL COMPONENT," so it has to actually match one,
+             not the styling that predates it. -->
+        <div class="meta loc">◎ DEEP ELLUM, DALLAS</div>
       </div></div>
       <p class="desc">Two sentences about the night, in your words. Doors, the
       lineup, the thing that makes someone pick you over the other forty things
