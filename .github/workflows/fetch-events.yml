@@ -59,6 +59,7 @@ jobs:
           # The per-district, per-city and per-venue calendar.ics files live
           # inside directories already listed here, so those are covered.
           git add -A live-events.json press.json sitemap.xml robots.txt eventbrite.json \
+                     source-counts.json \
                      feed.xml calendar.ics ffd9813217969d9353baca4cea7b0cb1.txt \
                      tonight this-weekend free-events district venue city advertise submit
           if git diff --cached --quiet; then
@@ -86,3 +87,19 @@ jobs:
       - name: Submit changed URLs to IndexNow
         continue-on-error: true
         run: python scripts/fetch_events.py indexnow "$RUNNER_TEMP/indexnow-urls.json"
+
+      # LAST, and deliberately NOT continue-on-error: this is the one thing in
+      # this workflow that is supposed to turn the job red.
+      #
+      # COLLAPSE_GUARD_RATIO only watches the total, which is too coarse to
+      # see one source die. On 2026-09-11 all six Prekindle pages 404'd --
+      # 68 events of independent live music, Granada through Trees -- and the
+      # feed still came to 97% of the previous night, so the site published
+      # without them and nothing went red.
+      #
+      # It runs AFTER the commit on purpose. Failing earlier would skip the
+      # commit and leave /tonight/ serving yesterday, which is worse than a
+      # feed that is briefly short one venue class. The site refreshes either
+      # way; this only makes the degradation visible.
+      - name: Check per-source health
+        run: python scripts/fetch_events.py sourcecheck

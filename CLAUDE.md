@@ -46,6 +46,7 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
     partners.json           DATA: founding-partner wall
     live-events.json        GENERATED nightly
     press.json              GENERATED nightly
+    source-counts.json      GENERATED nightly; per-source yields + alarms
     feed.xml                GENERATED nightly; site-wide RSS
     calendar.ics            GENERATED nightly; site-wide iCalendar
     <key>.txt               GENERATED; IndexNow ownership proof (public)
@@ -55,7 +56,8 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
 `fetch_events.py` regenerates these nightly and pushes to `main`. Hand edits
 get clobbered; change the **Python** instead:
 
-- `live-events.json`, `press.json`, `sitemap.xml`, `robots.txt`
+- `live-events.json`, `press.json`, `sitemap.xml`, `robots.txt`,
+  `source-counts.json`
 - `feed.xml`, `calendar.ics`, and every `*/calendar.ics` under `/district/`,
   `/city/`, `/venue/` and `/free-events/`
 - `ffd9813217969d9353baca4cea7b0cb1.txt` (`write_indexnow_key()`)
@@ -246,6 +248,33 @@ rejected** so they don't get re-probed.
   non-zero instead — this is almost always a dead API key or a source's
   markup changing, not DFW actually going quiet. The Action then fails
   visibly rather than silently pushing a gutted site.
+- **That guard watches the TOTAL, which cannot see one source die.** On
+  2026-09-11 all six Prekindle pages 404'd in one run — Granada, Sundown,
+  Kessler, Poor David's, Three Links, Trees, 68 events of independent live
+  music — and the feed still came to 97% of the previous night, so nothing
+  went red and the site published without them. An aggregate number is blind
+  to a component failing, the same way a lumped "filtered" counter disguised a
+  city-parsing bug in `fetch_civicplus()` the same day.
+
+  `check_source_health()` records each source's yield in `source-counts.json`
+  and compares it with the previous run. It alarms when a source that had at
+  least `SOURCE_ZERO_FLOOR` (3) events produces **zero**, or when one that had
+  at least `SOURCE_DROP_MIN` (10) falls below `SOURCE_DROP_RATIO` (50%). The
+  zero rule is the one that matters; partial drops are noisy because venues
+  really do go quiet, and `seated` legitimately returns 0–1 most nights, which
+  is why the floor exists at all.
+
+  **It writes, it does not raise.** A source going dark must never cost the
+  site its nightly refresh — `/tonight/` serving yesterday is worse than a
+  feed briefly short one venue class. The workflow runs
+  `fetch_events.py sourcecheck` as its **last** step, after the commit, with
+  no `continue-on-error`: that is the one thing in that workflow meant to turn
+  the job red. Failing inside `main()` instead would skip the commit and leave
+  the site stale, which is backwards.
+
+  When it fires, check the source's URL and whether it rate-limited **before**
+  changing code: those Prekindle 404s cleared on their own within the hour,
+  and three dispatched runs in one afternoon were the likely cause.
 - **CivicPlus city calendars** (`fetch_civicplus`, `civicplus_sites` in
   `feeds.json`) — six DFW suburbs (Garland, Cedar Hill, Grapevine, McKinney,
   Frisco, Lancaster) all publish the same RSS at the same path, so this is

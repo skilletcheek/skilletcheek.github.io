@@ -3920,6 +3920,97 @@ def dedupe(rows):
     return unique
 
 
+# ------------------------------------------------------- per-source health
+# COLLAPSE_GUARD_RATIO watches the TOTAL, which is too coarse to see one
+# source die. On 2026-09-11 all six Prekindle pages 404'd in the same run --
+# Granada, Sundown, Kessler, Poor David's, Three Links, Trees, 68 events of
+# independent live music -- and the feed still came to 97% of the previous
+# night, so nothing went red and the site published without them. An aggregate
+# number cannot see a component fail; that is the same blind spot that let a
+# lumped "filtered" counter disguise a city-parsing bug in fetch_civicplus().
+#
+# So each source's yield is recorded and compared against the last run's.
+SOURCE_COUNTS_FILE = ROOT / "source-counts.json"
+
+# A source that HAD events and now has none is unambiguous: a dead key, a
+# moved URL, a vendor 404. That is the case worth waking up for.
+SOURCE_ZERO_FLOOR = 3
+# A partial drop is noisier -- venues really do go quiet -- so it has to be
+# both a big proportional fall and a source large enough for that to mean
+# something.
+SOURCE_DROP_RATIO = 0.5
+SOURCE_DROP_MIN = 10
+
+
+def check_source_health(counts: dict) -> list:
+    """Compare this run's per-source yields with the previous run's, record
+    both, and return the alarms.
+
+    Writes rather than raises. A source going dark must not cost the site its
+    nightly refresh -- /tonight/ serving yesterday is worse than a feed that
+    is briefly short one venue class. The workflow runs `sourcecheck` AFTER
+    the commit to turn the job red, so the failure is loud without being
+    destructive. Same split, and the same reasoning, as the IndexNow step.
+    """
+    previous = {}
+    if SOURCE_COUNTS_FILE.exists():
+        try:
+            previous = json.loads(SOURCE_COUNTS_FILE.read_text()).get("counts", {})
+        except (OSError, ValueError):
+            previous = {}
+
+    alarms = []
+    for name, now in sorted(counts.items()):
+        was = previous.get(name)
+        if was is None:
+            continue                      # first run, or a newly added source
+        if was >= SOURCE_ZERO_FLOOR and now == 0:
+            alarms.append(f"{name}: {was} -> 0 (source produced nothing)")
+        elif was >= SOURCE_DROP_MIN and now < was * SOURCE_DROP_RATIO:
+            alarms.append(f"{name}: {was} -> {now} "
+                          f"(below {SOURCE_DROP_RATIO:.0%} of the previous run)")
+
+    SOURCE_COUNTS_FILE.write_text(json.dumps(
+        {"date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+         "counts": counts, "alarms": alarms}, indent=1) + "\n")
+
+    total = sum(counts.values())
+    print("source yields: " + ", ".join(f"{k}={v}" for k, v in sorted(counts.items()))
+          + f" (total {total})")
+    for a in alarms:
+        print(f"SOURCE ALARM: {a}", file=sys.stderr)
+    return alarms
+
+
+def cmd_sourcecheck(_argv) -> int:
+    """`fetch_events.py sourcecheck` -- run AFTER the commit step.
+
+    Reads what main() recorded and fails the job if a source went dark. Kept
+    out of main() deliberately: a non-zero exit there would skip the commit
+    and the site would not refresh at all, which is the opposite of what this
+    is for.
+    """
+    if not SOURCE_COUNTS_FILE.exists():
+        print("sourcecheck: no source-counts.json; nothing to check")
+        return 0
+    try:
+        data = json.loads(SOURCE_COUNTS_FILE.read_text())
+    except (OSError, ValueError) as exc:
+        print(f"sourcecheck: unreadable ({exc})", file=sys.stderr)
+        return 1
+    alarms = data.get("alarms") or []
+    if not alarms:
+        print(f"sourcecheck: all {len(data.get('counts', {}))} sources healthy")
+        return 0
+    for a in alarms:
+        print(f"SOURCE ALARM: {a}", file=sys.stderr)
+    print(f"\n{len(alarms)} source(s) degraded. The site DID refresh -- this is "
+          f"a visibility failure, not a broken build. Check the source's URL "
+          f"and whether it rate-limited before changing any code; the 2026-09-11 "
+          f"Prekindle 404s cleared on their own.", file=sys.stderr)
+    return 1
+
+
 # ------------------------------------------------------------------------ main
 # If a source silently breaks (bad key, schema change, vendor outage), the
 # fetchers above already degrade gracefully — they catch the error and return
@@ -3989,12 +4080,21 @@ def main():
     # show appears in both, Ticketmaster's row (direct ticket link, firmer
     # price) should win dedupe. In practice these collide almost never: a
     # library story time is not for sale anywhere.
-    rows = (fetch_ticketmaster(start, end) + fetch_seatgeek(start, end)
-            + fetch_ics_feeds(start, end) + fetch_civicplus(start, end)
-            + fetch_prekindle(start, end)
-            + fetch_singles_pages(start, end)
-            + fetch_do214(start, end) + fetch_dallasites101(start, end)
-            + fetch_seated(start, end))
+    # An ordered list rather than one concatenation, so each source's yield can
+    # be counted without changing the ORDER, which dedupe depends on.
+    sources = [
+        ("ticketmaster", fetch_ticketmaster(start, end)),
+        ("seatgeek", fetch_seatgeek(start, end)),
+        ("ics_feeds", fetch_ics_feeds(start, end)),
+        ("civicplus", fetch_civicplus(start, end)),
+        ("prekindle", fetch_prekindle(start, end)),
+        ("singles_pages", fetch_singles_pages(start, end)),
+        ("do214", fetch_do214(start, end)),
+        ("dallasites101", fetch_dallasites101(start, end)),
+        ("seated", fetch_seated(start, end)),
+    ]
+    rows = [r for _name, got in sources for r in got]
+    source_counts = {name: len(got) for name, got in sources}
 
     unique = dedupe(rows)
 
@@ -4020,6 +4120,10 @@ def main():
     OUT_FILE.write_text(json.dumps(unique, indent=1, ensure_ascii=False) + "\n")
     print(f"wrote {len(unique)} events -> {OUT_FILE.name}")
 
+    # After the write, so a source alarm never costs the site its refresh --
+    # the run still publishes, and `sourcecheck` turns the job red afterwards.
+    check_source_health(source_counts)
+
     PRESS_FILE.write_text(json.dumps(fetch_press(), indent=1, ensure_ascii=False) + "\n")
     prune_eventbrite(start)
     write_hubs(unique)
@@ -4031,4 +4135,6 @@ if __name__ == "__main__":
     # feeds. main() stays the no-argument nightly build it has always been.
     if len(sys.argv) > 1 and sys.argv[1] == "indexnow":
         sys.exit(cmd_indexnow(sys.argv[2:]))
+    if len(sys.argv) > 1 and sys.argv[1] == "sourcecheck":
+        sys.exit(cmd_sourcecheck(sys.argv[2:]))
     main()
