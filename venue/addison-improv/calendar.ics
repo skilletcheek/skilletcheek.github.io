@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:craig-robinson|addison-improv-addison|7-30-pm-2026-09-11@letsdoitdallas
- .com
-DTSTAMP:20260912T003000Z
-DTSTART:20260912T003000Z
-DTEND:20260912T033000Z
-SUMMARY:Craig Robinson
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=craig-robinson%7Caddison-
- improv-addison%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:craig-robinson|addison-improv-addison|9-45-pm-2026-09-11@letsdoitdallas
- .com
-DTSTAMP:20260912T024500Z
-DTSTART:20260912T024500Z
-DTEND:20260912T054500Z
-SUMMARY:Craig Robinson
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=craig-robinson%7Caddison-
- improv-addison%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-09
  -12@letsdoitdallas.com
 DTSTAMP:20260912T190000Z
@@ -214,6 +188,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-25&e=kelsey-cook%7Caddison-imp
  rov-addison%7C9-45-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-09
+ -26@letsdoitdallas.com
+DTSTAMP:20260926T190000Z
+DTSTART:20260926T190000Z
+DTEND:20260926T220000Z
+SUMMARY:Family Magic & Comedy For All Ages
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=family-magic-comedy-for-a
+ ll-ages%7Caddison-improv-addison%7C2-00-pm
+DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/addison-improv/
 END:VEVENT
 BEGIN:VEVENT
 UID:kelsey-cook|addison-improv-addison|7-00-pm-2026-09-26@letsdoitdallas.co
@@ -416,6 +403,30 @@ DTEND:20261011T030000Z
 SUMMARY:Michael Yo
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-10-10&e=michael-yo%7Caddison-impr
+ ov-addison%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-yo|addison-improv-addison|9-30-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261011T023000Z
+DTSTART:20261011T023000Z
+DTEND:20261011T053000Z
+SUMMARY:Michael Yo
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=michael-yo%7Caddison-impr
+ ov-addison%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-yo|addison-improv-addison|7-00-pm-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261012T000000Z
+DTSTART:20261012T000000Z
+DTEND:20261012T030000Z
+SUMMARY:Michael Yo
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=michael-yo%7Caddison-impr
  ov-addison%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/addison-improv/

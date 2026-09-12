@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
- 09-11@letsdoitdallas.com
-DTSTAMP:20260912T003000Z
-DTSTART:20260912T003000Z
-DTEND:20260912T033000Z
-SUMMARY:Stockyards Championship Rodeo
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=stockyards-championship-r
- odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/cowtown-coliseum/
-END:VEVENT
-BEGIN:VEVENT
-UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
  09-12@letsdoitdallas.com
 DTSTAMP:20260913T003000Z
 DTSTART:20260913T003000Z
@@ -371,5 +358,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=stockyards-championship-r
  odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
+ 10-10@letsdoitdallas.com
+DTSTAMP:20261011T003000Z
+DTSTART:20261011T003000Z
+DTEND:20261011T033000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:ultimate-bullfighters|cowtown-coliseum-fort-worth|1-30-pm-2026-10-11@le
+ tsdoitdallas.com
+DTSTAMP:20261011T183000Z
+DTSTART:20261011T183000Z
+DTEND:20261011T213000Z
+SUMMARY:Ultimate Bullfighters
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=ultimate-bullfighters%7Cc
+ owtown-coliseum-fort-worth%7C1-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/cowtown-coliseum/
 END:VEVENT
 END:VCALENDAR

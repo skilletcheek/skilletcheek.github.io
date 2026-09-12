@@ -10,60 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cityline-live-featuring-hudsy-and-cityline-night-market|cityline-plaza-
- richardson|6-00-pm-9-00-pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T230000Z
-DTSTART:20260911T230000Z
-DTEND:20260912T020000Z
-SUMMARY:CityLine LIVE featuring Hudsy and CityLine Night Market
-LOCATION:CityLine Plaza · Richardson
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=cityline-live-featuring-h
- udsy-and-cityline-night-market%7Ccityline-plaza-richardson%7C6-00-pm-9-00-
- pm
-DESCRIPTION:CityLine LIVE is back in time for the fall season at CityLine P
- laza in Richardson. Tune in every Friday and Saturday for a lineup of loca
- l talent... — More: https://letsdoitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:craig-robinson|addison-improv-addison|7-30-pm-2026-09-11@letsdoitdallas
- .com
-DTSTAMP:20260912T003000Z
-DTSTART:20260912T003000Z
-DTEND:20260912T033000Z
-SUMMARY:Craig Robinson
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=craig-robinson%7Caddison-
- improv-addison%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:24k-magic-tribute-to-bruno-mars|legacy-hall-plano|8-00-pm-2026-09-11@le
- tsdoitdallas.com
-DTSTAMP:20260912T010000Z
-DTSTART:20260912T010000Z
-DTEND:20260912T040000Z
-SUMMARY:24K Magic - Tribute to Bruno Mars
-LOCATION:Legacy Hall · Plano
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=24k-magic-tribute-to-brun
- o-mars%7Clegacy-hall-plano%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:craig-robinson|addison-improv-addison|9-45-pm-2026-09-11@letsdoitdallas
- .com
-DTSTAMP:20260912T024500Z
-DTSTART:20260912T024500Z
-DTEND:20260912T054500Z
-SUMMARY:Craig Robinson
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=craig-robinson%7Caddison-
- improv-addison%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-09
  -12@letsdoitdallas.com
 DTSTAMP:20260912T190000Z
@@ -323,6 +269,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-09
+ -26@letsdoitdallas.com
+DTSTAMP:20260926T190000Z
+DTSTART:20260926T190000Z
+DTEND:20260926T220000Z
+SUMMARY:Family Magic & Comedy For All Ages
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=family-magic-comedy-for-a
+ ll-ages%7Caddison-improv-addison%7C2-00-pm
+DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:kelsey-cook|addison-improv-addison|7-00-pm-2026-09-26@letsdoitdallas.co
  m
 DTSTAMP:20260927T000000Z
@@ -523,6 +482,30 @@ DTEND:20261011T030000Z
 SUMMARY:Michael Yo
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-10-10&e=michael-yo%7Caddison-impr
+ ov-addison%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-yo|addison-improv-addison|9-30-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261011T023000Z
+DTSTART:20261011T023000Z
+DTEND:20261011T053000Z
+SUMMARY:Michael Yo
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=michael-yo%7Caddison-impr
+ ov-addison%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-yo|addison-improv-addison|7-00-pm-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261012T000000Z
+DTSTART:20261012T000000Z
+DTEND:20261012T030000Z
+SUMMARY:Michael Yo
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=michael-yo%7Caddison-impr
  ov-addison%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/

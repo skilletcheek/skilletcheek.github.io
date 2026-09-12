@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chingo-bling|arlington-improv-arlington|7-30-pm-2026-09-11@letsdoitdall
- as.com
-DTSTAMP:20260912T003000Z
-DTSTART:20260912T003000Z
-DTEND:20260912T033000Z
-SUMMARY:Chingo Bling
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=chingo-bling%7Carlington-
- improv-arlington%7C7-30-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:chingo-bling|arlington-improv-arlington|9-45-pm-2026-09-11@letsdoitdall
- as.com
-DTSTAMP:20260912T024500Z
-DTSTART:20260912T024500Z
-DTEND:20260912T054500Z
-SUMMARY:Chingo Bling
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=chingo-bling%7Carlington-
- improv-arlington%7C9-45-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:chingo-bling|arlington-improv-arlington|7-00-pm-2026-09-12@letsdoitdall
  as.com
 DTSTAMP:20260913T000000Z
@@ -360,40 +334,66 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT
 BEGIN:VEVENT
-UID:zainab-johnson|arlington-improv-arlington|7-30-pm-2026-10-09@letsdoitda
+UID:zainab-johnson|arlington-improv-arlington|7-00-pm-2026-10-09@letsdoitda
  llas.com
-DTSTAMP:20261010T003000Z
-DTSTART:20261010T003000Z
-DTEND:20261010T033000Z
+DTSTAMP:20261010T000000Z
+DTSTART:20261010T000000Z
+DTEND:20261010T030000Z
 SUMMARY:Zainab Johnson
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-09&e=zainab-johnson%7Carlingto
- n-improv-arlington%7C7-30-pm
+ n-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT
 BEGIN:VEVENT
-UID:zainab-johnson|arlington-improv-arlington|9-45-pm-2026-10-09@letsdoitda
+UID:zainab-johnson|arlington-improv-arlington|9-30-pm-2026-10-09@letsdoitda
  llas.com
-DTSTAMP:20261010T024500Z
-DTSTART:20261010T024500Z
-DTEND:20261010T054500Z
+DTSTAMP:20261010T023000Z
+DTSTART:20261010T023000Z
+DTEND:20261010T053000Z
 SUMMARY:Zainab Johnson
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-09&e=zainab-johnson%7Carlingto
- n-improv-arlington%7C9-45-pm
+ n-improv-arlington%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT
 BEGIN:VEVENT
-UID:zainab-johnson|arlington-improv-arlington|7-00-pm-2026-10-10@letsdoitda
+UID:zainab-johnson|arlington-improv-arlington|6-00-pm-2026-10-10@letsdoitda
  llas.com
-DTSTAMP:20261011T000000Z
-DTSTART:20261011T000000Z
-DTEND:20261011T030000Z
+DTSTAMP:20261010T230000Z
+DTSTART:20261010T230000Z
+DTEND:20261011T020000Z
 SUMMARY:Zainab Johnson
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-10&e=zainab-johnson%7Carlingto
+ n-improv-arlington%7C6-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:zainab-johnson|arlington-improv-arlington|8-30-pm-2026-10-10@letsdoitda
+ llas.com
+DTSTAMP:20261011T013000Z
+DTSTART:20261011T013000Z
+DTEND:20261011T043000Z
+SUMMARY:Zainab Johnson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=zainab-johnson%7Carlingto
+ n-improv-arlington%7C8-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:zainab-johnson|arlington-improv-arlington|7-00-pm-2026-10-11@letsdoitda
+ llas.com
+DTSTAMP:20261012T000000Z
+DTSTART:20261012T000000Z
+DTEND:20261012T030000Z
+SUMMARY:Zainab Johnson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=zainab-johnson%7Carlingto
  n-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/

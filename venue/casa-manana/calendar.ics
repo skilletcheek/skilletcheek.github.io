@@ -164,4 +164,30 @@ URL:https://letsdoitdallas.com/?date=2026-10-09&e=music-of-john-denver%7Cca
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/casa-manana/
 END:VEVENT
+BEGIN:VEVENT
+UID:music-of-john-denver|casa-manana-fort-worth|8-00-pm-2026-10-10@letsdoit
+ dallas.com
+DTSTAMP:20261011T010000Z
+DTSTART:20261011T010000Z
+DTEND:20261011T040000Z
+SUMMARY:Music of John Denver
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=music-of-john-denver%7Cca
+ sa-manana-fort-worth%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
+UID:music-of-john-denver|casa-manana-fort-worth|7-00-pm-2026-10-11@letsdoit
+ dallas.com
+DTSTAMP:20261012T000000Z
+DTSTART:20261012T000000Z
+DTEND:20261012T030000Z
+SUMMARY:Music of John Denver
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=music-of-john-denver%7Cca
+ sa-manana-fort-worth%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/casa-manana/
+END:VEVENT
 END:VCALENDAR

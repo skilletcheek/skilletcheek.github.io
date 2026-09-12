@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:opening-weekend-beethoven-s-fifth|bass-performance-hall-fort-worth|7-30
- -pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260912T003000Z
-DTSTART:20260912T003000Z
-DTEND:20260912T033000Z
-SUMMARY:Opening Weekend: Beethoven's Fifth
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=opening-weekend-beethoven
- -s-fifth%7Cbass-performance-hall-fort-worth%7C7-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/bass-performance-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:fort-worth-symphony-orchestra-fort-worth|bass-performance-hall-fort-wor
  th|7-30-pm-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260913T003000Z
@@ -33,6 +20,23 @@ URL:https://letsdoitdallas.com/?date=2026-09-12&e=fort-worth-symphony-orche
  stra-fort-worth%7Cbass-performance-hall-fort-worth%7C7-30-pm
 DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
  com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:opening-weekend-beethoven-s-fifth|bass-performance-hall-525-commerce-st
+ reet-fort-worth-76102-united-states|7-30-pm-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260913T003000Z
+DTSTART:20260913T003000Z
+DTEND:20260913T033000Z
+SUMMARY:Opening Weekend: Beethoven's Fifth
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=opening-weekend-beethoven
+ -s-fifth%7Cbass-performance-hall-525-commerce-street-fort-worth-76102-unit
+ ed-states%7C7-30-pm
+DESCRIPTION:Overview The opening four notes of Beethoven’s famous Fifth S
+ ymphony etched a permanent rhythm onto humanity’s consciousness. After t
+ hose stormy opening notes\, Beethoven leads listeners from a struggle with
+  fate to a radiant victory through his music in one of classical music’s
+  m — More: https://letsdoitdallas.com/venue/bass-performance-hall/
 END:VEVENT
 BEGIN:VEVENT
 UID:fort-worth-symphony-orchestra-beethoven-s-fifth|bass-performance-hall-f
@@ -161,6 +165,19 @@ SUMMARY:The Classical Style
 LOCATION:Bass Performance Hall · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-09&e=the-classical-style%7Cbas
  s-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-classical-style|bass-performance-hall-fort-worth|2-00-pm-2026-10-11
+ @letsdoitdallas.com
+DTSTAMP:20261011T190000Z
+DTSTART:20261011T190000Z
+DTEND:20261011T220000Z
+SUMMARY:The Classical Style
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=the-classical-style%7Cbas
+ s-performance-hall-fort-worth%7C2-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/bass-performance-hall/
 END:VEVENT

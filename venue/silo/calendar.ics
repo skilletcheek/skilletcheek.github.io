@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lsr-city-x-by-gareth-emery|silo-dallas|9-00-pm-2026-09-11@letsdoitdalla
- s.com
-DTSTAMP:20260912T020000Z
-DTSTART:20260912T020000Z
-DTEND:20260912T050000Z
-SUMMARY:LSR/CITY X by Gareth Emery
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=lsr-city-x-by-gareth-emer
- y%7Csilo-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:indo-warehouse-18-and-over-|silo-dallas|9-00-pm-2026-09-12@letsdoitdall
  as.com
 DTSTAMP:20260913T020000Z
@@ -219,6 +206,30 @@ SUMMARY:Steve Angello - Ages 18+
 LOCATION:SILO · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-09&e=steve-angello-ages-18-%7C
  silo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:prospa-ages-18-|silo-dallas|9-00-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261011T020000Z
+DTSTART:20261011T020000Z
+DTEND:20261011T050000Z
+SUMMARY:Prospa - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=prospa-ages-18-%7Csilo-da
+ llas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:bijou-21-and-over-|silo-dallas|7-00-pm-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261012T000000Z
+DTSTART:20261012T000000Z
+DTEND:20261012T030000Z
+SUMMARY:Bijou (21 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=bijou-21-and-over-%7Csilo
+ -dallas%7C7-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/silo/
 END:VEVENT

@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Texas Motorplex — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Texas Motorplex.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:stars-of-texas-friday-pass-10-9-26-|texas-motorplex-ennis|3-00-pm-2026-
+ 10-09@letsdoitdallas.com
+DTSTAMP:20261009T200000Z
+DTSTART:20261009T200000Z
+DTEND:20261009T230000Z
+SUMMARY:Stars of Texas: Friday Pass (10/9/26)
+LOCATION:Texas Motorplex · Ennis
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=stars-of-texas-friday-pas
+ s-10-9-26-%7Ctexas-motorplex-ennis%7C3-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/texas-motorplex/
+END:VEVENT
+BEGIN:VEVENT
+UID:stars-of-texas-saturday-pass-10-10-26-|texas-motorplex-ennis|12-00-pm-2
+ 026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T170000Z
+DTSTART:20261010T170000Z
+DTEND:20261010T200000Z
+SUMMARY:Stars of Texas: Saturday Pass (10/10/26)
+LOCATION:Texas Motorplex · Ennis
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=stars-of-texas-saturday-p
+ ass-10-10-26-%7Ctexas-motorplex-ennis%7C12-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/texas-motorplex/
+END:VEVENT
+BEGIN:VEVENT
+UID:stars-of-texas-sunday-pass-10-11-26-|texas-motorplex-ennis|12-00-pm-202
+ 6-10-11@letsdoitdallas.com
+DTSTAMP:20261011T170000Z
+DTSTART:20261011T170000Z
+DTEND:20261011T200000Z
+SUMMARY:Stars of Texas: Sunday Pass (10/11/26)
+LOCATION:Texas Motorplex · Ennis
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=stars-of-texas-sunday-pas
+ s-10-11-26-%7Ctexas-motorplex-ennis%7C12-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/texas-motorplex/
+END:VEVENT
+END:VCALENDAR

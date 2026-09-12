@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Garvey-Rosenthal Soccer Stadium — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Garvey-Rosenthal Soccer Stadium.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:tcu-horned-frogs-womens-soccer-vs-cincinnati-bearcats-womens-soccer|gar
+ vey-rosenthal-soccer-stadium-fort-worth|7-00-pm-2026-10-02@letsdoitdallas.
+ com
+DTSTAMP:20261003T000000Z
+DTSTART:20261003T000000Z
+DTEND:20261003T030000Z
+SUMMARY:TCU Horned Frogs Womens Soccer vs. Cincinnati Bearcats Womens Socce
+ r
+LOCATION:Garvey-Rosenthal Soccer Stadium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=tcu-horned-frogs-womens-s
+ occer-vs-cincinnati-bearcats-womens-soccer%7Cgarvey-rosenthal-soccer-stadi
+ um-fort-worth%7C7-00-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/garvey-rosenthal-soccer-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-womens-soccer-vs-ucf-knights-womens-soccer|garvey-rose
+ nthal-soccer-stadium-fort-worth|7-00-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261009T000000Z
+DTSTART:20261009T000000Z
+DTEND:20261009T030000Z
+SUMMARY:TCU Horned Frogs Womens Soccer vs. UCF Knights Womens Soccer
+LOCATION:Garvey-Rosenthal Soccer Stadium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=tcu-horned-frogs-womens-s
+ occer-vs-ucf-knights-womens-soccer%7Cgarvey-rosenthal-soccer-stadium-fort-
+ worth%7C7-00-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/garvey-rosenthal-soccer-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-womens-soccer-vs-texas-tech-red-raiders-womens-soccer|
+ garvey-rosenthal-soccer-stadium-fort-worth|1-00-pm-2026-10-11@letsdoitdall
+ as.com
+DTSTAMP:20261011T180000Z
+DTSTART:20261011T180000Z
+DTEND:20261011T210000Z
+SUMMARY:TCU Horned Frogs Womens Soccer vs. Texas Tech Red Raiders Womens So
+ ccer
+LOCATION:Garvey-Rosenthal Soccer Stadium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=tcu-horned-frogs-womens-s
+ occer-vs-texas-tech-red-raiders-womens-soccer%7Cgarvey-rosenthal-soccer-st
+ adium-fort-worth%7C1-00-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/garvey-rosenthal-soccer-stadium/
+END:VEVENT
+END:VCALENDAR

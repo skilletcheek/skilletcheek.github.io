@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pecos-and-the-rooftops-18-and-over-|billy-bob-s-fort-worth|10-00-pm-202
- 6-09-11@letsdoitdallas.com
-DTSTAMP:20260912T030000Z
-DTSTART:20260912T030000Z
-DTEND:20260912T060000Z
-SUMMARY:Pecos and The Rooftops (18 and Over)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=pecos-and-the-rooftops-18
- -and-over-%7Cbilly-bob-s-fort-worth%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/billy-bob-s/
-END:VEVENT
-BEGIN:VEVENT
 UID:josh-turner-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-09-12@letsdo
  itdallas.com
 DTSTAMP:20260913T030000Z
@@ -187,6 +174,19 @@ SUMMARY:Blackberry Smoke (18 and Over)
 LOCATION:Billy Bob's · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-09&e=blackberry-smoke-18-and-o
  ver-%7Cbilly-bob-s-fort-worth%7C10-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:tyler-farr-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-10-10@lets
+ doitdallas.com
+DTSTAMP:20261011T030000Z
+DTSTART:20261011T030000Z
+DTEND:20261011T060000Z
+SUMMARY:Tyler Farr (18 and Over)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=tyler-farr-18-and-over-%7
+ Cbilly-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/billy-bob-s/
 END:VEVENT

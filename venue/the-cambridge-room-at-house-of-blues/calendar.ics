@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gurriers|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-09-11
- @letsdoitdallas.com
-DTSTAMP:20260912T000000Z
-DTSTART:20260912T000000Z
-DTEND:20260912T030000Z
-SUMMARY:Gurriers
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=gurriers%7Cthe-cambridge-
- room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-cambridge-room-at-house-of-blues/
-END:VEVENT
-BEGIN:VEVENT
 UID:stephen-dawes-presents-the-skin-to-skin-tour|the-cambridge-room-at-hous
  e-of-blues-dallas|7-00-pm-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260913T000000Z

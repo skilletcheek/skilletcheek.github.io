@@ -10,47 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chingo-bling|arlington-improv-arlington|7-30-pm-2026-09-11@letsdoitdall
- as.com
-DTSTAMP:20260912T003000Z
-DTSTART:20260912T003000Z
-DTEND:20260912T033000Z
-SUMMARY:Chingo Bling
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=chingo-bling%7Carlington-
- improv-arlington%7C7-30-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:ritmo-del-mundo-salsa-party|texas-live-1650-east-randol-mill-road-arlin
- gton-76011-united-states|9-00-pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260912T020000Z
-DTSTART:20260912T020000Z
-DTEND:20260912T050000Z
-SUMMARY:Ritmo Del Mundo Salsa Party
-LOCATION:Texas Live! · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=ritmo-del-mundo-salsa-par
- ty%7Ctexas-live-1650-east-randol-mill-road-arlington-76011-united-states%7
- C9-00-pm
-DESCRIPTION:Join us for a night celebrating music\, dance\, culture\, and c
- ommunity from around the world! — More: https://letsdoitdallas.com/distr
- ict/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:chingo-bling|arlington-improv-arlington|9-45-pm-2026-09-11@letsdoitdall
- as.com
-DTSTAMP:20260912T024500Z
-DTSTART:20260912T024500Z
-DTEND:20260912T054500Z
-SUMMARY:Chingo Bling
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=chingo-bling%7Carlington-
- improv-arlington%7C9-45-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:chingo-bling|arlington-improv-arlington|7-00-pm-2026-09-12@letsdoitdall
  as.com
 DTSTAMP:20260913T000000Z
@@ -75,6 +34,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-12&e=the-r-b-tour-starring-ush
  er-raymond-chris-brown%7Cat-t-stadium-arlington%7C7-00-pm
 DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:night-nation-run|texas-live-1650-east-randol-mill-road-arlington-76011-
+ united-states|7-30-pm-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260913T003000Z
+DTSTART:20260913T003000Z
+DTEND:20260913T033000Z
+SUMMARY:Night Nation Run
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=night-nation-run%7Ctexas-
+ live-1650-east-randol-mill-road-arlington-76011-united-states%7C7-30-pm
+DESCRIPTION:The Running Music Festival is coming to Texas Live! — More: h
+ ttps://letsdoitdallas.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:chingo-bling|arlington-improv-arlington|9-30-pm-2026-09-12@letsdoitdall
@@ -758,6 +730,84 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-30-pm-2026-09-21
+ @letsdoitdallas.com
+DTSTAMP:20260921T173000Z
+DTSTART:20260921T173000Z
+DTEND:20260921T203000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-21&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C12-30-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-09-21@
+ letsdoitdallas.com
+DTSTAMP:20260921T200000Z
+DTSTART:20260921T200000Z
+DTEND:20260921T230000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-21&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C3-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|10-00-am-20
+ 26-09-22@letsdoitdallas.com
+DTSTAMP:20260922T150000Z
+DTSTART:20260922T150000Z
+DTEND:20260922T180000Z
+SUMMARY:AT&T Stadium Owner's Experience Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=at-t-stadium-owner-s-expe
+ rience-tour%7Cat-t-stadium-arlington%7C10-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|12-00-pm-20
+ 26-09-22@letsdoitdallas.com
+DTSTAMP:20260922T170000Z
+DTSTART:20260922T170000Z
+DTEND:20260922T200000Z
+SUMMARY:AT&T Stadium Owner's Experience Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=at-t-stadium-owner-s-expe
+ rience-tour%7Cat-t-stadium-arlington%7C12-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-09-22@
+ letsdoitdallas.com
+DTSTAMP:20260922T190000Z
+DTSTART:20260922T190000Z
+DTEND:20260922T220000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C2-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-09-22@
+ letsdoitdallas.com
+DTSTAMP:20260922T210000Z
+DTSTART:20260922T210000Z
+DTEND:20260923T000000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C4-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:texas-rangers-vs-new-york-mets|globe-life-field-arlington|7-05-pm-2026-
  09-22@letsdoitdallas.com
 DTSTAMP:20260923T000500Z
@@ -769,6 +819,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-22&e=texas-rangers-vs-new-york
  -mets%7Cglobe-life-field-arlington%7C7-05-pm
 DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
  as.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|10-00-am-20
+ 26-09-23@letsdoitdallas.com
+DTSTAMP:20260923T150000Z
+DTSTART:20260923T150000Z
+DTEND:20260923T180000Z
+SUMMARY:AT&T Stadium Owner's Experience Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=at-t-stadium-owner-s-expe
+ rience-tour%7Cat-t-stadium-arlington%7C10-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:texas-rangers-vs-new-york-mets-bomber-jacket|globe-life-field-arlington
@@ -1057,40 +1120,66 @@ DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:zainab-johnson|arlington-improv-arlington|7-30-pm-2026-10-09@letsdoitda
+UID:zainab-johnson|arlington-improv-arlington|7-00-pm-2026-10-09@letsdoitda
  llas.com
-DTSTAMP:20261010T003000Z
-DTSTART:20261010T003000Z
-DTEND:20261010T033000Z
+DTSTAMP:20261010T000000Z
+DTSTART:20261010T000000Z
+DTEND:20261010T030000Z
 SUMMARY:Zainab Johnson
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-09&e=zainab-johnson%7Carlingto
- n-improv-arlington%7C7-30-pm
+ n-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:zainab-johnson|arlington-improv-arlington|9-45-pm-2026-10-09@letsdoitda
+UID:zainab-johnson|arlington-improv-arlington|9-30-pm-2026-10-09@letsdoitda
  llas.com
-DTSTAMP:20261010T024500Z
-DTSTART:20261010T024500Z
-DTEND:20261010T054500Z
+DTSTAMP:20261010T023000Z
+DTSTART:20261010T023000Z
+DTEND:20261010T053000Z
 SUMMARY:Zainab Johnson
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-09&e=zainab-johnson%7Carlingto
- n-improv-arlington%7C9-45-pm
+ n-improv-arlington%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:zainab-johnson|arlington-improv-arlington|7-00-pm-2026-10-10@letsdoitda
+UID:zainab-johnson|arlington-improv-arlington|6-00-pm-2026-10-10@letsdoitda
  llas.com
-DTSTAMP:20261011T000000Z
-DTSTART:20261011T000000Z
-DTEND:20261011T030000Z
+DTSTAMP:20261010T230000Z
+DTSTART:20261010T230000Z
+DTEND:20261011T020000Z
 SUMMARY:Zainab Johnson
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-10&e=zainab-johnson%7Carlingto
+ n-improv-arlington%7C6-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:zainab-johnson|arlington-improv-arlington|8-30-pm-2026-10-10@letsdoitda
+ llas.com
+DTSTAMP:20261011T013000Z
+DTSTART:20261011T013000Z
+DTEND:20261011T043000Z
+SUMMARY:Zainab Johnson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=zainab-johnson%7Carlingto
+ n-improv-arlington%7C8-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:zainab-johnson|arlington-improv-arlington|7-00-pm-2026-10-11@letsdoitda
+ llas.com
+DTSTAMP:20261012T000000Z
+DTSTART:20261012T000000Z
+DTEND:20261012T030000Z
+SUMMARY:Zainab Johnson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=zainab-johnson%7Carlingto
  n-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/

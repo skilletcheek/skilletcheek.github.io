@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Grapevine Public Library — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Grapevine Public Library.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
+ grapevine|04-30-pm-2026-09-14@letsdoitdallas.com
+DTSTAMP:20260914T213000Z
+DTSTART:20260914T213000Z
+DTEND:20260915T003000Z
+SUMMARY:After-School Cinema & Snacks
+LOCATION:Grapevine Public Library
+URL:https://letsdoitdallas.com/?date=2026-09-14&e=after-school-cinema-snack
+ s%7Cgrapevine-public-library-1201-municipal-way-grapevine%7C04-30-pm
+DESCRIPTION:Kick back after school\, bring your favorite snacks\, and enjoy
+  a movie with friends! For teens ages 13 and up. September 14\, 2026 04:30
+  PM - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine\, TX 7
+ 6051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17646/6392103542300 
+ — More: https://letsdoitdallas.com/venue/grapevine-public-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
+ grapevine|04-30-pm-2026-09-21@letsdoitdallas.com
+DTSTAMP:20260921T213000Z
+DTSTART:20260921T213000Z
+DTEND:20260922T003000Z
+SUMMARY:After-School Cinema & Snacks
+LOCATION:Grapevine Public Library
+URL:https://letsdoitdallas.com/?date=2026-09-21&e=after-school-cinema-snack
+ s%7Cgrapevine-public-library-1201-municipal-way-grapevine%7C04-30-pm
+DESCRIPTION:Kick back after school\, bring your favorite snacks\, and enjoy
+  a movie with friends! For teens ages 13 and up. September 21\, 2026 04:30
+  PM - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine\, TX 7
+ 6051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17647/6392103542300 
+ — More: https://letsdoitdallas.com/venue/grapevine-public-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:stem-saturday|grapevine-public-library-1201-municipal-way-grapevine|11-
+ 00-am-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T160000Z
+DTSTART:20260926T160000Z
+DTEND:20260926T190000Z
+SUMMARY:STEM Saturday
+LOCATION:Grapevine Public Library
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=stem-saturday%7Cgrapevine
+ -public-library-1201-municipal-way-grapevine%7C11-00-am
+DESCRIPTION:STEM Saturdays are on the second and fourth Saturdays of each m
+ onth and are targeted to elementary school ages. Topics vary\; no registra
+ tion is needed. Ages 5+ please. September 26\, 2026 11:00 AM - 12:00 PM Gr
+ apevine Public Library 1201 Municipal WayGrapevine\, TX 76051 https://ww 
+ — More: https://letsdoitdallas.com/venue/grapevine-public-library/
+END:VEVENT
+END:VCALENDAR

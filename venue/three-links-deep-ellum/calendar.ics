@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:schur-fai-laci|three-links-deep-ellum-dallas|8-00-pm-2026-09-11@letsdoi
- tdallas.com
-DTSTAMP:20260912T010000Z
-DTSTART:20260912T010000Z
-DTEND:20260912T040000Z
-SUMMARY:Schur\, Fai Laci
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=schur-fai-laci%7Cthree-li
- nks-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-diva-summer|three-links-deep-ellum-dallas|11-00-pm-2026-09-11@letsdo
- itdallas.com
-DTSTAMP:20260912T040000Z
-DTSTART:20260912T040000Z
-DTEND:20260912T070000Z
-SUMMARY:DJ Diva Summer
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=dj-diva-summer%7Cthree-li
- nks-deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-holdup-lot-49-dylan-reese|three-links-deep-ellum-dallas|7-00-pm-202
  6-09-12@letsdoitdallas.com
 DTSTAMP:20260913T000000Z
@@ -502,5 +476,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-08&e=jack-blocker%7Cthree-link
  s-deep-ellum-dallas%7C8-00-am
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:greywind-waiting-4-april-rain-division-rodeo|three-links-deep-ellum-dal
+ las|7-00-pm-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261012T000000Z
+DTSTART:20261012T000000Z
+DTEND:20261012T030000Z
+SUMMARY:Greywind\, Waiting 4 April\, Rain Division\, Rodeo
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=greywind-waiting-4-april-
+ rain-division-rodeo%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

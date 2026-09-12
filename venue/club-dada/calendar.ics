@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:west-22nd|club-dada-dallas|8-00-pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260912T010000Z
-DTSTART:20260912T010000Z
-DTEND:20260912T040000Z
-SUMMARY:West 22nd
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=west-22nd%7Cclub-dada-dal
- las%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/club-dada/
-END:VEVENT
-BEGIN:VEVENT
 UID:when-chai-met-toast|club-dada-dallas|8-00-pm-2026-09-12@letsdoitdallas.
  com
 DTSTAMP:20260913T010000Z

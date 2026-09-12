@@ -9,50 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:friends-of-the-library-book-sale|south-garland-library-garland|10-00-am
- -2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T150000Z
-DTSTART:20260911T150000Z
-DTEND:20260911T180000Z
-SUMMARY:Friends of the Library Book Sale
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=friends-of-the-library-bo
- ok-sale%7Csouth-garland-library-garland%7C10-00-am
-DESCRIPTION:10 a.m. - 5:00 p.m.\; The Nicholson Memorial Library System's F
- riends of the Library organization holds an annual book sale at South Garl
- and Library. Shoppers may find bargains on a wide variety of adult and chi
- ldren's books\, fiction and nonfiction\, paperback and hardcover\, refere 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:silent-book-club-ages-18-|central-library-garland|06-00-pm-2026-09-11@l
- etsdoitdallas.com
-DTSTAMP:20260911T230000Z
-DTSTART:20260911T230000Z
-DTEND:20260912T020000Z
-SUMMARY:Silent Book Club® (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=silent-book-club-ages-18-
- %7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Join us for Silent Book Club® at the Garland Centr
- al Library\, held once a month on Fridays at 6 p.m. — exclusively for ad
- ults 18+. Enjoy a relaxed\, quiet reading environment without assigned boo
- ks or discussion pressure. Bring your own book or browse the library’s c
- oll — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:angel-street-gaslight-presented-by-garland-civic-theatre|300-n-fifth-st
- reet-garland|07-30-pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260912T003000Z
-DTSTART:20260912T003000Z
-DTEND:20260912T033000Z
-SUMMARY:Angel Street (Gaslight) presented by Garland Civic Theatre
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=angel-street-gaslight-pre
- sented-by-garland-civic-theatre%7C300-n-fifth-street-garland%7C07-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:boldly-going-to-garland-celebrating-60-years-of-star-trek-presented-by-
  garland-cultural-arts|garland|10-00-am-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260912T150000Z
@@ -351,23 +307,20 @@ DESCRIPTION:5:30 p.m.\; It’s time to celebrate Hispanic Heritage Month wi
  — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:solving-the-retirement-estate-planning-puzzle-bringing-clarity-to-your-
- financial-life|west-garland-library-garland|06-00-pm-2026-09-15@letsdoitda
- llas.com
+UID:intro-to-3d-modeling-tinkercad-ages-13-|west-garland-library-garland|06
+ -00-pm-2026-09-15@letsdoitdallas.com
 DTSTAMP:20260915T230000Z
 DTSTART:20260915T230000Z
 DTEND:20260916T020000Z
-SUMMARY:Solving the Retirement & Estate Planning Puzzle: Bringing Clarity t
- o Your Financial Life
+SUMMARY:Intro to 3D Modeling: Tinkercad (Ages 13+)
 LOCATION:West Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=solving-the-retirement-es
- tate-planning-puzzle-bringing-clarity-to-your-financial-life%7Cwest-garlan
- d-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Join us for a financial literacy workshop presented
-  by Massinburg Financial. This workshop focuses on retirement and estate p
- lanning essentials. Learn the difference between wills and trusts\, and le
- arn how beneficiaries and estate documents work together in financial p 
- — More: https://letsdoitdallas.com/city/garland/
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=intro-to-3d-modeling-tink
+ ercad-ages-13-%7Cwest-garland-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Ready to bring your ideas to life in 3D? Join us at
+  the library for an Intro to Tinkercad class\, where you'll learn the basi
+ cs of 3D modeling in a fun\, beginner-friendly environment. No prior exper
+ ience needed — just bring your creativity! September 15\, 2026 06:00 PM 
+ - — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:cuentos-y-cantos-0-5-a-os-|biblioteca-south-garland-garland|06-30-pm-20
@@ -1448,6 +1401,79 @@ DTEND:20260926T033000Z
 SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
 LOCATION:521 W State Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-25&e=little-shop-of-horrors-pr
+ esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C07
+ -30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-09-26@letsd
+ oitdallas.com
+DTSTAMP:20260926T150000Z
+DTSTART:20260926T150000Z
+DTEND:20260926T180000Z
+SUMMARY:Play & Learn (0-5 years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=play-learn-0-5-years-%7Cc
+ entral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Families with children ages 0-5 can enjoy Play & L
+ earn\, a weekly event with toys\, games and activities that encourage imag
+ ination\, creativity and problem-solving. This program offers a chance for
+  children and caregivers to play together. September 26\, 2026 10:00 AM - 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:mid-autumn-festival-family-event|west-garland-library-garland|10-30-am-
+ 2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T153000Z
+DTSTART:20260926T153000Z
+DTEND:20260926T183000Z
+SUMMARY:Mid-Autumn Festival Family Event
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=mid-autumn-festival-famil
+ y-event%7Cwest-garland-library-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; Families are invited to celebrate the Mid-Autumn F
+ estival and learn about its cultural importance in Vietnamese and Chinese 
+ traditions. Enjoy stories\, traditional foods and fun hands-on activities 
+ like lantern making\, mooncake-themed playdough and dragon boat coloring 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:loter-a-art-party-ages-18-|north-garland-library-garland|11-00-am-2026-
+ 09-26@letsdoitdallas.com
+DTSTAMP:20260926T160000Z
+DTSTART:20260926T160000Z
+DTEND:20260926T190000Z
+SUMMARY:Lotería Art Party (Ages 18+)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=loter-a-art-party-ages-18
+ -%7Cnorth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Celebrate Hispanic Heritage Month with a fun and c
+ reative art experience inspired by the beloved Lotería game. Choose from 
+ four Lotería cards and turn your favorite into a colorful masterpiece! Al
+ l supplies are provided. No experience needed—just bring your creativity
+  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:-viva-m-xico-presented-by-mexico-2000-ballet-folklorico|300-n-fifth-str
+ eet-garland|07-00-pm-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260927T000000Z
+DTSTART:20260927T000000Z
+DTEND:20260927T030000Z
+SUMMARY:"Viva México" presented by Mexico 2000 Ballet Folklorico
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=-viva-m-xico-presented-by
+ -mexico-2000-ballet-folklorico%7C300-n-fifth-street-garland%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
+ -state-street-garland|07-30-pm-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260927T003000Z
+DTSTART:20260927T003000Z
+DTEND:20260927T033000Z
+SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
+LOCATION:521 W State Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=little-shop-of-horrors-pr
  esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C07
  -30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/

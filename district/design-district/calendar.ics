@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lsr-city-x-by-gareth-emery|silo-dallas|9-00-pm-2026-09-11@letsdoitdalla
- s.com
-DTSTAMP:20260912T020000Z
-DTSTART:20260912T020000Z
-DTEND:20260912T050000Z
-SUMMARY:LSR/CITY X by Gareth Emery
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=lsr-city-x-by-gareth-emer
- y%7Csilo-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-bends|the-echo-lounge-music-hall-dallas|7-00-pm-2026-09-12@letsdoit
  dallas.com
 DTSTAMP:20260913T000000Z
@@ -608,5 +595,44 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=mariachi-el-bronx%7Cam-fm
  -dallas-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:prospa-ages-18-|silo-dallas|9-00-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261011T020000Z
+DTSTART:20261011T020000Z
+DTEND:20261011T050000Z
+SUMMARY:Prospa - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=prospa-ages-18-%7Csilo-da
+ llas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:arch-enemy-the-black-dahlia-murder-wrath-across-north-america-2026|the-
+ echo-lounge-music-hall-dallas|5-00-pm-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261011T220000Z
+DTSTART:20261011T220000Z
+DTEND:20261012T010000Z
+SUMMARY:Arch Enemy + The Black Dahlia Murder - Wrath Across North America 2
+ 026
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=arch-enemy-the-black-dahl
+ ia-murder-wrath-across-north-america-2026%7Cthe-echo-lounge-music-hall-dal
+ las%7C5-00-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:bijou-21-and-over-|silo-dallas|7-00-pm-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261012T000000Z
+DTSTART:20261012T000000Z
+DTEND:20261012T030000Z
+SUMMARY:Bijou (21 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=bijou-21-and-over-%7Csilo
+ -dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
 END:VEVENT
 END:VCALENDAR

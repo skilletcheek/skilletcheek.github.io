@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:liza-treyger|punch-line-irving-irving|7-00-pm-2026-09-11@letsdoitdallas
- .com
-DTSTAMP:20260912T000000Z
-DTSTART:20260912T000000Z
-DTEND:20260912T030000Z
-SUMMARY:Liza Treyger
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=liza-treyger%7Cpunch-line
- -irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:liza-treyger|punch-line-irving-irving|9-15-pm-2026-09-11@letsdoitdallas
- .com
-DTSTAMP:20260912T021500Z
-DTSTART:20260912T021500Z
-DTEND:20260912T051500Z
-SUMMARY:Liza Treyger
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=liza-treyger%7Cpunch-line
- -irving-irving%7C9-15-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:liza-treyger|punch-line-irving-irving|7-00-pm-2026-09-12@letsdoitdallas
  .com
 DTSTAMP:20260913T000000Z
@@ -444,6 +418,32 @@ DTEND:20261011T030000Z
 SUMMARY:Winston Hodges
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-10-10&e=winston-hodges%7Cpunch-li
+ ne-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:winston-hodges|punch-line-irving-irving|9-15-pm-2026-10-10@letsdoitdall
+ as.com
+DTSTAMP:20261011T021500Z
+DTSTART:20261011T021500Z
+DTEND:20261011T051500Z
+SUMMARY:Winston Hodges
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=winston-hodges%7Cpunch-li
+ ne-irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:billy-sorrells|punch-line-irving-irving|7-00-pm-2026-10-11@letsdoitdall
+ as.com
+DTSTAMP:20261012T000000Z
+DTSTART:20261012T000000Z
+DTEND:20261012T030000Z
+SUMMARY:Billy Sorrells
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=billy-sorrells%7Cpunch-li
  ne-irving-irving%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/

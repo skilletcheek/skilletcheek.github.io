@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-four-horsemen-the-ultimate-metallica-tribute|tannahill-s-music-hall
- -lounge-fort-worth|9-00-pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260912T020000Z
-DTSTART:20260912T020000Z
-DTEND:20260912T050000Z
-SUMMARY:The Four Horsemen - The Ultimate Metallica Tribute
-LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=the-four-horsemen-the-ult
- imate-metallica-tribute%7Ctannahill-s-music-hall-lounge-fort-worth%7C9-00-
- pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/tannahill-s-music-hall-lounge/
-END:VEVENT
-BEGIN:VEVENT
 UID:geoff-tate-s-operation-mindcrime-the-final-chapter|tannahill-s-music-ha
  ll-lounge-fort-worth|8-00-pm-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260913T010000Z
@@ -113,5 +99,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-03&e=shawn-james-flew-too-clos
  e-to-the-sun-tour-%7Ctannahill-s-music-hall-lounge-fort-worth%7C9-00-pm
 DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/tannahill-s-music-hall-lounge/
+END:VEVENT
+BEGIN:VEVENT
+UID:houndmouth-marfa|tannahill-s-music-hall-lounge-fort-worth|9-00-pm-2026-
+ 10-10@letsdoitdallas.com
+DTSTAMP:20261011T020000Z
+DTSTART:20261011T020000Z
+DTEND:20261011T050000Z
+SUMMARY:Houndmouth & MARFA
+LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=houndmouth-marfa%7Ctannah
+ ill-s-music-hall-lounge-fort-worth%7C9-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/tannahill-s-music-hall-lounge/
 END:VEVENT
 END:VCALENDAR

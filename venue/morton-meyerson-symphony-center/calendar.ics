@@ -10,22 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-the-music-of-elvis-with-frankie-more
- no|morton-meyerson-symphony-center-dallas|7-30-pm-2026-09-11@letsdoitdalla
- s.com
-DTSTAMP:20260912T003000Z
-DTSTART:20260912T003000Z
-DTEND:20260912T033000Z
-SUMMARY:Dallas Symphony Orchestra Presents The Music of Elvis with Frankie 
- Moreno
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=dallas-symphony-orchestra
- -presents-the-music-of-elvis-with-frankie-moreno%7Cmorton-meyerson-symphon
- y-center-dallas%7C7-30-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/venue/morton-meyerson-symphony-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-symphony-orchestra-presents-the-music-of-elvis-with-frankie-more
  no|morton-meyerson-symphony-center-dallas|7-30-pm-2026-09-12@letsdoitdalla
  s.com
 DTSTAMP:20260913T003000Z
@@ -183,6 +167,38 @@ LOCATION:Morton Meyerson Symphony Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-09&e=dallas-symphony-orchestra
  -presents-disney-s-hocus-pocus-in-concert-live-to-film%7Cmorton-meyerson-s
  ymphony-center-dallas%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/morton-meyerson-symphony-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-disney-s-hocus-pocus-in-concert-live
+ -to-film|morton-meyerson-symphony-center-dallas|7-30-pm-2026-10-10@letsdoi
+ tdallas.com
+DTSTAMP:20261011T003000Z
+DTSTART:20261011T003000Z
+DTEND:20261011T033000Z
+SUMMARY:Dallas Symphony Orchestra Presents Disney's Hocus Pocus in Concert 
+ Live to Film
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=dallas-symphony-orchestra
+ -presents-disney-s-hocus-pocus-in-concert-live-to-film%7Cmorton-meyerson-s
+ ymphony-center-dallas%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/morton-meyerson-symphony-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-disney-s-hocus-pocus-in-concert-live
+ -to-film|morton-meyerson-symphony-center-dallas|2-00-pm-2026-10-11@letsdoi
+ tdallas.com
+DTSTAMP:20261011T190000Z
+DTSTART:20261011T190000Z
+DTEND:20261011T220000Z
+SUMMARY:Dallas Symphony Orchestra Presents Disney's Hocus Pocus in Concert 
+ Live to Film
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=dallas-symphony-orchestra
+ -presents-disney-s-hocus-pocus-in-concert-live-to-film%7Cmorton-meyerson-s
+ ymphony-center-dallas%7C2-00-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/venue/morton-meyerson-symphony-center/
 END:VEVENT

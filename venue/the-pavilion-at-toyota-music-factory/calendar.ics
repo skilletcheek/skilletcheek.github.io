@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kany-garcia-puerta-abierta-tour|the-pavilion-at-toyota-music-factory-ir
- ving|8-00-pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260912T010000Z
-DTSTART:20260912T010000Z
-DTEND:20260912T040000Z
-SUMMARY:Kany Garcia: Puerta Abierta Tour
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=kany-garcia-puerta-abiert
- a-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:thee-sacred-souls-la-lom-the-womack-sisters|the-pavilion-at-toyota-musi
  c-factory-irving|7-00-pm-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260913T000000Z
@@ -216,5 +203,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-09&e=role-model-presents-chuck
  -on-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/the-pavilion-at-toyota-music-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:chuy-lizarraga-y-julio-preciado|the-pavilion-at-toyota-music-factory-ir
+ ving|8-00-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261011T010000Z
+DTSTART:20261011T010000Z
+DTEND:20261011T040000Z
+SUMMARY:Chuy Lizarraga Y Julio Preciado
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=chuy-lizarraga-y-julio-pr
+ eciado%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/the-pavilion-at-toyota-music-factory/
 END:VEVENT
 END:VCALENDAR

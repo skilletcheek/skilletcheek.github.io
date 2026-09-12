@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fat Daddy’s Mansfield — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Fat Daddy’s Mansfield.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:noche-ufc-silva-vs-delgado|fat-daddy-s-mansfield-781-west-debbie-lane-m
+ ansfield-76063-united-states|4-00-pm-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260912T210000Z
+DTSTART:20260912T210000Z
+DTEND:20260913T000000Z
+SUMMARY:Noche UFC: Silva vs. Delgado
+LOCATION:Fat Daddy’s Mansfield
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=noche-ufc-silva-vs-delgad
+ o%7Cfat-daddy-s-mansfield-781-west-debbie-lane-mansfield-76063-united-stat
+ es%7C4-00-pm
+DESCRIPTION:Silva vs. Delgado in a featherweight bout — More: https://let
+ sdoitdallas.com/venue/fat-daddy-s-mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:zz-tex-w-stevie-ray-s-vault-tx-legends-|fat-daddy-s-mansfield-781-west-
+ debbie-lane-mansfield-76063-united-states|8-30-pm-2026-09-12@letsdoitdalla
+ s.com
+DTSTAMP:20260913T013000Z
+DTSTART:20260913T013000Z
+DTEND:20260913T043000Z
+SUMMARY:ZZ Tex w/Stevie Ray's Vault - TX Legends!
+LOCATION:Fat Daddy’s Mansfield
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=zz-tex-w-stevie-ray-s-vau
+ lt-tx-legends-%7Cfat-daddy-s-mansfield-781-west-debbie-lane-mansfield-7606
+ 3-united-states%7C8-30-pm
+DESCRIPTION:$5 online or with reservation at the bar $7 at the door — Mor
+ e: https://letsdoitdallas.com/venue/fat-daddy-s-mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-dallas-moralez-live-on-the-patio|fat-daddy-s-mansfield-781-west-debb
+ ie-lane-mansfield-76063-united-states|9-00-pm-2026-09-12@letsdoitdallas.co
+ m
+DTSTAMP:20260913T020000Z
+DTSTART:20260913T020000Z
+DTEND:20260913T050000Z
+SUMMARY:DJ Dallas Moralez - Live on the Patio
+LOCATION:Fat Daddy’s Mansfield
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=dj-dallas-moralez-live-on
+ -the-patio%7Cfat-daddy-s-mansfield-781-west-debbie-lane-mansfield-76063-un
+ ited-states%7C9-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/venue/fat-daddy-s-mansfield/
+END:VEVENT
+END:VCALENDAR

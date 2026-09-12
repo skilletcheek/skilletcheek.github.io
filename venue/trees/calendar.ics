@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bear-ghost|trees-dallas|7-30-pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260912T003000Z
-DTSTART:20260912T003000Z
-DTEND:20260912T033000Z
-SUMMARY:Bear Ghost
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=bear-ghost%7Ctrees-dallas
- %7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/trees/
-END:VEVENT
-BEGIN:VEVENT
 UID:temples|trees-dallas-dallas|8-00-pm-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260913T010000Z
 DTSTART:20260913T010000Z

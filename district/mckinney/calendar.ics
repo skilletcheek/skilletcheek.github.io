@@ -431,6 +431,54 @@ URL:https://letsdoitdallas.com/?date=2026-09-25&e=oktoberfest%7C111-n-tenne
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:last-saturday-of-the-month-workday|3339-alma-rd-mckinney|09-00-am-2026-
+ 09-26@letsdoitdallas.com
+DTSTAMP:20260926T140000Z
+DTSTART:20260926T140000Z
+DTEND:20260926T170000Z
+SUMMARY:Last Saturday of the Month Workday
+LOCATION:3339 Alma Rd. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=last-saturday-of-the-mont
+ h-workday%7C3339-alma-rd-mckinney%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:nature-walk-storytime-all-ages-|6861-w-eldorado-parkway-mckinney|10-30-
+ am-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T153000Z
+DTSTART:20260926T153000Z
+DTEND:20260926T183000Z
+SUMMARY:Nature Walk Storytime (All Ages)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=nature-walk-storytime-all
+ -ages-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:oktoberfest|111-n-tennessee-st-mckinney|11-00-am-2026-09-26@letsdoitdal
+ las.com
+DTSTAMP:20260926T160000Z
+DTSTART:20260926T160000Z
+DTEND:20260926T190000Z
+SUMMARY:Oktoberfest
+LOCATION:111 N. Tennessee St. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=oktoberfest%7C111-n-tenne
+ ssee-st-mckinney%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-chess-meetup-all-ages-|6861-w-eldorado-parkway-mckinney|11-00-
+ am-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T160000Z
+DTSTART:20260926T160000Z
+DTEND:20260926T190000Z
+SUMMARY:Saturday Chess Meetup (All Ages)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=saturday-chess-meetup-all
+ -ages-%7C6861-w-eldorado-parkway-mckinney%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:sonu-nigam|credit-union-of-texas-event-center-allen|8-30-pm-2026-09-26@
  letsdoitdallas.com
 DTSTAMP:20260927T013000Z
@@ -455,5 +503,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=share-the-arrows-2026%7Cc
  redit-union-of-texas-event-center-allen%7C9-00-am
 DESCRIPTION:Lecture/Seminar event via Ticketmaster. — More: https://letsd
  oitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:be-like-blippi-tour|credit-union-of-texas-event-center-allen|2-00-pm-20
+ 26-10-11@letsdoitdallas.com
+DTSTAMP:20261011T190000Z
+DTSTART:20261011T190000Z
+DTEND:20261011T220000Z
+SUMMARY:Be Like Blippi Tour
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=be-like-blippi-tour%7Ccre
+ dit-union-of-texas-event-center-allen%7C2-00-pm
+DESCRIPTION:Children's Theatre event via Ticketmaster. — More: https://le
+ tsdoitdallas.com/district/mckinney/
 END:VEVENT
 END:VCALENDAR

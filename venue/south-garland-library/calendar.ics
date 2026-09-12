@@ -10,22 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:friends-of-the-library-book-sale|south-garland-library-garland|10-00-am
- -2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T150000Z
-DTSTART:20260911T150000Z
-DTEND:20260911T180000Z
-SUMMARY:Friends of the Library Book Sale
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=friends-of-the-library-bo
- ok-sale%7Csouth-garland-library-garland%7C10-00-am
-DESCRIPTION:10 a.m. - 5:00 p.m.\; The Nicholson Memorial Library System's F
- riends of the Library organization holds an annual book sale at South Garl
- and Library. Shoppers may find bargains on a wide variety of adult and chi
- ldren's books\, fiction and nonfiction\, paperback and hardcover\, refere 
- — More: https://letsdoitdallas.com/venue/south-garland-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:friends-of-the-library-book-sale|south-garland-library-garland|10-00-am
  -2026-09-12@letsdoitdallas.com
 DTSTAMP:20260912T150000Z
 DTSTART:20260912T150000Z

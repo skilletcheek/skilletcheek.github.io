@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cabaret-voltaire-final-usa-canada-tour|lower-greenville|doors-see-listi
- ng-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T000000Z
-DTSTART;VALUE=DATE:20260911
-DTEND;VALUE=DATE:20260912
-SUMMARY:CABARET VOLTAIRE -   FINAL USA + CANADA TOUR
-LOCATION:Lower Greenville
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=cabaret-voltaire-final-us
- a-canada-tour%7Clower-greenville%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
- istrict/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
-UID:ian-mcconnell|lower-greenville|doors-see-listing-2026-09-11@letsdoitdal
- las.com
-DTSTAMP:20260911T000000Z
-DTSTART;VALUE=DATE:20260911
-DTEND;VALUE=DATE:20260912
-SUMMARY:Ian McConnell
-LOCATION:Lower Greenville
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=ian-mcconnell%7Clower-gre
- enville%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
-UID:cabaret-voltaire-with-i-speak-machine|granada-theater-dallas-dallas|8-0
- 0-pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260912T010000Z
-DTSTART:20260912T010000Z
-DTEND:20260912T040000Z
-SUMMARY:Cabaret Voltaire with I Speak Machine
-LOCATION:Granada Theater - Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=cabaret-voltaire-with-i-s
- peak-machine%7Cgranada-theater-dallas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:sleep-north-america-2026|lower-greenville|doors-see-listing-2026-09-12@
  letsdoitdallas.com
 DTSTAMP:20260912T000000Z
@@ -353,16 +314,16 @@ DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
  istrict/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
-UID:chat-pile-who-loves-the-sun-tour-2026|lower-greenville|doors-see-listin
- g-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261010T000000Z
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
+UID:chat-pile-who-loves-the-sun-tour-2026|granada-theater-tx-dallas|7-30-pm
+ -2026-10-10@letsdoitdallas.com
+DTSTAMP:20261011T003000Z
+DTSTART:20261011T003000Z
+DTEND:20261011T033000Z
 SUMMARY:Chat Pile - Who Loves The Sun Tour 2026
-LOCATION:Lower Greenville
+LOCATION:Granada Theater - TX · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-10&e=chat-pile-who-loves-the-s
- un-tour-2026%7Clower-greenville%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
- istrict/lower-greenville/
+ un-tour-2026%7Cgranada-theater-tx-dallas%7C7-30-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/lower-greenville/
 END:VEVENT
 END:VCALENDAR

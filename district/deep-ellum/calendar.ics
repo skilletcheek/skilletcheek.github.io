@@ -10,95 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:drunk-shakespeare-romeo-juliet-21-event-|deep-ellum-art-co-dallas|6-00-
- pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260911T230000Z
-DTSTART:20260911T230000Z
-DTEND:20260912T020000Z
-SUMMARY:Drunk Shakespeare: Romeo & Juliet (21+ Event)
-LOCATION:Deep Ellum Art Co · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=drunk-shakespeare-romeo-j
- uliet-21-event-%7Cdeep-ellum-art-co-dallas%7C6-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:bear-ghost|trees-dallas|7-30-pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260912T003000Z
-DTSTART:20260912T003000Z
-DTEND:20260912T033000Z
-SUMMARY:Bear Ghost
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=bear-ghost%7Ctrees-dallas
- %7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:slaughter-to-prevail-with-dj-paul-and-rev3rent|the-bomb-factory-dallas-
- dallas|7-30-pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260912T003000Z
-DTSTART:20260912T003000Z
-DTEND:20260912T033000Z
-SUMMARY:Slaughter to Prevail with DJ Paul and Rev3rent
-LOCATION:The Bomb Factory - Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=slaughter-to-prevail-with
- -dj-paul-and-rev3rent%7Cthe-bomb-factory-dallas-dallas%7C7-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:drunk-shakespeare-romeo-juliet-21-event-|deep-ellum-art-co-dallas|8-00-
- pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260912T010000Z
-DTSTART:20260912T010000Z
-DTEND:20260912T040000Z
-SUMMARY:Drunk Shakespeare: Romeo & Juliet (21+ Event)
-LOCATION:Deep Ellum Art Co · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=drunk-shakespeare-romeo-j
- uliet-21-event-%7Cdeep-ellum-art-co-dallas%7C8-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:schur-fai-laci|three-links-deep-ellum-dallas|8-00-pm-2026-09-11@letsdoi
- tdallas.com
-DTSTAMP:20260912T010000Z
-DTSTART:20260912T010000Z
-DTEND:20260912T040000Z
-SUMMARY:Schur\, Fai Laci
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=schur-fai-laci%7Cthree-li
- nks-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:west-22nd|club-dada-dallas|8-00-pm-2026-09-11@letsdoitdallas.com
-DTSTAMP:20260912T010000Z
-DTSTART:20260912T010000Z
-DTEND:20260912T040000Z
-SUMMARY:West 22nd
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=west-22nd%7Cclub-dada-dal
- las%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-diva-summer|three-links-deep-ellum-dallas|11-00-pm-2026-09-11@letsdo
- itdallas.com
-DTSTAMP:20260912T040000Z
-DTSTART:20260912T040000Z
-DTEND:20260912T070000Z
-SUMMARY:DJ Diva Summer
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=dj-diva-summer%7Cthree-li
- nks-deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:drunk-shakespeare-romeo-juliet-21-event-|deep-ellum-art-co-dallas|5-00-
  pm-2026-09-12@letsdoitdallas.com
 DTSTAMP:20260912T220000Z
@@ -647,6 +558,19 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:156-silence|puzzles-deep-ellum-dallas|6-00-pm-2026-09-22@letsdoitdallas
+ .com
+DTSTAMP:20260922T230000Z
+DTSTART:20260922T230000Z
+DTEND:20260923T020000Z
+SUMMARY:156/Silence
+LOCATION:Puzzles Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=156-silence%7Cpuzzles-dee
+ p-ellum-dallas%7C6-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:artemas|the-bomb-factory-dallas|8-00-pm-2026-09-22@letsdoitdallas.com
 DTSTAMP:20260923T010000Z
 DTSTART:20260923T010000Z
@@ -1155,5 +1079,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=hurricane-wisdom%7Ctrees-
  dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:greywind-waiting-4-april-rain-division-rodeo|three-links-deep-ellum-dal
+ las|7-00-pm-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261012T000000Z
+DTSTART:20261012T000000Z
+DTEND:20261012T030000Z
+SUMMARY:Greywind\, Waiting 4 April\, Rain Division\, Rodeo
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=greywind-waiting-4-april-
+ rain-division-rodeo%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:plini-16-and-under-with-parent-or-legal-guardian-|the-studio-at-the-bom
+ b-factory-dallas|7-00-pm-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261012T000000Z
+DTSTART:20261012T000000Z
+DTEND:20261012T030000Z
+SUMMARY:Plini (16 and Under with Parent or Legal Guardian)
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=plini-16-and-under-with-p
+ arent-or-legal-guardian-%7Cthe-studio-at-the-bomb-factory-dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

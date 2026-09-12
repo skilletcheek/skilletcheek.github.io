@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:silent-book-club-ages-18-|central-library-garland|06-00-pm-2026-09-11@l
- etsdoitdallas.com
-DTSTAMP:20260911T230000Z
-DTSTART:20260911T230000Z
-DTEND:20260912T020000Z
-SUMMARY:Silent Book Club® (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-11&e=silent-book-club-ages-18-
- %7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Join us for Silent Book Club® at the Garland Centr
- al Library\, held once a month on Fridays at 6 p.m. — exclusively for ad
- ults 18+. Enjoy a relaxed\, quiet reading environment without assigned boo
- ks or discussion pressure. Bring your own book or browse the library’s c
- oll — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-09-12@letsd
  oitdallas.com
 DTSTAMP:20260912T150000Z
@@ -585,6 +569,22 @@ DESCRIPTION:10:00 a.m.\; Get basic computer practice every Friday morning.
  Learn the coordination skills needed to use a computer independently with 
  confidence. Technology accessories like the mouse and keyboard take time a
  nd practice to master\; that’s why our computer classes are held almost 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-09-26@letsd
+ oitdallas.com
+DTSTAMP:20260926T150000Z
+DTSTART:20260926T150000Z
+DTEND:20260926T180000Z
+SUMMARY:Play & Learn (0-5 years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=play-learn-0-5-years-%7Cc
+ entral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Families with children ages 0-5 can enjoy Play & L
+ earn\, a weekly event with toys\, games and activities that encourage imag
+ ination\, creativity and problem-solving. This program offers a chance for
+  children and caregivers to play together. September 26\, 2026 10:00 AM - 
  — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR
