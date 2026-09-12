@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big Laugh Comedy Club – Fort Worth — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Big Laugh Comedy Club – Fort Worth.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:luis-lopez-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-
+ fort-worth-tx-76102-united-states|7-30-pm-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260913T003000Z
+DTSTART:20260913T003000Z
+DTEND:20260913T033000Z
+SUMMARY:Luis Lopez Live
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=luis-lopez-live%7Cbig-lau
+ gh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-united
+ -states%7C7-30-pm
+DESCRIPTION:Luis Lopez: Live In Fort Worth  Luis Lopez is coming to Big Lau
+ gh Comedy Club for 2 shows only\, and if you love seeing comedians before 
+ everyone else is talking about them\, this is your night.  Luis brings the
+  kind of storytelling that has the whole room locked in from the first —
+  More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:uncensored-unhinged-fort-worth-s-boldest-stand-up-comedy-show|big-laugh
+ -comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-united-s
+ tates|9-30-pm-2026-09-12@letsdoitdallas.com
+DTSTAMP:20260913T023000Z
+DTSTART:20260913T023000Z
+DTEND:20260913T053000Z
+SUMMARY:Uncensored & Unhinged: Fort Worth’s Boldest Stand-Up Comedy Show
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=uncensored-unhinged-fort-
+ worth-s-boldest-stand-up-comedy-show%7Cbig-laugh-comedy-club-fort-worth-60
+ 4-main-st-suite-100-fort-worth-tx-76102-united-states%7C9-30-pm
+DESCRIPTION:Fort Worth’s Boldest Stand-Up Comedy Show  This isn’t your 
+ average comedy night. Uncensored & Unhinged is a one-night-only explosion 
+ of raw\, fearless\, and outrageously funny stand-up that pushes the limits
+  and punches straight through them.  This is where comics say the things y
+ o — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fort-wo
+ rth/
+END:VEVENT
+BEGIN:VEVENT
+UID:main-street-mayhem|big-laugh-comedy-club-fort-worth-604-main-st-suite-1
+ 00-fort-worth-tx-76102-united-states|10-00-pm-2026-09-12@letsdoitdallas.co
+ m
+DTSTAMP:20260913T030000Z
+DTSTART:20260913T030000Z
+DTEND:20260913T060000Z
+SUMMARY:Main Street Mayhem
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-12&e=main-street-mayhem%7Cbig-
+ laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-uni
+ ted-states%7C10-00-pm
+DESCRIPTION:Downtown Fort Worth’s Wildest Night of Comedy  Main Street ru
+ ns through the heart of Fort Worth\, and on show nights\, Big Laugh is the
+  loudest room on it.  Main Street Mayhem is exactly what it sounds like\, 
+ a high-energy\, no-rules stand-up showcase built for the crowd that came d
+ o — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fort-wo
+ rth/
+END:VEVENT
+END:VCALENDAR

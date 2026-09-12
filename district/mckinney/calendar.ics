@@ -10,54 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:farmers-market-storytime-all-ages-10-am|315-s-chestnut-st-mckinney|10-0
- 0-am-2026-09-12@letsdoitdallas.com
-DTSTAMP:20260912T150000Z
-DTSTART:20260912T150000Z
-DTEND:20260912T180000Z
-SUMMARY:Farmers Market Storytime (All Ages) - 10 AM
-LOCATION:315 S Chestnut St · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=farmers-market-storytime-
- all-ages-10-am%7C315-s-chestnut-st-mckinney%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:watercolor-doodle-red-beets-src|1400-s-college-st-mckinney|10-00-am-202
- 6-09-12@letsdoitdallas.com
-DTSTAMP:20260912T150000Z
-DTSTART:20260912T150000Z
-DTEND:20260912T180000Z
-SUMMARY:Watercolor Doodle: “Red Beets” - SRC
-LOCATION:1400 S. College St. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=watercolor-doodle-red-bee
- ts-src%7C1400-s-college-st-mckinney%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:family-storytime-all-ages-|1201-e-louisiana-st-mckinney|10-30-am-2026-0
- 9-12@letsdoitdallas.com
-DTSTAMP:20260912T153000Z
-DTSTART:20260912T153000Z
-DTEND:20260912T183000Z
-SUMMARY:Family Storytime (All Ages)
-LOCATION:1201 E. Louisiana St. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=family-storytime-all-ages
- -%7C1201-e-louisiana-st-mckinney%7C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:saturday-chess-meetup-all-ages-|6861-w-eldorado-parkway-mckinney|11-00-
- am-2026-09-12@letsdoitdallas.com
-DTSTAMP:20260912T160000Z
-DTSTART:20260912T160000Z
-DTEND:20260912T190000Z
-SUMMARY:Saturday Chess Meetup (All Ages)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=saturday-chess-meetup-all
- -ages-%7C6861-w-eldorado-parkway-mckinney%7C11-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:chinese-tea-ceremony-adults-|6861-w-eldorado-parkway-mckinney|06-30-pm-
  2026-09-12@letsdoitdallas.com
 DTSTAMP:20260912T233000Z

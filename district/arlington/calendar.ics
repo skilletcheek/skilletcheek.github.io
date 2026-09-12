@@ -834,6 +834,19 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|12-00-pm-20
+ 26-09-23@letsdoitdallas.com
+DTSTAMP:20260923T170000Z
+DTSTART:20260923T170000Z
+DTEND:20260923T200000Z
+SUMMARY:AT&T Stadium Owner's Experience Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=at-t-stadium-owner-s-expe
+ rience-tour%7Cat-t-stadium-arlington%7C12-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:texas-rangers-vs-new-york-mets-bomber-jacket|globe-life-field-arlington
  |7-05-pm-2026-09-23@letsdoitdallas.com
 DTSTAMP:20260924T000500Z
