@@ -49,6 +49,7 @@ import html as _html
 import json
 import os
 import re
+import statistics
 import sys
 import time
 import urllib.error
@@ -3989,21 +3990,85 @@ def dedupe(rows):
 # number cannot see a component fail; that is the same blind spot that let a
 # lumped "filtered" counter disguise a city-parsing bug in fetch_civicplus().
 #
-# So each source's yield is recorded and compared against the last run's.
+# So each source's yield is recorded and compared against a rolling baseline.
 SOURCE_COUNTS_FILE = ROOT / "source-counts.json"
+
+# How many past runs of per-source yields the file keeps. The comparison is
+# against the median of these, NOT against the single previous run -- see
+# _source_baseline() for the Sunday-morning false alarm that bought this.
+SOURCE_HISTORY_RUNS = 14
 
 # A source that HAD events and now has none is unambiguous: a dead key, a
 # moved URL, a vendor 404. That is the case worth waking up for.
 SOURCE_ZERO_FLOOR = 3
 # A partial drop is noisier -- venues really do go quiet -- so it has to be
 # both a big proportional fall and a source large enough for that to mean
-# something.
+# something. The floor sits ABOVE the small feeds' weekend peaks on purpose
+# (dallasites101 tops out around 11): for them a 50% swing is a normal week,
+# not a fault, and the zero rule above is the one that guards them.
 SOURCE_DROP_RATIO = 0.5
-SOURCE_DROP_MIN = 10
+SOURCE_DROP_MIN = 25
+
+
+def _load_source_history() -> list:
+    """Recent runs' per-source yields, oldest first.
+
+    Migrates the pre-2026-09-13 shape -- {date, counts, alarms} and no
+    history -- by seeding the list with that one run, so the first build
+    after this change still compares against something instead of going
+    blind for a fortnight.
+    """
+    if not SOURCE_COUNTS_FILE.exists():
+        return []
+    try:
+        data = json.loads(SOURCE_COUNTS_FILE.read_text())
+    except (OSError, ValueError):
+        return []
+    history = data.get("history")
+    if isinstance(history, list):
+        return [h for h in history
+                if isinstance(h, dict) and isinstance(h.get("counts"), dict)]
+    if isinstance(data.get("counts"), dict):
+        return [{"date": data.get("date", ""), "counts": data["counts"]}]
+    return []
+
+
+def _source_baseline(history: list, name: str):
+    """(typical yield, samples) for one source across `history`, or (None, 0).
+
+    The LOW MEDIAN of recent runs, deliberately not the previous run. A
+    single prior sample is the wrong yardstick for any source whose events
+    cluster in time, and it produced a guaranteed weekly false alarm:
+    dallasites101 publishes a fixed ~30-item rolling window with no
+    pagination, so on Saturday 2026-09-12 seven of its eleven rows were that
+    same Saturday's markets and mixers. Sunday morning's run dropped all
+    seven as past-dated, yielded 4, and tripped the 50% rule against
+    Saturday's peak -- 11 -> 4, red job, nothing wrong. The feed had not
+    changed shape, the parser had not broken, and no error was logged;
+    Saturday was simply the high-water mark that every Sunday is measured
+    against. Any week would do it again.
+
+    A median over both busy and quiet days has no such peak to anchor on.
+    It also fixes the opposite failure, which the previous-run comparison
+    had silently: a source that went dark alarmed exactly once, because the
+    next run read the 0 it had just written as its own baseline and
+    `was >= SOURCE_ZERO_FLOOR` went false. The alarm switched itself off
+    while the source stayed dark -- the worst possible behaviour for a check
+    whose entire job is visibility. A median keeps reading the healthy days
+    and keeps the job red until the source really comes back.
+
+    The low median rather than the mean, so the baseline is always a yield
+    this source actually produced and one bumper night cannot raise the bar.
+    """
+    seen = [h["counts"][name] for h in history
+            if isinstance(h["counts"].get(name), int)]
+    if not seen:
+        return None, 0
+    return statistics.median_low(seen), len(seen)
 
 
 def check_source_health(counts: dict) -> list:
-    """Compare this run's per-source yields with the previous run's, record
+    """Compare this run's per-source yields with a rolling baseline, record
     both, and return the alarms.
 
     Writes rather than raises. A source going dark must not cost the site its
@@ -4012,27 +4077,26 @@ def check_source_health(counts: dict) -> list:
     the commit to turn the job red, so the failure is loud without being
     destructive. Same split, and the same reasoning, as the IndexNow step.
     """
-    previous = {}
-    if SOURCE_COUNTS_FILE.exists():
-        try:
-            previous = json.loads(SOURCE_COUNTS_FILE.read_text()).get("counts", {})
-        except (OSError, ValueError):
-            previous = {}
+    history = _load_source_history()
 
     alarms = []
     for name, now in sorted(counts.items()):
-        was = previous.get(name)
-        if was is None:
+        base, runs = _source_baseline(history, name)
+        if base is None:
             continue                      # first run, or a newly added source
-        if was >= SOURCE_ZERO_FLOOR and now == 0:
-            alarms.append(f"{name}: {was} -> 0 (source produced nothing)")
-        elif was >= SOURCE_DROP_MIN and now < was * SOURCE_DROP_RATIO:
-            alarms.append(f"{name}: {was} -> {now} "
-                          f"(below {SOURCE_DROP_RATIO:.0%} of the previous run)")
+        if base >= SOURCE_ZERO_FLOOR and now == 0:
+            alarms.append(f"{name}: {base} -> 0 (source produced nothing; "
+                          f"baseline over {runs} run(s))")
+        elif base >= SOURCE_DROP_MIN and now < base * SOURCE_DROP_RATIO:
+            alarms.append(f"{name}: {base} -> {now} "
+                          f"(below {SOURCE_DROP_RATIO:.0%} of its "
+                          f"{runs}-run baseline)")
 
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     SOURCE_COUNTS_FILE.write_text(json.dumps(
-        {"date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-         "counts": counts, "alarms": alarms}, indent=1) + "\n")
+        {"date": today, "counts": counts, "alarms": alarms,
+         "history": (history + [{"date": today, "counts": counts}]
+                     )[-SOURCE_HISTORY_RUNS:]}, indent=1) + "\n")
 
     total = sum(counts.values())
     print("source yields: " + ", ".join(f"{k}={v}" for k, v in sorted(counts.items()))

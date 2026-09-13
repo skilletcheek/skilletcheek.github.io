@@ -257,12 +257,41 @@ rejected** so they don't get re-probed.
   city-parsing bug in `fetch_civicplus()` the same day.
 
   `check_source_health()` records each source's yield in `source-counts.json`
-  and compares it with the previous run. It alarms when a source that had at
-  least `SOURCE_ZERO_FLOOR` (3) events produces **zero**, or when one that had
-  at least `SOURCE_DROP_MIN` (10) falls below `SOURCE_DROP_RATIO` (50%). The
+  and compares it against a **rolling baseline** — the low median of that
+  source's last `SOURCE_HISTORY_RUNS` (14) yields, kept in the same file's
+  `history` array. It alarms when a source whose baseline is at least
+  `SOURCE_ZERO_FLOOR` (3) produces **zero**, or when one whose baseline is at
+  least `SOURCE_DROP_MIN` (25) falls below `SOURCE_DROP_RATIO` (50%). The
   zero rule is the one that matters; partial drops are noisy because venues
   really do go quiet, and `seated` legitimately returns 0–1 most nights, which
   is why the floor exists at all.
+
+  **It compares against the median, NOT the previous run**, and both halves of
+  that are load-bearing. Until 2026-09-13 it used the single previous run, and
+  that guaranteed a weekly false alarm: `dallasites101` is a fixed ~30-item
+  rolling window, so on Saturday 2026-09-12 seven of its eleven rows were that
+  same Saturday's markets and mixers. Sunday's run dropped all seven as
+  past-dated, yielded 4, and tripped the 50% rule against Saturday's peak —
+  a red job with nothing wrong, no error logged, and the parser untouched. For
+  any source whose events cluster in time, the previous run is systematically
+  the high-water mark. **`SOURCE_DROP_MIN` was raised 10 → 25 in the same
+  change**, to sit above the small feeds' weekend peaks: the floor's whole
+  purpose is to exempt sources for which a 50% swing is a normal week.
+
+  The same previous-run comparison had the opposite bug, silently: a source
+  that went dark alarmed **exactly once**, because the next run read the `0`
+  it had just written as its own baseline and `was >= SOURCE_ZERO_FLOOR` went
+  false. The alarm switched itself off while the source stayed dark — the
+  worst possible behaviour for a check whose only job is visibility. The
+  median keeps reading the healthy days, so the job stays red until the source
+  actually comes back.
+
+  A yield is a proxy for health, not a measurement of it. This source can
+  legitimately report 4 one day and 11 the next without anything changing;
+  what would actually distinguish "few upcoming events" from "26 of 30 pages
+  stopped parsing" is instrumenting `fetch_dallasites101` to count parse
+  failures separately, which is still worth doing and is not what this check
+  does.
 
   **It writes, it does not raise.** A source going dark must never cost the
   site its nightly refresh — `/tonight/` serving yesterday is worse than a
