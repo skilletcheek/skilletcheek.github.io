@@ -31,6 +31,7 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
     js/scenes.js            unloaded, kept in repo
     scripts/fetch_events.py the nightly aggregator (also generates pages)
     scripts/feeds.json      DATA: which feeds/venues/artists to pull
+    scripts/test_source_health.py  hand-run: `python3` it, no deps, no network
     scripts/notify_submitter.py  hand-run: "your event is live" mail
     scripts/venue_outreach.py    hand-run: "we built you a page" mail
     scripts/pinterest_post.py    weekly Pinterest board (own workflow)
@@ -286,12 +287,26 @@ rejected** so they don't get re-probed.
   median keeps reading the healthy days, so the job stays red until the source
   actually comes back.
 
-  A yield is a proxy for health, not a measurement of it. This source can
-  legitimately report 4 one day and 11 the next without anything changing;
-  what would actually distinguish "few upcoming events" from "26 of 30 pages
-  stopped parsing" is instrumenting `fetch_dallasites101` to count parse
-  failures separately, which is still worth doing and is not what this check
-  does.
+  **A yield is a proxy for health, not a measurement of it**, and
+  `check_source_health()` reads nothing but yields. dallasites101 can
+  legitimately report 4 one day and 11 the next; it can also report 4 because
+  26 of 30 pages stopped parsing, and no yield check can tell those apart. A
+  scraper that follows links and parses each page survives a site redesign
+  without raising, without hitting zero, and with a count that reads like a
+  quiet week — which is exactly how it went to 0 unnoticed on 2026-08-27.
+
+  So `report_parse_health()` alarms on the parse-failure **rate**, separately
+  from yield. A fetcher counts its per-page outcomes and splits **faults**
+  (fetch failed, no JSON-LD, bad JSON, wrong `@type` — the template moved)
+  from ordinary **filters** (`past`, `off_area` — the page parsed fine and the
+  event simply isn't ours). It alarms when faults are at least
+  `SOURCE_UNPARSED_RATIO` (50%) of at least `SOURCE_UNPARSED_MIN` (5) fetched
+  pages, and the alarm lands in the same `source-counts.json` → `sourcecheck`
+  path as a yield collapse. **Splitting faults from filters is the whole
+  point** — lumping them is the same mistake as the single "filtered" counter
+  that disguised the `fetch_civicplus` city-parsing bug. `fetch_dallasites101`
+  now prints `4 events from 30 links (26 past)` and is the worked example;
+  the other link-following scrapers deserve the same treatment.
 
   **It writes, it does not raise.** A source going dark must never cost the
   site its nightly refresh — `/tonight/` serving yesterday is worse than a

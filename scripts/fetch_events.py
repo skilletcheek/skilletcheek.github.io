@@ -1296,34 +1296,49 @@ def fetch_dallasites101(start, end):
 
     urls = sorted({_strip_cdata(m) for m in re.findall(r"<link>(.*?)</link>", feed, re.S)
                    if "/event/" in m})
+
+    # Split FAULTS (this page did not parse -- the template moved) from the
+    # ordinary filters below them (`past`, `off_area` -- the page parsed fine
+    # and the event simply is not ours). Only the first group means anything
+    # is broken, and lumping the two is exactly what let the civicplus
+    # city-parsing bug read as a working noise filter.
+    FAULTS = ("fetch", "no_jsonld", "bad_json", "not_event")
+    skipped = dict.fromkeys(FAULTS + ("past", "off_area"), 0)
+
     out = []
     for url in urls:
         try:
             html = http_text(url)
         except Exception as e:  # noqa: BLE001
             print(f"dallasites101 ({url}): fetch failed: {e}", file=sys.stderr)
+            skipped["fetch"] += 1
             continue
         finally:
             time.sleep(2.0)     # robots.txt: Crawl-delay: 2
 
         m = re.search(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
         if not m:
+            skipped["no_jsonld"] += 1
             continue
         try:
             ev = json.loads(m.group(1))
         except (ValueError, TypeError):
+            skipped["bad_json"] += 1
             continue
         if ev.get("@type") != "Event" or not ev.get("name"):
+            skipped["not_event"] += 1
             continue
 
         date = str(ev.get("startDate") or "")[:10]
         if not (lo <= date <= hi):
+            skipped["past"] += 1
             continue
 
         loc = ev.get("location") or {}
         addr = loc.get("address") or {}
         city, region = addr.get("addressLocality"), addr.get("addressRegion")
         if not is_dfw_city(city, region):
+            skipped["off_area"] += 1
             continue
         area = ", ".join(x for x in [loc.get("name"), city] if x) or "Dallas"
 
@@ -1350,7 +1365,12 @@ def fetch_dallasites101(start, end):
             ev["name"], eb_category(None, ev["name"] + " " + (ev.get("description") or "")),
             area, date, time_str, cost, ev.get("description"), ticket_url, ev.get("image"),
         ))
-    print(f"dallasites101: {len(out)} events")
+    unparsed = sum(skipped[k] for k in FAULTS)
+    detail = ", ".join(f"{v} {k}" for k, v in skipped.items() if v)
+    print(f"dallasites101: {len(out)} events from {len(urls)} links"
+          + (f" ({detail})" if detail else ""))
+    report_parse_health("dallasites101", len(urls), unparsed,
+                        ", ".join(f"{skipped[k]} {k}" for k in FAULTS if skipped[k]))
     return out
 
 
@@ -4009,6 +4029,50 @@ SOURCE_ZERO_FLOOR = 3
 SOURCE_DROP_RATIO = 0.5
 SOURCE_DROP_MIN = 25
 
+# A yield is a PROXY for health, not a measurement of it. Every check above
+# reads one number -- how many rows a source returned -- and that number
+# cannot tell "four events are coming up" from "four events because
+# twenty-six of thirty pages stopped parsing". A scraper that follows links
+# and parses each page can keep returning a plausible count through a site
+# redesign that broke every one of them: no exception is raised, no yield
+# hits zero, and the only symptom is a number that looks like a quiet week.
+# That is how dallasites101 went from ~8 events a night to 0 unnoticed on
+# 2026-08-27, and it is the same blind spot as the lumped "filtered" counter
+# that disguised the fetch_civicplus city-parsing bug.
+#
+# So a fetcher that CAN tell the difference reports it here, and
+# check_source_health() folds these into the same alarms path as a yield
+# collapse -- written to source-counts.json, turned red by `sourcecheck`
+# after the commit. Never raised, for the same reason nothing else here is.
+_SOURCE_FAULTS = []
+
+# Some pages always fail to parse -- a cancelled event, a malformed listing.
+# It is a fault when most of a run's pages do, over a sample big enough for
+# the ratio to mean anything.
+SOURCE_UNPARSED_RATIO = 0.5
+SOURCE_UNPARSED_MIN = 5
+
+
+def report_parse_health(name, pages, unparsed, detail=""):
+    """Record a fetcher's parse-failure RATE as a health fault.
+
+    Deliberately independent of yield: a source can return a normal-looking
+    count while silently failing to parse most of what it fetched, and it is
+    the ratio -- not the count -- that says a page template changed under us.
+    `pages` is how many were fetched, `unparsed` how many yielded nothing for
+    a reason that is a fault rather than a filter. An event legitimately
+    outside the date window or outside DFW is NOT unparsed; callers must
+    count those separately, which is the whole point.
+    """
+    if pages < SOURCE_UNPARSED_MIN:
+        return                            # too small a sample to mean anything
+    if unparsed < pages * SOURCE_UNPARSED_RATIO:
+        return
+    _SOURCE_FAULTS.append(
+        f"{name}: {unparsed} of {pages} fetched pages did not parse"
+        + (f" ({detail})" if detail else "")
+        + " — the page template probably changed")
+
 
 def _load_source_history() -> list:
     """Recent runs' per-source yields, oldest first.
@@ -4067,9 +4131,14 @@ def _source_baseline(history: list, name: str):
     return statistics.median_low(seen), len(seen)
 
 
-def check_source_health(counts: dict) -> list:
+def check_source_health(counts: dict, faults=None) -> list:
     """Compare this run's per-source yields with a rolling baseline, record
     both, and return the alarms.
+
+    `faults` are parse-health problems already reported by the fetchers (see
+    report_parse_health); they alarm on their own, independently of yield,
+    and default to whatever this run collected. Passing them explicitly is
+    for tests.
 
     Writes rather than raises. A source going dark must not cost the site its
     nightly refresh -- /tonight/ serving yesterday is worse than a feed that
@@ -4079,7 +4148,9 @@ def check_source_health(counts: dict) -> list:
     """
     history = _load_source_history()
 
-    alarms = []
+    # Parse faults first: they name a specific broken thing, where a yield
+    # alarm only says a number moved.
+    alarms = list(_SOURCE_FAULTS if faults is None else faults)
     for name, now in sorted(counts.items()):
         base, runs = _source_baseline(history, name)
         if base is None:
