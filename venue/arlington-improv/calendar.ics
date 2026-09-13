@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chingo-bling|arlington-improv-arlington|7-00-pm-2026-09-12@letsdoitdall
- as.com
-DTSTAMP:20260913T000000Z
-DTSTART:20260913T000000Z
-DTEND:20260913T030000Z
-SUMMARY:Chingo Bling
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=chingo-bling%7Carlington-
- improv-arlington%7C7-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:chingo-bling|arlington-improv-arlington|9-30-pm-2026-09-12@letsdoitdall
- as.com
-DTSTAMP:20260913T023000Z
-DTSTART:20260913T023000Z
-DTEND:20260913T053000Z
-SUMMARY:Chingo Bling
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=chingo-bling%7Carlington-
- improv-arlington%7C9-30-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:chingo-bling|arlington-improv-arlington|7-00-pm-2026-09-13@letsdoitdall
  as.com
 DTSTAMP:20260914T000000Z

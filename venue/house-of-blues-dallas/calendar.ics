@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:club-90s-ariana-grande-night-18-|house-of-blues-dallas-dallas|8-30-pm-2
- 026-09-12@letsdoitdallas.com
-DTSTAMP:20260913T013000Z
-DTSTART:20260913T013000Z
-DTEND:20260913T043000Z
-SUMMARY:Club 90s Ariana Grande Night - 18+
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=club-90s-ariana-grande-ni
- ght-18-%7Chouse-of-blues-dallas-dallas%7C8-30-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:linea-personal-todo-nada|house-of-blues-dallas-dallas|7-00-pm-2026-09-1
  3@letsdoitdallas.com
 DTSTAMP:20260914T000000Z
@@ -216,5 +203,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=akeem-ali-the-texture-tou
  r%7Chouse-of-blues-dallas-dallas%7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:cavetown-running-with-scissors-tour|house-of-blues-dallas-dallas|7-00-p
+ m-2026-10-12@letsdoitdallas.com
+DTSTAMP:20261013T000000Z
+DTSTART:20261013T000000Z
+DTEND:20261013T030000Z
+SUMMARY:Cavetown - Running With Scissors Tour
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=cavetown-running-with-sci
+ ssors-tour%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/house-of-blues-dallas/
 END:VEVENT
 END:VCALENDAR

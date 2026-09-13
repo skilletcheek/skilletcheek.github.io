@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:divorced-dad-rock|three-links-deep-ellum-dallas|11-00-pm-2026-09-12@let
- sdoitdallas.com
-DTSTAMP:20260913T040000Z
-DTSTART:20260913T040000Z
-DTEND:20260913T070000Z
-SUMMARY:Divorced Dad Rock
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=divorced-dad-rock%7Cthree
- -links-deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:songwriter-sunday-with-cameron-matthew-ray-amber-lafrance|the-cedars-da
  llas|doors-see-listing-2026-09-13@letsdoitdallas.com
 DTSTAMP:20260913T000000Z
@@ -283,19 +270,6 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-number-twelve-looks-like-you-kaonashi|three-links-deep-ellum-dallas
- |7-00-pm-2026-09-26@letsdoitdallas.com
-DTSTAMP:20260927T000000Z
-DTSTART:20260927T000000Z
-DTEND:20260927T030000Z
-SUMMARY:The Number Twelve Looks Like You\, Kaonashi
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=the-number-twelve-looks-l
- ike-you-kaonashi%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:droptuned|three-links-deep-ellum-dallas|11-00-pm-2026-09-26@letsdoitdal
  las.com
 DTSTAMP:20260927T040000Z
@@ -437,5 +411,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-08&e=jack-blocker%7Cthree-link
  s-deep-ellum-dallas%7C8-00-am
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-11@letsdoitd
+ allas.com
+DTSTAMP:20261012T040000Z
+DTSTART:20261012T040000Z
+DTEND:20261012T070000Z
+SUMMARY:DJ SNEAK305
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=dj-sneak305%7Cthree-links
+ -deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/free-events/
 END:VEVENT
 END:VCALENDAR

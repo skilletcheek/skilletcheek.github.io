@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:thee-sacred-souls-la-lom-the-womack-sisters|the-pavilion-at-toyota-musi
- c-factory-irving|7-00-pm-2026-09-12@letsdoitdallas.com
-DTSTAMP:20260913T000000Z
-DTSTART:20260913T000000Z
-DTEND:20260913T030000Z
-SUMMARY:Thee Sacred Souls\, LA LOM\, & The Womack Sisters
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=thee-sacred-souls-la-lom-
- the-womack-sisters%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:jill-scott-to-whom-this-may-concern-tour|the-pavilion-at-toyota-music-f
  actory-irving|8-00-pm-2026-09-14@letsdoitdallas.com
 DTSTAMP:20260915T010000Z
@@ -216,5 +203,32 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=chuy-lizarraga-y-julio-pr
  eciado%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
 DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/the-pavilion-at-toyota-music-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:wave-to-earth-the-pieces-tour|the-pavilion-at-toyota-music-factory-irvi
+ ng|8-15-pm-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261012T011500Z
+DTSTART:20261012T011500Z
+DTEND:20261012T041500Z
+SUMMARY:wave to earth - the pieces tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=wave-to-earth-the-pieces-
+ tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-15-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/the-pavilion-at-toyota-music-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:logic-g-eazy-the-endless-summer-tour-part-ii|the-pavilion-at-toyota-mus
+ ic-factory-irving|7-00-pm-2026-10-12@letsdoitdallas.com
+DTSTAMP:20261013T000000Z
+DTSTART:20261013T000000Z
+DTEND:20261013T030000Z
+SUMMARY:Logic & G-Eazy: The Endless Summer Tour Part II
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=logic-g-eazy-the-endless-
+ summer-tour-part-ii%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-00-p
+ m
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/the-pavilion-at-toyota-music-factory/
 END:VEVENT
 END:VCALENDAR

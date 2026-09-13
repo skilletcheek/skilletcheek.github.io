@@ -11,13 +11,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
- e-tx-76051-united-states|8-00-am-2026-09-12@letsdoitdallas.com
-DTSTAMP:20260912T130000Z
-DTSTART:20260912T130000Z
-DTEND:20260912T160000Z
+ e-tx-76051-united-states|8-00-am-2026-09-13@letsdoitdallas.com
+DTSTAMP:20260913T130000Z
+DTSTART:20260913T130000Z
+DTEND:20260913T160000Z
 SUMMARY:Phenomenomaly at Meow Wolf
 LOCATION:Meow Wolf · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=phenomenomaly-at-meow-wol
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=phenomenomaly-at-meow-wol
  f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
  C8-00-am
 DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
@@ -25,49 +25,6 @@ DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
  ctive theater with a rotating lineup of North Texas talent\, the experienc
  e unfolds around guests as they explore\, featuring music\, dance\, comedy
  \, — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:open-play-saturday|grapevine|12-00-pm-2026-09-12@letsdoitdallas.com
-DTSTAMP:20260912T170000Z
-DTSTART:20260912T170000Z
-DTEND:20260912T200000Z
-SUMMARY:Open Play Saturday
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=open-play-saturday%7Cgrap
- evine%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:recording-studio-attended|grapevine|12-00-pm-2026-09-12@letsdoitdallas.
- com
-DTSTAMP:20260912T170000Z
-DTSTART:20260912T170000Z
-DTEND:20260912T200000Z
-SUMMARY:Recording Studio Attended
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=recording-studio-attended
- %7Cgrapevine%7C12-00-pm
-DESCRIPTION:Interested in podcasting or recording music? Come learn how to 
- use the library’s Recording Studio! To reserve and use the Recording Stu
- dio\, you must first complete a mandatory orientation. Orientations are of
- fered on Saturdays from 12 to 4 pm. No registration or appointment neede 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:grapevine-main-live-|peace-plaza-801-s-main-street-grapevine-76051-unit
- ed-states|7-30-pm-2026-09-12@letsdoitdallas.com
-DTSTAMP:20260913T003000Z
-DTSTART:20260913T003000Z
-DTEND:20260913T033000Z
-SUMMARY:Grapevine Main LIVE!
-LOCATION:Peace Plaza · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=grapevine-main-live-%7Cpe
- ace-plaza-801-s-main-street-grapevine-76051-united-states%7C7-30-pm
-DESCRIPTION:Grapevine Main LIVE! is back and bigger than ever with an 8-wee
- k Spring Music Series sure to hit all the right notes! Guests can enjoy fo
- od from eight chef-inspired global kitchens as well as specialty crafted c
- ocktails and performances by some of the best local artists and bands — 
- More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:fiber-arts-studio-18-|grapevine|10-00-am-2026-09-13@letsdoitdallas.com
@@ -430,6 +387,20 @@ DESCRIPTION:Come make a fun card with Kari and learn some cardmaking techni
  ration Required September 16\, 2026 06:00 PM - 07:30 PM Grapevine\, TX 760
  51 https://www.grapevinetexas.gov/Calendar.aspx?EID=17432/6391547321700 
  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:40th-annual-grapefest-a-texas-wine-experience|historic-main-street-grap
+ evine|see-details-2026-09-17@letsdoitdallas.com
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:40th Annual GrapeFest: A Texas Wine Experience
+LOCATION:Historic Main Street · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=40th-annual-grapefest-a-t
+ exas-wine-experience%7Chistoric-main-street-grapevine%7Csee-details
+DESCRIPTION:Raise a glass at GrapeFest &#8211\; A Texas Wine Experience\, t
+ he largest wine festival in the Southwest\, featuring four days of wine ta
+ stings\,... — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:music-and-movement|grapevine|10-30-am-2026-09-17@letsdoitdallas.com
@@ -1121,6 +1092,52 @@ DESCRIPTION:Interested in podcasting or recording music? Come learn how to
  use the library’s Recording Studio! To reserve and use the Recording Stu
  dio\, you must first complete a mandatory orientation. Orientations are of
  fered on Saturdays from 12 to 4 pm. No registration or appointment neede 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:fiber-arts-studio-18-|grapevine|10-00-am-2026-09-27@letsdoitdallas.com
+DTSTAMP:20260927T150000Z
+DTSTART:20260927T150000Z
+DTEND:20260927T180000Z
+SUMMARY:Fiber Arts Studio (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=fiber-arts-studio-18-%7Cg
+ rapevine%7C10-00-am
+DESCRIPTION:Try your hand at Fiber Arts. Experiment with Needle Felting\, D
+ rop Spindle\, Spinning Wheels\, Weaving Looms\, or Knit/Crochet\, or bring
+  your own project to work on. All experience levels are welcome. Open to a
+ dults 18+\, library card in good standing required. September 27\, 2026 10
+ :0 — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-cart|grapevine|10-30-am-2026-09-27@letsdoitdallas.com
+DTSTAMP:20260927T153000Z
+DTSTART:20260927T153000Z
+DTEND:20260927T183000Z
+SUMMARY:Art Cart
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=art-cart%7Cgrapevine%7C10
+ -30-am
+DESCRIPTION:Use your creativity\, critical thinking\, and maker skills to m
+ ake crafts for your friends and family using the art and craft supplies pr
+ ovided on the Art Cart. September 27\, 2026 10:30 AM - 02:30 PM Grapevine\
+ , TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17508/6391695 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:super-smash-bros-monthly-tournament|grapevine|01-00-pm-2026-09-27@letsd
+ oitdallas.com
+DTSTAMP:20260927T180000Z
+DTSTART:20260927T180000Z
+DTEND:20260927T210000Z
+SUMMARY:Super Smash Bros Monthly Tournament
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=super-smash-bros-monthly-
+ tournament%7Cgrapevine%7C01-00-pm
+DESCRIPTION:This Sunday\, join us at the Esports Academy for our monthly Su
+ per Smash Bros tournament! Test your skills against local players for a ch
+ ance to win prizes and earn bragging rights. Participants will be grouped 
+ into age divisions based on the number of entries and their ages\, ensu 
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT

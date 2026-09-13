@@ -1,15 +1,17 @@
 {
- "date": "2026-09-12",
+ "date": "2026-09-13",
  "counts": {
-  "ticketmaster": 568,
+  "ticketmaster": 538,
   "seatgeek": 300,
-  "ics_feeds": 30,
-  "civicplus": 344,
-  "prekindle": 65,
+  "ics_feeds": 28,
+  "civicplus": 336,
+  "prekindle": 63,
   "singles_pages": 4,
   "do214": 0,
-  "dallasites101": 11,
+  "dallasites101": 4,
   "seated": 1
  },
- "alarms": []
+ "alarms": [
+  "dallasites101: 11 -> 4 (below 50% of the previous run)"
+ ]
 }

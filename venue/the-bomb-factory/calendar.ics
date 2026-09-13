@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-midnight-16-and-under-with-parent-or-legal-guardian-|the-bomb-facto
- ry-dallas|8-00-pm-2026-09-12@letsdoitdallas.com
-DTSTAMP:20260913T010000Z
-DTSTART:20260913T010000Z
-DTEND:20260913T040000Z
-SUMMARY:The Midnight (16 and Under with Parent or Legal Guardian)
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=the-midnight-16-and-under
- -with-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/the-bomb-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:julia-wolf-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory
  -dallas|8-00-pm-2026-09-18@letsdoitdallas.com
 DTSTAMP:20260919T010000Z

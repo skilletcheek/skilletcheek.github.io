@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chinese-tea-ceremony-adults-|6861-w-eldorado-parkway-mckinney|06-30-pm-
- 2026-09-12@letsdoitdallas.com
-DTSTAMP:20260912T233000Z
-DTSTART:20260912T233000Z
-DTEND:20260913T023000Z
-SUMMARY:Chinese Tea Ceremony (Adults)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=chinese-tea-ceremony-adul
- ts-%7C6861-w-eldorado-parkway-mckinney%7C06-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:guns-and-hoses-boxing|credit-union-of-texas-event-center-allen|6-30-pm-
- 2026-09-12@letsdoitdallas.com
-DTSTAMP:20260912T233000Z
-DTSTART:20260912T233000Z
-DTEND:20260913T023000Z
-SUMMARY:Guns And Hoses Boxing
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=guns-and-hoses-boxing%7Cc
- redit-union-of-texas-event-center-allen%7C6-30-pm
-DESCRIPTION:Boxing event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-09-14@
  letsdoitdallas.com
 DTSTAMP:20260914T153000Z
@@ -442,6 +417,18 @@ URL:https://letsdoitdallas.com/?date=2026-09-26&e=sonu-nigam%7Ccredit-union
  -of-texas-event-center-allen%7C8-30-pm
 DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:oktoberfest|111-n-tennessee-st-mckinney|12-00-pm-2026-09-27@letsdoitdal
+ las.com
+DTSTAMP:20260927T170000Z
+DTSTART:20260927T170000Z
+DTEND:20260927T200000Z
+SUMMARY:Oktoberfest
+LOCATION:111 N. Tennessee St. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=oktoberfest%7C111-n-tenne
+ ssee-st-mckinney%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
 UID:share-the-arrows-2026|credit-union-of-texas-event-center-allen|9-00-am-

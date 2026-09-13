@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:temples|trees-dallas-dallas|8-00-pm-2026-09-12@letsdoitdallas.com
-DTSTAMP:20260913T010000Z
-DTSTART:20260913T010000Z
-DTEND:20260913T040000Z
-SUMMARY:Temples
-LOCATION:Trees - Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=temples%7Ctrees-dallas-da
- llas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/trees/
-END:VEVENT
-BEGIN:VEVENT
 UID:phora-i-was-there-tour|trees-dallas|doors-see-listing-2026-09-17@letsdo
  itdallas.com
 DTSTAMP:20260917T000000Z
@@ -71,17 +59,16 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
-UID:soulfly-nailbomb-incite|trees-dallas|doors-see-listing-2026-09-23@letsd
- oitdallas.com
-DTSTAMP:20260923T000000Z
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260924
-SUMMARY:SOULFLY * NAILBOMB * INCITE
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=soulfly-nailbomb-incite%7
- Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+UID:soulfly|trees-dallas-dallas|7-00-pm-2026-09-23@letsdoitdallas.com
+DTSTAMP:20260924T000000Z
+DTSTART:20260924T000000Z
+DTEND:20260924T030000Z
+SUMMARY:Soulfly
+LOCATION:Trees - Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=soulfly%7Ctrees-dallas-da
+ llas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
 UID:gothicumbia|trees-dallas|doors-see-listing-2026-09-25@letsdoitdallas.co
@@ -136,16 +123,15 @@ DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT
 BEGIN:VEVENT
-UID:hurricane-wisdom|trees-dallas|doors-see-listing-2026-10-11@letsdoitdall
- as.com
-DTSTAMP:20261011T000000Z
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
-SUMMARY:HURRICANE WISDOM
+UID:hurricane-wisdom|trees-dallas|8-00-pm-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261012T010000Z
+DTSTART:20261012T010000Z
+DTEND:20261012T040000Z
+SUMMARY:Hurricane Wisdom
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-11&e=hurricane-wisdom%7Ctrees-
- dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+ dallas%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/trees/
 END:VEVENT
 END:VCALENDAR

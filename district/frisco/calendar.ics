@@ -10,57 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:paws-in-the-pool-2026|5828-nancy-jane-lane-frisco|08-30-am-2026-09-12@l
- etsdoitdallas.com
-DTSTAMP:20260912T133000Z
-DTSTART:20260912T133000Z
-DTEND:20260912T163000Z
-SUMMARY:Paws in the Pool 2026
-LOCATION:5828 Nancy Jane Lane · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=paws-in-the-pool-2026%7C5
- 828-nancy-jane-lane-frisco%7C08-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:second-saturday-at-heritage|6455-page-street-frisco|10-00-am-2026-09-12
- @letsdoitdallas.com
-DTSTAMP:20260912T150000Z
-DTSTART:20260912T150000Z
-DTEND:20260912T180000Z
-SUMMARY:Second Saturday at Heritage
-LOCATION:6455 Page Street · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=second-saturday-at-herita
- ge%7C6455-page-street-frisco%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:artist-led-workshop-watercolor-and-mindful-self-expression-with-gaurii-
- s-kumaar|6455-page-street-frisco|01-00-pm-2026-09-12@letsdoitdallas.com
-DTSTAMP:20260912T180000Z
-DTSTART:20260912T180000Z
-DTEND:20260912T210000Z
-SUMMARY:Artist-led Workshop: Watercolor and Mindful Self-expression with Ga
- urii S Kumaar
-LOCATION:6455 Page Street · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=artist-led-workshop-water
- color-and-mindful-self-expression-with-gaurii-s-kumaar%7C6455-page-street-
- frisco%7C01-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:fc-dallas-vs-portland-timbers|toyota-stadium-frisco|7-30-pm-2026-09-12@
- letsdoitdallas.com
-DTSTAMP:20260913T003000Z
-DTSTART:20260913T003000Z
-DTEND:20260913T033000Z
-SUMMARY:FC Dallas vs. Portland Timbers
-LOCATION:Toyota Stadium · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=fc-dallas-vs-portland-tim
- bers%7Ctoyota-stadium-frisco%7C7-30-pm
-DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:parks-for-pollinators-what-remains|frisco|07-30-am-2026-09-16@letsdoitd
  allas.com
 DTSTAMP:20260916T123000Z

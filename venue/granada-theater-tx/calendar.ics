@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sleep|granada-theater-tx-dallas|8-00-pm-2026-09-12@letsdoitdallas.com
-DTSTAMP:20260913T010000Z
-DTSTART:20260913T010000Z
-DTEND:20260913T040000Z
-SUMMARY:Sleep
-LOCATION:Granada Theater - TX · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=sleep%7Cgranada-theater-t
- x-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/granada-theater-tx/
-END:VEVENT
-BEGIN:VEVENT
 UID:lily-rose|granada-theater-tx-dallas|8-00-pm-2026-09-19@letsdoitdallas.c
  om
 DTSTAMP:20260920T010000Z

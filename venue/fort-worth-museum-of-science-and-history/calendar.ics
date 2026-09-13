@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fort Worth Museum of Science and History — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Fort Worth Museum of Science and History.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|12-00-pm-2026-09-13@letsdoitdallas.com
+DTSTAMP:20260913T170000Z
+DTSTART:20260913T170000Z
+DTEND:20260913T200000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-09-13&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C12-00-pm
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/venue/fort-worth-museum-of-s
+ cience-and-history/
+END:VEVENT
+BEGIN:VEVENT
+UID:member-morning|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|9-00-am-2026-09-15@letsdoitdallas.com
+DTSTAMP:20260915T140000Z
+DTSTART:20260915T140000Z
+DTEND:20260915T170000Z
+SUMMARY:Member Morning
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=member-morning%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C9-00-am
+DESCRIPTION:Member Morning  September 15 | 9:00 am – 10:00 am    Museum
+  Members get early entry to the TCU Children’s Gallery every Tuesday fro
+ m 9AM-10AM!  Early entry only applies to the TCU Children’s Gallery\, th
+ e rest of the Museum opens at 10AM.  Not a Member yet? Click here to join
+ ! — More: https://letsdoitdallas.com/venue/fort-worth-museum-of-science-
+ and-history/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-09-15@letsdoitdallas.com
+DTSTAMP:20260915T150000Z
+DTSTART:20260915T150000Z
+DTEND:20260915T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/venue/fort-worth-museum-of-s
+ cience-and-history/
+END:VEVENT
+END:VCALENDAR

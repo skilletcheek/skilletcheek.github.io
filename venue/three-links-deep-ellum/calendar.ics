@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-holdup-lot-49-dylan-reese|three-links-deep-ellum-dallas|7-00-pm-202
- 6-09-12@letsdoitdallas.com
-DTSTAMP:20260913T000000Z
-DTSTART:20260913T000000Z
-DTEND:20260913T030000Z
-SUMMARY:The Holdup\, Lot 49\, Dylan Reese
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=the-holdup-lot-49-dylan-r
- eese%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Reggae event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:divorced-dad-rock|three-links-deep-ellum-dallas|11-00-pm-2026-09-12@let
- sdoitdallas.com
-DTSTAMP:20260913T040000Z
-DTSTART:20260913T040000Z
-DTEND:20260913T070000Z
-SUMMARY:Divorced Dad Rock
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=divorced-dad-rock%7Cthree
- -links-deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:total-void-until-indigo-halfwit-starslight|three-links-deep-ellum-dalla
  s|7-00-pm-2026-09-13@letsdoitdallas.com
 DTSTAMP:20260914T000000Z
@@ -296,15 +270,17 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-number-twelve-looks-like-you-kaonashi|three-links-deep-ellum-dallas
- |7-00-pm-2026-09-26@letsdoitdallas.com
+UID:the-number-twelve-looks-like-you-kaonashi-hoping-all-theories-exist|thr
+ ee-links-deep-ellum-dallas|7-00-pm-2026-09-26@letsdoitdallas.com
 DTSTAMP:20260927T000000Z
 DTSTART:20260927T000000Z
 DTEND:20260927T030000Z
-SUMMARY:The Number Twelve Looks Like You\, Kaonashi
+SUMMARY:The Number Twelve Looks Like You\, Kaonashi\, Hoping All Theories E
+ xist
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-09-26&e=the-number-twelve-looks-l
- ike-you-kaonashi%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+ ike-you-kaonashi-hoping-all-theories-exist%7Cthree-links-deep-ellum-dallas
+ %7C7-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
 END:VEVENT
@@ -489,5 +465,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=greywind-waiting-4-april-
  rain-division-rodeo%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-11@letsdoitd
+ allas.com
+DTSTAMP:20261012T040000Z
+DTSTART:20261012T040000Z
+DTEND:20261012T070000Z
+SUMMARY:DJ SNEAK305
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=dj-sneak305%7Cthree-links
+ -deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:when-chai-met-toast|club-dada-dallas|8-00-pm-2026-09-12@letsdoitdallas.
- com
-DTSTAMP:20260913T010000Z
-DTSTART:20260913T010000Z
-DTEND:20260913T040000Z
-SUMMARY:When Chai Met Toast
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=when-chai-met-toast%7Cclu
- b-dada-dallas%7C8-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/club-dada/
-END:VEVENT
-BEGIN:VEVENT
 UID:king-mala-|-the-golden-thing-tour|club-dada-dallas|8-00-pm-2026-09-18@l
  etsdoitdallas.com
 DTSTAMP:20260919T010000Z
@@ -46,5 +33,18 @@ URL:https://letsdoitdallas.com/?date=2026-09-25&e=fetty-p-franklin-live-in-
  dallas%7Cclub-dada-dallas%7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/club-dada/
+END:VEVENT
+BEGIN:VEVENT
+UID:arrows-in-action-w-good-boy-daisy|club-dada-dallas|6-30-pm-2026-10-12@l
+ etsdoitdallas.com
+DTSTAMP:20261012T233000Z
+DTSTART:20261012T233000Z
+DTEND:20261013T023000Z
+SUMMARY:Arrows In Action w/ Good Boy Daisy
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=arrows-in-action-w-good-b
+ oy-daisy%7Cclub-dada-dallas%7C6-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/club-dada/
 END:VEVENT
 END:VCALENDAR

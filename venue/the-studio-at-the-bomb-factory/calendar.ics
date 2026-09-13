@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:uncle-acid-and-the-deadbeats-16-and-under-with-parent-or-legal-guardian
- -|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-09-12@letsdoitdallas.
- com
-DTSTAMP:20260913T010000Z
-DTSTART:20260913T010000Z
-DTEND:20260913T040000Z
-SUMMARY:Uncle Acid and The Deadbeats (16 and Under with Parent or Legal Gua
- rdian)
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=uncle-acid-and-the-deadbe
- ats-16-and-under-with-parent-or-legal-guardian-%7Cthe-studio-at-the-bomb-f
- actory-dallas%7C8-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-studio-at-the-bomb-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:pond-16-and-under-with-parent-or-legal-guardian-|the-studio-at-the-bomb
  -factory-dallas|8-00-pm-2026-09-18@letsdoitdallas.com
 DTSTAMP:20260919T010000Z
@@ -154,6 +138,19 @@ LOCATION:The Studio at the Bomb Factory · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-11&e=plini-16-and-under-with-p
  arent-or-legal-guardian-%7Cthe-studio-at-the-bomb-factory-dallas%7C7-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/the-studio-at-the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:chad-gray-w-butcher-babies|the-studio-at-the-bomb-factory-dallas|7-00-p
+ m-2026-10-12@letsdoitdallas.com
+DTSTAMP:20261013T000000Z
+DTSTART:20261013T000000Z
+DTEND:20261013T030000Z
+SUMMARY:Chad Gray w/ Butcher Babies
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=chad-gray-w-butcher-babie
+ s%7Cthe-studio-at-the-bomb-factory-dallas%7C7-00-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/the-studio-at-the-bomb-factory/
 END:VEVENT
 END:VCALENDAR

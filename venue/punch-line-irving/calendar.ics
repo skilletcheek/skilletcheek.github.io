@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:liza-treyger|punch-line-irving-irving|7-00-pm-2026-09-12@letsdoitdallas
- .com
-DTSTAMP:20260913T000000Z
-DTSTART:20260913T000000Z
-DTEND:20260913T030000Z
-SUMMARY:Liza Treyger
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=liza-treyger%7Cpunch-line
- -irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:liza-treyger|punch-line-irving-irving|9-15-pm-2026-09-12@letsdoitdallas
- .com
-DTSTAMP:20260913T021500Z
-DTSTART:20260913T021500Z
-DTEND:20260913T051500Z
-SUMMARY:Liza Treyger
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-12&e=liza-treyger%7Cpunch-line
- -irving-irving%7C9-15-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:splou|punch-line-irving-irving|7-00-pm-2026-09-13@letsdoitdallas.com
 DTSTAMP:20260914T000000Z
 DTSTART:20260914T000000Z
