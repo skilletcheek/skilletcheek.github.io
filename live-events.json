@@ -1,17 +1,5 @@
 [
  {
-  "name": "Ain't Too Proud: The Life and Times of The Temptations - Fort Worth",
-  "category": "arts",
-  "area": "Casa Manana, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-09-13",
-  "time": "2:00 PM",
-  "cost": null,
-  "description": "broadway event via SeatGeek.",
-  "url": "https://seatgeek.com/ain-t-too-proud-the-life-and-times-of-the-temptations-tickets/broadway/2026-09-13-2-pm/18352466",
-  "image": null
- },
- {
   "name": "Angel Street (Gaslight) presented by Garland Civic Theatre",
   "category": "arts",
   "area": "300 N Fifth Street, Garland",
@@ -132,18 +120,6 @@
   "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Dallas Symphony Orchestra Presents The Music of Elvis with Frankie Moreno",
-  "category": "music",
-  "area": "Morton Meyerson Symphony Center, Dallas",
-  "city": "Dallas",
-  "date": "2026-09-13",
-  "time": "2:00 PM",
-  "cost": null,
-  "description": "Classical event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J8ov",
-  "image": "https://s1.ticketm.net/dam/a/995/a21cb909-11d7-4275-be7a-cde4a13ac995_1460271_RETINA_LANDSCAPE_16_9.jpg"
- },
- {
   "name": "Dallas VS New York",
   "category": "sports",
   "area": "Texas Live!, 1650 East Randol Mill Road, Arlington, 76011, United States",
@@ -180,18 +156,6 @@
   "image": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_RETINA_PORTRAIT_16_9.jpg"
  },
  {
-  "name": "Fiber Arts Studio (18+)",
-  "category": "arts",
-  "area": "Grapevine",
-  "city": "Grapevine",
-  "date": "2026-09-13",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "Try your hand at Fiber Arts. Experiment with Needle Felting, Drop Spindle, Spinning Wheels, Weaving Looms, or Knit/Crochet, or bring your own project to work on. All experience levels are welcome. Open to adults 18+, library card in good standing required. September 13, 2026 10:0",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16973",
-  "image": null
- },
- {
   "name": "Forces at Play",
   "category": "arts",
   "area": "Fort Worth Museum of Science and History, 1600 Gendy Street, Fort Worth, 76107, United States",
@@ -204,15 +168,15 @@
   "image": null
  },
  {
-  "name": "Fort Worth Symphony Orchestra - Beethoven's Fifth",
-  "category": "arts",
-  "area": "Bass Performance Hall, Fort Worth",
-  "city": "Fort Worth",
+  "name": "Frankie Moreno",
+  "category": "music",
+  "area": "Morton Meyerson Symphony Center, Dallas",
+  "city": "Dallas",
   "date": "2026-09-13",
   "time": "2:00 PM",
   "cost": null,
-  "description": "classical event via SeatGeek.",
-  "url": "https://seatgeek.com/fort-worth-symphony-orchestra-tickets/classical/2026-09-13-2-pm/18302097",
+  "description": "concert event via SeatGeek.",
+  "url": "https://seatgeek.com/frankie-moreno-tickets/dallas-texas-morton-meyerson-symphony-center-2026-09-13-2-pm/concert/18373458",
   "image": null
  },
  {
@@ -427,23 +391,23 @@
   "area": "Cowtown Coliseum, Fort Worth",
   "city": "Fort Worth",
   "date": "2026-09-13",
-  "time": "1:30 PM",
-  "cost": null,
-  "description": "Live event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OZ_7",
-  "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Spirit of Mexico Rodeo",
-  "category": "festival",
-  "area": "Cowtown Coliseum, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-09-13",
   "time": "6:00 PM",
   "cost": null,
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OZ_d",
   "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Spirit of Mexico Rodeo",
+  "category": "sports",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-09-13",
+  "time": "1:30 PM",
+  "cost": null,
+  "description": "rodeo event via SeatGeek.",
+  "url": "https://seatgeek.com/spirit-of-mexico-rodeo-tickets/rodeo/2026-09-13-1-30-pm/18215692",
+  "image": null
  },
  {
   "name": "Splou",
@@ -1744,6 +1708,18 @@
   "image": null
  },
  {
+  "name": "Forces at Play",
+  "category": "arts",
+  "area": "Fort Worth Museum of Science and History, 1600 Gendy Street, Fort Worth, 76107, United States",
+  "city": "Fort Worth",
+  "date": "2026-09-16",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "April 25, 2026 – February 28, 2027    Forces at Play is an interactive exhibit that explores the science behind some of the world’s most beloved sports. Through hands-on activities and historical collections, visitors discover how forces like gravity, friction, and momentum impac",
+  "url": "https://whatsupfortworth.com/event/forces-at-play-169/2026-09-16/",
+  "image": null
+ },
+ {
   "name": "Gentle Yoga (Ages 18+)",
   "category": "sports",
   "area": "Central Library, Garland",
@@ -1945,6 +1921,18 @@
   "cost": null,
   "description": "11:00 a.m.; Preschool Discovery is designed for ages 3 to 5-year-olds and their caregivers. Enjoy books, songs, exploring colors, letters, numbers, and much more that will help develop your preschooler's early literacy skills. September 16, 2026 11:00 AM - 12:00 PM 4845 Broadway ",
   "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13089",
+  "image": null
+ },
+ {
+  "name": "Puzzling Adventures Scavenger Hunt",
+  "category": "festival",
+  "area": "Puzzling Adventures Start & Finish Location, 400 Jones St, Fort Worth, 76102, United States",
+  "city": "Fort Worth",
+  "date": "2026-09-16",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "Consistently rated the best local scavenger hunt since 2016!  Puzzling Adventures are a cross between a scavenger hunt, an adventure race, and an informative self-guided walking tour. Each adventure consists of a series of locations that you are guided to where you are required t",
+  "url": "https://whatsupfortworth.com/event/puzzling-adventures-scavenger-hunt/2026-09-16/",
   "image": null
  },
  {
@@ -7239,6 +7227,30 @@
   "cost": null,
   "description": "stadium tours event via SeatGeek.",
   "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-09-25-12-pm/18374285",
+  "image": null
+ },
+ {
+  "name": "AT&T Stadium VIP Guided Tour",
+  "category": "sports",
+  "area": "AT&T Stadium, Arlington",
+  "city": "Arlington",
+  "date": "2026-09-25",
+  "time": "2:00 PM",
+  "cost": null,
+  "description": "stadium tours event via SeatGeek.",
+  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-09-25-2-pm/18374290",
+  "image": null
+ },
+ {
+  "name": "AT&T Stadium VIP Guided Tour",
+  "category": "sports",
+  "area": "AT&T Stadium, Arlington",
+  "city": "Arlington",
+  "date": "2026-09-25",
+  "time": "4:00 PM",
+  "cost": null,
+  "description": "stadium tours event via SeatGeek.",
+  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-09-25-4-pm/18374286",
   "image": null
  },
  {

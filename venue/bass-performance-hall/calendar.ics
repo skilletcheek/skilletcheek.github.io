@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fort-worth-symphony-orchestra-beethoven-s-fifth|bass-performance-hall-f
- ort-worth|2-00-pm-2026-09-13@letsdoitdallas.com
-DTSTAMP:20260913T190000Z
-DTSTART:20260913T190000Z
-DTEND:20260913T220000Z
-SUMMARY:Fort Worth Symphony Orchestra - Beethoven's Fifth
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=fort-worth-symphony-orche
- stra-beethoven-s-fifth%7Cbass-performance-hall-fort-worth%7C2-00-pm
-DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
- com/venue/bass-performance-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:bluey-s-big-play-the-stage-show|bass-performance-hall-fort-worth|10-30-
  am-2026-09-19@letsdoitdallas.com
 DTSTAMP:20260919T153000Z
