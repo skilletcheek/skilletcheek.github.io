@@ -797,6 +797,31 @@ const LISTING_HOSTS = [
   "facebook.com", "instagram.com", "allevents.in", "do214.com",
   "dallasites101.com", "whatsupfortworth.com",
 ];
+/* Mirrors _is_real_venue() + _PLACE_WORDS in fetch_events.py, for the one job
+   this layer needs it for: deciding whether splitArea()'s venue can stand in as
+   the schema.org organizer. Every curated row in data.js has a neighbourhood or
+   city for `area` ("East Dallas", "Oak Cliff, Dallas"), and naming that as an
+   Organization is false. Python additionally drops touring shows (_NOT_VENUES),
+   which never reach the homepage as curated rows. */
+const _STREET_SHAPED = /^\d{1,6}(?:\s*-\s*\d{1,6})?\s+.*\b(st|street|ave|avenue|blvd|boulevard|rd|road|dr|drive|pkwy|parkway|ln|lane|way|ct|court|hwy|highway|pl|place|ter|terrace|cir|circle|trl|trail|expy|expressway)\.?$/i;
+const _PLACE_WORDS = new Set([
+  ...[...DFW_CITIES, ...Object.keys(DISTRICT_CITY), ...DISTRICTS.flatMap((d) => d.match)]
+    .flatMap((n) => n.toLowerCase().match(/[a-z]+/g) || []),
+  "the", "near", "downtown", "uptown", "midtown", "north", "south", "east",
+  "west", "northeast", "northwest", "southeast", "southwest", "central",
+  "cultural", "district", "cedars", "lakewood", "texas", "tx", "dfw", "metroplex",
+]);
+function isPlaceWords(name) {
+  const words = String(name || "").toLowerCase().match(/[a-z]+/g) || [];
+  return words.length > 0 && words.every((w) => _PLACE_WORDS.has(w));
+}
+function isRealVenue(name) {
+  const n = String(name || "").trim().toLowerCase();
+  if (!n || DFW_CITIES.has(n) || _STREET_SHAPED.test(n)) return false;
+  if (DISTRICTS.some((d) => d.match.includes(n))) return false;
+  return !isPlaceWords(n);
+}
+
 function organizerUrl(eventUrl) {
   try {
     const u = new URL(eventUrl);
@@ -849,7 +874,7 @@ function updateSeo(list) {
     // from fields the card already shows, for sources that ship no description.
     let place = venue || (a.area || "").trim();
     if (city && place && !place.toLowerCase().includes(city.toLowerCase())) place = `${place}, ${city}`;
-    const orgName = a.sponsor || venue;
+    const orgName = a.sponsor || (isRealVenue(venue) ? venue : undefined);
     const orgUrl = orgName ? organizerUrl(a.url) : undefined;
     return {
       "@type": "Event",

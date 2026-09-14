@@ -1,5 +1,5 @@
 {
- "_readme": "ics_feeds: any public iCal/ICS calendar feed (venue, city, church, library — look for a 'Subscribe/Export .ics' link); events land in live-events.json nightly. category must be one of: music, food, arts, outdoors, sports, family, market, nightlife, festival — but it is only a FALLBACK now: if the feed ships a CATEGORIES line per event (any site running The Events Calendar does), ics_category() in fetch_events.py maps that per-event instead. Best sniff test for a WordPress calendar is <site>/events/?ical=1; if that 404s, try /wp-json/tribe/events/v1/events. Check the response content-type is text/calendar — several DFW sites answer 200 with an HTML page, and some (dallasfarmersmarket.org) serve real ICS but rate-limit hard behind Wordfence, so a feed that works once can 403 for the rest of the day. prekindle_pages: local venues that sell through Prekindle — their public listing page (prekindle.com/events/<slug>) embeds schema.org JSON-LD we parse nightly; to add a venue, find its slug on prekindle.com and add {slug, venue, area}. eventbrite_locations: Eventbrite city discovery pages (eventbrite.com/d/<slug>/all-events/), whose HTML embeds a schema.org ItemList of Events — their public search API was retired, so this is the only key-free route. 20 events per page; \"pages\" controls how deep to walk each city. Add a city as {slug, pages} using Eventbrite's own slug format (tx--city-name). seated_artists: artists who sell direct through seated.com — its API is keyed by ARTIST, not city, so we walk this watchlist and keep only their DFW-area dates. To add one: open the artist's tour page, view source, copy the UUID from data-artist-id=\"...\", and add {artist, id, category}. Best used for artists who are NOT on Ticketmaster; anything that is on TM will already arrive there and get deduped away. rss_feeds: DFW publication article feeds shown in the site's press wire (headlines, not event rows). CultureMap Dallas and Visit Dallas publish no machine-readable feeds as of 2026-07; their events can arrive via the Google Sheet or any ICS they add later. civicplus_sites: DFW city calendars on the CivicPlus platform. Every one publishes the same RSS at /RSSFeed.aspx?ModID=58&CID=All-calendar.xml, so adding a city is one {site, city} line — check the city's site for 'civicplus' in its HTML first. The event date is NOT the RSS pubDate (that is when the listing was published); it is inside the <description> on a fixed template, which fetch_civicplus() parses. These feeds run a rolling ~14 days only. civicplus_skip drops municipal governance by title substring; civicplus_categories infers our category from the title, first match wins so order matters.",
+ "_readme": "ics_feeds: any public iCal/ICS calendar feed (venue, city, church, library — look for a 'Subscribe/Export .ics' link); events land in live-events.json nightly. category must be one of: music, food, arts, outdoors, sports, family, market, nightlife, festival — but it is only a FALLBACK now: if the feed ships a CATEGORIES line per event (any site running The Events Calendar does), ics_category() in fetch_events.py maps that per-event instead. Best sniff test for a WordPress calendar is <site>/events/?ical=1; if that 404s, try /wp-json/tribe/events/v1/events. Check the response content-type is text/calendar — several DFW sites answer 200 with an HTML page, and some (dallasfarmersmarket.org) serve real ICS but rate-limit hard behind Wordfence, so a feed that works once can 403 for the rest of the day. prekindle_pages: local venues that sell through Prekindle — their public listing page (prekindle.com/events/<slug>) embeds schema.org JSON-LD we parse nightly; to add a venue, find its slug on prekindle.com and add {slug, venue, area}. area MUST start with the venue name (\"Venue, Neighborhood, City\" or \"Venue, City\"): it is the only location the rows carry, and a bare neighborhood there became the venue page, the dedupe venue and the schema.org organizer name all at once (\"Oak Cliff\" for The Kessler, \"The Cedars\" for Poor David's, until 2026-09-14). eventbrite_locations: Eventbrite city discovery pages (eventbrite.com/d/<slug>/all-events/), whose HTML embeds a schema.org ItemList of Events — their public search API was retired, so this is the only key-free route. 20 events per page; \"pages\" controls how deep to walk each city. Add a city as {slug, pages} using Eventbrite's own slug format (tx--city-name). seated_artists: artists who sell direct through seated.com — its API is keyed by ARTIST, not city, so we walk this watchlist and keep only their DFW-area dates. To add one: open the artist's tour page, view source, copy the UUID from data-artist-id=\"...\", and add {artist, id, category}. Best used for artists who are NOT on Ticketmaster; anything that is on TM will already arrive there and get deduped away. rss_feeds: DFW publication article feeds shown in the site's press wire (headlines, not event rows). CultureMap Dallas and Visit Dallas publish no machine-readable feeds as of 2026-07; their events can arrive via the Google Sheet or any ICS they add later. civicplus_sites: DFW city calendars on the CivicPlus platform. Every one publishes the same RSS at /RSSFeed.aspx?ModID=58&CID=All-calendar.xml, so adding a city is one {site, city} line — check the city's site for 'civicplus' in its HTML first. The event date is NOT the RSS pubDate (that is when the listing was published); it is inside the <description> on a fixed template, which fetch_civicplus() parses. These feeds run a rolling ~14 days only. civicplus_skip drops municipal governance by title substring; civicplus_categories infers our category from the title, first match wins so order matters.",
  "ics_feeds": [
   {
    "url": "https://whatsupfortworth.com/events/?ical=1",
@@ -20,27 +20,27 @@
   {
    "url": "https://www.prekindle.com/organizer-grid-widget-main/id/22562449555234986/?fp=false&thumbs=false&style=null",
    "venue": "Granada Theater",
-   "area": "Lower Greenville"
+   "area": "Granada Theater, Lower Greenville, Dallas"
   },
   {
    "url": "https://www.prekindle.com/organizer-grid-widget-main/id/24898848614692498/?fp=false&thumbs=false&style=null",
    "venue": "Sundown at Granada",
-   "area": "Lower Greenville"
+   "area": "Sundown at Granada, Lower Greenville, Dallas"
   },
   {
    "url": "https://www.prekindle.com/kessler/",
    "venue": "The Kessler Theater",
-   "area": "Oak Cliff"
+   "area": "The Kessler Theater, Oak Cliff, Dallas"
   },
   {
    "url": "https://www.prekindle.com/events/poordavidspub",
    "venue": "Poor David's Pub",
-   "area": "The Cedars, Dallas"
+   "area": "Poor David's Pub, Dallas"
   },
   {
    "url": "https://www.prekindle.com/events/threelinks",
    "venue": "Three Links",
-   "area": "Deep Ellum"
+   "area": "Three Links Deep Ellum, Dallas"
   },
   {
    "url": "https://www.prekindle.com/events/trees",

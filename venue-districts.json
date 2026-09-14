@@ -35,7 +35,7 @@
     "downtown-dallas for now:",
     "  Fair Park  - music hall at fair park, club 909 ..., dos equis pavilion,",
     "               riverfront jazz fest at fair park",
-    "  The Cedars - south side ballroom, gilleys dallas, the cedars,",
+    "  The Cedars - south side ballroom, gilleys dallas, the cedars, poor davids pub,",
     "               longhorn ballroom and backyard amphitheater",
     "Split them out here first if either district is ever added."
   ],
@@ -52,6 +52,7 @@
     "south side ballroom": "downtown-dallas",
     "gilleys dallas": "downtown-dallas",
     "the cedars": "downtown-dallas",
+    "poor davids pub": "downtown-dallas",
     "longhorn ballroom and backyard amphitheater": "downtown-dallas",
 
     "morton meyerson symphony center": "arts-district",
@@ -69,6 +70,8 @@
     "am fm diner and lounge": "design-district",
 
     "granada theater": "lower-greenville",
+    "the kessler": "bishop-arts",
+    "the kessler theater": "bishop-arts",
     "the hills dallas": "lower-greenville"
   }
 }

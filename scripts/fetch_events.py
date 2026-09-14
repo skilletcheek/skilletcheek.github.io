@@ -1657,7 +1657,11 @@ def _jsonld(events):
                 "image": [e.get("image") or f"{SITE}/og-image.png"],
                 "url": url,
                 "performer": {"@type": "PerformingGroup", "name": e["name"]}}
-        if venue:
+        # The organizer is approximated by the venue, so it needs a real one.
+        # A street, a bare city or a neighbourhood is a location, and naming it
+        # as an Organization ("1700 Veterans Memorial Parkway", "Oak Cliff") is
+        # false; omitting the field is only a Search Console warning.
+        if venue and _is_real_venue(venue):
             item["organizer"] = {"@type": "Organization", "name": venue}
             org_url = _organizer_url(e.get("url"), venue)
             if org_url:
@@ -1864,6 +1868,14 @@ def _is_real_venue(name: str) -> bool:
     Matched on shape (house number + a street-type word) rather than on a
     leading digit, because real venues do start with numbers: "3015 at Trinity
     Groves", "24 Hour Fitness".
+
+    A name built ENTIRELY from place words is rejected last. The exact checks
+    above miss every neighbourhood that isn't a district term: "The Cedars"
+    (Prekindle's area for Poor David's Pub) cleared them and built
+    /venue/the-cedars/, and named itself as the schema.org organizer of 13
+    shows. Word-level, so "Fort Worth Cultural District" and "Uptown Dallas"
+    fall too, while any real room survives on its one non-place word --
+    "Arlington Music Hall", "Three Links Deep Ellum", "Central Library".
     """
     n = (name or "").strip().lower()
     if not n or any(bad in n for bad in _NOT_VENUES):
@@ -1872,7 +1884,28 @@ def _is_real_venue(name: str) -> bool:
         return False
     if _STREET_SHAPED.match(n):
         return False
-    return not any(n == m for _slug, _label, match in DISTRICTS for m in match)
+    if any(n == m for _slug, _label, match in DISTRICTS for m in match):
+        return False
+    return not _is_place_words(n)
+
+
+# Words that name WHERE, never WHAT. Cities, districts and the neighbourhood map
+# are read in, so a new DISTRICTS entry extends this without an edit; the tail
+# is the directional/generic vocabulary area labels are built from.
+_PLACE_WORDS = frozenset(
+    w for n in [*DFW_CITIES, *DISTRICT_CITY, *(m for _s, _l, ms in DISTRICTS for m in ms)]
+    for w in re.findall(r"[a-z]+", n)
+) | {"the", "near", "downtown", "uptown", "midtown", "north", "south", "east",
+     "west", "northeast", "northwest", "southeast", "southwest", "central",
+     "cultural", "district", "cedars", "lakewood", "texas", "tx", "dfw",
+     "metroplex"}
+
+
+def _is_place_words(name: str) -> bool:
+    """True when every word of `name` is a place word: "West Dallas",
+    "The Cedars", "Dallas–Fort Worth". Mirrored as isPlaceWords() in js/app.js."""
+    words = re.findall(r"[a-z]+", (name or "").lower())
+    return bool(words) and all(w in _PLACE_WORDS for w in words)
 
 
 # slug -> {name, city, district, count}. Superset of _VENUE_PAGES, filled by the

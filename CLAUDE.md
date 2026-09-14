@@ -909,7 +909,20 @@ flagged missing on every item (2026-09-14). The event URL's origin is used
 **only when the host is not a ticket marketplace or aggregator** — "Granada
 Theater, url: seatgeek.com" is false, which is why the field was dropped on
 2026-07-21. Python then falls back to the venue's own `/venue/` page; JS can't
-see `_VENUE_PAGES` and omits the field instead. **Adding a source on a new
+see `_VENUE_PAGES` and omits the field instead. The organizer *name* is the
+venue from `_split_area()`, and it is only emitted when `_is_real_venue()` /
+`isRealVenue()` passes — a street, a bare city or a neighborhood is a location,
+not an Organization. That check now also rejects names made **entirely of place
+words** (`_PLACE_WORDS` / `isPlaceWords()`, built from `DFW_CITIES`,
+`DISTRICT_CITY` and the `DISTRICTS` terms): "The Cedars", "West Dallas",
+"Fort Worth Cultural District". Until 2026-09-14 Prekindle rows carried a bare
+neighborhood as `area` ("Oak Cliff" for The Kessler, "The Cedars" for Poor
+David's), which named the neighborhood as organizer, built
+`/venue/the-cedars/`, and kept the same show from deduping against its
+Ticketmaster listing. **A `prekindle_pages` `area` must start with the venue
+name.** The two layers agreed on all 172 venue names in the feed and `data.js`
+that day — rerun that comparison in the browser preview after touching either
+list. **Adding a source on a new
 marketplace or re-lister means adding its host to both lists.** Rows with no
 source description get a factual "`<name>` at `<venue>, <city>`." line
 (`_jsonld_description()`, mirrored inline in `updateSeo()`). Missing `price` is
