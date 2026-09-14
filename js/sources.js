@@ -30,6 +30,10 @@ function _normalize(e) {
     source: e.source || "local",
     sponsor: e.sponsor || null,
     image: e.image || null,          // optional artwork (duotone-treated in CSS)
+    // {name, url} of the host when the source knows it (city calendars). Read
+    // only by updateSeo() in app.js; mirrors `organizer` from row() in
+    // scripts/fetch_events.py, which writes it only when set.
+    organizer: (e.organizer && e.organizer.name) ? e.organizer : null,
   };
 }
 
@@ -258,6 +262,7 @@ function _fromRows(rows, date, source) {
       source,
       sponsor: r.sponsor || null,
       image: r.image || null,
+      organizer: r.organizer || null,
     }));
 }
 

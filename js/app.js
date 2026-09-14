@@ -874,8 +874,14 @@ function updateSeo(list) {
     // from fields the card already shows, for sources that ship no description.
     let place = venue || (a.area || "").trim();
     if (city && place && !place.toLowerCase().includes(city.toLowerCase())) place = `${place}, ${city}`;
-    const orgName = a.sponsor || (isRealVenue(venue) ? venue : undefined);
-    const orgUrl = orgName ? organizerUrl(a.url) : undefined;
+    // Precedence mirrors _jsonld(), which never sees sponsor rows: a sponsor,
+    // then a host the SOURCE named (a city calendar's city), then the venue
+    // when it really is one.
+    const srcOrg = !a.sponsor && a.organizer && a.organizer.name ? a.organizer : null;
+    const orgName = a.sponsor || (srcOrg ? srcOrg.name : (isRealVenue(venue) ? venue : undefined));
+    const orgUrl = srcOrg
+      ? (/^https?:\/\//.test(srcOrg.url || "") ? srcOrg.url : undefined)
+      : (orgName ? organizerUrl(a.url) : undefined);
     return {
       "@type": "Event",
       name: a.name,

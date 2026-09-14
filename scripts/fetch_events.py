@@ -191,12 +191,12 @@ def pretty_time(hhmm: str) -> str:
     return f"{h}:{mi} {ap}"
 
 
-def row(name, category, area, date, time, cost, desc, url, image=None):
+def row(name, category, area, date, time, cost, desc, url, image=None, organizer=None):
     # city is derived from the CAPPED area, not the raw one, so the stored
     # field always matches what cityOf() in js/app.js computes from the same
     # stored string.
     area = (area or "Dallas–Fort Worth").strip()[:160]
-    return {
+    out = {
         "name": (name or "").strip()[:140],
         "category": category or "festival",
         # 80 used to cut this before _split_area() ever saw a city: a real ICS
@@ -221,6 +221,13 @@ def row(name, category, area, date, time, cost, desc, url, image=None):
         "url": url or "#",
         "image": image,
     }
+    # {name, url} of whoever actually hosts the event, when the SOURCE knows it
+    # (a city calendar is published by the city). Only written when set, so the
+    # ~700 rows without one don't add bytes to a file every visitor downloads.
+    # _jsonld() and updateSeo() in js/app.js prefer it over the venue guess.
+    if organizer:
+        out["organizer"] = organizer
+    return out
 
 
 # ---------------------------------------------------------------- Ticketmaster
@@ -619,6 +626,15 @@ def fetch_civicplus(start, end):
         url = site.get("url") or (base + CIVICPLUS_PATH if base else None)
         if not url:
             continue
+        # The city that PUBLISHES the calendar hosts what is on it -- library
+        # branches and parks are its departments -- so it is the schema.org
+        # organizer, not the room ("North Garland Library" stays the location)
+        # and not the event's own city: Cedar Hill's calendar lists a fair at a
+        # Lancaster address that Cedar Hill still runs. `organizer` in
+        # feeds.json overrides the name for a "Town of" suburb.
+        org = ({"name": site.get("organizer") or f"City of {site['city']}",
+                "url": f"{base}/"}
+               if site.get("city") and base else None)
         try:
             xml = http_text(url)
         except Exception as e:  # noqa: BLE001
@@ -674,6 +690,7 @@ def fetch_civicplus(start, end):
                 site.get("cost"),
                 _cp_text(body.group(1)) if body else "",
                 _CP_LINK.search(item).group(1).strip() if _CP_LINK.search(item) else base,
+                organizer=org,
             ))
             kept += 1
         # Reported separately on purpose. One combined "filtered" count is
@@ -1661,7 +1678,13 @@ def _jsonld(events):
         # A street, a bare city or a neighbourhood is a location, and naming it
         # as an Organization ("1700 Veterans Memorial Parkway", "Oak Cliff") is
         # false; omitting the field is only a Search Console warning.
-        if venue and _is_real_venue(venue):
+        src_org = e.get("organizer") or {}
+        if src_org.get("name"):
+            # The source named the host outright; that beats any venue guess.
+            item["organizer"] = {"@type": "Organization", "name": src_org["name"]}
+            if str(src_org.get("url") or "").startswith(("http://", "https://")):
+                item["organizer"]["url"] = src_org["url"]
+        elif venue and _is_real_venue(venue):
             item["organizer"] = {"@type": "Organization", "name": venue}
             org_url = _organizer_url(e.get("url"), venue)
             if org_url:

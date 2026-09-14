@@ -920,7 +920,15 @@ neighborhood as `area` ("Oak Cliff" for The Kessler, "The Cedars" for Poor
 David's), which named the neighborhood as organizer, built
 `/venue/the-cedars/`, and kept the same show from deduping against its
 Ticketmaster listing. **A `prekindle_pages` `area` must start with the venue
-name.** The two layers agreed on all 172 venue names in the feed and `data.js`
+name.** A source that knows the real host says so with an optional
+`organizer: {name, url}` on the row (`row(..., organizer=)`, written only when
+set), and both layers prefer it over the venue guess — `sources.js` has to
+carry it through `_normalize()` or the homepage silently loses it.
+`fetch_civicplus()` sets it to "City of `<city>`" and the calendar's site for
+every row: the city that *publishes* the calendar, not the event's own city
+(Cedar Hill's lists a fair at a Lancaster address) and not the branch library,
+which stays the location. `organizer` on a `civicplus_sites` entry overrides
+the name. The two layers agreed on all 172 venue names in the feed and `data.js`
 that day — rerun that comparison in the browser preview after touching either
 list. **Adding a source on a new
 marketplace or re-lister means adding its host to both lists.** Rows with no
