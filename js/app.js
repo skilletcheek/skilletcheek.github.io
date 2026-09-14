@@ -875,9 +875,13 @@ function updateSeo(list) {
     let place = venue || (a.area || "").trim();
     if (city && place && !place.toLowerCase().includes(city.toLowerCase())) place = `${place}, ${city}`;
     // Precedence mirrors _jsonld(), which never sees sponsor rows: a sponsor,
-    // then a host the SOURCE named (a city calendar's city), then the venue
-    // when it really is one.
-    const srcOrg = !a.sponsor && a.organizer && a.organizer.name ? a.organizer : null;
+    // then a host the SOURCE named (a city calendar's city), then a curated
+    // row's hand-set `venue` (data.js; its url unless `venueUrl` says
+    // otherwise), then the parsed venue when it really is one.
+    const srcOrg = a.sponsor ? null
+      : (a.organizer && a.organizer.name) ? a.organizer
+      : a.venue ? { name: a.venue, url: a.venueUrl === undefined ? a.url : a.venueUrl }
+      : null;
     const orgName = a.sponsor || (srcOrg ? srcOrg.name : (isRealVenue(venue) ? venue : undefined));
     const orgUrl = srcOrg
       ? (/^https?:\/\//.test(srcOrg.url || "") ? srcOrg.url : undefined)
@@ -889,7 +893,7 @@ function updateSeo(list) {
       endDate,
       eventStatus: "https://schema.org/EventScheduled",
       eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-      location: { "@type": "Place", name: venue || a.area, address: { "@type": "PostalAddress", addressRegion: "TX", ...(street ? { streetAddress: street } : {}), ...(city ? { addressLocality: city } : {}) } },
+      location: { "@type": "Place", name: a.venue || venue || a.area, address: { "@type": "PostalAddress", addressRegion: "TX", ...(street ? { streetAddress: street } : {}), ...(city ? { addressLocality: city } : {}) } },
       image: [a.image || fallbackImg],
       description: a.desc || (place ? `${a.name} at ${place}.` : `${a.name} in Dallas–Fort Worth.`),
       url: a.url,

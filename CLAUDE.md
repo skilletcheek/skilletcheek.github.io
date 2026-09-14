@@ -928,7 +928,11 @@ carry it through `_normalize()` or the homepage silently loses it.
 every row: the city that *publishes* the calendar, not the event's own city
 (Cedar Hill's lists a fair at a Lancaster address) and not the branch library,
 which stays the location. `organizer` on a `civicplus_sites` entry overrides
-the name. The two layers agreed on all 172 venue names in the feed and `data.js`
+the name. Curated `ACTIVITIES` in `js/data.js` (homepage-only, no Python side)
+carry a hand-set `venue`, used as both organizer and location because their
+`area` is always a neighborhood; the organizer url is the entry's `url` unless
+`venueUrl: null` says that link isn't the venue's own (a team site, a district
+association). Area-wide entries — a crawl, a stroll — deliberately have none. The two layers agreed on all 172 venue names in the feed and `data.js`
 that day — rerun that comparison in the browser preview after touching either
 list. **Adding a source on a new
 marketplace or re-lister means adding its host to both lists.** Rows with no
