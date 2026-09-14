@@ -1,0 +1,176 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Kessler Theater — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at The Kessler Theater.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:gannon-fremin-ccrev-with-special-guest-noah-bowman|the-kessler-theater-
+ oak-cliff-dallas|doors-see-listing-2026-09-17@letsdoitdallas.com
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Gannon Fremin & CCREV with special guest Noah Bowman
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=gannon-fremin-ccrev-with-
+ special-guest-noah-bowman%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-s
+ ee-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:tanner-usrey-with-special-guest-cam-allen|the-kessler-theater-oak-cliff
+ -dallas|doors-see-listing-2026-09-18@letsdoitdallas.com
+DTSTAMP:20260918T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Tanner Usrey with special guest Cam Allen
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=tanner-usrey-with-special
+ -guest-cam-allen%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listin
+ g
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:louder-than-stigma-fest-benefitting-amplified-minds-featuring-tye-harri
+ s|the-kessler-theater-oak-cliff-dallas|doors-see-listing-2026-09-19@letsdo
+ itdallas.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Louder Than Stigma Fest benefitting Amplified Minds featuring Tye H
+ arris
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=louder-than-stigma-fest-b
+ enefitting-amplified-minds-featuring-tye-harris%7Cthe-kessler-theater-oak-
+ cliff-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:wade-forster-w-danno-simpson|the-kessler-dallas|8-00-pm-2026-09-24@lets
+ doitdallas.com
+DTSTAMP:20260925T010000Z
+DTSTART:20260925T010000Z
+DTEND:20260925T040000Z
+SUMMARY:Wade Forster w/ Danno Simpson
+LOCATION:The Kessler · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=wade-forster-w-danno-simp
+ son%7Cthe-kessler-dallas%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:bob-schneider-early-show|the-kessler-theater-oak-cliff-dallas|doors-see
+ -listing-2026-09-25@letsdoitdallas.com
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Bob Schneider - Early Show
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=bob-schneider-early-show%
+ 7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:isaac-slade-formerly-of-the-fray-songs-i-know-solo-tour-2026|the-kessle
+ r-theater-oak-cliff-dallas|doors-see-listing-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Isaac Slade (Formerly of The Fray): Songs I Know - Solo Tour 2026
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=isaac-slade-formerly-of-t
+ he-fray-songs-i-know-solo-tour-2026%7Cthe-kessler-theater-oak-cliff-dallas
+ %7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:emmaline-sinatra-my-sweetheart-tour|the-kessler-theater-oak-cliff-dalla
+ s|doors-see-listing-2026-09-30@letsdoitdallas.com
+DTSTAMP:20260930T000000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Emmaline - Sinatra\, My Sweetheart Tour
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=emmaline-sinatra-my-sweet
+ heart-tour%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:don-was-and-the-pan-detroit-ensemble|the-kessler-theater-oak-cliff-dall
+ as|doors-see-listing-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Don Was and The Pan-Detroit Ensemble
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=don-was-and-the-pan-detro
+ it-ensemble%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:emma-nissen|the-kessler-theater-oak-cliff-dallas|doors-see-listing-2026
+ -10-03@letsdoitdallas.com
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Emma Nissen
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=emma-nissen%7Cthe-kessler
+ -theater-oak-cliff-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:world-famous-pets-with-special-guest-ceci-ceci|the-kessler-theater-oak-
+ cliff-dallas|doors-see-listing-2026-10-06@letsdoitdallas.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:World Famous Pets with special guest Ceci Ceci
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=world-famous-pets-with-sp
+ ecial-guest-ceci-ceci%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-l
+ isting
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-steeldrivers-with-special-guest-valley-flower|the-kessler-theater-o
+ ak-cliff-dallas|doors-see-listing-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:The Steeldrivers with special guest Valley Flower
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=the-steeldrivers-with-spe
+ cial-guest-valley-flower%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-se
+ e-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:del-castillo-with-special-guest-guy-forsyth|the-kessler-theater-oak-cli
+ ff-dallas|doors-see-listing-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Del Castillo with special guest Guy Forsyth
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=del-castillo-with-special
+ -guest-guy-forsyth%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-list
+ ing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+END:VCALENDAR

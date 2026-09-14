@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Punch Line Dallas - Irvine — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Punch Line Dallas - Irvine.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:crash-dummies-podcast-irving|punch-line-dallas-irvine-irving|7-30-pm-20
+ 26-09-23@letsdoitdallas.com
+DTSTAMP:20260924T003000Z
+DTSTART:20260924T003000Z
+DTEND:20260924T033000Z
+SUMMARY:Crash Dummies Podcast - Irving
+LOCATION:Punch Line Dallas - Irvine · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=crash-dummies-podcast-irv
+ ing%7Cpunch-line-dallas-irvine-irving%7C7-30-pm
+DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/punch-line-dallas-irvine/
+END:VEVENT
+BEGIN:VEVENT
+UID:jenny-tian|punch-line-dallas-irvine-irving|7-30-pm-2026-09-24@letsdoitd
+ allas.com
+DTSTAMP:20260925T003000Z
+DTSTART:20260925T003000Z
+DTEND:20260925T033000Z
+SUMMARY:Jenny Tian
+LOCATION:Punch Line Dallas - Irvine · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=jenny-tian%7Cpunch-line-d
+ allas-irvine-irving%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/punch-line-dallas-irvine/
+END:VEVENT
+BEGIN:VEVENT
+UID:tyler-fischer-rescheduled-from-1-23-26-|punch-line-dallas-irvine-irving
+ |7-30-pm-2026-09-25@letsdoitdallas.com
+DTSTAMP:20260926T003000Z
+DTSTART:20260926T003000Z
+DTEND:20260926T033000Z
+SUMMARY:Tyler Fischer (Rescheduled from 1/23/26)
+LOCATION:Punch Line Dallas - Irvine · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=tyler-fischer-rescheduled
+ -from-1-23-26-%7Cpunch-line-dallas-irvine-irving%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/punch-line-dallas-irvine/
+END:VEVENT
+END:VCALENDAR

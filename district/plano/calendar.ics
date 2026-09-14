@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:craig-robinson|addison-improv-addison|7-00-pm-2026-09-13@letsdoitdallas
- .com
-DTSTAMP:20260914T000000Z
-DTSTART:20260914T000000Z
-DTEND:20260914T030000Z
-SUMMARY:Craig Robinson
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=craig-robinson%7Caddison-
- improv-addison%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:hot-topic|addison-improv-addison|7-00-pm-2026-09-17@letsdoitdallas.com
 DTSTAMP:20260918T000000Z
 DTSTART:20260918T000000Z

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:geoff-tate-s-operation-mindcrime-the-final-chapter|the-echo-lounge-musi
- c-hall-dallas|6-30-pm-2026-09-13@letsdoitdallas.com
-DTSTAMP:20260913T233000Z
-DTSTART:20260913T233000Z
-DTEND:20260914T023000Z
-SUMMARY:Geoff Tate's Operation: Mindcrime - The Final Chapter
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=geoff-tate-s-operation-mi
- ndcrime-the-final-chapter%7Cthe-echo-lounge-music-hall-dallas%7C6-30-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:naomi-sharon-presents-no-sleep-in-paradise-tour|the-echo-lounge-music-h
  all-dallas|7-00-pm-2026-09-16@letsdoitdallas.com
 DTSTAMP:20260917T000000Z
@@ -217,5 +204,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=arch-enemy-the-black-dahl
  las%7C5-00-pm
 DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:l7-the-last-hurrah-tour-2026|the-echo-lounge-music-hall-dallas|7-00-pm-
+ 2026-10-13@letsdoitdallas.com
+DTSTAMP:20261014T000000Z
+DTSTART:20261014T000000Z
+DTEND:20261014T030000Z
+SUMMARY:L7: The Last Hurrah Tour 2026
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=l7-the-last-hurrah-tour-2
+ 026%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-echo-lounge-music-hall/
 END:VEVENT
 END:VCALENDAR

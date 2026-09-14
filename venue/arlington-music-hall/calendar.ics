@@ -61,6 +61,19 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/arlington-music-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-fabulous-thunderbirds|arlington-music-hall-arlington|8-00-pm-2026-0
+ 9-25@letsdoitdallas.com
+DTSTAMP:20260926T010000Z
+DTSTART:20260926T010000Z
+DTEND:20260926T040000Z
+SUMMARY:The Fabulous Thunderbirds
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=the-fabulous-thunderbirds
+ %7Carlington-music-hall-arlington%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:petra|arlington-music-hall-arlington|7-30-pm-2026-09-26@letsdoitdallas.
  com
 DTSTAMP:20260927T003000Z

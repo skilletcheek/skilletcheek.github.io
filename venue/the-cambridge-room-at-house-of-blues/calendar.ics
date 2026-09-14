@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:henry-moodie-mood-swings-world-tour|the-cambridge-room-at-house-of-blue
- s-dallas|6-30-pm-2026-09-13@letsdoitdallas.com
-DTSTAMP:20260913T233000Z
-DTSTART:20260913T233000Z
-DTEND:20260914T023000Z
-SUMMARY:Henry Moodie - Mood Swings World Tour
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=henry-moodie-mood-swings-
- world-tour%7Cthe-cambridge-room-at-house-of-blues-dallas%7C6-30-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/the-cambridge-room-at-house-of-blues/
-END:VEVENT
-BEGIN:VEVENT
 UID:gnash|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-09-15@le
  tsdoitdallas.com
 DTSTAMP:20260916T000000Z

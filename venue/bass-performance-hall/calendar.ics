@@ -61,6 +61,19 @@ DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
  /venue/bass-performance-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:fort-worth-symphony-orchestra|bass-performance-hall-fort-worth|7-30-pm-
+ 2026-09-25@letsdoitdallas.com
+DTSTAMP:20260926T003000Z
+DTSTART:20260926T003000Z
+DTEND:20260926T033000Z
+SUMMARY:Fort Worth Symphony Orchestra
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=fort-worth-symphony-orche
+ stra%7Cbass-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
+ com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:brahms-and-haydn-together|bass-performance-hall-fort-worth|7-30-pm-2026
  -09-26@letsdoitdallas.com
 DTSTAMP:20260927T003000Z

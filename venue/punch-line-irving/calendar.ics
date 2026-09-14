@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:splou|punch-line-irving-irving|7-00-pm-2026-09-13@letsdoitdallas.com
-DTSTAMP:20260914T000000Z
-DTSTART:20260914T000000Z
-DTEND:20260914T030000Z
-SUMMARY:Splou
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=splou%7Cpunch-line-irving
- -irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:we-funny-wednesdays|punch-line-irving-irving|7-30-pm-2026-09-16@letsdoi
  tdallas.com
 DTSTAMP:20260917T003000Z

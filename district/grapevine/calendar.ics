@@ -10,54 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
- e-tx-76051-united-states|8-00-am-2026-09-13@letsdoitdallas.com
-DTSTAMP:20260913T130000Z
-DTSTART:20260913T130000Z
-DTEND:20260913T160000Z
-SUMMARY:Phenomenomaly at Meow Wolf
-LOCATION:Meow Wolf · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=phenomenomaly-at-meow-wol
- f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
- C8-00-am
-DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
-  live immersive performance series inside The Real Unreal. Blending intera
- ctive theater with a rotating lineup of North Texas talent\, the experienc
- e unfolds around guests as they explore\, featuring music\, dance\, comedy
- \, — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:art-cart|grapevine|10-30-am-2026-09-13@letsdoitdallas.com
-DTSTAMP:20260913T153000Z
-DTSTART:20260913T153000Z
-DTEND:20260913T183000Z
-SUMMARY:Art Cart
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=art-cart%7Cgrapevine%7C10
- -30-am
-DESCRIPTION:Use your creativity\, critical thinking\, and maker skills to m
- ake crafts for your friends and family using the art and craft supplies pr
- ovided on the Art Cart. September 13\, 2026 10:30 AM - 02:30 PM Grapevine\
- , TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17506/6391695 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:level-up-smash-bros-training-camp|grapevine|12-30-pm-2026-09-13@letsdoi
- tdallas.com
-DTSTAMP:20260913T173000Z
-DTSTART:20260913T173000Z
-DTEND:20260913T203000Z
-SUMMARY:Level Up: Smash Bros. Training Camp
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=level-up-smash-bros-train
- ing-camp%7Cgrapevine%7C12-30-pm
-DESCRIPTION:Who: Ages 8+ What: The Esports Academy's gaming PCs and console
- s will be available for tournament practice during the holiday-themed Supe
- r Smash Bros.Tournament and Mario Kart Grand Prix. Stop by this Sunday to 
- hone your in-game skills\, learn strategy\, and compete with peers! Whe 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:stem-lab-18-|grapevine|10-00-am-2026-09-14@letsdoitdallas.com
 DTSTAMP:20260914T150000Z
 DTSTART:20260914T150000Z
@@ -386,6 +338,21 @@ URL:https://letsdoitdallas.com/?date=2026-09-17&e=40th-annual-grapefest-a-t
 DESCRIPTION:Raise a glass at GrapeFest &#8211\; A Texas Wine Experience\, t
  he largest wine festival in the Southwest\, featuring four days of wine ta
  stings\,... — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:grapefest|main-street-grapevine|all-day-2026-09-17@letsdoitdallas.com
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Grapefest
+LOCATION:Main Street Grapevine
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=grapefest%7Cmain-street-g
+ rapevine%7Call-day
+DESCRIPTION:GrapeFest offers a variety of fun for all members of the famil
+ y! Find exciting wine-related events\, including the People’s Choice Wi
+ ne Tasting Classic\, GrapeStomp and the Champagne Cork Shoot-Off. Wine
+  lovers are sure to find something fun to celebrate the fruit of the vine 
+ at Gr — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:music-and-movement|grapevine|10-30-am-2026-09-17@letsdoitdallas.com
@@ -1123,6 +1090,69 @@ DESCRIPTION:This Sunday\, join us at the Esports Academy for our monthly Su
  per Smash Bros tournament! Test your skills against local players for a ch
  ance to win prizes and earn bragging rights. Participants will be grouped 
  into age divisions based on the number of entries and their ages\, ensu 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:stem-lab-18-|grapevine|10-00-am-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T150000Z
+DTSTART:20260928T150000Z
+DTEND:20260928T180000Z
+SUMMARY:STEM Lab (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=stem-lab-18-%7Cgrapevine%
+ 7C10-00-am
+DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
+ at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
+ ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
+ edgeable staff will be available to provide guidance\, tips\, and support 
+ as — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
+ grapevine|04-30-pm-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T213000Z
+DTSTART:20260928T213000Z
+DTEND:20260929T003000Z
+SUMMARY:After-School Cinema & Snacks
+LOCATION:Grapevine Public Library
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=after-school-cinema-snack
+ s%7Cgrapevine-public-library-1201-municipal-way-grapevine%7C04-30-pm
+DESCRIPTION:Kick back after school\, bring your favorite snacks\, and enjoy
+  a movie with friends! For teens ages 13 and up. September 28\, 2026 04:30
+  PM - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine\, TX 7
+ 6051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17648/6392103542300 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:from-concept-to-creation-advanced-3d-design-workshop-with-tinkercad|gra
+ pevine|05-30-pm-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T223000Z
+DTSTART:20260928T223000Z
+DTEND:20260929T013000Z
+SUMMARY:From Concept to Creation: Advanced 3D Design Workshop with TinkerCA
+ D
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=from-concept-to-creation-
+ advanced-3d-design-workshop-with-tinkercad%7Cgrapevine%7C05-30-pm
+DESCRIPTION:Join us for a fun and creative journey into the world of 3D mod
+ eling! Who: Ages 8+ When: Monday\, September 28th\, from 5:30 to 6:30 pm W
+ here: The Grapevine Library Esports Academy No Registration Required. Sept
+ ember 28\, 2026 05:30 PM - 06:30 PM Grapevine\, TX 76051 https://www.grap 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:knit-crochet-circle|grapevine|05-30-pm-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T223000Z
+DTSTART:20260928T223000Z
+DTEND:20260929T013000Z
+SUMMARY:Knit & Crochet Circle
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=knit-crochet-circle%7Cgra
+ pevine%7C05-30-pm
+DESCRIPTION:Looking for a cozy way to unwind and connect with fellow yarn e
+ nthusiasts? Join us Mondays for our casual Knit & Crochet Circle! Whether 
+ you're a seasoned pro or just picking up your first set of needles or hook
+ s\, this is the perfect opportunity to share your latest projects\, swa 
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT

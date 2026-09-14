@@ -203,4 +203,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=los-parras%7Ctexas-trust-
 DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/texas-trust-cu-theatre/
 END:VEVENT
+BEGIN:VEVENT
+UID:artms|texas-trust-cu-theatre-grand-prairie|7-00-pm-2026-10-13@letsdoitd
+ allas.com
+DTSTAMP:20261014T000000Z
+DTSTART:20261014T000000Z
+DTEND:20261014T030000Z
+SUMMARY:ARTMS
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=artms%7Ctexas-trust-cu-th
+ eatre-grand-prairie%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/texas-trust-cu-theatre/
+END:VEVENT
 END:VCALENDAR

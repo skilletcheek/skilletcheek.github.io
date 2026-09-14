@@ -9,46 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mahjong-open-play|310-e-parkerville-road-cedar-hill|01-00-pm-2026-09-13
- @letsdoitdallas.com
-DTSTAMP:20260913T180000Z
-DTSTART:20260913T180000Z
-DTEND:20260913T210000Z
-SUMMARY:Mahjong: Open Play
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=mahjong-open-play%7C310-e
- -parkerville-road-cedar-hill%7C01-00-pm
-DESCRIPTION:Join us every Sunday afternoon for an open play Mahjong program
-  at the Alan E. Sims Recreation Center! September 13\, 2026 01:00 PM - 05:
- 00 PM 310 E. Parkerville RoadCedar Hill\, TX 75104 https://www.cedarhilltx
- .com/Calendar.aspx?EID=19091/639148837140000000 — More: https://letsdoit
- dallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:sparkz-cheerleading|310-e-parkerville-road-cedar-hill|04-00-pm-2026-09-
- 13@letsdoitdallas.com
-DTSTAMP:20260913T210000Z
-DTSTART:20260913T210000Z
-DTEND:20260914T000000Z
-SUMMARY:Sparkz Cheerleading
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=sparkz-cheerleading%7C310
- -e-parkerville-road-cedar-hill%7C04-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:community-care-sound-bath-series|310-e-parkerville-road-cedar-hill|05-3
- 0-pm-2026-09-13@letsdoitdallas.com
-DTSTAMP:20260913T223000Z
-DTSTART:20260913T223000Z
-DTEND:20260914T013000Z
-SUMMARY:Community Care Sound Bath Series
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=community-care-sound-bath
- -series%7C310-e-parkerville-road-cedar-hill%7C05-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:chair-volleyball|310-e-parkerville-road-cedar-hill|11-00-am-2026-09-14@
  letsdoitdallas.com
 DTSTAMP:20260914T160000Z
@@ -638,6 +598,18 @@ URL:https://letsdoitdallas.com/?date=2026-09-21&e=braiding-101%7C310-e-park
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
+UID:kids-under-construction|310-e-parkerville-road-cedar-hill|06-00-pm-2026
+ -09-21@letsdoitdallas.com
+DTSTAMP:20260921T230000Z
+DTSTART:20260921T230000Z
+DTEND:20260922T020000Z
+SUMMARY:Kids Under Construction
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-21&e=kids-under-construction%7
+ C310-e-parkerville-road-cedar-hill%7C06-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
 UID:step-aerobics-extreme-hip-hop|310-e-parkerville-road-cedar-hill|06-00-p
  m-2026-09-21@letsdoitdallas.com
 DTSTAMP:20260921T230000Z
@@ -1161,6 +1133,54 @@ SUMMARY:Community Care Sound Bath Series
 LOCATION:310 E. Parkerville Road · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-09-27&e=community-care-sound-bath
  -series%7C310-e-parkerville-road-cedar-hill%7C05-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:chair-volleyball|310-e-parkerville-road-cedar-hill|11-00-am-2026-09-28@
+ letsdoitdallas.com
+DTSTAMP:20260928T160000Z
+DTSTART:20260928T160000Z
+DTEND:20260928T190000Z
+SUMMARY:Chair Volleyball
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=chair-volleyball%7C310-e-
+ parkerville-road-cedar-hill%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:braiding-101|310-e-parkerville-road-cedar-hill|05-00-pm-2026-09-28@lets
+ doitdallas.com
+DTSTAMP:20260928T220000Z
+DTSTART:20260928T220000Z
+DTEND:20260929T010000Z
+SUMMARY:Braiding 101
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=braiding-101%7C310-e-park
+ erville-road-cedar-hill%7C05-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:step-aerobics-extreme-hip-hop|310-e-parkerville-road-cedar-hill|06-00-p
+ m-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T230000Z
+DTSTART:20260928T230000Z
+DTEND:20260929T020000Z
+SUMMARY:Step Aerobics/Extreme Hip Hop
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=step-aerobics-extreme-hip
+ -hop%7C310-e-parkerville-road-cedar-hill%7C06-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:lp-dance-ages-3-7-|310-e-parkerville-road-cedar-hill|07-15-pm-2026-09-2
+ 8@letsdoitdallas.com
+DTSTAMP:20260929T001500Z
+DTSTART:20260929T001500Z
+DTEND:20260929T031500Z
+SUMMARY:LP Dance (Ages 3-7)
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=lp-dance-ages-3-7-%7C310-
+ e-parkerville-road-cedar-hill%7C07-15-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 END:VCALENDAR

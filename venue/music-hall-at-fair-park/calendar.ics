@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-sound-of-music-touring-|music-hall-at-fair-park-dallas|1-00-pm-2026
- -09-13@letsdoitdallas.com
-DTSTAMP:20260913T180000Z
-DTSTART:20260913T180000Z
-DTEND:20260913T210000Z
-SUMMARY:The Sound of Music (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=the-sound-of-music-tourin
- g-%7Cmusic-hall-at-fair-park-dallas%7C1-00-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/music-hall-at-fair-park/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-sound-of-music-touring-|music-hall-at-fair-park-dallas|7-00-pm-2026
- -09-13@letsdoitdallas.com
-DTSTAMP:20260914T000000Z
-DTSTART:20260914T000000Z
-DTEND:20260914T030000Z
-SUMMARY:The Sound of Music (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=the-sound-of-music-tourin
- g-%7Cmusic-hall-at-fair-park-dallas%7C7-00-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/music-hall-at-fair-park/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-sound-of-music-touring-|music-hall-at-fair-park-dallas|7-30-pm-2026
  -09-15@letsdoitdallas.com
 DTSTAMP:20260916T003000Z

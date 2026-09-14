@@ -10,41 +10,16 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:songwriter-sunday-with-cameron-matthew-ray-amber-lafrance|the-cedars-da
- llas|doors-see-listing-2026-09-13@letsdoitdallas.com
-DTSTAMP:20260913T000000Z
-DTSTART;VALUE=DATE:20260913
-DTEND;VALUE=DATE:20260914
-SUMMARY:Songwriter Sunday with CAMERON MATTHEW RAY & AMBER LAFRANCE
-LOCATION:The Cedars · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=songwriter-sunday-with-ca
- meron-matthew-ray-amber-lafrance%7Cthe-cedars-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-09-13@letsdoitd
- allas.com
-DTSTAMP:20260914T040000Z
-DTSTART:20260914T040000Z
-DTEND:20260914T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:free-cult-classic-movie-monday-step-brothers|lower-greenville|doors-see
- -listing-2026-09-14@letsdoitdallas.com
+UID:free-cult-classic-movie-monday-step-brothers|sundown-at-granada-lower-g
+ reenville-dallas|doors-see-listing-2026-09-14@letsdoitdallas.com
 DTSTAMP:20260914T000000Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:FREE Cult Classic Movie Monday: STEP BROTHERS
-LOCATION:Lower Greenville
+LOCATION:Sundown at Granada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-09-14&e=free-cult-classic-movie-m
- onday-step-brothers%7Clower-greenville%7Cdoors-see-listing
+ onday-step-brothers%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-s
+ ee-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
 END:VEVENT
@@ -62,15 +37,16 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:free-tuesday-rooftop-movie-wedding-crashers|lower-greenville|doors-see-
- listing-2026-09-15@letsdoitdallas.com
+UID:free-tuesday-rooftop-movie-wedding-crashers|sundown-at-granada-lower-gr
+ eenville-dallas|doors-see-listing-2026-09-15@letsdoitdallas.com
 DTSTAMP:20260915T000000Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:FREE Tuesday Rooftop Movie: WEDDING CRASHERS
-LOCATION:Lower Greenville
+LOCATION:Sundown at Granada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-09-15&e=free-tuesday-rooftop-movi
- e-wedding-crashers%7Clower-greenville%7Cdoors-see-listing
+ e-wedding-crashers%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-se
+ e-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
 END:VEVENT
@@ -153,15 +129,15 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|lower-greenville|doors-see-listing-2026-09-
- 20@letsdoitdallas.com
+UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
+ doors-see-listing-2026-09-20@letsdoitdallas.com
 DTSTAMP:20260920T000000Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:geeks who drink FREE Trivia
-LOCATION:Lower Greenville
+LOCATION:Sundown at Granada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-09-20&e=geeks-who-drink-free-triv
- ia%7Clower-greenville%7Cdoors-see-listing
+ ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
 END:VEVENT
@@ -179,15 +155,16 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:free-cult-classic-movie-monday-la-la-land|lower-greenville|doors-see-li
- sting-2026-09-21@letsdoitdallas.com
+UID:free-cult-classic-movie-monday-la-la-land|sundown-at-granada-lower-gree
+ nville-dallas|doors-see-listing-2026-09-21@letsdoitdallas.com
 DTSTAMP:20260921T000000Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:FREE Cult Classic Movie Monday: LA LA LAND
-LOCATION:Lower Greenville
+LOCATION:Sundown at Granada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-09-21&e=free-cult-classic-movie-m
- onday-la-la-land%7Clower-greenville%7Cdoors-see-listing
+ onday-la-la-land%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-
+ listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
 END:VEVENT
@@ -205,15 +182,16 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:free-tuesday-rooftop-movie-bridesmaids|lower-greenville|doors-see-listi
- ng-2026-09-22@letsdoitdallas.com
+UID:free-tuesday-rooftop-movie-bridesmaids|sundown-at-granada-lower-greenvi
+ lle-dallas|doors-see-listing-2026-09-22@letsdoitdallas.com
 DTSTAMP:20260922T000000Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:FREE Tuesday Rooftop Movie: BRIDESMAIDS
-LOCATION:Lower Greenville
+LOCATION:Sundown at Granada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-09-22&e=free-tuesday-rooftop-movi
- e-bridesmaids%7Clower-greenville%7Cdoors-see-listing
+ e-bridesmaids%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-lis
+ ting
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
 END:VEVENT
@@ -283,15 +261,15 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|lower-greenville|doors-see-listing-2026-09-
- 27@letsdoitdallas.com
+UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
+ doors-see-listing-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260927T000000Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:geeks who drink FREE Trivia
-LOCATION:Lower Greenville
+LOCATION:Sundown at Granada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-09-27&e=geeks-who-drink-free-triv
- ia%7Clower-greenville%7Cdoors-see-listing
+ ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
 END:VEVENT
@@ -309,15 +287,16 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:free-cult-classic-movie-monday-zoolander|lower-greenville|doors-see-lis
- ting-2026-09-28@letsdoitdallas.com
+UID:free-cult-classic-movie-monday-zoolander|sundown-at-granada-lower-green
+ ville-dallas|doors-see-listing-2026-09-28@letsdoitdallas.com
 DTSTAMP:20260928T000000Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:FREE Cult Classic Movie Monday: ZOOLANDER
-LOCATION:Lower Greenville
+LOCATION:Sundown at Granada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-09-28&e=free-cult-classic-movie-m
- onday-zoolander%7Clower-greenville%7Cdoors-see-listing
+ onday-zoolander%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-l
+ isting
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
 END:VEVENT
@@ -348,15 +327,15 @@ DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:poor-david-s-open-mic-hosted-by-rob-case|the-cedars-dallas|doors-see-li
- sting-2026-09-30@letsdoitdallas.com
+UID:poor-david-s-open-mic-hosted-by-rob-case|poor-david-s-pub-dallas|doors-
+ see-listing-2026-09-30@letsdoitdallas.com
 DTSTAMP:20260930T000000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Poor David's Open Mic - Hosted by Rob Case
-LOCATION:The Cedars · Dallas
+LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-09-30&e=poor-david-s-open-mic-hos
- ted-by-rob-case%7Cthe-cedars-dallas%7Cdoors-see-listing
+ ted-by-rob-case%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  free-events/
 END:VEVENT
@@ -424,5 +403,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=dj-sneak305%7Cthree-links
  -deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
+ pm-2026-10-12@letsdoitdallas.com
+DTSTAMP:20261013T020000Z
+DTSTART:20261013T020000Z
+DTEND:20261013T050000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/free-events/
 END:VEVENT
 END:VCALENDAR

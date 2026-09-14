@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:angel-street-gaslight-presented-by-garland-civic-theatre|300-n-fifth-st
- reet-garland|02-30-pm-2026-09-13@letsdoitdallas.com
-DTSTAMP:20260913T193000Z
-DTSTART:20260913T193000Z
-DTEND:20260913T223000Z
-SUMMARY:Angel Street (Gaslight) presented by Garland Civic Theatre
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-13&e=angel-street-gaslight-pre
- sented-by-garland-civic-theatre%7C300-n-fifth-street-garland%7C02-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:sbdc-workshop-how-to-start-a-business|central-library-garland|12-00-pm-
  2026-09-14@letsdoitdallas.com
 DTSTAMP:20260914T170000Z
@@ -1148,15 +1136,15 @@ DESCRIPTION:6:30 p.m.\; An adult book club for mystery and thriller enthusi
  ttps://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
- -state-street-garland|07-30-pm-2026-09-24@letsdoitdallas.com
+UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|300-n
+ -fifth-street-garland|07-30-pm-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260925T003000Z
 DTSTART:20260925T003000Z
 DTEND:20260925T033000Z
 SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
-LOCATION:521 W State Street · Garland
+LOCATION:300 N Fifth Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-24&e=little-shop-of-horrors-pr
- esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C07
+ esented-by-company-of-rowlett-performers%7C300-n-fifth-street-garland%7C07
  -30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
@@ -1323,16 +1311,32 @@ URL:https://letsdoitdallas.com/?date=2026-09-26&e=little-shop-of-horrors-pr
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|300-n
- -fifth-street-garland|02-00-pm-2026-09-27@letsdoitdallas.com
+UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
+ -state-street-garland|02-00-pm-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260927T190000Z
 DTSTART:20260927T190000Z
 DTEND:20260927T220000Z
 SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
-LOCATION:300 N Fifth Street · Garland
+LOCATION:521 W State Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-27&e=little-shop-of-horrors-pr
- esented-by-company-of-rowlett-performers%7C300-n-fifth-street-garland%7C02
+ esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C02
  -00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:grow-with-google-customer-focused-marketing-ages-18-|central-library-ga
+ rland|06-00-pm-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T230000Z
+DTSTART:20260928T230000Z
+DTEND:20260929T020000Z
+SUMMARY:Grow with Google: Customer-Focused Marketing (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=grow-with-google-customer
+ -focused-marketing-ages-18-%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Learn how to build a strong brand\, identify and re
+ ach your target audience\, convert prospects into customers and create loy
+ al advocates for your business. This workshop is designed to help new entr
+ epreneurs develop effective marketing strategies that support long-term 
+ — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 END:VCALENDAR

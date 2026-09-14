@@ -1,0 +1,134 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sundown at Granada — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Sundown at Granada.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:free-cult-classic-movie-monday-step-brothers|sundown-at-granada-lower-g
+ reenville-dallas|doors-see-listing-2026-09-14@letsdoitdallas.com
+DTSTAMP:20260914T000000Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:FREE Cult Classic Movie Monday: STEP BROTHERS
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-14&e=free-cult-classic-movie-m
+ onday-step-brothers%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-s
+ ee-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/venue/sundown-at-granada/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-tuesday-rooftop-movie-wedding-crashers|sundown-at-granada-lower-gr
+ eenville-dallas|doors-see-listing-2026-09-15@letsdoitdallas.com
+DTSTAMP:20260915T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:FREE Tuesday Rooftop Movie: WEDDING CRASHERS
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=free-tuesday-rooftop-movi
+ e-wedding-crashers%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-se
+ e-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/venue/sundown-at-granada/
+END:VEVENT
+BEGIN:VEVENT
+UID:chanpan|sundown-at-granada-lower-greenville-dallas|doors-see-listing-20
+ 26-09-19@letsdoitdallas.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Chanpan
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=chanpan%7Csundown-at-gran
+ ada-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/venue/sundown-at-granada/
+END:VEVENT
+BEGIN:VEVENT
+UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
+ doors-see-listing-2026-09-20@letsdoitdallas.com
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:geeks who drink FREE Trivia
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=geeks-who-drink-free-triv
+ ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/venue/sundown-at-granada/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-cult-classic-movie-monday-la-la-land|sundown-at-granada-lower-gree
+ nville-dallas|doors-see-listing-2026-09-21@letsdoitdallas.com
+DTSTAMP:20260921T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:FREE Cult Classic Movie Monday: LA LA LAND
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-21&e=free-cult-classic-movie-m
+ onday-la-la-land%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-
+ listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/venue/sundown-at-granada/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-tuesday-rooftop-movie-bridesmaids|sundown-at-granada-lower-greenvi
+ lle-dallas|doors-see-listing-2026-09-22@letsdoitdallas.com
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:FREE Tuesday Rooftop Movie: BRIDESMAIDS
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=free-tuesday-rooftop-movi
+ e-bridesmaids%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-lis
+ ting
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/venue/sundown-at-granada/
+END:VEVENT
+BEGIN:VEVENT
+UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
+ doors-see-listing-2026-09-27@letsdoitdallas.com
+DTSTAMP:20260927T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:geeks who drink FREE Trivia
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=geeks-who-drink-free-triv
+ ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/venue/sundown-at-granada/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-cult-classic-movie-monday-zoolander|sundown-at-granada-lower-green
+ ville-dallas|doors-see-listing-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T000000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:FREE Cult Classic Movie Monday: ZOOLANDER
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=free-cult-classic-movie-m
+ onday-zoolander%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-l
+ isting
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/venue/sundown-at-granada/
+END:VEVENT
+BEGIN:VEVENT
+UID:bryce-bangs-w-j-hawkins-the-night-shift|sundown-at-granada-lower-greenv
+ ille-dallas|doors-see-listing-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Bryce Bangs w / J Hawkins & The Night Shift
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=bryce-bangs-w-j-hawkins-t
+ he-night-shift%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-li
+ sting
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/venue/sundown-at-granada/
+END:VEVENT
+END:VCALENDAR
