@@ -931,8 +931,9 @@ which stays the location. `organizer` on a `civicplus_sites` entry overrides
 the name. Curated `ACTIVITIES` in `js/data.js` (homepage-only, no Python side)
 carry a hand-set `venue`, used as both organizer and location because their
 `area` is always a neighborhood; the organizer url is the entry's `url` unless
-`venueUrl: null` says that link isn't the venue's own (a team site, a district
-association). Area-wide entries — a crawl, a stroll — deliberately have none. The two layers agreed on all 172 venue names in the feed and `data.js`
+`venueUrl: null` says that link isn't the venue's own (a district
+association). Team home games set `organizer: {name, url}` to the team, which
+wins as organizer while `venue` stays the location. Area-wide entries — a crawl, a stroll — deliberately have none. The two layers agreed on all 172 venue names in the feed and `data.js`
 that day — rerun that comparison in the browser preview after touching either
 list. **Adding a source on a new
 marketplace or re-lister means adding its host to both lists.** Rows with no

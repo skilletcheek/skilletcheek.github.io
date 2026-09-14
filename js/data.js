@@ -108,9 +108,13 @@ const SPONSORED = [
    venue: the room or place that hosts it, named as the schema.org Event's
    organizer and location (updateSeo() in app.js). `area` is a neighbourhood
    and can't do that job. The organizer's url is the entry's `url`, so set
-   `venueUrl: null` when that link is not the venue's own site (a team, a
-   district association). Leave `venue` off an entry that spans a whole area
-   (a crawl, a stroll) rather than inventing one.
+   `venueUrl: null` when that link is not the venue's own site (a district
+   association). Leave `venue` off an entry that spans a whole area (a crawl,
+   a stroll) rather than inventing one.
+
+   organizer: { name, url } when someone other than the venue hosts it -- a
+   team's home games. It wins over `venue` as the organizer; `venue` stays the
+   location.
    -------------------------------------------------------------------------- */
 const ACTIVITIES = [
   // Markets
@@ -228,15 +232,18 @@ const ACTIVITIES = [
     url: "https://rahrbrewing.com" },
 
   // Sports (seasonal)
-  { name: "Texas Rangers Baseball", cat: "sports", area: "Arlington", venue: "Globe Life Field", venueUrl: null,
+  { name: "Texas Rangers Baseball", cat: "sports", area: "Arlington", venue: "Globe Life Field",
+    organizer: { name: "Texas Rangers", url: "https://mlb.com/rangers" },
     recur: { dateRange: { start: "04-01", end: "09-30", weekly: [1,2,3,4,5,6,0] } }, time: "Evening (check schedule)", cost: 25,
     desc: "MLB action under the retractable roof at Globe Life Field. Home games most weeks in season.",
     url: "https://mlb.com/rangers" },
-  { name: "FC Dallas Match", cat: "sports", area: "Frisco", venue: "Toyota Stadium", venueUrl: null,
+  { name: "FC Dallas Match", cat: "sports", area: "Frisco", venue: "Toyota Stadium",
+    organizer: { name: "FC Dallas", url: "https://fcdallas.com" },
     recur: { dateRange: { start: "02-20", end: "10-31", weekly: [6] } }, time: "7:30 PM", cost: 30,
     desc: "MLS soccer at Toyota Stadium — most home matches land on Saturday nights.",
     url: "https://fcdallas.com" },
-  { name: "Dallas Mavericks Basketball", cat: "sports", area: "Downtown Dallas", venue: "American Airlines Center", venueUrl: null,
+  { name: "Dallas Mavericks Basketball", cat: "sports", area: "Downtown Dallas", venue: "American Airlines Center",
+    organizer: { name: "Dallas Mavericks", url: "https://mavs.com" },
     recur: { dateRange: { start: "10-20", end: "04-15", weekly: [1,3,5,6,0] } }, time: "7:30 PM", cost: 40,
     desc: "NBA basketball at the American Airlines Center during the winter season.",
     url: "https://mavs.com" },
