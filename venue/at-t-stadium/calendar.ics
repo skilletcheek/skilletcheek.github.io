@@ -9,41 +9,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|11-00-am-2026-09-14
- @letsdoitdallas.com
-DTSTAMP:20260914T160000Z
-DTSTART:20260914T160000Z
-DTEND:20260914T190000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-14&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C11-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|1-00-pm-2026-09-14@
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-09-14@
  letsdoitdallas.com
-DTSTAMP:20260914T180000Z
-DTSTART:20260914T180000Z
-DTEND:20260914T210000Z
+DTSTAMP:20260914T210000Z
+DTSTART:20260914T210000Z
+DTEND:20260915T000000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-09-14&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C1-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-09-14@
- letsdoitdallas.com
-DTSTAMP:20260914T200000Z
-DTSTART:20260914T200000Z
-DTEND:20260914T230000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-14&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C3-00-pm
+ our%7Cat-t-stadium-arlington%7C4-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/at-t-stadium/
 END:VEVENT

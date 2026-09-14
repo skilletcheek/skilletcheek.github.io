@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chair-volleyball|310-e-parkerville-road-cedar-hill|11-00-am-2026-09-14@
- letsdoitdallas.com
-DTSTAMP:20260914T160000Z
-DTSTART:20260914T160000Z
-DTEND:20260914T190000Z
-SUMMARY:Chair Volleyball
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-14&e=chair-volleyball%7C310-e-
- parkerville-road-cedar-hill%7C11-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:braiding-101|310-e-parkerville-road-cedar-hill|05-00-pm-2026-09-14@lets
  doitdallas.com
 DTSTAMP:20260914T220000Z

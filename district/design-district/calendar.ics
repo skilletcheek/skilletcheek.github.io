@@ -266,6 +266,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/design-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:adela|the-echo-lounge-music-hall-dallas|8-00-pm-2026-09-25@letsdoitdall
+ as.com
+DTSTAMP:20260926T010000Z
+DTSTART:20260926T010000Z
+DTEND:20260926T040000Z
+SUMMARY:Adela
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=adela%7Cthe-echo-lounge-m
+ usic-hall-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:holy-priest-18-and-over-|silo-dallas|9-00-pm-2026-09-25@letsdoitdallas.
  com
 DTSTAMP:20260926T020000Z

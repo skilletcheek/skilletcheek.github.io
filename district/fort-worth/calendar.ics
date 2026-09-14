@@ -28,19 +28,6 @@ DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
  — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-09-14@
- letsdoitdallas.com
-DTSTAMP:20260914T173000Z
-DTSTART:20260914T173000Z
-DTEND:20260914T203000Z
-SUMMARY:Legacy of the Longhorn
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-14&e=legacy-of-the-longhorn%7C
- cowtown-coliseum-fort-worth%7C12-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-big-laugh-open-mic|big-laugh-comedy-club-fort-worth-604-main-st-sui
  te-100-fort-worth-tx-76102-united-states|8-00-pm-2026-09-14@letsdoitdallas
  .com
@@ -270,6 +257,23 @@ DESCRIPTION:Wizop Wednesdays: Open Mic Comedy  Looking for a midweek jolt o
  et tested\, and legends-in-the-making grab the mic. It’s raw\, fast\, an
  d absolutely addictive\, your new Wednesday night ritual.  Expect lightnin
  g- — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-09-17@letsdoitdallas.com
+DTSTAMP:20260917T150000Z
+DTSTART:20260917T150000Z
+DTEND:20260917T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-09-17@
@@ -844,6 +848,32 @@ URL:https://letsdoitdallas.com/?date=2026-09-25&e=-weird-al-yankovic-bigger
  -weirder-2026-tour%7Cdickies-arena-fort-worth%7C8-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:willie-barcena|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm-
+ 2026-09-25@letsdoitdallas.com
+DTSTAMP:20260926T010000Z
+DTSTART:20260926T010000Z
+DTEND:20260926T040000Z
+SUMMARY:Willie Barcena
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=willie-barcena%7Chyena-s-
+ comedy-night-club-fort-worth-fort-worth%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:bop-to-the-top|tannahills-tavern-and-music-hall-fort-worth|9-00-pm-2026
+ -09-25@letsdoitdallas.com
+DTSTAMP:20260926T020000Z
+DTSTART:20260926T020000Z
+DTEND:20260926T050000Z
+SUMMARY:Bop To The Top
+LOCATION:Tannahills Tavern and Music Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=bop-to-the-top%7Ctannahil
+ ls-tavern-and-music-hall-fort-worth%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:bop-to-the-top-ages-18-up|tannahill-s-music-hall-lounge-fort-worth|9-00
