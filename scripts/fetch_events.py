@@ -1573,6 +1573,62 @@ def _dallas_offset(date_iso: str) -> str:
     return f"{sign}{total // 3600:02d}:{total % 3600 // 60:02d}"
 
 
+# Hosts that sell tickets to, or re-list, other people's events. An event URL on
+# one of these says nothing about who runs the event, so its origin must never
+# become organizer.url -- "organizer: Granada Theater, url: seatgeek.com" is a
+# false statement. Every other host (a venue's own ICS feed, a city's CivicPlus
+# calendar) IS the organizer's site. Mirrored as LISTING_HOSTS in js/app.js.
+_LISTING_HOSTS = (
+    "ticketmaster.com", "ticketweb.com", "seatgeek.com", "prekindle.com",
+    "universe.com", "seated.com", "axs.com", "eventbrite.com", "dice.fm",
+    "etix.com", "tixr.com", "showclix.com", "stubhub.com", "vividseats.com",
+    "livenation.com", "bandsintown.com", "songkick.com", "meetup.com",
+    "facebook.com", "instagram.com", "allevents.in", "do214.com",
+    "dallasites101.com", "whatsupfortworth.com",
+)
+
+
+def _organizer_url(event_url, venue):
+    """organizer.url for an event whose organizer we name as its venue.
+
+    Search Console flagged the url missing on every Event (2026-09-14). It was
+    dropped on 2026-07-21 because it used to hold the ticketing link, which is
+    not the venue's site -- that reasoning still stands, so this never falls
+    back to it. In order:
+
+    1. The event URL's origin, when that host is the organizer's own site and
+       not a marketplace (_LISTING_HOSTS). Same rule as js/app.js.
+    2. The venue's own page on this site, when it has one. It is a page about
+       exactly the entity named, and the venue page's Place node already
+       carries the same URL. js/app.js cannot know this set, so the homepage's
+       runtime JSON-LD omits this step.
+
+    Returns None when neither holds; the caller omits the field rather than
+    guess.
+    """
+    p = urllib.parse.urlparse(event_url or "")
+    host = (p.hostname or "").lower()
+    if p.scheme in ("http", "https") and host and not any(
+            host == h or host.endswith("." + h) for h in _LISTING_HOSTS):
+        return f"{p.scheme}://{host}/"
+    if venue:
+        slug = _venue_slug(_VENUE_ALIASES.get(_venue_key(venue), venue))
+        if slug in _VENUE_PAGES:
+            return f"{SITE}/venue/{slug}/"
+    return None
+
+
+def _jsonld_description(e, venue, city):
+    """A factual one-liner for rows whose source ships no description.
+
+    Built only from fields the listing already shows, so it asserts nothing
+    new. Mirrored in updateSeo() in js/app.js."""
+    where = venue or (e.get("area") or "").strip()
+    if city and where and city.lower() not in where.lower():
+        where = f"{where}, {city}"
+    return f"{e['name']} at {where}." if where else f"{e['name']} in Dallas–Fort Worth."
+
+
 def _jsonld(events):
     out = []
     for i, e in enumerate(events[:30]):
@@ -1602,10 +1658,11 @@ def _jsonld(events):
                 "url": url,
                 "performer": {"@type": "PerformingGroup", "name": e["name"]}}
         if venue:
-            # No url: `url` is the ticketing listing, not the venue's own site.
             item["organizer"] = {"@type": "Organization", "name": venue}
-        if e.get("description"):
-            item["description"] = e["description"]
+            org_url = _organizer_url(e.get("url"), venue)
+            if org_url:
+                item["organizer"]["url"] = org_url
+        item["description"] = e.get("description") or _jsonld_description(e, venue, city)
         offer = {"@type": "Offer", "url": url,
                  "availability": "https://schema.org/InStock",
                  "validFrom": f"{e['date']}T00:00:00{tz}"}

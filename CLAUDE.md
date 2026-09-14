@@ -903,6 +903,19 @@ Note the ICS feeds do **not** use this: `_event_start()` resolves the real
 instant through `ZoneInfo`, because a calendar entry is a promise about a
 moment and has no mirror to stay comparable with.
 
+`_organizer_url()` + `_LISTING_HOSTS` (`fetch_events.py`) / `organizerUrl()` +
+`LISTING_HOSTS` (`js/app.js`) fill Event `organizer.url`, which Search Console
+flagged missing on every item (2026-09-14). The event URL's origin is used
+**only when the host is not a ticket marketplace or aggregator** — "Granada
+Theater, url: seatgeek.com" is false, which is why the field was dropped on
+2026-07-21. Python then falls back to the venue's own `/venue/` page; JS can't
+see `_VENUE_PAGES` and omits the field instead. **Adding a source on a new
+marketplace or re-lister means adding its host to both lists.** Rows with no
+source description get a factual "`<name>` at `<venue>, <city>`." line
+(`_jsonld_description()`, mirrored inline in `updateSeo()`). Missing `price` is
+left alone on purpose: `cost` is null on ~85% of rows and inventing one is
+worse than the warning.
+
 `SOCIAL` (`fetch_events.py`) is a three-way one, and the only one where two of
 the three copies are hand-written markup: the constant, index.html's `sameAs`,
 and index.html's footer column. See "Internal links are the crawl budget".

@@ -784,6 +784,29 @@ function dallasOffset(iso) {
   return "-05:00";
 }
 
+/* Mirrors _LISTING_HOSTS / _organizer_url() in scripts/fetch_events.py. An
+   event URL on a marketplace says nothing about who runs the event, so only a
+   non-marketplace origin (a venue's own calendar, a city's) becomes
+   organizer.url. The Python side also falls back to the venue's /venue/ page,
+   which this layer cannot know about, so it simply omits the field there. */
+const LISTING_HOSTS = [
+  "ticketmaster.com", "ticketweb.com", "seatgeek.com", "prekindle.com",
+  "universe.com", "seated.com", "axs.com", "eventbrite.com", "dice.fm",
+  "etix.com", "tixr.com", "showclix.com", "stubhub.com", "vividseats.com",
+  "livenation.com", "bandsintown.com", "songkick.com", "meetup.com",
+  "facebook.com", "instagram.com", "allevents.in", "do214.com",
+  "dallasites101.com", "whatsupfortworth.com",
+];
+function organizerUrl(eventUrl) {
+  try {
+    const u = new URL(eventUrl);
+    const host = u.hostname.toLowerCase();
+    if (!/^https?:$/.test(u.protocol) || !host) return undefined;
+    if (LISTING_HOSTS.some((h) => host === h || host.endsWith(`.${h}`))) return undefined;
+    return `${u.protocol}//${host}/`;
+  } catch (_) { return undefined; }
+}
+
 function updateSeo(list) {
   const where = state.district
     ? state.district.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
@@ -822,6 +845,12 @@ function updateSeo(list) {
     // default a 3-hour run, clamped to the same day
     const endMins = Math.min(startMins + 180, 23 * 60 + 59);
     const endDate = timed ? `${iso}T${pad(Math.floor(endMins / 60))}:${pad(endMins % 60)}:00${tz}` : iso;
+    // Mirrors _jsonld_description() in fetch_events.py: a factual one-liner
+    // from fields the card already shows, for sources that ship no description.
+    let place = venue || (a.area || "").trim();
+    if (city && place && !place.toLowerCase().includes(city.toLowerCase())) place = `${place}, ${city}`;
+    const orgName = a.sponsor || venue;
+    const orgUrl = orgName ? organizerUrl(a.url) : undefined;
     return {
       "@type": "Event",
       name: a.name,
@@ -831,9 +860,9 @@ function updateSeo(list) {
       eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
       location: { "@type": "Place", name: venue || a.area, address: { "@type": "PostalAddress", addressRegion: "TX", ...(street ? { streetAddress: street } : {}), ...(city ? { addressLocality: city } : {}) } },
       image: [a.image || fallbackImg],
-      description: a.desc || undefined,
+      description: a.desc || (place ? `${a.name} at ${place}.` : `${a.name} in Dallas–Fort Worth.`),
       url: a.url,
-      organizer: (a.sponsor || venue) ? { "@type": "Organization", name: a.sponsor || venue } : undefined,
+      organizer: orgName ? { "@type": "Organization", name: orgName, ...(orgUrl ? { url: orgUrl } : {}) } : undefined,
       performer: { "@type": "PerformingGroup", name: a.name },
       offers: {
         "@type": "Offer",
