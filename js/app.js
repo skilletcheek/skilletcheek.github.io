@@ -246,6 +246,22 @@ function isToday(d) {
 }
 function nowMins() { const n = new Date(); return n.getHours() * 60 + n.getMinutes(); }
 
+/* SORT / TIME used to be "earliest first" unconditionally, so opening the
+   site at 7 PM still put 6 AM markets and 10 AM museum openings at the very
+   top of today's list -- the first screen was entirely things already over.
+   On today's date only, an event that already started sorts as if it were
+   tomorrow's version of itself (+2000, comfortably clear of both the day's
+   real 0-1439 range and the dateless ALSO-ON marker at 1440), so what's
+   actually still ahead leads and what's already happened settles to the
+   bottom in its own chronological order -- still visible, just not blocking
+   the fold. Other dates and the two alternate sorts (name/cost) are
+   untouched: "what's happening later today" only means something for today. */
+function timeSortKey(a) {
+  const t = parseTimeToMinutes(a.time);
+  if (!isToday(state.date) || t >= 24 * 60) return t;
+  return t >= nowMins() ? t : t + 2000;
+}
+
 function isLiveNow(a) {
   if (!isToday(state.date)) return false;
   if (parseTimeToMinutes(a.time) >= 24 * 60) return false;
@@ -313,7 +329,7 @@ function applyFilters(list) {
   out.sort((a, b) => {
     if (state.sort === "name") return a.name.localeCompare(b.name);
     if (state.sort === "cost") return (a.cost ?? 999) - (b.cost ?? 999) || a.name.localeCompare(b.name);
-    return parseTimeToMinutes(a.time) - parseTimeToMinutes(b.time) || a.name.localeCompare(b.name);
+    return timeSortKey(a) - timeSortKey(b) || a.name.localeCompare(b.name);
   });
   return out;
 }
@@ -594,9 +610,15 @@ function render() {
   } else {
     // Group the day into scannable stretches when sorted by time. Unparseable
     // times sort to 24h+ and land under LISTED (doors/times on the venue page).
+    // On today's date, timeSortKey() has already pushed anything that already
+    // started to the bottom -- label that stretch explicitly rather than
+    // silently replaying MORNING/AFTERNOON a second time under cards that
+    // are, confusingly, sorted after TONIGHT.
+    const nowM = isToday(state.date) ? nowMins() : null;
     const daypart = (a) => {
       const t = parseTimeToMinutes(a.time);
       if (t >= 24 * 60) return "/ ALSO ON — SEE LISTINGS FOR TIMES";
+      if (nowM != null && t < nowM) return "/ EARLIER TODAY";
       if (t < 12 * 60) return "/ MORNING";
       if (t < 17 * 60) return "/ AFTERNOON";
       if (t < 21 * 60) return "/ TONIGHT";
@@ -676,7 +698,11 @@ function renderOnNow() {
     : [];
   const count = live.length;
   live.sort((a, b) => timeRange(a.time)[1] - timeRange(b.time)[1]); // ending soonest first
-  live = live.slice(0, 8);                                          // cap the rail
+  // Used to cap here at 8 -- the label read the true count ("LIVE NOW — 15")
+  // while the rail quietly rendered only the first 8, so the number never
+  // matched what was actually scrollable. The rail already has a scroll +
+  // edge-fade + arrows built for overflow (.onnow-rail.has-more); let it do
+  // that job instead of a hidden cap doing it badly.
   if (!live.length) { box.hidden = true; return; }
   box.hidden = false;
   el("onnowLabel").textContent = `${liveWord()} NOW — ${count}`;
