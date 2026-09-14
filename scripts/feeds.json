@@ -157,6 +157,107 @@
    "source": "DFWCHILD"
   }
  ],
+ "_home_teams_note": "home_teams: DFW teams named as the schema.org organizer of their HOME games, applied to every source after dedupe (tag_home_teams() in fetch_events.py). A row gets a team only when the team is on the home side of the title (\"<home> vs. <away>\", \"<away> at <home>\") AND the event is at one of its listed venues; the venue check is what keeps neutral-site games (Oklahoma vs. Texas at the Cotton Bowl, bowl games at AT&T Stadium) from naming the first-listed team. Neither Ticketmaster nor SeatGeek gives a usable home-team field for this: Ticketmaster has none. Venue names are compared through _venue_key() and venue-aliases.json, so \"&\"/\"and\" and a trailing \" - TX\" fold together. url must be the team's own site.",
+ "home_teams": [
+  {
+   "team": "Texas Rangers",
+   "url": "https://www.mlb.com/rangers",
+   "venues": [
+    "Globe Life Field"
+   ]
+  },
+  {
+   "team": "Dallas Cowboys",
+   "url": "https://www.dallascowboys.com",
+   "venues": [
+    "AT&T Stadium"
+   ]
+  },
+  {
+   "team": "Dallas Stars",
+   "url": "https://www.nhl.com/stars",
+   "venues": [
+    "American Airlines Center"
+   ]
+  },
+  {
+   "team": "Dallas Mavericks",
+   "url": "https://www.mavs.com",
+   "venues": [
+    "American Airlines Center"
+   ]
+  },
+  {
+   "team": "Dallas Wings",
+   "url": "https://dallaswings.com",
+   "venues": [
+    "College Park Center"
+   ]
+  },
+  {
+   "team": "UT Arlington Mavericks",
+   "url": "https://utamavs.com",
+   "venues": [
+    "College Park Center"
+   ]
+  },
+  {
+   "team": "FC Dallas",
+   "url": "https://www.fcdallas.com",
+   "venues": [
+    "Toyota Stadium"
+   ]
+  },
+  {
+   "team": "North Texas SC",
+   "url": "https://www.fcdallas.com/northtexassc/",
+   "venues": [
+    "Texas Health Mansfield Stadium"
+   ]
+  },
+  {
+   "team": "Frisco RoughRiders",
+   "url": "https://www.milb.com/frisco",
+   "venues": [
+    "Riders Field"
+   ]
+  },
+  {
+   "team": "TCU Horned Frogs",
+   "url": "https://gofrogs.com",
+   "venues": [
+    "Amon G. Carter Stadium",
+    "Ed and Rae Schollmaier Arena",
+    "Garvey-Rosenthal Soccer Stadium",
+    "Lupton Stadium"
+   ]
+  },
+  {
+   "team": "SMU Mustangs",
+   "url": "https://smumustangs.com",
+   "venues": [
+    "Gerald Ford Stadium",
+    "Moody Coliseum"
+   ]
+  },
+  {
+   "team": "North Texas Mean Green",
+   "url": "https://meangreensports.com",
+   "venues": [
+    "DATCU Stadium",
+    "North Texas Volleyball Center",
+    "Norma Knobel Hunt Stadium",
+    "UNT Coliseum"
+   ]
+  },
+  {
+   "team": "Lone Star Brahmas",
+   "url": "https://www.lonestarbrahmas.com",
+   "venues": [
+    "NYTEX Sports Centre"
+   ]
+  }
+ ],
  "civicplus_sites": [
   {
    "site": "https://garlandtx.gov",

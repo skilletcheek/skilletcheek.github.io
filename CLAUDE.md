@@ -933,7 +933,18 @@ carry a hand-set `venue`, used as both organizer and location because their
 `area` is always a neighborhood; the organizer url is the entry's `url` unless
 `venueUrl: null` says that link isn't the venue's own (a district
 association). Team home games set `organizer: {name, url}` to the team, which
-wins as organizer while `venue` stays the location. Area-wide entries — a crawl, a stroll — deliberately have none. The two layers agreed on all 172 venue names in the feed and `data.js`
+wins as organizer while `venue` stays the location.
+
+Feed games get the same from `tag_home_teams()`, run in `main()` right after
+`dedupe()` over every source, driven by `home_teams` in `feeds.json` (team,
+url, home venues). A row is tagged only when the team is on the **home side**
+of the title (`_home_side()`: "A vs. B" → A, "B at A" → A; text after a colon
+is ignored) **and** the event is at one of that team's venues. The venue half
+is load-bearing: the title alone names Oklahoma as host of Oklahoma vs. Texas
+at the Cotton Bowl and the Savannah Bananas as host at Globe Life Field.
+Ticketmaster has no home-team field and SeatGeek's could not be verified
+without a key, which is why this is data and not a fetcher change. A team
+whose home games stop being tagged has usually moved venues — add the venue. Area-wide entries — a crawl, a stroll — deliberately have none. The two layers agreed on all 172 venue names in the feed and `data.js`
 that day — rerun that comparison in the browser preview after touching either
 list. **Adding a source on a new
 marketplace or re-lister means adding its host to both lists.** Rows with no

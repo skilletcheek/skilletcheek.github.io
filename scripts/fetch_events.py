@@ -4034,6 +4034,66 @@ def _load_venue_districts() -> dict:
 _VENUE_DISTRICTS = _load_venue_districts()
 
 
+# "<home> vs. <away>" / "<away> at <home>". Only the first marker counts, and
+# anything after a colon is a promo ("...: Bobblehead Night"), never a team.
+_MATCHUP = re.compile(r"\s+(vs\.?|v\.?|at|@)\s+", re.I)
+
+
+def _home_side(title: str):
+    """The home half of a matchup title, or None when it isn't one."""
+    t = (title or "").split(":", 1)[0]
+    m = _MATCHUP.search(t)
+    if not m:
+        return None
+    return t[m.end():] if m.group(1).lower() in ("at", "@") else t[:m.start()]
+
+
+def _load_home_teams() -> list:
+    """feeds.json `home_teams` as [(team, url, lowered team, venue keys)].
+
+    An entry with no venues would name its team as the home side of every
+    matchup it appears in, anywhere -- exactly the neutral-site error the venue
+    list exists to prevent -- so that fails the run rather than degrading."""
+    try:
+        raw = json.loads(FEEDS_FILE.read_text()).get("home_teams", [])
+    except (OSError, ValueError):
+        return []
+    out = []
+    for t in raw:
+        if not (t.get("team") and t.get("venues")):
+            raise SystemExit(f"feeds.json home_teams: {t!r} needs a team and venues")
+        keys = {_venue_key(_VENUE_ALIASES.get(_venue_key(v), v)) for v in t["venues"]}
+        out.append((t["team"], t.get("url"), t["team"].lower(), keys))
+    return out
+
+
+def tag_home_teams(rows):
+    """Name the home team as organizer on its home games, in place.
+
+    Search Console reads `organizer` as the host, and for a game the host is the
+    home team, not the stadium. Runs after dedupe so it applies to whichever
+    source's row survived. A row a source already tagged (a city calendar) is
+    left alone. Returns how many rows were tagged, for the run log."""
+    teams = _load_home_teams()
+    tagged = 0
+    for r in rows:
+        if r.get("organizer") or r.get("category") != "sports":
+            continue
+        home = (_home_side(r.get("name")) or "").lower()
+        if not home:
+            continue
+        venue = _split_area(r.get("area", ""))[0]
+        if not venue:
+            continue
+        vkey = _venue_key(_VENUE_ALIASES.get(_venue_key(venue), venue))
+        for team, url, low, keys in teams:
+            if low in home and vkey in keys:
+                r["organizer"] = {"name": team, **({"url": url} if url else {})}
+                tagged += 1
+                break
+    return tagged
+
+
 def _venue_tokens(area: str) -> set:
     """Comparable token set for the venue half of an `area` string. Sources
     punctuate and suffix venues differently — "Cooper's Bar & Grill - Arlington"
@@ -4405,6 +4465,7 @@ def main():
     source_counts = {name: len(got) for name, got in sources}
 
     unique = dedupe(rows)
+    print(f"home teams: tagged {tag_home_teams(unique)} games")
 
     previous_count = None
     if OUT_FILE.exists():
