@@ -9,38 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:coi-small-business-leadership-series-ages-18-|central-library-garland|0
- 5-30-pm-2026-09-14@letsdoitdallas.com
-DTSTAMP:20260914T223000Z
-DTSTART:20260914T223000Z
-DTEND:20260915T013000Z
-SUMMARY:COI Small Business Leadership Series (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-14&e=coi-small-business-leader
- ship-series-ages-18-%7Ccentral-library-garland%7C05-30-pm
-DESCRIPTION:5:30 p.m.\; In this five-part workshop\, Jennifer Jordan (MBA\,
-  CPTD\, CPTM) of J2 Leadership and Learning Solutions\, will introduce asp
- iring entrepreneurs\, recent small business owners\, and established small
-  business owners to the COI (clarity\, ownership and independence) framewo
- rk — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:intro-to-laser-cutting-ages-13-|central-library-garland|06-00-pm-2026-0
- 9-14@letsdoitdallas.com
-DTSTAMP:20260914T230000Z
-DTSTART:20260914T230000Z
-DTEND:20260915T020000Z
-SUMMARY:Intro to Laser Cutting (Ages 13+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-14&e=intro-to-laser-cutting-ag
- es-13-%7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Learn to laser cut in this intro makerspace class. 
- This training class will set patrons up to use the laser cutter at the lib
- rary! Open to adults ages 13+ with a library card in good standing. Septem
- ber 14\, 2026 06:00 PM - 07:30 PM 625 Austin St.Garland\, TX 75040 https 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:baby-bounce-read-birth-18-months-|central-library-garland|10-00-am-2026
  -09-15@letsdoitdallas.com
 DTSTAMP:20260915T150000Z
@@ -1322,5 +1290,85 @@ DESCRIPTION:6:00 p.m.\; Learn how to build a strong brand\, identify and re
  al advocates for your business. This workshop is designed to help new entr
  epreneurs develop effective marketing strategies that support long-term 
  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-bounce-read-birth-18-months-|central-library-garland|10-00-am-2026
+ -09-29@letsdoitdallas.com
+DTSTAMP:20260929T150000Z
+DTSTART:20260929T150000Z
+DTEND:20260929T180000Z
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=baby-bounce-read-birth-18
+ -months-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
+  will learn\, play\, and grow together in this lap-sit storytime that intr
+ oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
+ y literacy practices into their everyday lives. September 29\, 2026 10:00 
+ AM - — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-18-36-months-|central-library-garland|11-00-am-2026-09-29@
+ letsdoitdallas.com
+DTSTAMP:20260929T160000Z
+DTSTART:20260929T160000Z
+DTEND:20260929T190000Z
+SUMMARY:Toddler Time (18-36 Months)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=toddler-time-18-36-months
+ -%7Ccentral-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Toddler Time is a storytime for children ages 18 m
+ onths to 3 years old. Toddler Time storytimes will be a mixture of age app
+ ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
+ rachute play. September 29\, 2026 11:00 AM - 12:00 PM 625 Austin St.Garlan
+ d\, — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-09-29@letsdoitdallas.com
+DTSTAMP:20260929T210000Z
+DTSTART:20260929T210000Z
+DTEND:20260930T000000Z
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=teenz-place-after-school-
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
+DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
+ eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
+  snacks while supplies last. Bring your friends! September 29\, 2026 04:00
+  PM - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garland 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:sewing-lab-ages-13-|central-library-garland|05-00-pm-2026-09-29@letsdoi
+ tdallas.com
+DTSTAMP:20260929T220000Z
+DTSTART:20260929T220000Z
+DTEND:20260930T010000Z
+SUMMARY:Sewing Lab (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=sewing-lab-ages-13-%7Ccen
+ tral-library-garland%7C05-00-pm
+DESCRIPTION:5:00 p.m.\; Join us for the Sewing Lab — a dedicated makerspa
+ ce time just for sewing enthusiasts! Bring your ideas and use any of our 1
+ 0 sewing machines\, cutting tools and pressing equipment while receiving h
+ elp in reading patterns\, cutting fabric and troubleshooting stitches. Con
+  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:cuentos-y-cantos-0-5-a-os-|biblioteca-south-garland-garland|06-30-pm-20
+ 26-09-29@letsdoitdallas.com
+DTSTAMP:20260929T233000Z
+DTSTART:20260929T233000Z
+DTEND:20260930T023000Z
+SUMMARY:Cuentos y Cantos (0-5 Años)
+LOCATION:Biblioteca South Garland
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=cuentos-y-cantos-0-5-a-os
+ -%7Cbiblioteca-south-garland-garland%7C06-30-pm
+DESCRIPTION:6:30 p.m.\; Acompáñenos para unos cuentos y cantos mientras a
+ prendemos sobre temas escolares y lo más importante\, las habilidades nec
+ esarias para leer. September 29\, 2026 06:30 PM - 07:30 PM 4845 Broadway B
+ lvd.Garland\, TX 75043 https://www.garlandtx.gov/Calendar.aspx?EID=13103/6
+ 39 — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 END:VCALENDAR

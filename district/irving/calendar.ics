@@ -11,19 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:jill-scott-to-whom-this-may-concern-tour|the-pavilion-at-toyota-music-f
- actory-irving|8-00-pm-2026-09-14@letsdoitdallas.com
-DTSTAMP:20260915T010000Z
-DTSTART:20260915T010000Z
-DTEND:20260915T040000Z
-SUMMARY:Jill Scott - To Whom This May Concern Tour
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-14&e=jill-scott-to-whom-this-m
- ay-concern-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:jill-scott-to-whom-this-may-concern-tour|the-pavilion-at-toyota-music-f
  actory-irving|8-00-pm-2026-09-15@letsdoitdallas.com
 DTSTAMP:20260916T010000Z
 DTSTART:20260916T010000Z
@@ -34,24 +21,6 @@ URL:https://letsdoitdallas.com/?date=2026-09-15&e=jill-scott-to-whom-this-m
  ay-concern-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
 DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:meet-the-maker-bourbon-pairing-dinner-with-nancy-garrison|inso-social-3
- 165-regent-blvd-irving-tx-75063-united-states|6-30-pm-2026-09-16@letsdoitd
- allas.com
-DTSTAMP:20260916T233000Z
-DTSTART:20260916T233000Z
-DTEND:20260917T023000Z
-SUMMARY:Meet the Maker Bourbon Pairing Dinner with Nancy Garrison
-LOCATION:InSo Social · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=meet-the-maker-bourbon-pa
- iring-dinner-with-nancy-garrison%7Cinso-social-3165-regent-blvd-irving-tx-
- 75063-united-states%7C6-30-pm
-DESCRIPTION:Join us for a Meet the Maker Bourbon Pairing Dinner at InSo Soc
- ial with Nancy Garrison. Savor an unforgettable night of fine dining featu
- ring a five course menu paired perfectly with the bold flavors of Garrison
-  Brothers legendary bourbon. Tickets are priced at $204.14.  Take a l — 
- More: https://letsdoitdallas.com/district/irving/
 END:VEVENT
 BEGIN:VEVENT
 UID:ken-carson-xperimenting-tour|the-pavilion-at-toyota-music-factory-irvin
@@ -169,6 +138,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-20&e=cynthia-lee-fontaine-pres
  ents-drag-brunch-at-the-punch%7Cpunch-line-irving-irving%7C12-00-pm
 DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
  oitdallas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:candlelight-coldplay-imagine-dragons|irving-arts-center-irving|4-00-pm-
+ 2026-09-20@letsdoitdallas.com
+DTSTAMP:20260920T210000Z
+DTSTART:20260920T210000Z
+DTEND:20260921T000000Z
+SUMMARY:Candlelight: Coldplay & Imagine Dragons
+LOCATION:Irving Arts Center
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=candlelight-coldplay-imag
+ ine-dragons%7Cirving-arts-center-irving%7C4-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/irving/
 END:VEVENT
 BEGIN:VEVENT
 UID:abelardo-en-espa-ol-|punch-line-irving-irving|7-00-pm-2026-09-20@letsdo

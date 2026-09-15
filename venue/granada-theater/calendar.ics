@@ -163,17 +163,17 @@ DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:epik-high-3-0-north-american-tour|granada-theater-lower-greenville-dall
- as|doors-see-listing-2026-10-13@letsdoitdallas.com
-DTSTAMP:20261013T000000Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
+UID:epik-high-3-0-north-american-tour|granada-theater-tx-dallas|8-00-pm-202
+ 6-10-13@letsdoitdallas.com
+DTSTAMP:20261014T010000Z
+DTSTART:20261014T010000Z
+DTEND:20261014T040000Z
 SUMMARY:EPIK HIGH 3.0 NORTH AMERICAN TOUR
-LOCATION:Granada Theater · Dallas
+LOCATION:Granada Theater - TX · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-13&e=epik-high-3-0-north-ameri
- can-tour%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
+ can-tour%7Cgranada-theater-tx-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:find-out-media-the-f-ck-around-and-find-out-tour|granada-theater-lower-

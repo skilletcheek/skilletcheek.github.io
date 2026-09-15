@@ -177,4 +177,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=pierre-bensusan-the-infin
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
+BEGIN:VEVENT
+UID:rich-o-toole-at-poor-david-s|poor-david-s-pub-dallas|doors-see-listing-
+ 2026-10-15@letsdoitdallas.com
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Rich O'Toole at Poor David's
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=rich-o-toole-at-poor-davi
+ d-s%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
 END:VCALENDAR

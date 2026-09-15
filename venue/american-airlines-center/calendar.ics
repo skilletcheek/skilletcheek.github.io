@@ -203,4 +203,30 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=kacey-musgraves-middle-of
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/american-airlines-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:dallas-stars-vs-colorado-avalanche|american-airlines-center-dallas|7-30
+ -pm-2026-10-13@letsdoitdallas.com
+DTSTAMP:20261014T003000Z
+DTSTART:20261014T003000Z
+DTEND:20261014T033000Z
+SUMMARY:Dallas Stars vs. Colorado Avalanche
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=dallas-stars-vs-colorado-
+ avalanche%7Camerican-airlines-center-dallas%7C7-30-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-v-new-orleans-pelicans-preseason|american-airlines-cen
+ ter-dallas|7-00-pm-2026-10-14@letsdoitdallas.com
+DTSTAMP:20261015T000000Z
+DTSTART:20261015T000000Z
+DTEND:20261015T030000Z
+SUMMARY:Dallas Mavericks v New Orleans Pelicans: Preseason
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=dallas-mavericks-v-new-or
+ leans-pelicans-preseason%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/american-airlines-center/
+END:VEVENT
 END:VCALENDAR

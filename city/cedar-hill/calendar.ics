@@ -9,54 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:braiding-101|310-e-parkerville-road-cedar-hill|05-00-pm-2026-09-14@lets
- doitdallas.com
-DTSTAMP:20260914T220000Z
-DTSTART:20260914T220000Z
-DTEND:20260915T010000Z
-SUMMARY:Braiding 101
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-14&e=braiding-101%7C310-e-park
- erville-road-cedar-hill%7C05-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:canva-for-adults|310-e-parkerville-road-cedar-hill|06-00-pm-2026-09-14@
- letsdoitdallas.com
-DTSTAMP:20260914T230000Z
-DTSTART:20260914T230000Z
-DTEND:20260915T020000Z
-SUMMARY:Canva for Adults
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-14&e=canva-for-adults%7C310-e-
- parkerville-road-cedar-hill%7C06-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:step-aerobics-extreme-hip-hop|310-e-parkerville-road-cedar-hill|06-00-p
- m-2026-09-14@letsdoitdallas.com
-DTSTAMP:20260914T230000Z
-DTSTART:20260914T230000Z
-DTEND:20260915T020000Z
-SUMMARY:Step Aerobics/Extreme Hip Hop
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-14&e=step-aerobics-extreme-hip
- -hop%7C310-e-parkerville-road-cedar-hill%7C06-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:lp-dance-ages-3-7-|310-e-parkerville-road-cedar-hill|07-15-pm-2026-09-1
- 4@letsdoitdallas.com
-DTSTAMP:20260915T001500Z
-DTSTART:20260915T001500Z
-DTEND:20260915T031500Z
-SUMMARY:LP Dance (Ages 3-7)
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-14&e=lp-dance-ages-3-7-%7C310-
- e-parkerville-road-cedar-hill%7C07-15-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:yogalates|310-e-parkerville-road-cedar-hill|12-00-pm-2026-09-15@letsdoi
  tdallas.com
 DTSTAMP:20260915T170000Z
@@ -1169,6 +1121,70 @@ SUMMARY:LP Dance (Ages 3-7)
 LOCATION:310 E. Parkerville Road · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-09-28&e=lp-dance-ages-3-7-%7C310-
  e-parkerville-road-cedar-hill%7C07-15-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:yogalates|310-e-parkerville-road-cedar-hill|12-00-pm-2026-09-29@letsdoi
+ tdallas.com
+DTSTAMP:20260929T170000Z
+DTSTART:20260929T170000Z
+DTEND:20260929T200000Z
+SUMMARY:Yogalates
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=yogalates%7C310-e-parkerv
+ ille-road-cedar-hill%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:chat-youth-empowerment-program|310-e-parkerville-road-cedar-hill|04-00-
+ pm-2026-09-29@letsdoitdallas.com
+DTSTAMP:20260929T210000Z
+DTSTART:20260929T210000Z
+DTEND:20260930T000000Z
+SUMMARY:CHAT Youth Empowerment Program
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=chat-youth-empowerment-pr
+ ogram%7C310-e-parkerville-road-cedar-hill%7C04-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-is-life|310-e-parkerville-road-cedar-hill|05-00-pm-2026-09-29@letsd
+ oitdallas.com
+DTSTAMP:20260929T220000Z
+DTSTART:20260929T220000Z
+DTEND:20260930T010000Z
+SUMMARY:Art is Life
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=art-is-life%7C310-e-parke
+ rville-road-cedar-hill%7C05-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:zumba-in-the-park|104-s-broad-st-cedar-hill|06-45-pm-2026-09-29@letsdoi
+ tdallas.com
+DTSTAMP:20260929T234500Z
+DTSTART:20260929T234500Z
+DTEND:20260930T024500Z
+SUMMARY:Zumba in the Park
+LOCATION:104 S Broad St. · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=zumba-in-the-park%7C104-s
+ -broad-st-cedar-hill%7C06-45-pm
+DESCRIPTION:Zumba in the Park returns September 1\, bringing back the music
+ \, the energy\, and the community spirit that makes this one of Cedar Hill
+ 's most-loved annual fitness programs. Come dance\, get active\, and enjoy
+  beautiful evenings outdoors with fellow residents. Best of all\, it's com
+ p — More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:beginner-s-yoga|310-e-parkerville-road-cedar-hill|07-00-pm-2026-09-29@l
+ etsdoitdallas.com
+DTSTAMP:20260930T000000Z
+DTSTART:20260930T000000Z
+DTEND:20260930T030000Z
+SUMMARY:Beginner's Yoga
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=beginner-s-yoga%7C310-e-p
+ arkerville-road-cedar-hill%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 END:VCALENDAR

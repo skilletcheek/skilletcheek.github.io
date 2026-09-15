@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:psychedelic-porn-crumpets|am-fm-dallas-dallas|7-00-pm-2026-09-14@letsdo
- itdallas.com
-DTSTAMP:20260915T000000Z
-DTSTART:20260915T000000Z
-DTEND:20260915T030000Z
-SUMMARY:Psychedelic Porn Crumpets
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-14&e=psychedelic-porn-crumpets
- %7Cam-fm-dallas-dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/am-fm-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:son-little|am-fm-dallas-dallas|7-00-pm-2026-09-15@letsdoitdallas.com
 DTSTAMP:20260916T000000Z
 DTSTART:20260916T000000Z
