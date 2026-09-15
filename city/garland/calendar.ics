@@ -9,54 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:baby-bounce-read-birth-18-months-|central-library-garland|10-00-am-2026
- -09-15@letsdoitdallas.com
-DTSTAMP:20260915T150000Z
-DTSTART:20260915T150000Z
-DTEND:20260915T180000Z
-SUMMARY:Baby Bounce & Read (Birth-18 Months)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=baby-bounce-read-birth-18
- -months-%7Ccentral-library-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
-  will learn\, play\, and grow together in this lap-sit storytime that intr
- oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
- y literacy practices into their everyday lives. September 15\, 2026 10:00 
- AM - — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:toddler-time-18-36-months-|central-library-garland|11-00-am-2026-09-15@
- letsdoitdallas.com
-DTSTAMP:20260915T160000Z
-DTSTART:20260915T160000Z
-DTEND:20260915T190000Z
-SUMMARY:Toddler Time (18-36 Months)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=toddler-time-18-36-months
- -%7Ccentral-library-garland%7C11-00-am
-DESCRIPTION:11:00 a.m.\; Toddler Time is a storytime for children ages 18 m
- onths to 3 years old. Toddler Time storytimes will be a mixture of age app
- ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
- rachute play. September 15\, 2026 11:00 AM - 12:00 PM 625 Austin St.Garlan
- d\, — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:homeschool-libratory-human-body-ages-6-12-|south-garland-library-garlan
- d|12-30-pm-2026-09-15@letsdoitdallas.com
-DTSTAMP:20260915T173000Z
-DTSTART:20260915T173000Z
-DTEND:20260915T203000Z
-SUMMARY:Homeschool Libratory: Human Body (Ages 6-12)
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=homeschool-libratory-huma
- n-body-ages-6-12-%7Csouth-garland-library-garland%7C12-30-pm
-DESCRIPTION:12:30 p.m.\; Spend an afternoon exploring hands-on STEAM activi
- ties\, sharing what you’re reading and learning with your fellow homesch
- oolers! Families considering homeschooling are welcome. Caregivers are exp
- ected to engage in the activities alongside their students. Activities ar 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
  |04-00-pm-2026-09-15@letsdoitdallas.com
 DTSTAMP:20260915T210000Z
@@ -1370,5 +1322,18 @@ DESCRIPTION:6:30 p.m.\; Acompáñenos para unos cuentos y cantos mientras a
  esarias para leer. September 29\, 2026 06:30 PM - 07:30 PM 4845 Broadway B
  lvd.Garland\, TX 75043 https://www.garlandtx.gov/Calendar.aspx?EID=13103/6
  39 — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:mijares|curtis-culwell-center-garland|8-00-pm-2026-10-09@letsdoitdallas
+ .com
+DTSTAMP:20261010T010000Z
+DTSTART:20261010T010000Z
+DTEND:20261010T040000Z
+SUMMARY:Mijares
+LOCATION:Curtis Culwell Center · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=mijares%7Ccurtis-culwell-
+ center-garland%7C8-00-pm
+DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
+ com/city/garland/
 END:VEVENT
 END:VCALENDAR

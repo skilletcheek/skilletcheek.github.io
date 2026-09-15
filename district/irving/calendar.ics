@@ -23,6 +23,24 @@ DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/irving/
 END:VEVENT
 BEGIN:VEVENT
+UID:meet-the-maker-bourbon-pairing-dinner-with-nancy-garrison|inso-social-3
+ 165-regent-blvd-irving-tx-75063-united-states|6-30-pm-2026-09-16@letsdoitd
+ allas.com
+DTSTAMP:20260916T233000Z
+DTSTART:20260916T233000Z
+DTEND:20260917T023000Z
+SUMMARY:Meet the Maker Bourbon Pairing Dinner with Nancy Garrison
+LOCATION:InSo Social · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=meet-the-maker-bourbon-pa
+ iring-dinner-with-nancy-garrison%7Cinso-social-3165-regent-blvd-irving-tx-
+ 75063-united-states%7C6-30-pm
+DESCRIPTION:Join us for a Meet the Maker Bourbon Pairing Dinner at InSo Soc
+ ial with Nancy Garrison. Savor an unforgettable night of fine dining featu
+ ring a five course menu paired perfectly with the bold flavors of Garrison
+  Brothers legendary bourbon. Tickets are priced at $204.14.  Take a l — 
+ More: https://letsdoitdallas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
 UID:ken-carson-xperimenting-tour|the-pavilion-at-toyota-music-factory-irvin
  g|7-30-pm-2026-09-16@letsdoitdallas.com
 DTSTAMP:20260917T003000Z
@@ -294,6 +312,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-25&e=an-evening-with-tyler-fis
  cher%7Cpunch-line-irving-irving%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:tyler-fischer-rescheduled-from-1-23-26-|punch-line-dallas-irvine-irving
+ |9-45-pm-2026-09-25@letsdoitdallas.com
+DTSTAMP:20260926T024500Z
+DTSTART:20260926T024500Z
+DTEND:20260926T054500Z
+SUMMARY:Tyler Fischer (Rescheduled from 1/23/26)
+LOCATION:Punch Line Dallas - Irvine · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=tyler-fischer-rescheduled
+ -from-1-23-26-%7Cpunch-line-dallas-irvine-irving%7C9-45-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/irving/
 END:VEVENT
 BEGIN:VEVENT
 UID:an-evening-with-tyler-fischer|punch-line-irving-irving|7-00-pm-2026-09-

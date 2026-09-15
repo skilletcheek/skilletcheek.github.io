@@ -10,37 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:art-studio-18-|grapevine|10-00-am-2026-09-15@letsdoitdallas.com
-DTSTAMP:20260915T150000Z
-DTSTART:20260915T150000Z
-DTEND:20260915T180000Z
-SUMMARY:Art Studio (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=art-studio-18-%7Cgrapevin
- e%7C10-00-am
-DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
- our own projects or start something new. Bring your own project and ideas!
-  This is a welcoming space for creatives 18+. *Library Card Required* Sept
- ember 15\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grap 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-09-15@letsd
- oitdallas.com
-DTSTAMP:20260915T153000Z
-DTSTART:20260915T153000Z
-DTEND:20260915T183000Z
-SUMMARY:Storytime for Toddlers/Preschoolers
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=storytime-for-toddlers-pr
- eschoolers%7Cgrapevine%7C10-30-am
-DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
- welcome and no registrations is needed. (This is a Ticketed Program\; plea
- se stop at the Children's Desk 15 minutes before the program to receive ti
- ckets. 1 per attendee.) September 15\, 2026 10:30 AM - 11:00 AM Grapevine 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:virtual-author-talk-with-priya-parker|grapevine|03-00-pm-2026-09-15@let
  sdoitdallas.com
 DTSTAMP:20260915T200000Z
@@ -212,6 +181,21 @@ URL:https://letsdoitdallas.com/?date=2026-09-17&e=40th-annual-grapefest-a-t
 DESCRIPTION:Raise a glass at GrapeFest &#8211\; A Texas Wine Experience\, t
  he largest wine festival in the Southwest\, featuring four days of wine ta
  stings\,... — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:grapefest|main-street-grapevine|all-day-2026-09-17@letsdoitdallas.com
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Grapefest
+LOCATION:Main Street Grapevine
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=grapefest%7Cmain-street-g
+ rapevine%7Call-day
+DESCRIPTION:GrapeFest offers a variety of fun for all members of the famil
+ y! Find exciting wine-related events\, including the People’s Choice Wi
+ ne Tasting Classic\, GrapeStomp and the Champagne Cork Shoot-Off. Wine
+  lovers are sure to find something fun to celebrate the fruit of the vine 
+ at Gr — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:music-and-movement|grapevine|10-30-am-2026-09-17@letsdoitdallas.com

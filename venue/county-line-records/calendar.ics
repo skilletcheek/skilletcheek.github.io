@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:County Line Records — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at County Line Records.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:county-line-records-wmg-vinyl-take-back-event|county-line-records-600-n
+ -main-st-building-b-keller-tx-76248-united-states|11-00-am-2026-09-15@lets
+ doitdallas.com
+DTSTAMP:20260915T160000Z
+DTSTART:20260915T160000Z
+DTEND:20260915T190000Z
+SUMMARY:County Line Records & WMG Vinyl Take-Back Event
+LOCATION:County Line Records · Keller
+URL:https://letsdoitdallas.com/?date=2026-09-15&e=county-line-records-wmg-v
+ inyl-take-back-event%7Ccounty-line-records-600-n-main-st-building-b-keller
+ -tx-76248-united-states%7C11-00-am
+DESCRIPTION:Drop into County Line Records for an afternoon of crate digging
+ . While you’re there drop off your damaged or unplayable vinyl records t
+ o help support vinyl recycling efforts! Collection bins will be out throug
+ h the end of September. — More: https://letsdoitdallas.com/venue/county-
+ line-records/
+END:VEVENT
+BEGIN:VEVENT
+UID:county-line-records-wmg-vinyl-take-back-event|county-line-records-600-n
+ -main-st-building-b-keller-tx-76248-united-states|11-00-am-2026-09-16@lets
+ doitdallas.com
+DTSTAMP:20260916T160000Z
+DTSTART:20260916T160000Z
+DTEND:20260916T190000Z
+SUMMARY:County Line Records & WMG Vinyl Take-Back Event
+LOCATION:County Line Records · Keller
+URL:https://letsdoitdallas.com/?date=2026-09-16&e=county-line-records-wmg-v
+ inyl-take-back-event%7Ccounty-line-records-600-n-main-st-building-b-keller
+ -tx-76248-united-states%7C11-00-am
+DESCRIPTION:Drop into County Line Records for an afternoon of crate digging
+ . While you’re there drop off your damaged or unplayable vinyl records t
+ o help support vinyl recycling efforts! Collection bins will be out throug
+ h the end of September. — More: https://letsdoitdallas.com/venue/county-
+ line-records/
+END:VEVENT
+BEGIN:VEVENT
+UID:county-line-records-wmg-vinyl-take-back-event|county-line-records-600-n
+ -main-st-building-b-keller-tx-76248-united-states|11-00-am-2026-09-17@lets
+ doitdallas.com
+DTSTAMP:20260917T160000Z
+DTSTART:20260917T160000Z
+DTEND:20260917T190000Z
+SUMMARY:County Line Records & WMG Vinyl Take-Back Event
+LOCATION:County Line Records · Keller
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=county-line-records-wmg-v
+ inyl-take-back-event%7Ccounty-line-records-600-n-main-st-building-b-keller
+ -tx-76248-united-states%7C11-00-am
+DESCRIPTION:Drop into County Line Records for an afternoon of crate digging
+ . While you’re there drop off your damaged or unplayable vinyl records t
+ o help support vinyl recycling efforts! Collection bins will be out throug
+ h the end of September. — More: https://letsdoitdallas.com/venue/county-
+ line-records/
+END:VEVENT
+END:VCALENDAR
