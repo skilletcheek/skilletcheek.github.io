@@ -10,37 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:stem-lab-18-|grapevine|10-00-am-2026-09-16@letsdoitdallas.com
-DTSTAMP:20260916T150000Z
-DTSTART:20260916T150000Z
-DTEND:20260916T180000Z
-SUMMARY:STEM Lab (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=stem-lab-18-%7Cgrapevine%
- 7C10-00-am
-DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
- at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
- ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
- edgeable staff will be available to provide guidance\, tips\, and support 
- as — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-09-16@letsd
- oitdallas.com
-DTSTAMP:20260916T153000Z
-DTSTART:20260916T153000Z
-DTEND:20260916T183000Z
-SUMMARY:Storytime for Toddlers/Preschoolers
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=storytime-for-toddlers-pr
- eschoolers%7Cgrapevine%7C10-30-am
-DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
- welcome and no registrations is needed. (This is a Ticketed Program\; plea
- se stop at the Children's Desk 15 minutes before the program to receive ti
- ckets. 1 per attendee.) September 16\, 2026 10:30 AM - 11:00 AM Grapevine 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:learn-about-the-consitution|grapevine|04-00-pm-2026-09-16@letsdoitdalla
  s.com
 DTSTAMP:20260916T210000Z

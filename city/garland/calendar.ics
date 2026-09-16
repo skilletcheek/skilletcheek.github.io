@@ -9,70 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:baby-bounce-read-birth-18-months-|north-garland-library-garland|10-00-a
- m-2026-09-16@letsdoitdallas.com
-DTSTAMP:20260916T150000Z
-DTSTART:20260916T150000Z
-DTEND:20260916T180000Z
-SUMMARY:Baby Bounce & Read (Birth-18 Months)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=baby-bounce-read-birth-18
- -months-%7Cnorth-garland-library-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
-  will learn\, play\, and grow together in this lap-sit storytime that intr
- oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
- y literacy practices into their everyday lives. September 16\, 2026 10:00 
- AM - — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:family-read-play-ages-0-5-|west-garland-library-garland|10-30-am-2026-0
- 9-16@letsdoitdallas.com
-DTSTAMP:20260916T153000Z
-DTSTART:20260916T153000Z
-DTEND:20260916T183000Z
-SUMMARY:Family Read & Play (Ages 0-5)
-LOCATION:West Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=family-read-play-ages-0-5
- -%7Cwest-garland-library-garland%7C10-30-am
-DESCRIPTION:10:30 a.m.\; The whole family will learn\, play\, and grow duri
- ng this interactive storytime full of stories\, creative movement\, and so
- ngs that will strengthen listening\, language\, and early literacy skills.
-  This storytime is ideal for children from birth to 5 years old and their 
- ca — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:play-learn-0-5-years-|north-garland-library-garland|11-00-am-2026-09-16
- @letsdoitdallas.com
-DTSTAMP:20260916T160000Z
-DTSTART:20260916T160000Z
-DTEND:20260916T190000Z
-SUMMARY:Play & Learn (0-5 Years)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=play-learn-0-5-years-%7Cn
- orth-garland-library-garland%7C11-00-am
-DESCRIPTION:11:00 a.m.\; It’s playtime! Families can participate in Play 
- & Learn\, a weekly event where children ages 0-5 and their caregivers can 
- enjoy an assortment of toys\, games and activities that foster imagination
- \, creativity and problem-solving. September 16\, 2026 11:00 AM - 12:00 PM
-  3 — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:preschool-discovery-3-5-years-|south-garland-library-garland|11-00-am-2
- 026-09-16@letsdoitdallas.com
-DTSTAMP:20260916T160000Z
-DTSTART:20260916T160000Z
-DTEND:20260916T190000Z
-SUMMARY:Preschool Discovery (3-5 Years)
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=preschool-discovery-3-5-y
- ears-%7Csouth-garland-library-garland%7C11-00-am
-DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
- ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
- ters\, numbers\, and much more that will help develop your preschooler's e
- arly literacy skills. September 16\, 2026 11:00 AM - 12:00 PM 4845 Broadwa
- y — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:scams-uncovered-ai-deception-and-protecting-yourself-in-a-digital-world
  |central-library-garland|02-00-pm-2026-09-16@letsdoitdallas.com
 DTSTAMP:20260916T190000Z
@@ -926,6 +862,22 @@ DESCRIPTION:5:00 p.m.\; Join us for a fun read-aloud book club with activit
  More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
+UID:understanding-the-homebuying-process|central-library-garland|06-00-pm-2
+ 026-09-24@letsdoitdallas.com
+DTSTAMP:20260924T230000Z
+DTSTART:20260924T230000Z
+DTEND:20260925T020000Z
+SUMMARY:Understanding the Homebuying Process
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=understanding-the-homebuy
+ ing-process%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Join us for a homebuying workshop presented by Peop
+ les Mortgage Company. Discover what mortgage underwriters look at when rev
+ iewing your loan application\, what documents you may need and how you can
+  better prepare for the home buying process. September 24\, 2026 06:00 P 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
 UID:thrills-chills-book-club-ages-18-|central-library-garland|06-30-pm-2026
  -09-24@letsdoitdallas.com
 DTSTAMP:20260924T233000Z
@@ -1060,6 +1012,22 @@ DESCRIPTION:10:00 a.m.\; Families with children ages 0-5 can enjoy Play & L
  — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
+UID:ai-under-the-hood-ages-18-|south-garland-library-garland|10-30-am-2026-
+ 09-26@letsdoitdallas.com
+DTSTAMP:20260926T153000Z
+DTSTART:20260926T153000Z
+DTEND:20260926T183000Z
+SUMMARY:AI: Under the Hood (Ages 18+)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=ai-under-the-hood-ages-18
+ -%7Csouth-garland-library-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; This session is for anyone who feels like they’v
+ e been left behind by all of the new features and changes to generative AI
+ . Questions like “How is Google’s AI able to answer most questions mos
+ tly correct?” and “What is Agentic AI and why do people care about it
+ ” will — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
 UID:mid-autumn-festival-family-event|west-garland-library-garland|10-30-am-
  2026-09-26@letsdoitdallas.com
 DTSTAMP:20260926T153000Z
@@ -1117,15 +1085,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-26&e=little-shop-of-horrors-pr
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
- -state-street-garland|02-00-pm-2026-09-27@letsdoitdallas.com
+UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|300-n
+ -fifth-street-garland|02-00-pm-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260927T190000Z
 DTSTART:20260927T190000Z
 DTEND:20260927T220000Z
 SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
-LOCATION:521 W State Street · Garland
+LOCATION:300 N Fifth Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-27&e=little-shop-of-horrors-pr
- esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C02
+ esented-by-company-of-rowlett-performers%7C300-n-fifth-street-garland%7C02
  -00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT

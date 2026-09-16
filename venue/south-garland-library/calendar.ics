@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:preschool-discovery-3-5-years-|south-garland-library-garland|11-00-am-2
- 026-09-16@letsdoitdallas.com
-DTSTAMP:20260916T160000Z
-DTSTART:20260916T160000Z
-DTEND:20260916T190000Z
-SUMMARY:Preschool Discovery (3-5 Years)
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=preschool-discovery-3-5-y
- ears-%7Csouth-garland-library-garland%7C11-00-am
-DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
- ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
- ters\, numbers\, and much more that will help develop your preschooler's e
- arly literacy skills. September 16\, 2026 11:00 AM - 12:00 PM 4845 Broadwa
- y — More: https://letsdoitdallas.com/venue/south-garland-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:scams-uncovered-ai-deception-and-protecting-yourself-in-a-digital-world
  |south-garland-library-garland|02-00-pm-2026-09-17@letsdoitdallas.com
 DTSTAMP:20260917T190000Z
@@ -206,6 +190,22 @@ DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
  oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
  y literacy practices into their everyday lives. September 25\, 2026 10:00 
  AM - — More: https://letsdoitdallas.com/venue/south-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:ai-under-the-hood-ages-18-|south-garland-library-garland|10-30-am-2026-
+ 09-26@letsdoitdallas.com
+DTSTAMP:20260926T153000Z
+DTSTART:20260926T153000Z
+DTEND:20260926T183000Z
+SUMMARY:AI: Under the Hood (Ages 18+)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=ai-under-the-hood-ages-18
+ -%7Csouth-garland-library-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; This session is for anyone who feels like they’v
+ e been left behind by all of the new features and changes to generative AI
+ . Questions like “How is Google’s AI able to answer most questions mos
+ tly correct?” and “What is Agentic AI and why do people care about it
+ ” will — More: https://letsdoitdallas.com/venue/south-garland-library/
 END:VEVENT
 BEGIN:VEVENT
 UID:cuentos-y-cantos-0-5-a-os-|biblioteca-south-garland-garland|06-30-pm-20

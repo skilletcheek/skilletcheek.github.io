@@ -9,30 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:55-fitness-class|310-e-parkerville-road-cedar-hill|08-15-am-2026-09-16@
- letsdoitdallas.com
-DTSTAMP:20260916T131500Z
-DTSTART:20260916T131500Z
-DTEND:20260916T161500Z
-SUMMARY:55+ Fitness Class
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=55-fitness-class%7C310-e-
- parkerville-road-cedar-hill%7C08-15-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:lunch-circuit|310-e-parkerville-road-cedar-hill|12-00-pm-2026-09-16@let
- sdoitdallas.com
-DTSTAMP:20260916T170000Z
-DTSTART:20260916T170000Z
-DTEND:20260916T200000Z
-SUMMARY:Lunch Circuit
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=lunch-circuit%7C310-e-par
- kerville-road-cedar-hill%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:art-is-life|310-e-parkerville-road-cedar-hill|05-00-pm-2026-09-16@letsd
  oitdallas.com
 DTSTAMP:20260916T220000Z
@@ -848,6 +824,18 @@ URL:https://letsdoitdallas.com/?date=2026-09-26&e=step-aerobics-extreme-hip
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
+UID:6th-annual-veteran-s-resource-fair|310-e-parkerville-road-cedar-hill|09
+ -00-am-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T140000Z
+DTSTART:20260926T140000Z
+DTEND:20260926T170000Z
+SUMMARY:6th Annual Veteran’s Resource Fair
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=6th-annual-veteran-s-reso
+ urce-fair%7C310-e-parkerville-road-cedar-hill%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
 UID:annual-neighborhood-summit|450-pioneer-trail-cedar-hill|09-00-am-2026-0
  9-26@letsdoitdallas.com
 DTSTAMP:20260926T140000Z
@@ -860,15 +848,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-26&e=annual-neighborhood-summi
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
-UID:cedar-hill-farmers-market|600-cedar-st-cedar-hill|09-00-am-2026-09-26@l
- etsdoitdallas.com
+UID:cedar-hill-farmers-market|104-s-broad-st-cedar-hill|09-00-am-2026-09-26
+ @letsdoitdallas.com
 DTSTAMP:20260926T140000Z
 DTSTART:20260926T140000Z
 DTEND:20260926T170000Z
 SUMMARY:Cedar Hill Farmers Market
-LOCATION:600 Cedar St. · Cedar Hill
+LOCATION:104 S Broad St. · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-09-26&e=cedar-hill-farmers-market
- %7C600-cedar-st-cedar-hill%7C09-00-am
+ %7C104-s-broad-st-cedar-hill%7C09-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
@@ -881,30 +869,6 @@ SUMMARY:40+ Double Dutch
 LOCATION:310 E. Parkerville Road · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-09-26&e=40-double-dutch%7C310-e-p
  arkerville-road-cedar-hill%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:6th-annual-veterans-resource-fair|310-e-parkerville-rd-cedar-hill|10-00
- -am-2026-09-26@letsdoitdallas.com
-DTSTAMP:20260926T150000Z
-DTSTART:20260926T150000Z
-DTEND:20260926T180000Z
-SUMMARY:6th Annual Veterans Resource Fair
-LOCATION:310 E. Parkerville Rd. · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=6th-annual-veterans-resou
- rce-fair%7C310-e-parkerville-rd-cedar-hill%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:6th-annual-veteran-s-resource-fair|310-e-parkerville-road-cedar-hill|10
- -00-am-2026-09-26@letsdoitdallas.com
-DTSTAMP:20260926T150000Z
-DTSTART:20260926T150000Z
-DTEND:20260926T180000Z
-SUMMARY:6th Annual Veteran’s Resource Fair
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=6th-annual-veteran-s-reso
- urce-fair%7C310-e-parkerville-road-cedar-hill%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
