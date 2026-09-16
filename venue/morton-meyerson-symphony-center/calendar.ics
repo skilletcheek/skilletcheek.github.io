@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lang-lang-w-dallas-symphony-orchestra|morton-meyerson-symphony-center-d
- allas|7-30-pm-2026-09-15@letsdoitdallas.com
-DTSTAMP:20260916T003000Z
-DTSTART:20260916T003000Z
-DTEND:20260916T033000Z
-SUMMARY:Lang Lang w/ Dallas Symphony Orchestra
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=lang-lang-w-dallas-sympho
- ny-orchestra%7Cmorton-meyerson-symphony-center-dallas%7C7-30-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/venue/morton-meyerson-symphony-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-symphony-orchestra-zade-dirani-live-in-concert|morton-meyerson-s
  ymphony-center-dallas|8-00-pm-2026-09-18@letsdoitdallas.com
 DTSTAMP:20260919T010000Z

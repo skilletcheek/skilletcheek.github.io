@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cuentos-y-cantos-0-5-a-os-|biblioteca-south-garland-garland|06-30-pm-20
- 26-09-15@letsdoitdallas.com
-DTSTAMP:20260915T233000Z
-DTSTART:20260915T233000Z
-DTEND:20260916T023000Z
-SUMMARY:Cuentos y Cantos (0-5 Años)
-LOCATION:Biblioteca South Garland
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=cuentos-y-cantos-0-5-a-os
- -%7Cbiblioteca-south-garland-garland%7C06-30-pm
-DESCRIPTION:6:30 p.m.\; Acompáñenos para unos cuentos y cantos mientras a
- prendemos sobre temas escolares y lo más importante\, las habilidades nec
- esarias para leer. September 15\, 2026 06:30 PM - 07:30 PM 4845 Broadway B
- lvd.Garland\, TX 75043 https://www.garlandtx.gov/Calendar.aspx?EID=13101/6
- 39 — More: https://letsdoitdallas.com/venue/south-garland-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:preschool-discovery-3-5-years-|south-garland-library-garland|11-00-am-2
  026-09-16@letsdoitdallas.com
 DTSTAMP:20260916T160000Z
@@ -238,5 +222,21 @@ DESCRIPTION:6:30 p.m.\; Acompáñenos para unos cuentos y cantos mientras a
  esarias para leer. September 29\, 2026 06:30 PM - 07:30 PM 4845 Broadway B
  lvd.Garland\, TX 75043 https://www.garlandtx.gov/Calendar.aspx?EID=13103/6
  39 — More: https://letsdoitdallas.com/venue/south-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-discovery-3-5-years-|south-garland-library-garland|11-00-am-2
+ 026-09-30@letsdoitdallas.com
+DTSTAMP:20260930T160000Z
+DTSTART:20260930T160000Z
+DTEND:20260930T190000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=preschool-discovery-3-5-y
+ ears-%7Csouth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
+ ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
+ ters\, numbers\, and much more that will help develop your preschooler's e
+ arly literacy skills. September 30\, 2026 11:00 AM - 12:00 PM 4845 Broadwa
+ y — More: https://letsdoitdallas.com/venue/south-garland-library/
 END:VEVENT
 END:VCALENDAR

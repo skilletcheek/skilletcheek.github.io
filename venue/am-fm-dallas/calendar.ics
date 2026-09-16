@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:son-little|am-fm-dallas-dallas|7-00-pm-2026-09-15@letsdoitdallas.com
-DTSTAMP:20260916T000000Z
-DTSTART:20260916T000000Z
-DTEND:20260916T030000Z
-SUMMARY:Son Little
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=son-little%7Cam-fm-dallas
- -dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/am-fm-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:sophie-truax-w-sasha-cee|am-fm-dallas-dallas|7-00-pm-2026-09-18@letsdoi
  tdallas.com
 DTSTAMP:20260919T000000Z

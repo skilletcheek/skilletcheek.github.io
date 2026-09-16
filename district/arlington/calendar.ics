@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-09-15@
- letsdoitdallas.com
-DTSTAMP:20260915T200000Z
-DTSTART:20260915T200000Z
-DTEND:20260915T230000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C3-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-09-15@letsdoitdal
- las.com
-DTSTAMP:20260915T233000Z
-DTSTART:20260915T233000Z
-DTEND:20260916T023000Z
-SUMMARY:Test Your Mic
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=test-your-mic%7Carlington
- -improv-arlington%7C6-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:texas-rangers-vs-boston-red-sox|globe-life-field-arlington|7-05-pm-2026
- -09-15@letsdoitdallas.com
-DTSTAMP:20260916T000500Z
-DTSTART:20260916T000500Z
-DTEND:20260916T030500Z
-SUMMARY:Texas Rangers vs. Boston Red Sox
-LOCATION:Globe Life Field · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=texas-rangers-vs-boston-r
- ed-sox%7Cglobe-life-field-arlington%7C7-05-pm
-DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
- as.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|10-00-am-20
  26-09-16@letsdoitdallas.com
 DTSTAMP:20260916T150000Z
@@ -887,6 +848,58 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-09-26
+ @letsdoitdallas.com
+DTSTAMP:20260926T150000Z
+DTSTART:20260926T150000Z
+DTEND:20260926T180000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C10-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-09-26
+ @letsdoitdallas.com
+DTSTAMP:20260926T170000Z
+DTSTART:20260926T170000Z
+DTEND:20260926T200000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C12-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-09-26@
+ letsdoitdallas.com
+DTSTAMP:20260926T190000Z
+DTSTART:20260926T190000Z
+DTEND:20260926T220000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C2-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-09-26@
+ letsdoitdallas.com
+DTSTAMP:20260926T210000Z
+DTSTART:20260926T210000Z
+DTEND:20260927T000000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C4-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:ryan-davis|arlington-improv-arlington|7-00-pm-2026-09-26@letsdoitdallas
  .com
 DTSTAMP:20260927T000000Z
@@ -1145,5 +1158,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=zainab-johnson%7Carlingto
  n-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:iv-n-fematt-la-mole-en-espa-ol-|arlington-improv-arlington|7-30-pm-2026
+ -10-14@letsdoitdallas.com
+DTSTAMP:20261015T003000Z
+DTSTART:20261015T003000Z
+DTEND:20261015T033000Z
+SUMMARY:Ivã¡N Fematt ÂLa Moleâ (En Espaã±Ol)
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=iv-n-fematt-la-mole-en-es
+ pa-ol-%7Carlington-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:karol-g-viajando-por-el-mundo-tropitour|at-t-stadium-arlington|7-00-pm-
+ 2026-10-15@letsdoitdallas.com
+DTSTAMP:20261016T000000Z
+DTSTART:20261016T000000Z
+DTEND:20261016T030000Z
+SUMMARY:KAROL G - VIAJANDO POR EL MUNDO TROPITOUR
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=karol-g-viajando-por-el-m
+ undo-tropitour%7Cat-t-stadium-arlington%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/arlington/
 END:VEVENT
 END:VCALENDAR

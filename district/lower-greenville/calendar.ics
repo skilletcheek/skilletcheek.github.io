@@ -10,20 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:free-tuesday-rooftop-movie-wedding-crashers|sundown-at-granada-lower-gr
- eenville-dallas|doors-see-listing-2026-09-15@letsdoitdallas.com
-DTSTAMP:20260915T000000Z
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-SUMMARY:FREE Tuesday Rooftop Movie: WEDDING CRASHERS
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=free-tuesday-rooftop-movi
- e-wedding-crashers%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-se
- e-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:uncle-lucius-album-release-show|granada-theater-lower-greenville-dallas
  |doors-see-listing-2026-09-17@letsdoitdallas.com
 DTSTAMP:20260917T000000Z
@@ -311,5 +297,32 @@ URL:https://letsdoitdallas.com/?date=2026-10-14&e=find-out-media-the-f-ck-a
  see-listing
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
  istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:kishi-bashi-sonderlust-10th-anniversary-tour|granada-theater-lower-gree
+ nville-dallas|doors-see-listing-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Kishi Bashi: Sonderlust 10th Anniversary Tour
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=kishi-bashi-sonderlust-10
+ th-anniversary-tour%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-
+ listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:tobacco-road|sundown-at-granada-lower-greenville-dallas|doors-see-listi
+ ng-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Tobacco Road
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=tobacco-road%7Csundown-at
+ -granada-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
 END:VEVENT
 END:VCALENDAR

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jill-scott-to-whom-this-may-concern-tour|the-pavilion-at-toyota-music-f
- actory-irving|8-00-pm-2026-09-15@letsdoitdallas.com
-DTSTAMP:20260916T010000Z
-DTSTART:20260916T010000Z
-DTEND:20260916T040000Z
-SUMMARY:Jill Scott - To Whom This May Concern Tour
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=jill-scott-to-whom-this-m
- ay-concern-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:ken-carson-xperimenting-tour|the-pavilion-at-toyota-music-factory-irvin
  g|7-30-pm-2026-09-16@letsdoitdallas.com
 DTSTAMP:20260917T003000Z
@@ -217,5 +204,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-12&e=logic-g-eazy-the-endless-
  m
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/the-pavilion-at-toyota-music-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:dermot-kennedy-the-weight-of-the-woods-tour|the-pavilion-at-toyota-musi
+ c-factory-irving|8-00-pm-2026-10-14@letsdoitdallas.com
+DTSTAMP:20261015T010000Z
+DTSTART:20261015T010000Z
+DTEND:20261015T040000Z
+SUMMARY:Dermot Kennedy: The Weight of the Woods Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=dermot-kennedy-the-weight
+ -of-the-woods-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-pavilion-at-toyota-music-factory/
 END:VEVENT
 END:VCALENDAR

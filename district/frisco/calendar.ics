@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:parks-for-pollinators-what-remains|frisco|07-30-am-2026-09-16@letsdoitd
- allas.com
-DTSTAMP:20260916T123000Z
-DTSTART:20260916T123000Z
-DTEND:20260916T153000Z
-SUMMARY:Parks For Pollinators: What Remains
-LOCATION:Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=parks-for-pollinators-wha
- t-remains%7Cfrisco%7C07-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:plaza-live-|8800-8840-4th-st-frisco|05-00-pm-2026-09-16@letsdoitdallas.
  com
 DTSTAMP:20260916T220000Z
@@ -169,6 +157,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-26&e=safety-saturday%7C8601-ga
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:simpson-college-vs-howard-payne-university|ford-center-frisco|3-00-pm-2
+ 026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T200000Z
+DTSTART:20260926T200000Z
+DTEND:20260926T230000Z
+SUMMARY:Simpson College vs. Howard Payne University
+LOCATION:Ford Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=simpson-college-vs-howard
+ -payne-university%7Cford-center-frisco%7C3-00-pm
+DESCRIPTION:sports event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:frisco-community-awareness-night-can-|frisco|05-00-pm-2026-09-26@letsdo
  itdallas.com
 DTSTAMP:20260926T220000Z
@@ -190,6 +191,43 @@ SUMMARY:FC Dallas vs. Los Angeles Football Club
 LOCATION:Toyota Stadium · Frisco
 URL:https://letsdoitdallas.com/?date=2026-09-26&e=fc-dallas-vs-los-angeles-
  football-club%7Ctoyota-stadium-frisco%7C7-30-pm
+DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:parks-for-pollinators-what-remains|frisco|07-30-am-2026-09-30@letsdoitd
+ allas.com
+DTSTAMP:20260930T123000Z
+DTSTART:20260930T123000Z
+DTEND:20260930T153000Z
+SUMMARY:Parks For Pollinators: What Remains
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=parks-for-pollinators-wha
+ t-remains%7Cfrisco%7C07-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:walnut-wednesday-stack-attack-|the-depot-6499-page-street-frisco|10-00-
+ am-2026-09-30@letsdoitdallas.com
+DTSTAMP:20260930T150000Z
+DTSTART:20260930T150000Z
+DTEND:20260930T180000Z
+SUMMARY:Walnut Wednesday: Stack Attack!
+LOCATION:The Depot · Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=walnut-wednesday-stack-at
+ tack-%7Cthe-depot-6499-page-street-frisco%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:fc-dallas-vs-seattle-sounders-fc|toyota-stadium-frisco|7-30-pm-2026-10-
+ 14@letsdoitdallas.com
+DTSTAMP:20261015T003000Z
+DTSTART:20261015T003000Z
+DTEND:20261015T033000Z
+SUMMARY:FC Dallas vs. Seattle Sounders FC
+LOCATION:Toyota Stadium · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=fc-dallas-vs-seattle-soun
+ ders-fc%7Ctoyota-stadium-frisco%7C7-30-pm
 DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/frisco/
 END:VEVENT

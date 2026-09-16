@@ -10,33 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:free-tuesday-rooftop-movie-wedding-crashers|sundown-at-granada-lower-gr
- eenville-dallas|doors-see-listing-2026-09-15@letsdoitdallas.com
-DTSTAMP:20260915T000000Z
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-SUMMARY:FREE Tuesday Rooftop Movie: WEDDING CRASHERS
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=free-tuesday-rooftop-movi
- e-wedding-crashers%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-se
- e-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-09
- -15@letsdoitdallas.com
-DTSTAMP:20260916T030000Z
-DTSTART:20260916T030000Z
-DTEND:20260916T060000Z
-SUMMARY:The Ox and The Waymakers
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
- com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:wub-wednesday|three-links-deep-ellum-dallas|10-30-pm-2026-09-16@letsdoi
  tdallas.com
 DTSTAMP:20260917T033000Z

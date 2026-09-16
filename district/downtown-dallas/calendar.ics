@@ -11,48 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-09-15@letsdoitdallas.com
-DTSTAMP:20260915T130000Z
-DTSTART:20260915T130000Z
-DTEND:20260915T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:gnash|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-09-15@le
- tsdoitdallas.com
-DTSTAMP:20260916T000000Z
-DTSTART:20260916T000000Z
-DTEND:20260916T030000Z
-SUMMARY:gnash
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=gnash%7Cthe-cambridge-roo
- m-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-sound-of-music-touring-|music-hall-at-fair-park-dallas|7-30-pm-2026
- -09-15@letsdoitdallas.com
-DTSTAMP:20260916T003000Z
-DTSTART:20260916T003000Z
-DTEND:20260916T033000Z
-SUMMARY:The Sound of Music (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=the-sound-of-music-tourin
- g-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-09-16@letsdoitdallas.com
 DTSTAMP:20260916T130000Z
 DTSTART:20260916T130000Z
@@ -1294,6 +1252,20 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:an-evening-with-celtic-thunder-2026-celebrate-your-favorite-songs|majes
+ tic-theatre-dallas-dallas|8-00-pm-2026-10-14@letsdoitdallas.com
+DTSTAMP:20261015T010000Z
+DTSTART:20261015T010000Z
+DTEND:20261015T040000Z
+SUMMARY:An Evening With Celtic Thunder 2026: Celebrate Your Favorite Songs
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=an-evening-with-celtic-th
+ under-2026-celebrate-your-favorite-songs%7Cmajestic-theatre-dallas-dallas%
+ 7C8-00-pm
+DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:rich-o-toole-at-poor-david-s|poor-david-s-pub-dallas|doors-see-listing-
  2026-10-15@letsdoitdallas.com
 DTSTAMP:20261015T000000Z
@@ -1303,6 +1275,32 @@ SUMMARY:Rich O'Toole at Poor David's
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-15&e=rich-o-toole-at-poor-davi
  d-s%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:elevation-worship-|-official-ticket-hotel-packages|american-airlines-ce
+ nter-dallas|7-00-pm-2026-10-15@letsdoitdallas.com
+DTSTAMP:20261016T000000Z
+DTSTART:20261016T000000Z
+DTEND:20261016T030000Z
+SUMMARY:Elevation Worship  | Official Ticket + Hotel Packages
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=elevation-worship-%7C-off
+ icial-ticket-hotel-packages%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Religious event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:sara-hickman-shortstop-35th-reunion-tour|poor-david-s-pub-dallas|doors-
+ see-listing-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Sara Hickman - "Shortstop" 35th Reunion Tour
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=sara-hickman-shortstop-35
+ th-reunion-tour%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
 END:VEVENT

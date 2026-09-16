@@ -110,6 +110,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
+UID:mo-robson-stone-creek-sparrows-rhett-embry-through-the-divide|trees-dal
+ las|doors-see-listing-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:MO ROBSON * STONE CREEK SPARROWS * RHETT EMBRY * THROUGH THE DIVIDE
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=mo-robson-stone-creek-spa
+ rrows-rhett-embry-through-the-divide%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:brian-fallon|trees-dallas|doors-see-listing-2026-10-07@letsdoitdallas.c
  om
 DTSTAMP:20261007T000000Z
@@ -133,5 +146,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=hurricane-wisdom%7Ctrees-
  dallas%7C8-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/trees/
+END:VEVENT
+BEGIN:VEVENT
+UID:daft-disko|trees-dallas|doors-see-listing-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:DAFT DISKO
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=daft-disko%7Ctrees-dallas
+ %7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
 END:VEVENT
 END:VCALENDAR

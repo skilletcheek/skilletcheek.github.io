@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gnash|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-09-15@le
- tsdoitdallas.com
-DTSTAMP:20260916T000000Z
-DTSTART:20260916T000000Z
-DTEND:20260916T030000Z
-SUMMARY:gnash
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=gnash%7Cthe-cambridge-roo
- m-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/the-cambridge-room-at-house-of-blues/
-END:VEVENT
-BEGIN:VEVENT
 UID:pertinence|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-09-
  16@letsdoitdallas.com
 DTSTAMP:20260917T000000Z

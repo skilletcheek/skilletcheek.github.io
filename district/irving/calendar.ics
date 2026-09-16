@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jill-scott-to-whom-this-may-concern-tour|the-pavilion-at-toyota-music-f
- actory-irving|8-00-pm-2026-09-15@letsdoitdallas.com
-DTSTAMP:20260916T010000Z
-DTSTART:20260916T010000Z
-DTEND:20260916T040000Z
-SUMMARY:Jill Scott - To Whom This May Concern Tour
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=jill-scott-to-whom-this-m
- ay-concern-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:meet-the-maker-bourbon-pairing-dinner-with-nancy-garrison|inso-social-3
  165-regent-blvd-irving-tx-75063-united-states|6-30-pm-2026-09-16@letsdoitd
  allas.com
@@ -156,19 +143,6 @@ URL:https://letsdoitdallas.com/?date=2026-09-20&e=cynthia-lee-fontaine-pres
  ents-drag-brunch-at-the-punch%7Cpunch-line-irving-irving%7C12-00-pm
 DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
  oitdallas.com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:candlelight-coldplay-imagine-dragons|irving-arts-center-irving|4-00-pm-
- 2026-09-20@letsdoitdallas.com
-DTSTAMP:20260920T210000Z
-DTSTART:20260920T210000Z
-DTEND:20260921T000000Z
-SUMMARY:Candlelight: Coldplay & Imagine Dragons
-LOCATION:Irving Arts Center
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=candlelight-coldplay-imag
- ine-dragons%7Cirving-arts-center-irving%7C4-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/irving/
 END:VEVENT
 BEGIN:VEVENT
 UID:abelardo-en-espa-ol-|punch-line-irving-irving|7-00-pm-2026-09-20@letsdo
@@ -716,5 +690,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-12&e=logic-g-eazy-the-endless-
  m
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:comedy-allstars|punch-line-irving-irving|7-30-pm-2026-10-14@letsdoitdal
+ las.com
+DTSTAMP:20261015T003000Z
+DTSTART:20261015T003000Z
+DTEND:20261015T033000Z
+SUMMARY:Comedy Allstars
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=comedy-allstars%7Cpunch-l
+ ine-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:dermot-kennedy-the-weight-of-the-woods-tour|the-pavilion-at-toyota-musi
+ c-factory-irving|8-00-pm-2026-10-14@letsdoitdallas.com
+DTSTAMP:20261015T010000Z
+DTSTART:20261015T010000Z
+DTEND:20261015T040000Z
+SUMMARY:Dermot Kennedy: The Weight of the Woods Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=dermot-kennedy-the-weight
+ -of-the-woods-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/irving/
 END:VEVENT
 END:VCALENDAR

@@ -9,40 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:family-lab-pi-atas-laboratorio-familiar-pi-atas-de-la-biblioteca-centra
- l|central-library-garland|05-30-pm-2026-09-15@letsdoitdallas.com
-DTSTAMP:20260915T223000Z
-DTSTART:20260915T223000Z
-DTEND:20260916T013000Z
-SUMMARY:Family Lab: Piñatas! / Laboratorio Familiar: ¡Piñatas! de la Bib
- lioteca Central
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=family-lab-pi-atas-labora
- torio-familiar-pi-atas-de-la-biblioteca-central%7Ccentral-library-garland%
- 7C05-30-pm
-DESCRIPTION:5:30 p.m.\; It’s time to celebrate Hispanic Heritage Month wi
- th piñatas! Families with children ages 17 and younger are invited to wor
- k together to create and fill their own piñata out of simple materials an
- d cardboard cutting machines provided by the library makerspace. Supplies 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:graphic-novel-book-club-ages-18-|central-library-garland|06-30-pm-2026-
- 09-15@letsdoitdallas.com
-DTSTAMP:20260915T233000Z
-DTSTART:20260915T233000Z
-DTEND:20260916T023000Z
-SUMMARY:Graphic Novel Book Club (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=graphic-novel-book-club-a
- ges-18-%7Ccentral-library-garland%7C06-30-pm
-DESCRIPTION:6:30 p.m.\; Join us for Graphic Novel Book Club where we talk o
- ut exciting graphic novels every month. Read the book beforehand for discu
- ssion. September 15\, 2026 06:30 PM - 07:30 PM 625 Austin St.Garland\, TX 
- 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13000/6392275720100000 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:scams-uncovered-ai-deception-and-protecting-yourself-in-a-digital-world
  |central-library-garland|02-00-pm-2026-09-16@letsdoitdallas.com
 DTSTAMP:20260916T190000Z
@@ -507,5 +473,21 @@ DESCRIPTION:5:00 p.m.\; Join us for the Sewing Lab — a dedicated makerspa
  0 sewing machines\, cutting tools and pressing equipment while receiving h
  elp in reading patterns\, cutting fabric and troubleshooting stitches. Con
   — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:gentle-yoga-ages-18-|central-library-garland|06-00-pm-2026-09-30@letsdo
+ itdallas.com
+DTSTAMP:20260930T230000Z
+DTSTART:20260930T230000Z
+DTEND:20261001T020000Z
+SUMMARY:Gentle Yoga (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=gentle-yoga-ages-18-%7Cce
+ ntral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; A gentle yoga class suitable for adult participants
+  of all levels of experience. Participants should bring their own mat and/
+ or towel. Props such as chairs and blocks will be available. September 30\
+ , 2026 06:00 PM - 07:00 PM 625 Austin St.Garland\, TX 75040 https://www. 
+ — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

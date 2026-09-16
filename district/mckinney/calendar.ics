@@ -10,30 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mad-science-k-5th-grade-|6861-w-eldorado-pkwy-mckinney|04-30-pm-2026-09
- -15@letsdoitdallas.com
-DTSTAMP:20260915T213000Z
-DTSTART:20260915T213000Z
-DTEND:20260916T003000Z
-SUMMARY:Mad Science (K-5th Grade)
-LOCATION:6861 W. Eldorado Pkwy. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=mad-science-k-5th-grade-%
- 7C6861-w-eldorado-pkwy-mckinney%7C04-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:unwind-with-yarn-adults-|6861-w-eldorado-parkway-mckinney|07-00-pm-2026
- -09-15@letsdoitdallas.com
-DTSTAMP:20260916T000000Z
-DTSTART:20260916T000000Z
-DTEND:20260916T030000Z
-SUMMARY:Unwind with Yarn (Adults)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=unwind-with-yarn-adults-%
- 7C6861-w-eldorado-parkway-mckinney%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:less-mess-more-life|6861-eldorado-pkwy-mckinney|10-00-am-2026-09-16@let
  sdoitdallas.com
 DTSTAMP:20260916T150000Z
@@ -464,6 +440,30 @@ SUMMARY:Mad Science (K-5th Grade)
 LOCATION:6861 W. Eldorado Pkwy. · McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-29&e=mad-science-k-5th-grade-%
  7C6861-w-eldorado-pkwy-mckinney%7C04-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-09-30@
+ letsdoitdallas.com
+DTSTAMP:20260930T153000Z
+DTSTART:20260930T153000Z
+DTEND:20260930T183000Z
+SUMMARY:Baby & Me (0-10 Months)
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=baby-me-0-10-months-%7C68
+ 61-w-eldorado-pkwy-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:kids-art-studio-k-5th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-
+ 2026-09-30@letsdoitdallas.com
+DTSTAMP:20260930T213000Z
+DTSTART:20260930T213000Z
+DTEND:20261001T003000Z
+SUMMARY:Kids Art Studio (K-5th Grade)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=kids-art-studio-k-5th-gra
+ de-%7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT

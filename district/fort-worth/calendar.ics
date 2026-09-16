@@ -11,41 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
- et-fort-worth-76107-united-states|10-00-am-2026-09-15@letsdoitdallas.com
-DTSTAMP:20260915T150000Z
-DTSTART:20260915T150000Z
-DTEND:20260915T180000Z
-SUMMARY:Forces at Play
-LOCATION:Fort Worth Museum of Science and History
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=forces-at-play%7Cfort-wor
- th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
- -states%7C10-00-am
-DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
-  an interactive exhibit that explores the science behind some of the world
- ’s most beloved sports. Through hands-on activities and historical colle
- ctions\, visitors discover how forces like gravity\, friction\, and moment
- um impac — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
- ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-09-15@lets
- doitdallas.com
-DTSTAMP:20260915T150000Z
-DTSTART:20260915T150000Z
-DTEND:20260915T180000Z
-SUMMARY:Puzzling Adventures Scavenger Hunt
-LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-15&e=puzzling-adventures-scave
- nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
- rth-76102-united-states%7C10-00-am
-DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
- uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
- e\, and an informative self-guided walking tour. Each adventure consists o
- f a series of locations that you are guided to where you are required t 
- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
  et-fort-worth-76107-united-states|10-00-am-2026-09-16@letsdoitdallas.com
 DTSTAMP:20260916T150000Z
 DTSTART:20260916T150000Z
@@ -262,15 +227,16 @@ DESCRIPTION:Join us at Ático for Thursday Night Live Music\, where talente
  he Fort — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:candlelight-tribute-to-british-rock-legends|fort-worth-botanic-garden-f
- ort-worth|6-30-pm-2026-09-17@letsdoitdallas.com
+UID:candlelight-tribute-to-queen-and-the-beatles-fort-worth|fort-worth-bota
+ nic-garden-fort-worth|6-30-pm-2026-09-17@letsdoitdallas.com
 DTSTAMP:20260917T233000Z
 DTSTART:20260917T233000Z
 DTEND:20260918T023000Z
-SUMMARY:Candlelight - Tribute to British Rock Legends
+SUMMARY:Candlelight - Tribute to Queen and The Beatles - Fort Worth
 LOCATION:Fort Worth Botanic Garden
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=candlelight-tribute-to-br
- itish-rock-legends%7Cfort-worth-botanic-garden-fort-worth%7C6-30-pm
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=candlelight-tribute-to-qu
+ een-and-the-beatles-fort-worth%7Cfort-worth-botanic-garden-fort-worth%7C6-
+ 30-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/fort-worth/
 END:VEVENT
@@ -312,6 +278,22 @@ URL:https://letsdoitdallas.com/?date=2026-09-17&e=pbr-stockyards-showcase%7
  Ccowtown-coliseum-fort-worth%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:ghalia-volt|tulips-ftw-112-saint-louis-avenue-fort-worth-76104-united-s
+ tates|8-00-pm-2026-09-17@letsdoitdallas.com
+DTSTAMP:20260918T010000Z
+DTSTART:20260918T010000Z
+DTEND:20260918T040000Z
+SUMMARY:Ghalia Volt
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-17&e=ghalia-volt%7Ctulips-ftw-
+ 112-saint-louis-avenue-fort-worth-76104-united-states%7C8-00-pm
+DESCRIPTION:Tulips FTW is excited to host Ghalia Volt with Kent Burnside on
+  September 17th\, 2026 at your local independent venue!  Doors 7 pm II Con
+ cert 8 pm    Ghalia Volt is a modern blues artist whose time has come. Wit
+ h her relentless drive\, captivating stage presence\, and ability to com 
+ — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-ultimate-doors-tribute-to-the-doors|tannahill-s-music-hall-lounge-f
@@ -912,6 +894,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-25&e=willie-barcena%7Chyena-s-
  comedy-night-club-fort-worth-fort-worth%7C10-00-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:goodguys-car-show-fort-worth|texas-motor-speedway-fort-worth|8-00-am-20
+ 26-09-26@letsdoitdallas.com
+DTSTAMP:20260926T130000Z
+DTSTART:20260926T130000Z
+DTEND:20260926T160000Z
+SUMMARY:Goodguys Car Show - Fort Worth
+LOCATION:Texas Motor Speedway · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=goodguys-car-show-fort-wo
+ rth%7Ctexas-motor-speedway-fort-worth%7C8-00-am
+DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:suites-phil-wickham-song-of-the-saints-tour|dickies-arena-fort-worth|7-
@@ -1850,6 +1845,19 @@ DTEND:20261014T033000Z
 SUMMARY:Music of John Denver
 LOCATION:Casa Manana · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-13&e=music-of-john-denver%7Cca
+ sa-manana-fort-worth%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:music-of-john-denver|casa-manana-fort-worth|7-30-pm-2026-10-14@letsdoit
+ dallas.com
+DTSTAMP:20261015T003000Z
+DTSTART:20261015T003000Z
+DTEND:20261015T033000Z
+SUMMARY:Music of John Denver
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=music-of-john-denver%7Cca
  sa-manana-fort-worth%7C7-30-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
