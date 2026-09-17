@@ -9,54 +9,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|10-00-am-20
- 26-09-17@letsdoitdallas.com
-DTSTAMP:20260917T150000Z
-DTSTART:20260917T150000Z
-DTEND:20260917T180000Z
-SUMMARY:AT&T Stadium Owner's Experience Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=at-t-stadium-owner-s-expe
- rience-tour%7Cat-t-stadium-arlington%7C10-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|12-00-pm-20
- 26-09-17@letsdoitdallas.com
-DTSTAMP:20260917T170000Z
-DTSTART:20260917T170000Z
-DTEND:20260917T200000Z
-SUMMARY:AT&T Stadium Owner's Experience Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=at-t-stadium-owner-s-expe
- rience-tour%7Cat-t-stadium-arlington%7C12-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-09-17@
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-09-17@
  letsdoitdallas.com
-DTSTAMP:20260917T190000Z
-DTSTART:20260917T190000Z
-DTEND:20260917T220000Z
+DTSTAMP:20260917T200000Z
+DTSTART:20260917T200000Z
+DTEND:20260917T230000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-09-17&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C2-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-09-17@
- letsdoitdallas.com
-DTSTAMP:20260917T210000Z
-DTSTART:20260917T210000Z
-DTEND:20260918T000000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C4-00-pm
+ our%7Cat-t-stadium-arlington%7C3-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/at-t-stadium/
 END:VEVENT
@@ -111,6 +72,23 @@ URL:https://letsdoitdallas.com/?date=2026-09-18&e=at-t-stadium-vip-guided-t
  our%7Cat-t-stadium-arlington%7C4-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-dallas-all-pro-dad-experience|at-t-stadium-1-at-t-way-arlington-76
+ 011-united-states|6-00-pm-2026-09-18@letsdoitdallas.com
+DTSTAMP:20260918T230000Z
+DTSTART:20260918T230000Z
+DTEND:20260919T020000Z
+SUMMARY:2026 Dallas All Pro Dad Experience
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=2026-dallas-all-pro-dad-e
+ xperience%7Cat-t-stadium-1-at-t-way-arlington-76011-united-states%7C6-00-p
+ m
+DESCRIPTION:Join All Pro Dad at AT&T Stadium for a Friday evening you’ll 
+ never forget!  It starts when you and your child experience the thrill of 
+ stepping onto the field where the Dallas Cowboys play. You’ll spend the 
+ next few hours connecting with your kids with plenty of fun and interacti 
+ — More: https://letsdoitdallas.com/venue/at-t-stadium/
 END:VEVENT
 BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-rally-day-tour-dallas-cowboys-locker-room|at-t-

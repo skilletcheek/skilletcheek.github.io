@@ -110,6 +110,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
+UID:thin-white-line-raid-knight-lotus-no-revival-dead-ego|trees-dallas|door
+ s-see-listing-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:THIN WHITE LINE * RAID * KNIGHT LOTUS * NO REVIVAL * DEAD EGO
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=thin-white-line-raid-knig
+ ht-lotus-no-revival-dead-ego%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:mo-robson-stone-creek-sparrows-rhett-embry-through-the-divide|trees-dal
  las|doors-see-listing-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261003T000000Z

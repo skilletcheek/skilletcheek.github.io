@@ -230,18 +230,17 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:all-the-feels-r-and-b-16-and-under-with-parent-or-legal-guardian-|the-b
- omb-factory-dallas|8-00-pm-2026-09-19@letsdoitdallas.com
+UID:all-the-feels|the-bomb-factory-dallas-dallas|8-00-pm-2026-09-19@letsdoi
+ tdallas.com
 DTSTAMP:20260920T010000Z
 DTSTART:20260920T010000Z
 DTEND:20260920T040000Z
-SUMMARY:All The Feels R and B (16 and Under with Parent or Legal Guardian)
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=all-the-feels-r-and-b-16-
- and-under-with-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C8-00-
- pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
+SUMMARY:All The Feels
+LOCATION:The Bomb Factory - Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=all-the-feels%7Cthe-bomb-
+ factory-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:drunk-shakespeare-romeo-juliet-21-event-|deep-ellum-art-co-dallas|9-00-
@@ -736,6 +735,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-30&e=wub-wednesday%7Cthree-lin
  ks-deep-ellum-dallas%7C10-30-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:thin-white-line-raid-knight-lotus-no-revival-dead-ego|trees-dallas|door
+ s-see-listing-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:THIN WHITE LINE * RAID * KNIGHT LOTUS * NO REVIVAL * DEAD EGO
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=thin-white-line-raid-knig
+ ht-lotus-no-revival-dead-ego%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:apex-fallen-all-is-taken-spinecell|three-links-deep-ellum-dallas|8-00-p

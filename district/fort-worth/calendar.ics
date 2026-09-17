@@ -64,19 +64,6 @@ DESCRIPTION:The primary objective of the National Multicultural Western Her
  ore: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-09-17@
- letsdoitdallas.com
-DTSTAMP:20260917T173000Z
-DTSTART:20260917T173000Z
-DTEND:20260917T203000Z
-SUMMARY:Legacy of the Longhorn
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=legacy-of-the-longhorn%7C
- cowtown-coliseum-fort-worth%7C12-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:thursday-night-live-music-at-tico-carlos-ramos-|-tico-2315-n-main-stree
  t-fort-worth-tx-76164-united-states|6-00-pm-2026-09-17@letsdoitdallas.com
 DTSTAMP:20260917T230000Z
@@ -427,20 +414,6 @@ DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:tcu-horned-frogs-football-vs-arkansas-state-red-wolves-football|amon-g-
- carter-stadium-fort-worth|see-details-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260919T000000Z
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260920
-SUMMARY:TCU Horned Frogs Football vs. Arkansas State Red Wolves Football
-LOCATION:Amon G. Carter Stadium · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=tcu-horned-frogs-football
- -vs-arkansas-state-red-wolves-football%7Camon-g-carter-stadium-fort-worth%
- 7Csee-details
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:bluey-s-big-play-the-stage-show|bass-performance-hall-fort-worth|10-30-
  am-2026-09-19@letsdoitdallas.com
 DTSTAMP:20260919T153000Z
@@ -504,6 +477,20 @@ URL:https://letsdoitdallas.com/?date=2026-09-19&e=duncan-trussell%7Chyena-s
  -comedy-night-club-fort-worth-fort-worth%7C7-00-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-football-vs-arkansas-state-red-wolves-football|amon-g-
+ carter-stadium-fort-worth|7-00-pm-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260920T000000Z
+DTSTART:20260920T000000Z
+DTEND:20260920T030000Z
+SUMMARY:TCU Horned Frogs Football vs. Arkansas State Red Wolves Football
+LOCATION:Amon G. Carter Stadium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=tcu-horned-frogs-football
+ -vs-arkansas-state-red-wolves-football%7Camon-g-carter-stadium-fort-worth%
+ 7C7-00-pm
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
