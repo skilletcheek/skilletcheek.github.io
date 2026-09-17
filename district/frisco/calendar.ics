@@ -10,40 +10,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:plaza-live-|8800-8840-4th-st-frisco|05-00-pm-2026-09-16@letsdoitdallas.
- com
-DTSTAMP:20260916T220000Z
-DTSTART:20260916T220000Z
-DTEND:20260917T010000Z
-SUMMARY:Plaza Live!
-LOCATION:8800-8840 4th St · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=plaza-live-%7C8800-8840-4
- th-st-frisco%7C05-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:frisco-roughriders-division-series-game-2|riders-field-frisco|see-detai
- ls-2026-09-17@letsdoitdallas.com
-DTSTAMP:20260917T000000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
+UID:frisco-roughriders-division-series-game-2|riders-field-frisco|7-05-pm-2
+ 026-09-17@letsdoitdallas.com
+DTSTAMP:20260918T000500Z
+DTSTART:20260918T000500Z
+DTEND:20260918T030500Z
 SUMMARY:Frisco Roughriders - Division Series Game 2
 LOCATION:Riders Field · Frisco
 URL:https://letsdoitdallas.com/?date=2026-09-17&e=frisco-roughriders-divisi
- on-series-game-2%7Criders-field-frisco%7Csee-details
-DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
- as.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:frisco-roughriders-division-series-game-3-if-necessary-|riders-field-fr
- isco|see-details-2026-09-18@letsdoitdallas.com
-DTSTAMP:20260918T000000Z
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260919
-SUMMARY:Frisco Roughriders - Division Series Game 3 (IF NECESSARY)
-LOCATION:Riders Field · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=frisco-roughriders-divisi
- on-series-game-3-if-necessary-%7Criders-field-frisco%7Csee-details
+ on-series-game-2%7Criders-field-frisco%7C7-05-pm
 DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
  as.com/district/frisco/
 END:VEVENT
@@ -84,6 +59,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-18&e=friday-night-black-lights
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:frisco-roughriders-division-series-game-3-if-necessary-|riders-field-fr
+ isco|7-05-pm-2026-09-18@letsdoitdallas.com
+DTSTAMP:20260919T000500Z
+DTSTART:20260919T000500Z
+DTEND:20260919T030500Z
+SUMMARY:Frisco Roughriders - Division Series Game 3 (IF NECESSARY)
+LOCATION:Riders Field · Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-18&e=frisco-roughriders-divisi
+ on-series-game-3-if-necessary-%7Criders-field-frisco%7C7-05-pm
+DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
+ as.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:slow-down-september-sunrise-yoga|8800-8840-4th-st-frisco|07-30-am-2026-
  09-19@letsdoitdallas.com
 DTSTAMP:20260919T123000Z
@@ -96,15 +84,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-19&e=slow-down-september-sunri
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
-UID:northwest-community-park-grand-opening|13770-teel-pkwy-frisco|08-00-am-
- 2026-09-19@letsdoitdallas.com
+UID:cycle-the-city-northwest-frisco|13770-teel-pkwy-frisco|08-00-am-2026-09
+ -19@letsdoitdallas.com
 DTSTAMP:20260919T130000Z
 DTSTART:20260919T130000Z
 DTEND:20260919T160000Z
-SUMMARY:Northwest Community Park Grand Opening
+SUMMARY:Cycle the City - Northwest Frisco
 LOCATION:13770 Teel Pkwy · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=northwest-community-park-
- grand-opening%7C13770-teel-pkwy-frisco%7C08-00-am
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=cycle-the-city-northwest-
+ frisco%7C13770-teel-pkwy-frisco%7C08-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT

@@ -9,68 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:scams-uncovered-ai-deception-and-protecting-yourself-in-a-digital-world
- |central-library-garland|02-00-pm-2026-09-16@letsdoitdallas.com
-DTSTAMP:20260916T190000Z
-DTSTART:20260916T190000Z
-DTEND:20260916T220000Z
-SUMMARY:Scams Uncovered: AI\, Deception\, and Protecting Yourself in a Digi
- tal World
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=scams-uncovered-ai-decept
- ion-and-protecting-yourself-in-a-digital-world%7Ccentral-library-garland%7
- C02-00-pm
-DESCRIPTION:2:00 p.m.\; Scams Uncovered: AI\, Deception\, and Protecting Yo
- urself in a Digital World is an informative presentation from the Garland 
- Police Department designed to help residents recognize scams and protect t
- hemselves and others. Presented by Officer Matt Pesta\, Garland Police De 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:basic-mending-and-hand-sewing-workshop-ages-18-|central-library-garland
- |05-00-pm-2026-09-16@letsdoitdallas.com
-DTSTAMP:20260916T220000Z
-DTSTART:20260916T220000Z
-DTEND:20260917T010000Z
-SUMMARY:Basic Mending and Hand Sewing Workshop (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=basic-mending-and-hand-se
- wing-workshop-ages-18-%7Ccentral-library-garland%7C05-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:gentle-yoga-ages-18-|central-library-garland|06-00-pm-2026-09-16@letsdo
- itdallas.com
-DTSTAMP:20260916T230000Z
-DTSTART:20260916T230000Z
-DTEND:20260917T020000Z
-SUMMARY:Gentle Yoga (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=gentle-yoga-ages-18-%7Cce
- ntral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; A gentle yoga class suitable for adult participants
-  of all levels of experience. Participants should bring their own mat and/
- or towel. Props such as chairs and blocks will be available. September 16\
- , 2026 06:00 PM - 07:00 PM 625 Austin St.Garland\, TX 75040 https://www. 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:community-business-builders-small-business-spotlight-ages-18-|central-l
- ibrary-garland|06-30-pm-2026-09-16@letsdoitdallas.com
-DTSTAMP:20260916T233000Z
-DTSTART:20260916T233000Z
-DTEND:20260917T023000Z
-SUMMARY:Community Business Builders: Small Business Spotlight (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=community-business-builde
- rs-small-business-spotlight-ages-18-%7Ccentral-library-garland%7C06-30-pm
-DESCRIPTION:6:30 p.m.\; Attention Garland entrepreneurs and small business 
- owners! Discover how the Central Library can support your business growth.
-  Join us for our Small Business Spotlight\, an informative session showcas
- ing the powerful tools\, programs\, and resources available to help you s 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-09
  -17@letsdoitdallas.com
 DTSTAMP:20260917T150000Z
@@ -299,19 +237,19 @@ DESCRIPTION:3:00 p.m.\; Join us at the Teen Craft Corner for some relaxing
  7535210000000 — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 BEGIN:VEVENT
-UID:texas-true-crime-history-of-the-texas-rangers-ages-18-|central-library-
- garland|06-00-pm-2026-09-23@letsdoitdallas.com
+UID:texas-true-crime-the-cop-and-the-outlaw-ages-18-|central-library-garlan
+ d|06-00-pm-2026-09-23@letsdoitdallas.com
 DTSTAMP:20260923T230000Z
 DTSTART:20260923T230000Z
 DTEND:20260924T020000Z
-SUMMARY:Texas True Crime: History of the Texas Rangers (Ages 18+)
+SUMMARY:Texas True Crime: the Cop and the Outlaw (Ages 18+)
 LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=texas-true-crime-history-
- of-the-texas-rangers-ages-18-%7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Join us for the next event in our riveting series e
- xploring true crime across the Lone Star State — from legendary criminal
- s to some of the most chilling cases in Texas history. This session featur
- es a member of the Texas Rangers law enforcement division. Join us in di 
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=texas-true-crime-the-cop-
+ and-the-outlaw-ages-18-%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; This session features author and retired Garland Po
+ lice Detective Gary Sweet. Detective Sweet will discuss a real case from G
+ arland in 1992 that he solved fifteen years after the fact. Sweet wrote of
+  the case in The Cop and the Outlaw\, which details not only the crime\, 
  — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 BEGIN:VEVENT
@@ -505,5 +443,69 @@ DESCRIPTION:6:00 p.m.\; A gentle yoga class suitable for adult participants
  or towel. Props such as chairs and blocks will be available. September 30\
  , 2026 06:00 PM - 07:00 PM 625 Austin St.Garland\, TX 75040 https://www. 
  — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-10
+ -01@letsdoitdallas.com
+DTSTAMP:20261001T150000Z
+DTSTART:20261001T150000Z
+DTEND:20261001T180000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=preschool-discovery-3-5-y
+ ears-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
+ ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
+ ters\, numbers\, and much more that will help develop your preschooler's e
+ arly literacy skills. October 1\, 2026 10:00 AM - 11:00 AM 625 Austin St.G
+ ar — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:cuentos-y-cantos-0-5-a-os-|biblioteca-central-garland|11-00-am-2026-10-
+ 01@letsdoitdallas.com
+DTSTAMP:20261001T160000Z
+DTSTART:20261001T160000Z
+DTEND:20261001T190000Z
+SUMMARY:Cuentos y Cantos (0-5 Años)
+LOCATION:Biblioteca Central · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=cuentos-y-cantos-0-5-a-os
+ -%7Cbiblioteca-central-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Acompáñenos para unos cuentos y cantos mientras 
+ aprendemos sobre temas escolares y lo más importante\, las habilidades ne
+ cesarias para leer. October 1\, 2026 11:00 AM - 12:00 PM 625 Austin St.Gar
+ land\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12949/63922746
+ 17 — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:becoming-a-real-estate-investor|central-library-garland|06-00-pm-2026-1
+ 0-01@letsdoitdallas.com
+DTSTAMP:20261001T230000Z
+DTSTART:20261001T230000Z
+DTEND:20261002T020000Z
+SUMMARY:Becoming a Real Estate Investor
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=becoming-a-real-estate-in
+ vestor%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Are you a homeowner or a business owner looking to 
+ expand your business? Join us for a financial literacy workshop presented 
+ by Peoples Mortgage Company. Discover how to prepare before making your fi
+ rst investment\, real estate strategies for beginners\, the difference b 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:game-night-ages-18-|central-library-garland|06-00-pm-2026-10-01@letsdoi
+ tdallas.com
+DTSTAMP:20261001T230000Z
+DTSTART:20261001T230000Z
+DTEND:20261002T020000Z
+SUMMARY:Game Night (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=game-night-ages-18-%7Ccen
+ tral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Roll the dice\, draw your cards and join us for Gam
+ e Night at the Central Library! Whether you’re a strategy master\, casua
+ l player or just looking for a fun night out\, this adults-only evening is
+  the perfect chance to relax and connect with fellow gamers. Enjoy a varie
+ t — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

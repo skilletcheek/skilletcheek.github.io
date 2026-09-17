@@ -9,42 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:art-is-life|310-e-parkerville-road-cedar-hill|05-00-pm-2026-09-16@letsd
- oitdallas.com
-DTSTAMP:20260916T220000Z
-DTSTART:20260916T220000Z
-DTEND:20260917T010000Z
-SUMMARY:Art is Life
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=art-is-life%7C310-e-parke
- rville-road-cedar-hill%7C05-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:you-up-next-live-music-talent-showcase|310-e-parkerville-road-cedar-hil
- l|05-00-pm-2026-09-16@letsdoitdallas.com
-DTSTAMP:20260916T220000Z
-DTSTART:20260916T220000Z
-DTEND:20260917T010000Z
-SUMMARY:You Up Next - Live Music Talent Showcase
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=you-up-next-live-music-ta
- lent-showcase%7C310-e-parkerville-road-cedar-hill%7C05-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:lp-dance-ages-3-7-|310-e-parkerville-road-cedar-hill|07-15-pm-2026-09-1
- 6@letsdoitdallas.com
-DTSTAMP:20260917T001500Z
-DTSTART:20260917T001500Z
-DTEND:20260917T031500Z
-SUMMARY:LP Dance (Ages 3-7)
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=lp-dance-ages-3-7-%7C310-
- e-parkerville-road-cedar-hill%7C07-15-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:yogalates|310-e-parkerville-road-cedar-hill|12-00-pm-2026-09-17@letsdoi
  tdallas.com
 DTSTAMP:20260917T170000Z
@@ -1145,6 +1109,142 @@ SUMMARY:LP Dance (Ages 3-7)
 LOCATION:310 E. Parkerville Road · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-09-30&e=lp-dance-ages-3-7-%7C310-
  e-parkerville-road-cedar-hill%7C07-15-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:mayor-s-prayer-breakfast|310-e-parkerville-road-cedar-hill|07-30-am-202
+ 6-10-01@letsdoitdallas.com
+DTSTAMP:20261001T123000Z
+DTSTART:20261001T123000Z
+DTEND:20261001T153000Z
+SUMMARY:Mayor’s Prayer Breakfast
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=mayor-s-prayer-breakfast%
+ 7C310-e-parkerville-road-cedar-hill%7C07-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:yogalates|310-e-parkerville-road-cedar-hill|12-00-pm-2026-10-01@letsdoi
+ tdallas.com
+DTSTAMP:20261001T170000Z
+DTSTART:20261001T170000Z
+DTEND:20261001T200000Z
+SUMMARY:Yogalates
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=yogalates%7C310-e-parkerv
+ ille-road-cedar-hill%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:kidokinetics|310-e-parkerville-road-cedar-hill|02-00-pm-2026-10-01@lets
+ doitdallas.com
+DTSTAMP:20261001T190000Z
+DTSTART:20261001T190000Z
+DTEND:20261001T220000Z
+SUMMARY:Kidokinetics
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=kidokinetics%7C310-e-park
+ erville-road-cedar-hill%7C02-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:chat-youth-empowerment-program|310-e-parkerville-road-cedar-hill|04-00-
+ pm-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261001T210000Z
+DTSTART:20261001T210000Z
+DTEND:20261002T000000Z
+SUMMARY:CHAT Youth Empowerment Program
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=chat-youth-empowerment-pr
+ ogram%7C310-e-parkerville-road-cedar-hill%7C04-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-is-life|310-e-parkerville-road-cedar-hill|05-00-pm-2026-10-01@letsd
+ oitdallas.com
+DTSTAMP:20261001T220000Z
+DTSTART:20261001T220000Z
+DTEND:20261002T010000Z
+SUMMARY:Art is Life
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=art-is-life%7C310-e-parke
+ rville-road-cedar-hill%7C05-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:food-truck-league|signature-park-cedar-hill|05-00-pm-2026-10-01@letsdoi
+ tdallas.com
+DTSTAMP:20261001T220000Z
+DTSTART:20261001T220000Z
+DTEND:20261002T010000Z
+SUMMARY:Food Truck League
+LOCATION:Signature Park · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=food-truck-league%7Csigna
+ ture-park-cedar-hill%7C05-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:cursive-and-handwriting-workshop|310-e-parkerville-road-cedar-hill|06-0
+ 0-pm-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261001T230000Z
+DTSTART:20261001T230000Z
+DTEND:20261002T020000Z
+SUMMARY:Cursive and Handwriting Workshop
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=cursive-and-handwriting-w
+ orkshop%7C310-e-parkerville-road-cedar-hill%7C06-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:step-aerobics-extreme-hip-hop|310-e-parkerville-road-cedar-hill|06-00-p
+ m-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261001T230000Z
+DTSTART:20261001T230000Z
+DTEND:20261002T020000Z
+SUMMARY:Step Aerobics/Extreme Hip Hop
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=step-aerobics-extreme-hip
+ -hop%7C310-e-parkerville-road-cedar-hill%7C06-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:zumba-in-the-park|104-s-broad-st-cedar-hill|06-45-pm-2026-10-01@letsdoi
+ tdallas.com
+DTSTAMP:20261001T234500Z
+DTSTART:20261001T234500Z
+DTEND:20261002T024500Z
+SUMMARY:Zumba in the Park
+LOCATION:104 S Broad St. · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=zumba-in-the-park%7C104-s
+ -broad-st-cedar-hill%7C06-45-pm
+DESCRIPTION:Zumba in the Park returns September 1\, bringing back the music
+ \, the energy\, and the community spirit that makes this one of Cedar Hill
+ 's most-loved annual fitness programs. Come dance\, get active\, and enjoy
+  beautiful evenings outdoors with fellow residents. Best of all\, it's com
+ p — More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:canva-for-kids|310-e-parkerville-road-cedar-hill|07-00-pm-2026-10-01@le
+ tsdoitdallas.com
+DTSTAMP:20261002T000000Z
+DTSTART:20261002T000000Z
+DTEND:20261002T030000Z
+SUMMARY:Canva for Kids
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=canva-for-kids%7C310-e-pa
+ rkerville-road-cedar-hill%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:jay-s-swing-camp|310-e-parkerville-road-cedar-hill|07-00-pm-2026-10-01@
+ letsdoitdallas.com
+DTSTAMP:20261002T000000Z
+DTSTART:20261002T000000Z
+DTEND:20261002T030000Z
+SUMMARY:Jay's Swing Camp
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=jay-s-swing-camp%7C310-e-
+ parkerville-road-cedar-hill%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 END:VCALENDAR

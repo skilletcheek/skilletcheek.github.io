@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pertinence|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-09-
- 16@letsdoitdallas.com
-DTSTAMP:20260917T000000Z
-DTSTART:20260917T000000Z
-DTEND:20260917T030000Z
-SUMMARY:Pertinence
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=pertinence%7Cthe-cambridg
- e-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/the-cambridge-room-at-house-of-blues/
-END:VEVENT
-BEGIN:VEVENT
 UID:greek-live-tour|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-202
  6-09-22@letsdoitdallas.com
 DTSTAMP:20260923T000000Z
@@ -174,6 +161,19 @@ DTEND:20261015T030000Z
 SUMMARY:The Paradox
 LOCATION:The Cambridge Room at House Of Blues · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-14&e=the-paradox%7Cthe-cambrid
+ ge-room-at-house-of-blues-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-cambridge-room-at-house-of-blues/
+END:VEVENT
+BEGIN:VEVENT
+UID:michigander|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-10
+ -16@letsdoitdallas.com
+DTSTAMP:20261017T000000Z
+DTSTART:20261017T000000Z
+DTEND:20261017T030000Z
+SUMMARY:Michigander
+LOCATION:The Cambridge Room at House Of Blues · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=michigander%7Cthe-cambrid
  ge-room-at-house-of-blues-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-cambridge-room-at-house-of-blues/

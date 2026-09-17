@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ken-carson-xperimenting-tour|the-pavilion-at-toyota-music-factory-irvin
- g|7-30-pm-2026-09-16@letsdoitdallas.com
-DTSTAMP:20260917T003000Z
-DTSTART:20260917T003000Z
-DTEND:20260917T033000Z
-SUMMARY:Ken Carson - xperimenting tour
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=ken-carson-xperimenting-t
- our%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-30-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:chief-keef-live-2026|the-pavilion-at-toyota-music-factory-irving|8-00-p
  m-2026-09-20@letsdoitdallas.com
 DTSTAMP:20260921T010000Z
@@ -215,6 +202,33 @@ SUMMARY:Dermot Kennedy: The Weight of the Woods Tour
 LOCATION:The Pavilion at Toyota Music Factory · Irving
 URL:https://letsdoitdallas.com/?date=2026-10-14&e=dermot-kennedy-the-weight
  -of-the-woods-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-pavilion-at-toyota-music-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-monsta-x-world-tour-the-x-nexus-in-irving|the-pavilion-at-toyota-m
+ usic-factory-irving|8-00-pm-2026-10-15@letsdoitdallas.com
+DTSTAMP:20261016T010000Z
+DTSTART:20261016T010000Z
+DTEND:20261016T040000Z
+SUMMARY:2026 MONSTA X WORLD TOUR [THE X : NEXUS] IN IRVING
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=2026-monsta-x-world-tour-
+ the-x-nexus-in-irving%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00
+ -pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/the-pavilion-at-toyota-music-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:modest-mouse|the-pavilion-at-toyota-music-factory-irving|7-00-pm-2026-1
+ 0-16@letsdoitdallas.com
+DTSTAMP:20261017T000000Z
+DTSTART:20261017T000000Z
+DTEND:20261017T030000Z
+SUMMARY:Modest Mouse
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=modest-mouse%7Cthe-pavili
+ on-at-toyota-music-factory-irving%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-pavilion-at-toyota-music-factory/
 END:VEVENT

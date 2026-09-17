@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:naomi-sharon-presents-no-sleep-in-paradise-tour|the-echo-lounge-music-h
- all-dallas|7-00-pm-2026-09-16@letsdoitdallas.com
-DTSTAMP:20260917T000000Z
-DTSTART:20260917T000000Z
-DTEND:20260917T030000Z
-SUMMARY:Naomi Sharon Presents: No Sleep In Paradise Tour
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=naomi-sharon-presents-no-
- sleep-in-paradise-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:starjunk-95|the-echo-lounge-music-hall-dallas|8-00-pm-2026-09-18@letsdo
  itdallas.com
 DTSTAMP:20260919T010000Z
@@ -243,5 +230,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-14&e=quadeca%7Cthe-echo-lounge
  -music-hall-dallas%7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:jenna-davis|the-echo-lounge-music-hall-dallas|7-00-pm-2026-10-16@letsdo
+ itdallas.com
+DTSTAMP:20261017T000000Z
+DTSTART:20261017T000000Z
+DTEND:20261017T030000Z
+SUMMARY:Jenna Davis
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=jenna-davis%7Cthe-echo-lo
+ unge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/the-echo-lounge-music-hall/
 END:VEVENT
 END:VCALENDAR

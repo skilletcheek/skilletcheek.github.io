@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kelela-new-avatar-live|house-of-blues-dallas-dallas|7-00-pm-2026-09-16@
- letsdoitdallas.com
-DTSTAMP:20260917T000000Z
-DTSTART:20260917T000000Z
-DTEND:20260917T030000Z
-SUMMARY:Kelela - new avatar live
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-16&e=kelela-new-avatar-live%7C
- house-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:w-a-s-p-1984-to-headless|house-of-blues-dallas-dallas|7-00-pm-2026-09-1
  8@letsdoitdallas.com
 DTSTAMP:20260919T000000Z
@@ -227,6 +214,19 @@ SUMMARY:PRESIDENT: North American Campaign 2026
 LOCATION:House of Blues Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-14&e=president-north-american-
  campaign-2026%7Chouse-of-blues-dallas-dallas%7C6-30-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:basement|house-of-blues-dallas-dallas|7-00-pm-2026-10-16@letsdoitdallas
+ .com
+DTSTAMP:20261017T000000Z
+DTSTART:20261017T000000Z
+DTEND:20261017T030000Z
+SUMMARY:Basement
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=basement%7Chouse-of-blues
+ -dallas-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/house-of-blues-dallas/
 END:VEVENT
