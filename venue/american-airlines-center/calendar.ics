@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tame-impala-the-deadbeat-tour|american-airlines-center-dallas|7-00-pm-2
- 026-09-17@letsdoitdallas.com
-DTSTAMP:20260918T000000Z
-DTSTART:20260918T000000Z
-DTEND:20260918T030000Z
-SUMMARY:Tame Impala - The Deadbeat Tour
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=tame-impala-the-deadbeat-
- tour%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:thomas-rhett-the-soundtrack-to-life-tour|american-airlines-center-dalla
  s|7-30-pm-2026-09-18@letsdoitdallas.com
 DTSTAMP:20260919T003000Z
@@ -254,5 +241,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=dallas-mavericks-v-atlant
  a-hawks-preseason%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:weezer-the-gathering|american-airlines-center-dallas|7-00-pm-2026-10-17
+ @letsdoitdallas.com
+DTSTAMP:20261018T000000Z
+DTSTART:20261018T000000Z
+DTEND:20261018T030000Z
+SUMMARY:WEEZER: The Gathering
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=weezer-the-gathering%7Cam
+ erican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/american-airlines-center/
 END:VEVENT
 END:VCALENDAR

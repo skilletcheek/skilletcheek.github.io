@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jay-park-w-lngshot|the-bomb-factory-dallas|8-00-pm-2026-09-17@letsdoitd
- allas.com
-DTSTAMP:20260918T010000Z
-DTSTART:20260918T010000Z
-DTEND:20260918T040000Z
-SUMMARY:Jay Park w/ LNGSHOT
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=jay-park-w-lngshot%7Cthe-
- bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/the-bomb-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:julia-wolf-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory
  -dallas|8-00-pm-2026-09-18@letsdoitdallas.com
 DTSTAMP:20260919T010000Z
@@ -112,5 +99,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-15&e=dylan-scott-16-and-under-
  with-legal-guardian-%7Cthe-bomb-factory-dallas%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:whethan-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory-da
+ llas|9-00-pm-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261017T020000Z
+DTSTART:20261017T020000Z
+DTEND:20261017T050000Z
+SUMMARY:Whethan (16 and Under with Parent or Legal Guardian)
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=whethan-16-and-under-with
+ -parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:taste-of-chaos-16-and-under-with-parent-or-legal-guardian-|the-bomb-fac
+ tory-dallas|6-00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T230000Z
+DTSTART:20261017T230000Z
+DTEND:20261018T020000Z
+SUMMARY:Taste of Chaos (16 and Under with Parent or Legal Guardian)
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=taste-of-chaos-16-and-und
+ er-with-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C6-00-pm
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/venue/the-bomb-factory/
 END:VEVENT
 END:VCALENDAR

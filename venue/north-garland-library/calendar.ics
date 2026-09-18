@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
- |04-00-pm-2026-09-17@letsdoitdallas.com
-DTSTAMP:20260917T210000Z
-DTSTART:20260917T210000Z
-DTEND:20260918T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=teenz-place-after-school-
- hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
-DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
- eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
-  snacks while supplies last. Bring your friends! September 17\, 2026 04:00
-  PM - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garland 
- — More: https://letsdoitdallas.com/venue/north-garland-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:toddler-time-18-36-months-|north-garland-library-garland|10-00-am-2026-
  09-18@letsdoitdallas.com
 DTSTAMP:20260918T150000Z
@@ -279,5 +263,37 @@ DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
   snacks while supplies last. Bring your friends! October 1\, 2026 04:00 PM
   - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx. 
  — More: https://letsdoitdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-18-36-months-|north-garland-library-garland|10-00-am-2026-
+ 10-02@letsdoitdallas.com
+DTSTAMP:20261002T150000Z
+DTSTART:20261002T150000Z
+DTEND:20261002T180000Z
+SUMMARY:Toddler Time (18-36 Months)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=toddler-time-18-36-months
+ -%7Cnorth-garland-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Toddler Time is a storytime for children ages 18 m
+ onths to 3 years old. Toddler Time storytimes will be a mixture of age app
+ ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
+ rachute play. October 2\, 2026 10:00 AM - 11:00 AM 3845 N. Garland Ave.Gar
+ la — More: https://letsdoitdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-discovery-3-5-years-|north-garland-library-garland|11-00-am-2
+ 026-10-02@letsdoitdallas.com
+DTSTAMP:20261002T160000Z
+DTSTART:20261002T160000Z
+DTEND:20261002T190000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=preschool-discovery-3-5-y
+ ears-%7Cnorth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
+ ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
+ ters\, numbers\, and much more that will help develop your preschooler's e
+ arly literacy skills. October 2\, 2026 11:00 AM - 12:00 PM 3845 N. Garland
+  A — More: https://letsdoitdallas.com/venue/north-garland-library/
 END:VEVENT
 END:VCALENDAR

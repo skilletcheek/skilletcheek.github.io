@@ -9,58 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:scams-uncovered-ai-deception-and-protecting-yourself-in-a-digital-world
- |south-garland-library-garland|02-00-pm-2026-09-17@letsdoitdallas.com
-DTSTAMP:20260917T190000Z
-DTSTART:20260917T190000Z
-DTEND:20260917T220000Z
-SUMMARY:Scams Uncovered: AI\, Deception\, and Protecting Yourself in a Digi
- tal World
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=scams-uncovered-ai-decept
- ion-and-protecting-yourself-in-a-digital-world%7Csouth-garland-library-gar
- land%7C02-00-pm
-DESCRIPTION:2:00 p.m.\; Scams Uncovered: AI\, Deception\, and Protecting Yo
- urself in a Digital World is an informative presentation from the Garland 
- Police Department designed to help residents recognize scams and protect t
- hemselves and others. Presented by Officer Matt Pesta\, Garland Police De 
- — More: https://letsdoitdallas.com/venue/south-garland-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:family-game-night-noche-de-juegos-en-familia-de-la-biblioteca-south-gar
- land|south-garland-library-garland|05-30-pm-2026-09-17@letsdoitdallas.com
-DTSTAMP:20260917T223000Z
-DTSTART:20260917T223000Z
-DTEND:20260918T013000Z
-SUMMARY:Family Game Night / Noche de Juegos en Familia de la Biblioteca Sou
- th Garland
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=family-game-night-noche-d
- e-juegos-en-familia-de-la-biblioteca-south-garland%7Csouth-garland-library
- -garland%7C05-30-pm
-DESCRIPTION:5:30 p.m.\; Enjoy classic and modern games designed to bring fa
- milies together in a friendly\, welcoming atmosphere. Play together or mee
- t other families in your community. Games will be available in English and
-  Spanish. No registration required. Space is limited. Children 13 and y 
- — More: https://letsdoitdallas.com/venue/south-garland-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:fiction-book-club-ages-18-|south-garland-library-garland|06-30-pm-2026-
- 09-17@letsdoitdallas.com
-DTSTAMP:20260917T233000Z
-DTSTART:20260917T233000Z
-DTEND:20260918T023000Z
-SUMMARY:Fiction Book Club (Ages 18+)
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=fiction-book-club-ages-18
- -%7Csouth-garland-library-garland%7C06-30-pm
-DESCRIPTION:6:30 p.m.\; Are you an avid reader looking to connect with othe
- rs? Join us at the South Garland Library for our monthly book club\, where
-  we explore a new book each month and enjoy light refreshments. All perspe
- ctives are welcome. Come share your thoughts! September 17\, 2026 06:30 
- — More: https://letsdoitdallas.com/venue/south-garland-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a
  m-2026-09-18@letsdoitdallas.com
 DTSTAMP:20260918T150000Z
@@ -271,5 +219,21 @@ DESCRIPTION:6:30 p.m.\; ¿Te gusta leer en español — o quieres leer más
  . Descubre nuevos títulos\, comparte tus ideas y disfruta de excelente co
  mpañía — ¡t — More: https://letsdoitdallas.com/venue/south-garland-
  library/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a
+ m-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261002T150000Z
+DTSTART:20261002T150000Z
+DTEND:20261002T180000Z
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=baby-bounce-read-birth-18
+ -months-%7Csouth-garland-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
+  will learn\, play\, and grow together in this lap-sit storytime that intr
+ oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
+ y literacy practices into their everyday lives. October 2\, 2026 10:00 AM 
+ - 11 — More: https://letsdoitdallas.com/venue/south-garland-library/
 END:VEVENT
 END:VCALENDAR

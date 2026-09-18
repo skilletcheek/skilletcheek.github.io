@@ -113,6 +113,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/bass-performance-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:fort-worth-symphony-orchestra|bass-performance-hall-fort-worth|2-00-pm-
+ 2026-09-27@letsdoitdallas.com
+DTSTAMP:20260927T190000Z
+DTSTART:20260927T190000Z
+DTEND:20260927T220000Z
+SUMMARY:Fort Worth Symphony Orchestra
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=fort-worth-symphony-orche
+ stra%7Cbass-performance-hall-fort-worth%7C2-00-pm
+DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
+ com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:casanova|bass-performance-hall-fort-worth|8-00-pm-2026-10-02@letsdoitda
  llas.com
 DTSTAMP:20261003T010000Z

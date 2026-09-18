@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-wings-vs-los-angeles-sparks|college-park-center-arlington|7-00-p
- m-2026-09-17@letsdoitdallas.com
-DTSTAMP:20260918T000000Z
-DTSTART:20260918T000000Z
-DTEND:20260918T030000Z
-SUMMARY:Dallas Wings vs. Los Angeles Sparks
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=dallas-wings-vs-los-angel
- es-sparks%7Ccollege-park-center-arlington%7C7-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/college-park-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-wings-vs-phoenix-mercury|college-park-center-arlington|12-00-pm-
  2026-09-19@letsdoitdallas.com
 DTSTAMP:20260919T170000Z
@@ -47,5 +34,18 @@ URL:https://letsdoitdallas.com/?date=2026-09-24&e=west-georgia-wolves-at-ut
  -00-pm
 DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
  /letsdoitdallas.com/venue/college-park-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:tbd-at-dallas-wings-wnba-first-round-home-game-1-|college-park-center-a
+ rlington|3-30-am-2026-09-27@letsdoitdallas.com
+DTSTAMP:20260927T083000Z
+DTSTART:20260927T083000Z
+DTEND:20260927T113000Z
+SUMMARY:TBD at Dallas Wings - WNBA First Round (Home Game 1)
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=tbd-at-dallas-wings-wnba-
+ first-round-home-game-1-%7Ccollege-park-center-arlington%7C3-30-am
+DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/v
+ enue/college-park-center/
 END:VEVENT
 END:VCALENDAR

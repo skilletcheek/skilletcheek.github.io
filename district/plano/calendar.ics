@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:hot-topic|addison-improv-addison|7-00-pm-2026-09-17@letsdoitdallas.com
-DTSTAMP:20260918T000000Z
-DTSTART:20260918T000000Z
-DTEND:20260918T030000Z
-SUMMARY:Hot Topic
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=hot-topic%7Caddison-impro
- v-addison%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-bellamy-brothers|lexus-box-garden-at-legacy-hall-plano|8-00-pm-2026
- -09-17@letsdoitdallas.com
-DTSTAMP:20260918T010000Z
-DTSTART:20260918T010000Z
-DTEND:20260918T040000Z
-SUMMARY:The Bellamy Brothers
-LOCATION:Lexus Box Garden at Legacy Hall · Plano
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=the-bellamy-brothers%7Cle
- xus-box-garden-at-legacy-hall-plano%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:dan-lamorte|mic-drop-comedy-plano-plano|7-00-pm-2026-09-18@letsdoitdall
  as.com
 DTSTAMP:20260919T000000Z
@@ -268,6 +243,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:addisons-a-list|addison-improv-addison|6-00-pm-2026-09-27@letsdoitdalla
+ s.com
+DTSTAMP:20260927T230000Z
+DTSTART:20260927T230000Z
+DTEND:20260928T020000Z
+SUMMARY:Addisons A-List
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=addisons-a-list%7Caddison
+ -improv-addison%7C6-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:jane-don-t-does-america|addison-improv-addison|7-30-pm-2026-09-30@letsd
  oitdallas.com
 DTSTAMP:20261001T003000Z
@@ -467,6 +455,45 @@ SUMMARY:Michael Yo
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-10-11&e=michael-yo%7Caddison-impr
  ov-addison%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:carlos-mencia|addison-improv-addison|7-30-pm-2026-10-16@letsdoitdallas.
+ com
+DTSTAMP:20261017T003000Z
+DTSTART:20261017T003000Z
+DTEND:20261017T033000Z
+SUMMARY:Carlos Mencia
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=carlos-mencia%7Caddison-i
+ mprov-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:carlos-mencia|addison-improv-addison|9-45-pm-2026-10-16@letsdoitdallas.
+ com
+DTSTAMP:20261017T024500Z
+DTSTART:20261017T024500Z
+DTEND:20261017T054500Z
+SUMMARY:Carlos Mencia
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=carlos-mencia%7Caddison-i
+ mprov-addison%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:carlos-mencia|addison-improv-addison|7-00-pm-2026-10-17@letsdoitdallas.
+ com
+DTSTAMP:20261018T000000Z
+DTSTART:20261018T000000Z
+DTEND:20261018T030000Z
+SUMMARY:Carlos Mencia
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=carlos-mencia%7Caddison-i
+ mprov-addison%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT

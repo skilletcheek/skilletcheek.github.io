@@ -113,6 +113,19 @@ DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
 BEGIN:VEVENT
+UID:rick-babb-and-jmt-w-theo-carracino|poor-david-s-pub-dallas|doors-see-li
+ sting-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Rick Babb and JMT w /  Theo Carracino
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=rick-babb-and-jmt-w-theo-
+ carracino%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
+BEGIN:VEVENT
 UID:honky-tonk-tuesdays-with-the-raised-right-men-|poor-david-s-pub-dallas|
  doors-see-listing-2026-10-06@letsdoitdallas.com
 DTSTAMP:20261006T000000Z
@@ -200,6 +213,19 @@ SUMMARY:Sara Hickman - "Shortstop" 35th Reunion Tour
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-16&e=sara-hickman-shortstop-35
  th-reunion-tour%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
+BEGIN:VEVENT
+UID:shed-g-friends-comedy-special|poor-david-s-pub-dallas|doors-see-listing
+ -2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Shed G & Friends Comedy Special
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=shed-g-friends-comedy-spe
+ cial%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT

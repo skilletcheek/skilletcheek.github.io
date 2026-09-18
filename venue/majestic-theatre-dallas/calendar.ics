@@ -3,8 +3,8 @@ VERSION:2.0
 PRODID:-//Lets Do It Dallas//DFW Events//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Majestic Theatre Dallas — Lets Do It Dallas
-X-WR-CALDESC:Upcoming shows at Majestic Theatre Dallas.
+X-WR-CALNAME:Majestic Theatre - Dallas — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Majestic Theatre - Dallas.
 X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -20,6 +20,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-18&e=genx-takeover-comedy-tour
  %7Cmajestic-theatre-dallas-dallas%7C8-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:jonathan-van-ness|majestic-theatre-dallas-dallas|8-00-pm-2026-09-26@let
+ sdoitdallas.com
+DTSTAMP:20260927T010000Z
+DTSTART:20260927T010000Z
+DTEND:20260927T040000Z
+SUMMARY:Jonathan Van Ness
+LOCATION:Majestic Theatre - Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=jonathan-van-ness%7Cmajes
+ tic-theatre-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/majestic-theatre-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:indigo-girls-w-linda-perry|majestic-theatre-dallas-dallas|7-00-pm-2026-
@@ -86,5 +99,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-14&e=an-evening-with-celtic-th
  7C8-00-pm
 DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:leonid-friends|majestic-theatre-dallas-dallas|3-00-pm-2026-10-17@letsdo
+ itdallas.com
+DTSTAMP:20261017T200000Z
+DTSTART:20261017T200000Z
+DTEND:20261017T230000Z
+SUMMARY:Leonid & Friends
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=leonid-friends%7Cmajestic
+ -theatre-dallas-dallas%7C3-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/majestic-theatre-dallas/
 END:VEVENT
 END:VCALENDAR

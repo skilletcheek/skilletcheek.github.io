@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ryan-goodcase|punch-line-irving-irving|7-30-pm-2026-09-17@letsdoitdalla
- s.com
-DTSTAMP:20260918T003000Z
-DTSTART:20260918T003000Z
-DTEND:20260918T033000Z
-SUMMARY:Ryan Goodcase
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=ryan-goodcase%7Cpunch-lin
- e-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:emily-catalano|punch-line-irving-irving|7-30-pm-2026-09-18@letsdoitdall
  as.com
 DTSTAMP:20260919T003000Z
@@ -307,6 +294,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-26&e=an-evening-with-tyler-fis
  cher%7Cpunch-line-irving-irving%7C9-15-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:tyler-fischer-rescheduled-from-1-24-26-|punch-line-dallas-irvine-irving
+ |9-15-pm-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260927T021500Z
+DTSTART:20260927T021500Z
+DTEND:20260927T051500Z
+SUMMARY:Tyler Fischer (Rescheduled from 1/24/26)
+LOCATION:Punch Line Dallas - Irvine · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=tyler-fischer-rescheduled
+ -from-1-24-26-%7Cpunch-line-dallas-irvine-irving%7C9-15-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/irving/
 END:VEVENT
 BEGIN:VEVENT
 UID:desi-alexander-stress-signal-tour|punch-line-irving-irving|7-00-pm-2026
@@ -753,5 +753,44 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=modest-mouse%7Cthe-pavili
  on-at-toyota-music-factory-irving%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:comedy-allstars|punch-line-irving-irving|9-30-pm-2026-10-16@letsdoitdal
+ las.com
+DTSTAMP:20261017T023000Z
+DTSTART:20261017T023000Z
+DTEND:20261017T053000Z
+SUMMARY:Comedy Allstars
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=comedy-allstars%7Cpunch-l
+ ine-irving-irving%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:gov-t-mule-and-ziggy-marley|the-pavilion-at-toyota-music-factory-irving
+ |6-00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T230000Z
+DTSTART:20261017T230000Z
+DTEND:20261018T020000Z
+SUMMARY:Gov't Mule and Ziggy Marley
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=gov-t-mule-and-ziggy-marl
+ ey%7Cthe-pavilion-at-toyota-music-factory-irving%7C6-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:desi-comedy-fest-texas-edition|punch-line-irving-irving|7-00-pm-2026-10
+ -17@letsdoitdallas.com
+DTSTAMP:20261018T000000Z
+DTSTART:20261018T000000Z
+DTEND:20261018T030000Z
+SUMMARY:Desi Comedy Fest: Texas Edition
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=desi-comedy-fest-texas-ed
+ ition%7Cpunch-line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
 END:VEVENT
 END:VCALENDAR

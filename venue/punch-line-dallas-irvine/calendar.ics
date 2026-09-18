@@ -73,4 +73,17 @@ URL:https://letsdoitdallas.com/?date=2026-09-26&e=tyler-fischer-rescheduled
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /venue/punch-line-dallas-irvine/
 END:VEVENT
+BEGIN:VEVENT
+UID:tyler-fischer-rescheduled-from-1-24-26-|punch-line-dallas-irvine-irving
+ |9-15-pm-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260927T021500Z
+DTSTART:20260927T021500Z
+DTEND:20260927T051500Z
+SUMMARY:Tyler Fischer (Rescheduled from 1/24/26)
+LOCATION:Punch Line Dallas - Irvine · Irving
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=tyler-fischer-rescheduled
+ -from-1-24-26-%7Cpunch-line-dallas-irvine-irving%7C9-15-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/punch-line-dallas-irvine/
+END:VEVENT
 END:VCALENDAR

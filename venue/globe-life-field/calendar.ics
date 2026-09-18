@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:texas-rangers-vs-boston-red-sox|globe-life-field-arlington|7-05-pm-2026
- -09-17@letsdoitdallas.com
-DTSTAMP:20260918T000500Z
-DTSTART:20260918T000500Z
-DTEND:20260918T030500Z
-SUMMARY:Texas Rangers vs. Boston Red Sox
-LOCATION:Globe Life Field · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=texas-rangers-vs-boston-r
- ed-sox%7Cglobe-life-field-arlington%7C7-05-pm
-DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
- as.com/venue/globe-life-field/
-END:VEVENT
-BEGIN:VEVENT
 UID:texas-rangers-vs-toronto-blue-jays-all-for-texas-basketball-jersey|glob
  e-life-field-arlington|7-05-pm-2026-09-18@letsdoitdallas.com
 DTSTAMP:20260919T000500Z

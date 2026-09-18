@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:uncle-lucius-album-release-show|granada-theater-lower-greenville-dallas
- |doors-see-listing-2026-09-17@letsdoitdallas.com
-DTSTAMP:20260917T000000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Uncle Lucius: Album Release Show
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=uncle-lucius-album-releas
- e-show%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
- istrict/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:granadapalooza-janes-addiction-tribute-rhcp-tribute-green-day-tribute|g
  ranada-theater-lower-greenville-dallas|doors-see-listing-2026-09-18@letsdo
  itdallas.com
@@ -348,6 +335,20 @@ SUMMARY:Snarky Puppy w / Varijashree Venugopal
 LOCATION:Granada Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-17&e=snarky-puppy-w-varijashre
  e-venugopal%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:butttootking-lydia-b-kollins-suzie-toot-and-kori-king|granada-theater-l
+ ower-greenville-dallas|doors-see-listing-2026-10-18@letsdoitdallas.com
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:ButtTootKing: Lydia B Kollins\, Suzie Toot\, and Kori King
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=butttootking-lydia-b-koll
+ ins-suzie-toot-and-kori-king%7Cgranada-theater-lower-greenville-dallas%7Cd
+ oors-see-listing
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
  istrict/lower-greenville/
 END:VEVENT

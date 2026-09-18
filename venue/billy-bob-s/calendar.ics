@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-kruse-brothers-18-and-over-|billy-bob-s-fort-worth|9-00-pm-2026-09-
- 17@letsdoitdallas.com
-DTSTAMP:20260918T020000Z
-DTSTART:20260918T020000Z
-DTEND:20260918T050000Z
-SUMMARY:The Kruse Brothers (18 and Over)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=the-kruse-brothers-18-and
- -over-%7Cbilly-bob-s-fort-worth%7C9-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/billy-bob-s/
-END:VEVENT
-BEGIN:VEVENT
 UID:hudson-westbrook-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-09-1
  8@letsdoitdallas.com
 DTSTAMP:20260919T030000Z
@@ -176,5 +163,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=tyler-farr-18-and-over-%7
  Cbilly-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:ashley-mcbryde-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-16@let
+ sdoitdallas.com
+DTSTAMP:20261017T030000Z
+DTSTART:20261017T030000Z
+DTEND:20261017T060000Z
+SUMMARY:Ashley McBryde (18+ Event)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=ashley-mcbryde-18-event-%
+ 7Cbilly-bob-s-fort-worth%7C10-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/billy-bob-s/
 END:VEVENT
 END:VCALENDAR

@@ -10,61 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-09-17@letsdoitdallas.com
-DTSTAMP:20260917T130000Z
-DTSTART:20260917T130000Z
-DTEND:20260917T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tame-impala-the-deadbeat-tour|american-airlines-center-dallas|7-00-pm-2
- 026-09-17@letsdoitdallas.com
-DTSTAMP:20260918T000000Z
-DTSTART:20260918T000000Z
-DTEND:20260918T030000Z
-SUMMARY:Tame Impala - The Deadbeat Tour
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=tame-impala-the-deadbeat-
- tour%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-sound-of-music-touring-|music-hall-at-fair-park-dallas|7-30-pm-2026
- -09-17@letsdoitdallas.com
-DTSTAMP:20260918T003000Z
-DTSTART:20260918T003000Z
-DTEND:20260918T033000Z
-SUMMARY:The Sound of Music (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=the-sound-of-music-tourin
- g-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:isaiah-rashad-lil-sunny-s-awful-road-trip|south-side-ballroom-dallas|8-
- 00-pm-2026-09-17@letsdoitdallas.com
-DTSTAMP:20260918T010000Z
-DTSTART:20260918T010000Z
-DTEND:20260918T040000Z
-SUMMARY:ISAIAH RASHAD: Lil Sunny's Awful Road Trip
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=isaiah-rashad-lil-sunny-s
- -awful-road-trip%7Csouth-side-ballroom-dallas%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:cactus-lee-travelin-light-|poor-david-s-pub-dallas|doors-see-listing-20
  26-09-18@letsdoitdallas.com
 DTSTAMP:20260918T000000Z
@@ -170,6 +115,22 @@ URL:https://letsdoitdallas.com/?date=2026-09-18&e=isoxo-presents-hardcore-d
  iva%7Csouth-side-ballroom-dallas%7C8-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260919T130000Z
+DTSTART:20260919T130000Z
+DTEND:20260919T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-sound-of-music-touring-|music-hall-at-fair-park-dallas|1-30-pm-2026
@@ -783,6 +744,19 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:rick-babb-and-jmt-w-theo-carracino|poor-david-s-pub-dallas|doors-see-li
+ sting-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Rick Babb and JMT w /  Theo Carracino
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=rick-babb-and-jmt-w-theo-
+ carracino%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:arin-ray-the-limbo-tour|the-cambridge-room-at-house-of-blues-dallas|7-0
  0-pm-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261004T000000Z
@@ -1301,6 +1275,71 @@ SUMMARY:Michigander
 LOCATION:The Cambridge Room at House Of Blues · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-16&e=michigander%7Cthe-cambrid
  ge-room-at-house-of-blues-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:shed-g-friends-comedy-special|poor-david-s-pub-dallas|doors-see-listing
+ -2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Shed G & Friends Comedy Special
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=shed-g-friends-comedy-spe
+ cial%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:leonid-friends|majestic-theatre-dallas-dallas|3-00-pm-2026-10-17@letsdo
+ itdallas.com
+DTSTAMP:20261017T200000Z
+DTSTART:20261017T200000Z
+DTEND:20261017T230000Z
+SUMMARY:Leonid & Friends
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=leonid-friends%7Cmajestic
+ -theatre-dallas-dallas%7C3-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:k-michelle|house-of-blues-dallas-dallas|7-00-pm-2026-10-17@letsdoitdall
+ as.com
+DTSTAMP:20261018T000000Z
+DTSTART:20261018T000000Z
+DTEND:20261018T030000Z
+SUMMARY:K. Michelle
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=k-michelle%7Chouse-of-blu
+ es-dallas-dallas%7C7-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:rainao|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-10-17@l
+ etsdoitdallas.com
+DTSTAMP:20261018T000000Z
+DTSTART:20261018T000000Z
+DTEND:20261018T030000Z
+SUMMARY:RaiNao
+LOCATION:The Cambridge Room at House Of Blues · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=rainao%7Cthe-cambridge-ro
+ om-at-house-of-blues-dallas%7C7-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:weezer-the-gathering|american-airlines-center-dallas|7-00-pm-2026-10-17
+ @letsdoitdallas.com
+DTSTAMP:20261018T000000Z
+DTSTART:20261018T000000Z
+DTEND:20261018T030000Z
+SUMMARY:WEEZER: The Gathering
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=weezer-the-gathering%7Cam
+ erican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT

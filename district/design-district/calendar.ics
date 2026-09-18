@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bassjackers-18-and-over-|silo-dallas|9-00-pm-2026-09-17@letsdoitdallas.
- com
-DTSTAMP:20260918T020000Z
-DTSTART:20260918T020000Z
-DTEND:20260918T050000Z
-SUMMARY:Bassjackers (18 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-17&e=bassjackers-18-and-over-%
- 7Csilo-dallas%7C9-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:sophie-truax-w-sasha-cee|am-fm-dallas-dallas|7-00-pm-2026-09-18@letsdoi
  tdallas.com
 DTSTAMP:20260919T000000Z
@@ -597,5 +584,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=jenna-davis%7Cthe-echo-lo
  unge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:bob-moses-club-set-ages-18-|silo-dallas|10-00-pm-2026-10-16@letsdoitdal
+ las.com
+DTSTAMP:20261017T030000Z
+DTSTART:20261017T030000Z
+DTEND:20261017T060000Z
+SUMMARY:Bob Moses (club set) - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=bob-moses-club-set-ages-1
+ 8-%7Csilo-dallas%7C10-00-pm
+DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
 END:VEVENT
 END:VCALENDAR
