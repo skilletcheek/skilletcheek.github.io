@@ -1214,6 +1214,19 @@ DESCRIPTION:Religious event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:something-different-presents-unpopular-opinion-night-21-|house-of-blues
+ -dallas-dallas|7-00-pm-2026-10-15@letsdoitdallas.com
+DTSTAMP:20261016T000000Z
+DTSTART:20261016T000000Z
+DTEND:20261016T030000Z
+SUMMARY:Something Different Presents: Unpopular Opinion Night - 21+
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=something-different-prese
+ nts-unpopular-opinion-night-21-%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Lecture/Seminar event via Ticketmaster. — More: https://letsd
+ oitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:randy-travis-w-james-dupre|longhorn-ballroom-backyard-amphitheater-dall
  as|8-00-pm-2026-10-15@letsdoitdallas.com
 DTSTAMP:20261016T010000Z

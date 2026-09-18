@@ -94,17 +94,17 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:ariel-posen-w-zach-person|granada-theater-lower-greenville-dallas|doors
- -see-listing-2026-09-27@letsdoitdallas.com
-DTSTAMP:20260927T000000Z
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20260928
-SUMMARY:Ariel Posen w /  Zach Person
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=ariel-posen-w-zach-person
- %7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
+UID:ariel-posen|granada-theater-dallas-dallas|7-00-pm-2026-09-27@letsdoitda
+ llas.com
+DTSTAMP:20260928T000000Z
+DTSTART:20260928T000000Z
+DTEND:20260928T030000Z
+SUMMARY:Ariel Posen
+LOCATION:Granada Theater - Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=ariel-posen%7Cgranada-the
+ ater-dallas-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:inxs-tribute-intxs-tears-for-fears-tribute-mad-world|granada-theater-lo

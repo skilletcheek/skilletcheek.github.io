@@ -1026,6 +1026,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:olivia-rodrigo-night|trees-dallas|doors-see-listing-2026-10-17@letsdoit
+ dallas.com
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:OLIVIA RODRIGO NIGHT
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=olivia-rodrigo-night%7Ctr
+ ees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:taste-of-chaos-16-and-under-with-parent-or-legal-guardian-|the-bomb-fac
  tory-dallas|6-00-pm-2026-10-17@letsdoitdallas.com
 DTSTAMP:20261017T230000Z

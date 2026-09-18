@@ -161,4 +161,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=daft-disko%7Ctrees-dallas
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT
+BEGIN:VEVENT
+UID:olivia-rodrigo-night|trees-dallas|doors-see-listing-2026-10-17@letsdoit
+ dallas.com
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:OLIVIA RODRIGO NIGHT
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=olivia-rodrigo-night%7Ctr
+ ees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
 END:VCALENDAR

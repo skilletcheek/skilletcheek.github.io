@@ -9,42 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chair-volleyball|310-e-parkerville-road-cedar-hill|09-30-am-2026-09-18@
- letsdoitdallas.com
-DTSTAMP:20260918T143000Z
-DTSTART:20260918T143000Z
-DTEND:20260918T173000Z
-SUMMARY:Chair Volleyball
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=chair-volleyball%7C310-e-
- parkerville-road-cedar-hill%7C09-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:artist-in-residence|dogwood-canyon-cedar-hill|10-00-am-2026-09-18@letsd
- oitdallas.com
-DTSTAMP:20260918T150000Z
-DTSTART:20260918T150000Z
-DTEND:20260918T180000Z
-SUMMARY:Artist in Residence
-LOCATION:Dogwood Canyon · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=artist-in-residence%7Cdog
- wood-canyon-cedar-hill%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:pilates-for-older-adults|310-e-parkerville-road-cedar-hill|01-00-pm-202
- 6-09-18@letsdoitdallas.com
-DTSTAMP:20260918T180000Z
-DTSTART:20260918T180000Z
-DTEND:20260918T210000Z
-SUMMARY:Pilates for Older Adults
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=pilates-for-older-adults%
- 7C310-e-parkerville-road-cedar-hill%7C01-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:days-at-dogwood-canyon-podcast|cedar-hill|05-00-pm-2026-09-18@letsdoitd
  allas.com
 DTSTAMP:20260918T220000Z

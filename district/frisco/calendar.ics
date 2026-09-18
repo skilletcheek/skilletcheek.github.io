@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:coffee-with-the-mayor|8000-dallas-pkwy-frisco|08-00-am-2026-09-18@letsd
- oitdallas.com
-DTSTAMP:20260918T130000Z
-DTSTART:20260918T130000Z
-DTEND:20260918T160000Z
-SUMMARY:Coffee with the Mayor
-LOCATION:8000 Dallas Pkwy. · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=coffee-with-the-mayor%7C8
- 000-dallas-pkwy-frisco%7C08-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:reception-the-shape-of-now-|8004-n-dallas-parkway-frisco|06-30-pm-2026-
  09-18@letsdoitdallas.com
 DTSTAMP:20260918T233000Z
