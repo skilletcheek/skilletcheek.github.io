@@ -15,6 +15,12 @@ function _inRange(date, start, end) {
   return start <= end ? (cur >= start && cur <= end) : (cur >= start || cur <= end);
 }
 function _nthWeekday(date) { return Math.floor((date.getDate() - 1) / 7) + 1; }
+// Thu/Fri/Sat/Sun -> days until the Monday that immediately follows. Used by
+// beforeFirstMonday below; First Monday Trade Days runs the four days before
+// the first Monday of each month, which crosses the month boundary whenever
+// that Monday falls in the first four days of its month (e.g. Nov 2026: the
+// run is Oct 29 - Nov 1), so this can't be expressed as a fixed day-of-month.
+const _DAYS_TO_MONDAY = { 4: 4, 5: 3, 6: 2, 0: 1 };
 
 function happensOn(activity, date) {
   const r = activity.recur;
@@ -26,6 +32,13 @@ function happensOn(activity, date) {
   if (r.dateRange) {
     if (!_inRange(date, r.dateRange.start, r.dateRange.end)) return false;
     return r.dateRange.weekly ? r.dateRange.weekly.includes(dow) : true;
+  }
+  if (r.beforeFirstMonday) {
+    const offset = _DAYS_TO_MONDAY[dow];
+    if (offset === undefined) return false;
+    const nextMon = new Date(date);
+    nextMon.setDate(nextMon.getDate() + offset);
+    return nextMon.getDay() === 1 && nextMon.getDate() <= 7;
   }
   return false;
 }

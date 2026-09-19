@@ -104,6 +104,10 @@ const SPONSORED = [
      weekly:[0-6]                      -> weekdays (0=Sun ... 6=Sat)
      monthly:{week,day}                -> e.g. {week:1,day:0} = 1st Sunday
      dateRange:{start,end,weekly?}     -> seasonal "MM-DD" window
+     beforeFirstMonday:true            -> the Thu-Sun immediately preceding
+                                          the first Monday of the month (can
+                                          cross the month boundary -- see
+                                          happensOn() in app.js)
 
    venue: the room or place that hosts it, named as the schema.org Event's
    organizer and location (updateSeo() in app.js). `area` is a neighbourhood
@@ -134,6 +138,16 @@ const ACTIVITIES = [
     recur: { weekly: [0] }, time: "11:00 AM – 4:00 PM", cost: 0,
     desc: "Sunday makers market in Sundance Square with artisans, vintage and street food.",
     url: "https://www.sundancesquare.com" },
+  // Canton is ~65 miles east of Dallas and not in DFW_CITIES / any DISTRICTS
+  // match -- outside the site's normal DFW-only scope. Kept in on request as
+  // a one-off exception (submitted 2026-09-19); cityOf()/districtOf() both
+  // correctly resolve it to neither, so it appears in the all-DFW listing
+  // but not under any city or district filter. Don't "fix" that by adding
+  // Canton to DFW_CITIES.
+  { name: "First Monday Trade Days", cat: "market", area: "Canton, TX", venue: "First Monday Trade Days",
+    recur: { beforeFirstMonday: true }, time: "8:00 AM", cost: 0,
+    desc: "The world's largest flea market — thousands of vendors across 100+ acres, held the Thursday through Sunday before the first Monday of every month in Canton, about an hour east of Dallas.",
+    url: "https://www.visitfirstmonday.com" },
 
   // Arts & Museums
   { name: "Dallas Museum of Art", cat: "arts", area: "Arts District, Dallas", venue: "Dallas Museum of Art",
