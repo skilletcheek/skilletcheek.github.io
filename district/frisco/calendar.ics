@@ -10,30 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:slow-down-september-sunrise-yoga|8800-8840-4th-st-frisco|07-30-am-2026-
- 09-19@letsdoitdallas.com
-DTSTAMP:20260919T123000Z
-DTSTART:20260919T123000Z
-DTEND:20260919T153000Z
-SUMMARY:Slow Down September: Sunrise Yoga
-LOCATION:8800-8840 4th St · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=slow-down-september-sunri
- se-yoga%7C8800-8840-4th-st-frisco%7C07-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:northwest-community-park-grand-opening|13770-teel-pkwy-frisco|08-00-am-
- 2026-09-19@letsdoitdallas.com
-DTSTAMP:20260919T130000Z
-DTSTART:20260919T130000Z
-DTEND:20260919T160000Z
-SUMMARY:Northwest Community Park Grand Opening
-LOCATION:13770 Teel Pkwy · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=northwest-community-park-
- grand-opening%7C13770-teel-pkwy-frisco%7C08-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:fc-dallas-vs-austin-fc|toyota-stadium-frisco|7-30-pm-2026-09-19@letsdoi
  tdallas.com
 DTSTAMP:20260920T003000Z
@@ -143,6 +119,19 @@ LOCATION:The Depot · Frisco
 URL:https://letsdoitdallas.com/?date=2026-09-30&e=walnut-wednesday-stack-at
  tack-%7Cthe-depot-6499-page-street-frisco%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-star-guided-tour|the-star-frisco|10-00-am-2026-10-01@letsdoitdallas
+ .com
+DTSTAMP:20261001T150000Z
+DTSTART:20261001T150000Z
+DTEND:20261001T180000Z
+SUMMARY:The STAR Guided Tour
+LOCATION:The STAR · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=the-star-guided-tour%7Cth
+ e-star-frisco%7C10-00-am
+DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:fc-dallas-vs-seattle-sounders-fc|toyota-stadium-frisco|7-30-pm-2026-10-

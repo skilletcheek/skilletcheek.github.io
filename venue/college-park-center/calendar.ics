@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-wings-vs-phoenix-mercury|college-park-center-arlington|12-00-pm-
- 2026-09-19@letsdoitdallas.com
-DTSTAMP:20260919T170000Z
-DTSTART:20260919T170000Z
-DTEND:20260919T200000Z
-SUMMARY:Dallas Wings vs. Phoenix Mercury
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=dallas-wings-vs-phoenix-m
- ercury%7Ccollege-park-center-arlington%7C12-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/college-park-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:west-georgia-wolves-at-ut-arlington-mavericks-womens-volleyball|college
  -park-center-arlington|6-00-pm-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260924T230000Z
@@ -60,5 +47,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-30&e=tbd-at-dallas-wings-wnba-
  first-round-home-game-2-%7Ccollege-park-center-arlington%7C3-30-am
 DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/v
  enue/college-park-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:little-rock-trojans-at-ut-arlington-mavericks-womens-volleyball|college
+ -park-center-arlington|6-00-pm-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261001T230000Z
+DTSTART:20261001T230000Z
+DTEND:20261002T020000Z
+SUMMARY:Little Rock Trojans at UT Arlington Mavericks Womens Volleyball
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=little-rock-trojans-at-ut
+ -arlington-mavericks-womens-volleyball%7Ccollege-park-center-arlington%7C6
+ -00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/venue/college-park-center/
 END:VEVENT
 END:VCALENDAR

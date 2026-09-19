@@ -100,6 +100,19 @@ DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/dickies-arena/
 END:VEVENT
 BEGIN:VEVENT
+UID:pbr-teams-series-rattler-days-3-day-pass|dickies-arena-fort-worth|3-30-
+ am-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261002T083000Z
+DTSTART:20261002T083000Z
+DTEND:20261002T113000Z
+SUMMARY:PBR: Teams Series - Rattler Days - 3 Day Pass
+LOCATION:Dickies Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=pbr-teams-series-rattler-
+ days-3-day-pass%7Cdickies-arena-fort-worth%7C3-30-am
+DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/dickies-arena/
+END:VEVENT
+BEGIN:VEVENT
 UID:pbr-teams-series-rattler-days|dickies-arena-fort-worth|7-45-pm-2026-10-
  02@letsdoitdallas.com
 DTSTAMP:20261003T004500Z

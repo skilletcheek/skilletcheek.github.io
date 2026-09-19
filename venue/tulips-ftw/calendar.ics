@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:alt-glam-drag-brunch|tulips-ftw-112-saint-louis-avenue-fort-worth-76104
- -united-states|12-00-pm-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260919T170000Z
-DTSTART:20260919T170000Z
-DTEND:20260919T200000Z
-SUMMARY:ALT GLAM Drag Brunch
-LOCATION:Tulips FTW · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=alt-glam-drag-brunch%7Ctu
- lips-ftw-112-saint-louis-avenue-fort-worth-76104-united-states%7C12-00-pm
-DESCRIPTION:Join us for a spectacular and captivating afternoon at ALT GLAM
-  Drag Brunch. Deja Dubois (Texas Entertainer of the Year 2025) will return
-  to the stage as our talented host. Our stunning cast includes U.B. Wylde\
- , Les Bone (The Queer Off Winner 2026)\, JT Davenport\, and Power Surge 
- — More: https://letsdoitdallas.com/venue/tulips-ftw/
-END:VEVENT
-BEGIN:VEVENT
 UID:kylie-morgan|tulips-ftw-fort-worth|8-00-pm-2026-09-24@letsdoitdallas.co
  m
 DTSTAMP:20260925T010000Z
@@ -48,5 +32,18 @@ URL:https://letsdoitdallas.com/?date=2026-09-26&e=kidd-g%7Ctulips-ftw-fort-
  worth%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/tulips-ftw/
+END:VEVENT
+BEGIN:VEVENT
+UID:sam-williams|tulips-ftw-fort-worth|8-00-pm-2026-10-01@letsdoitdallas.co
+ m
+DTSTAMP:20261002T010000Z
+DTSTART:20261002T010000Z
+DTEND:20261002T040000Z
+SUMMARY:Sam Williams
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=sam-williams%7Ctulips-ftw
+ -fort-worth%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/tulips-ftw/
 END:VEVENT
 END:VCALENDAR

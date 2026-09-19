@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:yale-bulldogs-at-smu-mustangs-womens-volleyball|moody-coliseum-dallas|1
- -00-pm-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260919T180000Z
-DTSTART:20260919T180000Z
-DTEND:20260919T210000Z
-SUMMARY:Yale Bulldogs at SMU Mustangs Womens Volleyball
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=yale-bulldogs-at-smu-must
- angs-womens-volleyball%7Cmoody-coliseum-dallas%7C1-00-pm
-DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
- /letsdoitdallas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-stanford-cardinal-womens-volleyball|m
  oody-coliseum-dallas|8-00-pm-2026-09-25@letsdoitdallas.com
 DTSTAMP:20260926T010000Z
