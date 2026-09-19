@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:donnell-rawlings|arlington-improv-arlington|7-30-pm-2026-09-18@letsdoit
- dallas.com
-DTSTAMP:20260919T003000Z
-DTSTART:20260919T003000Z
-DTEND:20260919T033000Z
-SUMMARY:Donnell Rawlings
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=donnell-rawlings%7Carling
- ton-improv-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:donnell-rawlings|arlington-improv-arlington|9-45-pm-2026-09-18@letsdoit
- dallas.com
-DTSTAMP:20260919T024500Z
-DTSTART:20260919T024500Z
-DTEND:20260919T054500Z
-SUMMARY:Donnell Rawlings
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=donnell-rawlings%7Carling
- ton-improv-arlington%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
  26-09-19@letsdoitdallas.com
 DTSTAMP:20260919T170000Z
@@ -394,6 +368,45 @@ DTEND:20261018T030000Z
 SUMMARY:Marcus D. Wiley
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-17&e=marcus-d-wiley%7Carlingto
+ n-improv-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:marcus-d-wiley|arlington-improv-arlington|9-30-pm-2026-10-17@letsdoitda
+ llas.com
+DTSTAMP:20261018T023000Z
+DTSTART:20261018T023000Z
+DTEND:20261018T053000Z
+SUMMARY:Marcus D. Wiley
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=marcus-d-wiley%7Carlingto
+ n-improv-arlington%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:flip-phone-hocus-pocus-drag-brunch|arlington-improv-arlington|2-00-pm-2
+ 026-10-18@letsdoitdallas.com
+DTSTAMP:20261018T190000Z
+DTSTART:20261018T190000Z
+DTEND:20261018T220000Z
+SUMMARY:Flip Phone: Hocus Pocus Drag Brunch
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=flip-phone-hocus-pocus-dr
+ ag-brunch%7Carlington-improv-arlington%7C2-00-pm
+DESCRIPTION:Community/Civic event via Ticketmaster. — More: https://letsd
+ oitdallas.com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:marcus-d-wiley|arlington-improv-arlington|7-00-pm-2026-10-18@letsdoitda
+ llas.com
+DTSTAMP:20261019T000000Z
+DTSTART:20261019T000000Z
+DTEND:20261019T030000Z
+SUMMARY:Marcus D. Wiley
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=marcus-d-wiley%7Carlingto
  n-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/

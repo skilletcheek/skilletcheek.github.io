@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:emily-catalano|punch-line-irving-irving|7-30-pm-2026-09-18@letsdoitdall
- as.com
-DTSTAMP:20260919T003000Z
-DTSTART:20260919T003000Z
-DTEND:20260919T033000Z
-SUMMARY:Emily Catalano
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=emily-catalano%7Cpunch-li
- ne-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:comedy-allstars|punch-line-irving-irving|9-45-pm-2026-09-18@letsdoitdal
- las.com
-DTSTAMP:20260919T024500Z
-DTSTART:20260919T024500Z
-DTEND:20260919T054500Z
-SUMMARY:Comedy Allstars
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=comedy-allstars%7Cpunch-l
- ine-irving-irving%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:emily-catalano|punch-line-irving-irving|7-00-pm-2026-09-19@letsdoitdall
  as.com
 DTSTAMP:20260920T000000Z
@@ -448,6 +422,45 @@ SUMMARY:Desi Comedy Fest: Texas Edition
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-10-17&e=desi-comedy-fest-texas-ed
  ition%7Cpunch-line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:comedy-allstars|punch-line-irving-irving|9-30-pm-2026-10-17@letsdoitdal
+ las.com
+DTSTAMP:20261018T023000Z
+DTSTART:20261018T023000Z
+DTEND:20261018T053000Z
+SUMMARY:Comedy Allstars
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=comedy-allstars%7Cpunch-l
+ ine-irving-irving%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:cynthia-lee-fontaine-presents-drag-brunch-at-the-punch|punch-line-irvin
+ g-irving|12-00-pm-2026-10-18@letsdoitdallas.com
+DTSTAMP:20261018T170000Z
+DTSTART:20261018T170000Z
+DTEND:20261018T200000Z
+SUMMARY:Cynthia Lee Fontaine Presents: Drag Brunch at the Punch
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=cynthia-lee-fontaine-pres
+ ents-drag-brunch-at-the-punch%7Cpunch-line-irving-irving%7C12-00-pm
+DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
+ oitdallas.com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:elizabeth-brunot|punch-line-irving-irving|7-00-pm-2026-10-18@letsdoitda
+ llas.com
+DTSTAMP:20261019T000000Z
+DTSTART:20261019T000000Z
+DTEND:20261019T030000Z
+SUMMARY:Elizabeth Brunot
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=elizabeth-brunot%7Cpunch-
+ line-irving-irving%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT

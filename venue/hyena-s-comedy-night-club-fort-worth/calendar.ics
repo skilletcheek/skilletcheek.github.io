@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dave-smith|hyena-s-comedy-night-club-fort-worth-fort-worth|7-30-pm-2026
- -09-18@letsdoitdallas.com
-DTSTAMP:20260919T003000Z
-DTSTART:20260919T003000Z
-DTEND:20260919T033000Z
-SUMMARY:Dave Smith
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=dave-smith%7Chyena-s-come
- dy-night-club-fort-worth-fort-worth%7C7-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/hyena-s-comedy-night-club-fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:dave-smith|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-pm-2026
- -09-18@letsdoitdallas.com
-DTSTAMP:20260919T023000Z
-DTSTART:20260919T023000Z
-DTEND:20260919T053000Z
-SUMMARY:Dave Smith
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=dave-smith%7Chyena-s-come
- dy-night-club-fort-worth-fort-worth%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/hyena-s-comedy-night-club-fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:duncan-trussell|hyena-s-comedy-night-club-fort-worth-fort-worth|7-00-pm
  -2026-09-19@letsdoitdallas.com
 DTSTAMP:20260920T000000Z

@@ -9,21 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:west-virginia-mountaineers-at-north-texas-mean-green-womens-volleyball|
- north-texas-volleyball-center-denton|7-00-pm-2026-09-18@letsdoitdallas.com
-DTSTAMP:20260919T000000Z
-DTSTART:20260919T000000Z
-DTEND:20260919T030000Z
-SUMMARY:West Virginia Mountaineers at North Texas Mean Green Womens Volleyb
- all
-LOCATION:North Texas Volleyball Center · Denton
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=west-virginia-mountaineer
- s-at-north-texas-mean-green-womens-volleyball%7Cnorth-texas-volleyball-cen
- ter-denton%7C7-00-pm
-DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
- /letsdoitdallas.com/venue/north-texas-volleyball-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:east-texas-a-m-lions-at-north-texas-mean-green-womens-volleyball|north-
  texas-volleyball-center-denton|2-00-pm-2026-09-19@letsdoitdallas.com
 DTSTAMP:20260919T190000Z

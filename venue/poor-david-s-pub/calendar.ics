@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cactus-lee-travelin-light-|poor-david-s-pub-dallas|doors-see-listing-20
- 26-09-18@letsdoitdallas.com
-DTSTAMP:20260918T000000Z
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260919
-SUMMARY:Cactus Lee "Travelin' Light"
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=cactus-lee-travelin-light
- -%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:brother-and-the-hayes-release-party-|poor-david-s-pub-dallas|doors-see-
  listing-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260924T000000Z

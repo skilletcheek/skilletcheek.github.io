@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-symphony-orchestra-zade-dirani-live-in-concert|morton-meyerson-s
- ymphony-center-dallas|8-00-pm-2026-09-18@letsdoitdallas.com
-DTSTAMP:20260919T010000Z
-DTSTART:20260919T010000Z
-DTEND:20260919T040000Z
-SUMMARY:Dallas Symphony Orchestra - Zade Dirani Live in Concert
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=dallas-symphony-orchestra
- -zade-dirani-live-in-concert%7Cmorton-meyerson-symphony-center-dallas%7C8-
- 00-pm
-DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
- com/venue/morton-meyerson-symphony-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-schederazade-and-pablo-sainz-villega
  s|morton-meyerson-symphony-center-dallas|7-30-pm-2026-09-24@letsdoitdallas
  .com
@@ -170,6 +156,38 @@ LOCATION:Morton Meyerson Symphony Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-16&e=dallas-symphony-orchestra
  -presents-beethoven-and-strauss-with-daniel-hawkins%7Cmorton-meyerson-symp
  hony-center-dallas%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/morton-meyerson-symphony-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-beethoven-and-strauss-with-daniel-ha
+ wkins|morton-meyerson-symphony-center-dallas|7-30-pm-2026-10-17@letsdoitda
+ llas.com
+DTSTAMP:20261018T003000Z
+DTSTART:20261018T003000Z
+DTEND:20261018T033000Z
+SUMMARY:Dallas Symphony Orchestra Presents Beethoven and Strauss with Danie
+ l Hawkins
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=dallas-symphony-orchestra
+ -presents-beethoven-and-strauss-with-daniel-hawkins%7Cmorton-meyerson-symp
+ hony-center-dallas%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/morton-meyerson-symphony-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-beethoven-and-strauss-with-daniel-ha
+ wkins|morton-meyerson-symphony-center-dallas|2-00-pm-2026-10-18@letsdoitda
+ llas.com
+DTSTAMP:20261018T190000Z
+DTSTART:20261018T190000Z
+DTEND:20261018T220000Z
+SUMMARY:Dallas Symphony Orchestra Presents Beethoven and Strauss with Danie
+ l Hawkins
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=dallas-symphony-orchestra
+ -presents-beethoven-and-strauss-with-daniel-hawkins%7Cmorton-meyerson-symp
+ hony-center-dallas%7C2-00-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/venue/morton-meyerson-symphony-center/
 END:VEVENT

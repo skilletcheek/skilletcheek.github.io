@@ -11,38 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
- e-tx-76051-united-states|8-00-am-2026-09-18@letsdoitdallas.com
-DTSTAMP:20260918T130000Z
-DTSTART:20260918T130000Z
-DTEND:20260918T160000Z
-SUMMARY:Phenomenomaly at Meow Wolf
-LOCATION:Meow Wolf · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=phenomenomaly-at-meow-wol
- f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
- C8-00-am
-DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
-  live immersive performance series inside The Real Unreal. Blending intera
- ctive theater with a rotating lineup of North Texas talent\, the experienc
- e unfolds around guests as they explore\, featuring music\, dance\, comedy
- \, — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:mahjong-open-play|grapevine|12-30-pm-2026-09-18@letsdoitdallas.com
-DTSTAMP:20260918T173000Z
-DTSTART:20260918T173000Z
-DTEND:20260918T203000Z
-SUMMARY:Mahjong: Open Play
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=mahjong-open-play%7Cgrape
- vine%7C12-30-pm
-DESCRIPTION:Open Play Fridays 12:30-4:30. Tables available on a first come 
- first serve basis\, Space is Limited. Players\, please bring your own card
- s and bags. Ages 18 and up. September 18\, 2026 12:30 PM - 04:30 PM Grapev
- ine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17586/639 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
  e-tx-76051-united-states|8-00-am-2026-09-19@letsdoitdallas.com
 DTSTAMP:20260919T130000Z
 DTSTART:20260919T130000Z
@@ -167,6 +135,22 @@ DESCRIPTION:The 1st and 3rd Saturday the library is visited by therapy dogs
  . September 19\, 2026 02:30 PM - 03:30 PM Grapevine\, TX 76051 https://www
  .grapevinetexas.gov/Calendar.aspx?EID=17689/639242141660000000 — More: h
  ttps://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:grapevine-main-live-|peace-plaza-801-s-main-street-grapevine-76051-unit
+ ed-states|7-30-pm-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260920T003000Z
+DTSTART:20260920T003000Z
+DTEND:20260920T033000Z
+SUMMARY:Grapevine Main LIVE!
+LOCATION:Peace Plaza · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=grapevine-main-live-%7Cpe
+ ace-plaza-801-s-main-street-grapevine-76051-united-states%7C7-30-pm
+DESCRIPTION:Grapevine Main LIVE! is back and bigger than ever with an 8-wee
+ k Spring Music Series sure to hit all the right notes! Guests can enjoy fo
+ od from eight chef-inspired global kitchens as well as specialty crafted c
+ ocktails and performances by some of the best local artists and bands — 
+ More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:fiber-arts-studio-18-|grapevine|10-00-am-2026-09-20@letsdoitdallas.com
@@ -1002,6 +986,84 @@ DESCRIPTION:Bouncing Babies is a program for babies from birth to 18 months
   — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
+UID:pop-up-storytime|parr-park-grapevine|10-00-am-2026-10-03@letsdoitdallas
+ .com
+DTSTAMP:20261003T150000Z
+DTSTART:20261003T150000Z
+DTEND:20261003T180000Z
+SUMMARY:Pop-Up Storytime
+LOCATION:Parr Park! · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=pop-up-storytime%7Cparr-p
+ ark-grapevine%7C10-00-am
+DESCRIPTION:Surprise! Pop-Up Storytime is coming to a Grapevine park near y
+ ou! The Library Outreach Team is hitting the road from March through Octob
+ er\, bringing stories\, songs\, and smiles to parks across our community. 
+ Find us at Parr Park this Saturday! Last stop: Heritage Park (201 Ball S 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:stitchcraft-circle-18-|grapevine|10-00-am-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T150000Z
+DTSTART:20261003T150000Z
+DTEND:20261003T180000Z
+SUMMARY:Stitchcraft Circle (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=stitchcraft-circle-18-%7C
+ grapevine%7C10-00-am
+DESCRIPTION:Help us make quilts for the Grapevine Animal Shelter & local ho
+ spital or bring your own stitching project. Adults only (18+)\, Library Ca
+ rd & Registration Required to attend. October 3\, 2026 10:00 AM - 01:00 PM
+  Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=1 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:recording-studio-attended|grapevine|12-00-pm-2026-10-03@letsdoitdallas.
+ com
+DTSTAMP:20261003T170000Z
+DTSTART:20261003T170000Z
+DTEND:20261003T200000Z
+SUMMARY:Recording Studio Attended
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=recording-studio-attended
+ %7Cgrapevine%7C12-00-pm
+DESCRIPTION:Interested in podcasting or recording music? Come learn how to 
+ use the library’s Recording Studio! To reserve and use the Recording Stu
+ dio\, you must first complete a mandatory orientation. Orientations are of
+ fered on Saturdays from 12 to 4 pm. No registration or appointment neede 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:board-game-meet-up-for-adults-|grapevine|02-00-pm-2026-10-03@letsdoitda
+ llas.com
+DTSTAMP:20261003T190000Z
+DTSTART:20261003T190000Z
+DTEND:20261003T220000Z
+SUMMARY:Board Game Meet-Up for Adults!
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=board-game-meet-up-for-ad
+ ults-%7Cgrapevine%7C02-00-pm
+DESCRIPTION:Join us for a fun day of board and card gaming at the library. 
+ Select from our collection of board games\, card games\, party games\, or 
+ bring your own games! 1st & 3rd Saturdays (and those ocassional 5th Saturd
+ ays: 1/31\, 5/30\, 8/29\, & 10/31) For Adults\, ages 18+ October 3\, 2026 
+ 02: — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:read-to-a-furry-friend|grapevine|02-30-pm-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T193000Z
+DTSTART:20261003T193000Z
+DTEND:20261003T223000Z
+SUMMARY:Read to a Furry Friend
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=read-to-a-furry-friend%7C
+ grapevine%7C02-30-pm
+DESCRIPTION:The 1st and 3rd Saturday the library is visited by therapy dogs
+ . They love to listen to children practice reading! No registration needed
+ . October 3\, 2026 02:30 PM - 03:30 PM Grapevine\, TX 76051 https://www.gr
+ apevinetexas.gov/Calendar.aspx?EID=17686/639221334170000000 — More: http
+ s://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
 UID:day-out-with-thomas-tm-|museum-of-the-american-railroad-grapevine-vinta
  ge-railroad-grapevine|10-00-am-2026-10-09@letsdoitdallas.com
 DTSTAMP:20261009T150000Z
@@ -1276,6 +1338,62 @@ DTEND:20261018T003000Z
 SUMMARY:Day Out With Thomas (TM)\, Thomas & Friends
 LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
 URL:https://letsdoitdallas.com/?date=2026-10-17&e=day-out-with-thomas-tm-th
+ omas-friends%7Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-
+ grapevine%7C4-30-pm
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
+ rapevine-vintage-railroad-grapevine|10-00-am-2026-10-18@letsdoitdallas.com
+DTSTAMP:20261018T150000Z
+DTSTART:20261018T150000Z
+DTEND:20261018T180000Z
+SUMMARY:Day Out With Thomas (TM)\, Thomas & Friends
+LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=day-out-with-thomas-tm-th
+ omas-friends%7Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-
+ grapevine%7C10-00-am
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
+ rapevine-vintage-railroad-grapevine|12-00-pm-2026-10-18@letsdoitdallas.com
+DTSTAMP:20261018T170000Z
+DTSTART:20261018T170000Z
+DTEND:20261018T200000Z
+SUMMARY:Day Out With Thomas (TM)\, Thomas & Friends
+LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=day-out-with-thomas-tm-th
+ omas-friends%7Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-
+ grapevine%7C12-00-pm
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
+ rapevine-vintage-railroad-grapevine|2-30-pm-2026-10-18@letsdoitdallas.com
+DTSTAMP:20261018T193000Z
+DTSTART:20261018T193000Z
+DTEND:20261018T223000Z
+SUMMARY:Day Out With Thomas (TM)\, Thomas & Friends
+LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=day-out-with-thomas-tm-th
+ omas-friends%7Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-
+ grapevine%7C2-30-pm
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
+ rapevine-vintage-railroad-grapevine|4-30-pm-2026-10-18@letsdoitdallas.com
+DTSTAMP:20261018T213000Z
+DTSTART:20261018T213000Z
+DTEND:20261019T003000Z
+SUMMARY:Day Out With Thomas (TM)\, Thomas & Friends
+LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=day-out-with-thomas-tm-th
  omas-friends%7Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-
  grapevine%7C4-30-pm
 DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let

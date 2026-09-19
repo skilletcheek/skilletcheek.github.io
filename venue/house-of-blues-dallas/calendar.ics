@@ -3,37 +3,11 @@ VERSION:2.0
 PRODID:-//Lets Do It Dallas//DFW Events//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:House of Blues - Dallas — Lets Do It Dallas
-X-WR-CALDESC:Upcoming shows at House of Blues - Dallas.
+X-WR-CALNAME:House of Blues Dallas — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at House of Blues Dallas.
 X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VEVENT
-UID:w-a-s-p-1984-to-headless|house-of-blues-dallas-dallas|7-00-pm-2026-09-1
- 8@letsdoitdallas.com
-DTSTAMP:20260919T000000Z
-DTSTART:20260919T000000Z
-DTEND:20260919T030000Z
-SUMMARY:W.A.S.P. - 1984 TO HEADLESS
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=w-a-s-p-1984-to-headless%
- 7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:wasp-with-kk-s-priest|house-of-blues-dallas-dallas|7-00-pm-2026-09-18@l
- etsdoitdallas.com
-DTSTAMP:20260919T000000Z
-DTSTART:20260919T000000Z
-DTEND:20260919T030000Z
-SUMMARY:WASP with KK'S Priest
-LOCATION:House of Blues - Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=wasp-with-kk-s-priest%7Ch
- ouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/house-of-blues-dallas/
-END:VEVENT
 BEGIN:VEVENT
 UID:slayyyter-wor-t-girl-in-the-world-tour|house-of-blues-dallas-dallas|7-0
  0-pm-2026-09-19@letsdoitdallas.com

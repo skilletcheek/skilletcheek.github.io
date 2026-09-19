@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:isoxo-presents-hardcore-diva|south-side-ballroom-dallas|8-00-pm-2026-09
- -18@letsdoitdallas.com
-DTSTAMP:20260919T010000Z
-DTSTART:20260919T010000Z
-DTEND:20260919T040000Z
-SUMMARY:ISOxo presents: Hardcore Diva
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=isoxo-presents-hardcore-d
- iva%7Csouth-side-ballroom-dallas%7C8-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/south-side-ballroom/
-END:VEVENT
-BEGIN:VEVENT
 UID:lucki|south-side-ballroom-dallas|8-00-pm-2026-09-19@letsdoitdallas.com
 DTSTAMP:20260920T010000Z
 DTSTART:20260920T010000Z
@@ -162,5 +149,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-14&e=sleeping-with-sirens-an-e
  nding-in-itself-tour%7Csouth-side-ballroom-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/south-side-ballroom/
+END:VEVENT
+BEGIN:VEVENT
+UID:esdeekid-council-house-rat-tour|south-side-ballroom-dallas|8-00-pm-2026
+ -10-17@letsdoitdallas.com
+DTSTAMP:20261018T010000Z
+DTSTART:20261018T010000Z
+DTEND:20261018T040000Z
+SUMMARY:EsDeeKid - Council House Rat Tour
+LOCATION:South Side Ballroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=esdeekid-council-house-ra
+ t-tour%7Csouth-side-ballroom-dallas%7C8-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/south-side-ballroom/
 END:VEVENT
 END:VCALENDAR

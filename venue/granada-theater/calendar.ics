@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:granadapalooza-janes-addiction-tribute-rhcp-tribute-green-day-tribute|g
- ranada-theater-lower-greenville-dallas|doors-see-listing-2026-09-18@letsdo
- itdallas.com
-DTSTAMP:20260918T000000Z
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260919
-SUMMARY:GRANADAPALOOZA - JANES ADDICTION TRIBUTE / RHCP TRIBUTE / GREEN DAY
-  TRIBUTE
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=granadapalooza-janes-addi
- ction-tribute-rhcp-tribute-green-day-tribute%7Cgranada-theater-lower-green
- ville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:lily-rose|granada-theater-tx-dallas|8-00-pm-2026-09-19@letsdoitdallas.c
  om
 DTSTAMP:20260920T010000Z
@@ -227,6 +211,22 @@ LOCATION:Granada Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-18&e=butttootking-lydia-b-koll
  ins-suzie-toot-and-kori-king%7Cgranada-theater-lower-greenville-dallas%7Cd
  oors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
+ enue/granada-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:peter-bjorn-and-john-writer-s-block-20th-anniversary-tour-support-josh-
+ rouse-|granada-theater-lower-greenville-dallas|doors-see-listing-2026-10-1
+ 9@letsdoitdallas.com
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Peter Bjorn and John - Writer’s Block 20th anniversary tour (Supp
+ ort: Josh Rouse)
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=peter-bjorn-and-john-writ
+ er-s-block-20th-anniversary-tour-support-josh-rouse-%7Cgranada-theater-low
+ er-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT

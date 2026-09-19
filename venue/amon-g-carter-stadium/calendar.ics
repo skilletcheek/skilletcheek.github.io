@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Amon G. Carter Stadium — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Amon G. Carter Stadium.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:the-pepsi-challenge|amon-g-carter-stadium-2850-stadium-drive-fort-worth
+ -tx-76109|4-00-pm-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260919T210000Z
+DTSTART:20260919T210000Z
+DTEND:20260920T000000Z
+SUMMARY:The Pepsi Challenge
+LOCATION:Amon G Carter Stadium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=the-pepsi-challenge%7Camo
+ n-g-carter-stadium-2850-stadium-drive-fort-worth-tx-76109%7C4-00-pm
+DESCRIPTION:The Pepsi Challenge returns – and it’s coming to the Fort W
+ orth/ Arlington area starting Saturday!  PEPSI® is bringing the iconic bl
+ ind taste test to your area\, inviting consumers to put their taste to the
+  ultimate test and decide for themselves who has the superior-tasting cola
+ . — More: https://letsdoitdallas.com/venue/amon-g-carter-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-football-vs-arkansas-state-red-wolves-football|amon-g-
+ carter-stadium-fort-worth|7-00-pm-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260920T000000Z
+DTSTART:20260920T000000Z
+DTEND:20260920T030000Z
+SUMMARY:TCU Horned Frogs Football vs. Arkansas State Red Wolves Football
+LOCATION:Amon G. Carter Stadium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=tcu-horned-frogs-football
+ -vs-arkansas-state-red-wolves-football%7Camon-g-carter-stadium-fort-worth%
+ 7C7-00-pm
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/amon-g-carter-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-football-vs-byu-cougars-football|amon-g-carter-stadium
+ -fort-worth|see-details-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:TCU Horned Frogs Football vs. BYU Cougars Football
+LOCATION:Amon G. Carter Stadium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=tcu-horned-frogs-football
+ -vs-byu-cougars-football%7Camon-g-carter-stadium-fort-worth%7Csee-details
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/amon-g-carter-stadium/
+END:VEVENT
+END:VCALENDAR

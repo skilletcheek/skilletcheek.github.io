@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jeremy-piven|addison-improv-addison|7-30-pm-2026-09-18@letsdoitdallas.c
- om
-DTSTAMP:20260919T003000Z
-DTSTART:20260919T003000Z
-DTEND:20260919T033000Z
-SUMMARY:Jeremy Piven
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=jeremy-piven%7Caddison-im
- prov-addison%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:jeremy-piven|addison-improv-addison|9-45-pm-2026-09-18@letsdoitdallas.c
- om
-DTSTAMP:20260919T024500Z
-DTSTART:20260919T024500Z
-DTEND:20260919T054500Z
-SUMMARY:Jeremy Piven
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=jeremy-piven%7Caddison-im
- prov-addison%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:jeremy-piven|addison-improv-addison|7-00-pm-2026-09-19@letsdoitdallas.c
  om
 DTSTAMP:20260920T000000Z
@@ -418,5 +392,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=carlos-mencia%7Caddison-i
  mprov-addison%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:carlos-mencia|addison-improv-addison|9-30-pm-2026-10-17@letsdoitdallas.
+ com
+DTSTAMP:20261018T023000Z
+DTSTART:20261018T023000Z
+DTEND:20261018T053000Z
+SUMMARY:Carlos Mencia
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=carlos-mencia%7Caddison-i
+ mprov-addison%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-day-players|addison-improv-addison|1-00-pm-2026-10-18@letsdoitdalla
+ s.com
+DTSTAMP:20261018T180000Z
+DTSTART:20261018T180000Z
+DTEND:20261018T210000Z
+SUMMARY:The Day Players
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=the-day-players%7Caddison
+ -improv-addison%7C1-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/addison-improv/
 END:VEVENT
 END:VCALENDAR

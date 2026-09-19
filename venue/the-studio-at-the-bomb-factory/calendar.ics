@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pond-16-and-under-with-parent-or-legal-guardian-|the-studio-at-the-bomb
- -factory-dallas|8-00-pm-2026-09-18@letsdoitdallas.com
-DTSTAMP:20260919T010000Z
-DTSTART:20260919T010000Z
-DTEND:20260919T040000Z
-SUMMARY:Pond (16 and Under with Parent or Legal Guardian)
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=pond-16-and-under-with-pa
- rent-or-legal-guardian-%7Cthe-studio-at-the-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/the-studio-at-the-bomb-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:nate-sib|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-09-22@letsd
  oitdallas.com
 DTSTAMP:20260923T010000Z
@@ -166,5 +153,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=bright-eyes-16-and-under-
  -30-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/the-studio-at-the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:sabai-w-hoang|the-studio-at-the-bomb-factory-dallas|9-00-pm-2026-10-17@
+ letsdoitdallas.com
+DTSTAMP:20261018T020000Z
+DTSTART:20261018T020000Z
+DTEND:20261018T050000Z
+SUMMARY:Sabai w/ Hoang
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=sabai-w-hoang%7Cthe-studi
+ o-at-the-bomb-factory-dallas%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-studio-at-the-bomb-factory/
 END:VEVENT
 END:VCALENDAR

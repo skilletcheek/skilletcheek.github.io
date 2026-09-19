@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jeff-allen|arlington-music-hall-arlington|7-00-pm-2026-09-18@letsdoitda
- llas.com
-DTSTAMP:20260919T000000Z
-DTSTART:20260919T000000Z
-DTEND:20260919T030000Z
-SUMMARY:Jeff Allen
-LOCATION:Arlington Music Hall
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=jeff-allen%7Carlington-mu
- sic-hall-arlington%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/arlington-music-hall/
-END:VEVENT
-BEGIN:VEVENT
-UID:ana-popovic|arlington-music-hall-arlington|8-00-pm-2026-09-18@letsdoitd
- allas.com
-DTSTAMP:20260919T010000Z
-DTSTART:20260919T010000Z
-DTEND:20260919T040000Z
-SUMMARY:Ana Popovic
-LOCATION:Arlington Music Hall
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=ana-popovic%7Carlington-m
- usic-hall-arlington%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/arlington-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-fabulous-thunderbirds|arlington-music-hall-arlington|8-00-pm-2026-0
  9-25@letsdoitdallas.com
 DTSTAMP:20260926T010000Z
@@ -59,5 +33,18 @@ URL:https://letsdoitdallas.com/?date=2026-09-26&e=petra%7Carlington-music-h
  all-arlington%7C7-30-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:war|arlington-music-hall-arlington|8-00-pm-2026-10-17@letsdoitdallas.co
+ m
+DTSTAMP:20261018T010000Z
+DTSTART:20261018T010000Z
+DTEND:20261018T040000Z
+SUMMARY:War
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=war%7Carlington-music-hal
+ l-arlington%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/arlington-music-hall/
 END:VEVENT
 END:VCALENDAR

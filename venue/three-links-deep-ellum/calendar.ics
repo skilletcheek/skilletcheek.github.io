@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:born-without-bones-w-torched-upsetting|three-links-deep-ellum-dallas|7-
- 30-pm-2026-09-18@letsdoitdallas.com
-DTSTAMP:20260919T003000Z
-DTSTART:20260919T003000Z
-DTEND:20260919T033000Z
-SUMMARY:Born Without Bones W/ Torched & Upsetting
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=born-without-bones-w-torc
- hed-upsetting%7Cthree-links-deep-ellum-dallas%7C7-30-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-09-18@letsdoitdall
- as.com
-DTSTAMP:20260919T040000Z
-DTSTART:20260919T040000Z
-DTEND:20260919T070000Z
-SUMMARY:DJ JREAM
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:unloco-secret-of-boris-maximum-aggression|three-links-deep-ellum-dallas
  |7-00-pm-2026-09-19@letsdoitdallas.com
 DTSTAMP:20260920T000000Z
@@ -268,6 +242,19 @@ LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-09-29&e=are-you-ever-coming-back-
  tour%7Cthree-links-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:vaultboy|three-links-deep-ellum-dallas|8-00-pm-2026-09-29@letsdoitdalla
+ s.com
+DTSTAMP:20260930T010000Z
+DTSTART:20260930T010000Z
+DTEND:20260930T040000Z
+SUMMARY:Vaultboy
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=vaultboy%7Cthree-links-de
+ ep-ellum-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT

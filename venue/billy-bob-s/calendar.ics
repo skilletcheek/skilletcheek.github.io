@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:hudson-westbrook-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-09-1
- 8@letsdoitdallas.com
-DTSTAMP:20260919T030000Z
-DTSTART:20260919T030000Z
-DTEND:20260919T060000Z
-SUMMARY:Hudson Westbrook (18 and Over)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=hudson-westbrook-18-and-o
- ver-%7Cbilly-bob-s-fort-worth%7C10-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/billy-bob-s/
-END:VEVENT
-BEGIN:VEVENT
 UID:hudson-westbrook-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-09-19@l
  etsdoitdallas.com
 DTSTAMP:20260920T030000Z
@@ -176,5 +163,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=ashley-mcbryde-18-event-%
  7Cbilly-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:brett-young-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-17@letsdo
+ itdallas.com
+DTSTAMP:20261018T030000Z
+DTSTART:20261018T030000Z
+DTEND:20261018T060000Z
+SUMMARY:Brett Young (18+ Event)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=brett-young-18-event-%7Cb
+ illy-bob-s-fort-worth%7C10-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/billy-bob-s/
 END:VEVENT
 END:VCALENDAR

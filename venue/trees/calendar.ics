@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ethan-regan|trees-dallas-dallas|8-00-pm-2026-09-18@letsdoitdallas.com
-DTSTAMP:20260919T010000Z
-DTSTART:20260919T010000Z
-DTEND:20260919T040000Z
-SUMMARY:Ethan Regan
-LOCATION:Trees - Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=ethan-regan%7Ctrees-dalla
- s-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/trees/
-END:VEVENT
-BEGIN:VEVENT
 UID:agent-orange-w-hit-run|trees-dallas|8-00-pm-2026-09-19@letsdoitdallas.c
  om
 DTSTAMP:20260920T010000Z

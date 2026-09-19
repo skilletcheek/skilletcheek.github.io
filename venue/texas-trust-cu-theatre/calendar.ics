@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ron-white|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-09-18@letsd
- oitdallas.com
-DTSTAMP:20260919T010000Z
-DTSTART:20260919T010000Z
-DTEND:20260919T040000Z
-SUMMARY:Ron White
-LOCATION:Texas Trust CU Theatre · Grand Prairie
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=ron-white%7Ctexas-trust-c
- u-theatre-grand-prairie%7C8-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/texas-trust-cu-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:shreya-ghoshal|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-09-19@
  letsdoitdallas.com
 DTSTAMP:20260920T010000Z
@@ -202,5 +189,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-15&e=sons-of-legion%7Ctexas-tr
  ust-cu-theatre-grand-prairie%7C7-30-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/texas-trust-cu-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:air-supply|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-10-17@lets
+ doitdallas.com
+DTSTAMP:20261018T010000Z
+DTSTART:20261018T010000Z
+DTEND:20261018T040000Z
+SUMMARY:Air Supply
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=air-supply%7Ctexas-trust-
+ cu-theatre-grand-prairie%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/texas-trust-cu-theatre/
 END:VEVENT
 END:VCALENDAR

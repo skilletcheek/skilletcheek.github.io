@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tulips FTW — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Tulips FTW.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:alt-glam-drag-brunch|tulips-ftw-112-saint-louis-avenue-fort-worth-76104
+ -united-states|12-00-pm-2026-09-19@letsdoitdallas.com
+DTSTAMP:20260919T170000Z
+DTSTART:20260919T170000Z
+DTEND:20260919T200000Z
+SUMMARY:ALT GLAM Drag Brunch
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-19&e=alt-glam-drag-brunch%7Ctu
+ lips-ftw-112-saint-louis-avenue-fort-worth-76104-united-states%7C12-00-pm
+DESCRIPTION:Join us for a spectacular and captivating afternoon at ALT GLAM
+  Drag Brunch. Deja Dubois (Texas Entertainer of the Year 2025) will return
+  to the stage as our talented host. Our stunning cast includes U.B. Wylde\
+ , Les Bone (The Queer Off Winner 2026)\, JT Davenport\, and Power Surge 
+ — More: https://letsdoitdallas.com/venue/tulips-ftw/
+END:VEVENT
+BEGIN:VEVENT
+UID:kylie-morgan|tulips-ftw-fort-worth|8-00-pm-2026-09-24@letsdoitdallas.co
+ m
+DTSTAMP:20260925T010000Z
+DTSTART:20260925T010000Z
+DTEND:20260925T040000Z
+SUMMARY:Kylie Morgan
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=kylie-morgan%7Ctulips-ftw
+ -fort-worth%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/tulips-ftw/
+END:VEVENT
+BEGIN:VEVENT
+UID:kidd-g|tulips-ftw-fort-worth|8-00-pm-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260927T010000Z
+DTSTART:20260927T010000Z
+DTEND:20260927T040000Z
+SUMMARY:Kidd G
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=kidd-g%7Ctulips-ftw-fort-
+ worth%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/tulips-ftw/
+END:VEVENT
+END:VCALENDAR

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:live-from-laurel-canyon-songs-and-stories-of-american-folk-rock|300-n-f
- ifth-street-garland|08-00-pm-2026-09-18@letsdoitdallas.com
-DTSTAMP:20260919T010000Z
-DTSTART:20260919T010000Z
-DTEND:20260919T040000Z
-SUMMARY:Live from Laurel Canyon - Songs and Stories of American Folk Rock
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-18&e=live-from-laurel-canyon-s
- ongs-and-stories-of-american-folk-rock%7C300-n-fifth-street-garland%7C08-0
- 0-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-09-19@letsd
  oitdallas.com
 DTSTAMP:20260919T150000Z
@@ -597,15 +584,15 @@ DESCRIPTION:6:30 p.m.\; An adult book club for mystery and thriller enthusi
  ttps://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
- -state-street-garland|07-30-pm-2026-09-24@letsdoitdallas.com
+UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|300-n
+ -fifth-street-garland|07-30-pm-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260925T003000Z
 DTSTART:20260925T003000Z
 DTEND:20260925T033000Z
 SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
-LOCATION:521 W State Street · Garland
+LOCATION:300 N Fifth Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-24&e=little-shop-of-horrors-pr
- esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C07
+ esented-by-company-of-rowlett-performers%7C300-n-fifth-street-garland%7C07
  -30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
@@ -1140,15 +1127,15 @@ DESCRIPTION:6:30 p.m.\; ¿Te gusta leer en español — o quieres leer más
  mpañía — ¡t — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
- -state-street-garland|07-30-pm-2026-10-01@letsdoitdallas.com
+UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|300-n
+ -fifth-street-garland|07-30-pm-2026-10-01@letsdoitdallas.com
 DTSTAMP:20261002T003000Z
 DTSTART:20261002T003000Z
 DTEND:20261002T033000Z
 SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
-LOCATION:521 W State Street · Garland
+LOCATION:300 N Fifth Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-10-01&e=little-shop-of-horrors-pr
- esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C07
+ esented-by-company-of-rowlett-performers%7C300-n-fifth-street-garland%7C07
  -30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
@@ -1242,6 +1229,134 @@ SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
 LOCATION:521 W State Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-10-02&e=little-shop-of-horrors-pr
  esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C07
+ -30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-10-03@letsd
+ oitdallas.com
+DTSTAMP:20261003T150000Z
+DTSTART:20261003T150000Z
+DTEND:20261003T180000Z
+SUMMARY:Play & Learn (0-5 years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=play-learn-0-5-years-%7Cc
+ entral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Families with children ages 0-5 can enjoy Play & L
+ earn\, a weekly event with toys\, games and activities that encourage imag
+ ination\, creativity and problem-solving. This program offers a chance for
+  children and caregivers to play together. October 3\, 2026 10:00 AM - 11:
+  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:coffee-culture-hispanic-heritage-month-edition-ages-18-|west-garland-li
+ brary-garland|10-30-am-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T153000Z
+DTSTART:20261003T153000Z
+DTEND:20261003T183000Z
+SUMMARY:Coffee & Culture: Hispanic Heritage Month Edition (Ages 18+)
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=coffee-culture-hispanic-h
+ eritage-month-edition-ages-18-%7Cwest-garland-library-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; Celebrate Hispanic Heritage Month with us at West 
+ Garland! Take your taste buds on a journey through Latin America as we sam
+ ple coffees from countries like Mexico\, Colombia and beyond. From bold\, 
+ rich flavors to smooth\, aromatic blends\, learn how coffee connects commu
+  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:health-wellness-monthly-discussion-ages-18-|north-garland-library-garla
+ nd|11-00-am-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T160000Z
+DTSTART:20261003T160000Z
+DTEND:20261003T190000Z
+SUMMARY:Health & Wellness Monthly Discussion (Ages 18+)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=health-wellness-monthly-d
+ iscussion-ages-18-%7Cnorth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Join us for a powerful two-part discussion series 
+ focused on mental health and wellness\, led by Esther Alasa\, founder of C
+ ounseling Without Limits. These sessions aim to raise awareness\, break do
+ wn the stigma surrounding mental health\, and inspire individuals — espe
+ ci — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:calm-creations-sensory-friendly-ages-18-|central-library-garland|02-00-
+ pm-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T190000Z
+DTSTART:20261003T190000Z
+DTEND:20261003T220000Z
+SUMMARY:Calm Creations (Sensory-Friendly) (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=calm-creations-sensory-fr
+ iendly-ages-18-%7Ccentral-library-garland%7C02-00-pm
+DESCRIPTION:2:00 p.m.\; Join us for a come-and-go program where you can get
+  creative in a less overwhelming environment! De-stress with relaxing acti
+ vities such as coloring\, sketching or puzzling. Coloring supplies and puz
+ zles provided. This program is sensory-friendly\, and the program room w 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:composting-basics-ages-18-|west-garland-library-garland|02-00-pm-2026-1
+ 0-03@letsdoitdallas.com
+DTSTAMP:20261003T190000Z
+DTSTART:20261003T190000Z
+DTEND:20261003T220000Z
+SUMMARY:Composting Basics (Ages 18+)
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=composting-basics-ages-18
+ -%7Cwest-garland-library-garland%7C02-00-pm
+DESCRIPTION:2:00 p.m.\; Curious about composting but not sure where to star
+ t? Join us for a beginner-friendly introduction to turning everyday food s
+ craps into nutrient-rich soil. You’ll learn simple\, practical tips you 
+ can use at home\, no backyard required! October 3\, 2026 02:00 PM - 03:00 
+ P — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:scrappy-hour-ages-13-|central-library-garland|02-00-pm-2026-10-03@letsd
+ oitdallas.com
+DTSTAMP:20261003T190000Z
+DTSTART:20261003T190000Z
+DTEND:20261003T220000Z
+SUMMARY:Scrappy Hour (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=scrappy-hour-ages-13-%7Cc
+ entral-library-garland%7C02-00-pm
+DESCRIPTION:2:00 p.m.\; Feeling the digital overload? Slow down at the libr
+ ary for an hour of open scrapbooking and junk journaling! Do you like to s
+ crapbook or junk journal? Bring your notebooks or scrapbooks and get creat
+ ive at the library! There will be scrapbook paper\, magazines\, collage 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:hispanic-heritage-month-ages-6-12-mes-de-la-herencia-hispana-6-12-a-os-
+ de-la-biblioteca-south-garland|south-garland-library-garland|02-30-pm-2026
+ -10-03@letsdoitdallas.com
+DTSTAMP:20261003T193000Z
+DTSTART:20261003T193000Z
+DTEND:20261003T223000Z
+SUMMARY:Hispanic Heritage Month (Ages 6-12) / Mes de la Herencia Hispana (6
+ -12 Años) de la Biblioteca South Garland
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=hispanic-heritage-month-a
+ ges-6-12-mes-de-la-herencia-hispana-6-12-a-os-de-la-biblioteca-south-garla
+ nd%7Csouth-garland-library-garland%7C02-30-pm
+DESCRIPTION:2:30 p.m.\; Celebrate with us by learning about contemporary ar
+ tist Justin Favela and his piñata-inspired art pieces\, then create your 
+ own artwork inspired by his style. October 3\, 2026 02:30 PM - 03:30 PM 48
+ 45 Broadway Blvd.Garland\, TX 75043 https://www.garlandtx.gov/Calendar.asp
+  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|300-n
+ -fifth-street-garland|07-30-pm-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261004T003000Z
+DTSTART:20261004T003000Z
+DTEND:20261004T033000Z
+SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=little-shop-of-horrors-pr
+ esented-by-company-of-rowlett-performers%7C300-n-fifth-street-garland%7C07
  -30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
