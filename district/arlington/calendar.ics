@@ -10,21 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-vs-washington|texas-live-1650-east-randol-mill-road-arlington-76
- 011-united-states|9-00-am-2026-09-20@letsdoitdallas.com
-DTSTAMP:20260920T140000Z
-DTSTART:20260920T140000Z
-DTEND:20260920T170000Z
-SUMMARY:Dallas vs Washington
-LOCATION:Texas Live! · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=dallas-vs-washington%7Cte
- xas-live-1650-east-randol-mill-road-arlington-76011-united-states%7C9-00-a
- m
-DESCRIPTION:The 2026 Dallas football season is coming—reserve your table 
- now for the ultimate game day experience. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:texas-rangers-vs-toronto-blue-jays|globe-life-field-arlington|1-35-pm-2
  026-09-20@letsdoitdallas.com
 DTSTAMP:20260920T183500Z
