@@ -9,24 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:blacklight-run-dallas-fort-worth|texas-motor-speedway-3545-lone-star-ci
- rcle-fort-fort-worth-76177-united-states|7-40-pm-2026-09-19@letsdoitdallas
- .com
-DTSTAMP:20260920T004000Z
-DTSTART:20260920T004000Z
-DTEND:20260920T034000Z
-SUMMARY:Blacklight Run - Dallas Fort Worth
-LOCATION:Texas Motor Speedway · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=blacklight-run-dallas-for
- t-worth%7Ctexas-motor-speedway-3545-lone-star-circle-fort-fort-worth-76177
- -united-states%7C7-40-pm
-DESCRIPTION:Free Registration to the Dallas Fort Worth 2026 Blacklight Run 
- Is Still Available!  Get ready to light up the desert sky\, Dallas Fort Wo
- rth – Blacklight Run is back and bringing the full-throttle glow experie
- nce this September! This untimed 5K is all about the party vibe\, with ru 
- — More: https://letsdoitdallas.com/venue/texas-motor-speedway/
-END:VEVENT
-BEGIN:VEVENT
 UID:goodguys-car-show-fort-worth|texas-motor-speedway-fort-worth|8-00-am-20
  26-09-25@letsdoitdallas.com
 DTSTAMP:20260925T130000Z
@@ -61,6 +43,19 @@ DTEND:20261002T160000Z
 SUMMARY:Goodguys Car Show - Fort Worth
 LOCATION:Texas Motor Speedway · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-02&e=goodguys-car-show-fort-wo
+ rth%7Ctexas-motor-speedway-fort-worth%7C8-00-am
+DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/texas-motor-speedway/
+END:VEVENT
+BEGIN:VEVENT
+UID:goodguys-car-show-fort-worth|texas-motor-speedway-fort-worth|8-00-am-20
+ 26-10-03@letsdoitdallas.com
+DTSTAMP:20261003T130000Z
+DTSTART:20261003T130000Z
+DTEND:20261003T160000Z
+SUMMARY:Goodguys Car Show - Fort Worth
+LOCATION:Texas Motor Speedway · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=goodguys-car-show-fort-wo
  rth%7Ctexas-motor-speedway-fort-worth%7C8-00-am
 DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/texas-motor-speedway/

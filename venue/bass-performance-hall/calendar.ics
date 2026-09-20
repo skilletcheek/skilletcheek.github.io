@@ -113,6 +113,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/bass-performance-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:texas-ballet-theater-fort-worth|bass-performance-hall-fort-worth|2-00-p
+ m-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T190000Z
+DTSTART:20261003T190000Z
+DTEND:20261003T220000Z
+SUMMARY:Texas Ballet Theater - Fort Worth
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=texas-ballet-theater-fort
+ -worth%7Cbass-performance-hall-fort-worth%7C2-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:casanova|bass-performance-hall-fort-worth|2-00-pm-2026-10-04@letsdoitda
  llas.com
 DTSTAMP:20261004T190000Z

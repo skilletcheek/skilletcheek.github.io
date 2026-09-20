@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:it-s-a-2000s-party-dallas-18-|the-echo-lounge-music-hall-dallas|9-00-pm
- -2026-09-19@letsdoitdallas.com
-DTSTAMP:20260920T020000Z
-DTSTART:20260920T020000Z
-DTEND:20260920T050000Z
-SUMMARY:It's A 2000s Party: Dallas - 18+
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=it-s-a-2000s-party-dallas
- -18-%7Cthe-echo-lounge-music-hall-dallas%7C9-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:yg-the-gentlemen-s-club-tour|the-echo-lounge-music-hall-dallas|7-00-pm-
  2026-09-22@letsdoitdallas.com
 DTSTAMP:20260923T000000Z

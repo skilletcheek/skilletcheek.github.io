@@ -10,33 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pups-in-the-park|laura-w-bush-native-texas-park-dallas|9-00-am-11-00-am
- -2026-09-19@letsdoitdallas.com
-DTSTAMP:20260919T140000Z
-DTSTART:20260919T140000Z
-DTEND:20260919T170000Z
-SUMMARY:Pups in the Park
-LOCATION:Laura W. Bush Native Texas Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=pups-in-the-park%7Claura-
- w-bush-native-texas-park-dallas%7C9-00-am-11-00-am
-DESCRIPTION:Pups in the Park is back with a free day of outdoor fun\, featu
- ring dog-friendly treats\, coffee\, photo ops\, and plenty of space to rel
- ax\, be social\,... — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:shadowbanned|three-links-deep-ellum-dallas|11-00-pm-2026-09-19@letsdoit
- dallas.com
-DTSTAMP:20260920T040000Z
-DTSTART:20260920T040000Z
-DTEND:20260920T070000Z
-SUMMARY:SHADOWBANNED
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=shadowbanned%7Cthree-link
- s-deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
  doors-see-listing-2026-09-20@letsdoitdallas.com
 DTSTAMP:20260920T000000Z
@@ -337,5 +310,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=zzzahara-x-faerybabyy%7Ct
  hree-links-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-18@letsdoitd
+ allas.com
+DTSTAMP:20261019T040000Z
+DTSTART:20261019T040000Z
+DTEND:20261019T070000Z
+SUMMARY:DJ SNEAK305
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=dj-sneak305%7Cthree-links
+ -deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/free-events/
 END:VEVENT
 END:VCALENDAR

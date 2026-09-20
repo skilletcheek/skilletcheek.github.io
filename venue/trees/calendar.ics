@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:agent-orange-w-hit-run|trees-dallas|8-00-pm-2026-09-19@letsdoitdallas.c
- om
-DTSTAMP:20260920T010000Z
-DTSTART:20260920T010000Z
-DTEND:20260920T040000Z
-SUMMARY:Agent Orange w/ HIT&RUN
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=agent-orange-w-hit-run%7C
- trees-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/trees/
-END:VEVENT
-BEGIN:VEVENT
 UID:tricky|trees-dallas|8-00-pm-2026-09-20@letsdoitdallas.com
 DTSTAMP:20260921T010000Z
 DTSTART:20260921T010000Z

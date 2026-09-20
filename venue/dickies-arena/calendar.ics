@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:rocket-league-world-championship-2026|dickies-arena-fort-worth|11-00-am
- -2026-09-19@letsdoitdallas.com
-DTSTAMP:20260919T160000Z
-DTSTART:20260919T160000Z
-DTEND:20260919T190000Z
-SUMMARY:Rocket League World Championship 2026
-LOCATION:Dickies Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=rocket-league-world-champ
- ionship-2026%7Cdickies-arena-fort-worth%7C11-00-am
-DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/dickies-arena/
-END:VEVENT
-BEGIN:VEVENT
-UID:rocket-league-world-championship-2026|dickies-arena-fort-worth|11-00-am
  -2026-09-20@letsdoitdallas.com
 DTSTAMP:20260920T160000Z
 DTSTART:20260920T160000Z

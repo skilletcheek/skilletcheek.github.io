@@ -9,59 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:steam-lab-zipline-challenge-ages-6-12-|north-garland-library-garland|02
- -30-pm-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260919T193000Z
-DTSTART:20260919T193000Z
-DTEND:20260919T223000Z
-SUMMARY:STEAM Lab: Zipline Challenge (Ages 6-12)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=steam-lab-zipline-challen
- ge-ages-6-12-%7Cnorth-garland-library-garland%7C02-30-pm
-DESCRIPTION:2:30 p.m.\; Build It. Test it. Zip It! Design and build a zipli
- ne from recycled materials. Test your creations to see whose design zips f
- astest\, smoothest or carries the most weight. Perfect for kids who love t
- o build and experiment. September 19\, 2026 02:30 PM - 03:30 PM 3845 N. 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:fall-plant-and-seed-swap-ages-18-intercambio-de-plantas-y-semillas-a-os
- -18-de-la-biblioteca-south-garland|south-garland-library-garland|03-00-pm-
- 2026-09-19@letsdoitdallas.com
-DTSTAMP:20260919T200000Z
-DTSTART:20260919T200000Z
-DTEND:20260919T230000Z
-SUMMARY:Fall Plant and Seed Swap (Ages 18+) / Intercambio de Plantas y Semi
- llas (Años 18+) de la Biblioteca South Garland
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=fall-plant-and-seed-swap-
- ages-18-intercambio-de-plantas-y-semillas-a-os-18-de-la-biblioteca-south-g
- arland%7Csouth-garland-library-garland%7C03-00-pm
-DESCRIPTION:3:00 p.m.\; Love plants? Join us for a fun community swap at th
- e library! Bring a starter plant\, potted plant or seeds to exchange with 
- fellow gardeners and take home something new to grow. The library will pro
- vide a few extra plants\, basic care tips and reading lists to help your 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:one-book-one-garland-an-evening-with-the-author-emily-hunt-kivel|centra
- l-library-garland|06-00-pm-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260919T230000Z
-DTSTART:20260919T230000Z
-DTEND:20260920T020000Z
-SUMMARY:One Book\, One Garland: An Evening with the Author\, Emily Hunt Kiv
- el
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=one-book-one-garland-an-e
- vening-with-the-author-emily-hunt-kivel%7Ccentral-library-garland%7C06-00-
- pm
-DESCRIPTION:6:00 p.m.\; Join us at the Central Library for a special evenin
- g with Emily Hunt Kivel\, author of Dwelling. Enjoy a live reading from he
- r novel\, followed by an engaging Q&A session and book signing. September 
- 19\, 2026 06:00 PM - 08:00 PM 625 Austin St.Garland\, TX 75040 https://www
-  — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:jugalbandi-a-musical-face-off-presented-by-prayaanam|521-w-state-street
  -garland|07-00-pm-2026-09-20@letsdoitdallas.com
 DTSTAMP:20260921T000000Z
@@ -1326,6 +1273,19 @@ LOCATION:300 N Fifth Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-10-03&e=little-shop-of-horrors-pr
  esented-by-company-of-rowlett-performers%7C300-n-fifth-street-garland%7C07
  -30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
+ -state-street-garland|02-00-pm-2026-10-04@letsdoitdallas.com
+DTSTAMP:20261004T190000Z
+DTSTART:20261004T190000Z
+DTEND:20261004T220000Z
+SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
+LOCATION:521 W State Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=little-shop-of-horrors-pr
+ esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C02
+ -00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT

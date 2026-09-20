@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:emily-catalano|punch-line-irving-irving|7-00-pm-2026-09-19@letsdoitdall
- as.com
-DTSTAMP:20260920T000000Z
-DTSTART:20260920T000000Z
-DTEND:20260920T030000Z
-SUMMARY:Emily Catalano
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=emily-catalano%7Cpunch-li
- ne-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:los-hermanos-flores|las-lomas-irving-banquet-halls-event-center-irving|
- 9-00-pm-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260920T020000Z
-DTSTART:20260920T020000Z
-DTEND:20260920T050000Z
-SUMMARY:Los Hermanos Flores
-LOCATION:Las Lomas Irving Banquet Halls Event Center
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=los-hermanos-flores%7Clas
- -lomas-irving-banquet-halls-event-center-irving%7C9-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:emily-catalano|punch-line-irving-irving|9-15-pm-2026-09-19@letsdoitdall
- as.com
-DTSTAMP:20260920T021500Z
-DTSTART:20260920T021500Z
-DTEND:20260920T051500Z
-SUMMARY:Emily Catalano
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=emily-catalano%7Cpunch-li
- ne-irving-irving%7C9-15-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:cynthia-lee-fontaine-presents-drag-brunch-at-the-punch|punch-line-irvin
  g-irving|12-00-pm-2026-09-20@letsdoitdallas.com
 DTSTAMP:20260920T170000Z
@@ -831,5 +792,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-18&e=elizabeth-brunot%7Cpunch-
  line-irving-irving%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:foster-the-people-good-mourning-sunshine-tour|the-pavilion-at-toyota-mu
+ sic-factory-irving|8-00-pm-2026-10-18@letsdoitdallas.com
+DTSTAMP:20261019T010000Z
+DTSTART:20261019T010000Z
+DTEND:20261019T040000Z
+SUMMARY:Foster The People: Good Mourning Sunshine Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=foster-the-people-good-mo
+ urning-sunshine-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-
+ pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/irving/
 END:VEVENT
 END:VCALENDAR

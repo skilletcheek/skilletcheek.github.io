@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lily-rose|granada-theater-tx-dallas|8-00-pm-2026-09-19@letsdoitdallas.c
- om
-DTSTAMP:20260920T010000Z
-DTSTART:20260920T010000Z
-DTEND:20260920T040000Z
-SUMMARY:Lily Rose
-LOCATION:Granada Theater - TX · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=lily-rose%7Cgranada-theat
- er-tx-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:geordie-greep|granada-theater-tx-dallas|8-00-pm-2026-09-24@letsdoitdall
  as.com
 DTSTAMP:20260925T010000Z
@@ -201,18 +188,17 @@ DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:butttootking-lydia-b-kollins-suzie-toot-and-kori-king|granada-theater-l
- ower-greenville-dallas|doors-see-listing-2026-10-18@letsdoitdallas.com
-DTSTAMP:20261018T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:ButtTootKing: Lydia B Kollins\, Suzie Toot\, and Kori King
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=butttootking-lydia-b-koll
- ins-suzie-toot-and-kori-king%7Cgranada-theater-lower-greenville-dallas%7Cd
- oors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
+UID:butt-toot-king-18-event-|granada-theater-tx-dallas|8-00-pm-2026-10-18@l
+ etsdoitdallas.com
+DTSTAMP:20261019T010000Z
+DTSTART:20261019T010000Z
+DTEND:20261019T040000Z
+SUMMARY:BUTT TOOT KING (18+ Event)
+LOCATION:Granada Theater - TX · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=butt-toot-king-18-event-%
+ 7Cgranada-theater-tx-dallas%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:peter-bjorn-and-john-writer-s-block-20th-anniversary-tour-support-josh-
@@ -227,6 +213,20 @@ LOCATION:Granada Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-19&e=peter-bjorn-and-john-writ
  er-s-block-20th-anniversary-tour-support-josh-rouse-%7Cgranada-theater-low
  er-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
+ enue/granada-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:ax-and-the-hatchetmen-the-late-checkout-tour-2026|granada-theater-lower
+ -greenville-dallas|doors-see-listing-2026-10-20@letsdoitdallas.com
+DTSTAMP:20261020T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Ax and the Hatchetmen: The Late Checkout Tour 2026
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=ax-and-the-hatchetmen-the
+ -late-checkout-tour-2026%7Cgranada-theater-lower-greenville-dallas%7Cdoors
+ -see-listing
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT

@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:emily-catalano|punch-line-irving-irving|7-00-pm-2026-09-19@letsdoitdall
- as.com
-DTSTAMP:20260920T000000Z
-DTSTART:20260920T000000Z
-DTEND:20260920T030000Z
-SUMMARY:Emily Catalano
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=emily-catalano%7Cpunch-li
- ne-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:emily-catalano|punch-line-irving-irving|9-15-pm-2026-09-19@letsdoitdall
- as.com
-DTSTAMP:20260920T021500Z
-DTSTART:20260920T021500Z
-DTEND:20260920T051500Z
-SUMMARY:Emily Catalano
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=emily-catalano%7Cpunch-li
- ne-irving-irving%7C9-15-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:cynthia-lee-fontaine-presents-drag-brunch-at-the-punch|punch-line-irvin
  g-irving|12-00-pm-2026-09-20@letsdoitdallas.com
 DTSTAMP:20260920T170000Z

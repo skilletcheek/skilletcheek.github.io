@@ -11,109 +11,19 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260919T130000Z
-DTSTART:20260919T130000Z
-DTEND:20260919T160000Z
+ ted-states|8-00-am-2026-09-20@letsdoitdallas.com
+DTSTAMP:20260920T130000Z
+DTSTART:20260920T130000Z
+DTEND:20260920T160000Z
 SUMMARY:Tea Around Town® Dallas
 LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=tea-around-town-dallas%7C
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=tea-around-town-dallas%7C
  tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
 DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
  as brings vibrant city views and a cozy afternoon tea experience aboard ou
  r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
  and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
  — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-sound-of-music-touring-|music-hall-at-fair-park-dallas|1-30-pm-2026
- -09-19@letsdoitdallas.com
-DTSTAMP:20260919T183000Z
-DTSTART:20260919T183000Z
-DTEND:20260919T213000Z
-SUMMARY:The Sound of Music (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=the-sound-of-music-tourin
- g-%7Cmusic-hall-at-fair-park-dallas%7C1-30-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:slayyyter-wor-t-girl-in-the-world-tour|house-of-blues-dallas-dallas|7-0
- 0-pm-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260920T000000Z
-DTSTART:20260920T000000Z
-DTEND:20260920T030000Z
-SUMMARY:Slayyyter - WOR$T GIRL IN THE WORLD TOUR
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=slayyyter-wor-t-girl-in-t
- he-world-tour%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-sound-of-music-touring-|music-hall-at-fair-park-dallas|7-30-pm-2026
- -09-19@letsdoitdallas.com
-DTSTAMP:20260920T003000Z
-DTSTART:20260920T003000Z
-DTEND:20260920T033000Z
-SUMMARY:The Sound of Music (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=the-sound-of-music-tourin
- g-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:grupo-duelo-gravedad-tour-2026|dos-equis-pavilion-dallas|8-00-pm-2026-0
- 9-19@letsdoitdallas.com
-DTSTAMP:20260920T010000Z
-DTSTART:20260920T010000Z
-DTEND:20260920T040000Z
-SUMMARY:Grupo Duelo - GRAVEDAD TOUR 2026
-LOCATION:Dos Equis Pavilion · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=grupo-duelo-gravedad-tour
- -2026%7Cdos-equis-pavilion-dallas%7C8-00-pm
-DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:j-cole-the-fall-off-tour|american-airlines-center-dallas|8-00-pm-2026-0
- 9-19@letsdoitdallas.com
-DTSTAMP:20260920T010000Z
-DTSTART:20260920T010000Z
-DTEND:20260920T040000Z
-SUMMARY:J. Cole: The Fall-Off Tour
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=j-cole-the-fall-off-tour%
- 7Camerican-airlines-center-dallas%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:jimmie-vaughan|longhorn-ballroom-backyard-amphitheater-dallas|8-00-pm-2
- 026-09-19@letsdoitdallas.com
-DTSTAMP:20260920T010000Z
-DTSTART:20260920T010000Z
-DTEND:20260920T040000Z
-SUMMARY:Jimmie Vaughan
-LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=jimmie-vaughan%7Clonghorn
- -ballroom-backyard-amphitheater-dallas%7C8-00-pm
-DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:lucki|south-side-ballroom-dallas|8-00-pm-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260920T010000Z
-DTSTART:20260920T010000Z
-DTEND:20260920T040000Z
-SUMMARY:LUCKI
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=lucki%7Csouth-side-ballro
- om-dallas%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-sound-of-music-touring-|music-hall-at-fair-park-dallas|1-00-pm-2026
@@ -166,6 +76,22 @@ URL:https://letsdoitdallas.com/?date=2026-09-20&e=j-cole-the-fall-off-tour%
  7Camerican-airlines-center-dallas%7C8-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-09-21@letsdoitdallas.com
+DTSTAMP:20260921T130000Z
+DTSTART:20260921T130000Z
+DTEND:20260921T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-21&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:dallas-stars-vs-st-louis-blues|american-airlines-center-dallas|7-00-pm-
@@ -1274,5 +1200,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=esdeekid-council-house-ra
  t-tour%7Csouth-side-ballroom-dallas%7C8-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:sombr-you-are-the-reason-tour|american-airlines-center-dallas|7-30-pm-2
+ 026-10-18@letsdoitdallas.com
+DTSTAMP:20261019T003000Z
+DTSTART:20261019T003000Z
+DTEND:20261019T033000Z
+SUMMARY:SOMBR - You Are The Reason Tour
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=sombr-you-are-the-reason-
+ tour%7Camerican-airlines-center-dallas%7C7-30-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:honky-tonk-tuesdays-with-raised-right-men|poor-david-s-pub-dallas|doors
+ -see-listing-2026-10-20@letsdoitdallas.com
+DTSTAMP:20261020T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Honky Tonk Tuesdays with Raised Right Men
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=honky-tonk-tuesdays-with-
+ raised-right-men%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

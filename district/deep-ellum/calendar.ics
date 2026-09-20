@@ -11,97 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:drunk-shakespeare-romeo-juliet-21-event-|deep-ellum-art-co-dallas|5-00-
- pm-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260919T220000Z
-DTSTART:20260919T220000Z
-DTEND:20260920T010000Z
-SUMMARY:Drunk Shakespeare: Romeo & Juliet (21+ Event)
-LOCATION:Deep Ellum Art Co · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=drunk-shakespeare-romeo-j
- uliet-21-event-%7Cdeep-ellum-art-co-dallas%7C5-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:drunk-shakespeare-romeo-juliet-21-event-|deep-ellum-art-co-dallas|7-00-
- pm-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260920T000000Z
-DTSTART:20260920T000000Z
-DTEND:20260920T030000Z
-SUMMARY:Drunk Shakespeare: Romeo & Juliet (21+ Event)
-LOCATION:Deep Ellum Art Co · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=drunk-shakespeare-romeo-j
- uliet-21-event-%7Cdeep-ellum-art-co-dallas%7C7-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:unloco-secret-of-boris-maximum-aggression|three-links-deep-ellum-dallas
- |7-00-pm-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260920T000000Z
-DTSTART:20260920T000000Z
-DTEND:20260920T030000Z
-SUMMARY:Unloco\, Secret of Boris\, Maximum Aggression
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=unloco-secret-of-boris-ma
- ximum-aggression%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:agent-orange-w-hit-run|trees-dallas|8-00-pm-2026-09-19@letsdoitdallas.c
- om
-DTSTAMP:20260920T010000Z
-DTSTART:20260920T010000Z
-DTEND:20260920T040000Z
-SUMMARY:Agent Orange w/ HIT&RUN
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=agent-orange-w-hit-run%7C
- trees-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:all-the-feels|the-bomb-factory-dallas-dallas|8-00-pm-2026-09-19@letsdoi
- tdallas.com
-DTSTAMP:20260920T010000Z
-DTSTART:20260920T010000Z
-DTEND:20260920T040000Z
-SUMMARY:All The Feels
-LOCATION:The Bomb Factory - Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=all-the-feels%7Cthe-bomb-
- factory-dallas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:drunk-shakespeare-romeo-juliet-21-event-|deep-ellum-art-co-dallas|9-00-
- pm-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260920T020000Z
-DTSTART:20260920T020000Z
-DTEND:20260920T050000Z
-SUMMARY:Drunk Shakespeare: Romeo & Juliet (21+ Event)
-LOCATION:Deep Ellum Art Co · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=drunk-shakespeare-romeo-j
- uliet-21-event-%7Cdeep-ellum-art-co-dallas%7C9-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:shadowbanned|three-links-deep-ellum-dallas|11-00-pm-2026-09-19@letsdoit
- dallas.com
-DTSTAMP:20260920T040000Z
-DTSTART:20260920T040000Z
-DTEND:20260920T070000Z
-SUMMARY:SHADOWBANNED
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=shadowbanned%7Cthree-link
- s-deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:drunk-shakespeare-romeo-juliet-21-event-|deep-ellum-art-co-dallas|5-00-
  pm-2026-09-20@letsdoitdallas.com
 DTSTAMP:20260920T220000Z
 DTSTART:20260920T220000Z
@@ -997,6 +906,32 @@ SUMMARY:Dying Fetus w/ Sanguisugabogg
 LOCATION:The Bomb Factory · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-18&e=dying-fetus-w-sanguisugab
  ogg%7Cthe-bomb-factory-dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:she-s-green-w-witches-exist|club-dada-dallas|8-00-pm-2026-10-18@letsdoi
+ tdallas.com
+DTSTAMP:20261019T010000Z
+DTSTART:20261019T010000Z
+DTEND:20261019T040000Z
+SUMMARY:she's green w/ Witches Exist
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=she-s-green-w-witches-exi
+ st%7Cclub-dada-dallas%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-18@letsdoitd
+ allas.com
+DTSTAMP:20261019T040000Z
+DTSTART:20261019T040000Z
+DTEND:20261019T070000Z
+SUMMARY:DJ SNEAK305
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=dj-sneak305%7Cthree-links
+ -deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT

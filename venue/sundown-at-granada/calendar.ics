@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chanpan|sundown-at-granada-lower-greenville-dallas|doors-see-listing-20
- 26-09-19@letsdoitdallas.com
-DTSTAMP:20260919T000000Z
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260920
-SUMMARY:Chanpan
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=chanpan%7Csundown-at-gran
- ada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/venue/sundown-at-granada/
-END:VEVENT
-BEGIN:VEVENT
 UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
  doors-see-listing-2026-09-20@letsdoitdallas.com
 DTSTAMP:20260920T000000Z

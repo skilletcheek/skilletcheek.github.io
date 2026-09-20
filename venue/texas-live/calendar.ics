@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Texas Live! — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Texas Live!.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:dallas-vs-washington|texas-live-1650-east-randol-mill-road-arlington-76
+ 011-united-states|9-00-am-2026-09-20@letsdoitdallas.com
+DTSTAMP:20260920T140000Z
+DTSTART:20260920T140000Z
+DTEND:20260920T170000Z
+SUMMARY:Dallas vs Washington
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=dallas-vs-washington%7Cte
+ xas-live-1650-east-randol-mill-road-arlington-76011-united-states%7C9-00-a
+ m
+DESCRIPTION:The 2026 Dallas football season is coming—reserve your table 
+ now for the ultimate game day experience. — More: https://letsdoitdallas
+ .com/venue/texas-live/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-vs-washington|texas-live-1650-east-randol-mill-road-arlington-76
+ 011-united-states|3-00-pm-2026-09-20@letsdoitdallas.com
+DTSTAMP:20260920T200000Z
+DTSTART:20260920T200000Z
+DTEND:20260920T230000Z
+SUMMARY:Dallas vs Washington
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-20&e=dallas-vs-washington%7Cte
+ xas-live-1650-east-randol-mill-road-arlington-76011-united-states%7C3-00-p
+ m
+DESCRIPTION:The 2026 Dallas football season is coming—reserve your table 
+ now for the ultimate game day experience. — More: https://letsdoitdallas
+ .com/venue/texas-live/
+END:VEVENT
+BEGIN:VEVENT
+UID:impostores-de-nuevo-leon|texas-live-arlington|8-00-pm-2026-10-02@letsdo
+ itdallas.com
+DTSTAMP:20261003T010000Z
+DTSTART:20261003T010000Z
+DTEND:20261003T040000Z
+SUMMARY:Impostores De Nuevo Leon
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=impostores-de-nuevo-leon%
+ 7Ctexas-live-arlington%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/texas-live/
+END:VEVENT
+END:VCALENDAR

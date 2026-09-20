@@ -9,45 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
- 26-09-19@letsdoitdallas.com
-DTSTAMP:20260919T170000Z
-DTSTART:20260919T170000Z
-DTEND:20260919T200000Z
-SUMMARY:Family Magic & Comedy for All Ages
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=family-magic-comedy-for-a
- ll-ages%7Carlington-improv-arlington%7C12-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:donnell-rawlings|arlington-improv-arlington|7-00-pm-2026-09-19@letsdoit
- dallas.com
-DTSTAMP:20260920T000000Z
-DTSTART:20260920T000000Z
-DTEND:20260920T030000Z
-SUMMARY:Donnell Rawlings
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=donnell-rawlings%7Carling
- ton-improv-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:donnell-rawlings|arlington-improv-arlington|9-30-pm-2026-09-19@letsdoit
- dallas.com
-DTSTAMP:20260920T023000Z
-DTSTART:20260920T023000Z
-DTEND:20260920T053000Z
-SUMMARY:Donnell Rawlings
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=donnell-rawlings%7Carling
- ton-improv-arlington%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:donnell-rawlings|arlington-improv-arlington|7-00-pm-2026-09-20@letsdoit
  dallas.com
 DTSTAMP:20260921T000000Z

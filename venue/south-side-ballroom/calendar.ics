@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lucki|south-side-ballroom-dallas|8-00-pm-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260920T010000Z
-DTSTART:20260920T010000Z
-DTEND:20260920T040000Z
-SUMMARY:LUCKI
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=lucki%7Csouth-side-ballro
- om-dallas%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/south-side-ballroom/
-END:VEVENT
-BEGIN:VEVENT
 UID:alt-103-7-presents-rise-against-ricochet-2026|south-side-ballroom-dalla
  s|7-00-pm-2026-09-22@letsdoitdallas.com
 DTSTAMP:20260923T000000Z

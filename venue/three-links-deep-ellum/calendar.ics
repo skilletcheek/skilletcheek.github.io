@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:unloco-secret-of-boris-maximum-aggression|three-links-deep-ellum-dallas
- |7-00-pm-2026-09-19@letsdoitdallas.com
-DTSTAMP:20260920T000000Z
-DTSTART:20260920T000000Z
-DTEND:20260920T030000Z
-SUMMARY:Unloco\, Secret of Boris\, Maximum Aggression
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=unloco-secret-of-boris-ma
- ximum-aggression%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:shadowbanned|three-links-deep-ellum-dallas|11-00-pm-2026-09-19@letsdoit
- dallas.com
-DTSTAMP:20260920T040000Z
-DTSTART:20260920T040000Z
-DTEND:20260920T070000Z
-SUMMARY:SHADOWBANNED
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=shadowbanned%7Cthree-link
- s-deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:all-hope-came-down-rosa-monte-rosa-goiter-belt|three-links-deep-ellum-d
  allas|7-00-pm-2026-09-20@letsdoitdallas.com
 DTSTAMP:20260921T000000Z
@@ -438,5 +412,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=zzzahara-x-faerybabyy%7Ct
  hree-links-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-18@letsdoitd
+ allas.com
+DTSTAMP:20261019T040000Z
+DTSTART:20261019T040000Z
+DTEND:20261019T070000Z
+SUMMARY:DJ SNEAK305
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=dj-sneak305%7Cthree-links
+ -deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

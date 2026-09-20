@@ -10,58 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dan-lamorte|mic-drop-comedy-plano-plano|7-00-pm-2026-09-19@letsdoitdall
- as.com
-DTSTAMP:20260920T000000Z
-DTSTART:20260920T000000Z
-DTEND:20260920T030000Z
-SUMMARY:Dan LaMorte
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=dan-lamorte%7Cmic-drop-co
- medy-plano-plano%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:jeremy-piven|addison-improv-addison|7-00-pm-2026-09-19@letsdoitdallas.c
- om
-DTSTAMP:20260920T000000Z
-DTSTART:20260920T000000Z
-DTEND:20260920T030000Z
-SUMMARY:Jeremy Piven
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=jeremy-piven%7Caddison-im
- prov-addison%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:dan-lamorte|mic-drop-comedy-plano-plano|9-30-pm-2026-09-19@letsdoitdall
- as.com
-DTSTAMP:20260920T023000Z
-DTSTART:20260920T023000Z
-DTEND:20260920T053000Z
-SUMMARY:Dan LaMorte
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=dan-lamorte%7Cmic-drop-co
- medy-plano-plano%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:jeremy-piven|addison-improv-addison|9-30-pm-2026-09-19@letsdoitdallas.c
- om
-DTSTAMP:20260920T023000Z
-DTSTART:20260920T023000Z
-DTEND:20260920T053000Z
-SUMMARY:Jeremy Piven
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-19&e=jeremy-piven%7Caddison-im
- prov-addison%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:jeremy-piven|addison-improv-addison|7-30-pm-2026-09-20@letsdoitdallas.c
  om
 DTSTAMP:20260921T003000Z
@@ -457,5 +405,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-18&e=the-day-players%7Caddison
  -improv-addison%7C1-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:carlos-mencia|addison-improv-addison|7-30-pm-2026-10-18@letsdoitdallas.
+ com
+DTSTAMP:20261019T003000Z
+DTSTART:20261019T003000Z
+DTEND:20261019T033000Z
+SUMMARY:Carlos Mencia
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=carlos-mencia%7Caddison-i
+ mprov-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
 END:VEVENT
 END:VCALENDAR

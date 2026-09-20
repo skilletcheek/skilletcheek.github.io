@@ -48,6 +48,19 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/arlington-music-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:kathy-mattea|arlington-music-hall-arlington|7-30-pm-2026-10-02@letsdoit
+ dallas.com
+DTSTAMP:20261003T003000Z
+DTSTART:20261003T003000Z
+DTEND:20261003T033000Z
+SUMMARY:Kathy Mattea
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=kathy-mattea%7Carlington-
+ music-hall-arlington%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:war|arlington-music-hall-arlington|8-00-pm-2026-10-17@letsdoitdallas.co
  m
 DTSTAMP:20261018T010000Z
