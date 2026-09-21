@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chair-volleyball|310-e-parkerville-road-cedar-hill|11-00-am-2026-09-21@
- letsdoitdallas.com
-DTSTAMP:20260921T160000Z
-DTSTART:20260921T160000Z
-DTEND:20260921T190000Z
-SUMMARY:Chair Volleyball
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=chair-volleyball%7C310-e-
- parkerville-road-cedar-hill%7C11-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:braiding-101|310-e-parkerville-road-cedar-hill|05-00-pm-2026-09-21@lets
  doitdallas.com
 DTSTAMP:20260921T220000Z
@@ -969,6 +957,18 @@ SUMMARY:Step Aerobics/Extreme Hip Hop
 LOCATION:310 E. Parkerville Road · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-10-03&e=step-aerobics-extreme-hip
  -hop%7C310-e-parkerville-road-cedar-hill%7C08-45-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:longhorn-u|1208-e-pleasant-run-rd-cedar-hill|09-00-am-2026-10-03@letsdo
+ itdallas.com
+DTSTAMP:20261003T140000Z
+DTSTART:20261003T140000Z
+DTEND:20261003T170000Z
+SUMMARY:Longhorn U
+LOCATION:1208 E Pleasant Run Rd · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=longhorn-u%7C1208-e-pleas
+ ant-run-rd-cedar-hill%7C09-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT

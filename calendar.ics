@@ -40,22 +40,6 @@ DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:garland-book-review-club|300-n-fifth-street-garland|10-00-am-2026-09-21
- @letsdoitdallas.com
-DTSTAMP:20260921T150000Z
-DTSTART:20260921T150000Z
-DTEND:20260921T180000Z
-SUMMARY:Garland Book Review Club
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=garland-book-review-club%
- 7C300-n-fifth-street-garland%7C10-00-am
-DESCRIPTION:Jill Beam - Stupid Things I Won't Do When I Get Old The Garland
-  Book Review Club hosts a book review every month where a professional rev
- iewer presents a book of their choice for the group's entertainment. Membe
- rs/guests do not have to have read the book to attend September 21\, 2 —
-  More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
  ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-09-21@lets
  doitdallas.com
@@ -74,46 +58,6 @@ DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:stem-lab-18-|grapevine|10-00-am-2026-09-21@letsdoitdallas.com
-DTSTAMP:20260921T150000Z
-DTSTART:20260921T150000Z
-DTEND:20260921T180000Z
-SUMMARY:STEM Lab (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=stem-lab-18-%7Cgrapevine%
- 7C10-00-am
-DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
- at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
- ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
- edgeable staff will be available to provide guidance\, tips\, and support 
- as — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-30-am-2026-09-21
- @letsdoitdallas.com
-DTSTAMP:20260921T153000Z
-DTSTART:20260921T153000Z
-DTEND:20260921T183000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C10-30-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:chair-volleyball|310-e-parkerville-road-cedar-hill|11-00-am-2026-09-21@
- letsdoitdallas.com
-DTSTAMP:20260921T160000Z
-DTSTART:20260921T160000Z
-DTEND:20260921T190000Z
-SUMMARY:Chair Volleyball
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=chair-volleyball%7C310-e-
- parkerville-road-cedar-hill%7C11-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:masure-gallery-|-kaiku-by-k-p-wilska|masure-gallery-6483-camp-bowie-blv
  d-fort-worth-tx-76107|11-00-am-2026-09-21@letsdoitdallas.com
 DTSTAMP:20260921T160000Z
@@ -129,45 +73,6 @@ DESCRIPTION:The Masure Gallery is thrilled to present the solo photograp
  rapher who specializes in high-key\, minimalist photography. Originall
  y born in Finland\, the exhibition title Kaiku is from the Finnish langu
  age which tran — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-15-pm-2026-09-21
- @letsdoitdallas.com
-DTSTAMP:20260921T171500Z
-DTSTART:20260921T171500Z
-DTEND:20260921T201500Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C12-15-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-09-21@
- letsdoitdallas.com
-DTSTAMP:20260921T173000Z
-DTSTART:20260921T173000Z
-DTEND:20260921T203000Z
-SUMMARY:Legacy of the Longhorn
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=legacy-of-the-longhorn%7C
- cowtown-coliseum-fort-worth%7C12-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-09-21@
- letsdoitdallas.com
-DTSTAMP:20260921T190000Z
-DTSTART:20260921T190000Z
-DTEND:20260921T220000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C2-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-09-21@
@@ -1776,6 +1681,24 @@ DESCRIPTION:Do you sit around thinking to yourself\, “where could I go on
  d to the right place. The Big Laugh Comedy Club + Big Laugh Bistro is the 
  place for you to laugh till your face hurts\, eat delicious food\, and dri
  nk a — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:wizop-wednesday-s-open-mic-night|big-laugh-comedy-club-fort-worth-604-m
+ ain-st-suite-100-fort-worth-tx-76102-united-states|9-30-pm-2026-09-23@lets
+ doitdallas.com
+DTSTAMP:20260924T023000Z
+DTSTART:20260924T023000Z
+DTEND:20260924T053000Z
+SUMMARY:Wizop Wednesday's Open Mic Night
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=wizop-wednesday-s-open-mi
+ c-night%7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-wort
+ h-tx-76102-united-states%7C9-30-pm
+DESCRIPTION:Wizop Wednesdays: Open Mic Comedy  Looking for a midweek jolt o
+ f ridiculous? Wizop Wednesdays is where fresh jokes are born\, wild bits g
+ et tested\, and legends-in-the-making grab the mic. It’s raw\, fast\, an
+ d absolutely addictive\, your new Wednesday night ritual.  Expect lightnin
+ g- — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:wub-wednesday|three-links-deep-ellum-dallas|10-30-pm-2026-09-23@letsdoi
@@ -7642,6 +7565,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-03&e=step-aerobics-extreme-hip
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:longhorn-u|1208-e-pleasant-run-rd-cedar-hill|09-00-am-2026-10-03@letsdo
+ itdallas.com
+DTSTAMP:20261003T140000Z
+DTSTART:20261003T140000Z
+DTEND:20261003T170000Z
+SUMMARY:Longhorn U
+LOCATION:1208 E Pleasant Run Rd · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=longhorn-u%7C1208-e-pleas
+ ant-run-rd-cedar-hill%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:yoga-in-the-park|450-pioneer-trail-cedar-hill|09-00-am-2026-10-03@letsd
  oitdallas.com
 DTSTAMP:20261003T140000Z
@@ -8632,6 +8567,19 @@ DESCRIPTION:Rodeo event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-10-04@
+ letsdoitdallas.com
+DTSTAMP:20261004T190000Z
+DTSTART:20261004T190000Z
+DTEND:20261004T220000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C2-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:casanova|bass-performance-hall-fort-worth|2-00-pm-2026-10-04@letsdoitda
  llas.com
 DTSTAMP:20261004T190000Z
@@ -8710,6 +8658,32 @@ LOCATION:Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-10-04&e=window-strike-prevention-
  workshop%7Ccedar-hill%7C02-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
+ orth|3-00-pm-2026-10-04@letsdoitdallas.com
+DTSTAMP:20261004T200000Z
+DTSTART:20261004T200000Z
+DTEND:20261004T230000Z
+SUMMARY:Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=rapunzel-rapunzel-a-very-
+ hairy-fairy-tale-fort-worth%7Ccasa-manana-fort-worth%7C3-00-pm
+DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-10-04@
+ letsdoitdallas.com
+DTSTAMP:20261004T210000Z
+DTSTART:20261004T210000Z
+DTEND:20261005T000000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C4-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:sparkz-cheerleading|310-e-parkerville-road-cedar-hill|04-00-pm-2026-10-
@@ -11168,15 +11142,15 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
-UID:parrotfish|three-links-deep-ellum-dallas|8-00-pm-2026-10-15@letsdoitdal
- las.com
+UID:parrotfish-clement-hall-sundowning-|three-links-deep-ellum-dallas|8-00-
+ pm-2026-10-15@letsdoitdallas.com
 DTSTAMP:20261016T010000Z
 DTSTART:20261016T010000Z
 DTEND:20261016T040000Z
-SUMMARY:Parrotfish
+SUMMARY:Parrotfish\, Clement Hall\, Sundowning.
 LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=parrotfish%7Cthree-links-
- deep-ellum-dallas%7C8-00-pm
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=parrotfish-clement-hall-s
+ undowning-%7Cthree-links-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/
 END:VEVENT

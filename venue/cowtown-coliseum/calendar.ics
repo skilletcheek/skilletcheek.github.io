@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-09-21@
- letsdoitdallas.com
-DTSTAMP:20260921T173000Z
-DTSTART:20260921T173000Z
-DTEND:20260921T203000Z
-SUMMARY:Legacy of the Longhorn
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=legacy-of-the-longhorn%7C
- cowtown-coliseum-fort-worth%7C12-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/cowtown-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:pbr-stockyards-showcase|cowtown-coliseum-fort-worth|7-30-pm-2026-09-24@
  letsdoitdallas.com
 DTSTAMP:20260925T003000Z

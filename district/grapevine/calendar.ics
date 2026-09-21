@@ -10,21 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:stem-lab-18-|grapevine|10-00-am-2026-09-21@letsdoitdallas.com
-DTSTAMP:20260921T150000Z
-DTSTART:20260921T150000Z
-DTEND:20260921T180000Z
-SUMMARY:STEM Lab (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=stem-lab-18-%7Cgrapevine%
- 7C10-00-am
-DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
- at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
- ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
- edgeable staff will be available to provide guidance\, tips\, and support 
- as — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
  grapevine|04-30-pm-2026-09-21@letsdoitdallas.com
 DTSTAMP:20260921T213000Z
