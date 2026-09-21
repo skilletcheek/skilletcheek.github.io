@@ -61,6 +61,19 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/arlington-music-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:infinite-journey|arlington-music-hall-arlington|7-30-pm-2026-10-03@lets
+ doitdallas.com
+DTSTAMP:20261004T003000Z
+DTSTART:20261004T003000Z
+DTEND:20261004T033000Z
+SUMMARY:Infinite Journey
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=infinite-journey%7Carling
+ ton-music-hall-arlington%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:war|arlington-music-hall-arlington|8-00-pm-2026-10-17@letsdoitdallas.co
  m
 DTSTAMP:20261018T010000Z

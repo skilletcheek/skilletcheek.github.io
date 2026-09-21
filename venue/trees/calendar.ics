@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tricky|trees-dallas|8-00-pm-2026-09-20@letsdoitdallas.com
-DTSTAMP:20260921T010000Z
-DTSTART:20260921T010000Z
-DTEND:20260921T040000Z
-SUMMARY:Tricky
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=tricky%7Ctrees-dallas%7C8
- -00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/trees/
-END:VEVENT
-BEGIN:VEVENT
 UID:soulfly|trees-dallas-dallas|7-00-pm-2026-09-23@letsdoitdallas.com
 DTSTAMP:20260924T000000Z
 DTSTART:20260924T000000Z

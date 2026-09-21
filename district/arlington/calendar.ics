@@ -10,108 +10,54 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:texas-rangers-vs-toronto-blue-jays|globe-life-field-arlington|1-35-pm-2
- 026-09-20@letsdoitdallas.com
-DTSTAMP:20260920T183500Z
-DTSTART:20260920T183500Z
-DTEND:20260920T213500Z
-SUMMARY:Texas Rangers vs. Toronto Blue Jays
-LOCATION:Globe Life Field · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=texas-rangers-vs-toronto-
- blue-jays%7Cglobe-life-field-arlington%7C1-35-pm
-DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
- as.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-vs-washington|texas-live-1650-east-randol-mill-road-arlington-76
- 011-united-states|3-00-pm-2026-09-20@letsdoitdallas.com
-DTSTAMP:20260920T200000Z
-DTSTART:20260920T200000Z
-DTEND:20260920T230000Z
-SUMMARY:Dallas vs Washington
-LOCATION:Texas Live! · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=dallas-vs-washington%7Cte
- xas-live-1650-east-randol-mill-road-arlington-76011-united-states%7C3-00-p
- m
-DESCRIPTION:The 2026 Dallas football season is coming—reserve your table 
- now for the ultimate game day experience. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-cowboys-vs-washington-commanders|at-t-stadium-arlington|3-25-pm-
- 2026-09-20@letsdoitdallas.com
-DTSTAMP:20260920T202500Z
-DTSTART:20260920T202500Z
-DTEND:20260920T232500Z
-SUMMARY:Dallas Cowboys vs. Washington Commanders
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=dallas-cowboys-vs-washing
- ton-commanders%7Cat-t-stadium-arlington%7C3-25-pm
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:donnell-rawlings|arlington-improv-arlington|7-00-pm-2026-09-20@letsdoit
- dallas.com
-DTSTAMP:20260921T000000Z
-DTSTART:20260921T000000Z
-DTEND:20260921T030000Z
-SUMMARY:Donnell Rawlings
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=donnell-rawlings%7Carling
- ton-improv-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|9-00-am-2026-09-21@
- letsdoitdallas.com
-DTSTAMP:20260921T140000Z
-DTSTART:20260921T140000Z
-DTEND:20260921T170000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C9-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-45-am-2026-09-21
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-30-am-2026-09-21
  @letsdoitdallas.com
-DTSTAMP:20260921T154500Z
-DTSTART:20260921T154500Z
-DTEND:20260921T184500Z
+DTSTAMP:20260921T153000Z
+DTSTART:20260921T153000Z
+DTEND:20260921T183000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-09-21&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C10-45-am
+ our%7Cat-t-stadium-arlington%7C10-30-am
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-30-pm-2026-09-21
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-15-pm-2026-09-21
  @letsdoitdallas.com
-DTSTAMP:20260921T173000Z
-DTSTART:20260921T173000Z
-DTEND:20260921T203000Z
+DTSTAMP:20260921T171500Z
+DTSTART:20260921T171500Z
+DTEND:20260921T201500Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-09-21&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C12-30-pm
+ our%7Cat-t-stadium-arlington%7C12-15-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-09-21@
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-09-21@
  letsdoitdallas.com
-DTSTAMP:20260921T200000Z
-DTSTART:20260921T200000Z
-DTEND:20260921T230000Z
+DTSTAMP:20260921T190000Z
+DTSTART:20260921T190000Z
+DTEND:20260921T220000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-09-21&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C3-00-pm
+ our%7Cat-t-stadium-arlington%7C2-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-09-21@
+ letsdoitdallas.com
+DTSTAMP:20260921T210000Z
+DTSTART:20260921T210000Z
+DTEND:20260922T000000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-21&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C4-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
@@ -1069,6 +1015,19 @@ DESCRIPTION:Motorsports/Racing event via Ticketmaster. — More: https://le
  tsdoitdallas.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:infinite-journey|arlington-music-hall-arlington|7-30-pm-2026-10-03@lets
+ doitdallas.com
+DTSTAMP:20261004T003000Z
+DTSTART:20261004T003000Z
+DTEND:20261004T033000Z
+SUMMARY:Infinite Journey
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=infinite-journey%7Carling
+ ton-music-hall-arlington%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:damon-williams|arlington-improv-arlington|9-30-pm-2026-10-03@letsdoitda
  llas.com
 DTSTAMP:20261004T023000Z
@@ -1080,6 +1039,58 @@ URL:https://letsdoitdallas.com/?date=2026-10-03&e=damon-williams%7Carlingto
  n-improv-arlington%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:tbd-at-dallas-wings-wnba-semifinals-home-game-1-|college-park-center-ar
+ lington|3-30-am-2026-10-04@letsdoitdallas.com
+DTSTAMP:20261004T083000Z
+DTSTART:20261004T083000Z
+DTEND:20261004T113000Z
+SUMMARY:TBD at Dallas Wings - WNBA Semifinals (Home Game 1)
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=tbd-at-dallas-wings-wnba-
+ semifinals-home-game-1-%7Ccollege-park-center-arlington%7C3-30-am
+DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/d
+ istrict/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:tbd-at-rangers-alds-hg-1-|globe-life-field-arlington|3-30-am-2026-10-04
+ @letsdoitdallas.com
+DTSTAMP:20261004T083000Z
+DTSTART:20261004T083000Z
+DTEND:20261004T113000Z
+SUMMARY:TBD at Rangers - ALDS (HG 1)
+LOCATION:Globe Life Field · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=tbd-at-rangers-alds-hg-1-
+ %7Cglobe-life-field-arlington%7C3-30-am
+DESCRIPTION:mlb event via SeatGeek. — More: https://letsdoitdallas.com/di
+ strict/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-04
+ @letsdoitdallas.com
+DTSTAMP:20261004T150000Z
+DTSTART:20261004T150000Z
+DTEND:20261004T180000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C10-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-10-04
+ @letsdoitdallas.com
+DTSTAMP:20261004T170000Z
+DTSTART:20261004T170000Z
+DTEND:20261004T200000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C12-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:damon-williams|arlington-improv-arlington|7-00-pm-2026-10-04@letsdoitda

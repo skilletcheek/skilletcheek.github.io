@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:j-cole-the-fall-off-tour|american-airlines-center-dallas|8-00-pm-2026-0
- 9-20@letsdoitdallas.com
-DTSTAMP:20260921T010000Z
-DTSTART:20260921T010000Z
-DTEND:20260921T040000Z
-SUMMARY:J. Cole: The Fall-Off Tour
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=j-cole-the-fall-off-tour%
- 7Camerican-airlines-center-dallas%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-stars-vs-st-louis-blues|american-airlines-center-dallas|7-00-pm-
  2026-09-21@letsdoitdallas.com
 DTSTAMP:20260922T000000Z
@@ -241,5 +228,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-18&e=sombr-you-are-the-reason-
  tour%7Camerican-airlines-center-dallas%7C7-30-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-stars-vs-boston-bruins|american-airlines-center-dallas|7-00-pm-2
+ 026-10-20@letsdoitdallas.com
+DTSTAMP:20261021T000000Z
+DTSTART:20261021T000000Z
+DTEND:20261021T030000Z
+SUMMARY:Dallas Stars vs. Boston Bruins
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=dallas-stars-vs-boston-br
+ uins%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/american-airlines-center/
 END:VEVENT
 END:VCALENDAR

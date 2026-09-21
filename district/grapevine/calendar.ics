@@ -10,102 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
- e-tx-76051-united-states|8-00-am-2026-09-20@letsdoitdallas.com
-DTSTAMP:20260920T130000Z
-DTSTART:20260920T130000Z
-DTEND:20260920T160000Z
-SUMMARY:Phenomenomaly at Meow Wolf
-LOCATION:Meow Wolf · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=phenomenomaly-at-meow-wol
- f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
- C8-00-am
-DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
-  live immersive performance series inside The Real Unreal. Blending intera
- ctive theater with a rotating lineup of North Texas talent\, the experienc
- e unfolds around guests as they explore\, featuring music\, dance\, comedy
- \, — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:art-cart|grapevine|10-30-am-2026-09-20@letsdoitdallas.com
-DTSTAMP:20260920T153000Z
-DTSTART:20260920T153000Z
-DTEND:20260920T183000Z
-SUMMARY:Art Cart
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=art-cart%7Cgrapevine%7C10
- -30-am
-DESCRIPTION:Use your creativity\, critical thinking\, and maker skills to m
- ake crafts for your friends and family using the art and craft supplies pr
- ovided on the Art Cart. September 20\, 2026 10:30 AM - 02:30 PM Grapevine\
- , TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17507/6391695 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:pathfinder-2e-ongoing-campaign|grapevine|11-30-am-2026-09-20@letsdoitda
- llas.com
-DTSTAMP:20260920T163000Z
-DTSTART:20260920T163000Z
-DTEND:20260920T193000Z
-SUMMARY:Pathfinder 2e - Ongoing Campaign
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=pathfinder-2e-ongoing-cam
- paign%7Cgrapevine%7C11-30-am
-DESCRIPTION:Registration Required to attend. Join us in the Library Board R
- oom for our ongoing Pathfinder 2e campaign! Registration for the current c
- ampaign in full\, but new players are always welcome to join us on the fir
- st Saturday of the month for an open session available to all who regi —
-  More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:level-up-smash-bros-training-camp|grapevine|12-30-pm-2026-09-20@letsdoi
- tdallas.com
-DTSTAMP:20260920T173000Z
-DTSTART:20260920T173000Z
-DTEND:20260920T203000Z
-SUMMARY:Level Up: Smash Bros. Training Camp
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=level-up-smash-bros-train
- ing-camp%7Cgrapevine%7C12-30-pm
-DESCRIPTION:Who: Ages 8+ What: The Esports Academy's gaming PCs and console
- s will be available for tournament practice during the holiday-themed Supe
- r Smash Bros.Tournament and Mario Kart Grand Prix. Stop by this Sunday to 
- hone your in-game skills\, learn strategy\, and compete with peers! Whe 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:teen-junk-journal-club-ages-13-17-|grapevine|02-00-pm-2026-09-20@letsdo
- itdallas.com
-DTSTAMP:20260920T190000Z
-DTSTART:20260920T190000Z
-DTEND:20260920T220000Z
-SUMMARY:Teen Junk Journal Club (ages 13-17)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=teen-junk-journal-club-ag
- es-13-17-%7Cgrapevine%7C02-00-pm
-DESCRIPTION:Unleash your creativity and make a journal that’s completely 
- your own! ✂️📓 Join us for a relaxed\, creative space where you can 
- collage\, doodle\, decorate\, write\, and experiment with different papers
- \, stickers\, ephemera\, and other fun materials. Whether you’re new to 
- junk journalin — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:international-talk-like-a-pirate-day-|grapevine|03-00-pm-2026-09-20@let
- sdoitdallas.com
-DTSTAMP:20260920T200000Z
-DTSTART:20260920T200000Z
-DTEND:20260920T230000Z
-SUMMARY:International Talk Like a Pirate Day!
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=international-talk-like-a
- -pirate-day-%7Cgrapevine%7C03-00-pm
-DESCRIPTION:Ahoy\, mateys! Celebrate International Talk Like a Pirate Day w
- ith Seadog Slam\, an interactive pirate poetry performance for all ages. E
- njoy clever verse\, lively storytelling\, and swashbuckling humor as pirat
- e-inspired poetry comes to life. Whether you're a seasoned sea captain or 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:stem-lab-18-|grapevine|10-00-am-2026-09-21@letsdoitdallas.com
 DTSTAMP:20260921T150000Z
 DTSTART:20260921T150000Z
@@ -919,6 +823,51 @@ DESCRIPTION:Use your creativity\, critical thinking\, and maker skills to m
  ovided on the Art Cart. October 4\, 2026 10:30 AM - 02:30 PM Grapevine\, T
  X 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17509/6391695426 
  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
+ grapevine|04-30-pm-2026-10-05@letsdoitdallas.com
+DTSTAMP:20261005T213000Z
+DTSTART:20261005T213000Z
+DTEND:20261006T003000Z
+SUMMARY:After-School Cinema & Snacks
+LOCATION:Grapevine Public Library
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=after-school-cinema-snack
+ s%7Cgrapevine-public-library-1201-municipal-way-grapevine%7C04-30-pm
+DESCRIPTION:Kick back after school\, bring your favorite snacks\, and enjoy
+  a movie with friends! For teens ages 13 and up. October 5\, 2026 04:30 PM
+  - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine\, TX 7605
+ 1 https://www.grapevinetexas.gov/Calendar.aspx?EID=17649/6392103542300000 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:knit-crochet-circle|grapevine|05-30-pm-2026-10-05@letsdoitdallas.com
+DTSTAMP:20261005T223000Z
+DTSTART:20261005T223000Z
+DTEND:20261006T013000Z
+SUMMARY:Knit & Crochet Circle
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=knit-crochet-circle%7Cgra
+ pevine%7C05-30-pm
+DESCRIPTION:Looking for a cozy way to unwind and connect with fellow yarn e
+ nthusiasts? Join us Mondays for our casual Knit & Crochet Circle! Whether 
+ you're a seasoned pro or just picking up your first set of needles or hook
+ s\, this is the perfect opportunity to share your latest projects\, swa 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:board-of-zoning-adjustment-meeting|planning-and-zoning-conference-room-
+ 2nd-floor-200-south-main-street-grapevine|06-15-pm-2026-10-05@letsdoitdall
+ as.com
+DTSTAMP:20261005T231500Z
+DTSTART:20261005T231500Z
+DTEND:20261006T021500Z
+SUMMARY:Board of Zoning Adjustment Meeting
+LOCATION:Planning and Zoning Conference Room - 2nd Floor · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=board-of-zoning-adjustmen
+ t-meeting%7Cplanning-and-zoning-conference-room-2nd-floor-200-south-main-s
+ treet-grapevine%7C06-15-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:day-out-with-thomas-tm-|museum-of-the-american-railroad-grapevine-vinta

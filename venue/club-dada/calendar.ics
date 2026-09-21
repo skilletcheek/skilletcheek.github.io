@@ -59,4 +59,16 @@ URL:https://letsdoitdallas.com/?date=2026-10-18&e=she-s-green-w-witches-exi
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/club-dada/
 END:VEVENT
+BEGIN:VEVENT
+UID:token-w-clark-d|club-dada-dallas|10-00-pm-2026-10-19@letsdoitdallas.com
+DTSTAMP:20261020T030000Z
+DTSTART:20261020T030000Z
+DTEND:20261020T060000Z
+SUMMARY:Token w/ Clark D
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=token-w-clark-d%7Cclub-da
+ da-dallas%7C10-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/club-dada/
+END:VEVENT
 END:VCALENDAR

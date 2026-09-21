@@ -126,6 +126,19 @@ DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
 BEGIN:VEVENT
+UID:shed-g-friends-comedy-special|poor-david-s-pub-dallas|doors-see-listing
+ -2026-10-07@letsdoitdallas.com
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Shed G & Friends Comedy Special
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=shed-g-friends-comedy-spe
+ cial%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
+BEGIN:VEVENT
 UID:gareth-pearson-welsh-tornado-at-poor-david-s|poor-david-s-pub-dallas|do
  ors-see-listing-2026-10-08@letsdoitdallas.com
 DTSTAMP:20261008T000000Z
@@ -200,19 +213,6 @@ SUMMARY:Sara Hickman - "Shortstop" 35th Reunion Tour
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-16&e=sara-hickman-shortstop-35
  th-reunion-tour%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
-UID:shed-g-friends-comedy-special|poor-david-s-pub-dallas|doors-see-listing
- -2026-10-17@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Shed G & Friends Comedy Special
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=shed-g-friends-comedy-spe
- cial%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT

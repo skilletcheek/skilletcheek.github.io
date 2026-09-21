@@ -10,70 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:drunk-shakespeare-romeo-juliet-21-event-|deep-ellum-art-co-dallas|5-00-
- pm-2026-09-20@letsdoitdallas.com
-DTSTAMP:20260920T220000Z
-DTSTART:20260920T220000Z
-DTEND:20260921T010000Z
-SUMMARY:Drunk Shakespeare: Romeo & Juliet (21+ Event)
-LOCATION:Deep Ellum Art Co · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=drunk-shakespeare-romeo-j
- uliet-21-event-%7Cdeep-ellum-art-co-dallas%7C5-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:all-hope-came-down-rosa-monte-rosa-goiter-belt|three-links-deep-ellum-d
- allas|7-00-pm-2026-09-20@letsdoitdallas.com
-DTSTAMP:20260921T000000Z
-DTSTART:20260921T000000Z
-DTEND:20260921T030000Z
-SUMMARY:All Hope Came Down\, Rosa Monte Rosa\, Goiter Belt
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=all-hope-came-down-rosa-m
- onte-rosa-goiter-belt%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:muna-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory-dalla
- s|7-00-pm-2026-09-20@letsdoitdallas.com
-DTSTAMP:20260921T000000Z
-DTSTART:20260921T000000Z
-DTEND:20260921T030000Z
-SUMMARY:Muna (16 and Under with Parent or Legal Guardian)
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=muna-16-and-under-with-pa
- rent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:tricky|trees-dallas|8-00-pm-2026-09-20@letsdoitdallas.com
-DTSTAMP:20260921T010000Z
-DTSTART:20260921T010000Z
-DTEND:20260921T040000Z
-SUMMARY:Tricky
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=tricky%7Ctrees-dallas%7C8
- -00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-09-20@letsdoitd
- allas.com
-DTSTAMP:20260921T040000Z
-DTSTART:20260921T040000Z
-DTEND:20260921T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
  pm-2026-09-21@letsdoitdallas.com
 DTSTAMP:20260922T020000Z
@@ -934,5 +870,56 @@ URL:https://letsdoitdallas.com/?date=2026-10-18&e=dj-sneak305%7Cthree-links
  -deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:sleep-club-life-after-youth-como-la-flor|three-links-deep-ellum-dallas|
+ 8-00-pm-2026-10-19@letsdoitdallas.com
+DTSTAMP:20261020T010000Z
+DTSTART:20261020T010000Z
+DTEND:20261020T040000Z
+SUMMARY:Sleep Club\, Life After Youth\, Como La Flor
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=sleep-club-life-after-you
+ th-como-la-flor%7Cthree-links-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
+ pm-2026-10-19@letsdoitdallas.com
+DTSTAMP:20261020T020000Z
+DTSTART:20261020T020000Z
+DTEND:20261020T050000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:token-w-clark-d|club-dada-dallas|10-00-pm-2026-10-19@letsdoitdallas.com
+DTSTAMP:20261020T030000Z
+DTSTART:20261020T030000Z
+DTEND:20261020T060000Z
+SUMMARY:Token w/ Clark D
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=token-w-clark-d%7Cclub-da
+ da-dallas%7C10-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:paledusk-headwreck-slow-degrade|three-links-deep-ellum-dallas|7-00-pm-2
+ 026-10-20@letsdoitdallas.com
+DTSTAMP:20261021T000000Z
+DTSTART:20261021T000000Z
+DTEND:20261021T030000Z
+SUMMARY:Paledusk\, Headwreck\, Slow Degrade
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=paledusk-headwreck-slow-d
+ egrade%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

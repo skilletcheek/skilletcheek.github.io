@@ -11,74 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-09-20@letsdoitdallas.com
-DTSTAMP:20260920T130000Z
-DTSTART:20260920T130000Z
-DTEND:20260920T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-sound-of-music-touring-|music-hall-at-fair-park-dallas|1-00-pm-2026
- -09-20@letsdoitdallas.com
-DTSTAMP:20260920T180000Z
-DTSTART:20260920T180000Z
-DTEND:20260920T210000Z
-SUMMARY:The Sound of Music (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=the-sound-of-music-tourin
- g-%7Cmusic-hall-at-fair-park-dallas%7C1-00-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-sound-of-music-touring-|music-hall-at-fair-park-dallas|7-00-pm-2026
- -09-20@letsdoitdallas.com
-DTSTAMP:20260921T000000Z
-DTSTART:20260921T000000Z
-DTEND:20260921T030000Z
-SUMMARY:The Sound of Music (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=the-sound-of-music-tourin
- g-%7Cmusic-hall-at-fair-park-dallas%7C7-00-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:empire-of-the-sun-ask-that-god-afterlife-north-american-tour|dos-equis-
- pavilion-dallas|7-30-pm-2026-09-20@letsdoitdallas.com
-DTSTAMP:20260921T003000Z
-DTSTART:20260921T003000Z
-DTEND:20260921T033000Z
-SUMMARY:Empire of the Sun - Ask That God: Afterlife North American Tour
-LOCATION:Dos Equis Pavilion · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=empire-of-the-sun-ask-tha
- t-god-afterlife-north-american-tour%7Cdos-equis-pavilion-dallas%7C7-30-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:j-cole-the-fall-off-tour|american-airlines-center-dallas|8-00-pm-2026-0
- 9-20@letsdoitdallas.com
-DTSTAMP:20260921T010000Z
-DTSTART:20260921T010000Z
-DTEND:20260921T040000Z
-SUMMARY:J. Cole: The Fall-Off Tour
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=j-cole-the-fall-off-tour%
- 7Camerican-airlines-center-dallas%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-09-21@letsdoitdallas.com
 DTSTAMP:20260921T130000Z
 DTSTART:20260921T130000Z
@@ -107,6 +39,22 @@ DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-09-22@letsdoitdallas.com
+DTSTAMP:20260922T130000Z
+DTSTART:20260922T130000Z
+DTEND:20260922T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:alt-103-7-presents-rise-against-ricochet-2026|south-side-ballroom-dalla
  s|7-00-pm-2026-09-22@letsdoitdallas.com
 DTSTAMP:20260923T000000Z
@@ -131,6 +79,22 @@ URL:https://letsdoitdallas.com/?date=2026-09-22&e=greek-live-tour%7Cthe-cam
  bridge-room-at-house-of-blues-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-09-23@letsdoitdallas.com
+DTSTAMP:20260923T130000Z
+DTSTART:20260923T130000Z
+DTEND:20260923T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:dallas-stars-vs-minnesota-wild|american-airlines-center-dallas|7-00-pm-
@@ -720,6 +684,19 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:shed-g-friends-comedy-special|poor-david-s-pub-dallas|doors-see-listing
+ -2026-10-07@letsdoitdallas.com
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Shed G & Friends Comedy Special
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=shed-g-friends-comedy-spe
+ cial%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:my-hero-academia-in-concert|majestic-theatre-dallas-dallas|7-30-pm-2026
  -10-07@letsdoitdallas.com
 DTSTAMP:20261008T003000Z
@@ -1111,19 +1088,6 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:shed-g-friends-comedy-special|poor-david-s-pub-dallas|doors-see-listing
- -2026-10-17@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Shed G & Friends Comedy Special
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=shed-g-friends-comedy-spe
- cial%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:leonid-friends|majestic-theatre-dallas-dallas|3-00-pm-2026-10-17@letsdo
  itdallas.com
 DTSTAMP:20261017T200000Z
@@ -1226,5 +1190,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-20&e=honky-tonk-tuesdays-with-
  raised-right-men%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-stars-vs-boston-bruins|american-airlines-center-dallas|7-00-pm-2
+ 026-10-20@letsdoitdallas.com
+DTSTAMP:20261021T000000Z
+DTSTART:20261021T000000Z
+DTEND:20261021T030000Z
+SUMMARY:Dallas Stars vs. Boston Bruins
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=dallas-stars-vs-boston-br
+ uins%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

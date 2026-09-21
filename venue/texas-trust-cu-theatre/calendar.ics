@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:danzig-w-twin-temple|texas-trust-cu-theatre-grand-prairie|6-00-pm-2026-
- 09-20@letsdoitdallas.com
-DTSTAMP:20260920T230000Z
-DTSTART:20260920T230000Z
-DTEND:20260921T020000Z
-SUMMARY:Danzig w/ Twin Temple
-LOCATION:Texas Trust CU Theatre · Grand Prairie
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=danzig-w-twin-temple%7Cte
- xas-trust-cu-theatre-grand-prairie%7C6-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/texas-trust-cu-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:tajmo-w-taj-mahal|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-09-
  22@letsdoitdallas.com
 DTSTAMP:20260923T010000Z
@@ -187,6 +174,19 @@ SUMMARY:Air Supply
 LOCATION:Texas Trust CU Theatre · Grand Prairie
 URL:https://letsdoitdallas.com/?date=2026-10-17&e=air-supply%7Ctexas-trust-
  cu-theatre-grand-prairie%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/texas-trust-cu-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:taemin|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-10-19@letsdoit
+ dallas.com
+DTSTAMP:20261020T010000Z
+DTSTART:20261020T010000Z
+DTEND:20261020T040000Z
+SUMMARY:Taemin
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=taemin%7Ctexas-trust-cu-t
+ heatre-grand-prairie%7C8-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/texas-trust-cu-theatre/
 END:VEVENT

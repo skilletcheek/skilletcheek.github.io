@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
- doors-see-listing-2026-09-20@letsdoitdallas.com
-DTSTAMP:20260920T000000Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:geeks who drink FREE Trivia
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=geeks-who-drink-free-triv
- ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-09-20@letsdoitd
- allas.com
-DTSTAMP:20260921T040000Z
-DTSTART:20260921T040000Z
-DTEND:20260921T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:free-cult-classic-movie-monday-la-la-land|sundown-at-granada-lower-gree
  nville-dallas|doors-see-listing-2026-09-21@letsdoitdallas.com
 DTSTAMP:20260921T000000Z
@@ -323,5 +297,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-18&e=dj-sneak305%7Cthree-links
  -deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
+ pm-2026-10-19@letsdoitdallas.com
+DTSTAMP:20261020T020000Z
+DTSTART:20261020T020000Z
+DTEND:20261020T050000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:paledusk-headwreck-slow-degrade|three-links-deep-ellum-dallas|7-00-pm-2
+ 026-10-20@letsdoitdallas.com
+DTSTAMP:20261021T000000Z
+DTSTART:20261021T000000Z
+DTEND:20261021T030000Z
+SUMMARY:Paledusk\, Headwreck\, Slow Degrade
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=paledusk-headwreck-slow-d
+ egrade%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/free-events/
 END:VEVENT
 END:VCALENDAR

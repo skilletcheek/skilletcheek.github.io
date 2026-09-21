@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jugalbandi-a-musical-face-off-presented-by-prayaanam|521-w-state-street
- -garland|07-00-pm-2026-09-20@letsdoitdallas.com
-DTSTAMP:20260921T000000Z
-DTSTART:20260921T000000Z
-DTEND:20260921T030000Z
-SUMMARY:Jugalbandi - A Musical Face Off presented by Prayaanam
-LOCATION:521 W State Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=jugalbandi-a-musical-face
- -off-presented-by-prayaanam%7C521-w-state-street-garland%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:garland-book-review-club|300-n-fifth-street-garland|10-00-am-2026-09-21
  @letsdoitdallas.com
 DTSTAMP:20260921T150000Z
@@ -1287,6 +1275,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-04&e=little-shop-of-horrors-pr
  esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C02
  -00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:sbdc-workshop-how-to-start-a-business|central-library-garland|12-00-pm-
+ 2026-10-05@letsdoitdallas.com
+DTSTAMP:20261005T170000Z
+DTSTART:20261005T170000Z
+DTEND:20261005T200000Z
+SUMMARY:SBDC Workshop: How to Start a Business
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=sbdc-workshop-how-to-star
+ t-a-business%7Ccentral-library-garland%7C12-00-pm
+DESCRIPTION:12:00 p.m.\; Meet us in the Small Business Incubator for Small 
+ Business Development Centers (SBDC) presentations on professional business
+  and finance topics. The SBDC provides trainings and support for small bus
+ inesses and start-ups to help them grow. October 5\, 2026 12:00 PM - 01 
+ — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:mijares|curtis-culwell-center-garland|8-00-pm-2026-10-09@letsdoitdallas

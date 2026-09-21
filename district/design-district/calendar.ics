@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dj-diesel-ages-18-|silo-dallas|7-00-pm-2026-09-20@letsdoitdallas.com
-DTSTAMP:20260921T000000Z
-DTSTART:20260921T000000Z
-DTEND:20260921T030000Z
-SUMMARY:DJ Diesel - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-20&e=dj-diesel-ages-18-%7Csilo
- -dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-bad-plus-farewell-tour-18-event-|am-fm-dallas-dallas|9-00-pm-2026-0
  9-21@letsdoitdallas.com
 DTSTAMP:20260922T020000Z
@@ -570,5 +558,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-19&e=kels-w-ella-maddux%7Cam-f
  m-dallas-dallas%7C7-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:20-years-of-nekrogoblikon-with-special-guests-aborted|the-echo-lounge-m
+ usic-hall-dallas|6-00-pm-2026-10-20@letsdoitdallas.com
+DTSTAMP:20261020T230000Z
+DTSTART:20261020T230000Z
+DTEND:20261021T020000Z
+SUMMARY:20 Years of Nekrogoblikon with Special Guests Aborted
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=20-years-of-nekrogoblikon
+ -with-special-guests-aborted%7Cthe-echo-lounge-music-hall-dallas%7C6-00-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
 END:VEVENT
 END:VCALENDAR
