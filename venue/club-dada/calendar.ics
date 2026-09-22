@@ -71,4 +71,16 @@ URL:https://letsdoitdallas.com/?date=2026-10-19&e=token-w-clark-d%7Cclub-da
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/club-dada/
 END:VEVENT
+BEGIN:VEVENT
+UID:sludge-mother|club-dada-dallas|7-00-pm-2026-10-21@letsdoitdallas.com
+DTSTAMP:20261022T000000Z
+DTSTART:20261022T000000Z
+DTEND:20261022T030000Z
+SUMMARY:Sludge Mother
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=sludge-mother%7Cclub-dada
+ -dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/club-dada/
+END:VEVENT
 END:VCALENDAR

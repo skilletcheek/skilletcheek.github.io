@@ -10,20 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:free-cult-classic-movie-monday-la-la-land|sundown-at-granada-lower-gree
- nville-dallas|doors-see-listing-2026-09-21@letsdoitdallas.com
-DTSTAMP:20260921T000000Z
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
-SUMMARY:FREE Cult Classic Movie Monday: LA LA LAND
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=free-cult-classic-movie-m
- onday-la-la-land%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-
- listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:free-tuesday-rooftop-movie-bridesmaids|sundown-at-granada-lower-greenvi
  lle-dallas|doors-see-listing-2026-09-22@letsdoitdallas.com
 DTSTAMP:20260922T000000Z
@@ -313,17 +299,29 @@ DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
  istrict/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
-UID:ax-and-the-hatchetmen-the-late-checkout-tour-2026|granada-theater-lower
- -greenville-dallas|doors-see-listing-2026-10-20@letsdoitdallas.com
-DTSTAMP:20261020T000000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-SUMMARY:Ax and the Hatchetmen: The Late Checkout Tour 2026
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=ax-and-the-hatchetmen-the
- -late-checkout-tour-2026%7Cgranada-theater-lower-greenville-dallas%7Cdoors
- -see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
- istrict/lower-greenville/
+UID:ax-and-the-hatchetmen|granada-theater-tx-dallas|8-00-pm-2026-10-20@lets
+ doitdallas.com
+DTSTAMP:20261021T010000Z
+DTSTART:20261021T010000Z
+DTEND:20261021T040000Z
+SUMMARY:Ax and the Hatchetmen
+LOCATION:Granada Theater - TX · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=ax-and-the-hatchetmen%7Cg
+ ranada-theater-tx-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:will-dempsey-carry-the-weight-tour|sundown-at-granada-lower-greenville-
+ dallas|doors-see-listing-2026-10-22@letsdoitdallas.com
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:WILL DEMPSEY: Carry The Weight Tour
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=will-dempsey-carry-the-we
+ ight-tour%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
 END:VEVENT
 END:VCALENDAR

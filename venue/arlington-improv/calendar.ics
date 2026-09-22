@@ -100,6 +100,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT
 BEGIN:VEVENT
+UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-09-29@letsdoitdal
+ las.com
+DTSTAMP:20260929T233000Z
+DTSTART:20260929T233000Z
+DTEND:20260930T023000Z
+SUMMARY:Test Your Mic
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=test-your-mic%7Carlington
+ -improv-arlington%7C6-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
 UID:just-nesh|arlington-improv-arlington|7-30-pm-2026-09-30@letsdoitdallas.
  com
 DTSTAMP:20261001T003000Z
@@ -152,6 +165,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT
 BEGIN:VEVENT
+UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
+ 26-10-03@letsdoitdallas.com
+DTSTAMP:20261003T170000Z
+DTSTART:20261003T170000Z
+DTEND:20261003T200000Z
+SUMMARY:Family Magic & Comedy for All Ages
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=family-magic-comedy-for-a
+ ll-ages%7Carlington-improv-arlington%7C12-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
 UID:damon-williams|arlington-improv-arlington|7-00-pm-2026-10-03@letsdoitda
  llas.com
 DTSTAMP:20261004T000000Z
@@ -187,6 +213,19 @@ SUMMARY:Damon Williams
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-04&e=damon-williams%7Carlingto
  n-improv-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-10-06@letsdoitdal
+ las.com
+DTSTAMP:20261006T233000Z
+DTSTART:20261006T233000Z
+DTEND:20261007T023000Z
+SUMMARY:Test Your Mic
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=test-your-mic%7Carlington
+ -improv-arlington%7C6-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT
@@ -269,6 +308,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT
 BEGIN:VEVENT
+UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-10-13@letsdoitdal
+ las.com
+DTSTAMP:20261013T233000Z
+DTSTART:20261013T233000Z
+DTEND:20261014T023000Z
+SUMMARY:Test Your Mic
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=test-your-mic%7Carlington
+ -improv-arlington%7C6-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
 UID:iv-n-fematt-la-mole-en-espa-ol-|arlington-improv-arlington|7-30-pm-2026
  -10-14@letsdoitdallas.com
 DTSTAMP:20261015T003000Z
@@ -304,6 +356,19 @@ SUMMARY:Marcus D. Wiley
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-16&e=marcus-d-wiley%7Carlingto
  n-improv-arlington%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
+ 26-10-17@letsdoitdallas.com
+DTSTAMP:20261017T170000Z
+DTSTART:20261017T170000Z
+DTEND:20261017T200000Z
+SUMMARY:Family Magic & Comedy for All Ages
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=family-magic-comedy-for-a
+ ll-ages%7Carlington-improv-arlington%7C12-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT
@@ -356,6 +421,32 @@ SUMMARY:Marcus D. Wiley
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-18&e=marcus-d-wiley%7Carlingto
  n-improv-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-10-20@letsdoitdal
+ las.com
+DTSTAMP:20261020T233000Z
+DTSTART:20261020T233000Z
+DTEND:20261021T023000Z
+SUMMARY:Test Your Mic
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=test-your-mic%7Carlington
+ -improv-arlington%7C6-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:dee-mo-and-friends|arlington-improv-arlington|7-00-pm-2026-10-21@letsdo
+ itdallas.com
+DTSTAMP:20261022T000000Z
+DTSTART:20261022T000000Z
+DTEND:20261022T030000Z
+SUMMARY:Dee Mo and Friends
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=dee-mo-and-friends%7Carli
+ ngton-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

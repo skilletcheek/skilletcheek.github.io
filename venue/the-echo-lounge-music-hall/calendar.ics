@@ -231,4 +231,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-20&e=20-years-of-nekrogoblikon
 DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/the-echo-lounge-music-hall/
 END:VEVENT
+BEGIN:VEVENT
+UID:t-3-the-fifth-season-tour|the-echo-lounge-music-hall-dallas|7-00-pm-202
+ 6-10-21@letsdoitdallas.com
+DTSTAMP:20261022T000000Z
+DTSTART:20261022T000000Z
+DTEND:20261022T030000Z
+SUMMARY:T.3 - The Fifth Season Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=t-3-the-fifth-season-tour
+ %7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-echo-lounge-music-hall/
+END:VEVENT
 END:VCALENDAR

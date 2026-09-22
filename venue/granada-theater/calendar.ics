@@ -217,17 +217,16 @@ DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:ax-and-the-hatchetmen-the-late-checkout-tour-2026|granada-theater-lower
- -greenville-dallas|doors-see-listing-2026-10-20@letsdoitdallas.com
-DTSTAMP:20261020T000000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-SUMMARY:Ax and the Hatchetmen: The Late Checkout Tour 2026
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=ax-and-the-hatchetmen-the
- -late-checkout-tour-2026%7Cgranada-theater-lower-greenville-dallas%7Cdoors
- -see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
+UID:ax-and-the-hatchetmen|granada-theater-tx-dallas|8-00-pm-2026-10-20@lets
+ doitdallas.com
+DTSTAMP:20261021T010000Z
+DTSTART:20261021T010000Z
+DTEND:20261021T040000Z
+SUMMARY:Ax and the Hatchetmen
+LOCATION:Granada Theater - TX · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=ax-and-the-hatchetmen%7Cg
+ ranada-theater-tx-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/granada-theater/
 END:VEVENT
 END:VCALENDAR

@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-bad-plus-farewell-tour-18-event-|am-fm-dallas-dallas|9-00-pm-2026-0
- 9-21@letsdoitdallas.com
-DTSTAMP:20260922T020000Z
-DTSTART:20260922T020000Z
-DTEND:20260922T050000Z
-SUMMARY:The Bad Plus Farewell Tour (18+ Event)
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=the-bad-plus-farewell-tou
- r-18-event-%7Cam-fm-dallas-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:yg-the-gentlemen-s-club-tour|the-echo-lounge-music-hall-dallas|7-00-pm-
  2026-09-22@letsdoitdallas.com
 DTSTAMP:20260923T000000Z
@@ -571,5 +558,30 @@ URL:https://letsdoitdallas.com/?date=2026-10-20&e=20-years-of-nekrogoblikon
  -with-special-guests-aborted%7Cthe-echo-lounge-music-hall-dallas%7C6-00-pm
 DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:machine-girl|am-fm-dallas-dallas|7-00-pm-2026-10-21@letsdoitdallas.com
+DTSTAMP:20261022T000000Z
+DTSTART:20261022T000000Z
+DTEND:20261022T030000Z
+SUMMARY:Machine Girl
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=machine-girl%7Cam-fm-dall
+ as-dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:t-3-the-fifth-season-tour|the-echo-lounge-music-hall-dallas|7-00-pm-202
+ 6-10-21@letsdoitdallas.com
+DTSTAMP:20261022T000000Z
+DTSTART:20261022T000000Z
+DTEND:20261022T030000Z
+SUMMARY:T.3 - The Fifth Season Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=t-3-the-fifth-season-tour
+ %7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
 END:VEVENT
 END:VCALENDAR

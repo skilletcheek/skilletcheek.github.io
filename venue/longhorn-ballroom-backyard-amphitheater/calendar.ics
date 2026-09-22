@@ -48,4 +48,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-15&e=randy-travis-w-james-dupr
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/longhorn-ballroom-backyard-amphitheater/
 END:VEVENT
+BEGIN:VEVENT
+UID:black-country-new-road|longhorn-ballroom-backyard-amphitheater-dallas|8
+ -00-pm-2026-10-20@letsdoitdallas.com
+DTSTAMP:20261021T010000Z
+DTSTART:20261021T010000Z
+DTEND:20261021T040000Z
+SUMMARY:Black Country\, New Road
+LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=black-country-new-road%7C
+ longhorn-ballroom-backyard-amphitheater-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/longhorn-ballroom-backyard-amphitheater/
+END:VEVENT
 END:VCALENDAR

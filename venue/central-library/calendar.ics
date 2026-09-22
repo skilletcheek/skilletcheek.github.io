@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:coi-small-business-leadership-series-ages-18-|central-library-garland|0
- 5-30-pm-2026-09-21@letsdoitdallas.com
-DTSTAMP:20260921T223000Z
-DTSTART:20260921T223000Z
-DTEND:20260922T013000Z
-SUMMARY:COI Small Business Leadership Series (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=coi-small-business-leader
- ship-series-ages-18-%7Ccentral-library-garland%7C05-30-pm
-DESCRIPTION:5:30 p.m.\; In this five-part workshop\, Jennifer Jordan (MBA\,
-  CPTD\, CPTM) of J2 Leadership and Learning Solutions\, will introduce asp
- iring entrepreneurs\, recent small business owners\, and established small
-  business owners to the COI (clarity\, ownership and independence) framewo
- rk — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:baby-bounce-read-birth-18-months-|central-library-garland|10-00-am-2026
  -09-22@letsdoitdallas.com
 DTSTAMP:20260922T150000Z
@@ -487,6 +471,38 @@ DESCRIPTION:12:00 p.m.\; Meet us in the Small Business Incubator for Small
  Business Development Centers (SBDC) presentations on professional business
   and finance topics. The SBDC provides trainings and support for small bus
  inesses and start-ups to help them grow. October 5\, 2026 12:00 PM - 01 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:clearpathtx-statewide-expunction-project|central-library-garland|12-00-
+ pm-2026-10-06@letsdoitdallas.com
+DTSTAMP:20261006T170000Z
+DTSTART:20261006T170000Z
+DTEND:20261006T200000Z
+SUMMARY:ClearPathTX Statewide Expunction Project
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=clearpathtx-statewide-exp
+ unction-project%7Ccentral-library-garland%7C12-00-pm
+DESCRIPTION:12:00 p.m.\; Is your criminal history dragging you down? Has it
+  stopped you from getting a better paying job or renting a house? You may 
+ qualify to get your criminal history cleared with an expunction or nondisc
+ losure. Please stop by and learn how we can help! No registration requ —
+  More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:intellectual-property-ip-basics|central-library-garland|06-00-pm-2026-1
+ 0-06@letsdoitdallas.com
+DTSTAMP:20261006T230000Z
+DTSTART:20261006T230000Z
+DTEND:20261007T020000Z
+SUMMARY:Intellectual Property (IP) Basics
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=intellectual-property-ip-
+ basics%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Are you a freelancer or business owner interested i
+ n intellectual property? Join us for a presentation led by the U.S. Patent
+  and Trademark Office. Learn the difference between patents\, trademarks\,
+  copyrights and trade secrets. October 6\, 2026 06:00 PM - 07:30 PM 625 A 
  — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

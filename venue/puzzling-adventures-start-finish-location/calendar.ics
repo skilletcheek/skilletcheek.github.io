@@ -11,25 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
- ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-09-21@lets
- doitdallas.com
-DTSTAMP:20260921T150000Z
-DTSTART:20260921T150000Z
-DTEND:20260921T180000Z
-SUMMARY:Puzzling Adventures Scavenger Hunt
-LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=puzzling-adventures-scave
- nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
- rth-76102-united-states%7C10-00-am
-DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
- uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
- e\, and an informative self-guided walking tour. Each adventure consists o
- f a series of locations that you are guided to where you are required t 
- — More: https://letsdoitdallas.com/venue/puzzling-adventures-start-finis
- h-location/
-END:VEVENT
-BEGIN:VEVENT
-UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
  ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-09-22@lets
  doitdallas.com
 DTSTAMP:20260922T150000Z
@@ -57,6 +38,25 @@ DTEND:20260923T180000Z
 SUMMARY:Puzzling Adventures Scavenger Hunt
 LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-09-23&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/venue/puzzling-adventures-start-finis
+ h-location/
+END:VEVENT
+BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-09-24@lets
+ doitdallas.com
+DTSTAMP:20260924T150000Z
+DTSTART:20260924T150000Z
+DTEND:20260924T180000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=puzzling-adventures-scave
  nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
  rth-76102-united-states%7C10-00-am
 DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P

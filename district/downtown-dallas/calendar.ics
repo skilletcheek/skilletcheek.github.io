@@ -11,35 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-09-21@letsdoitdallas.com
-DTSTAMP:20260921T130000Z
-DTSTART:20260921T130000Z
-DTEND:20260921T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-stars-vs-st-louis-blues|american-airlines-center-dallas|7-00-pm-
- 2026-09-21@letsdoitdallas.com
-DTSTAMP:20260922T000000Z
-DTSTART:20260922T000000Z
-DTEND:20260922T030000Z
-SUMMARY:Dallas Stars vs. St. Louis Blues
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-21&e=dallas-stars-vs-st-louis-
- blues%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-09-22@letsdoitdallas.com
 DTSTAMP:20260922T130000Z
 DTSTART:20260922T130000Z
@@ -147,6 +118,22 @@ URL:https://letsdoitdallas.com/?date=2026-09-24&e=brother-and-the-hayes-rel
  ease-party-%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-09-24@letsdoitdallas.com
+DTSTAMP:20260924T130000Z
+DTSTART:20260924T130000Z
+DTEND:20260924T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:frank-turner-lost-evenings-ix|south-side-ballroom-dallas|6-00-pm-2026-0
@@ -1202,6 +1189,45 @@ LOCATION:American Airlines Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-20&e=dallas-stars-vs-boston-br
  uins%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:black-country-new-road|longhorn-ballroom-backyard-amphitheater-dallas|8
+ -00-pm-2026-10-20@letsdoitdallas.com
+DTSTAMP:20261021T010000Z
+DTSTART:20261021T010000Z
+DTEND:20261021T040000Z
+SUMMARY:Black Country\, New Road
+LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=black-country-new-road%7C
+ longhorn-ballroom-backyard-amphitheater-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:kxt-presents-hermanos-guti-rrez|south-side-ballroom-dallas|8-00-pm-2026
+ -10-20@letsdoitdallas.com
+DTSTAMP:20261021T010000Z
+DTSTART:20261021T010000Z
+DTEND:20261021T040000Z
+SUMMARY:KXT Presents - Hermanos Gutiérrez
+LOCATION:South Side Ballroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=kxt-presents-hermanos-gut
+ i-rrez%7Csouth-side-ballroom-dallas%7C8-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:foos-gone-wild-the-foos-gone-wild-tour-2026|house-of-blues-dallas-dalla
+ s|7-00-pm-2026-10-21@letsdoitdallas.com
+DTSTAMP:20261022T000000Z
+DTSTART:20261022T000000Z
+DTEND:20261022T030000Z
+SUMMARY:FOOS GONE WILD: The FOOS GONE WILD Tour 2026
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=foos-gone-wild-the-foos-g
+ one-wild-tour-2026%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR
