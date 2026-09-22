@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:planning-zoning-commission|6101-frisco-square-blvd-frisco|06-30-pm-2026
- -09-22@letsdoitdallas.com
-DTSTAMP:20260922T233000Z
-DTSTART:20260922T233000Z
-DTEND:20260923T023000Z
-SUMMARY:Planning & Zoning Commission
-LOCATION:6101 Frisco Square Blvd.
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=planning-zoning-commissio
- n%7C6101-frisco-square-blvd-frisco%7C06-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:parks-for-pollinators-what-remains|frisco|07-30-am-2026-09-23@letsdoitd
  allas.com
 DTSTAMP:20260923T123000Z

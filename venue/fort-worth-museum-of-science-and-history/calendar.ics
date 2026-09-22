@@ -9,24 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:member-morning|fort-worth-museum-of-science-and-history-1600-gendy-stre
- et-fort-worth-76107-united-states|9-00-am-2026-09-22@letsdoitdallas.com
-DTSTAMP:20260922T140000Z
-DTSTART:20260922T140000Z
-DTEND:20260922T170000Z
-SUMMARY:Member Morning
-LOCATION:Fort Worth Museum of Science and History
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=member-morning%7Cfort-wor
- th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
- -states%7C9-00-am
-DESCRIPTION:Member Morning  September 15 | 9:00 am – 10:00 am    Museum
-  Members get early entry to the TCU Children’s Gallery every Tuesday fro
- m 9AM-10AM!  Early entry only applies to the TCU Children’s Gallery\, th
- e rest of the Museum opens at 10AM.  Not a Member yet? Click here to join
- ! — More: https://letsdoitdallas.com/venue/fort-worth-museum-of-science-
- and-history/
-END:VEVENT
-BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
  et-fort-worth-76107-united-states|10-00-am-2026-09-22@letsdoitdallas.com
 DTSTAMP:20260922T150000Z

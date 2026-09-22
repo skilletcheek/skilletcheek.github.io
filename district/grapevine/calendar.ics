@@ -10,37 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:art-studio-18-|grapevine|10-00-am-2026-09-22@letsdoitdallas.com
-DTSTAMP:20260922T150000Z
-DTSTART:20260922T150000Z
-DTEND:20260922T180000Z
-SUMMARY:Art Studio (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=art-studio-18-%7Cgrapevin
- e%7C10-00-am
-DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
- our own projects or start something new. Bring your own project and ideas!
-  This is a welcoming space for creatives 18+. *Library Card Required* Sept
- ember 22\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grap 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-09-22@letsd
- oitdallas.com
-DTSTAMP:20260922T153000Z
-DTSTART:20260922T153000Z
-DTEND:20260922T183000Z
-SUMMARY:Storytime for Toddlers/Preschoolers
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=storytime-for-toddlers-pr
- eschoolers%7Cgrapevine%7C10-30-am
-DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
- welcome and no registrations is needed. (This is a Ticketed Program\; plea
- se stop at the Children's Desk 15 minutes before the program to receive ti
- ckets. 1 per attendee.) September 22\, 2026 10:30 AM - 11:00 AM Grapevine 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:stem-lab-18-|grapevine|10-00-am-2026-09-23@letsdoitdallas.com
 DTSTAMP:20260923T150000Z
 DTSTART:20260923T150000Z
@@ -206,14 +175,30 @@ DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
-UID:bouncing-babies|grapevine|10-30-am-2026-09-25@letsdoitdallas.com
+UID:dolly-day-|grapevine|10-00-am-2026-09-25@letsdoitdallas.com
+DTSTAMP:20260925T150000Z
+DTSTART:20260925T150000Z
+DTEND:20260925T180000Z
+SUMMARY:Dolly Day!
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=dolly-day-%7Cgrapevine%7C
+ 10-00-am
+DESCRIPTION:Put your boots on\, it's Dolly Day (9/25)! Get ready for a day 
+ of creativity\, storytelling\, music\, and a little bit of Dolly magic! Jo
+ in us on Friday\, September 25\, from 10 am to 4:30 pm for a full day of D
+ olly Parton-inspired fun for the whole family. 10am to 4:30 pm: Art Cart 1
+ 0 — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:-canceled-bouncing-babies|grapevine|10-30-am-2026-09-25@letsdoitdallas.
+ com
 DTSTAMP:20260925T153000Z
 DTSTART:20260925T153000Z
 DTEND:20260925T183000Z
-SUMMARY:Bouncing Babies
+SUMMARY:---CANCELED---Bouncing Babies
 LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=bouncing-babies%7Cgrapevi
- ne%7C10-30-am
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=-canceled-bouncing-babies
+ %7Cgrapevine%7C10-30-am
 DESCRIPTION:Bouncing Babies is a program for babies from birth to 18 months
  . It includes songs\, bounces\, parachute\, as well as a social time for c
  aregivers. No registration needed. September 25\, 2026 10:30 AM - 11:00 AM
@@ -236,14 +221,15 @@ DESCRIPTION:Open Play Fridays 12:30-4:30. Tables available on a first come
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
-UID:bouncing-babies|grapevine|01-30-pm-2026-09-25@letsdoitdallas.com
+UID:-canceled-bouncing-babies|grapevine|01-30-pm-2026-09-25@letsdoitdallas.
+ com
 DTSTAMP:20260925T183000Z
 DTSTART:20260925T183000Z
 DTEND:20260925T213000Z
-SUMMARY:Bouncing Babies
+SUMMARY:---CANCELED---Bouncing Babies
 LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=bouncing-babies%7Cgrapevi
- ne%7C01-30-pm
+URL:https://letsdoitdallas.com/?date=2026-09-25&e=-canceled-bouncing-babies
+ %7Cgrapevine%7C01-30-pm
 DESCRIPTION:Bouncing Babies is a program for babies from birth to 18 months
  . It includes songs\, bounces\, parachute\, as well as a social time for c
  aregivers. No registration needed. September 25\, 2026 01:30 PM - 02:00 PM

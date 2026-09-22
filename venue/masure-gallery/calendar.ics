@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Masure Gallery — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Masure Gallery.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:masure-gallery-|-kaiku-by-k-p-wilska|masure-gallery-6483-camp-bowie-blv
+ d-fort-worth-tx-76107|11-00-am-2026-09-22@letsdoitdallas.com
+DTSTAMP:20260922T160000Z
+DTSTART:20260922T160000Z
+DTEND:20260922T190000Z
+SUMMARY:Masure Gallery | Kaiku by K.P. Wilska
+LOCATION:Masure Gallery · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-22&e=masure-gallery-%7C-kaiku-
+ by-k-p-wilska%7Cmasure-gallery-6483-camp-bowie-blvd-fort-worth-tx-76107%7C
+ 11-00-am
+DESCRIPTION:The Masure Gallery is thrilled to present the solo photograp
+ hy exhibition Kaiku\, by K.P. Wilska. Wilska is a Fort Worth photog
+ rapher who specializes in high-key\, minimalist photography. Originall
+ y born in Finland\, the exhibition title Kaiku is from the Finnish langu
+ age which tran — More: https://letsdoitdallas.com/venue/masure-gallery/
+END:VEVENT
+BEGIN:VEVENT
+UID:masure-gallery-|-kaiku-by-k-p-wilska|masure-gallery-6483-camp-bowie-blv
+ d-fort-worth-tx-76107|11-00-am-2026-09-23@letsdoitdallas.com
+DTSTAMP:20260923T160000Z
+DTSTART:20260923T160000Z
+DTEND:20260923T190000Z
+SUMMARY:Masure Gallery | Kaiku by K.P. Wilska
+LOCATION:Masure Gallery · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-23&e=masure-gallery-%7C-kaiku-
+ by-k-p-wilska%7Cmasure-gallery-6483-camp-bowie-blvd-fort-worth-tx-76107%7C
+ 11-00-am
+DESCRIPTION:The Masure Gallery is thrilled to present the solo photograp
+ hy exhibition Kaiku\, by K.P. Wilska. Wilska is a Fort Worth photog
+ rapher who specializes in high-key\, minimalist photography. Originall
+ y born in Finland\, the exhibition title Kaiku is from the Finnish langu
+ age which tran — More: https://letsdoitdallas.com/venue/masure-gallery/
+END:VEVENT
+BEGIN:VEVENT
+UID:masure-gallery-|-kaiku-by-k-p-wilska|masure-gallery-6483-camp-bowie-blv
+ d-fort-worth-tx-76107|11-00-am-2026-09-24@letsdoitdallas.com
+DTSTAMP:20260924T160000Z
+DTSTART:20260924T160000Z
+DTEND:20260924T190000Z
+SUMMARY:Masure Gallery | Kaiku by K.P. Wilska
+LOCATION:Masure Gallery · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-09-24&e=masure-gallery-%7C-kaiku-
+ by-k-p-wilska%7Cmasure-gallery-6483-camp-bowie-blvd-fort-worth-tx-76107%7C
+ 11-00-am
+DESCRIPTION:The Masure Gallery is thrilled to present the solo photograp
+ hy exhibition Kaiku\, by K.P. Wilska. Wilska is a Fort Worth photog
+ rapher who specializes in high-key\, minimalist photography. Originall
+ y born in Finland\, the exhibition title Kaiku is from the Finnish langu
+ age which tran — More: https://letsdoitdallas.com/venue/masure-gallery/
+END:VEVENT
+END:VCALENDAR
