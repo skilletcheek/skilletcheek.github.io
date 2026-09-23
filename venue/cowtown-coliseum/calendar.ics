@@ -113,6 +113,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/cowtown-coliseum/
 END:VEVENT
 BEGIN:VEVENT
+UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-10-01@
+ letsdoitdallas.com
+DTSTAMP:20261001T173000Z
+DTSTART:20261001T173000Z
+DTEND:20261001T203000Z
+SUMMARY:Legacy of the Longhorn
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=legacy-of-the-longhorn%7C
+ cowtown-coliseum-fort-worth%7C12-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
 UID:pbr-stockyards-showcase|cowtown-coliseum-fort-worth|7-30-pm-2026-10-01@
  letsdoitdallas.com
 DTSTAMP:20261002T003000Z
@@ -176,6 +189,45 @@ URL:https://letsdoitdallas.com/?date=2026-10-04&e=stockyards-championship-r
  odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-10-05@
+ letsdoitdallas.com
+DTSTAMP:20261005T173000Z
+DTSTART:20261005T173000Z
+DTEND:20261005T203000Z
+SUMMARY:Legacy of the Longhorn
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=legacy-of-the-longhorn%7C
+ cowtown-coliseum-fort-worth%7C12-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-10-07@
+ letsdoitdallas.com
+DTSTAMP:20261007T173000Z
+DTSTART:20261007T173000Z
+DTEND:20261007T203000Z
+SUMMARY:Legacy of the Longhorn
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=legacy-of-the-longhorn%7C
+ cowtown-coliseum-fort-worth%7C12-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-10-08@
+ letsdoitdallas.com
+DTSTAMP:20261008T173000Z
+DTSTART:20261008T173000Z
+DTEND:20261008T203000Z
+SUMMARY:Legacy of the Longhorn
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=legacy-of-the-longhorn%7C
+ cowtown-coliseum-fort-worth%7C12-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/cowtown-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:pbr-stockyards-showcase|cowtown-coliseum-fort-worth|7-30-pm-2026-10-08@
@@ -306,5 +358,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-18&e=stockyards-championship-r
  odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-10-19@
+ letsdoitdallas.com
+DTSTAMP:20261019T173000Z
+DTSTART:20261019T173000Z
+DTEND:20261019T203000Z
+SUMMARY:Legacy of the Longhorn
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=legacy-of-the-longhorn%7C
+ cowtown-coliseum-fort-worth%7C12-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/cowtown-coliseum/
 END:VEVENT
 END:VCALENDAR

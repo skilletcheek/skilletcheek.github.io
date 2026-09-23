@@ -193,6 +193,20 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/free-events/
 END:VEVENT
 BEGIN:VEVENT
+UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
+ rapevine-vintage-railroad-grapevine|10-00-am-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T150000Z
+DTSTART:20261010T150000Z
+DTEND:20261010T180000Z
+SUMMARY:Day Out With Thomas (TM)\, Thomas & Friends
+LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=day-out-with-thomas-tm-th
+ omas-friends%7Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-
+ grapevine%7C10-00-am
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
 UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-11@letsdoitd
  allas.com
 DTSTAMP:20261012T040000Z
@@ -230,6 +244,35 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=zzzahara-x-faerybabyy%7Ct
  hree-links-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:songwriter-sunday-with-stefan-prigmore-lauren-o-connor-amplified-minds-
+ |poor-david-s-pub-dallas|doors-see-listing-2026-10-18@letsdoitdallas.com
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Songwriter Sunday with Stefan Prigmore & Lauren O'Connor (Amplified
+  Minds)
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=songwriter-sunday-with-st
+ efan-prigmore-lauren-o-connor-amplified-minds-%7Cpoor-david-s-pub-dallas%7
+ Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
+ rapevine-vintage-railroad-grapevine|10-00-am-2026-10-18@letsdoitdallas.com
+DTSTAMP:20261018T150000Z
+DTSTART:20261018T150000Z
+DTEND:20261018T180000Z
+SUMMARY:Day Out With Thomas (TM)\, Thomas & Friends
+LOCATION:Museum of the American Railroad & Grapevine Vintage Railroad
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=day-out-with-thomas-tm-th
+ omas-friends%7Cmuseum-of-the-american-railroad-grapevine-vintage-railroad-
+ grapevine%7C10-00-am
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-18@letsdoitd

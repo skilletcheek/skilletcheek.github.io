@@ -1,35 +1,18 @@
 {
  "date": "2026-09-23",
  "counts": {
-  "ticketmaster": 533,
+  "ticketmaster": 538,
   "seatgeek": 300,
   "ics_feeds": 27,
-  "civicplus": 326,
-  "prekindle": 64,
+  "civicplus": 309,
+  "prekindle": 65,
   "singles_pages": 3,
   "do214": 0,
-  "dallasites101": 0,
+  "dallasites101": 1,
   "seated": 1
  },
- "alarms": [
-  "dallasites101: 31 of 31 fetched pages did not parse (1 no_jsonld, 30 not_event) \u2014 the page template probably changed",
-  "dallasites101: 3 -> 0 (source produced nothing; baseline over 14 run(s))"
- ],
+ "alarms": [],
  "history": [
-  {
-   "date": "2026-09-16",
-   "counts": {
-    "ticketmaster": 532,
-    "seatgeek": 300,
-    "ics_feeds": 27,
-    "civicplus": 326,
-    "prekindle": 66,
-    "singles_pages": 2,
-    "do214": 0,
-    "dallasites101": 3,
-    "seated": 1
-   }
-  },
   {
    "date": "2026-09-17",
    "counts": {
@@ -209,6 +192,20 @@
     "singles_pages": 3,
     "do214": 0,
     "dallasites101": 0,
+    "seated": 1
+   }
+  },
+  {
+   "date": "2026-09-23",
+   "counts": {
+    "ticketmaster": 538,
+    "seatgeek": 300,
+    "ics_feeds": 27,
+    "civicplus": 309,
+    "prekindle": 65,
+    "singles_pages": 3,
+    "do214": 0,
+    "dallasites101": 1,
     "seated": 1
    }
   }

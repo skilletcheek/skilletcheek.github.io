@@ -318,6 +318,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:one-night-in-memphis|eisemann-center-richardson|7-30-pm-2026-10-10@lets
+ doitdallas.com
+DTSTAMP:20261011T003000Z
+DTSTART:20261011T003000Z
+DTEND:20261011T033000Z
+SUMMARY:One Night in Memphis
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=one-night-in-memphis%7Cei
+ semann-center-richardson%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:michael-yo|addison-improv-addison|9-30-pm-2026-10-10@letsdoitdallas.com
 DTSTAMP:20261011T023000Z
 DTSTART:20261011T023000Z

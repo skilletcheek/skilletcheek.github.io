@@ -1,66 +1,14 @@
 [
  {
-  "name": "55+ Fitness Class",
-  "category": "sports",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-09-23",
-  "time": "08:15 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=17527",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
- },
- {
-  "name": "AT&T Stadium Owner's Experience Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-09-23",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-owner-s-experience-tour-tickets/stadium-tours/2026-09-23-10-am/18374175",
-  "image": null
- },
- {
-  "name": "AT&T Stadium Owner's Experience Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-09-23",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-owner-s-experience-tour-tickets/stadium-tours/2026-09-23-12-pm/18374179",
-  "image": null
- },
- {
   "name": "AT&T Stadium VIP Guided Tour",
   "category": "sports",
   "area": "AT&T Stadium, Arlington",
   "city": "Arlington",
   "date": "2026-09-23",
-  "time": "2:00 PM",
+  "time": "3:00 PM",
   "cost": null,
   "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-09-23-2-pm/18374227",
-  "image": null
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-09-23",
-  "time": "4:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-09-23-4-pm/18374210",
+  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-09-23-3-pm/18374216",
   "image": null
  },
  {
@@ -146,38 +94,6 @@
   "description": "Metal event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/babymetal-world-tour-2026-dallas-texas-09-23-2026/event/0C00647EA90F7100",
   "image": "https://s1.ticketm.net/dam/a/54f/1e66fbc9-7598-4c3e-886b-429ebe61154f_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Baby & Me (0-10 Months)",
-  "category": "family",
-  "area": "6861 W. Eldorado Pkwy., McKinney",
-  "city": "McKinney",
-  "date": "2026-09-23",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_BabyMe2",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
-  "name": "Baby Bounce & Read (Birth-18 Months)",
-  "category": "family",
-  "area": "North Garland Library, Garland",
-  "city": "Garland",
-  "date": "2026-09-23",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "10:00 a.m.; Babies, birth to 18 months, and their caregivers will learn, play, and grow together in this lap-sit storytime that introduces books, rhymes, tickles, and bounces designed to incorporate early literacy practices into their everyday lives. September 23, 2026 10:00 AM -",
-  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13154",
-  "image": null,
-  "organizer": {
-   "name": "City of Garland",
-   "url": "https://garlandtx.gov/"
-  }
  },
  {
   "name": "Bridging the Gap: Renters (Ages 18+)",
@@ -276,22 +192,6 @@
   }
  },
  {
-  "name": "Family Read & Play (Ages 0-5)",
-  "category": "family",
-  "area": "West Garland Library, Garland",
-  "city": "Garland",
-  "date": "2026-09-23",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "10:30 a.m.; The whole family will learn, play, and grow during this interactive storytime full of stories, creative movement, and songs that will strengthen listening, language, and early literacy skills. This storytime is ideal for children from birth to 5 years old and their ca",
-  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13266",
-  "image": null,
-  "organizer": {
-   "name": "City of Garland",
-   "url": "https://garlandtx.gov/"
-  }
- },
- {
   "name": "Firehouse",
   "category": "music",
   "area": "Legacy Hall, Plano",
@@ -314,22 +214,6 @@
   "description": "April 25, 2026 – February 28, 2027    Forces at Play is an interactive exhibit that explores the science behind some of the world’s most beloved sports. Through hands-on activities and historical collections, visitors discover how forces like gravity, friction, and momentum impac",
   "url": "https://whatsupfortworth.com/event/forces-at-play-169/2026-09-23/",
   "image": null
- },
- {
-  "name": "Homeschool P.E.",
-  "category": "family",
-  "area": "1700 Veterans Memorial Parkway, Lancaster",
-  "city": "Lancaster",
-  "date": "2026-09-23",
-  "time": "09:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8244",
-  "image": null,
-  "organizer": {
-   "name": "City of Lancaster",
-   "url": "https://lancaster-tx.com/"
-  }
  },
  {
   "name": "How to Use Libby (Ages 18+)",
@@ -373,22 +257,6 @@
   "cost": null,
   "description": "",
   "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=18135",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
- },
- {
-  "name": "Lunch Circuit",
-  "category": "family",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-09-23",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=18313",
   "image": null,
   "organizer": {
    "name": "City of Cedar Hill",
@@ -448,38 +316,6 @@
   }
  },
  {
-  "name": "Play & Learn (0-5 Years)",
-  "category": "family",
-  "area": "North Garland Library, Garland",
-  "city": "Garland",
-  "date": "2026-09-23",
-  "time": "11:00 AM",
-  "cost": null,
-  "description": "11:00 a.m.; It’s playtime! Families can participate in Play & Learn, a weekly event where children ages 0-5 and their caregivers can enjoy an assortment of toys, games and activities that foster imagination, creativity and problem-solving. September 23, 2026 11:00 AM - 12:00 PM 3",
-  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13190",
-  "image": null,
-  "organizer": {
-   "name": "City of Garland",
-   "url": "https://garlandtx.gov/"
-  }
- },
- {
-  "name": "Preschool Discovery (3-5 Years)",
-  "category": "family",
-  "area": "South Garland Library, Garland",
-  "city": "Garland",
-  "date": "2026-09-23",
-  "time": "11:00 AM",
-  "cost": null,
-  "description": "11:00 a.m.; Preschool Discovery is designed for ages 3 to 5-year-olds and their caregivers. Enjoy books, songs, exploring colors, letters, numbers, and much more that will help develop your preschooler's early literacy skills. September 23, 2026 11:00 AM - 12:00 PM 4845 Broadway ",
-  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13090",
-  "image": null,
-  "organizer": {
-   "name": "City of Garland",
-   "url": "https://garlandtx.gov/"
-  }
- },
- {
   "name": "Puzzling Adventures Scavenger Hunt",
   "category": "festival",
   "area": "Puzzling Adventures Start & Finish Location, 400 Jones St, Fort Worth, 76102, United States",
@@ -490,22 +326,6 @@
   "description": "Consistently rated the best local scavenger hunt since 2016!  Puzzling Adventures are a cross between a scavenger hunt, an adventure race, and an informative self-guided walking tour. Each adventure consists of a series of locations that you are guided to where you are required t",
   "url": "https://whatsupfortworth.com/event/puzzling-adventures-scavenger-hunt/2026-09-23/",
   "image": null
- },
- {
-  "name": "STEM Lab (18+)",
-  "category": "family",
-  "area": "Grapevine",
-  "city": "Grapevine",
-  "date": "2026-09-23",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "Mondays & Wednesdays 10 AM-1:00 PM (Adults, ages 18+) Join us at Grapevine Makerspace for our STEM Lab! During this session, you’ll have access to 3D printers, laser cutters, and other equipment. Our knowledgeable staff will be available to provide guidance, tips, and support as ",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17624",
-  "image": null,
-  "organizer": {
-   "name": "City of Grapevine",
-   "url": "https://grapevinetexas.gov/"
-  }
  },
  {
   "name": "STEVE HELMS | 4th Wednesday",
@@ -558,22 +378,6 @@
   "description": "Other event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A709fp",
   "image": "https://s1.ticketm.net/dam/a/8c2/6276284b-2bc8-4199-a6d6-87724e5548c2_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Storytime for Toddlers/Preschoolers",
-  "category": "family",
-  "area": "Grapevine",
-  "city": "Grapevine",
-  "date": "2026-09-23",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "Books, songs, parachutes and more! Toddlers/Preschoolers are welcome and no registrations is needed. (This is a Ticketed Program; please stop at the Children's Desk 15 minutes before the program to receive tickets. 1 per attendee.) September 23, 2026 10:30 AM - 11:00 AM Grapevine",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17704",
-  "image": null,
-  "organizer": {
-   "name": "City of Grapevine",
-   "url": "https://grapevinetexas.gov/"
-  }
  },
  {
   "name": "Tea Around Town® Dallas",
@@ -744,16 +548,16 @@
   "image": null
  },
  {
-  "name": "Alicia Villarreal - Bendita Locura Tour 2026",
+  "name": "Alicia Villarreal",
   "category": "music",
   "area": "The Pavilion at Toyota Music Factory, Irving",
   "city": "Irving",
   "date": "2026-09-24",
   "time": "8:00 PM",
   "cost": null,
-  "description": "Latin event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/alicia-villarreal-bendita-locura-tour-2026-irving-texas-09-24-2026/event/0C0064CBE2D4CEA9",
-  "image": "https://s1.ticketm.net/dam/a/4ca/5c9545d5-be9f-4824-869b-42bf3734f4ca_RETINA_PORTRAIT_16_9.jpg"
+  "description": "concert event via SeatGeek.",
+  "url": "https://seatgeek.com/alicia-villarreal-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-09-24-8-pm/concert/18312172",
+  "image": null
  },
  {
   "name": "Art is Life",
@@ -2132,6 +1936,18 @@
   }
  },
  {
+  "name": "Lewisville Western Days",
+  "category": "music",
+  "area": "Old Town Lewisville, Lewisville",
+  "city": "Lewisville",
+  "date": "2026-09-25",
+  "time": "12:00 PM–11:30 PM",
+  "cost": null,
+  "description": "Celebrate Lewisville's Western heritage at Western Days, a two-day festival featuring live music across six stages, the World Tamale Eating Championship, food trucks, and family-friendly Western-themed activities. With thousands of attendees each year, it's one of the city's bigg",
+  "url": "https://www.cityoflewisville.com/city-hall/city-departments/community-engagement/special-events-festivals/western-days-festival",
+  "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/638128488340700000_3504E2C1-94B3-0556-47D0C771176CAB54_353191ca-0a1a-6192-bc08cf831b9e0d0f.png"
+ },
+ {
   "name": "Little Shop of Horrors presented by Company of Rowlett Performers",
   "category": "arts",
   "area": "521 W State Street, Garland",
@@ -2949,6 +2765,22 @@
   "cost": null,
   "description": "",
   "url": "https://www.friscotexas.gov/Calendar.aspx?EID=7714",
+  "image": null,
+  "organizer": {
+   "name": "City of Frisco",
+   "url": "https://friscotexas.gov/"
+  }
+ },
+ {
+  "name": "Gallegos Park Re-Opening Celebration",
+  "category": "outdoors",
+  "area": "6698 Pecan Street, Frisco",
+  "city": "Frisco",
+  "date": "2026-09-26",
+  "time": "05:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.friscotexas.gov/Calendar.aspx?EID=7743",
   "image": null,
   "organizer": {
    "name": "City of Frisco",
@@ -3938,13 +3770,13 @@
  {
   "name": "Little Shop of Horrors presented by Company of Rowlett Performers",
   "category": "arts",
-  "area": "300 N Fifth Street, Garland",
+  "area": "521 W State Street, Garland",
   "city": "Garland",
   "date": "2026-09-27",
   "time": "02:00 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=12901",
+  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13359",
   "image": null,
   "organizer": {
    "name": "City of Garland",
@@ -6002,6 +5834,18 @@
   }
  },
  {
+  "name": "Legacy of the Longhorn",
+  "category": "festival",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-10-01",
+  "time": "12:30 PM",
+  "cost": null,
+  "description": "Live event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed8Z",
+  "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
   "name": "Little Explorers (3-5 Years)",
   "category": "family",
   "area": "6861 W Eldorado Parkway, McKinney",
@@ -6824,13 +6668,13 @@
  {
   "name": "Little Shop of Horrors presented by Company of Rowlett Performers",
   "category": "arts",
-  "area": "300 N Fifth Street, Garland",
+  "area": "521 W State Street, Garland",
   "city": "Garland",
   "date": "2026-10-02",
   "time": "07:30 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=12903",
+  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13361",
   "image": null,
   "organizer": {
    "name": "City of Garland",
@@ -8384,13 +8228,13 @@
  {
   "name": "Little Shop of Horrors presented by Company of Rowlett Performers",
   "category": "arts",
-  "area": "300 N Fifth Street, Garland",
+  "area": "521 W State Street, Garland",
   "city": "Garland",
   "date": "2026-10-04",
   "time": "02:00 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=12905",
+  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13363",
   "image": null,
   "organizer": {
    "name": "City of Garland",
@@ -8806,6 +8650,18 @@
   "image": "https://s1.ticketm.net/dam/a/546/083ba4c2-56ae-43be-9d71-7dd85c25c546_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "Legacy of the Longhorn",
+  "category": "festival",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-10-05",
+  "time": "12:30 PM",
+  "cost": null,
+  "description": "Live event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed8v",
+  "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
   "name": "McKinney Urban Transit District Board (MUTD)",
   "category": "family",
   "area": "401 E. Virginia St., McKinney",
@@ -8932,6 +8788,30 @@
   "description": "Hip-Hop/Rap event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/tlc-saltnpepa-with-en-vogue-its-irving-texas-10-05-2026/event/0C006471BED8978F",
   "image": "https://s1.ticketm.net/dam/a/b0b/5d495c78-fdc3-461e-b1f2-51333c23ab0b_RETINA_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "AT&T Stadium VIP Guided Tour",
+  "category": "sports",
+  "area": "AT&T Stadium, Arlington",
+  "city": "Arlington",
+  "date": "2026-10-06",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "stadium tours event via SeatGeek.",
+  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-06-10-am/18499873",
+  "image": null
+ },
+ {
+  "name": "AT&T Stadium VIP Guided Tour",
+  "category": "sports",
+  "area": "AT&T Stadium, Arlington",
+  "city": "Arlington",
+  "date": "2026-10-06",
+  "time": "12:00 PM",
+  "cost": null,
+  "description": "stadium tours event via SeatGeek.",
+  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-06-12-pm/18499870",
+  "image": null
  },
  {
   "name": "American Mahjong Hour (Adults)",
@@ -9582,6 +9462,18 @@
   }
  },
  {
+  "name": "Legacy of the Longhorn",
+  "category": "festival",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-10-07",
+  "time": "12:30 PM",
+  "cost": null,
+  "description": "Live event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed8e",
+  "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
   "name": "Lunch Circuit",
   "category": "family",
   "area": "310 E. Parkerville Road, Cedar Hill",
@@ -9888,6 +9780,18 @@
   "description": "Rock event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/kxt-presents-suki-waterhouse-the-loveland-dallas-texas-10-08-2026/event/0C0064E7D32D85CC",
   "image": "https://s1.ticketm.net/dam/a/91f/fc2ae2a1-cdce-480e-b7a8-3bcae38dd91f_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Legacy of the Longhorn",
+  "category": "festival",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-10-08",
+  "time": "12:30 PM",
+  "cost": null,
+  "description": "Live event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed8d",
+  "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
   "name": "Manuel Ángel Redondo (En Español)",
@@ -10432,7 +10336,7 @@
   "city": "Grapevine",
   "date": "2026-10-10",
   "time": "10:00 AM",
-  "cost": 26,
+  "cost": 0,
   "description": "Fairs & Festivals event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/day-out-with-thomas-tm-museum-of-the-american-railroad-tickets/14748893",
   "image": "https://s1.ticketm.net/dam/a/144/e3235c11-e05f-4254-8712-6d53ee093144_291971_TABLET_LANDSCAPE_16_9.jpg"
@@ -10644,6 +10548,18 @@
   "description": "Football event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P40V",
   "image": "https://s1.ticketm.net/dam/a/5b8/55f13ad1-5c22-46a9-867d-877fa288d5b8_RETINA_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "One Night in Memphis",
+  "category": "music",
+  "area": "Eisemann Center, Richardson",
+  "city": "Richardson",
+  "date": "2026-10-10",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Other event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A703j3",
+  "image": "https://s1.ticketm.net/dam/a/3f8/c3241b8a-defa-48b5-b141-72817fefe3f8_RETINA_PORTRAIT_16_9.jpg"
  },
  {
   "name": "Prospa - Ages 18+",
@@ -12500,7 +12416,7 @@
   "city": "Grapevine",
   "date": "2026-10-18",
   "time": "10:00 AM",
-  "cost": 26,
+  "cost": 0,
   "description": "Fairs & Festivals event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/day-out-with-thomas-tm-museum-of-the-american-railroad-tickets/14748863",
   "image": "https://s1.ticketm.net/dam/a/144/e3235c11-e05f-4254-8712-6d53ee093144_291971_TABLET_LANDSCAPE_16_9.jpg"
@@ -12654,6 +12570,18 @@
   "image": "https://s1.ticketm.net/dam/a/0b8/d1bc79bb-d6e6-4735-bc5c-190572eec0b8_RETINA_PORTRAIT_16_9.jpg"
  },
  {
+  "name": "Songwriter Sunday with Stefan Prigmore & Lauren O'Connor (Amplified Minds)",
+  "category": "music",
+  "area": "Poor David's Pub, Dallas",
+  "city": "Dallas",
+  "date": "2026-10-18",
+  "time": "Doors — see listing",
+  "cost": 0.0,
+  "description": "Live at Poor David's Pub.",
+  "url": "http://www.prekindle.com/event/37293-songwriter-sunday-with-stefan-prigmore-and-lauren-oconnor-amplified-minds-dallas",
+  "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949005739183"
+ },
+ {
   "name": "Stockyards Championship Rodeo",
   "category": "sports",
   "area": "Cowtown Coliseum, Fort Worth",
@@ -12716,6 +12644,18 @@
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvkA0",
   "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Legacy of the Longhorn",
+  "category": "festival",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-10-19",
+  "time": "12:30 PM",
+  "cost": null,
+  "description": "Live event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed87",
+  "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
   "name": "Peter Bjorn and John - Writer’s Block 20th anniversary tour (Support: Josh Rouse)",

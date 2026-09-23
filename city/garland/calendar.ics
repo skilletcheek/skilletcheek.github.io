@@ -9,70 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:baby-bounce-read-birth-18-months-|north-garland-library-garland|10-00-a
- m-2026-09-23@letsdoitdallas.com
-DTSTAMP:20260923T150000Z
-DTSTART:20260923T150000Z
-DTEND:20260923T180000Z
-SUMMARY:Baby Bounce & Read (Birth-18 Months)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=baby-bounce-read-birth-18
- -months-%7Cnorth-garland-library-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
-  will learn\, play\, and grow together in this lap-sit storytime that intr
- oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
- y literacy practices into their everyday lives. September 23\, 2026 10:00 
- AM - — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:family-read-play-ages-0-5-|west-garland-library-garland|10-30-am-2026-0
- 9-23@letsdoitdallas.com
-DTSTAMP:20260923T153000Z
-DTSTART:20260923T153000Z
-DTEND:20260923T183000Z
-SUMMARY:Family Read & Play (Ages 0-5)
-LOCATION:West Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=family-read-play-ages-0-5
- -%7Cwest-garland-library-garland%7C10-30-am
-DESCRIPTION:10:30 a.m.\; The whole family will learn\, play\, and grow duri
- ng this interactive storytime full of stories\, creative movement\, and so
- ngs that will strengthen listening\, language\, and early literacy skills.
-  This storytime is ideal for children from birth to 5 years old and their 
- ca — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:play-learn-0-5-years-|north-garland-library-garland|11-00-am-2026-09-23
- @letsdoitdallas.com
-DTSTAMP:20260923T160000Z
-DTSTART:20260923T160000Z
-DTEND:20260923T190000Z
-SUMMARY:Play & Learn (0-5 Years)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=play-learn-0-5-years-%7Cn
- orth-garland-library-garland%7C11-00-am
-DESCRIPTION:11:00 a.m.\; It’s playtime! Families can participate in Play 
- & Learn\, a weekly event where children ages 0-5 and their caregivers can 
- enjoy an assortment of toys\, games and activities that foster imagination
- \, creativity and problem-solving. September 23\, 2026 11:00 AM - 12:00 PM
-  3 — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:preschool-discovery-3-5-years-|south-garland-library-garland|11-00-am-2
- 026-09-23@letsdoitdallas.com
-DTSTAMP:20260923T160000Z
-DTSTART:20260923T160000Z
-DTEND:20260923T190000Z
-SUMMARY:Preschool Discovery (3-5 Years)
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=preschool-discovery-3-5-y
- ears-%7Csouth-garland-library-garland%7C11-00-am
-DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
- ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
- ters\, numbers\, and much more that will help develop your preschooler's e
- arly literacy skills. September 23\, 2026 11:00 AM - 12:00 PM 4845 Broadwa
- y — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:sewing-workshop-ages-13-|central-library-garland|12-00-pm-2026-09-23@le
  tsdoitdallas.com
 DTSTAMP:20260923T170000Z
@@ -518,15 +454,15 @@ URL:https://letsdoitdallas.com/?date=2026-09-26&e=little-shop-of-horrors-pr
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|300-n
- -fifth-street-garland|02-00-pm-2026-09-27@letsdoitdallas.com
+UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
+ -state-street-garland|02-00-pm-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260927T190000Z
 DTSTART:20260927T190000Z
 DTEND:20260927T220000Z
 SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
-LOCATION:300 N Fifth Street · Garland
+LOCATION:521 W State Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-09-27&e=little-shop-of-horrors-pr
- esented-by-company-of-rowlett-performers%7C300-n-fifth-street-garland%7C02
+ esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C02
  -00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
@@ -963,15 +899,15 @@ DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
   A — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|300-n
- -fifth-street-garland|07-30-pm-2026-10-02@letsdoitdallas.com
+UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
+ -state-street-garland|07-30-pm-2026-10-02@letsdoitdallas.com
 DTSTAMP:20261003T003000Z
 DTSTART:20261003T003000Z
 DTEND:20261003T033000Z
 SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
-LOCATION:300 N Fifth Street · Garland
+LOCATION:521 W State Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-10-02&e=little-shop-of-horrors-pr
- esented-by-company-of-rowlett-performers%7C300-n-fifth-street-garland%7C07
+ esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C07
  -30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
@@ -1104,15 +1040,15 @@ URL:https://letsdoitdallas.com/?date=2026-10-03&e=little-shop-of-horrors-pr
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|300-n
- -fifth-street-garland|02-00-pm-2026-10-04@letsdoitdallas.com
+UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
+ -state-street-garland|02-00-pm-2026-10-04@letsdoitdallas.com
 DTSTAMP:20261004T190000Z
 DTSTART:20261004T190000Z
 DTEND:20261004T220000Z
 SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
-LOCATION:300 N Fifth Street · Garland
+LOCATION:521 W State Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-10-04&e=little-shop-of-horrors-pr
- esented-by-company-of-rowlett-performers%7C300-n-fifth-street-garland%7C02
+ esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C02
  -00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
