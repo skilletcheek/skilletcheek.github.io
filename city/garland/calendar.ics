@@ -9,21 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sewing-workshop-ages-13-|central-library-garland|12-00-pm-2026-09-23@le
- tsdoitdallas.com
-DTSTAMP:20260923T170000Z
-DTSTART:20260923T170000Z
-DTEND:20260923T200000Z
-SUMMARY:Sewing Workshop (Ages 13+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=sewing-workshop-ages-13-%
- 7Ccentral-library-garland%7C12-00-pm
-DESCRIPTION:12:00 p.m.\; Learn new sewing techniques. September 23\, 2026 1
- 2:00 PM - 02:30 PM 625 Austin St.Garland\, TX 75040 https://www.garlandtx.
- gov/Calendar.aspx?EID=12996/639239507460000000 — More: https://letsdoitd
- allas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:how-to-use-libby-ages-18-|central-library-garland|02-00-pm-2026-09-23@l
  etsdoitdallas.com
 DTSTAMP:20260923T190000Z
@@ -338,18 +323,6 @@ DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
  ters\, numbers\, and much more that will help develop your preschooler's e
  arly literacy skills. September 25\, 2026 11:00 AM - 12:00 PM 3845 N. Garl
  an — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:what-she-s-having-presented-by-tasha-studios|300-n-fifth-street-garland
- |07-00-pm-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART:20260926T000000Z
-DTEND:20260926T030000Z
-SUMMARY:What She's Having presented by Tasha Studios
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=what-she-s-having-present
- ed-by-tasha-studios%7C300-n-fifth-street-garland%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
