@@ -1312,7 +1312,7 @@ def fetch_dallasites101(start, end):
         return []
 
     urls = sorted({_strip_cdata(m) for m in re.findall(r"<link>(.*?)</link>", feed, re.S)
-                   if "/event/" in m})
+                   if "/event/" in m and "/event/rss" not in m})   # channel self-link
 
     # Split FAULTS (this page did not parse -- the template moved) from the
     # ordinary filters below them (`past`, `off_area` -- the page parsed fine
@@ -1342,7 +1342,14 @@ def fetch_dallasites101(start, end):
         except (ValueError, TypeError):
             skipped["bad_json"] += 1
             continue
-        if ev.get("@type") != "Event" or not ev.get("name"):
+        # Since ~2026-09-20 the site ships one `@graph` (Organization, WebSite,
+        # WebPage, Event) instead of a bare Event, which read as 30/30
+        # not_event. Accept either shape.
+        if isinstance(ev, dict) and isinstance(ev.get("@graph"), list):
+            ev = ev["@graph"]
+        if isinstance(ev, list):
+            ev = next((n for n in ev if isinstance(n, dict) and n.get("@type") == "Event"), {})
+        if not isinstance(ev, dict) or ev.get("@type") != "Event" or not ev.get("name"):
             skipped["not_event"] += 1
             continue
 
@@ -1364,8 +1371,17 @@ def fetch_dallasites101(start, end):
         # timeRange() parser (js/app.js) splits on an en/em dash, not "to"
         time_str = tm.group(1).replace(" to ", "–") if tm else "See details"
 
-        ticket_m = re.search(r'"name":"Tickets URL","value":"([^"]*)"', html)
+        # prefer the ticket link, then the host's own site, then the listing
+        ticket_m = (re.search(r'"name":"Tickets URL","value":"([^"]*)"', html)
+                    or re.search(r'"name":"Website URL","value":"([^"]*)"', html))
         ticket_url = ticket_m.group(1) if ticket_m else (ev.get("url") or url)
+
+        # the @graph rewrite also turned `image` into an ImageObject
+        image = ev.get("image")
+        if isinstance(image, list):
+            image = image[0] if image else None
+        if isinstance(image, dict):
+            image = image.get("url")
 
         cost = None
         adm_m = re.search(r'"admission":"([^"]*)"', html)
@@ -1380,7 +1396,7 @@ def fetch_dallasites101(start, end):
         # involved when `tags` is None) rather than duplicating EB_KEYWORDS
         out.append(row(
             ev["name"], eb_category(None, ev["name"] + " " + (ev.get("description") or "")),
-            area, date, time_str, cost, ev.get("description"), ticket_url, ev.get("image"),
+            area, date, time_str, cost, ev.get("description"), ticket_url, image,
         ))
     unparsed = sum(skipped[k] for k in FAULTS)
     detail = ", ".join(f"{v} {k}" for k, v in skipped.items() if v)

@@ -240,7 +240,10 @@ rejected** so they don't get re-probed.
   recovered from a `var time = "..."` string and an embedded `"Tickets
   URL"`/`"admission"` blob in the page source. The RSS feed has no category
   or pagination query params — `?category=`, `?page=` are silently ignored —
-  it's a fixed ~30-item rolling window, not a filterable query. CultureMap
+  it's a fixed ~30-item rolling window, not a filterable query. Around
+  2026-09-20 its JSON-LD became one `@graph` (Organization/WebSite/WebPage/
+  Event) with `image` as an `ImageObject` — `report_parse_health()` caught it
+  as 30/30 `not_event`; the parser now accepts both shapes. CultureMap
   Fort Worth was evaluated the same day (2026-07-21) and rejected
   (client-rendered shell, no feed) — see the module docstring before
   re-probing either.
