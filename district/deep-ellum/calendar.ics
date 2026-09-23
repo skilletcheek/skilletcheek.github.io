@@ -10,57 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:156-silence|puzzles-deep-ellum-dallas|6-00-pm-2026-09-22@letsdoitdallas
- .com
-DTSTAMP:20260922T230000Z
-DTSTART:20260922T230000Z
-DTEND:20260923T020000Z
-SUMMARY:156/Silence
-LOCATION:Puzzles Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=156-silence%7Cpuzzles-dee
- p-ellum-dallas%7C6-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:artemas|the-bomb-factory-dallas|8-00-pm-2026-09-22@letsdoitdallas.com
-DTSTAMP:20260923T010000Z
-DTSTART:20260923T010000Z
-DTEND:20260923T040000Z
-SUMMARY:Artemas
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=artemas%7Cthe-bomb-factor
- y-dallas%7C8-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:nate-sib|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-09-22@letsd
- oitdallas.com
-DTSTAMP:20260923T010000Z
-DTSTART:20260923T010000Z
-DTEND:20260923T040000Z
-SUMMARY:Nate Sib
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=nate-sib%7Cthe-studio-at-
- the-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-09
- -22@letsdoitdallas.com
-DTSTAMP:20260923T030000Z
-DTSTART:20260923T030000Z
-DTEND:20260923T060000Z
-SUMMARY:The Ox and The Waymakers
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:soulfly|trees-dallas-dallas|7-00-pm-2026-09-23@letsdoitdallas.com
 DTSTAMP:20260924T000000Z
 DTSTART:20260924T000000Z
@@ -479,6 +428,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-04&e=dj-sneak305%7Cthree-links
  -deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:gavin-adcock|the-studio-at-the-bomb-factory-dallas|7-00-pm-2026-10-05@l
+ etsdoitdallas.com
+DTSTAMP:20261006T000000Z
+DTSTART:20261006T000000Z
+DTEND:20261006T030000Z
+SUMMARY:Gavin Adcock
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=gavin-adcock%7Cthe-studio
+ -at-the-bomb-factory-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
@@ -933,5 +895,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-21&e=sludge-mother%7Cclub-dada
  -dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-wldlfe|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-10-21@let
+ sdoitdallas.com
+DTSTAMP:20261022T010000Z
+DTSTART:20261022T010000Z
+DTEND:20261022T040000Z
+SUMMARY:The WLDLFE
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=the-wldlfe%7Cthe-studio-a
+ t-the-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

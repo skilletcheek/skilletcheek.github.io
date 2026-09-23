@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:parks-for-pollinators-what-remains|frisco|07-30-am-2026-09-23@letsdoitd
- allas.com
-DTSTAMP:20260923T123000Z
-DTSTART:20260923T123000Z
-DTEND:20260923T153000Z
-SUMMARY:Parks For Pollinators: What Remains
-LOCATION:Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=parks-for-pollinators-wha
- t-remains%7Cfrisco%7C07-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:slow-down-september-sunrise-yoga|8800-8840-4th-st-frisco|07-30-am-2026-
  09-26@letsdoitdallas.com
 DTSTAMP:20260926T123000Z
@@ -119,6 +107,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-01&e=the-star-guided-tour%7Cth
  e-star-frisco%7C10-00-am
 DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
  las.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:plaza-live-|8800-8840-4th-st-frisco|05-00-pm-2026-10-07@letsdoitdallas.
+ com
+DTSTAMP:20261007T220000Z
+DTSTART:20261007T220000Z
+DTEND:20261008T010000Z
+SUMMARY:Plaza Live!
+LOCATION:8800-8840 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=plaza-live-%7C8800-8840-4
+ th-st-frisco%7C05-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:fc-dallas-vs-seattle-sounders-fc|toyota-stadium-frisco|7-30-pm-2026-10-

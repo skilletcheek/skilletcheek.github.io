@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:financial-education-with-navy-federal-ages-18-|central-library-garland|
- 06-00-pm-2026-09-22@letsdoitdallas.com
-DTSTAMP:20260922T230000Z
-DTSTART:20260922T230000Z
-DTEND:20260923T020000Z
-SUMMARY:Financial Education with Navy Federal (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=financial-education-with-
- navy-federal-ages-18-%7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Free financial education presentations from Navy Fe
- deral Credit Union. Learn about a variety of topics to enhance your financ
- ial awareness. September 22\, 2026 06:00 PM - 07:00 PM 625 Austin St.Garla
- nd\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13032/63922834 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:sewing-workshop-ages-13-|central-library-garland|12-00-pm-2026-09-23@le
  tsdoitdallas.com
 DTSTAMP:20260923T170000Z
@@ -472,5 +456,19 @@ DESCRIPTION:6:00 p.m.\; Are you a freelancer or business owner interested i
   and Trademark Office. Learn the difference between patents\, trademarks\,
   copyrights and trade secrets. October 6\, 2026 06:00 PM - 07:30 PM 625 A 
  — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:medicaid-and-chip-application-renewal-assistance-with-parkland-hospital
+ |central-library-garland|10-00-am-2026-10-07@letsdoitdallas.com
+DTSTAMP:20261007T150000Z
+DTSTART:20261007T150000Z
+DTEND:20261007T180000Z
+SUMMARY:Medicaid and CHIP Application & Renewal Assistance with Parkland Ho
+ spital
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=medicaid-and-chip-applica
+ tion-renewal-assistance-with-parkland-hospital%7Ccentral-library-garland%7
+ C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

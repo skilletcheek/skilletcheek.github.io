@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:yg-the-gentlemen-s-club-tour|the-echo-lounge-music-hall-dallas|7-00-pm-
- 2026-09-22@letsdoitdallas.com
-DTSTAMP:20260923T000000Z
-DTSTART:20260923T000000Z
-DTEND:20260923T030000Z
-SUMMARY:YG: THE GENTLEMEN'S CLUB TOUR
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=yg-the-gentlemen-s-club-t
- our%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:built-to-spill|the-echo-lounge-music-hall-dallas|7-00-pm-2026-09-23@let
  sdoitdallas.com
 DTSTAMP:20260924T000000Z
@@ -242,6 +229,19 @@ LOCATION:The Echo Lounge & Music Hall · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-21&e=t-3-the-fifth-season-tour
  %7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:mico-running-from-a-feeling-tour|the-echo-lounge-music-hall-dallas|7-00
+ -pm-2026-10-22@letsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART:20261023T000000Z
+DTEND:20261023T030000Z
+SUMMARY:MICO - Running From A Feeling Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=mico-running-from-a-feeli
+ ng-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-echo-lounge-music-hall/
 END:VEVENT
 END:VCALENDAR

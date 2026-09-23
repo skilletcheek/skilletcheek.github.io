@@ -10,54 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mad-science-k-5th-grade-|6861-w-eldorado-pkwy-mckinney|04-30-pm-2026-09
- -22@letsdoitdallas.com
-DTSTAMP:20260922T213000Z
-DTSTART:20260922T213000Z
-DTEND:20260923T003000Z
-SUMMARY:Mad Science (K-5th Grade)
-LOCATION:6861 W. Eldorado Pkwy. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=mad-science-k-5th-grade-%
- 7C6861-w-eldorado-pkwy-mckinney%7C04-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:how-texas-hoas-can-save-money-by-saving-water|401-e-virginia-st-mckinne
- y|06-00-pm-2026-09-22@letsdoitdallas.com
-DTSTAMP:20260922T230000Z
-DTSTART:20260922T230000Z
-DTEND:20260923T020000Z
-SUMMARY:How Texas HOAs Can Save Money by Saving Water
-LOCATION:401 E. Virginia St. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=how-texas-hoas-can-save-m
- oney-by-saving-water%7C401-e-virginia-st-mckinney%7C06-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:planning-zoning-commission-p-z-|401-e-virginia-st-mckinney|06-00-pm-202
- 6-09-22@letsdoitdallas.com
-DTSTAMP:20260922T230000Z
-DTSTART:20260922T230000Z
-DTEND:20260923T020000Z
-SUMMARY:Planning & Zoning Commission (P&Z)
-LOCATION:401 E. Virginia St. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=planning-zoning-commissio
- n-p-z-%7C401-e-virginia-st-mckinney%7C06-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:american-mahjong-hour-adults-|6861-w-eldorado-parkway-mckinney|06-30-pm
- -2026-09-22@letsdoitdallas.com
-DTSTAMP:20260922T233000Z
-DTSTART:20260922T233000Z
-DTEND:20260923T023000Z
-SUMMARY:American Mahjong Hour (Adults)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=american-mahjong-hour-adu
- lts-%7C6861-w-eldorado-parkway-mckinney%7C06-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-09-23@
  letsdoitdallas.com
 DTSTAMP:20260923T153000Z
@@ -523,6 +475,54 @@ SUMMARY:Small Business Masterclass (Adults)
 LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-10-06&e=small-business-masterclas
  s-adults-%7C6861-w-eldorado-parkway-mckinney%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-10-07@
+ letsdoitdallas.com
+DTSTAMP:20261007T153000Z
+DTSTART:20261007T153000Z
+DTEND:20261007T183000Z
+SUMMARY:Baby & Me (0-10 Months)
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=baby-me-0-10-months-%7C68
+ 61-w-eldorado-pkwy-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:bilingual-storytime-3-5-years-|6861-w-eldorado-parkway-mckinney|11-30-a
+ m-2026-10-07@letsdoitdallas.com
+DTSTAMP:20261007T163000Z
+DTSTART:20261007T163000Z
+DTEND:20261007T193000Z
+SUMMARY:Bilingual Storytime (3-5 Years)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=bilingual-storytime-3-5-y
+ ears-%7C6861-w-eldorado-parkway-mckinney%7C11-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:adult-book-club-adults-|6861-w-eldorado-pkwy-mckinney|12-00-pm-2026-10-
+ 07@letsdoitdallas.com
+DTSTAMP:20261007T170000Z
+DTSTART:20261007T170000Z
+DTEND:20261007T200000Z
+SUMMARY:Adult Book Club (Adults)
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=adult-book-club-adults-%7
+ C6861-w-eldorado-pkwy-mckinney%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:kids-art-studio-k-5th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-
+ 2026-10-07@letsdoitdallas.com
+DTSTAMP:20261007T213000Z
+DTSTART:20261007T213000Z
+DTEND:20261008T003000Z
+SUMMARY:Kids Art Studio (K-5th Grade)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=kids-art-studio-k-5th-gra
+ de-%7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT

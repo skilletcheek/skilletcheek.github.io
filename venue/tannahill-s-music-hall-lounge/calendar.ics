@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:built-to-spill|tannahill-s-music-hall-lounge-fort-worth|8-00-pm-2026-09
- -22@letsdoitdallas.com
-DTSTAMP:20260923T010000Z
-DTSTART:20260923T010000Z
-DTEND:20260923T040000Z
-SUMMARY:Built To Spill
-LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=built-to-spill%7Ctannahil
- l-s-music-hall-lounge-fort-worth%7C8-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/tannahill-s-music-hall-lounge/
-END:VEVENT
-BEGIN:VEVENT
 UID:bop-to-the-top-ages-18-up|tannahill-s-music-hall-lounge-fort-worth|9-00
  -pm-2026-09-25@letsdoitdallas.com
 DTSTAMP:20260926T020000Z

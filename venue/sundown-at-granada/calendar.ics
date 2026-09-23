@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:free-tuesday-rooftop-movie-bridesmaids|sundown-at-granada-lower-greenvi
- lle-dallas|doors-see-listing-2026-09-22@letsdoitdallas.com
-DTSTAMP:20260922T000000Z
-DTSTART;VALUE=DATE:20260922
-DTEND;VALUE=DATE:20260923
-SUMMARY:FREE Tuesday Rooftop Movie: BRIDESMAIDS
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=free-tuesday-rooftop-movi
- e-bridesmaids%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-lis
- ting
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/venue/sundown-at-granada/
-END:VEVENT
-BEGIN:VEVENT
 UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
  doors-see-listing-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260927T000000Z

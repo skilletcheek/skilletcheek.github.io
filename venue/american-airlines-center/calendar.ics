@@ -229,4 +229,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-20&e=dallas-stars-vs-boston-br
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/american-airlines-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:dallas-stars-vs-winnipeg-jets|american-airlines-center-dallas|7-00-pm-2
+ 026-10-22@letsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART:20261023T000000Z
+DTEND:20261023T030000Z
+SUMMARY:Dallas Stars vs. Winnipeg Jets
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=dallas-stars-vs-winnipeg-
+ jets%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/american-airlines-center/
+END:VEVENT
 END:VCALENDAR

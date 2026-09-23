@@ -147,20 +147,6 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:find-out-media-the-f-ck-around-and-find-out-tour|granada-theater-lower-
- greenville-dallas|doors-see-listing-2026-10-14@letsdoitdallas.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-SUMMARY:Find out Media: The F*ck Around and Find Out Tour
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=find-out-media-the-f-ck-a
- round-and-find-out-tour%7Cgranada-theater-lower-greenville-dallas%7Cdoors-
- see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:kishi-bashi-sonderlust-10th-anniversary-tour|granada-theater-lower-gree
  nville-dallas|doors-see-listing-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261016T000000Z
@@ -228,5 +214,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-20&e=ax-and-the-hatchetmen%7Cg
  ranada-theater-tx-dallas%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/granada-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:book-of-love-with-special-guest-lord-byron|granada-theater-lower-greenv
+ ille-dallas|doors-see-listing-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Book of Love with special guest Lord Byron
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=book-of-love-with-special
+ -guest-lord-byron%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-li
+ sting
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
+ enue/granada-theater/
 END:VEVENT
 END:VCALENDAR

@@ -11,48 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-09-22@letsdoitdallas.com
-DTSTAMP:20260922T130000Z
-DTSTART:20260922T130000Z
-DTEND:20260922T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:alt-103-7-presents-rise-against-ricochet-2026|south-side-ballroom-dalla
- s|7-00-pm-2026-09-22@letsdoitdallas.com
-DTSTAMP:20260923T000000Z
-DTSTART:20260923T000000Z
-DTEND:20260923T030000Z
-SUMMARY:ALT 103.7 Presents Rise Against - Ricochet 2026
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=alt-103-7-presents-rise-a
- gainst-ricochet-2026%7Csouth-side-ballroom-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:greek-live-tour|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-202
- 6-09-22@letsdoitdallas.com
-DTSTAMP:20260923T000000Z
-DTSTART:20260923T000000Z
-DTEND:20260923T030000Z
-SUMMARY:greek! live tour
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=greek-live-tour%7Cthe-cam
- bridge-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-09-23@letsdoitdallas.com
 DTSTAMP:20260923T130000Z
 DTSTART:20260923T130000Z
@@ -1229,5 +1187,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-21&e=foos-gone-wild-the-foos-g
  one-wild-tour-2026%7Chouse-of-blues-dallas-dallas%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-stars-vs-winnipeg-jets|american-airlines-center-dallas|7-00-pm-2
+ 026-10-22@letsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART:20261023T000000Z
+DTEND:20261023T030000Z
+SUMMARY:Dallas Stars vs. Winnipeg Jets
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=dallas-stars-vs-winnipeg-
+ jets%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dan-shay-the-young-tour|dos-equis-pavilion-dallas|7-00-pm-2026-10-22@le
+ tsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART:20261023T000000Z
+DTEND:20261023T030000Z
+SUMMARY:Dan + Shay: The Young Tour
+LOCATION:Dos Equis Pavilion · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=dan-shay-the-young-tour%7
+ Cdos-equis-pavilion-dallas%7C7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

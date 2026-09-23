@@ -10,20 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:free-tuesday-rooftop-movie-bridesmaids|sundown-at-granada-lower-greenvi
- lle-dallas|doors-see-listing-2026-09-22@letsdoitdallas.com
-DTSTAMP:20260922T000000Z
-DTSTART;VALUE=DATE:20260922
-DTEND;VALUE=DATE:20260923
-SUMMARY:FREE Tuesday Rooftop Movie: BRIDESMAIDS
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-22&e=free-tuesday-rooftop-movi
- e-bridesmaids%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-lis
- ting
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:geordie-greep|granada-theater-tx-dallas|8-00-pm-2026-09-24@letsdoitdall
  as.com
 DTSTAMP:20260925T010000Z
@@ -216,20 +202,6 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
-UID:find-out-media-the-f-ck-around-and-find-out-tour|granada-theater-lower-
- greenville-dallas|doors-see-listing-2026-10-14@letsdoitdallas.com
-DTSTAMP:20261014T000000Z
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-SUMMARY:Find out Media: The F*ck Around and Find Out Tour
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=find-out-media-the-f-ck-a
- round-and-find-out-tour%7Cgranada-theater-lower-greenville-dallas%7Cdoors-
- see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
- istrict/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:kishi-bashi-sonderlust-10th-anniversary-tour|granada-theater-lower-gree
  nville-dallas|doors-see-listing-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261016T000000Z
@@ -323,5 +295,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-22&e=will-dempsey-carry-the-we
  ight-tour%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:book-of-love-with-special-guest-lord-byron|granada-theater-lower-greenv
+ ille-dallas|doors-see-listing-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Book of Love with special guest Lord Byron
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=book-of-love-with-special
+ -guest-lord-byron%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-li
+ sting
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
 END:VEVENT
 END:VCALENDAR
