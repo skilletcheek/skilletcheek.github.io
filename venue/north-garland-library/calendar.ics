@@ -10,22 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
- |04-00-pm-2026-09-23@letsdoitdallas.com
-DTSTAMP:20260923T210000Z
-DTSTART:20260923T210000Z
-DTEND:20260924T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=teenz-place-after-school-
- hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
-DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
- eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
-  snacks while supplies last. Bring your friends! September 23\, 2026 04:00
-  PM - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garland 
- — More: https://letsdoitdallas.com/venue/north-garland-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
  |04-00-pm-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260924T210000Z
 DTSTART:20260924T210000Z
@@ -263,5 +247,37 @@ DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
   snacks while supplies last. Bring your friends! October 7\, 2026 04:00 PM
   - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx. 
  — More: https://letsdoitdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261008T210000Z
+DTSTART:20261008T210000Z
+DTEND:20261009T000000Z
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=teenz-place-after-school-
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
+DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
+ eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
+  snacks while supplies last. Bring your friends! October 8\, 2026 04:00 PM
+  - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx. 
+ — More: https://letsdoitdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-medicare-education-class-ages-18-|north-garland-library-garland|06
+ -00-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261008T230000Z
+DTSTART:20261008T230000Z
+DTEND:20261009T020000Z
+SUMMARY:Free Medicare Education Class (Ages 18+)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=free-medicare-education-c
+ lass-ages-18-%7Cnorth-garland-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Get clear\, reliable guidance on Medicare in this i
+ nformative one-hour session led by Benefit Advisor Anishalin Helms. Learn 
+ the essentials — from understanding Medicare and its parts to knowing wh
+ en and how to enroll. The class also covers plan options\, prescription dr
+  — More: https://letsdoitdallas.com/venue/north-garland-library/
 END:VEVENT
 END:VCALENDAR

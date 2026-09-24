@@ -230,4 +230,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-21&e=foos-gone-wild-the-foos-g
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/house-of-blues-dallas/
 END:VEVENT
+BEGIN:VEVENT
+UID:jon-b-|house-of-blues-dallas-dallas|7-00-pm-2026-10-23@letsdoitdallas.c
+ om
+DTSTAMP:20261024T000000Z
+DTSTART:20261024T000000Z
+DTEND:20261024T030000Z
+SUMMARY:Jon B.
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=jon-b-%7Chouse-of-blues-d
+ allas-dallas%7C7-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/house-of-blues-dallas/
+END:VEVENT
 END:VCALENDAR

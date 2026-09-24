@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:built-to-spill|the-echo-lounge-music-hall-dallas|7-00-pm-2026-09-23@let
- sdoitdallas.com
-DTSTAMP:20260924T000000Z
-DTSTART:20260924T000000Z
-DTEND:20260924T030000Z
-SUMMARY:Built To Spill
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=built-to-spill%7Cthe-echo
- -lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-expendables|am-fm-dallas-dallas|6-30-pm-2026-09-24@letsdoitdallas.c
  om
 DTSTAMP:20260924T233000Z
@@ -595,5 +582,30 @@ URL:https://letsdoitdallas.com/?date=2026-10-22&e=mico-running-from-a-feeli
  ng-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:gorillat-ages-18-|silo-dallas|9-00-pm-2026-10-22@letsdoitdallas.com
+DTSTAMP:20261023T020000Z
+DTSTART:20261023T020000Z
+DTEND:20261023T050000Z
+SUMMARY:GorillaT - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=gorillat-ages-18-%7Csilo-
+ dallas%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:dax-the-anger-management-tour|the-echo-lounge-music-hall-dallas|7-00-pm
+ -2026-10-23@letsdoitdallas.com
+DTSTAMP:20261024T000000Z
+DTSTART:20261024T000000Z
+DTEND:20261024T030000Z
+SUMMARY:Dax - The Anger Management Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=dax-the-anger-management-
+ tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/design-district/
 END:VEVENT
 END:VCALENDAR

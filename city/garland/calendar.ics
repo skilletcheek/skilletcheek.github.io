@@ -9,85 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:how-to-use-libby-ages-18-|central-library-garland|02-00-pm-2026-09-23@l
- etsdoitdallas.com
-DTSTAMP:20260923T190000Z
-DTSTART:20260923T190000Z
-DTEND:20260923T220000Z
-SUMMARY:How to Use Libby (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=how-to-use-libby-ages-18-
- %7Ccentral-library-garland%7C02-00-pm
-DESCRIPTION:2:00 p.m.\; Did you know your library card gives you access to 
- thousands of eBooks\, eAudiobooks and eMagazines? This technology class fo
- cuses on the library app Libby. Bring your Garland Library card and your p
- ersonal device to set up your account and follow along. September 23\, 2 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:teen-craft-corner-ages-13-17-|central-library-garland|03-00-pm-2026-09-
- 23@letsdoitdallas.com
-DTSTAMP:20260923T200000Z
-DTSTART:20260923T200000Z
-DTEND:20260923T230000Z
-SUMMARY:Teen Craft Corner (Ages 13-17)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=teen-craft-corner-ages-13
- -17-%7Ccentral-library-garland%7C03-00-pm
-DESCRIPTION:3:00 p.m.\; Join us at the Teen Craft Corner for some relaxing 
- creativity and fun! September 23\, 2026 03:00 PM - 04:00 PM 625 Austin St.
- Garland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12977/63922
- 7535210000000 — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
- |04-00-pm-2026-09-23@letsdoitdallas.com
-DTSTAMP:20260923T210000Z
-DTSTART:20260923T210000Z
-DTEND:20260924T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=teenz-place-after-school-
- hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
-DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
- eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
-  snacks while supplies last. Bring your friends! September 23\, 2026 04:00
-  PM - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garland 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:texas-true-crime-the-cop-and-the-outlaw-ages-18-|central-library-garlan
- d|06-00-pm-2026-09-23@letsdoitdallas.com
-DTSTAMP:20260923T230000Z
-DTSTART:20260923T230000Z
-DTEND:20260924T020000Z
-SUMMARY:Texas True Crime: the Cop and the Outlaw (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=texas-true-crime-the-cop-
- and-the-outlaw-ages-18-%7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; This session features author and retired Garland Po
- lice Detective Gary Sweet. Detective Sweet will discuss a real case from G
- arland in 1992 that he solved fifteen years after the fact. Sweet wrote of
-  the case in The Cop and the Outlaw\, which details not only the crime\, 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:bridging-the-gap-renters-ages-18-|south-garland-library-garland|06-30-p
- m-2026-09-23@letsdoitdallas.com
-DTSTAMP:20260923T233000Z
-DTSTART:20260923T233000Z
-DTEND:20260924T023000Z
-SUMMARY:Bridging the Gap: Renters (Ages 18+)
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=bridging-the-gap-renters-
- ages-18-%7Csouth-garland-library-garland%7C06-30-pm
-DESCRIPTION:6:30 p.m.\; Are you a renter in Garland? Learn basic preventati
- ve maintenance such as how to shut off your water and what you should and 
- should not do in your breaker box. Learn about trash\, recycling\, parking
-  and basic renter’s rights. Learn what is a violation and when you shoul
-  — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-09
  -24@letsdoitdallas.com
 DTSTAMP:20260924T150000Z
@@ -1000,6 +921,18 @@ DESCRIPTION:2:30 p.m.\; Celebrate with us by learning about contemporary ar
   — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
+UID:les-mis-rables-by-the-covenant-school|300-n-fifth-street-garland|07-30-
+ pm-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261004T003000Z
+DTSTART:20261004T003000Z
+DTEND:20261004T033000Z
+SUMMARY:Les Misérables by The Covenant School
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=les-mis-rables-by-the-cov
+ enant-school%7C300-n-fifth-street-garland%7C07-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
 UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
  -state-street-garland|07-30-pm-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261004T003000Z
@@ -1128,6 +1061,68 @@ DTEND:20261008T030000Z
 SUMMARY:Beetlejuice Jr. presented by Breitling Performing Arts
 LOCATION:521 W State Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-10-07&e=beetlejuice-jr-presented-
+ by-breitling-performing-arts%7C521-w-state-street-garland%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261008T210000Z
+DTSTART:20261008T210000Z
+DTEND:20261009T000000Z
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=teenz-place-after-school-
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
+DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
+ eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
+  snacks while supplies last. Bring your friends! October 8\, 2026 04:00 PM
+  - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx. 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-medicare-education-class-ages-18-|north-garland-library-garland|06
+ -00-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261008T230000Z
+DTSTART:20261008T230000Z
+DTEND:20261009T020000Z
+SUMMARY:Free Medicare Education Class (Ages 18+)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=free-medicare-education-c
+ lass-ages-18-%7Cnorth-garland-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Get clear\, reliable guidance on Medicare in this i
+ nformative one-hour session led by Benefit Advisor Anishalin Helms. Learn 
+ the essentials — from understanding Medicare and its parts to knowing wh
+ en and how to enroll. The class also covers plan options\, prescription dr
+  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:celebrities-about-town-a-memoir-book-club-ages-18-at-lakewood-brewing-c
+ ompany|2302-executive-drive-garland|06-30-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261008T233000Z
+DTSTART:20261008T233000Z
+DTEND:20261009T023000Z
+SUMMARY:Celebrities About Town: A Memoir Book Club (Ages 18+) at Lakewood B
+ rewing Company
+LOCATION:2302 Executive Drive · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=celebrities-about-town-a-
+ memoir-book-club-ages-18-at-lakewood-brewing-company%7C2302-executive-driv
+ e-garland%7C06-30-pm
+DESCRIPTION:6:30 p.m.\; Step into the shoes of your favorite celebs and mee
+ t other readers as we spotlight a new memoir each month. Whether we’re d
+ elving into the lives of musicians\, actors\, athletes or royalty ― it
+ ’s sure to be a fun and star-powered conversation! Food and drinks (both
+  alcoh — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:beetlejuice-jr-presented-by-breitling-performing-arts|521-w-state-stree
+ t-garland|07-00-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261009T000000Z
+DTSTART:20261009T000000Z
+DTEND:20261009T030000Z
+SUMMARY:Beetlejuice Jr. presented by Breitling Performing Arts
+LOCATION:521 W State Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=beetlejuice-jr-presented-
  by-breitling-performing-arts%7C521-w-state-street-garland%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT

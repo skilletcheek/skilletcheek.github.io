@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:squeeze|texas-trust-cu-theatre-grand-prairie|7-00-pm-2026-09-23@letsdoi
- tdallas.com
-DTSTAMP:20260924T000000Z
-DTSTART:20260924T000000Z
-DTEND:20260924T030000Z
-SUMMARY:Squeeze
-LOCATION:Texas Trust CU Theatre · Grand Prairie
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=squeeze%7Ctexas-trust-cu-
- theatre-grand-prairie%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/texas-trust-cu-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:grand-funk-railroad-w-the-marshall-tucker-band|texas-trust-cu-theatre-g
  rand-prairie|7-00-pm-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260925T000000Z

@@ -10,42 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kids-art-studio-k-5th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-
- 2026-09-23@letsdoitdallas.com
-DTSTAMP:20260923T213000Z
-DTSTART:20260923T213000Z
-DTEND:20260924T003000Z
-SUMMARY:Kids Art Studio (K-5th Grade)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=kids-art-studio-k-5th-gra
- de-%7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:unidos|1201-e-louisiana-st-mckinney|06-00-pm-2026-09-23@letsdoitdallas.
- com
-DTSTAMP:20260923T230000Z
-DTSTART:20260923T230000Z
-DTEND:20260924T020000Z
-SUMMARY:UNIDOS
-LOCATION:1201 E. Louisiana St. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=unidos%7C1201-e-louisiana
- -st-mckinney%7C06-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:exploring-texas-prairies-adults-|6861-w-eldorado-parkway-mckinney|07-00
- -pm-2026-09-23@letsdoitdallas.com
-DTSTAMP:20260924T000000Z
-DTSTART:20260924T000000Z
-DTEND:20260924T030000Z
-SUMMARY:Exploring Texas Prairies (Adults)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=exploring-texas-prairies-
- adults-%7C6861-w-eldorado-parkway-mckinney%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:mckinney-community-development-corporation-mcdc-|401-e-virginia-st-mcki
  nney|08-00-am-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260924T130000Z
@@ -514,6 +478,54 @@ URL:https://letsdoitdallas.com/?date=2026-10-07&e=kids-art-studio-k-5th-gra
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:coffee-with-cops|1501-s-central-expy-mckinney|09-00-am-2026-10-08@letsd
+ oitdallas.com
+DTSTAMP:20261008T140000Z
+DTSTART:20261008T140000Z
+DTEND:20261008T170000Z
+SUMMARY:Coffee with Cops
+LOCATION:1501 S. Central Expy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=coffee-with-cops%7C1501-s
+ -central-expy-mckinney%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
+ am-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261008T153000Z
+DTSTART:20261008T153000Z
+DTEND:20261008T183000Z
+SUMMARY:Toddler Time (16 Months-3 Years)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=toddler-time-16-months-3-
+ years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:little-explorers-3-5-years-|6861-w-eldorado-parkway-mckinney|11-30-am-2
+ 026-10-08@letsdoitdallas.com
+DTSTAMP:20261008T163000Z
+DTSTART:20261008T163000Z
+DTEND:20261008T193000Z
+SUMMARY:Little Explorers (3-5 Years)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=little-explorers-3-5-year
+ s-%7C6861-w-eldorado-parkway-mckinney%7C11-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:crochet-club-6th-12th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-
+ 2026-10-08@letsdoitdallas.com
+DTSTAMP:20261008T213000Z
+DTSTART:20261008T213000Z
+DTEND:20261009T003000Z
+SUMMARY:Crochet Club (6th-12th Grade)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=crochet-club-6th-12th-gra
+ de-%7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:share-the-arrows-2026|credit-union-of-texas-event-center-allen|9-00-am-
  2026-10-10@letsdoitdallas.com
 DTSTAMP:20261010T140000Z
@@ -538,5 +550,30 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=be-like-blippi-tour%7Ccre
  dit-union-of-texas-event-center-allen%7C2-00-pm
 DESCRIPTION:Children's Theatre event via Ticketmaster. — More: https://le
  tsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:worlds-2026-swiss-1|credit-union-of-texas-event-center-allen|12-00-pm-2
+ 026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T170000Z
+DTSTART:20261023T170000Z
+DTEND:20261023T200000Z
+SUMMARY:Worlds 2026 - Swiss 1
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=worlds-2026-swiss-1%7Ccre
+ dit-union-of-texas-event-center-allen%7C12-00-pm
+DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:wade-bowen|the-rook-mckinney|7-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Wade Bowen
+LOCATION:The Rook · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=wade-bowen%7Cthe-rook-mck
+ inney%7C7-00-pm
+DESCRIPTION:Wade Bowen live at The Rook. Sold out. — More: https://letsdo
+ itdallas.com/district/mckinney/
 END:VEVENT
 END:VCALENDAR

@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:angelia-walker-trial-by-funny|addison-improv-addison|7-00-pm-2026-09-23
- @letsdoitdallas.com
-DTSTAMP:20260924T000000Z
-DTSTART:20260924T000000Z
-DTEND:20260924T030000Z
-SUMMARY:Angelia Walker Trial By Funny
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=angelia-walker-trial-by-f
- unny%7Caddison-improv-addison%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:firehouse|legacy-hall-plano|8-00-pm-2026-09-23@letsdoitdallas.com
-DTSTAMP:20260924T010000Z
-DTSTART:20260924T010000Z
-DTEND:20260924T040000Z
-SUMMARY:Firehouse
-LOCATION:Legacy Hall · Plano
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=firehouse%7Clegacy-hall-p
- lano%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:kelsey-cook|addison-improv-addison|7-30-pm-2026-09-24@letsdoitdallas.co
  m
 DTSTAMP:20260925T003000Z
@@ -431,5 +406,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-18&e=carlos-mencia%7Caddison-i
  mprov-addison%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:standoperos-la-t-mbola|addison-improv-addison|7-30-pm-2026-10-22@letsdo
+ itdallas.com
+DTSTAMP:20261023T003000Z
+DTSTART:20261023T003000Z
+DTEND:20261023T033000Z
+SUMMARY:Standoperos: La Tómbola
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=standoperos-la-t-mbola%7C
+ addison-improv-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:uau-2026-fancon-playlist-your-youth-in-dallas|coppell-arts-center-coppe
+ ll|7-00-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261024T000000Z
+DTSTART:20261024T000000Z
+DTEND:20261024T030000Z
+SUMMARY:UAU 2026 FANCON [Playlist #Your Youth] in Dallas
+LOCATION:Coppell Arts Center
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=uau-2026-fancon-playlist-
+ your-youth-in-dallas%7Ccoppell-arts-center-coppell%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/plano/
 END:VEVENT
 END:VCALENDAR

@@ -161,6 +161,20 @@ DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
  istrict/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
+UID:free-halloween-movie-month-john-wick|sundown-at-granada-lower-greenvill
+ e-dallas|doors-see-listing-2026-10-05@letsdoitdallas.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:FREE Halloween Movie Month:  JOHN WICK
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=free-halloween-movie-mont
+ h-john-wick%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listi
+ ng
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
 UID:grateful-dead-tribute-forgotten-space-20th-anniversary-show|granada-the
  ater-lower-greenville-dallas|doors-see-listing-2026-10-09@letsdoitdallas.c
  om
@@ -307,6 +321,32 @@ LOCATION:Granada Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=book-of-love-with-special
  -guest-lord-byron%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-li
  sting
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:artikal-sound-system|sundown-at-granada-lower-greenville-dallas|doors-s
+ ee-listing-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:ARTIKAL SOUND SYSTEM
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=artikal-sound-system%7Csu
+ ndown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:rock-the-club|granada-theater-lower-greenville-dallas|doors-see-listing
+ -2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Rock the Club
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=rock-the-club%7Cgranada-t
+ heater-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
  istrict/lower-greenville/
 END:VEVENT

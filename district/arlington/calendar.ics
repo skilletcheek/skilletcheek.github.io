@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-09-23@
- letsdoitdallas.com
-DTSTAMP:20260923T200000Z
-DTSTART:20260923T200000Z
-DTEND:20260923T230000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C3-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:texas-rangers-vs-new-york-mets-bomber-jacket|globe-life-field-arlington
- |7-05-pm-2026-09-23@letsdoitdallas.com
-DTSTAMP:20260924T000500Z
-DTSTART:20260924T000500Z
-DTEND:20260924T030500Z
-SUMMARY:Texas Rangers vs New York Mets: Bomber Jacket
-LOCATION:Globe Life Field · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=texas-rangers-vs-new-york
- -mets-bomber-jacket%7Cglobe-life-field-arlington%7C7-05-pm
-DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
- as.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:texas-rangers-vs-new-york-mets|globe-life-field-arlington|1-35-pm-2026-
  09-24@letsdoitdallas.com
 DTSTAMP:20260924T183500Z
@@ -1080,6 +1054,32 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-10-06@
+ letsdoitdallas.com
+DTSTAMP:20261006T190000Z
+DTSTART:20261006T190000Z
+DTEND:20261006T220000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C2-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-10-06@
+ letsdoitdallas.com
+DTSTAMP:20261006T210000Z
+DTSTART:20261006T210000Z
+DTEND:20261007T000000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C4-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-10-06@letsdoitdal
  las.com
 DTSTAMP:20261006T233000Z
@@ -1091,6 +1091,32 @@ URL:https://letsdoitdallas.com/?date=2026-10-06&e=test-your-mic%7Carlington
  -improv-arlington%7C6-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-07
+ @letsdoitdallas.com
+DTSTAMP:20261007T150000Z
+DTSTART:20261007T150000Z
+DTEND:20261007T180000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C10-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-10-07
+ @letsdoitdallas.com
+DTSTAMP:20261007T170000Z
+DTSTART:20261007T170000Z
+DTEND:20261007T200000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C12-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:wizop-live-at-the-improv|arlington-improv-arlington|7-30-pm-2026-10-07@

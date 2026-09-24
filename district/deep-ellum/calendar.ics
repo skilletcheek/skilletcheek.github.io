@@ -10,53 +10,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:soulfly|trees-dallas-dallas|7-00-pm-2026-09-23@letsdoitdallas.com
-DTSTAMP:20260924T000000Z
-DTSTART:20260924T000000Z
-DTEND:20260924T030000Z
-SUMMARY:Soulfly
-LOCATION:Trees - Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=soulfly%7Ctrees-dallas-da
- llas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-rasmus-w-saint-agnes|the-studio-at-the-bomb-factory-dallas|7-30-pm-
- 2026-09-23@letsdoitdallas.com
-DTSTAMP:20260924T003000Z
-DTSTART:20260924T003000Z
-DTEND:20260924T033000Z
-SUMMARY:The Rasmus w/ Saint Agnes
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=the-rasmus-w-saint-agnes%
- 7Cthe-studio-at-the-bomb-factory-dallas%7C7-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:wub-wednesday|three-links-deep-ellum-dallas|10-30-pm-2026-09-23@letsdoi
- tdallas.com
-DTSTAMP:20260924T033000Z
-DTSTART:20260924T033000Z
-DTEND:20260924T063000Z
-SUMMARY:Wub Wednesday
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=wub-wednesday%7Cthree-lin
- ks-deep-ellum-dallas%7C10-30-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:magenta-wave-junkyard-cat-clement-hall-tiny-joy|three-links-deep-ellum-
- dallas|7-45-pm-2026-09-24@letsdoitdallas.com
-DTSTAMP:20260925T004500Z
-DTSTART:20260925T004500Z
-DTEND:20260925T034500Z
+ dallas|7-30-pm-2026-09-24@letsdoitdallas.com
+DTSTAMP:20260925T003000Z
+DTSTART:20260925T003000Z
+DTEND:20260925T033000Z
 SUMMARY:Magenta Wave\, Junkyard Cat\, Clement Hall\, Tiny Joy
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-09-24&e=magenta-wave-junkyard-cat
- -clement-hall-tiny-joy%7Cthree-links-deep-ellum-dallas%7C7-45-pm
+ -clement-hall-tiny-joy%7Cthree-links-deep-ellum-dallas%7C7-30-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
@@ -430,17 +392,18 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:gavin-adcock|the-studio-at-the-bomb-factory-dallas|7-00-pm-2026-10-05@l
- etsdoitdallas.com
+UID:gavin-adcock-16-and-under-with-parent-or-legal-guardian-|the-studio-at-
+ the-bomb-factory-dallas|7-00-pm-2026-10-05@letsdoitdallas.com
 DTSTAMP:20261006T000000Z
 DTSTART:20261006T000000Z
 DTEND:20261006T030000Z
-SUMMARY:Gavin Adcock
+SUMMARY:Gavin Adcock (16 and Under with Parent or Legal Guardian)
 LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=gavin-adcock%7Cthe-studio
- -at-the-bomb-factory-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=gavin-adcock-16-and-under
+ -with-parent-or-legal-guardian-%7Cthe-studio-at-the-bomb-factory-dallas%7C
+ 7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
@@ -908,5 +871,57 @@ URL:https://letsdoitdallas.com/?date=2026-10-21&e=the-wldlfe%7Cthe-studio-a
  t-the-bomb-factory-dallas%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:basic-printer-spirit-of-bear|three-links-deep-ellum-dallas|8-00-pm-2026
+ -10-22@letsdoitdallas.com
+DTSTAMP:20261023T010000Z
+DTSTART:20261023T010000Z
+DTEND:20261023T040000Z
+SUMMARY:Basic Printer\, Spirit of Bear
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=basic-printer-spirit-of-b
+ ear%7Cthree-links-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-saint-cecilia|three-links-deep-ellum-dallas|7-00-pm-2026-10-23@lets
+ doitdallas.com
+DTSTAMP:20261024T000000Z
+DTSTART:20261024T000000Z
+DTEND:20261024T030000Z
+SUMMARY:The Saint Cecilia
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=the-saint-cecilia%7Cthree
+ -links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:invasion-car-show|trees-dallas|doors-see-listing-2026-10-24@letsdoitdal
+ las.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:INVASION CAR SHOW
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=invasion-car-show%7Ctrees
+ -dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:toki-the-japanese-elvis|trees-dallas|doors-see-listing-2026-10-24@letsd
+ oitdallas.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:TOKI THE JAPANESE ELVIS
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=toki-the-japanese-elvis%7
+ Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
 END:VEVENT
 END:VCALENDAR

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:built-to-spill|the-echo-lounge-music-hall-dallas|7-00-pm-2026-09-23@let
- sdoitdallas.com
-DTSTAMP:20260924T000000Z
-DTSTART:20260924T000000Z
-DTEND:20260924T030000Z
-SUMMARY:Built To Spill
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=built-to-spill%7Cthe-echo
- -lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:gable-price-and-friends-too-good-tour|the-echo-lounge-music-hall-dallas
  |7-00-pm-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260925T000000Z
@@ -243,5 +230,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-22&e=mico-running-from-a-feeli
  ng-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:dax-the-anger-management-tour|the-echo-lounge-music-hall-dallas|7-00-pm
+ -2026-10-23@letsdoitdallas.com
+DTSTAMP:20261024T000000Z
+DTSTART:20261024T000000Z
+DTEND:20261024T030000Z
+SUMMARY:Dax - The Anger Management Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=dax-the-anger-management-
+ tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/the-echo-lounge-music-hall/
 END:VEVENT
 END:VCALENDAR

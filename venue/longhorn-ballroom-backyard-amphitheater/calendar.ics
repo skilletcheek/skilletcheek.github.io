@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:amy-grant|longhorn-ballroom-backyard-amphitheater-dallas|8-00-pm-2026-0
- 9-23@letsdoitdallas.com
-DTSTAMP:20260924T010000Z
-DTSTART:20260924T010000Z
-DTEND:20260924T040000Z
-SUMMARY:Amy Grant
-LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=amy-grant%7Clonghorn-ball
- room-backyard-amphitheater-dallas%7C8-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/longhorn-ballroom-backyard-amphitheater/
-END:VEVENT
-BEGIN:VEVENT
 UID:american-aquarium|longhorn-ballroom-backyard-amphitheater-dallas|8-00-p
  m-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260928T010000Z

@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:wub-wednesday|three-links-deep-ellum-dallas|10-30-pm-2026-09-23@letsdoi
- tdallas.com
-DTSTAMP:20260924T033000Z
-DTSTART:20260924T033000Z
-DTEND:20260924T063000Z
-SUMMARY:Wub Wednesday
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=wub-wednesday%7Cthree-lin
- ks-deep-ellum-dallas%7C10-30-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:lzr-prk|three-links-deep-ellum-dallas|11-00-pm-2026-09-24@letsdoitdalla
  s.com
 DTSTAMP:20260925T040000Z
@@ -165,6 +152,20 @@ URL:https://letsdoitdallas.com/?date=2026-10-04&e=dj-sneak305%7Cthree-links
  -deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-halloween-movie-month-john-wick|sundown-at-granada-lower-greenvill
+ e-dallas|doors-see-listing-2026-10-05@letsdoitdallas.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:FREE Halloween Movie Month:  JOHN WICK
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=free-halloween-movie-mont
+ h-john-wick%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listi
+ ng
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
@@ -324,5 +325,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-21&e=sludge-mother%7Cclub-dada
  -dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:invasion-car-show|trees-dallas|doors-see-listing-2026-10-24@letsdoitdal
+ las.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:INVASION CAR SHOW
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=invasion-car-show%7Ctrees
+ -dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/free-events
+ /
 END:VEVENT
 END:VCALENDAR

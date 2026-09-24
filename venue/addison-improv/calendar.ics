@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:angelia-walker-trial-by-funny|addison-improv-addison|7-00-pm-2026-09-23
- @letsdoitdallas.com
-DTSTAMP:20260924T000000Z
-DTSTART:20260924T000000Z
-DTEND:20260924T030000Z
-SUMMARY:Angelia Walker Trial By Funny
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=angelia-walker-trial-by-f
- unny%7Caddison-improv-addison%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:kelsey-cook|addison-improv-addison|7-30-pm-2026-09-24@letsdoitdallas.co
  m
 DTSTAMP:20260925T003000Z
@@ -392,5 +379,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-18&e=carlos-mencia%7Caddison-i
  mprov-addison%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:standoperos-la-t-mbola|addison-improv-addison|7-30-pm-2026-10-22@letsdo
+ itdallas.com
+DTSTAMP:20261023T003000Z
+DTSTART:20261023T003000Z
+DTEND:20261023T033000Z
+SUMMARY:Standoperos: La Tómbola
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=standoperos-la-t-mbola%7C
+ addison-improv-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/addison-improv/
 END:VEVENT
 END:VCALENDAR

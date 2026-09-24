@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:soulfly|trees-dallas-dallas|7-00-pm-2026-09-23@letsdoitdallas.com
-DTSTAMP:20260924T000000Z
-DTSTART:20260924T000000Z
-DTEND:20260924T030000Z
-SUMMARY:Soulfly
-LOCATION:Trees - Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=soulfly%7Ctrees-dallas-da
- llas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/trees/
-END:VEVENT
-BEGIN:VEVENT
 UID:gothicumbia|trees-dallas|doors-see-listing-2026-09-25@letsdoitdallas.co
  m
 DTSTAMP:20260925T000000Z
@@ -134,6 +122,32 @@ SUMMARY:OLIVIA RODRIGO NIGHT
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-17&e=olivia-rodrigo-night%7Ctr
  ees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:invasion-car-show|trees-dallas|doors-see-listing-2026-10-24@letsdoitdal
+ las.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:INVASION CAR SHOW
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=invasion-car-show%7Ctrees
+ -dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:toki-the-japanese-elvis|trees-dallas|doors-see-listing-2026-10-24@letsd
+ oitdallas.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:TOKI THE JAPANESE ELVIS
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=toki-the-japanese-elvis%7
+ Ctrees-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT

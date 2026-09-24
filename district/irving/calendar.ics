@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:crash-dummies|punch-line-irving-irving|7-30-pm-2026-09-23@letsdoitdalla
- s.com
-DTSTAMP:20260924T003000Z
-DTSTART:20260924T003000Z
-DTEND:20260924T033000Z
-SUMMARY:Crash Dummies
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=crash-dummies%7Cpunch-lin
- e-irving-irving%7C7-30-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:crash-dummies-podcast-irving|punch-line-dallas-irvine-irving|7-30-pm-20
- 26-09-23@letsdoitdallas.com
-DTSTAMP:20260924T003000Z
-DTSTART:20260924T003000Z
-DTEND:20260924T033000Z
-SUMMARY:Crash Dummies Podcast - Irving
-LOCATION:Punch Line Dallas - Irvine · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-23&e=crash-dummies-podcast-irv
- ing%7Cpunch-line-dallas-irvine-irving%7C7-30-pm
-DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
- las.com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:jenny-tian|punch-line-dallas-irvine-irving|7-30-pm-2026-09-24@letsdoitd
  allas.com
 DTSTAMP:20260925T003000Z
@@ -778,6 +752,32 @@ SUMMARY:TK Kirkland
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-10-22&e=tk-kirkland%7Cpunch-line-
  irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:maria-jose-moenia-us-tour-2026|the-pavilion-at-toyota-music-factory-irv
+ ing|8-00-pm-2026-10-22@letsdoitdallas.com
+DTSTAMP:20261023T010000Z
+DTSTART:20261023T010000Z
+DTEND:20261023T040000Z
+SUMMARY:Maria Jose + Moenia Us Tour 2026
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=maria-jose-moenia-us-tour
+ -2026%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:finesse-mitchell|punch-line-irving-irving|7-00-pm-2026-10-23@letsdoitda
+ llas.com
+DTSTAMP:20261024T000000Z
+DTSTART:20261024T000000Z
+DTEND:20261024T030000Z
+SUMMARY:Finesse Mitchell
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=finesse-mitchell%7Cpunch-
+ line-irving-irving%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
 END:VEVENT

@@ -229,4 +229,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=book-of-love-with-special
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT
+BEGIN:VEVENT
+UID:rock-the-club|granada-theater-lower-greenville-dallas|doors-see-listing
+ -2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Rock the Club
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=rock-the-club%7Cgranada-t
+ heater-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
+ enue/granada-theater/
+END:VEVENT
 END:VCALENDAR
