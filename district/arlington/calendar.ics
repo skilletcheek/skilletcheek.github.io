@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:texas-rangers-vs-new-york-mets|globe-life-field-arlington|1-35-pm-2026-
- 09-24@letsdoitdallas.com
-DTSTAMP:20260924T183500Z
-DTSTART:20260924T183500Z
-DTEND:20260924T213500Z
-SUMMARY:Texas Rangers vs. New York Mets
-LOCATION:Globe Life Field · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=texas-rangers-vs-new-york
- -mets%7Cglobe-life-field-arlington%7C1-35-pm
-DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
- as.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:west-georgia-wolves-at-ut-arlington-mavericks-womens-volleyball|college
  -park-center-arlington|6-00-pm-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260924T230000Z
@@ -258,15 +245,15 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:tbd-at-dallas-wings-wnba-first-round-home-game-1-|college-park-center-a
- rlington|3-30-am-2026-09-27@letsdoitdallas.com
+UID:tbd-at-wings-wnba-1st-rd-gm-2-hg-1-|college-park-center-arlington|3-30-
+ am-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260927T083000Z
 DTSTART:20260927T083000Z
 DTEND:20260927T113000Z
-SUMMARY:TBD at Dallas Wings - WNBA First Round (Home Game 1)
+SUMMARY:TBD at Wings - WNBA 1st Rd (Gm 2\, HG 1)
 LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=tbd-at-dallas-wings-wnba-
- first-round-home-game-1-%7Ccollege-park-center-arlington%7C3-30-am
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=tbd-at-wings-wnba-1st-rd-
+ gm-2-hg-1-%7Ccollege-park-center-arlington%7C3-30-am
 DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/d
  istrict/arlington/
 END:VEVENT
@@ -490,19 +477,6 @@ URL:https://letsdoitdallas.com/?date=2026-09-29&e=test-your-mic%7Carlington
  -improv-arlington%7C6-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:tbd-at-dallas-wings-wnba-first-round-home-game-2-|college-park-center-a
- rlington|3-30-am-2026-09-30@letsdoitdallas.com
-DTSTAMP:20260930T083000Z
-DTSTART:20260930T083000Z
-DTEND:20260930T113000Z
-SUMMARY:TBD at Dallas Wings - WNBA First Round (Home Game 2)
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=tbd-at-dallas-wings-wnba-
- first-round-home-game-2-%7Ccollege-park-center-arlington%7C3-30-am
-DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/d
- istrict/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:tbd-at-rangers-al-wild-card-hg-2-|globe-life-field-arlington|3-30-am-20
@@ -872,19 +846,6 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:tbd-at-dallas-wings-wnba-semifinals-home-game-1-|college-park-center-ar
- lington|3-30-am-2026-10-04@letsdoitdallas.com
-DTSTAMP:20261004T083000Z
-DTSTART:20261004T083000Z
-DTEND:20261004T113000Z
-SUMMARY:TBD at Dallas Wings - WNBA Semifinals (Home Game 1)
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=tbd-at-dallas-wings-wnba-
- semifinals-home-game-1-%7Ccollege-park-center-arlington%7C3-30-am
-DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/d
- istrict/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:tbd-at-rangers-alds-hg-1-|globe-life-field-arlington|3-30-am-2026-10-04
  @letsdoitdallas.com
 DTSTAMP:20261004T083000Z
@@ -896,6 +857,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-04&e=tbd-at-rangers-alds-hg-1-
  %7Cglobe-life-field-arlington%7C3-30-am
 DESCRIPTION:mlb event via SeatGeek. — More: https://letsdoitdallas.com/di
  strict/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:tbd-at-wings-wnba-semis-gm-3-hg-1-|college-park-center-arlington|3-30-a
+ m-2026-10-04@letsdoitdallas.com
+DTSTAMP:20261004T083000Z
+DTSTART:20261004T083000Z
+DTEND:20261004T113000Z
+SUMMARY:TBD at Wings - WNBA Semis (Gm 3\, HG 1)
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=tbd-at-wings-wnba-semis-g
+ m-3-hg-1-%7Ccollege-park-center-arlington%7C3-30-am
+DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/d
+ istrict/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-04
@@ -1115,6 +1089,19 @@ SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-10-07&e=at-t-stadium-vip-guided-t
  our%7Cat-t-stadium-arlington%7C12-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-10-07@
+ letsdoitdallas.com
+DTSTAMP:20261007T190000Z
+DTSTART:20261007T190000Z
+DTEND:20261007T220000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C2-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT

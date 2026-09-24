@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:texas-rangers-vs-new-york-mets|globe-life-field-arlington|1-35-pm-2026-
- 09-24@letsdoitdallas.com
-DTSTAMP:20260924T183500Z
-DTSTART:20260924T183500Z
-DTEND:20260924T213500Z
-SUMMARY:Texas Rangers vs. New York Mets
-LOCATION:Globe Life Field · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=texas-rangers-vs-new-york
- -mets%7Cglobe-life-field-arlington%7C1-35-pm
-DESCRIPTION:Baseball event via Ticketmaster. — More: https://letsdoitdall
- as.com/venue/globe-life-field/
-END:VEVENT
-BEGIN:VEVENT
 UID:savannah-bananas-vs-texas-tailgaters|globe-life-field-arlington|7-00-pm
  -2026-09-25@letsdoitdallas.com
 DTSTAMP:20260926T000000Z

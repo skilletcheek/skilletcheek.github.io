@@ -9,30 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:yogalates|310-e-parkerville-road-cedar-hill|12-00-pm-2026-09-24@letsdoi
- tdallas.com
-DTSTAMP:20260924T170000Z
-DTSTART:20260924T170000Z
-DTEND:20260924T200000Z
-SUMMARY:Yogalates
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=yogalates%7C310-e-parkerv
- ille-road-cedar-hill%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:kidokinetics|310-e-parkerville-road-cedar-hill|02-00-pm-2026-09-24@lets
- doitdallas.com
-DTSTAMP:20260924T190000Z
-DTSTART:20260924T190000Z
-DTEND:20260924T220000Z
-SUMMARY:Kidokinetics
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=kidokinetics%7C310-e-park
- erville-road-cedar-hill%7C02-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:chat-youth-empowerment-program|310-e-parkerville-road-cedar-hill|04-00-
  pm-2026-09-24@letsdoitdallas.com
 DTSTAMP:20260924T210000Z
