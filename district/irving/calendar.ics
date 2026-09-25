@@ -730,6 +730,19 @@ DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/irving/
 END:VEVENT
 BEGIN:VEVENT
+UID:andrew-orolfo|punch-line-irving-irving|7-00-pm-2026-10-23@letsdoitdalla
+ s.com
+DTSTAMP:20261024T000000Z
+DTSTART:20261024T000000Z
+DTEND:20261024T030000Z
+SUMMARY:Andrew Orolfo
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=andrew-orolfo%7Cpunch-lin
+ e-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
 UID:finesse-mitchell|punch-line-irving-irving|7-00-pm-2026-10-23@letsdoitda
  llas.com
 DTSTAMP:20261024T000000Z
@@ -766,6 +779,32 @@ SUMMARY:Finesse Mitchell
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=finesse-mitchell%7Cpunch-
  line-irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:comedy-allstars|punch-line-irving-irving|9-30-pm-2026-10-23@letsdoitdal
+ las.com
+DTSTAMP:20261024T023000Z
+DTSTART:20261024T023000Z
+DTEND:20261024T053000Z
+SUMMARY:Comedy Allstars
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=comedy-allstars%7Cpunch-l
+ ine-irving-irving%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:andrew-orolfo|punch-line-irving-irving|7-00-pm-2026-10-24@letsdoitdalla
+ s.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Andrew Orolfo
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=andrew-orolfo%7Cpunch-lin
+ e-irving-irving%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
 END:VEVENT

@@ -10,54 +10,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-09-25
- @letsdoitdallas.com
-DTSTAMP:20260925T150000Z
-DTSTART:20260925T150000Z
-DTEND:20260925T180000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C10-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-09-25
- @letsdoitdallas.com
-DTSTAMP:20260925T170000Z
-DTSTART:20260925T170000Z
-DTEND:20260925T200000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C12-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-09-25@
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-09-25@
  letsdoitdallas.com
-DTSTAMP:20260925T190000Z
-DTSTART:20260925T190000Z
-DTEND:20260925T220000Z
+DTSTAMP:20260925T200000Z
+DTSTART:20260925T200000Z
+DTEND:20260925T230000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-09-25&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C2-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-09-25@
- letsdoitdallas.com
-DTSTAMP:20260925T210000Z
-DTSTART:20260925T210000Z
-DTEND:20260926T000000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C4-00-pm
+ our%7Cat-t-stadium-arlington%7C3-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
@@ -374,19 +335,6 @@ DESCRIPTION:mlb event via SeatGeek. — More: https://letsdoitdallas.com/di
  strict/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:valkyries-at-wings-wnba-1st-rd-gm-2-hg-1-|college-park-center-arlington
- |3-30-am-2026-09-29@letsdoitdallas.com
-DTSTAMP:20260929T083000Z
-DTSTART:20260929T083000Z
-DTEND:20260929T113000Z
-SUMMARY:Valkyries at Wings - WNBA 1st Rd (Gm 2\, HG 1)
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=valkyries-at-wings-wnba-1
- st-rd-gm-2-hg-1-%7Ccollege-park-center-arlington%7C3-30-am
-DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/d
- istrict/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|10-00-am-20
  26-09-29@letsdoitdallas.com
 DTSTAMP:20260929T150000Z
@@ -528,6 +476,20 @@ URL:https://letsdoitdallas.com/?date=2026-09-30&e=just-nesh%7Carlington-imp
  rov-arlington%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:first-round-golden-state-valkyries-at-dallas-wings-rd-1-hm-gm-1|college
+ -park-center-arlington|8-00-pm-2026-09-30@letsdoitdallas.com
+DTSTAMP:20261001T010000Z
+DTSTART:20261001T010000Z
+DTEND:20261001T040000Z
+SUMMARY:First Round - Golden State Valkyries at Dallas Wings Rd 1 Hm Gm 1
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=first-round-golden-state-
+ valkyries-at-dallas-wings-rd-1-hm-gm-1%7Ccollege-park-center-arlington%7C8
+ -00-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:tbd-at-rangers-al-wild-card-hg-3-|globe-life-field-arlington|3-30-am-20

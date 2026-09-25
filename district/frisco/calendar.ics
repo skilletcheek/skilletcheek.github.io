@@ -121,6 +121,18 @@ DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
  las.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:special-meeting-of-planning-zoning-commission|6101-frisco-square-blvd-f
+ risco|05-30-pm-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261001T223000Z
+DTSTART:20261001T223000Z
+DTEND:20261002T013000Z
+SUMMARY:Special Meeting of Planning & Zoning Commission
+LOCATION:6101 Frisco Square Blvd.
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=special-meeting-of-planni
+ ng-zoning-commission%7C6101-frisco-square-blvd-frisco%7C05-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:plaza-live-|8800-8840-4th-st-frisco|05-00-pm-2026-10-07@letsdoitdallas.
  com
 DTSTAMP:20261007T220000Z

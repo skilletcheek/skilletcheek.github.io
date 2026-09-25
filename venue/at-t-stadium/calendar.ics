@@ -9,54 +9,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-09-25
- @letsdoitdallas.com
-DTSTAMP:20260925T150000Z
-DTSTART:20260925T150000Z
-DTEND:20260925T180000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C10-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-09-25
- @letsdoitdallas.com
-DTSTAMP:20260925T170000Z
-DTSTART:20260925T170000Z
-DTEND:20260925T200000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C12-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-09-25@
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-09-25@
  letsdoitdallas.com
-DTSTAMP:20260925T190000Z
-DTSTART:20260925T190000Z
-DTEND:20260925T220000Z
+DTSTAMP:20260925T200000Z
+DTSTART:20260925T200000Z
+DTEND:20260925T230000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-09-25&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C2-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-09-25@
- letsdoitdallas.com
-DTSTAMP:20260925T210000Z
-DTSTART:20260925T210000Z
-DTEND:20260926T000000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C4-00-pm
+ our%7Cat-t-stadium-arlington%7C3-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/at-t-stadium/
 END:VEVENT

@@ -9,17 +9,18 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:valkyries-at-wings-wnba-1st-rd-gm-2-hg-1-|college-park-center-arlington
- |3-30-am-2026-09-29@letsdoitdallas.com
-DTSTAMP:20260929T083000Z
-DTSTART:20260929T083000Z
-DTEND:20260929T113000Z
-SUMMARY:Valkyries at Wings - WNBA 1st Rd (Gm 2\, HG 1)
+UID:first-round-golden-state-valkyries-at-dallas-wings-rd-1-hm-gm-1|college
+ -park-center-arlington|8-00-pm-2026-09-30@letsdoitdallas.com
+DTSTAMP:20261001T010000Z
+DTSTART:20261001T010000Z
+DTEND:20261001T040000Z
+SUMMARY:First Round - Golden State Valkyries at Dallas Wings Rd 1 Hm Gm 1
 LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=valkyries-at-wings-wnba-1
- st-rd-gm-2-hg-1-%7Ccollege-park-center-arlington%7C3-30-am
-DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/v
- enue/college-park-center/
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=first-round-golden-state-
+ valkyries-at-dallas-wings-rd-1-hm-gm-1%7Ccollege-park-center-arlington%7C8
+ -00-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/college-park-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:little-rock-trojans-at-ut-arlington-mavericks-womens-volleyball|college
