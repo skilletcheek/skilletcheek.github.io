@@ -10,61 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:brother-and-the-hayes-release-party-|poor-david-s-pub-dallas|doors-see-
- listing-2026-09-24@letsdoitdallas.com
-DTSTAMP:20260924T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Brother and The Hayes - Release Party!
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=brother-and-the-hayes-rel
- ease-party-%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-09-24@letsdoitdallas.com
-DTSTAMP:20260924T130000Z
-DTSTART:20260924T130000Z
-DTEND:20260924T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:frank-turner-lost-evenings-ix|south-side-ballroom-dallas|6-00-pm-2026-0
- 9-24@letsdoitdallas.com
-DTSTAMP:20260924T230000Z
-DTSTART:20260924T230000Z
-DTEND:20260925T020000Z
-SUMMARY:Frank Turner - Lost Evenings IX
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=frank-turner-lost-evening
- s-ix%7Csouth-side-ballroom-dallas%7C6-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dan-and-phil-hard-launch-world-tour|music-hall-at-fair-park-dallas|7-30
- -pm-2026-09-24@letsdoitdallas.com
-DTSTAMP:20260925T003000Z
-DTSTART:20260925T003000Z
-DTEND:20260925T033000Z
-SUMMARY:Dan and Phil: Hard Launch World Tour
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=dan-and-phil-hard-launch-
- world-tour%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-flinns-max-and-brittney-flinn|poor-david-s-pub-dallas|doors-see-lis
  ting-2026-09-25@letsdoitdallas.com
 DTSTAMP:20260925T000000Z
@@ -145,6 +90,22 @@ URL:https://letsdoitdallas.com/?date=2026-09-26&e=creekbed-carter-hogan%7Cp
  oor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T130000Z
+DTSTART:20260926T130000Z
+DTEND:20260926T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:frank-turner-lost-evenings-ix|south-side-ballroom-dallas|6-00-pm-2026-0
@@ -1242,5 +1203,44 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=jon-b-%7Chouse-of-blues-d
  allas-dallas%7C7-00-pm
 DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:seth-meyers-live|music-hall-at-fair-park-dallas|8-00-pm-2026-10-23@lets
+ doitdallas.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Seth Meyers: Live
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=seth-meyers-live%7Cmusic-
+ hall-at-fair-park-dallas%7C8-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:vince-staples-cry-baby-tour|south-side-ballroom-dallas|8-00-pm-2026-10-
+ 23@letsdoitdallas.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Vince Staples - Cry Baby Tour
+LOCATION:South Side Ballroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=vince-staples-cry-baby-to
+ ur%7Csouth-side-ballroom-dallas%7C8-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-vs-san-antonio-spurs|american-airlines-center-dallas|7
+ -00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Dallas Mavericks vs. San Antonio Spurs
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=dallas-mavericks-vs-san-a
+ ntonio-spurs%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

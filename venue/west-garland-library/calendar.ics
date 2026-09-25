@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:beginner-reader-book-club|west-garland-library-garland|05-00-pm-2026-09
- -24@letsdoitdallas.com
-DTSTAMP:20260924T220000Z
-DTSTART:20260924T220000Z
-DTEND:20260925T010000Z
-SUMMARY:Beginner Reader Book Club
-LOCATION:West Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=beginner-reader-book-club
- %7Cwest-garland-library-garland%7C05-00-pm
-DESCRIPTION:5:00 p.m.\; Join us for a fun read-aloud book club with activit
- ies and crafts just for beginner readers ages six to eight! This program i
- s perfect for children who have started their reading journey and want to 
- build confidence while having fun! No prior book reading is required. — 
- More: https://letsdoitdallas.com/venue/west-garland-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:mid-autumn-festival-family-event|west-garland-library-garland|10-30-am-
  2026-09-26@letsdoitdallas.com
 DTSTAMP:20260926T153000Z

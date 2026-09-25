@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:justin-whitehead|arlington-improv-arlington|7-30-pm-2026-09-24@letsdoit
- dallas.com
-DTSTAMP:20260925T003000Z
-DTSTART:20260925T003000Z
-DTEND:20260925T033000Z
-SUMMARY:Justin Whitehead
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=justin-whitehead%7Carling
- ton-improv-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:ryan-davis|arlington-improv-arlington|7-30-pm-2026-09-25@letsdoitdallas
  .com
 DTSTAMP:20260926T003000Z
@@ -447,6 +434,45 @@ SUMMARY:Dee Mo and Friends
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-21&e=dee-mo-and-friends%7Carli
  ngton-improv-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-ratt-packs-of-comedy-tour|arlington-improv-arlington|7-30-pm-2026-1
+ 0-23@letsdoitdallas.com
+DTSTAMP:20261024T003000Z
+DTSTART:20261024T003000Z
+DTEND:20261024T033000Z
+SUMMARY:The Ratt Packs of Comedy Tour
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=the-ratt-packs-of-comedy-
+ tour%7Carlington-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-ratt-packs-of-comedy-tour|arlington-improv-arlington|9-45-pm-2026-1
+ 0-23@letsdoitdallas.com
+DTSTAMP:20261024T024500Z
+DTSTART:20261024T024500Z
+DTEND:20261024T054500Z
+SUMMARY:The Ratt Packs of Comedy Tour
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=the-ratt-packs-of-comedy-
+ tour%7Carlington-improv-arlington%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:dc-young-fly|arlington-improv-arlington|7-00-pm-2026-10-24@letsdoitdall
+ as.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:DC Young Fly
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=dc-young-fly%7Carlington-
+ improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

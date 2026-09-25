@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:magenta-wave-junkyard-cat-clement-hall-tiny-joy|three-links-deep-ellum-
- dallas|7-30-pm-2026-09-24@letsdoitdallas.com
-DTSTAMP:20260925T003000Z
-DTSTART:20260925T003000Z
-DTEND:20260925T033000Z
-SUMMARY:Magenta Wave\, Junkyard Cat\, Clement Hall\, Tiny Joy
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=magenta-wave-junkyard-cat
- -clement-hall-tiny-joy%7Cthree-links-deep-ellum-dallas%7C7-30-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:starbomb-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory-d
- allas|8-00-pm-2026-09-24@letsdoitdallas.com
-DTSTAMP:20260925T010000Z
-DTSTART:20260925T010000Z
-DTEND:20260925T040000Z
-SUMMARY:Starbomb (16 and Under with Parent or Legal Guardian)
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=starbomb-16-and-under-wit
- h-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:lzr-prk|three-links-deep-ellum-dallas|11-00-pm-2026-09-24@letsdoitdalla
- s.com
-DTSTAMP:20260925T040000Z
-DTSTART:20260925T040000Z
-DTEND:20260925T070000Z
-SUMMARY:LZR PRK
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=lzr-prk%7Cthree-links-dee
- p-ellum-dallas%7C11-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:gothicumbia|trees-dallas|doors-see-listing-2026-09-25@letsdoitdallas.co
  m
 DTSTAMP:20260925T000000Z
@@ -419,17 +380,17 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:brian-fallon|trees-dallas|doors-see-listing-2026-10-07@letsdoitdallas.c
- om
-DTSTAMP:20261007T000000Z
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
-SUMMARY:BRIAN FALLON
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=brian-fallon%7Ctrees-dall
- as%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
+UID:brian-fallon-the-painkillers-with-tim-barry|trees-dallas-dallas|7-00-pm
+ -2026-10-07@letsdoitdallas.com
+DTSTAMP:20261008T000000Z
+DTSTART:20261008T000000Z
+DTEND:20261008T030000Z
+SUMMARY:Brian Fallon & The Painkillers with Tim Barry
+LOCATION:Trees - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=brian-fallon-the-painkill
+ ers-with-tim-barry%7Ctrees-dallas-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:jack-white-this-is-a-phone-free-show-16-and-under-with-parent-or-legal-
@@ -899,6 +860,18 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:bayonne|club-dada-dallas|8-00-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Bayonne
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=bayonne%7Cclub-dada-dalla
+ s%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:invasion-car-show|trees-dallas|doors-see-listing-2026-10-24@letsdoitdal
  las.com
 DTSTAMP:20261024T000000Z
@@ -921,6 +894,31 @@ SUMMARY:TOKI THE JAPANESE ELVIS
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=toki-the-japanese-elvis%7
  Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:visit-neptune-eileen-peyton-aston|three-links-deep-ellum-dallas|7-00-pm
+ -2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Visit Neptune\, Eileen\, Peyton Aston
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=visit-neptune-eileen-peyt
+ on-aston%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:maxo-kream|trees-dallas|doors-see-listing-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:MAXO KREAM
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=maxo-kream%7Ctrees-dallas
+ %7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
 END:VEVENT

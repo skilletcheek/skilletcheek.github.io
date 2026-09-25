@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jenny-tian-ripe|punch-line-irving-irving|7-30-pm-2026-09-24@letsdoitdal
- las.com
-DTSTAMP:20260925T003000Z
-DTSTART:20260925T003000Z
-DTEND:20260925T033000Z
-SUMMARY:Jenny Tian: Ripe
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=jenny-tian-ripe%7Cpunch-l
- ine-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:an-evening-with-tyler-fischer|punch-line-irving-irving|7-30-pm-2026-09-
  25@letsdoitdallas.com
 DTSTAMP:20260926T003000Z
@@ -421,6 +408,32 @@ DTEND:20261024T030000Z
 SUMMARY:Finesse Mitchell
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=finesse-mitchell%7Cpunch-
+ line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:finesse-mitchell|punch-line-irving-irving|9-15-pm-2026-10-23@letsdoitda
+ llas.com
+DTSTAMP:20261024T021500Z
+DTSTART:20261024T021500Z
+DTEND:20261024T051500Z
+SUMMARY:Finesse Mitchell
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=finesse-mitchell%7Cpunch-
+ line-irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:finesse-mitchell|punch-line-irving-irving|7-00-pm-2026-10-24@letsdoitda
+ llas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Finesse Mitchell
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=finesse-mitchell%7Cpunch-
  line-irving-irving%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jenny-tian|punch-line-dallas-irvine-irving|7-30-pm-2026-09-24@letsdoitd
- allas.com
-DTSTAMP:20260925T003000Z
-DTSTART:20260925T003000Z
-DTEND:20260925T033000Z
-SUMMARY:Jenny Tian
-LOCATION:Punch Line Dallas - Irvine · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=jenny-tian%7Cpunch-line-d
- allas-irvine-irving%7C7-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/punch-line-dallas-irvine/
-END:VEVENT
-BEGIN:VEVENT
 UID:tyler-fischer-rescheduled-from-1-23-26-|punch-line-dallas-irvine-irving
  |7-30-pm-2026-09-25@letsdoitdallas.com
 DTSTAMP:20260926T003000Z

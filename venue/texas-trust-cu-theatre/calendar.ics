@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:grand-funk-railroad-w-the-marshall-tucker-band|texas-trust-cu-theatre-g
- rand-prairie|7-00-pm-2026-09-24@letsdoitdallas.com
-DTSTAMP:20260925T000000Z
-DTSTART:20260925T000000Z
-DTEND:20260925T030000Z
-SUMMARY:Grand Funk Railroad w/ The Marshall Tucker Band
-LOCATION:Texas Trust CU Theatre · Grand Prairie
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=grand-funk-railroad-w-the
- -marshall-tucker-band%7Ctexas-trust-cu-theatre-grand-prairie%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/texas-trust-cu-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:jungle|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-09-25@letsdoit
  dallas.com
 DTSTAMP:20260926T010000Z
@@ -163,5 +150,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-19&e=taemin%7Ctexas-trust-cu-t
  heatre-grand-prairie%7C8-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/texas-trust-cu-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:cristian-castro|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-10-23
+ @letsdoitdallas.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Cristian Castro
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=cristian-castro%7Ctexas-t
+ rust-cu-theatre-grand-prairie%7C8-00-pm
+DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/texas-trust-cu-theatre/
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Eisemann Center — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Eisemann Center.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:7-bridges-the-ultimate-eagles-tribute|eisemann-center-richardson|7-30-p
+ m-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260927T003000Z
+DTSTART:20260927T003000Z
+DTEND:20260927T033000Z
+SUMMARY:7 Bridges - The Ultimate Eagles Tribute
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=7-bridges-the-ultimate-ea
+ gles-tribute%7Ceisemann-center-richardson%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/eisemann-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:one-night-in-memphis|eisemann-center-richardson|7-30-pm-2026-10-10@lets
+ doitdallas.com
+DTSTAMP:20261011T003000Z
+DTSTART:20261011T003000Z
+DTEND:20261011T033000Z
+SUMMARY:One Night in Memphis
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=one-night-in-memphis%7Cei
+ semann-center-richardson%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/eisemann-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:kanan-gill|eisemann-center-richardson|7-30-pm-2026-10-23@letsdoitdallas
+ .com
+DTSTAMP:20261024T003000Z
+DTSTART:20261024T003000Z
+DTEND:20261024T033000Z
+SUMMARY:Kanan Gill
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=kanan-gill%7Ceisemann-cen
+ ter-richardson%7C7-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/eisemann-center/
+END:VEVENT
+END:VCALENDAR

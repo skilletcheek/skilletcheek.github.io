@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chayanne-bailemos-otra-vez-tour|dickies-arena-fort-worth|8-00-pm-2026-0
- 9-24@letsdoitdallas.com
-DTSTAMP:20260925T010000Z
-DTSTART:20260925T010000Z
-DTEND:20260925T040000Z
-SUMMARY:Chayanne - Bailemos Otra Vez Tour
-LOCATION:Dickies Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=chayanne-bailemos-otra-ve
- z-tour%7Cdickies-arena-fort-worth%7C8-00-pm
-DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/dickies-arena/
-END:VEVENT
-BEGIN:VEVENT
 UID:-weird-al-yankovic-bigger-weirder-2026-tour|dickies-arena-fort-worth|8-
  00-pm-2026-09-25@letsdoitdallas.com
 DTSTAMP:20260926T010000Z

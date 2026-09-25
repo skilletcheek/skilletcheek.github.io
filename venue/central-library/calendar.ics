@@ -9,38 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:understanding-the-homebuying-process|central-library-garland|06-00-pm-2
- 026-09-24@letsdoitdallas.com
-DTSTAMP:20260924T230000Z
-DTSTART:20260924T230000Z
-DTEND:20260925T020000Z
-SUMMARY:Understanding the Homebuying Process
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=understanding-the-homebuy
- ing-process%7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Join us for a homebuying workshop presented by Peop
- les Mortgage Company. Discover what mortgage underwriters look at when rev
- iewing your loan application\, what documents you may need and how you can
-  better prepare for the home buying process. September 24\, 2026 06:00 P 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:thrills-chills-book-club-ages-18-|central-library-garland|06-30-pm-2026
- -09-24@letsdoitdallas.com
-DTSTAMP:20260924T233000Z
-DTSTART:20260924T233000Z
-DTEND:20260925T023000Z
-SUMMARY:Thrills & Chills Book Club (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=thrills-chills-book-club-
- ages-18-%7Ccentral-library-garland%7C06-30-pm
-DESCRIPTION:6:30 p.m.\; An adult book club for mystery and thriller enthusi
- asts! Join us for engaging discussions and enjoy light refreshments. Septe
- mber 24\, 2026 06:30 PM - 07:30 PM 625 Austin St.Garland\, TX 75040 https:
- //www.garlandtx.gov/Calendar.aspx?EID=13003/639227575520000000 — More: h
- ttps://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:basic-computer-practice-ages-18-|central-library-garland|10-00-am-2026-
  09-25@letsdoitdallas.com
 DTSTAMP:20260925T150000Z
@@ -360,5 +328,21 @@ URL:https://letsdoitdallas.com/?date=2026-10-07&e=medicaid-and-chip-applica
  tion-renewal-assistance-with-parkland-hospital%7Ccentral-library-garland%7
  C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:silent-book-club-ages-18-|central-library-garland|06-00-pm-2026-10-09@l
+ etsdoitdallas.com
+DTSTAMP:20261009T230000Z
+DTSTART:20261009T230000Z
+DTEND:20261010T020000Z
+SUMMARY:Silent Book Club® (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=silent-book-club-ages-18-
+ %7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Join us for Silent Book Club® at the Garland Centr
+ al Library\, held once a month on Fridays at 6 p.m. — exclusively for ad
+ ults 18+. Enjoy a relaxed\, quiet reading environment without assigned boo
+ ks or discussion pressure. Bring your own book or browse the library’s c
+ oll — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

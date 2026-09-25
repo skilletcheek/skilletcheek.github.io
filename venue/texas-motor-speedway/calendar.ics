@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:goodguys-car-show-fort-worth|texas-motor-speedway-fort-worth|8-00-am-20
- 26-09-25@letsdoitdallas.com
-DTSTAMP:20260925T130000Z
-DTSTART:20260925T130000Z
-DTEND:20260925T160000Z
-SUMMARY:Goodguys Car Show - Fort Worth
-LOCATION:Texas Motor Speedway · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=goodguys-car-show-fort-wo
- rth%7Ctexas-motor-speedway-fort-worth%7C8-00-am
-DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/texas-motor-speedway/
-END:VEVENT
-BEGIN:VEVENT
-UID:goodguys-car-show-fort-worth|texas-motor-speedway-fort-worth|8-00-am-20
  26-09-26@letsdoitdallas.com
 DTSTAMP:20260926T130000Z
 DTSTART:20260926T130000Z
@@ -59,5 +46,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-03&e=goodguys-car-show-fort-wo
  rth%7Ctexas-motor-speedway-fort-worth%7C8-00-am
 DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/texas-motor-speedway/
+END:VEVENT
+BEGIN:VEVENT
+UID:sick-new-world-festival-forth-worth|texas-motor-speedway-fort-worth|11-
+ 00-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T160000Z
+DTSTART:20261024T160000Z
+DTEND:20261024T190000Z
+SUMMARY:Sick New World Festival Forth Worth
+LOCATION:Texas Motor Speedway · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=sick-new-world-festival-f
+ orth-worth%7Ctexas-motor-speedway-fort-worth%7C11-00-am
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/texas-motor-speedway/
 END:VEVENT
 END:VCALENDAR

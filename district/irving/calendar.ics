@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jenny-tian|punch-line-dallas-irvine-irving|7-30-pm-2026-09-24@letsdoitd
- allas.com
-DTSTAMP:20260925T003000Z
-DTSTART:20260925T003000Z
-DTEND:20260925T033000Z
-SUMMARY:Jenny Tian
-LOCATION:Punch Line Dallas - Irvine · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=jenny-tian%7Cpunch-line-d
- allas-irvine-irving%7C7-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:jenny-tian-ripe|punch-line-irving-irving|7-30-pm-2026-09-24@letsdoitdal
- las.com
-DTSTAMP:20260925T003000Z
-DTSTART:20260925T003000Z
-DTEND:20260925T033000Z
-SUMMARY:Jenny Tian: Ripe
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=jenny-tian-ripe%7Cpunch-l
- ine-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:alicia-villarreal|the-pavilion-at-toyota-music-factory-irving|8-00-pm-2
- 026-09-24@letsdoitdallas.com
-DTSTAMP:20260925T010000Z
-DTSTART:20260925T010000Z
-DTEND:20260925T040000Z
-SUMMARY:Alicia Villarreal
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=alicia-villarreal%7Cthe-p
- avilion-at-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:an-evening-with-tyler-fischer|punch-line-irving-irving|7-30-pm-2026-09-
  25@letsdoitdallas.com
 DTSTAMP:20260926T003000Z
@@ -777,6 +738,59 @@ DTEND:20261024T030000Z
 SUMMARY:Finesse Mitchell
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=finesse-mitchell%7Cpunch-
+ line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:brincos-dieras-el-desmadre-continua-tour-18-|the-pavilion-at-toyota-mus
+ ic-factory-irving|8-00-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Brincos Dieras - El Desmadre Continua Tour 18+
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=brincos-dieras-el-desmadr
+ e-continua-tour-18-%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-p
+ m
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:finesse-mitchell|punch-line-irving-irving|9-15-pm-2026-10-23@letsdoitda
+ llas.com
+DTSTAMP:20261024T021500Z
+DTSTART:20261024T021500Z
+DTEND:20261024T051500Z
+SUMMARY:Finesse Mitchell
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=finesse-mitchell%7Cpunch-
+ line-irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:casey-donahew-friends|the-pavilion-at-toyota-music-factory-irving|7-00-
+ pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Casey Donahew + Friends
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=casey-donahew-friends%7Ct
+ he-pavilion-at-toyota-music-factory-irving%7C7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:finesse-mitchell|punch-line-irving-irving|7-00-pm-2026-10-24@letsdoitda
+ llas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Finesse Mitchell
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=finesse-mitchell%7Cpunch-
  line-irving-irving%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/

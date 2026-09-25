@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lzr-prk|three-links-deep-ellum-dallas|11-00-pm-2026-09-24@letsdoitdalla
- s.com
-DTSTAMP:20260925T040000Z
-DTSTART:20260925T040000Z
-DTEND:20260925T070000Z
-SUMMARY:LZR PRK
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=lzr-prk%7Cthree-links-dee
- p-ellum-dallas%7C11-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-09-25@letsdoitdall
  as.com
 DTSTAMP:20260926T040000Z
@@ -34,6 +21,22 @@ URL:https://letsdoitdallas.com/?date=2026-09-25&e=dj-jream%7Cthree-links-de
  ep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:matinee-boogies-x-dallasites|boogie-s-dallas-dallas|5-00-pm-11-00-pm-20
+ 26-09-26@letsdoitdallas.com
+DTSTAMP:20260926T220000Z
+DTSTART:20260926T220000Z
+DTEND:20260927T010000Z
+SUMMARY:MATINEE: BOOGIES x DALLASITES
+LOCATION:Boogie's Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=matinee-boogies-x-dallasi
+ tes%7Cboogie-s-dallas-dallas%7C5-00-pm-11-00-pm
+DESCRIPTION:MATINEE brings an afternoon-into-evening dancefloor experience 
+ filled with feel-good music\, familiar faces\, and just the right amount o
+ f chaos. JAKE GATEWOOD sets the soundtrack with disco\, house\, and dancef
+ loor-forward selections\, while complimentary Burger Schmurger keeps the e
+  — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:droptuned|three-links-deep-ellum-dallas|11-00-pm-2026-09-26@letsdoitdal

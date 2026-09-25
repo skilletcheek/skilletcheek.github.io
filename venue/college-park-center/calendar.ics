@@ -9,29 +9,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:west-georgia-wolves-at-ut-arlington-mavericks-womens-volleyball|college
- -park-center-arlington|6-00-pm-2026-09-24@letsdoitdallas.com
-DTSTAMP:20260924T230000Z
-DTSTART:20260924T230000Z
-DTEND:20260925T020000Z
-SUMMARY:West Georgia Wolves at UT Arlington Mavericks Womens Volleyball
+UID:valkyries-at-wings-wnba-1st-rd-gm-2-hg-1-|college-park-center-arlington
+ |3-30-am-2026-09-29@letsdoitdallas.com
+DTSTAMP:20260929T083000Z
+DTSTART:20260929T083000Z
+DTEND:20260929T113000Z
+SUMMARY:Valkyries at Wings - WNBA 1st Rd (Gm 2\, HG 1)
 LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=west-georgia-wolves-at-ut
- -arlington-mavericks-womens-volleyball%7Ccollege-park-center-arlington%7C6
- -00-pm
-DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
- /letsdoitdallas.com/venue/college-park-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:tbd-at-wings-wnba-1st-rd-gm-2-hg-1-|college-park-center-arlington|3-30-
- am-2026-09-27@letsdoitdallas.com
-DTSTAMP:20260927T083000Z
-DTSTART:20260927T083000Z
-DTEND:20260927T113000Z
-SUMMARY:TBD at Wings - WNBA 1st Rd (Gm 2\, HG 1)
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=tbd-at-wings-wnba-1st-rd-
- gm-2-hg-1-%7Ccollege-park-center-arlington%7C3-30-am
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=valkyries-at-wings-wnba-1
+ st-rd-gm-2-hg-1-%7Ccollege-park-center-arlington%7C3-30-am
 DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/v
  enue/college-park-center/
 END:VEVENT

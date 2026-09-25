@@ -76,17 +76,17 @@ DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT
 BEGIN:VEVENT
-UID:brian-fallon|trees-dallas|doors-see-listing-2026-10-07@letsdoitdallas.c
- om
-DTSTAMP:20261007T000000Z
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
-SUMMARY:BRIAN FALLON
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=brian-fallon%7Ctrees-dall
- as%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+UID:brian-fallon-the-painkillers-with-tim-barry|trees-dallas-dallas|7-00-pm
+ -2026-10-07@letsdoitdallas.com
+DTSTAMP:20261008T000000Z
+DTSTART:20261008T000000Z
+DTEND:20261008T030000Z
+SUMMARY:Brian Fallon & The Painkillers with Tim Barry
+LOCATION:Trees - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=brian-fallon-the-painkill
+ ers-with-tim-barry%7Ctrees-dallas-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
 UID:hurricane-wisdom|trees-dallas|8-00-pm-2026-10-11@letsdoitdallas.com
@@ -148,6 +148,18 @@ SUMMARY:TOKI THE JAPANESE ELVIS
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=toki-the-japanese-elvis%7
  Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:maxo-kream|trees-dallas|doors-see-listing-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:MAXO KREAM
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=maxo-kream%7Ctrees-dallas
+ %7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT

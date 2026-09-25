@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mckinney-community-development-corporation-mcdc-|401-e-virginia-st-mcki
- nney|08-00-am-2026-09-24@letsdoitdallas.com
-DTSTAMP:20260924T130000Z
-DTSTART:20260924T130000Z
-DTEND:20260924T160000Z
-SUMMARY:McKinney Community Development Corporation (MCDC)
-LOCATION:401 E. Virginia St. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=mckinney-community-develo
- pment-corporation-mcdc-%7C401-e-virginia-st-mckinney%7C08-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:oktoberfest|111-n-tennessee-st-mckinney|05-00-pm-2026-09-25@letsdoitdal
  las.com
 DTSTAMP:20260925T220000Z
@@ -502,6 +490,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-08&e=crochet-club-6th-12th-gra
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
+ am-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261009T153000Z
+DTSTART:20261009T153000Z
+DTEND:20261009T183000Z
+SUMMARY:Toddler Time (16 Months-3 Years)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=toddler-time-16-months-3-
+ years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:share-the-arrows-2026|credit-union-of-texas-event-center-allen|9-00-am-
  2026-10-10@letsdoitdallas.com
 DTSTAMP:20261010T140000Z
@@ -536,6 +536,19 @@ DTEND:20261023T200000Z
 SUMMARY:Worlds 2026 - Swiss 1
 LOCATION:Credit Union of Texas Event Center · Allen
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=worlds-2026-swiss-1%7Ccre
+ dit-union-of-texas-event-center-allen%7C12-00-pm
+DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:worlds-2026-swiss-2|credit-union-of-texas-event-center-allen|12-00-pm-2
+ 026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T170000Z
+DTSTART:20261024T170000Z
+DTEND:20261024T200000Z
+SUMMARY:Worlds 2026 - Swiss 2
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=worlds-2026-swiss-2%7Ccre
  dit-union-of-texas-event-center-allen%7C12-00-pm
 DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/mckinney/

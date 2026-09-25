@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gable-price-and-friends-too-good-tour|the-echo-lounge-music-hall-dallas
- |7-00-pm-2026-09-24@letsdoitdallas.com
-DTSTAMP:20260925T000000Z
-DTSTART:20260925T000000Z
-DTEND:20260925T030000Z
-SUMMARY:Gable Price and Friends - Too Good Tour
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=gable-price-and-friends-t
- oo-good-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:ad-la-the-red-bottoms-tour|the-echo-lounge-music-hall-dallas|7-00-pm-20
  26-09-25@letsdoitdallas.com
 DTSTAMP:20260926T000000Z
@@ -98,6 +85,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-01&e=rebecca-black-exhibitioni
  sm-on-tour%7Cthe-echo-lounge-music-hall-dallas%7C8-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:mar-solis|the-echo-lounge-music-hall-dallas|7-00-pm-2026-10-08@letsdoit
+ dallas.com
+DTSTAMP:20261009T000000Z
+DTSTART:20261009T000000Z
+DTEND:20261009T030000Z
+SUMMARY:Mar Solis
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=mar-solis%7Cthe-echo-loun
+ ge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/the-echo-lounge-music-hall/
 END:VEVENT
 BEGIN:VEVENT
 UID:claire-rosinkranz-my-lover-tour|the-echo-lounge-music-hall-dallas|7-00-
@@ -243,5 +243,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=dax-the-anger-management-
  tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:glaive-god-save-the-three-tour|the-echo-lounge-music-hall-dallas|7-00-p
+ m-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:GLAIVE - GOD SAVE THE THREE TOUR
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=glaive-god-save-the-three
+ -tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/the-echo-lounge-music-hall/
 END:VEVENT
 END:VCALENDAR

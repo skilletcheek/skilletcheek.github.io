@@ -9,38 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
- |04-00-pm-2026-09-24@letsdoitdallas.com
-DTSTAMP:20260924T210000Z
-DTSTART:20260924T210000Z
-DTEND:20260925T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=teenz-place-after-school-
- hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
-DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
- eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
-  snacks while supplies last. Bring your friends! September 24\, 2026 04:00
-  PM - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garland 
- — More: https://letsdoitdallas.com/venue/north-garland-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:ayuda-con-medicare|biblioteca-north-garland-garland|06-00-pm-2026-09-24
- @letsdoitdallas.com
-DTSTAMP:20260924T230000Z
-DTSTART:20260924T230000Z
-DTEND:20260925T020000Z
-SUMMARY:Ayuda con Medicare
-LOCATION:Biblioteca North Garland
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=ayuda-con-medicare%7Cbibl
- ioteca-north-garland-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; ¿No sabes por dónde empezar con Medicare? Ven a l
- a Biblioteca de North Garland\, donde representantes de North Texas Medica
- re Advisors estarán disponibles para responder tus preguntas. September 2
- 4\, 2026 06:00 PM - 07:30 PM 3845 N. Garland Ave.Garland\, TX 75040 https:
- // — More: https://letsdoitdallas.com/venue/north-garland-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:toddler-time-18-36-months-|north-garland-library-garland|10-00-am-2026-
  09-25@letsdoitdallas.com
 DTSTAMP:20260925T150000Z
@@ -215,6 +183,25 @@ DESCRIPTION:11:00 a.m.\; Join us for a powerful two-part discussion series
  ounseling Without Limits. These sessions aim to raise awareness\, break do
  wn the stigma surrounding mental health\, and inspire individuals — espe
  ci — More: https://letsdoitdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-day-in-the-life-of-a-stem-student-presented-by-utd-biotech-club-ages-
+ 13-17-|north-garland-library-garland|02-30-pm-2026-10-03@letsdoitdallas.co
+ m
+DTSTAMP:20261003T193000Z
+DTSTART:20261003T193000Z
+DTEND:20261003T223000Z
+SUMMARY:A Day in the Life of a STEM Student: Presented by UTD Biotech Club 
+ (Ages 13-17)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=a-day-in-the-life-of-a-st
+ em-student-presented-by-utd-biotech-club-ages-13-17-%7Cnorth-garland-libra
+ ry-garland%7C02-30-pm
+DESCRIPTION:2:30 p.m.\; Participate in a hands-on ARDUINO workshop\, learn 
+ about STEM majors at UTD & hear from current students about their experien
+ ces! October 3\, 2026 02:30 PM - 04:00 PM 3845 N. Garland Ave.Garland\, TX
+  75040 https://www.garlandtx.gov/Calendar.aspx?EID=13405/6392586968900000 
+ — More: https://letsdoitdallas.com/venue/north-garland-library/
 END:VEVENT
 BEGIN:VEVENT
 UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland

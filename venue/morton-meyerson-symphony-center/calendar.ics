@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-symphony-orchestra-presents-schederazade-and-pablo-sainz-villega
- s|morton-meyerson-symphony-center-dallas|7-30-pm-2026-09-24@letsdoitdallas
- .com
-DTSTAMP:20260925T003000Z
-DTSTART:20260925T003000Z
-DTEND:20260925T033000Z
-SUMMARY:Dallas Symphony Orchestra Presents Schederazade and Pablo Sainz Vil
- legas
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=dallas-symphony-orchestra
- -presents-schederazade-and-pablo-sainz-villegas%7Cmorton-meyerson-symphony
- -center-dallas%7C7-30-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/venue/morton-meyerson-symphony-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-symphony-orchestra|morton-meyerson-symphony-center-dallas|7-30-p
  m-2026-09-26@letsdoitdallas.com
 DTSTAMP:20260927T003000Z
@@ -202,6 +186,20 @@ LOCATION:Morton Meyerson Symphony Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-22&e=dallas-symphony-orchestra
  -presents-rachmaninoff-and-schubert%7Cmorton-meyerson-symphony-center-dall
  as%7C6-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/morton-meyerson-symphony-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-rachmaninoff-and-schubert|morton-mey
+ erson-symphony-center-dallas|7-30-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261024T003000Z
+DTSTART:20261024T003000Z
+DTEND:20261024T033000Z
+SUMMARY:Dallas Symphony Orchestra Presents Rachmaninoff and Schubert
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=dallas-symphony-orchestra
+ -presents-rachmaninoff-and-schubert%7Cmorton-meyerson-symphony-center-dall
+ as%7C7-30-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/venue/morton-meyerson-symphony-center/
 END:VEVENT

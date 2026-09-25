@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:alicia-villarreal|the-pavilion-at-toyota-music-factory-irving|8-00-pm-2
- 026-09-24@letsdoitdallas.com
-DTSTAMP:20260925T010000Z
-DTSTART:20260925T010000Z
-DTEND:20260925T040000Z
-SUMMARY:Alicia Villarreal
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=alicia-villarreal%7Cthe-p
- avilion-at-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:freya-skye-stars-align-tour|the-pavilion-at-toyota-music-factory-irving
  |8-00-pm-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260928T010000Z
@@ -271,5 +258,32 @@ URL:https://letsdoitdallas.com/?date=2026-10-22&e=maria-jose-moenia-us-tour
  -2026%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
 DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/the-pavilion-at-toyota-music-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:brincos-dieras-el-desmadre-continua-tour-18-|the-pavilion-at-toyota-mus
+ ic-factory-irving|8-00-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Brincos Dieras - El Desmadre Continua Tour 18+
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=brincos-dieras-el-desmadr
+ e-continua-tour-18-%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-p
+ m
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/the-pavilion-at-toyota-music-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:casey-donahew-friends|the-pavilion-at-toyota-music-factory-irving|7-00-
+ pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Casey Donahew + Friends
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=casey-donahew-friends%7Ct
+ he-pavilion-at-toyota-music-factory-irving%7C7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/the-pavilion-at-toyota-music-factory/
 END:VEVENT
 END:VCALENDAR

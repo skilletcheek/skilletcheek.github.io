@@ -229,4 +229,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-22&e=dallas-stars-vs-winnipeg-
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/american-airlines-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-vs-san-antonio-spurs|american-airlines-center-dallas|7
+ -00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Dallas Mavericks vs. San Antonio Spurs
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=dallas-mavericks-vs-san-a
+ ntonio-spurs%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/american-airlines-center/
+END:VEVENT
 END:VCALENDAR

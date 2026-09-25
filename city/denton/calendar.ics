@@ -78,6 +78,20 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/city/denton/
 END:VEVENT
 BEGIN:VEVENT
+UID:florida-atlantic-womens-soccer-at-north-texas-womens-soccer|norma-knobe
+ l-hunt-stadium-denton|7-00-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261009T000000Z
+DTSTART:20261009T000000Z
+DTEND:20261009T030000Z
+SUMMARY:Florida Atlantic Womens Soccer at North Texas Womens Soccer
+LOCATION:Norma Knobel Hunt Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=florida-atlantic-womens-s
+ occer-at-north-texas-womens-soccer%7Cnorma-knobel-hunt-stadium-denton%7C7-
+ 00-pm
+DESCRIPTION:womens college soccer event via SeatGeek. — More: https://let
+ sdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
 UID:north-texas-mean-green-football-vs-unc-charlotte-49ers-football|datcu-s
  tadium-denton|see-details-2026-10-10@letsdoitdallas.com
 DTSTAMP:20261010T000000Z

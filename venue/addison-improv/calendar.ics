@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kelsey-cook|addison-improv-addison|7-30-pm-2026-09-24@letsdoitdallas.co
- m
-DTSTAMP:20260925T003000Z
-DTSTART:20260925T003000Z
-DTEND:20260925T033000Z
-SUMMARY:Kelsey Cook
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=kelsey-cook%7Caddison-imp
- rov-addison%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:kelsey-cook|addison-improv-addison|7-30-pm-2026-09-25@letsdoitdallas.co
  m
 DTSTAMP:20260926T003000Z
@@ -303,6 +290,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/addison-improv/
 END:VEVENT
 BEGIN:VEVENT
+UID:tales-from-the-dorkside|addison-improv-addison|7-00-pm-2026-10-15@letsd
+ oitdallas.com
+DTSTAMP:20261016T000000Z
+DTSTART:20261016T000000Z
+DTEND:20261016T030000Z
+SUMMARY:Tales from the Dorkside
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=tales-from-the-dorkside%7
+ Caddison-improv-addison%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
 UID:carlos-mencia|addison-improv-addison|7-30-pm-2026-10-16@letsdoitdallas.
  com
 DTSTAMP:20261017T003000Z
@@ -392,5 +392,44 @@ URL:https://letsdoitdallas.com/?date=2026-10-22&e=standoperos-la-t-mbola%7C
  addison-improv-addison%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:corey-holcomb|addison-improv-addison|7-30-pm-2026-10-23@letsdoitdallas.
+ com
+DTSTAMP:20261024T003000Z
+DTSTART:20261024T003000Z
+DTEND:20261024T033000Z
+SUMMARY:Corey Holcomb
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=corey-holcomb%7Caddison-i
+ mprov-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:corey-holcomb|addison-improv-addison|9-45-pm-2026-10-23@letsdoitdallas.
+ com
+DTSTAMP:20261024T024500Z
+DTSTART:20261024T024500Z
+DTEND:20261024T054500Z
+SUMMARY:Corey Holcomb
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=corey-holcomb%7Caddison-i
+ mprov-addison%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:corey-holcomb|addison-improv-addison|7-00-pm-2026-10-24@letsdoitdallas.
+ com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Corey Holcomb
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=corey-holcomb%7Caddison-i
+ mprov-addison%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
 END:VEVENT
 END:VCALENDAR

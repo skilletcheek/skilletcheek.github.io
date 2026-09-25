@@ -646,6 +646,19 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/at-t-stadium/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-10-07@
+ letsdoitdallas.com
+DTSTAMP:20261007T210000Z
+DTSTART:20261007T210000Z
+DTEND:20261008T000000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C4-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-cowboys-vs-tampa-bay-buccaneers|at-t-stadium-arlington|7-15-pm-2
  026-10-08@letsdoitdallas.com
 DTSTAMP:20261009T001500Z
@@ -670,5 +683,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-15&e=karol-g-viajando-por-el-m
  undo-tropitour%7Cat-t-stadium-arlington%7C7-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:ed-sheeran|at-t-stadium-arlington|5-30-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T223000Z
+DTSTART:20261024T223000Z
+DTEND:20261025T013000Z
+SUMMARY:Ed Sheeran
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=ed-sheeran%7Cat-t-stadium
+ -arlington%7C5-30-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/at-t-stadium/
 END:VEVENT
 END:VCALENDAR

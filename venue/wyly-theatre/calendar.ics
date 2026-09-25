@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wyly Theatre — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Wyly Theatre.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:lucy-darling-as-you-wish|wyly-theatre-dallas|7-30-pm-2026-10-22@letsdoi
+ tdallas.com
+DTSTAMP:20261023T003000Z
+DTSTART:20261023T003000Z
+DTEND:20261023T033000Z
+SUMMARY:Lucy Darling: As You Wish
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=lucy-darling-as-you-wish%
+ 7Cwyly-theatre-dallas%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/wyly-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:lucy-darling-as-you-wish|wyly-theatre-dallas|7-30-pm-2026-10-23@letsdoi
+ tdallas.com
+DTSTAMP:20261024T003000Z
+DTSTART:20261024T003000Z
+DTEND:20261024T033000Z
+SUMMARY:Lucy Darling: As You Wish
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=lucy-darling-as-you-wish%
+ 7Cwyly-theatre-dallas%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/wyly-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:lucy-darling-as-you-wish|wyly-theatre-dallas|5-00-pm-2026-10-24@letsdoi
+ tdallas.com
+DTSTAMP:20261024T220000Z
+DTSTART:20261024T220000Z
+DTEND:20261025T010000Z
+SUMMARY:Lucy Darling: As You Wish
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=lucy-darling-as-you-wish%
+ 7Cwyly-theatre-dallas%7C5-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/wyly-theatre/
+END:VEVENT
+END:VCALENDAR

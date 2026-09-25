@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:magenta-wave-junkyard-cat-clement-hall-tiny-joy|three-links-deep-ellum-
- dallas|7-30-pm-2026-09-24@letsdoitdallas.com
-DTSTAMP:20260925T003000Z
-DTSTART:20260925T003000Z
-DTEND:20260925T033000Z
-SUMMARY:Magenta Wave\, Junkyard Cat\, Clement Hall\, Tiny Joy
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=magenta-wave-junkyard-cat
- -clement-hall-tiny-joy%7Cthree-links-deep-ellum-dallas%7C7-30-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:lzr-prk|three-links-deep-ellum-dallas|11-00-pm-2026-09-24@letsdoitdalla
- s.com
-DTSTAMP:20260925T040000Z
-DTSTART:20260925T040000Z
-DTEND:20260925T070000Z
-SUMMARY:LZR PRK
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=lzr-prk%7Cthree-links-dee
- p-ellum-dallas%7C11-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:your-last-breath-2026-us-tour|three-links-deep-ellum-dallas|7-00-pm-202
  6-09-25@letsdoitdallas.com
 DTSTAMP:20260926T000000Z
@@ -438,5 +412,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=the-saint-cecilia%7Cthree
  -links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:visit-neptune-eileen-peyton-aston|three-links-deep-ellum-dallas|7-00-pm
+ -2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Visit Neptune\, Eileen\, Peyton Aston
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=visit-neptune-eileen-peyt
+ on-aston%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

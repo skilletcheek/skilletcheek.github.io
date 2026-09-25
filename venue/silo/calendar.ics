@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:holy-priest-18-and-over-|silo-dallas|9-00-pm-2026-09-24@letsdoitdallas.
- com
-DTSTAMP:20260925T020000Z
-DTSTART:20260925T020000Z
-DTEND:20260925T050000Z
-SUMMARY:Holy Priest (18 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-24&e=holy-priest-18-and-over-%
- 7Csilo-dallas%7C9-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:holy-priest-18-and-over-|silo-dallas|9-00-pm-2026-09-25@letsdoitdallas.
  com
 DTSTAMP:20260926T020000Z
@@ -216,6 +203,18 @@ SUMMARY:GorillaT - Ages 18+
 LOCATION:SILO · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-22&e=gorillat-ages-18-%7Csilo-
  dallas%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:kettama-18-|silo-dallas|9-00-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261024T020000Z
+DTSTART:20261024T020000Z
+DTEND:20261024T050000Z
+SUMMARY:Kettama (18+)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=kettama-18-%7Csilo-dallas
+ %7C9-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/silo/
 END:VEVENT
