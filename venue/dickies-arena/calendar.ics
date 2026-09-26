@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:-weird-al-yankovic-bigger-weirder-2026-tour|dickies-arena-fort-worth|8-
- 00-pm-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T010000Z
-DTSTART:20260926T010000Z
-DTEND:20260926T040000Z
-SUMMARY:"Weird Al" Yankovic: Bigger & Weirder 2026 Tour
-LOCATION:Dickies Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=-weird-al-yankovic-bigger
- -weirder-2026-tour%7Cdickies-arena-fort-worth%7C8-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/dickies-arena/
-END:VEVENT
-BEGIN:VEVENT
 UID:suites-phil-wickham-song-of-the-saints-tour|dickies-arena-fort-worth|7-
  00-pm-2026-09-26@letsdoitdallas.com
 DTSTAMP:20260927T000000Z

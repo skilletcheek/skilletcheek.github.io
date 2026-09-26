@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:savannah-bananas-vs-texas-tailgaters|globe-life-field-arlington|7-00-pm
- -2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART:20260926T000000Z
-DTEND:20260926T030000Z
-SUMMARY:Savannah Bananas vs. Texas Tailgaters
-LOCATION:Globe Life Field · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=savannah-bananas-vs-texas
- -tailgaters%7Cglobe-life-field-arlington%7C7-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/globe-life-field/
-END:VEVENT
-BEGIN:VEVENT
-UID:savannah-bananas-vs-texas-tailgaters|globe-life-field-arlington|7-00-pm
  -2026-09-26@letsdoitdallas.com
 DTSTAMP:20260927T000000Z
 DTSTART:20260927T000000Z

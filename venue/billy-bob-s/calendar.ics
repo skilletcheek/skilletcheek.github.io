@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:whitey-morgan-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-09-25@l
- etsdoitdallas.com
-DTSTAMP:20260926T030000Z
-DTSTART:20260926T030000Z
-DTEND:20260926T060000Z
-SUMMARY:Whitey Morgan (18 and Over)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=whitey-morgan-18-and-over
- -%7Cbilly-bob-s-fort-worth%7C10-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/billy-bob-s/
-END:VEVENT
-BEGIN:VEVENT
 UID:lone-star-murder-mystery-dinner-show|billy-bob-s-fort-worth|7-30-pm-202
  6-09-26@letsdoitdallas.com
 DTSTAMP:20260927T003000Z
@@ -163,5 +150,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=david-lee-murphy-18-event
  -%7Cbilly-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:gary-allan-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-24@letsdoi
+ tdallas.com
+DTSTAMP:20261025T030000Z
+DTSTART:20261025T030000Z
+DTEND:20261025T060000Z
+SUMMARY:Gary Allan (18+ Event)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=gary-allan-18-event-%7Cbi
+ lly-bob-s-fort-worth%7C10-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/billy-bob-s/
 END:VEVENT
 END:VCALENDAR

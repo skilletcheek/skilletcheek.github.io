@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-flinns-max-and-brittney-flinn|poor-david-s-pub-dallas|doors-see-lis
- ting-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260925T000000Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:The Flinns - Max and Brittney Flinn
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=the-flinns-max-and-brittn
- ey-flinn%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:creekbed-carter-hogan|poor-david-s-pub-dallas|doors-see-listing-2026-09
  -26@letsdoitdallas.com
 DTSTAMP:20260926T000000Z

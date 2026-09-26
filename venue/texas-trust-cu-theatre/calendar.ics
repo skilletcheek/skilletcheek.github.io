@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jungle|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-09-25@letsdoit
- dallas.com
-DTSTAMP:20260926T010000Z
-DTSTART:20260926T010000Z
-DTEND:20260926T040000Z
-SUMMARY:Jungle
-LOCATION:Texas Trust CU Theatre · Grand Prairie
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=jungle%7Ctexas-trust-cu-t
- heatre-grand-prairie%7C8-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/texas-trust-cu-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:kill-tony|texas-trust-cu-theatre-grand-prairie|7-00-pm-2026-09-26@letsd
  oitdallas.com
 DTSTAMP:20260927T000000Z
@@ -163,5 +150,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=cristian-castro%7Ctexas-t
  rust-cu-theatre-grand-prairie%7C8-00-pm
 DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/texas-trust-cu-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:grand-prairie-comedy-festival|texas-trust-cu-theatre-grand-prairie|8-00
+ -pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:Grand Prairie Comedy Festival
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=grand-prairie-comedy-fest
+ ival%7Ctexas-trust-cu-theatre-grand-prairie%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/texas-trust-cu-theatre/
 END:VEVENT
 END:VCALENDAR

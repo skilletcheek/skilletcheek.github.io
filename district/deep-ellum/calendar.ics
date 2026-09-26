@@ -10,71 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gothicumbia|trees-dallas|doors-see-listing-2026-09-25@letsdoitdallas.co
- m
-DTSTAMP:20260925T000000Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:GOTHICUMBIA
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=gothicumbia%7Ctrees-dalla
- s%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:fetty-p-franklin-live-in-dallas|club-dada-dallas|7-00-pm-2026-09-25@let
- sdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART:20260926T000000Z
-DTEND:20260926T030000Z
-SUMMARY:Fetty P. Franklin Live In Dallas
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=fetty-p-franklin-live-in-
- dallas%7Cclub-dada-dallas%7C7-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:your-last-breath-2026-us-tour|three-links-deep-ellum-dallas|7-00-pm-202
- 6-09-25@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART:20260926T000000Z
-DTEND:20260926T030000Z
-SUMMARY:Your Last Breath! 2026 US Tour
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=your-last-breath-2026-us-
- tour%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-jay-b-tape-roots|the-bomb-factory-dallas|7-30-pm-2026-09-25@letsdo
- itdallas.com
-DTSTAMP:20260926T003000Z
-DTSTART:20260926T003000Z
-DTEND:20260926T033000Z
-SUMMARY:2026 JAY B tape: roots
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=2026-jay-b-tape-roots%7Ct
- he-bomb-factory-dallas%7C7-30-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-09-25@letsdoitdall
- as.com
-DTSTAMP:20260926T040000Z
-DTSTART:20260926T040000Z
-DTEND:20260926T070000Z
-SUMMARY:DJ JREAM
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:jake-dexter-the-main-street-sound|trees-dallas|doors-see-listing-2026-0
  9-26@letsdoitdallas.com
 DTSTAMP:20260926T000000Z
@@ -336,6 +271,19 @@ SUMMARY:Earlybirds Club (21+ Event)
 LOCATION:The Studio at the Bomb Factory · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-03&e=earlybirds-club-21-event-
  %7Cthe-studio-at-the-bomb-factory-dallas%7C6-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:skins-party|three-links-deep-ellum-dallas|10-00-pm-2026-10-03@letsdoitd
+ allas.com
+DTSTAMP:20261004T030000Z
+DTSTART:20261004T030000Z
+DTEND:20261004T060000Z
+SUMMARY:Skins Party
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=skins-party%7Cthree-links
+ -deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/deep-ellum/
 END:VEVENT
@@ -934,5 +882,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=maxo-kream%7Ctrees-dallas
  %7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:viktoria-xo-rebirth-album-release-show|three-links-deep-ellum-dallas|7-
+ 00-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261026T000000Z
+DTSTART:20261026T000000Z
+DTEND:20261026T030000Z
+SUMMARY:Viktoria XO: Rebirth Album Release Show
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=viktoria-xo-rebirth-album
+ -release-show%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

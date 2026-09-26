@@ -9,17 +9,21 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fort-worth-symphony-orchestra|bass-performance-hall-fort-worth|7-30-pm-
- 2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T003000Z
-DTSTART:20260926T003000Z
-DTEND:20260926T033000Z
-SUMMARY:Fort Worth Symphony Orchestra
+UID:bass-performance-hall-tours|bass-performance-hall-525-commerce-street-f
+ ort-worth-76102-united-states|10-30-am-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T153000Z
+DTSTART:20260926T153000Z
+DTEND:20260926T183000Z
+SUMMARY:Bass Performance Hall Tours
 LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=fort-worth-symphony-orche
- stra%7Cbass-performance-hall-fort-worth%7C7-30-pm
-DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
- com/venue/bass-performance-hall/
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=bass-performance-hall-tou
+ rs%7Cbass-performance-hall-525-commerce-street-fort-worth-76102-united-sta
+ tes%7C10-30-am
+DESCRIPTION:Free docent-led tours of Bass Performance Hall are scheduled fo
+ r most Saturdays beginning at 10:30 a.m. in the Grand Lobby. These complim
+ entary tours include a history of the building\, access to lobby spaces\, 
+ and entry into the audience chamber whenever scheduling permits.  Reser 
+ — More: https://letsdoitdallas.com/venue/bass-performance-hall/
 END:VEVENT
 BEGIN:VEVENT
 UID:brahms-and-haydn-together|bass-performance-hall-fort-worth|7-30-pm-2026
@@ -124,6 +128,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-04&e=casanova%7Cbass-performan
  ce-hall-fort-worth%7C2-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:fort-worth-symphony-orchestra|bass-performance-hall-fort-worth|7-30-pm-
+ 2026-10-09@letsdoitdallas.com
+DTSTAMP:20261010T003000Z
+DTSTART:20261010T003000Z
+DTEND:20261010T033000Z
+SUMMARY:Fort Worth Symphony Orchestra
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=fort-worth-symphony-orche
+ stra%7Cbass-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
+ com/venue/bass-performance-hall/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-classical-style|bass-performance-hall-fort-worth|7-30-pm-2026-10-09

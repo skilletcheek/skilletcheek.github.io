@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bop-to-the-top-ages-18-up|tannahill-s-music-hall-lounge-fort-worth|9-00
- -pm-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T020000Z
-DTSTART:20260926T020000Z
-DTEND:20260926T050000Z
-SUMMARY:Bop To The Top - Ages 18 & Up
-LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=bop-to-the-top-ages-18-up
- %7Ctannahill-s-music-hall-lounge-fort-worth%7C9-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/tannahill-s-music-hall-lounge/
-END:VEVENT
-BEGIN:VEVENT
-UID:dean-stanfield|tannahill-s-music-hall-lounge-fort-worth|9-00-pm-2026-09
- -25@letsdoitdallas.com
-DTSTAMP:20260926T020000Z
-DTSTART:20260926T020000Z
-DTEND:20260926T050000Z
-SUMMARY:DEAN STANFIELD
-LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=dean-stanfield%7Ctannahil
- l-s-music-hall-lounge-fort-worth%7C9-00-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/tannahill-s-music-hall-lounge/
-END:VEVENT
-BEGIN:VEVENT
 UID:straight-tequila-night|tannahill-s-music-hall-lounge-fort-worth|9-00-pm
  -2026-09-26@letsdoitdallas.com
 DTSTAMP:20260927T020000Z

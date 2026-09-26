@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:oktoberfest|111-n-tennessee-st-mckinney|05-00-pm-2026-09-25@letsdoitdal
- las.com
-DTSTAMP:20260925T220000Z
-DTSTART:20260925T220000Z
-DTEND:20260926T010000Z
-SUMMARY:Oktoberfest
-LOCATION:111 N. Tennessee St. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=oktoberfest%7C111-n-tenne
- ssee-st-mckinney%7C05-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:last-saturday-of-the-month-workday|3339-alma-rd-mckinney|09-00-am-2026-
  09-26@letsdoitdallas.com
 DTSTAMP:20260926T140000Z
@@ -515,6 +503,42 @@ DESCRIPTION:Lecture/Seminar event via Ticketmaster. — More: https://letsd
  oitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:farmers-market-storytime-all-ages-10-am|315-s-chestnut-st-mckinney|10-0
+ 0-am-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T150000Z
+DTSTART:20261010T150000Z
+DTEND:20261010T180000Z
+SUMMARY:Farmers Market Storytime (All Ages) - 10 AM
+LOCATION:315 S Chestnut St · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=farmers-market-storytime-
+ all-ages-10-am%7C315-s-chestnut-st-mckinney%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-storytime-all-ages-|1201-e-louisiana-st-mckinney|10-30-am-2026-1
+ 0-10@letsdoitdallas.com
+DTSTAMP:20261010T153000Z
+DTSTART:20261010T153000Z
+DTEND:20261010T183000Z
+SUMMARY:Family Storytime (All Ages)
+LOCATION:1201 E. Louisiana St. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=family-storytime-all-ages
+ -%7C1201-e-louisiana-st-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-chess-meetup-all-ages-|6861-w-eldorado-parkway-mckinney|11-00-
+ am-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T160000Z
+DTSTART:20261010T160000Z
+DTEND:20261010T190000Z
+SUMMARY:Saturday Chess Meetup (All Ages)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=saturday-chess-meetup-all
+ -ages-%7C6861-w-eldorado-parkway-mckinney%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:be-like-blippi-tour|credit-union-of-texas-event-center-allen|2-00-pm-20
  26-10-11@letsdoitdallas.com
 DTSTAMP:20261011T190000Z
@@ -564,5 +588,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=wade-bowen%7Cthe-rook-mck
  inney%7C7-00-pm
 DESCRIPTION:Wade Bowen live at The Rook. Sold out. — More: https://letsdo
  itdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:worlds-2026-swiss-3|credit-union-of-texas-event-center-allen|12-00-pm-2
+ 026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T170000Z
+DTSTART:20261025T170000Z
+DTEND:20261025T200000Z
+SUMMARY:Worlds 2026 - Swiss 3
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=worlds-2026-swiss-3%7Ccre
+ dit-union-of-texas-event-center-allen%7C12-00-pm
+DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/mckinney/
 END:VEVENT
 END:VCALENDAR

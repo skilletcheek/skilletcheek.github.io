@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bob-schneider-early-show|the-kessler-theater-oak-cliff-dallas|doors-see
- -listing-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260925T000000Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:Bob Schneider - Early Show
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=bob-schneider-early-show%
- 7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/district/bishop-arts/
-END:VEVENT
-BEGIN:VEVENT
 UID:isaac-slade-formerly-of-the-fray-songs-i-know-solo-tour-2026|the-kessle
  r-theater-oak-cliff-dallas|doors-see-listing-2026-09-26@letsdoitdallas.com
 DTSTAMP:20260926T000000Z

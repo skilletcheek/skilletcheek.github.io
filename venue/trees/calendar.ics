@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gothicumbia|trees-dallas|doors-see-listing-2026-09-25@letsdoitdallas.co
- m
-DTSTAMP:20260925T000000Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:GOTHICUMBIA
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=gothicumbia%7Ctrees-dalla
- s%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
-END:VEVENT
-BEGIN:VEVENT
 UID:jake-dexter-the-main-street-sound|trees-dallas|doors-see-listing-2026-0
  9-26@letsdoitdallas.com
 DTSTAMP:20260926T000000Z

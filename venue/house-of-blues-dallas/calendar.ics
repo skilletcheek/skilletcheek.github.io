@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:that-s-not-me-comedy-tour-with-concrete-jerry-garcia-18-event|house-of-
- blues-dallas-dallas|6-30-pm-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260925T233000Z
-DTSTART:20260925T233000Z
-DTEND:20260926T023000Z
-SUMMARY:That's Not Me Comedy Tour with Concrete & Jerry Garcia - 18+ Event
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=that-s-not-me-comedy-tour
- -with-concrete-jerry-garcia-18-event%7Chouse-of-blues-dallas-dallas%7C6-30
- -pm
-DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:isaiah-falls-presents-lvrs-paradise-side-b-tour|house-of-blues-dallas-d
  allas|7-00-pm-2026-09-26@letsdoitdallas.com
 DTSTAMP:20260927T000000Z
@@ -242,5 +228,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=jon-b-%7Chouse-of-blues-d
  allas-dallas%7C7-00-pm
 DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:shyne-2622-lgnd-tour-with-barrington-levy-and-lil-cease|house-of-blues-
+ dallas-dallas|7-00-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261026T000000Z
+DTSTART:20261026T000000Z
+DTEND:20261026T030000Z
+SUMMARY:SHYNE: 2622 LGND Tour with Barrington Levy and Lil' Cease
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=shyne-2622-lgnd-tour-with
+ -barrington-levy-and-lil-cease%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/house-of-blues-dallas/
 END:VEVENT
 END:VCALENDAR

@@ -10,70 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ad-la-the-red-bottoms-tour|the-echo-lounge-music-hall-dallas|7-00-pm-20
- 26-09-25@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART:20260926T000000Z
-DTEND:20260926T030000Z
-SUMMARY:ADÉLA: The Red Bottoms Tour
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=ad-la-the-red-bottoms-tou
- r%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-motet|am-fm-dallas-dallas|7-00-pm-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART:20260926T000000Z
-DTEND:20260926T030000Z
-SUMMARY:The Motet
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=the-motet%7Cam-fm-dallas-
- dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:adela|the-echo-lounge-music-hall-dallas|8-00-pm-2026-09-25@letsdoitdall
- as.com
-DTSTAMP:20260926T010000Z
-DTSTART:20260926T010000Z
-DTEND:20260926T040000Z
-SUMMARY:Adela
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=adela%7Cthe-echo-lounge-m
- usic-hall-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:holy-priest-18-and-over-|silo-dallas|9-00-pm-2026-09-25@letsdoitdallas.
- com
-DTSTAMP:20260926T020000Z
-DTSTART:20260926T020000Z
-DTEND:20260926T050000Z
-SUMMARY:Holy Priest (18 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=holy-priest-18-and-over-%
- 7Csilo-dallas%7C9-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:steel-beans-ages-18-|am-fm-dallas-dallas|9-30-pm-2026-09-25@letsdoitdal
- las.com
-DTSTAMP:20260926T023000Z
-DTSTART:20260926T023000Z
-DTEND:20260926T053000Z
-SUMMARY:Steel Beans - Ages 18+
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=steel-beans-ages-18-%7Cam
- -fm-dallas-dallas%7C9-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:mustard-service|am-fm-dallas-dallas|6-30-pm-2026-09-26@letsdoitdallas.c
  om
 DTSTAMP:20260926T233000Z
@@ -593,5 +529,54 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=glaive-god-save-the-three
  -tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:mom-jeans|am-fm-dallas-dallas|7-30-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T003000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T033000Z
+SUMMARY:Mom Jeans
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=mom-jeans%7Cam-fm-dallas-
+ dallas%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:san-holo-18-and-over-|silo-dallas|9-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T020000Z
+DTSTART:20261025T020000Z
+DTEND:20261025T050000Z
+SUMMARY:San Holo (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=san-holo-18-and-over-%7Cs
+ ilo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:lukas-frank-ages-21-|silo-dallas|5-00-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T220000Z
+DTSTART:20261025T220000Z
+DTEND:20261026T010000Z
+SUMMARY:Lukas & Frank - Ages 21+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=lukas-frank-ages-21-%7Csi
+ lo-dallas%7C5-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:ruslan-kd-godly-ambition-tour-|the-echo-lounge-music-hall-dallas|6-00-p
+ m-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T230000Z
+DTSTART:20261025T230000Z
+DTEND:20261026T020000Z
+SUMMARY:RUSLAN KD "GODLY AMBITION TOUR"
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=ruslan-kd-godly-ambition-
+ tour-%7Cthe-echo-lounge-music-hall-dallas%7C6-00-pm
+DESCRIPTION:Multimedia event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/design-district/
 END:VEVENT
 END:VCALENDAR

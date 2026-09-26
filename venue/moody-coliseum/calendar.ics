@@ -9,21 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:smu-mustangs-womens-volleyball-vs-stanford-cardinal-womens-volleyball|m
- oody-coliseum-dallas|8-00-pm-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T010000Z
-DTSTART:20260926T010000Z
-DTEND:20260926T040000Z
-SUMMARY:SMU Mustangs Womens Volleyball vs. Stanford Cardinal Womens Volleyb
- all
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=smu-mustangs-womens-volle
- yball-vs-stanford-cardinal-womens-volleyball%7Cmoody-coliseum-dallas%7C8-0
- 0-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-california-golden-bears-womens-volley
  ball|moody-coliseum-dallas|1-00-pm-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260927T180000Z

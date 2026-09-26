@@ -10,20 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ween-tribute-awesome-sound-nirvana-tribute-oatmeal-pizza|granada-theate
- r-lower-greenville-dallas|doors-see-listing-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260925T000000Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:WEEN TRIBUTE - Awesome Sound & NIRVANA TRIBUTE - Oatmeal Pizza
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=ween-tribute-awesome-soun
- d-nirvana-tribute-oatmeal-pizza%7Cgranada-theater-lower-greenville-dallas%
- 7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
- istrict/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:blondie-ramones-tribute-blondie-ramone-w-dead-kennedys-tribute-dua|gran
  ada-theater-lower-greenville-dallas|doors-see-listing-2026-09-26@letsdoitd
  allas.com
@@ -405,5 +391,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=rock-the-club%7Cgranada-t
  heater-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
  istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-halloween-movie-month-the-crow|sundown-at-granada-lower-greenville
+ -dallas|doors-see-listing-2026-10-26@letsdoitdallas.com
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:FREE Halloween Movie Month: THE CROW
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=free-halloween-movie-mont
+ h-the-crow%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listin
+ g
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
 END:VEVENT
 END:VCALENDAR

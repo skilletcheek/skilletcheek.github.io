@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:your-last-breath-2026-us-tour|three-links-deep-ellum-dallas|7-00-pm-202
- 6-09-25@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART:20260926T000000Z
-DTEND:20260926T030000Z
-SUMMARY:Your Last Breath! 2026 US Tour
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=your-last-breath-2026-us-
- tour%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-09-25@letsdoitdall
- as.com
-DTSTAMP:20260926T040000Z
-DTSTART:20260926T040000Z
-DTEND:20260926T070000Z
-SUMMARY:DJ JREAM
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-number-twelve-looks-like-you-kaonashi-hoping-all-theories-exist|thr
  ee-links-deep-ellum-dallas|7-00-pm-2026-09-26@letsdoitdallas.com
 DTSTAMP:20260927T000000Z
@@ -191,6 +165,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-02&e=apex-fallen-all-is-taken-
  spinecell%7Cthree-links-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:skins-party|three-links-deep-ellum-dallas|10-00-pm-2026-10-03@letsdoitd
+ allas.com
+DTSTAMP:20261004T030000Z
+DTSTART:20261004T030000Z
+DTEND:20261004T060000Z
+SUMMARY:Skins Party
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=skins-party%7Cthree-links
+ -deep-ellum-dallas%7C10-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-04@letsdoitd
@@ -436,6 +423,19 @@ SUMMARY:Visit Neptune\, Eileen\, Peyton Aston
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=visit-neptune-eileen-peyt
  on-aston%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:viktoria-xo-rebirth-album-release-show|three-links-deep-ellum-dallas|7-
+ 00-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261026T000000Z
+DTSTART:20261026T000000Z
+DTEND:20261026T030000Z
+SUMMARY:Viktoria XO: Rebirth Album Release Show
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=viktoria-xo-rebirth-album
+ -release-show%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
 END:VEVENT

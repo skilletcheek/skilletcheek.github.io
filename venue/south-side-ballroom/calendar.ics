@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:frank-turner-lost-evenings-ix|south-side-ballroom-dallas|6-00-pm-2026-0
- 9-25@letsdoitdallas.com
-DTSTAMP:20260925T230000Z
-DTSTART:20260925T230000Z
-DTEND:20260926T020000Z
-SUMMARY:Frank Turner - Lost Evenings IX
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=frank-turner-lost-evening
- s-ix%7Csouth-side-ballroom-dallas%7C6-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/south-side-ballroom/
-END:VEVENT
-BEGIN:VEVENT
-UID:frank-turner-lost-evenings-ix|south-side-ballroom-dallas|6-00-pm-2026-0
  9-26@letsdoitdallas.com
 DTSTAMP:20260926T230000Z
 DTSTART:20260926T230000Z

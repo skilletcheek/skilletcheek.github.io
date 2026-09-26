@@ -203,4 +203,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=dallas-symphony-orchestra
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/venue/morton-meyerson-symphony-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-rachmaninoff-and-schubert|morton-mey
+ erson-symphony-center-dallas|7-30-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T003000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T033000Z
+SUMMARY:Dallas Symphony Orchestra Presents Rachmaninoff and Schubert
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=dallas-symphony-orchestra
+ -presents-rachmaninoff-and-schubert%7Cmorton-meyerson-symphony-center-dall
+ as%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/morton-meyerson-symphony-center/
+END:VEVENT
 END:VCALENDAR

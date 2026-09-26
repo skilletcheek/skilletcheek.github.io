@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-09-25@letsdoitdall
- as.com
-DTSTAMP:20260926T040000Z
-DTSTART:20260926T040000Z
-DTEND:20260926T070000Z
-SUMMARY:DJ JREAM
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:matinee-boogies-x-dallasites|boogie-s-dallas-dallas|5-00-pm-11-00-pm-20
  26-09-26@letsdoitdallas.com
 DTSTAMP:20260926T220000Z
@@ -140,6 +127,19 @@ SUMMARY:Wub Wednesday
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-09-30&e=wub-wednesday%7Cthree-lin
  ks-deep-ellum-dallas%7C10-30-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:skins-party|three-links-deep-ellum-dallas|10-00-pm-2026-10-03@letsdoitd
+ allas.com
+DTSTAMP:20261004T030000Z
+DTSTART:20261004T030000Z
+DTEND:20261004T060000Z
+SUMMARY:Skins Party
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=skins-party%7Cthree-links
+ -deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/free-events/
 END:VEVENT
@@ -410,5 +410,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=invasion-car-show%7Ctrees
  -dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/free-events
  /
+END:VEVENT
+BEGIN:VEVENT
+UID:free-halloween-movie-month-the-crow|sundown-at-granada-lower-greenville
+ -dallas|doors-see-listing-2026-10-26@letsdoitdallas.com
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:FREE Halloween Movie Month: THE CROW
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=free-halloween-movie-mont
+ h-the-crow%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listin
+ g
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/free-events/
 END:VEVENT
 END:VCALENDAR

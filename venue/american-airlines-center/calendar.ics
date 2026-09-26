@@ -242,4 +242,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=dallas-mavericks-vs-san-a
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/american-airlines-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:dallas-stars-vs-new-york-islanders|american-airlines-center-dallas|5-00
+ -pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T220000Z
+DTSTART:20261025T220000Z
+DTEND:20261026T010000Z
+SUMMARY:Dallas Stars vs. New York Islanders
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=dallas-stars-vs-new-york-
+ islanders%7Camerican-airlines-center-dallas%7C5-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/american-airlines-center/
+END:VEVENT
 END:VCALENDAR

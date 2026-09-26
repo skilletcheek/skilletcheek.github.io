@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Toyota Stadium — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Toyota Stadium.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fc-dallas-vs-los-angeles-football-club|toyota-stadium-frisco|7-30-pm-20
+ 26-09-26@letsdoitdallas.com
+DTSTAMP:20260927T003000Z
+DTSTART:20260927T003000Z
+DTEND:20260927T033000Z
+SUMMARY:FC Dallas vs. Los Angeles Football Club
+LOCATION:Toyota Stadium · Frisco
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=fc-dallas-vs-los-angeles-
+ football-club%7Ctoyota-stadium-frisco%7C7-30-pm
+DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/toyota-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:fc-dallas-vs-seattle-sounders-fc|toyota-stadium-frisco|7-30-pm-2026-10-
+ 14@letsdoitdallas.com
+DTSTAMP:20261015T003000Z
+DTSTART:20261015T003000Z
+DTEND:20261015T033000Z
+SUMMARY:FC Dallas vs. Seattle Sounders FC
+LOCATION:Toyota Stadium · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=fc-dallas-vs-seattle-soun
+ ders-fc%7Ctoyota-stadium-frisco%7C7-30-pm
+DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/toyota-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:fc-dallas-vs-san-jose-earthquakes|toyota-stadium-frisco|7-30-pm-2026-10
+ -24@letsdoitdallas.com
+DTSTAMP:20261025T003000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T033000Z
+SUMMARY:FC Dallas vs. San Jose Earthquakes
+LOCATION:Toyota Stadium · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=fc-dallas-vs-san-jose-ear
+ thquakes%7Ctoyota-stadium-frisco%7C7-30-pm
+DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/toyota-stadium/
+END:VEVENT
+END:VCALENDAR

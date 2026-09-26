@@ -10,71 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-09-25@
- letsdoitdallas.com
-DTSTAMP:20260925T200000Z
-DTSTART:20260925T200000Z
-DTEND:20260925T230000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C3-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:savannah-bananas-vs-texas-tailgaters|globe-life-field-arlington|7-00-pm
- -2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART:20260926T000000Z
-DTEND:20260926T030000Z
-SUMMARY:Savannah Bananas vs. Texas Tailgaters
-LOCATION:Globe Life Field · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=savannah-bananas-vs-texas
- -tailgaters%7Cglobe-life-field-arlington%7C7-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:ryan-davis|arlington-improv-arlington|7-30-pm-2026-09-25@letsdoitdallas
- .com
-DTSTAMP:20260926T003000Z
-DTSTART:20260926T003000Z
-DTEND:20260926T033000Z
-SUMMARY:Ryan Davis
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=ryan-davis%7Carlington-im
- prov-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-fabulous-thunderbirds|arlington-music-hall-arlington|8-00-pm-2026-0
- 9-25@letsdoitdallas.com
-DTSTAMP:20260926T010000Z
-DTSTART:20260926T010000Z
-DTEND:20260926T040000Z
-SUMMARY:The Fabulous Thunderbirds
-LOCATION:Arlington Music Hall
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=the-fabulous-thunderbirds
- %7Carlington-music-hall-arlington%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:ryan-davis|arlington-improv-arlington|9-45-pm-2026-09-25@letsdoitdallas
- .com
-DTSTAMP:20260926T024500Z
-DTSTART:20260926T024500Z
-DTEND:20260926T054500Z
-SUMMARY:Ryan Davis
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=ryan-davis%7Carlington-im
- prov-arlington%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-09-26
  @letsdoitdallas.com
 DTSTAMP:20260926T150000Z
@@ -1080,6 +1015,19 @@ DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:tbd-at-wings-wnba-semis-gm-4-hg-2-|college-park-center-arlington|3-30-a
+ m-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261009T083000Z
+DTSTART:20261009T083000Z
+DTEND:20261009T113000Z
+SUMMARY:TBD at Wings - WNBA Semis (Gm 4\, HG 2)
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=tbd-at-wings-wnba-semis-g
+ m-4-hg-2-%7Ccollege-park-center-arlington%7C3-30-am
+DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/d
+ istrict/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:zainab-johnson|arlington-improv-arlington|7-00-pm-2026-10-09@letsdoitda
  llas.com
 DTSTAMP:20261010T000000Z
@@ -1374,6 +1322,32 @@ SUMMARY:DC Young Fly
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=dc-young-fly%7Carlington-
  improv-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:dc-young-fly|arlington-improv-arlington|9-30-pm-2026-10-24@letsdoitdall
+ as.com
+DTSTAMP:20261025T023000Z
+DTSTART:20261025T023000Z
+DTEND:20261025T053000Z
+SUMMARY:DC Young Fly
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=dc-young-fly%7Carlington-
+ improv-arlington%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:dc-young-fly|arlington-improv-arlington|6-00-pm-2026-10-25@letsdoitdall
+ as.com
+DTSTAMP:20261025T230000Z
+DTSTART:20261025T230000Z
+DTEND:20261026T020000Z
+SUMMARY:DC Young Fly
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=dc-young-fly%7Carlington-
+ improv-arlington%7C6-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT

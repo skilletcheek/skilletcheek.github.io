@@ -10,58 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:an-evening-with-tyler-fischer|punch-line-irving-irving|7-30-pm-2026-09-
- 25@letsdoitdallas.com
-DTSTAMP:20260926T003000Z
-DTSTART:20260926T003000Z
-DTEND:20260926T033000Z
-SUMMARY:An Evening With Tyler Fischer
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=an-evening-with-tyler-fis
- cher%7Cpunch-line-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:tyler-fischer-rescheduled-from-1-23-26-|punch-line-dallas-irvine-irving
- |7-30-pm-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T003000Z
-DTSTART:20260926T003000Z
-DTEND:20260926T033000Z
-SUMMARY:Tyler Fischer (Rescheduled from 1/23/26)
-LOCATION:Punch Line Dallas - Irvine · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=tyler-fischer-rescheduled
- -from-1-23-26-%7Cpunch-line-dallas-irvine-irving%7C7-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:an-evening-with-tyler-fischer|punch-line-irving-irving|9-45-pm-2026-09-
- 25@letsdoitdallas.com
-DTSTAMP:20260926T024500Z
-DTSTART:20260926T024500Z
-DTEND:20260926T054500Z
-SUMMARY:An Evening With Tyler Fischer
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=an-evening-with-tyler-fis
- cher%7Cpunch-line-irving-irving%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:tyler-fischer-rescheduled-from-1-23-26-|punch-line-dallas-irvine-irving
- |9-45-pm-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T024500Z
-DTSTART:20260926T024500Z
-DTEND:20260926T054500Z
-SUMMARY:Tyler Fischer (Rescheduled from 1/23/26)
-LOCATION:Punch Line Dallas - Irvine · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=tyler-fischer-rescheduled
- -from-1-23-26-%7Cpunch-line-dallas-irvine-irving%7C9-45-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:an-evening-with-tyler-fischer|punch-line-irving-irving|7-00-pm-2026-09-
  26@letsdoitdallas.com
 DTSTAMP:20260927T000000Z
@@ -833,5 +781,57 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=finesse-mitchell%7Cpunch-
  line-irving-irving%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:andrew-orolfo|punch-line-irving-irving|9-15-pm-2026-10-24@letsdoitdalla
+ s.com
+DTSTAMP:20261025T021500Z
+DTSTART:20261025T021500Z
+DTEND:20261025T051500Z
+SUMMARY:Andrew Orolfo
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=andrew-orolfo%7Cpunch-lin
+ e-irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:finesse-mitchell|punch-line-irving-irving|9-15-pm-2026-10-24@letsdoitda
+ llas.com
+DTSTAMP:20261025T021500Z
+DTSTART:20261025T021500Z
+DTEND:20261025T051500Z
+SUMMARY:Finesse Mitchell
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=finesse-mitchell%7Cpunch-
+ line-irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:joanne-mcnally-pinotphile|punch-line-irving-irving|7-00-pm-2026-10-25@l
+ etsdoitdallas.com
+DTSTAMP:20261026T000000Z
+DTSTART:20261026T000000Z
+DTEND:20261026T030000Z
+SUMMARY:Joanne McNally: Pinotphile
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=joanne-mcnally-pinotphile
+ %7Cpunch-line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:sin-bandera-us-escenas-tour|the-pavilion-at-toyota-music-factory-irving
+ |7-00-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261026T000000Z
+DTSTART:20261026T000000Z
+DTEND:20261026T030000Z
+SUMMARY:SIN BANDERA - US ESCENAS TOUR
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=sin-bandera-us-escenas-to
+ ur%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/irving/
 END:VEVENT
 END:VCALENDAR

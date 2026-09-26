@@ -97,6 +97,19 @@ DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:donizetti-s-the-elixir-of-love-dallas|margot-and-bill-winspear-opera-ho
+ use-dallas|8-00-pm-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261010T010000Z
+DTSTART:20261010T010000Z
+DTEND:20261010T040000Z
+SUMMARY:Donizetti's The Elixir of Love - Dallas
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=donizetti-s-the-elixir-of
+ -love-dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C8-00-pm
+DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-disney-s-hocus-pocus-in-concert-live
  -to-film|morton-meyerson-symphony-center-dallas|7-30-pm-2026-10-10@letsdoi
  tdallas.com
@@ -199,6 +212,20 @@ DTEND:20261024T033000Z
 SUMMARY:Dallas Symphony Orchestra Presents Rachmaninoff and Schubert
 LOCATION:Morton Meyerson Symphony Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=dallas-symphony-orchestra
+ -presents-rachmaninoff-and-schubert%7Cmorton-meyerson-symphony-center-dall
+ as%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-rachmaninoff-and-schubert|morton-mey
+ erson-symphony-center-dallas|7-30-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T003000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T033000Z
+SUMMARY:Dallas Symphony Orchestra Presents Rachmaninoff and Schubert
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=dallas-symphony-orchestra
  -presents-rachmaninoff-and-schubert%7Cmorton-meyerson-symphony-center-dall
  as%7C7-30-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal

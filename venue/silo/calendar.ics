@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:holy-priest-18-and-over-|silo-dallas|9-00-pm-2026-09-25@letsdoitdallas.
- com
-DTSTAMP:20260926T020000Z
-DTSTART:20260926T020000Z
-DTEND:20260926T050000Z
-SUMMARY:Holy Priest (18 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=holy-priest-18-and-over-%
- 7Csilo-dallas%7C9-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:zack-fox-dj|silo-dallas|9-00-pm-2026-09-26@letsdoitdallas.com
 DTSTAMP:20260927T020000Z
 DTSTART:20260927T020000Z
@@ -215,6 +202,30 @@ SUMMARY:Kettama (18+)
 LOCATION:SILO · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=kettama-18-%7Csilo-dallas
  %7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:san-holo-18-and-over-|silo-dallas|9-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T020000Z
+DTSTART:20261025T020000Z
+DTEND:20261025T050000Z
+SUMMARY:San Holo (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=san-holo-18-and-over-%7Cs
+ ilo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:lukas-frank-ages-21-|silo-dallas|5-00-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T220000Z
+DTSTART:20261025T220000Z
+DTEND:20261026T010000Z
+SUMMARY:Lukas & Frank - Ages 21+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=lukas-frank-ages-21-%7Csi
+ lo-dallas%7C5-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/silo/
 END:VEVENT

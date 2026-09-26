@@ -9,31 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-motet|am-fm-dallas-dallas|7-00-pm-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART:20260926T000000Z
-DTEND:20260926T030000Z
-SUMMARY:The Motet
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=the-motet%7Cam-fm-dallas-
- dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/am-fm-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:steel-beans-ages-18-|am-fm-dallas-dallas|9-30-pm-2026-09-25@letsdoitdal
- las.com
-DTSTAMP:20260926T023000Z
-DTSTART:20260926T023000Z
-DTEND:20260926T053000Z
-SUMMARY:Steel Beans - Ages 18+
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=steel-beans-ages-18-%7Cam
- -fm-dallas-dallas%7C9-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/am-fm-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:mustard-service|am-fm-dallas-dallas|6-30-pm-2026-09-26@letsdoitdallas.c
  om
 DTSTAMP:20260926T233000Z
@@ -120,5 +95,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-22&e=edgehill%7Cam-fm-dallas-d
  allas%7C7-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:mom-jeans|am-fm-dallas-dallas|7-30-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T003000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T033000Z
+SUMMARY:Mom Jeans
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=mom-jeans%7Cam-fm-dallas-
+ dallas%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/am-fm-dallas/
 END:VEVENT
 END:VCALENDAR

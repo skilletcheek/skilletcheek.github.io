@@ -10,59 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-flinns-max-and-brittney-flinn|poor-david-s-pub-dallas|doors-see-lis
- ting-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260925T000000Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:The Flinns - Max and Brittney Flinn
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=the-flinns-max-and-brittn
- ey-flinn%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:frank-turner-lost-evenings-ix|south-side-ballroom-dallas|6-00-pm-2026-0
- 9-25@letsdoitdallas.com
-DTSTAMP:20260925T230000Z
-DTSTART:20260925T230000Z
-DTEND:20260926T020000Z
-SUMMARY:Frank Turner - Lost Evenings IX
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=frank-turner-lost-evening
- s-ix%7Csouth-side-ballroom-dallas%7C6-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:that-s-not-me-comedy-tour-with-concrete-jerry-garcia-18-event|house-of-
- blues-dallas-dallas|6-30-pm-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260925T233000Z
-DTSTART:20260925T233000Z
-DTEND:20260926T023000Z
-SUMMARY:That's Not Me Comedy Tour with Concrete & Jerry Garcia - 18+ Event
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=that-s-not-me-comedy-tour
- -with-concrete-jerry-garcia-18-event%7Chouse-of-blues-dallas-dallas%7C6-30
- -pm
-DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:saint-harison-presents-the-ghosted-tour|the-cambridge-room-at-house-of-
- blues-dallas|7-00-pm-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART:20260926T000000Z
-DTEND:20260926T030000Z
-SUMMARY:saint harison presents the ghosted tour
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=saint-harison-presents-th
- e-ghosted-tour%7Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:creekbed-carter-hogan|poor-david-s-pub-dallas|doors-see-listing-2026-09
  -26@letsdoitdallas.com
 DTSTAMP:20260926T000000Z
@@ -74,6 +21,22 @@ URL:https://letsdoitdallas.com/?date=2026-09-26&e=creekbed-carter-hogan%7Cp
  oor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-09-26@letsdoitdallas.com
+DTSTAMP:20260926T130000Z
+DTSTART:20260926T130000Z
+DTEND:20260926T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-26&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:frank-turner-lost-evenings-ix|south-side-ballroom-dallas|6-00-pm-2026-0
@@ -1210,5 +1173,70 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=dallas-mavericks-vs-san-a
  ntonio-spurs%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:iron-and-wine|majestic-theatre-dallas-dallas|8-00-pm-2026-10-24@letsdoi
+ tdallas.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:Iron and Wine
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=iron-and-wine%7Cmajestic-
+ theatre-dallas-dallas%7C8-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:killer-queen|longhorn-ballroom-backyard-amphitheater-dallas|8-00-pm-202
+ 6-10-24@letsdoitdallas.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:Killer Queen
+LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=killer-queen%7Clonghorn-b
+ allroom-backyard-amphitheater-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-stars-vs-new-york-islanders|american-airlines-center-dallas|5-00
+ -pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T220000Z
+DTSTART:20261025T220000Z
+DTEND:20261026T010000Z
+SUMMARY:Dallas Stars vs. New York Islanders
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=dallas-stars-vs-new-york-
+ islanders%7Camerican-airlines-center-dallas%7C5-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:shyne-2622-lgnd-tour-with-barrington-levy-and-lil-cease|house-of-blues-
+ dallas-dallas|7-00-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261026T000000Z
+DTSTART:20261026T000000Z
+DTEND:20261026T030000Z
+SUMMARY:SHYNE: 2622 LGND Tour with Barrington Levy and Lil' Cease
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=shyne-2622-lgnd-tour-with
+ -barrington-levy-and-lil-cease%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-billy-joel-legacy|majestic-theatre-dallas-dallas|7-00-pm-2026-10-25
+ @letsdoitdallas.com
+DTSTAMP:20261026T000000Z
+DTSTART:20261026T000000Z
+DTEND:20261026T030000Z
+SUMMARY:The Billy Joel Legacy
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=the-billy-joel-legacy%7Cm
+ ajestic-theatre-dallas-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

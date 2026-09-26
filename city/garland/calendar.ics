@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
- -state-street-garland|07-30-pm-2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T003000Z
-DTSTART:20260926T003000Z
-DTEND:20260926T033000Z
-SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
-LOCATION:521 W State Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=little-shop-of-horrors-pr
- esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C07
- -30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-09-26@letsd
  oitdallas.com
 DTSTAMP:20260926T150000Z
@@ -948,5 +935,33 @@ URL:https://letsdoitdallas.com/?date=2026-10-09&e=mijares%7Ccurtis-culwell-
  center-garland%7C8-00-pm
 DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
  com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:fire-safety-week|west-garland-library-garland|10-00-am-2026-10-10@letsd
+ oitdallas.com
+DTSTAMP:20261010T150000Z
+DTSTART:20261010T150000Z
+DTEND:20261010T180000Z
+SUMMARY:Fire Safety Week
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=fire-safety-week%7Cwest-g
+ arland-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Stop\, drop and roll with West! Join us for a fun-
+ filled Fire Safety Week featuring a real fire truck “Touch-a-Truck” ex
+ perience\, an exciting firefighter-led storytime\, and hands-on crafts and
+  activities. It’s the perfect mix of fun and learning. You don’t want 
+ to miss — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:anything-goes-presented-by-garland-civic-theatre|300-n-fifth-street-gar
+ land|07-30-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261011T003000Z
+DTSTART:20261011T003000Z
+DTEND:20261011T033000Z
+SUMMARY:Anything Goes presented by Garland Civic Theatre
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=anything-goes-presented-b
+ y-garland-civic-theatre%7C300-n-fifth-street-garland%7C07-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 END:VCALENDAR

@@ -9,58 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:monty-franklin|hyena-s-comedy-night-club-fort-worth-fort-worth|7-00-pm-
- 2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART:20260926T000000Z
-DTEND:20260926T030000Z
-SUMMARY:Monty Franklin
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=monty-franklin%7Chyena-s-
- comedy-night-club-fort-worth-fort-worth%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/hyena-s-comedy-night-club-fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:willie-barcena|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm-
- 2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T010000Z
-DTSTART:20260926T010000Z
-DTEND:20260926T040000Z
-SUMMARY:Willie Barcena
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=willie-barcena%7Chyena-s-
- comedy-night-club-fort-worth-fort-worth%7C8-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/hyena-s-comedy-night-club-fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:monty-franklin|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-pm-
- 2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T023000Z
-DTSTART:20260926T023000Z
-DTEND:20260926T053000Z
-SUMMARY:Monty Franklin
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=monty-franklin%7Chyena-s-
- comedy-night-club-fort-worth-fort-worth%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/hyena-s-comedy-night-club-fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:willie-barcena|hyena-s-comedy-night-club-fort-worth-fort-worth|10-00-pm
- -2026-09-25@letsdoitdallas.com
-DTSTAMP:20260926T030000Z
-DTSTART:20260926T030000Z
-DTEND:20260926T060000Z
-SUMMARY:Willie Barcena
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-09-25&e=willie-barcena%7Chyena-s-
- comedy-night-club-fort-worth-fort-worth%7C10-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/hyena-s-comedy-night-club-fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:rocky-dale-davis|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-p
  m-2026-10-02@letsdoitdallas.com
 DTSTAMP:20261003T010000Z
