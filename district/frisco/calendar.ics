@@ -10,30 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:slow-down-september-sunrise-yoga|8800-8840-4th-st-frisco|07-30-am-2026-
- 09-26@letsdoitdallas.com
-DTSTAMP:20260926T123000Z
-DTSTART:20260926T123000Z
-DTEND:20260926T153000Z
-SUMMARY:Slow Down September: Sunrise Yoga
-LOCATION:8800-8840 4th St · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=slow-down-september-sunri
- se-yoga%7C8800-8840-4th-st-frisco%7C07-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:safety-saturday|8601-gary-burns-dr-frisco|09-30-am-2026-09-26@letsdoitd
- allas.com
-DTSTAMP:20260926T143000Z
-DTSTART:20260926T143000Z
-DTEND:20260926T173000Z
-SUMMARY:Safety Saturday
-LOCATION:8601 Gary Burns Dr · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=safety-saturday%7C8601-ga
- ry-burns-dr-frisco%7C09-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:simpson-college-vs-howard-payne-university|ford-center-frisco|3-00-pm-2
  026-09-26@letsdoitdallas.com
 DTSTAMP:20260926T200000Z

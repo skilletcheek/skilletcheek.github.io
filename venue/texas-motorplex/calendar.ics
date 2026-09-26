@@ -35,6 +35,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/texas-motorplex/
 END:VEVENT
 BEGIN:VEVENT
+UID:stars-of-texas-music-festival-saturday-pass-|texas-motorplex-ennis|3-30
+ -am-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T083000Z
+DTSTART:20261010T083000Z
+DTEND:20261010T113000Z
+SUMMARY:Stars of Texas Music Festival (Saturday Pass)
+LOCATION:Texas Motorplex · Ennis
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=stars-of-texas-music-fest
+ ival-saturday-pass-%7Ctexas-motorplex-ennis%7C3-30-am
+DESCRIPTION:music festival event via SeatGeek. — More: https://letsdoitda
+ llas.com/venue/texas-motorplex/
+END:VEVENT
+BEGIN:VEVENT
 UID:stars-of-texas-saturday-pass-10-10-26-|texas-motorplex-ennis|12-00-pm-2
  026-10-10@letsdoitdallas.com
 DTSTAMP:20261010T170000Z
