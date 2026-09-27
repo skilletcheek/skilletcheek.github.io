@@ -1,0 +1,425 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Addison\, TX — Lets Do It Dallas
+X-WR-CALDESC:Upcoming events in Addison\, Texas.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:wheel-to-survive-dallas|venue-forty|50-addison|see-details-2026-09-27@l
+ etsdoitdallas.com
+DTSTAMP:20260927T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Wheel to Survive Dallas
+LOCATION:Venue Forty|50 · Addison
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=wheel-to-survive-dallas%7
+ Cvenue-forty%7C50-addison%7Csee-details
+DESCRIPTION:Wheel to Survive is a fundraising event supporting women affect
+ ed by ovarian cancer through patient support\, education\, awareness\, and
+  research. Proceeds benefit Be The Difference Foundation\, which has raise
+ d more than $6 million to advance ovarian cancer research and support tho 
+ — More: https://letsdoitdallas.com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:addisons-a-list|addison-improv-addison|7-00-pm-2026-09-27@letsdoitdalla
+ s.com
+DTSTAMP:20260928T000000Z
+DTSTART:20260928T000000Z
+DTEND:20260928T030000Z
+SUMMARY:Addisons A-List
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=addisons-a-list%7Caddison
+ -improv-addison%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:jane-don-t-does-america|addison-improv-addison|7-30-pm-2026-09-30@letsd
+ oitdallas.com
+DTSTAMP:20261001T003000Z
+DTSTART:20261001T003000Z
+DTEND:20261001T033000Z
+SUMMARY:Jane Don't Does America
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=jane-don-t-does-america%7
+ Caddison-improv-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:ian-fidance|addison-improv-addison|7-30-pm-2026-10-01@letsdoitdallas.co
+ m
+DTSTAMP:20261002T003000Z
+DTSTART:20261002T003000Z
+DTEND:20261002T033000Z
+SUMMARY:Ian Fidance
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=ian-fidance%7Caddison-imp
+ rov-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:ian-fidance|addison-improv-addison|7-30-pm-2026-10-02@letsdoitdallas.co
+ m
+DTSTAMP:20261003T003000Z
+DTSTART:20261003T003000Z
+DTEND:20261003T033000Z
+SUMMARY:Ian Fidance
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=ian-fidance%7Caddison-imp
+ rov-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:ian-fidance|addison-improv-addison|9-45-pm-2026-10-02@letsdoitdallas.co
+ m
+DTSTAMP:20261003T024500Z
+DTSTART:20261003T024500Z
+DTEND:20261003T054500Z
+SUMMARY:Ian Fidance
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=ian-fidance%7Caddison-imp
+ rov-addison%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:ian-fidance|addison-improv-addison|7-00-pm-2026-10-03@letsdoitdallas.co
+ m
+DTSTAMP:20261004T000000Z
+DTSTART:20261004T000000Z
+DTEND:20261004T030000Z
+SUMMARY:Ian Fidance
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=ian-fidance%7Caddison-imp
+ rov-addison%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:ian-fidance|addison-improv-addison|9-30-pm-2026-10-03@letsdoitdallas.co
+ m
+DTSTAMP:20261004T023000Z
+DTSTART:20261004T023000Z
+DTEND:20261004T053000Z
+SUMMARY:Ian Fidance
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=ian-fidance%7Caddison-imp
+ rov-addison%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:flip-phone-rocky-horror-drag-brunch|addison-improv-addison|2-00-pm-2026
+ -10-04@letsdoitdallas.com
+DTSTAMP:20261004T190000Z
+DTSTART:20261004T190000Z
+DTEND:20261004T220000Z
+SUMMARY:Flip Phone: Rocky Horror Drag Brunch
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=flip-phone-rocky-horror-d
+ rag-brunch%7Caddison-improv-addison%7C2-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:dave-lawson-presents-houston-vs-dallas|addison-improv-addison|7-30-pm-2
+ 026-10-04@letsdoitdallas.com
+DTSTAMP:20261005T003000Z
+DTSTART:20261005T003000Z
+DTEND:20261005T033000Z
+SUMMARY:Dave Lawson Presents: Houston vs Dallas
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=dave-lawson-presents-hous
+ ton-vs-dallas%7Caddison-improv-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:damitas-histeria|addison-improv-addison|7-30-pm-2026-10-06@letsdoitdall
+ as.com
+DTSTAMP:20261007T003000Z
+DTSTART:20261007T003000Z
+DTEND:20261007T033000Z
+SUMMARY:Damitas Histeria
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=damitas-histeria%7Caddiso
+ n-improv-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:two-d-kes-and-a-mic-soaking-wet-tour|addison-improv-addison|7-30-pm-202
+ 6-10-07@letsdoitdallas.com
+DTSTAMP:20261008T003000Z
+DTSTART:20261008T003000Z
+DTEND:20261008T033000Z
+SUMMARY:Two D*kes and a Mic: Soaking Wet Tour
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=two-d-kes-and-a-mic-soaki
+ ng-wet-tour%7Caddison-improv-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:manuel-ngel-redondo-en-espa-ol-|addison-improv-addison|7-30-pm-2026-10-
+ 08@letsdoitdallas.com
+DTSTAMP:20261009T003000Z
+DTSTART:20261009T003000Z
+DTEND:20261009T033000Z
+SUMMARY:Manuel Ángel Redondo (En Español)
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=manuel-ngel-redondo-en-es
+ pa-ol-%7Caddison-improv-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-yo|addison-improv-addison|7-30-pm-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261010T003000Z
+DTSTART:20261010T003000Z
+DTEND:20261010T033000Z
+SUMMARY:Michael Yo
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=michael-yo%7Caddison-impr
+ ov-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-yo|addison-improv-addison|9-45-pm-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261010T024500Z
+DTSTART:20261010T024500Z
+DTEND:20261010T054500Z
+SUMMARY:Michael Yo
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=michael-yo%7Caddison-impr
+ ov-addison%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-yo|addison-improv-addison|7-00-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261011T000000Z
+DTSTART:20261011T000000Z
+DTEND:20261011T030000Z
+SUMMARY:Michael Yo
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=michael-yo%7Caddison-impr
+ ov-addison%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-yo|addison-improv-addison|9-30-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261011T023000Z
+DTSTART:20261011T023000Z
+DTEND:20261011T053000Z
+SUMMARY:Michael Yo
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=michael-yo%7Caddison-impr
+ ov-addison%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-yo|addison-improv-addison|7-00-pm-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261012T000000Z
+DTSTART:20261012T000000Z
+DTEND:20261012T030000Z
+SUMMARY:Michael Yo
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=michael-yo%7Caddison-impr
+ ov-addison%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:tales-from-the-dorkside|addison-improv-addison|7-00-pm-2026-10-15@letsd
+ oitdallas.com
+DTSTAMP:20261016T000000Z
+DTSTART:20261016T000000Z
+DTEND:20261016T030000Z
+SUMMARY:Tales from the Dorkside
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=tales-from-the-dorkside%7
+ Caddison-improv-addison%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:carlos-mencia|addison-improv-addison|7-30-pm-2026-10-16@letsdoitdallas.
+ com
+DTSTAMP:20261017T003000Z
+DTSTART:20261017T003000Z
+DTEND:20261017T033000Z
+SUMMARY:Carlos Mencia
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=carlos-mencia%7Caddison-i
+ mprov-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:carlos-mencia|addison-improv-addison|9-45-pm-2026-10-16@letsdoitdallas.
+ com
+DTSTAMP:20261017T024500Z
+DTSTART:20261017T024500Z
+DTEND:20261017T054500Z
+SUMMARY:Carlos Mencia
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=carlos-mencia%7Caddison-i
+ mprov-addison%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:carlos-mencia|addison-improv-addison|7-00-pm-2026-10-17@letsdoitdallas.
+ com
+DTSTAMP:20261018T000000Z
+DTSTART:20261018T000000Z
+DTEND:20261018T030000Z
+SUMMARY:Carlos Mencia
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=carlos-mencia%7Caddison-i
+ mprov-addison%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:carlos-mencia|addison-improv-addison|9-30-pm-2026-10-17@letsdoitdallas.
+ com
+DTSTAMP:20261018T023000Z
+DTSTART:20261018T023000Z
+DTEND:20261018T053000Z
+SUMMARY:Carlos Mencia
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=carlos-mencia%7Caddison-i
+ mprov-addison%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-day-players|addison-improv-addison|1-00-pm-2026-10-18@letsdoitdalla
+ s.com
+DTSTAMP:20261018T180000Z
+DTSTART:20261018T180000Z
+DTEND:20261018T210000Z
+SUMMARY:The Day Players
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=the-day-players%7Caddison
+ -improv-addison%7C1-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:carlos-mencia|addison-improv-addison|7-30-pm-2026-10-18@letsdoitdallas.
+ com
+DTSTAMP:20261019T003000Z
+DTSTART:20261019T003000Z
+DTEND:20261019T033000Z
+SUMMARY:Carlos Mencia
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=carlos-mencia%7Caddison-i
+ mprov-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:standoperos-la-t-mbola|addison-improv-addison|7-30-pm-2026-10-22@letsdo
+ itdallas.com
+DTSTAMP:20261023T003000Z
+DTSTART:20261023T003000Z
+DTEND:20261023T033000Z
+SUMMARY:Standoperos: La Tómbola
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=standoperos-la-t-mbola%7C
+ addison-improv-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:corey-holcomb|addison-improv-addison|7-30-pm-2026-10-23@letsdoitdallas.
+ com
+DTSTAMP:20261024T003000Z
+DTSTART:20261024T003000Z
+DTEND:20261024T033000Z
+SUMMARY:Corey Holcomb
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=corey-holcomb%7Caddison-i
+ mprov-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:corey-holcomb|addison-improv-addison|9-45-pm-2026-10-23@letsdoitdallas.
+ com
+DTSTAMP:20261024T024500Z
+DTSTART:20261024T024500Z
+DTEND:20261024T054500Z
+SUMMARY:Corey Holcomb
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=corey-holcomb%7Caddison-i
+ mprov-addison%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:corey-holcomb|addison-improv-addison|7-00-pm-2026-10-24@letsdoitdallas.
+ com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Corey Holcomb
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=corey-holcomb%7Caddison-i
+ mprov-addison%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:corey-holcomb|addison-improv-addison|9-30-pm-2026-10-24@letsdoitdallas.
+ com
+DTSTAMP:20261025T023000Z
+DTSTART:20261025T023000Z
+DTEND:20261025T053000Z
+SUMMARY:Corey Holcomb
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=corey-holcomb%7Caddison-i
+ mprov-addison%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:corey-holcomb|addison-improv-addison|7-30-pm-2026-10-25@letsdoitdallas.
+ com
+DTSTAMP:20261026T003000Z
+DTSTART:20261026T003000Z
+DTEND:20261026T033000Z
+SUMMARY:Corey Holcomb
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=corey-holcomb%7Caddison-i
+ mprov-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:corey-holcomb|addison-improv-addison|9-45-pm-2026-10-25@letsdoitdallas.
+ com
+DTSTAMP:20261026T024500Z
+DTSTART:20261026T024500Z
+DTEND:20261026T054500Z
+SUMMARY:Corey Holcomb
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=corey-holcomb%7Caddison-i
+ mprov-addison%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+END:VCALENDAR

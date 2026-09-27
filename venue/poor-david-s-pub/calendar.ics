@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:creekbed-carter-hogan|poor-david-s-pub-dallas|doors-see-listing-2026-09
- -26@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-SUMMARY:Creekbed Carter Hogan
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=creekbed-carter-hogan%7Cp
- oor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:bluegrass-heritage-music-show-jam|poor-david-s-pub-dallas|doors-see-lis
  ting-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260927T000000Z

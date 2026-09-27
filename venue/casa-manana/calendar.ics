@@ -126,6 +126,32 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/casa-manana/
 END:VEVENT
 BEGIN:VEVENT
+UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
+ orth|1-00-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T180000Z
+DTSTART:20261010T180000Z
+DTEND:20261010T210000Z
+SUMMARY:Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=rapunzel-rapunzel-a-very-
+ hairy-fairy-tale-fort-worth%7Ccasa-manana-fort-worth%7C1-00-pm
+DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
+UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
+ orth|5-00-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T220000Z
+DTSTART:20261010T220000Z
+DTEND:20261011T010000Z
+SUMMARY:Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=rapunzel-rapunzel-a-very-
+ hairy-fairy-tale-fort-worth%7Ccasa-manana-fort-worth%7C5-00-pm
+DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
 UID:music-of-john-denver|casa-manana-fort-worth|8-00-pm-2026-10-10@letsdoit
  dallas.com
 DTSTAMP:20261011T010000Z
@@ -137,6 +163,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=music-of-john-denver%7Cca
  sa-manana-fort-worth%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
+UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
+ orth|11-00-am-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261011T160000Z
+DTSTART:20261011T160000Z
+DTEND:20261011T190000Z
+SUMMARY:Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=rapunzel-rapunzel-a-very-
+ hairy-fairy-tale-fort-worth%7Ccasa-manana-fort-worth%7C11-00-am
+DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/casa-manana/
 END:VEVENT
 BEGIN:VEVENT
 UID:music-of-john-denver|casa-manana-fort-worth|7-00-pm-2026-10-11@letsdoit

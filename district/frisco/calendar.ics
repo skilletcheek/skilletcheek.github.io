@@ -10,56 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:simpson-college-vs-howard-payne-university|ford-center-frisco|3-00-pm-2
- 026-09-26@letsdoitdallas.com
-DTSTAMP:20260926T200000Z
-DTSTART:20260926T200000Z
-DTEND:20260926T230000Z
-SUMMARY:Simpson College vs. Howard Payne University
-LOCATION:Ford Center · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=simpson-college-vs-howard
- -payne-university%7Cford-center-frisco%7C3-00-pm
-DESCRIPTION:sports event via SeatGeek. — More: https://letsdoitdallas.com
- /district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:frisco-community-awareness-night-can-|frisco|05-00-pm-2026-09-26@letsdo
- itdallas.com
-DTSTAMP:20260926T220000Z
-DTSTART:20260926T220000Z
-DTEND:20260927T010000Z
-SUMMARY:Frisco Community Awareness Night (CAN)
-LOCATION:Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=frisco-community-awarenes
- s-night-can-%7Cfrisco%7C05-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:gallegos-park-re-opening-celebration|6698-pecan-street-frisco|05-00-pm-
- 2026-09-26@letsdoitdallas.com
-DTSTAMP:20260926T220000Z
-DTSTART:20260926T220000Z
-DTEND:20260927T010000Z
-SUMMARY:Gallegos Park Re-Opening Celebration
-LOCATION:6698 Pecan Street · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=gallegos-park-re-opening-
- celebration%7C6698-pecan-street-frisco%7C05-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:fc-dallas-vs-los-angeles-football-club|toyota-stadium-frisco|7-30-pm-20
- 26-09-26@letsdoitdallas.com
-DTSTAMP:20260927T003000Z
-DTSTART:20260927T003000Z
-DTEND:20260927T033000Z
-SUMMARY:FC Dallas vs. Los Angeles Football Club
-LOCATION:Toyota Stadium · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=fc-dallas-vs-los-angeles-
- football-club%7Ctoyota-stadium-frisco%7C7-30-pm
-DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:parks-for-pollinators-what-remains|frisco|07-30-am-2026-09-30@letsdoitd
  allas.com
 DTSTAMP:20260930T123000Z

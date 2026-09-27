@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:oktoberfest|111-n-tennessee-st-mckinney|11-00-am-2026-09-26@letsdoitdal
- las.com
-DTSTAMP:20260926T160000Z
-DTSTART:20260926T160000Z
-DTEND:20260926T190000Z
-SUMMARY:Oktoberfest
-LOCATION:111 N. Tennessee St. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=oktoberfest%7C111-n-tenne
- ssee-st-mckinney%7C11-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:sonu-nigam|credit-union-of-texas-event-center-allen|8-30-pm-2026-09-26@
- letsdoitdallas.com
-DTSTAMP:20260927T013000Z
-DTSTART:20260927T013000Z
-DTEND:20260927T043000Z
-SUMMARY:Sonu Nigam
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=sonu-nigam%7Ccredit-union
- -of-texas-event-center-allen%7C8-30-pm
-DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:oktoberfest|111-n-tennessee-st-mckinney|12-00-pm-2026-09-27@letsdoitdal
  las.com
 DTSTAMP:20260927T170000Z
@@ -562,6 +537,19 @@ DTEND:20261025T200000Z
 SUMMARY:Worlds 2026 - Swiss 3
 LOCATION:Credit Union of Texas Event Center · Allen
 URL:https://letsdoitdallas.com/?date=2026-10-25&e=worlds-2026-swiss-3%7Ccre
+ dit-union-of-texas-event-center-allen%7C12-00-pm
+DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:worlds-2026-swiss-4|credit-union-of-texas-event-center-allen|12-00-pm-2
+ 026-10-26@letsdoitdallas.com
+DTSTAMP:20261026T170000Z
+DTSTART:20261026T170000Z
+DTEND:20261026T200000Z
+SUMMARY:Worlds 2026 - Swiss 4
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=worlds-2026-swiss-4%7Ccre
  dit-union-of-texas-event-center-allen%7C12-00-pm
 DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/mckinney/

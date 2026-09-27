@@ -9,31 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:-viva-m-xico-presented-by-mexico-2000-ballet-folklorico|300-n-fifth-str
- eet-garland|07-00-pm-2026-09-26@letsdoitdallas.com
-DTSTAMP:20260927T000000Z
-DTSTART:20260927T000000Z
-DTEND:20260927T030000Z
-SUMMARY:"Viva México" presented by Mexico 2000 Ballet Folklorico
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=-viva-m-xico-presented-by
- -mexico-2000-ballet-folklorico%7C300-n-fifth-street-garland%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
- -state-street-garland|07-30-pm-2026-09-26@letsdoitdallas.com
-DTSTAMP:20260927T003000Z
-DTSTART:20260927T003000Z
-DTEND:20260927T033000Z
-SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
-LOCATION:521 W State Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=little-shop-of-horrors-pr
- esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C07
- -30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
  -state-street-garland|02-00-pm-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260927T190000Z
@@ -898,6 +873,18 @@ SUMMARY:Anything Goes presented by Garland Civic Theatre
 LOCATION:300 N Fifth Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-10-10&e=anything-goes-presented-b
  y-garland-civic-theatre%7C300-n-fifth-street-garland%7C07-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:anything-goes-presented-by-garland-civic-theatre|300-n-fifth-street-gar
+ land|02-30-pm-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261011T193000Z
+DTSTART:20261011T193000Z
+DTEND:20261011T223000Z
+SUMMARY:Anything Goes presented by Garland Civic Theatre
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=anything-goes-presented-b
+ y-garland-civic-theatre%7C300-n-fifth-street-garland%7C02-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 END:VCALENDAR

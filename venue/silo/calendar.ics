@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:zack-fox-dj|silo-dallas|9-00-pm-2026-09-26@letsdoitdallas.com
-DTSTAMP:20260927T020000Z
-DTSTART:20260927T020000Z
-DTEND:20260927T050000Z
-SUMMARY:Zack Fox - DJ
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=zack-fox-dj%7Csilo-dallas
- %7C9-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:inquisitive-ages-18-|silo-dallas|7-00-pm-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260928T000000Z
 DTSTART:20260928T000000Z

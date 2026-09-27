@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ryan-davis|arlington-improv-arlington|7-00-pm-2026-09-26@letsdoitdallas
- .com
-DTSTAMP:20260927T000000Z
-DTSTART:20260927T000000Z
-DTEND:20260927T030000Z
-SUMMARY:Ryan Davis
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=ryan-davis%7Carlington-im
- prov-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:ryan-davis|arlington-improv-arlington|9-30-pm-2026-09-26@letsdoitdallas
- .com
-DTSTAMP:20260927T023000Z
-DTSTART:20260927T023000Z
-DTEND:20260927T053000Z
-SUMMARY:Ryan Davis
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=ryan-davis%7Carlington-im
- prov-arlington%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:ryan-davis|arlington-improv-arlington|7-00-pm-2026-09-27@letsdoitdallas
  .com
 DTSTAMP:20260928T000000Z
@@ -473,6 +447,19 @@ SUMMARY:DC Young Fly
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-25&e=dc-young-fly%7Carlington-
  improv-arlington%7C6-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:dc-young-fly|arlington-improv-arlington|8-30-pm-2026-10-25@letsdoitdall
+ as.com
+DTSTAMP:20261026T013000Z
+DTSTART:20261026T013000Z
+DTEND:20261026T043000Z
+SUMMARY:DC Young Fly
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=dc-young-fly%7Carlington-
+ improv-arlington%7C8-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

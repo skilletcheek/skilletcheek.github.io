@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:rod-wave-don-t-look-down-tour|american-airlines-center-dallas|8-00-pm-2
- 026-09-26@letsdoitdallas.com
-DTSTAMP:20260927T010000Z
-DTSTART:20260927T010000Z
-DTEND:20260927T040000Z
-SUMMARY:Rod Wave: Don't Look Down Tour
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=rod-wave-don-t-look-down-
- tour%7Camerican-airlines-center-dallas%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:rod-wave-don-t-look-down-tour|american-airlines-center-dallas|8-00-pm-2
  026-09-27@letsdoitdallas.com
 DTSTAMP:20260928T010000Z
 DTSTART:20260928T010000Z
@@ -33,6 +20,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-27&e=rod-wave-don-t-look-down-
  tour%7Camerican-airlines-center-dallas%7C8-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:levy-job-fair|american-airlines-center-2500-victory-ave-dallas-75219-un
+ ited-states|4-00-pm-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T210000Z
+DTSTART:20260928T210000Z
+DTEND:20260929T000000Z
+SUMMARY:Levy Job Fair
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=levy-job-fair%7Camerican-
+ airlines-center-2500-victory-ave-dallas-75219-united-states%7C4-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/venue/american-airlines-center
+ /
 END:VEVENT
 BEGIN:VEVENT
 UID:aespa-live-tour-synk-compl-xity-in-dallas|american-airlines-center-dall

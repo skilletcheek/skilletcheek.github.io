@@ -11,13 +11,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
- e-tx-76051-united-states|8-00-am-2026-09-26@letsdoitdallas.com
-DTSTAMP:20260926T130000Z
-DTSTART:20260926T130000Z
-DTEND:20260926T160000Z
+ e-tx-76051-united-states|8-00-am-2026-09-27@letsdoitdallas.com
+DTSTAMP:20260927T130000Z
+DTSTART:20260927T130000Z
+DTEND:20260927T160000Z
 SUMMARY:Phenomenomaly at Meow Wolf
 LOCATION:Meow Wolf · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=phenomenomaly-at-meow-wol
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=phenomenomaly-at-meow-wol
  f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
  C8-00-am
 DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
@@ -25,54 +25,6 @@ DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
  ctive theater with a rotating lineup of North Texas talent\, the experienc
  e unfolds around guests as they explore\, featuring music\, dance\, comedy
  \, — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:d-d-5e-new-campaign-full|grapevine|11-30-am-2026-09-26@letsdoitdallas.c
- om
-DTSTAMP:20260926T163000Z
-DTSTART:20260926T163000Z
-DTEND:20260926T193000Z
-SUMMARY:D&D 5e New Campaign- FULL
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=d-d-5e-new-campaign-full%
- 7Cgrapevine%7C11-30-am
-DESCRIPTION:Registration Required to attend. Ongoing Campaign. Join us in t
- he Library Boardroom for the ongoing campaign of D&D 5e. Space for this ga
- me is very limited but new players are welcome. We invite everyone that wo
- uld like to spectate or get additional information to join us at any — M
- ore: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:recording-studio-attended|grapevine|12-00-pm-2026-09-26@letsdoitdallas.
- com
-DTSTAMP:20260926T170000Z
-DTSTART:20260926T170000Z
-DTEND:20260926T200000Z
-SUMMARY:Recording Studio Attended
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=recording-studio-attended
- %7Cgrapevine%7C12-00-pm
-DESCRIPTION:Interested in podcasting or recording music? Come learn how to 
- use the library’s Recording Studio! To reserve and use the Recording Stu
- dio\, you must first complete a mandatory orientation. Orientations are of
- fered on Saturdays from 12 to 4 pm. No registration or appointment neede 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:grapevine-main-live-|peace-plaza-801-s-main-street-grapevine-76051-unit
- ed-states|7-30-pm-2026-09-26@letsdoitdallas.com
-DTSTAMP:20260927T003000Z
-DTSTART:20260927T003000Z
-DTEND:20260927T033000Z
-SUMMARY:Grapevine Main LIVE!
-LOCATION:Peace Plaza · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=grapevine-main-live-%7Cpe
- ace-plaza-801-s-main-street-grapevine-76051-united-states%7C7-30-pm
-DESCRIPTION:Grapevine Main LIVE! is back and bigger than ever with an 8-wee
- k Spring Music Series sure to hit all the right notes! Guests can enjoy fo
- od from eight chef-inspired global kitchens as well as specialty crafted c
- ocktails and performances by some of the best local artists and bands — 
- More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:fiber-arts-studio-18-|grapevine|10-00-am-2026-09-27@letsdoitdallas.com
@@ -936,6 +888,36 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=day-out-with-thomas-tm-th
  grapevine%7C10-00-am
 DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
  sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:fiber-arts-studio-18-|grapevine|10-00-am-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261011T150000Z
+DTSTART:20261011T150000Z
+DTEND:20261011T180000Z
+SUMMARY:Fiber Arts Studio (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=fiber-arts-studio-18-%7Cg
+ rapevine%7C10-00-am
+DESCRIPTION:Try your hand at Fiber Arts. Experiment with Needle Felting\, D
+ rop Spindle\, Spinning Wheels\, Weaving Looms\, or Knit/Crochet\, or bring
+  your own project to work on. All experience levels are welcome. Open to a
+ dults 18+\, library card in good standing required. October 11\, 2026 10:0
+ 0 — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-cart|grapevine|10-30-am-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261011T153000Z
+DTSTART:20261011T153000Z
+DTEND:20261011T183000Z
+SUMMARY:Art Cart
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=art-cart%7Cgrapevine%7C10
+ -30-am
+DESCRIPTION:Use your creativity\, critical thinking\, and maker skills to m
+ ake crafts for your friends and family using the art and craft supplies pr
+ ovided on the Art Cart. October 11\, 2026 10:30 AM - 02:30 PM Grapevine\, 
+ TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17510/639169542 
+ — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g

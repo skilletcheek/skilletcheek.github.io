@@ -10,60 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jake-dexter-the-main-street-sound|trees-dallas|doors-see-listing-2026-0
- 9-26@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-SUMMARY:JAKE DEXTER & THE MAIN STREET SOUND
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=jake-dexter-the-main-stre
- et-sound%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-number-twelve-looks-like-you-kaonashi-hoping-all-theories-exist|thr
- ee-links-deep-ellum-dallas|7-00-pm-2026-09-26@letsdoitdallas.com
-DTSTAMP:20260927T000000Z
-DTSTART:20260927T000000Z
-DTEND:20260927T030000Z
-SUMMARY:The Number Twelve Looks Like You\, Kaonashi\, Hoping All Theories E
- xist
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=the-number-twelve-looks-l
- ike-you-kaonashi-hoping-all-theories-exist%7Cthree-links-deep-ellum-dallas
- %7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:judah-the-lion-17-event-|the-studio-at-the-bomb-factory-dallas|8-00-pm-
- 2026-09-26@letsdoitdallas.com
-DTSTAMP:20260927T010000Z
-DTSTART:20260927T010000Z
-DTEND:20260927T040000Z
-SUMMARY:Judah & The Lion (17+ Event)
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=judah-the-lion-17-event-%
- 7Cthe-studio-at-the-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:droptuned|three-links-deep-ellum-dallas|11-00-pm-2026-09-26@letsdoitdal
- las.com
-DTSTAMP:20260927T040000Z
-DTSTART:20260927T040000Z
-DTEND:20260927T070000Z
-SUMMARY:DROPTUNED
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=droptuned%7Cthree-links-d
- eep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:gloria-gloria-mean-people-brian-damon|three-links-deep-ellum-dallas|7-0
  0-pm-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260928T000000Z
@@ -895,5 +841,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=viktoria-xo-rebirth-album
  -release-show%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-25@letsdoitd
+ allas.com
+DTSTAMP:20261026T040000Z
+DTSTART:20261026T040000Z
+DTEND:20261026T070000Z
+SUMMARY:DJ SNEAK305
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=dj-sneak305%7Cthree-links
+ -deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

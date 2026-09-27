@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mustard-service|am-fm-dallas-dallas|6-30-pm-2026-09-26@letsdoitdallas.c
- om
-DTSTAMP:20260926T233000Z
-DTSTART:20260926T233000Z
-DTEND:20260927T023000Z
-SUMMARY:Mustard Service
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=mustard-service%7Cam-fm-d
- allas-dallas%7C6-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/am-fm-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:carbon-leaf-ages-18-|am-fm-dallas-dallas|8-30-pm-2026-09-26@letsdoitdal
- las.com
-DTSTAMP:20260927T013000Z
-DTSTART:20260927T013000Z
-DTEND:20260927T043000Z
-SUMMARY:Carbon Leaf - Ages 18+
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=carbon-leaf-ages-18-%7Cam
- -fm-dallas-dallas%7C8-30-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/am-fm-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:grace-enger|am-fm-dallas-dallas|7-00-pm-2026-09-30@letsdoitdallas.com
 DTSTAMP:20261001T000000Z
 DTSTART:20261001T000000Z

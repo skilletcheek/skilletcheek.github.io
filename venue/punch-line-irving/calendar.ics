@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:an-evening-with-tyler-fischer|punch-line-irving-irving|7-00-pm-2026-09-
- 26@letsdoitdallas.com
-DTSTAMP:20260927T000000Z
-DTSTART:20260927T000000Z
-DTEND:20260927T030000Z
-SUMMARY:An Evening With Tyler Fischer
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=an-evening-with-tyler-fis
- cher%7Cpunch-line-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:an-evening-with-tyler-fischer|punch-line-irving-irving|9-15-pm-2026-09-
- 26@letsdoitdallas.com
-DTSTAMP:20260927T021500Z
-DTSTART:20260927T021500Z
-DTEND:20260927T051500Z
-SUMMARY:An Evening With Tyler Fischer
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=an-evening-with-tyler-fis
- cher%7Cpunch-line-irving-irving%7C9-15-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:desi-alexander-stress-signal-tour|punch-line-irving-irving|7-00-pm-2026
  -09-27@letsdoitdallas.com
 DTSTAMP:20260928T000000Z

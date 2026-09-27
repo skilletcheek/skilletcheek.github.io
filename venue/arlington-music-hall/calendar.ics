@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:petra|arlington-music-hall-arlington|7-30-pm-2026-09-26@letsdoitdallas.
- com
-DTSTAMP:20260927T003000Z
-DTSTART:20260927T003000Z
-DTEND:20260927T033000Z
-SUMMARY:Petra
-LOCATION:Arlington Music Hall
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=petra%7Carlington-music-h
- all-arlington%7C7-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/arlington-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-high-kings|arlington-music-hall-arlington|7-00-pm-2026-10-01@letsdo
  itdallas.com
 DTSTAMP:20261002T000000Z
@@ -57,6 +44,19 @@ SUMMARY:Infinite Journey
 LOCATION:Arlington Music Hall
 URL:https://letsdoitdallas.com/?date=2026-10-03&e=infinite-journey%7Carling
  ton-music-hall-arlington%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:sixtiesmania|arlington-music-hall-arlington|7-30-pm-2026-10-10@letsdoit
+ dallas.com
+DTSTAMP:20261011T003000Z
+DTSTART:20261011T003000Z
+DTEND:20261011T033000Z
+SUMMARY:SixtiesMania
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=sixtiesmania%7Carlington-
+ music-hall-arlington%7C7-30-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/arlington-music-hall/
 END:VEVENT

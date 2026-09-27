@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jake-dexter-the-main-street-sound|trees-dallas|doors-see-listing-2026-0
- 9-26@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-SUMMARY:JAKE DEXTER & THE MAIN STREET SOUND
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=jake-dexter-the-main-stre
- et-sound%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
-END:VEVENT
-BEGIN:VEVENT
 UID:french-police-w-social-order|trees-dallas|8-00-pm-2026-09-27@letsdoitda
  llas.com
 DTSTAMP:20260928T010000Z

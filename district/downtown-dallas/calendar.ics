@@ -10,74 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:creekbed-carter-hogan|poor-david-s-pub-dallas|doors-see-listing-2026-09
- -26@letsdoitdallas.com
-DTSTAMP:20260926T000000Z
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-SUMMARY:Creekbed Carter Hogan
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=creekbed-carter-hogan%7Cp
- oor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-09-26@letsdoitdallas.com
-DTSTAMP:20260926T130000Z
-DTSTART:20260926T130000Z
-DTEND:20260926T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:frank-turner-lost-evenings-ix|south-side-ballroom-dallas|6-00-pm-2026-0
- 9-26@letsdoitdallas.com
-DTSTAMP:20260926T230000Z
-DTSTART:20260926T230000Z
-DTEND:20260927T020000Z
-SUMMARY:Frank Turner - Lost Evenings IX
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=frank-turner-lost-evening
- s-ix%7Csouth-side-ballroom-dallas%7C6-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:isaiah-falls-presents-lvrs-paradise-side-b-tour|house-of-blues-dallas-d
- allas|7-00-pm-2026-09-26@letsdoitdallas.com
-DTSTAMP:20260927T000000Z
-DTSTART:20260927T000000Z
-DTEND:20260927T030000Z
-SUMMARY:ISAIAH FALLS PRESENTS: LVRS PARADISE - SIDE B TOUR
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=isaiah-falls-presents-lvr
- s-paradise-side-b-tour%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:rod-wave-don-t-look-down-tour|american-airlines-center-dallas|8-00-pm-2
- 026-09-26@letsdoitdallas.com
-DTSTAMP:20260927T010000Z
-DTSTART:20260927T010000Z
-DTEND:20260927T040000Z
-SUMMARY:Rod Wave: Don't Look Down Tour
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=rod-wave-don-t-look-down-
- tour%7Camerican-airlines-center-dallas%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:bluegrass-heritage-music-show-jam|poor-david-s-pub-dallas|doors-see-lis
  ting-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260927T000000Z
@@ -89,6 +21,22 @@ URL:https://letsdoitdallas.com/?date=2026-09-27&e=bluegrass-heritage-music-
  show-jam%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-09-27@letsdoitdallas.com
+DTSTAMP:20260927T130000Z
+DTSTART:20260927T130000Z
+DTEND:20260927T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:frank-turner-lost-evenings-ix|south-side-ballroom-dallas|6-00-pm-2026-0
@@ -167,6 +115,50 @@ URL:https://letsdoitdallas.com/?date=2026-09-27&e=rod-wave-don-t-look-down-
  tour%7Camerican-airlines-center-dallas%7C8-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T130000Z
+DTSTART:20260928T130000Z
+DTEND:20260928T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:levy-job-fair|american-airlines-center-2500-victory-ave-dallas-75219-un
+ ited-states|4-00-pm-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T210000Z
+DTSTART:20260928T210000Z
+DTEND:20260929T000000Z
+SUMMARY:Levy Job Fair
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=levy-job-fair%7Camerican-
+ airlines-center-2500-victory-ave-dallas-75219-united-states%7C4-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-09-29@letsdoitdallas.com
+DTSTAMP:20260929T130000Z
+DTSTART:20260929T130000Z
+DTEND:20260929T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:luv-language-tour-with-jeff-bernat|the-cambridge-room-at-house-of-blues

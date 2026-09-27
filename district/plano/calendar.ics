@@ -10,43 +10,20 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kelsey-cook|addison-improv-addison|7-00-pm-2026-09-26@letsdoitdallas.co
- m
+UID:wheel-to-survive-dallas|venue-forty|50-addison|see-details-2026-09-27@l
+ etsdoitdallas.com
 DTSTAMP:20260927T000000Z
-DTSTART:20260927T000000Z
-DTEND:20260927T030000Z
-SUMMARY:Kelsey Cook
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=kelsey-cook%7Caddison-imp
- rov-addison%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:7-bridges-the-ultimate-eagles-tribute|eisemann-center-richardson|7-30-p
- m-2026-09-26@letsdoitdallas.com
-DTSTAMP:20260927T003000Z
-DTSTART:20260927T003000Z
-DTEND:20260927T033000Z
-SUMMARY:7 Bridges - The Ultimate Eagles Tribute
-LOCATION:Eisemann Center · Richardson
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=7-bridges-the-ultimate-ea
- gles-tribute%7Ceisemann-center-richardson%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:kelsey-cook|addison-improv-addison|9-30-pm-2026-09-26@letsdoitdallas.co
- m
-DTSTAMP:20260927T023000Z
-DTSTART:20260927T023000Z
-DTEND:20260927T053000Z
-SUMMARY:Kelsey Cook
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-26&e=kelsey-cook%7Caddison-imp
- rov-addison%7C9-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/plano/
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Wheel to Survive Dallas
+LOCATION:Venue Forty|50 · Addison
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=wheel-to-survive-dallas%7
+ Cvenue-forty%7C50-addison%7Csee-details
+DESCRIPTION:Wheel to Survive is a fundraising event supporting women affect
+ ed by ovarian cancer through patient support\, education\, awareness\, and
+  research. Proceeds benefit Be The Difference Foundation\, which has raise
+ d more than $6 million to advance ovarian cancer research and support tho 
+ — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:addisons-a-list|addison-improv-addison|7-00-pm-2026-09-27@letsdoitdalla
@@ -229,6 +206,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:justin-silva-21-|mic-drop-comedy-plano-plano|7-00-pm-2026-10-10@letsdoi
+ tdallas.com
+DTSTAMP:20261011T000000Z
+DTSTART:20261011T000000Z
+DTEND:20261011T030000Z
+SUMMARY:Justin Silva (21+)
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=justin-silva-21-%7Cmic-dr
+ op-comedy-plano-plano%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:michael-yo|addison-improv-addison|7-00-pm-2026-10-10@letsdoitdallas.com
 DTSTAMP:20261011T000000Z
 DTSTART:20261011T000000Z
@@ -252,6 +242,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=one-night-in-memphis%7Cei
  semann-center-richardson%7C7-30-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:justin-silva-21-|mic-drop-comedy-plano-plano|9-30-pm-2026-10-10@letsdoi
+ tdallas.com
+DTSTAMP:20261011T023000Z
+DTSTART:20261011T023000Z
+DTEND:20261011T053000Z
+SUMMARY:Justin Silva (21+)
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=justin-silva-21-%7Cmic-dr
+ op-comedy-plano-plano%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:michael-yo|addison-improv-addison|9-30-pm-2026-10-10@letsdoitdallas.com
@@ -456,6 +459,32 @@ SUMMARY:Corey Holcomb
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=corey-holcomb%7Caddison-i
  mprov-addison%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:corey-holcomb|addison-improv-addison|7-30-pm-2026-10-25@letsdoitdallas.
+ com
+DTSTAMP:20261026T003000Z
+DTSTART:20261026T003000Z
+DTEND:20261026T033000Z
+SUMMARY:Corey Holcomb
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=corey-holcomb%7Caddison-i
+ mprov-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:corey-holcomb|addison-improv-addison|9-45-pm-2026-10-25@letsdoitdallas.
+ com
+DTSTAMP:20261026T024500Z
+DTSTART:20261026T024500Z
+DTEND:20261026T054500Z
+SUMMARY:Corey Holcomb
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=corey-holcomb%7Caddison-i
+ mprov-addison%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT
