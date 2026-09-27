@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-symphony-orchestra-presents-schederazade-and-pablo-sainz-villega
- s|morton-meyerson-symphony-center-dallas|2-00-pm-2026-09-27@letsdoitdallas
- .com
-DTSTAMP:20260927T190000Z
-DTSTART:20260927T190000Z
-DTEND:20260927T220000Z
-SUMMARY:Dallas Symphony Orchestra Presents Schederazade and Pablo Sainz Vil
- legas
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=dallas-symphony-orchestra
- -presents-schederazade-and-pablo-sainz-villegas%7Cmorton-meyerson-symphony
- -center-dallas%7C2-00-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/venue/morton-meyerson-symphony-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-rachmaninoff-and-time-for-three|mort
  on-meyerson-symphony-center-dallas|7-30-pm-2026-10-02@letsdoitdallas.com
 DTSTAMP:20261003T003000Z

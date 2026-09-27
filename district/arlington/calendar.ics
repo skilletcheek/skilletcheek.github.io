@@ -10,57 +10,17 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-09-27
- @letsdoitdallas.com
-DTSTAMP:20260927T150000Z
-DTSTART:20260927T150000Z
-DTEND:20260927T180000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C10-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-09-27
- @letsdoitdallas.com
-DTSTAMP:20260927T170000Z
-DTSTART:20260927T170000Z
-DTEND:20260927T200000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C12-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-09-27@
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-09-27@
  letsdoitdallas.com
-DTSTAMP:20260927T190000Z
-DTSTART:20260927T190000Z
-DTEND:20260927T220000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C2-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-vs-baltimore|texas-live-1650-east-randol-mill-road-arlington-760
- 11-united-states|3-00-pm-2026-09-27@letsdoitdallas.com
 DTSTAMP:20260927T200000Z
 DTSTART:20260927T200000Z
 DTEND:20260927T230000Z
-SUMMARY:Dallas vs Baltimore
-LOCATION:Texas Live! · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=dallas-vs-baltimore%7Ctex
- as-live-1650-east-randol-mill-road-arlington-76011-united-states%7C3-00-pm
-DESCRIPTION:The 2026 Dallas football season is coming—reserve your table 
- now for the ultimate game day experience. — More: https://letsdoitdallas
- .com/district/arlington/
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-27&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C3-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:texas-tailgaters-vs-savannah-bananas|globe-life-field-arlington|3-00-pm
@@ -87,19 +47,6 @@ URL:https://letsdoitdallas.com/?date=2026-09-27&e=ravens-at-cowboys%7Cat-t-
  stadium-arlington%7C3-25-pm
 DESCRIPTION:nfl event via SeatGeek. — More: https://letsdoitdallas.com/di
  strict/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-09-27@
- letsdoitdallas.com
-DTSTAMP:20260927T210000Z
-DTSTART:20260927T210000Z
-DTEND:20260928T000000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C4-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:ryan-davis|arlington-improv-arlington|7-00-pm-2026-09-27@letsdoitdallas
@@ -167,19 +114,6 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:white-sox-at-rangers-al-wild-card-gm-1-hg-1-|globe-life-field-arlington
- |3-30-am-2026-09-29@letsdoitdallas.com
-DTSTAMP:20260929T083000Z
-DTSTART:20260929T083000Z
-DTEND:20260929T113000Z
-SUMMARY:White Sox at Rangers - AL Wild Card (Gm 1\, HG 1)
-LOCATION:Globe Life Field · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=white-sox-at-rangers-al-w
- ild-card-gm-1-hg-1-%7Cglobe-life-field-arlington%7C3-30-am
-DESCRIPTION:mlb event via SeatGeek. — More: https://letsdoitdallas.com/di
- strict/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|10-00-am-20
  26-09-29@letsdoitdallas.com
 DTSTAMP:20260929T150000Z
@@ -232,6 +166,19 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:white-sox-at-rangers-al-wild-card-gm-1-hg-1-|globe-life-field-arlington
+ |4-00-pm-2026-09-29@letsdoitdallas.com
+DTSTAMP:20260929T210000Z
+DTSTART:20260929T210000Z
+DTEND:20260930T000000Z
+SUMMARY:White Sox at Rangers - AL Wild Card (Gm 1\, HG 1)
+LOCATION:Globe Life Field · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=white-sox-at-rangers-al-w
+ ild-card-gm-1-hg-1-%7Cglobe-life-field-arlington%7C4-00-pm
+DESCRIPTION:mlb event via SeatGeek. — More: https://letsdoitdallas.com/di
+ strict/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-09-29@letsdoitdal
  las.com
 DTSTAMP:20260929T233000Z
@@ -243,19 +190,6 @@ URL:https://letsdoitdallas.com/?date=2026-09-29&e=test-your-mic%7Carlington
  -improv-arlington%7C6-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:white-sox-at-rangers-al-wild-card-gm-2-hg-2-|globe-life-field-arlington
- |3-30-am-2026-09-30@letsdoitdallas.com
-DTSTAMP:20260930T083000Z
-DTSTART:20260930T083000Z
-DTEND:20260930T113000Z
-SUMMARY:White Sox at Rangers - AL Wild Card (Gm 2\, HG 2)
-LOCATION:Globe Life Field · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=white-sox-at-rangers-al-w
- ild-card-gm-2-hg-2-%7Cglobe-life-field-arlington%7C3-30-am
-DESCRIPTION:mlb event via SeatGeek. — More: https://letsdoitdallas.com/di
- strict/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|10-00-am-20
@@ -310,6 +244,19 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:white-sox-at-rangers-al-wild-card-gm-2-hg-2-|globe-life-field-arlington
+ |4-00-pm-2026-09-30@letsdoitdallas.com
+DTSTAMP:20260930T210000Z
+DTSTART:20260930T210000Z
+DTEND:20261001T000000Z
+SUMMARY:White Sox at Rangers - AL Wild Card (Gm 2\, HG 2)
+LOCATION:Globe Life Field · Arlington
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=white-sox-at-rangers-al-w
+ ild-card-gm-2-hg-2-%7Cglobe-life-field-arlington%7C4-00-pm
+DESCRIPTION:mlb event via SeatGeek. — More: https://letsdoitdallas.com/di
+ strict/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:just-nesh|arlington-improv-arlington|7-30-pm-2026-09-30@letsdoitdallas.
  com
 DTSTAMP:20261001T003000Z
@@ -335,19 +282,6 @@ URL:https://letsdoitdallas.com/?date=2026-09-30&e=first-round-golden-state-
  -00-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:white-sox-at-rangers-al-wild-card-gm-3-hg-3-|globe-life-field-arlington
- |3-30-am-2026-10-01@letsdoitdallas.com
-DTSTAMP:20261001T083000Z
-DTSTART:20261001T083000Z
-DTEND:20261001T113000Z
-SUMMARY:White Sox at Rangers - AL Wild Card (Gm 3\, HG 3)
-LOCATION:Globe Life Field · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=white-sox-at-rangers-al-w
- ild-card-gm-3-hg-3-%7Cglobe-life-field-arlington%7C3-30-am
-DESCRIPTION:mlb event via SeatGeek. — More: https://letsdoitdallas.com/di
- strict/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|10-00-am-20
@@ -400,6 +334,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-01&e=at-t-stadium-vip-guided-t
  our%7Cat-t-stadium-arlington%7C4-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:white-sox-at-rangers-al-wild-card-gm-3-hg-3-|globe-life-field-arlington
+ |4-00-pm-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261001T210000Z
+DTSTART:20261001T210000Z
+DTEND:20261002T000000Z
+SUMMARY:White Sox at Rangers - AL Wild Card (Gm 3\, HG 3)
+LOCATION:Globe Life Field · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=white-sox-at-rangers-al-w
+ ild-card-gm-3-hg-3-%7Cglobe-life-field-arlington%7C4-00-pm
+DESCRIPTION:mlb event via SeatGeek. — More: https://letsdoitdallas.com/di
+ strict/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:little-rock-trojans-at-ut-arlington-mavericks-womens-volleyball|college
