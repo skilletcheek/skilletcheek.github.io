@@ -403,6 +403,9 @@ def ics_category(raw: str, default: str) -> str:
     return default
 
 
+ICS_ATTEMPTS = 3
+
+
 def fetch_ics_feeds(start, end):
     if not FEEDS_FILE.exists():
         return []
@@ -417,24 +420,34 @@ def fetch_ics_feeds(start, end):
         url = feed.get("url")
         if not url:
             continue
-        try:
-            lines = unfold_ics(http_text(url))
-        except Exception as e:  # noqa: BLE001
-            print(f"ics feed failed ({url}): {e}", file=sys.stderr)
+        # Retry: whatsupfortworth.com answers in <1s but hard-timed-out from
+        # the runner on 3 of 30 runs (Sep 2026), and it is the only feed here,
+        # so one blip zeroed the source, dropped ~27 events and went red.
+        lines = None
+        for attempt in range(1, ICS_ATTEMPTS + 1):
+            try:
+                lines = unfold_ics(http_text(url))
+                break
+            except Exception as e:  # noqa: BLE001
+                print(f"ics feed failed ({url}, attempt {attempt}/{ICS_ATTEMPTS}): {e}",
+                      file=sys.stderr)
+                if attempt < ICS_ATTEMPTS:
+                    time.sleep(10)
+        if lines is None:
             continue
         ev, count = None, 0
         for line in lines:
             if line.startswith("BEGIN:VEVENT"):
                 ev = {}
             elif line.startswith("END:VEVENT") and ev is not None:
-                date, time = parse_ics_datetime(ev.get("DTSTART", ""))
+                date, start_time = parse_ics_datetime(ev.get("DTSTART", ""))
                 if date and lo <= date <= hi and ev.get("SUMMARY"):
                     out.append(row(
                         ev.get("SUMMARY"),
                         ics_category(ev.get("CATEGORIES"),
                                      feed.get("category", "festival")),
                         ev.get("LOCATION") or feed.get("area"),
-                        date, time, feed.get("cost"),
+                        date, start_time, feed.get("cost"),
                         re.sub(r"\\n", " ", ev.get("DESCRIPTION", ""))[:280],
                         ev.get("URL") or feed.get("fallback_url"),
                     ))
