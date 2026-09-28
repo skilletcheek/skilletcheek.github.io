@@ -10,95 +10,48 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bluegrass-heritage-music-show-jam|poor-david-s-pub-dallas|doors-see-lis
- ting-2026-09-27@letsdoitdallas.com
-DTSTAMP:20260927T000000Z
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20260928
-SUMMARY:Bluegrass Heritage Music Show & Jam
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=bluegrass-heritage-music-
- show-jam%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T130000Z
+DTSTART:20260928T130000Z
+DTEND:20260928T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:frank-turner-lost-evenings-ix|south-side-ballroom-dallas|6-00-pm-2026-0
- 9-27@letsdoitdallas.com
-DTSTAMP:20260927T230000Z
-DTSTART:20260927T230000Z
-DTEND:20260928T020000Z
-SUMMARY:Frank Turner - Lost Evenings IX
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=frank-turner-lost-evening
- s-ix%7Csouth-side-ballroom-dallas%7C6-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:nevertel|the-cambridge-room-at-house-of-blues-dallas|6-00-pm-2026-09-27
- @letsdoitdallas.com
-DTSTAMP:20260927T230000Z
-DTSTART:20260927T230000Z
-DTEND:20260928T020000Z
-SUMMARY:Nevertel
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=nevertel%7Cthe-cambridge-
- room-at-house-of-blues-dallas%7C6-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:hairball|house-of-blues-dallas-dallas|7-00-pm-2026-09-27@letsdoitdallas
- .com
-DTSTAMP:20260928T000000Z
-DTSTART:20260928T000000Z
-DTEND:20260928T030000Z
-SUMMARY:Hairball
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=hairball%7Chouse-of-blues
- -dallas-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:indigo-girls-w-linda-perry|majestic-theatre-dallas-dallas|7-00-pm-2026-
- 09-27@letsdoitdallas.com
-DTSTAMP:20260928T000000Z
-DTSTART:20260928T000000Z
-DTEND:20260928T030000Z
-SUMMARY:Indigo Girls w/ Linda Perry
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=indigo-girls-w-linda-perr
- y%7Cmajestic-theatre-dallas-dallas%7C7-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:american-aquarium|longhorn-ballroom-backyard-amphitheater-dallas|8-00-p
- m-2026-09-27@letsdoitdallas.com
-DTSTAMP:20260928T010000Z
-DTSTART:20260928T010000Z
-DTEND:20260928T040000Z
-SUMMARY:American Aquarium
-LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=american-aquarium%7Clongh
- orn-ballroom-backyard-amphitheater-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:rod-wave-don-t-look-down-tour|american-airlines-center-dallas|8-00-pm-2
- 026-09-27@letsdoitdallas.com
-DTSTAMP:20260928T010000Z
-DTSTART:20260928T010000Z
-DTEND:20260928T040000Z
-SUMMARY:Rod Wave: Don't Look Down Tour
+UID:levy-job-fair|american-airlines-center-2500-victory-ave-dallas-75219-un
+ ited-states|4-00-pm-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T210000Z
+DTSTART:20260928T210000Z
+DTEND:20260929T000000Z
+SUMMARY:Levy Job Fair
 LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=rod-wave-don-t-look-down-
- tour%7Camerican-airlines-center-dallas%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/downtown-dallas/
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=levy-job-fair%7Camerican-
+ airlines-center-2500-victory-ave-dallas-75219-united-states%7C4-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-09-29@letsdoitdallas.com
+DTSTAMP:20260929T130000Z
+DTSTART:20260929T130000Z
+DTEND:20260929T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-29&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:luv-language-tour-with-jeff-bernat|the-cambridge-room-at-house-of-blues
@@ -151,6 +104,34 @@ URL:https://letsdoitdallas.com/?date=2026-09-30&e=poor-david-s-open-mic-hos
  ted-by-rob-case%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-09-30@letsdoitdallas.com
+DTSTAMP:20260930T130000Z
+DTSTART:20260930T130000Z
+DTEND:20260930T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:levy-job-fair|american-airlines-center-2500-victory-ave-dallas-75219-un
+ ited-states|4-00-pm-2026-09-30@letsdoitdallas.com
+DTSTAMP:20260930T210000Z
+DTSTART:20260930T210000Z
+DTEND:20261001T000000Z
+SUMMARY:Levy Job Fair
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=levy-job-fair%7Camerican-
+ airlines-center-2500-victory-ave-dallas-75219-united-states%7C4-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:rodrigo-y-gabriela|house-of-blues-dallas-dallas|6-30-pm-2026-09-30@lets
@@ -374,15 +355,15 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:pouya-the-forever-glades-tour|south-side-ballroom-dallas|8-00-pm-2026-1
+UID:pouya-the-forever-glades-tour|south-side-ballroom-dallas|7-45-pm-2026-1
  0-05@letsdoitdallas.com
-DTSTAMP:20261006T010000Z
-DTSTART:20261006T010000Z
-DTEND:20261006T040000Z
+DTSTAMP:20261006T004500Z
+DTSTART:20261006T004500Z
+DTEND:20261006T034500Z
 SUMMARY:Pouya - The Forever Glades Tour
 LOCATION:South Side Ballroom · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-05&e=pouya-the-forever-glades-
- tour%7Csouth-side-ballroom-dallas%7C8-00-pm
+ tour%7Csouth-side-ballroom-dallas%7C7-45-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/downtown-dallas/
 END:VEVENT
@@ -1170,5 +1151,44 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=the-billy-joel-legacy%7Cm
  ajestic-theatre-dallas-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:honey-revenge-x-dead-poet-society|house-of-blues-dallas-dallas|5-30-pm-
+ 2026-10-27@letsdoitdallas.com
+DTSTAMP:20261027T223000Z
+DTSTART:20261027T223000Z
+DTEND:20261028T013000Z
+SUMMARY:Honey Revenge x Dead Poet Society
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=honey-revenge-x-dead-poet
+ -society%7Chouse-of-blues-dallas-dallas%7C5-30-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-stars-vs-new-jersey-devils|american-airlines-center-dallas|7-00-
+ pm-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261028T000000Z
+DTSTART:20261028T000000Z
+DTEND:20261028T030000Z
+SUMMARY:Dallas Stars vs. New Jersey Devils
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=dallas-stars-vs-new-jerse
+ y-devils%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:poor-david-s-open-mic-hosted-by-rob-case|poor-david-s-pub-dallas|doors-
+ see-listing-2026-10-28@letsdoitdallas.com
+DTSTAMP:20261028T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Poor David's Open Mic - Hosted by Rob Case
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=poor-david-s-open-mic-hos
+ ted-by-rob-case%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

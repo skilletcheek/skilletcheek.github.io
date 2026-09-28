@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
- -state-street-garland|02-00-pm-2026-09-27@letsdoitdallas.com
-DTSTAMP:20260927T190000Z
-DTSTART:20260927T190000Z
-DTEND:20260927T220000Z
-SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
-LOCATION:521 W State Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=little-shop-of-horrors-pr
- esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C02
- -00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:good-neighbor-day-greeting-cards-d-a-del-buen-vecino-tarjetas-de-felici
  taci-n-de-la-biblioteca-central|central-library-garland|04-00-pm-2026-09-2
  8@letsdoitdallas.com
@@ -361,6 +348,18 @@ DESCRIPTION:6:30 p.m.\; ¿Te gusta leer en español — o quieres leer más
  mpañía — ¡t — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
+UID:les-mis-rables-by-the-covenant-school|300-n-fifth-street-garland|07-00-
+ pm-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261002T000000Z
+DTSTART:20261002T000000Z
+DTEND:20261002T030000Z
+SUMMARY:Les Misérables by The Covenant School
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=les-mis-rables-by-the-cov
+ enant-school%7C300-n-fifth-street-garland%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
 UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
  -state-street-garland|07-30-pm-2026-10-01@letsdoitdallas.com
 DTSTAMP:20261002T003000Z
@@ -454,6 +453,18 @@ DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
   A — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
+UID:les-mis-rables-by-the-covenant-school|300-n-fifth-street-garland|07-00-
+ pm-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261003T000000Z
+DTSTART:20261003T000000Z
+DTEND:20261003T030000Z
+SUMMARY:Les Misérables by The Covenant School
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=les-mis-rables-by-the-cov
+ enant-school%7C300-n-fifth-street-garland%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
 UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
  -state-street-garland|07-30-pm-2026-10-02@letsdoitdallas.com
 DTSTAMP:20261003T003000Z
@@ -513,6 +524,18 @@ DESCRIPTION:11:00 a.m.\; Join us for a powerful two-part discussion series
  ounseling Without Limits. These sessions aim to raise awareness\, break do
  wn the stigma surrounding mental health\, and inspire individuals — espe
  ci — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:les-mis-rables-by-the-covenant-school|300-n-fifth-street-garland|01-00-
+ pm-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T180000Z
+DTSTART:20261003T180000Z
+DTEND:20261003T210000Z
+SUMMARY:Les Misérables by The Covenant School
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=les-mis-rables-by-the-cov
+ enant-school%7C300-n-fifth-street-garland%7C01-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:calm-creations-sensory-friendly-ages-18-|central-library-garland|02-00-
@@ -886,5 +909,53 @@ LOCATION:300 N Fifth Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-10-11&e=anything-goes-presented-b
  y-garland-civic-theatre%7C300-n-fifth-street-garland%7C02-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:smart-start-garland-school-readiness-workshops|central-library-garland|
+ 10-00-am-2026-10-12@letsdoitdallas.com
+DTSTAMP:20261012T150000Z
+DTSTART:20261012T150000Z
+DTEND:20261012T180000Z
+SUMMARY:Smart Start Garland: School Readiness Workshops
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=smart-start-garland-schoo
+ l-readiness-workshops%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Set your child on the path for school success with
+  Smart Start Garland! This six-week school readiness program will introduc
+ e children to fundamental skills and behaviors that will help them thrive 
+ in a learning environment\, while also providing support and resources —
+  More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:coi-small-business-leadership-series-ages-18-|central-library-garland|0
+ 5-30-pm-2026-10-12@letsdoitdallas.com
+DTSTAMP:20261012T223000Z
+DTSTART:20261012T223000Z
+DTEND:20261013T013000Z
+SUMMARY:COI Small Business Leadership Series (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=coi-small-business-leader
+ ship-series-ages-18-%7Ccentral-library-garland%7C05-30-pm
+DESCRIPTION:5:30 p.m.\; In this five-part workshop\, Jennifer Jordan (MBA\,
+  CPTD\, CPTM) of J2 Leadership and Learning Solutions\, will introduce asp
+ iring entrepreneurs\, recent small business owners\, and established small
+  business owners to the COI (clarity\, ownership and independence) framewo
+ rk — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:library-board-monthly-meeting|city-hall-garland|06-00-pm-2026-10-12@let
+ sdoitdallas.com
+DTSTAMP:20261012T230000Z
+DTSTART:20261012T230000Z
+DTEND:20261013T020000Z
+SUMMARY:Library Board Monthly Meeting
+LOCATION:City Hall · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=library-board-monthly-mee
+ ting%7Ccity-hall-garland%7C06-00-pm
+DESCRIPTION:6 p.m.\; The purpose of the Library Board is to advise the City
+  Council on problems relating to the Public Library and to recommend plans
+  and programs to promote the library system for the City. October 12\, 202
+ 6 06:00 PM - 07:00 PM 200 N. Fifth StreetGarland\, TX 75040 https://www. 
+ — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 END:VCALENDAR

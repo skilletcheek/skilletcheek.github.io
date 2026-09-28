@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
- doors-see-listing-2026-09-27@letsdoitdallas.com
-DTSTAMP:20260927T000000Z
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20260928
-SUMMARY:geeks who drink FREE Trivia
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=geeks-who-drink-free-triv
- ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-09-27@letsdoitd
- allas.com
-DTSTAMP:20260928T040000Z
-DTSTART:20260928T040000Z
-DTEND:20260928T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:free-cult-classic-movie-monday-zoolander|sundown-at-granada-lower-green
  ville-dallas|doors-see-listing-2026-09-28@letsdoitdallas.com
 DTSTAMP:20260928T000000Z
@@ -87,6 +61,22 @@ URL:https://letsdoitdallas.com/?date=2026-09-30&e=poor-david-s-open-mic-hos
  ted-by-rob-case%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:bread-zeppelin-opens-in-richardson-on-september-30|bread-zeppelin-richa
+ rdson|10-00-am-9-00-pm-2026-09-30@letsdoitdallas.com
+DTSTAMP:20260930T150000Z
+DTSTART:20260930T150000Z
+DTEND:20260930T180000Z
+SUMMARY:Bread Zeppelin Opens in Richardson on September 30
+LOCATION:Bread Zeppelin · Richardson
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=bread-zeppelin-opens-in-r
+ ichardson-on-september-30%7Cbread-zeppelin-richardson%7C10-00-am-9-00-pm
+DESCRIPTION:Bread Zeppelin is opening its newest Richardson location on Sep
+ tember 30\, marking the Dallas-founded fast-casual concept’s 12th Texas 
+ restaurant. Opening day features a ribbon-cutting\, live radio broadcast\,
+  giveaways\, prize wheels\, and special discounts\, including free Zeppeli
+ ns — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:wub-wednesday|three-links-deep-ellum-dallas|10-30-pm-2026-09-30@letsdoi
@@ -410,6 +400,19 @@ DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
 END:VEVENT
 BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
+ pm-2026-10-26@letsdoitdallas.com
+DTSTAMP:20261027T020000Z
+DTSTART:20261027T020000Z
+DTEND:20261027T050000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
 UID:free-halloween-movie-month-hocus-pocus-2|sundown-at-granada-lower-green
  ville-dallas|doors-see-listing-2026-10-27@letsdoitdallas.com
 DTSTAMP:20261027T000000Z
@@ -422,5 +425,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-27&e=free-halloween-movie-mont
  isting
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:poor-david-s-open-mic-hosted-by-rob-case|poor-david-s-pub-dallas|doors-
+ see-listing-2026-10-28@letsdoitdallas.com
+DTSTAMP:20261028T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Poor David's Open Mic - Hosted by Rob Case
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=poor-david-s-open-mic-hos
+ ted-by-rob-case%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ free-events/
 END:VEVENT
 END:VCALENDAR

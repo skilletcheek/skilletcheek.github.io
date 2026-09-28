@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:american-aquarium|longhorn-ballroom-backyard-amphitheater-dallas|8-00-p
- m-2026-09-27@letsdoitdallas.com
-DTSTAMP:20260928T010000Z
-DTSTART:20260928T010000Z
-DTEND:20260928T040000Z
-SUMMARY:American Aquarium
-LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=american-aquarium%7Clongh
- orn-ballroom-backyard-amphitheater-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/longhorn-ballroom-backyard-amphitheater/
-END:VEVENT
-BEGIN:VEVENT
 UID:randy-travis-w-james-dupre|longhorn-ballroom-backyard-amphitheater-dall
  as|8-00-pm-2026-10-15@letsdoitdallas.com
 DTSTAMP:20261016T010000Z

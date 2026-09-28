@@ -10,22 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:super-smash-bros-monthly-tournament|grapevine|01-00-pm-2026-09-27@letsd
- oitdallas.com
-DTSTAMP:20260927T180000Z
-DTSTART:20260927T180000Z
-DTEND:20260927T210000Z
-SUMMARY:Super Smash Bros Monthly Tournament
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=super-smash-bros-monthly-
- tournament%7Cgrapevine%7C01-00-pm
-DESCRIPTION:This Sunday\, join us at the Esports Academy for our monthly Su
- per Smash Bros tournament! Test your skills against local players for a ch
- ance to win prizes and earn bragging rights. Participants will be grouped 
- into age divisions based on the number of entries and their ages\, ensu 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:stem-lab-18-|grapevine|10-00-am-2026-09-28@letsdoitdallas.com
 DTSTAMP:20260928T150000Z
 DTSTART:20260928T150000Z
@@ -429,6 +413,37 @@ DESCRIPTION:Use your creativity\, critical thinking\, and maker skills to m
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
+UID:level-up-smash-bros-training-camp|grapevine|12-30-pm-2026-10-04@letsdoi
+ tdallas.com
+DTSTAMP:20261004T173000Z
+DTSTART:20261004T173000Z
+DTEND:20261004T203000Z
+SUMMARY:Level Up: Smash Bros. Training Camp
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=level-up-smash-bros-train
+ ing-camp%7Cgrapevine%7C12-30-pm
+DESCRIPTION:Who: Ages 8+ What: The Esports Academy's gaming PCs and console
+ s will be available for tournament practice during the holiday-themed Supe
+ r Smash Bros.Tournament and Mario Kart Grand Prix. Stop by this Sunday to 
+ hone your in-game skills\, learn strategy\, and compete with peers! Whe 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:stem-lab-18-|grapevine|10-00-am-2026-10-05@letsdoitdallas.com
+DTSTAMP:20261005T150000Z
+DTSTART:20261005T150000Z
+DTEND:20261005T180000Z
+SUMMARY:STEM Lab (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=stem-lab-18-%7Cgrapevine%
+ 7C10-00-am
+DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
+ at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
+ ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
+ edgeable staff will be available to provide guidance\, tips\, and support 
+ as — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
 UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
  grapevine|04-30-pm-2026-10-05@letsdoitdallas.com
 DTSTAMP:20261005T213000Z
@@ -442,6 +457,22 @@ DESCRIPTION:Kick back after school\, bring your favorite snacks\, and enjoy
   a movie with friends! For teens ages 13 and up. October 5\, 2026 04:30 PM
   - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine\, TX 7605
  1 https://www.grapevinetexas.gov/Calendar.aspx?EID=17649/6392103542300000 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:block-by-block-building-knowledge-through-minecraft|grapevine|05-00-pm-
+ 2026-10-05@letsdoitdallas.com
+DTSTAMP:20261005T220000Z
+DTSTART:20261005T220000Z
+DTEND:20261006T010000Z
+SUMMARY:Block by Block: Building Knowledge through Minecraft
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=block-by-block-building-k
+ nowledge-through-minecraft%7Cgrapevine%7C05-00-pm
+DESCRIPTION:Who: Ages 8+ What: Join us at the Esports Academy this Monday a
+ nd dive into our Minecraft server to explore an exciting array of new serv
+ er-wide mods! Transform your Minecraft world into a Steampunk-themed adven
+ ture\, embark on Pokémon hunts and trainer battles across diverse biom 
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
@@ -503,6 +534,21 @@ DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are
  se stop at the Children's Desk 15 minutes before the program to receive ti
  ckets. 1 per attendee.) October 6\, 2026 10:30 AM - 11:00 AM Grapevine\, T
   — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:stem-lab-18-|grapevine|10-00-am-2026-10-07@letsdoitdallas.com
+DTSTAMP:20261007T150000Z
+DTSTART:20261007T150000Z
+DTEND:20261007T180000Z
+SUMMARY:STEM Lab (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=stem-lab-18-%7Cgrapevine%
+ 7C10-00-am
+DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
+ at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
+ ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
+ edgeable staff will be available to provide guidance\, tips\, and support 
+ as — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-10-07@letsd
@@ -887,6 +933,22 @@ DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
  sdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
+UID:mario-kart-8-deluxe-halloween-mayhem|grapevine|01-00-pm-2026-10-11@lets
+ doitdallas.com
+DTSTAMP:20261011T180000Z
+DTSTART:20261011T180000Z
+DTEND:20261011T210000Z
+SUMMARY:Mario Kart 8 Deluxe Halloween Mayhem
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=mario-kart-8-deluxe-hallo
+ ween-mayhem%7Cgrapevine%7C01-00-pm
+DESCRIPTION:Who: Ages 8+ What: Rev up your engines and join us at the libra
+ ry for a spooky Mario Kart 8 Deluxe Halloween Mayhem! This exciting tourna
+ ment invites racers of all ages to compete in thrilling Mario Kart matches
+  on the Nintendo Switch\, now featuring the awesome new 8-player split —
+  More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
 UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
  rapevine-vintage-railroad-grapevine|2-30-pm-2026-10-11@letsdoitdallas.com
 DTSTAMP:20261011T193000Z
@@ -913,6 +975,100 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=day-out-with-thomas-tm-th
  grapevine%7C4-30-pm
 DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
  sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:stem-lab-18-|grapevine|10-00-am-2026-10-12@letsdoitdallas.com
+DTSTAMP:20261012T150000Z
+DTSTART:20261012T150000Z
+DTEND:20261012T180000Z
+SUMMARY:STEM Lab (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=stem-lab-18-%7Cgrapevine%
+ 7C10-00-am
+DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
+ at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
+ ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
+ edgeable staff will be available to provide guidance\, tips\, and support 
+ as — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:entwined-minds-book-club-for-adults|1201-municipal-way-grapevine|01-00-
+ pm-2026-10-12@letsdoitdallas.com
+DTSTAMP:20261012T180000Z
+DTSTART:20261012T180000Z
+DTEND:20261012T210000Z
+SUMMARY:Entwined Minds Book Club for Adults
+LOCATION:1201 Municipal Way · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=entwined-minds-book-club-
+ for-adults%7C1201-municipal-way-grapevine%7C01-00-pm
+DESCRIPTION:This book club is FULL and closed to new members. Please\, emai
+ l us\, if you'd like to be put on the waitlist. October 12\, 2026 01:00 PM
+  - 03:00 PM 1201 Municipal WayGrapevine\, TX 76051 https://www.grapevinete
+ xas.gov/Calendar.aspx?EID=16067/638992445230000000 — More: https://letsd
+ oitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
+ grapevine|04-30-pm-2026-10-12@letsdoitdallas.com
+DTSTAMP:20261012T213000Z
+DTSTART:20261012T213000Z
+DTEND:20261013T003000Z
+SUMMARY:After-School Cinema & Snacks
+LOCATION:Grapevine Public Library
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=after-school-cinema-snack
+ s%7Cgrapevine-public-library-1201-municipal-way-grapevine%7C04-30-pm
+DESCRIPTION:Kick back after school\, bring your favorite snacks\, and enjoy
+  a movie with friends! For teens ages 13 and up. October 12\, 2026 04:30 P
+ M - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine\, TX 760
+ 51 https://www.grapevinetexas.gov/Calendar.aspx?EID=17650/639210354230000 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:knit-crochet-circle|grapevine|05-30-pm-2026-10-12@letsdoitdallas.com
+DTSTAMP:20261012T223000Z
+DTSTART:20261012T223000Z
+DTEND:20261013T013000Z
+SUMMARY:Knit & Crochet Circle
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=knit-crochet-circle%7Cgra
+ pevine%7C05-30-pm
+DESCRIPTION:Looking for a cozy way to unwind and connect with fellow yarn e
+ nthusiasts? Join us Mondays for our casual Knit & Crochet Circle! Whether 
+ you're a seasoned pro or just picking up your first set of needles or hook
+ s\, this is the perfect opportunity to share your latest projects\, swa 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:tinker-create-innovate-3d-adventure-with-tinkercad|grapevine|05-30-pm-2
+ 026-10-12@letsdoitdallas.com
+DTSTAMP:20261012T223000Z
+DTSTART:20261012T223000Z
+DTEND:20261013T013000Z
+SUMMARY:Tinker\, Create\, Innovate: 3D Adventure with TinkerCAD
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=tinker-create-innovate-3d
+ -adventure-with-tinkercad%7Cgrapevine%7C05-30-pm
+DESCRIPTION:Who: Kids/Teens ages 8-16 When: Monday\, October 12th\, from 5:
+ 30 to 6:30 pm Where: The Grapevine Library Esports Academy No Registration
+  Required. October 12\, 2026 05:30 PM - 06:30 PM Grapevine\, TX 76051 http
+ s://www.grapevinetexas.gov/Calendar.aspx?EID=17811/639261215770000000 — 
+ More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:express-yourself-writers-club-for-adults|grapevine|06-00-pm-2026-10-12@
+ letsdoitdallas.com
+DTSTAMP:20261012T230000Z
+DTSTART:20261012T230000Z
+DTEND:20261013T020000Z
+SUMMARY:Express Yourself Writers' Club for Adults
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=express-yourself-writers-
+ club-for-adults%7Cgrapevine%7C06-00-pm
+DESCRIPTION:Have you recently taken up writing as a hobby or have been writ
+ ing for years? Enjoy journaling? Like writing poetry or short stories? Wor
+ king on a novel? Play or screenplay? Would you like a place to share what 
+ you’ve written or are currently writing? Let’s meet to share and disc 
+ — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:day-out-with-thomas-tm-|museum-of-the-american-railroad-grapevine-vinta

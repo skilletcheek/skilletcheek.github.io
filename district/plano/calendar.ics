@@ -10,33 +10,20 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:wheel-to-survive-dallas|venue-forty|50-addison|see-details-2026-09-27@l
- etsdoitdallas.com
-DTSTAMP:20260927T000000Z
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20260928
-SUMMARY:Wheel to Survive Dallas
-LOCATION:Venue Forty|50 · Addison
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=wheel-to-survive-dallas%7
- Cvenue-forty%7C50-addison%7Csee-details
-DESCRIPTION:Wheel to Survive is a fundraising event supporting women affect
- ed by ovarian cancer through patient support\, education\, awareness\, and
-  research. Proceeds benefit Be The Difference Foundation\, which has raise
- d more than $6 million to advance ovarian cancer research and support tho 
- — More: https://letsdoitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:addisons-a-list|addison-improv-addison|7-00-pm-2026-09-27@letsdoitdalla
- s.com
-DTSTAMP:20260928T000000Z
-DTSTART:20260928T000000Z
-DTEND:20260928T030000Z
-SUMMARY:Addisons A-List
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=addisons-a-list%7Caddison
- -improv-addison%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/plano/
+UID:bread-zeppelin-opens-in-richardson-on-september-30|bread-zeppelin-richa
+ rdson|10-00-am-9-00-pm-2026-09-30@letsdoitdallas.com
+DTSTAMP:20260930T150000Z
+DTSTART:20260930T150000Z
+DTEND:20260930T180000Z
+SUMMARY:Bread Zeppelin Opens in Richardson on September 30
+LOCATION:Bread Zeppelin · Richardson
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=bread-zeppelin-opens-in-r
+ ichardson-on-september-30%7Cbread-zeppelin-richardson%7C10-00-am-9-00-pm
+DESCRIPTION:Bread Zeppelin is opening its newest Richardson location on Sep
+ tember 30\, marking the Dallas-founded fast-casual concept’s 12th Texas 
+ restaurant. Opening day features a ribbon-cutting\, live radio broadcast\,
+  giveaways\, prize wheels\, and special discounts\, including free Zeppeli
+ ns — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:jane-don-t-does-america|addison-improv-addison|7-30-pm-2026-09-30@letsd
@@ -167,6 +154,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-07&e=two-d-kes-and-a-mic-soaki
  ng-wet-tour%7Caddison-improv-addison%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:cindy-kaza-plano|mic-drop-comedy-plano-plano|7-30-pm-2026-10-08@letsdoi
+ tdallas.com
+DTSTAMP:20261009T003000Z
+DTSTART:20261009T003000Z
+DTEND:20261009T033000Z
+SUMMARY:Cindy Kaza - Plano
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=cindy-kaza-plano%7Cmic-dr
+ op-comedy-plano-plano%7C7-30-pm
+DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:manuel-ngel-redondo-en-espa-ol-|addison-improv-addison|7-30-pm-2026-10-

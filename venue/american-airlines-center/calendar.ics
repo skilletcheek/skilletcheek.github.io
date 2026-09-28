@@ -9,17 +9,17 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:rod-wave-don-t-look-down-tour|american-airlines-center-dallas|8-00-pm-2
- 026-09-27@letsdoitdallas.com
-DTSTAMP:20260928T010000Z
-DTSTART:20260928T010000Z
-DTEND:20260928T040000Z
-SUMMARY:Rod Wave: Don't Look Down Tour
+UID:levy-job-fair|american-airlines-center-2500-victory-ave-dallas-75219-un
+ ited-states|4-00-pm-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260928T210000Z
+DTSTART:20260928T210000Z
+DTEND:20260929T000000Z
+SUMMARY:Levy Job Fair
 LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=rod-wave-don-t-look-down-
- tour%7Camerican-airlines-center-dallas%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/american-airlines-center/
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=levy-job-fair%7Camerican-
+ airlines-center-2500-victory-ave-dallas-75219-united-states%7C4-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/venue/american-airlines-center
+ /
 END:VEVENT
 BEGIN:VEVENT
 UID:aespa-live-tour-synk-compl-xity-in-dallas|american-airlines-center-dall
@@ -33,6 +33,19 @@ URL:https://letsdoitdallas.com/?date=2026-09-29&e=aespa-live-tour-synk-comp
  l-xity-in-dallas%7Camerican-airlines-center-dallas%7C8-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:levy-job-fair|american-airlines-center-2500-victory-ave-dallas-75219-un
+ ited-states|4-00-pm-2026-09-30@letsdoitdallas.com
+DTSTAMP:20260930T210000Z
+DTSTART:20260930T210000Z
+DTEND:20261001T000000Z
+SUMMARY:Levy Job Fair
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=levy-job-fair%7Camerican-
+ airlines-center-2500-victory-ave-dallas-75219-united-states%7C4-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/venue/american-airlines-center
+ /
 END:VEVENT
 BEGIN:VEVENT
 UID:don-omar-the-last-king-world-tour-|american-airlines-center-dallas|8-00
@@ -239,6 +252,19 @@ SUMMARY:Dallas Stars vs. New York Islanders
 LOCATION:American Airlines Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-25&e=dallas-stars-vs-new-york-
  islanders%7Camerican-airlines-center-dallas%7C5-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-stars-vs-new-jersey-devils|american-airlines-center-dallas|7-00-
+ pm-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261028T000000Z
+DTSTART:20261028T000000Z
+DTEND:20261028T030000Z
+SUMMARY:Dallas Stars vs. New Jersey Devils
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=dallas-stars-vs-new-jerse
+ y-devils%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/american-airlines-center/
 END:VEVENT

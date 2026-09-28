@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:inquisitive-ages-18-|silo-dallas|7-00-pm-2026-09-27@letsdoitdallas.com
-DTSTAMP:20260928T000000Z
-DTSTART:20260928T000000Z
-DTEND:20260928T030000Z
-SUMMARY:Inquisitive - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=inquisitive-ages-18-%7Csi
- lo-dallas%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:scene-queen-metalicious|the-echo-lounge-music-hall-dallas|7-00-pm-2026-
- 09-27@letsdoitdallas.com
-DTSTAMP:20260928T000000Z
-DTSTART:20260928T000000Z
-DTEND:20260928T030000Z
-SUMMARY:Scene Queen: METALICIOUS
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=scene-queen-metalicious%7
- Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:fcukers|the-echo-lounge-music-hall-dallas|7-00-pm-2026-09-30@letsdoitda
  llas.com
 DTSTAMP:20261001T000000Z
@@ -527,5 +502,30 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=ruslan-kd-godly-ambition-
  tour-%7Cthe-echo-lounge-music-hall-dallas%7C6-00-pm
 DESCRIPTION:Multimedia event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:almost-monday|am-fm-dallas-dallas|7-00-pm-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261028T000000Z
+DTSTART:20261028T000000Z
+DTEND:20261028T030000Z
+SUMMARY:Almost Monday
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=almost-monday%7Cam-fm-dal
+ las-dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:emei-night-at-the-opera-tour|the-echo-lounge-music-hall-dallas|7-00-pm-
+ 2026-10-27@letsdoitdallas.com
+DTSTAMP:20261028T000000Z
+DTSTART:20261028T000000Z
+DTEND:20261028T030000Z
+SUMMARY:EMEI - Night at the Opera Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=emei-night-at-the-opera-t
+ our%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
 END:VEVENT
 END:VCALENDAR

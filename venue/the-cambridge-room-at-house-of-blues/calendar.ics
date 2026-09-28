@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:nevertel|the-cambridge-room-at-house-of-blues-dallas|6-00-pm-2026-09-27
- @letsdoitdallas.com
-DTSTAMP:20260927T230000Z
-DTSTART:20260927T230000Z
-DTEND:20260928T020000Z
-SUMMARY:Nevertel
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=nevertel%7Cthe-cambridge-
- room-at-house-of-blues-dallas%7C6-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-cambridge-room-at-house-of-blues/
-END:VEVENT
-BEGIN:VEVENT
 UID:luv-language-tour-with-jeff-bernat|the-cambridge-room-at-house-of-blues
  -dallas|7-00-pm-2026-09-29@letsdoitdallas.com
 DTSTAMP:20260930T000000Z

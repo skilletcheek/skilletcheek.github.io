@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:inquisitive-ages-18-|silo-dallas|7-00-pm-2026-09-27@letsdoitdallas.com
-DTSTAMP:20260928T000000Z
-DTSTART:20260928T000000Z
-DTEND:20260928T030000Z
-SUMMARY:Inquisitive - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=inquisitive-ages-18-%7Csi
- lo-dallas%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:hybrid-minds-ages-18-|silo-dallas|9-00-pm-2026-10-01@letsdoitdallas.com
 DTSTAMP:20261002T020000Z
 DTSTART:20261002T020000Z

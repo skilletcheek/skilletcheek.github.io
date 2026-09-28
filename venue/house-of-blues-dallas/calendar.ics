@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:hairball|house-of-blues-dallas-dallas|7-00-pm-2026-09-27@letsdoitdallas
- .com
-DTSTAMP:20260928T000000Z
-DTSTART:20260928T000000Z
-DTEND:20260928T030000Z
-SUMMARY:Hairball
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=hairball%7Chouse-of-blues
- -dallas-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:tinlicker-north-america-2026|house-of-blues-dallas-dallas|7-00-pm-2026-
  09-29@letsdoitdallas.com
 DTSTAMP:20260930T000000Z
@@ -228,5 +215,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=shyne-2622-lgnd-tour-with
  -barrington-levy-and-lil-cease%7Chouse-of-blues-dallas-dallas%7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:honey-revenge-x-dead-poet-society|house-of-blues-dallas-dallas|5-30-pm-
+ 2026-10-27@letsdoitdallas.com
+DTSTAMP:20261027T223000Z
+DTSTART:20261027T223000Z
+DTEND:20261028T013000Z
+SUMMARY:Honey Revenge x Dead Poet Society
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=honey-revenge-x-dead-poet
+ -society%7Chouse-of-blues-dallas-dallas%7C5-30-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/house-of-blues-dallas/
 END:VEVENT
 END:VCALENDAR

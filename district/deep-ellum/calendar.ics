@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gloria-gloria-mean-people-brian-damon|three-links-deep-ellum-dallas|7-0
- 0-pm-2026-09-27@letsdoitdallas.com
-DTSTAMP:20260928T000000Z
-DTSTART:20260928T000000Z
-DTEND:20260928T030000Z
-SUMMARY:Gloria Gloria\, Mean People\, Brian Damon
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=gloria-gloria-mean-people
- -brian-damon%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:french-police-w-social-order|trees-dallas|8-00-pm-2026-09-27@letsdoitda
- llas.com
-DTSTAMP:20260928T010000Z
-DTSTART:20260928T010000Z
-DTEND:20260928T040000Z
-SUMMARY:French Police w/ Social Order
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=french-police-w-social-or
- der%7Ctrees-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-09-27@letsdoitd
- allas.com
-DTSTAMP:20260928T040000Z
-DTSTART:20260928T040000Z
-DTEND:20260928T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:castle-rat-16-and-under-with-parent-or-legal-guardian-|the-studio-at-th
  e-bomb-factory-dallas|7-30-pm-2026-09-28@letsdoitdallas.com
 DTSTAMP:20260929T003000Z
@@ -854,5 +815,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=dj-sneak305%7Cthree-links
  -deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
+ pm-2026-10-26@letsdoitdallas.com
+DTSTAMP:20261027T020000Z
+DTSTART:20261027T020000Z
+DTEND:20261027T050000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

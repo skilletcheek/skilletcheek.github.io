@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:oktoberfest|111-n-tennessee-st-mckinney|12-00-pm-2026-09-27@letsdoitdal
- las.com
-DTSTAMP:20260927T170000Z
-DTSTART:20260927T170000Z
-DTEND:20260927T200000Z
-SUMMARY:Oktoberfest
-LOCATION:111 N. Tennessee St. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-27&e=oktoberfest%7C111-n-tenne
- ssee-st-mckinney%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:national-good-neighbor-day-tips|mckinney|12-00-am-2026-09-28@letsdoitda
  llas.com
 DTSTAMP:20260928T050000Z
@@ -31,18 +19,6 @@ SUMMARY:National Good Neighbor Day Tips
 LOCATION:McKinney
 URL:https://letsdoitdallas.com/?date=2026-09-28&e=national-good-neighbor-da
  y-tips%7Cmckinney%7C12-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-09-28@
- letsdoitdallas.com
-DTSTAMP:20260928T153000Z
-DTSTART:20260928T153000Z
-DTEND:20260928T183000Z
-SUMMARY:Baby & Me (0-10 Months)
-LOCATION:6861 W. Eldorado Pkwy. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-09-28&e=baby-me-0-10-months-%7C68
- 61-w-eldorado-pkwy-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
@@ -489,6 +465,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=be-like-blippi-tour%7Ccre
  dit-union-of-texas-event-center-allen%7C2-00-pm
 DESCRIPTION:Children's Theatre event via Ticketmaster. — More: https://le
  tsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-10-12@
+ letsdoitdallas.com
+DTSTAMP:20261012T153000Z
+DTSTART:20261012T153000Z
+DTEND:20261012T183000Z
+SUMMARY:Baby & Me (0-10 Months)
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=baby-me-0-10-months-%7C68
+ 61-w-eldorado-pkwy-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
 UID:worlds-2026-swiss-1|credit-union-of-texas-event-center-allen|12-00-pm-2
