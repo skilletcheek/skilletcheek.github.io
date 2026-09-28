@@ -406,6 +406,32 @@ DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:kylie-cantrall|the-bomb-factory-dallas-dallas|8-00-pm-2026-10-12@letsdo
+ itdallas.com
+DTSTAMP:20261013T010000Z
+DTSTART:20261013T010000Z
+DTEND:20261013T040000Z
+SUMMARY:Kylie Cantrall
+LOCATION:The Bomb Factory - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=kylie-cantrall%7Cthe-bomb
+ -factory-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:lilyisthatyou|deep-ellum-art-co-dallas|8-00-pm-2026-10-12@letsdoitdalla
+ s.com
+DTSTAMP:20261013T010000Z
+DTSTART:20261013T010000Z
+DTEND:20261013T040000Z
+SUMMARY:Lilyisthatyou
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=lilyisthatyou%7Cdeep-ellu
+ m-art-co-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
  pm-2026-10-12@letsdoitdallas.com
 DTSTAMP:20261013T020000Z

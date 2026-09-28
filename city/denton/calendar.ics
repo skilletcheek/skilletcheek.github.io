@@ -42,6 +42,22 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  re: https://letsdoitdallas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
+UID:concert-winds|winspear-performance-hall-at-the-murchison-performing-art
+ s-center-denton|7-30-pm-2026-09-28@letsdoitdallas.com
+DTSTAMP:20260929T003000Z
+DTSTART:20260929T003000Z
+DTEND:20260929T033000Z
+SUMMARY:Concert Winds
+LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
+ · Denton
+URL:https://letsdoitdallas.com/?date=2026-09-28&e=concert-winds%7Cwinspear-
+ performance-hall-at-the-murchison-performing-arts-center-denton%7C7-30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below. — More: https://letsd
+ oitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
 UID:guest-artist-lecture-and-recital-jorge-alves-viola|recital-hall-at-the-
  music-building-denton|8-00-pm-2026-09-28@letsdoitdallas.com
 DTSTAMP:20260929T010000Z
@@ -52,22 +68,6 @@ LOCATION:Recital Hall at the Music Building · Denton
 URL:https://letsdoitdallas.com/?date=2026-09-28&e=guest-artist-lecture-and-
  recital-jorge-alves-viola%7Crecital-hall-at-the-music-building-denton%7C8-
  00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:junior-recital-james-snyder-saxophone|lab-west-at-the-music-building-de
- nton|8-00-pm-2026-09-28@letsdoitdallas.com
-DTSTAMP:20260929T010000Z
-DTSTART:20260929T010000Z
-DTEND:20260929T040000Z
-SUMMARY:Junior Recital: James Snyder\, saxophone
-LOCATION:Lab West at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-09-28&e=junior-recital-james-snyd
- er-saxophone%7Clab-west-at-the-music-building-denton%7C8-00-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
  ay of the performance.      Livestream is not available for this event.   
@@ -127,15 +127,31 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  re: https://letsdoitdallas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
-UID:faculty-chamber-concert|paul-voertman-concert-hall-at-the-music-buildin
- g-denton|8-00-pm-2026-09-30@letsdoitdallas.com
-DTSTAMP:20261001T010000Z
-DTSTART:20261001T010000Z
-DTEND:20261001T040000Z
-SUMMARY:Faculty Chamber Concert
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=faculty-chamber-concert%7
- Cpaul-voertman-concert-hall-at-the-music-building-denton%7C8-00-pm
+UID:doctoral-recital-ziyi-li-piano|recital-hall-at-the-music-building-dento
+ n|6-30-pm-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261001T233000Z
+DTSTART:20261001T233000Z
+DTEND:20261002T023000Z
+SUMMARY:Doctoral Recital: Ziyi Li\, piano
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=doctoral-recital-ziyi-li-
+ piano%7Crecital-hall-at-the-music-building-denton%7C6-30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:doctoral-lecture-recital-zhiyi-zeng-piano|recital-hall-at-the-music-bui
+ lding-denton|6-30-pm-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T233000Z
+DTSTART:20261003T233000Z
+DTEND:20261004T023000Z
+SUMMARY:Doctoral Lecture Recital: Zhiyi Zeng\, piano
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=doctoral-lecture-recital-
+ zhiyi-zeng-piano%7Crecital-hall-at-the-music-building-denton%7C6-30-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
  ay of the performance.      Livestream is not available for this event.   
@@ -156,6 +172,22 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/city/denton/
 END:VEVENT
 BEGIN:VEVENT
+UID:early-music-concert|paul-voertman-concert-hall-at-the-music-building-de
+ nton|8-00-pm-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261004T010000Z
+DTSTART:20261004T010000Z
+DTEND:20261004T040000Z
+SUMMARY:Early Music Concert
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=early-music-concert%7Cpau
+ l-voertman-concert-hall-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information     Program    Please note\, th
+ is program is subject to change. Final program will be available by the da
+ y of the performance.      Livestream link below.     This event is free a
+ nd open to the public with general seating. — More: https://letsdoitdall
+ as.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
 UID:doctoral-recital-xinjin-yang-voice|recital-hall-at-the-music-building-d
  enton|3-30-pm-2026-10-04@letsdoitdallas.com
 DTSTAMP:20261004T203000Z
@@ -165,6 +197,25 @@ SUMMARY:Doctoral Recital: Xinjin Yang\, Voice
 LOCATION:Recital Hall at the Music Building · Denton
 URL:https://letsdoitdallas.com/?date=2026-10-04&e=doctoral-recital-xinjin-y
  ang-voice%7Crecital-hall-at-the-music-building-denton%7C3-30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-william-gammon-henry-concerto-competition-2026-harp-guitar-percussi
+ on-prelims|paul-voertman-concert-hall-at-the-music-building-denton|4-00-pm
+ -2026-10-05@letsdoitdallas.com
+DTSTAMP:20261005T210000Z
+DTSTART:20261005T210000Z
+DTEND:20261006T000000Z
+SUMMARY:The William Gammon Henry Concerto Competition: 2026 Harp/Guitar/Per
+ cussion Prelims
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=the-william-gammon-henry-
+ concerto-competition-2026-harp-guitar-percussion-prelims%7Cpaul-voertman-c
+ oncert-hall-at-the-music-building-denton%7C4-00-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
  ay of the performance.      Livestream is not available for this event.   
@@ -296,23 +347,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=north-texas-mean-green-fo
  s
 DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-william-gammon-henry-concerto-competition-2026-piano-prelims|recita
- l-hall-at-the-music-building-denton|2-00-pm-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261010T190000Z
-DTSTART:20261010T190000Z
-DTEND:20261010T220000Z
-SUMMARY:The William Gammon Henry Concerto Competition: 2026 Piano Prelims
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=the-william-gammon-henry-
- concerto-competition-2026-piano-prelims%7Crecital-hall-at-the-music-buildi
- ng-denton%7C2-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
 UID:senior-recital-eva-gomez-horn|paul-voertman-concert-hall-at-the-music-b

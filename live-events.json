@@ -1,41 +1,5 @@
 [
  {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-09-28",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-09-28-12-pm/18374240",
-  "image": null
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-09-28",
-  "time": "2:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-09-28-2-pm/18374254",
-  "image": null
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-09-28",
-  "time": "4:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-09-28-4-pm/18374260",
-  "image": null
- },
- {
   "name": "After-School Cinema & Snacks",
   "category": "family",
   "area": "Grapevine Public Library, 1201 Municipal Way, Grapevine",
@@ -112,6 +76,18 @@
   "image": "https://s1.ticketm.net/dam/a/23d/f306c3ac-ca95-461a-95f0-acf8105e623d_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "Concert Winds",
+  "category": "music",
+  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
+  "city": "Denton",
+  "date": "2026-09-28",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.",
+  "url": "https://calendar.unt.edu/event/concert-winds",
+  "image": null
+ },
+ {
   "name": "Doctoral Recital: Eddie Gonzalez, tuba",
   "category": "music",
   "area": "Recital Hall at the Music Building, Denton",
@@ -149,22 +125,6 @@
   "organizer": {
    "name": "City of Grapevine",
    "url": "https://grapevinetexas.gov/"
-  }
- },
- {
-  "name": "Good Neighbor Day: Greeting Cards / Día del Buen Vecino: Tarjetas de Felicitación de la Biblioteca Central",
-  "category": "family",
-  "area": "Central Library, Garland",
-  "city": "Garland",
-  "date": "2026-09-28",
-  "time": "04:00 PM",
-  "cost": null,
-  "description": "4:00 p.m.; Be a good neighbor and bring a smile to someone’s face! Families of all ages are invited to celebrate Good Neighbor Day by stopping by the Central Library story time room to decorate a greeting card to be gifted to a local retirement home. All decorating supplies will ",
-  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13374",
-  "image": null,
-  "organizer": {
-   "name": "City of Garland",
-   "url": "https://garlandtx.gov/"
   }
  },
  {
@@ -208,18 +168,6 @@
   "image": null
  },
  {
-  "name": "Junior Recital: James Snyder, saxophone",
-  "category": "music",
-  "area": "Lab West at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-09-28",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/junior-recital-james-snyder-saxophone",
-  "image": null
- },
- {
   "name": "Knit & Crochet Circle",
   "category": "arts",
   "area": "Grapevine",
@@ -250,30 +198,6 @@
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
   }
- },
- {
-  "name": "Legacy of the Longhorn",
-  "category": "festival",
-  "area": "Cowtown Coliseum, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-09-28",
-  "time": "12:30 PM",
-  "cost": null,
-  "description": "Live event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ4uA",
-  "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Levy Job Fair",
-  "category": "festival",
-  "area": "American Airlines Center, 2500 Victory Ave, Dallas, 75219, United States",
-  "city": "Dallas",
-  "date": "2026-09-28",
-  "time": "4:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://whatsupfortworth.com/event/levy-job-fair/",
-  "image": null
  },
  {
   "name": "Masure Gallery | Kaiku by K.P. Wilska",
@@ -346,22 +270,6 @@
   "description": "Consistently rated the best local scavenger hunt since 2016!  Puzzling Adventures are a cross between a scavenger hunt, an adventure race, and an informative self-guided walking tour. Each adventure consists of a series of locations that you are guided to where you are required t",
   "url": "https://whatsupfortworth.com/event/puzzling-adventures-scavenger-hunt/2026-09-28/",
   "image": null
- },
- {
-  "name": "STEM Lab (18+)",
-  "category": "family",
-  "area": "Grapevine",
-  "city": "Grapevine",
-  "date": "2026-09-28",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "Mondays & Wednesdays 10 AM-1:00 PM (Adults, ages 18+) Join us at Grapevine Makerspace for our STEM Lab! During this session, you’ll have access to 3D printers, laser cutters, and other equipment. Our knowledgeable staff will be available to provide guidance, tips, and support as ",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17625",
-  "image": null,
-  "organizer": {
-   "name": "City of Grapevine",
-   "url": "https://grapevinetexas.gov/"
-  }
  },
  {
   "name": "Specialized Karaoke Night with RUEN",
@@ -1342,18 +1250,6 @@
   "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Faculty Chamber Concert",
-  "category": "music",
-  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-09-30",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/faculty-chamber-concert1",
-  "image": null
- },
- {
   "name": "Family Read & Play (Ages 0-5)",
   "category": "family",
   "area": "West Garland Library, Garland",
@@ -1464,6 +1360,18 @@
    "name": "City of Lancaster",
    "url": "https://lancaster-tx.com/"
   }
+ },
+ {
+  "name": "JACK BLOCKER",
+  "category": "music",
+  "area": "Magnolia Motor Lounge, 3803 Southwest Blvd, Fort Worth, 76116, United States",
+  "city": "Fort Worth",
+  "date": "2026-09-30",
+  "time": "9:00 PM",
+  "cost": null,
+  "description": "JACK BLOCKER  7:00 DOORS – 9:00 MUSIC   $10 – Advance GA ($15 at door) $80 – Table of 4 $120 – Table of 6 $160 – Table of 8  Ages 21+  @outhousetickets   Share it and tag a few friends!",
+  "url": "https://whatsupfortworth.com/event/jack-blocker/",
+  "image": null
  },
  {
   "name": "Jane Don't Does America",
@@ -1782,6 +1690,18 @@
   }
  },
  {
+  "name": "Whiskey + Laughs Wednesdays",
+  "category": "arts",
+  "area": "Big Laugh Comedy Club – Fort Worth, 604 Main St, Suite 100, Fort Worth, TX, 76102, United States",
+  "city": "Fort Worth",
+  "date": "2026-09-30",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Do you sit around thinking to yourself, “where could I go on a Wednesday to get some laughs and drink some whiskey”?  You’ve turned to the right place. The Big Laugh Comedy Club + Big Laugh Bistro is the place for you to laugh till your face hurts, eat delicious food, and drink a",
+  "url": "https://whatsupfortworth.com/event/whiskey-laughs-wednesdays/2026-09-30/",
+  "image": null
+ },
+ {
   "name": "Wub Wednesday",
   "category": "music",
   "area": "Three Links Deep Ellum, Dallas",
@@ -2052,6 +1972,18 @@
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
   }
+ },
+ {
+  "name": "Doctoral Recital: Ziyi Li, piano",
+  "category": "music",
+  "area": "Recital Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-01",
+  "time": "6:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/doctoral-recital-ziyi-li-piano",
+  "image": null
  },
  {
   "name": "Don Omar \"The Last King World Tour\"",
@@ -3330,6 +3262,18 @@
   }
  },
  {
+  "name": "A Evening with Emma Nissen",
+  "category": "music",
+  "area": "The Kessler Theater, Oak Cliff, Dallas",
+  "city": "Dallas",
+  "date": "2026-10-03",
+  "time": "Doors — see listing",
+  "cost": 39.5,
+  "description": "Live at The Kessler Theater.",
+  "url": "http://www.prekindle.com/event/18111-emma-nissen-dallas",
+  "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949069233549"
+ },
+ {
   "name": "Arin Ray - The Limbo Tour",
   "category": "music",
   "area": "The Cambridge Room at House Of Blues, Dallas",
@@ -3348,7 +3292,7 @@
   "city": "Dallas",
   "date": "2026-10-03",
   "time": "Doors — see listing",
-  "cost": 15.0,
+  "cost": 12.5,
   "description": "Live at Granada Theater.",
   "url": "http://www.prekindle.com/event/52838-hot-in-herre-2000s-party-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949064450042"
@@ -3494,6 +3438,18 @@
   "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "Doctoral Lecture Recital: Zhiyi Zeng, piano",
+  "category": "music",
+  "area": "Recital Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-03",
+  "time": "6:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/doctoral-lecture-recital-zhiyi-zeng-piano",
+  "image": null
+ },
+ {
   "name": "Downtown Dallas Comedy - Featuring Jay Lamont",
   "category": "arts",
   "area": "Clarence Muse Cafe Theater, Dallas",
@@ -3504,6 +3460,18 @@
   "description": "Miscellaneous Theatre event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/downtown-dallas-comedy-featuring-jay-lamont-dallas-texas-10-03-2026/event/0C006521BB06CC71",
   "image": "https://s1.ticketm.net/dam/a/c94/51653144-df22-4fad-82b9-696d923a3c94_RETINA_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Early Music Concert",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-03",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Important Links and Information     Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.     This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/baroque-orchestra-and-a-cappella1",
+  "image": null
  },
  {
   "name": "Earlybirds Club (21+ Event)",
@@ -3548,18 +3516,6 @@
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
   }
- },
- {
-  "name": "Emma Nissen",
-  "category": "music",
-  "area": "The Kessler Theater, Oak Cliff, Dallas",
-  "city": "Dallas",
-  "date": "2026-10-03",
-  "time": "Doors — see listing",
-  "cost": 39.5,
-  "description": "Live at The Kessler Theater.",
-  "url": "http://www.prekindle.com/event/18111-emma-nissen-dallas",
-  "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949069233549"
  },
  {
   "name": "Envision Dance Class",
@@ -4379,6 +4335,22 @@
   "cost": null,
   "description": "",
   "url": "https://tickets.audubon.org/events/01a00bb2-3386-566b-6b1d-14668e48985e",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "Volleyball: Open Play",
+  "category": "sports",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-10-03",
+  "time": "06:30 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=19588",
   "image": null,
   "organizer": {
    "name": "City of Cedar Hill",
@@ -5288,6 +5260,34 @@
   "description": "Hip-Hop/Rap event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/tlc-saltnpepa-with-en-vogue-its-irving-texas-10-05-2026/event/0C006471BED8978F",
   "image": "https://s1.ticketm.net/dam/a/b0b/5d495c78-fdc3-461e-b1f2-51333c23ab0b_RETINA_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "The William Gammon Henry Concerto Competition: 2026 Harp/Guitar/Percussion Prelims",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-05",
+  "time": "4:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/the-william-gammon-henry-concerto-competition-2026-harpguitarpercussion-prelims",
+  "image": null
+ },
+ {
+  "name": "Volleyball: Open Play",
+  "category": "sports",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-10-05",
+  "time": "06:30 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=19589",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
  },
  {
   "name": "AT&T Stadium VIP Guided Tour",
@@ -6215,7 +6215,7 @@
   "cost": 15.0,
   "description": "Live at Poor David's Pub.",
   "url": "http://www.prekindle.com/event/92355-shed-g-and-friends-comedy-special-dallas",
-  "image": "http://www.prekindle.com/images/prekindle-logo.png"
+  "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527948999366008"
  },
  {
   "name": "Storytime for Toddlers/Preschoolers",
@@ -8518,18 +8518,6 @@
   "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "The William Gammon Henry Concerto Competition: 2026 Piano Prelims",
-  "category": "music",
-  "area": "Recital Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-10",
-  "time": "2:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/the-william-gammon-henry-concerto-competition-2026-piano-prelims",
-  "image": null
- },
- {
   "name": "Tyler Farr (18 and Over)",
   "category": "music",
   "area": "Billy Bob's, Fort Worth",
@@ -8540,6 +8528,22 @@
   "description": "Country event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PE8Y",
   "image": "https://s1.ticketm.net/dam/a/a49/5856a67d-bfe8-4bda-b6f0-ff45982d6a49_1305591_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Volleyball: Open Play",
+  "category": "sports",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-10-10",
+  "time": "06:30 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=19591",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
  },
  {
   "name": "Winston Hodges",
@@ -9490,6 +9494,18 @@
   }
  },
  {
+  "name": "Kylie Cantrall",
+  "category": "music",
+  "area": "The Bomb Factory - Dallas, Dallas",
+  "city": "Dallas",
+  "date": "2026-10-12",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "concert event via SeatGeek.",
+  "url": "https://seatgeek.com/kylie-cantrall-tickets/dallas-texas-the-bomb-factory-dallas-2026-10-12-8-pm/concert/18421096",
+  "image": null
+ },
+ {
   "name": "LP Dance (Ages 3-7)",
   "category": "family",
   "area": "310 E. Parkerville Road, Cedar Hill",
@@ -9520,6 +9536,18 @@
    "name": "City of Garland",
    "url": "https://garlandtx.gov/"
   }
+ },
+ {
+  "name": "Lilyisthatyou",
+  "category": "music",
+  "area": "Deep Ellum Art Co., Dallas",
+  "city": "Dallas",
+  "date": "2026-10-12",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "concert event via SeatGeek.",
+  "url": "https://seatgeek.com/lilyisthatyou-tickets/dallas-texas-deep-ellum-art-co-2026-10-12-8-pm/concert/18225000",
+  "image": null
  },
  {
   "name": "Logic & G-Eazy: The Endless Summer Tour Part II",
@@ -9680,6 +9708,30 @@
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZvu_",
   "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "AT&T Stadium VIP Guided Tour",
+  "category": "sports",
+  "area": "AT&T Stadium, Arlington",
+  "city": "Arlington",
+  "date": "2026-10-13",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "stadium tours event via SeatGeek.",
+  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-13-10-am/18500005",
+  "image": null
+ },
+ {
+  "name": "AT&T Stadium VIP Guided Tour",
+  "category": "sports",
+  "area": "AT&T Stadium, Arlington",
+  "city": "Arlington",
+  "date": "2026-10-13",
+  "time": "12:00 PM",
+  "cost": null,
+  "description": "stadium tours event via SeatGeek.",
+  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-13-12-pm/18499962",
+  "image": null
  },
  {
   "name": "Dallas Stars vs. Colorado Avalanche",
@@ -12832,7 +12884,7 @@
   "city": "Dallas",
   "date": "2026-10-24",
   "time": "Doors — see listing",
-  "cost": 25.75,
+  "cost": 13.39,
   "description": "Live at Granada Theater.",
   "url": "http://www.prekindle.com/event/43622-boys-and-girls-club-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949042279433"
