@@ -362,9 +362,16 @@ def unfold_ics(text: str) -> list[str]:
 
 def parse_ics_datetime(val: str):
     val = val.strip()
-    m = re.match(r"(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2})(\d{2}))?", val)
+    m = re.match(r"(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2})(\d{2})(Z)?)?", val)
     if not m:
         return None, None
+    if m.group(7):
+        # UTC ("...T003000Z"). Localist feeds (calendar.unt.edu) write every
+        # timed event this way; read literally, a 7:30 PM concert became
+        # 12:30 AM on the NEXT day.
+        dt = datetime(*(int(g) for g in m.groups()[:6]), tzinfo=timezone.utc)
+        local = dt.astimezone(ZoneInfo("America/Chicago"))
+        return local.strftime("%Y-%m-%d"), pretty_time(local.strftime("%H:%M"))
     date = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
     time = pretty_time(f"{m.group(4)}:{m.group(5)}") if m.group(4) else "All day"
     return date, time
@@ -435,18 +442,34 @@ def fetch_ics_feeds(start, end):
                     time.sleep(10)
         if lines is None:
             continue
+        # Optional per-feed knobs, all data in feeds.json:
+        #   location_match -- keep only events whose LOCATION contains one of
+        #     these (case-insensitive). A whole-campus feed is mostly club
+        #     meetings and deadlines; its concert halls are the part we want.
+        #   city -- appended to LOCATION when it doesn't already name it, so a
+        #     bare "Recital Hall at the Music Building" still resolves a city.
+        match = [s.lower() for s in feed.get("location_match") or []]
+        city = feed.get("city")
         ev, count = None, 0
         for line in lines:
             if line.startswith("BEGIN:VEVENT"):
                 ev = {}
             elif line.startswith("END:VEVENT") and ev is not None:
                 date, start_time = parse_ics_datetime(ev.get("DTSTART", ""))
-                if date and lo <= date <= hi and ev.get("SUMMARY"):
+                title = ev.get("SUMMARY") or ""
+                loc = ev.get("LOCATION") or ""
+                keep = (date and lo <= date <= hi and title
+                        and not re.match(r"(cancell?ed|postponed)\b", title, re.I)
+                        and (not match or any(s in loc.lower() for s in match)))
+                if keep:
+                    area = loc or feed.get("area")
+                    if city and city.lower() not in area.lower():
+                        area = f"{area}, {city}"
                     out.append(row(
-                        ev.get("SUMMARY"),
+                        title,
                         ics_category(ev.get("CATEGORIES"),
                                      feed.get("category", "festival")),
-                        ev.get("LOCATION") or feed.get("area"),
+                        area,
                         date, start_time, feed.get("cost"),
                         re.sub(r"\\n", " ", ev.get("DESCRIPTION", ""))[:280],
                         ev.get("URL") or feed.get("fallback_url"),

@@ -6,6 +6,20 @@
    "area": "Fort Worth",
    "category": "festival",
    "fallback_url": "https://whatsupfortworth.com/events/"
+  },
+  {
+   "url": "https://calendar.unt.edu/calendar/1.ics",
+   "_note": "UNT's whole-campus Localist feed (~2,000 events, 1.5 MB). location_match keeps only the College of Music's public halls -- the rest is club meetings, deadlines and away games. A filtered feed would need ?event_types=, which their robots.txt disallows; this plain path is allowed (Crawl-Delay: 1, one request a night). Times are UTC, converted in parse_ics_datetime().",
+   "area": "University of North Texas, Denton",
+   "city": "Denton",
+   "category": "music",
+   "location_match": [
+    "Voertman Concert Hall",
+    "Recital Hall at the Music Building",
+    "Murchison Performing Arts Center",
+    "Lab West at the Music Building"
+   ],
+   "fallback_url": "https://calendar.unt.edu/department/college_of_music"
   }
  ],
  "do214": {

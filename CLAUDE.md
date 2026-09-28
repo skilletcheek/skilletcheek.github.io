@@ -390,6 +390,19 @@ rejected** so they don't get re-probed.
 - Adding an ICS feed: try `<site>/events/?ical=1`, then
   `/wp-json/tribe/events/v1/events`. **Confirm the content-type is
   `text/calendar`** — several DFW sites answer 200 with an HTML page.
+  Two feeds since 2026-09-28, so one flaky host can no longer zero the
+  source: What's Up Fort Worth and **UNT's campus Localist feed**
+  (`calendar.unt.edu/calendar/1.ics`), narrowed to the College of Music's
+  halls by `location_match` in `feeds.json` — the other ~90% is club
+  meetings and deadlines. Its filtered `?event_types=` export is disallowed
+  by UNT's robots.txt, which is why the whole 1.5 MB file is fetched and
+  filtered here. **Localist writes times in UTC** (`...T003000Z`);
+  `parse_ics_datetime()` converts them to Chicago — read literally, every
+  7:30 PM concert landed at 12:30 AM the next day. A feed's optional `city`
+  is appended to a bare hall name so the row still resolves a city.
+  Rejected 2026-09-28: fortworthreport.org (robots.txt disallows `/events/`,
+  and `?ical=1` exports only ~2 days), dallasdoinggood.com (social-service
+  listings, not things to do).
 
 ## Feeds — RSS and iCalendar
 
