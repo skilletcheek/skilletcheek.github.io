@@ -59,15 +59,26 @@ URL:https://letsdoitdallas.com/?date=2026-10-01&e=special-meeting-of-planni
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
-UID:plaza-live-|8800-8840-4th-st-frisco|05-00-pm-2026-10-07@letsdoitdallas.
- com
-DTSTAMP:20261007T220000Z
-DTSTART:20261007T220000Z
-DTEND:20261008T010000Z
-SUMMARY:Plaza Live!
-LOCATION:8800-8840 4th St · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=plaza-live-%7C8800-8840-4
- th-st-frisco%7C05-00-pm
+UID:sunrise-yoga|8802-4th-st-frisco|07-30-am-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T123000Z
+DTSTART:20261003T123000Z
+DTEND:20261003T153000Z
+SUMMARY:Sunrise Yoga
+LOCATION:8802 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=sunrise-yoga%7C8802-4th-s
+ t-frisco%7C07-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-music-series-at-frisco-fresh-market|9215-john-w-elliott-dr-fri
+ sco|11-00-am-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T160000Z
+DTSTART:20261003T160000Z
+DTEND:20261003T190000Z
+SUMMARY:Saturday Music Series at Frisco Fresh Market
+LOCATION:9215 John W. Elliott Dr · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=saturday-music-series-at-
+ frisco-fresh-market%7C9215-john-w-elliott-dr-frisco%7C11-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
@@ -95,6 +106,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-09&e=coffee-with-the-mayor%7C8
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:sunrise-yoga|8802-4th-st-frisco|07-30-am-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T123000Z
+DTSTART:20261010T123000Z
+DTEND:20261010T153000Z
+SUMMARY:Sunrise Yoga
+LOCATION:8802 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=sunrise-yoga%7C8802-4th-s
+ t-frisco%7C07-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:nature-adventure|frisco-commons-park-frisco|09-00-am-2026-10-10@letsdoi
  tdallas.com
 DTSTAMP:20261010T140000Z
@@ -119,6 +141,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=second-saturday-fall-fun-
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:saturday-music-series-at-frisco-fresh-market|9215-john-w-elliott-dr-fri
+ sco|11-00-am-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T160000Z
+DTSTART:20261010T160000Z
+DTEND:20261010T190000Z
+SUMMARY:Saturday Music Series at Frisco Fresh Market
+LOCATION:9215 John W. Elliott Dr · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=saturday-music-series-at-
+ frisco-fresh-market%7C9215-john-w-elliott-dr-frisco%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:heritage-how-to-collage|6455-page-street-frisco|12-00-pm-2026-10-10@let
  sdoitdallas.com
 DTSTAMP:20261010T170000Z
@@ -128,6 +162,30 @@ SUMMARY:Heritage How-To: Collage
 LOCATION:6455 Page Street · Frisco
 URL:https://letsdoitdallas.com/?date=2026-10-10&e=heritage-how-to-collage%7
  C6455-page-street-frisco%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:rail-district-celebration-at-4th-street-plaza|8802-4th-st-frisco|06-00-
+ pm-2026-10-13@letsdoitdallas.com
+DTSTAMP:20261013T230000Z
+DTSTART:20261013T230000Z
+DTEND:20261014T020000Z
+SUMMARY:Rail District Celebration at 4th Street Plaza
+LOCATION:8802 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=rail-district-celebration
+ -at-4th-street-plaza%7C8802-4th-st-frisco%7C06-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:plated-a-chef-s-table-on-main|8802-4th-st-frisco|07-00-pm-2026-10-13@le
+ tsdoitdallas.com
+DTSTAMP:20261014T000000Z
+DTSTART:20261014T000000Z
+DTEND:20261014T030000Z
+SUMMARY:Plated: A Chef’s Table on Main
+LOCATION:8802 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=plated-a-chef-s-table-on-
+ main%7C8802-4th-st-frisco%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT

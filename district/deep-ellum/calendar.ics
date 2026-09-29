@@ -10,46 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:castle-rat-16-and-under-with-parent-or-legal-guardian-|the-studio-at-th
- e-bomb-factory-dallas|7-30-pm-2026-09-28@letsdoitdallas.com
-DTSTAMP:20260929T003000Z
-DTSTART:20260929T003000Z
-DTEND:20260929T033000Z
-SUMMARY:Castle Rat (16 and Under with Parent or Legal Guardian)
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-28&e=castle-rat-16-and-under-w
- ith-parent-or-legal-guardian-%7Cthe-studio-at-the-bomb-factory-dallas%7C7-
- 30-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:steve-austin-ramblin-ricky-tate-tommy-luke-trio|three-links-deep-ellum-
- dallas|8-00-pm-2026-09-28@letsdoitdallas.com
-DTSTAMP:20260929T010000Z
-DTSTART:20260929T010000Z
-DTEND:20260929T040000Z
-SUMMARY:Steve Austin\, Ramblin' Ricky Tate\, Tommy Luke Trio
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-28&e=steve-austin-ramblin-rick
- y-tate-tommy-luke-trio%7Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
- pm-2026-09-28@letsdoitdallas.com
-DTSTAMP:20260929T020000Z
-DTSTART:20260929T020000Z
-DTEND:20260929T050000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-28&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:are-you-ever-coming-back-tour|three-links-deep-ellum-dallas|8-00-pm-202
  6-09-29@letsdoitdallas.com
 DTSTAMP:20260930T010000Z
@@ -854,5 +814,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-26&e=specialized-karaoke-night
  -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:sorry-ghost|three-links-deep-ellum-dallas|8-00-pm-2026-10-27@letsdoitda
+ llas.com
+DTSTAMP:20261028T010000Z
+DTSTART:20261028T010000Z
+DTEND:20261028T040000Z
+SUMMARY:Sorry Ghost
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=sorry-ghost%7Cthree-links
+ -deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:2slimey-tour|trees-dallas|doors-see-listing-2026-10-29@letsdoitdallas.c
+ om
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:2SLIMEY TOUR
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=2slimey-tour%7Ctrees-dall
+ as%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
 END:VEVENT
 END:VCALENDAR

@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:steve-austin-ramblin-ricky-tate-tommy-luke-trio|three-links-deep-ellum-
- dallas|8-00-pm-2026-09-28@letsdoitdallas.com
-DTSTAMP:20260929T010000Z
-DTSTART:20260929T010000Z
-DTEND:20260929T040000Z
-SUMMARY:Steve Austin\, Ramblin' Ricky Tate\, Tommy Luke Trio
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-28&e=steve-austin-ramblin-rick
- y-tate-tommy-luke-trio%7Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
- pm-2026-09-28@letsdoitdallas.com
-DTSTAMP:20260929T020000Z
-DTSTART:20260929T020000Z
-DTEND:20260929T050000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-28&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:are-you-ever-coming-back-tour|three-links-deep-ellum-dallas|8-00-pm-202
  6-09-29@letsdoitdallas.com
 DTSTAMP:20260930T010000Z
@@ -408,6 +382,19 @@ SUMMARY:Specialized Karaoke Night with RUEN
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-26&e=specialized-karaoke-night
  -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:sorry-ghost|three-links-deep-ellum-dallas|8-00-pm-2026-10-27@letsdoitda
+ llas.com
+DTSTAMP:20261028T010000Z
+DTSTART:20261028T010000Z
+DTEND:20261028T040000Z
+SUMMARY:Sorry Ghost
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=sorry-ghost%7Cthree-links
+ -deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
 END:VEVENT
