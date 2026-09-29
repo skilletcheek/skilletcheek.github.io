@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:yogalates|310-e-parkerville-road-cedar-hill|12-00-pm-2026-09-29@letsdoi
- tdallas.com
-DTSTAMP:20260929T170000Z
-DTSTART:20260929T170000Z
-DTEND:20260929T200000Z
-SUMMARY:Yogalates
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=yogalates%7C310-e-parkerv
- ille-road-cedar-hill%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:chat-youth-empowerment-program|310-e-parkerville-road-cedar-hill|04-00-
  pm-2026-09-29@letsdoitdallas.com
 DTSTAMP:20260929T210000Z
@@ -347,6 +335,18 @@ DESCRIPTION:This Adult Movement Class blends modern\, ballet\, and social d
  l — More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
+UID:sister-to-sister-fitness-festival-5k-walk-and-run|310-e-parkerville-roa
+ d-cedar-hill|08-00-am-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T130000Z
+DTSTART:20261003T130000Z
+DTEND:20261003T160000Z
+SUMMARY:Sister to Sister Fitness Festival: 5K\, Walk\, and Run
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=sister-to-sister-fitness-
+ festival-5k-walk-and-run%7C310-e-parkerville-road-cedar-hill%7C08-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
 UID:first-saturday|dogwood-canyon-audubon-center-cedar-hill|08-30-am-2026-1
  0-03@letsdoitdallas.com
 DTSTAMP:20261003T133000Z
@@ -360,18 +360,6 @@ DESCRIPTION:Start off your month with a fun-filled morning at Dogwood Canyo
  n Audubon Center! October 3\, 2026 08:30 AM - 12:30 PM 1206 W FM 1382Cedar
   Hill\, TX 75104 https://dogwood.audubon.org/events/639034620320000000 —
   More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:sister-to-sister-fitness-festival-2026|310-e-parkerville-road-cedar-hil
- l|08-30-am-2026-10-03@letsdoitdallas.com
-DTSTAMP:20261003T133000Z
-DTSTART:20261003T133000Z
-DTEND:20261003T163000Z
-SUMMARY:Sister to Sister Fitness Festival 2026
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=sister-to-sister-fitness-
- festival-2026%7C310-e-parkerville-road-cedar-hill%7C08-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
 UID:step-aerobics-extreme-hip-hop|310-e-parkerville-road-cedar-hill|08-45-a
@@ -1196,6 +1184,18 @@ SUMMARY:Step Aerobics/Extreme Hip Hop
 LOCATION:310 E. Parkerville Road · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-10-12&e=step-aerobics-extreme-hip
  -hop%7C310-e-parkerville-road-cedar-hill%7C06-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:film-screening-the-phenomenon-of-healing|450-pioneer-trail-cedar-hill|0
+ 6-30-pm-2026-10-12@letsdoitdallas.com
+DTSTAMP:20261012T233000Z
+DTSTART:20261012T233000Z
+DTEND:20261013T023000Z
+SUMMARY:Film Screening: The Phenomenon of Healing
+LOCATION:450 Pioneer Trail · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=film-screening-the-phenom
+ enon-of-healing%7C450-pioneer-trail-cedar-hill%7C06-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
