@@ -10,20 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ysl-records-young-thug-present-the-new-generation-tour|the-pavilion-at-
- toyota-music-factory-irving|8-00-pm-2026-09-29@letsdoitdallas.com
-DTSTAMP:20260930T010000Z
-DTSTART:20260930T010000Z
-DTEND:20260930T040000Z
-SUMMARY:YSL Records & Young Thug Present: The New Generation Tour
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=ysl-records-young-thug-pr
- esent-the-new-generation-tour%7Cthe-pavilion-at-toyota-music-factory-irvin
- g%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:juanes-north-america-tour-2026|the-pavilion-at-toyota-music-factory-irv
  ing|8-00-pm-2026-09-30@letsdoitdallas.com
 DTSTAMP:20261001T010000Z
@@ -742,5 +728,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=sin-bandera-us-escenas-to
  ur%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-00-pm
 DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:james-tom-goes-on-a-mini-tour-casual-style|punch-line-irving-irving|7-3
+ 0-pm-2026-10-28@letsdoitdallas.com
+DTSTAMP:20261029T003000Z
+DTSTART:20261029T003000Z
+DTEND:20261029T033000Z
+SUMMARY:James Tom Goes on a Mini-Tour\, Casual Style
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=james-tom-goes-on-a-mini-
+ tour-casual-style%7Cpunch-line-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
 END:VEVENT
 END:VCALENDAR

@@ -10,22 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dnd-mini-adventures-registration-required-|grapevine|05-00-pm-2026-09-2
- 9@letsdoitdallas.com
-DTSTAMP:20260929T220000Z
-DTSTART:20260929T220000Z
-DTEND:20260930T010000Z
-SUMMARY:DnD Mini Adventures! (REGISTRATION REQUIRED)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=dnd-mini-adventures-regis
- tration-required-%7Cgrapevine%7C05-00-pm
-DESCRIPTION:Welcome to the realms of Dungeons and Dragons! Here at the Grap
- evine Public Library\, you will be embarking on a quick journey. Register 
- for the session and we will be looking forward to having you at the table!
-  For teens 13 and up. REGISTRATION IS REQUIRED. Make sure your level 3 —
-  More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-09-30@letsd
  oitdallas.com
 DTSTAMP:20260930T153000Z
@@ -1022,6 +1006,84 @@ DESCRIPTION:Welcome to the realms of Dungeons and Dragons! Here at the Grap
  for the session and we will be looking forward to having you at the table!
   For teens 13 and up. REGISTRATION IS REQUIRED. Make sure your level 3 —
   More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:stem-lab-18-|grapevine|10-00-am-2026-10-14@letsdoitdallas.com
+DTSTAMP:20261014T150000Z
+DTSTART:20261014T150000Z
+DTEND:20261014T180000Z
+SUMMARY:STEM Lab (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=stem-lab-18-%7Cgrapevine%
+ 7C10-00-am
+DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
+ at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
+ ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
+ edgeable staff will be available to provide guidance\, tips\, and support 
+ as — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-10-14@letsd
+ oitdallas.com
+DTSTAMP:20261014T153000Z
+DTSTART:20261014T153000Z
+DTEND:20261014T183000Z
+SUMMARY:Storytime for Toddlers/Preschoolers
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=storytime-for-toddlers-pr
+ eschoolers%7Cgrapevine%7C10-30-am
+DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
+ welcome and no registrations is needed. (This is a Ticketed Program\; plea
+ se stop at the Children's Desk 15 minutes before the program to receive ti
+ ckets. 1 per attendee.) October 14\, 2026 10:30 AM - 11:00 AM Grapevine\, 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:afternoon-storytime-and-crafts|grapevine|04-00-pm-2026-10-14@letsdoitda
+ llas.com
+DTSTAMP:20261014T210000Z
+DTSTART:20261014T210000Z
+DTEND:20261015T000000Z
+SUMMARY:Afternoon Storytime and Crafts
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=afternoon-storytime-and-c
+ rafts%7Cgrapevine%7C04-00-pm
+DESCRIPTION:Join us on Wednesdays for a relaxing afternoon of storytime and
+  crafts in our Children's department. October 14\, 2026 04:00 PM - 05:00 P
+ M Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17
+ 720/639228425570000000 — More: https://letsdoitdallas.com/district/grape
+ vine/
+END:VEVENT
+BEGIN:VEVENT
+UID:open-practice-and-play-night|grapevine|04-30-pm-2026-10-14@letsdoitdall
+ as.com
+DTSTAMP:20261014T213000Z
+DTSTART:20261014T213000Z
+DTEND:20261015T003000Z
+SUMMARY:Open Practice and Play Night
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=open-practice-and-play-ni
+ ght%7Cgrapevine%7C04-30-pm
+DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
+  ranked play. Ages 12 and up. October 14\, 2026 04:30 PM - 07:30 PM Grapev
+ ine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17747/6392
+ 32829710000000 — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-signal-a-science-fiction-book-club|grapevine|06-30-pm-2026-10-14@le
+ tsdoitdallas.com
+DTSTAMP:20261014T233000Z
+DTSTART:20261014T233000Z
+DTEND:20261015T023000Z
+SUMMARY:The Signal: A Science Fiction Book Club
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=the-signal-a-science-fict
+ ion-book-club%7Cgrapevine%7C06-30-pm
+DESCRIPTION:📖 Book for Discussion: TBD 🗓️ Meets 2nd Wednesday of th
+ e Month • 6:30 PM Open to new members\; come & go\, join us anytime! Ema
+ il jnpettit@grapevinetexas.gov for more info October 14\, 2026 06:30 PM - 
+ 07:30 PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx
+ ?EID=1712 — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:day-out-with-thomas-tm-|museum-of-the-american-railroad-grapevine-vinta

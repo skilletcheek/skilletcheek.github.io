@@ -9,45 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:are-you-ever-coming-back-tour|three-links-deep-ellum-dallas|8-00-pm-202
- 6-09-29@letsdoitdallas.com
-DTSTAMP:20260930T010000Z
-DTSTART:20260930T010000Z
-DTEND:20260930T040000Z
-SUMMARY:ARE YOU EVER COMING BACK? TOUR
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=are-you-ever-coming-back-
- tour%7Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:vaultboy|three-links-deep-ellum-dallas|8-00-pm-2026-09-29@letsdoitdalla
- s.com
-DTSTAMP:20260930T010000Z
-DTSTART:20260930T010000Z
-DTEND:20260930T040000Z
-SUMMARY:Vaultboy
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=vaultboy%7Cthree-links-de
- ep-ellum-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-09
- -29@letsdoitdallas.com
-DTSTAMP:20260930T030000Z
-DTSTART:20260930T030000Z
-DTEND:20260930T060000Z
-SUMMARY:The Ox and The Waymakers
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:extortionist-deathtape-pound-of-flesh-prisoner-of-war|three-links-deep-
  ellum-dallas|7-00-pm-2026-09-30@letsdoitdallas.com
 DTSTAMP:20261001T000000Z

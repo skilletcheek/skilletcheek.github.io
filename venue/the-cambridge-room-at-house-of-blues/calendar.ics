@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:luv-language-tour-with-jeff-bernat|the-cambridge-room-at-house-of-blues
- -dallas|7-00-pm-2026-09-29@letsdoitdallas.com
-DTSTAMP:20260930T000000Z
-DTSTART:20260930T000000Z
-DTEND:20260930T030000Z
-SUMMARY:Luv Language Tour With Jeff Bernat
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=luv-language-tour-with-je
- ff-bernat%7Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/the-cambridge-room-at-house-of-blues/
-END:VEVENT
-BEGIN:VEVENT
 UID:villanelle|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-10-
  01@letsdoitdallas.com
 DTSTAMP:20261002T000000Z
@@ -165,5 +152,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=cannibal-ox-the-cold-vein
  -00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/the-cambridge-room-at-house-of-blues/
+END:VEVENT
+BEGIN:VEVENT
+UID:chasing-abbey|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-
+ 10-29@letsdoitdallas.com
+DTSTAMP:20261030T000000Z
+DTSTART:20261030T000000Z
+DTEND:20261030T030000Z
+SUMMARY:Chasing Abbey
+LOCATION:The Cambridge Room at House Of Blues · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=chasing-abbey%7Cthe-cambr
+ idge-room-at-house-of-blues-dallas%7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/the-cambridge-room-at-house-of-blues/
 END:VEVENT
 END:VCALENDAR

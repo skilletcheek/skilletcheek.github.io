@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sewing-lab-ages-13-|central-library-garland|05-00-pm-2026-09-29@letsdoi
- tdallas.com
-DTSTAMP:20260929T220000Z
-DTSTART:20260929T220000Z
-DTEND:20260930T010000Z
-SUMMARY:Sewing Lab (Ages 13+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=sewing-lab-ages-13-%7Ccen
- tral-library-garland%7C05-00-pm
-DESCRIPTION:5:00 p.m.\; Join us for the Sewing Lab — a dedicated makerspa
- ce time just for sewing enthusiasts! Bring your ideas and use any of our 1
- 0 sewing machines\, cutting tools and pressing equipment while receiving h
- elp in reading patterns\, cutting fabric and troubleshooting stitches. Con
-  — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:gentle-yoga-ages-18-|central-library-garland|06-00-pm-2026-09-30@letsdo
  itdallas.com
 DTSTAMP:20260930T230000Z
@@ -341,5 +325,54 @@ DESCRIPTION:6:00 p.m.\; ¡Las familias con niños menores de 17 años está
  ómo funciona una impresora 3D y descubra cómo los creadores utilizan est
  a tecnología para dar vida a las ideas. Después de la demostración\, ca
  da niño — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:from-maker-to-market-using-makerspace-equipment-to-earn-ages-13-|centra
+ l-library-garland|02-00-pm-2026-10-14@letsdoitdallas.com
+DTSTAMP:20261014T190000Z
+DTSTART:20261014T190000Z
+DTEND:20261014T220000Z
+SUMMARY:From Maker to Market: Using Makerspace Equipment to Earn (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=from-maker-to-market-usin
+ g-makerspace-equipment-to-earn-ages-13-%7Ccentral-library-garland%7C02-00-
+ pm
+DESCRIPTION:2:00 p.m.\; Learn how to use makerspace tools to create product
+ s with income potential. Participants will explore side hustle ideas using
+  equipment such as 3D printers\, laser cutters\, Cricut machines and subli
+ mation tools\, etc. There will be a Q&A at the end to allow patrons to as 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:crochet-corner-in-person-ages-13-|central-library-garland|06-00-pm-2026
+ -10-14@letsdoitdallas.com
+DTSTAMP:20261014T230000Z
+DTSTART:20261014T230000Z
+DTEND:20261015T020000Z
+SUMMARY:Crochet Corner In-Person (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=crochet-corner-in-person-
+ ages-13-%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; All crafters welcome to Crochet Corner! Whether you
+  are a seasoned crocheter or just starting out\, join us for a fun\, cozy 
+ hour of crochet. At each program\, we will go through making a creation fr
+ om the monthly Crochet Corner display together as an active tutorial. Bas 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:gentle-yoga-ages-18-|central-library-garland|06-00-pm-2026-10-14@letsdo
+ itdallas.com
+DTSTAMP:20261014T230000Z
+DTSTART:20261014T230000Z
+DTEND:20261015T020000Z
+SUMMARY:Gentle Yoga (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=gentle-yoga-ages-18-%7Cce
+ ntral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; A gentle yoga class suitable for adult participants
+  of all levels of experience. Participants should bring their own mat and/
+ or towel. Props such as chairs and blocks will be available. October 14\, 
+ 2026 06:00 PM - 07:00 PM 625 Austin St.Garland\, TX 75040 https://www.ga 
+ — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

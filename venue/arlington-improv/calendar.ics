@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-09-29@letsdoitdal
- las.com
-DTSTAMP:20260929T233000Z
-DTSTART:20260929T233000Z
-DTEND:20260930T023000Z
-SUMMARY:Test Your Mic
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=test-your-mic%7Carlington
- -improv-arlington%7C6-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:just-nesh|arlington-improv-arlington|7-30-pm-2026-09-30@letsdoitdallas.
  com
 DTSTAMP:20261001T003000Z
@@ -148,6 +135,19 @@ SUMMARY:Wizop: Live At the Improv
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-07&e=wizop-live-at-the-improv%
  7Carlington-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:john-l-brown|arlington-improv-arlington|7-30-pm-2026-10-08@letsdoitdall
+ as.com
+DTSTAMP:20261009T003000Z
+DTSTART:20261009T003000Z
+DTEND:20261009T033000Z
+SUMMARY:John L. Brown
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=john-l-brown%7Carlington-
+ improv-arlington%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT
@@ -447,6 +447,19 @@ SUMMARY:DC Young Fly
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-25&e=dc-young-fly%7Carlington-
  improv-arlington%7C8-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-perfect-match-game-show|arlington-improv-arlington|7-30-pm-2026-10-
+ 28@letsdoitdallas.com
+DTSTAMP:20261029T003000Z
+DTSTART:20261029T003000Z
+DTEND:20261029T033000Z
+SUMMARY:The Perfect Match Game Show
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=the-perfect-match-game-sh
+ ow%7Carlington-improv-arlington%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

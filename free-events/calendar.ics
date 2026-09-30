@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-09
- -29@letsdoitdallas.com
-DTSTAMP:20260930T030000Z
-DTSTART:20260930T030000Z
-DTEND:20260930T060000Z
-SUMMARY:The Ox and The Waymakers
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
- com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:poor-david-s-open-mic-hosted-by-rob-case|poor-david-s-pub-dallas|doors-
  see-listing-2026-09-30@letsdoitdallas.com
 DTSTAMP:20260930T000000Z

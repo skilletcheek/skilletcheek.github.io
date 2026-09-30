@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tinlicker-north-america-2026|house-of-blues-dallas-dallas|7-00-pm-2026-
- 09-29@letsdoitdallas.com
-DTSTAMP:20260930T000000Z
-DTSTART:20260930T000000Z
-DTEND:20260930T030000Z
-SUMMARY:Tinlicker North America 2026
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=tinlicker-north-america-2
- 026%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:rodrigo-y-gabriela|house-of-blues-dallas-dallas|6-30-pm-2026-09-30@lets
  doitdallas.com
 DTSTAMP:20260930T233000Z
@@ -241,5 +228,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-28&e=saosin-20-years-of-self-t
  itled%7Chouse-of-blues-dallas-dallas%7C6-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:plim-plim-en-vivo-|house-of-blues-dallas-dallas|2-00-pm-2026-10-29@lets
+ doitdallas.com
+DTSTAMP:20261029T190000Z
+DTSTART:20261029T190000Z
+DTEND:20261029T220000Z
+SUMMARY:Plim Plim - En Vivo!
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=plim-plim-en-vivo-%7Chous
+ e-of-blues-dallas-dallas%7C2-00-pm
+DESCRIPTION:Circus & Specialty Acts event via Ticketmaster. — More: https
+ ://letsdoitdallas.com/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:plim-plim-en-vivo-|house-of-blues-dallas-dallas|5-00-pm-2026-10-29@lets
+ doitdallas.com
+DTSTAMP:20261029T220000Z
+DTSTART:20261029T220000Z
+DTEND:20261030T010000Z
+SUMMARY:Plim Plim - En Vivo!
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=plim-plim-en-vivo-%7Chous
+ e-of-blues-dallas-dallas%7C5-00-pm
+DESCRIPTION:Circus & Specialty Acts event via Ticketmaster. — More: https
+ ://letsdoitdallas.com/venue/house-of-blues-dallas/
 END:VEVENT
 END:VCALENDAR

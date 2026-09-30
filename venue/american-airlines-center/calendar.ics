@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:aespa-live-tour-synk-compl-xity-in-dallas|american-airlines-center-dall
- as|8-00-pm-2026-09-29@letsdoitdallas.com
-DTSTAMP:20260930T010000Z
-DTSTART:20260930T010000Z
-DTEND:20260930T040000Z
-SUMMARY:aespa LIVE TOUR - SYNK : COMPLæXITY - in DALLAS
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-29&e=aespa-live-tour-synk-comp
- l-xity-in-dallas%7Camerican-airlines-center-dallas%7C8-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:levy-job-fair|american-airlines-center-2500-victory-ave-dallas-75219-un
- ited-states|4-00-pm-2026-09-30@letsdoitdallas.com
-DTSTAMP:20260930T210000Z
-DTSTART:20260930T210000Z
-DTEND:20261001T000000Z
-SUMMARY:Levy Job Fair
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=levy-job-fair%7Camerican-
- airlines-center-2500-victory-ave-dallas-75219-united-states%7C4-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/venue/american-airlines-center
- /
-END:VEVENT
-BEGIN:VEVENT
 UID:don-omar-the-last-king-world-tour-|american-airlines-center-dallas|8-00
  -pm-2026-10-01@letsdoitdallas.com
 DTSTAMP:20261002T010000Z
@@ -252,6 +226,32 @@ SUMMARY:Dallas Stars vs. New Jersey Devils
 LOCATION:American Airlines Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-27&e=dallas-stars-vs-new-jerse
  y-devils%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-vs-oklahoma-city-thunder|american-airlines-center-dall
+ as|8-30-pm-2026-10-28@letsdoitdallas.com
+DTSTAMP:20261029T013000Z
+DTSTART:20261029T013000Z
+DTEND:20261029T043000Z
+SUMMARY:Dallas Mavericks vs. Oklahoma City Thunder
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=dallas-mavericks-vs-oklah
+ oma-city-thunder%7Camerican-airlines-center-dallas%7C8-30-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-stars-vs-montreal-canadiens|american-airlines-center-dallas|7-00
+ -pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261030T000000Z
+DTSTART:20261030T000000Z
+DTEND:20261030T030000Z
+SUMMARY:Dallas Stars vs. Montreal Canadiens
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=dallas-stars-vs-montreal-
+ canadiens%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/american-airlines-center/
 END:VEVENT

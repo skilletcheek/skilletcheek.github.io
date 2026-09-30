@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:parks-for-pollinators-what-remains|frisco|07-30-am-2026-09-30@letsdoitd
- allas.com
-DTSTAMP:20260930T123000Z
-DTSTART:20260930T123000Z
-DTEND:20260930T153000Z
-SUMMARY:Parks For Pollinators: What Remains
-LOCATION:Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=parks-for-pollinators-wha
- t-remains%7Cfrisco%7C07-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:walnut-wednesday-stack-attack-|the-depot-6499-page-street-frisco|10-00-
  am-2026-09-30@letsdoitdallas.com
 DTSTAMP:20260930T150000Z
@@ -177,6 +165,30 @@ URL:https://letsdoitdallas.com/?date=2026-10-13&e=plated-a-chef-s-table-on-
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:social-services-and-housing-board|6101-frisco-square-blvd-frisco|06-30-
+ pm-2026-10-14@letsdoitdallas.com
+DTSTAMP:20261014T233000Z
+DTSTART:20261014T233000Z
+DTEND:20261015T023000Z
+SUMMARY:Social Services and Housing Board
+LOCATION:6101 Frisco Square Blvd.
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=social-services-and-housi
+ ng-board%7C6101-frisco-square-blvd-frisco%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:rail-district-celebration-frisco-improv-players-performance|8802-4th-st
+ -frisco|07-00-pm-2026-10-14@letsdoitdallas.com
+DTSTAMP:20261015T000000Z
+DTSTART:20261015T000000Z
+DTEND:20261015T030000Z
+SUMMARY:Rail District Celebration: Frisco Improv Players Performance
+LOCATION:8802 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=rail-district-celebration
+ -frisco-improv-players-performance%7C8802-4th-st-frisco%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:fc-dallas-vs-seattle-sounders-fc|toyota-stadium-frisco|7-30-pm-2026-10-
  14@letsdoitdallas.com
 DTSTAMP:20261015T003000Z
@@ -213,6 +225,32 @@ LOCATION:Toyota Stadium · Frisco
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=fc-dallas-vs-san-jose-ear
  thquakes%7Ctoyota-stadium-frisco%7C7-30-pm
 DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:fc-dallas-vs-columbus-crew|toyota-stadium-frisco|7-30-pm-2026-10-28@let
+ sdoitdallas.com
+DTSTAMP:20261029T003000Z
+DTSTART:20261029T003000Z
+DTEND:20261029T033000Z
+SUMMARY:FC Dallas vs. Columbus Crew
+LOCATION:Toyota Stadium · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=fc-dallas-vs-columbus-cre
+ w%7Ctoyota-stadium-frisco%7C7-30-pm
+DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:allen-americans-vs-idaho-steelheads|comerica-center-frisco|10-00-am-202
+ 6-10-29@letsdoitdallas.com
+DTSTAMP:20261029T150000Z
+DTSTART:20261029T150000Z
+DTEND:20261029T180000Z
+SUMMARY:Allen Americans Vs Idaho Steelheads
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=allen-americans-vs-idaho-
+ steelheads%7Ccomerica-center-frisco%7C10-00-am
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/frisco/
 END:VEVENT
 END:VCALENDAR
