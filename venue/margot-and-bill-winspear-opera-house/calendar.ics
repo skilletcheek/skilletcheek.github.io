@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Margot and Bill Winspear Opera House — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Margot and Bill Winspear Opera House.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:donizetti-s-the-elixir-of-love-dallas|margot-and-bill-winspear-opera-ho
+ use-dallas|8-00-pm-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261010T010000Z
+DTSTART:20261010T010000Z
+DTEND:20261010T040000Z
+SUMMARY:Donizetti's The Elixir of Love - Dallas
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=donizetti-s-the-elixir-of
+ -love-dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C8-00-pm
+DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/margot-and-bill-winspear-opera-house/
+END:VEVENT
+BEGIN:VEVENT
+UID:donizetti-s-the-elixir-of-love-dallas|margot-and-bill-winspear-opera-ho
+ use-dallas|2-00-pm-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261011T190000Z
+DTSTART:20261011T190000Z
+DTEND:20261011T220000Z
+SUMMARY:Donizetti's The Elixir of Love - Dallas
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=donizetti-s-the-elixir-of
+ -love-dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C2-00-pm
+DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/margot-and-bill-winspear-opera-house/
+END:VEVENT
+BEGIN:VEVENT
+UID:donizetti-s-the-elixir-of-love-dallas|margot-and-bill-winspear-opera-ho
+ use-dallas|7-30-pm-2026-10-14@letsdoitdallas.com
+DTSTAMP:20261015T003000Z
+DTSTART:20261015T003000Z
+DTEND:20261015T033000Z
+SUMMARY:Donizetti's The Elixir of Love - Dallas
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=donizetti-s-the-elixir-of
+ -love-dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C7-30-pm
+DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/margot-and-bill-winspear-opera-house/
+END:VEVENT
+END:VCALENDAR

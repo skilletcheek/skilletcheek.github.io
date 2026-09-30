@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:walnut-wednesday-stack-attack-|the-depot-6499-page-street-frisco|10-00-
- am-2026-09-30@letsdoitdallas.com
-DTSTAMP:20260930T150000Z
-DTSTART:20260930T150000Z
-DTEND:20260930T180000Z
-SUMMARY:Walnut Wednesday: Stack Attack!
-LOCATION:The Depot · Frisco
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=walnut-wednesday-stack-at
- tack-%7Cthe-depot-6499-page-street-frisco%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-star-guided-tour|the-star-frisco|10-00-am-2026-10-01@letsdoitdallas
  .com
 DTSTAMP:20261001T150000Z
@@ -129,15 +117,15 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=saturday-music-series-at-
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
-UID:heritage-how-to-collage|6455-page-street-frisco|12-00-pm-2026-10-10@let
- sdoitdallas.com
+UID:heritage-how-to-collage-with-zahra-jahanyfard|6455-page-street-frisco|1
+ 2-00-pm-2026-10-10@letsdoitdallas.com
 DTSTAMP:20261010T170000Z
 DTSTART:20261010T170000Z
 DTEND:20261010T200000Z
-SUMMARY:Heritage How-To: Collage
+SUMMARY:Heritage How-To: Collage with Zahra Jahanyfard
 LOCATION:6455 Page Street · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=heritage-how-to-collage%7
- C6455-page-street-frisco%7C12-00-pm
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=heritage-how-to-collage-w
+ ith-zahra-jahanyfard%7C6455-page-street-frisco%7C12-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT

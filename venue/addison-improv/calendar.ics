@@ -176,6 +176,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/addison-improv/
 END:VEVENT
 BEGIN:VEVENT
+UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-10
+ -10@letsdoitdallas.com
+DTSTAMP:20261010T190000Z
+DTSTART:20261010T190000Z
+DTEND:20261010T220000Z
+SUMMARY:Family Magic & Comedy For All Ages
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=family-magic-comedy-for-a
+ ll-ages%7Caddison-improv-addison%7C2-00-pm
+DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
 UID:michael-yo|addison-improv-addison|7-00-pm-2026-10-10@letsdoitdallas.com
 DTSTAMP:20261011T000000Z
 DTSTART:20261011T000000Z

@@ -126,6 +126,19 @@ DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
  district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:donizetti-s-the-elixir-of-love-dallas|margot-and-bill-winspear-opera-ho
+ use-dallas|7-30-pm-2026-10-14@letsdoitdallas.com
+DTSTAMP:20261015T003000Z
+DTSTART:20261015T003000Z
+DTEND:20261015T033000Z
+SUMMARY:Donizetti's The Elixir of Love - Dallas
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=donizetti-s-the-elixir-of
+ -love-dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C7-30-pm
+DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-beethoven-and-strauss-with-daniel-ha
  wkins|morton-meyerson-symphony-center-dallas|7-30-pm-2026-10-16@letsdoitda
  llas.com

@@ -10,14 +10,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:smu-mustangs-football-vs-boston-college-eagles-football|gerald-ford-sta
- dium-dallas|see-details-2026-10-03@letsdoitdallas.com
-DTSTAMP:20261003T000000Z
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261004
+ dium-dallas|11-00-am-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T160000Z
+DTSTART:20261003T160000Z
+DTEND:20261003T190000Z
 SUMMARY:SMU Mustangs Football vs. Boston College Eagles Football
 LOCATION:Gerald Ford Stadium · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-03&e=smu-mustangs-football-vs-
- boston-college-eagles-football%7Cgerald-ford-stadium-dallas%7Csee-details
+ boston-college-eagles-football%7Cgerald-ford-stadium-dallas%7C11-00-am
 DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/venue/gerald-ford-stadium/
 END:VEVENT

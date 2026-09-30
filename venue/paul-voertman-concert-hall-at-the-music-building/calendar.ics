@@ -29,6 +29,23 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  ic-building/
 END:VEVENT
 BEGIN:VEVENT
+UID:faculty-chamber-concert|paul-voertman-concert-hall-at-the-music-buildin
+ g-denton|8-00-pm-2026-09-30@letsdoitdallas.com
+DTSTAMP:20261001T010000Z
+DTSTART:20261001T010000Z
+DTEND:20261001T040000Z
+SUMMARY:Faculty Chamber Concert
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-09-30&e=faculty-chamber-concert%7
+ Cpaul-voertman-concert-hall-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/venue/paul-voertman-concert-hall-at-the-mus
+ ic-building/
+END:VEVENT
+BEGIN:VEVENT
 UID:early-music-concert|paul-voertman-concert-hall-at-the-music-building-de
  nton|8-00-pm-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261004T010000Z
@@ -57,24 +74,6 @@ LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
 URL:https://letsdoitdallas.com/?date=2026-10-05&e=the-william-gammon-henry-
  concerto-competition-2026-harp-guitar-percussion-prelims%7Cpaul-voertman-c
  oncert-hall-at-the-music-building-denton%7C4-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/venue/paul-voertman-concert-hall-at-the-mus
- ic-building/
-END:VEVENT
-BEGIN:VEVENT
-UID:guest-artist-masterclass-alex-purdy-tuba|paul-voertman-concert-hall-at-
- the-music-building-denton|6-00-pm-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261006T230000Z
-DTSTART:20261006T230000Z
-DTEND:20261007T020000Z
-SUMMARY:Guest Artist Masterclass: Alex Purdy\, tuba
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=guest-artist-masterclass-
- alex-purdy-tuba%7Cpaul-voertman-concert-hall-at-the-music-building-denton%
- 7C6-00-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
  ay of the performance.      Livestream is not available for this event.   
@@ -232,23 +231,6 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  ay of the performance.      Livestream link below.      This event is free
   and open to the public with general seating. — More: https://letsdoitda
  llas.com/venue/paul-voertman-concert-hall-at-the-music-building/
-END:VEVENT
-BEGIN:VEVENT
-UID:faculty-recital-mikayla-peterson-saxophone|paul-voertman-concert-hall-a
- t-the-music-building-denton|5-00-pm-2026-10-17@letsdoitdallas.com
-DTSTAMP:20261017T220000Z
-DTSTART:20261017T220000Z
-DTEND:20261018T010000Z
-SUMMARY:Faculty Recital: Mikayla Peterson\, saxophone
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=faculty-recital-mikayla-p
- eterson-saxophone%7Cpaul-voertman-concert-hall-at-the-music-building-dento
- n%7C5-00-pm
-DESCRIPTION:Important Links and Information      Program   Please note\, th
- is program is subject to change. Final program will be available by the da
- y of the performance.     Livestream link below.      This event is free a
- nd open to the public with general seating. — More: https://letsdoitdall
- as.com/venue/paul-voertman-concert-hall-at-the-music-building/
 END:VEVENT
 BEGIN:VEVENT
 UID:guest-artist-recital-andrew-wright-piano|paul-voertman-concert-hall-at-
