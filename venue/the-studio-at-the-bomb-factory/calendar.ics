@@ -3,23 +3,26 @@ VERSION:2.0
 PRODID:-//Lets Do It Dallas//DFW Events//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:The Studio at the Bomb Factory — Lets Do It Dallas
-X-WR-CALDESC:Upcoming shows at The Studio at the Bomb Factory.
+X-WR-CALNAME:The Studio at The Bomb Factory — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at The Studio at The Bomb Factory.
 X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jane-remover-16-and-under-with-legal-guardian-|the-studio-at-the-bomb-f
- actory-dallas|8-00-pm-2026-09-30@letsdoitdallas.com
-DTSTAMP:20261001T010000Z
-DTSTART:20261001T010000Z
-DTEND:20261001T040000Z
-SUMMARY:Jane Remover (16 and under with legal guardian)
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=jane-remover-16-and-under
- -with-legal-guardian-%7Cthe-studio-at-the-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/the-studio-at-the-bomb-factory/
+UID:second-annual-citrusfest|the-studio-at-the-bomb-factory-dallas|6-30-pm-
+ 10-00-pm-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261001T233000Z
+DTSTART:20261001T233000Z
+DTEND:20261002T023000Z
+SUMMARY:Second Annual Citrusfest
+LOCATION:The Studio at The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=second-annual-citrusfest%
+ 7Cthe-studio-at-the-bomb-factory-dallas%7C6-30-pm-10-00-pm
+DESCRIPTION:Discover your next favorite artist at the Second Annual Citrusf
+ est\, a one-night-only live music showcase celebrating emerging talent and
+  Dallas-Fort Worth’s growing music scene. Founded by Sydney Peters\, Cit
+ rusfest was created to give emerging artists greater access to the people 
+ — More: https://letsdoitdallas.com/venue/the-studio-at-the-bomb-factory/
 END:VEVENT
 BEGIN:VEVENT
 UID:earlybirds-club-21-event-|the-studio-at-the-bomb-factory-dallas|6-00-pm
@@ -138,6 +141,19 @@ SUMMARY:The WLDLFE
 LOCATION:The Studio at the Bomb Factory · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-21&e=the-wldlfe%7Cthe-studio-a
  t-the-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/the-studio-at-the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:ten-16-and-under-with-parent-or-legal-guardian-|the-studio-at-the-bomb-
+ factory-dallas|8-00-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261030T010000Z
+DTSTART:20261030T010000Z
+DTEND:20261030T040000Z
+SUMMARY:Ten (16 and Under with Parent or Legal Guardian)
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=ten-16-and-under-with-par
+ ent-or-legal-guardian-%7Cthe-studio-at-the-bomb-factory-dallas%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/the-studio-at-the-bomb-factory/
 END:VEVENT

@@ -186,4 +186,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=ray-wylie-hubbard%7Cgrana
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT
+BEGIN:VEVENT
+UID:the-linda-lindas|granada-theater-lower-greenville-dallas|doors-see-list
+ ing-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:The Linda Lindas
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=the-linda-lindas%7Cgranad
+ a-theater-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
+ enue/granada-theater/
+END:VEVENT
 END:VCALENDAR

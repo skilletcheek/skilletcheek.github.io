@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:juanes-north-america-tour-2026|the-pavilion-at-toyota-music-factory-irv
- ing|8-00-pm-2026-09-30@letsdoitdallas.com
-DTSTAMP:20261001T010000Z
-DTSTART:20261001T010000Z
-DTEND:20261001T040000Z
-SUMMARY:Juanes North America Tour 2026
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=juanes-north-america-tour
- -2026%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:stephen-wilson-jr-gary-the-torch-tour|the-pavilion-at-toyota-music-fact
  ory-irving|7-30-pm-2026-10-01@letsdoitdallas.com
 DTSTAMP:20261002T003000Z
@@ -271,5 +258,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=sin-bandera-us-escenas-to
  ur%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-00-pm
 DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/the-pavilion-at-toyota-music-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:alvaro-diaz-omakase-tour|the-pavilion-at-toyota-music-factory-irving|8-
+ 00-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261030T010000Z
+DTSTART:20261030T010000Z
+DTEND:20261030T040000Z
+SUMMARY:ALVARO DIAZ - OMAKASE TOUR
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=alvaro-diaz-omakase-tour%
+ 7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/the-pavilion-at-toyota-music-factory/
 END:VEVENT
 END:VCALENDAR

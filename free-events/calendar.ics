@@ -10,48 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:poor-david-s-open-mic-hosted-by-rob-case|poor-david-s-pub-dallas|doors-
- see-listing-2026-09-30@letsdoitdallas.com
-DTSTAMP:20260930T000000Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-SUMMARY:Poor David's Open Mic - Hosted by Rob Case
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=poor-david-s-open-mic-hos
- ted-by-rob-case%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:bread-zeppelin-opens-in-richardson-on-september-30|bread-zeppelin-richa
- rdson|10-00-am-9-00-pm-2026-09-30@letsdoitdallas.com
-DTSTAMP:20260930T150000Z
-DTSTART:20260930T150000Z
-DTEND:20260930T180000Z
-SUMMARY:Bread Zeppelin Opens in Richardson on September 30
-LOCATION:Bread Zeppelin · Richardson
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=bread-zeppelin-opens-in-r
- ichardson-on-september-30%7Cbread-zeppelin-richardson%7C10-00-am-9-00-pm
-DESCRIPTION:Bread Zeppelin is opening its newest Richardson location on Sep
- tember 30\, marking the Dallas-founded fast-casual concept’s 12th Texas 
- restaurant. Opening day features a ribbon-cutting\, live radio broadcast\,
-  giveaways\, prize wheels\, and special discounts\, including free Zeppeli
- ns — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:wub-wednesday|three-links-deep-ellum-dallas|10-30-pm-2026-09-30@letsdoi
- tdallas.com
-DTSTAMP:20261001T033000Z
-DTSTART:20261001T033000Z
-DTEND:20261001T063000Z
-SUMMARY:Wub Wednesday
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=wub-wednesday%7Cthree-lin
- ks-deep-ellum-dallas%7C10-30-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:skins-party|three-links-deep-ellum-dallas|10-00-pm-2026-10-03@letsdoitd
  allas.com
 DTSTAMP:20261004T030000Z
@@ -129,6 +87,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-06&e=free-halloween-movie-mont
  h-sinners%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:joe-bryson-bohemian-pirates-trio-griffin-holtby|three-links-deep-ellum-
+ dallas|7-00-pm-2026-10-07@letsdoitdallas.com
+DTSTAMP:20261008T000000Z
+DTSTART:20261008T000000Z
+DTEND:20261008T030000Z
+SUMMARY:Joe Bryson\, Bohemian Pirates Trio\, Griffin Holtby
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=joe-bryson-bohemian-pirat
+ es-trio-griffin-holtby%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:jack-blocker|three-links-deep-ellum-dallas|8-00-am-2026-10-08@letsdoitd
@@ -463,5 +434,34 @@ URL:https://letsdoitdallas.com/?date=2026-10-28&e=poor-david-s-open-mic-hos
  ted-by-rob-case%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:fraxiom-|-adventures-of-jester-jackalope|three-links-deep-ellum-dallas|
+ 7-00-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:Fraxiom | Adventures of Jester Jackalope
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=fraxiom-%7C-adventures-of
+ -jester-jackalope%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:doug-will-s-monster-mash-bash-featuring-the-music-of-dj-culturegang|sun
+ down-at-granada-lower-greenville-dallas|doors-see-listing-2026-10-31@letsd
+ oitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:DOUG & WILL'S MONSTER MASH BASH Featuring the Music of DJ CULTUREGA
+ NG
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=doug-will-s-monster-mash-
+ bash-featuring-the-music-of-dj-culturegang%7Csundown-at-granada-lower-gree
+ nville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/free-events/
 END:VEVENT
 END:VCALENDAR

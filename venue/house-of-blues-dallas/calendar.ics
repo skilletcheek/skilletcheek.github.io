@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:rodrigo-y-gabriela|house-of-blues-dallas-dallas|6-30-pm-2026-09-30@lets
- doitdallas.com
-DTSTAMP:20260930T233000Z
-DTSTART:20260930T233000Z
-DTEND:20261001T023000Z
-SUMMARY:Rodrigo y Gabriela
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=rodrigo-y-gabriela%7Chous
- e-of-blues-dallas-dallas%7C6-30-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:palace-usa-canada-tour-2026|house-of-blues-dallas-dallas|7-00-pm-2026-1
  0-02@letsdoitdallas.com
 DTSTAMP:20261003T000000Z
@@ -254,5 +241,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-29&e=plim-plim-en-vivo-%7Chous
  e-of-blues-dallas-dallas%7C5-00-pm
 DESCRIPTION:Circus & Specialty Acts event via Ticketmaster. — More: https
  ://letsdoitdallas.com/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:cameron-whitcomb-kingdom-of-fear-tour|house-of-blues-dallas-dallas|7-00
+ -pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:Cameron Whitcomb - Kingdom of Fear Tour
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=cameron-whitcomb-kingdom-
+ of-fear-tour%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/house-of-blues-dallas/
 END:VEVENT
 END:VCALENDAR

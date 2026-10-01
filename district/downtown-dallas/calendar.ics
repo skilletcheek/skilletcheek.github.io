@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:poor-david-s-open-mic-hosted-by-rob-case|poor-david-s-pub-dallas|doors-
- see-listing-2026-09-30@letsdoitdallas.com
-DTSTAMP:20260930T000000Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-SUMMARY:Poor David's Open Mic - Hosted by Rob Case
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=poor-david-s-open-mic-hos
- ted-by-rob-case%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:rodrigo-y-gabriela|house-of-blues-dallas-dallas|6-30-pm-2026-09-30@lets
- doitdallas.com
-DTSTAMP:20260930T233000Z
-DTSTART:20260930T233000Z
-DTEND:20261001T023000Z
-SUMMARY:Rodrigo y Gabriela
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=rodrigo-y-gabriela%7Chous
- e-of-blues-dallas-dallas%7C6-30-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:a-special-tribute-to-dr-ralph-stanley|poor-david-s-pub-dallas|doors-see
  -listing-2026-10-01@letsdoitdallas.com
 DTSTAMP:20261001T000000Z
@@ -47,6 +21,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-01&e=a-special-tribute-to-dr-r
  alph-stanley%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-01@letsdoitdallas.com
+DTSTAMP:20261001T130000Z
+DTSTART:20261001T130000Z
+DTEND:20261001T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-01&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:villanelle|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-10-
@@ -86,6 +76,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-02&e=dawn-and-hawkes-return-to
  -poor-david-s%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261002T130000Z
+DTSTART:20261002T130000Z
+DTEND:20261002T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:palace-usa-canada-tour-2026|house-of-blues-dallas-dallas|7-00-pm-2026-1
@@ -1185,6 +1191,19 @@ DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:madeon-presents-victory-live|south-side-ballroom-dallas|8-00-pm-2026-10
+ -29@letsdoitdallas.com
+DTSTAMP:20261030T010000Z
+DTSTART:20261030T010000Z
+DTEND:20261030T040000Z
+SUMMARY:Madeon presents Victory Live
+LOCATION:South Side Ballroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=madeon-presents-victory-l
+ ive%7Csouth-side-ballroom-dallas%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:7th-annual-zach-welch-haunted-hootenanny|poor-david-s-pub-dallas|doors-
  see-listing-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261030T000000Z
@@ -1196,5 +1215,57 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=7th-annual-zach-welch-hau
  nted-hootenanny%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:uforia-latino-mix-live|dos-equis-pavilion-dallas|6-00-pm-2026-10-30@let
+ sdoitdallas.com
+DTSTAMP:20261030T230000Z
+DTSTART:20261030T230000Z
+DTEND:20261031T020000Z
+SUMMARY:Uforia Latino Mix Live
+LOCATION:Dos Equis Pavilion · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=uforia-latino-mix-live%7C
+ dos-equis-pavilion-dallas%7C6-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:cameron-whitcomb-kingdom-of-fear-tour|house-of-blues-dallas-dallas|7-00
+ -pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:Cameron Whitcomb - Kingdom of Fear Tour
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=cameron-whitcomb-kingdom-
+ of-fear-tour%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-vs-houston-rockets|american-airlines-center-dallas|7-0
+ 0-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:Dallas Mavericks vs. Houston Rockets
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=dallas-mavericks-vs-houst
+ on-rockets%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:mitchell-ferguson|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2
+ 026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:Mitchell Ferguson
+LOCATION:The Cambridge Room at House Of Blues · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=mitchell-ferguson%7Cthe-c
+ ambridge-room-at-house-of-blues-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:emmaline-sinatra-my-sweetheart-tour|the-kessler-theater-oak-cliff-dalla
- s|doors-see-listing-2026-09-30@letsdoitdallas.com
-DTSTAMP:20260930T000000Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-SUMMARY:Emmaline - Sinatra\, My Sweetheart Tour
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=emmaline-sinatra-my-sweet
- heart-tour%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/venue/the-kessler-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:don-was-and-the-pan-detroit-ensemble|the-kessler-theater-oak-cliff-dall
  as|doors-see-listing-2026-10-02@letsdoitdallas.com
 DTSTAMP:20261002T000000Z
@@ -189,6 +176,21 @@ LOCATION:The Kessler Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-29&e=kxt-91-7-presents-alejand
  ro-escovedo-the-electric-saints%7Cthe-kessler-theater-oak-cliff-dallas%7Cd
  oors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:thee-sinseers-love-stories-tour-with-special-guests-the-charities|the-k
+ essler-theater-oak-cliff-dallas|doors-see-listing-2026-10-31@letsdoitdalla
+ s.com
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Thee Sinseers: Love Stories Tour with special guests The Charities
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=thee-sinseers-love-storie
+ s-tour-with-special-guests-the-charities%7Cthe-kessler-theater-oak-cliff-d
+ allas%7Cdoors-see-listing
 DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT

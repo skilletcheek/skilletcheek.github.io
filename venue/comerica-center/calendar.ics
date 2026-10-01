@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Comerica Center — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Comerica Center.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:rahat-fateh-ali-khan-live-in-dallas|comerica-center-frisco|8-30-pm-2026
+ -10-16@letsdoitdallas.com
+DTSTAMP:20261017T013000Z
+DTSTART:20261017T013000Z
+DTEND:20261017T043000Z
+SUMMARY:Rahat Fateh Ali Khan Live In Dallas
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=rahat-fateh-ali-khan-live
+ -in-dallas%7Ccomerica-center-frisco%7C8-30-pm
+DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/comerica-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:allen-americans-vs-idaho-steelheads|comerica-center-frisco|10-00-am-202
+ 6-10-29@letsdoitdallas.com
+DTSTAMP:20261029T150000Z
+DTSTART:20261029T150000Z
+DTEND:20261029T180000Z
+SUMMARY:Allen Americans Vs Idaho Steelheads
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=allen-americans-vs-idaho-
+ steelheads%7Ccomerica-center-frisco%7C10-00-am
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/comerica-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:allen-americans-vs-idaho-steelheads|comerica-center-frisco|7-00-pm-2026
+ -10-30@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:Allen Americans Vs Idaho Steelheads
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=allen-americans-vs-idaho-
+ steelheads%7Ccomerica-center-frisco%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/comerica-center/
+END:VEVENT
+END:VCALENDAR

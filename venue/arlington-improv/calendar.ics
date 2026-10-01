@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:just-nesh|arlington-improv-arlington|7-30-pm-2026-09-30@letsdoitdallas.
- com
-DTSTAMP:20261001T003000Z
-DTSTART:20261001T003000Z
-DTEND:20261001T033000Z
-SUMMARY:Just Nesh
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=just-nesh%7Carlington-imp
- rov-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:taylor-weddington-and-friends|arlington-improv-arlington|7-30-pm-2026-1
  0-01@letsdoitdallas.com
 DTSTAMP:20261002T003000Z
@@ -460,6 +447,18 @@ SUMMARY:The Perfect Match Game Show
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-28&e=the-perfect-match-game-sh
  ow%7Carlington-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:c-rich|arlington-improv-arlington|7-30-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261030T003000Z
+DTSTART:20261030T003000Z
+DTEND:20261030T033000Z
+SUMMARY:C Rich
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=c-rich%7Carlington-improv
+ -arlington%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

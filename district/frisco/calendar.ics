@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-star-guided-tour|the-star-frisco|10-00-am-2026-10-01@letsdoitdallas
- .com
-DTSTAMP:20261001T150000Z
-DTSTART:20261001T150000Z
-DTEND:20261001T180000Z
-SUMMARY:The STAR Guided Tour
-LOCATION:The STAR · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=the-star-guided-tour%7Cth
- e-star-frisco%7C10-00-am
-DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
- las.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:special-meeting-of-planning-zoning-commission|6101-frisco-square-blvd-f
  risco|05-30-pm-2026-10-01@letsdoitdallas.com
 DTSTAMP:20261001T223000Z
@@ -55,6 +42,18 @@ SUMMARY:Saturday Music Series at Frisco Fresh Market
 LOCATION:9215 John W. Elliott Dr · Frisco
 URL:https://letsdoitdallas.com/?date=2026-10-03&e=saturday-music-series-at-
  frisco-fresh-market%7C9215-john-w-elliott-dr-frisco%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:legislative-committee-meeting|6101-frisco-square-blvd-frisco|03-15-pm-2
+ 026-10-06@letsdoitdallas.com
+DTSTAMP:20261006T201500Z
+DTSTART:20261006T201500Z
+DTEND:20261006T231500Z
+SUMMARY:Legislative Committee Meeting
+LOCATION:6101 Frisco Square Blvd.
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=legislative-committee-mee
+ ting%7C6101-frisco-square-blvd-frisco%7C03-15-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
@@ -190,6 +189,43 @@ DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:pedro-capo|rollertown-beerworks-frisco-frisco|8-00-pm-2026-10-14@letsdo
+ itdallas.com
+DTSTAMP:20261015T010000Z
+DTSTART:20261015T010000Z
+DTEND:20261015T040000Z
+SUMMARY:Pedro Capo
+LOCATION:Rollertown Beerworks - Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=pedro-capo%7Crollertown-b
+ eerworks-frisco-frisco%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:illuminate-magic-mayhem|6455-page-street-frisco|06-30-pm-2026-10-15@let
+ sdoitdallas.com
+DTSTAMP:20261015T233000Z
+DTSTART:20261015T233000Z
+DTEND:20261016T023000Z
+SUMMARY:Illuminate: Magic & Mayhem
+LOCATION:6455 Page Street · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=illuminate-magic-mayhem%7
+ C6455-page-street-frisco%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:rail-district-celebration-glow-in-the-dark-yoga-night|8802-4th-st-frisc
+ o|07-30-pm-2026-10-15@letsdoitdallas.com
+DTSTAMP:20261016T003000Z
+DTSTART:20261016T003000Z
+DTEND:20261016T033000Z
+SUMMARY:Rail District Celebration: Glow in the Dark Yoga Night
+LOCATION:8802 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=rail-district-celebration
+ -glow-in-the-dark-yoga-night%7C8802-4th-st-frisco%7C07-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:rahat-fateh-ali-khan-live-in-dallas|comerica-center-frisco|8-30-pm-2026
  -10-16@letsdoitdallas.com
 DTSTAMP:20261017T013000Z
@@ -238,6 +274,19 @@ SUMMARY:Allen Americans Vs Idaho Steelheads
 LOCATION:Comerica Center · Frisco
 URL:https://letsdoitdallas.com/?date=2026-10-29&e=allen-americans-vs-idaho-
  steelheads%7Ccomerica-center-frisco%7C10-00-am
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:allen-americans-vs-idaho-steelheads|comerica-center-frisco|7-00-pm-2026
+ -10-30@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:Allen Americans Vs Idaho Steelheads
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=allen-americans-vs-idaho-
+ steelheads%7Ccomerica-center-frisco%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/frisco/
 END:VEVENT

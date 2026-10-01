@@ -10,22 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
- |04-00-pm-2026-09-30@letsdoitdallas.com
-DTSTAMP:20260930T210000Z
-DTSTART:20260930T210000Z
-DTEND:20261001T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=teenz-place-after-school-
- hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
-DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
- eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
-  snacks while supplies last. Bring your friends! September 30\, 2026 04:00
-  PM - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garland 
- — More: https://letsdoitdallas.com/venue/north-garland-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
  |04-00-pm-2026-10-01@letsdoitdallas.com
 DTSTAMP:20261001T210000Z
 DTSTART:20261001T210000Z
@@ -202,5 +186,21 @@ DESCRIPTION:11:00 a.m.\; It’s playtime! Families can participate in Play
  enjoy an assortment of toys\, games and activities that foster imagination
  \, creativity and problem-solving. October 14\, 2026 11:00 AM - 12:00 PM 3
  84 — More: https://letsdoitdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:english-learners-conversation-club-ages-18-|north-garland-library-garla
+ nd|06-30-pm-2026-10-15@letsdoitdallas.com
+DTSTAMP:20261015T233000Z
+DTSTART:20261015T233000Z
+DTEND:20261016T023000Z
+SUMMARY:English Learners Conversation Club (Ages 18+)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=english-learners-conversa
+ tion-club-ages-18-%7Cnorth-garland-library-garland%7C06-30-pm
+DESCRIPTION:6:30 p.m.\; Practice English in a friendly and supportive conve
+ rsation group. Build confidence through guided discussions\, language acti
+ vities and open conversation while meeting others in the community. All sk
+ ill levels are welcome. October 15\, 2026 06:30 PM - 07:30 PM 3845 N. Ga 
+ — More: https://letsdoitdallas.com/venue/north-garland-library/
 END:VEVENT
 END:VCALENDAR

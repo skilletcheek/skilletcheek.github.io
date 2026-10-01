@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:first-round-golden-state-valkyries-at-dallas-wings-rd-1-hm-gm-1|college
- -park-center-arlington|8-00-pm-2026-09-30@letsdoitdallas.com
-DTSTAMP:20261001T010000Z
-DTSTART:20261001T010000Z
-DTEND:20261001T040000Z
-SUMMARY:First Round - Golden State Valkyries at Dallas Wings Rd 1 Hm Gm 1
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=first-round-golden-state-
- valkyries-at-dallas-wings-rd-1-hm-gm-1%7Ccollege-park-center-arlington%7C8
- -00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/college-park-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:little-rock-trojans-at-ut-arlington-mavericks-womens-volleyball|college
  -park-center-arlington|6-00-pm-2026-10-01@letsdoitdallas.com
 DTSTAMP:20261001T230000Z

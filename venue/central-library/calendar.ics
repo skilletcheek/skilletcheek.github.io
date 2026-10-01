@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gentle-yoga-ages-18-|central-library-garland|06-00-pm-2026-09-30@letsdo
- itdallas.com
-DTSTAMP:20260930T230000Z
-DTSTART:20260930T230000Z
-DTEND:20261001T020000Z
-SUMMARY:Gentle Yoga (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=gentle-yoga-ages-18-%7Cce
- ntral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; A gentle yoga class suitable for adult participants
-  of all levels of experience. Participants should bring their own mat and/
- or towel. Props such as chairs and blocks will be available. September 30\
- , 2026 06:00 PM - 07:00 PM 625 Austin St.Garland\, TX 75040 https://www. 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-10
  -01@letsdoitdallas.com
 DTSTAMP:20261001T150000Z
@@ -373,6 +357,54 @@ DESCRIPTION:6:00 p.m.\; A gentle yoga class suitable for adult participants
   of all levels of experience. Participants should bring their own mat and/
  or towel. Props such as chairs and blocks will be available. October 14\, 
  2026 06:00 PM - 07:00 PM 625 Austin St.Garland\, TX 75040 https://www.ga 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-10
+ -15@letsdoitdallas.com
+DTSTAMP:20261015T150000Z
+DTSTART:20261015T150000Z
+DTEND:20261015T180000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=preschool-discovery-3-5-y
+ ears-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
+ ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
+ ters\, numbers\, and much more that will help develop your preschooler's e
+ arly literacy skills. October 15\, 2026 10:00 AM - 11:00 AM 625 Austin St.
+ Ga — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:cuentos-y-cantos-0-5-a-os-|biblioteca-central-garland|11-00-am-2026-10-
+ 15@letsdoitdallas.com
+DTSTAMP:20261015T160000Z
+DTSTART:20261015T160000Z
+DTEND:20261015T190000Z
+SUMMARY:Cuentos y Cantos (0-5 Años)
+LOCATION:Biblioteca Central · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=cuentos-y-cantos-0-5-a-os
+ -%7Cbiblioteca-central-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Acompáñenos para unos cuentos y cantos mientras 
+ aprendemos sobre temas escolares y lo más importante\, las habilidades ne
+ cesarias para leer. October 15\, 2026 11:00 AM - 12:00 PM 625 Austin St.Ga
+ rland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12951/6392274
+ 61 — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:cracking-the-mortgage-code|central-library-garland|06-00-pm-2026-10-15@
+ letsdoitdallas.com
+DTSTAMP:20261015T230000Z
+DTSTART:20261015T230000Z
+DTEND:20261016T020000Z
+SUMMARY:Cracking the Mortgage Code
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=cracking-the-mortgage-cod
+ e%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Join us for a financial literacy workshop presented
+  by Peoples Mortgage Company. In this workshop\, learn four common home bu
+ ying myths about down payments\, credit scores\, personal debt and mortgag
+ e rates and learn how you can prepare today for a future real estate inve 
  — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

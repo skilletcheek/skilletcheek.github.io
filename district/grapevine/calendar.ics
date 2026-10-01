@@ -10,37 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:afternoon-storytime-and-crafts|grapevine|04-00-pm-2026-09-30@letsdoitda
- llas.com
-DTSTAMP:20260930T210000Z
-DTSTART:20260930T210000Z
-DTEND:20261001T000000Z
-SUMMARY:Afternoon Storytime and Crafts
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=afternoon-storytime-and-c
- rafts%7Cgrapevine%7C04-00-pm
-DESCRIPTION:Join us on Wednesdays for a relaxing afternoon of storytime and
-  crafts in our Children's department. September 30\, 2026 04:00 PM - 05:00
-  PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=
- 17718/639228425570000000 — More: https://letsdoitdallas.com/district/gra
- pevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:open-practice-and-play-night|grapevine|04-30-pm-2026-09-30@letsdoitdall
- as.com
-DTSTAMP:20260930T213000Z
-DTSTART:20260930T213000Z
-DTEND:20261001T003000Z
-SUMMARY:Open Practice and Play Night
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=open-practice-and-play-ni
- ght%7Cgrapevine%7C04-30-pm
-DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
-  ranked play. Ages 12 and up. September 30\, 2026 04:30 PM - 07:30 PM Grap
- evine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17745/63
- 9232829710000000 — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:music-and-movement|grapevine|10-30-am-2026-10-01@letsdoitdallas.com
 DTSTAMP:20261001T153000Z
 DTSTART:20261001T153000Z
@@ -85,6 +54,23 @@ DESCRIPTION:Join us for a fun and engaging Bilingual Storytime! Perfect for
  ies in both Spanish and English. Come ready to sing\, laugh\, and explore 
  stories together. All are welcome—no prior Spanish or English experience
   i — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
+ e-tx-76051-united-states|8-00-am-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261002T130000Z
+DTSTART:20261002T130000Z
+DTEND:20261002T160000Z
+SUMMARY:Phenomenomaly at Meow Wolf
+LOCATION:Meow Wolf · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=phenomenomaly-at-meow-wol
+ f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
+ C8-00-am
+DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
+  live immersive performance series inside The Real Unreal. Blending intera
+ ctive theater with a rotating lineup of North Texas talent\, the experienc
+ e unfolds around guests as they explore\, featuring music\, dance\, comedy
+ \, — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:art-studio-18-|grapevine|10-00-am-2026-10-02@letsdoitdallas.com
@@ -1068,6 +1054,36 @@ DESCRIPTION:📖 Book for Discussion: TBD 🗓️ Meets 2nd Wednesday of th
  il jnpettit@grapevinetexas.gov for more info October 14\, 2026 06:30 PM - 
  07:30 PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx
  ?EID=1712 — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:music-and-movement|grapevine|10-30-am-2026-10-15@letsdoitdallas.com
+DTSTAMP:20261015T153000Z
+DTSTART:20261015T153000Z
+DTEND:20261015T183000Z
+SUMMARY:Music and Movement
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=music-and-movement%7Cgrap
+ evine%7C10-30-am
+DESCRIPTION:Books\, songs\, music\, parachutes and more! Toddlers to school
+  age are welcome! No registration required. October 15\, 2026 10:30 AM - 1
+ 1:00 AM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?
+ EID=17788/639244660000000000 — More: https://letsdoitdallas.com/district
+ /grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:mahjong-learn-play|grapevine|12-30-pm-2026-10-15@letsdoitdallas.com
+DTSTAMP:20261015T173000Z
+DTSTART:20261015T173000Z
+DTEND:20261015T203000Z
+SUMMARY:Mahjong: Learn & Play
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=mahjong-learn-play%7Cgrap
+ evine%7C12-30-pm
+DESCRIPTION:Learn to Play Mahjong Thursdays 12:30-4:30. Beginners\, please 
+ arrive at 12:30. Open play tables available on a first come first serve ba
+ sis\, Space is Limited. Ages 18 and up. October 15\, 2026 12:30 PM - 04:30
+  PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID 
+ — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:day-out-with-thomas-tm-|museum-of-the-american-railroad-grapevine-vinta

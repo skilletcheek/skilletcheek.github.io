@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fcukers|the-echo-lounge-music-hall-dallas|7-00-pm-2026-09-30@letsdoitda
- llas.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261001T000000Z
-DTEND:20261001T030000Z
-SUMMARY:Fcukers
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-09-30&e=fcukers%7Cthe-echo-lounge
- -music-hall-dallas%7C7-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:rebecca-black-exhibitionism-on-tour|the-echo-lounge-music-hall-dallas|8
  -00-pm-2026-10-01@letsdoitdallas.com
 DTSTAMP:20261002T010000Z
