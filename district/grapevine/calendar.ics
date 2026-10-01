@@ -10,36 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:music-and-movement|grapevine|10-30-am-2026-10-01@letsdoitdallas.com
-DTSTAMP:20261001T153000Z
-DTSTART:20261001T153000Z
-DTEND:20261001T183000Z
-SUMMARY:Music and Movement
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=music-and-movement%7Cgrap
- evine%7C10-30-am
-DESCRIPTION:Books\, songs\, music\, parachutes and more! Toddlers to school
-  age are welcome! No registration required. October 1\, 2026 10:30 AM - 11
- :00 AM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?E
- ID=17786/639244660000000000 — More: https://letsdoitdallas.com/district/
- grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:mahjong-learn-play|grapevine|12-30-pm-2026-10-01@letsdoitdallas.com
-DTSTAMP:20261001T173000Z
-DTSTART:20261001T173000Z
-DTEND:20261001T203000Z
-SUMMARY:Mahjong: Learn & Play
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=mahjong-learn-play%7Cgrap
- evine%7C12-30-pm
-DESCRIPTION:Learn to Play Mahjong Thursdays 12:30-4:30. Beginners\, please 
- arrive at 12:30. Open play tables available on a first come first serve ba
- sis\, Space is Limited. Ages 18 and up. October 1\, 2026 12:30 PM - 04:30 
- PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID= 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:bilingual-storytime-english-espa-ol-|grapevine|04-30-pm-2026-10-01@lets
  doitdallas.com
 DTSTAMP:20261001T213000Z
@@ -147,6 +117,22 @@ DESCRIPTION:Bouncing Babies is a program for babies from birth to 18 months
  aregivers. No registration needed. October 2\, 2026 01:30 PM - 02:00 PM Gr
  apevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17736/
   — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-wedding-singer|runway-theatre-215-n-dooley-street-grapevine-76051-u
+ nited-states|7-30-pm-2026-10-02@letsdoitdallas.com
+DTSTAMP:20261003T003000Z
+DTSTART:20261003T003000Z
+DTEND:20261003T033000Z
+SUMMARY:The Wedding Singer
+LOCATION:Runway Theatre · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=the-wedding-singer%7Crunw
+ ay-theatre-215-n-dooley-street-grapevine-76051-united-states%7C7-30-pm
+DESCRIPTION:When love gets loud\, life gets hilarious.  Big hair. Big feel
+ ings. Bigger laughs. This high-energy musical takes you straight back to t
+ he 80s with a love story that’s equal parts sweet and zany. Wedding sing
+ er Robbie Hart is everybody’s favorite life-of-the-party… until his ow
+ n l — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:pop-up-storytime|parr-park-grapevine|10-00-am-2026-10-03@letsdoitdallas

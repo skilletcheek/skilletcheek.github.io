@@ -278,6 +278,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:william-clark-green|legacy-hall-plano|8-00-pm-2026-10-15@letsdoitdallas
+ .com
+DTSTAMP:20261016T010000Z
+DTSTART:20261016T010000Z
+DTEND:20261016T040000Z
+SUMMARY:William Clark Green
+LOCATION:Legacy Hall · Plano
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=william-clark-green%7Cleg
+ acy-hall-plano%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:carlos-mencia|addison-improv-addison|7-30-pm-2026-10-16@letsdoitdallas.
  com
 DTSTAMP:20261017T003000Z
