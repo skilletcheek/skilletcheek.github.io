@@ -62,6 +62,14 @@ def test_identical_title_pass():
     check("Punch Line Dallas is Punch Line Irving",
           len(kept(ev("Comedy Showcase", "Punch Line Irving, Irving"),
                    ev("Comedy Showcase", "Punch Line Dallas - Irvine, Irving"))), 1)
+    check("'Improv Comedy Club - Arlington' is Arlington Improv (found by the "
+          "first nightly run: 10 duplicate listings)",
+          len(kept(ev("Damon Williams", "Arlington Improv, Arlington"),
+                   ev("Damon Williams", "Improv Comedy Club - Arlington, Arlington"))), 1)
+    check("but that alias is keyed WITH its city, so the Addison club is not hijacked",
+          F._venue_tokens("Improv Comedy Club - Addison, Addison"), {"improv", "comedy", "club"})
+    check("and a variant without a suffix still matches as before",
+          F._venue_tokens("Trees - Dallas, Dallas"), F._venue_tokens("Trees, Dallas"))
     check("but two rooms in one building stay apart",
           len(kept(ev("Late Show", "House of Blues Dallas, Dallas"),
                    ev("Late Show", "Cambridge Room at House of Blues, Dallas"))), 2)

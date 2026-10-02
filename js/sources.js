@@ -395,7 +395,11 @@ async function _loadVenueAliases() {
     const raw = await _fetchRows("venue-aliases.json");
     const map = new Map();
     for (const [canonical, variants] of Object.entries(raw.aliases || {})) {
-      for (const v of [...variants, canonical]) map.set(_venueKey(v), canonical);
+      // A variant written WITH its " - City" suffix is keyed in full only --
+      // mirrors _load_venue_aliases() in scripts/fetch_events.py.
+      for (const v of [...variants, canonical]) {
+        map.set(_venueKey(v, _HAS_SUFFIX.test(_venuePart(v))), canonical);
+      }
     }
     _venueAliases = map;
   } catch (_) { /* duplicates survive; nothing else breaks */ }
@@ -428,9 +432,15 @@ function venueDistrictOf(area) {
 
 /* Punctuation/suffix-insensitive form used to look an alias up. Mirrors
    _venue_key() in scripts/fetch_events.py. */
-function _venueKey(name) {
-  let v = String(name || "").split(",")[0].trim().toLowerCase();
-  v = v.replace(/\s+-\s+[^-]+$/, "");          // trailing city: "… - Sanger"
+const _HAS_SUFFIX = /\s+-\s+[^-]+$/;
+
+function _venuePart(name) {
+  return String(name || "").split(",")[0].trim().toLowerCase();
+}
+
+function _venueKey(name, keepSuffix = false) {
+  let v = _venuePart(name);
+  if (!keepSuffix) v = v.replace(_HAS_SUFFIX, "");   // trailing city: "… - Sanger"
   v = v.replace(/&/g, " and ").replace(/['’]/g, "");
   return v.replace(/[^a-z0-9]+/g, " ").trim();
 }
@@ -439,7 +449,8 @@ function _venueKey(name) {
    variants to one canonical name first — see venue-aliases.json. */
 function _venueTokens(area) {
   const key = _venueKey(area);
-  const canonical = _venueAliases.get(key);
+  // the suffix-qualified alias first, so "… - Arlington" beats "…"
+  const canonical = _venueAliases.get(_venueKey(area, true)) || _venueAliases.get(key);
   const v = canonical ? _venueKey(canonical) : key;
   return new Set(v.split(" ").filter((t) => t.length > 1 && !_STOP.has(t)));
 }

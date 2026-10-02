@@ -216,10 +216,23 @@ venue-token equality-or-subset AND start times within 90 minutes.
   disagreed; over 1,582 rows (live feed + every keyless source) they now
   keep the same 1,101, date for date. A true duplicate that only the old
   pass caught is one venue under two spellings — fix it with an alias
-  (Tannahill's and Punch Line Irving were added that day). Every pair the
-  venue check splits is printed in the nightly log under `dedupe: N
-  same-title pair(s) kept apart by venue`; read it after changing anything
-  here. `scripts/test_dedupe.py` pins the cases.
+  (Tannahill's, Punch Line Irving and Arlington Improv were added that day;
+  the last one only showed up in the first real run, as 10 duplicate
+  listings — the live feed is post-dedupe, so offline checks cannot see a
+  merge whose losing side left no rows). Every pair the venue check splits is
+  printed in the nightly log under `dedupe: N same-title pair(s) kept apart
+  by venue`; **read it after changing anything here**.
+  `scripts/test_dedupe.py` pins the cases.
+- **An alias variant written with its `" - City"` suffix is keyed in full.**
+  `_venue_key()` drops that suffix, so "Improv Comedy Club - Arlington" and a
+  SeatGeek "Improv Comedy Club - Addison" would share one key and an alias
+  would hijack the other city's club. The loader keys such a variant with
+  the suffix (`keep_suffix=True`) and lookup tries that first; variants
+  without one behave as before. Mirrored in `_loadVenueAliases()` /
+  `_venueTokens()` in `js/sources.js` — the two layers produced identical
+  venue tokens for all 174 venue strings in the feed (hashed in the
+  preview). Old JS reading a new alias file DOES hijack Addison, so ship the
+  two together.
 
 **Audit after any dedupe or alias change** (must be 0 orphans):
 

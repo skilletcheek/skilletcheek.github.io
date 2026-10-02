@@ -30,7 +30,12 @@
     "The Garland library entries are the same branch listed in English and in",
     "Spanish by the same CivicPlus feed ('at the North Garland Library' vs 'de",
     "la Biblioteca North Garland'), not a rename. One physical building each,",
-    "so they belong here rather than in fetch_civicplus()."
+    "so they belong here rather than in fetch_civicplus().",
+    "",
+    "A variant that names its city after ' - ' ('Improv Comedy Club - Arlington')",
+    "is matched WITH that city: the comparison otherwise drops the suffix, and",
+    "'Improv Comedy Club' alone would also catch the Addison club. Write the",
+    "suffix whenever the bare name is a chain's."
   ],
   "aliases": {
     "The Shops at Redbird": [
@@ -79,6 +84,9 @@
     ],
     "Punch Line Irving": [
       "Punch Line Dallas"
+    ],
+    "Arlington Improv": [
+      "Improv Comedy Club - Arlington"
     ]
   }
 }

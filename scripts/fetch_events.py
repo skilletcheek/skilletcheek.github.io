@@ -4157,14 +4157,27 @@ def _load_venue_aliases() -> dict:
     out = {}
     for canonical, variants in raw.items():
         for v in list(variants) + [canonical]:
-            out[_venue_key(v)] = canonical
+            # A variant written WITH its " - City" suffix is registered under
+            # the full key only. "Improv Comedy Club - Arlington" shortened is
+            # "improv comedy club", which SeatGeek's Addison club would share --
+            # the city is the one word telling the two apart.
+            out[_venue_key(v, keep_suffix=_HAS_SUFFIX.search(_venue_part(v)) is not None)] = canonical
     return out
 
 
-def _venue_key(name: str) -> str:
-    """Punctuation/suffix-insensitive form used to look an alias up."""
-    v = (name or "").split(",")[0].strip().lower()
-    v = re.sub(r"\s+-\s+[^-]+$", "", v)        # trailing city: "… - Sanger"
+_HAS_SUFFIX = re.compile(r"\s+-\s+[^-]+$")
+
+
+def _venue_part(name: str) -> str:
+    return (name or "").split(",")[0].strip().lower()
+
+
+def _venue_key(name: str, keep_suffix: bool = False) -> str:
+    """Punctuation/suffix-insensitive form used to look an alias up.
+    `keep_suffix` keeps a trailing " - City" -- see _load_venue_aliases()."""
+    v = _venue_part(name)
+    if not keep_suffix:
+        v = _HAS_SUFFIX.sub("", v)               # trailing city: "… - Sanger"
     v = v.replace("&", " and ").replace("'", "").replace("’", "")
     return re.sub(r"[^a-z0-9]+", " ", v).strip()
 
@@ -4272,7 +4285,9 @@ def _venue_tokens(area: str) -> set:
     via venue-aliases.json (see that file for why this is data and not a looser
     comparison)."""
     key = _venue_key(area)
-    canonical = _VENUE_ALIASES.get(key)
+    # the suffix-qualified alias first, so "… - Arlington" beats "…"
+    canonical = (_VENUE_ALIASES.get(_venue_key(area, keep_suffix=True))
+                 or _VENUE_ALIASES.get(key))
     v = _venue_key(canonical) if canonical else key
     return {t for t in v.split() if t not in _STOP and len(t) > 1}
 
