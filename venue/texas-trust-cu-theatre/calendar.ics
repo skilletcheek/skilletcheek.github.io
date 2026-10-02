@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:anne-wilson|texas-trust-cu-theatre-grand-prairie|7-00-pm-2026-10-01@let
- sdoitdallas.com
-DTSTAMP:20261002T000000Z
-DTSTART:20261002T000000Z
-DTEND:20261002T030000Z
-SUMMARY:Anne Wilson
-LOCATION:Texas Trust CU Theatre · Grand Prairie
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=anne-wilson%7Ctexas-trust
- -cu-theatre-grand-prairie%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/texas-trust-cu-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:ralph-barbosa-s-birthday-fest|texas-trust-cu-theatre-grand-prairie|8-00
  -pm-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261004T010000Z
@@ -150,5 +137,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-29&e=a-r-rahman-symphonic-expe
  rience%7Ctexas-trust-cu-theatre-grand-prairie%7C8-00-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/venue/texas-trust-cu-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:brand-new|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-10-30@letsd
+ oitdallas.com
+DTSTAMP:20261031T010000Z
+DTSTART:20261031T010000Z
+DTEND:20261031T040000Z
+SUMMARY:Brand New
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=brand-new%7Ctexas-trust-c
+ u-theatre-grand-prairie%7C8-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/texas-trust-cu-theatre/
 END:VEVENT
 END:VCALENDAR

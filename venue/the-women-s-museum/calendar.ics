@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Women's Museum — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at The Women's Museum.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:roundtable-writer-s-breakfast-a-tough-row-to-hoe|the-women-s-museum-dal
+ las|10-00-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T150000Z
+DTSTART:20261024T150000Z
+DTEND:20261024T180000Z
+SUMMARY:Roundtable Writer's Breakfast A Tough Row To Hoe
+LOCATION:The Women's Museum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=roundtable-writer-s-break
+ fast-a-tough-row-to-hoe%7Cthe-women-s-museum-dallas%7C10-00-am
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/the-women-s-museum/
+END:VEVENT
+BEGIN:VEVENT
+UID:-relief-featuring-jada-arnell|the-women-s-museum-dallas|9-00-pm-2026-10
+ -24@letsdoitdallas.com
+DTSTAMP:20261025T020000Z
+DTSTART:20261025T020000Z
+DTEND:20261025T050000Z
+SUMMARY:"Relief" - Featuring Jada Arnell
+LOCATION:The Women's Museum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=-relief-featuring-jada-ar
+ nell%7Cthe-women-s-museum-dallas%7C9-00-pm
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/the-women-s-museum/
+END:VEVENT
+BEGIN:VEVENT
+UID:-try-angle-a-sonder-story-part-2|the-women-s-museum-dallas|9-00-pm-2026
+ -10-30@letsdoitdallas.com
+DTSTAMP:20261031T020000Z
+DTSTART:20261031T020000Z
+DTEND:20261031T050000Z
+SUMMARY:"Try Angle! A Sonder Story" Part 2
+LOCATION:The Women's Museum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=-try-angle-a-sonder-story
+ -part-2%7Cthe-women-s-museum-dallas%7C9-00-pm
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/the-women-s-museum/
+END:VEVENT
+END:VCALENDAR

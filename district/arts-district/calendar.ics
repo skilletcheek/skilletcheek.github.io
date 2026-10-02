@@ -241,4 +241,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=dallas-symphony-orchestra
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-dia-de-los-muertos|morton-meyerson-s
+ ymphony-center-dallas|7-30-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T003000Z
+DTSTART:20261031T003000Z
+DTEND:20261031T033000Z
+SUMMARY:Dallas Symphony Orchestra Presents Dia de los Muertos
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=dallas-symphony-orchestra
+ -presents-dia-de-los-muertos%7Cmorton-meyerson-symphony-center-dallas%7C7-
+ 30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/arts-district/
+END:VEVENT
 END:VCALENDAR

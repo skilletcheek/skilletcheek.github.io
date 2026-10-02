@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:a-special-tribute-to-dr-ralph-stanley|poor-david-s-pub-dallas|doors-see
- -listing-2026-10-01@letsdoitdallas.com
-DTSTAMP:20261001T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:A SPECIAL TRIBUTE TO DR. RALPH STANLEY
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=a-special-tribute-to-dr-r
- alph-stanley%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:dawn-and-hawkes-return-to-poor-david-s|poor-david-s-pub-dallas|doors-se
  e-listing-2026-10-02@letsdoitdallas.com
 DTSTAMP:20261002T000000Z

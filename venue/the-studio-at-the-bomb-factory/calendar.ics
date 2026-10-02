@@ -3,27 +3,11 @@ VERSION:2.0
 PRODID:-//Lets Do It Dallas//DFW Events//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:The Studio at The Bomb Factory — Lets Do It Dallas
-X-WR-CALDESC:Upcoming shows at The Studio at The Bomb Factory.
+X-WR-CALNAME:The Studio at the Bomb Factory — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at The Studio at the Bomb Factory.
 X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VEVENT
-UID:second-annual-citrusfest|the-studio-at-the-bomb-factory-dallas|6-30-pm-
- 10-00-pm-2026-10-01@letsdoitdallas.com
-DTSTAMP:20261001T233000Z
-DTSTART:20261001T233000Z
-DTEND:20261002T023000Z
-SUMMARY:Second Annual Citrusfest
-LOCATION:The Studio at The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=second-annual-citrusfest%
- 7Cthe-studio-at-the-bomb-factory-dallas%7C6-30-pm-10-00-pm
-DESCRIPTION:Discover your next favorite artist at the Second Annual Citrusf
- est\, a one-night-only live music showcase celebrating emerging talent and
-  Dallas-Fort Worth’s growing music scene. Founded by Sydney Peters\, Cit
- rusfest was created to give emerging artists greater access to the people 
- — More: https://letsdoitdallas.com/venue/the-studio-at-the-bomb-factory/
-END:VEVENT
 BEGIN:VEVENT
 UID:earlybirds-club-21-event-|the-studio-at-the-bomb-factory-dallas|6-00-pm
  -2026-10-03@letsdoitdallas.com

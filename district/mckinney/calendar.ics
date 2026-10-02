@@ -10,30 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:art-challenge-6th-12th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm
- -2026-10-01@letsdoitdallas.com
-DTSTAMP:20261001T213000Z
-DTSTART:20261001T213000Z
-DTEND:20261002T003000Z
-SUMMARY:Art Challenge (6th-12th Grade)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=art-challenge-6th-12th-gr
- ade-%7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:fire-safety-day-all-ages-|6861-w-eldorado-parkway-mckinney|10-00-am-202
- 6-10-03@letsdoitdallas.com
-DTSTAMP:20261003T150000Z
-DTSTART:20261003T150000Z
-DTEND:20261003T180000Z
-SUMMARY:Fire Safety Day (All Ages)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=fire-safety-day-all-ages-
- %7C6861-w-eldorado-parkway-mckinney%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:family-storytime-all-ages-|1201-e-louisiana-st-mckinney|10-30-am-2026-1
  0-03@letsdoitdallas.com
 DTSTAMP:20261003T153000Z
@@ -310,6 +286,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=farmers-market-storytime-
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:fire-safety-day-all-ages-|6861-w-eldorado-parkway-mckinney|10-00-am-202
+ 6-10-10@letsdoitdallas.com
+DTSTAMP:20261010T150000Z
+DTSTART:20261010T150000Z
+DTEND:20261010T180000Z
+SUMMARY:Fire Safety Day (All Ages)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=fire-safety-day-all-ages-
+ %7C6861-w-eldorado-parkway-mckinney%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:family-storytime-all-ages-|1201-e-louisiana-st-mckinney|10-30-am-2026-1
  0-10@letsdoitdallas.com
 DTSTAMP:20261010T153000Z
@@ -527,6 +515,30 @@ URL:https://letsdoitdallas.com/?date=2026-10-15&e=anime-art-6th-12th-grade-
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:-virtual-genealogy-research-day-adults-|6861-w-eldorado-parkway-mckinne
+ y|09-00-am-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261016T140000Z
+DTSTART:20261016T140000Z
+DTEND:20261016T170000Z
+SUMMARY:*VIRTUAL* Genealogy Research Day (Adults)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=-virtual-genealogy-resear
+ ch-day-adults-%7C6861-w-eldorado-parkway-mckinney%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:fright-night-escape-room-6th-12th-grade-|6861-w-eldorado-parkway-mckinn
+ ey|06-30-pm-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261016T233000Z
+DTSTART:20261016T233000Z
+DTEND:20261017T023000Z
+SUMMARY:Fright Night Escape Room (6th-12th Grade)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=fright-night-escape-room-
+ 6th-12th-grade-%7C6861-w-eldorado-parkway-mckinney%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:worlds-2026-swiss-1|credit-union-of-texas-event-center-allen|12-00-pm-2
  026-10-23@letsdoitdallas.com
 DTSTAMP:20261023T170000Z
@@ -626,6 +638,19 @@ SUMMARY:Worlds 2026 - Swiss 7
 LOCATION:Credit Union of Texas Event Center · Allen
 URL:https://letsdoitdallas.com/?date=2026-10-30&e=worlds-2026-swiss-7%7Ccre
  dit-union-of-texas-event-center-allen%7C3-00-pm
+DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:worlds-2026-swiss-8|credit-union-of-texas-event-center-allen|12-00-pm-2
+ 026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T170000Z
+DTSTART:20261031T170000Z
+DTEND:20261031T200000Z
+SUMMARY:Worlds 2026 - Swiss 8
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=worlds-2026-swiss-8%7Ccre
+ dit-union-of-texas-event-center-allen%7C12-00-pm
 DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/mckinney/
 END:VEVENT

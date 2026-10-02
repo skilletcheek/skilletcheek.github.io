@@ -10,26 +10,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:special-meeting-of-planning-zoning-commission|6101-frisco-square-blvd-f
- risco|05-30-pm-2026-10-01@letsdoitdallas.com
-DTSTAMP:20261001T223000Z
-DTSTART:20261001T223000Z
-DTEND:20261002T013000Z
-SUMMARY:Special Meeting of Planning & Zoning Commission
-LOCATION:6101 Frisco Square Blvd.
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=special-meeting-of-planni
- ng-zoning-commission%7C6101-frisco-square-blvd-frisco%7C05-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:sunrise-yoga|8802-4th-st-frisco|07-30-am-2026-10-03@letsdoitdallas.com
+UID:sunrise-yoga-cancelled|8802-4th-st-frisco|07-30-am-2026-10-03@letsdoitd
+ allas.com
 DTSTAMP:20261003T123000Z
 DTSTART:20261003T123000Z
 DTEND:20261003T153000Z
-SUMMARY:Sunrise Yoga
+SUMMARY:Sunrise Yoga - CANCELLED
 LOCATION:8802 4th St · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=sunrise-yoga%7C8802-4th-s
- t-frisco%7C07-30-am
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=sunrise-yoga-cancelled%7C
+ 8802-4th-st-frisco%7C07-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
@@ -223,6 +212,30 @@ SUMMARY:Rail District Celebration: Glow in the Dark Yoga Night
 LOCATION:8802 4th St · Frisco
 URL:https://letsdoitdallas.com/?date=2026-10-15&e=rail-district-celebration
  -glow-in-the-dark-yoga-night%7C8802-4th-st-frisco%7C07-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:coffee-with-the-mayor|8802-4th-st-frisco|08-00-am-2026-10-16@letsdoitda
+ llas.com
+DTSTAMP:20261016T130000Z
+DTSTART:20261016T130000Z
+DTEND:20261016T160000Z
+SUMMARY:Coffee with the Mayor
+LOCATION:8802 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=coffee-with-the-mayor%7C8
+ 802-4th-st-frisco%7C08-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:rail-district-celebration-plaza-live-featuring-patrick-casey|8802-4th-s
+ t-frisco|07-00-pm-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261017T000000Z
+DTSTART:20261017T000000Z
+DTEND:20261017T030000Z
+SUMMARY:Rail District Celebration: Plaza Live! featuring Patrick Casey
+LOCATION:8802 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=rail-district-celebration
+ -plaza-live-featuring-patrick-casey%7C8802-4th-st-frisco%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT

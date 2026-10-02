@@ -10,85 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:little-rock-trojans-at-ut-arlington-mavericks-womens-volleyball|college
- -park-center-arlington|6-00-pm-2026-10-01@letsdoitdallas.com
-DTSTAMP:20261001T230000Z
-DTSTART:20261001T230000Z
-DTEND:20261002T020000Z
-SUMMARY:Little Rock Trojans at UT Arlington Mavericks Womens Volleyball
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=little-rock-trojans-at-ut
- -arlington-mavericks-womens-volleyball%7Ccollege-park-center-arlington%7C6
- -00-pm
-DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
- /letsdoitdallas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-high-kings|arlington-music-hall-arlington|7-00-pm-2026-10-01@letsdo
- itdallas.com
-DTSTAMP:20261002T000000Z
-DTSTART:20261002T000000Z
-DTEND:20261002T030000Z
-SUMMARY:The High Kings
-LOCATION:Arlington Music Hall
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=the-high-kings%7Carlingto
- n-music-hall-arlington%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:taylor-weddington-and-friends|arlington-improv-arlington|7-30-pm-2026-1
- 0-01@letsdoitdallas.com
-DTSTAMP:20261002T003000Z
-DTSTART:20261002T003000Z
-DTEND:20261002T033000Z
-SUMMARY:Taylor Weddington and Friends
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=taylor-weddington-and-fri
- ends%7Carlington-improv-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-02
- @letsdoitdallas.com
-DTSTAMP:20261002T150000Z
-DTSTART:20261002T150000Z
-DTEND:20261002T180000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C10-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-10-02
- @letsdoitdallas.com
-DTSTAMP:20261002T170000Z
-DTSTART:20261002T170000Z
-DTEND:20261002T200000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C12-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-10-02@
- letsdoitdallas.com
-DTSTAMP:20261002T190000Z
-DTSTART:20261002T190000Z
-DTEND:20261002T220000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C2-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:damon-williams|arlington-improv-arlington|7-30-pm-2026-10-02@letsdoitda
  llas.com
 DTSTAMP:20261003T003000Z
@@ -832,6 +753,71 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:tbd-at-wings-wnba-finals-hg-1-|college-park-center-arlington|3-30-am-20
+ 26-10-16@letsdoitdallas.com
+DTSTAMP:20261016T083000Z
+DTSTART:20261016T083000Z
+DTEND:20261016T113000Z
+SUMMARY:TBD at Wings - WNBA Finals (HG 1)
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=tbd-at-wings-wnba-finals-
+ hg-1-%7Ccollege-park-center-arlington%7C3-30-am
+DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/d
+ istrict/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-16
+ @letsdoitdallas.com
+DTSTAMP:20261016T150000Z
+DTSTART:20261016T150000Z
+DTEND:20261016T180000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C10-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-10-16
+ @letsdoitdallas.com
+DTSTAMP:20261016T170000Z
+DTSTART:20261016T170000Z
+DTEND:20261016T200000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C12-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-10-16@
+ letsdoitdallas.com
+DTSTAMP:20261016T190000Z
+DTSTART:20261016T190000Z
+DTEND:20261016T220000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C2-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-10-16@
+ letsdoitdallas.com
+DTSTAMP:20261016T210000Z
+DTSTART:20261016T210000Z
+DTEND:20261017T000000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C4-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:marcus-d-wiley|arlington-improv-arlington|7-30-pm-2026-10-16@letsdoitda
  llas.com
 DTSTAMP:20261017T003000Z
@@ -1073,6 +1059,58 @@ SUMMARY:C Rich
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-29&e=c-rich%7Carlington-improv
  -arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:lewis-belt|arlington-improv-arlington|7-30-pm-2026-10-30@letsdoitdallas
+ .com
+DTSTAMP:20261031T003000Z
+DTSTART:20261031T003000Z
+DTEND:20261031T033000Z
+SUMMARY:Lewis Belt
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=lewis-belt%7Carlington-im
+ prov-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:lewis-belt|arlington-improv-arlington|9-45-pm-2026-10-30@letsdoitdallas
+ .com
+DTSTAMP:20261031T024500Z
+DTSTART:20261031T024500Z
+DTEND:20261031T054500Z
+SUMMARY:Lewis Belt
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=lewis-belt%7Carlington-im
+ prov-arlington%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
+ 26-10-31@letsdoitdallas.com
+DTSTAMP:20261031T170000Z
+DTSTART:20261031T170000Z
+DTEND:20261031T200000Z
+SUMMARY:Family Magic & Comedy for All Ages
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=family-magic-comedy-for-a
+ ll-ages%7Carlington-improv-arlington%7C12-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:lewis-belt|arlington-improv-arlington|7-00-pm-2026-10-31@letsdoitdallas
+ .com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T000000Z
+DTEND:20261101T030000Z
+SUMMARY:Lewis Belt
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=lewis-belt%7Carlington-im
+ prov-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT

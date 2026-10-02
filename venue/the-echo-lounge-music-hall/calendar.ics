@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:rebecca-black-exhibitionism-on-tour|the-echo-lounge-music-hall-dallas|8
- -00-pm-2026-10-01@letsdoitdallas.com
-DTSTAMP:20261002T010000Z
-DTSTART:20261002T010000Z
-DTEND:20261002T040000Z
-SUMMARY:Rebecca Black - Exhibitionism on Tour
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=rebecca-black-exhibitioni
- sm-on-tour%7Cthe-echo-lounge-music-hall-dallas%7C8-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:mar-solis|the-echo-lounge-music-hall-dallas|7-00-pm-2026-10-08@letsdoit
  dallas.com
 DTSTAMP:20261009T000000Z
@@ -229,6 +216,19 @@ LOCATION:The Echo Lounge & Music Hall · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-29&e=sawyer-hill-everybody-s-h
  ome-nobody-s-happy-world-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-p
  m
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:punchis-presents-eres-emo-18-event|the-echo-lounge-music-hall-dallas|9-
+ 00-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T020000Z
+DTSTART:20261031T020000Z
+DTEND:20261031T050000Z
+SUMMARY:Punchis Presents ¿ERES EMO? - 18+ Event
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=punchis-presents-eres-emo
+ -18-event%7Cthe-echo-lounge-music-hall-dallas%7C9-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-echo-lounge-music-hall/
 END:VEVENT

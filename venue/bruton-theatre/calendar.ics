@@ -9,6 +9,19 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:evening-of-theatre-and-music|bruton-theatre-dallas|8-00-pm-2026-10-03@l
+ etsdoitdallas.com
+DTSTAMP:20261004T010000Z
+DTSTART:20261004T010000Z
+DTEND:20261004T040000Z
+SUMMARY:Evening Of Theatre And Music
+LOCATION:Bruton Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=evening-of-theatre-and-mu
+ sic%7Cbruton-theatre-dallas%7C8-00-pm
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/bruton-theatre/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-black-academy-of-arts-and-letters-dallas|bruton-theatre-dallas|10-0
  0-am-2026-10-15@letsdoitdallas.com
 DTSTAMP:20261015T150000Z
@@ -35,6 +48,19 @@ DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
  /letsdoitdallas.com/venue/bruton-theatre/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-black-academy-of-arts-and-letters-dallas|bruton-theatre-dallas|10-0
+ 0-am-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261016T150000Z
+DTSTART:20261016T150000Z
+DTEND:20261016T180000Z
+SUMMARY:The Black Academy of Arts and Letters - Dallas
+LOCATION:Bruton Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=the-black-academy-of-arts
+ -and-letters-dallas%7Cbruton-theatre-dallas%7C10-00-am
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/bruton-theatre/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-hip-hop-puppet-show-i-m-not-playin-with-you-|bruton-theatre-dallas|
  10-00-am-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261016T150000Z
@@ -44,6 +70,32 @@ SUMMARY:The Hip Hop Puppet Show - "I'm Not Playin' With You"
 LOCATION:Bruton Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-16&e=the-hip-hop-puppet-show-i
  -m-not-playin-with-you-%7Cbruton-theatre-dallas%7C10-00-am
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/bruton-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:evening-of-theatre-and-music|bruton-theatre-dallas|8-00-pm-2026-10-16@l
+ etsdoitdallas.com
+DTSTAMP:20261017T010000Z
+DTSTART:20261017T010000Z
+DTEND:20261017T040000Z
+SUMMARY:Evening Of Theatre And Music
+LOCATION:Bruton Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=evening-of-theatre-and-mu
+ sic%7Cbruton-theatre-dallas%7C8-00-pm
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/bruton-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:evening-of-theatre-and-music|bruton-theatre-dallas|8-00-pm-2026-10-17@l
+ etsdoitdallas.com
+DTSTAMP:20261018T010000Z
+DTSTART:20261018T010000Z
+DTEND:20261018T040000Z
+SUMMARY:Evening Of Theatre And Music
+LOCATION:Bruton Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=evening-of-theatre-and-mu
+ sic%7Cbruton-theatre-dallas%7C8-00-pm
 DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
  /letsdoitdallas.com/venue/bruton-theatre/
 END:VEVENT

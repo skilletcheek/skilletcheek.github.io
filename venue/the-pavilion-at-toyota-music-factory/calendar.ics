@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:stephen-wilson-jr-gary-the-torch-tour|the-pavilion-at-toyota-music-fact
- ory-irving|7-30-pm-2026-10-01@letsdoitdallas.com
-DTSTAMP:20261002T003000Z
-DTSTART:20261002T003000Z
-DTEND:20261002T033000Z
-SUMMARY:Stephen Wilson Jr. - Gary The Torch Tour
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=stephen-wilson-jr-gary-th
- e-torch-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-30-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:insecure-the-10th-anniversary-tour|the-pavilion-at-toyota-music-factory
  -irving|8-00-pm-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261004T010000Z
@@ -271,5 +258,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-29&e=alvaro-diaz-omakase-tour%
  7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/the-pavilion-at-toyota-music-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:los-gemelos-de-sinaloa-the-gemeliza-tour|the-pavilion-at-toyota-music-f
+ actory-irving|8-00-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T010000Z
+DTSTART:20261031T010000Z
+DTEND:20261031T040000Z
+SUMMARY:Los Gemelos de Sinaloa: The Gemeliza Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=los-gemelos-de-sinaloa-th
+ e-gemeliza-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/the-pavilion-at-toyota-music-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:hugel-presents-make-the-girls-dance|the-pavilion-at-toyota-music-factor
+ y-irving|6-00-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T230000Z
+DTSTART:20261031T230000Z
+DTEND:20261101T020000Z
+SUMMARY:Hugel presents: Make The Girls Dance
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=hugel-presents-make-the-g
+ irls-dance%7Cthe-pavilion-at-toyota-music-factory-irving%7C6-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/the-pavilion-at-toyota-music-factory/
 END:VEVENT
 END:VCALENDAR

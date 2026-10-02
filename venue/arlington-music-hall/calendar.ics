@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-high-kings|arlington-music-hall-arlington|7-00-pm-2026-10-01@letsdo
- itdallas.com
-DTSTAMP:20261002T000000Z
-DTSTART:20261002T000000Z
-DTEND:20261002T030000Z
-SUMMARY:The High Kings
-LOCATION:Arlington Music Hall
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=the-high-kings%7Carlingto
- n-music-hall-arlington%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/arlington-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:kathy-mattea|arlington-music-hall-arlington|7-30-pm-2026-10-02@letsdoit
  dallas.com
 DTSTAMP:20261003T003000Z

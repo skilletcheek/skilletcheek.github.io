@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:hybrid-minds-ages-18-|silo-dallas|9-00-pm-2026-10-01@letsdoitdallas.com
-DTSTAMP:20261002T020000Z
-DTSTART:20261002T020000Z
-DTEND:20261002T050000Z
-SUMMARY:Hybrid Minds - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=hybrid-minds-ages-18-%7Cs
- ilo-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:eli-brown-18-and-over-|silo-dallas|9-00-pm-2026-10-02@letsdoitdallas.co
  m
 DTSTAMP:20261003T020000Z
@@ -216,5 +204,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-29&e=massano-18-and-over-%7Csi
  lo-dallas%7C9-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:adriatique-18-and-over-|silo-dallas|9-00-pm-2026-10-30@letsdoitdallas.c
+ om
+DTSTAMP:20261031T020000Z
+DTSTART:20261031T020000Z
+DTEND:20261031T050000Z
+SUMMARY:Adriatique (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=adriatique-18-and-over-%7
+ Csilo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/silo/
 END:VEVENT
 END:VCALENDAR

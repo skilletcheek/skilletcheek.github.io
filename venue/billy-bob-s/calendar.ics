@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dustin-de-la-garza-18-event-|billy-bob-s-fort-worth|9-00-pm-2026-10-01@
- letsdoitdallas.com
-DTSTAMP:20261002T020000Z
-DTSTART:20261002T020000Z
-DTEND:20261002T050000Z
-SUMMARY:Dustin De La Garza (18+ Event)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=dustin-de-la-garza-18-eve
- nt-%7Cbilly-bob-s-fort-worth%7C9-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/billy-bob-s/
-END:VEVENT
-BEGIN:VEVENT
 UID:chris-young-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-02@letsdo
  itdallas.com
 DTSTAMP:20261003T030000Z
@@ -150,5 +137,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-29&e=the-smithereens-18-event-
  %7Cbilly-bob-s-fort-worth%7C9-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:easton-corbin-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-30@lets
+ doitdallas.com
+DTSTAMP:20261031T030000Z
+DTSTART:20261031T030000Z
+DTEND:20261031T060000Z
+SUMMARY:Easton Corbin (18+ Event)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=easton-corbin-18-event-%7
+ Cbilly-bob-s-fort-worth%7C10-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/billy-bob-s/
 END:VEVENT
 END:VCALENDAR

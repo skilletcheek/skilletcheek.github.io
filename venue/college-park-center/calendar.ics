@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:little-rock-trojans-at-ut-arlington-mavericks-womens-volleyball|college
- -park-center-arlington|6-00-pm-2026-10-01@letsdoitdallas.com
-DTSTAMP:20261001T230000Z
-DTSTART:20261001T230000Z
-DTEND:20261002T020000Z
-SUMMARY:Little Rock Trojans at UT Arlington Mavericks Womens Volleyball
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=little-rock-trojans-at-ut
- -arlington-mavericks-womens-volleyball%7Ccollege-park-center-arlington%7C6
- -00-pm
-DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
- /letsdoitdallas.com/venue/college-park-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:eastern-kentucky-colonels-at-ut-arlington-mavericks-womens-volleyball|c
  ollege-park-center-arlington|1-00-pm-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261003T180000Z
@@ -60,6 +46,19 @@ SUMMARY:TBD at Wings - WNBA Semis (Gm 4\, HG 2)
 LOCATION:College Park Center · Arlington
 URL:https://letsdoitdallas.com/?date=2026-10-09&e=tbd-at-wings-wnba-semis-g
  m-4-hg-2-%7Ccollege-park-center-arlington%7C3-30-am
+DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/v
+ enue/college-park-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:tbd-at-wings-wnba-finals-hg-1-|college-park-center-arlington|3-30-am-20
+ 26-10-16@letsdoitdallas.com
+DTSTAMP:20261016T083000Z
+DTSTART:20261016T083000Z
+DTEND:20261016T113000Z
+SUMMARY:TBD at Wings - WNBA Finals (HG 1)
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=tbd-at-wings-wnba-finals-
+ hg-1-%7Ccollege-park-center-arlington%7C3-30-am
 DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/v
  enue/college-park-center/
 END:VEVENT

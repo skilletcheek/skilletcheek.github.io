@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:don-omar-the-last-king-world-tour-|american-airlines-center-dallas|8-00
- -pm-2026-10-01@letsdoitdallas.com
-DTSTAMP:20261002T010000Z
-DTSTART:20261002T010000Z
-DTEND:20261002T040000Z
-SUMMARY:Don Omar "The Last King World Tour"
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=don-omar-the-last-king-wo
- rld-tour-%7Camerican-airlines-center-dallas%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-stars-vs-st-louis-blues|american-airlines-center-dallas|8-00-pm-
  2026-10-02@letsdoitdallas.com
 DTSTAMP:20261003T010000Z
@@ -267,5 +254,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=dallas-mavericks-vs-houst
  on-rockets%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-stars-vs-columbus-blue-jackets|american-airlines-center-dallas|7
+ -00-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T000000Z
+DTEND:20261101T030000Z
+SUMMARY:Dallas Stars vs. Columbus Blue Jackets
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=dallas-stars-vs-columbus-
+ blue-jackets%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/american-airlines-center/
 END:VEVENT
 END:VCALENDAR

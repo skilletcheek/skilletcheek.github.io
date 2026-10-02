@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:rebecca-black-exhibitionism-on-tour|the-echo-lounge-music-hall-dallas|8
- -00-pm-2026-10-01@letsdoitdallas.com
-DTSTAMP:20261002T010000Z
-DTSTART:20261002T010000Z
-DTEND:20261002T040000Z
-SUMMARY:Rebecca Black - Exhibitionism on Tour
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=rebecca-black-exhibitioni
- sm-on-tour%7Cthe-echo-lounge-music-hall-dallas%7C8-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:hybrid-minds-ages-18-|silo-dallas|9-00-pm-2026-10-01@letsdoitdallas.com
-DTSTAMP:20261002T020000Z
-DTSTART:20261002T020000Z
-DTEND:20261002T050000Z
-SUMMARY:Hybrid Minds - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=hybrid-minds-ages-18-%7Cs
- ilo-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:eli-brown-18-and-over-|silo-dallas|9-00-pm-2026-10-02@letsdoitdallas.co
  m
 DTSTAMP:20261003T020000Z
@@ -541,5 +516,43 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=city-of-the-sun%7Cam-fm-d
  allas-dallas%7C7-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:adriatique-18-and-over-|silo-dallas|9-00-pm-2026-10-30@letsdoitdallas.c
+ om
+DTSTAMP:20261031T020000Z
+DTSTART:20261031T020000Z
+DTEND:20261031T050000Z
+SUMMARY:Adriatique (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=adriatique-18-and-over-%7
+ Csilo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:punchis-presents-eres-emo-18-event|the-echo-lounge-music-hall-dallas|9-
+ 00-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T020000Z
+DTSTART:20261031T020000Z
+DTEND:20261031T050000Z
+SUMMARY:Punchis Presents ¿ERES EMO? - 18+ Event
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=punchis-presents-eres-emo
+ -18-event%7Cthe-echo-lounge-music-hall-dallas%7C9-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:black-flag|am-fm-dallas-dallas|7-00-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T000000Z
+DTEND:20261101T030000Z
+SUMMARY:Black Flag
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=black-flag%7Cam-fm-dallas
+ -dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
 END:VEVENT
 END:VCALENDAR

@@ -1,32 +1,18 @@
 {
- "date": "2026-10-01",
+ "date": "2026-10-02",
  "counts": {
-  "ticketmaster": 550,
+  "ticketmaster": 566,
   "seatgeek": 300,
-  "ics_feeds": 87,
-  "civicplus": 328,
-  "prekindle": 72,
-  "singles_pages": 4,
+  "ics_feeds": 74,
+  "civicplus": 321,
+  "prekindle": 74,
+  "singles_pages": 5,
   "do214": 0,
-  "dallasites101": 3,
+  "dallasites101": 9,
   "seated": 1
  },
  "alarms": [],
  "history": [
-  {
-   "date": "2026-09-25",
-   "counts": {
-    "ticketmaster": 563,
-    "seatgeek": 300,
-    "ics_feeds": 27,
-    "civicplus": 303,
-    "prekindle": 73,
-    "singles_pages": 3,
-    "do214": 0,
-    "dallasites101": 8,
-    "seated": 2
-   }
-  },
   {
    "date": "2026-09-25",
    "counts": {
@@ -206,6 +192,20 @@
     "singles_pages": 4,
     "do214": 0,
     "dallasites101": 3,
+    "seated": 1
+   }
+  },
+  {
+   "date": "2026-10-02",
+   "counts": {
+    "ticketmaster": 566,
+    "seatgeek": 300,
+    "ics_feeds": 74,
+    "civicplus": 321,
+    "prekindle": 74,
+    "singles_pages": 5,
+    "do214": 0,
+    "dallasites101": 9,
     "seated": 1
    }
   }

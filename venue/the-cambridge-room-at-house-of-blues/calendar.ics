@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:villanelle|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-10-
- 01@letsdoitdallas.com
-DTSTAMP:20261002T000000Z
-DTSTART:20261002T000000Z
-DTEND:20261002T030000Z
-SUMMARY:Villanelle
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=villanelle%7Cthe-cambridg
- e-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-cambridge-room-at-house-of-blues/
-END:VEVENT
-BEGIN:VEVENT
 UID:arin-ray-the-limbo-tour|the-cambridge-room-at-house-of-blues-dallas|7-0
  0-pm-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261004T000000Z
@@ -178,5 +165,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=mitchell-ferguson%7Cthe-c
  ambridge-room-at-house-of-blues-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-cambridge-room-at-house-of-blues/
+END:VEVENT
+BEGIN:VEVENT
+UID:edgar-alejandro|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-202
+ 6-10-31@letsdoitdallas.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T000000Z
+DTEND:20261101T030000Z
+SUMMARY:Edgar Alejandro
+LOCATION:The Cambridge Room at House Of Blues · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=edgar-alejandro%7Cthe-cam
+ bridge-room-at-house-of-blues-dallas%7C7-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/the-cambridge-room-at-house-of-blues/
 END:VEVENT
 END:VCALENDAR

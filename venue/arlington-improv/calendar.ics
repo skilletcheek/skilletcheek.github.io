@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:taylor-weddington-and-friends|arlington-improv-arlington|7-30-pm-2026-1
- 0-01@letsdoitdallas.com
-DTSTAMP:20261002T003000Z
-DTSTART:20261002T003000Z
-DTEND:20261002T033000Z
-SUMMARY:Taylor Weddington and Friends
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=taylor-weddington-and-fri
- ends%7Carlington-improv-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:damon-williams|arlington-improv-arlington|7-30-pm-2026-10-02@letsdoitda
  llas.com
 DTSTAMP:20261003T003000Z
@@ -459,6 +446,58 @@ SUMMARY:C Rich
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-29&e=c-rich%7Carlington-improv
  -arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:lewis-belt|arlington-improv-arlington|7-30-pm-2026-10-30@letsdoitdallas
+ .com
+DTSTAMP:20261031T003000Z
+DTSTART:20261031T003000Z
+DTEND:20261031T033000Z
+SUMMARY:Lewis Belt
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=lewis-belt%7Carlington-im
+ prov-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:lewis-belt|arlington-improv-arlington|9-45-pm-2026-10-30@letsdoitdallas
+ .com
+DTSTAMP:20261031T024500Z
+DTSTART:20261031T024500Z
+DTEND:20261031T054500Z
+SUMMARY:Lewis Belt
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=lewis-belt%7Carlington-im
+ prov-arlington%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
+ 26-10-31@letsdoitdallas.com
+DTSTAMP:20261031T170000Z
+DTSTART:20261031T170000Z
+DTEND:20261031T200000Z
+SUMMARY:Family Magic & Comedy for All Ages
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=family-magic-comedy-for-a
+ ll-ages%7Carlington-improv-arlington%7C12-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:lewis-belt|arlington-improv-arlington|7-00-pm-2026-10-31@letsdoitdallas
+ .com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T000000Z
+DTEND:20261101T030000Z
+SUMMARY:Lewis Belt
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=lewis-belt%7Carlington-im
+ prov-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:poly-d-az-en-espa-ol-|punch-line-irving-irving|7-30-pm-2026-10-01@letsd
- oitdallas.com
-DTSTAMP:20261002T003000Z
-DTSTART:20261002T003000Z
-DTEND:20261002T033000Z
-SUMMARY:Poly Díaz (En Español)
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-01&e=poly-d-az-en-espa-ol-%7Cp
- unch-line-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:joe-fenti|punch-line-irving-irving|7-00-pm-2026-10-02@letsdoitdallas.co
  m
 DTSTAMP:20261003T000000Z
@@ -489,5 +476,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=rocky-horror-sing-along-d
  rag-show%7Cpunch-line-irving-irving%7C7-00-pm
 DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
  oitdallas.com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:comedy-allstars|punch-line-irving-irving|9-30-pm-2026-10-30@letsdoitdal
+ las.com
+DTSTAMP:20261031T023000Z
+DTSTART:20261031T023000Z
+DTEND:20261031T053000Z
+SUMMARY:Comedy Allstars
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=comedy-allstars%7Cpunch-l
+ ine-irving-irving%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
 END:VEVENT
 END:VCALENDAR

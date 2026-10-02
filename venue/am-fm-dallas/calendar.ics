@@ -95,4 +95,16 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=city-of-the-sun%7Cam-fm-d
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/am-fm-dallas/
 END:VEVENT
+BEGIN:VEVENT
+UID:black-flag|am-fm-dallas-dallas|7-00-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T000000Z
+DTEND:20261101T030000Z
+SUMMARY:Black Flag
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=black-flag%7Cam-fm-dallas
+ -dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/am-fm-dallas/
+END:VEVENT
 END:VCALENDAR

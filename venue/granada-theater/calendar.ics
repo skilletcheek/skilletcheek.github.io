@@ -23,6 +23,19 @@ DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
+UID:bryce-bangs|granada-theater-dallas-dallas|9-00-pm-2026-10-02@letsdoitda
+ llas.com
+DTSTAMP:20261003T020000Z
+DTSTART:20261003T020000Z
+DTEND:20261003T050000Z
+SUMMARY:Bryce Bangs
+LOCATION:Granada Theater - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=bryce-bangs%7Cgranada-the
+ ater-dallas-dallas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/granada-theater/
+END:VEVENT
+BEGIN:VEVENT
 UID:blisspop-presents-hot-in-herre-2000s-dance-party|granada-theater-lower-
  greenville-dallas|doors-see-listing-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261003T000000Z
@@ -196,6 +209,22 @@ SUMMARY:The Linda Lindas
 LOCATION:Granada Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-31&e=the-linda-lindas%7Cgranad
  a-theater-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
+ enue/granada-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:rhett-miller-friends-breathe-easy-concert-benefiting-the-cystic-fibrosi
+ s-foundation|granada-theater-lower-greenville-dallas|doors-see-listing-202
+ 6-11-01@letsdoitdallas.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Rhett Miller & Friends - Breathe Easy Concert Benefiting the Cystic
+  Fibrosis Foundation
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=rhett-miller-friends-brea
+ the-easy-concert-benefiting-the-cystic-fibrosis-foundation%7Cgranada-theat
+ er-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT

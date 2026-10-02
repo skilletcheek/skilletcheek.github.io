@@ -255,4 +255,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=cameron-whitcomb-kingdom-
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/house-of-blues-dallas/
 END:VEVENT
+BEGIN:VEVENT
+UID:voil-presents-moonbloom|house-of-blues-dallas-dallas|6-00-pm-2026-10-31
+ @letsdoitdallas.com
+DTSTAMP:20261031T230000Z
+DTSTART:20261031T230000Z
+DTEND:20261101T020000Z
+SUMMARY:VOILÀ Presents: Moonbloom
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=voil-presents-moonbloom%7
+ Chouse-of-blues-dallas-dallas%7C6-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/house-of-blues-dallas/
+END:VEVENT
 END:VCALENDAR
