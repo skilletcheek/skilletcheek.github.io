@@ -1,0 +1,141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Improv Comedy Club - Arlington — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Improv Comedy Club - Arlington.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:damon-williams|improv-comedy-club-arlington-arlington|7-30-pm-2026-10-0
+ 2@letsdoitdallas.com
+DTSTAMP:20261003T003000Z
+DTSTART:20261003T003000Z
+DTEND:20261003T033000Z
+SUMMARY:Damon Williams
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=damon-williams%7Cimprov-c
+ omedy-club-arlington-arlington%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/improv-comedy-club-arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:damon-williams|improv-comedy-club-arlington-arlington|9-45-pm-2026-10-0
+ 2@letsdoitdallas.com
+DTSTAMP:20261003T024500Z
+DTSTART:20261003T024500Z
+DTEND:20261003T054500Z
+SUMMARY:Damon Williams
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=damon-williams%7Cimprov-c
+ omedy-club-arlington-arlington%7C9-45-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/improv-comedy-club-arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:damon-williams|improv-comedy-club-arlington-arlington|7-00-pm-2026-10-0
+ 3@letsdoitdallas.com
+DTSTAMP:20261004T000000Z
+DTSTART:20261004T000000Z
+DTEND:20261004T030000Z
+SUMMARY:Damon Williams
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=damon-williams%7Cimprov-c
+ omedy-club-arlington-arlington%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/improv-comedy-club-arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:damon-williams|improv-comedy-club-arlington-arlington|9-30-pm-2026-10-0
+ 3@letsdoitdallas.com
+DTSTAMP:20261004T023000Z
+DTSTART:20261004T023000Z
+DTEND:20261004T053000Z
+SUMMARY:Damon Williams
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=damon-williams%7Cimprov-c
+ omedy-club-arlington-arlington%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/improv-comedy-club-arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:damon-williams|improv-comedy-club-arlington-arlington|7-00-pm-2026-10-0
+ 4@letsdoitdallas.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261005T000000Z
+DTEND:20261005T030000Z
+SUMMARY:Damon Williams
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=damon-williams%7Cimprov-c
+ omedy-club-arlington-arlington%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/improv-comedy-club-arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:zainab-johnson-18-|improv-comedy-club-arlington-arlington|7-30-pm-2026-
+ 10-09@letsdoitdallas.com
+DTSTAMP:20261010T003000Z
+DTSTART:20261010T003000Z
+DTEND:20261010T033000Z
+SUMMARY:Zainab Johnson (18+)
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=zainab-johnson-18-%7Cimpr
+ ov-comedy-club-arlington-arlington%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/improv-comedy-club-arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:zainab-johnson-18-|improv-comedy-club-arlington-arlington|9-45-pm-2026-
+ 10-09@letsdoitdallas.com
+DTSTAMP:20261010T024500Z
+DTSTART:20261010T024500Z
+DTEND:20261010T054500Z
+SUMMARY:Zainab Johnson (18+)
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=zainab-johnson-18-%7Cimpr
+ ov-comedy-club-arlington-arlington%7C9-45-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/improv-comedy-club-arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:zainab-johnson-18-|improv-comedy-club-arlington-arlington|7-00-pm-2026-
+ 10-10@letsdoitdallas.com
+DTSTAMP:20261011T000000Z
+DTSTART:20261011T000000Z
+DTEND:20261011T030000Z
+SUMMARY:Zainab Johnson (18+)
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=zainab-johnson-18-%7Cimpr
+ ov-comedy-club-arlington-arlington%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/improv-comedy-club-arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:zainab-johnson-18-|improv-comedy-club-arlington-arlington|9-30-pm-2026-
+ 10-10@letsdoitdallas.com
+DTSTAMP:20261011T023000Z
+DTSTART:20261011T023000Z
+DTEND:20261011T053000Z
+SUMMARY:Zainab Johnson (18+)
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=zainab-johnson-18-%7Cimpr
+ ov-comedy-club-arlington-arlington%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/improv-comedy-club-arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:zainab-johnson-18-|improv-comedy-club-arlington-arlington|7-00-pm-2026-
+ 10-11@letsdoitdallas.com
+DTSTAMP:20261012T000000Z
+DTSTART:20261012T000000Z
+DTEND:20261012T030000Z
+SUMMARY:Zainab Johnson (18+)
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=zainab-johnson-18-%7Cimpr
+ ov-comedy-club-arlington-arlington%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/improv-comedy-club-arlington/
+END:VEVENT
+END:VCALENDAR

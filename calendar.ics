@@ -91,23 +91,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-02&e=thin-white-line-raid-knig
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
- e-tx-76051-united-states|8-00-am-2026-10-02@letsdoitdallas.com
-DTSTAMP:20261002T130000Z
-DTSTART:20261002T130000Z
-DTEND:20261002T160000Z
-SUMMARY:Phenomenomaly at Meow Wolf
-LOCATION:Meow Wolf · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=phenomenomaly-at-meow-wol
- f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
- C8-00-am
-DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
-  live immersive performance series inside The Real Unreal. Blending intera
- ctive theater with a rotating lineup of North Texas talent\, the experienc
- e unfolds around guests as they explore\, featuring music\, dance\, comedy
- \, — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-10-02@letsdoitdallas.com
 DTSTAMP:20261002T130000Z
@@ -122,23 +105,6 @@ DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
  r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
  and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
  — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
- et-fort-worth-76107-united-states|10-00-am-2026-10-02@letsdoitdallas.com
-DTSTAMP:20261002T150000Z
-DTSTART:20261002T150000Z
-DTEND:20261002T180000Z
-SUMMARY:Forces at Play
-LOCATION:Fort Worth Museum of Science and History
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=forces-at-play%7Cfort-wor
- th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
- -states%7C10-00-am
-DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
-  an interactive exhibit that explores the science behind some of the world
- ’s most beloved sports. Through hands-on activities and historical colle
- ctions\, visitors discover how forces like gravity\, friction\, and moment
- um impac — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
@@ -504,6 +470,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-02&e=damon-williams%7Carlingto
  n-improv-arlington%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/
+END:VEVENT
+BEGIN:VEVENT
+UID:damon-williams|improv-comedy-club-arlington-arlington|7-30-pm-2026-10-0
+ 2@letsdoitdallas.com
+DTSTAMP:20261003T003000Z
+DTSTART:20261003T003000Z
+DTEND:20261003T033000Z
+SUMMARY:Damon Williams
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=damon-williams%7Cimprov-c
+ omedy-club-arlington-arlington%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /
 END:VEVENT
 BEGIN:VEVENT
 UID:erica-rhodes|dallas-comedy-club-mainstage-theater-dallas|7-30-pm-2026-1
@@ -872,6 +851,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/
 END:VEVENT
 BEGIN:VEVENT
+UID:damon-williams|improv-comedy-club-arlington-arlington|9-45-pm-2026-10-0
+ 2@letsdoitdallas.com
+DTSTAMP:20261003T024500Z
+DTSTART:20261003T024500Z
+DTEND:20261003T054500Z
+SUMMARY:Damon Williams
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-02&e=damon-williams%7Cimprov-c
+ omedy-club-arlington-arlington%7C9-45-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:ian-fidance|addison-improv-addison|9-45-pm-2026-10-02@letsdoitdallas.co
  m
 DTSTAMP:20261003T024500Z
@@ -1072,6 +1064,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-03&e=sister-to-sister-fitness-
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T130000Z
+DTSTART:20261003T130000Z
+DTEND:20261003T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:first-saturday|dogwood-canyon-audubon-center-cedar-hill|08-30-am-2026-1
  0-03@letsdoitdallas.com
 DTSTAMP:20261003T133000Z
@@ -1181,6 +1189,23 @@ LOCATION:600 Cedar St. · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-10-03&e=cancelled-shop-small-ceda
  r-hill-neighborhood-market%7C600-cedar-st-cedar-hill%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261003T150000Z
+DTSTART:20261003T150000Z
+DTEND:20261003T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-10-03@letsd
@@ -1812,6 +1837,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/
 END:VEVENT
 BEGIN:VEVENT
+UID:damon-williams|improv-comedy-club-arlington-arlington|7-00-pm-2026-10-0
+ 3@letsdoitdallas.com
+DTSTAMP:20261004T000000Z
+DTSTART:20261004T000000Z
+DTEND:20261004T030000Z
+SUMMARY:Damon Williams
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=damon-williams%7Cimprov-c
+ omedy-club-arlington-arlington%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:ian-fidance|addison-improv-addison|7-00-pm-2026-10-03@letsdoitdallas.co
  m
 DTSTAMP:20261004T000000Z
@@ -2124,19 +2162,6 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
-UID:shawn-james|tannahills-tavern-and-music-hall-fort-worth|9-00-pm-2026-10
- -03@letsdoitdallas.com
-DTSTAMP:20261004T020000Z
-DTSTART:20261004T020000Z
-DTEND:20261004T050000Z
-SUMMARY:Shawn James
-LOCATION:Tannahills Tavern and Music Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=shawn-james%7Ctannahills-
- tavern-and-music-hall-fort-worth%7C9-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/
-END:VEVENT
-BEGIN:VEVENT
 UID:joe-fenti|punch-line-irving-irving|9-15-pm-2026-10-03@letsdoitdallas.co
  m
 DTSTAMP:20261004T021500Z
@@ -2161,6 +2186,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-03&e=damon-williams%7Carlingto
  n-improv-arlington%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/
+END:VEVENT
+BEGIN:VEVENT
+UID:damon-williams|improv-comedy-club-arlington-arlington|9-30-pm-2026-10-0
+ 3@letsdoitdallas.com
+DTSTAMP:20261004T023000Z
+DTSTART:20261004T023000Z
+DTEND:20261004T053000Z
+SUMMARY:Damon Williams
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=damon-williams%7Cimprov-c
+ omedy-club-arlington-arlington%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /
 END:VEVENT
 BEGIN:VEVENT
 UID:ian-fidance|addison-improv-addison|9-30-pm-2026-10-03@letsdoitdallas.co
@@ -2644,6 +2682,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-04&e=damon-williams%7Carlingto
  n-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/
+END:VEVENT
+BEGIN:VEVENT
+UID:damon-williams|improv-comedy-club-arlington-arlington|7-00-pm-2026-10-0
+ 4@letsdoitdallas.com
+DTSTAMP:20261005T000000Z
+DTSTART:20261005T000000Z
+DTEND:20261005T030000Z
+SUMMARY:Damon Williams
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=damon-williams%7Cimprov-c
+ omedy-club-arlington-arlington%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /
 END:VEVENT
 BEGIN:VEVENT
 UID:joris-voorn-18-|silo-dallas-dallas|7-00-pm-2026-10-04@letsdoitdallas.co
@@ -3137,14 +3188,14 @@ URL:https://letsdoitdallas.com/?date=2026-10-06&e=honky-tonk-tuesdays-with-
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:national-night-out|mckinney|12-00-am-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261006T050000Z
-DTSTART:20261006T050000Z
-DTEND:20261006T080000Z
+UID:national-night-out|mckinney|see-details-2026-10-06@letsdoitdallas.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
 SUMMARY:National Night Out
 LOCATION:McKinney
 URL:https://letsdoitdallas.com/?date=2026-10-06&e=national-night-out%7Cmcki
- nney%7C12-00-am
+ nney%7Csee-details
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
@@ -4090,6 +4141,21 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
+ e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-08@letsdoitdallas
+ .com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
+ Theatre Works
+LOCATION:8004 N. Dallas Parkway · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=-goosebumps-the-musical-p
+ hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
+ way-frisco%7Csee-details
+DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:gareth-pearson-welsh-tornado-at-poor-david-s|poor-david-s-pub-dallas|do
  ors-see-listing-2026-10-08@letsdoitdallas.com
 DTSTAMP:20261008T000000Z
@@ -4695,6 +4761,21 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/
 END:VEVENT
 BEGIN:VEVENT
+UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
+ e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-09@letsdoitdallas
+ .com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
+ Theatre Works
+LOCATION:8004 N. Dallas Parkway · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=-goosebumps-the-musical-p
+ hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
+ way-frisco%7Csee-details
+DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:grateful-dead-tribute-forgotten-space-20th-anniversary-show|granada-the
  ater-lower-greenville-dallas|doors-see-listing-2026-10-09@letsdoitdallas.c
  om
@@ -5251,6 +5332,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
+UID:zainab-johnson-18-|improv-comedy-club-arlington-arlington|7-30-pm-2026-
+ 10-09@letsdoitdallas.com
+DTSTAMP:20261010T003000Z
+DTSTART:20261010T003000Z
+DTEND:20261010T033000Z
+SUMMARY:Zainab Johnson (18+)
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=zainab-johnson-18-%7Cimpr
+ ov-comedy-club-arlington-arlington%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:bassvictim-w-thoom|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-1
  0-09@letsdoitdallas.com
 DTSTAMP:20261010T010000Z
@@ -5410,6 +5504,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/
 END:VEVENT
 BEGIN:VEVENT
+UID:zainab-johnson-18-|improv-comedy-club-arlington-arlington|9-45-pm-2026-
+ 10-09@letsdoitdallas.com
+DTSTAMP:20261010T024500Z
+DTSTART:20261010T024500Z
+DTEND:20261010T054500Z
+SUMMARY:Zainab Johnson (18+)
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=zainab-johnson-18-%7Cimpr
+ ov-comedy-club-arlington-arlington%7C9-45-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:blackberry-smoke-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-10-0
  9@letsdoitdallas.com
 DTSTAMP:20261010T030000Z
@@ -5421,6 +5528,21 @@ URL:https://letsdoitdallas.com/?date=2026-10-09&e=blackberry-smoke-18-and-o
  ver-%7Cbilly-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
+ e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-10@letsdoitdallas
+ .com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
+ Theatre Works
+LOCATION:8004 N. Dallas Parkway · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=-goosebumps-the-musical-p
+ hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
+ way-frisco%7Csee-details
+DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:del-castillo-with-special-guest-guy-forsyth|the-kessler-theater-oak-cli
@@ -6100,6 +6222,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/
 END:VEVENT
 BEGIN:VEVENT
+UID:zainab-johnson-18-|improv-comedy-club-arlington-arlington|7-00-pm-2026-
+ 10-10@letsdoitdallas.com
+DTSTAMP:20261011T000000Z
+DTSTART:20261011T000000Z
+DTEND:20261011T030000Z
+SUMMARY:Zainab Johnson (18+)
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=zainab-johnson-18-%7Cimpr
+ ov-comedy-club-arlington-arlington%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:anything-goes-presented-by-garland-civic-theatre|300-n-fifth-street-gar
  land|07-30-pm-2026-10-10@letsdoitdallas.com
 DTSTAMP:20261011T003000Z
@@ -6297,19 +6432,6 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/
 END:VEVENT
 BEGIN:VEVENT
-UID:houndmouth-with-marfa|tannahills-tavern-and-music-hall-fort-worth|9-00-
- pm-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261011T020000Z
-DTSTART:20261011T020000Z
-DTEND:20261011T050000Z
-SUMMARY:Houndmouth with Marfa
-LOCATION:Tannahills Tavern and Music Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=houndmouth-with-marfa%7Ct
- annahills-tavern-and-music-hall-fort-worth%7C9-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/
-END:VEVENT
-BEGIN:VEVENT
 UID:prospa-ages-18-|silo-dallas|9-00-pm-2026-10-10@letsdoitdallas.com
 DTSTAMP:20261011T020000Z
 DTSTART:20261011T020000Z
@@ -6360,6 +6482,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/
 END:VEVENT
 BEGIN:VEVENT
+UID:zainab-johnson-18-|improv-comedy-club-arlington-arlington|9-30-pm-2026-
+ 10-10@letsdoitdallas.com
+DTSTAMP:20261011T023000Z
+DTSTART:20261011T023000Z
+DTEND:20261011T053000Z
+SUMMARY:Zainab Johnson (18+)
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=zainab-johnson-18-%7Cimpr
+ ov-comedy-club-arlington-arlington%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:tyler-farr-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-10-10@lets
  doitdallas.com
 DTSTAMP:20261011T030000Z
@@ -6371,6 +6506,21 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=tyler-farr-18-and-over-%7
  Cbilly-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
+ e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-11@letsdoitdallas
+ .com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
+ Theatre Works
+LOCATION:8004 N. Dallas Parkway · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=-goosebumps-the-musical-p
+ hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
+ way-frisco%7Csee-details
+DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:pierre-bensusan-the-infinite-guitar-tour-2026|poor-david-s-pub-dallas|d
@@ -6956,6 +7106,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/
 END:VEVENT
 BEGIN:VEVENT
+UID:zainab-johnson-18-|improv-comedy-club-arlington-arlington|7-00-pm-2026-
+ 10-11@letsdoitdallas.com
+DTSTAMP:20261012T000000Z
+DTSTART:20261012T000000Z
+DTEND:20261012T030000Z
+SUMMARY:Zainab Johnson (18+)
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=zainab-johnson-18-%7Cimpr
+ ov-comedy-club-arlington-arlington%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:kacey-musgraves-middle-of-nowhere-tour|american-airlines-center-dallas|
  7-30-pm-2026-10-11@letsdoitdallas.com
 DTSTAMP:20261012T003000Z
@@ -7020,6 +7183,21 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
+UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
+ e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-12@letsdoitdallas
+ .com
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
+ Theatre Works
+LOCATION:8004 N. Dallas Parkway · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=-goosebumps-the-musical-p
+ hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
+ way-frisco%7Csee-details
+DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:free-halloween-movie-month-halloween|sundown-at-granada-lower-greenvill
  e-dallas|doors-see-listing-2026-10-12@letsdoitdallas.com
 DTSTAMP:20261012T000000Z
@@ -7044,6 +7222,22 @@ LOCATION:1700 Veterans Memorial Pkwy · Lancaster
 URL:https://letsdoitdallas.com/?date=2026-10-12&e=school-s-out-adventure-ca
  mp%7C1700-veterans-memorial-pkwy-lancaster%7C07-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:fall-kids-camp|310-e-parkerville-road-cedar-hill|08-00-am-2026-10-12@le
+ tsdoitdallas.com
+DTSTAMP:20261012T130000Z
+DTSTART:20261012T130000Z
+DTEND:20261012T160000Z
+SUMMARY:Fall Kids Camp
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=fall-kids-camp%7C310-e-pa
+ rkerville-road-cedar-hill%7C08-00-am
+DESCRIPTION:Runs Oct 12 – Oct 16. Make Fall Break one to remember! 🍁 F
+ all Break Camp gives kids ages 5–12 a fun and welcoming place to stay ac
+ tive\, get creative\, make new friends\, and enjoy their time away from sc
+ hool. Camp activities include games\, arts and crafts\, outdoor activities
+ \, seaso — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-12
@@ -7454,6 +7648,22 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  llas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:chamber-music-concert|recital-hall-at-the-music-building-denton|8-00-pm
+ -2026-10-12@letsdoitdallas.com
+DTSTAMP:20261013T010000Z
+DTSTART:20261013T010000Z
+DTEND:20261013T040000Z
+SUMMARY:Chamber Music Concert
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=chamber-music-concert%7Cr
+ ecital-hall-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below.      This event is free
+  and open to the public with general seating. — More: https://letsdoitda
+ llas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:kylie-cantrall|the-bomb-factory-dallas-dallas|8-00-pm-2026-10-12@letsdo
  itdallas.com
 DTSTAMP:20261013T010000Z
@@ -7493,6 +7703,21 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
+ e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-13@letsdoitdallas
+ .com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
+ Theatre Works
+LOCATION:8004 N. Dallas Parkway · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=-goosebumps-the-musical-p
+ hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
+ way-frisco%7Csee-details
+DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:free-halloween-movie-month-beetlejuice|sundown-at-granada-lower-greenvi
  lle-dallas|doors-see-listing-2026-10-13@letsdoitdallas.com
 DTSTAMP:20261013T000000Z
@@ -7517,6 +7742,22 @@ LOCATION:1700 Veterans Memorial Pkwy · Lancaster
 URL:https://letsdoitdallas.com/?date=2026-10-13&e=school-s-out-adventure-ca
  mp%7C1700-veterans-memorial-pkwy-lancaster%7C07-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:fall-kids-camp|310-e-parkerville-road-cedar-hill|08-00-am-2026-10-13@le
+ tsdoitdallas.com
+DTSTAMP:20261013T130000Z
+DTSTART:20261013T130000Z
+DTEND:20261013T160000Z
+SUMMARY:Fall Kids Camp
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=fall-kids-camp%7C310-e-pa
+ rkerville-road-cedar-hill%7C08-00-am
+DESCRIPTION:Runs Oct 12 – Oct 16. Make Fall Break one to remember! 🍁 F
+ all Break Camp gives kids ages 5–12 a fun and welcoming place to stay ac
+ tive\, get creative\, make new friends\, and enjoy their time away from sc
+ hool. Camp activities include games\, arts and crafts\, outdoor activities
+ \, seaso — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:tiny-tots-sensory-adventures|1700-veterans-memorial-parkway-lancaster|0
@@ -7923,6 +8164,18 @@ DESCRIPTION:6:30 p.m.\; Acompáñenos para unos cuentos y cantos mientras a
  22 — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:planning-zoning-commission|6101-frisco-square-blvd-frisco|06-30-pm-2026
+ -10-13@letsdoitdallas.com
+DTSTAMP:20261013T233000Z
+DTSTART:20261013T233000Z
+DTEND:20261014T023000Z
+SUMMARY:Planning & Zoning Commission
+LOCATION:6101 Frisco Square Blvd.
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=planning-zoning-commissio
+ n%7C6101-frisco-square-blvd-frisco%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:spanish-conversation-circle-ages-18-|south-garland-library-garland|06-3
  0-pm-2026-10-13@letsdoitdallas.com
 DTSTAMP:20261013T233000Z
@@ -8136,6 +8389,21 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/
 END:VEVENT
 BEGIN:VEVENT
+UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
+ e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-14@letsdoitdallas
+ .com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
+ Theatre Works
+LOCATION:8004 N. Dallas Parkway · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=-goosebumps-the-musical-p
+ hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
+ way-frisco%7Csee-details
+DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:texas-nhra-fall-nationals-wednesday|texas-motorplex-ennis|3-30-am-2026-
  10-14@letsdoitdallas.com
 DTSTAMP:20261014T083000Z
@@ -8159,6 +8427,22 @@ LOCATION:1700 Veterans Memorial Pkwy · Lancaster
 URL:https://letsdoitdallas.com/?date=2026-10-14&e=school-s-out-adventure-ca
  mp%7C1700-veterans-memorial-pkwy-lancaster%7C07-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:fall-kids-camp|310-e-parkerville-road-cedar-hill|08-00-am-2026-10-14@le
+ tsdoitdallas.com
+DTSTAMP:20261014T130000Z
+DTSTART:20261014T130000Z
+DTEND:20261014T160000Z
+SUMMARY:Fall Kids Camp
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=fall-kids-camp%7C310-e-pa
+ rkerville-road-cedar-hill%7C08-00-am
+DESCRIPTION:Runs Oct 12 – Oct 16. Make Fall Break one to remember! 🍁 F
+ all Break Camp gives kids ages 5–12 a fun and welcoming place to stay ac
+ tive\, get creative\, make new friends\, and enjoy their time away from sc
+ hool. Camp activities include games\, arts and crafts\, outdoor activities
+ \, seaso — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:55-fitness-class|310-e-parkerville-road-cedar-hill|08-15-am-2026-10-14@
@@ -8789,6 +9073,21 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/
 END:VEVENT
 BEGIN:VEVENT
+UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
+ e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-15@letsdoitdallas
+ .com
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
+ Theatre Works
+LOCATION:8004 N. Dallas Parkway · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=-goosebumps-the-musical-p
+ hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
+ way-frisco%7Csee-details
+DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:rich-o-toole-at-poor-david-s|poor-david-s-pub-dallas|doors-see-listing-
  2026-10-15@letsdoitdallas.com
 DTSTAMP:20261015T000000Z
@@ -8824,6 +9123,22 @@ LOCATION:1700 Veterans Memorial Pkwy · Lancaster
 URL:https://letsdoitdallas.com/?date=2026-10-15&e=school-s-out-adventure-ca
  mp%7C1700-veterans-memorial-pkwy-lancaster%7C07-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:fall-kids-camp|310-e-parkerville-road-cedar-hill|08-00-am-2026-10-15@le
+ tsdoitdallas.com
+DTSTAMP:20261015T130000Z
+DTSTART:20261015T130000Z
+DTEND:20261015T160000Z
+SUMMARY:Fall Kids Camp
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=fall-kids-camp%7C310-e-pa
+ rkerville-road-cedar-hill%7C08-00-am
+DESCRIPTION:Runs Oct 12 – Oct 16. Make Fall Break one to remember! 🍁 F
+ all Break Camp gives kids ages 5–12 a fun and welcoming place to stay ac
+ tive\, get creative\, make new friends\, and enjoy their time away from sc
+ hool. Camp activities include games\, arts and crafts\, outdoor activities
+ \, seaso — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-10
@@ -9494,6 +9809,21 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
+ e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-16@letsdoitdallas
+ .com
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
+ Theatre Works
+LOCATION:8004 N. Dallas Parkway · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=-goosebumps-the-musical-p
+ hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
+ way-frisco%7Csee-details
+DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:daft-disko|trees-dallas|doors-see-listing-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261016T000000Z
 DTSTART;VALUE=DATE:20261016
@@ -9590,6 +9920,22 @@ LOCATION:8802 4th St · Frisco
 URL:https://letsdoitdallas.com/?date=2026-10-16&e=coffee-with-the-mayor%7C8
  802-4th-st-frisco%7C08-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:fall-kids-camp|310-e-parkerville-road-cedar-hill|08-00-am-2026-10-16@le
+ tsdoitdallas.com
+DTSTAMP:20261016T130000Z
+DTSTART:20261016T130000Z
+DTEND:20261016T160000Z
+SUMMARY:Fall Kids Camp
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=fall-kids-camp%7C310-e-pa
+ rkerville-road-cedar-hill%7C08-00-am
+DESCRIPTION:Runs Oct 12 – Oct 16. Make Fall Break one to remember! 🍁 F
+ all Break Camp gives kids ages 5–12 a fun and welcoming place to stay ac
+ tive\, get creative\, make new friends\, and enjoy their time away from sc
+ hool. Camp activities include games\, arts and crafts\, outdoor activities
+ \, seaso — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:-virtual-genealogy-research-day-adults-|6861-w-eldorado-parkway-mckinne
@@ -9716,6 +10062,22 @@ DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
  /letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:baby-bounce-read-birth-18-months-|west-garland-library-garland|10-30-am
+ -2026-10-16@letsdoitdallas.com
+DTSTAMP:20261016T153000Z
+DTSTART:20261016T153000Z
+DTEND:20261016T183000Z
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=baby-bounce-read-birth-18
+ -months-%7Cwest-garland-library-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; Babies\, birth to 18 months\, and their caregivers
+  will learn\, play\, and grow together in this lap-sit storytime that intr
+ oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
+ y literacy practices into their everyday lives. October 16\, 2026 10:30 AM
+  - 1 — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:bouncing-babies|grapevine|10-30-am-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261016T153000Z
 DTSTART:20261016T153000Z
@@ -9757,6 +10119,18 @@ LOCATION:Lancaster Veterans Memorial Library
 URL:https://letsdoitdallas.com/?date=2026-10-16&e=toddler-story-time%7Clanc
  aster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%7
  C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
+ am-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261016T153000Z
+DTSTART:20261016T153000Z
+DTEND:20261016T183000Z
+SUMMARY:Toddler Time (16 Months-3 Years)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=toddler-time-16-months-3-
+ years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
@@ -9951,19 +10325,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=tcu-horned-frogs-womens-v
  ier-arena-fort-worth%7C6-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:anjelah-johnson-reyes|punch-line-dallas-irvine-irving|7-00-pm-2026-10-1
- 6@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T030000Z
-SUMMARY:Anjelah Johnson-Reyes
-LOCATION:Punch Line Dallas - Irvine · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=anjelah-johnson-reyes%7Cp
- unch-line-dallas-irvine-irving%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /
 END:VEVENT
 BEGIN:VEVENT
 UID:basement|house-of-blues-dallas-dallas|7-00-pm-2026-10-16@letsdoitdallas
@@ -10327,6 +10688,21 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=bob-moses-club-set-ages-1
  8-%7Csilo-dallas%7C10-00-pm
 DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/
+END:VEVENT
+BEGIN:VEVENT
+UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
+ e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-17@letsdoitdallas
+ .com
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
+ Theatre Works
+LOCATION:8004 N. Dallas Parkway · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=-goosebumps-the-musical-p
+ hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
+ way-frisco%7Csee-details
+DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:kxt-91-7-presents-devon-gilfillian-time-will-tell-tour-with-special-gue
@@ -10836,6 +11212,21 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=brett-young-18-event-%7Cb
  illy-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/
+END:VEVENT
+BEGIN:VEVENT
+UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
+ e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-18@letsdoitdallas
+ .com
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
+ Theatre Works
+LOCATION:8004 N. Dallas Parkway · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=-goosebumps-the-musical-p
+ hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
+ way-frisco%7Csee-details
+DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:deer-tick-with-special-guest-presley-haile|the-kessler-theater-oak-clif

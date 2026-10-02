@@ -82,14 +82,14 @@ URL:https://letsdoitdallas.com/?date=2026-10-05&e=mckinney-urban-transit-di
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:national-night-out|mckinney|12-00-am-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261006T050000Z
-DTSTART:20261006T050000Z
-DTEND:20261006T080000Z
+UID:national-night-out|mckinney|see-details-2026-10-06@letsdoitdallas.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
 SUMMARY:National Night Out
 LOCATION:McKinney
 URL:https://letsdoitdallas.com/?date=2026-10-06&e=national-night-out%7Cmcki
- nney%7C12-00-am
+ nney%7Csee-details
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
@@ -524,6 +524,18 @@ SUMMARY:*VIRTUAL* Genealogy Research Day (Adults)
 LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-10-16&e=-virtual-genealogy-resear
  ch-day-adults-%7C6861-w-eldorado-parkway-mckinney%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
+ am-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261016T153000Z
+DTSTART:20261016T153000Z
+DTEND:20261016T183000Z
+SUMMARY:Toddler Time (16 Months-3 Years)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=toddler-time-16-months-3-
+ years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
