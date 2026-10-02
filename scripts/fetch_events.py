@@ -430,6 +430,10 @@ def fetch_ics_feeds(start, end):
         # Retry: whatsupfortworth.com answers in <1s but hard-timed-out from
         # the runner on 3 of 30 runs (Sep 2026), and it is the only feed here,
         # so one blip zeroed the source, dropped ~27 events and went red.
+        # Per-feed yield, recorded BEFORE the fetch so a feed that never
+        # answers reads 0 -- an absent key has no baseline and never alarms.
+        feed_key = f"ics_feeds ({urllib.parse.urlsplit(url).hostname})"
+        _SUB_YIELDS[feed_key] = 0
         lines = None
         for attempt in range(1, ICS_ATTEMPTS + 1):
             try:
@@ -489,6 +493,7 @@ def fetch_ics_feeds(start, end):
                 if key in ("SUMMARY", "DTSTART", "LOCATION", "DESCRIPTION",
                            "URL", "CATEGORIES"):
                     ev[key] = val.replace("\\,", ",").replace("\\;", ";")
+        _SUB_YIELDS[feed_key] = count
         print(f"ics ({url}): {count} events" + (f", {faults} UNPARSED" if faults else ""))
         report_parse_health(f"ics_feeds ({urllib.parse.urlsplit(url).hostname})",
                             total, faults, f"{faults} without DTSTART or SUMMARY",
@@ -4347,6 +4352,14 @@ SOURCE_DROP_MIN = 25
 # after the commit. Never raised, for the same reason nothing else here is.
 _SOURCE_FAULTS = []
 
+# Per-part yields of a multi-feed source, keyed "<source> (<part>)". The
+# source's own total stays its own key -- and keeps its history -- because
+# the total cannot see one part die: with two ICS feeds, UNT's ~60 events
+# kept `ics_feeds` well above zero whatever What's Up Fort Worth did. Each
+# part then gets its own baseline in check_source_health(); the total line
+# skips them so nothing is counted twice.
+_SUB_YIELDS = {}
+
 # Some pages always fail to parse -- a cancelled event, a malformed listing.
 # It is a fault when most of a run's pages do, over a sample big enough for
 # the ratio to mean anything.
@@ -4475,7 +4488,7 @@ def check_source_health(counts: dict, faults=None) -> list:
          "history": (history + [{"date": today, "counts": counts}]
                      )[-SOURCE_HISTORY_RUNS:]}, indent=1) + "\n")
 
-    total = sum(counts.values())
+    total = sum(v for k, v in counts.items() if " (" not in k)   # parts are in their source
     print("source yields: " + ", ".join(f"{k}={v}" for k, v in sorted(counts.items()))
           + f" (total {total})")
     for a in alarms:
@@ -4596,6 +4609,7 @@ def main():
     ]
     rows = [r for _name, got in sources for r in got]
     source_counts = {name: len(got) for name, got in sources}
+    source_counts.update(_SUB_YIELDS)
 
     # Every page writer, the feeds and calendar.ics parse `date` strictly; one
     # malformed row from one minor source crashed the whole build on

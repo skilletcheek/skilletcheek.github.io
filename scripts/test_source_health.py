@@ -47,6 +47,7 @@ def reset():
     if F.SOURCE_COUNTS_FILE.exists():
         F.SOURCE_COUNTS_FILE.unlink()
     F._SOURCE_FAULTS.clear()
+    F._SUB_YIELDS.clear()
 
 
 def run(**counts):
@@ -396,11 +397,48 @@ def test_ics_health():
     check("no SUMMARY faults", len(F._SOURCE_FAULTS), 1)
 
 
+def test_ics_per_feed_yield():
+    """The blind spot two feeds created: UNT kept the ics_feeds TOTAL up, so
+    What's Up Fort Worth could go dark without the total ever reaching zero."""
+    print("ics_feeds: each feed's yield has its own baseline")
+    cfg = {"ics_feeds": [{"url": "https://a.test/x.ics", "area": "Fort Worth"},
+                         {"url": "https://b.test/y.ics", "area": "Denton"}]}
+
+    def night(served):
+        F._SUB_YIELDS.clear()
+        F._SOURCE_FAULTS.clear()
+        rows = _with_feeds(cfg, served, F.fetch_ics_feeds)
+        counts = {"ics_feeds": len(rows)}
+        counts.update(F._SUB_YIELDS)            # exactly what main() does
+        return counts, F.check_source_health(counts)
+
+    reset()
+    both = {"https://a.test/x.ics": _ics(25), "https://b.test/y.ics": _ics(30)}
+    for _ in range(3):
+        counts, alarms = night(both)
+    check("healthy nights record the total and each feed",
+          counts, {"ics_feeds": 55, "ics_feeds (a.test)": 25, "ics_feeds (b.test)": 30})
+    check("and raise nothing", alarms, [])
+
+    counts, alarms = night({"https://b.test/y.ics": _ics(30)})
+    check("a feed that never answers records 0, not a missing key",
+          counts.get("ics_feeds (a.test)"), 0)
+    check("the dead feed alarms", [a.split(":")[0] for a in alarms], ["ics_feeds (a.test)"])
+    print(f"        -> {alarms[0]}")
+    check("while the total (55 -> 30) does not", any(a.startswith("ics_feeds:") for a in alarms),
+          False)
+
+    counts, alarms = night({"https://b.test/y.ics": _ics(30)})
+    check("and it stays red the next night", [a.split(":")[0] for a in alarms],
+          ["ics_feeds (a.test)"])
+
+
 def main():
     F.SOURCE_COUNTS_FILE = pathlib.Path(tempfile.mkdtemp()) / "source-counts.json"
     for t in (test_sunday_false_alarm, test_zero_rule, test_drop_rule,
               test_bookkeeping, test_parse_health, test_civicplus_health,
-              test_prekindle_health, test_singles_health, test_ics_health):
+              test_prekindle_health, test_singles_health, test_ics_health,
+              test_ics_per_feed_yield):
         t()
         print()
     if FAILURES:

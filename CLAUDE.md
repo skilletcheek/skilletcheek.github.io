@@ -323,6 +323,16 @@ rejected** so they don't get re-probed.
   which `_CP_DATE` doesn't read, so they are dropped (a handful per run, under
   the alarm ratio).
 
+  **A multi-feed source also records each feed's yield**, as
+  `ics_feeds (<host>)` beside the `ics_feeds` total (`_SUB_YIELDS`, since
+  2026-10-02), and each gets its own rolling baseline. The total alone could
+  not see one feed die: UNT's ~60 events keep it far above zero, and losing
+  What's Up Fort Worth's ~25 is not even a 50% drop. A feed records **0
+  before it is fetched**, so one that never answers still has a key — an
+  absent key has no baseline and can never alarm. The printed total skips
+  `"name (part)"` keys so nothing is counted twice. New feeds get a baseline
+  after their first run.
+
   **It writes, it does not raise.** A source going dark must never cost the
   site its nightly refresh — `/tonight/` serving yesterday is worse than a
   feed briefly short one venue class. The workflow runs
