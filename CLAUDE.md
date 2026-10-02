@@ -308,8 +308,20 @@ rejected** so they don't get re-probed.
   path as a yield collapse. **Splitting faults from filters is the whole
   point** — lumping them is the same mistake as the single "filtered" counter
   that disguised the `fetch_civicplus` city-parsing bug. `fetch_dallasites101`
-  now prints `4 events from 30 links (26 past)` and is the worked example;
-  the other link-following scrapers deserve the same treatment.
+  now prints `4 events from 30 links (26 past)` and is the worked example.
+
+  Since 2026-10-02 every template-parsing scraper reports, each in the unit
+  where a template change actually shows (`unit=` on `report_parse_health()`):
+  **CivicPlus** per city in feed items (no title/`Event date:` block, bad
+  date) plus the six feeds as a whole (fetch failures — one city is a blip);
+  **Prekindle** in venue pages (fetch, no JSON-LD, bad JSON) and in listed
+  events (no name or `startDate`); **singles** and **ICS** in events, per page
+  or feed. Ticketmaster, SeatGeek and Seated are keyed APIs, not templates,
+  and are left to the yield check. `test_source_health.py` covers each with a
+  healthy, a broken and a filters-only fixture. The CivicPlus counters
+  surfaced a real gap on day one: multi-day items use `Event dates: X - Y`,
+  which `_CP_DATE` doesn't read, so they are dropped (a handful per run, under
+  the alarm ratio).
 
   **It writes, it does not raise.** A source going dark must never cost the
   site its nightly refresh — `/tonight/` serving yesterday is worse than a

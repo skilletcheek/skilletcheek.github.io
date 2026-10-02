@@ -450,15 +450,22 @@ def fetch_ics_feeds(start, end):
         #     bare "Recital Hall at the Music Building" still resolves a city.
         match = [s.lower() for s in feed.get("location_match") or []]
         city = feed.get("city")
-        ev, count = None, 0
+        # Fault: a VEVENT with no parseable DTSTART or no SUMMARY. Out of
+        # window, canceled and location_match misses are filters.
+        ev, count, total, faults = None, 0, 0, 0
         for line in lines:
             if line.startswith("BEGIN:VEVENT"):
                 ev = {}
             elif line.startswith("END:VEVENT") and ev is not None:
+                total += 1
                 date, start_time = parse_ics_datetime(ev.get("DTSTART", ""))
                 title = ev.get("SUMMARY") or ""
                 loc = ev.get("LOCATION") or ""
-                keep = (date and lo <= date <= hi and title
+                if not (date and title):
+                    faults += 1
+                    ev = None
+                    continue
+                keep = (lo <= date <= hi
                         and not re.match(r"(cancell?ed|postponed)\b", title, re.I)
                         and (not match or any(s in loc.lower() for s in match)))
                 if keep:
@@ -482,7 +489,10 @@ def fetch_ics_feeds(start, end):
                 if key in ("SUMMARY", "DTSTART", "LOCATION", "DESCRIPTION",
                            "URL", "CATEGORIES"):
                     ev[key] = val.replace("\\,", ",").replace("\\;", ";")
-        print(f"ics ({url}): {count} events")
+        print(f"ics ({url}): {count} events" + (f", {faults} UNPARSED" if faults else ""))
+        report_parse_health(f"ics_feeds ({urllib.parse.urlsplit(url).hostname})",
+                            total, faults, f"{faults} without DTSTART or SUMMARY",
+                            unit="events")
     return out
 
 
@@ -656,7 +666,7 @@ def fetch_civicplus(start, end):
     hints = {k.lower(): v for k, v in (cfg.get("civicplus_categories") or {}).items()}
     lo, hi = start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
 
-    out = []
+    out, fetch_failed, tried = [], 0, 0
     for site in sites:
         base = (site.get("site") or "").rstrip("/")
         url = site.get("url") or (base + CIVICPLUS_PATH if base else None)
@@ -671,17 +681,25 @@ def fetch_civicplus(start, end):
         org = ({"name": site.get("organizer") or f"City of {site['city']}",
                 "url": f"{base}/"}
                if site.get("city") and base else None)
+        tried += 1
         try:
             xml = http_text(url)
         except Exception as e:  # noqa: BLE001
             print(f"civicplus failed ({url}): {e}", file=sys.stderr)
+            fetch_failed += 1
             continue
 
+        # Faults (the shared template moved: an item no longer carries the
+        # title or the "Event date:" block, or the date stopped parsing) are
+        # counted apart from the filters below them -- see report_parse_health.
         kept = muted = offarea = 0
-        for raw in _CP_ITEM.findall(xml):
+        faults = {"no_title_or_date": 0, "bad_date": 0}
+        items = _CP_ITEM.findall(xml)
+        for raw in items:
             item = _html.unescape(raw)
             tm, dm = _CP_TITLE.search(item), _CP_DATE.search(item)
             if not (tm and dm):
+                faults["no_title_or_date"] += 1
                 continue
             title = _cp_text(tm.group(1))
             # Municipal business is not an outing. The list is data in
@@ -692,6 +710,7 @@ def fetch_civicplus(start, end):
             try:
                 date = datetime.strptime(dm.group(1), "%B %d, %Y").strftime("%Y-%m-%d")
             except ValueError:
+                faults["bad_date"] += 1
                 continue
             if not lo <= date <= hi:
                 continue
@@ -731,9 +750,19 @@ def fetch_civicplus(start, end):
             kept += 1
         # Reported separately on purpose. One combined "filtered" count is
         # what disguised a city-parsing bug as a working noise filter.
-        print(f"civicplus ({site.get('city') or url}): {kept} events"
+        label = site.get("city") or url
+        bad = sum(faults.values())
+        detail = ", ".join(f"{v} {k}" for k, v in faults.items() if v)
+        print(f"civicplus ({label}): {kept} events"
               + (f", {muted} municipal" if muted else "")
-              + (f", {offarea} off-area" if offarea else ""))
+              + (f", {offarea} off-area" if offarea else "")
+              + (f", {bad} UNPARSED ({detail})" if bad else ""))
+        report_parse_health(f"civicplus ({label})", len(items), bad, detail,
+                            unit="feed items")
+    # One city's feed failing is a blip (McKinney 403'd once, 2026-09-20);
+    # most of them failing at once is the platform moving the path.
+    report_parse_health("civicplus", tried, fetch_failed, f"{fetch_failed} fetch",
+                        unit="city feeds")
     return out
 
 
@@ -769,29 +798,42 @@ def fetch_prekindle(start, end):
         return []
     lo, hi = start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
     out = []
+    # Two units: a venue PAGE that stopped carrying parseable JSON-LD, and a
+    # listed EVENT inside one that lost its name or startDate. `past` is a
+    # filter, not a fault.
+    page_faults = dict.fromkeys(("fetch", "no_jsonld", "bad_json"), 0)
+    listed = ev_faults = tried = 0
     for p in pages:
         venue, area = p.get("venue", "Venue"), p.get("area", "Dallas")
         url = p.get("url") or (p.get("slug") and f"https://www.prekindle.com/events/{p['slug']}")
         if not url:
             continue
+        tried += 1
         try:
             html = http_text(url)
         except Exception as e:  # noqa: BLE001
             print(f"prekindle failed ({venue}): {e}", file=sys.stderr)
+            page_faults["fetch"] += 1
             continue
         m = re.search(r'application/ld\+json[^>]*>(.*?)</script>', html, re.S)
         if not m:
             print(f"prekindle ({venue}): no JSON-LD block")
+            page_faults["no_jsonld"] += 1
             continue
         try:
             events = json.loads(m.group(1))
         except Exception as e:  # noqa: BLE001
             print(f"prekindle ({venue}): bad JSON-LD: {e}", file=sys.stderr)
+            page_faults["bad_json"] += 1
             continue
         count = 0
         for ev in events if isinstance(events, list) else [events]:
-            date, _ = _jsonld_start(ev.get("startDate"))
-            if not (ev.get("name") and lo <= date <= hi):
+            listed += 1
+            date, _ = _jsonld_start(ev.get("startDate") if isinstance(ev, dict) else None)
+            if not (isinstance(ev, dict) and ev.get("name") and date):
+                ev_faults += 1
+                continue
+            if not lo <= date <= hi:
                 continue
             price = (ev.get("offers") or {}).get("price")
             try:
@@ -806,6 +848,11 @@ def fetch_prekindle(start, end):
                            ev.get("image")))
             count += 1
         print(f"prekindle ({venue}): {count} events")
+    report_parse_health("prekindle", tried, sum(page_faults.values()),
+                        ", ".join(f"{v} {k}" for k, v in page_faults.items() if v),
+                        unit="venue pages")
+    report_parse_health("prekindle", listed, ev_faults,
+                        f"{ev_faults} missing name or startDate", unit="listed events")
     return out
 
 
@@ -838,7 +885,11 @@ def fetch_singles_pages(start, end):
         except Exception as e:  # noqa: BLE001
             print(f"singles page failed ({source}): {e}", file=sys.stderr)
             continue
-        count = 0
+        # One page carries every event, so the unit is the Event object: one
+        # that lost its name or a parseable startDate is a fault (the
+        # 2026-10-02 crash was one of these); past and off-area are filters.
+        # Non-Event JSON-LD blocks (Organization, WebSite) are not counted.
+        count = listed = faults = 0
         for m in re.finditer(r'<script type="application/ld\+json">(.*?)</script>', html, re.S):
             try:
                 ev = json.loads(m.group(1))
@@ -846,8 +897,12 @@ def fetch_singles_pages(start, end):
                 continue
             if not isinstance(ev, dict) or ev.get("@type") != "Event":
                 continue
+            listed += 1
             date, t = _jsonld_start(ev.get("startDate"))
-            if not (ev.get("name") and date and lo <= date <= hi):
+            if not (ev.get("name") and date):
+                faults += 1
+                continue
+            if not lo <= date <= hi:
                 continue
             loc = ev.get("location") or {}
             addr = loc.get("address") or {}
@@ -865,7 +920,10 @@ def fetch_singles_pages(start, end):
                            ev.get("description"),
                            (ev.get("offers") or {}).get("url") or url, ev.get("image")))
             count += 1
-        print(f"singles ({source}): {count} events")
+        print(f"singles ({source}): {count} events"
+              + (f", {faults} UNPARSED" if faults else ""))
+        report_parse_health(f"singles ({source})", listed, faults,
+                            f"{faults} missing name or startDate", unit="listed events")
     return out
 
 
@@ -4296,7 +4354,7 @@ SOURCE_UNPARSED_RATIO = 0.5
 SOURCE_UNPARSED_MIN = 5
 
 
-def report_parse_health(name, pages, unparsed, detail=""):
+def report_parse_health(name, pages, unparsed, detail="", unit="fetched pages"):
     """Record a fetcher's parse-failure RATE as a health fault.
 
     Deliberately independent of yield: a source can return a normal-looking
@@ -4306,13 +4364,18 @@ def report_parse_health(name, pages, unparsed, detail=""):
     a reason that is a fault rather than a filter. An event legitimately
     outside the date window or outside DFW is NOT unparsed; callers must
     count those separately, which is the whole point.
+
+    `unit` names what was counted. Link-following scrapers count pages; a
+    feed (CivicPlus, ICS) or a page carrying many events (Prekindle, singles)
+    counts its items, because one fetched page there is all-or-nothing and a
+    template change shows up as items that stopped parsing.
     """
     if pages < SOURCE_UNPARSED_MIN:
         return                            # too small a sample to mean anything
     if unparsed < pages * SOURCE_UNPARSED_RATIO:
         return
     _SOURCE_FAULTS.append(
-        f"{name}: {unparsed} of {pages} fetched pages did not parse"
+        f"{name}: {unparsed} of {pages} {unit} did not parse"
         + (f" ({detail})" if detail else "")
         + " — the page template probably changed")
 

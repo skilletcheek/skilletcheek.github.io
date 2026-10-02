@@ -237,10 +237,170 @@ def test_parse_health():
           F._SOURCE_FAULTS, [])
 
 
+# ------------------------------------------- the other scrapers (2026-10-02)
+WINDOW = (datetime(2026, 10, 1), datetime(2026, 10, 31))
+
+
+def _with_feeds(cfg, served, fn):
+    """Run fetcher `fn` against a temp feeds.json and canned HTTP responses.
+    A URL missing from `served` raises, which is what a failed fetch is."""
+    real_feeds, real_sleep = F.FEEDS_FILE, F.time.sleep
+    path = pathlib.Path(tempfile.mkdtemp()) / "feeds.json"
+    path.write_text(json.dumps(cfg))
+
+    def fake(url, *a, **k):
+        if url not in served:
+            raise OSError("HTTP Error 404: Not Found")
+        return served[url]
+
+    F.FEEDS_FILE, F.http_text, F.time.sleep = path, fake, lambda *_: None
+    try:
+        return fn(*WINDOW)
+    finally:
+        F.FEEDS_FILE, F.http_text, F.time.sleep = real_feeds, _real_http_text, real_sleep
+
+
+CP_CITIES = ["Garland", "Cedar Hill", "Grapevine", "McKinney", "Frisco", "Lancaster"]
+
+
+def _cp_feed(n, date="October 12, 2026", title="Story Time", moved=False):
+    label = "When:" if moved else "Event date:"       # what a template change looks like
+    item = ("<item><title>{t} {i}</title><link>https://x.test/{i}</link><description>"
+            "<strong>{label}</strong> {d}<br><strong>Event Time:</strong> 10:00 AM"
+            "<br><strong>Location:</strong> 100 Main St<br>Garland, TX 75040"
+            "<strong>Description:</strong> fun</description></item>")
+    return "<rss>" + "".join(item.format(t=title, i=i, label=label, d=date)
+                             for i in range(n)) + "</rss>"
+
+
+def _cp(feeds):
+    cfg = {"civicplus_sites": [{"site": f"https://{c.replace(' ', '')}.test", "city": c}
+                               for c in CP_CITIES],
+           "civicplus_skip": ["council"]}
+    served = {f"https://{c.replace(' ', '')}.test{F.CIVICPLUS_PATH}": body
+              for c, body in zip(CP_CITIES, feeds) if body is not None}
+    return _with_feeds(cfg, served, F.fetch_civicplus)
+
+
+def test_civicplus_health():
+    print("civicplus: per-city template faults, and the feeds as a whole")
+    reset()
+    rows = _cp([_cp_feed(8)] * 6)
+    check("six healthy feeds -> rows, no fault", (len(rows), F._SOURCE_FAULTS), (48, []))
+    reset()
+    _cp([_cp_feed(8, date="September 1, 2026")] * 3 + [_cp_feed(8, title="City Council")] * 3)
+    check("past and municipal items are filters", F._SOURCE_FAULTS, [])
+    reset()
+    rows = _cp([_cp_feed(8, moved=True)] + [_cp_feed(8)] * 5)
+    check("one city's template moved -> 40 rows still look fine", len(rows), 40)
+    check("but that city faults", [f.split(":")[0] for f in F._SOURCE_FAULTS],
+          ["civicplus (Garland)"])
+    print(f"        -> {F._SOURCE_FAULTS[0]}")
+    reset()
+    _cp([None] + [_cp_feed(8)] * 5)
+    check("one city feed failing to fetch is a blip", F._SOURCE_FAULTS, [])
+    reset()
+    _cp([None] * 4 + [_cp_feed(8)] * 2)
+    check("four of six failing faults", [f.split(":")[0] for f in F._SOURCE_FAULTS],
+          ["civicplus"])
+
+
+def _pk_page(n, date="2026-10-12T20:00:00", jsonld=True):
+    if not jsonld:
+        return "<html>redesigned</html>"
+    evs = [{"name": f"Band {i}", "url": "https://p.test/e", **({"startDate": date} if date else {})}
+           for i in range(n)]
+    return '<script type="application/ld+json">' + json.dumps(evs) + "</script>"
+
+
+def _pk(pages):
+    cfg = {"prekindle_pages": [{"slug": f"v{i}", "venue": f"Venue {i}", "area": f"Venue {i}, Dallas"}
+                               for i in range(len(pages))]}
+    served = {f"https://www.prekindle.com/events/v{i}": p for i, p in enumerate(pages)
+              if p is not None}
+    return _with_feeds(cfg, served, F.fetch_prekindle)
+
+
+def test_prekindle_health():
+    print("prekindle: venue pages and the events listed on them")
+    reset()
+    rows = _pk([_pk_page(5)] * 6)
+    check("healthy -> 30 rows, no fault", (len(rows), F._SOURCE_FAULTS), (30, []))
+    reset()
+    _pk([_pk_page(5, date="2026-09-01T20:00:00")] * 6)
+    check("past events are a filter", F._SOURCE_FAULTS, [])
+    reset()
+    _pk([_pk_page(5, jsonld=False)] * 4 + [_pk_page(5)] * 2)
+    check("pages without JSON-LD fault", F._SOURCE_FAULTS[0].startswith(
+        "prekindle: 4 of 6 venue pages"), True)
+    reset()
+    rows = _pk([_pk_page(5, date=None)] * 6)
+    check("events that lost startDate fault", (len(rows), len(F._SOURCE_FAULTS)), (0, 1))
+    print(f"        -> {F._SOURCE_FAULTS[0]}")
+
+
+def _singles_page(n, date="2026-10-04T16:00:00-06:00", city="Dallas"):
+    org = '<script type="application/ld+json">{"@type": "Organization", "name": "x"}</script>'
+    ev = lambda i: json.dumps({
+        "@type": "Event", "name": f"Speed Dating {i}",
+        **({"startDate": date} if date else {}),
+        "location": {"name": "Bar", "address": {"addressLocality": city, "addressRegion": "TX"}}})
+    return org + "".join(f'<script type="application/ld+json">{ev(i)}</script>' for i in range(n))
+
+
+def _singles(page):
+    return _with_feeds({"singles_pages": [{"url": "https://s.test/", "source": "S"}]},
+                       {"https://s.test/": page}, F.fetch_singles_pages)
+
+
+def test_singles_health():
+    print("singles: the Event objects on one page")
+    reset()
+    rows = _singles(_singles_page(6))
+    check("healthy, and the Organization block is not counted",
+          (len(rows), F._SOURCE_FAULTS), (6, []))
+    reset()
+    rows = _singles(_singles_page(6, date="2026-10-4T16:00:00-06:00"))
+    check("the 2026-10-02 unpadded date parses", [r["date"] for r in rows][:1], ["2026-10-04"])
+    reset()
+    _singles(_singles_page(6, city="Austin"))
+    check("off-area is a filter", F._SOURCE_FAULTS, [])
+    reset()
+    _singles(_singles_page(6, date="soon"))
+    check("unparseable startDate faults", len(F._SOURCE_FAULTS), 1)
+
+
+def _ics(n, dtstart="DTSTART:20261012T190000", summary=True):
+    ev = ("BEGIN:VEVENT\r\n" + (dtstart + "\r\n" if dtstart else "")
+          + ("SUMMARY:Show\r\n" if summary else "") + "END:VEVENT\r\n")
+    return "BEGIN:VCALENDAR\r\n" + ev * n + "END:VCALENDAR\r\n"
+
+
+def _ics_run(body):
+    return _with_feeds({"ics_feeds": [{"url": "https://c.test/x.ics", "area": "Dallas"}]},
+                       {"https://c.test/x.ics": body}, F.fetch_ics_feeds)
+
+
+def test_ics_health():
+    print("ics_feeds: VEVENTs per feed")
+    reset()
+    check("healthy -> rows, no fault", (len(_ics_run(_ics(6))), F._SOURCE_FAULTS), (6, []))
+    reset()
+    _ics_run(_ics(6, dtstart="DTSTART:20250101T190000"))
+    check("out of window is a filter", F._SOURCE_FAULTS, [])
+    reset()
+    _ics_run(_ics(6, dtstart=None))
+    check("no DTSTART faults", [f.split(":")[0] for f in F._SOURCE_FAULTS], ["ics_feeds (c.test)"])
+    reset()
+    _ics_run(_ics(6, summary=False))
+    check("no SUMMARY faults", len(F._SOURCE_FAULTS), 1)
+
+
 def main():
     F.SOURCE_COUNTS_FILE = pathlib.Path(tempfile.mkdtemp()) / "source-counts.json"
     for t in (test_sunday_false_alarm, test_zero_rule, test_drop_rule,
-              test_bookkeeping, test_parse_health):
+              test_bookkeeping, test_parse_health, test_civicplus_health,
+              test_prekindle_health, test_singles_health, test_ics_health):
         t()
         print()
     if FAILURES:
