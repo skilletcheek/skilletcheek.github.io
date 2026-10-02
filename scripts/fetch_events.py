@@ -737,6 +737,25 @@ def fetch_civicplus(start, end):
     return out
 
 
+def _jsonld_start(val) -> tuple:
+    """("YYYY-MM-DD", "HH:MM" or "") from a schema.org startDate, or ("", "").
+
+    Parsed, not sliced. speeddatingdallas.com wrote "2026-10-4T16:00:00"
+    (unpadded day); [:10] made that "2026-10-4T", which crashed the site-wide
+    calendar.ics and with it the whole nightly build (2026-10-02), and [11:16]
+    read its time as "6:00:" -- a 4 PM event listed at 6 AM."""
+    m = re.match(r"\s*(\d{4})-(\d{1,2})-(\d{1,2})(?:[T ](\d{1,2}):(\d{2}))?",
+                 str(val or ""))
+    if not m:
+        return "", ""
+    y, mo, d, hh, mm = m.groups()
+    try:
+        date = datetime(int(y), int(mo), int(d)).strftime("%Y-%m-%d")
+    except ValueError:
+        return "", ""
+    return date, (f"{int(hh):02d}:{mm}" if hh else "")
+
+
 # -------------------------------------------------------------------- Prekindle
 def fetch_prekindle(start, end):
     """Local venues that sell through Prekindle. Their public listing page
@@ -771,7 +790,7 @@ def fetch_prekindle(start, end):
             continue
         count = 0
         for ev in events if isinstance(events, list) else [events]:
-            date = str(ev.get("startDate") or "")[:10]
+            date, _ = _jsonld_start(ev.get("startDate"))
             if not (ev.get("name") and lo <= date <= hi):
                 continue
             price = (ev.get("offers") or {}).get("price")
@@ -827,8 +846,8 @@ def fetch_singles_pages(start, end):
                 continue
             if not isinstance(ev, dict) or ev.get("@type") != "Event":
                 continue
-            date = str(ev.get("startDate") or "")[:10]
-            if not (ev.get("name") and lo <= date <= hi):
+            date, t = _jsonld_start(ev.get("startDate"))
+            if not (ev.get("name") and date and lo <= date <= hi):
                 continue
             loc = ev.get("location") or {}
             addr = loc.get("address") or {}
@@ -841,7 +860,6 @@ def fetch_singles_pages(start, end):
                 cost = float(price) if price is not None else None
             except (TypeError, ValueError):
                 cost = None
-            t = str(ev.get("startDate") or "")[11:16]
             time_str = pretty_time(t) if t else "See details"
             out.append(row(ev["name"], "nightlife", area, date, time_str, cost,
                            ev.get("description"),
@@ -1389,8 +1407,8 @@ def fetch_dallasites101(start, end):
             skipped["not_event"] += 1
             continue
 
-        date = str(ev.get("startDate") or "")[:10]
-        if not (lo <= date <= hi):
+        date, _ = _jsonld_start(ev.get("startDate"))
+        if not (date and lo <= date <= hi):
             skipped["past"] += 1
             continue
 
@@ -4515,6 +4533,15 @@ def main():
     ]
     rows = [r for _name, got in sources for r in got]
     source_counts = {name: len(got) for name, got in sources}
+
+    # Every page writer, the feeds and calendar.ics parse `date` strictly; one
+    # malformed row from one minor source crashed the whole build on
+    # 2026-10-02 and left the site stale. Drop it loudly instead.
+    bad = [r for r in rows if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(r.get("date")))]
+    if bad:
+        for r in bad:
+            print(f"DROPPED malformed date {r.get('date')!r}: {r.get('name')}", file=sys.stderr)
+        rows = [r for r in rows if r not in bad]
 
     unique = dedupe(rows)
     print(f"home teams: tagged {tag_home_teams(unique)} games")
