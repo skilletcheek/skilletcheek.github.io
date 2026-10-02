@@ -534,11 +534,10 @@ _CP_DATE = re.compile(r"Event date:\s*</strong>\s*([A-Za-z]+ \d{1,2}, \d{4})", r
 _CP_DATES = re.compile(r"Event dates:\s*</strong>\s*([A-Za-z]+ \d{1,2}, \d{4})"
                        r"\s*-\s*([A-Za-z]+ \d{1,2}, \d{4})", re.I)
 # "12:00 AM - 11:59 PM" is CivicPlus for "no time given", not a midnight start.
-# Applied to multi-day runs ONLY. On a single-day item, blanking it lets
-# dedupe()'s identical-title pass (which compares no venue, and treats a
-# missing time as compatible with any) merge McKinney's "National Night Out"
-# into Cedar Hill's 6 PM one -- two cities, one listing. The midnight is
-# wrong, but it is the lesser harm until that pass checks venues.
+# Briefly applied to multi-day runs only: blanked on a single day, it let
+# dedupe()'s identical-title pass -- which then compared no venue -- merge
+# McKinney's "National Night Out" into Cedar Hill's. That pass checks venues
+# since 2026-10-02, so the rule applies to every item.
 _CP_ALLDAY = re.compile(r"Event Time:\s*</strong>\s*12:00\s*AM\s*-\s*11:59\s*PM", re.I)
 # A run longer than this would put the same row on every day of the month.
 # What reaches it in practice is a months-long training course, not an outing.
@@ -764,7 +763,7 @@ def fetch_civicplus(start, end):
                 offarea += 1
                 continue
 
-            tmm = None if rm and _CP_ALLDAY.search(item) else _CP_TIME.search(item)
+            tmm = None if _CP_ALLDAY.search(item) else _CP_TIME.search(item)
             body = _CP_BODY.search(item)
             desc = _cp_text(body.group(1)) if body else ""
             if rm:
@@ -4288,6 +4287,14 @@ def _time_minutes(t: str):
     return h * 60 + int(m.group(2))
 
 
+def _venues_compatible(venue, p_venue) -> bool:
+    """Both venues known, and one a subset of (or equal to) the other --
+    one string may be a fuller form of the other ("Roanoke Live" vs "Roanoke
+    ChopShop Live"). An unknown venue never matches: don't guess. Mirrors
+    _subsetOrEqual() + the empty check in js/sources.js _sameEvent()."""
+    return bool(venue and p_venue) and (venue <= p_venue or p_venue <= venue)
+
+
 def _same_event(tokens, venue, mins, p_tokens, p_venue, p_mins) -> bool:
     """Two rows on the same date describe one event when the titles share a
     meaningful word, the venues agree, and the times are close.
@@ -4298,13 +4305,15 @@ def _same_event(tokens, venue, mins, p_tokens, p_venue, p_mins) -> bool:
     into the Stockyards Championship Rodeo."""
     if not (tokens & p_tokens):            # unrelated titles => different events
         return False
-    if not venue or not p_venue:           # unknown venue => don't guess
-        return False
-    # one venue string may be a fuller form of the other ("Roanoke Live" vs
-    # "Roanoke ChopShop Live"), so accept either being a subset
-    if not (venue <= p_venue or p_venue <= venue):
+    if not _venues_compatible(venue, p_venue):
         return False
     return _times_compatible(mins, p_mins)
+
+
+# (kept row, row that pass 1 merged into it before 2026-10-02 and no longer
+# does because the venues differ). Printed by main() so a true duplicate --
+# one venue under two spellings -- shows up in the log as an alias to add.
+_DEDUPE_VENUE_SPLITS = []
 
 
 def dedupe(rows):
@@ -4312,10 +4321,21 @@ def dedupe(rows):
     occurrence, so callers should order rows richest-source-first.
 
     Two passes, because sources disagree about titles:
-      1. exact normalized title + date — cheap, catches most matches
+      1. exact normalized title + date + compatible venue and time — cheap,
+         catches most matches
       2. fuzzy same-date comparison via _same_event() — catches the same show
          listed under different titles, venue spellings, or start times.
-    See _same_event() for why each of its clauses is required."""
+    See _same_event() for why each of its clauses is required.
+
+    Pass 1 compared NO venue until 2026-10-02, so any two same-titled rows on
+    one date merged: McKinney's "National Night Out" into Cedar Hill's, one
+    library's "Story Time" into another branch's. js/sources.js never had
+    that pass -- every browser merge goes through _sameEvent(), which checks
+    venues -- so the two layers also disagreed. A true duplicate that only
+    pass 1 was catching has two spellings of one venue; the fix for that is
+    venue-aliases.json, the same as for pass 2. Pairs it now keeps apart are
+    recorded in _DEDUPE_VENUE_SPLITS for the nightly log."""
+    _DEDUPE_VENUE_SPLITS.clear()
     by_date, unique = {}, []
     for r in rows:
         if not r.get("date") or not r.get("name"):
@@ -4324,20 +4344,25 @@ def dedupe(rows):
         tokens = {t for t in norm.split() if t not in _STOP and len(t) > 1}
         venue = _venue_tokens(r.get("area"))
         mins = _time_minutes(r.get("time"))
-        dup = False
-        for p_norm, p_tokens, p_venue, p_mins in by_date.get(r["date"], []):
-            # identical title on the same day — a duplicate unless the times are
-            # far enough apart to be genuinely separate performances (a 2:00 PM
-            # matinee and an 8:00 PM show are two different tickets)
+        dup, split_from = False, None
+        for p_norm, p_tokens, p_venue, p_mins, p_row in by_date.get(r["date"], []):
+            # identical title on the same day at a compatible venue — a
+            # duplicate unless the times are far enough apart to be genuinely
+            # separate performances (a 2:00 PM matinee and an 8:00 PM show are
+            # two different tickets)
             if norm == p_norm and _times_compatible(mins, p_mins):
-                dup = True
-                break
+                if _venues_compatible(venue, p_venue):
+                    dup = True
+                    break
+                split_from = split_from or p_row
             if _same_event(tokens, venue, mins, p_tokens, p_venue, p_mins):
                 dup = True
                 break
         if dup:
             continue
-        by_date.setdefault(r["date"], []).append((norm, tokens, venue, mins))
+        if split_from is not None:
+            _DEDUPE_VENUE_SPLITS.append((split_from, r))
+        by_date.setdefault(r["date"], []).append((norm, tokens, venue, mins, r))
         unique.append(r)
     unique.sort(key=lambda r: (r["date"], r["name"]))
     return unique
@@ -4657,6 +4682,11 @@ def main():
         rows = [r for r in rows if r not in bad]
 
     unique = dedupe(rows)
+    if _DEDUPE_VENUE_SPLITS:
+        print(f"dedupe: {len(_DEDUPE_VENUE_SPLITS)} same-title pair(s) kept apart by venue "
+              "(a true duplicate here means a venue alias is missing):")
+        for a, b in _DEDUPE_VENUE_SPLITS:
+            print(f"  {a['date']} {a['name'][:50]!r}: {a.get('area')!r} | {b.get('area')!r}")
     print(f"home teams: tagged {tag_home_teams(unique)} games")
 
     previous_count = None

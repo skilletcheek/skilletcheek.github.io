@@ -343,8 +343,7 @@ def test_civicplus_multiday():
     check("a run's 12:00 AM - 11:59 PM placeholder becomes no time",
           {r["time"] for r in rows}, {"See details"})
     rows = one_city(_cp_item("Night Out", "October 6, 2026", time="12:00 AM - 11:59 PM"))
-    check("a single day keeps it (blanking it let dedupe merge two cities)",
-          [r["time"] for r in rows], ["12:00 AM"])
+    check("so does a single day's", [r["time"] for r in rows], ["See details"])
 
     rows = one_city(*[_cp_item(f"Backwards {i}", "October 16, 2026 - October 12, 2026")
                       for i in range(6)])

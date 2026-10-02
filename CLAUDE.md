@@ -32,6 +32,7 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
     scripts/fetch_events.py the nightly aggregator (also generates pages)
     scripts/feeds.json      DATA: which feeds/venues/artists to pull
     scripts/test_source_health.py  hand-run: `python3` it, no deps, no network
+    scripts/test_dedupe.py         hand-run: same, for dedupe()
     scripts/notify_submitter.py  hand-run: "your event is live" mail
     scripts/venue_outreach.py    hand-run: "we built you a page" mail
     scripts/pinterest_post.py    weekly Pinterest board (own workflow)
@@ -205,6 +206,20 @@ venue-token equality-or-subset AND start times within 90 minutes.
   rename to `venue-aliases.json` as **data** rather than loosening
   `_same_event()`. Never alias two rooms in one building (House of Blues vs
   its Cambridge Room) — they run different shows the same night.
+- **The identical-title pass checks venues too, since 2026-10-02.**
+  `dedupe()`'s cheap first pass (same normalized title + date + compatible
+  time) compared no venue, so same-titled events in different places merged:
+  McKinney's National Night Out into Cedar Hill's, Garland library branches'
+  storytimes into each other, UNT's two simultaneous chamber concerts. It now
+  uses `_venues_compatible()`, the same rule as `_same_event()`.
+  `js/sources.js` never had that pass, so until then the two layers
+  disagreed; over 1,582 rows (live feed + every keyless source) they now
+  keep the same 1,101, date for date. A true duplicate that only the old
+  pass caught is one venue under two spellings — fix it with an alias
+  (Tannahill's and Punch Line Irving were added that day). Every pair the
+  venue check splits is printed in the nightly log under `dedupe: N
+  same-title pair(s) kept apart by venue`; read it after changing anything
+  here. `scripts/test_dedupe.py` pins the cases.
 
 **Audit after any dedupe or alias change** (must be 0 orphans):
 
@@ -409,11 +424,11 @@ rejected** so they don't get re-probed.
   Each row's description opens "Runs Oct 8 – Oct 18." because the feed gives
   a range, not which days actually have a show. Runs over `CP_MAX_RUN_DAYS`
   (31) are skipped as a filter; in practice those are months-long police
-  courses, now also caught by `closed enrollment` in `civicplus_skip`. A
-  run's `12:00 AM - 11:59 PM` placeholder becomes no time, but a **single
-  day's is deliberately kept**: blanked, `dedupe()`'s identical-title pass —
-  which compares no venue and treats a missing time as matching any —
-  merged McKinney's "National Night Out" into Cedar Hill's.
+  courses, now also caught by `closed enrollment` in `civicplus_skip`. The
+  `12:00 AM - 11:59 PM` placeholder becomes no time. For a few hours it was
+  blanked on runs only, because blanking it on a single day let the
+  identical-title pass (which then compared no venue) merge McKinney's
+  "National Night Out" into Cedar Hill's — fixed at the root, see "Dedupe".
 
   Its window is a rolling **~14 days**, not `DAYS_AHEAD`, so it thins toward
   the end of the month where Ticketmaster does not. `civicplus_skip` drops
