@@ -320,8 +320,8 @@ rejected** so they don't get re-probed.
   and are left to the yield check. `test_source_health.py` covers each with a
   healthy, a broken and a filters-only fixture. The CivicPlus counters
   surfaced a real gap on day one: multi-day items use `Event dates: X - Y`,
-  which `_CP_DATE` doesn't read, so they are dropped (a handful per run, under
-  the alarm ratio).
+  which `_CP_DATE` didn't read, so every run was silently dropped — fixed the
+  same day, see the CivicPlus bullet below.
 
   **A multi-feed source also records each feed's yield**, as
   `ics_feeds (<host>)` beside the `ics_feeds` total (`_SUB_YIELDS`, since
@@ -402,6 +402,18 @@ rejected** so they don't get re-probed.
   branches are real distinct venues. Five new venue pages come with it
   (the three Garland branches, Central Library, Dogwood Canyon) — that is the
   intended trade, not drift.
+
+  **Multi-day items** (`Event dates: X - Y`, `_CP_DATES`) become **one row
+  per day** inside the window — the site is "pick a day", so day 3 of a camp
+  belongs on day 3's list, the same way Tea Around Town is 30 dated rows.
+  Each row's description opens "Runs Oct 8 – Oct 18." because the feed gives
+  a range, not which days actually have a show. Runs over `CP_MAX_RUN_DAYS`
+  (31) are skipped as a filter; in practice those are months-long police
+  courses, now also caught by `closed enrollment` in `civicplus_skip`. A
+  run's `12:00 AM - 11:59 PM` placeholder becomes no time, but a **single
+  day's is deliberately kept**: blanked, `dedupe()`'s identical-title pass —
+  which compares no venue and treats a missing time as matching any —
+  merged McKinney's "National Night Out" into Cedar Hill's.
 
   Its window is a rolling **~14 days**, not `DAYS_AHEAD`, so it thins toward
   the end of the month where Ticketmaster does not. `civicplus_skip` drops

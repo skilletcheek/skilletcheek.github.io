@@ -527,6 +527,22 @@ _CP_ITEM = re.compile(r"<item>(.*?)</item>", re.S | re.I)
 _CP_TAG = lambda t: re.compile(rf"<{t}>(.*?)</{t}>", re.S | re.I)
 _CP_TITLE, _CP_LINK, _CP_DESC = _CP_TAG("title"), _CP_TAG("link"), _CP_TAG("description")
 _CP_DATE = re.compile(r"Event date:\s*</strong>\s*([A-Za-z]+ \d{1,2}, \d{4})", re.I)
+# Multi-day items say "Event dates:" (plural) and give a range. Until
+# 2026-10-02 only the singular form was read, so every run -- a week-long
+# kids' camp, an 11-day musical -- was silently dropped; the parse-health
+# counters surfaced it the day they were added.
+_CP_DATES = re.compile(r"Event dates:\s*</strong>\s*([A-Za-z]+ \d{1,2}, \d{4})"
+                       r"\s*-\s*([A-Za-z]+ \d{1,2}, \d{4})", re.I)
+# "12:00 AM - 11:59 PM" is CivicPlus for "no time given", not a midnight start.
+# Applied to multi-day runs ONLY. On a single-day item, blanking it lets
+# dedupe()'s identical-title pass (which compares no venue, and treats a
+# missing time as compatible with any) merge McKinney's "National Night Out"
+# into Cedar Hill's 6 PM one -- two cities, one listing. The midnight is
+# wrong, but it is the lesser harm until that pass checks venues.
+_CP_ALLDAY = re.compile(r"Event Time:\s*</strong>\s*12:00\s*AM\s*-\s*11:59\s*PM", re.I)
+# A run longer than this would put the same row on every day of the month.
+# What reaches it in practice is a months-long training course, not an outing.
+CP_MAX_RUN_DAYS = 31
 _CP_TIME = re.compile(r"Event Time:\s*</strong>\s*(\d{1,2}:\d{2}\s*[AP]\.?M\.?)", re.I)
 _CP_LOC = re.compile(r"Location:\s*</strong>(.*?)(?:<strong>|\Z)", re.I | re.S)
 _CP_BODY = re.compile(r"Description:\s*</strong>(.*)\Z", re.I | re.S)
@@ -697,13 +713,14 @@ def fetch_civicplus(start, end):
         # Faults (the shared template moved: an item no longer carries the
         # title or the "Event date:" block, or the date stopped parsing) are
         # counted apart from the filters below them -- see report_parse_health.
-        kept = muted = offarea = 0
+        kept = muted = offarea = long_run = 0
         faults = {"no_title_or_date": 0, "bad_date": 0}
         items = _CP_ITEM.findall(xml)
         for raw in items:
             item = _html.unescape(raw)
             tm, dm = _CP_TITLE.search(item), _CP_DATE.search(item)
-            if not (tm and dm):
+            rm = None if dm else _CP_DATES.search(item)
+            if not (tm and (dm or rm)):
                 faults["no_title_or_date"] += 1
                 continue
             title = _cp_text(tm.group(1))
@@ -713,11 +730,24 @@ def fetch_civicplus(start, end):
                 muted += 1
                 continue
             try:
-                date = datetime.strptime(dm.group(1), "%B %d, %Y").strftime("%Y-%m-%d")
+                first = datetime.strptime((dm or rm).group(1), "%B %d, %Y")
+                last = datetime.strptime(rm.group(2), "%B %d, %Y") if rm else first
             except ValueError:
                 faults["bad_date"] += 1
                 continue
-            if not lo <= date <= hi:
+            span = (last - first).days + 1
+            if span < 1:
+                faults["bad_date"] += 1         # ends before it starts
+                continue
+            if span > CP_MAX_RUN_DAYS:
+                long_run += 1
+                continue
+            # One row per day, like every other recurring listing: the site is
+            # "pick a day", so day 3 of a camp has to be on day 3's list.
+            # _feed_id() carries the date, so the calendar UIDs stay distinct.
+            dates = [d for d in ((first + timedelta(days=i)).strftime("%Y-%m-%d")
+                                 for i in range(span)) if lo <= d <= hi]
+            if not dates:
                 continue
 
             loc = _CP_LOC.search(item)
@@ -734,25 +764,30 @@ def fetch_civicplus(start, end):
                 offarea += 1
                 continue
 
-            tmm = _CP_TIME.search(item)
+            tmm = None if rm and _CP_ALLDAY.search(item) else _CP_TIME.search(item)
             body = _CP_BODY.search(item)
+            desc = _cp_text(body.group(1)) if body else ""
+            if rm:
+                # The feed gives a range, not which days have a show -- say so.
+                desc = (f"Runs {first:%b} {first.day} – {last:%b} {last.day}. " + desc).strip()
             # "<street>, <City>" when the feed gives a street, else the bare
             # city. CivicPlus publishes no venue NAME, so _split_area() reads
             # the street as the venue -- which is what makes dedupe able to
             # tell two library branches apart. _is_real_venue() rejects
             # street-shaped names, so none of them becomes a venue page.
-            out.append(row(
-                title,
-                _cp_category(title, hints, site.get("category", "family")),
-                f"{place}, {city}" if place else city,
-                date,
-                (tmm.group(1).upper().replace(".", "") if tmm else None),
-                site.get("cost"),
-                _cp_text(body.group(1)) if body else "",
-                _CP_LINK.search(item).group(1).strip() if _CP_LINK.search(item) else base,
-                organizer=org,
-            ))
-            kept += 1
+            for date in dates:
+                out.append(row(
+                    title,
+                    _cp_category(title, hints, site.get("category", "family")),
+                    f"{place}, {city}" if place else city,
+                    date,
+                    (tmm.group(1).upper().replace(".", "") if tmm else None),
+                    site.get("cost"),
+                    desc,
+                    _CP_LINK.search(item).group(1).strip() if _CP_LINK.search(item) else base,
+                    organizer=org,
+                ))
+                kept += 1
         # Reported separately on purpose. One combined "filtered" count is
         # what disguised a city-parsing bug as a working noise filter.
         label = site.get("city") or url
@@ -761,6 +796,7 @@ def fetch_civicplus(start, end):
         print(f"civicplus ({label}): {kept} events"
               + (f", {muted} municipal" if muted else "")
               + (f", {offarea} off-area" if offarea else "")
+              + (f", {long_run} over {CP_MAX_RUN_DAYS} days" if long_run else "")
               + (f", {bad} UNPARSED ({detail})" if bad else ""))
         report_parse_health(f"civicplus ({label})", len(items), bad, detail,
                             unit="feed items")

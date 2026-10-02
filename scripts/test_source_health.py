@@ -306,6 +306,51 @@ def test_civicplus_health():
           ["civicplus"])
 
 
+def _cp_item(title, dates, time="08:00 AM - 05:00 PM"):
+    """One CivicPlus item. `dates` is "October 12, 2026" (single day) or a
+    "start - end" range, which CivicPlus labels "Event dates:" (plural)."""
+    label = "Event dates:" if " - " in dates else "Event date:"
+    return (f"<item><title>{title}</title><link>https://x.test/{title}</link><description>"
+            f"<strong>{label}</strong> {dates}<br><strong>Event Time:</strong> {time}"
+            "<br><strong>Location:</strong> 100 Main St<br>Garland, TX 75040"
+            "<strong>Description:</strong> fun</description></item>")
+
+
+def test_civicplus_multiday():
+    print("civicplus: multi-day runs ('Event dates: X - Y')")
+
+    def one_city(*items):
+        reset()
+        return _cp(["<rss>" + "".join(items) + "</rss>"] + [_cp_feed(0)] * 5)
+
+    rows = one_city(_cp_item("Kids Camp", "October 12, 2026 - October 16, 2026"))
+    check("a 5-day camp is one row per day", [r["date"] for r in rows],
+          ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-15", "2026-10-16"])
+    check("each says it is a run", rows[0]["description"].startswith("Runs Oct 12 – Oct 16."), True)
+    check("and none of it is a fault", F._SOURCE_FAULTS, [])
+
+    rows = one_city(_cp_item("Fair", "September 28, 2026 - October 3, 2026"))
+    check("a run already under way lists only its in-window days",
+          [r["date"] for r in rows], ["2026-10-01", "2026-10-02", "2026-10-03"])
+
+    rows = one_city(*[_cp_item(f"Course {i}", "September 14, 2026 - March 12, 2027")
+                      for i in range(6)])
+    check(f"a run over {F.CP_MAX_RUN_DAYS} days is skipped as a FILTER",
+          (len(rows), F._SOURCE_FAULTS), (0, []))
+
+    rows = one_city(_cp_item("Musical", "October 8, 2026 - October 9, 2026",
+                             time="12:00 AM - 11:59 PM"))
+    check("a run's 12:00 AM - 11:59 PM placeholder becomes no time",
+          {r["time"] for r in rows}, {"See details"})
+    rows = one_city(_cp_item("Night Out", "October 6, 2026", time="12:00 AM - 11:59 PM"))
+    check("a single day keeps it (blanking it let dedupe merge two cities)",
+          [r["time"] for r in rows], ["12:00 AM"])
+
+    rows = one_city(*[_cp_item(f"Backwards {i}", "October 16, 2026 - October 12, 2026")
+                      for i in range(6)])
+    check("a range that ends before it starts is a fault", len(F._SOURCE_FAULTS), 1)
+
+
 def _pk_page(n, date="2026-10-12T20:00:00", jsonld=True):
     if not jsonld:
         return "<html>redesigned</html>"
@@ -437,6 +482,7 @@ def main():
     F.SOURCE_COUNTS_FILE = pathlib.Path(tempfile.mkdtemp()) / "source-counts.json"
     for t in (test_sunday_false_alarm, test_zero_rule, test_drop_rule,
               test_bookkeeping, test_parse_health, test_civicplus_health,
+              test_civicplus_multiday,
               test_prekindle_health, test_singles_health, test_ics_health,
               test_ics_per_feed_yield):
         t()
