@@ -23,21 +23,6 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:eastern-kentucky-colonels-at-ut-arlington-mavericks-womens-volleyball|c
- ollege-park-center-arlington|1-00-pm-2026-10-03@letsdoitdallas.com
-DTSTAMP:20261003T180000Z
-DTSTART:20261003T180000Z
-DTEND:20261003T210000Z
-SUMMARY:Eastern Kentucky Colonels at UT Arlington Mavericks Womens Volleyba
- ll
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=eastern-kentucky-colonels
- -at-ut-arlington-mavericks-womens-volleyball%7Ccollege-park-center-arlingt
- on%7C1-00-pm
-DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
- /letsdoitdallas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:pit-pass-monster-jam|at-t-stadium-arlington|2-30-pm-2026-10-03@letsdoit
  dallas.com
 DTSTAMP:20261003T193000Z
@@ -803,6 +788,32 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=family-magic-comedy-for-a
  ll-ages%7Carlington-improv-arlington%7C12-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-10-17@
+ letsdoitdallas.com
+DTSTAMP:20261017T190000Z
+DTSTART:20261017T190000Z
+DTEND:20261017T220000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C2-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:sons-of-the-pioneers|arlington-music-hall-arlington|2-00-pm-2026-10-17@
+ letsdoitdallas.com
+DTSTAMP:20261017T190000Z
+DTSTART:20261017T190000Z
+DTEND:20261017T220000Z
+SUMMARY:Sons Of The Pioneers
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=sons-of-the-pioneers%7Car
+ lington-music-hall-arlington%7C2-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:marcus-d-wiley|arlington-improv-arlington|7-00-pm-2026-10-17@letsdoitda
