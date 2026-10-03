@@ -10,58 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:damon-williams|arlington-improv-arlington|7-30-pm-2026-10-02@letsdoitda
- llas.com
-DTSTAMP:20261003T003000Z
-DTSTART:20261003T003000Z
-DTEND:20261003T033000Z
-SUMMARY:Damon Williams
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=damon-williams%7Carlingto
- n-improv-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:kathy-mattea|arlington-music-hall-arlington|7-30-pm-2026-10-02@letsdoit
- dallas.com
-DTSTAMP:20261003T003000Z
-DTSTART:20261003T003000Z
-DTEND:20261003T033000Z
-SUMMARY:Kathy Mattea
-LOCATION:Arlington Music Hall
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=kathy-mattea%7Carlington-
- music-hall-arlington%7C7-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:impostores-de-nuevo-leon|texas-live-arlington|8-00-pm-2026-10-02@letsdo
- itdallas.com
-DTSTAMP:20261003T010000Z
-DTSTART:20261003T010000Z
-DTEND:20261003T040000Z
-SUMMARY:Impostores De Nuevo Leon
-LOCATION:Texas Live! · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=impostores-de-nuevo-leon%
- 7Ctexas-live-arlington%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:damon-williams|arlington-improv-arlington|9-45-pm-2026-10-02@letsdoitda
- llas.com
-DTSTAMP:20261003T024500Z
-DTSTART:20261003T024500Z
-DTEND:20261003T054500Z
-SUMMARY:Damon Williams
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=damon-williams%7Carlingto
- n-improv-arlington%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
  26-10-03@letsdoitdallas.com
 DTSTAMP:20261003T170000Z
@@ -153,19 +101,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-03&e=damon-williams%7Carlingto
  n-improv-arlington%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:tbd-at-wings-wnba-semis-gm-3-hg-1-|college-park-center-arlington|3-30-a
- m-2026-10-04@letsdoitdallas.com
-DTSTAMP:20261004T083000Z
-DTSTART:20261004T083000Z
-DTEND:20261004T113000Z
-SUMMARY:TBD at Wings - WNBA Semis (Gm 3\, HG 1)
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=tbd-at-wings-wnba-semis-g
- m-3-hg-1-%7Ccollege-park-center-arlington%7C3-30-am
-DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/d
- istrict/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-04
@@ -439,19 +374,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-08&e=john-l-brown%7Carlington-
  improv-arlington%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:tbd-at-wings-wnba-semis-gm-4-hg-2-|college-park-center-arlington|3-30-a
- m-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261009T083000Z
-DTSTART:20261009T083000Z
-DTEND:20261009T113000Z
-SUMMARY:TBD at Wings - WNBA Semis (Gm 4\, HG 2)
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=tbd-at-wings-wnba-semis-g
- m-4-hg-2-%7Ccollege-park-center-arlington%7C3-30-am
-DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/d
- istrict/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:zainab-johnson|arlington-improv-arlington|7-00-pm-2026-10-09@letsdoitda
@@ -753,19 +675,6 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:tbd-at-wings-wnba-finals-hg-1-|college-park-center-arlington|3-30-am-20
- 26-10-16@letsdoitdallas.com
-DTSTAMP:20261016T083000Z
-DTSTART:20261016T083000Z
-DTEND:20261016T113000Z
-SUMMARY:TBD at Wings - WNBA Finals (HG 1)
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=tbd-at-wings-wnba-finals-
- hg-1-%7Ccollege-park-center-arlington%7C3-30-am
-DESCRIPTION:wnba event via SeatGeek. — More: https://letsdoitdallas.com/d
- istrict/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-16
  @letsdoitdallas.com
 DTSTAMP:20261016T150000Z
@@ -818,6 +727,19 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:home-free|arlington-music-hall-arlington|7-30-pm-2026-10-16@letsdoitdal
+ las.com
+DTSTAMP:20261017T003000Z
+DTSTART:20261017T003000Z
+DTEND:20261017T033000Z
+SUMMARY:Home Free
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=home-free%7Carlington-mus
+ ic-hall-arlington%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:marcus-d-wiley|arlington-improv-arlington|7-30-pm-2026-10-16@letsdoitda
  llas.com
 DTSTAMP:20261017T003000Z
@@ -842,6 +764,32 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=marcus-d-wiley%7Carlingto
  n-improv-arlington%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-17
+ @letsdoitdallas.com
+DTSTAMP:20261017T150000Z
+DTSTART:20261017T150000Z
+DTEND:20261017T180000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C10-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-10-17
+ @letsdoitdallas.com
+DTSTAMP:20261017T170000Z
+DTSTART:20261017T170000Z
+DTEND:20261017T200000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C12-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
@@ -1113,5 +1061,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=lewis-belt%7Carlington-im
  prov-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-cowboys-vs-arizona-cardinals|at-t-stadium-arlington|12-00-pm-202
+ 6-11-01@letsdoitdallas.com
+DTSTAMP:20261101T180000Z
+DTSTART:20261101T180000Z
+DTEND:20261101T210000Z
+SUMMARY:Dallas Cowboys vs. Arizona Cardinals
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=dallas-cowboys-vs-arizona
+ -cardinals%7Cat-t-stadium-arlington%7C12-00-pm
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/district/arlington/
 END:VEVENT
 END:VCALENDAR

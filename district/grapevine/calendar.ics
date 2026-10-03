@@ -10,22 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-wedding-singer|runway-theatre-215-n-dooley-street-grapevine-76051-u
- nited-states|7-30-pm-2026-10-02@letsdoitdallas.com
-DTSTAMP:20261003T003000Z
-DTSTART:20261003T003000Z
-DTEND:20261003T033000Z
-SUMMARY:The Wedding Singer
-LOCATION:Runway Theatre · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=the-wedding-singer%7Crunw
- ay-theatre-215-n-dooley-street-grapevine-76051-united-states%7C7-30-pm
-DESCRIPTION:When love gets loud\, life gets hilarious.  Big hair. Big feel
- ings. Bigger laughs. This high-energy musical takes you straight back to t
- he 80s with a love story that’s equal parts sweet and zany. Wedding sing
- er Robbie Hart is everybody’s favorite life-of-the-party… until his ow
- n l — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
  e-tx-76051-united-states|8-00-am-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261003T130000Z
@@ -130,6 +114,38 @@ DESCRIPTION:The 1st and 3rd Saturday the library is visited by therapy dogs
  . October 3\, 2026 02:30 PM - 03:30 PM Grapevine\, TX 76051 https://www.gr
  apevinetexas.gov/Calendar.aspx?EID=17686/639221334170000000 — More: http
  s://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:grapevine-main-live-|peace-plaza-801-s-main-street-grapevine-76051-unit
+ ed-states|7-30-pm-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261004T003000Z
+DTSTART:20261004T003000Z
+DTEND:20261004T033000Z
+SUMMARY:Grapevine Main LIVE!
+LOCATION:Peace Plaza · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=grapevine-main-live-%7Cpe
+ ace-plaza-801-s-main-street-grapevine-76051-united-states%7C7-30-pm
+DESCRIPTION:Grapevine Main LIVE! is back and bigger than ever with an 8-wee
+ k Spring Music Series sure to hit all the right notes! Guests can enjoy fo
+ od from eight chef-inspired global kitchens as well as specialty crafted c
+ ocktails and performances by some of the best local artists and bands — 
+ More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-wedding-singer|runway-theatre-215-n-dooley-street-grapevine-76051-u
+ nited-states|7-30-pm-2026-10-03@letsdoitdallas.com
+DTSTAMP:20261004T003000Z
+DTSTART:20261004T003000Z
+DTEND:20261004T033000Z
+SUMMARY:The Wedding Singer
+LOCATION:Runway Theatre · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=the-wedding-singer%7Crunw
+ ay-theatre-215-n-dooley-street-grapevine-76051-united-states%7C7-30-pm
+DESCRIPTION:When love gets loud\, life gets hilarious.  Big hair. Big feel
+ ings. Bigger laughs. This high-energy musical takes you straight back to t
+ he 80s with a love story that’s equal parts sweet and zany. Wedding sing
+ er Robbie Hart is everybody’s favorite life-of-the-party… until his ow
+ n l — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:open-sewing-fiber-arts-studio-18-|grapevine|10-00-am-2026-10-04@letsdoi
@@ -1164,6 +1180,37 @@ DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
  sdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
+UID:stitchcraft-circle-18-|grapevine|10-00-am-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T150000Z
+DTSTART:20261017T150000Z
+DTEND:20261017T180000Z
+SUMMARY:Stitchcraft Circle (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=stitchcraft-circle-18-%7C
+ grapevine%7C10-00-am
+DESCRIPTION:Help us make quilts for the Grapevine Animal Shelter & local ho
+ spital or bring your own stitching project. Adults only (18+)\, Library Ca
+ rd & Registration Required to attend. October 17\, 2026 10:00 AM - 01:00 P
+ M Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID= 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:beginner-dungeons-and-dragons-one-shots-for-adults|grapevine|11-30-am-2
+ 026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T163000Z
+DTSTART:20261017T163000Z
+DTEND:20261017T193000Z
+SUMMARY:Beginner Dungeons and Dragons: One-Shots for Adults
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=beginner-dungeons-and-dra
+ gons-one-shots-for-adults%7Cgrapevine%7C11-30-am
+DESCRIPTION:Calling all new adventurers! Join us in the Library Board Room 
+ for a one-shot D&D adventure — no experience necessary! Dungeon Master B
+ en and friends will walk you through the 5th Edition (2014) rules and help
+  you jump right into the action. We encourage you to bring your own Lev 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
 UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
  rapevine-vintage-railroad-grapevine|12-00-pm-2026-10-17@letsdoitdallas.com
 DTSTAMP:20261017T170000Z
@@ -1178,6 +1225,64 @@ DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
  sdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
+UID:open-play-saturday|grapevine|12-00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T170000Z
+DTSTART:20261017T170000Z
+DTEND:20261017T200000Z
+SUMMARY:Open Play Saturday
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=open-play-saturday%7Cgrap
+ evine%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:recording-studio-attended|grapevine|12-00-pm-2026-10-17@letsdoitdallas.
+ com
+DTSTAMP:20261017T170000Z
+DTSTART:20261017T170000Z
+DTEND:20261017T200000Z
+SUMMARY:Recording Studio Attended
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=recording-studio-attended
+ %7Cgrapevine%7C12-00-pm
+DESCRIPTION:Interested in podcasting or recording music? Come learn how to 
+ use the library’s Recording Studio! To reserve and use the Recording Stu
+ dio\, you must first complete a mandatory orientation. Orientations are of
+ fered on Saturdays from 12 to 4 pm. No registration or appointment neede 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:board-game-meet-up-for-adults-|grapevine|02-00-pm-2026-10-17@letsdoitda
+ llas.com
+DTSTAMP:20261017T190000Z
+DTSTART:20261017T190000Z
+DTEND:20261017T220000Z
+SUMMARY:Board Game Meet-Up for Adults!
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=board-game-meet-up-for-ad
+ ults-%7Cgrapevine%7C02-00-pm
+DESCRIPTION:Join us for a fun day of board and card gaming at the library. 
+ Select from our collection of board games\, card games\, party games\, or 
+ bring your own games! 1st & 3rd Saturdays (and those ocassional 5th Saturd
+ ays: 1/31\, 5/30\, 8/29\, & 10/31) For Adults\, ages 18+ October 17\, 2026
+  02 — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:dfw-yo-yo-club|grapevine|02-00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T190000Z
+DTSTART:20261017T190000Z
+DTEND:20261017T220000Z
+SUMMARY:DFW Yo-Yo Club
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=dfw-yo-yo-club%7Cgrapevin
+ e%7C02-00-pm
+DESCRIPTION:Come join the DFW Yo-Yo Club at the Grapevine Public Library! O
+ pen to all ages and skill levels. Every third Saturday from 2 PM to 4 PM. 
+ Whether you're a yo-yo master or just curious to learn\, you'll find a wel
+ coming community eager to share tips\, tricks\, and tons of fun. See you 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
 UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
  rapevine-vintage-railroad-grapevine|2-30-pm-2026-10-17@letsdoitdallas.com
 DTSTAMP:20261017T193000Z
@@ -1190,6 +1295,21 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=day-out-with-thomas-tm-th
  grapevine%7C2-30-pm
 DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
  sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:read-to-a-furry-friend|grapevine|02-30-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T193000Z
+DTSTART:20261017T193000Z
+DTEND:20261017T223000Z
+SUMMARY:Read to a Furry Friend
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=read-to-a-furry-friend%7C
+ grapevine%7C02-30-pm
+DESCRIPTION:The 1st and 3rd Saturday the library is visited by therapy dogs
+ . They love to listen to children practice reading! No registration needed
+ . October 17\, 2026 02:30 PM - 03:30 PM Grapevine\, TX 76051 https://www.g
+ rapevinetexas.gov/Calendar.aspx?EID=17690/639221335120000000 — More: htt
+ ps://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g

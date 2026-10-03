@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
- 10-02@letsdoitdallas.com
-DTSTAMP:20261003T003000Z
-DTSTART:20261003T003000Z
-DTEND:20261003T033000Z
-SUMMARY:Stockyards Championship Rodeo
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=stockyards-championship-r
- odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/cowtown-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
  10-03@letsdoitdallas.com
 DTSTAMP:20261003T183000Z
@@ -407,6 +394,32 @@ DTEND:20261031T213000Z
 SUMMARY:Stockyards Championship Rodeo
 LOCATION:Cowtown Coliseum · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-31&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
+ 10-31@letsdoitdallas.com
+DTSTAMP:20261101T003000Z
+DTSTART:20261101T003000Z
+DTEND:20261101T033000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
+ 11-01@letsdoitdallas.com
+DTSTAMP:20261101T193000Z
+DTSTART:20261101T193000Z
+DTEND:20261101T223000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=stockyards-championship-r
  odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/cowtown-coliseum/

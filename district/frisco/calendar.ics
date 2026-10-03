@@ -10,16 +10,20 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sunrise-yoga-cancelled|8802-4th-st-frisco|07-30-am-2026-10-03@letsdoitd
- allas.com
-DTSTAMP:20261003T123000Z
-DTSTART:20261003T123000Z
-DTEND:20261003T153000Z
-SUMMARY:Sunrise Yoga - CANCELLED
-LOCATION:8802 4th St · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=sunrise-yoga-cancelled%7C
- 8802-4th-st-frisco%7C07-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+UID:frisco-oktoberfest-at-the-star-2026|the-star-frisco|11-00-am-9-00-pm-20
+ 26-10-03@letsdoitdallas.com
+DTSTAMP:20261003T160000Z
+DTSTART:20261003T160000Z
+DTEND:20261003T190000Z
+SUMMARY:Frisco Oktoberfest at The Star 2026
+LOCATION:The Star · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=frisco-oktoberfest-at-the
+ -star-2026%7Cthe-star-frisco%7C11-00-am-9-00-pm
+DESCRIPTION:Get ready to raise your stein and celebrate at this vibrant Okt
+ oberfest celebration full of fun for everyone! Enjoy delicious German‑in
+ spired food and authentic Oktoberfest bier\, cheer on spirited competition
+ s like stein‑hoisting and brat eating\, groove to lively music\, take pa
+ rt — More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-music-series-at-frisco-fresh-market|9215-john-w-elliott-dr-fri
@@ -225,18 +229,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-13&e=rail-district-celebration
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
-UID:planning-zoning-commission|6101-frisco-square-blvd-frisco|06-30-pm-2026
- -10-13@letsdoitdallas.com
-DTSTAMP:20261013T233000Z
-DTSTART:20261013T233000Z
-DTEND:20261014T023000Z
-SUMMARY:Planning & Zoning Commission
-LOCATION:6101 Frisco Square Blvd.
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=planning-zoning-commissio
- n%7C6101-frisco-square-blvd-frisco%7C06-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:plated-a-chef-s-table-on-main|8802-4th-st-frisco|07-00-pm-2026-10-13@le
  tsdoitdallas.com
 DTSTAMP:20261014T000000Z
@@ -422,6 +414,65 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=-goosebumps-the-musical-p
  way-frisco%7Csee-details
 DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/dis
  trict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:sunrise-yoga|8802-4th-st-frisco|07-30-am-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T123000Z
+DTSTART:20261017T123000Z
+DTEND:20261017T153000Z
+SUMMARY:Sunrise Yoga
+LOCATION:8802 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=sunrise-yoga%7C8802-4th-s
+ t-frisco%7C07-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-music-series-at-frisco-fresh-market|9215-john-w-elliott-dr-fri
+ sco|11-00-am-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T160000Z
+DTSTART:20261017T160000Z
+DTEND:20261017T190000Z
+SUMMARY:Saturday Music Series at Frisco Fresh Market
+LOCATION:9215 John W. Elliott Dr · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=saturday-music-series-at-
+ frisco-fresh-market%7C9215-john-w-elliott-dr-frisco%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:artist-led-workshop-watercolor-foundations-with-tricia-poupard|6455-pag
+ e-street-frisco|12-00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T170000Z
+DTSTART:20261017T170000Z
+DTEND:20261017T200000Z
+SUMMARY:Artist-led Workshop: Watercolor Foundations with Tricia Poupard
+LOCATION:6455 Page Street · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=artist-led-workshop-water
+ color-foundations-with-tricia-poupard%7C6455-page-street-frisco%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:pumpkin-dunk|5828-nancy-jane-lane-frisco|12-30-pm-2026-10-17@letsdoitda
+ llas.com
+DTSTAMP:20261017T173000Z
+DTSTART:20261017T173000Z
+DTEND:20261017T203000Z
+SUMMARY:Pumpkin Dunk
+LOCATION:5828 Nancy Jane Lane · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=pumpkin-dunk%7C5828-nancy
+ -jane-lane-frisco%7C12-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:rail-district-celebration-from-this-ground-art-activity|8802-4th-st-fri
+ sco|04-00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T210000Z
+DTSTART:20261017T210000Z
+DTEND:20261018T000000Z
+SUMMARY:Rail District Celebration: From This Ground Art Activity
+LOCATION:8802 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=rail-district-celebration
+ -from-this-ground-art-activity%7C8802-4th-st-frisco%7C04-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr

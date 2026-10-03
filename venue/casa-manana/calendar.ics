@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
- orth|7-00-pm-2026-10-02@letsdoitdallas.com
-DTSTAMP:20261003T000000Z
-DTSTART:20261003T000000Z
-DTEND:20261003T030000Z
-SUMMARY:Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=rapunzel-rapunzel-a-very-
- hairy-fairy-tale-fort-worth%7Ccasa-manana-fort-worth%7C7-00-pm
-DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/casa-manana/
-END:VEVENT
-BEGIN:VEVENT
-UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
  orth|1-00-pm-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261003T180000Z
 DTSTART:20261003T180000Z
@@ -408,6 +395,32 @@ SUMMARY:Music of John Denver
 LOCATION:Casa Manana · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-30&e=music-of-john-denver%7Cca
  sa-manana-fort-worth%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
+UID:music-of-john-denver|casa-manana-fort-worth|8-00-pm-2026-10-31@letsdoit
+ dallas.com
+DTSTAMP:20261101T010000Z
+DTSTART:20261101T010000Z
+DTEND:20261101T040000Z
+SUMMARY:Music of John Denver
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=music-of-john-denver%7Cca
+ sa-manana-fort-worth%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
+UID:music-of-john-denver|casa-manana-fort-worth|2-00-pm-2026-11-01@letsdoit
+ dallas.com
+DTSTAMP:20261101T200000Z
+DTSTART:20261101T200000Z
+DTEND:20261101T230000Z
+SUMMARY:Music of John Denver
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=music-of-john-denver%7Cca
+ sa-manana-fort-worth%7C2-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/casa-manana/
 END:VEVENT

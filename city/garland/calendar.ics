@@ -9,31 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:les-mis-rables-by-the-covenant-school|300-n-fifth-street-garland|07-00-
- pm-2026-10-02@letsdoitdallas.com
-DTSTAMP:20261003T000000Z
-DTSTART:20261003T000000Z
-DTEND:20261003T030000Z
-SUMMARY:Les Misérables by The Covenant School
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=les-mis-rables-by-the-cov
- enant-school%7C300-n-fifth-street-garland%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
- -state-street-garland|07-30-pm-2026-10-02@letsdoitdallas.com
-DTSTAMP:20261003T003000Z
-DTSTART:20261003T003000Z
-DTEND:20261003T033000Z
-SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
-LOCATION:521 W State Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=little-shop-of-horrors-pr
- esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C07
- -30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-10-03@letsd
  oitdallas.com
 DTSTAMP:20261003T150000Z
@@ -1012,5 +987,157 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=a-night-of-gershwin-thoma
  s-pandolfi-piano-presented-by-garland-symphony-orchestra%7C300-n-fifth-str
  eet-garland%7C07-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-10-17@letsd
+ oitdallas.com
+DTSTAMP:20261017T150000Z
+DTSTART:20261017T150000Z
+DTEND:20261017T180000Z
+SUMMARY:Play & Learn (0-5 years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=play-learn-0-5-years-%7Cc
+ entral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Families with children ages 0-5 can enjoy Play & L
+ earn\, a weekly event with toys\, games and activities that encourage imag
+ ination\, creativity and problem-solving. This program offers a chance for
+  children and caregivers to play together. October 17\, 2026 10:00 AM - 11
+  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:1-2-3-steam-ages-1-5-birds|west-garland-library-garland|10-30-am-2026-1
+ 0-17@letsdoitdallas.com
+DTSTAMP:20261017T153000Z
+DTSTART:20261017T153000Z
+DTEND:20261017T183000Z
+SUMMARY:1-2-3 STEAM (Ages 1-5): Birds
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=1-2-3-steam-ages-1-5-bird
+ s%7Cwest-garland-library-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; Explore science\, technology\, engineering\, art a
+ nd math through play and discovery! Join us for a fun-filled session desig
+ ned for little learners ages 1–5 and their caregivers. We’ll start wit
+ h a story before jumping into our hands-on STEAM activities. October 17\, 
+ 2026 — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:buried-dallas-fort-worth-a-photographic-journey-through-north-texas-cem
+ eteries-with-author-tui-snider-ages-18-|central-library-garland|02-00-pm-2
+ 026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T190000Z
+DTSTART:20261017T190000Z
+DTEND:20261017T220000Z
+SUMMARY:Buried Dallas-Fort Worth: A Photographic Journey Through North Texa
+ s Cemeteries with Author Tui Snider (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=buried-dallas-fort-worth-
+ a-photographic-journey-through-north-texas-cemeteries-with-author-tui-snid
+ er-ages-18-%7Ccentral-library-garland%7C02-00-pm
+DESCRIPTION:2:00 p.m.\; Join local author and speaker Tui Snider for a capt
+ ivating photographic slideshow presentation inspired by her new book\, “
+ Buried Dallas-Fort Worth: A Photographic Journey Through North Texas Cemet
+ eries.” Through striking images and fascinating stories\, Tui will explo
+ re — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:reverse-watercolor-stenciling-ages-18-|south-garland-library-garland|02
+ -00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T190000Z
+DTSTART:20261017T190000Z
+DTEND:20261017T220000Z
+SUMMARY:Reverse Watercolor Stenciling (Ages 18+)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=reverse-watercolor-stenci
+ ling-ages-18-%7Csouth-garland-library-garland%7C02-00-pm
+DESCRIPTION:2:00 p.m.\; Try a new method in painting and discover the relax
+ ing art of reverse watercolor. Instead of adding paint – you remove it! 
+ Start with a background using your favorite colors and then add stencils t
+ o remove the paint using a damp sponge. All supplies are provided and no 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:anything-goes-presented-by-garland-civic-theatre|300-n-fifth-street-gar
+ land|02-30-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T193000Z
+DTSTART:20261017T193000Z
+DTEND:20261017T223000Z
+SUMMARY:Anything Goes presented by Garland Civic Theatre
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=anything-goes-presented-b
+ y-garland-civic-theatre%7C300-n-fifth-street-garland%7C02-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:steam-lab-uv-bracelets-ages-6-12-|north-garland-library-garland|02-30-p
+ m-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T193000Z
+DTSTART:20261017T193000Z
+DTEND:20261017T223000Z
+SUMMARY:STEAM Lab: UV Bracelets (Ages 6-12)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=steam-lab-uv-bracelets-ag
+ es-6-12-%7Cnorth-garland-library-garland%7C02-30-pm
+DESCRIPTION:2:30 p.m.\; Create science you can wear! Design and make a colo
+ r-changing UV bracelet while discovering the fascinating science behind UV
+  rays. Level up your science at the library! October 17\, 2026 02:30 PM - 
+ 03:30 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx.go 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:skill-building-series-drawstring-bag-ages-13-|west-garland-library-garl
+ and|02-30-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T193000Z
+DTSTART:20261017T193000Z
+DTEND:20261017T223000Z
+SUMMARY:Skill Building Series: Drawstring Bag (Ages 13+)
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=skill-building-series-dra
+ wstring-bag-ages-13-%7Cwest-garland-library-garland%7C02-30-pm
+DESCRIPTION:2:30 p.m.\; Build on your sewing skills in this intermediate cl
+ ass designed for those who have completed a beginner sewing class and are 
+ certified to use a sewing machine in our makerspace. This session will gui
+ de you through creating a simple\, functional drawstring bag from start 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:crafternoon-ages-13-|central-library-garland|03-00-pm-2026-10-17@letsdo
+ itdallas.com
+DTSTAMP:20261017T200000Z
+DTSTART:20261017T200000Z
+DTEND:20261017T230000Z
+SUMMARY:Crafternoon (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=crafternoon-ages-13-%7Cce
+ ntral-library-garland%7C03-00-pm
+DESCRIPTION:3:00 p.m.\; Drop by the library and dedicate time to work on yo
+ ur personal crafts! This time is for freeform crafting and conversation. B
+ ring your own project or choose something from the makerspace to work on! 
+ We have materials for sewing\, knitting\, crocheting\, embroidery and pap 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:anything-goes-presented-by-garland-civic-theatre|300-n-fifth-street-gar
+ land|07-30-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261018T003000Z
+DTSTART:20261018T003000Z
+DTEND:20261018T033000Z
+SUMMARY:Anything Goes presented by Garland Civic Theatre
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=anything-goes-presented-b
+ y-garland-civic-theatre%7C300-n-fifth-street-garland%7C07-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:fright-fest-dababy-and-friends|curtis-culwell-center-garland|8-00-pm-20
+ 26-10-31@letsdoitdallas.com
+DTSTAMP:20261101T010000Z
+DTSTART:20261101T010000Z
+DTEND:20261101T040000Z
+SUMMARY:Fright Fest DaBaby and Friends
+LOCATION:Curtis Culwell Center · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=fright-fest-dababy-and-fr
+ iends%7Ccurtis-culwell-center-garland%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/city/garland/
 END:VEVENT
 END:VCALENDAR

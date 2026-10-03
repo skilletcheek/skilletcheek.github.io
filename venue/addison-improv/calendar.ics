@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ian-fidance|addison-improv-addison|7-30-pm-2026-10-02@letsdoitdallas.co
- m
-DTSTAMP:20261003T003000Z
-DTSTART:20261003T003000Z
-DTEND:20261003T033000Z
-SUMMARY:Ian Fidance
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=ian-fidance%7Caddison-imp
- rov-addison%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:ian-fidance|addison-improv-addison|9-45-pm-2026-10-02@letsdoitdallas.co
- m
-DTSTAMP:20261003T024500Z
-DTSTART:20261003T024500Z
-DTEND:20261003T054500Z
-SUMMARY:Ian Fidance
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=ian-fidance%7Caddison-imp
- rov-addison%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:ian-fidance|addison-improv-addison|7-00-pm-2026-10-03@letsdoitdallas.co
  m
 DTSTAMP:20261004T000000Z

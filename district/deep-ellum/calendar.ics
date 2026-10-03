@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:thin-white-line-raid-knight-lotus-no-revival-dead-ego|trees-dallas|door
- s-see-listing-2026-10-02@letsdoitdallas.com
-DTSTAMP:20261002T000000Z
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-SUMMARY:THIN WHITE LINE * RAID * KNIGHT LOTUS * NO REVIVAL * DEAD EGO
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=thin-white-line-raid-knig
- ht-lotus-no-revival-dead-ego%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:apex-fallen-all-is-taken-spinecell|three-links-deep-ellum-dallas|8-00-p
- m-2026-10-02@letsdoitdallas.com
-DTSTAMP:20261003T010000Z
-DTSTART:20261003T010000Z
-DTEND:20261003T040000Z
-SUMMARY:Apex Fallen\, All Is Taken\, Spinecell
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=apex-fallen-all-is-taken-
- spinecell%7Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:mo-robson-stone-creek-sparrows-rhett-embry-through-the-divide-taylor-bu
  rns|trees-dallas|doors-see-listing-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261003T000000Z
@@ -880,5 +854,20 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=playlunch-buckets%7Cthree
  -links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dexter-and-the-moonrocks-16-and-under-with-parent-or-legal-guardian-|th
+ e-bomb-factory-dallas|8-00-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261101T010000Z
+DTSTART:20261101T010000Z
+DTEND:20261101T040000Z
+SUMMARY:Dexter and The Moonrocks (16 and Under with Parent or Legal Guardia
+ n)
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=dexter-and-the-moonrocks-
+ 16-and-under-with-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C8-
+ 00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

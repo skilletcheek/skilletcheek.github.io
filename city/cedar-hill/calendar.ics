@@ -9,48 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:days-at-dogwood-canyon-podcast|cedar-hill|05-00-pm-2026-10-02@letsdoitd
- allas.com
-DTSTAMP:20261002T220000Z
-DTSTART:20261002T220000Z
-DTEND:20261003T010000Z
-SUMMARY:Days at Dogwood Canyon Podcast
-LOCATION:Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=days-at-dogwood-canyon-po
- dcast%7Ccedar-hill%7C05-00-pm
-DESCRIPTION:Days at Dogwood Canyon Podcast October 2\, 2026 05:00 PM - 11:5
- 9 PM Cedar Hill\, TX 75104 https://dcacu.podbean.com//639222998610000000 
- — More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:girl-talk|310-e-parkerville-road-cedar-hill|06-15-pm-2026-10-02@letsdoi
- tdallas.com
-DTSTAMP:20261002T231500Z
-DTSTART:20261002T231500Z
-DTEND:20261003T021500Z
-SUMMARY:Girl Talk
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=girl-talk%7C310-e-parkerv
- ille-road-cedar-hill%7C06-15-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:envision-dance-class|310-e-parkerville-road-cedar-hill|07-00-pm-2026-10
- -02@letsdoitdallas.com
-DTSTAMP:20261003T000000Z
-DTSTART:20261003T000000Z
-DTEND:20261003T030000Z
-SUMMARY:Envision Dance Class
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=envision-dance-class%7C31
- 0-e-parkerville-road-cedar-hill%7C07-00-pm
-DESCRIPTION:This Adult Movement Class blends modern\, ballet\, and social d
- ancing to build strength\, confidence\, and expressive movement! Perfect f
- or beginners and returning dancers! October 2\, 2026 07:00 PM - 08:00 PM 3
- 10 E. Parkerville RoadCedar Hill\, TX 75104 https://www.cedarhilltx.com/Ca
- l — More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:sister-to-sister-fitness-festival-5k-walk-and-run|310-e-parkerville-roa
  d-cedar-hill|08-00-am-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261003T130000Z
@@ -1355,5 +1313,130 @@ DESCRIPTION:This Adult Movement Class blends modern\, ballet\, and social d
  or beginners and returning dancers! October 16\, 2026 07:00 PM - 08:00 PM 
  310 E. Parkerville RoadCedar Hill\, TX 75104 https://www.cedarhilltx.com/C
  a — More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:step-aerobics-extreme-hip-hop|310-e-parkerville-road-cedar-hill|08-45-a
+ m-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T134500Z
+DTSTART:20261017T134500Z
+DTEND:20261017T164500Z
+SUMMARY:Step Aerobics/Extreme Hip Hop
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=step-aerobics-extreme-hip
+ -hop%7C310-e-parkerville-road-cedar-hill%7C08-45-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:alan-e-sims-recreation-center-anniversary-celebration|310-e-parkerville
+ -road-cedar-hill|09-00-am-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T140000Z
+DTSTART:20261017T140000Z
+DTEND:20261017T170000Z
+SUMMARY:Alan E. Sims Recreation Center Anniversary Celebration
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=alan-e-sims-recreation-ce
+ nter-anniversary-celebration%7C310-e-parkerville-road-cedar-hill%7C09-00-a
+ m
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:fall-plant-sale|dogwood-canyon-cedar-hill|09-00-am-2026-10-17@letsdoitd
+ allas.com
+DTSTAMP:20261017T140000Z
+DTSTART:20261017T140000Z
+DTEND:20261017T170000Z
+SUMMARY:Fall Plant Sale
+LOCATION:Dogwood Canyon · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=fall-plant-sale%7Cdogwood
+ -canyon-cedar-hill%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:40-double-dutch|310-e-parkerville-road-cedar-hill|10-00-am-2026-10-17@l
+ etsdoitdallas.com
+DTSTAMP:20261017T150000Z
+DTSTART:20261017T150000Z
+DTEND:20261017T180000Z
+SUMMARY:40+ Double Dutch
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=40-double-dutch%7C310-e-p
+ arkerville-road-cedar-hill%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:elite-fit-camp|310-e-parkerville-road-cedar-hill|12-00-pm-2026-10-17@le
+ tsdoitdallas.com
+DTSTAMP:20261017T170000Z
+DTSTART:20261017T170000Z
+DTEND:20261017T200000Z
+SUMMARY:Elite Fit Camp
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=elite-fit-camp%7C310-e-pa
+ rkerville-road-cedar-hill%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:envision-dance-class|310-e-parkerville-road-cedar-hill|12-00-pm-2026-10
+ -17@letsdoitdallas.com
+DTSTAMP:20261017T170000Z
+DTSTART:20261017T170000Z
+DTEND:20261017T200000Z
+SUMMARY:Envision Dance Class
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=envision-dance-class%7C31
+ 0-e-parkerville-road-cedar-hill%7C12-00-pm
+DESCRIPTION:This Adult Movement Class blends modern\, ballet\, and social d
+ ancing to build strength\, confidence\, and expressive movement! Perfect f
+ or beginners and returning dancers! October 17\, 2026 12:00 PM - 01:15 PM 
+ 310 E. Parkerville RoadCedar Hill\, TX 75104 https://www.cedarhilltx.com/C
+ a — More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:lunch-circuit|310-e-parkerville-road-cedar-hill|12-00-pm-2026-10-17@let
+ sdoitdallas.com
+DTSTAMP:20261017T170000Z
+DTSTART:20261017T170000Z
+DTEND:20261017T200000Z
+SUMMARY:Lunch Circuit
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=lunch-circuit%7C310-e-par
+ kerville-road-cedar-hill%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:sparkz-cheerleading|310-e-parkerville-road-cedar-hill|12-00-pm-2026-10-
+ 17@letsdoitdallas.com
+DTSTAMP:20261017T170000Z
+DTSTART:20261017T170000Z
+DTEND:20261017T200000Z
+SUMMARY:Sparkz Cheerleading
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=sparkz-cheerleading%7C310
+ -e-parkerville-road-cedar-hill%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:fall-into-your-village-pumpkin-patch|104-s-broad-st-cedar-hill|05-00-pm
+ -2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T220000Z
+DTSTART:20261017T220000Z
+DTEND:20261018T010000Z
+SUMMARY:Fall Into Your Village Pumpkin Patch
+LOCATION:104 S Broad St. · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=fall-into-your-village-pu
+ mpkin-patch%7C104-s-broad-st-cedar-hill%7C05-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:volleyball-open-play|310-e-parkerville-road-cedar-hill|06-30-pm-2026-10
+ -17@letsdoitdallas.com
+DTSTAMP:20261017T233000Z
+DTSTART:20261017T233000Z
+DTEND:20261018T023000Z
+SUMMARY:Volleyball: Open Play
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=volleyball-open-play%7C31
+ 0-e-parkerville-road-cedar-hill%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 END:VCALENDAR

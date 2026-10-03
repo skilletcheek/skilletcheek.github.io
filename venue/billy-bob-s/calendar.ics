@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chris-young-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-02@letsdo
- itdallas.com
-DTSTAMP:20261003T030000Z
-DTSTART:20261003T030000Z
-DTEND:20261003T060000Z
-SUMMARY:Chris Young (18+ Event)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=chris-young-18-event-%7Cb
- illy-bob-s-fort-worth%7C10-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/billy-bob-s/
-END:VEVENT
-BEGIN:VEVENT
 UID:chris-young-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-03@letsdo
  itdallas.com
 DTSTAMP:20261004T030000Z
@@ -150,5 +137,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=easton-corbin-18-event-%7
  Cbilly-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:here-come-the-mummies-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10
+ -31@letsdoitdallas.com
+DTSTAMP:20261101T030000Z
+DTSTART:20261101T030000Z
+DTEND:20261101T060000Z
+SUMMARY:Here Come the Mummies (18+ Event)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=here-come-the-mummies-18-
+ event-%7Cbilly-bob-s-fort-worth%7C10-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/billy-bob-s/
 END:VEVENT
 END:VCALENDAR

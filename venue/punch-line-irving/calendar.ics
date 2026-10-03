@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:joe-fenti|punch-line-irving-irving|7-00-pm-2026-10-02@letsdoitdallas.co
- m
-DTSTAMP:20261003T000000Z
-DTSTART:20261003T000000Z
-DTEND:20261003T030000Z
-SUMMARY:Joe Fenti
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=joe-fenti%7Cpunch-line-ir
- ving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:phylicia-dshea|punch-line-irving-irving|9-30-pm-2026-10-02@letsdoitdall
- as.com
-DTSTAMP:20261003T023000Z
-DTSTART:20261003T023000Z
-DTEND:20261003T053000Z
-SUMMARY:Phylicia Dshea
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=phylicia-dshea%7Cpunch-li
- ne-irving-irving%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:joe-fenti|punch-line-irving-irving|7-00-pm-2026-10-03@letsdoitdallas.co
  m
 DTSTAMP:20261004T000000Z
@@ -487,6 +461,19 @@ SUMMARY:Comedy Allstars
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-10-30&e=comedy-allstars%7Cpunch-l
  ine-irving-irving%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:ha-ha-halloween-showcase|punch-line-irving-irving|8-00-pm-2026-10-31@le
+ tsdoitdallas.com
+DTSTAMP:20261101T010000Z
+DTSTART:20261101T010000Z
+DTEND:20261101T040000Z
+SUMMARY:Ha Ha Halloween Showcase
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=ha-ha-halloween-showcase%
+ 7Cpunch-line-irving-irving%7C8-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT

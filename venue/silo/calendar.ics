@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:eli-brown-18-and-over-|silo-dallas|9-00-pm-2026-10-02@letsdoitdallas.co
- m
-DTSTAMP:20261003T020000Z
-DTSTART:20261003T020000Z
-DTEND:20261003T050000Z
-SUMMARY:Eli Brown (18 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=eli-brown-18-and-over-%7C
- silo-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:sasha-and-john-digweed-18-and-over-|silo-dallas|9-00-pm-2026-10-03@lets
  doitdallas.com
 DTSTAMP:20261004T020000Z
@@ -217,5 +204,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=adriatique-18-and-over-%7
  Csilo-dallas%7C9-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:gorgon-city-18-and-over-|silo-dallas|9-00-pm-2026-10-31@letsdoitdallas.
+ com
+DTSTAMP:20261101T020000Z
+DTSTART:20261101T020000Z
+DTEND:20261101T050000Z
+SUMMARY:Gorgon City (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=gorgon-city-18-and-over-%
+ 7Csilo-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/silo/
 END:VEVENT
 END:VCALENDAR

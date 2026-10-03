@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:don-was-and-the-pan-detroit-ensemble|the-kessler-theater-oak-cliff-dall
- as|doors-see-listing-2026-10-02@letsdoitdallas.com
-DTSTAMP:20261002T000000Z
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-SUMMARY:Don Was and The Pan-Detroit Ensemble
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=don-was-and-the-pan-detro
- it-ensemble%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/district/bishop-arts/
-END:VEVENT
-BEGIN:VEVENT
 UID:emma-nissen|the-kessler-theater-dallas|8-00-pm-2026-10-03@letsdoitdalla
  s.com
 DTSTAMP:20261004T010000Z
@@ -205,6 +192,20 @@ SUMMARY:KXT 91.7 presents The War And Treaty
 LOCATION:The Kessler Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-01&e=kxt-91-7-presents-the-war
  -and-treaty%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/district/bishop-arts/
+END:VEVENT
+BEGIN:VEVENT
+UID:lucinda-williams-and-her-band-with-danny-reidy-night-1|the-kessler-thea
+ ter-oak-cliff-dallas|doors-see-listing-2026-11-02@letsdoitdallas.com
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Lucinda Williams and her band with Danny Reidy - Night 1
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=lucinda-williams-and-her-
+ band-with-danny-reidy-night-1%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoo
+ rs-see-listing
 DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/district/bishop-arts/
 END:VEVENT

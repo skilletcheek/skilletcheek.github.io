@@ -10,74 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dawn-and-hawkes-return-to-poor-david-s|poor-david-s-pub-dallas|doors-se
- e-listing-2026-10-02@letsdoitdallas.com
-DTSTAMP:20261002T000000Z
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-SUMMARY:Dawn and Hawkes Return to Poor David's
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=dawn-and-hawkes-return-to
- -poor-david-s%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-02@letsdoitdallas.com
-DTSTAMP:20261002T130000Z
-DTSTART:20261002T130000Z
-DTEND:20261002T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:palace-usa-canada-tour-2026|house-of-blues-dallas-dallas|7-00-pm-2026-1
- 0-02@letsdoitdallas.com
-DTSTAMP:20261003T000000Z
-DTSTART:20261003T000000Z
-DTEND:20261003T030000Z
-SUMMARY:Palace - USA & Canada Tour 2026
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=palace-usa-canada-tour-20
- 26%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-stars-vs-st-louis-blues|american-airlines-center-dallas|8-00-pm-
- 2026-10-02@letsdoitdallas.com
-DTSTAMP:20261003T010000Z
-DTSTART:20261003T010000Z
-DTEND:20261003T040000Z
-SUMMARY:Dallas Stars vs. St. Louis Blues
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=dallas-stars-vs-st-louis-
- blues%7Camerican-airlines-center-dallas%7C8-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:parcels-loved-tour-2026|south-side-ballroom-dallas|8-00-pm-2026-10-02@l
- etsdoitdallas.com
-DTSTAMP:20261003T010000Z
-DTSTART:20261003T010000Z
-DTEND:20261003T040000Z
-SUMMARY:Parcels - Loved Tour 2026
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=parcels-loved-tour-2026%7
- Csouth-side-ballroom-dallas%7C8-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:rick-babb-and-jmt-w-theo-carracino|poor-david-s-pub-dallas|doors-see-li
  sting-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261003T000000Z
@@ -1267,5 +1199,44 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=edgar-alejandro%7Cthe-cam
  bridge-room-at-house-of-blues-dallas%7C7-00-pm
 DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:little-big-town-for-the-art-of-it-tour|music-hall-at-fair-park-dallas|7
+ -30-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261101T003000Z
+DTSTART:20261101T003000Z
+DTEND:20261101T033000Z
+SUMMARY:Little Big Town - For The Art Of It Tour
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=little-big-town-for-the-a
+ rt-of-it-tour%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:pj-morton-saturday-night-sunday-morning-tour|majestic-theatre-dallas-da
+ llas|8-00-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261101T010000Z
+DTSTART:20261101T010000Z
+DTEND:20261101T040000Z
+SUMMARY:PJ Morton - Saturday Night Sunday Morning Tour
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=pj-morton-saturday-night-
+ sunday-morning-tour%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:clrs-halloween|south-side-ballroom-dallas|9-00-pm-2026-10-31@letsdoitda
+ llas.com
+DTSTAMP:20261101T020000Z
+DTSTART:20261101T020000Z
+DTEND:20261101T050000Z
+SUMMARY:CLRS- HALLOWEEN
+LOCATION:South Side Ballroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=clrs-halloween%7Csouth-si
+ de-ballroom-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

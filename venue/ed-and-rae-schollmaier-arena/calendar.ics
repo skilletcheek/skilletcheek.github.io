@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tcu-horned-frogs-womens-volleyball-vs-colorado-buffaloes-womens-volleyb
- all|ed-and-rae-schollmaier-arena-fort-worth|6-30-pm-2026-10-02@letsdoitdal
- las.com
-DTSTAMP:20261002T233000Z
-DTSTART:20261002T233000Z
-DTEND:20261003T023000Z
-SUMMARY:TCU Horned Frogs Womens Volleyball vs. Colorado Buffaloes Womens Vo
- lleyball
-LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=tcu-horned-frogs-womens-v
- olleyball-vs-colorado-buffaloes-womens-volleyball%7Ced-and-rae-schollmaier
- -arena-fort-worth%7C6-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/ed-and-rae-schollmaier-arena/
-END:VEVENT
-BEGIN:VEVENT
 UID:tcu-horned-frogs-womens-volleyball-vs-ucf-knights-womens-volleyball|ed-
  and-rae-schollmaier-arena-fort-worth|2-00-pm-2026-10-04@letsdoitdallas.com
 DTSTAMP:20261004T190000Z
@@ -100,6 +84,22 @@ LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=tcu-horned-frogs-womens-v
  olleyball-vs-kansas-jayhawks-womens-volleyball%7Ced-and-rae-schollmaier-ar
  ena-fort-worth%7C7-00-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/ed-and-rae-schollmaier-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-womens-volleyball-vs-kansas-state-wildcats-womens-voll
+ eyball|ed-and-rae-schollmaier-arena-fort-worth|2-00-pm-2026-11-01@letsdoit
+ dallas.com
+DTSTAMP:20261101T200000Z
+DTSTART:20261101T200000Z
+DTEND:20261101T230000Z
+SUMMARY:TCU Horned Frogs Womens Volleyball vs. Kansas State Wildcats Womens
+  Volleyball
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=tcu-horned-frogs-womens-v
+ olleyball-vs-kansas-state-wildcats-womens-volleyball%7Ced-and-rae-schollma
+ ier-arena-fort-worth%7C2-00-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/ed-and-rae-schollmaier-arena/
 END:VEVENT

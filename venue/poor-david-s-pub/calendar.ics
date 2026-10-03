@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dawn-and-hawkes-return-to-poor-david-s|poor-david-s-pub-dallas|doors-se
- e-listing-2026-10-02@letsdoitdallas.com
-DTSTAMP:20261002T000000Z
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-SUMMARY:Dawn and Hawkes Return to Poor David's
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=dawn-and-hawkes-return-to
- -poor-david-s%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:rick-babb-and-jmt-w-theo-carracino|poor-david-s-pub-dallas|doors-see-li
  sting-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261003T000000Z

@@ -9,6 +9,21 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:ralph-barbosa-s-birthday-fest-car-show|texas-trust-cu-theatre-1001-texa
+ s-trust-way-grand-prairie-75050-united-states|2-30-pm-2026-10-03@letsdoitd
+ allas.com
+DTSTAMP:20261003T193000Z
+DTSTART:20261003T193000Z
+DTEND:20261003T223000Z
+SUMMARY:Ralph Barbosa's Birthday Fest - Car Show
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-10-03&e=ralph-barbosa-s-birthday-
+ fest-car-show%7Ctexas-trust-cu-theatre-1001-texas-trust-way-grand-prairie-
+ 75050-united-states%7C2-30-pm
+DESCRIPTION:Headliners: Ralph Barbosa’s Birthday Fest – Car Show — Mo
+ re: https://letsdoitdallas.com/venue/texas-trust-cu-theatre/
+END:VEVENT
+BEGIN:VEVENT
 UID:ralph-barbosa-s-birthday-fest|texas-trust-cu-theatre-grand-prairie|8-00
  -pm-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261004T010000Z
@@ -18,8 +33,8 @@ SUMMARY:Ralph Barbosa's Birthday Fest
 LOCATION:Texas Trust CU Theatre · Grand Prairie
 URL:https://letsdoitdallas.com/?date=2026-10-03&e=ralph-barbosa-s-birthday-
  fest%7Ctexas-trust-cu-theatre-grand-prairie%7C8-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/texas-trust-cu-theatre/
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/texas-trust-cu-theatre/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-phil-collins-story|texas-trust-cu-theatre-grand-prairie|8-00-pm-202

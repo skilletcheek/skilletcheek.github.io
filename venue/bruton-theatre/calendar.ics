@@ -87,6 +87,19 @@ DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
  /letsdoitdallas.com/venue/bruton-theatre/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-black-academy-of-arts-and-letters-dallas|bruton-theatre-dallas|8-00
+ -pm-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261017T010000Z
+DTSTART:20261017T010000Z
+DTEND:20261017T040000Z
+SUMMARY:The Black Academy of Arts and Letters - Dallas
+LOCATION:Bruton Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=the-black-academy-of-arts
+ -and-letters-dallas%7Cbruton-theatre-dallas%7C8-00-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/bruton-theatre/
+END:VEVENT
+BEGIN:VEVENT
 UID:evening-of-theatre-and-music|bruton-theatre-dallas|8-00-pm-2026-10-17@l
  etsdoitdallas.com
 DTSTAMP:20261018T010000Z

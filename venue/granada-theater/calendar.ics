@@ -9,33 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:inxs-tribute-intxs-tears-for-fears-tribute-mad-world|granada-theater-lo
- wer-greenville-dallas|doors-see-listing-2026-10-02@letsdoitdallas.com
-DTSTAMP:20261002T000000Z
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-SUMMARY:INXS TRIBUTE - INTXS & TEARS FOR FEARS TRIBUTE - Mad World
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=inxs-tribute-intxs-tears-
- for-fears-tribute-mad-world%7Cgranada-theater-lower-greenville-dallas%7Cdo
- ors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
-UID:bryce-bangs|granada-theater-dallas-dallas|9-00-pm-2026-10-02@letsdoitda
- llas.com
-DTSTAMP:20261003T020000Z
-DTSTART:20261003T020000Z
-DTEND:20261003T050000Z
-SUMMARY:Bryce Bangs
-LOCATION:Granada Theater - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=bryce-bangs%7Cgranada-the
- ater-dallas-dallas%7C9-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:blisspop-presents-hot-in-herre-2000s-dance-party|granada-theater-lower-
  greenville-dallas|doors-see-listing-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261003T000000Z
@@ -91,18 +64,17 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:kishi-bashi-sonderlust-10th-anniversary-tour|granada-theater-lower-gree
- nville-dallas|doors-see-listing-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261016T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
-SUMMARY:Kishi Bashi: Sonderlust 10th Anniversary Tour
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=kishi-bashi-sonderlust-10
- th-anniversary-tour%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-
- listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
+UID:kishi-bashi|granada-theater-dallas-dallas|8-00-pm-2026-10-16@letsdoitda
+ llas.com
+DTSTAMP:20261017T010000Z
+DTSTART:20261017T010000Z
+DTEND:20261017T040000Z
+SUMMARY:Kishi Bashi
+LOCATION:Granada Theater - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=kishi-bashi%7Cgranada-the
+ ater-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:snarky-puppy-w-varijashree-venugopal|granada-theater-lower-greenville-d
@@ -200,17 +172,17 @@ DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-linda-lindas|granada-theater-lower-greenville-dallas|doors-see-list
- ing-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+UID:the-linda-lindas|granada-theater-tx-dallas|8-00-pm-2026-10-31@letsdoitd
+ allas.com
+DTSTAMP:20261101T010000Z
+DTSTART:20261101T010000Z
+DTEND:20261101T040000Z
 SUMMARY:The Linda Lindas
-LOCATION:Granada Theater · Dallas
+LOCATION:Granada Theater - TX · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-31&e=the-linda-lindas%7Cgranad
- a-theater-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
+ a-theater-tx-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:rhett-miller-friends-breathe-easy-concert-benefiting-the-cystic-fibrosi
@@ -225,6 +197,20 @@ LOCATION:Granada Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-01&e=rhett-miller-friends-brea
  the-easy-concert-benefiting-the-cystic-fibrosis-foundation%7Cgranada-theat
  er-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
+ enue/granada-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:dinosaur-jr-fall-tour-2026-w-special-guest-stef-chura|granada-theater-l
+ ower-greenville-dallas|doors-see-listing-2026-11-02@letsdoitdallas.com
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Dinosaur Jr. Fall Tour 2026 w / special guest Stef Chura
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=dinosaur-jr-fall-tour-202
+ 6-w-special-guest-stef-chura%7Cgranada-theater-lower-greenville-dallas%7Cd
+ oors-see-listing
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT

@@ -11,20 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-rachmaninoff-and-time-for-three|mort
- on-meyerson-symphony-center-dallas|7-30-pm-2026-10-02@letsdoitdallas.com
-DTSTAMP:20261003T003000Z
-DTSTART:20261003T003000Z
-DTEND:20261003T033000Z
-SUMMARY:Dallas Symphony Orchestra Presents Rachmaninoff and Time for Three
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=dallas-symphony-orchestra
- -presents-rachmaninoff-and-time-for-three%7Cmorton-meyerson-symphony-cente
- r-dallas%7C7-30-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/district/arts-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-symphony-orchestra-presents-rachmaninoff-and-time-for-three|mort
  on-meyerson-symphony-center-dallas|7-30-pm-2026-10-03@letsdoitdallas.com
 DTSTAMP:20261004T003000Z
 DTSTART:20261004T003000Z

@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:erica-rhodes|dallas-comedy-club-mainstage-theater-dallas|7-30-pm-2026-1
- 0-02@letsdoitdallas.com
-DTSTAMP:20261003T003000Z
-DTSTART:20261003T003000Z
-DTEND:20261003T033000Z
-SUMMARY:Erica Rhodes
-LOCATION:Dallas Comedy Club - Mainstage Theater
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=erica-rhodes%7Cdallas-com
- edy-club-mainstage-theater-dallas%7C7-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/dallas-comedy-club-mainstage-theater/
-END:VEVENT
-BEGIN:VEVENT
-UID:erica-rhodes|dallas-comedy-club-mainstage-theater-dallas|9-30-pm-2026-1
- 0-02@letsdoitdallas.com
-DTSTAMP:20261003T023000Z
-DTSTART:20261003T023000Z
-DTEND:20261003T053000Z
-SUMMARY:Erica Rhodes
-LOCATION:Dallas Comedy Club - Mainstage Theater
-URL:https://letsdoitdallas.com/?date=2026-10-02&e=erica-rhodes%7Cdallas-com
- edy-club-mainstage-theater-dallas%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/dallas-comedy-club-mainstage-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:kevin-sullivan|dallas-comedy-club-mainstage-theater-dallas|3-00-pm-2026
  -10-03@letsdoitdallas.com
 DTSTAMP:20261003T200000Z
