@@ -10,21 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jurassic-quest-|-fort-worth-convention-center-|-fort-worth-tx-2026|fort
- -worth-convention-center-fort-worth|9-00-am-2026-10-04@letsdoitdallas.com
-DTSTAMP:20261004T140000Z
-DTSTART:20261004T140000Z
-DTEND:20261004T170000Z
-SUMMARY:Jurassic Quest | Fort Worth Convention Center | Fort Worth\, TX 202
- 6
-LOCATION:Fort Worth Convention Center
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=jurassic-quest-%7C-fort-w
- orth-convention-center-%7C-fort-worth-tx-2026%7Cfort-worth-convention-cent
- er-fort-worth%7C9-00-am
-DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
- sdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
  ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-04@lets
  doitdallas.com
@@ -58,19 +43,6 @@ DESCRIPTION:The Masure Gallery is thrilled to present the solo photograp
  rapher who specializes in high-key\, minimalist photography. Originall
  y born in Finland\, the exhibition title Kaiku is from the Finnish langu
  age which tran — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
- orth|11-00-am-2026-10-04@letsdoitdallas.com
-DTSTAMP:20261004T160000Z
-DTSTART:20261004T160000Z
-DTEND:20261004T190000Z
-SUMMARY:Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=rapunzel-rapunzel-a-very-
- hairy-fairy-tale-fort-worth%7Ccasa-manana-fort-worth%7C11-00-am
-DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
- /district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
@@ -114,8 +86,8 @@ SUMMARY:Stockyards Championship Rodeo
 LOCATION:Cowtown Coliseum · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-04&e=stockyards-championship-r
  odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/fort-worth/
+DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:pbr-teams-series-rattler-days|dickies-arena-fort-worth|1-45-pm-2026-10-
@@ -131,32 +103,17 @@ DESCRIPTION:Rodeo event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:casanova|bass-performance-hall-fort-worth|2-00-pm-2026-10-04@letsdoitda
- llas.com
+UID:ucf-knights-at-tcu-horned-frogs-womens-volleyball|ed-rae-schollmaier-ar
+ ena-fort-worth|2-00-pm-2026-10-04@letsdoitdallas.com
 DTSTAMP:20261004T190000Z
 DTSTART:20261004T190000Z
 DTEND:20261004T220000Z
-SUMMARY:Casanova
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=casanova%7Cbass-performan
- ce-hall-fort-worth%7C2-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:tcu-horned-frogs-womens-volleyball-vs-ucf-knights-womens-volleyball|ed-
- and-rae-schollmaier-arena-fort-worth|2-00-pm-2026-10-04@letsdoitdallas.com
-DTSTAMP:20261004T190000Z
-DTSTART:20261004T190000Z
-DTEND:20261004T220000Z
-SUMMARY:TCU Horned Frogs Womens Volleyball vs. UCF Knights Womens Volleybal
- l
-LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=tcu-horned-frogs-womens-v
- olleyball-vs-ucf-knights-womens-volleyball%7Ced-and-rae-schollmaier-arena-
- fort-worth%7C2-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/fort-worth/
+SUMMARY:UCF Knights at TCU Horned Frogs Womens Volleyball
+LOCATION:Ed & Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=ucf-knights-at-tcu-horned
+ -frogs-womens-volleyball%7Ced-rae-schollmaier-arena-fort-worth%7C2-00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
@@ -330,6 +287,41 @@ DESCRIPTION:The Dock open mic presents Speak And Be Published. Everyone who
   reads gets their poem published in an anthology   June 16\, 2026 at 7:30 
  PM CDT  The Dock Bookshop  $7 — More: https://letsdoitdallas.com/distric
  t/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-06@letsdoitdallas.com
+DTSTAMP:20261006T150000Z
+DTSTART:20261006T150000Z
+DTEND:20261006T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-06@lets
+ doitdallas.com
+DTSTAMP:20261006T150000Z
+DTSTART:20261006T150000Z
+DTEND:20261006T180000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:music-of-john-denver|casa-manana-fort-worth|7-30-pm-2026-10-06@letsdoit
@@ -1097,6 +1089,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-18&e=tcu-horned-frogs-womens-v
  -fort-worth%7C2-00-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
+ orth|3-00-pm-2026-10-18@letsdoitdallas.com
+DTSTAMP:20261018T200000Z
+DTSTART:20261018T200000Z
+DTEND:20261018T230000Z
+SUMMARY:Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=rapunzel-rapunzel-a-very-
+ hairy-fairy-tale-fort-worth%7Ccasa-manana-fort-worth%7C3-00-pm
+DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:music-of-john-denver|casa-manana-fort-worth|7-00-pm-2026-10-18@letsdoit
