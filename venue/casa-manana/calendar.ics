@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
- orth|5-00-pm-2026-10-03@letsdoitdallas.com
-DTSTAMP:20261003T220000Z
-DTSTART:20261003T220000Z
-DTEND:20261004T010000Z
-SUMMARY:Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=rapunzel-rapunzel-a-very-
- hairy-fairy-tale-fort-worth%7Ccasa-manana-fort-worth%7C5-00-pm
-DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/casa-manana/
-END:VEVENT
-BEGIN:VEVENT
-UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
  orth|11-00-am-2026-10-04@letsdoitdallas.com
 DTSTAMP:20261004T160000Z
 DTSTART:20261004T160000Z
@@ -243,6 +230,19 @@ DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
  /venue/casa-manana/
 END:VEVENT
 BEGIN:VEVENT
+UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
+ orth|5-00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T220000Z
+DTSTART:20261017T220000Z
+DTEND:20261018T010000Z
+SUMMARY:Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=rapunzel-rapunzel-a-very-
+ hairy-fairy-tale-fort-worth%7Ccasa-manana-fort-worth%7C5-00-pm
+DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
 UID:music-of-john-denver|casa-manana-fort-worth|8-00-pm-2026-10-17@letsdoit
  dallas.com
 DTSTAMP:20261018T010000Z
@@ -254,6 +254,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=music-of-john-denver%7Cca
  sa-manana-fort-worth%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
+UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
+ orth|11-00-am-2026-10-18@letsdoitdallas.com
+DTSTAMP:20261018T160000Z
+DTSTART:20261018T160000Z
+DTEND:20261018T190000Z
+SUMMARY:Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=rapunzel-rapunzel-a-very-
+ hairy-fairy-tale-fort-worth%7Ccasa-manana-fort-worth%7C11-00-am
+DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/casa-manana/
 END:VEVENT
 BEGIN:VEVENT
 UID:music-of-john-denver|casa-manana-fort-worth|7-00-pm-2026-10-18@letsdoit

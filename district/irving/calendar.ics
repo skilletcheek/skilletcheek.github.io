@@ -10,61 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:irving-oktoberfest|toyota-music-factory-irving|12-00-pm-8-00-pm-2026-10
- -03@letsdoitdallas.com
-DTSTAMP:20261003T170000Z
-DTSTART:20261003T170000Z
-DTEND:20261003T200000Z
-SUMMARY:Irving Oktoberfest
-LOCATION:Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=irving-oktoberfest%7Ctoyo
- ta-music-factory-irving%7C12-00-pm-8-00-pm
-DESCRIPTION:Oktoberfest at Toyota Music Factory brings a full day of German
-  beer\, food\, live music\, games\, and festive fun to the Plaza. Enjoy a 
- German beer garden\, market vendors\, keg bowling\, Oktoberfest games\, an
- d stein-holding competitions. Think you can hold your stein the longest? C
- omp — More: https://letsdoitdallas.com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:joe-fenti|punch-line-irving-irving|7-00-pm-2026-10-03@letsdoitdallas.co
- m
-DTSTAMP:20261004T000000Z
-DTSTART:20261004T000000Z
-DTEND:20261004T030000Z
-SUMMARY:Joe Fenti
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=joe-fenti%7Cpunch-line-ir
- ving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:insecure-the-10th-anniversary-tour|the-pavilion-at-toyota-music-factory
- -irving|8-00-pm-2026-10-03@letsdoitdallas.com
-DTSTAMP:20261004T010000Z
-DTSTART:20261004T010000Z
-DTEND:20261004T040000Z
-SUMMARY:Insecure: The 10th Anniversary Tour
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=insecure-the-10th-anniver
- sary-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:joe-fenti|punch-line-irving-irving|9-15-pm-2026-10-03@letsdoitdallas.co
- m
-DTSTAMP:20261004T021500Z
-DTSTART:20261004T021500Z
-DTEND:20261004T051500Z
-SUMMARY:Joe Fenti
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=joe-fenti%7Cpunch-line-ir
- ving-irving%7C9-15-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:zz-top|the-pavilion-at-toyota-music-factory-irving|6-00-pm-2026-10-04@l
  etsdoitdallas.com
 DTSTAMP:20261004T230000Z
@@ -783,5 +728,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-01&e=rnb-x-live-in-dallas%7Cth
  e-pavilion-at-toyota-music-factory-irving%7C5-00-pm
 DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:alvin-perry-friends|punch-line-irving-irving|7-00-pm-2026-11-01@letsdoi
+ tdallas.com
+DTSTAMP:20261102T010000Z
+DTSTART:20261102T010000Z
+DTEND:20261102T040000Z
+SUMMARY:Alvin Perry & Friends
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=alvin-perry-friends%7Cpun
+ ch-line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
 END:VEVENT
 END:VCALENDAR

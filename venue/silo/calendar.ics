@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sasha-and-john-digweed-18-and-over-|silo-dallas|9-00-pm-2026-10-03@lets
- doitdallas.com
-DTSTAMP:20261004T020000Z
-DTSTART:20261004T020000Z
-DTEND:20261004T050000Z
-SUMMARY:Sasha and John Digweed (18 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=sasha-and-john-digweed-18
- -and-over-%7Csilo-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:joris-voorn-ages-18-|silo-dallas|5-00-pm-2026-10-04@letsdoitdallas.com
 DTSTAMP:20261004T220000Z
 DTSTART:20261004T220000Z
@@ -217,5 +204,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=gorgon-city-18-and-over-%
  7Csilo-dallas%7C9-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:pan-pot-21-and-over-|silo-dallas|7-00-pm-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261102T010000Z
+DTSTART:20261102T010000Z
+DTEND:20261102T040000Z
+SUMMARY:Pan-Pot (21 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=pan-pot-21-and-over-%7Csi
+ lo-dallas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/silo/
 END:VEVENT
 END:VCALENDAR

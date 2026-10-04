@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:skins-party|three-links-deep-ellum-dallas|10-00-pm-2026-10-03@letsdoitd
- allas.com
-DTSTAMP:20261004T030000Z
-DTSTART:20261004T030000Z
-DTEND:20261004T060000Z
-SUMMARY:Skins Party
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=skins-party%7Cthree-links
- -deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-04@letsdoitd
  allas.com
 DTSTAMP:20261005T040000Z

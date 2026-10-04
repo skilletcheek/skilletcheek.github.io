@@ -11,20 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-rachmaninoff-and-time-for-three|mort
- on-meyerson-symphony-center-dallas|7-30-pm-2026-10-03@letsdoitdallas.com
-DTSTAMP:20261004T003000Z
-DTSTART:20261004T003000Z
-DTEND:20261004T033000Z
-SUMMARY:Dallas Symphony Orchestra Presents Rachmaninoff and Time for Three
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=dallas-symphony-orchestra
- -presents-rachmaninoff-and-time-for-three%7Cmorton-meyerson-symphony-cente
- r-dallas%7C7-30-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/district/arts-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-symphony-orchestra-presents-rachmaninoff-and-time-for-three|mort
  on-meyerson-symphony-center-dallas|2-00-pm-2026-10-04@letsdoitdallas.com
 DTSTAMP:20261004T190000Z
 DTSTART:20261004T190000Z
@@ -155,6 +141,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=dallas-symphony-orchestra
  hony-center-dallas%7C7-30-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:donizetti-s-the-elixir-of-love-dallas|margot-and-bill-winspear-opera-ho
+ use-dallas|7-30-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261018T003000Z
+DTSTART:20261018T003000Z
+DTEND:20261018T033000Z
+SUMMARY:Donizetti's The Elixir of Love - Dallas
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=donizetti-s-the-elixir-of
+ -love-dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C7-30-pm
+DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-beethoven-and-strauss-with-daniel-ha

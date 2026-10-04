@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:arin-ray-the-limbo-tour|the-cambridge-room-at-house-of-blues-dallas|7-0
- 0-pm-2026-10-03@letsdoitdallas.com
-DTSTAMP:20261004T000000Z
-DTSTART:20261004T000000Z
-DTEND:20261004T030000Z
-SUMMARY:Arin Ray - The Limbo Tour
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=arin-ray-the-limbo-tour%7
- Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/the-cambridge-room-at-house-of-blues/
-END:VEVENT
-BEGIN:VEVENT
 UID:lauren-sanderson-come-say-sum-tour|the-cambridge-room-at-house-of-blues
  -dallas|7-00-pm-2026-10-05@letsdoitdallas.com
 DTSTAMP:20261006T000000Z

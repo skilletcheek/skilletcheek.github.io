@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ian-fidance|addison-improv-addison|7-00-pm-2026-10-03@letsdoitdallas.co
- m
-DTSTAMP:20261004T000000Z
-DTSTART:20261004T000000Z
-DTEND:20261004T030000Z
-SUMMARY:Ian Fidance
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=ian-fidance%7Caddison-imp
- rov-addison%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:ian-fidance|addison-improv-addison|9-30-pm-2026-10-03@letsdoitdallas.co
- m
-DTSTAMP:20261004T023000Z
-DTSTART:20261004T023000Z
-DTEND:20261004T053000Z
-SUMMARY:Ian Fidance
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=ian-fidance%7Caddison-imp
- rov-addison%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:flip-phone-rocky-horror-drag-brunch|addison-improv-addison|2-00-pm-2026
  -10-04@letsdoitdallas.com
 DTSTAMP:20261004T190000Z
@@ -405,6 +379,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=corey-holcomb%7Caddison-i
  mprov-addison%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-10
+ -24@letsdoitdallas.com
+DTSTAMP:20261024T190000Z
+DTSTART:20261024T190000Z
+DTEND:20261024T220000Z
+SUMMARY:Family Magic & Comedy For All Ages
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=family-magic-comedy-for-a
+ ll-ages%7Caddison-improv-addison%7C2-00-pm
+DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:corey-holcomb|addison-improv-addison|7-00-pm-2026-10-24@letsdoitdallas.

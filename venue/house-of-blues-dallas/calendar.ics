@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lp-all-is-not-lost-tour|house-of-blues-dallas-dallas|7-00-pm-2026-10-03
- @letsdoitdallas.com
-DTSTAMP:20261004T000000Z
-DTSTART:20261004T000000Z
-DTEND:20261004T030000Z
-SUMMARY:LP - All Is Not Lost Tour
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=lp-all-is-not-lost-tour%7
- Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:paris-paloma-the-fatal-flaw-tour|house-of-blues-dallas-dallas|7-00-pm-2
  026-10-04@letsdoitdallas.com
 DTSTAMP:20261005T000000Z
@@ -254,5 +241,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=voil-presents-moonbloom%7
  Chouse-of-blues-dallas-dallas%7C6-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:esteman-daniela-spalla-amorio-usa-tour|house-of-blues-dallas-dallas|7-0
+ 0-pm-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261102T010000Z
+DTSTART:20261102T010000Z
+DTEND:20261102T040000Z
+SUMMARY:ESTEMAN & DANIELA SPALLA - AMORIO USA TOUR
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=esteman-daniela-spalla-am
+ orio-usa-tour%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/house-of-blues-dallas/
 END:VEVENT
 END:VCALENDAR

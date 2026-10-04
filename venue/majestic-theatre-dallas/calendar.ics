@@ -3,24 +3,11 @@ VERSION:2.0
 PRODID:-//Lets Do It Dallas//DFW Events//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Majestic Theatre - Dallas — Lets Do It Dallas
-X-WR-CALDESC:Upcoming shows at Majestic Theatre - Dallas.
+X-WR-CALNAME:Majestic Theatre Dallas — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Majestic Theatre Dallas.
 X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VEVENT
-UID:small-town-murder-podcast|majestic-theatre-dallas-dallas|8-00-pm-2026-1
- 0-03@letsdoitdallas.com
-DTSTAMP:20261004T010000Z
-DTSTART:20261004T010000Z
-DTEND:20261004T040000Z
-SUMMARY:Small Town Murder Podcast
-LOCATION:Majestic Theatre - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=small-town-murder-podcast
- %7Cmajestic-theatre-dallas-dallas%7C8-00-pm
-DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/majestic-theatre-dallas/
-END:VEVENT
 BEGIN:VEVENT
 UID:boz-scaggs|majestic-theatre-dallas-dallas|7-00-pm-2026-10-04@letsdoitda
  llas.com
@@ -177,5 +164,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=pj-morton-saturday-night-
  sunday-morning-tour%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
 DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:old-crow-medicine-show-w-ken-pomeroy|majestic-theatre-dallas-dallas|8-0
+ 0-pm-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261102T020000Z
+DTSTART:20261102T020000Z
+DTEND:20261102T050000Z
+SUMMARY:Old Crow Medicine Show w/ Ken Pomeroy
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=old-crow-medicine-show-w-
+ ken-pomeroy%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/majestic-theatre-dallas/
 END:VEVENT
 END:VCALENDAR

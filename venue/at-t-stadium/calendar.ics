@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pit-pass-monster-jam|at-t-stadium-arlington|2-30-pm-2026-10-03@letsdoit
- dallas.com
-DTSTAMP:20261003T193000Z
-DTSTART:20261003T193000Z
-DTEND:20261003T223000Z
-SUMMARY:PIT PASS - MONSTER JAM
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=pit-pass-monster-jam%7Cat
- -t-stadium-arlington%7C2-30-pm
-DESCRIPTION:monster truck event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
-UID:monster-jam|at-t-stadium-arlington|7-00-pm-2026-10-03@letsdoitdallas.co
- m
-DTSTAMP:20261004T000000Z
-DTSTART:20261004T000000Z
-DTEND:20261004T030000Z
-SUMMARY:Monster Jam
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=monster-jam%7Cat-t-stadiu
- m-arlington%7C7-00-pm
-DESCRIPTION:Motorsports/Racing event via Ticketmaster. — More: https://le
- tsdoitdallas.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-04
  @letsdoitdallas.com
 DTSTAMP:20261004T150000Z
@@ -525,6 +499,45 @@ SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-10-17&e=at-t-stadium-vip-guided-t
  our%7Cat-t-stadium-arlington%7C2-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-10-17@
+ letsdoitdallas.com
+DTSTAMP:20261017T210000Z
+DTSTART:20261017T210000Z
+DTEND:20261018T000000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C4-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-18
+ @letsdoitdallas.com
+DTSTAMP:20261018T150000Z
+DTSTART:20261018T150000Z
+DTEND:20261018T180000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C10-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-10-18
+ @letsdoitdallas.com
+DTSTAMP:20261018T170000Z
+DTSTART:20261018T170000Z
+DTEND:20261018T200000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C12-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/at-t-stadium/
 END:VEVENT

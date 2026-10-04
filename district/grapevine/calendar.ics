@@ -11,13 +11,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
- e-tx-76051-united-states|8-00-am-2026-10-03@letsdoitdallas.com
-DTSTAMP:20261003T130000Z
-DTSTART:20261003T130000Z
-DTEND:20261003T160000Z
+ e-tx-76051-united-states|8-00-am-2026-10-04@letsdoitdallas.com
+DTSTAMP:20261004T130000Z
+DTSTART:20261004T130000Z
+DTEND:20261004T160000Z
 SUMMARY:Phenomenomaly at Meow Wolf
 LOCATION:Meow Wolf · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=phenomenomaly-at-meow-wol
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=phenomenomaly-at-meow-wol
  f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
  C8-00-am
 DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
@@ -25,96 +25,6 @@ DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
  ctive theater with a rotating lineup of North Texas talent\, the experienc
  e unfolds around guests as they explore\, featuring music\, dance\, comedy
  \, — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:open-play-saturday|grapevine|12-00-pm-2026-10-03@letsdoitdallas.com
-DTSTAMP:20261003T170000Z
-DTSTART:20261003T170000Z
-DTEND:20261003T200000Z
-SUMMARY:Open Play Saturday
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=open-play-saturday%7Cgrap
- evine%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:recording-studio-attended|grapevine|12-00-pm-2026-10-03@letsdoitdallas.
- com
-DTSTAMP:20261003T170000Z
-DTSTART:20261003T170000Z
-DTEND:20261003T200000Z
-SUMMARY:Recording Studio Attended
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=recording-studio-attended
- %7Cgrapevine%7C12-00-pm
-DESCRIPTION:Interested in podcasting or recording music? Come learn how to 
- use the library’s Recording Studio! To reserve and use the Recording Stu
- dio\, you must first complete a mandatory orientation. Orientations are of
- fered on Saturdays from 12 to 4 pm. No registration or appointment neede 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:board-game-meet-up-for-adults-|grapevine|02-00-pm-2026-10-03@letsdoitda
- llas.com
-DTSTAMP:20261003T190000Z
-DTSTART:20261003T190000Z
-DTEND:20261003T220000Z
-SUMMARY:Board Game Meet-Up for Adults!
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=board-game-meet-up-for-ad
- ults-%7Cgrapevine%7C02-00-pm
-DESCRIPTION:Join us for a fun day of board and card gaming at the library. 
- Select from our collection of board games\, card games\, party games\, or 
- bring your own games! 1st & 3rd Saturdays (and those ocassional 5th Saturd
- ays: 1/31\, 5/30\, 8/29\, & 10/31) For Adults\, ages 18+ October 3\, 2026 
- 02: — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:read-to-a-furry-friend|grapevine|02-30-pm-2026-10-03@letsdoitdallas.com
-DTSTAMP:20261003T193000Z
-DTSTART:20261003T193000Z
-DTEND:20261003T223000Z
-SUMMARY:Read to a Furry Friend
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=read-to-a-furry-friend%7C
- grapevine%7C02-30-pm
-DESCRIPTION:The 1st and 3rd Saturday the library is visited by therapy dogs
- . They love to listen to children practice reading! No registration needed
- . October 3\, 2026 02:30 PM - 03:30 PM Grapevine\, TX 76051 https://www.gr
- apevinetexas.gov/Calendar.aspx?EID=17686/639221334170000000 — More: http
- s://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:grapevine-main-live-|peace-plaza-801-s-main-street-grapevine-76051-unit
- ed-states|7-30-pm-2026-10-03@letsdoitdallas.com
-DTSTAMP:20261004T003000Z
-DTSTART:20261004T003000Z
-DTEND:20261004T033000Z
-SUMMARY:Grapevine Main LIVE!
-LOCATION:Peace Plaza · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=grapevine-main-live-%7Cpe
- ace-plaza-801-s-main-street-grapevine-76051-united-states%7C7-30-pm
-DESCRIPTION:Grapevine Main LIVE! is back and bigger than ever with an 8-wee
- k Spring Music Series sure to hit all the right notes! Guests can enjoy fo
- od from eight chef-inspired global kitchens as well as specialty crafted c
- ocktails and performances by some of the best local artists and bands — 
- More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-wedding-singer|runway-theatre-215-n-dooley-street-grapevine-76051-u
- nited-states|7-30-pm-2026-10-03@letsdoitdallas.com
-DTSTAMP:20261004T003000Z
-DTSTART:20261004T003000Z
-DTEND:20261004T033000Z
-SUMMARY:The Wedding Singer
-LOCATION:Runway Theatre · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=the-wedding-singer%7Crunw
- ay-theatre-215-n-dooley-street-grapevine-76051-united-states%7C7-30-pm
-DESCRIPTION:When love gets loud\, life gets hilarious.  Big hair. Big feel
- ings. Bigger laughs. This high-energy musical takes you straight back to t
- he 80s with a love story that’s equal parts sweet and zany. Wedding sing
- er Robbie Hart is everybody’s favorite life-of-the-party… until his ow
- n l — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:open-sewing-fiber-arts-studio-18-|grapevine|10-00-am-2026-10-04@letsdoi
@@ -162,6 +72,22 @@ DESCRIPTION:Who: Ages 8+ What: The Esports Academy's gaming PCs and console
  r Smash Bros.Tournament and Mario Kart Grand Prix. Stop by this Sunday to 
  hone your in-game skills\, learn strategy\, and compete with peers! Whe 
  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-wedding-singer|runway-theatre-215-n-dooley-street-grapevine-76051-u
+ nited-states|3-00-pm-2026-10-04@letsdoitdallas.com
+DTSTAMP:20261004T200000Z
+DTSTART:20261004T200000Z
+DTEND:20261004T230000Z
+SUMMARY:The Wedding Singer
+LOCATION:Runway Theatre · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-04&e=the-wedding-singer%7Crunw
+ ay-theatre-215-n-dooley-street-grapevine-76051-united-states%7C3-00-pm
+DESCRIPTION:When love gets loud\, life gets hilarious.  Big hair. Big feel
+ ings. Bigger laughs. This high-energy musical takes you straight back to t
+ he 80s with a love story that’s equal parts sweet and zany. Wedding sing
+ er Robbie Hart is everybody’s favorite life-of-the-party… until his ow
+ n l — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:stem-lab-18-|grapevine|10-00-am-2026-10-05@letsdoitdallas.com
@@ -1309,6 +1235,53 @@ DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
  sdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
+UID:open-sewing-fiber-arts-studio-18-|grapevine|10-00-am-2026-10-18@letsdoi
+ tdallas.com
+DTSTAMP:20261018T150000Z
+DTSTART:20261018T150000Z
+DTEND:20261018T180000Z
+SUMMARY:Open Sewing & Fiber Arts Studio (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=open-sewing-fiber-arts-st
+ udio-18-%7Cgrapevine%7C10-00-am
+DESCRIPTION:This open session gives you access to sewing machines\, knittin
+ g tools\, and more fiber arts equipment. Our knowledgeable staff will be o
+ n hand to guide you\, share tips\, and support you as you work on your pro
+ jects. Open to adults 18+\, library card in good standing required. Open t
+  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-cart|grapevine|10-30-am-2026-10-18@letsdoitdallas.com
+DTSTAMP:20261018T153000Z
+DTSTART:20261018T153000Z
+DTEND:20261018T183000Z
+SUMMARY:Art Cart
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=art-cart%7Cgrapevine%7C10
+ -30-am
+DESCRIPTION:Use your creativity\, critical thinking\, and maker skills to m
+ ake crafts for your friends and family using the art and craft supplies pr
+ ovided on the Art Cart. October 18\, 2026 10:30 AM - 02:30 PM Grapevine\, 
+ TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17511/639169542 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:pathfinder-2e-ongoing-campaign|grapevine|11-30-am-2026-10-18@letsdoitda
+ llas.com
+DTSTAMP:20261018T163000Z
+DTSTART:20261018T163000Z
+DTEND:20261018T193000Z
+SUMMARY:Pathfinder 2e - Ongoing Campaign
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=pathfinder-2e-ongoing-cam
+ paign%7Cgrapevine%7C11-30-am
+DESCRIPTION:Registration Required to attend. Join us in the Library Board R
+ oom for our ongoing Pathfinder 2e campaign! Registration for the current c
+ ampaign in full\, but new players are always welcome to join us on the fir
+ st Saturday of the month for an open session available to all who regi —
+  More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
 UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
  rapevine-vintage-railroad-grapevine|12-00-pm-2026-10-18@letsdoitdallas.com
 DTSTAMP:20261018T170000Z
@@ -1321,6 +1294,38 @@ URL:https://letsdoitdallas.com/?date=2026-10-18&e=day-out-with-thomas-tm-th
  grapevine%7C12-00-pm
 DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
  sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:level-up-smash-bros-training-camp|grapevine|12-30-pm-2026-10-18@letsdoi
+ tdallas.com
+DTSTAMP:20261018T173000Z
+DTSTART:20261018T173000Z
+DTEND:20261018T203000Z
+SUMMARY:Level Up: Smash Bros. Training Camp
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=level-up-smash-bros-train
+ ing-camp%7Cgrapevine%7C12-30-pm
+DESCRIPTION:Who: Ages 8+ What: The Esports Academy's gaming PCs and console
+ s will be available for tournament practice during the holiday-themed Supe
+ r Smash Bros.Tournament and Mario Kart Grand Prix. Stop by this Sunday to 
+ hone your in-game skills\, learn strategy\, and compete with peers! Whe 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:teen-junk-journal-club-ages-13-17-|grapevine|02-00-pm-2026-10-18@letsdo
+ itdallas.com
+DTSTAMP:20261018T190000Z
+DTSTART:20261018T190000Z
+DTEND:20261018T220000Z
+SUMMARY:Teen Junk Journal Club (ages 13-17)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=teen-junk-journal-club-ag
+ es-13-17-%7Cgrapevine%7C02-00-pm
+DESCRIPTION:Unleash your creativity and make a journal that’s completely 
+ your own! ✂️📓 Join us for a relaxed\, creative space where you can 
+ collage\, doodle\, decorate\, write\, and experiment with different papers
+ \, stickers\, ephemera\, and other fun materials. Whether you’re new to 
+ junk journalin — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g

@@ -10,32 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
- 10-03@letsdoitdallas.com
-DTSTAMP:20261003T183000Z
-DTSTART:20261003T183000Z
-DTEND:20261003T213000Z
-SUMMARY:Stockyards Championship Rodeo
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=stockyards-championship-r
- odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
-DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
- venue/cowtown-coliseum/
-END:VEVENT
-BEGIN:VEVENT
-UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
- 10-03@letsdoitdallas.com
-DTSTAMP:20261004T003000Z
-DTSTART:20261004T003000Z
-DTEND:20261004T033000Z
-SUMMARY:Stockyards Championship Rodeo
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-03&e=stockyards-championship-r
- odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/cowtown-coliseum/
-END:VEVENT
-BEGIN:VEVENT
-UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
  10-04@letsdoitdallas.com
 DTSTAMP:20261004T183000Z
 DTSTART:20261004T183000Z
@@ -423,5 +397,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-01&e=stockyards-championship-r
  odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-11-02@
+ letsdoitdallas.com
+DTSTAMP:20261102T183000Z
+DTSTART:20261102T183000Z
+DTEND:20261102T213000Z
+SUMMARY:Legacy of the Longhorn
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=legacy-of-the-longhorn%7C
+ cowtown-coliseum-fort-worth%7C12-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/cowtown-coliseum/
 END:VEVENT
 END:VCALENDAR
