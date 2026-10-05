@@ -208,6 +208,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/cowtown-coliseum/
 END:VEVENT
 BEGIN:VEVENT
+UID:big-guns|cowtown-coliseum-fort-worth|7-00-pm-2026-10-21@letsdoitdallas.
+ com
+DTSTAMP:20261022T000000Z
+DTSTART:20261022T000000Z
+DTEND:20261022T030000Z
+SUMMARY:Big Guns
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=big-guns%7Ccowtown-colise
+ um-fort-worth%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
 UID:pbr-stockyards-showcase|cowtown-coliseum-fort-worth|7-30-pm-2026-10-22@
  letsdoitdallas.com
 DTSTAMP:20261023T003000Z

@@ -1,29 +1,5 @@
 [
  {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-10-05",
-  "time": "1:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-05-1-pm/18499979",
-  "image": null
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-10-05",
-  "time": "3:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-05-3-pm/18499982",
-  "image": null
- },
- {
   "name": "After-School Cinema & Snacks",
   "category": "family",
   "area": "Grapevine Public Library, 1201 Municipal Way, Grapevine",
@@ -37,22 +13,6 @@
   "organizer": {
    "name": "City of Grapevine",
    "url": "https://grapevinetexas.gov/"
-  }
- },
- {
-  "name": "Big Sprouts Garden Class",
-  "category": "outdoors",
-  "area": "1700 Veterans Memorial Parkway, Lancaster",
-  "city": "Lancaster",
-  "date": "2026-10-05",
-  "time": "05:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8298",
-  "image": null,
-  "organizer": {
-   "name": "City of Lancaster",
-   "url": "https://lancaster-tx.com/"
   }
  },
  {
@@ -102,18 +62,6 @@
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
   }
- },
- {
-  "name": "Brass Band",
-  "category": "music",
-  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
-  "city": "Denton",
-  "date": "2026-10-05",
-  "time": "7:30 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.",
-  "url": "https://calendar.unt.edu/event/brass-band26",
-  "image": null
  },
  {
   "name": "Dallas Stars vs. San Jose Sharks",
@@ -266,38 +214,6 @@
   "description": "Consistently rated the best local scavenger hunt since 2016!  Puzzling Adventures are a cross between a scavenger hunt, an adventure race, and an informative self-guided walking tour. Each adventure consists of a series of locations that you are guided to where you are required t",
   "url": "https://whatsupfortworth.com/event/puzzling-adventures-scavenger-hunt/2026-10-05/",
   "image": null
- },
- {
-  "name": "SBDC Workshop: How to Start a Business",
-  "category": "arts",
-  "area": "Central Library, Garland",
-  "city": "Garland",
-  "date": "2026-10-05",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "12:00 p.m.; Meet us in the Small Business Incubator for Small Business Development Centers (SBDC) presentations on professional business and finance topics. The SBDC provides trainings and support for small businesses and start-ups to help them grow. October 5, 2026 12:00 PM - 01",
-  "url": "https://www.garlandtx.gov/m/calendar/event/detail/13043",
-  "image": null,
-  "organizer": {
-   "name": "City of Garland",
-   "url": "https://garlandtx.gov/"
-  }
- },
- {
-  "name": "STEM Lab (18+)",
-  "category": "family",
-  "area": "Grapevine",
-  "city": "Grapevine",
-  "date": "2026-10-05",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "Mondays & Wednesdays 10 AM-1:00 PM (Adults, ages 18+) Join us at Grapevine Makerspace for our STEM Lab! During this session, you’ll have access to 3D printers, laser cutters, and other equipment. Our knowledgeable staff will be available to provide guidance, tips, and support as ",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17813",
-  "image": null,
-  "organizer": {
-   "name": "City of Grapevine",
-   "url": "https://grapevinetexas.gov/"
-  }
  },
  {
   "name": "Specialized Karaoke Night with RUEN",
@@ -3512,18 +3428,6 @@
   }
  },
  {
-  "name": "Senior Recital: Eva Gomez, horn",
-  "category": "music",
-  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-10",
-  "time": "3:30 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program  Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/senior-recital-eva-gomez-horn",
-  "image": null
- },
- {
   "name": "Share the Arrows 2026",
   "category": "festival",
   "area": "Credit Union of Texas Event Center, Allen",
@@ -3670,6 +3574,18 @@
    "name": "City of Frisco",
    "url": "https://friscotexas.gov/"
   }
+ },
+ {
+  "name": "The William Gammon Henry Concerto Competition: 2026 Piano Prelims",
+  "category": "music",
+  "area": "Recital Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-10",
+  "time": "2:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/the-william-gammon-henry-concerto-competition-2026-piano-prelims",
+  "image": null
  },
  {
   "name": "Tyler Farr (18 and Over)",
@@ -4054,6 +3970,18 @@
   "description": "Alternative event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/greywind-waiting-4-april-rain-three-links-deep-ellum-tickets/14192654",
   "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Guest Artist Recital: Yoshiyuki Ishikawa, bassoon",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-11",
+  "time": "2:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/guest-artist-recital-yoshiyuki-ishikawa-bassoon",
+  "image": null
  },
  {
   "name": "Hurricane Wisdom",
@@ -5388,18 +5316,6 @@
   }
  },
  {
-  "name": "Senior Recital: Margaret Nicholson, jazz voice",
-  "category": "music",
-  "area": "Lab West at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-13",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/senior-recital-margaret-nicholson-jazz-voice",
-  "image": null
- },
- {
   "name": "Spanish Conversation Circle (Ages 18+)",
   "category": "family",
   "area": "South Garland Library, Garland",
@@ -6164,15 +6080,15 @@
   }
  },
  {
-  "name": "UpFront! Concert",
+  "name": "UpFront! Fall 2026 Concert 2",
   "category": "music",
   "area": "Paul Voertman Concert Hall at the Music Building, Denton",
   "city": "Denton",
   "date": "2026-10-14",
   "time": "3:30 PM",
   "cost": null,
-  "description": "Important Links and Information  Livestream  Program    This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/upfront_concert_5644",
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/upfront-fall-2026-concert-2",
   "image": null
  },
  {
@@ -7146,18 +7062,6 @@
    "name": "City of Grapevine",
    "url": "https://grapevinetexas.gov/"
   }
- },
- {
-  "name": "Brass Chamber Music Concert",
-  "category": "music",
-  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-16",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/chamber-music-concert264",
-  "image": null
  },
  {
   "name": "Bright Eyes (16 and Under with Parent or Legal Guardian)",
@@ -10180,15 +10084,15 @@
   "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Brass Chamber Music Concert",
+  "name": "Big Guns",
   "category": "music",
-  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
-  "city": "Denton",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
   "date": "2026-10-21",
-  "time": "8:00 PM",
+  "time": "7:00 PM",
   "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/chamber-music-concert266",
+  "description": "concert event via SeatGeek.",
+  "url": "https://seatgeek.com/big-guns-tickets/fort-worth-texas-cowtown-coliseum-2026-10-21-7-pm/concert/18352439",
   "image": null
  },
  {
@@ -10276,6 +10180,18 @@
   "image": "https://s1.ticketm.net/dam/a/757/abdac8af-2ad4-4d45-b76a-c929a080c757_RETINA_PORTRAIT_16_9.jpg"
  },
  {
+  "name": "Mecum Auctions",
+  "category": "sports",
+  "area": "Dickies Arena, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-10-21",
+  "time": "3:30 AM",
+  "cost": null,
+  "description": "sports event via SeatGeek.",
+  "url": "https://seatgeek.com/mecum-auto-auctions-tickets/sports/2026-10-21-3-30-am/18353041",
+  "image": null
+ },
+ {
   "name": "Mon Laferte - Femme Fatale Tour",
   "category": "music",
   "area": "The Pavilion at Toyota Music Factory, Irving",
@@ -10322,6 +10238,18 @@
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/t3-the-fifth-season-tour-dallas-texas-10-21-2026/event/0C00650E30DF630C",
   "image": "https://s1.ticketm.net/dam/a/4ee/a36a7eee-6c79-43cf-b2be-5940e49f34ee_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "The Jungle Giants",
+  "category": "music",
+  "area": "Tulips FTW, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-10-21",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "concert event via SeatGeek.",
+  "url": "https://seatgeek.com/the-jungle-giants-tickets/fort-worth-texas-tulips-ftw-2026-10-21-8-pm/concert/18353069",
+  "image": null
  },
  {
   "name": "The WLDLFE",
@@ -10532,18 +10460,6 @@
   "description": "Live at Sundown at Granada.",
   "url": "http://www.prekindle.com/event/29484-will-dempsey-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949083778412"
- },
- {
-  "name": "Wind Symphony",
-  "category": "music",
-  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
-  "city": "Denton",
-  "date": "2026-10-22",
-  "time": "7:30 PM",
-  "cost": null,
-  "description": "“Chacona Amazônica” (1998) – North American Premiere by Brazilian composer Marlos Nobre in a new edition by Marcelo Jardim     “The Blue Riders: Concerto for Winds” By James David - Composer-in-Residence James David’s Western United States Premiere     “Konzertmusik für Blasorche",
-  "url": "https://calendar.unt.edu/event/wind-symphony-7066",
-  "image": null
  },
  {
   "name": "Andrew Orolfo",
@@ -11378,18 +11294,6 @@
   "image": "https://s1.ticketm.net/dam/a/3d2/60d0f65e-8d24-47d2-9cab-d432dfa7e3d2_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Senior Recital: Robin Sabatini, clarinet",
-  "category": "music",
-  "area": "Recital Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-24",
-  "time": "12:30 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/senior-recital-robin-sabatini-clarinet",
-  "image": null
- },
- {
   "name": "Sick New World Festival Forth Worth",
   "category": "festival",
   "area": "Texas Motor Speedway, Fort Worth",
@@ -11979,8 +11883,8 @@
   "date": "2026-10-27",
   "time": "8:00 PM",
   "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/copy-of-trombone-consortium-concert",
+  "description": "Important Links and Information  Program   Livestream   This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/trombone_consortium_concert",
   "image": null
  },
  {
@@ -13470,18 +13374,6 @@
   "description": "Live at Sundown at Granada.",
   "url": "http://www.prekindle.com/event/55258-geeks-who-drink-free-trivia-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527948997587331"
- },
- {
-  "name": "Concert Winds",
-  "category": "music",
-  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
-  "city": "Denton",
-  "date": "2026-11-02",
-  "time": "7:30 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.",
-  "url": "https://calendar.unt.edu/event/concert-winds2",
-  "image": null
  },
  {
   "name": "Dallas Mavericks vs. Sacramento Kings",
