@@ -1,600 +1,26 @@
 [
  {
-  "name": "Skins Party",
-  "category": "music",
-  "area": "Three Links Deep Ellum, Dallas",
-  "city": "Dallas",
-  "date": "2026-10-03",
-  "time": "10:00 PM",
-  "cost": 0,
-  "description": "Dance/Electronic event via Ticketmaster.",
-  "url": "https://www.ticketweb.com/event/skins-party-three-links-deep-ellum-tickets/14344954",
-  "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_PORTRAIT_16_9.jpg"
+  "name": "AT&T Stadium VIP Guided Tour",
+  "category": "sports",
+  "area": "AT&T Stadium, Arlington",
+  "city": "Arlington",
+  "date": "2026-10-05",
+  "time": "1:00 PM",
+  "cost": null,
+  "description": "stadium tours event via SeatGeek.",
+  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-05-1-pm/18499979",
+  "image": null
  },
  {
   "name": "AT&T Stadium VIP Guided Tour",
   "category": "sports",
   "area": "AT&T Stadium, Arlington",
   "city": "Arlington",
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "time": "3:00 PM",
   "cost": null,
   "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-04-3-pm/18499951",
-  "image": null
- },
- {
-  "name": "Boz Scaggs",
-  "category": "music",
-  "area": "Majestic Theatre Dallas, Dallas",
-  "city": "Dallas",
-  "date": "2026-10-04",
-  "time": "7:00 PM",
-  "cost": null,
-  "description": "Country event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_s",
-  "image": "https://s1.ticketm.net/dam/a/c20/609fc235-8849-40ef-86ff-38b231705c20_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Caleb Martin FREE SHOW",
-  "category": "music",
-  "area": "Magnolia Motor Lounge, 3803 Southwest Blvd, Fort Worth, 76116, United States",
-  "city": "Fort Worth",
-  "date": "2026-10-04",
-  "time": "9:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://whatsupfortworth.com/event/caleb-martin-free-show/",
-  "image": null
- },
- {
-  "name": "Cash Money & No Limit Tour",
-  "category": "music",
-  "area": "American Airlines Center, Dallas",
-  "city": "Dallas",
-  "date": "2026-10-04",
-  "time": "7:00 PM",
-  "cost": null,
-  "description": "Hip-Hop/Rap event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/cash-money-no-limit-tour-dallas-texas-10-04-2026/event/0C0064C8CE0EB0A5",
-  "image": "https://s1.ticketm.net/dam/e/2ca/1573a04e-ad8d-4636-a49d-40c45c0a22ca_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Comedians Against Humanity",
-  "category": "arts",
-  "area": "Big Laugh Comedy Club – Fort Worth, 604 Main St, Suite 100, Fort Worth, TX, 76102, United States",
-  "city": "Fort Worth",
-  "date": "2026-10-04",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Have you wondered to yourself, “what happens when you give a comedian an opportunity to share their stories?”  Crazy. Wild. Absurd. Are just a few of the words that describe the stories you will hear from these comedians.  If you like hilarious stories with delicious food, amazin",
-  "url": "https://whatsupfortworth.com/event/comedians-against-humanity/",
-  "image": null
- },
- {
-  "name": "Comedy Allstars",
-  "category": "arts",
-  "area": "Punch Line Irving, Irving",
-  "city": "Irving",
-  "date": "2026-10-04",
-  "time": "7:00 PM",
-  "cost": null,
-  "description": "Comedy event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/comedy-allstars-irving-texas-10-04-2026/event/0C00651922180BCC",
-  "image": "https://s1.ticketm.net/dam/a/204/1cf0a6ef-fc13-449d-a78a-210f4ddbd204_1486961_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Community Care Sound Bath Series",
-  "category": "family",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-10-04",
-  "time": "05:30 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=18966",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
- },
- {
-  "name": "County Line Records & WMG Vinyl Take-Back Event",
-  "category": "music",
-  "area": "County Line Records, 600 N Main St Building B, Keller, TX, 76248, United States",
-  "city": "Keller",
-  "date": "2026-10-04",
-  "time": "11:00 AM",
-  "cost": null,
-  "description": "Drop into County Line Records for an afternoon of crate digging. While you’re there drop off your damaged or unplayable vinyl records to help support vinyl recycling efforts! Collection bins will be out through the end of September.",
-  "url": "https://whatsupfortworth.com/event/county-line-records-wmg-vinyl-take-back-event/2026-10-04/",
-  "image": null
- },
- {
-  "name": "Cowtown Killers: A Stand-Up Stampede",
-  "category": "arts",
-  "area": "Big Laugh Comedy Club – Fort Worth, 604 Main St, Suite 100, Fort Worth, TX, 76102, United States",
-  "city": "Fort Worth",
-  "date": "2026-10-04",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Get ready for a stampede of laughs! Cowtown Killers brings together a powerhouse lineup of the funniest stand-up comics from Fort Worth and beyond. These are the rising stars and local legends who are tearing up stages and leaving audiences gasping for air. This is your prime-tim",
-  "url": "https://whatsupfortworth.com/event/cowtown-killers-a-stand-up-stampede/",
-  "image": null
- },
- {
-  "name": "DJ SNEAK305",
-  "category": "music",
-  "area": "Three Links Deep Ellum, Dallas",
-  "city": "Dallas",
-  "date": "2026-10-04",
-  "time": "11:00 PM",
-  "cost": 0,
-  "description": "Other event via Ticketmaster.",
-  "url": "https://www.ticketweb.com/event/dj-sneak305-three-links-deep-ellum-tickets/14315004",
-  "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Damon Williams",
-  "category": "arts",
-  "area": "Arlington Improv, Arlington",
-  "city": "Arlington",
-  "date": "2026-10-04",
-  "time": "7:00 PM",
-  "cost": null,
-  "description": "Comedy event via Ticketmaster.",
-  "url": "https://www.ticketweb.com/event/damon-williams-arlington-improv-tickets/14755223?REFERRAL_ID=tmfeed",
-  "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Dave Lawson Presents: Houston vs Dallas",
-  "category": "festival",
-  "area": "Addison Improv, Addison",
-  "city": "Addison",
-  "date": "2026-10-04",
-  "time": "7:30 PM",
-  "cost": 25,
-  "description": "Live event via Ticketmaster.",
-  "url": "https://www.ticketweb.com/event/dave-lawson-presents-houston-vs-addison-improv-tickets/14303634",
-  "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Doctoral Recital: Xinjin Yang, voice",
-  "category": "music",
-  "area": "Recital Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-04",
-  "time": "3:30 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/doctoral-recital-xinjin-yang-voice",
-  "image": null
- },
- {
-  "name": "Flip Phone: Rocky Horror Drag Brunch",
-  "category": "festival",
-  "area": "Addison Improv, Addison",
-  "city": "Addison",
-  "date": "2026-10-04",
-  "time": "2:00 PM",
-  "cost": 25,
-  "description": "Live event via Ticketmaster.",
-  "url": "https://www.ticketweb.com/event/flip-phone-rocky-horror-drag-addison-improv-tickets/15037903",
-  "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Forces at Play",
-  "category": "arts",
-  "area": "Fort Worth Museum of Science and History, 1600 Gendy Street, Fort Worth, 76107, United States",
-  "city": "Fort Worth",
-  "date": "2026-10-04",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "April 25, 2026 – February 28, 2027    Forces at Play is an interactive exhibit that explores the science behind some of the world’s most beloved sports. Through hands-on activities and historical collections, visitors discover how forces like gravity, friction, and momentum impac",
-  "url": "https://whatsupfortworth.com/event/forces-at-play-170/2026-10-04/",
-  "image": null
- },
- {
-  "name": "Fort Worth Haunted House",
-  "category": "festival",
-  "area": "Fort Worth Haunted House, 2423 Chester St, Fort Worth, TX, 76103, United States",
-  "city": "Fort Worth",
-  "date": "2026-10-04",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "The Junkyard Haunted House is a unique haunted house made out of junk locally picked up by the JunkGuysDFW. This family business takes the time to build a very different haunted house than what DFW is used to. A new and different haunted house every year & the outside factor real",
-  "url": "https://whatsupfortworth.com/event/fort-worth-haunted-house/2026-10-04/",
-  "image": null
- },
- {
-  "name": "Genealogy Office Hours (Adults)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-04",
-  "time": "01:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/fall_GenealogyOfficeHours",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
-  "name": "JORIS VOORN - Ages 18+",
-  "category": "music",
-  "area": "SILO, Dallas",
-  "city": "Dallas",
-  "date": "2026-10-04",
-  "time": "5:00 PM",
-  "cost": null,
-  "description": "Other event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvJae",
-  "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Joris Voorn (18+)",
-  "category": "music",
-  "area": "SILO - Dallas, Dallas",
-  "city": "Dallas",
-  "date": "2026-10-04",
-  "time": "7:00 PM",
-  "cost": null,
-  "description": "concert event via SeatGeek.",
-  "url": "https://seatgeek.com/joris-voorn-tickets/dallas-texas-silo-dallas-2026-10-04-7-pm/concert/18612409",
-  "image": null
- },
- {
-  "name": "Junkyard Haunted House at City Park",
-  "category": "festival",
-  "area": "Old City Park, 1515 S Harwood St, Dallas, TX, 75215, United States",
-  "city": "Dallas",
-  "date": "2026-10-04",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "A fun way to explore the history of Dallas with a spooky twist to this historical park. The Junkyard Haunted House is excited to collaborate with the Dallas Parks Department to provide the city with a Haunted House experience at City Park in Dallas. Yes, the real haunted houses w",
-  "url": "https://whatsupfortworth.com/event/junkyard-haunted-house-at-city-park/2026-10-04/",
-  "image": null
- },
- {
-  "name": "Jurassic Quest | Fort Worth Convention Center | Fort Worth, TX 2026",
-  "category": "festival",
-  "area": "Fort Worth Convention Center, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-10-04",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "Fairs & Festivals event via Ticketmaster.",
-  "url": "https://www.universe.com/events/jurassic-quest-fort-worth-convention-center-fort-worth-tx-2026-tickets-JM0NQB?ref=ticketmaster",
-  "image": "https://s1.ticketm.net/dam/a/4c2/bac7ae96-6fcc-42ac-882a-fb3843e1f4c2_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Level Up: Smash Bros. Training Camp",
-  "category": "family",
-  "area": "Grapevine",
-  "city": "Grapevine",
-  "date": "2026-10-04",
-  "time": "12:30 PM",
-  "cost": null,
-  "description": "Who: Ages 8+ What: The Esports Academy's gaming PCs and consoles will be available for tournament practice during the holiday-themed Super Smash Bros.Tournament and Mario Kart Grand Prix. Stop by this Sunday to hone your in-game skills, learn strategy, and compete with peers! Whe",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17810",
-  "image": null,
-  "organizer": {
-   "name": "City of Grapevine",
-   "url": "https://grapevinetexas.gov/"
-  }
- },
- {
-  "name": "Little Shop of Horrors presented by Company of Rowlett Performers",
-  "category": "arts",
-  "area": "521 W State Street, Garland",
-  "city": "Garland",
-  "date": "2026-10-04",
-  "time": "02:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.garlandtx.gov/m/calendar/event/detail/13363",
-  "image": null,
-  "organizer": {
-   "name": "City of Garland",
-   "url": "https://garlandtx.gov/"
-  }
- },
- {
-  "name": "Mahjong: Open Play",
-  "category": "family",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-10-04",
-  "time": "01:00 PM",
-  "cost": null,
-  "description": "Join us every Sunday afternoon for an open play Mahjong program at the Alan E. Sims Recreation Center! October 4, 2026 01:00 PM - 05:00 PM 310 E. Parkerville RoadCedar Hill, TX 75104 https://www.cedarhilltx.com/Calendar.aspx?EID=19094/639148837140000000",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=19094",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
- },
- {
-  "name": "Masure Gallery | Kaiku by K.P. Wilska",
-  "category": "arts",
-  "area": "Masure Gallery, 6483 Camp Bowie Blvd., Fort Worth, TX, 76107",
-  "city": "Fort Worth",
-  "date": "2026-10-04",
-  "time": "11:00 AM",
-  "cost": null,
-  "description": "The Masure Gallery is thrilled to present the solo photography exhibition Kaiku, by K.P. Wilska. Wilska is a Fort Worth photographer who specializes in high-key, minimalist photography. Originally born in Finland, the exhibition title Kaiku is from the Finnish language which tran",
-  "url": "https://whatsupfortworth.com/event/masure-gallery-kaiku-by-k-p-wilska/2026-10-04/",
-  "image": null
- },
- {
-  "name": "National Jeopardy! Bar League Returns October 4th!",
-  "category": "sports",
-  "area": "Multiple locations, Dallas",
-  "city": "Dallas",
-  "date": "2026-10-04",
-  "time": "7:00 PM–10:00 PM",
-  "cost": 0,
-  "description": "Get your team together! Jeopardy! Bar League is back for a new 10-week season, starting October 4th and bringing the excitement of the iconic TV game show to participating venues across the country. With 200+ prizes worth over $18,000 in value, there are more ways to win than eve",
-  "url": "https://www.dallasites101.com/event/national-jeopardy!-bar-league-returns-october-4th!/17435/",
-  "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/Screenshot-2026-09-23-at-11.12.03-AM_17F6D7F8-E682-148A-5F7DC1556DC3A883_18015bd5-a84f-d3e2-2710edaf15edfb64.png"
- },
- {
-  "name": "PBR Teams Series: Rattler Days",
-  "category": "sports",
-  "area": "Dickies Arena, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-10-04",
-  "time": "1:45 PM",
-  "cost": null,
-  "description": "Rodeo event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/pbr-teams-series-rattler-days-fort-worth-texas-10-04-2026/event/0C006338CC794866",
-  "image": "https://s1.ticketm.net/dam/e/764/bc466a93-9e21-498d-9ab4-af21d64fb764_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "PBR Three-Day Package - Ticket Includes Access to All Days",
-  "category": "sports",
-  "area": "Dickies Arena, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-10-04",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Rodeo event via Ticketmaster.",
-  "url": "https://am.ticketmaster.com/dickiesarena/buy/quickbuy?id=MTY1",
-  "image": "https://s1.ticketm.net/dam/a/36e/8cd9083e-c078-4bdf-9be7-a870168ad36e_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Paris Paloma: The Fatal Flaw Tour",
-  "category": "music",
-  "area": "House of Blues Dallas , Dallas",
-  "city": "Dallas",
-  "date": "2026-10-04",
-  "time": "7:00 PM",
-  "cost": null,
-  "description": "Pop event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/paris-paloma-the-fatal-flaw-tour-dallas-texas-10-04-2026/event/0C00650E099AD0F4",
-  "image": "https://s1.ticketm.net/dam/a/67f/0b8cc3eb-78c4-4c29-8176-08c15df6167f_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Phenomenomaly at Meow Wolf",
-  "category": "festival",
-  "area": "Meow Wolf, 3000 Grapevine Mills Pkwy, Grapevine, TX, 76051, United States",
-  "city": "Grapevine",
-  "date": "2026-10-04",
-  "time": "8:00 AM",
-  "cost": null,
-  "description": "This summer, Meow Wolf Grapevine brings back Phenomenomaly, a live immersive performance series inside The Real Unreal. Blending interactive theater with a rotating lineup of North Texas talent, the experience unfolds around guests as they explore, featuring music, dance, comedy,",
-  "url": "https://whatsupfortworth.com/event/phenomenomaly-at-meow-wolf/2026-10-04/",
-  "image": null
- },
- {
-  "name": "Puzzling Adventures Scavenger Hunt",
-  "category": "festival",
-  "area": "Puzzling Adventures Start & Finish Location, 400 Jones St, Fort Worth, 76102, United States",
-  "city": "Fort Worth",
-  "date": "2026-10-04",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "Consistently rated the best local scavenger hunt since 2016!  Puzzling Adventures are a cross between a scavenger hunt, an adventure race, and an informative self-guided walking tour. Each adventure consists of a series of locations that you are guided to where you are required t",
-  "url": "https://whatsupfortworth.com/event/puzzling-adventures-scavenger-hunt/2026-10-04/",
-  "image": null
- },
- {
-  "name": "Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth",
-  "category": "arts",
-  "area": "Casa Manana, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-10-04",
-  "time": "3:00 PM",
-  "cost": null,
-  "description": "family event via SeatGeek.",
-  "url": "https://seatgeek.com/rapunzel-rapunzel-a-very-hairy-fairy-tale-tickets/family/2026-10-04-3-pm/18338110",
-  "image": null
- },
- {
-  "name": "Rhythm & Relics Halloween Market at AM/FM",
-  "category": "food",
-  "area": "AM/FM, Dallas",
-  "city": "Dallas",
-  "date": "2026-10-04",
-  "time": "11:00 AM–4:00 PM",
-  "cost": 0,
-  "description": "Rhythm & Relics Halloween Market brings a spooky Sunday of shopping, brunch, and local finds to the Dallas Design District. Browse more than 25 local vendors, artists, makers, collectors, and small businesses offering everything from jewelry and vintage-inspired goods to zines, c",
-  "url": "https://www.dallasites101.com/event/rhythm-%26-relics-halloween-market-at-am-fm/17476/",
-  "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/dallasites-101_FA10605A-A5C4-B284-94F225F060DA06D1_fa13ca83-92a8-4d05-b3fa2f70ccdbc3e7.png"
- },
- {
-  "name": "Sparkz Cheerleading",
-  "category": "outdoors",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-10-04",
-  "time": "04:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=18417",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
- },
- {
-  "name": "Speed Dating In Dallas - Speed Dating 40s/50s",
-  "category": "nightlife",
-  "area": "Times Ten Cellars, Dallas",
-  "city": "Dallas",
-  "date": "2026-10-04",
-  "time": "4:00 PM",
-  "cost": 29.0,
-  "description": "Another Fabulous Singles Event ♥ For Ages 40-59 @ Times Ten Cellars in Dallas, TX. As featured recently in the WSJ, NPR and TLC 90 Day Fiance - The Single Life. Meet the love of your life at the best and most trusted dating event company in the US. Where else can you meet up 14 a",
-  "url": "https://speeddatingdallas.com/#section-features",
-  "image": [
-   "https://speeddatingdallas.com/images/fourty08-speed-dating-over-40s.jpg"
-  ]
- },
- {
-  "name": "Stockyards Championship Rodeo",
-  "category": "sports",
-  "area": "Cowtown Coliseum, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-10-04",
-  "time": "1:30 PM",
-  "cost": null,
-  "description": "rodeo event via SeatGeek.",
-  "url": "https://seatgeek.com/stockyards-championship-rodeo-tickets/rodeo/2026-10-04-1-30-pm/18107812",
-  "image": null
- },
- {
-  "name": "Tea Around Town® Dallas",
-  "category": "festival",
-  "area": "Tea Around Town, 646 Main Street, Dallas, 75202, United States",
-  "city": "Dallas",
-  "date": "2026-10-04",
-  "time": "8:00 AM",
-  "cost": null,
-  "description": "Turn Dallas into your own mobile tea room! Tea Around Town Dallas brings vibrant city views and a cozy afternoon tea experience aboard our elegant double-decker bus. Sip teas, enjoy freshly prepared pastries, and take in landmarks like the Arts District, Reunion Tower, and the Da",
-  "url": "https://whatsupfortworth.com/event/tea-around-town-dallas/2026-10-04/",
-  "image": null
- },
- {
-  "name": "The Wedding Singer",
-  "category": "arts",
-  "area": "Runway Theatre, 215 N Dooley Street, Grapevine, 76051, United States",
-  "city": "Grapevine",
-  "date": "2026-10-04",
-  "time": "3:00 PM",
-  "cost": null,
-  "description": "When love gets loud, life gets hilarious.  Big hair. Big feelings. Bigger laughs. This high-energy musical takes you straight back to the 80s with a love story that’s equal parts sweet and zany. Wedding singer Robbie Hart is everybody’s favorite life-of-the-party… until his own l",
-  "url": "https://whatsupfortworth.com/event/the-wedding-singer-2/2026-10-04/",
-  "image": null
- },
- {
-  "name": "UCF Knights at TCU Horned Frogs Womens Volleyball",
-  "category": "sports",
-  "area": "Ed & Rae Schollmaier Arena, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-10-04",
-  "time": "2:00 PM",
-  "cost": null,
-  "description": "womens college volleyball event via SeatGeek.",
-  "url": "https://seatgeek.com/tcu-horned-frogs-womens-volleyball-tickets/womens-college-volleyball/2026-10-04-2-pm/18212889",
-  "image": null,
-  "organizer": {
-   "name": "TCU Horned Frogs",
-   "url": "https://gofrogs.com"
-  }
- },
- {
-  "name": "Window Strike Prevention Workshop",
-  "category": "family",
-  "area": "Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-10-04",
-  "time": "02:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://tickets.audubon.org/events/019d5463-9bec-e0e9-b524-515b1a8a2a7c",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
- },
- {
-  "name": "ZZ Top",
-  "category": "music",
-  "area": "The Pavilion at Toyota Music Factory, Irving",
-  "city": "Irving",
-  "date": "2026-10-04",
-  "time": "6:00 PM",
-  "cost": null,
-  "description": "Rock event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/zz-top-irving-texas-10-04-2026/event/0C0064DD972053C3",
-  "image": "https://s1.ticketm.net/dam/a/60b/945abba9-7ebf-4862-a8a5-a622c8b0560b_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "geeks who drink FREE Trivia",
-  "category": "music",
-  "area": "Sundown at Granada, Lower Greenville, Dallas",
-  "city": "Dallas",
-  "date": "2026-10-04",
-  "time": "Doors — see listing",
-  "cost": 0.0,
-  "description": "Live at Sundown at Granada.",
-  "url": "http://www.prekindle.com/event/32943-geeks-who-drink-free-trivia-dallas",
-  "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527948997591056"
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-10-05",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-05-10-am/18499868",
-  "image": null
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-10-05",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-05-12-pm/18500000",
-  "image": null
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-10-05",
-  "time": "2:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-05-2-pm/18499983",
-  "image": null
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-10-05",
-  "time": "4:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-05-4-pm/18499860",
+  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-05-3-pm/18499982",
   "image": null
  },
  {
@@ -611,22 +37,6 @@
   "organizer": {
    "name": "City of Grapevine",
    "url": "https://grapevinetexas.gov/"
-  }
- },
- {
-  "name": "Baby & Me (0-10 Months)",
-  "category": "family",
-  "area": "6861 W. Eldorado Pkwy., McKinney",
-  "city": "McKinney",
-  "date": "2026-10-05",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_BabyMe",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
   }
  },
  {
@@ -704,38 +114,6 @@
   "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.",
   "url": "https://calendar.unt.edu/event/brass-band26",
   "image": null
- },
- {
-  "name": "Chair Volleyball",
-  "category": "sports",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-10-05",
-  "time": "11:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=17840",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
- },
- {
-  "name": "Cultural Storytime (3-5 Years)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-05",
-  "time": "11:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_CulturalStorytime",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
  },
  {
   "name": "Dallas Stars vs. San Jose Sharks",
@@ -822,18 +200,6 @@
   "image": "https://s1.ticketm.net/dam/a/546/083ba4c2-56ae-43be-9d71-7dd85c25c546_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Legacy of the Longhorn",
-  "category": "festival",
-  "area": "Cowtown Coliseum, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-10-05",
-  "time": "12:30 PM",
-  "cost": null,
-  "description": "Live event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed8v",
-  "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
   "name": "Masure Gallery | Kaiku by K.P. Wilska",
   "category": "arts",
   "area": "Masure Gallery, 6483 Camp Bowie Blvd., Fort Worth, TX, 76107",
@@ -844,22 +210,6 @@
   "description": "The Masure Gallery is thrilled to present the solo photography exhibition Kaiku, by K.P. Wilska. Wilska is a Fort Worth photographer who specializes in high-key, minimalist photography. Originally born in Finland, the exhibition title Kaiku is from the Finnish language which tran",
   "url": "https://whatsupfortworth.com/event/masure-gallery-kaiku-by-k-p-wilska/2026-10-05/",
   "image": null
- },
- {
-  "name": "McKinney Urban Transit District Board (MUTD)",
-  "category": "family",
-  "area": "401 E. Virginia St., McKinney",
-  "city": "McKinney",
-  "date": "2026-10-05",
-  "time": "05:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.mckinneytexas.org/Calendar.aspx?EID=37164",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
  },
  {
   "name": "Mindful Me: Stretch & Breath",
@@ -1042,6 +392,18 @@
   }
  },
  {
+  "name": "$2 Tuesdays: Live at Tulips FTW",
+  "category": "music",
+  "area": "Tulips FTW, 112 Saint Louis Avenue, Fort Worth, 76104, United States",
+  "city": "Fort Worth",
+  "date": "2026-10-06",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Blackstone Recording Studio presents $2 Tuesdays: Live at Tulips FTW  Doors: 7pm | Show: 8pm  Tickets: $2  Tuesdays are for the scene, the artists, the locals who need to see and support their favorite musicians paving the way for the great talent within this eclectic musical eco",
+  "url": "https://whatsupfortworth.com/event/2-tuesdays-live-at-tulips-ftw-14/",
+  "image": null
+ },
+ {
   "name": "AT&T Stadium VIP Guided Tour",
   "category": "sports",
   "area": "AT&T Stadium, Arlington",
@@ -1088,22 +450,6 @@
   "description": "stadium tours event via SeatGeek.",
   "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-06-4-pm/18499900",
   "image": null
- },
- {
-  "name": "American Mahjong Hour (Adults)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-06",
-  "time": "06:30 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/americanmahjonghour2",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
  },
  {
   "name": "Art Studio (18+)",
@@ -1216,6 +562,18 @@
    "name": "City of Garland",
    "url": "https://garlandtx.gov/"
   }
+ },
+ {
+  "name": "County Line Records & WMG Vinyl Take-Back Event",
+  "category": "music",
+  "area": "County Line Records, 600 N Main St Building B, Keller, TX, 76248, United States",
+  "city": "Keller",
+  "date": "2026-10-06",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "Drop into County Line Records for an afternoon of crate digging. While you’re there drop off your damaged or unplayable vinyl records to help support vinyl recycling efforts! Collection bins will be out through the end of September.",
+  "url": "https://whatsupfortworth.com/event/county-line-records-wmg-vinyl-take-back-event/2026-10-06/",
+  "image": null
  },
  {
   "name": "Damitas Histeria",
@@ -1350,6 +708,18 @@
   "image": "https://s1.ticketm.net/dam/a/f70/9a83e082-fd8f-4512-8de3-4463fc767f70_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "Legacy of the Longhorn 10/6",
+  "category": "sports",
+  "area": "Cowtown Coliseum, 121 East Exchange Avenue, Fort Worth, 76164, United States",
+  "city": "Fort Worth",
+  "date": "2026-10-06",
+  "time": "12:30 PM",
+  "cost": null,
+  "description": "Event Details “  Where the World Meets the West, Cowtown Coliseum welcomes its newest show, Legacy of the Longhorn, beginning at 12:30 PM, Monday – Thursday. In partnership with the Fort Worth Herd, this exciting new production celebrates the grit, tradition, and spirit of the Am",
+  "url": "https://whatsupfortworth.com/event/legacy-of-the-longhorn-10-6/",
+  "image": null
+ },
+ {
   "name": "Legislative Committee Meeting",
   "category": "family",
   "area": "6101 Frisco Square Blvd., Frisco",
@@ -1382,32 +752,28 @@
   }
  },
  {
-  "name": "Mad Science (K-5th Grade)",
-  "category": "family",
-  "area": "6861 W. Eldorado Pkwy., McKinney",
-  "city": "McKinney",
+  "name": "Masure Gallery | Kaiku by K.P. Wilska",
+  "category": "arts",
+  "area": "Masure Gallery, 6483 Camp Bowie Blvd., Fort Worth, TX, 76107",
+  "city": "Fort Worth",
   "date": "2026-10-06",
-  "time": "04:30 PM",
+  "time": "11:00 AM",
   "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_MadScience",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
+  "description": "The Masure Gallery is thrilled to present the solo photography exhibition Kaiku, by K.P. Wilska. Wilska is a Fort Worth photographer who specializes in high-key, minimalist photography. Originally born in Finland, the exhibition title Kaiku is from the Finnish language which tran",
+  "url": "https://whatsupfortworth.com/event/masure-gallery-kaiku-by-k-p-wilska/2026-10-06/",
+  "image": null
  },
  {
-  "name": "Michael Lives Forever - Michael Jackson Tribute Concert",
+  "name": "Michael Jackson Tribute Live Show",
   "category": "music",
-  "area": "College Park Center, Arlington",
+  "area": "College Park Center, 600 S. Center Street, Arlington, TX, 76010",
   "city": "Arlington",
   "date": "2026-10-06",
-  "time": "7:30 PM–10:30 PM",
-  "cost": 57.0,
-  "description": "A world-class live Michael Jackson tribute concert comes to College Park Center, presented by Digital Headquarters, LLC. Michael Lives Forever is an independent live tribute production and is not affiliated with the Estate of Michael Jackson. Starring Rodrigo Teaser, one of the w",
-  "url": "https://www.dallasites101.com/event/michael-lives-forever-michael-jackson-tribute-concert/17246/",
-  "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/Michael-Lives-Forever_2048x1536_B2E1A11C-95B7-98FE-E7D01F495B43FD0E_b2f09a5b-c556-a94e-ea49045bbcaa45dd.jpg"
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Michael Lives Forever brings a world-class live Michael Jackson tribute concert to College Park Center in Arlington, Texas on Tuesday, October 6, 2026.  Starring Rodrigo Teaser, one of the world’s most acclaimed Michael Jackson tribute artists, the production recreates the King o",
+  "url": "https://whatsupfortworth.com/event/michael-jackson-tribute-live-show/",
+  "image": null
  },
  {
   "name": "Miranda Lambert - Ages 18+",
@@ -1420,22 +786,6 @@
   "description": "Country event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvE4z",
   "image": "https://s1.ticketm.net/dam/a/a11/9fedf355-566c-4d87-8b76-b2aae238ea11_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Music & Movement Storytime (3-5 Years)",
-  "category": "family",
-  "area": "6861 W. Eldorado Pkwy., McKinney",
-  "city": "McKinney",
-  "date": "2026-10-06",
-  "time": "11:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_MusicMovementStorytime",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
  },
  {
   "name": "Music of John Denver",
@@ -1463,22 +813,6 @@
   "organizer": {
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
-  }
- },
- {
-  "name": "National Night Out",
-  "category": "family",
-  "area": "McKinney",
-  "city": "McKinney",
-  "date": "2026-10-06",
-  "time": "See details",
-  "cost": null,
-  "description": "",
-  "url": "https://www.mckinneytexas.org/nno",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
   }
  },
  {
@@ -1520,22 +854,6 @@
   "description": "Consistently rated the best local scavenger hunt since 2016!  Puzzling Adventures are a cross between a scavenger hunt, an adventure race, and an informative self-guided walking tour. Each adventure consists of a series of locations that you are guided to where you are required t",
   "url": "https://whatsupfortworth.com/event/puzzling-adventures-scavenger-hunt/2026-10-06/",
   "image": null
- },
- {
-  "name": "Small Business Masterclass (Adults)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-06",
-  "time": "07:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/fall_SmallBusinessMasterclass",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
  },
  {
   "name": "Storytime for Toddlers/Preschoolers",
@@ -1607,22 +925,6 @@
   "organizer": {
    "name": "City of Lancaster",
    "url": "https://lancaster-tx.com/"
-  }
- },
- {
-  "name": "Wobblers & Walkers (10-20 Months)",
-  "category": "sports",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-06",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_WobblersWalkers",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
   }
  },
  {
@@ -1734,22 +1036,6 @@
   "image": null
  },
  {
-  "name": "Adult Book Club (Adults)",
-  "category": "arts",
-  "area": "6861 W. Eldorado Pkwy., McKinney",
-  "city": "McKinney",
-  "date": "2026-10-07",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall2026_AdultBookClub",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Afternoon Storytime and Crafts",
   "category": "family",
   "area": "Grapevine",
@@ -1764,6 +1050,18 @@
    "name": "City of Grapevine",
    "url": "https://grapevinetexas.gov/"
   }
+ },
+ {
+  "name": "An Evening with Salva Dut",
+  "category": "festival",
+  "area": "Scott Theater at Fort Worth Country Day, 4200 Country Day Lane, Fort Worth, TX, 76109, United States",
+  "city": "Fort Worth",
+  "date": "2026-10-07",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "Fort Worth Country Day (FWCD) is honored to welcome Salva Dut, the inspiring founder of Water for South Sudan (WFSS) and a former “Lost Boy of Sudan,” for a special community-wide event. The evening is free to attend and open to the public, and will take place on Wednesday, Octob",
+  "url": "https://whatsupfortworth.com/event/an-evening-with-salva-dut/",
+  "image": null
  },
  {
   "name": "Art & Creativity Lab",
@@ -1814,22 +1112,6 @@
   }
  },
  {
-  "name": "Baby & Me (0-10 Months)",
-  "category": "family",
-  "area": "6861 W. Eldorado Pkwy., McKinney",
-  "city": "McKinney",
-  "date": "2026-10-07",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_BabyMe2",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Beetlejuice Jr. presented by Breitling Performing Arts",
   "category": "arts",
   "area": "521 W State Street, Garland",
@@ -1846,22 +1128,6 @@
   }
  },
  {
-  "name": "Bilingual Storytime (3-5 Years)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-07",
-  "time": "11:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_BilingualStorytime",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Brian Fallon & The Painkillers with Tim Barry",
   "category": "music",
   "area": "Trees - Dallas, Dallas",
@@ -1871,6 +1137,30 @@
   "cost": null,
   "description": "concert event via SeatGeek.",
   "url": "https://seatgeek.com/brian-fallon-tickets/dallas-texas-trees-dallas-2026-10-07-7-pm/concert/18320111",
+  "image": null
+ },
+ {
+  "name": "Climate Change is already in the Art",
+  "category": "arts",
+  "area": "Times Ten Cellars, Dallas",
+  "city": "Dallas",
+  "date": "2026-10-07",
+  "time": "6:30 PM–8:30 PM",
+  "cost": 27.06,
+  "description": "Join The Hang Theory for an evening with retired pathologist and climate advocate Dr. Alan Northcutt as he explores how artists have documented the impacts of climate change through their work, often recognizing environmental shifts before the broader public. The lecture includes",
+  "url": "https://www.dallasites101.com/event/climate-change-is-already-in-the-art/16809/",
+  "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/climate-change-is-already-in-the-art_ig-11_1080x1080_B253A11F-98C2-3E01-ED421C9435F1A75C_b254d802-a7a7-e000-a1bb13f88548be7a.png"
+ },
+ {
+  "name": "County Line Records & WMG Vinyl Take-Back Event",
+  "category": "music",
+  "area": "County Line Records, 600 N Main St Building B, Keller, TX, 76248, United States",
+  "city": "Keller",
+  "date": "2026-10-07",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "Drop into County Line Records for an afternoon of crate digging. While you’re there drop off your damaged or unplayable vinyl records to help support vinyl recycling efforts! Collection bins will be out through the end of September.",
+  "url": "https://whatsupfortworth.com/event/county-line-records-wmg-vinyl-take-back-event/2026-10-07/",
   "image": null
  },
  {
@@ -1884,6 +1174,18 @@
   "description": "Wrestling event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Epa",
   "image": "https://s1.ticketm.net/dam/a/985/20721797-1b4f-442b-8990-e28a7f156985_386871_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "Forces at Play",
+  "category": "arts",
+  "area": "Fort Worth Museum of Science and History, 1600 Gendy Street, Fort Worth, 76107, United States",
+  "city": "Fort Worth",
+  "date": "2026-10-07",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "April 25, 2026 – February 28, 2027    Forces at Play is an interactive exhibit that explores the science behind some of the world’s most beloved sports. Through hands-on activities and historical collections, visitors discover how forces like gravity, friction, and momentum impac",
+  "url": "https://whatsupfortworth.com/event/forces-at-play-169/2026-10-07/",
+  "image": null
  },
  {
   "name": "Homeschool P.E.",
@@ -1924,22 +1226,6 @@
   "description": "Country event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/joe-bryson-bohemian-pirates-trio-three-links-deep-ellum-tickets/14354474",
   "image": "https://s1.ticketm.net/dam/c/677/c58dd0af-cda8-49b2-bdaf-068540c3a677_106541_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Kids Art Studio (K-5th Grade)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-07",
-  "time": "04:30 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_KidsArtStudio",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
  },
  {
   "name": "LP Dance (Ages 3-7)",
@@ -1986,6 +1272,30 @@
   }
  },
  {
+  "name": "Mahjong & Martinis at Champions Social Club",
+  "category": "festival",
+  "area": "Champions Social Club, Dallas",
+  "city": "Dallas",
+  "date": "2026-10-07",
+  "time": "6:30 PM–9:00 PM",
+  "cost": 30.0,
+  "description": "Shuffle, rack, deal, Charleston! Whether you’re at the mahjong function to play or to learn, the tiles are ready, and the martinis are cold. No experience required with our Learn to Play hosted by Jovann Walker. Specialty bites and drinks available all evening. Champions Social C",
+  "url": "https://www.dallasites101.com/event/mahjong-%26-martinis-at-champions-social-club/17538/",
+  "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/Champions-mahjong_EE1B71C2-08E6-0AE1-B6F51842EA8734A5_ee1f58ff-9e4d-bb82-e9f01dfb73c07705.jpg"
+ },
+ {
+  "name": "Masure Gallery | Kaiku by K.P. Wilska",
+  "category": "arts",
+  "area": "Masure Gallery, 6483 Camp Bowie Blvd., Fort Worth, TX, 76107",
+  "city": "Fort Worth",
+  "date": "2026-10-07",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "The Masure Gallery is thrilled to present the solo photography exhibition Kaiku, by K.P. Wilska. Wilska is a Fort Worth photographer who specializes in high-key, minimalist photography. Originally born in Finland, the exhibition title Kaiku is from the Finnish language which tran",
+  "url": "https://whatsupfortworth.com/event/masure-gallery-kaiku-by-k-p-wilska/2026-10-07/",
+  "image": null
+ },
+ {
   "name": "Medicaid and CHIP Application & Renewal Assistance with Parkland Hospital",
   "category": "outdoors",
   "area": "Central Library, Garland",
@@ -2026,6 +1336,18 @@
   "image": "https://s1.ticketm.net/dam/a/815/82c8ae95-7c71-4813-8888-a4a6ba86c815_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "National Multi Cultural Western Heritage Museum",
+  "category": "arts",
+  "area": "The National Multicultural Western Heritage Museum, 2201 Dottie Lynn Pkwy, Suite 115, Fort Worth, 76120, United States",
+  "city": "Fort Worth",
+  "date": "2026-10-07",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "The primary objective of the National Multicultural Western Heritage Museum and Hall of Fame is to offer the visitor a true and complete historical perspective of the people and activities that built the unique culture of the American West. The work of artists who documented the",
+  "url": "https://whatsupfortworth.com/event/national-multi-cultural-western-heritage-museum/2026-10-07/",
+  "image": null
+ },
+ {
   "name": "Open Practice and Play Night",
   "category": "sports",
   "area": "Grapevine",
@@ -2040,6 +1362,18 @@
    "name": "City of Grapevine",
    "url": "https://grapevinetexas.gov/"
   }
+ },
+ {
+  "name": "Puzzling Adventures Scavenger Hunt",
+  "category": "festival",
+  "area": "Puzzling Adventures Start & Finish Location, 400 Jones St, Fort Worth, 76102, United States",
+  "city": "Fort Worth",
+  "date": "2026-10-07",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "Consistently rated the best local scavenger hunt since 2016!  Puzzling Adventures are a cross between a scavenger hunt, an adventure race, and an informative self-guided walking tour. Each adventure consists of a series of locations that you are guided to where you are required t",
+  "url": "https://whatsupfortworth.com/event/puzzling-adventures-scavenger-hunt/2026-10-07/",
+  "image": null
  },
  {
   "name": "STEM Lab (18+)",
@@ -2095,6 +1429,18 @@
   "cost": null,
   "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.",
   "url": "https://calendar.unt.edu/event/symphony-orchestra-7124",
+  "image": null
+ },
+ {
+  "name": "Tea Around Town® Dallas",
+  "category": "festival",
+  "area": "Tea Around Town, 646 Main Street, Dallas, 75202, United States",
+  "city": "Dallas",
+  "date": "2026-10-07",
+  "time": "8:00 AM",
+  "cost": null,
+  "description": "Turn Dallas into your own mobile tea room! Tea Around Town Dallas brings vibrant city views and a cozy afternoon tea experience aboard our elegant double-decker bus. Sip teas, enjoy freshly prepared pastries, and take in landmarks like the Arts District, Reunion Tower, and the Da",
+  "url": "https://whatsupfortworth.com/event/tea-around-town-dallas/2026-10-07/",
   "image": null
  },
  {
@@ -2255,38 +1601,6 @@
   "organizer": {
    "name": "City of Garland",
    "url": "https://garlandtx.gov/"
-  }
- },
- {
-  "name": "Coffee with Cops",
-  "category": "family",
-  "area": "1501 S. Central Expy., McKinney",
-  "city": "McKinney",
-  "date": "2026-10-08",
-  "time": "09:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.mckinneytexas.org/Calendar.aspx?EID=37163",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
-  "name": "Crochet Club (6th-12th Grade)",
-  "category": "arts",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-08",
-  "time": "04:30 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall2026_CrochetClub",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
   }
  },
  {
@@ -2566,22 +1880,6 @@
   "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Little Explorers (3-5 Years)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-08",
-  "time": "11:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_LittleExplorers",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Mahjong: Learn & Play",
   "category": "family",
   "area": "Grapevine",
@@ -2784,22 +2082,6 @@
   "description": "Country event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/the-red-clay-strays-fort-worth-texas-10-08-2026/event/0C00648906217099",
   "image": "https://s1.ticketm.net/dam/a/ab5/9914ca2d-3115-427b-9cde-424a66230ab5_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Toddler Time (16 Months-3 Years)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-08",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_Thursday_ToddlerTime",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
  },
  {
   "name": "Virtual Author Talk with Carolyn Russo",
@@ -3482,22 +2764,6 @@
   }
  },
  {
-  "name": "Toddler Time (16 Months-3 Years)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-09",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_Friday_ToddlerTime",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Unawakened Earth: composed and conducted by Simon Ramirez",
   "category": "music",
   "area": "Paul Voertman Concert Hall at the Music Building, Denton",
@@ -3870,54 +3136,6 @@
   }
  },
  {
-  "name": "Family Storytime (All Ages)",
-  "category": "family",
-  "area": "1201 E. Louisiana St., McKinney",
-  "city": "McKinney",
-  "date": "2026-10-10",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_FamilyStorytime",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
-  "name": "Farmers Market Storytime (All Ages) - 10 AM",
-  "category": "market",
-  "area": "315 S Chestnut St, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-10",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_FarmersMarketStorytime",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
-  "name": "Fire Safety Day (All Ages)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-10",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/FireSafetyDay",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Fire Safety Week",
   "category": "family",
   "area": "West Garland Library, Garland",
@@ -4259,22 +3477,6 @@
   "organizer": {
    "name": "City of Grapevine",
    "url": "https://grapevinetexas.gov/"
-  }
- },
- {
-  "name": "Saturday Chess Meetup (All Ages)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-10",
-  "time": "11:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_SaturdayChessMeetup",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
   }
  },
  {
@@ -5270,22 +4472,6 @@
   "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Baby & Me (0-10 Months)",
-  "category": "family",
-  "area": "6861 W. Eldorado Pkwy., McKinney",
-  "city": "McKinney",
-  "date": "2026-10-12",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_BabyMe",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Big Sprouts Garden Class",
   "category": "outdoors",
   "area": "1700 Veterans Memorial Parkway, Lancaster",
@@ -5910,22 +5096,6 @@
   "image": null
  },
  {
-  "name": "Creative Arts Studio (Adults)",
-  "category": "arts",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-13",
-  "time": "06:30 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_CreativeArtsStudio",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Cuentos y Cantos (0-5 Años)",
   "category": "family",
   "area": "Biblioteca South Garland, Garland",
@@ -6114,38 +5284,6 @@
   "image": "https://s1.ticketm.net/dam/a/673/ac01aa9b-efc8-49ef-aebe-1a50e5913673_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Mad Science (K-5th Grade)",
-  "category": "family",
-  "area": "6861 W. Eldorado Pkwy., McKinney",
-  "city": "McKinney",
-  "date": "2026-10-13",
-  "time": "04:30 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_MadScience",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
-  "name": "Music & Movement Storytime (3-5 Years)",
-  "category": "family",
-  "area": "6861 W. Eldorado Pkwy., McKinney",
-  "city": "McKinney",
-  "date": "2026-10-13",
-  "time": "11:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_MusicMovementStorytime",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Music of John Denver",
   "category": "music",
   "area": "Casa Manana, Fort Worth",
@@ -6262,22 +5400,6 @@
   "image": null
  },
  {
-  "name": "Small Business Masterclass (Adults)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-13",
-  "time": "07:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/fall_SmallBusinessMasterclass",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Spanish Conversation Circle (Ages 18+)",
   "category": "family",
   "area": "South Garland Library, Garland",
@@ -6379,22 +5501,6 @@
   "organizer": {
    "name": "City of Grapevine",
    "url": "https://grapevinetexas.gov/"
-  }
- },
- {
-  "name": "Wobblers & Walkers (10-20 Months)",
-  "category": "sports",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-13",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_WobblersWalkers",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
   }
  },
  {
@@ -6538,22 +5644,6 @@
   }
  },
  {
-  "name": "Baby & Me (0-10 Months)",
-  "category": "family",
-  "area": "6861 W. Eldorado Pkwy., McKinney",
-  "city": "McKinney",
-  "date": "2026-10-14",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_BabyMe2",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Baby Bounce & Read (Birth-18 Months)",
   "category": "family",
   "area": "North Garland Library, Garland",
@@ -6608,22 +5698,6 @@
   "description": "Clay Couturiaux, conductor  SaiSai Ding, violoncello (from the Dallas Symphony Orchestra)  Daniel Bubeck, countertenor     Barber First Essay for Orchestra, Op. 12  Bernstein Chichester Psalms  -intermission-  Dvořák Concerto for Violoncello and Orchestra in B Minor, Op. 104",
   "url": "https://calendar.unt.edu/event/concert-orchestra-9767",
   "image": null
- },
- {
-  "name": "Creative Writers Workshop (Adults)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-14",
-  "time": "01:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_CreativeWritersWorkshop",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
  },
  {
   "name": "Crochet Corner In-Person (Ages 13+)",
@@ -6802,22 +5876,6 @@
   "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Kids Art Studio (K-5th Grade)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-14",
-  "time": "04:30 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_KidsArtStudio",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "LP Dance (Ages 3-7)",
   "category": "family",
   "area": "310 E. Parkerville Road, Cedar Hill",
@@ -6943,7 +6001,7 @@
   "cost": null,
   "description": "Hip-Hop/Rap event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/quadeca-dallas-texas-10-14-2026/event/0C0064F5779A2857",
-  "image": "https://s1.ticketm.net/dam/a/107/99e46ca9-e7f7-46b6-a3cb-2043cdc9d107_RETINA_PORTRAIT_16_9.jpg"
+  "image": "https://s1.ticketm.net/dam/a/107/99e46ca9-e7f7-46b6-a3cb-2043cdc9d107_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
   "name": "Rachel Bochner, Janna Jamison",
@@ -7090,22 +6148,6 @@
   }
  },
  {
-  "name": "True Crime Book Club (Adults)",
-  "category": "arts",
-  "area": "6861 W. Eldorado Pkwy., McKinney",
-  "city": "McKinney",
-  "date": "2026-10-14",
-  "time": "07:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall2026_TrueCrimeBookClub",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Tween Club (Ages 10-12)",
   "category": "family",
   "area": "South Garland Library, Garland",
@@ -7202,22 +6244,6 @@
   "image": "https://s1.ticketm.net/dam/a/abb/7d647638-2288-4df1-9ed0-db662fb53abb_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "American Mahjong Hour (Adults)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-15",
-  "time": "01:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/americanmahjonghour",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Andy Franklin & Kenny Lee: Double Headliner",
   "category": "arts",
   "area": "Punch Line Irving, Irving",
@@ -7228,22 +6254,6 @@
   "description": "Comedy event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/andy-franklin-kenny-lee-double-headliner-irving-texas-10-15-2026/event/0C00650ABC136C7E",
   "image": "https://s1.ticketm.net/dam/e/707/f055aa63-6d10-4333-9540-c7a10a779707_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Anime & Art (6th-12th Grade)",
-  "category": "arts",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-15",
-  "time": "04:30 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall2026_artandanime",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
  },
  {
   "name": "Art is Life",
@@ -7586,22 +6596,6 @@
   }
  },
  {
-  "name": "Little Explorers (3-5 Years)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-15",
-  "time": "11:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_LittleExplorers",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Mahjong: Learn & Play",
   "category": "family",
   "area": "Grapevine",
@@ -7874,22 +6868,6 @@
   "image": "https://s1.ticketm.net/dam/a/c94/51653144-df22-4fad-82b9-696d923a3c94_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Toddler Time (16 Months-3 Years)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-15",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_Thursday_ToddlerTime",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Tokyo Machine - Ages 18+",
   "category": "music",
   "area": "SILO, Dallas",
@@ -7971,22 +6949,6 @@
   "organizer": {
    "name": "City of Frisco",
    "url": "https://friscotexas.gov/"
-  }
- },
- {
-  "name": "*VIRTUAL* Genealogy Research Day (Adults)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-16",
-  "time": "09:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_genealogyresearchday",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
   }
  },
  {
@@ -8466,22 +7428,6 @@
   }
  },
  {
-  "name": "Fright Night Escape Room (6th-12th Grade)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-16",
-  "time": "06:30 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall2026_FrightNight",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Funjelah Live Podcast Taping w/ Anjelah Johnson-Reyes & Special Guest",
   "category": "arts",
   "area": "Punch Line Irving, Irving",
@@ -8859,22 +7805,6 @@
   "organizer": {
    "name": "City of Lancaster",
    "url": "https://lancaster-tx.com/"
-  }
- },
- {
-  "name": "Toddler Time (16 Months-3 Years)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-16",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_Friday_ToddlerTime",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
   }
  },
  {
@@ -9370,6 +8300,22 @@
   "image": null
  },
  {
+  "name": "Empower Her Community Event",
+  "category": "family",
+  "area": "3144 Clymer St., Dallas",
+  "city": "Dallas",
+  "date": "2026-10-17",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=19687",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
   "name": "Envision Dance Class",
   "category": "arts",
   "area": "310 E. Parkerville Road, Cedar Hill",
@@ -9479,22 +8425,6 @@
   "organizer": {
    "name": "City of Lancaster",
    "url": "https://lancaster-tx.com/"
-  }
- },
- {
-  "name": "Family Storytime (All Ages)",
-  "category": "family",
-  "area": "1201 E. Louisiana St., McKinney",
-  "city": "McKinney",
-  "date": "2026-10-17",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_FamilyStorytime",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
   }
  },
  {
@@ -9644,22 +8574,6 @@
   "description": "Other event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P4jt",
   "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Native Planting for Fall (Adults)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-17",
-  "time": "11:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/fall_NativePlantingforFall",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
  },
  {
   "name": "OLIVIA RODRIGO NIGHT",
@@ -9890,22 +8804,6 @@
   "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Saturday Chess Meetup (All Ages)",
-  "category": "family",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-10-17",
-  "time": "11:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_SaturdayChessMeetup",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
   "name": "Saturday Music Series at Frisco Fresh Market",
   "category": "market",
   "area": "9215 John W. Elliott Dr, Frisco",
@@ -10072,22 +8970,6 @@
   "description": "theater event via SeatGeek.",
   "url": "https://seatgeek.com/the-black-academy-of-arts-and-letters-tickets/theater/2026-10-17-8-pm/18645424",
   "image": null
- },
- {
-  "name": "Trick or Treat Trail",
-  "category": "outdoors",
-  "area": "1405 Wilson Creek Pkwy., McKinney",
-  "city": "McKinney",
-  "date": "2026-10-17",
-  "time": "03:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.mckinneytexas.org/2210/Trick-or-Treat-Trail",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
  },
  {
   "name": "Volleyball: Open Play",
@@ -10362,16 +9244,16 @@
   "image": "https://s1.ticketm.net/dam/a/144/e3235c11-e05f-4254-8712-6d53ee093144_291971_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Deer Tick with special guest Presley Haile",
+  "name": "Deer Tick",
   "category": "music",
-  "area": "The Kessler Theater, Oak Cliff, Dallas",
+  "area": "The Kessler Theater, Dallas",
   "city": "Dallas",
   "date": "2026-10-18",
-  "time": "Doors — see listing",
-  "cost": 29.5,
-  "description": "Live at The Kessler Theater.",
-  "url": "http://www.prekindle.com/event/86131-deer-tick-dallas",
-  "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648469100575"
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "concert event via SeatGeek.",
+  "url": "https://seatgeek.com/deer-tick-tickets/dallas-texas-the-kessler-theater-2026-10-18-8-pm/concert/18117044",
+  "image": null
  },
  {
   "name": "Dying Fetus w/ Sanguisugabogg",
@@ -10726,6 +9608,134 @@
   "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "After-School Cinema & Snacks",
+  "category": "family",
+  "area": "Grapevine Public Library, 1201 Municipal Way, Grapevine",
+  "city": "Grapevine",
+  "date": "2026-10-19",
+  "time": "04:30 PM",
+  "cost": null,
+  "description": "Kick back after school, bring your favorite snacks, and enjoy a movie with friends! For teens ages 13 and up. October 19, 2026 04:30 PM - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17651/639210354230000",
+  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17651",
+  "image": null,
+  "organizer": {
+   "name": "City of Grapevine",
+   "url": "https://grapevinetexas.gov/"
+  }
+ },
+ {
+  "name": "Big Sprouts Garden Class",
+  "category": "outdoors",
+  "area": "1700 Veterans Memorial Parkway, Lancaster",
+  "city": "Lancaster",
+  "date": "2026-10-19",
+  "time": "05:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8300",
+  "image": null,
+  "organizer": {
+   "name": "City of Lancaster",
+   "url": "https://lancaster-tx.com/"
+  }
+ },
+ {
+  "name": "Bodyweight Training in the Park",
+  "category": "outdoors",
+  "area": "450 Pioneer Trail, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-10-19",
+  "time": "05:30 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=19365",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "Braiding 101",
+  "category": "family",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-10-19",
+  "time": "05:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=16693",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "Breakfast with Santa tickets go on sale",
+  "category": "family",
+  "area": "Frisco",
+  "city": "Frisco",
+  "date": "2026-10-19",
+  "time": "See details",
+  "cost": null,
+  "description": "",
+  "url": "https://www.friscotexas.gov/Calendar.aspx?EID=7691",
+  "image": null,
+  "organizer": {
+   "name": "City of Frisco",
+   "url": "https://friscotexas.gov/"
+  }
+ },
+ {
+  "name": "COI Small Business Leadership Series (Ages 18+)",
+  "category": "family",
+  "area": "Central Library, Garland",
+  "city": "Garland",
+  "date": "2026-10-19",
+  "time": "05:30 PM",
+  "cost": null,
+  "description": "5:30 p.m.; In this five-part workshop, Jennifer Jordan (MBA, CPTD, CPTM) of J2 Leadership and Learning Solutions, will introduce aspiring entrepreneurs, recent small business owners, and established small business owners to the COI (clarity, ownership and independence) framework ",
+  "url": "https://www.garlandtx.gov/m/calendar/event/detail/13024",
+  "image": null,
+  "organizer": {
+   "name": "City of Garland",
+   "url": "https://garlandtx.gov/"
+  }
+ },
+ {
+  "name": "Chair Volleyball",
+  "category": "sports",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-10-19",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=17842",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "Digital Dimensions: Library VR Day",
+  "category": "family",
+  "area": "Grapevine",
+  "city": "Grapevine",
+  "date": "2026-10-19",
+  "time": "05:00 PM",
+  "cost": null,
+  "description": "Who: Ages 10+ What: Join us at the Esports Academy this Monday for Virtual Reality Night! Dive into our extensive library of VR titles and embark on adventures spanning global exploration, immersive gaming, artistic creation, and more. Don’t miss this opportunity to experience th",
+  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17809",
+  "image": null,
+  "organizer": {
+   "name": "City of Grapevine",
+   "url": "https://grapevinetexas.gov/"
+  }
+ },
+ {
   "name": "Doctoral Recital: Kai Wagner, jazz bass",
   "category": "music",
   "area": "Lab West at the Music Building, Denton",
@@ -10750,6 +9760,22 @@
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949004377428"
  },
  {
+  "name": "Garland Book Review Club",
+  "category": "family",
+  "area": "300 N Fifth Street, Garland",
+  "city": "Garland",
+  "date": "2026-10-19",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "Kathleen Cunningham - The Way I Was by Marvin Hamlisch October 19, 2026 10:00 AM - 11:30 AM 300 N Fifth Street Garland, TX 75040 https://www.garlandtx.gov/m/calendar/event/detail/12884/639257738690000000",
+  "url": "https://www.garlandtx.gov/m/calendar/event/detail/12884",
+  "image": null,
+  "organizer": {
+   "name": "City of Garland",
+   "url": "https://garlandtx.gov/"
+  }
+ },
+ {
   "name": "Kels w/ Ella Maddux",
   "category": "festival",
   "area": "AM/FM Dallas, Dallas",
@@ -10760,6 +9786,38 @@
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvkA0",
   "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Knit & Crochet Circle",
+  "category": "arts",
+  "area": "Grapevine",
+  "city": "Grapevine",
+  "date": "2026-10-19",
+  "time": "05:30 PM",
+  "cost": null,
+  "description": "Looking for a cozy way to unwind and connect with fellow yarn enthusiasts? Join us Mondays for our casual Knit & Crochet Circle! Whether you're a seasoned pro or just picking up your first set of needles or hooks, this is the perfect opportunity to share your latest projects, swa",
+  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16860",
+  "image": null,
+  "organizer": {
+   "name": "City of Grapevine",
+   "url": "https://grapevinetexas.gov/"
+  }
+ },
+ {
+  "name": "LP Dance (Ages 3-7)",
+  "category": "family",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-10-19",
+  "time": "07:15 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=18142",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
  },
  {
   "name": "Legacy of the Longhorn",
@@ -10774,16 +9832,64 @@
   "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Peter Bjorn and John - Writer’s Block 20th anniversary tour (Support: Josh Rouse)",
+  "name": "Mindful Me: Stretch & Breath",
+  "category": "sports",
+  "area": "1700 Veterans Memorial Parkway, Lancaster",
+  "city": "Lancaster",
+  "date": "2026-10-19",
+  "time": "06:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8325",
+  "image": null,
+  "organizer": {
+   "name": "City of Lancaster",
+   "url": "https://lancaster-tx.com/"
+  }
+ },
+ {
+  "name": "Next Gen Art Lab",
+  "category": "arts",
+  "area": "1700 Veterans Memorial Parkway, Lancaster",
+  "city": "Lancaster",
+  "date": "2026-10-19",
+  "time": "07:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8350",
+  "image": null,
+  "organizer": {
+   "name": "City of Lancaster",
+   "url": "https://lancaster-tx.com/"
+  }
+ },
+ {
+  "name": "Peter Bjorn and John",
   "category": "music",
-  "area": "Granada Theater, Lower Greenville, Dallas",
+  "area": "Granada Theater - Dallas, Dallas",
   "city": "Dallas",
   "date": "2026-10-19",
-  "time": "Doors — see listing",
-  "cost": 15.0,
-  "description": "Live at Granada Theater.",
-  "url": "http://www.prekindle.com/event/85341-peter-bjorn-and-john-dallas",
-  "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949133590256"
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "concert event via SeatGeek.",
+  "url": "https://seatgeek.com/peter-bjorn-and-john-tickets/dallas-texas-granada-theater-dallas-2026-10-19-8-pm/concert/18296868",
+  "image": null
+ },
+ {
+  "name": "STEM Lab (18+)",
+  "category": "family",
+  "area": "Grapevine",
+  "city": "Grapevine",
+  "date": "2026-10-19",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "Mondays & Wednesdays 10 AM-1:00 PM (Adults, ages 18+) Join us at Grapevine Makerspace for our STEM Lab! During this session, you’ll have access to 3D printers, laser cutters, and other equipment. Our knowledgeable staff will be available to provide guidance, tips, and support as ",
+  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17817",
+  "image": null,
+  "organizer": {
+   "name": "City of Grapevine",
+   "url": "https://grapevinetexas.gov/"
+  }
  },
  {
   "name": "Sleep Club, Life After Youth, Como La Flor",
@@ -10798,6 +9904,22 @@
   "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_16_9.jpg"
  },
  {
+  "name": "Smart Start Garland: School Readiness Workshops",
+  "category": "arts",
+  "area": "Central Library, Garland",
+  "city": "Garland",
+  "date": "2026-10-19",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "10:00 a.m.; Set your child on the path for school success with Smart Start Garland! This six-week school readiness program will introduce children to fundamental skills and behaviors that will help them thrive in a learning environment, while also providing support and resources ",
+  "url": "https://www.garlandtx.gov/m/calendar/event/detail/13290",
+  "image": null,
+  "organizer": {
+   "name": "City of Garland",
+   "url": "https://garlandtx.gov/"
+  }
+ },
+ {
   "name": "Specialized Karaoke Night with RUEN",
   "category": "music",
   "area": "Three Links Deep Ellum, Dallas",
@@ -10810,6 +9932,22 @@
   "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_16_9.jpg"
  },
  {
+  "name": "Step Aerobics/Extreme Hip Hop",
+  "category": "sports",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-10-19",
+  "time": "06:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=18546",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
   "name": "Token w/ Clark D",
   "category": "music",
   "area": "Club Dada, Dallas",
@@ -10820,6 +9958,22 @@
   "description": "Other event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jfog",
   "image": "https://s1.ticketm.net/dam/a/791/09133d9c-3806-4fa3-80e9-df8d0590c791_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "Volleyball: Open Play",
+  "category": "sports",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-10-19",
+  "time": "06:30 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=19595",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
  },
  {
   "name": "20 Years of Nekrogoblikon with Special Guests Aborted",
@@ -10934,6 +10088,18 @@
   "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "Nick Mullen (18+)",
+  "category": "arts",
+  "area": "Hyena's Comedy Night Club - Fort Worth, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-10-20",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "comedy event via SeatGeek.",
+  "url": "https://seatgeek.com/nick-mullen-tickets/comedy/2026-10-20-8-pm/18596057",
+  "image": null
+ },
+ {
   "name": "Paledusk, Headwreck, Slow Degrade",
   "category": "music",
   "area": "Three Links Deep Ellum, Dallas",
@@ -10968,7 +10134,7 @@
   "description": "Another Fabulous Singles Event ♥ For Ages 30-49 @ Old Texas Brewing - Burleson in Burleson, TX. As featured recently in the WSJ, NPR and TLC 90 Day Fiance - The Single Life. Meet the love of your life at the best and most trusted dating event company in the US. Where else can you",
   "url": "https://speeddatingdallas.com/#section-features",
   "image": [
-   "https://speeddatingdallas.com/images/thirty16-speed-dating-near-me.jpg"
+   "https://speeddatingdallas.com/images/thirty13-speed-dating-age-30.jpg"
   ]
  },
  {
@@ -10982,8 +10148,24 @@
   "description": "Another Fabulous Singles Event ♥ For Ages 44-59 @ Black Hawk Brewery in Prosper, TX. As featured recently in the WSJ, NPR and TLC 90 Day Fiance - The Single Life. Meet the love of your life at the best and most trusted dating event company in the US. Where else can you meet up 14",
   "url": "https://speeddatingdallas.com/#section-features",
   "image": [
-   "https://speeddatingdallas.com/images/fourty15-best-speed-dating-company.jpg"
+   "https://speeddatingdallas.com/images/fourty05-meeting-people-after-divorce.jpg"
   ]
+ },
+ {
+  "name": "Tarleton State Texans at UT Arlington Mavericks Womens Volleyball",
+  "category": "sports",
+  "area": "College Park Center, Arlington",
+  "city": "Arlington",
+  "date": "2026-10-20",
+  "time": "6:00 PM",
+  "cost": null,
+  "description": "womens college volleyball event via SeatGeek.",
+  "url": "https://seatgeek.com/ut-arlington-mavericks-womens-volleyball-tickets/womens-college-volleyball/2026-10-20-6-pm/18391903",
+  "image": null,
+  "organizer": {
+   "name": "UT Arlington Mavericks",
+   "url": "https://utamavs.com"
+  }
  },
  {
   "name": "Test Your Mic",
@@ -11312,7 +10494,7 @@
   "description": "Another Fabulous Singles Event ♥ For Ages 25-45 @ Atheneum Cider in Saginaw, TX. As featured recently in the WSJ, NPR and TLC 90 Day Fiance - The Single Life. Meet the love of your life at the best and most trusted dating event company in the US. Where else can you meet up 14 ama",
   "url": "https://speeddatingdallas.com/#section-features",
   "image": [
-   "https://speeddatingdallas.com/images/twenty04-speed-dating-reviews.jpg"
+   "https://speeddatingdallas.com/images/twenty05-top-rated-speed-dating-co.jpg"
   ]
  },
  {
@@ -12786,7 +11968,7 @@
   "description": "Another Fabulous Singles Event ♥ For Ages 24-39 @ Black Hawk Brewery in Prosper, TX. As featured recently in the WSJ, NPR and TLC 90 Day Fiance - The Single Life. Meet the love of your life at the best and most trusted dating event company in the US. Where else can you meet up 14",
   "url": "https://speeddatingdallas.com/#section-features",
   "image": [
-   "https://speeddatingdallas.com/images/twenty16-speed-dating-near-me.jpg"
+   "https://speeddatingdallas.com/images/twenty04-speed-dating-reviews.jpg"
   ]
  },
  {
@@ -14302,6 +13484,22 @@
   "image": null
  },
  {
+  "name": "Dallas Mavericks vs. Sacramento Kings",
+  "category": "sports",
+  "area": "American Airlines Center, Dallas",
+  "city": "Dallas",
+  "date": "2026-11-02",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "Basketball event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/dallas-mavericks-vs-sacramento-kings-dallas-texas-11-02-2026/event/0C00650C8DD03B97",
+  "image": "https://s1.ticketm.net/dam/a/35b/81422ed8-caad-4688-9c88-75c9b402f35b_RETINA_LANDSCAPE_16_9.jpg",
+  "organizer": {
+   "name": "Dallas Mavericks",
+   "url": "https://www.mavs.com"
+  }
+ },
+ {
   "name": "Dinosaur Jr. Fall Tour 2026 w / special guest Stef Chura",
   "category": "music",
   "area": "Granada Theater, Lower Greenville, Dallas",
@@ -14326,6 +13524,30 @@
   "image": null
  },
  {
+  "name": "Julia Jacklin (16 and Under with Parent or Legal Guardian)",
+  "category": "music",
+  "area": "The Studio at the Bomb Factory, Dallas",
+  "city": "Dallas",
+  "date": "2026-11-02",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Other event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PfjM",
+  "image": "https://s1.ticketm.net/dam/a/2ca/2b62de30-a977-47e0-934b-4b6e07d102ca_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Knox",
+  "category": "music",
+  "area": "House of Blues Dallas , Dallas",
+  "city": "Dallas",
+  "date": "2026-11-02",
+  "time": "6:30 PM",
+  "cost": null,
+  "description": "Pop event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/knox-dallas-texas-11-02-2026/event/0C0064ED7B5B3302",
+  "image": "https://s1.ticketm.net/dam/a/3b8/68508f11-f20d-4ac5-8053-4fa37f6563b8_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
   "name": "Legacy of the Longhorn",
   "category": "festival",
   "area": "Cowtown Coliseum, Fort Worth",
@@ -14348,6 +13570,30 @@
   "description": "Live at The Kessler Theater.",
   "url": "http://www.prekindle.com/event/22413-an-evening-with-lucinda-williams-and-her-band-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949092949012"
+ },
+ {
+  "name": "Steven Curtis Chapman",
+  "category": "music",
+  "area": "Eisemann Center, Richardson",
+  "city": "Richardson",
+  "date": "2026-11-02",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "Pop event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pvo6",
+  "image": "https://s1.ticketm.net/dam/a/b82/ffd0c5ce-2e8a-46a1-b2b8-cc61e7e7ab82_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "Victoria Monét: Frequency Of Love Tour",
+  "category": "music",
+  "area": "South Side Ballroom, Dallas",
+  "city": "Dallas",
+  "date": "2026-11-02",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Pop event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-dallas-texas-11-02-2026/event/0C006528D73AB742",
+  "image": "https://s1.ticketm.net/dam/a/2c6/c179b975-2dc4-4d7b-bbcd-45c41ac7a2c6_RETINA_PORTRAIT_16_9.jpg"
  },
  {
   "name": "Five & Four O'Clock Lab Bands",
@@ -14386,6 +13632,18 @@
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949014208465"
  },
  {
+  "name": "Legacy of the Longhorn",
+  "category": "festival",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-11-03",
+  "time": "12:30 PM",
+  "cost": null,
+  "description": "Live event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed8a",
+  "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
   "name": "Lucinda Williams and her band with Danny Reidy - Night 2",
   "category": "music",
   "area": "The Kessler Theater, Oak Cliff, Dallas",
@@ -14419,6 +13677,78 @@
   "cost": null,
   "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.     This event is free and open to the public with general seating.",
   "url": "https://calendar.unt.edu/event/trombone-choirs-concert-fall-2026",
+  "image": null
+ },
+ {
+  "name": "Worlds 2026 - Quarters 1",
+  "category": "sports",
+  "area": "Credit Union of Texas Event Center, Allen",
+  "city": "Allen",
+  "date": "2026-11-03",
+  "time": "4:00 PM",
+  "cost": null,
+  "description": "eSports event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/worlds-2026-quarters-1-allen-texas-11-03-2026/event/0C0064F088914A52",
+  "image": "https://s1.ticketm.net/dam/a/dba/278c810b-825b-4199-9f85-0757acd05dba_1778721_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "APOLLORED1",
+  "category": "music",
+  "area": "Trees, Dallas",
+  "city": "Dallas",
+  "date": "2026-11-04",
+  "time": "Doors — see listing",
+  "cost": 26.0,
+  "description": "Live at Trees.",
+  "url": "http://www.prekindle.com/event/57322-apollored1-dallas",
+  "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949009359244"
+ },
+ {
+  "name": "Brass Band",
+  "category": "music",
+  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
+  "city": "Denton",
+  "date": "2026-11-04",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.",
+  "url": "https://calendar.unt.edu/event/brass-band5",
+  "image": null
+ },
+ {
+  "name": "Center for Chamber Showcase",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-11-04",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/center-for-chamber-showcase5",
+  "image": null
+ },
+ {
+  "name": "Graduate Artist Recital: Amber Lo, clarinet",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-11-04",
+  "time": "5:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/graduate-artist-recital-amber-lo-clarinet",
+  "image": null
+ },
+ {
+  "name": "Senior Recital: Heath Cedric DeGuzman, jazz saxophone",
+  "category": "music",
+  "area": "Lab West at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-11-04",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/senior-recital-heath-cedric-deguzman-jazz-saxophone",
   "image": null
  }
 ]

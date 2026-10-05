@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:paris-paloma-the-fatal-flaw-tour|house-of-blues-dallas-dallas|7-00-pm-2
- 026-10-04@letsdoitdallas.com
-DTSTAMP:20261005T000000Z
-DTSTART:20261005T000000Z
-DTEND:20261005T030000Z
-SUMMARY:Paris Paloma: The Fatal Flaw Tour
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=paris-paloma-the-fatal-fl
- aw-tour%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:band-maid-world-tour-2026|house-of-blues-dallas-dallas|7-00-pm-2026-10-
  09@letsdoitdallas.com
 DTSTAMP:20261010T000000Z
@@ -254,5 +241,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-01&e=esteman-daniela-spalla-am
  orio-usa-tour%7Chouse-of-blues-dallas-dallas%7C7-00-pm
 DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:knox|house-of-blues-dallas-dallas|6-30-pm-2026-11-02@letsdoitdallas.com
+DTSTAMP:20261103T003000Z
+DTSTART:20261103T003000Z
+DTEND:20261103T033000Z
+SUMMARY:Knox
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=knox%7Chouse-of-blues-dal
+ las-dallas%7C6-30-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/house-of-blues-dallas/
 END:VEVENT
 END:VCALENDAR

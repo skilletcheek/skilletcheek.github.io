@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cash-money-no-limit-tour|american-airlines-center-dallas|7-00-pm-2026-1
- 0-04@letsdoitdallas.com
-DTSTAMP:20261005T000000Z
-DTSTART:20261005T000000Z
-DTEND:20261005T030000Z
-SUMMARY:Cash Money & No Limit Tour
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=cash-money-no-limit-tour%
- 7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-stars-vs-san-jose-sharks|american-airlines-center-dallas|7-00-pm
  -2026-10-05@letsdoitdallas.com
 DTSTAMP:20261006T000000Z
@@ -254,5 +241,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=dallas-stars-vs-columbus-
  blue-jackets%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-vs-sacramento-kings|american-airlines-center-dallas|7-
+ 00-pm-2026-11-02@letsdoitdallas.com
+DTSTAMP:20261103T010000Z
+DTSTART:20261103T010000Z
+DTEND:20261103T040000Z
+SUMMARY:Dallas Mavericks vs. Sacramento Kings
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=dallas-mavericks-vs-sacra
+ mento-kings%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/american-airlines-center/
 END:VEVENT
 END:VCALENDAR

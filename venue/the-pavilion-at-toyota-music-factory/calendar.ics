@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:zz-top|the-pavilion-at-toyota-music-factory-irving|6-00-pm-2026-10-04@l
- etsdoitdallas.com
-DTSTAMP:20261004T230000Z
-DTSTART:20261004T230000Z
-DTEND:20261005T020000Z
-SUMMARY:ZZ Top
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=zz-top%7Cthe-pavilion-at-
- toyota-music-factory-irving%7C6-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:tlc-salt-n-pepa-with-en-vogue-it-s-iconic|the-pavilion-at-toyota-music-
  factory-irving|7-30-pm-2026-10-05@letsdoitdallas.com
 DTSTAMP:20261006T003000Z

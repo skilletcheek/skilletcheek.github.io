@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
- doors-see-listing-2026-10-04@letsdoitdallas.com
-DTSTAMP:20261004T000000Z
-DTSTART;VALUE=DATE:20261004
-DTEND;VALUE=DATE:20261005
-SUMMARY:geeks who drink FREE Trivia
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=geeks-who-drink-free-triv
- ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:free-halloween-movie-month-john-wick|sundown-at-granada-lower-greenvill
  e-dallas|doors-see-listing-2026-10-05@letsdoitdallas.com
 DTSTAMP:20261005T000000Z
@@ -211,20 +198,17 @@ DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
-UID:peter-bjorn-and-john-writer-s-block-20th-anniversary-tour-support-josh-
- rouse-|granada-theater-lower-greenville-dallas|doors-see-listing-2026-10-1
- 9@letsdoitdallas.com
-DTSTAMP:20261019T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
-SUMMARY:Peter Bjorn and John - Writer’s Block 20th anniversary tour (Supp
- ort: Josh Rouse)
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=peter-bjorn-and-john-writ
- er-s-block-20th-anniversary-tour-support-josh-rouse-%7Cgranada-theater-low
- er-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
- istrict/lower-greenville/
+UID:peter-bjorn-and-john|granada-theater-dallas-dallas|8-00-pm-2026-10-19@l
+ etsdoitdallas.com
+DTSTAMP:20261020T010000Z
+DTSTART:20261020T010000Z
+DTEND:20261020T040000Z
+SUMMARY:Peter Bjorn and John
+LOCATION:Granada Theater - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=peter-bjorn-and-john%7Cgr
+ anada-theater-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
 UID:free-halloween-movie-month-hocus-pocus|sundown-at-granada-lower-greenvi

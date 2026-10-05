@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:little-shop-of-horrors-presented-by-company-of-rowlett-performers|521-w
- -state-street-garland|02-00-pm-2026-10-04@letsdoitdallas.com
-DTSTAMP:20261004T190000Z
-DTSTART:20261004T190000Z
-DTEND:20261004T220000Z
-SUMMARY:Little Shop of Horrors presented by Company of Rowlett Performers
-LOCATION:521 W State Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=little-shop-of-horrors-pr
- esented-by-company-of-rowlett-performers%7C521-w-state-street-garland%7C02
- -00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:sbdc-workshop-how-to-start-a-business|central-library-garland|12-00-pm-
  2026-10-05@letsdoitdallas.com
 DTSTAMP:20261005T170000Z
@@ -982,6 +969,53 @@ LOCATION:300 N Fifth Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-10-18&e=anything-goes-presented-b
  y-garland-civic-theatre%7C300-n-fifth-street-garland%7C02-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:garland-book-review-club|300-n-fifth-street-garland|10-00-am-2026-10-19
+ @letsdoitdallas.com
+DTSTAMP:20261019T150000Z
+DTSTART:20261019T150000Z
+DTEND:20261019T180000Z
+SUMMARY:Garland Book Review Club
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=garland-book-review-club%
+ 7C300-n-fifth-street-garland%7C10-00-am
+DESCRIPTION:Kathleen Cunningham - The Way I Was by Marvin Hamlisch October 
+ 19\, 2026 10:00 AM - 11:30 AM 300 N Fifth Street Garland\, TX 75040 https:
+ //www.garlandtx.gov/m/calendar/event/detail/12884/639257738690000000 — M
+ ore: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:smart-start-garland-school-readiness-workshops|central-library-garland|
+ 10-00-am-2026-10-19@letsdoitdallas.com
+DTSTAMP:20261019T150000Z
+DTSTART:20261019T150000Z
+DTEND:20261019T180000Z
+SUMMARY:Smart Start Garland: School Readiness Workshops
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=smart-start-garland-schoo
+ l-readiness-workshops%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Set your child on the path for school success with
+  Smart Start Garland! This six-week school readiness program will introduc
+ e children to fundamental skills and behaviors that will help them thrive 
+ in a learning environment\, while also providing support and resources —
+  More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:coi-small-business-leadership-series-ages-18-|central-library-garland|0
+ 5-30-pm-2026-10-19@letsdoitdallas.com
+DTSTAMP:20261019T223000Z
+DTSTART:20261019T223000Z
+DTEND:20261020T013000Z
+SUMMARY:COI Small Business Leadership Series (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=coi-small-business-leader
+ ship-series-ages-18-%7Ccentral-library-garland%7C05-30-pm
+DESCRIPTION:5:30 p.m.\; In this five-part workshop\, Jennifer Jordan (MBA\,
+  CPTD\, CPTM) of J2 Leadership and Learning Solutions\, will introduce asp
+ iring entrepreneurs\, recent small business owners\, and established small
+  business owners to the COI (clarity\, ownership and independence) framewo
+ rk — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:fright-fest-dababy-and-friends|curtis-culwell-center-garland|8-00-pm-20

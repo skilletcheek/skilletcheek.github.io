@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:doctoral-recital-xinjin-yang-voice|recital-hall-at-the-music-building-d
- enton|3-30-pm-2026-10-04@letsdoitdallas.com
-DTSTAMP:20261004T203000Z
-DTSTART:20261004T203000Z
-DTEND:20261004T233000Z
-SUMMARY:Doctoral Recital: Xinjin Yang\, voice
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=doctoral-recital-xinjin-y
- ang-voice%7Crecital-hall-at-the-music-building-denton%7C3-30-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-william-gammon-henry-concerto-competition-2026-harp-guitar-percussi
  on-prelims|paul-voertman-concert-hall-at-the-music-building-denton|4-00-pm
  -2026-10-05@letsdoitdallas.com
@@ -1074,5 +1058,71 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  ay of the performance.      Livestream is not available for this event.   
      This event is free and open to the public with general seating. — Mo
  re: https://letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:graduate-artist-recital-amber-lo-clarinet|paul-voertman-concert-hall-at
+ -the-music-building-denton|5-00-pm-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261104T230000Z
+DTSTART:20261104T230000Z
+DTEND:20261105T020000Z
+SUMMARY:Graduate Artist Recital: Amber Lo\, clarinet
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=graduate-artist-recital-a
+ mber-lo-clarinet%7Cpaul-voertman-concert-hall-at-the-music-building-denton
+ %7C5-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:brass-band|winspear-performance-hall-at-the-murchison-performing-arts-c
+ enter-denton|7-30-pm-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261105T013000Z
+DTSTART:20261105T013000Z
+DTEND:20261105T043000Z
+SUMMARY:Brass Band
+LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
+ · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=brass-band%7Cwinspear-per
+ formance-hall-at-the-murchison-performing-arts-center-denton%7C7-30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below. — More: https://letsd
+ oitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:center-for-chamber-showcase|paul-voertman-concert-hall-at-the-music-bui
+ lding-denton|8-00-pm-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261105T020000Z
+DTSTART:20261105T020000Z
+DTEND:20261105T050000Z
+SUMMARY:Center for Chamber Showcase
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=center-for-chamber-showca
+ se%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below.      This event is free
+  and open to the public with general seating. — More: https://letsdoitda
+ llas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:senior-recital-heath-cedric-deguzman-jazz-saxophone|lab-west-at-the-mus
+ ic-building-denton|8-00-pm-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261105T020000Z
+DTSTART:20261105T020000Z
+DTEND:20261105T050000Z
+SUMMARY:Senior Recital: Heath Cedric DeGuzman\, jazz saxophone
+LOCATION:Lab West at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=senior-recital-heath-cedr
+ ic-deguzman-jazz-saxophone%7Clab-west-at-the-music-building-denton%7C8-00-
+ pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below.      This event is free
+  and open to the public with general seating. — More: https://letsdoitda
+ llas.com/city/denton/
 END:VEVENT
 END:VCALENDAR

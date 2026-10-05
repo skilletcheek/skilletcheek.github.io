@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:damon-williams|arlington-improv-arlington|7-00-pm-2026-10-04@letsdoitda
- llas.com
-DTSTAMP:20261005T000000Z
-DTSTART:20261005T000000Z
-DTEND:20261005T030000Z
-SUMMARY:Damon Williams
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=damon-williams%7Carlingto
- n-improv-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-10-06@letsdoitdal
  las.com
 DTSTAMP:20261006T233000Z

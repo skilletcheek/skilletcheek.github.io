@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:boz-scaggs|majestic-theatre-dallas-dallas|7-00-pm-2026-10-04@letsdoitda
- llas.com
-DTSTAMP:20261005T000000Z
-DTSTART:20261005T000000Z
-DTEND:20261005T030000Z
-SUMMARY:Boz Scaggs
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=boz-scaggs%7Cmajestic-the
- atre-dallas-dallas%7C7-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:my-hero-academia-in-concert|majestic-theatre-dallas-dallas|7-30-pm-2026
  -10-07@letsdoitdallas.com
 DTSTAMP:20261008T003000Z

@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-04@letsdoitd
- allas.com
-DTSTAMP:20261005T040000Z
-DTSTART:20261005T040000Z
-DTEND:20261005T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:gavin-adcock-16-and-under-with-parent-or-legal-guardian-|the-studio-at-
  the-bomb-factory-dallas|7-00-pm-2026-10-05@letsdoitdallas.com
 DTSTAMP:20261006T000000Z
@@ -828,5 +815,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=dexter-and-the-moonrocks-
  00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:julia-jacklin-16-and-under-with-parent-or-legal-guardian-|the-studio-at
+ -the-bomb-factory-dallas|8-00-pm-2026-11-02@letsdoitdallas.com
+DTSTAMP:20261103T020000Z
+DTSTART:20261103T020000Z
+DTEND:20261103T050000Z
+SUMMARY:Julia Jacklin (16 and Under with Parent or Legal Guardian)
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=julia-jacklin-16-and-unde
+ r-with-parent-or-legal-guardian-%7Cthe-studio-at-the-bomb-factory-dallas%7
+ C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:apollored1|trees-dallas|doors-see-listing-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:APOLLORED1
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=apollored1%7Ctrees-dallas
+ %7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
 END:VEVENT
 END:VCALENDAR

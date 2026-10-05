@@ -81,18 +81,17 @@ DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/district/bishop-arts/
 END:VEVENT
 BEGIN:VEVENT
-UID:deer-tick-with-special-guest-presley-haile|the-kessler-theater-oak-clif
- f-dallas|doors-see-listing-2026-10-18@letsdoitdallas.com
-DTSTAMP:20261018T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:Deer Tick with special guest Presley Haile
+UID:deer-tick|the-kessler-theater-dallas|8-00-pm-2026-10-18@letsdoitdallas.
+ com
+DTSTAMP:20261019T010000Z
+DTSTART:20261019T010000Z
+DTEND:20261019T040000Z
+SUMMARY:Deer Tick
 LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=deer-tick-with-special-gu
- est-presley-haile%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listi
- ng
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/district/bishop-arts/
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=deer-tick%7Cthe-kessler-t
+ heater-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/bishop-arts/
 END:VEVENT
 BEGIN:VEVENT
 UID:katie-pruitt-fools-for-the-fleeting-tour-with-special-guest-judy-blank|

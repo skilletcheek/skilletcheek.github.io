@@ -89,20 +89,17 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:peter-bjorn-and-john-writer-s-block-20th-anniversary-tour-support-josh-
- rouse-|granada-theater-lower-greenville-dallas|doors-see-listing-2026-10-1
- 9@letsdoitdallas.com
-DTSTAMP:20261019T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
-SUMMARY:Peter Bjorn and John - Writer’s Block 20th anniversary tour (Supp
- ort: Josh Rouse)
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=peter-bjorn-and-john-writ
- er-s-block-20th-anniversary-tour-support-josh-rouse-%7Cgranada-theater-low
- er-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
+UID:peter-bjorn-and-john|granada-theater-dallas-dallas|8-00-pm-2026-10-19@l
+ etsdoitdallas.com
+DTSTAMP:20261020T010000Z
+DTSTART:20261020T010000Z
+DTEND:20261020T040000Z
+SUMMARY:Peter Bjorn and John
+LOCATION:Granada Theater - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=peter-bjorn-and-john%7Cgr
+ anada-theater-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:ax-and-the-hatchetmen|granada-theater-tx-dallas|8-00-pm-2026-10-20@lets

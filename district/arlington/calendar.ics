@@ -10,80 +10,28 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-10-04@
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|1-00-pm-2026-10-05@
  letsdoitdallas.com
-DTSTAMP:20261004T200000Z
-DTSTART:20261004T200000Z
-DTEND:20261004T230000Z
+DTSTAMP:20261005T180000Z
+DTSTART:20261005T180000Z
+DTEND:20261005T210000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=at-t-stadium-vip-guided-t
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C1-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-10-05@
+ letsdoitdallas.com
+DTSTAMP:20261005T200000Z
+DTSTART:20261005T200000Z
+DTEND:20261005T230000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-05&e=at-t-stadium-vip-guided-t
  our%7Cat-t-stadium-arlington%7C3-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:damon-williams|arlington-improv-arlington|7-00-pm-2026-10-04@letsdoitda
- llas.com
-DTSTAMP:20261005T000000Z
-DTSTART:20261005T000000Z
-DTEND:20261005T030000Z
-SUMMARY:Damon Williams
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=damon-williams%7Carlingto
- n-improv-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-05
- @letsdoitdallas.com
-DTSTAMP:20261005T150000Z
-DTSTART:20261005T150000Z
-DTEND:20261005T180000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C10-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-10-05
- @letsdoitdallas.com
-DTSTAMP:20261005T170000Z
-DTSTART:20261005T170000Z
-DTEND:20261005T200000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C12-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-10-05@
- letsdoitdallas.com
-DTSTAMP:20261005T190000Z
-DTSTART:20261005T190000Z
-DTEND:20261005T220000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C2-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-10-05@
- letsdoitdallas.com
-DTSTAMP:20261005T210000Z
-DTSTART:20261005T210000Z
-DTEND:20261006T000000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C4-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
@@ -153,21 +101,21 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:michael-lives-forever-michael-jackson-tribute-concert|college-park-cent
- er-arlington|7-30-pm-10-30-pm-2026-10-06@letsdoitdallas.com
+UID:michael-jackson-tribute-live-show|college-park-center-600-s-center-stre
+ et-arlington-tx-76010|7-30-pm-2026-10-06@letsdoitdallas.com
 DTSTAMP:20261007T003000Z
 DTSTART:20261007T003000Z
 DTEND:20261007T033000Z
-SUMMARY:Michael Lives Forever - Michael Jackson Tribute Concert
+SUMMARY:Michael Jackson Tribute Live Show
 LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=michael-lives-forever-mic
- hael-jackson-tribute-concert%7Ccollege-park-center-arlington%7C7-30-pm-10-
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=michael-jackson-tribute-l
+ ive-show%7Ccollege-park-center-600-s-center-street-arlington-tx-76010%7C7-
  30-pm
-DESCRIPTION:A world-class live Michael Jackson tribute concert comes to Col
- lege Park Center\, presented by Digital Headquarters\, LLC. Michael Lives 
- Forever is an independent live tribute production and is not affiliated wi
- th the Estate of Michael Jackson. Starring Rodrigo Teaser\, one of the w 
- — More: https://letsdoitdallas.com/district/arlington/
+DESCRIPTION:Michael Lives Forever brings a world-class live Michael Jackson
+  tribute concert to College Park Center in Arlington\, Texas on Tuesday\, 
+ October 6\, 2026.  Starring Rodrigo Teaser\, one of the world’s most acc
+ laimed Michael Jackson tribute artists\, the production recreates the King
+  o — More: https://letsdoitdallas.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-07
@@ -857,6 +805,20 @@ URL:https://letsdoitdallas.com/?date=2026-10-18&e=marcus-d-wiley%7Carlingto
  n-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:tarleton-state-texans-at-ut-arlington-mavericks-womens-volleyball|colle
+ ge-park-center-arlington|6-00-pm-2026-10-20@letsdoitdallas.com
+DTSTAMP:20261020T230000Z
+DTSTART:20261020T230000Z
+DTEND:20261021T020000Z
+SUMMARY:Tarleton State Texans at UT Arlington Mavericks Womens Volleyball
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=tarleton-state-texans-at-
+ ut-arlington-mavericks-womens-volleyball%7Ccollege-park-center-arlington%7
+ C6-00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-10-20@letsdoitdal

@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pbr-teams-series-rattler-days|dickies-arena-fort-worth|1-45-pm-2026-10-
- 04@letsdoitdallas.com
-DTSTAMP:20261004T184500Z
-DTSTART:20261004T184500Z
-DTEND:20261004T214500Z
-SUMMARY:PBR Teams Series: Rattler Days
-LOCATION:Dickies Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=pbr-teams-series-rattler-
- days%7Cdickies-arena-fort-worth%7C1-45-pm
-DESCRIPTION:Rodeo event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/dickies-arena/
-END:VEVENT
-BEGIN:VEVENT
-UID:pbr-three-day-package-ticket-includes-access-to-all-days|dickies-arena-
- fort-worth|8-00-pm-2026-10-04@letsdoitdallas.com
-DTSTAMP:20261005T010000Z
-DTSTART:20261005T010000Z
-DTEND:20261005T040000Z
-SUMMARY:PBR Three-Day Package - Ticket Includes Access to All Days
-LOCATION:Dickies Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=pbr-three-day-package-tic
- ket-includes-access-to-all-days%7Cdickies-arena-fort-worth%7C8-00-pm
-DESCRIPTION:Rodeo event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/dickies-arena/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-red-clay-strays|dickies-arena-fort-worth|6-30-pm-2026-10-07@letsdoi
  tdallas.com
 DTSTAMP:20261007T233000Z

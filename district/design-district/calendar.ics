@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:joris-voorn-ages-18-|silo-dallas|5-00-pm-2026-10-04@letsdoitdallas.com
-DTSTAMP:20261004T220000Z
-DTSTART:20261004T220000Z
-DTEND:20261005T010000Z
-SUMMARY:JORIS VOORN - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=joris-voorn-ages-18-%7Csi
- lo-dallas%7C5-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:joris-voorn-18-|silo-dallas-dallas|7-00-pm-2026-10-04@letsdoitdallas.co
- m
-DTSTAMP:20261005T000000Z
-DTSTART:20261005T000000Z
-DTEND:20261005T030000Z
-SUMMARY:Joris Voorn (18+)
-LOCATION:SILO - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-04&e=joris-voorn-18-%7Csilo-da
- llas-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:mar-solis|the-echo-lounge-music-hall-dallas|7-00-pm-2026-10-08@letsdoit
  dallas.com
 DTSTAMP:20261009T000000Z
