@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:clearpathtx-statewide-expunction-project|central-library-garland|12-00-
- pm-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261006T170000Z
-DTSTART:20261006T170000Z
-DTEND:20261006T200000Z
-SUMMARY:ClearPathTX Statewide Expunction Project
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=clearpathtx-statewide-exp
- unction-project%7Ccentral-library-garland%7C12-00-pm
-DESCRIPTION:12:00 p.m.\; Is your criminal history dragging you down? Has it
-  stopped you from getting a better paying job or renting a house? You may 
- qualify to get your criminal history cleared with an expunction or nondisc
- losure. Please stop by and learn how we can help! No registration requ —
-  More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
  |04-00-pm-2026-10-06@letsdoitdallas.com
 DTSTAMP:20261006T210000Z
@@ -774,18 +758,15 @@ DESCRIPTION:11:00 a.m.\; Toddler Time is a storytime for children ages 18 m
  la — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:a-night-of-gershwin-thomas-pandolfi-piano-presented-by-garland-symphony
- -orchestra|300-n-fifth-street-garland|07-30-pm-2026-10-16@letsdoitdallas.c
- om
+UID:anything-goes-presented-by-garland-civic-theatre|300-n-fifth-street-gar
+ land|07-30-pm-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261017T003000Z
 DTSTART:20261017T003000Z
 DTEND:20261017T033000Z
-SUMMARY:A Night of Gershwin\, Thomas Pandolfi\, piano - presented by Garlan
- d Symphony Orchestra
+SUMMARY:Anything Goes presented by Garland Civic Theatre
 LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=a-night-of-gershwin-thoma
- s-pandolfi-piano-presented-by-garland-symphony-orchestra%7C300-n-fifth-str
- eet-garland%7C07-30-pm
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=anything-goes-presented-b
+ y-garland-civic-theatre%7C300-n-fifth-street-garland%7C07-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT

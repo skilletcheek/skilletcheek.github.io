@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|11-00-am-2026-10-06
- @letsdoitdallas.com
-DTSTAMP:20261006T160000Z
-DTSTART:20261006T160000Z
-DTEND:20261006T190000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C11-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|1-00-pm-2026-10-06@
- letsdoitdallas.com
-DTSTAMP:20261006T180000Z
-DTSTART:20261006T180000Z
-DTEND:20261006T210000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C1-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-10-06@
- letsdoitdallas.com
-DTSTAMP:20261006T200000Z
-DTSTART:20261006T200000Z
-DTEND:20261006T230000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C3-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-10-06@letsdoitdal
  las.com
 DTSTAMP:20261006T233000Z
@@ -521,6 +482,19 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:home-free|arlington-music-hall-arlington|7-30-pm-2026-10-16@letsdoitdal
+ las.com
+DTSTAMP:20261017T003000Z
+DTSTART:20261017T003000Z
+DTEND:20261017T033000Z
+SUMMARY:Home Free
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=home-free%7Carlington-mus
+ ic-hall-arlington%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:marcus-d-wiley|arlington-improv-arlington|7-30-pm-2026-10-16@letsdoitda
  llas.com
 DTSTAMP:20261017T003000Z
@@ -623,6 +597,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=at-t-stadium-vip-guided-t
  our%7Cat-t-stadium-arlington%7C4-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:marcus-d-wiley|arlington-improv-arlington|4-00-pm-2026-10-17@letsdoitda
+ llas.com
+DTSTAMP:20261017T210000Z
+DTSTART:20261017T210000Z
+DTEND:20261018T000000Z
+SUMMARY:Marcus D. Wiley
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=marcus-d-wiley%7Carlingto
+ n-improv-arlington%7C4-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:marcus-d-wiley|arlington-improv-arlington|7-00-pm-2026-10-17@letsdoitda

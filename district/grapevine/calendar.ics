@@ -10,37 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:art-studio-18-|grapevine|10-00-am-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261006T150000Z
-DTSTART:20261006T150000Z
-DTEND:20261006T180000Z
-SUMMARY:Art Studio (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=art-studio-18-%7Cgrapevin
- e%7C10-00-am
-DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
- our own projects or start something new. Bring your own project and ideas!
-  This is a welcoming space for creatives 18+. *Library Card Required* Octo
- ber 6\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grapevi 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-10-06@letsd
- oitdallas.com
-DTSTAMP:20261006T153000Z
-DTSTART:20261006T153000Z
-DTEND:20261006T183000Z
-SUMMARY:Storytime for Toddlers/Preschoolers
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=storytime-for-toddlers-pr
- eschoolers%7Cgrapevine%7C10-30-am
-DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
- welcome and no registrations is needed. (This is a Ticketed Program\; plea
- se stop at the Children's Desk 15 minutes before the program to receive ti
- ckets. 1 per attendee.) October 6\, 2026 10:30 AM - 11:00 AM Grapevine\, T
-  — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:open-practice-and-play-night|grapevine|04-30-pm-2026-10-06@letsdoitdall
  as.com
 DTSTAMP:20261006T213000Z
@@ -1384,7 +1353,7 @@ URL:https://letsdoitdallas.com/?date=2026-10-20&e=american-history-storytim
 DESCRIPTION:Travel through American history with stories\, crafts\, and fun
   activities! Ruth Parrott from our local chapter of DAR will bring history
   to life through engaging stories and activities for children. October 20\
- , 2026 06:30 PM - 07:30 PM Grapevine\, TX 76051 https://www.grapevinetexa 
+ , 2026 06:30 PM - 07:00 PM Grapevine\, TX 76051 https://www.grapevinetexa 
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 END:VCALENDAR

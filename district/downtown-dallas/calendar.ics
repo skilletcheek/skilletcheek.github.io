@@ -1064,6 +1064,19 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:vince-vance-the-valiants-halloween-spook-tacular|poor-david-s-pub-dalla
+ s|doors-see-listing-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Vince Vance & The Valiants Halloween Spook-Tacular
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=vince-vance-the-valiants-
+ halloween-spook-tacular%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:voil-presents-moonbloom|house-of-blues-dallas-dallas|6-00-pm-2026-10-31
  @letsdoitdallas.com
 DTSTAMP:20261031T230000Z
