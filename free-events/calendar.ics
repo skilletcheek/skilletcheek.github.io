@@ -10,33 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:free-halloween-movie-month-john-wick|sundown-at-granada-lower-greenvill
- e-dallas|doors-see-listing-2026-10-05@letsdoitdallas.com
-DTSTAMP:20261005T000000Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
-SUMMARY:FREE Halloween Movie Month:  JOHN WICK
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=free-halloween-movie-mont
- h-john-wick%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listi
- ng
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
- pm-2026-10-05@letsdoitdallas.com
-DTSTAMP:20261006T020000Z
-DTSTART:20261006T020000Z
-DTEND:20261006T050000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:free-halloween-movie-month-sinners|sundown-at-granada-lower-greenville-
  dallas|doors-see-listing-2026-10-06@letsdoitdallas.com
 DTSTAMP:20261006T000000Z

@@ -87,6 +87,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/billy-bob-s/
 END:VEVENT
 BEGIN:VEVENT
+UID:lone-star-murder-mystery-dinner-show-18-and-over-|billy-bob-s-fort-wort
+ h|7-30-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T003000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T033000Z
+SUMMARY:Lone Star Murder Mystery & Dinner show (18 and Over)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=lone-star-murder-mystery-
+ dinner-show-18-and-over-%7Cbilly-bob-s-fort-worth%7C7-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
 UID:gary-allan-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-24@letsdoi
  tdallas.com
 DTSTAMP:20261025T030000Z

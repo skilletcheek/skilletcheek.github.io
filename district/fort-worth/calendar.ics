@@ -10,74 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
- ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-05@lets
- doitdallas.com
-DTSTAMP:20261005T150000Z
-DTSTART:20261005T150000Z
-DTEND:20261005T180000Z
-SUMMARY:Puzzling Adventures Scavenger Hunt
-LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=puzzling-adventures-scave
- nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
- rth-76102-united-states%7C10-00-am
-DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
- uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
- e\, and an informative self-guided walking tour. Each adventure consists o
- f a series of locations that you are guided to where you are required t 
- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:masure-gallery-|-kaiku-by-k-p-wilska|masure-gallery-6483-camp-bowie-blv
- d-fort-worth-tx-76107|11-00-am-2026-10-05@letsdoitdallas.com
-DTSTAMP:20261005T160000Z
-DTSTART:20261005T160000Z
-DTEND:20261005T190000Z
-SUMMARY:Masure Gallery | Kaiku by K.P. Wilska
-LOCATION:Masure Gallery · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=masure-gallery-%7C-kaiku-
- by-k-p-wilska%7Cmasure-gallery-6483-camp-bowie-blvd-fort-worth-tx-76107%7C
- 11-00-am
-DESCRIPTION:The Masure Gallery is thrilled to present the solo photograp
- hy exhibition Kaiku\, by K.P. Wilska. Wilska is a Fort Worth photog
- rapher who specializes in high-key\, minimalist photography. Originall
- y born in Finland\, the exhibition title Kaiku is from the Finnish langu
- age which tran — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-big-laugh-open-mic|big-laugh-comedy-club-fort-worth-604-main-st-sui
- te-100-fort-worth-tx-76102-united-states|8-00-pm-2026-10-05@letsdoitdallas
- .com
-DTSTAMP:20261006T010000Z
-DTSTART:20261006T010000Z
-DTEND:20261006T040000Z
-SUMMARY:The Big Laugh Open Mic
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=the-big-laugh-open-mic%7C
- big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102
- -united-states%7C8-00-pm
-DESCRIPTION:Have you wondered to yourself\, “where can I go on a Monday t
- o get a good laugh?” Look no further because we have the spot for you. T
- he Big Laugh Open Mic is a perfect setting for anyone who is looking to la
- ugh and have a good time.  So grab your grandma or your side piece and hea
-  — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:dock-open-mic|dock-bookshop-6637-meadowbrook-dr-fort-worth-tx-75116|7-0
- 0-am-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261006T120000Z
-DTSTART:20261006T120000Z
-DTEND:20261006T150000Z
-SUMMARY:Dock Open Mic
-LOCATION:dock bookshop · Fort Worth Tx
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=dock-open-mic%7Cdock-book
- shop-6637-meadowbrook-dr-fort-worth-tx-75116%7C7-00-am
-DESCRIPTION:The Dock open mic presents Speak And Be Published. Everyone who
-  reads gets their poem published in an anthology   June 16\, 2026 at 7:30 
- PM CDT  The Dock Bookshop  $7 — More: https://letsdoitdallas.com/distric
- t/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
  et-fort-worth-76107-united-states|10-00-am-2026-10-06@letsdoitdallas.com
 DTSTAMP:20261006T150000Z
@@ -316,6 +248,94 @@ URL:https://letsdoitdallas.com/?date=2026-10-07&e=music-of-john-denver%7Cca
  sa-manana-fort-worth%7C7-30-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:whiskey-laughs-wednesdays|big-laugh-comedy-club-fort-worth-604-main-st-
+ suite-100-fort-worth-tx-76102-united-states|8-00-pm-2026-10-07@letsdoitdal
+ las.com
+DTSTAMP:20261008T010000Z
+DTSTART:20261008T010000Z
+DTEND:20261008T040000Z
+SUMMARY:Whiskey + Laughs Wednesdays
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=whiskey-laughs-wednesdays
+ %7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76
+ 102-united-states%7C8-00-pm
+DESCRIPTION:Do you sit around thinking to yourself\, “where could I go on
+  a Wednesday to get some laughs and drink some whiskey”?  You’ve turne
+ d to the right place. The Big Laugh Comedy Club + Big Laugh Bistro is the 
+ place for you to laugh till your face hurts\, eat delicious food\, and dri
+ nk a — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:matt-the-cat-hillyer-|-1st-wednesday|magnolia-motor-lounge-3803-southwe
+ st-blvd-fort-worth-76116-united-states|9-00-pm-2026-10-07@letsdoitdallas.c
+ om
+DTSTAMP:20261008T020000Z
+DTSTART:20261008T020000Z
+DTEND:20261008T050000Z
+SUMMARY:MATT "THE CAT" HILLYER | 1st Wednesday
+LOCATION:Magnolia Motor Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=matt-the-cat-hillyer-%7C-
+ 1st-wednesday%7Cmagnolia-motor-lounge-3803-southwest-blvd-fort-worth-76116
+ -united-states%7C9-00-pm
+DESCRIPTION:MATT “THE CAT” HILLYER | 1st Wednesday Every 1st Wednesday 
+ at 9:00PM   No cover / No Ticket Needed      Ages 21+ @outhouseticketsSha
+ re it and tag a few friends! — More: https://letsdoitdallas.com/district
+ /fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:wizop-wednesday-s-open-mic-night|big-laugh-comedy-club-fort-worth-604-m
+ ain-st-suite-100-fort-worth-tx-76102-united-states|9-30-pm-2026-10-07@lets
+ doitdallas.com
+DTSTAMP:20261008T023000Z
+DTSTART:20261008T023000Z
+DTEND:20261008T053000Z
+SUMMARY:Wizop Wednesday's Open Mic Night
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=wizop-wednesday-s-open-mi
+ c-night%7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-wort
+ h-tx-76102-united-states%7C9-30-pm
+DESCRIPTION:Wizop Wednesdays: Open Mic Comedy  Looking for a midweek jolt o
+ f ridiculous? Wizop Wednesdays is where fresh jokes are born\, wild bits g
+ et tested\, and legends-in-the-making grab the mic. It’s raw\, fast\, an
+ d absolutely addictive\, your new Wednesday night ritual.  Expect lightnin
+ g- — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261008T150000Z
+DTSTART:20261008T150000Z
+DTEND:20261008T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-08@lets
+ doitdallas.com
+DTSTAMP:20261008T150000Z
+DTSTART:20261008T150000Z
+DTEND:20261008T180000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-10-08@
@@ -1124,6 +1144,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:nick-mullen-18-|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm
+ -2026-10-21@letsdoitdallas.com
+DTSTAMP:20261022T010000Z
+DTSTART:20261022T010000Z
+DTEND:20261022T040000Z
+SUMMARY:Nick Mullen (18+)
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=nick-mullen-18-%7Chyena-s
+ -comedy-night-club-fort-worth-fort-worth%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-jungle-giants|tulips-ftw-fort-worth|8-00-pm-2026-10-21@letsdoitdall
  as.com
 DTSTAMP:20261022T010000Z
@@ -1135,6 +1168,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-21&e=the-jungle-giants%7Ctulip
  s-ftw-fort-worth%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:mecum-auctions|dickies-arena-fort-worth|3-30-am-2026-10-22@letsdoitdall
+ as.com
+DTSTAMP:20261022T083000Z
+DTSTART:20261022T083000Z
+DTEND:20261022T113000Z
+SUMMARY:Mecum Auctions
+LOCATION:Dickies Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=mecum-auctions%7Cdickies-
+ arena-fort-worth%7C3-30-am
+DESCRIPTION:sports event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:music-of-john-denver|casa-manana-fort-worth|7-30-pm-2026-10-22@letsdoit
@@ -1282,6 +1328,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=red-steagall-cowboy-gathe
  ring%7Ccowtown-coliseum-fort-worth%7C1-30-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:lone-star-murder-mystery-dinner-show-18-and-over-|billy-bob-s-fort-wort
+ h|7-30-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T003000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T033000Z
+SUMMARY:Lone Star Murder Mystery & Dinner show (18 and Over)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=lone-star-murder-mystery-
+ dinner-show-18-and-over-%7Cbilly-bob-s-fort-worth%7C7-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:red-steagall-cowboy-gathering|cowtown-coliseum-fort-worth|7-30-pm-2026-

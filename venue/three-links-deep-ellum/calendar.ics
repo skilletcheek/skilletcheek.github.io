@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
- pm-2026-10-05@letsdoitdallas.com
-DTSTAMP:20261006T020000Z
-DTSTART:20261006T020000Z
-DTEND:20261006T050000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:joe-bryson-bohemian-pirates-trio-griffin-holtby|three-links-deep-ellum-
  dallas|7-00-pm-2026-10-07@letsdoitdallas.com
 DTSTAMP:20261008T000000Z
@@ -306,6 +293,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-27&e=sorry-ghost%7Cthree-links
  -deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:boss-daughter-half-foot-hog|three-links-deep-ellum-dallas|7-00-pm-2026-
+ 10-28@letsdoitdallas.com
+DTSTAMP:20261029T000000Z
+DTSTART:20261029T000000Z
+DTEND:20261029T030000Z
+SUMMARY:Boss' Daughter\, Half Foot Hog
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=boss-daughter-half-foot-h
+ og%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:dossey-jonojono-gluestick|three-links-deep-ellum-dallas|8-00-pm-2026-10

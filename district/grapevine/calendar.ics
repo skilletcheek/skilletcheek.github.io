@@ -10,67 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
- grapevine|04-30-pm-2026-10-05@letsdoitdallas.com
-DTSTAMP:20261005T213000Z
-DTSTART:20261005T213000Z
-DTEND:20261006T003000Z
-SUMMARY:After-School Cinema & Snacks
-LOCATION:Grapevine Public Library
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=after-school-cinema-snack
- s%7Cgrapevine-public-library-1201-municipal-way-grapevine%7C04-30-pm
-DESCRIPTION:Kick back after school\, bring your favorite snacks\, and enjoy
-  a movie with friends! For teens ages 13 and up. October 5\, 2026 04:30 PM
-  - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine\, TX 7605
- 1 https://www.grapevinetexas.gov/Calendar.aspx?EID=17649/6392103542300000 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:block-by-block-building-knowledge-through-minecraft|grapevine|05-00-pm-
- 2026-10-05@letsdoitdallas.com
-DTSTAMP:20261005T220000Z
-DTSTART:20261005T220000Z
-DTEND:20261006T010000Z
-SUMMARY:Block by Block: Building Knowledge through Minecraft
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=block-by-block-building-k
- nowledge-through-minecraft%7Cgrapevine%7C05-00-pm
-DESCRIPTION:Who: Ages 8+ What: Join us at the Esports Academy this Monday a
- nd dive into our Minecraft server to explore an exciting array of new serv
- er-wide mods! Transform your Minecraft world into a Steampunk-themed adven
- ture\, embark on Pokémon hunts and trainer battles across diverse biom 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:knit-crochet-circle|grapevine|05-30-pm-2026-10-05@letsdoitdallas.com
-DTSTAMP:20261005T223000Z
-DTSTART:20261005T223000Z
-DTEND:20261006T013000Z
-SUMMARY:Knit & Crochet Circle
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=knit-crochet-circle%7Cgra
- pevine%7C05-30-pm
-DESCRIPTION:Looking for a cozy way to unwind and connect with fellow yarn e
- nthusiasts? Join us Mondays for our casual Knit & Crochet Circle! Whether 
- you're a seasoned pro or just picking up your first set of needles or hook
- s\, this is the perfect opportunity to share your latest projects\, swa 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:board-of-zoning-adjustment-meeting|planning-and-zoning-conference-room-
- 2nd-floor-200-south-main-street-grapevine|06-15-pm-2026-10-05@letsdoitdall
- as.com
-DTSTAMP:20261005T231500Z
-DTSTART:20261005T231500Z
-DTEND:20261006T021500Z
-SUMMARY:Board of Zoning Adjustment Meeting
-LOCATION:Planning and Zoning Conference Room - 2nd Floor · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=board-of-zoning-adjustmen
- t-meeting%7Cplanning-and-zoning-conference-room-2nd-floor-200-south-main-s
- treet-grapevine%7C06-15-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:art-studio-18-|grapevine|10-00-am-2026-10-06@letsdoitdallas.com
 DTSTAMP:20261006T150000Z
 DTSTART:20261006T150000Z
@@ -115,6 +54,22 @@ DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
   ranked play. Ages 12 and up. October 6\, 2026 04:30 PM - 07:00 PM Grapevi
  ne\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17833/63926
  5386440000000 — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:teentober-framed-spiders-|grapevine|05-00-pm-2026-10-06@letsdoitdallas.
+ com
+DTSTAMP:20261006T220000Z
+DTSTART:20261006T220000Z
+DTEND:20261007T010000Z
+SUMMARY:TeenTober: Framed Spiders!
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-06&e=teentober-framed-spiders-
+ %7Cgrapevine%7C05-00-pm
+DESCRIPTION:For tweens and teens\, 6th grade and up! Registration is requir
+ ed as supplies and space are limited. Come and make a framed spider Hallow
+ een decoration to add to your spooky holiday decor collection! Or even kee
+ p it up all year! October 6\, 2026 05:00 PM - 06:30 PM Grapevine\, TX 76 
+ — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:stem-lab-18-|grapevine|10-00-am-2026-10-07@letsdoitdallas.com
@@ -177,6 +132,22 @@ DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
   ranked play. Ages 12 and up. October 7\, 2026 04:30 PM - 07:30 PM Grapevi
  ne\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17746/63923
  2829710000000 — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:teentober-ghost-garland-|grapevine|04-30-pm-2026-10-07@letsdoitdallas.c
+ om
+DTSTAMP:20261007T213000Z
+DTSTART:20261007T213000Z
+DTEND:20261008T003000Z
+SUMMARY:TeenTober: Ghost Garland!
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=teentober-ghost-garland-%
+ 7Cgrapevine%7C04-30-pm
+DESCRIPTION:For tweens and teens\, 6th grade and up! Join us for this cutes
+ y Halloween decoration crafting program where you can make your very own y
+ arn ghost garland to hang from your wall\, a door frame\, or wherever you 
+ think they'll spook things up the best! October 7\, 2026 04:30 PM - 06:00 
+ — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:art-night-for-adults-18-|grapevine|06-00-pm-2026-10-07@letsdoitdallas.c
@@ -726,19 +697,19 @@ DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
  65386440000000 — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
-UID:dnd-mini-adventures-registration-required-|grapevine|05-00-pm-2026-10-1
- 3@letsdoitdallas.com
+UID:dnd-halloween-mini-adventures-no-registration-required-|grapevine|05-00
+ -pm-2026-10-13@letsdoitdallas.com
 DTSTAMP:20261013T220000Z
 DTSTART:20261013T220000Z
 DTEND:20261014T010000Z
-SUMMARY:DnD Mini Adventures! (REGISTRATION REQUIRED)
+SUMMARY:DnD Halloween Mini Adventures! (NO REGISTRATION REQUIRED)
 LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=dnd-mini-adventures-regis
- tration-required-%7Cgrapevine%7C05-00-pm
-DESCRIPTION:Welcome to the realms of Dungeons and Dragons! Here at the Grap
- evine Public Library\, you will be embarking on a quick journey. Register 
- for the session and we will be looking forward to having you at the table!
-  For teens 13 and up. REGISTRATION IS REQUIRED. Make sure your level 3 —
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=dnd-halloween-mini-advent
+ ures-no-registration-required-%7Cgrapevine%7C05-00-pm
+DESCRIPTION:Welcome to the realms of Dungeons and Dragons: HALLOWEEN EDITIO
+ N! These sessions are for 13 and up. Join me\, Mrs. Molly\, at my table fo
+ r a quick journey through some maybe scary? maybe spooky? maybe horrifying
+ ?! one shots this month to really get you ready for the holiday yet to —
   More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
@@ -787,6 +758,22 @@ DESCRIPTION:Join us on Wednesdays for a relaxing afternoon of storytime and
  M Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17
  720/639228425570000000 — More: https://letsdoitdallas.com/district/grape
  vine/
+END:VEVENT
+BEGIN:VEVENT
+UID:esports-academy-halloween-horror-nights-|grapevine|04-30-pm-2026-10-14@
+ letsdoitdallas.com
+DTSTAMP:20261014T213000Z
+DTSTART:20261014T213000Z
+DTEND:20261015T003000Z
+SUMMARY:Esports Academy: Halloween Horror Nights!
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=esports-academy-halloween
+ -horror-nights-%7Cgrapevine%7C04-30-pm
+DESCRIPTION:Come play multiplayer scary games like Dead by Daylight\, Phasm
+ aphobia\, and REPO with your friends this month for some fun scares! Ages 
+ 12 and up. October 14\, 2026 04:30 PM - 07:30 PM Grapevine\, TX 76051 http
+ s://www.grapevinetexas.gov/Calendar.aspx?EID=17845/639268824550000000 — 
+ More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:open-practice-and-play-night|grapevine|04-30-pm-2026-10-14@letsdoitdall
@@ -1320,6 +1307,84 @@ DESCRIPTION:Looking for a cozy way to unwind and connect with fellow yarn e
  nthusiasts? Join us Mondays for our casual Knit & Crochet Circle! Whether 
  you're a seasoned pro or just picking up your first set of needles or hook
  s\, this is the perfect opportunity to share your latest projects\, swa 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-studio-18-|grapevine|10-00-am-2026-10-20@letsdoitdallas.com
+DTSTAMP:20261020T150000Z
+DTSTART:20261020T150000Z
+DTEND:20261020T180000Z
+SUMMARY:Art Studio (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=art-studio-18-%7Cgrapevin
+ e%7C10-00-am
+DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
+ our own projects or start something new. Bring your own project and ideas!
+  This is a welcoming space for creatives 18+. *Library Card Required* Octo
+ ber 20\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grapev 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-10-20@letsd
+ oitdallas.com
+DTSTAMP:20261020T153000Z
+DTSTART:20261020T153000Z
+DTEND:20261020T183000Z
+SUMMARY:Storytime for Toddlers/Preschoolers
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=storytime-for-toddlers-pr
+ eschoolers%7Cgrapevine%7C10-30-am
+DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
+ welcome and no registrations is needed. (This is a Ticketed Program\; plea
+ se stop at the Children's Desk 15 minutes before the program to receive ti
+ ckets. 1 per attendee.) October 20\, 2026 10:30 AM - 11:00 AM Grapevine\, 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:open-practice-and-play-night|grapevine|04-30-pm-2026-10-20@letsdoitdall
+ as.com
+DTSTAMP:20261020T213000Z
+DTSTART:20261020T213000Z
+DTEND:20261021T003000Z
+SUMMARY:Open Practice and Play Night
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=open-practice-and-play-ni
+ ght%7Cgrapevine%7C04-30-pm
+DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
+  ranked play. Ages 12 and up. October 20\, 2026 04:30 PM - 07:00 PM Grapev
+ ine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17835/6392
+ 65386440000000 — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:teentober-baba-yaga-birdhouses-|grapevine|05-00-pm-2026-10-20@letsdoitd
+ allas.com
+DTSTAMP:20261020T220000Z
+DTSTART:20261020T220000Z
+DTEND:20261021T010000Z
+SUMMARY:TeenTober: Baba Yaga Birdhouses!
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=teentober-baba-yaga-birdh
+ ouses-%7Cgrapevine%7C05-00-pm
+DESCRIPTION:For tweens and teens\, 6th grade and up! Registration is requir
+ ed as supplies and space are limited. Have you ever wanted your own walkin
+ g house that has bird legs? Well\, while you can't have one of those\, you
+  CAN join us in making a bird house version of Baba Yaga's iconic home f 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:american-history-storytime|grapevine|06-30-pm-2026-10-20@letsdoitdallas
+ .com
+DTSTAMP:20261020T233000Z
+DTSTART:20261020T233000Z
+DTEND:20261021T023000Z
+SUMMARY:American History Storytime
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=american-history-storytim
+ e%7Cgrapevine%7C06-30-pm
+DESCRIPTION:Travel through American history with stories\, crafts\, and fun
+  activities! Ruth Parrott from our local chapter of DAR will bring history
+  to life through engaging stories and activities for children. October 20\
+ , 2026 06:30 PM - 07:30 PM Grapevine\, TX 76051 https://www.grapevinetexa 
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 END:VCALENDAR

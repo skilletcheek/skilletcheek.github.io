@@ -10,20 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:free-halloween-movie-month-john-wick|sundown-at-granada-lower-greenvill
- e-dallas|doors-see-listing-2026-10-05@letsdoitdallas.com
-DTSTAMP:20261005T000000Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
-SUMMARY:FREE Halloween Movie Month:  JOHN WICK
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=free-halloween-movie-mont
- h-john-wick%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listi
- ng
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:free-halloween-movie-month-sinners|sundown-at-granada-lower-greenville-
  dallas|doors-see-listing-2026-10-06@letsdoitdallas.com
 DTSTAMP:20261006T000000Z
@@ -426,6 +412,19 @@ LOCATION:Granada Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-02&e=dinosaur-jr-fall-tour-202
  6-w-special-guest-stef-chura%7Cgranada-theater-lower-greenville-dallas%7Cd
  oors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-damned-final-damnation-50|granada-theater-lower-greenville-dallas|d
+ oors-see-listing-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:The Damned - Final Damnation 50
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=the-damned-final-damnatio
+ n-50%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
  istrict/lower-greenville/
 END:VEVENT

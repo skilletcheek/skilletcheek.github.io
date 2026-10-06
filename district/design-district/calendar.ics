@@ -542,4 +542,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-01&e=pan-pot-21-and-over-%7Csi
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/design-district/
 END:VEVENT
+BEGIN:VEVENT
+UID:slow-pulp|the-echo-lounge-music-hall-dallas|7-00-pm-2026-11-03@letsdoit
+ dallas.com
+DTSTAMP:20261104T010000Z
+DTSTART:20261104T010000Z
+DTEND:20261104T040000Z
+SUMMARY:Slow Pulp
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=slow-pulp%7Cthe-echo-loun
+ ge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/design-district/
+END:VEVENT
 END:VCALENDAR

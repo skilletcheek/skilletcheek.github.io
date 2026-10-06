@@ -10,33 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gavin-adcock-16-and-under-with-parent-or-legal-guardian-|the-studio-at-
- the-bomb-factory-dallas|7-00-pm-2026-10-05@letsdoitdallas.com
-DTSTAMP:20261006T000000Z
-DTSTART:20261006T000000Z
-DTEND:20261006T030000Z
-SUMMARY:Gavin Adcock (16 and Under with Parent or Legal Guardian)
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=gavin-adcock-16-and-under
- -with-parent-or-legal-guardian-%7Cthe-studio-at-the-bomb-factory-dallas%7C
- 7-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
- pm-2026-10-05@letsdoitdallas.com
-DTSTAMP:20261006T020000Z
-DTSTART:20261006T020000Z
-DTEND:20261006T050000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:brian-fallon-the-painkillers-with-tim-barry|trees-dallas-dallas|7-00-pm
  -2026-10-07@letsdoitdallas.com
 DTSTAMP:20261008T000000Z
@@ -709,6 +682,19 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:boss-daughter-half-foot-hog|three-links-deep-ellum-dallas|7-00-pm-2026-
+ 10-28@letsdoitdallas.com
+DTSTAMP:20261029T000000Z
+DTSTART:20261029T000000Z
+DTEND:20261029T030000Z
+SUMMARY:Boss' Daughter\, Half Foot Hog
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=boss-daughter-half-foot-h
+ og%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:2slimey-tour|trees-dallas|doors-see-listing-2026-10-29@letsdoitdallas.c
  om
 DTSTAMP:20261029T000000Z
@@ -829,6 +815,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-02&e=julia-jacklin-16-and-unde
  C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:ike-dweck|club-dada-dallas|8-00-pm-2026-11-03@letsdoitdallas.com
+DTSTAMP:20261104T020000Z
+DTSTART:20261104T020000Z
+DTEND:20261104T050000Z
+SUMMARY:Ike Dweck
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=ike-dweck%7Cclub-dada-dal
+ las%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:apollored1|trees-dallas|doors-see-listing-2026-11-04@letsdoitdallas.com

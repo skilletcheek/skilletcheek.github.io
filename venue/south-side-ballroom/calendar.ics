@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pouya-the-forever-glades-tour|south-side-ballroom-dallas|7-45-pm-2026-1
- 0-05@letsdoitdallas.com
-DTSTAMP:20261006T004500Z
-DTSTART:20261006T004500Z
-DTEND:20261006T034500Z
-SUMMARY:Pouya - The Forever Glades Tour
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-05&e=pouya-the-forever-glades-
- tour%7Csouth-side-ballroom-dallas%7C7-45-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/south-side-ballroom/
-END:VEVENT
-BEGIN:VEVENT
 UID:kxt-presents-suki-waterhouse-the-loveland-tour|south-side-ballroom-dall
  as|8-00-pm-2026-10-08@letsdoitdallas.com
 DTSTAMP:20261009T010000Z

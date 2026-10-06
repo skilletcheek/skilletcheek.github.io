@@ -126,6 +126,19 @@ DESCRIPTION:sports event via SeatGeek. — More: https://letsdoitdallas.com
  /venue/dickies-arena/
 END:VEVENT
 BEGIN:VEVENT
+UID:mecum-auctions|dickies-arena-fort-worth|3-30-am-2026-10-22@letsdoitdall
+ as.com
+DTSTAMP:20261022T083000Z
+DTSTART:20261022T083000Z
+DTEND:20261022T113000Z
+SUMMARY:Mecum Auctions
+LOCATION:Dickies Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=mecum-auctions%7Cdickies-
+ arena-fort-worth%7C3-30-am
+DESCRIPTION:sports event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/dickies-arena/
+END:VEVENT
+BEGIN:VEVENT
 UID:morrissey-live-in-concert|dickies-arena-fort-worth|8-20-pm-2026-10-29@l
  etsdoitdallas.com
 DTSTAMP:20261030T012000Z
