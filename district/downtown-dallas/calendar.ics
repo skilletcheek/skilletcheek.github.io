@@ -10,49 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:honky-tonk-tuesdays-with-the-raised-right-men-|poor-david-s-pub-dallas|
- doors-see-listing-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261006T000000Z
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261007
-SUMMARY:Honky Tonk Tuesdays with the Raised Right Men!
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=honky-tonk-tuesdays-with-
- the-raised-right-men-%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261006T130000Z
-DTSTART:20261006T130000Z
-DTEND:20261006T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:laundry-day-presents-the-larger-than-life-tour|the-cambridge-room-at-ho
- use-of-blues-dallas|7-00-pm-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261007T000000Z
-DTSTART:20261007T000000Z
-DTEND:20261007T030000Z
-SUMMARY:LAUNDRY DAY Presents: The Larger Than LIFE Tour
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=laundry-day-presents-the-
- larger-than-life-tour%7Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00
- -pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:shed-g-friends-comedy-special|poor-david-s-pub-dallas|doors-see-listing
  -2026-10-07@letsdoitdallas.com
 DTSTAMP:20261007T000000Z
@@ -1243,5 +1200,84 @@ URL:https://letsdoitdallas.com/?date=2026-11-03&e=buena-vista-social-club-t
  ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
 DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:skilla-baby-the-price-of-fame-tour-18-|house-of-blues-dallas-dallas|7-0
+ 0-pm-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261105T010000Z
+DTSTART:20261105T010000Z
+DTEND:20261105T040000Z
+SUMMARY:Skilla Baby: The Price of Fame Tour - 18+
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=skilla-baby-the-price-of-
+ fame-tour-18-%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
+ -2026-11-04@letsdoitdallas.com
+DTSTAMP:20261105T013000Z
+DTSTART:20261105T013000Z
+DTEND:20261105T043000Z
+SUMMARY:Buena Vista Social Club (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=buena-vista-social-club-t
+ ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:doja-cat-tour-ma-vie-world-tour|american-airlines-center-dallas|7-30-pm
+ -2026-11-04@letsdoitdallas.com
+DTSTAMP:20261105T013000Z
+DTSTART:20261105T013000Z
+DTEND:20261105T043000Z
+SUMMARY:Doja Cat - Tour Ma Vie World Tour
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=doja-cat-tour-ma-vie-worl
+ d-tour%7Camerican-airlines-center-dallas%7C7-30-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:jim-henson-s-labyrinth-in-concert|majestic-theatre-dallas-dallas|8-00-p
+ m-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261105T020000Z
+DTSTART:20261105T020000Z
+DTEND:20261105T050000Z
+SUMMARY:Jim Henson's Labyrinth: In Concert
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=jim-henson-s-labyrinth-in
+ -concert%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
+DESCRIPTION:Family event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:skillet-comatose-20-years-still-screaming-tour|house-of-blues-dallas-da
+ llas|6-00-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261106T000000Z
+DTSTART:20261106T000000Z
+DTEND:20261106T030000Z
+SUMMARY:Skillet: Comatose 20 Years\, Still Screaming Tour
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=skillet-comatose-20-years
+ -still-screaming-tour%7Chouse-of-blues-dallas-dallas%7C6-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-gotten-w-fat-by-the-gallon-american-werewolf-academy|poor-david-s-p
+ ub-dallas|doors-see-listing-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:THE GOTTEN w /  Fat by the Gallon & American Werewolf Academy
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-gotten-w-fat-by-the-g
+ allon-american-werewolf-academy%7Cpoor-david-s-pub-dallas%7Cdoors-see-list
+ ing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

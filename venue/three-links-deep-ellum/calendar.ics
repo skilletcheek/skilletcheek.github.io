@@ -22,6 +22,19 @@ DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:wub-wednesday|three-links-deep-ellum-dallas|9-00-pm-2026-10-07@letsdoit
+ dallas.com
+DTSTAMP:20261008T020000Z
+DTSTART:20261008T020000Z
+DTEND:20261008T050000Z
+SUMMARY:Wub Wednesday
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-07&e=wub-wednesday%7Cthree-lin
+ ks-deep-ellum-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:jack-blocker|three-links-deep-ellum-dallas|8-00-am-2026-10-08@letsdoitd
  allas.com
 DTSTAMP:20261008T130000Z
@@ -217,15 +230,15 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-saint-cecilia|three-links-deep-ellum-dallas|7-00-pm-2026-10-23@lets
- doitdallas.com
+UID:the-saint-cecilia-toldja|three-links-deep-ellum-dallas|7-00-pm-2026-10-
+ 23@letsdoitdallas.com
 DTSTAMP:20261024T000000Z
 DTSTART:20261024T000000Z
 DTEND:20261024T030000Z
-SUMMARY:The Saint Cecilia
+SUMMARY:The Saint Cecilia\, Toldja
 LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=the-saint-cecilia%7Cthree
- -links-deep-ellum-dallas%7C7-00-pm
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=the-saint-cecilia-toldja%
+ 7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
 END:VEVENT
@@ -344,6 +357,19 @@ LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-31&e=playlunch-buckets%7Cthree
  -links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:daring-greatly|three-links-deep-ellum-dallas|7-00-pm-2026-11-04@letsdoi
+ tdallas.com
+DTSTAMP:20261105T010000Z
+DTSTART:20261105T010000Z
+DTEND:20261105T040000Z
+SUMMARY:Daring Greatly
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=daring-greatly%7Cthree-li
+ nks-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

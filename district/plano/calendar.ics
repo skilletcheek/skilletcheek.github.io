@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:damitas-histeria|addison-improv-addison|7-30-pm-2026-10-06@letsdoitdall
- as.com
-DTSTAMP:20261007T003000Z
-DTSTART:20261007T003000Z
-DTEND:20261007T033000Z
-SUMMARY:Damitas Histeria
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=damitas-histeria%7Caddiso
- n-improv-addison%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:two-d-kes-and-a-mic-soaking-wet-tour|addison-improv-addison|7-30-pm-202
  6-10-07@letsdoitdallas.com
 DTSTAMP:20261008T003000Z
@@ -159,19 +146,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=michael-yo%7Caddison-impr
  ov-addison%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:don-mcmillan|mic-drop-comedy-plano-plano|7-00-pm-2026-10-14@letsdoitdal
- las.com
-DTSTAMP:20261015T000000Z
-DTSTART:20261015T000000Z
-DTEND:20261015T030000Z
-SUMMARY:Don McMillan
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=don-mcmillan%7Cmic-drop-c
- omedy-plano-plano%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:tales-from-the-dorkside|addison-improv-addison|7-00-pm-2026-10-15@letsd
@@ -467,6 +441,18 @@ SUMMARY:Led Varela
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-11-03&e=led-varela%7Caddison-impr
  ov-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:mark-paul|addison-improv-addison|7-30-pm-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261105T013000Z
+DTSTART:20261105T013000Z
+DTEND:20261105T043000Z
+SUMMARY:Mark Paul
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=mark-paul%7Caddison-impro
+ v-addison%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT

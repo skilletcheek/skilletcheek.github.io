@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:legislative-committee-meeting|6101-frisco-square-blvd-frisco|03-15-pm-2
- 026-10-06@letsdoitdallas.com
-DTSTAMP:20261006T201500Z
-DTSTART:20261006T201500Z
-DTEND:20261006T231500Z
-SUMMARY:Legislative Committee Meeting
-LOCATION:6101 Frisco Square Blvd.
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=legislative-committee-mee
- ting%7C6101-frisco-square-blvd-frisco%7C03-15-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
  e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-08@letsdoitdallas
  .com
@@ -486,6 +474,29 @@ URL:https://letsdoitdallas.com/?date=2026-10-20&e=force-encounters-analysis
  -open-enrollment-%7C7200-stonebrook-pkwy-frisco%7C08-00-am
 DESCRIPTION:Runs Oct 20 – Oct 22. — More: https://letsdoitdallas.com/di
  strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:unplug-texas-day|frisco|see-details-2026-10-21@letsdoitdallas.com
+DTSTAMP:20261021T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Unplug Texas Day
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=unplug-texas-day%7Cfrisco
+ %7Csee-details
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:coffee-culture|8800-8840-4th-st-frisco|08-00-am-2026-10-21@letsdoitdall
+ as.com
+DTSTAMP:20261021T130000Z
+DTSTART:20261021T130000Z
+DTEND:20261021T160000Z
+SUMMARY:Coffee & Culture
+LOCATION:8800-8840 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=coffee-culture%7C8800-884
+ 0-4th-st-frisco%7C08-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:force-encounters-analysis-open-enrollment-|7200-stonebrook-pkwy-frisco|

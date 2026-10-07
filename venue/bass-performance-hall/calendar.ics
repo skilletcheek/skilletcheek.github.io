@@ -9,6 +9,22 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:yekwon-sunwoo|bass-performance-hall-525-commerce-street-fort-worth-7610
+ 2-united-states|7-30-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261009T003000Z
+DTSTART:20261009T003000Z
+DTEND:20261009T033000Z
+SUMMARY:Yekwon Sunwoo
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=yekwon-sunwoo%7Cbass-perf
+ ormance-hall-525-commerce-street-fort-worth-76102-united-states%7C7-30-pm
+DESCRIPTION:Experience the Joy of Music This season Cliburn Concerts invite
+ s you to experience joy: the awe of seeing near superhuman virtuosity at t
+ he Kimbell Art Museum\; a memorable evening spent with friends at Tannahil
+ l’s Music Hall\; a weekend celebration at the Modern Art Museum of Fort 
+ — More: https://letsdoitdallas.com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:fort-worth-symphony-orchestra|bass-performance-hall-fort-worth|7-30-pm-
  2026-10-09@letsdoitdallas.com
 DTSTAMP:20261010T003000Z

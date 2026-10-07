@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:world-famous-pets-with-special-guest-ceci-ceci|the-kessler-theater-oak-
- cliff-dallas|doors-see-listing-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261006T000000Z
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261007
-SUMMARY:World Famous Pets with special guest Ceci Ceci
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=world-famous-pets-with-sp
- ecial-guest-ceci-ceci%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-l
- isting
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/venue/the-kessler-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-steeldrivers-with-special-guest-valley-flower|the-kessler-theater-o
  ak-cliff-dallas|doors-see-listing-2026-10-09@letsdoitdallas.com
 DTSTAMP:20261009T000000Z
@@ -205,6 +191,20 @@ LOCATION:The Kessler Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-03&e=lucinda-williams-and-her-
  band-with-danny-reidy-night-2%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoo
  rs-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:paula-cole-this-fire-30-with-special-guest-rett-madison|the-kessler-the
+ ater-oak-cliff-dallas|doors-see-listing-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Paula Cole THIS FIRE: 30 with special guest Rett Madison
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=paula-cole-this-fire-30-w
+ ith-special-guest-rett-madison%7Cthe-kessler-theater-oak-cliff-dallas%7Cdo
+ ors-see-listing
 DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT

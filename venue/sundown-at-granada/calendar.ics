@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:free-halloween-movie-month-sinners|sundown-at-granada-lower-greenville-
- dallas|doors-see-listing-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261006T000000Z
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261007
-SUMMARY:FREE Halloween Movie Month: SINNERS
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=free-halloween-movie-mont
- h-sinners%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/venue/sundown-at-granada/
-END:VEVENT
-BEGIN:VEVENT
 UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
  doors-see-listing-2026-10-11@letsdoitdallas.com
 DTSTAMP:20261011T000000Z
@@ -222,6 +209,19 @@ SUMMARY:geeks who drink FREE Trivia
 LOCATION:Sundown at Granada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-01&e=geeks-who-drink-free-triv
  ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/venue/sundown-at-granada/
+END:VEVENT
+BEGIN:VEVENT
+UID:jordan-nix|sundown-at-granada-lower-greenville-dallas|doors-see-listing
+ -2026-11-06@letsdoitdallas.com
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Jordan Nix
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=jordan-nix%7Csundown-at-g
+ ranada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/venue/sundown-at-granada/
 END:VEVENT

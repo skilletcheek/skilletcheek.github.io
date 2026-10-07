@@ -11,101 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
- et-fort-worth-76107-united-states|10-00-am-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261006T150000Z
-DTSTART:20261006T150000Z
-DTEND:20261006T180000Z
-SUMMARY:Forces at Play
-LOCATION:Fort Worth Museum of Science and History
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=forces-at-play%7Cfort-wor
- th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
- -states%7C10-00-am
-DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
-  an interactive exhibit that explores the science behind some of the world
- ’s most beloved sports. Through hands-on activities and historical colle
- ctions\, visitors discover how forces like gravity\, friction\, and moment
- um impac — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
- ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-06@lets
- doitdallas.com
-DTSTAMP:20261006T150000Z
-DTSTART:20261006T150000Z
-DTEND:20261006T180000Z
-SUMMARY:Puzzling Adventures Scavenger Hunt
-LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=puzzling-adventures-scave
- nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
- rth-76102-united-states%7C10-00-am
-DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
- uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
- e\, and an informative self-guided walking tour. Each adventure consists o
- f a series of locations that you are guided to where you are required t 
- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:masure-gallery-|-kaiku-by-k-p-wilska|masure-gallery-6483-camp-bowie-blv
- d-fort-worth-tx-76107|11-00-am-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261006T160000Z
-DTSTART:20261006T160000Z
-DTEND:20261006T190000Z
-SUMMARY:Masure Gallery | Kaiku by K.P. Wilska
-LOCATION:Masure Gallery · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=masure-gallery-%7C-kaiku-
- by-k-p-wilska%7Cmasure-gallery-6483-camp-bowie-blvd-fort-worth-tx-76107%7C
- 11-00-am
-DESCRIPTION:The Masure Gallery is thrilled to present the solo photograp
- hy exhibition Kaiku\, by K.P. Wilska. Wilska is a Fort Worth photog
- rapher who specializes in high-key\, minimalist photography. Originall
- y born in Finland\, the exhibition title Kaiku is from the Finnish langu
- age which tran — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:music-of-john-denver|casa-manana-fort-worth|7-30-pm-2026-10-06@letsdoit
- dallas.com
-DTSTAMP:20261007T003000Z
-DTSTART:20261007T003000Z
-DTEND:20261007T033000Z
-SUMMARY:Music of John Denver
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=music-of-john-denver%7Cca
- sa-manana-fort-worth%7C7-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:-2-tuesdays-live-at-tulips-ftw|tulips-ftw-112-saint-louis-avenue-fort-w
- orth-76104-united-states|8-00-pm-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261007T010000Z
-DTSTART:20261007T010000Z
-DTEND:20261007T040000Z
-SUMMARY:$2 Tuesdays: Live at Tulips FTW
-LOCATION:Tulips FTW · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=-2-tuesdays-live-at-tulip
- s-ftw%7Ctulips-ftw-112-saint-louis-avenue-fort-worth-76104-united-states%7
- C8-00-pm
-DESCRIPTION:Blackstone Recording Studio presents $2 Tuesdays: Live at Tulip
- s FTW  Doors: 7pm | Show: 8pm  Tickets: $2  Tuesdays are for the scene\, t
- he artists\, the locals who need to see and support their favorite musicia
- ns paving the way for the great talent within this eclectic musical eco 
- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:miranda-lambert-ages-18-|billy-bob-s-fort-worth|8-00-pm-2026-10-06@lets
- doitdallas.com
-DTSTAMP:20261007T010000Z
-DTSTART:20261007T010000Z
-DTEND:20261007T040000Z
-SUMMARY:Miranda Lambert - Ages 18+
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=miranda-lambert-ages-18-%
- 7Cbilly-bob-s-fort-worth%7C8-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
  et-fort-worth-76107-united-states|10-00-am-2026-10-07@letsdoitdallas.com
 DTSTAMP:20261007T150000Z
 DTSTART:20261007T150000Z
@@ -321,6 +226,23 @@ DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
  — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:masure-gallery-|-kaiku-by-k-p-wilska|masure-gallery-6483-camp-bowie-blv
+ d-fort-worth-tx-76107|11-00-am-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261008T160000Z
+DTSTART:20261008T160000Z
+DTEND:20261008T190000Z
+SUMMARY:Masure Gallery | Kaiku by K.P. Wilska
+LOCATION:Masure Gallery · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=masure-gallery-%7C-kaiku-
+ by-k-p-wilska%7Cmasure-gallery-6483-camp-bowie-blvd-fort-worth-tx-76107%7C
+ 11-00-am
+DESCRIPTION:The Masure Gallery is thrilled to present the solo photograp
+ hy exhibition Kaiku\, by K.P. Wilska. Wilska is a Fort Worth photog
+ rapher who specializes in high-key\, minimalist photography. Originall
+ y born in Finland\, the exhibition title Kaiku is from the Finnish langu
+ age which tran — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:national-multi-cultural-western-heritage-museum|the-national-multicultu
  ral-western-heritage-museum-2201-dottie-lynn-pkwy-suite-115-fort-worth-761
  20-united-states|11-00-am-2026-10-08@letsdoitdallas.com
@@ -351,6 +273,23 @@ URL:https://letsdoitdallas.com/?date=2026-10-08&e=legacy-of-the-longhorn%7C
  cowtown-coliseum-fort-worth%7C12-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:thursday-night-live-music-at-tico-|-tico-2315-n-main-street-fort-worth-
+ tx-76164-united-states|6-00-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261008T230000Z
+DTSTART:20261008T230000Z
+DTEND:20261009T020000Z
+SUMMARY:Thursday Night Live Music at Ático!
+LOCATION:Ático · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=thursday-night-live-music
+ -at-tico-%7C-tico-2315-n-main-street-fort-worth-tx-76164-united-states%7C6
+ -00-pm
+DESCRIPTION:Join us at Ático for Thursday Night Live Music\, where talente
+ d artist perform on the rooftop each week. This week\, Andrew Skates takes
+  the stage from 6–9PM\, a performance you don’t want to miss. Enjoy li
+ ve music\, Spanish-inspired tapas\, handcrafted cocktails\, and views of t
+ he For — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-red-clay-strays|dickies-arena-fort-worth|6-30-pm-2026-10-08@letsdoi
@@ -404,6 +343,40 @@ URL:https://letsdoitdallas.com/?date=2026-10-08&e=pbr-stockyards-showcase%7
  Ccowtown-coliseum-fort-worth%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nightcap-comedy-show|big-laugh-comedy-club-fort-worth-604-main-st-s
+ uite-100-fort-worth-tx-76102-united-states|7-30-pm-2026-10-08@letsdoitdall
+ as.com
+DTSTAMP:20261009T003000Z
+DTSTART:20261009T003000Z
+DTEND:20261009T033000Z
+SUMMARY:The Nightcap Comedy Show
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=the-nightcap-comedy-show%
+ 7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-761
+ 02-united-states%7C7-30-pm
+DESCRIPTION:The Nightcap Comedy Show: Laugh\, Drink\, and Have a Good Time 
+ on a Thursday Night  The workweek’s almost over. Downtown Fort Worth is 
+ winding down.  The Nightcap Comedy Show is where you cap it off right\, wi
+ th a room full of laughs\, a drink in hand\, and stand-up comedy that remi
+ nd — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:yekwon-sunwoo|bass-performance-hall-525-commerce-street-fort-worth-7610
+ 2-united-states|7-30-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261009T003000Z
+DTSTART:20261009T003000Z
+DTEND:20261009T033000Z
+SUMMARY:Yekwon Sunwoo
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=yekwon-sunwoo%7Cbass-perf
+ ormance-hall-525-commerce-street-fort-worth-76102-united-states%7C7-30-pm
+DESCRIPTION:Experience the Joy of Music This season Cliburn Concerts invite
+ s you to experience joy: the awe of seeing near superhuman virtuosity at t
+ he Kimbell Art Museum\; a memorable evening spent with friends at Tannahil
+ l’s Music Hall\; a weekend celebration at the Modern Art Museum of Fort 
+ — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:tcu-horned-frogs-womens-volleyball-vs-arizona-wildcats-womens-volleybal
@@ -1790,5 +1763,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-03&e=legacy-of-the-longhorn%7C
  cowtown-coliseum-fort-worth%7C12-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
+ 11-05@letsdoitdallas.com
+DTSTAMP:20261105T193000Z
+DTSTART:20261105T193000Z
+DTEND:20261105T223000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/district/fort-worth/
 END:VEVENT
 END:VCALENDAR

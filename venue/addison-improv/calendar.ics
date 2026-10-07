@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:damitas-histeria|addison-improv-addison|7-30-pm-2026-10-06@letsdoitdall
- as.com
-DTSTAMP:20261007T003000Z
-DTSTART:20261007T003000Z
-DTEND:20261007T033000Z
-SUMMARY:Damitas Histeria
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=damitas-histeria%7Caddiso
- n-improv-addison%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:two-d-kes-and-a-mic-soaking-wet-tour|addison-improv-addison|7-30-pm-202
  6-10-07@letsdoitdallas.com
 DTSTAMP:20261008T003000Z
@@ -324,6 +311,18 @@ SUMMARY:Led Varela
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-11-03&e=led-varela%7Caddison-impr
  ov-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:mark-paul|addison-improv-addison|7-30-pm-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261105T013000Z
+DTSTART:20261105T013000Z
+DTEND:20261105T043000Z
+SUMMARY:Mark Paul
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=mark-paul%7Caddison-impro
+ v-addison%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
 END:VEVENT

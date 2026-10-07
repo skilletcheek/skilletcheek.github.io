@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:intellectual-property-ip-basics|central-library-garland|06-00-pm-2026-1
- 0-06@letsdoitdallas.com
-DTSTAMP:20261006T230000Z
-DTSTART:20261006T230000Z
-DTEND:20261007T020000Z
-SUMMARY:Intellectual Property (IP) Basics
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=intellectual-property-ip-
- basics%7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Are you a freelancer or business owner interested i
- n intellectual property? Join us for a presentation led by the U.S. Patent
-  and Trademark Office. Learn the difference between patents\, trademarks\,
-  copyrights and trade secrets. October 6\, 2026 06:00 PM - 07:30 PM 625 A 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:medicaid-and-chip-application-renewal-assistance-with-parkland-hospital
  |central-library-garland|10-00-am-2026-10-07@letsdoitdallas.com
 DTSTAMP:20261007T150000Z
@@ -411,6 +395,36 @@ DESCRIPTION:6:30 p.m.\; Join us for Graphic Novel Book Club where we talk o
  ut exciting graphic novels every month. Read the book beforehand for discu
  ssion. October 20\, 2026 06:30 PM - 07:30 PM 625 Austin St.Garland\, TX 75
  040 https://www.garlandtx.gov/m/calendar/event/detail/13001/639227572760 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:medicaid-and-chip-application-renewal-assistance-with-parkland-hospital
+ |central-library-garland|10-00-am-2026-10-21@letsdoitdallas.com
+DTSTAMP:20261021T150000Z
+DTSTART:20261021T150000Z
+DTEND:20261021T180000Z
+SUMMARY:Medicaid and CHIP Application & Renewal Assistance with Parkland Ho
+ spital
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=medicaid-and-chip-applica
+ tion-renewal-assistance-with-parkland-hospital%7Ccentral-library-garland%7
+ C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:gentle-yoga-ages-18-|central-library-garland|06-00-pm-2026-10-21@letsdo
+ itdallas.com
+DTSTAMP:20261021T230000Z
+DTSTART:20261021T230000Z
+DTEND:20261022T020000Z
+SUMMARY:Gentle Yoga (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=gentle-yoga-ages-18-%7Cce
+ ntral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; A gentle yoga class suitable for adult participants
+  of all levels of experience. Participants should bring their own mat and/
+ or towel. Props such as chairs and blocks will be available. October 21\, 
+ 2026 06:00 PM - 07:00 PM 625 Austin St.Garland\, TX 75040 https://www.ga 
  — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

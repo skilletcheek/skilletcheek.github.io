@@ -10,22 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
- |04-00-pm-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261006T210000Z
-DTSTART:20261006T210000Z
-DTEND:20261007T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=teenz-place-after-school-
- hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
-DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
- eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
-  snacks while supplies last. Bring your friends! October 6\, 2026 04:00 PM
-  - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx. 
- — More: https://letsdoitdallas.com/venue/north-garland-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
  |04-00-pm-2026-10-07@letsdoitdallas.com
 DTSTAMP:20261007T210000Z
 DTSTART:20261007T210000Z
@@ -182,6 +166,54 @@ DESCRIPTION:6:30 p.m.\; An adult book club for those who enjoy reading wide
  ly and learning new things. Join us each month for polite\, thoughtful dis
  cussions and light refreshments. October 20\, 2026 06:30 PM - 07:30 PM 384
  5 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx.gov/m/calendar/ 
+ — More: https://letsdoitdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-bounce-read-birth-18-months-|north-garland-library-garland|10-00-a
+ m-2026-10-21@letsdoitdallas.com
+DTSTAMP:20261021T150000Z
+DTSTART:20261021T150000Z
+DTEND:20261021T180000Z
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=baby-bounce-read-birth-18
+ -months-%7Cnorth-garland-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
+  will learn\, play\, and grow together in this lap-sit storytime that intr
+ oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
+ y literacy practices into their everyday lives. October 21\, 2026 10:00 AM
+  - 1 — More: https://letsdoitdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:play-learn-0-5-years-|north-garland-library-garland|11-00-am-2026-10-21
+ @letsdoitdallas.com
+DTSTAMP:20261021T160000Z
+DTSTART:20261021T160000Z
+DTEND:20261021T190000Z
+SUMMARY:Play & Learn (0-5 Years)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=play-learn-0-5-years-%7Cn
+ orth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; It’s playtime! Families can participate in Play 
+ & Learn\, a weekly event where children ages 0-5 and their caregivers can 
+ enjoy an assortment of toys\, games and activities that foster imagination
+ \, creativity and problem-solving. October 21\, 2026 11:00 AM - 12:00 PM 3
+ 84 — More: https://letsdoitdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-10-21@letsdoitdallas.com
+DTSTAMP:20261021T210000Z
+DTSTART:20261021T210000Z
+DTEND:20261022T000000Z
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=teenz-place-after-school-
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
+DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
+ eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
+  snacks while supplies last. Bring your friends! October 21\, 2026 04:00 P
+ M - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx 
  — More: https://letsdoitdallas.com/venue/north-garland-library/
 END:VEVENT
 END:VCALENDAR

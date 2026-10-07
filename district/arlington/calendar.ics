@@ -10,84 +10,41 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-10-06@letsdoitdal
- las.com
-DTSTAMP:20261006T233000Z
-DTSTART:20261006T233000Z
-DTEND:20261007T023000Z
-SUMMARY:Test Your Mic
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=test-your-mic%7Carlington
- -improv-arlington%7C6-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:michael-jackson-tribute-live-show|college-park-center-600-s-center-stre
- et-arlington-tx-76010|7-30-pm-2026-10-06@letsdoitdallas.com
-DTSTAMP:20261007T003000Z
-DTSTART:20261007T003000Z
-DTEND:20261007T033000Z
-SUMMARY:Michael Jackson Tribute Live Show
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-06&e=michael-jackson-tribute-l
- ive-show%7Ccollege-park-center-600-s-center-street-arlington-tx-76010%7C7-
- 30-pm
-DESCRIPTION:Michael Lives Forever brings a world-class live Michael Jackson
-  tribute concert to College Park Center in Arlington\, Texas on Tuesday\, 
- October 6\, 2026.  Starring Rodrigo Teaser\, one of the world’s most acc
- laimed Michael Jackson tribute artists\, the production recreates the King
-  o — More: https://letsdoitdallas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-07
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|11-00-am-2026-10-07
  @letsdoitdallas.com
-DTSTAMP:20261007T150000Z
-DTSTART:20261007T150000Z
-DTEND:20261007T180000Z
+DTSTAMP:20261007T160000Z
+DTSTART:20261007T160000Z
+DTEND:20261007T190000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-10-07&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C10-00-am
+ our%7Cat-t-stadium-arlington%7C11-00-am
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-10-07
- @letsdoitdallas.com
-DTSTAMP:20261007T170000Z
-DTSTART:20261007T170000Z
-DTEND:20261007T200000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C12-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-10-07@
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|1-00-pm-2026-10-07@
  letsdoitdallas.com
-DTSTAMP:20261007T190000Z
-DTSTART:20261007T190000Z
-DTEND:20261007T220000Z
+DTSTAMP:20261007T180000Z
+DTSTART:20261007T180000Z
+DTEND:20261007T210000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-10-07&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C2-00-pm
+ our%7Cat-t-stadium-arlington%7C1-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-10-07@
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-10-07@
  letsdoitdallas.com
-DTSTAMP:20261007T210000Z
-DTSTART:20261007T210000Z
-DTEND:20261008T000000Z
+DTSTAMP:20261007T200000Z
+DTSTART:20261007T200000Z
+DTEND:20261007T230000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-10-07&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C4-00-pm
+ our%7Cat-t-stadium-arlington%7C3-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
@@ -102,6 +59,20 @@ LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-07&e=wizop-live-at-the-improv%
  7Carlington-improv-arlington%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-vs-tampa-bay|texas-live-1650-east-randol-mill-road-arlington-760
+ 11-united-states|7-00-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261009T000000Z
+DTSTART:20261009T000000Z
+DTEND:20261009T030000Z
+SUMMARY:Dallas vs Tampa Bay
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-08&e=dallas-vs-tampa-bay%7Ctex
+ as-live-1650-east-randol-mill-road-arlington-76011-united-states%7C7-00-pm
+DESCRIPTION:The 2026 Dallas football season is coming—reserve your table 
+ now for the ultimate game day experience. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
@@ -780,6 +751,32 @@ URL:https://letsdoitdallas.com/?date=2026-10-21&e=dee-mo-and-friends%7Carli
  ngton-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaron-branch-18-|improv-comedy-club-arlington-arlington|7-30-pm-2026-10
+ -22@letsdoitdallas.com
+DTSTAMP:20261023T003000Z
+DTSTART:20261023T003000Z
+DTEND:20261023T033000Z
+SUMMARY:Aaron Branch (18+)
+LOCATION:Improv Comedy Club - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=aaron-branch-18-%7Cimprov
+ -comedy-club-arlington-arlington%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-malpass-brothers|arlington-music-hall-arlington|7-30-pm-2026-10-22@
+ letsdoitdallas.com
+DTSTAMP:20261023T003000Z
+DTSTART:20261023T003000Z
+DTEND:20261023T033000Z
+SUMMARY:The Malpass Brothers
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=the-malpass-brothers%7Car
+ lington-music-hall-arlington%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-ratt-packs-of-comedy-tour|arlington-improv-arlington|7-30-pm-2026-1

@@ -411,4 +411,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-03&e=legacy-of-the-longhorn%7C
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/cowtown-coliseum/
 END:VEVENT
+BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
+ 11-05@letsdoitdallas.com
+DTSTAMP:20261105T193000Z
+DTSTART:20261105T193000Z
+DTEND:20261105T223000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/cowtown-coliseum/
+END:VEVENT
 END:VCALENDAR
