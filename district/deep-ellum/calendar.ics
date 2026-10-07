@@ -271,15 +271,15 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:rachel-bochner-janna-jamison|three-links-deep-ellum-dallas|7-00-pm-2026
- -10-14@letsdoitdallas.com
+UID:rachel-bochner-janna-jamison-lizzy-cameron|three-links-deep-ellum-dalla
+ s|7-00-pm-2026-10-14@letsdoitdallas.com
 DTSTAMP:20261015T000000Z
 DTSTART:20261015T000000Z
 DTEND:20261015T030000Z
-SUMMARY:Rachel Bochner\, Janna Jamison
+SUMMARY:Rachel Bochner\, Janna Jamison\, Lizzy Cameron
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-14&e=rachel-bochner-janna-jami
- son%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+ son-lizzy-cameron%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT
@@ -631,18 +631,6 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:maxo-kream|trees-dallas|doors-see-listing-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261025T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:MAXO KREAM
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=maxo-kream%7Ctrees-dallas
- %7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:viktoria-xo-rebirth-album-release-show|three-links-deep-ellum-dallas|7-
  00-pm-2026-10-25@letsdoitdallas.com
 DTSTAMP:20261026T000000Z
@@ -654,6 +642,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=viktoria-xo-rebirth-album
  -release-show%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:maxo-kream|trees-dallas|8-00-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261026T010000Z
+DTSTART:20261026T010000Z
+DTEND:20261026T040000Z
+SUMMARY:Maxo Kream
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=maxo-kream%7Ctrees-dallas
+ %7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-25@letsdoitd
@@ -708,17 +708,16 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:2slimey-tour|trees-dallas|doors-see-listing-2026-10-29@letsdoitdallas.c
- om
-DTSTAMP:20261029T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:2SLIMEY TOUR
+UID:2slimey|trees-dallas|8-00-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261030T010000Z
+DTSTART:20261030T010000Z
+DTEND:20261030T040000Z
+SUMMARY:2slimey
 LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=2slimey-tour%7Ctrees-dall
- as%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=2slimey%7Ctrees-dallas%7C
+ 8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:dossey-jonojono-gluestick|three-links-deep-ellum-dallas|8-00-pm-2026-10

@@ -85,29 +85,28 @@ DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT
 BEGIN:VEVENT
-UID:maxo-kream|trees-dallas|doors-see-listing-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261025T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:MAXO KREAM
+UID:maxo-kream|trees-dallas|8-00-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261026T010000Z
+DTSTART:20261026T010000Z
+DTEND:20261026T040000Z
+SUMMARY:Maxo Kream
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-25&e=maxo-kream%7Ctrees-dallas
- %7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+ %7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
-UID:2slimey-tour|trees-dallas|doors-see-listing-2026-10-29@letsdoitdallas.c
- om
-DTSTAMP:20261029T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:2SLIMEY TOUR
+UID:2slimey|trees-dallas|8-00-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261030T010000Z
+DTSTART:20261030T010000Z
+DTEND:20261030T040000Z
+SUMMARY:2slimey
 LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=2slimey-tour%7Ctrees-dall
- as%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=2slimey%7Ctrees-dallas%7C
+ 8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
 UID:promiscuous-halloween-a-spooky-2000-s-club-bangers-throwbacks-party|tre

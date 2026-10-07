@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hyena's Comedy Night Club - Fort Worth — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Hyena's Comedy Night Club - Fort Worth.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:nick-mullen-18-|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm
+ -2026-10-20@letsdoitdallas.com
+DTSTAMP:20261021T010000Z
+DTSTART:20261021T010000Z
+DTEND:20261021T040000Z
+SUMMARY:Nick Mullen (18+)
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=nick-mullen-18-%7Chyena-s
+ -comedy-night-club-fort-worth-fort-worth%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-night-club-fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:nick-mullen-18-|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm
+ -2026-10-21@letsdoitdallas.com
+DTSTAMP:20261022T010000Z
+DTSTART:20261022T010000Z
+DTEND:20261022T040000Z
+SUMMARY:Nick Mullen (18+)
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=nick-mullen-18-%7Chyena-s
+ -comedy-night-club-fort-worth-fort-worth%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-night-club-fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:nick-mullen-18-|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm
+ -2026-10-22@letsdoitdallas.com
+DTSTAMP:20261023T010000Z
+DTSTART:20261023T010000Z
+DTEND:20261023T040000Z
+SUMMARY:Nick Mullen (18+)
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=nick-mullen-18-%7Chyena-s
+ -comedy-night-club-fort-worth-fort-worth%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-night-club-fort-worth/
+END:VEVENT
+END:VCALENDAR

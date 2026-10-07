@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:medicaid-and-chip-application-renewal-assistance-with-parkland-hospital
- |central-library-garland|10-00-am-2026-10-07@letsdoitdallas.com
-DTSTAMP:20261007T150000Z
-DTSTART:20261007T150000Z
-DTEND:20261007T180000Z
-SUMMARY:Medicaid and CHIP Application & Renewal Assistance with Parkland Ho
- spital
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=medicaid-and-chip-applica
- tion-renewal-assistance-with-parkland-hospital%7Ccentral-library-garland%7
- C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
  |04-00-pm-2026-10-07@letsdoitdallas.com
 DTSTAMP:20261007T210000Z
@@ -952,6 +938,18 @@ DESCRIPTION:5:30 p.m.\; In this five-part workshop\, Jennifer Jordan (MBA\,
  iring entrepreneurs\, recent small business owners\, and established small
   business owners to the COI (clarity\, ownership and independence) framewo
  rk — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:decision-height-presented-by-dallas-christian-school|300-n-fifth-street
+ -garland|07-00-pm-2026-10-19@letsdoitdallas.com
+DTSTAMP:20261020T000000Z
+DTSTART:20261020T000000Z
+DTEND:20261020T030000Z
+SUMMARY:Decision Height presented by Dallas Christian School
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=decision-height-presented
+ -by-dallas-christian-school%7C300-n-fifth-street-garland%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:baby-bounce-read-birth-18-months-|central-library-garland|10-00-am-2026

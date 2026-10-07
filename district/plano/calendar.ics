@@ -290,6 +290,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:deric-cahill|mic-drop-comedy-plano-plano|7-00-pm-2026-10-23@letsdoitdal
+ las.com
+DTSTAMP:20261024T000000Z
+DTSTART:20261024T000000Z
+DTEND:20261024T030000Z
+SUMMARY:Deric Cahill
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=deric-cahill%7Cmic-drop-c
+ omedy-plano-plano%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:uau-2026-fancon-playlist-your-youth-in-dallas|coppell-arts-center-coppe
  ll|7-00-pm-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261024T000000Z
