@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-black-academy-of-arts-and-letters-dallas|bruton-theatre-dallas|10-0
- 0-am-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261015T150000Z
-DTSTART:20261015T150000Z
-DTEND:20261015T180000Z
-SUMMARY:The Black Academy of Arts and Letters - Dallas
-LOCATION:Bruton Theatre · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=the-black-academy-of-arts
- -and-letters-dallas%7Cbruton-theatre-dallas%7C10-00-am
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/bruton-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-hip-hop-puppet-show-i-m-not-playin-with-you-|bruton-theatre-dallas|
  10-00-am-2026-10-15@letsdoitdallas.com
 DTSTAMP:20261015T150000Z
@@ -33,19 +20,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-15&e=the-hip-hop-puppet-show-i
  -m-not-playin-with-you-%7Cbruton-theatre-dallas%7C10-00-am
 DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
  /letsdoitdallas.com/venue/bruton-theatre/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-black-academy-of-arts-and-letters-dallas|bruton-theatre-dallas|10-0
- 0-am-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261016T150000Z
-DTSTART:20261016T150000Z
-DTEND:20261016T180000Z
-SUMMARY:The Black Academy of Arts and Letters - Dallas
-LOCATION:Bruton Theatre · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=the-black-academy-of-arts
- -and-letters-dallas%7Cbruton-theatre-dallas%7C10-00-am
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/bruton-theatre/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-hip-hop-puppet-show-i-m-not-playin-with-you-|bruton-theatre-dallas|

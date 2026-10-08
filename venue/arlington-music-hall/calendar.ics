@@ -73,4 +73,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-22&e=the-malpass-brothers%7Car
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/arlington-music-hall/
 END:VEVENT
+BEGIN:VEVENT
+UID:mo-pitney|arlington-music-hall-arlington|8-00-pm-2026-10-23@letsdoitdal
+ las.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Mo Pitney
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=mo-pitney%7Carlington-mus
+ ic-hall-arlington%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/arlington-music-hall/
+END:VEVENT
 END:VCALENDAR

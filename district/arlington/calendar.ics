@@ -740,6 +740,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:mo-pitney|arlington-music-hall-arlington|8-00-pm-2026-10-23@letsdoitdal
+ las.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Mo Pitney
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=mo-pitney%7Carlington-mus
+ ic-hall-arlington%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-ratt-packs-of-comedy-tour|arlington-improv-arlington|9-45-pm-2026-1
  0-23@letsdoitdallas.com
 DTSTAMP:20261024T024500Z
