@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:brian-fallon-the-painkillers-with-tim-barry|trees-dallas-dallas|7-00-pm
- -2026-10-07@letsdoitdallas.com
-DTSTAMP:20261008T000000Z
-DTSTART:20261008T000000Z
-DTEND:20261008T030000Z
-SUMMARY:Brian Fallon & The Painkillers with Tim Barry
-LOCATION:Trees - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=brian-fallon-the-painkill
- ers-with-tim-barry%7Ctrees-dallas-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/trees/
-END:VEVENT
-BEGIN:VEVENT
 UID:hurricane-wisdom|trees-dallas|8-00-pm-2026-10-11@letsdoitdallas.com
 DTSTAMP:20261012T010000Z
 DTSTART:20261012T010000Z
@@ -145,6 +132,19 @@ SUMMARY:THE KILANS * JADE STREET
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-kilans-jade-street%7C
  trees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:ceremony-w-support-from-slippers-world-peace|trees-dallas|doors-see-lis
+ ting-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:CEREMONY W / SUPPORT FROM SLIPPERS & WORLD PEACE
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=ceremony-w-support-from-s
+ lippers-world-peace%7Ctrees-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT

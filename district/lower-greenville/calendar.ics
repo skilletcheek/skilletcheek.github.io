@@ -118,6 +118,22 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
+UID:dj-boomtown-chris-bullock-of-snarky-puppy-snarky-puppy-after-party|sund
+ own-at-granada-lower-greenville-dallas|doors-see-listing-2026-10-17@letsdo
+ itdallas.com
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:DJ Boomtown (Chris Bullock of Snarky Puppy) - SNARKY PUPPY AFTER PA
+ RTY
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=dj-boomtown-chris-bullock
+ -of-snarky-puppy-snarky-puppy-after-party%7Csundown-at-granada-lower-green
+ ville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
 UID:snarky-puppy|granada-theater-dallas-dallas|8-00-pm-2026-10-17@letsdoitd
  allas.com
 DTSTAMP:20261018T010000Z
@@ -403,17 +419,17 @@ DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
  istrict/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-damned-final-damnation-50|granada-theater-lower-greenville-dallas|d
- oors-see-listing-2026-11-05@letsdoitdallas.com
-DTSTAMP:20261105T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+UID:the-damned-final-damnation-50|granada-theater-tx-dallas|7-00-pm-2026-11
+ -05@letsdoitdallas.com
+DTSTAMP:20261106T010000Z
+DTSTART:20261106T010000Z
+DTEND:20261106T040000Z
 SUMMARY:The Damned - Final Damnation 50
-LOCATION:Granada Theater · Dallas
+LOCATION:Granada Theater - TX · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-05&e=the-damned-final-damnatio
- n-50%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
- istrict/lower-greenville/
+ n-50%7Cgranada-theater-tx-dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
 UID:jordan-nix|sundown-at-granada-lower-greenville-dallas|doors-see-listing
@@ -438,6 +454,20 @@ SUMMARY:Shadowgrass - An Evening With
 LOCATION:Granada Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=shadowgrass-an-evening-wi
  th%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:low-cut-connie-w-laney-jones-and-the-spirits|granada-theater-lower-gree
+ nville-dallas|doors-see-listing-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Low Cut Connie w /  Laney Jones and the Spirits
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=low-cut-connie-w-laney-jo
+ nes-and-the-spirits%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-
+ listing
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
  istrict/lower-greenville/
 END:VEVENT

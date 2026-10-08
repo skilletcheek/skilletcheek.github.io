@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:shed-g-friends-comedy-special|poor-david-s-pub-dallas|doors-see-listing
- -2026-10-07@letsdoitdallas.com
-DTSTAMP:20261007T000000Z
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
-SUMMARY:Shed G & Friends Comedy Special
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=shed-g-friends-comedy-spe
- cial%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:gareth-pearson-welsh-tornado-at-poor-david-s|poor-david-s-pub-dallas|do
  ors-see-listing-2026-10-08@letsdoitdallas.com
 DTSTAMP:20261008T000000Z
@@ -203,6 +190,19 @@ LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-gotten-w-fat-by-the-g
  allon-american-werewolf-academy%7Cpoor-david-s-pub-dallas%7Cdoors-see-list
  ing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
+BEGIN:VEVENT
+UID:alexandra-w-katy-day|poor-david-s-pub-dallas|doors-see-listing-2026-11-
+ 07@letsdoitdallas.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:ALEXANDRA w /  Katy Day
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=alexandra-w-katy-day%7Cpo
+ or-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT

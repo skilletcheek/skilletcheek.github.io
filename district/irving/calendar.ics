@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:we-funny-wednesdays|punch-line-irving-irving|7-30-pm-2026-10-07@letsdoi
- tdallas.com
-DTSTAMP:20261008T003000Z
-DTSTART:20261008T003000Z
-DTEND:20261008T033000Z
-SUMMARY:We Funny Wednesdays
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=we-funny-wednesdays%7Cpun
- ch-line-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:dark-and-darker-a-dark-comedy-show|punch-line-irving-irving|7-30-pm-202
  6-10-08@letsdoitdallas.com
 DTSTAMP:20261009T003000Z
@@ -702,5 +689,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-04&e=dean-lewis-friends-a-nigh
  t-of-stand-up-comedy%7Cpunch-line-irving-irving%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:vladimir-caamano|punch-line-irving-irving|7-30-pm-2026-11-05@letsdoitda
+ llas.com
+DTSTAMP:20261106T013000Z
+DTSTART:20261106T013000Z
+DTEND:20261106T043000Z
+SUMMARY:Vladimir Caamano
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=vladimir-caamano%7Cpunch-
+ line-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:steve-lacy-oh-yeah-tour|the-pavilion-at-toyota-music-factory-irving|8-0
+ 0-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261106T020000Z
+DTSTART:20261106T020000Z
+DTEND:20261106T050000Z
+SUMMARY:Steve Lacy: Oh yeah? Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=steve-lacy-oh-yeah-tour%7
+ Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/irving/
 END:VEVENT
 END:VCALENDAR

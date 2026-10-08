@@ -10,22 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
- |04-00-pm-2026-10-07@letsdoitdallas.com
-DTSTAMP:20261007T210000Z
-DTSTART:20261007T210000Z
-DTEND:20261008T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=teenz-place-after-school-
- hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
-DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
- eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
-  snacks while supplies last. Bring your friends! October 7\, 2026 04:00 PM
-  - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx. 
- — More: https://letsdoitdallas.com/venue/north-garland-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
  |04-00-pm-2026-10-08@letsdoitdallas.com
 DTSTAMP:20261008T210000Z
 DTSTART:20261008T210000Z
@@ -165,7 +149,7 @@ URL:https://letsdoitdallas.com/?date=2026-10-20&e=open-books-open-minds-non
 DESCRIPTION:6:30 p.m.\; An adult book club for those who enjoy reading wide
  ly and learning new things. Join us each month for polite\, thoughtful dis
  cussions and light refreshments. October 20\, 2026 06:30 PM - 07:30 PM 384
- 5 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx.gov/m/calendar/ 
+ 5 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx.gov/Calendar.as 
  — More: https://letsdoitdallas.com/venue/north-garland-library/
 END:VEVENT
 BEGIN:VEVENT
@@ -213,6 +197,40 @@ URL:https://letsdoitdallas.com/?date=2026-10-21&e=teenz-place-after-school-
 DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
  eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
   snacks while supplies last. Bring your friends! October 21\, 2026 04:00 P
+ M - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx 
+ — More: https://letsdoitdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:scams-uncovered-ai-deception-and-protecting-yourself-in-a-digital-world
+ |north-garland-library-garland|02-00-pm-2026-10-22@letsdoitdallas.com
+DTSTAMP:20261022T190000Z
+DTSTART:20261022T190000Z
+DTEND:20261022T220000Z
+SUMMARY:Scams Uncovered: AI\, Deception\, and Protecting Yourself in a Digi
+ tal World
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=scams-uncovered-ai-decept
+ ion-and-protecting-yourself-in-a-digital-world%7Cnorth-garland-library-gar
+ land%7C02-00-pm
+DESCRIPTION:2:00 p.m.\; Scams Uncovered: AI\, Deception\, and Protecting Yo
+ urself in a Digital World is an informative presentation from the Garland 
+ Police Department designed to help residents recognize scams and protect t
+ hemselves and others. Presented by Officer Matt Pesta\, Garland Police De 
+ — More: https://letsdoitdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-10-22@letsdoitdallas.com
+DTSTAMP:20261022T210000Z
+DTSTART:20261022T210000Z
+DTEND:20261023T000000Z
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=teenz-place-after-school-
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
+DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
+ eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
+  snacks while supplies last. Bring your friends! October 22\, 2026 04:00 P
  M - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx 
  — More: https://letsdoitdallas.com/venue/north-garland-library/
 END:VEVENT

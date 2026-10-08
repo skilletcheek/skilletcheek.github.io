@@ -10,14 +10,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:kxt-presents-suki-waterhouse-the-loveland-tour|south-side-ballroom-dall
- as|8-00-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261009T010000Z
-DTSTART:20261009T010000Z
-DTEND:20261009T040000Z
+ as|7-30-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261009T003000Z
+DTSTART:20261009T003000Z
+DTEND:20261009T033000Z
 SUMMARY:KXT Presents- Suki Waterhouse: The Loveland Tour
 LOCATION:South Side Ballroom · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-08&e=kxt-presents-suki-waterho
- use-the-loveland-tour%7Csouth-side-ballroom-dallas%7C8-00-pm
+ use-the-loveland-tour%7Csouth-side-ballroom-dallas%7C7-30-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/south-side-ballroom/
 END:VEVENT

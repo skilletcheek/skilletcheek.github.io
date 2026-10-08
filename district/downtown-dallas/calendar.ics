@@ -10,48 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:shed-g-friends-comedy-special|poor-david-s-pub-dallas|doors-see-listing
- -2026-10-07@letsdoitdallas.com
-DTSTAMP:20261007T000000Z
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
-SUMMARY:Shed G & Friends Comedy Special
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=shed-g-friends-comedy-spe
- cial%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-07@letsdoitdallas.com
-DTSTAMP:20261007T130000Z
-DTSTART:20261007T130000Z
-DTEND:20261007T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:my-hero-academia-in-concert|majestic-theatre-dallas-dallas|7-30-pm-2026
- -10-07@letsdoitdallas.com
-DTSTAMP:20261008T003000Z
-DTSTART:20261008T003000Z
-DTEND:20261008T033000Z
-SUMMARY:My Hero Academia in Concert
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=my-hero-academia-in-conce
- rt%7Cmajestic-theatre-dallas-dallas%7C7-30-pm
-DESCRIPTION:Animation event via Ticketmaster. — More: https://letsdoitdal
- las.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:gareth-pearson-welsh-tornado-at-poor-david-s|poor-david-s-pub-dallas|do
  ors-see-listing-2026-10-08@letsdoitdallas.com
 DTSTAMP:20261008T000000Z
@@ -95,14 +53,14 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
 END:VEVENT
 BEGIN:VEVENT
 UID:kxt-presents-suki-waterhouse-the-loveland-tour|south-side-ballroom-dall
- as|8-00-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261009T010000Z
-DTSTART:20261009T010000Z
-DTEND:20261009T040000Z
+ as|7-30-pm-2026-10-08@letsdoitdallas.com
+DTSTAMP:20261009T003000Z
+DTSTART:20261009T003000Z
+DTEND:20261009T033000Z
 SUMMARY:KXT Presents- Suki Waterhouse: The Loveland Tour
 LOCATION:South Side Ballroom · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-08&e=kxt-presents-suki-waterho
- use-the-loveland-tour%7Csouth-side-ballroom-dallas%7C8-00-pm
+ use-the-loveland-tour%7Csouth-side-ballroom-dallas%7C7-30-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT
@@ -118,6 +76,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-08&e=ryan-beatty-arms-over-arm
  or-north-american-tour-26%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261009T130000Z
+DTSTART:20261009T130000Z
+DTEND:20261009T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:bad-nerves|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-10-
@@ -1267,6 +1241,19 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
+ -2026-11-05@letsdoitdallas.com
+DTSTAMP:20261106T013000Z
+DTSTART:20261106T013000Z
+DTEND:20261106T043000Z
+SUMMARY:Buena Vista Social Club (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=buena-vista-social-club-t
+ ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-gotten-w-fat-by-the-gallon-american-werewolf-academy|poor-david-s-p
  ub-dallas|doors-see-listing-2026-11-06@letsdoitdallas.com
 DTSTAMP:20261106T000000Z
@@ -1277,6 +1264,19 @@ LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-gotten-w-fat-by-the-g
  allon-american-werewolf-academy%7Cpoor-david-s-pub-dallas%7Cdoors-see-list
  ing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:alexandra-w-katy-day|poor-david-s-pub-dallas|doors-see-listing-2026-11-
+ 07@letsdoitdallas.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:ALEXANDRA w /  Katy Day
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=alexandra-w-katy-day%7Cpo
+ or-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
 END:VEVENT

@@ -10,60 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:brian-fallon-the-painkillers-with-tim-barry|trees-dallas-dallas|7-00-pm
- -2026-10-07@letsdoitdallas.com
-DTSTAMP:20261008T000000Z
-DTSTART:20261008T000000Z
-DTEND:20261008T030000Z
-SUMMARY:Brian Fallon & The Painkillers with Tim Barry
-LOCATION:Trees - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=brian-fallon-the-painkill
- ers-with-tim-barry%7Ctrees-dallas-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:joe-bryson-bohemian-pirates-trio-griffin-holtby|three-links-deep-ellum-
- dallas|7-00-pm-2026-10-07@letsdoitdallas.com
-DTSTAMP:20261008T000000Z
-DTSTART:20261008T000000Z
-DTEND:20261008T030000Z
-SUMMARY:Joe Bryson\, Bohemian Pirates Trio\, Griffin Holtby
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=joe-bryson-bohemian-pirat
- es-trio-griffin-holtby%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:jack-white-this-is-a-phone-free-show-16-and-under-with-parent-or-legal-
- guardian-|the-bomb-factory-dallas|8-00-pm-2026-10-07@letsdoitdallas.com
-DTSTAMP:20261008T010000Z
-DTSTART:20261008T010000Z
-DTEND:20261008T040000Z
-SUMMARY:Jack White (This is a Phone Free Show - 16 and Under with Parent or
-  Legal Guardian)
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=jack-white-this-is-a-phon
- e-free-show-16-and-under-with-parent-or-legal-guardian-%7Cthe-bomb-factory
- -dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:wub-wednesday|three-links-deep-ellum-dallas|9-00-pm-2026-10-07@letsdoit
- dallas.com
-DTSTAMP:20261008T020000Z
-DTSTART:20261008T020000Z
-DTEND:20261008T050000Z
-SUMMARY:Wub Wednesday
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=wub-wednesday%7Cthree-lin
- ks-deep-ellum-dallas%7C9-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:jack-blocker|three-links-deep-ellum-dallas|8-00-am-2026-10-08@letsdoitd
  allas.com
 DTSTAMP:20261008T130000Z
@@ -875,6 +821,19 @@ SUMMARY:THE KILANS * JADE STREET
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-kilans-jade-street%7C
  trees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:ceremony-w-support-from-slippers-world-peace|trees-dallas|doors-see-lis
+ ting-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:CEREMONY W / SUPPORT FROM SLIPPERS & WORLD PEACE
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=ceremony-w-support-from-s
+ lippers-world-peace%7Ctrees-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
 END:VEVENT

@@ -11,24 +11,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:symphony-orchestra|winspear-performance-hall-at-the-murchison-performin
- g-arts-center-denton|7-30-pm-2026-10-07@letsdoitdallas.com
-DTSTAMP:20261008T003000Z
-DTSTART:20261008T003000Z
-DTEND:20261008T033000Z
-SUMMARY:Symphony Orchestra
-LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
- · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=symphony-orchestra%7Cwins
- pear-performance-hall-at-the-murchison-performing-arts-center-denton%7C7-3
- 0-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream link below. — More: https://letsd
- oitdallas.com/venue/winspear-performance-hall-at-the-murchison-performing-
- arts-c/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-william-gammon-henry-concerto-competition-2026-finals|winspear-perf
  ormance-hall-at-the-murchison-performing-arts-center-denton|6-00-pm-2026-1
  0-13@letsdoitdallas.com
@@ -49,23 +31,60 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  c/
 END:VEVENT
 BEGIN:VEVENT
-UID:concert-orchestra|winspear-performance-hall-at-the-murchison-performing
- -arts-center-denton|7-30-pm-2026-10-14@letsdoitdallas.com
-DTSTAMP:20261015T003000Z
-DTSTART:20261015T003000Z
-DTEND:20261015T033000Z
-SUMMARY:Concert Orchestra
+UID:wind-orchestra|winspear-performance-hall-at-the-murchison-performing-ar
+ ts-center-denton|7-30-pm-2026-10-15@letsdoitdallas.com
+DTSTAMP:20261016T003000Z
+DTSTART:20261016T003000Z
+DTEND:20261016T033000Z
+SUMMARY:Wind Orchestra
 LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
  · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=concert-orchestra%7Cwinsp
- ear-performance-hall-at-the-murchison-performing-arts-center-denton%7C7-30
- -pm
-DESCRIPTION:Clay Couturiaux\, conductor  SaiSai Ding\, violoncello (from th
- e Dallas Symphony Orchestra)  Daniel Bubeck\, countertenor     Barber Firs
- t Essay for Orchestra\, Op. 12  Bernstein Chichester Psalms  -intermission
- -  Dvořák Concerto for Violoncello and Orchestra in B Minor\, Op. 104 
- — More: https://letsdoitdallas.com/venue/winspear-performance-hall-at-th
- e-murchison-performing-arts-c/
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=wind-orchestra%7Cwinspear
+ -performance-hall-at-the-murchison-performing-arts-center-denton%7C7-30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below. — More: https://letsd
+ oitdallas.com/venue/winspear-performance-hall-at-the-murchison-performing-
+ arts-c/
+END:VEVENT
+BEGIN:VEVENT
+UID:wind-symphony|winspear-performance-hall-at-the-murchison-performing-art
+ s-center-denton|7-30-pm-2026-10-22@letsdoitdallas.com
+DTSTAMP:20261023T003000Z
+DTSTART:20261023T003000Z
+DTEND:20261023T033000Z
+SUMMARY:Wind Symphony
+LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
+ · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=wind-symphony%7Cwinspear-
+ performance-hall-at-the-murchison-performing-arts-center-denton%7C7-30-pm
+DESCRIPTION:“Chacona Amazônica” (1998) – North American Premiere by 
+ Brazilian composer Marlos Nobre in a new edition by Marcelo Jardim     “
+ The Blue Riders: Concerto for Winds” By James David - Composer-in-Reside
+ nce James David’s Western United States Premiere     “Konzertmusik fü
+ r Blasorche — More: https://letsdoitdallas.com/venue/winspear-performanc
+ e-hall-at-the-murchison-performing-arts-c/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-cabinet-of-dr-caligari-halloween-silent-movie-and-improvised-organ|
+ winspear-performance-hall-at-the-murchison-performing-arts-center-denton|7
+ -00-pm-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261028T000000Z
+DTSTART:20261028T000000Z
+DTEND:20261028T030000Z
+SUMMARY:The Cabinet of Dr. Caligari: Halloween Silent Movie and Improvised 
+ Organ
+LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
+ · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=the-cabinet-of-dr-caligar
+ i-halloween-silent-movie-and-improvised-organ%7Cwinspear-performance-hall-
+ at-the-murchison-performing-arts-center-denton%7C7-00-pm
+DESCRIPTION:Dr. Megan Bryan and guest organist Todd Wilson will lead a lect
+ ure beginning at 7pm discussing the period from which the film\, The Cabin
+ et of Dr. Caligari\, comes—German Expressionism—and the history of imp
+ rovised organ accompaniment for silent films.  A costume contest will foll
+ o — More: https://letsdoitdallas.com/venue/winspear-performance-hall-at-
+ the-murchison-performing-arts-c/
 END:VEVENT
 BEGIN:VEVENT
 UID:unt-symphony-orchestra-pops-concert-the-music-of-john-williams|winspear
@@ -82,10 +101,27 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=unt-symphony-orchestra-po
  urchison-performing-arts-center-denton%7C8-00-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream link below.     Patron assistance c
- arts will be available at this performance to assist those with mobili —
-  More: https://letsdoitdallas.com/venue/winspear-performance-hall-at-the-m
- urchison-performing-arts-c/
+ ay of the performance.      Livestream tickets available through the Colle
+ ge of Music box office.     Patron assistance carts will be available — 
+ More: https://letsdoitdallas.com/venue/winspear-performance-hall-at-the-mu
+ rchison-performing-arts-c/
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-winds|winspear-performance-hall-at-the-murchison-performing-art
+ s-center-denton|7-30-pm-2026-11-02@letsdoitdallas.com
+DTSTAMP:20261103T013000Z
+DTSTART:20261103T013000Z
+DTEND:20261103T043000Z
+SUMMARY:Concert Winds
+LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
+ · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=concert-winds%7Cwinspear-
+ performance-hall-at-the-murchison-performing-arts-center-denton%7C7-30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below. — More: https://letsd
+ oitdallas.com/venue/winspear-performance-hall-at-the-murchison-performing-
+ arts-c/
 END:VEVENT
 BEGIN:VEVENT
 UID:brass-band|winspear-performance-hall-at-the-murchison-performing-arts-c

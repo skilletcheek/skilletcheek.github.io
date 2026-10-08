@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:my-hero-academia-in-concert|majestic-theatre-dallas-dallas|7-30-pm-2026
- -10-07@letsdoitdallas.com
-DTSTAMP:20261008T003000Z
-DTSTART:20261008T003000Z
-DTEND:20261008T033000Z
-SUMMARY:My Hero Academia in Concert
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-07&e=my-hero-academia-in-conce
- rt%7Cmajestic-theatre-dallas-dallas%7C7-30-pm
-DESCRIPTION:Animation event via Ticketmaster. — More: https://letsdoitdal
- las.com/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:ryan-beatty-arms-over-armor-north-american-tour-26|majestic-theatre-dal
  las-dallas|8-00-pm-2026-10-08@letsdoitdallas.com
 DTSTAMP:20261009T010000Z
