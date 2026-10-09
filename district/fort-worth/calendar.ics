@@ -93,25 +93,6 @@ DESCRIPTION:The Masure Gallery is thrilled to present the solo photograp
  age which tran — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:national-multi-cultural-western-heritage-museum|the-national-multicultu
- ral-western-heritage-museum-2201-dottie-lynn-pkwy-suite-115-fort-worth-761
- 20-united-states|11-00-am-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261009T160000Z
-DTSTART:20261009T160000Z
-DTEND:20261009T190000Z
-SUMMARY:National Multi Cultural Western Heritage Museum
-LOCATION:The National Multicultural Western Heritage Museum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=national-multi-cultural-w
- estern-heritage-museum%7Cthe-national-multicultural-western-heritage-museu
- m-2201-dottie-lynn-pkwy-suite-115-fort-worth-76120-united-states%7C11-00-a
- m
-DESCRIPTION:The primary objective of the National Multicultural Western Her
- itage Museum and Hall of Fame is to offer the visitor a true and complete 
- historical perspective of the people and activities that built the unique 
- culture of the American West. The work of artists who documented the — M
- ore: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:blooms-beats-at-the-fort-worth-botanic-garden|fort-worth-botanic-garden
  -fort-worth|6-30-pm-8-30-pm-2026-10-09@letsdoitdallas.com
 DTSTAMP:20261009T233000Z
@@ -371,6 +352,25 @@ DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
  e\, and an informative self-guided walking tour. Each adventure consists o
  f a series of locations that you are guided to where you are required t 
  — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:national-multi-cultural-western-heritage-museum|the-national-multicultu
+ ral-western-heritage-museum-2201-dottie-lynn-pkwy-suite-115-fort-worth-761
+ 20-united-states|11-00-am-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T160000Z
+DTSTART:20261010T160000Z
+DTEND:20261010T190000Z
+SUMMARY:National Multi Cultural Western Heritage Museum
+LOCATION:The National Multicultural Western Heritage Museum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=national-multi-cultural-w
+ estern-heritage-museum%7Cthe-national-multicultural-western-heritage-museu
+ m-2201-dottie-lynn-pkwy-suite-115-fort-worth-76120-united-states%7C11-00-a
+ m
+DESCRIPTION:The primary objective of the National Multicultural Western Her
+ itage Museum and Hall of Fame is to offer the visitor a true and complete 
+ historical perspective of the people and activities that built the unique 
+ culture of the American West. The work of artists who documented the — M
+ ore: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
@@ -1691,6 +1691,22 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:tcu-horned-frogs-mens-basketball-vs-lindenwood-lions-mens-basketball|ed
+ -and-rae-schollmaier-arena-fort-worth|see-details-2026-11-02@letsdoitdalla
+ s.com
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:TCU Horned Frogs Mens Basketball vs. Lindenwood Lions Mens Basketba
+ ll
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=tcu-horned-frogs-mens-bas
+ ketball-vs-lindenwood-lions-mens-basketball%7Ced-and-rae-schollmaier-arena
+ -fort-worth%7Csee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-11-02@
  letsdoitdallas.com
 DTSTAMP:20261102T183000Z
@@ -1742,6 +1758,20 @@ URL:https://letsdoitdallas.com/?date=2026-11-05&e=tcu-horned-frogs-womens-s
  fort-worth%7C7-00-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-mens-basketball-vs-southern-jaguars-basketball|ed-and-
+ rae-schollmaier-arena-fort-worth|see-details-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:TCU Horned Frogs Mens Basketball vs. Southern Jaguars Basketball
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=tcu-horned-frogs-mens-bas
+ ketball-vs-southern-jaguars-basketball%7Ced-and-rae-schollmaier-arena-fort
+ -worth%7Csee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-

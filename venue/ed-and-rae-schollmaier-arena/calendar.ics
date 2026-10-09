@@ -88,4 +88,34 @@ URL:https://letsdoitdallas.com/?date=2026-11-01&e=tcu-horned-frogs-womens-v
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/ed-and-rae-schollmaier-arena/
 END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-mens-basketball-vs-lindenwood-lions-mens-basketball|ed
+ -and-rae-schollmaier-arena-fort-worth|see-details-2026-11-02@letsdoitdalla
+ s.com
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:TCU Horned Frogs Mens Basketball vs. Lindenwood Lions Mens Basketba
+ ll
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=tcu-horned-frogs-mens-bas
+ ketball-vs-lindenwood-lions-mens-basketball%7Ced-and-rae-schollmaier-arena
+ -fort-worth%7Csee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/ed-and-rae-schollmaier-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-mens-basketball-vs-southern-jaguars-basketball|ed-and-
+ rae-schollmaier-arena-fort-worth|see-details-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:TCU Horned Frogs Mens Basketball vs. Southern Jaguars Basketball
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=tcu-horned-frogs-mens-bas
+ ketball-vs-southern-jaguars-basketball%7Ced-and-rae-schollmaier-arena-fort
+ -worth%7Csee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/ed-and-rae-schollmaier-arena/
+END:VEVENT
 END:VCALENDAR

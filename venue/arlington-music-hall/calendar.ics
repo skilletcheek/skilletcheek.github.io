@@ -86,4 +86,30 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=mo-pitney%7Carlington-mus
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/arlington-music-hall/
 END:VEVENT
+BEGIN:VEVENT
+UID:tom-rush|arlington-music-hall-arlington|8-00-pm-2026-10-24@letsdoitdall
+ as.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:Tom Rush
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=tom-rush%7Carlington-musi
+ c-hall-arlington%7C8-00-pm
+DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:kinda-kinks-w-the-rubinoos|arlington-music-hall-arlington|7-30-pm-2026-
+ 10-28@letsdoitdallas.com
+DTSTAMP:20261029T003000Z
+DTSTART:20261029T003000Z
+DTEND:20261029T033000Z
+SUMMARY:Kinda Kinks w/ The Rubinoos
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=kinda-kinks-w-the-rubinoo
+ s%7Carlington-music-hall-arlington%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/arlington-music-hall/
+END:VEVENT
 END:VCALENDAR
