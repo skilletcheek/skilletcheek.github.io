@@ -107,4 +107,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=black-flag%7Cam-fm-dallas
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/am-fm-dallas/
 END:VEVENT
+BEGIN:VEVENT
+UID:moonshine-bandits|am-fm-dallas-dallas|7-00-pm-2026-11-06@letsdoitdallas
+ .com
+DTSTAMP:20261107T010000Z
+DTSTART:20261107T010000Z
+DTEND:20261107T040000Z
+SUMMARY:Moonshine Bandits
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=moonshine-bandits%7Cam-fm
+ -dallas-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/am-fm-dallas/
+END:VEVENT
 END:VCALENDAR

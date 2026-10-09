@@ -10,74 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gareth-pearson-welsh-tornado-at-poor-david-s|poor-david-s-pub-dallas|do
- ors-see-listing-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261008T000000Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
-SUMMARY:Gareth Pearson - Welsh Tornado at Poor David's
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=gareth-pearson-welsh-torn
- ado-at-poor-david-s%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261008T130000Z
-DTSTART:20261008T130000Z
-DTEND:20261008T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:joe-jordan-the-heart-sessions-tour|the-cambridge-room-at-house-of-blues
- -dallas|7-00-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261009T000000Z
-DTSTART:20261009T000000Z
-DTEND:20261009T030000Z
-SUMMARY:Joe Jordan - The Heart Sessions Tour
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=joe-jordan-the-heart-sess
- ions-tour%7Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:kxt-presents-suki-waterhouse-the-loveland-tour|south-side-ballroom-dall
- as|7-30-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261009T003000Z
-DTSTART:20261009T003000Z
-DTEND:20261009T033000Z
-SUMMARY:KXT Presents- Suki Waterhouse: The Loveland Tour
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=kxt-presents-suki-waterho
- use-the-loveland-tour%7Csouth-side-ballroom-dallas%7C7-30-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:ryan-beatty-arms-over-armor-north-american-tour-26|majestic-theatre-dal
- las-dallas|8-00-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261009T010000Z
-DTSTART:20261009T010000Z
-DTEND:20261009T040000Z
-SUMMARY:Ryan Beatty - Arms Over Armor North American Tour '26
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=ryan-beatty-arms-over-arm
- or-north-american-tour-26%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-10-09@letsdoitdallas.com
 DTSTAMP:20261009T130000Z
@@ -133,17 +65,20 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:joe-bryson-kitchen-sink-country|poor-david-s-pub-dallas|doors-see-listi
- ng-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261010T000000Z
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
-SUMMARY:Joe Bryson - Kitchen Sink Country
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=joe-bryson-kitchen-sink-c
- ountry%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T130000Z
+DTSTART:20261010T130000Z
+DTEND:20261010T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:akeem-ali-the-texture-tour|house-of-blues-dallas-dallas|7-00-pm-2026-10
@@ -237,15 +172,15 @@ DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:dallas-stars-vs-colorado-avalanche|american-airlines-center-dallas|7-30
- -pm-2026-10-13@letsdoitdallas.com
+UID:fifth-third-garage-dallas-stars-v-colorado-avalanche|american-airlines-
+ center-dallas|7-30-pm-2026-10-13@letsdoitdallas.com
 DTSTAMP:20261014T003000Z
 DTSTART:20261014T003000Z
 DTEND:20261014T033000Z
-SUMMARY:Dallas Stars vs. Colorado Avalanche
+SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Colorado Avalanche
 LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=dallas-stars-vs-colorado-
- avalanche%7Camerican-airlines-center-dallas%7C7-30-pm
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=fifth-third-garage-dallas
+ -stars-v-colorado-avalanche%7Camerican-airlines-center-dallas%7C7-30-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
 END:VEVENT
@@ -539,15 +474,15 @@ DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:dallas-stars-vs-boston-bruins|american-airlines-center-dallas|7-00-pm-2
- 026-10-20@letsdoitdallas.com
+UID:fifth-third-garage-dallas-stars-v-boston-bruins|american-airlines-cente
+ r-dallas|7-00-pm-2026-10-20@letsdoitdallas.com
 DTSTAMP:20261021T000000Z
 DTSTART:20261021T000000Z
 DTEND:20261021T030000Z
-SUMMARY:Dallas Stars vs. Boston Bruins
+SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Boston Bruins
 LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=dallas-stars-vs-boston-br
- uins%7Camerican-airlines-center-dallas%7C7-00-pm
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=fifth-third-garage-dallas
+ -stars-v-boston-bruins%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
 END:VEVENT
@@ -591,19 +526,6 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:dallas-stars-vs-winnipeg-jets|american-airlines-center-dallas|7-00-pm-2
- 026-10-22@letsdoitdallas.com
-DTSTAMP:20261023T000000Z
-DTSTART:20261023T000000Z
-DTEND:20261023T030000Z
-SUMMARY:Dallas Stars vs. Winnipeg Jets
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=dallas-stars-vs-winnipeg-
- jets%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:dan-shay-the-young-tour|dos-equis-pavilion-dallas|7-00-pm-2026-10-22@le
  tsdoitdallas.com
 DTSTAMP:20261023T000000Z
@@ -615,6 +537,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-22&e=dan-shay-the-young-tour%7
  Cdos-equis-pavilion-dallas%7C7-00-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:fifth-third-garage-dallas-stars-v-winnipeg-jets|american-airlines-cente
+ r-dallas|7-00-pm-2026-10-22@letsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART:20261023T000000Z
+DTEND:20261023T030000Z
+SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Winnipeg Jets
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=fifth-third-garage-dallas
+ -stars-v-winnipeg-jets%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:dante-gebel-world-tour-despedida-2026|majestic-theatre-dallas-dallas|8-
@@ -748,15 +683,15 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:dallas-stars-vs-new-york-islanders|american-airlines-center-dallas|5-00
- -pm-2026-10-25@letsdoitdallas.com
+UID:fifth-third-garage-dallas-stars-v-new-york-islanders|american-airlines-
+ center-dallas|5-00-pm-2026-10-25@letsdoitdallas.com
 DTSTAMP:20261025T220000Z
 DTSTART:20261025T220000Z
 DTEND:20261026T010000Z
-SUMMARY:Dallas Stars vs. New York Islanders
+SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v New York Islanders
 LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=dallas-stars-vs-new-york-
- islanders%7Camerican-airlines-center-dallas%7C5-00-pm
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=fifth-third-garage-dallas
+ -stars-v-new-york-islanders%7Camerican-airlines-center-dallas%7C5-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
 END:VEVENT
@@ -800,15 +735,15 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:dallas-stars-vs-new-jersey-devils|american-airlines-center-dallas|7-00-
- pm-2026-10-27@letsdoitdallas.com
+UID:fifth-third-garage-dallas-stars-v-new-jersey-devils|american-airlines-c
+ enter-dallas|7-00-pm-2026-10-27@letsdoitdallas.com
 DTSTAMP:20261028T000000Z
 DTSTART:20261028T000000Z
 DTEND:20261028T030000Z
-SUMMARY:Dallas Stars vs. New Jersey Devils
+SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v New Jersey Devils
 LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=dallas-stars-vs-new-jerse
- y-devils%7Camerican-airlines-center-dallas%7C7-00-pm
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=fifth-third-garage-dallas
+ -stars-v-new-jersey-devils%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
 END:VEVENT
@@ -904,15 +839,15 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:dallas-stars-vs-montreal-canadiens|american-airlines-center-dallas|7-00
- -pm-2026-10-29@letsdoitdallas.com
+UID:fifth-third-garage-dallas-stars-v-montreal-canadiens|american-airlines-
+ center-dallas|7-00-pm-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261030T000000Z
 DTSTART:20261030T000000Z
 DTEND:20261030T030000Z
-SUMMARY:Dallas Stars vs. Montreal Canadiens
+SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Montreal Canadiens
 LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=dallas-stars-vs-montreal-
- canadiens%7Camerican-airlines-center-dallas%7C7-00-pm
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=fifth-third-garage-dallas
+ -stars-v-montreal-canadiens%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
 END:VEVENT
@@ -1021,19 +956,6 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:dallas-stars-vs-columbus-blue-jackets|american-airlines-center-dallas|7
- -00-pm-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261101T000000Z
-DTEND:20261101T030000Z
-SUMMARY:Dallas Stars vs. Columbus Blue Jackets
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=dallas-stars-vs-columbus-
- blue-jackets%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:edgar-alejandro|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-202
  6-10-31@letsdoitdallas.com
 DTSTAMP:20261101T000000Z
@@ -1045,6 +967,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=edgar-alejandro%7Cthe-cam
  bridge-room-at-house-of-blues-dallas%7C7-00-pm
 DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:fifth-third-garage-dallas-stars-v-columbus-blue-jackets|american-airlin
+ es-center-dallas|7-00-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T000000Z
+DTEND:20261101T030000Z
+SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Columbus Blue Jackets
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=fifth-third-garage-dallas
+ -stars-v-columbus-blue-jackets%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:little-big-town-for-the-art-of-it-tour|music-hall-at-fair-park-dallas|7
@@ -1268,6 +1203,85 @@ DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:dallas-mavericks-vs-utah-jazz|american-airlines-center-dallas|7-00-pm-2
+ 026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T010000Z
+DTSTART:20261107T010000Z
+DTEND:20261107T040000Z
+SUMMARY:Dallas Mavericks vs. Utah Jazz
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=dallas-mavericks-vs-utah-
+ jazz%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:sabaton-legends-on-tour|south-side-ballroom-dallas|7-00-pm-2026-11-06@l
+ etsdoitdallas.com
+DTSTAMP:20261107T010000Z
+DTSTART:20261107T010000Z
+DTEND:20261107T040000Z
+SUMMARY:Sabaton: Legends on Tour
+LOCATION:South Side Ballroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=sabaton-legends-on-tour%7
+ Csouth-side-ballroom-dallas%7C7-00-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:stella-lefty-lefty-live|the-cambridge-room-at-house-of-blues-dallas|7-0
+ 0-pm-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T010000Z
+DTSTART:20261107T010000Z
+DTEND:20261107T040000Z
+SUMMARY:Stella Lefty: Lefty Live
+LOCATION:The Cambridge Room at House Of Blues · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=stella-lefty-lefty-live%7
+ Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:ub40-the-unstoppable-tour|house-of-blues-dallas-dallas|7-00-pm-2026-11-
+ 06@letsdoitdallas.com
+DTSTAMP:20261107T010000Z
+DTSTART:20261107T010000Z
+DTEND:20261107T040000Z
+SUMMARY:UB40 - The Unstoppable Tour
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=ub40-the-unstoppable-tour
+ %7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Reggae event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:an-evening-with-david-sedaris-presented-by-arts-letters-live-|majestic-
+ theatre-dallas-dallas|7-30-pm-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T013000Z
+DTSTART:20261107T013000Z
+DTEND:20261107T043000Z
+SUMMARY:An Evening with David Sedaris presented by Arts & Letters Live \,
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=an-evening-with-david-sed
+ aris-presented-by-arts-letters-live-%7Cmajestic-theatre-dallas-dallas%7C7-
+ 30-pm
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
+ -2026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T013000Z
+DTSTART:20261107T013000Z
+DTEND:20261107T043000Z
+SUMMARY:Buena Vista Social Club (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=buena-vista-social-club-t
+ ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:alexandra-w-katy-day|poor-david-s-pub-dallas|doors-see-listing-2026-11-
  07@letsdoitdallas.com
 DTSTAMP:20261107T000000Z
@@ -1277,6 +1291,32 @@ SUMMARY:ALEXANDRA w /  Katy Day
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-07&e=alexandra-w-katy-day%7Cpo
  or-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|1-30-pm
+ -2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T193000Z
+DTSTART:20261107T193000Z
+DTEND:20261107T223000Z
+SUMMARY:Buena Vista Social Club (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=buena-vista-social-club-t
+ ouring-%7Cmusic-hall-at-fair-park-dallas%7C1-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:open-band-jam-w-poor-david-s-house-band|poor-david-s-pub-dallas|doors-s
+ ee-listing-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Open Band Jam w /  Poor David's House Band
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=open-band-jam-w-poor-davi
+ d-s-house-band%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
 END:VEVENT

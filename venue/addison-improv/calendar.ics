@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:manuel-ngel-redondo-en-espa-ol-|addison-improv-addison|7-30-pm-2026-10-
- 08@letsdoitdallas.com
-DTSTAMP:20261009T003000Z
-DTSTART:20261009T003000Z
-DTEND:20261009T033000Z
-SUMMARY:Manuel Ángel Redondo (En Español)
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=manuel-ngel-redondo-en-es
- pa-ol-%7Caddison-improv-addison%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:michael-yo|addison-improv-addison|7-30-pm-2026-10-09@letsdoitdallas.com
 DTSTAMP:20261010T003000Z
 DTSTART:20261010T003000Z
@@ -310,6 +297,32 @@ SUMMARY:Mark Paul
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-11-04&e=mark-paul%7Caddison-impro
  v-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:sahib-singh|addison-improv-addison|7-30-pm-2026-11-06@letsdoitdallas.co
+ m
+DTSTAMP:20261107T013000Z
+DTSTART:20261107T013000Z
+DTEND:20261107T043000Z
+SUMMARY:Sahib Singh
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=sahib-singh%7Caddison-imp
+ rov-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:sahib-singh|addison-improv-addison|9-45-pm-2026-11-06@letsdoitdallas.co
+ m
+DTSTAMP:20261107T034500Z
+DTSTART:20261107T034500Z
+DTEND:20261107T064500Z
+SUMMARY:Sahib Singh
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=sahib-singh%7Caddison-imp
+ rov-addison%7C9-45-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
 END:VEVENT

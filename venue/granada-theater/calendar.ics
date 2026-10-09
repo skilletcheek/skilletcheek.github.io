@@ -115,18 +115,17 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:book-of-love-with-special-guest-lord-byron|granada-theater-lower-greenv
- ille-dallas|doors-see-listing-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Book of Love with special guest Lord Byron
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=book-of-love-with-special
- -guest-lord-byron%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-li
- sting
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
+UID:book-of-love|granada-theater-dallas-dallas|8-00-pm-2026-10-23@letsdoitd
+ allas.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Book of Love
+LOCATION:Granada Theater - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=book-of-love%7Cgranada-th
+ eater-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:rock-the-club|granada-theater-lower-greenville-dallas|doors-see-listing

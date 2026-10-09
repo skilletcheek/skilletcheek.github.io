@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:hvdes-ages-18-|silo-dallas|9-00-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261009T020000Z
-DTSTART:20261009T020000Z
-DTEND:20261009T050000Z
-SUMMARY:HVDES - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=hvdes-ages-18-%7Csilo-dal
- las%7C9-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:steve-angello-ages-18-|silo-dallas|9-00-pm-2026-10-09@letsdoitdallas.co
  m
 DTSTAMP:20261010T020000Z
@@ -204,5 +192,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-01&e=pan-pot-21-and-over-%7Csi
  lo-dallas%7C7-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:eric-prydz-ages-18-|silo-dallas|9-00-pm-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T030000Z
+DTSTART:20261107T030000Z
+DTEND:20261107T060000Z
+SUMMARY:ERIC PRYDZ - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=eric-prydz-ages-18-%7Csil
+ o-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/silo/
 END:VEVENT
 END:VCALENDAR

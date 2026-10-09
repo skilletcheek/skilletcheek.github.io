@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DATCU Stadium — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at DATCU Stadium.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:north-texas-mean-green-football-vs-unc-charlotte-49ers-football|datcu-s
+ tadium-denton|see-details-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:North Texas Mean Green Football vs. UNC Charlotte 49ers Football
+LOCATION:DATCU Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=north-texas-mean-green-fo
+ otball-vs-unc-charlotte-49ers-football%7Cdatcu-stadium-denton%7Csee-detail
+ s
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/datcu-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-football-vs-florida-atlantic-owls-football|datcu
+ -stadium-denton|see-details-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:North Texas Mean Green Football vs. Florida Atlantic Owls Football
+LOCATION:DATCU Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=north-texas-mean-green-fo
+ otball-vs-florida-atlantic-owls-football%7Cdatcu-stadium-denton%7Csee-deta
+ ils
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/datcu-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-football-vs-rice-owls-football|datcu-stadium-den
+ ton|see-details-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:North Texas Mean Green Football vs. Rice Owls Football
+LOCATION:DATCU Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=north-texas-mean-green-fo
+ otball-vs-rice-owls-football%7Cdatcu-stadium-denton%7Csee-details
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/datcu-stadium/
+END:VEVENT
+END:VCALENDAR

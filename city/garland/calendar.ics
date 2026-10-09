@@ -9,84 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
- |04-00-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261008T210000Z
-DTSTART:20261008T210000Z
-DTEND:20261009T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=teenz-place-after-school-
- hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
-DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
- eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
-  snacks while supplies last. Bring your friends! October 8\, 2026 04:00 PM
-  - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx. 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-college-information-session-for-working-adults|south-garland-lib
- rary-garland|06-00-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261008T230000Z
-DTSTART:20261008T230000Z
-DTEND:20261009T020000Z
-SUMMARY:Dallas College Information Session for Working Adults
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=dallas-college-informatio
- n-session-for-working-adults%7Csouth-garland-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Are you an adult thinking about starting college or
-  going back to finish your degree? Have you gained skills and knowledge th
- rough work or other experiences? Learn more about Dallas College\, our pro
- grams to support working adults\, the application process\, and its new B 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:free-medicare-education-class-ages-18-|north-garland-library-garland|06
- -00-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261008T230000Z
-DTSTART:20261008T230000Z
-DTEND:20261009T020000Z
-SUMMARY:Free Medicare Education Class (Ages 18+)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=free-medicare-education-c
- lass-ages-18-%7Cnorth-garland-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Get clear\, reliable guidance on Medicare in this i
- nformative one-hour session led by Benefit Advisor Anishalin Helms. Learn 
- the essentials — from understanding Medicare and its parts to knowing wh
- en and how to enroll. The class also covers plan options\, prescription dr
-  — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:celebrities-about-town-a-memoir-book-club-ages-18-at-lakewood-brewing-c
- ompany|2302-executive-drive-garland|06-30-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261008T233000Z
-DTSTART:20261008T233000Z
-DTEND:20261009T023000Z
-SUMMARY:Celebrities About Town: A Memoir Book Club (Ages 18+) at Lakewood B
- rewing Company
-LOCATION:2302 Executive Drive · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=celebrities-about-town-a-
- memoir-book-club-ages-18-at-lakewood-brewing-company%7C2302-executive-driv
- e-garland%7C06-30-pm
-DESCRIPTION:6:30 p.m.\; Step into the shoes of your favorite celebs and mee
- t other readers as we spotlight a new memoir each month. Whether we’re d
- elving into the lives of musicians\, actors\, athletes or royalty ― it
- ’s sure to be a fun and star-powered conversation! Food and drinks (both
-  alcoh — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:beetlejuice-jr-presented-by-breitling-performing-arts|521-w-state-stree
- t-garland|07-00-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261009T000000Z
-DTSTART:20261009T000000Z
-DTEND:20261009T030000Z
-SUMMARY:Beetlejuice Jr. presented by Breitling Performing Arts
-LOCATION:521 W State Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=beetlejuice-jr-presented-
- by-breitling-performing-arts%7C521-w-state-street-garland%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:silent-book-club-ages-18-|central-library-garland|06-00-pm-2026-10-09@l
  etsdoitdallas.com
 DTSTAMP:20261009T230000Z
@@ -113,19 +35,6 @@ LOCATION:300 N Fifth Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-10-09&e=anything-goes-presented-b
  y-garland-civic-theatre%7C300-n-fifth-street-garland%7C07-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:mijares|curtis-culwell-center-garland|8-00-pm-2026-10-09@letsdoitdallas
- .com
-DTSTAMP:20261010T010000Z
-DTSTART:20261010T010000Z
-DTEND:20261010T040000Z
-SUMMARY:Mijares
-LOCATION:Curtis Culwell Center · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=mijares%7Ccurtis-culwell-
- center-garland%7C8-00-pm
-DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
- com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:fire-safety-week|west-garland-library-garland|10-00-am-2026-10-10@letsd
@@ -1258,6 +1167,145 @@ SUMMARY:Laksh Maheshwari Live in Dallas: Khushiyan
 LOCATION:521 W State Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-10-22&e=laksh-maheshwari-live-in-
  dallas-khushiyan%7C521-w-state-street-garland%7C07-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a
+ m-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T150000Z
+DTSTART:20261023T150000Z
+DTEND:20261023T180000Z
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=baby-bounce-read-birth-18
+ -months-%7Csouth-garland-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
+  will learn\, play\, and grow together in this lap-sit storytime that intr
+ oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
+ y literacy practices into their everyday lives. October 23\, 2026 10:00 AM
+  - 1 — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:basic-computer-practice-ages-18-|central-library-garland|10-00-am-2026-
+ 10-23@letsdoitdallas.com
+DTSTAMP:20261023T150000Z
+DTSTART:20261023T150000Z
+DTEND:20261023T180000Z
+SUMMARY:Basic Computer Practice (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=basic-computer-practice-a
+ ges-18-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Get basic computer practice every Friday morning. 
+ Learn the coordination skills needed to use a computer independently with 
+ confidence. Technology accessories like the mouse and keyboard take time a
+ nd practice to master\; that’s why our computer classes are held almost 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-18-36-months-|north-garland-library-garland|10-00-am-2026-
+ 10-23@letsdoitdallas.com
+DTSTAMP:20261023T150000Z
+DTSTART:20261023T150000Z
+DTEND:20261023T180000Z
+SUMMARY:Toddler Time (18-36 Months)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=toddler-time-18-36-months
+ -%7Cnorth-garland-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Toddler Time is a storytime for children ages 18 m
+ onths to 3 years old. Toddler Time storytimes will be a mixture of age app
+ ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
+ rachute play. October 23\, 2026 10:00 AM - 11:00 AM 3845 N. Garland Ave.Ga
+ rl — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-bounce-read-birth-18-months-|west-garland-library-garland|10-30-am
+ -2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T153000Z
+DTSTART:20261023T153000Z
+DTEND:20261023T183000Z
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=baby-bounce-read-birth-18
+ -months-%7Cwest-garland-library-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; Babies\, birth to 18 months\, and their caregivers
+  will learn\, play\, and grow together in this lap-sit storytime that intr
+ oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
+ y literacy practices into their everyday lives. October 23\, 2026 10:30 AM
+  - 1 — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-discovery-3-5-years-|north-garland-library-garland|11-00-am-2
+ 026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T160000Z
+DTSTART:20261023T160000Z
+DTEND:20261023T190000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=preschool-discovery-3-5-y
+ ears-%7Cnorth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
+ ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
+ ters\, numbers\, and much more that will help develop your preschooler's e
+ arly literacy skills. October 23\, 2026 11:00 AM - 12:00 PM 3845 N. Garlan
+ d — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-18-36-months-|south-garland-library-garland|11-00-am-2026-
+ 10-23@letsdoitdallas.com
+DTSTAMP:20261023T160000Z
+DTSTART:20261023T160000Z
+DTEND:20261023T190000Z
+SUMMARY:Toddler Time (18-36 Months)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=toddler-time-18-36-months
+ -%7Csouth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Toddler Time is a storytime for children ages 18 m
+ onths to 3 years old. Toddler Time storytimes will be a mixture of age app
+ ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
+ rachute play. October 23\, 2026 11:00 AM - 12:00 PM 4845 Broadway Blvd.Gar
+ la — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:homeschool-libratory-sewer-drain-engineering-challenge|west-garland-lib
+ rary-garland|01-00-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T180000Z
+DTSTART:20261023T180000Z
+DTEND:20261023T210000Z
+SUMMARY:Homeschool Libratory: Sewer Drain Engineering Challenge
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=homeschool-libratory-sewe
+ r-drain-engineering-challenge%7Cwest-garland-library-garland%7C01-00-pm
+DESCRIPTION:1:00 p.m.\; Drop in for an afternoon of exploring hands-on STEA
+ M activities with your fellow homeschoolers each month! Share your latest 
+ discoveries\, books you’ve read and more while having fun and making fri
+ ends. Families who are considering homeschooling are also welcome! Octobe 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:anything-goes-presented-by-garland-civic-theatre|300-n-fifth-street-gar
+ land|07-30-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261024T003000Z
+DTSTART:20261024T003000Z
+DTEND:20261024T033000Z
+SUMMARY:Anything Goes presented by Garland Civic Theatre
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=anything-goes-presented-b
+ y-garland-civic-theatre%7C300-n-fifth-street-garland%7C07-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-days-that-made-america-tour-with-lindsay-graham-presented-by-garla
+ nd-cultural-arts|521-w-state-street-garland|08-00-pm-2026-10-23@letsdoitda
+ llas.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:'The Days That Made America Tour' with Lindsay Graham presented by 
+ Garland Cultural Arts
+LOCATION:521 W State Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=-the-days-that-made-ameri
+ ca-tour-with-lindsay-graham-presented-by-garland-cultural-arts%7C521-w-sta
+ te-street-garland%7C08-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT

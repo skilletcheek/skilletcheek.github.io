@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jack-blocker|three-links-deep-ellum-dallas|8-00-am-2026-10-08@letsdoitd
- allas.com
-DTSTAMP:20261008T130000Z
-DTSTART:20261008T130000Z
-DTEND:20261008T160000Z
-SUMMARY:Jack Blocker
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=jack-blocker%7Cthree-link
- s-deep-ellum-dallas%7C8-00-am
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:wildhearts-right-behind-you-kill-your-tv|three-links-deep-ellum-dallas|
  8-00-pm-2026-10-09@letsdoitdallas.com
 DTSTAMP:20261010T010000Z
@@ -345,5 +332,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-04&e=daring-greatly%7Cthree-li
  nks-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:sparkbird-wrongbird|three-links-deep-ellum-dallas|7-00-pm-2026-11-06@le
+ tsdoitdallas.com
+DTSTAMP:20261107T010000Z
+DTSTART:20261107T010000Z
+DTEND:20261107T040000Z
+SUMMARY:Sparkbird\, Wrongbird
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=sparkbird-wrongbird%7Cthr
+ ee-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

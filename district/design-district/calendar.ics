@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mar-solis|the-echo-lounge-music-hall-dallas|7-00-pm-2026-10-08@letsdoit
- dallas.com
-DTSTAMP:20261009T000000Z
-DTSTART:20261009T000000Z
-DTEND:20261009T030000Z
-SUMMARY:Mar Solis
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=mar-solis%7Cthe-echo-loun
- ge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:hvdes-ages-18-|silo-dallas|9-00-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261009T020000Z
-DTSTART:20261009T020000Z
-DTEND:20261009T050000Z
-SUMMARY:HVDES - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=hvdes-ages-18-%7Csilo-dal
- las%7C9-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:claire-rosinkranz-my-lover-tour|the-echo-lounge-music-hall-dallas|7-00-
  pm-2026-10-09@letsdoitdallas.com
 DTSTAMP:20261010T000000Z
@@ -554,5 +529,43 @@ URL:https://letsdoitdallas.com/?date=2026-11-03&e=slow-pulp%7Cthe-echo-loun
  ge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:grateful-shred|the-echo-lounge-music-hall-dallas|7-00-pm-2026-11-06@let
+ sdoitdallas.com
+DTSTAMP:20261107T010000Z
+DTSTART:20261107T010000Z
+DTEND:20261107T040000Z
+SUMMARY:Grateful Shred
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=grateful-shred%7Cthe-echo
+ -lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:moonshine-bandits|am-fm-dallas-dallas|7-00-pm-2026-11-06@letsdoitdallas
+ .com
+DTSTAMP:20261107T010000Z
+DTSTART:20261107T010000Z
+DTEND:20261107T040000Z
+SUMMARY:Moonshine Bandits
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=moonshine-bandits%7Cam-fm
+ -dallas-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:eric-prydz-ages-18-|silo-dallas|9-00-pm-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T030000Z
+DTSTART:20261107T030000Z
+DTEND:20261107T060000Z
+SUMMARY:ERIC PRYDZ - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=eric-prydz-ages-18-%7Csil
+ o-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
 END:VEVENT
 END:VCALENDAR

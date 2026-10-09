@@ -10,34 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:virtual-author-talk-with-carolyn-russo|grapevine|01-00-pm-2026-10-08@le
- tsdoitdallas.com
-DTSTAMP:20261008T180000Z
-DTSTART:20261008T180000Z
-DTEND:20261008T210000Z
-SUMMARY:Virtual Author Talk with Carolyn Russo
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=virtual-author-talk-with-
- carolyn-russo%7Cgrapevine%7C01-00-pm
-DESCRIPTION:Join us for a captivating online conversation with acclaimed au
- thor and Smithsonian curator Carolyn Russo as we dive into her fascinating
-  book\, The Ascent of Rauschenberg. Explore the towering legacy\, unexpect
- ed inspirations\, and creative heights of one of America's most influent 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:kids-crochet-club-ages-7-12-|grapevine|04-30-pm-2026-10-08@letsdoitdall
- as.com
-DTSTAMP:20261008T213000Z
-DTSTART:20261008T213000Z
-DTEND:20261009T003000Z
-SUMMARY:Kids Crochet Club (ages 7-12)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=kids-crochet-club-ages-7-
- 12-%7Cgrapevine%7C04-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
  e-tx-76051-united-states|8-00-am-2026-10-09@letsdoitdallas.com
 DTSTAMP:20261009T130000Z
@@ -169,6 +141,23 @@ URL:https://letsdoitdallas.com/?date=2026-10-09&e=day-out-with-thomas-tm-%7
  30-pm
 DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
  sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
+ e-tx-76051-united-states|8-00-am-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T130000Z
+DTSTART:20261010T130000Z
+DTEND:20261010T160000Z
+SUMMARY:Phenomenomaly at Meow Wolf
+LOCATION:Meow Wolf · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=phenomenomaly-at-meow-wol
+ f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
+ C8-00-am
+DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
+  live immersive performance series inside The Real Unreal. Blending intera
+ ctive theater with a rotating lineup of North Texas talent\, the experienc
+ e unfolds around guests as they explore\, featuring music\, dance\, comedy
+ \, — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
@@ -1387,5 +1376,65 @@ DESCRIPTION:Bring your Art/ Junk Journal and collage with us. We have some
  t uniquely yours. (18+) October 22\, 2026 06:00 PM - 07:30 PM Grapevine\, 
  TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17359/6391546 
  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-studio-18-|grapevine|10-00-am-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T150000Z
+DTSTART:20261023T150000Z
+DTEND:20261023T180000Z
+SUMMARY:Art Studio (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=art-studio-18-%7Cgrapevin
+ e%7C10-00-am
+DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
+ our own projects or start something new. Bring your own project and ideas!
+  This is a welcoming space for creatives 18+. *Library Card Required* Octo
+ ber 23\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grapev 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:bouncing-babies|grapevine|10-30-am-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T153000Z
+DTSTART:20261023T153000Z
+DTEND:20261023T183000Z
+SUMMARY:Bouncing Babies
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=bouncing-babies%7Cgrapevi
+ ne%7C10-30-am
+DESCRIPTION:Bouncing Babies is a program for babies from birth to 18 months
+ . It includes songs\, bounces\, parachute\, as well as a social time for c
+ aregivers. No registration needed. October 23\, 2026 10:30 AM - 11:00 AM G
+ rapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17730
+  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:mahjong-open-play|grapevine|12-30-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T173000Z
+DTSTART:20261023T173000Z
+DTEND:20261023T203000Z
+SUMMARY:Mahjong: Open Play
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=mahjong-open-play%7Cgrape
+ vine%7C12-30-pm
+DESCRIPTION:Open Play Fridays 12:30-4:30. Tables available on a first come 
+ first serve basis\, Space is Limited. Players\, please bring your own card
+ s and bags. Ages 18 and up. October 23\, 2026 12:30 PM - 04:30 PM Grapevin
+ e\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17591/63920 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:bouncing-babies|grapevine|01-30-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T183000Z
+DTSTART:20261023T183000Z
+DTEND:20261023T213000Z
+SUMMARY:Bouncing Babies
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=bouncing-babies%7Cgrapevi
+ ne%7C01-30-pm
+DESCRIPTION:Bouncing Babies is a program for babies from birth to 18 months
+ . It includes songs\, bounces\, parachute\, as well as a social time for c
+ aregivers. No registration needed. October 23\, 2026 01:30 PM - 02:00 PM G
+ rapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17739
+  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 END:VCALENDAR

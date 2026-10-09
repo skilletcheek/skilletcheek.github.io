@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ryan-beatty-arms-over-armor-north-american-tour-26|majestic-theatre-dal
- las-dallas|8-00-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261009T010000Z
-DTSTART:20261009T010000Z
-DTEND:20261009T040000Z
-SUMMARY:Ryan Beatty - Arms Over Armor North American Tour '26
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=ryan-beatty-arms-over-arm
- or-north-american-tour-26%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:an-evening-with-celtic-thunder-2026-celebrate-your-favorite-songs|majes
  tic-theatre-dallas-dallas|8-00-pm-2026-10-14@letsdoitdallas.com
 DTSTAMP:20261015T010000Z
@@ -164,5 +151,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-04&e=jim-henson-s-labyrinth-in
  -concert%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
 DESCRIPTION:Family event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:an-evening-with-david-sedaris-presented-by-arts-letters-live-|majestic-
+ theatre-dallas-dallas|7-30-pm-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T013000Z
+DTSTART:20261107T013000Z
+DTEND:20261107T043000Z
+SUMMARY:An Evening with David Sedaris presented by Arts & Letters Live \,
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=an-evening-with-david-sed
+ aris-presented-by-arts-letters-live-%7Cmajestic-theatre-dallas-dallas%7C7-
+ 30-pm
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/majestic-theatre-dallas/
 END:VEVENT
 END:VCALENDAR

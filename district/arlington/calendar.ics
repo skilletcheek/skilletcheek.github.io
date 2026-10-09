@@ -10,46 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-vs-tampa-bay|texas-live-1650-east-randol-mill-road-arlington-760
- 11-united-states|7-00-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261009T000000Z
-DTSTART:20261009T000000Z
-DTEND:20261009T030000Z
-SUMMARY:Dallas vs Tampa Bay
-LOCATION:Texas Live! · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=dallas-vs-tampa-bay%7Ctex
- as-live-1650-east-randol-mill-road-arlington-76011-united-states%7C7-00-pm
-DESCRIPTION:The 2026 Dallas football season is coming—reserve your table 
- now for the ultimate game day experience. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-cowboys-vs-tampa-bay-buccaneers|at-t-stadium-arlington|7-15-pm-2
- 026-10-08@letsdoitdallas.com
-DTSTAMP:20261009T001500Z
-DTSTART:20261009T001500Z
-DTEND:20261009T031500Z
-SUMMARY:Dallas Cowboys vs. Tampa Bay Buccaneers
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=dallas-cowboys-vs-tampa-b
- ay-buccaneers%7Cat-t-stadium-arlington%7C7-15-pm
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:john-l-brown|arlington-improv-arlington|7-30-pm-2026-10-08@letsdoitdall
- as.com
-DTSTAMP:20261009T003000Z
-DTSTART:20261009T003000Z
-DTEND:20261009T033000Z
-SUMMARY:John L. Brown
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=john-l-brown%7Carlington-
- improv-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:zainab-johnson|arlington-improv-arlington|7-00-pm-2026-10-09@letsdoitda
  llas.com
 DTSTAMP:20261010T000000Z
@@ -61,6 +21,20 @@ URL:https://letsdoitdallas.com/?date=2026-10-09&e=zainab-johnson%7Carlingto
  n-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:en-vivo-grupo-exterminador|texas-live-1650-east-randol-mill-road-arling
+ ton-76011-united-states|8-00-pm-2026-10-09@letsdoitdallas.com
+DTSTAMP:20261010T010000Z
+DTSTART:20261010T010000Z
+DTEND:20261010T040000Z
+SUMMARY:En Vivo: Grupo Exterminador
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-09&e=en-vivo-grupo-exterminado
+ r%7Ctexas-live-1650-east-randol-mill-road-arlington-76011-united-states%7C
+ 8-00-pm
+DESCRIPTION:Coors Light En Vivo Concert Series Presents Grupo Exterminador
+ ! — More: https://letsdoitdallas.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:zainab-johnson|arlington-improv-arlington|9-30-pm-2026-10-09@letsdoitda
@@ -753,6 +727,19 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:mohammed-assaf|texas-hall-arlington-arlington|8-00-pm-2026-10-23@letsdo
+ itdallas.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Mohammed Assaf
+LOCATION:Texas Hall - Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=mohammed-assaf%7Ctexas-ha
+ ll-arlington-arlington%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-ratt-packs-of-comedy-tour|arlington-improv-arlington|9-45-pm-2026-1
  0-23@letsdoitdallas.com
 DTSTAMP:20261024T024500Z
@@ -942,6 +929,32 @@ SUMMARY:Shuler King
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-11-05&e=shuler-king%7Carlington-i
  mprov-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:shuler-king|arlington-improv-arlington|7-30-pm-2026-11-06@letsdoitdalla
+ s.com
+DTSTAMP:20261107T013000Z
+DTSTART:20261107T013000Z
+DTEND:20261107T043000Z
+SUMMARY:Shuler King
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=shuler-king%7Carlington-i
+ mprov-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:shuler-king|arlington-improv-arlington|9-45-pm-2026-11-06@letsdoitdalla
+ s.com
+DTSTAMP:20261107T034500Z
+DTSTART:20261107T034500Z
+DTEND:20261107T064500Z
+SUMMARY:Shuler King
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=shuler-king%7Carlington-i
+ mprov-arlington%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT

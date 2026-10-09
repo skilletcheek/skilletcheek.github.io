@@ -36,6 +36,19 @@ DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
+UID:oscar-quesada-art-exhibition|the-kessler-theater-oak-cliff-dallas|doors
+ -see-listing-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Oscar Quesada Art Exhibition
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=oscar-quesada-art-exhibit
+ ion%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
 UID:maddie-zahm-w-molly-grace|the-kessler-dallas|8-00-pm-2026-10-16@letsdoi
  tdallas.com
 DTSTAMP:20261017T010000Z
@@ -188,18 +201,17 @@ DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:paula-cole-this-fire-30-with-special-guest-rett-madison|the-kessler-the
- ater-oak-cliff-dallas|doors-see-listing-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:Paula Cole THIS FIRE: 30 with special guest Rett Madison
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=paula-cole-this-fire-30-w
- ith-special-guest-rett-madison%7Cthe-kessler-theater-oak-cliff-dallas%7Cdo
- ors-see-listing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/venue/the-kessler-theater/
+UID:paula-cole-w-rett-madison|the-kessler-dallas|8-00-pm-2026-11-06@letsdoi
+ tdallas.com
+DTSTAMP:20261107T020000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+SUMMARY:Paula Cole w/ Rett Madison
+LOCATION:The Kessler · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=paula-cole-w-rett-madison
+ %7Cthe-kessler-dallas%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-army-the-navy|the-kessler-theater-oak-cliff-dallas|doors-see-listin
@@ -211,6 +223,20 @@ SUMMARY:The Army\, The Navy
 LOCATION:The Kessler Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-07&e=the-army-the-navy%7Cthe-k
  essler-theater-oak-cliff-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:an-evening-with-andrew-mcmahon-and-his-piano|the-kessler-theater-oak-cl
+ iff-dallas|doors-see-listing-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:An evening with Andrew McMahon and his piano
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=an-evening-with-andrew-mc
+ mahon-and-his-piano%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-lis
+ ting
 DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT

@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-college-information-session-for-working-adults|south-garland-lib
- rary-garland|06-00-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261008T230000Z
-DTSTART:20261008T230000Z
-DTEND:20261009T020000Z
-SUMMARY:Dallas College Information Session for Working Adults
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=dallas-college-informatio
- n-session-for-working-adults%7Csouth-garland-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Are you an adult thinking about starting college or
-  going back to finish your degree? Have you gained skills and knowledge th
- rough work or other experiences? Learn more about Dallas College\, our pro
- grams to support working adults\, the application process\, and its new B 
- — More: https://letsdoitdallas.com/venue/south-garland-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:preschool-discovery-3-5-years-|south-garland-library-garland|11-00-am-2
  026-10-14@letsdoitdallas.com
 DTSTAMP:20261014T160000Z
@@ -233,5 +217,37 @@ DESCRIPTION:5:30 p.m.\; Enjoy classic and modern games designed to bring fa
  t other families in your community. Games will be available in English and
   Spanish. No registration required. Space is limited. Children 13 and y 
  — More: https://letsdoitdallas.com/venue/south-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a
+ m-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T150000Z
+DTSTART:20261023T150000Z
+DTEND:20261023T180000Z
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=baby-bounce-read-birth-18
+ -months-%7Csouth-garland-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
+  will learn\, play\, and grow together in this lap-sit storytime that intr
+ oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
+ y literacy practices into their everyday lives. October 23\, 2026 10:00 AM
+  - 1 — More: https://letsdoitdallas.com/venue/south-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-18-36-months-|south-garland-library-garland|11-00-am-2026-
+ 10-23@letsdoitdallas.com
+DTSTAMP:20261023T160000Z
+DTSTART:20261023T160000Z
+DTEND:20261023T190000Z
+SUMMARY:Toddler Time (18-36 Months)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=toddler-time-18-36-months
+ -%7Csouth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Toddler Time is a storytime for children ages 18 m
+ onths to 3 years old. Toddler Time storytimes will be a mixture of age app
+ ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
+ rachute play. October 23\, 2026 11:00 AM - 12:00 PM 4845 Broadway Blvd.Gar
+ la — More: https://letsdoitdallas.com/venue/south-garland-library/
 END:VEVENT
 END:VCALENDAR

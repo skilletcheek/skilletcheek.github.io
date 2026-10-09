@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-cowboys-vs-tampa-bay-buccaneers|at-t-stadium-arlington|7-15-pm-2
- 026-10-08@letsdoitdallas.com
-DTSTAMP:20261009T001500Z
-DTSTART:20261009T001500Z
-DTEND:20261009T031500Z
-SUMMARY:Dallas Cowboys vs. Tampa Bay Buccaneers
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=dallas-cowboys-vs-tampa-b
- ay-buccaneers%7Cat-t-stadium-arlington%7C7-15-pm
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
 UID:2819-access|at-t-stadium-arlington|7-00-pm-2026-10-10@letsdoitdallas.co
  m
 DTSTAMP:20261011T000000Z

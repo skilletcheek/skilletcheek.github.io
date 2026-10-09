@@ -10,44 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dark-and-darker-a-dark-comedy-show|punch-line-irving-irving|7-30-pm-202
- 6-10-08@letsdoitdallas.com
-DTSTAMP:20261009T003000Z
-DTSTART:20261009T003000Z
-DTEND:20261009T033000Z
-SUMMARY:Dark and Darker: A Dark Comedy Show
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=dark-and-darker-a-dark-co
- medy-show%7Cpunch-line-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:holmes|punch-line-irving-irving|7-30-pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261009T003000Z
-DTSTART:20261009T003000Z
-DTEND:20261009T033000Z
-SUMMARY:Holmes
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=holmes%7Cpunch-line-irvin
- g-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:sonic-live-in-concert|the-pavilion-at-toyota-music-factory-irving|8-00-
- pm-2026-10-08@letsdoitdallas.com
-DTSTAMP:20261009T010000Z
-DTSTART:20261009T010000Z
-DTEND:20261009T040000Z
-SUMMARY:Sonic Live in Concert
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=sonic-live-in-concert%7Ct
- he-pavilion-at-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:winston-hodges|punch-line-irving-irving|7-00-pm-2026-10-09@letsdoitdall
  as.com
 DTSTAMP:20261010T000000Z
@@ -715,5 +677,57 @@ URL:https://letsdoitdallas.com/?date=2026-11-05&e=steve-lacy-oh-yeah-tour%7
  Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
 DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:vladimir-caamano|punch-line-irving-irving|7-00-pm-2026-11-06@letsdoitda
+ llas.com
+DTSTAMP:20261107T010000Z
+DTSTART:20261107T010000Z
+DTEND:20261107T040000Z
+SUMMARY:Vladimir Caamano
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=vladimir-caamano%7Cpunch-
+ line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:arc-ngel-la-8va-maravilla-world-tour|the-pavilion-at-toyota-music-facto
+ ry-irving|8-00-pm-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T020000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+SUMMARY:Arcángel - La 8va Maravilla World Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=arc-ngel-la-8va-maravilla
+ -world-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:filthy-pop-up-comedy-show|punch-line-irving-irving|9-30-pm-2026-11-06@l
+ etsdoitdallas.com
+DTSTAMP:20261107T033000Z
+DTSTART:20261107T033000Z
+DTEND:20261107T063000Z
+SUMMARY:Filthy Pop-Up Comedy Show
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=filthy-pop-up-comedy-show
+ %7Cpunch-line-irving-irving%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:lenny-pearce-toddler-rave-world-tour|the-pavilion-at-toyota-music-facto
+ ry-irving|5-00-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T230000Z
+DTSTART:20261107T230000Z
+DTEND:20261108T020000Z
+SUMMARY:Lenny Pearce - Toddler Rave World Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=lenny-pearce-toddler-rave
+ -world-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C5-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/irving/
 END:VEVENT
 END:VCALENDAR

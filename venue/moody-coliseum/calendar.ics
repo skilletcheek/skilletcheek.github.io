@@ -54,6 +54,19 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
+UID:west-texas-a-m-women-at-smu-womens-bb|moody-coliseum-dallas|6-00-pm-202
+ 6-10-21@letsdoitdallas.com
+DTSTAMP:20261021T230000Z
+DTSTART:20261021T230000Z
+DTEND:20261022T020000Z
+SUMMARY:West Texas A&M (Women) at SMU Womens BB
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=west-texas-a-m-women-at-s
+ mu-womens-bb%7Cmoody-coliseum-dallas%7C6-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-north-carolina-tar-heels-womens-volle
  yball|moody-coliseum-dallas|12-00-pm-2026-11-06@letsdoitdallas.com
 DTSTAMP:20261106T180000Z

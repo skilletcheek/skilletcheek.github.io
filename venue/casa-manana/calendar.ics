@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:music-of-john-denver|casa-manana-fort-worth|7-30-pm-2026-10-08@letsdoit
- dallas.com
-DTSTAMP:20261009T003000Z
-DTSTART:20261009T003000Z
-DTEND:20261009T033000Z
-SUMMARY:Music of John Denver
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=music-of-john-denver%7Cca
- sa-manana-fort-worth%7C7-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/casa-manana/
-END:VEVENT
-BEGIN:VEVENT
 UID:music-of-john-denver|casa-manana-fort-worth|8-00-pm-2026-10-09@letsdoit
  dallas.com
 DTSTAMP:20261010T010000Z

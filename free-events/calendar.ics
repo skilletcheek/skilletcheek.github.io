@@ -10,17 +10,21 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jack-blocker|three-links-deep-ellum-dallas|8-00-am-2026-10-08@letsdoitd
- allas.com
-DTSTAMP:20261008T130000Z
-DTSTART:20261008T130000Z
-DTEND:20261008T160000Z
-SUMMARY:Jack Blocker
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-08&e=jack-blocker%7Cthree-link
- s-deep-ellum-dallas%7C8-00-am
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/free-events/
+UID:insurgent-pop-up-with-10-000-award-winning-sandwich|dallas-farmers-mark
+ et-dallas|9-00-am-5-00-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T140000Z
+DTSTART:20261010T140000Z
+DTEND:20261010T170000Z
+SUMMARY:Insurgent Pop Up with $10\,000 Award-Winning Sandwich
+LOCATION:Dallas Farmers Market
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=insurgent-pop-up-with-10-
+ 000-award-winning-sandwich%7Cdallas-farmers-market-dallas%7C9-00-am-5-00-p
+ m
+DESCRIPTION:Insurgent is bringing its award-winning Shaved Prime Rib Sandwi
+ ch to The Shed at Dallas Farmers Market ahead of its first permanent Dalla
+ s location. Meet founders Sam and Gabby Lopez and try the sandwich featuri
+ ng house-made buttermilk dressing\, red wine-braised cabbage and onion —
+  More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
@@ -35,6 +39,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=day-out-with-thomas-tm-th
  grapevine%7C10-00-am
 DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
  sdoitdallas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:oscar-quesada-art-exhibition|the-kessler-theater-oak-cliff-dallas|doors
+ -see-listing-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Oscar Quesada Art Exhibition
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=oscar-quesada-art-exhibit
+ ion%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
@@ -102,19 +119,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-13&e=free-halloween-movie-mont
  ting
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:zzzahara-x-faerybabyy|three-links-deep-ellum-dallas|8-00-pm-2026-10-16@
- letsdoitdallas.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:zzzahara x Faerybabyy
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=zzzahara-x-faerybabyy%7Ct
- hree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:songwriter-sunday-with-stefan-prigmore-lauren-o-connor-amplified-minds-
@@ -394,6 +398,32 @@ DTEND;VALUE=DATE:20261102
 SUMMARY:geeks who drink FREE Trivia
 LOCATION:Sundown at Granada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-01&e=geeks-who-drink-free-triv
+ ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:open-band-jam-w-poor-david-s-house-band|poor-david-s-pub-dallas|doors-s
+ ee-listing-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Open Band Jam w /  Poor David's House Band
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=open-band-jam-w-poor-davi
+ d-s-house-band%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
+ doors-see-listing-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:geeks who drink FREE Trivia
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=geeks-who-drink-free-triv
  ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
