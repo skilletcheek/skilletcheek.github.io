@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:music-of-john-denver|casa-manana-fort-worth|8-00-pm-2026-10-09@letsdoit
- dallas.com
-DTSTAMP:20261010T010000Z
-DTSTART:20261010T010000Z
-DTEND:20261010T040000Z
-SUMMARY:Music of John Denver
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=music-of-john-denver%7Cca
- sa-manana-fort-worth%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/casa-manana/
-END:VEVENT
-BEGIN:VEVENT
 UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
  orth|1-00-pm-2026-10-10@letsdoitdallas.com
 DTSTAMP:20261010T180000Z

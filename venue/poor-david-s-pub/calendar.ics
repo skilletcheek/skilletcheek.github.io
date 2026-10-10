@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:rolling-quartz-my-turn-2026-tour-in-dallas|poor-david-s-pub-dallas|7-00
- -pm-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261010T000000Z
-DTSTART:20261010T000000Z
-DTEND:20261010T030000Z
-SUMMARY:ROLLING QUARTZ [MY TURN] 2026 TOUR in Dallas
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=rolling-quartz-my-turn-20
- 26-tour-in-dallas%7Cpoor-david-s-pub-dallas%7C7-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:pierre-bensusan-the-infinite-guitar-tour-2026|poor-david-s-pub-dallas|d
  oors-see-listing-2026-10-11@letsdoitdallas.com
 DTSTAMP:20261011T000000Z

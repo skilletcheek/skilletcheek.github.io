@@ -11,22 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
- e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-09@letsdoitdallas
- .com
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261010
-SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
- Theatre Works
-LOCATION:8004 N. Dallas Parkway · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=-goosebumps-the-musical-p
- hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
- way-frisco%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/dis
- trict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
  e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-10@letsdoitdallas
  .com
 DTSTAMP:20261010T000000Z
@@ -40,17 +24,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=-goosebumps-the-musical-p
  way-frisco%7Csee-details
 DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/dis
  trict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:sunrise-yoga|8802-4th-st-frisco|07-30-am-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261010T123000Z
-DTSTART:20261010T123000Z
-DTEND:20261010T153000Z
-SUMMARY:Sunrise Yoga
-LOCATION:8802 4th St · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=sunrise-yoga%7C8802-4th-s
- t-frisco%7C07-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:nature-adventure|frisco-commons-park-frisco|09-00-am-2026-10-10@letsdoi
@@ -495,6 +468,64 @@ URL:https://letsdoitdallas.com/?date=2026-10-22&e=force-encounters-analysis
  -open-enrollment-%7C7200-stonebrook-pkwy-frisco%7C08-00-am
 DESCRIPTION:Runs Oct 20 – Oct 22. — More: https://letsdoitdallas.com/di
  strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:sunrise-yoga|8802-4th-st-frisco|07-30-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T123000Z
+DTSTART:20261024T123000Z
+DTEND:20261024T153000Z
+SUMMARY:Sunrise Yoga
+LOCATION:8802 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=sunrise-yoga%7C8802-4th-s
+ t-frisco%7C07-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:clean-it-green-it-streams|frisco|09-00-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T140000Z
+DTSTART:20261024T140000Z
+DTEND:20261024T170000Z
+SUMMARY:Clean It & Green It: Streams
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=clean-it-green-it-streams
+ %7Cfrisco%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:craft-and-care-fair|8300-mckinney-rd-frisco|09-00-am-2026-10-24@letsdoi
+ tdallas.com
+DTSTAMP:20261024T140000Z
+DTSTART:20261024T140000Z
+DTEND:20261024T170000Z
+SUMMARY:Craft and Care Fair
+LOCATION:8300 McKinney Rd · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=craft-and-care-fair%7C830
+ 0-mckinney-rd-frisco%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:heritage-halloween|6455-page-street-frisco|11-00-am-2026-10-24@letsdoit
+ dallas.com
+DTSTAMP:20261024T160000Z
+DTSTART:20261024T160000Z
+DTEND:20261024T190000Z
+SUMMARY:Heritage Halloween
+LOCATION:6455 Page Street · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=heritage-halloween%7C6455
+ -page-street-frisco%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-music-series-at-frisco-fresh-market|9215-john-w-elliott-dr-fri
+ sco|11-00-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T160000Z
+DTSTART:20261024T160000Z
+DTEND:20261024T190000Z
+SUMMARY:Saturday Music Series at Frisco Fresh Market
+LOCATION:9215 John W. Elliott Dr · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=saturday-music-series-at-
+ frisco-fresh-market%7C9215-john-w-elliott-dr-frisco%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:fc-dallas-vs-san-jose-earthquakes|toyota-stadium-frisco|7-30-pm-2026-10

@@ -9,34 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:silent-book-club-ages-18-|central-library-garland|06-00-pm-2026-10-09@l
- etsdoitdallas.com
-DTSTAMP:20261009T230000Z
-DTSTART:20261009T230000Z
-DTEND:20261010T020000Z
-SUMMARY:Silent Book Club® (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=silent-book-club-ages-18-
- %7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Join us for Silent Book Club® at the Garland Centr
- al Library\, held once a month on Fridays at 6 p.m. — exclusively for ad
- ults 18+. Enjoy a relaxed\, quiet reading environment without assigned boo
- ks or discussion pressure. Bring your own book or browse the library’s c
- oll — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:anything-goes-presented-by-garland-civic-theatre|300-n-fifth-street-gar
- land|07-30-pm-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261010T003000Z
-DTSTART:20261010T003000Z
-DTEND:20261010T033000Z
-SUMMARY:Anything Goes presented by Garland Civic Theatre
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=anything-goes-presented-b
- y-garland-civic-theatre%7C300-n-fifth-street-garland%7C07-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:fire-safety-week|west-garland-library-garland|10-00-am-2026-10-10@letsd
  oitdallas.com
 DTSTAMP:20261010T150000Z
@@ -51,6 +23,22 @@ DESCRIPTION:10:00 a.m.\; Stop\, drop and roll with West! Join us for a fun-
  perience\, an exciting firefighter-led storytime\, and hands-on crafts and
   activities. It’s the perfect mix of fun and learning. You don’t want 
  to miss — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:punktoberfest-2026-at-lakewood-brewing-co-|lakewood-brewing-co-garland|
+ 12-00-pm-6-00-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T170000Z
+DTSTART:20261010T170000Z
+DTEND:20261010T200000Z
+SUMMARY:Punktoberfest 2026 at Lakewood Brewing Co.
+LOCATION:Lakewood Brewing Co. · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=punktoberfest-2026-at-lak
+ ewood-brewing-co-%7Clakewood-brewing-co-garland%7C12-00-pm-6-00-pm
+DESCRIPTION:Lakewood Brewing will host its annual Punktoberfest celebration
+ \, bringing together Oktoberfest traditions and punk rock spirit for an af
+ ternoon of live music\, beer\, food\, local vendors and activities. Guests
+  can enjoy an Oktoberfest beer release along with a few other surprises t 
+ — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:anything-goes-presented-by-garland-civic-theatre|300-n-fifth-street-gar
@@ -1307,6 +1295,105 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=-the-days-that-made-ameri
  ca-tour-with-lindsay-graham-presented-by-garland-cultural-arts%7C521-w-sta
  te-street-garland%7C08-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-10-24@letsd
+ oitdallas.com
+DTSTAMP:20261024T150000Z
+DTSTART:20261024T150000Z
+DTEND:20261024T180000Z
+SUMMARY:Play & Learn (0-5 years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=play-learn-0-5-years-%7Cc
+ entral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Families with children ages 0-5 can enjoy Play & L
+ earn\, a weekly event with toys\, games and activities that encourage imag
+ ination\, creativity and problem-solving. This program offers a chance for
+  children and caregivers to play together. October 24\, 2026 10:00 AM - 11
+  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:introducci-n-al-corte-l-ser-a-os-13-|biblioteca-central-garland|10-30-a
+ m-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T153000Z
+DTSTART:20261024T153000Z
+DTEND:20261024T183000Z
+SUMMARY:Introducción al Corte Láser (Años 13+)
+LOCATION:Biblioteca Central · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=introducci-n-al-corte-l-s
+ er-a-os-13-%7Cbiblioteca-central-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; Aprenda a utilizar la cortadora láser en esta cla
+ se introductoria del espacio creativo (makerspace). Esta capacitación le 
+ permitirá obtener el entrenamiento necesario para usar la cortadora láse
+ r de la biblioteca de manera independiente. Abierto para personas de 13 a
+ ñ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:recording-studio-101-ages-18-|central-library-garland|10-30-am-2026-10-
+ 24@letsdoitdallas.com
+DTSTAMP:20261024T153000Z
+DTSTART:20261024T153000Z
+DTEND:20261024T183000Z
+SUMMARY:Recording Studio 101 (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=recording-studio-101-ages
+ -18-%7Ccentral-library-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; Learn the basics of Garland Central Library’s re
+ cording studio and become certified for studio use in this introduction cl
+ ass. Open to ages 13+. Registration is required. Attendees MUST have a Gar
+ land Public Library card in good standing to attend this program. If you 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:bilingual-storytime-with-altrusa-cuentos-biling-e-con-altrusa-de-la-bib
+ lioteca-central|central-library-garland|11-00-am-2026-10-24@letsdoitdallas
+ .com
+DTSTAMP:20261024T160000Z
+DTSTART:20261024T160000Z
+DTEND:20261024T190000Z
+SUMMARY:Bilingual Storytime with Altrusa / Cuentos Bilingüe con Altrusa de
+  la Biblioteca Central
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=bilingual-storytime-with-
+ altrusa-cuentos-biling-e-con-altrusa-de-la-biblioteca-central%7Ccentral-li
+ brary-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; The Garland Central Library and Altrusa Internatio
+ nal of Garland invite families with children ages 8 and under to participa
+ te in a fun and engaging bilingual storytime! After storytime\, families c
+ an receive a Free ESL Literacy Kit\, filled with helpful and fun resourc 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:watercolor-workshop-perspective-ages-18-|central-library-garland|03-30-
+ pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T203000Z
+DTSTART:20261024T203000Z
+DTEND:20261024T233000Z
+SUMMARY:Watercolor Workshop: Perspective (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=watercolor-workshop-persp
+ ective-ages-18-%7Ccentral-library-garland%7C03-30-pm
+DESCRIPTION:3:30 p.m.\; In this free watercolor workshop\, we will learn th
+ e basics of watercolor painting and how to create distance in a painting\,
+  all tools included. By the end of this class\, you will leave with a new 
+ painting you are proud of. October 24\, 2026 03:30 PM - 04:30 PM 625 Austi
+  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:writers-club-ages-18-|central-library-garland|04-00-pm-2026-10-24@letsd
+ oitdallas.com
+DTSTAMP:20261024T210000Z
+DTSTART:20261024T210000Z
+DTEND:20261025T000000Z
+SUMMARY:Writers’ Club (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=writers-club-ages-18-%7Cc
+ entral-library-garland%7C04-00-pm
+DESCRIPTION:4:00 p.m.\; Are you a writer or hoping to become one? Join the 
+ Writers’ Club for dedicated time to write\, connect with fellow writers 
+ and boost your creativity. Enjoy coffee\, light refreshments and a welcomi
+ ng space to work on your stories. Share excerpts\, exchange tips and suppo
+ r — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:fright-fest-dababy-and-friends|curtis-culwell-center-garland|8-00-pm-20

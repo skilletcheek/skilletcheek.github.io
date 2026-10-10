@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:metaphor-refantazio-orchestra-concert|texas-trust-cu-theatre-grand-prai
- rie|8-00-pm-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261010T010000Z
-DTSTART:20261010T010000Z
-DTEND:20261010T040000Z
-SUMMARY:Metaphor: ReFantazio Orchestra Concert
-LOCATION:Texas Trust CU Theatre · Grand Prairie
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=metaphor-refantazio-orche
- stra-concert%7Ctexas-trust-cu-theatre-grand-prairie%7C8-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/texas-trust-cu-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:los-parras|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-10-10@lets
  doitdallas.com
 DTSTAMP:20261011T010000Z
@@ -137,5 +124,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=franco-escamilla%7Ctexas-
  trust-cu-theatre-grand-prairie%7C8-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/texas-trust-cu-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:banda-ms|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-11-07@letsdo
+ itdallas.com
+DTSTAMP:20261108T020000Z
+DTSTART:20261108T020000Z
+DTEND:20261108T050000Z
+SUMMARY:Banda MS
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=banda-ms%7Ctexas-trust-cu
+ -theatre-grand-prairie%7C8-00-pm
+DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/texas-trust-cu-theatre/
 END:VEVENT
 END:VCALENDAR

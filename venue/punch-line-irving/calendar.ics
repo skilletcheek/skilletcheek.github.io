@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:winston-hodges|punch-line-irving-irving|7-00-pm-2026-10-09@letsdoitdall
- as.com
-DTSTAMP:20261010T000000Z
-DTSTART:20261010T000000Z
-DTEND:20261010T030000Z
-SUMMARY:Winston Hodges
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=winston-hodges%7Cpunch-li
- ne-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:winston-hodges|punch-line-irving-irving|9-15-pm-2026-10-09@letsdoitdall
- as.com
-DTSTAMP:20261010T021500Z
-DTSTART:20261010T021500Z
-DTEND:20261010T051500Z
-SUMMARY:Winston Hodges
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=winston-hodges%7Cpunch-li
- ne-irving-irving%7C9-15-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:jokes-over-brunch|punch-line-irving-irving|2-00-pm-2026-10-10@letsdoitd
  allas.com
 DTSTAMP:20261010T190000Z
@@ -462,6 +436,32 @@ SUMMARY:Filthy Pop-Up Comedy Show
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=filthy-pop-up-comedy-show
  %7Cpunch-line-irving-irving%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:vladimir-caamano|punch-line-irving-irving|7-00-pm-2026-11-07@letsdoitda
+ llas.com
+DTSTAMP:20261108T010000Z
+DTSTART:20261108T010000Z
+DTEND:20261108T040000Z
+SUMMARY:Vladimir Caamano
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=vladimir-caamano%7Cpunch-
+ line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:vladimir-caamano|punch-line-irving-irving|9-15-pm-2026-11-07@letsdoitda
+ llas.com
+DTSTAMP:20261108T031500Z
+DTSTART:20261108T031500Z
+DTEND:20261108T061500Z
+SUMMARY:Vladimir Caamano
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=vladimir-caamano%7Cpunch-
+ line-irving-irving%7C9-15-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:blackberry-smoke-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-10-0
- 9@letsdoitdallas.com
-DTSTAMP:20261010T030000Z
-DTSTART:20261010T030000Z
-DTEND:20261010T060000Z
-SUMMARY:Blackberry Smoke (18 and Over)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=blackberry-smoke-18-and-o
- ver-%7Cbilly-bob-s-fort-worth%7C10-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/billy-bob-s/
-END:VEVENT
-BEGIN:VEVENT
 UID:tyler-farr-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-10-10@lets
  doitdallas.com
 DTSTAMP:20261011T030000Z
@@ -150,5 +137,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=giovannie-and-the-hired-g
  uns-18-and-over-%7Cbilly-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:ian-munsick-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-11-07@let
+ sdoitdallas.com
+DTSTAMP:20261108T040000Z
+DTSTART:20261108T040000Z
+DTEND:20261108T070000Z
+SUMMARY:Ian Munsick (18 and Over)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=ian-munsick-18-and-over-%
+ 7Cbilly-bob-s-fort-worth%7C10-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-country-music-awards-18-event-|billy-bob-s-fort-worth|5-00-pm-202
+ 6-11-08@letsdoitdallas.com
+DTSTAMP:20261108T230000Z
+DTSTART:20261108T230000Z
+DTEND:20261109T020000Z
+SUMMARY:Texas Country Music Awards (18+ Event)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=texas-country-music-award
+ s-18-event-%7Cbilly-bob-s-fort-worth%7C5-00-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/billy-bob-s/
 END:VEVENT
 END:VCALENDAR

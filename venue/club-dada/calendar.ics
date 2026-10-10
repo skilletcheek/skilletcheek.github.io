@@ -95,6 +95,18 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/club-dada/
 END:VEVENT
 BEGIN:VEVENT
+UID:kyle-hume|club-dada-dallas|8-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:Kyle Hume
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=kyle-hume%7Cclub-dada-dal
+ las%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/club-dada/
+END:VEVENT
+BEGIN:VEVENT
 UID:ike-dweck|club-dada-dallas|8-00-pm-2026-11-03@letsdoitdallas.com
 DTSTAMP:20261104T020000Z
 DTSTART:20261104T020000Z

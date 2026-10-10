@@ -11,35 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-disney-s-hocus-pocus-in-concert-live
- -to-film|morton-meyerson-symphony-center-dallas|7-30-pm-2026-10-09@letsdoi
- tdallas.com
-DTSTAMP:20261010T003000Z
-DTSTART:20261010T003000Z
-DTEND:20261010T033000Z
-SUMMARY:Dallas Symphony Orchestra Presents Disney's Hocus Pocus in Concert 
- Live to Film
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=dallas-symphony-orchestra
- -presents-disney-s-hocus-pocus-in-concert-live-to-film%7Cmorton-meyerson-s
- ymphony-center-dallas%7C7-30-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/district/arts-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:donizetti-s-the-elixir-of-love-dallas|margot-and-bill-winspear-opera-ho
- use-dallas|8-00-pm-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261010T010000Z
-DTSTART:20261010T010000Z
-DTEND:20261010T040000Z
-SUMMARY:Donizetti's The Elixir of Love - Dallas
-LOCATION:Margot and Bill Winspear Opera House · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=donizetti-s-the-elixir-of
- -love-dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C8-00-pm
-DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
- district/arts-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-symphony-orchestra-presents-disney-s-hocus-pocus-in-concert-live
  -to-film|morton-meyerson-symphony-center-dallas|7-30-pm-2026-10-10@letsdoi
  tdallas.com
 DTSTAMP:20261011T003000Z
@@ -238,6 +209,36 @@ LOCATION:Morton Meyerson Symphony Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=dallas-symphony-orchestra
  -presents-ellington-strayhorn-and-gershwin%7Cmorton-meyerson-symphony-cent
  er-dallas%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-ellington-strayhorn-and-gershwin|mor
+ ton-meyerson-symphony-center-dallas|7-30-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T013000Z
+DTSTART:20261108T013000Z
+DTEND:20261108T043000Z
+SUMMARY:Dallas Symphony Orchestra Presents Ellington\, Strayhorn and Gershw
+ in
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=dallas-symphony-orchestra
+ -presents-ellington-strayhorn-and-gershwin%7Cmorton-meyerson-symphony-cent
+ er-dallas%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-ellington-strayhorn-and-gershwin|mor
+ ton-meyerson-symphony-center-dallas|2-00-pm-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T200000Z
+DTSTART:20261108T200000Z
+DTEND:20261108T230000Z
+SUMMARY:Dallas Symphony Orchestra Presents Ellington\, Strayhorn and Gershw
+ in
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=dallas-symphony-orchestra
+ -presents-ellington-strayhorn-and-gershwin%7Cmorton-meyerson-symphony-cent
+ er-dallas%7C2-00-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT

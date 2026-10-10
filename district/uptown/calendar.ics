@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Uptown — Lets Do It Dallas
+X-WR-CALDESC:Live events\, music\, and nightlife in Uptown — part of the 
+ Lets Do It Dallas real-time event radar.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:secure-paper-shredding|285-uptown-blvd-cedar-hill|09-00-am-2026-10-24@l
+ etsdoitdallas.com
+DTSTAMP:20261024T140000Z
+DTSTART:20261024T140000Z
+DTEND:20261024T170000Z
+SUMMARY:Secure Paper Shredding
+LOCATION:285 Uptown Blvd. · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=secure-paper-shredding%7C
+ 285-uptown-blvd-cedar-hill%7C09-00-am
+DESCRIPTION:Secure paper shredding for Cedar Hill residents. October 24\, 2
+ 026 09:00 AM - 12:00 PM 285 Uptown Blvd.Cedar Hill\, TX 75104 https://www.
+ cedarhilltx.com/Calendar.aspx?EID=17129/638996845060000000 — More: https
+ ://letsdoitdallas.com/district/uptown/
+END:VEVENT
+END:VCALENDAR

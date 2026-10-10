@@ -10,44 +10,17 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:zainab-johnson|arlington-improv-arlington|7-00-pm-2026-10-09@letsdoitda
- llas.com
-DTSTAMP:20261010T000000Z
-DTSTART:20261010T000000Z
-DTEND:20261010T030000Z
-SUMMARY:Zainab Johnson
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=zainab-johnson%7Carlingto
- n-improv-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:en-vivo-grupo-exterminador|texas-live-1650-east-randol-mill-road-arling
- ton-76011-united-states|8-00-pm-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261010T010000Z
-DTSTART:20261010T010000Z
-DTEND:20261010T040000Z
-SUMMARY:En Vivo: Grupo Exterminador
+UID:red-river-showdown|texas-live-1650-east-randol-mill-road-arlington-7601
+ 1-united-states|2-30-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261010T193000Z
+DTSTART:20261010T193000Z
+DTEND:20261010T223000Z
+SUMMARY:Red River Showdown
 LOCATION:Texas Live! · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=en-vivo-grupo-exterminado
- r%7Ctexas-live-1650-east-randol-mill-road-arlington-76011-united-states%7C
- 8-00-pm
-DESCRIPTION:Coors Light En Vivo Concert Series Presents Grupo Exterminador
- ! — More: https://letsdoitdallas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:zainab-johnson|arlington-improv-arlington|9-30-pm-2026-10-09@letsdoitda
- llas.com
-DTSTAMP:20261010T023000Z
-DTSTART:20261010T023000Z
-DTEND:20261010T053000Z
-SUMMARY:Zainab Johnson
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=zainab-johnson%7Carlingto
- n-improv-arlington%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=red-river-showdown%7Ctexa
+ s-live-1650-east-randol-mill-road-arlington-76011-united-states%7C2-30-pm
+DESCRIPTION:Big rivalries in college football deserve big game day atmosphe
+ re. — More: https://letsdoitdallas.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:zainab-johnson|arlington-improv-arlington|6-00-pm-2026-10-10@letsdoitda
@@ -753,6 +726,20 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:north-alabama-lions-at-ut-arlington-mavericks-womens-volleyball|college
+ -park-center-arlington|1-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T180000Z
+DTSTART:20261024T180000Z
+DTEND:20261024T210000Z
+SUMMARY:North Alabama Lions at UT Arlington Mavericks Womens Volleyball
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=north-alabama-lions-at-ut
+ -arlington-mavericks-womens-volleyball%7Ccollege-park-center-arlington%7C1
+ -00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:ed-sheeran|at-t-stadium-arlington|5-30-pm-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261024T223000Z
 DTSTART:20261024T223000Z
@@ -983,5 +970,56 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=shuler-king%7Carlington-i
  mprov-arlington%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:shuler-king|arlington-improv-arlington|7-00-pm-2026-11-07@letsdoitdalla
+ s.com
+DTSTAMP:20261108T010000Z
+DTSTART:20261108T010000Z
+DTEND:20261108T040000Z
+SUMMARY:Shuler King
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=shuler-king%7Carlington-i
+ mprov-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:kanye-west|at-t-stadium-arlington|8-00-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T020000Z
+DTSTART:20261108T020000Z
+DTEND:20261108T050000Z
+SUMMARY:Kanye West
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=kanye-west%7Cat-t-stadium
+ -arlington%7C8-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:shuler-king|arlington-improv-arlington|9-30-pm-2026-11-07@letsdoitdalla
+ s.com
+DTSTAMP:20261108T033000Z
+DTSTART:20261108T033000Z
+DTEND:20261108T063000Z
+SUMMARY:Shuler King
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=shuler-king%7Carlington-i
+ mprov-arlington%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-mariachi-festival|arlington-music-hall-arlington|6-00-pm-2026-11-
+ 08@letsdoitdallas.com
+DTSTAMP:20261109T000000Z
+DTSTART:20261109T000000Z
+DTEND:20261109T030000Z
+SUMMARY:Texas Mariachi Festival
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=texas-mariachi-festival%7
+ Carlington-music-hall-arlington%7C6-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/arlington/
 END:VEVENT
 END:VCALENDAR

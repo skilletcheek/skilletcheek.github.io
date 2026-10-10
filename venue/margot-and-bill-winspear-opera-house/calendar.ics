@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:donizetti-s-the-elixir-of-love-dallas|margot-and-bill-winspear-opera-ho
- use-dallas|8-00-pm-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261010T010000Z
-DTSTART:20261010T010000Z
-DTEND:20261010T040000Z
-SUMMARY:Donizetti's The Elixir of Love - Dallas
-LOCATION:Margot and Bill Winspear Opera House · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=donizetti-s-the-elixir-of
- -love-dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C8-00-pm
-DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
- venue/margot-and-bill-winspear-opera-house/
-END:VEVENT
-BEGIN:VEVENT
-UID:donizetti-s-the-elixir-of-love-dallas|margot-and-bill-winspear-opera-ho
  use-dallas|2-00-pm-2026-10-11@letsdoitdallas.com
 DTSTAMP:20261011T190000Z
 DTSTART:20261011T190000Z

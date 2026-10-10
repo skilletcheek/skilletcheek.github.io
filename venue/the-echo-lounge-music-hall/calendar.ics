@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:claire-rosinkranz-my-lover-tour|the-echo-lounge-music-hall-dallas|7-00-
- pm-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261010T000000Z
-DTSTART:20261010T000000Z
-DTEND:20261010T030000Z
-SUMMARY:Claire Rosinkranz - My Lover Tour
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=claire-rosinkranz-my-love
- r-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:do-more-concert-dallas-featuring-dj-cedric-gervais|the-echo-lounge-musi
  c-hall-dallas|7-30-pm-2026-10-10@letsdoitdallas.com
 DTSTAMP:20261011T003000Z
@@ -257,5 +244,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=grateful-shred%7Cthe-echo
  -lounge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:bonobo-distance-in-static-live-north-american-tour|the-echo-lounge-musi
+ c-hall-dallas|7-00-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T010000Z
+DTSTART:20261108T010000Z
+DTEND:20261108T040000Z
+SUMMARY:Bonobo - Distance In Static Live North American Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=bonobo-distance-in-static
+ -live-north-american-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:inna|the-echo-lounge-music-hall-dallas|6-00-pm-2026-11-08@letsdoitdalla
+ s.com
+DTSTAMP:20261109T000000Z
+DTSTART:20261109T000000Z
+DTEND:20261109T030000Z
+SUMMARY:INNA
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=inna%7Cthe-echo-lounge-mu
+ sic-hall-dallas%7C6-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/the-echo-lounge-music-hall/
 END:VEVENT
 END:VCALENDAR

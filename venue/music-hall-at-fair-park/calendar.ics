@@ -99,4 +99,30 @@ URL:https://letsdoitdallas.com/?date=2026-11-07&e=buena-vista-social-club-t
 DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/music-hall-at-fair-park/
 END:VEVENT
+BEGIN:VEVENT
+UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
+ -2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T013000Z
+DTSTART:20261108T013000Z
+DTEND:20261108T043000Z
+SUMMARY:Buena Vista Social Club (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=buena-vista-social-club-t
+ ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/music-hall-at-fair-park/
+END:VEVENT
+BEGIN:VEVENT
+UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|1-00-pm
+ -2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T190000Z
+DTSTART:20261108T190000Z
+DTEND:20261108T220000Z
+SUMMARY:Buena Vista Social Club (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=buena-vista-social-club-t
+ ouring-%7Cmusic-hall-at-fair-park-dallas%7C1-00-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/music-hall-at-fair-park/
+END:VEVENT
 END:VCALENDAR

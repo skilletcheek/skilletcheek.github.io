@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UNT Superpit — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at UNT Superpit.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:north-texas-mean-green-men-s-basketball-vs-northwestern-state-demons-me
+ ns-basketball-exhibition-|unt-superpit-denton|see-details-2026-10-26@letsd
+ oitdallas.com
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:North Texas Mean Green Men's Basketball vs Northwestern State Demon
+ s Mens Basketball (Exhibition)
+LOCATION:UNT Superpit · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=north-texas-mean-green-me
+ n-s-basketball-vs-northwestern-state-demons-mens-basketball-exhibition-%7C
+ unt-superpit-denton%7Csee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/unt-superpit/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-men-s-basketball-vs-southwestern-christian-eagle
+ s-mens-basketball|unt-superpit-denton|see-details-2026-11-02@letsdoitdalla
+ s.com
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:North Texas Mean Green Men's Basketball vs. Southwestern Christian 
+ Eagles Mens Basketball
+LOCATION:UNT Superpit · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=north-texas-mean-green-me
+ n-s-basketball-vs-southwestern-christian-eagles-mens-basketball%7Cunt-supe
+ rpit-denton%7Csee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/unt-superpit/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-men-s-basketball-vs-mcneese-state-cowboys-mens-b
+ asketball|unt-superpit-denton|see-details-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:North Texas Mean Green Men's Basketball vs. McNeese State Cowboys M
+ ens Basketball
+LOCATION:UNT Superpit · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=north-texas-mean-green-me
+ n-s-basketball-vs-mcneese-state-cowboys-mens-basketball%7Cunt-superpit-den
+ ton%7Csee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/unt-superpit/
+END:VEVENT
+END:VCALENDAR

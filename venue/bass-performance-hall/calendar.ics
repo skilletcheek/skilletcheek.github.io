@@ -10,32 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:fort-worth-symphony-orchestra|bass-performance-hall-fort-worth|7-30-pm-
- 2026-10-09@letsdoitdallas.com
-DTSTAMP:20261010T003000Z
-DTSTART:20261010T003000Z
-DTEND:20261010T033000Z
-SUMMARY:Fort Worth Symphony Orchestra
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=fort-worth-symphony-orche
- stra%7Cbass-performance-hall-fort-worth%7C7-30-pm
-DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
- com/venue/bass-performance-hall/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-classical-style|bass-performance-hall-fort-worth|7-30-pm-2026-10-09
- @letsdoitdallas.com
-DTSTAMP:20261010T003000Z
-DTSTART:20261010T003000Z
-DTEND:20261010T033000Z
-SUMMARY:The Classical Style
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=the-classical-style%7Cbas
- s-performance-hall-fort-worth%7C7-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/bass-performance-hall/
-END:VEVENT
-BEGIN:VEVENT
-UID:fort-worth-symphony-orchestra|bass-performance-hall-fort-worth|7-30-pm-
  2026-10-10@letsdoitdallas.com
 DTSTAMP:20261011T003000Z
 DTSTART:20261011T003000Z
@@ -46,6 +20,23 @@ URL:https://letsdoitdallas.com/?date=2026-10-10&e=fort-worth-symphony-orche
  stra%7Cbass-performance-hall-fort-worth%7C7-30-pm
 DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
  com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-classical-style|bass-performance-hall-525-commerce-street-fort-wort
+ h-76102-united-states|7-30-pm-2026-10-10@letsdoitdallas.com
+DTSTAMP:20261011T003000Z
+DTSTART:20261011T003000Z
+DTEND:20261011T033000Z
+SUMMARY:The Classical Style
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-10&e=the-classical-style%7Cbas
+ s-performance-hall-525-commerce-street-fort-worth-76102-united-states%7C7-
+ 30-pm
+DESCRIPTION:Overview Mozart cobbled together his “Haffner” Symphony fro
+ m music he wrote to celebrate the young Sigmund Haffner’s ascension to n
+ obility\, instructing musicians to play as “as fast as possible” in th
+ e thrilling finale. After the symphony\, FWSO music director Robert Spano 
+ conduct — More: https://letsdoitdallas.com/venue/bass-performance-hall/
 END:VEVENT
 BEGIN:VEVENT
 UID:fort-worth-symphony-orchestra|bass-performance-hall-fort-worth|2-00-pm-

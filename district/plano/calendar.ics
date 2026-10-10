@@ -10,30 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:michael-yo|addison-improv-addison|7-30-pm-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261010T003000Z
-DTSTART:20261010T003000Z
-DTEND:20261010T033000Z
-SUMMARY:Michael Yo
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=michael-yo%7Caddison-impr
- ov-addison%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:michael-yo|addison-improv-addison|9-45-pm-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261010T024500Z
-DTSTART:20261010T024500Z
-DTEND:20261010T054500Z
-SUMMARY:Michael Yo
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=michael-yo%7Caddison-impr
- ov-addison%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-10
  -10@letsdoitdallas.com
 DTSTAMP:20261010T190000Z
@@ -368,6 +344,32 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:deric-cahill|mic-drop-comedy-plano-plano|7-00-pm-2026-10-24@letsdoitdal
+ las.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Deric Cahill
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=deric-cahill%7Cmic-drop-c
+ omedy-plano-plano%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:gunhild-carling|eisemann-center-richardson|7-00-pm-2026-10-24@letsdoitd
+ allas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Gunhild Carling
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=gunhild-carling%7Ceiseman
+ n-center-richardson%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:corey-holcomb|addison-improv-addison|9-30-pm-2026-10-24@letsdoitdallas.
  com
 DTSTAMP:20261025T023000Z
@@ -466,6 +468,32 @@ SUMMARY:Sahib Singh
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=sahib-singh%7Caddison-imp
  rov-addison%7C9-45-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:sahib-singh|addison-improv-addison|7-00-pm-2026-11-07@letsdoitdallas.co
+ m
+DTSTAMP:20261108T010000Z
+DTSTART:20261108T010000Z
+DTEND:20261108T040000Z
+SUMMARY:Sahib Singh
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=sahib-singh%7Caddison-imp
+ rov-addison%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:sahib-singh|addison-improv-addison|9-30-pm-2026-11-07@letsdoitdallas.co
+ m
+DTSTAMP:20261108T033000Z
+DTSTART:20261108T033000Z
+DTEND:20261108T063000Z
+SUMMARY:Sahib Singh
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=sahib-singh%7Caddison-imp
+ rov-addison%7C9-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT

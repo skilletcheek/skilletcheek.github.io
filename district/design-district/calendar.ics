@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:claire-rosinkranz-my-lover-tour|the-echo-lounge-music-hall-dallas|7-00-
- pm-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261010T000000Z
-DTSTART:20261010T000000Z
-DTEND:20261010T030000Z
-SUMMARY:Claire Rosinkranz - My Lover Tour
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=claire-rosinkranz-my-love
- r-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:steve-angello-ages-18-|silo-dallas|9-00-pm-2026-10-09@letsdoitdallas.co
- m
-DTSTAMP:20261010T020000Z
-DTSTART:20261010T020000Z
-DTEND:20261010T050000Z
-SUMMARY:Steve Angello - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=steve-angello-ages-18-%7C
- silo-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:mariachi-el-bronx|am-fm-dallas-dallas|7-00-pm-2026-10-10@letsdoitdallas
  .com
 DTSTAMP:20261011T000000Z
@@ -565,6 +539,45 @@ SUMMARY:ERIC PRYDZ - Ages 18+
 LOCATION:SILO · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=eric-prydz-ages-18-%7Csil
  o-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:bonobo-distance-in-static-live-north-american-tour|the-echo-lounge-musi
+ c-hall-dallas|7-00-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T010000Z
+DTSTART:20261108T010000Z
+DTEND:20261108T040000Z
+SUMMARY:Bonobo - Distance In Static Live North American Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=bonobo-distance-in-static
+ -live-north-american-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:jessica-audiffred-18-and-over-|silo-dallas|9-00-pm-2026-11-07@letsdoitd
+ allas.com
+DTSTAMP:20261108T030000Z
+DTSTART:20261108T030000Z
+DTEND:20261108T060000Z
+SUMMARY:Jessica Audiffred (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=jessica-audiffred-18-and-
+ over-%7Csilo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:inna|the-echo-lounge-music-hall-dallas|6-00-pm-2026-11-08@letsdoitdalla
+ s.com
+DTSTAMP:20261109T000000Z
+DTSTART:20261109T000000Z
+DTEND:20261109T030000Z
+SUMMARY:INNA
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=inna%7Cthe-echo-lounge-mu
+ sic-hall-dallas%7C6-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/design-district/
 END:VEVENT

@@ -111,6 +111,19 @@ DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT
 BEGIN:VEVENT
+UID:sugarfree-presents-club-kitty-halloween-|trees-dallas|doors-see-listing
+ -2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:SUGARFREE PRESENTS: CLUB KITTY (HALLOWEEN)
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=sugarfree-presents-club-k
+ itty-halloween-%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:apollored1|trees-dallas|doors-see-listing-2026-11-04@letsdoitdallas.com
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20261104

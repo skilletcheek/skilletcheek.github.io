@@ -11,61 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261009T130000Z
-DTSTART:20261009T130000Z
-DTEND:20261009T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:bad-nerves|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-10-
- 09@letsdoitdallas.com
-DTSTAMP:20261010T000000Z
-DTSTART:20261010T000000Z
-DTEND:20261010T030000Z
-SUMMARY:Bad Nerves
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=bad-nerves%7Cthe-cambridg
- e-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:band-maid-world-tour-2026|house-of-blues-dallas-dallas|7-00-pm-2026-10-
- 09@letsdoitdallas.com
-DTSTAMP:20261010T000000Z
-DTSTART:20261010T000000Z
-DTEND:20261010T030000Z
-SUMMARY:Band-Maid World Tour 2026
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=band-maid-world-tour-2026
- %7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:rolling-quartz-my-turn-2026-tour-in-dallas|poor-david-s-pub-dallas|7-00
- -pm-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261010T000000Z
-DTSTART:20261010T000000Z
-DTEND:20261010T030000Z
-SUMMARY:ROLLING QUARTZ [MY TURN] 2026 TOUR in Dallas
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=rolling-quartz-my-turn-20
- 26-tour-in-dallas%7Cpoor-david-s-pub-dallas%7C7-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-10-10@letsdoitdallas.com
 DTSTAMP:20261010T130000Z
 DTSTART:20261010T130000Z
@@ -1308,6 +1253,45 @@ DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:dance-now|house-of-blues-dallas-dallas|7-00-pm-2026-11-07@letsdoitdalla
+ s.com
+DTSTAMP:20261108T010000Z
+DTSTART:20261108T010000Z
+DTEND:20261108T040000Z
+SUMMARY:Dance Now
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=dance-now%7Chouse-of-blue
+ s-dallas-dallas%7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:fifth-third-garage-dallas-stars-v-san-jose-sharks|american-airlines-cen
+ ter-dallas|7-00-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T010000Z
+DTSTART:20261108T010000Z
+DTEND:20261108T040000Z
+SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v San Jose Sharks
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=fifth-third-garage-dallas
+ -stars-v-san-jose-sharks%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
+ -2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T013000Z
+DTSTART:20261108T013000Z
+DTEND:20261108T043000Z
+SUMMARY:Buena Vista Social Club (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=buena-vista-social-club-t
+ ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:open-band-jam-w-poor-david-s-house-band|poor-david-s-pub-dallas|doors-s
  ee-listing-2026-11-08@letsdoitdallas.com
 DTSTAMP:20261108T000000Z
@@ -1319,5 +1303,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-08&e=open-band-jam-w-poor-davi
  d-s-house-band%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|1-00-pm
+ -2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T190000Z
+DTSTART:20261108T190000Z
+DTEND:20261108T220000Z
+SUMMARY:Buena Vista Social Club (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=buena-vista-social-club-t
+ ouring-%7Cmusic-hall-at-fair-park-dallas%7C1-00-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

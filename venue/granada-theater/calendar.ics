@@ -9,21 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:grateful-dead-tribute-forgotten-space-20th-anniversary-show|granada-the
- ater-lower-greenville-dallas|doors-see-listing-2026-10-09@letsdoitdallas.c
- om
-DTSTAMP:20261009T000000Z
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261010
-SUMMARY:GRATEFUL DEAD TRIBUTE - Forgotten Space 20th Anniversary Show
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=grateful-dead-tribute-for
- gotten-space-20th-anniversary-show%7Cgranada-theater-lower-greenville-dall
- as%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:chat-pile-who-loves-the-sun-tour-2026|granada-theater-tx-dallas|7-30-pm
  -2026-10-10@letsdoitdallas.com
 DTSTAMP:20261011T003000Z
@@ -223,17 +208,16 @@ DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:low-cut-connie-w-laney-jones-and-the-spirits|granada-theater-lower-gree
- nville-dallas|doors-see-listing-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261107T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Low Cut Connie w /  Laney Jones and the Spirits
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=low-cut-connie-w-laney-jo
- nes-and-the-spirits%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-
- listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
+UID:low-cut-connie|granada-theater-tx-dallas|8-00-pm-2026-11-07@letsdoitdal
+ las.com
+DTSTAMP:20261108T020000Z
+DTSTART:20261108T020000Z
+DTEND:20261108T050000Z
+SUMMARY:Low Cut Connie
+LOCATION:Granada Theater - TX · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=low-cut-connie%7Cgranada-
+ theater-tx-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/granada-theater/
 END:VEVENT
 END:VCALENDAR

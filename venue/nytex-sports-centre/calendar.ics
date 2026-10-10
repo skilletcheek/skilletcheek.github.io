@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:new-mexico-ice-wolves-at-lone-star-brahmas|nytex-sports-centre-north-ri
- chland-hills|7-30-pm-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261010T003000Z
-DTSTART:20261010T003000Z
-DTEND:20261010T033000Z
-SUMMARY:New Mexico Ice Wolves at Lone Star Brahmas
-LOCATION:NYTEX Sports Centre · North Richland Hills
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=new-mexico-ice-wolves-at-
- lone-star-brahmas%7Cnytex-sports-centre-north-richland-hills%7C7-30-pm
-DESCRIPTION:minor league hockey event via SeatGeek. — More: https://letsd
- oitdallas.com/venue/nytex-sports-centre/
-END:VEVENT
-BEGIN:VEVENT
-UID:new-mexico-ice-wolves-at-lone-star-brahmas|nytex-sports-centre-north-ri
  chland-hills|7-30-pm-2026-10-10@letsdoitdallas.com
 DTSTAMP:20261011T003000Z
 DTSTART:20261011T003000Z
@@ -43,6 +30,19 @@ DTEND:20261024T033000Z
 SUMMARY:Shreveport Mudbugs at Lone Star Brahmas
 LOCATION:NYTEX Sports Centre · North Richland Hills
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=shreveport-mudbugs-at-lon
+ e-star-brahmas%7Cnytex-sports-centre-north-richland-hills%7C7-30-pm
+DESCRIPTION:minor league hockey event via SeatGeek. — More: https://letsd
+ oitdallas.com/venue/nytex-sports-centre/
+END:VEVENT
+BEGIN:VEVENT
+UID:shreveport-mudbugs-at-lone-star-brahmas|nytex-sports-centre-north-richl
+ and-hills|7-30-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T003000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T033000Z
+SUMMARY:Shreveport Mudbugs at Lone Star Brahmas
+LOCATION:NYTEX Sports Centre · North Richland Hills
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=shreveport-mudbugs-at-lon
  e-star-brahmas%7Cnytex-sports-centre-north-richland-hills%7C7-30-pm
 DESCRIPTION:minor league hockey event via SeatGeek. — More: https://letsd
  oitdallas.com/venue/nytex-sports-centre/

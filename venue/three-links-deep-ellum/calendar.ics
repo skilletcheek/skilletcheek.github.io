@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:wildhearts-right-behind-you-kill-your-tv|three-links-deep-ellum-dallas|
- 8-00-pm-2026-10-09@letsdoitdallas.com
-DTSTAMP:20261010T010000Z
-DTSTART:20261010T010000Z
-DTEND:20261010T040000Z
-SUMMARY:Wildhearts\, Right Behind You\, Kill Your TV
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=wildhearts-right-behind-y
- ou-kill-your-tv%7Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:stalefish-fiction-love-rattmaker|three-links-deep-ellum-dallas|7-00-pm-
  2026-10-10@letsdoitdallas.com
 DTSTAMP:20261011T000000Z
@@ -109,6 +96,19 @@ SUMMARY:zzzahara x Faerybabyy
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-16&e=zzzahara-x-faerybabyy%7Ct
  hree-links-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dead-week-nip-slip-kiss-with-your-teeth|three-links-deep-ellum-dallas|8
+ -00-pm-2026-10-18@letsdoitdallas.com
+DTSTAMP:20261019T010000Z
+DTSTART:20261019T010000Z
+DTEND:20261019T040000Z
+SUMMARY:Dead Week\, Nip Slip\, Kiss With Your Teeth
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=dead-week-nip-slip-kiss-w
+ ith-your-teeth%7Cthree-links-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
 END:VEVENT
@@ -345,5 +345,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=sparkbird-wrongbird%7Cthr
  ee-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:moon-darling-hearts-to-blame-tour|three-links-deep-ellum-dallas|8-00-pm
+ -2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T020000Z
+DTSTART:20261108T020000Z
+DTEND:20261108T050000Z
+SUMMARY:Moon Darling: Hearts to Blame Tour
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=moon-darling-hearts-to-bl
+ ame-tour%7Cthree-links-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

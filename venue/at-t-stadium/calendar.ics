@@ -384,4 +384,16 @@ URL:https://letsdoitdallas.com/?date=2026-11-01&e=dallas-cowboys-vs-arizona
 DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/venue/at-t-stadium/
 END:VEVENT
+BEGIN:VEVENT
+UID:kanye-west|at-t-stadium-arlington|8-00-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T020000Z
+DTSTART:20261108T020000Z
+DTEND:20261108T050000Z
+SUMMARY:Kanye West
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=kanye-west%7Cat-t-stadium
+ -arlington%7C8-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/at-t-stadium/
+END:VEVENT
 END:VCALENDAR

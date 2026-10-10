@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kay Bailey Hutchison Convention Center — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Kay Bailey Hutchison Convention Center.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:collect-a-con-dallas-2-day-pass|kay-bailey-hutchison-convention-center-
+ dallas|3-30-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T083000Z
+DTSTART:20261024T083000Z
+DTEND:20261024T113000Z
+SUMMARY:Collect-A-Con - Dallas - 2 Day Pass
+LOCATION:Kay Bailey Hutchison Convention Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=collect-a-con-dallas-2-da
+ y-pass%7Ckay-bailey-hutchison-convention-center-dallas%7C3-30-am
+DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/kay-bailey-hutchison-convention-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:collect-a-con-dallas-saturday|kay-bailey-hutchison-convention-center-da
+ llas|12-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T170000Z
+DTSTART:20261024T170000Z
+DTEND:20261024T200000Z
+SUMMARY:Collect-A-Con - Dallas - Saturday
+LOCATION:Kay Bailey Hutchison Convention Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=collect-a-con-dallas-satu
+ rday%7Ckay-bailey-hutchison-convention-center-dallas%7C12-00-pm
+DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/kay-bailey-hutchison-convention-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:collect-a-con|kay-bailey-hutchison-convention-center-dallas|10-00-am-20
+ 26-10-25@letsdoitdallas.com
+DTSTAMP:20261025T150000Z
+DTSTART:20261025T150000Z
+DTEND:20261025T180000Z
+SUMMARY:Collect-A-Con
+LOCATION:Kay Bailey Hutchison Convention Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=collect-a-con%7Ckay-baile
+ y-hutchison-convention-center-dallas%7C10-00-am
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/kay-bailey-hutchison-convention-center/
+END:VEVENT
+END:VCALENDAR

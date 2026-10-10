@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-steeldrivers-w-valley-flower|the-kessler-dallas|8-00-pm-2026-10-09@
- letsdoitdallas.com
-DTSTAMP:20261010T010000Z
-DTSTART:20261010T010000Z
-DTEND:20261010T040000Z
-SUMMARY:The SteelDrivers w/ Valley Flower
-LOCATION:The Kessler · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=the-steeldrivers-w-valley
- -flower%7Cthe-kessler-dallas%7C8-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/the-kessler-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:del-castillo-with-special-guest-guy-forsyth|the-kessler-theater-oak-cli
  ff-dallas|doors-see-listing-2026-10-10@letsdoitdallas.com
 DTSTAMP:20261010T000000Z
@@ -214,16 +201,16 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-army-the-navy|the-kessler-theater-oak-cliff-dallas|doors-see-listin
- g-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261107T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+UID:the-army-the-navy|the-kessler-dallas|8-00-pm-2026-11-07@letsdoitdallas.
+ com
+DTSTAMP:20261108T020000Z
+DTSTART:20261108T020000Z
+DTEND:20261108T050000Z
 SUMMARY:The Army\, The Navy
-LOCATION:The Kessler Theater · Dallas
+LOCATION:The Kessler · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-07&e=the-army-the-navy%7Cthe-k
- essler-theater-oak-cliff-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ essler-dallas%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT

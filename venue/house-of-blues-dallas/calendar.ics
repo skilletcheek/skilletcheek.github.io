@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:band-maid-world-tour-2026|house-of-blues-dallas-dallas|7-00-pm-2026-10-
- 09@letsdoitdallas.com
-DTSTAMP:20261010T000000Z
-DTSTART:20261010T000000Z
-DTEND:20261010T030000Z
-SUMMARY:Band-Maid World Tour 2026
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-09&e=band-maid-world-tour-2026
- %7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:akeem-ali-the-texture-tour|house-of-blues-dallas-dallas|7-00-pm-2026-10
  -10@letsdoitdallas.com
 DTSTAMP:20261011T000000Z
@@ -292,5 +279,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=ub40-the-unstoppable-tour
  %7Chouse-of-blues-dallas-dallas%7C7-00-pm
 DESCRIPTION:Reggae event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dance-now|house-of-blues-dallas-dallas|7-00-pm-2026-11-07@letsdoitdalla
+ s.com
+DTSTAMP:20261108T010000Z
+DTSTART:20261108T010000Z
+DTEND:20261108T040000Z
+SUMMARY:Dance Now
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=dance-now%7Chouse-of-blue
+ s-dallas-dallas%7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/house-of-blues-dallas/
 END:VEVENT
 END:VCALENDAR
