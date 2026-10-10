@@ -148,6 +148,10 @@ SOCIAL = (("https://www.instagram.com/letsdoitdallas", "Instagram"),
           ("https://www.facebook.com/letsdoitdallas", "Facebook"))
 PRESS_FILE = ROOT / "press.json"
 EVENTBRITE_FILE = ROOT / "eventbrite.json"
+# Hand-curated rows from /submit/, loaded by the browser as its own source.
+# Read-only here: load_curated() feeds them to the page writers and NEVER
+# writes them into live-events.json, which the browser also loads.
+CURATED_FILE = ROOT / "events.json"
 
 # Keep in sync with DISTRICTS in js/data.js (slug, label, match substrings)
 DISTRICTS = [
@@ -4644,6 +4648,84 @@ def prune_eventbrite(start) -> None:
              if not keep else ""))
 
 
+def _curated_cost(v):
+    """Mirror of _fromRows() in js/sources.js: "" and null mean unknown,
+    anything else is a number. One deliberate divergence: a non-numeric
+    string ("call us") is NaN to the browser's Number() and None here, since
+    NaN would only render as "$NaN" and serialise as invalid JSON."""
+    if v is None or v == "":
+        return None
+    try:
+        n = float(v)
+    except (TypeError, ValueError):
+        return None
+    return int(n) if n.is_integer() else n
+
+
+def load_curated(start, end) -> list:
+    """events.json rows inside the build window, shaped like fetched rows.
+
+    Until 2026-10-10 nothing in this file read events.json at all. The
+    browser loads it as its own source, so a submitted event appeared on the
+    homepage -- but /tonight/, /this-weekend/, /free-events/, the district,
+    city and venue pages, feed.xml and every calendar.ics are built here from
+    the fetched rows only, so every /submit/ event was missing from all of
+    them. That is the part of the site a crawler and a calendar subscriber
+    actually see, and the part a submitter was being emailed was "live".
+
+    These rows go to the PAGE WRITERS only, never into live-events.json: the
+    browser already loads events.json directly, and writing them into both
+    would hand every visitor the same rows twice for dedupe to clean up.
+
+    Field aliases mirror _fromRows() in js/sources.js (category/cat,
+    description/desc, date/dateISO) so a row the homepage accepts is a row the
+    hub pages accept. No is_dfw_city() gate: these were vetted by a person,
+    which is the whole difference from a feed.
+
+    A hand-edited file is exactly where typos land, so damage is contained
+    the same way main() contains a malformed fetched row: a bad row is
+    dropped loudly, and an unparseable FILE becomes a source fault --
+    `sourcecheck` turns the job red after the commit. That is the right
+    severity: sources.js cannot parse it either, so every curated event has
+    also just vanished from the homepage.
+    """
+    if not CURATED_FILE.exists():
+        return []
+    try:
+        raw = json.loads(CURATED_FILE.read_text())
+        if not isinstance(raw, list):
+            raise ValueError("top level is not a list")
+    except (OSError, ValueError) as exc:
+        _SOURCE_FAULTS.append(f"events.json: unreadable ({exc}) -- every "
+                              f"curated event is missing from the site")
+        print(f"curated: events.json unreadable: {exc}", file=sys.stderr)
+        return []
+
+    lo, hi = start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
+    out = []
+    for r in raw:
+        if not isinstance(r, dict):
+            continue
+        date = str(r.get("date") or r.get("dateISO") or "")
+        if not r.get("name") or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date):
+            print(f"DROPPED curated row {r.get('name')!r}: "
+                  f"missing name or malformed date {date!r}", file=sys.stderr)
+            continue
+        if not (lo <= date <= hi):
+            continue
+        out.append(row(
+            r["name"],
+            str(r.get("category") or r.get("cat") or "festival").lower(),
+            r.get("area"), date, r.get("time"),
+            _curated_cost(r.get("cost")),
+            r.get("description") or r.get("desc"),
+            r.get("url"), r.get("image"), r.get("organizer"),
+        ))
+    print(f"curated (events.json): {len(out)} of {len(raw)} rows in the "
+          f"{lo}..{hi} window")
+    return out
+
+
 def main():
     now = datetime.now(timezone.utc)
     start = now.replace(hour=0, minute=0, second=0, microsecond=0)
@@ -4726,13 +4808,24 @@ def main():
     OUT_FILE.write_text(json.dumps(unique, indent=1, ensure_ascii=False) + "\n")
     print(f"wrote {len(unique)} events -> {OUT_FILE.name}")
 
+    # Before check_source_health(), which reads _SOURCE_FAULTS: an unreadable
+    # events.json has to land in this run's alarms, not next run's.
+    # Deliberately AFTER live-events.json is written -- see load_curated().
+    curated = load_curated(start, end)
+
     # After the write, so a source alarm never costs the site its refresh --
     # the run still publishes, and `sourcecheck` turns the job red afterwards.
     check_source_health(source_counts)
 
     PRESS_FILE.write_text(json.dumps(fetch_press(), indent=1, ensure_ascii=False) + "\n")
     prune_eventbrite(start)
-    write_hubs(unique)
+    # Curated FIRST: dedupe() keeps the first occurrence, and loadLiveEvents()
+    # in js/sources.js loads events.json before live-events.json, so the
+    # homepage keeps the curated row of any pair. The hub pages have to keep
+    # the same one or the two layers disagree on which title, time and link
+    # an event has -- and the ?e= deep link emailed to the submitter is built
+    # from exactly those fields.
+    write_hubs(dedupe(curated + unique))
 
 
 if __name__ == "__main__":

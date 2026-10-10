@@ -32,6 +32,7 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
     scripts/fetch_events.py the nightly aggregator (also generates pages)
     scripts/feeds.json      DATA: which feeds/venues/artists to pull
     scripts/test_source_health.py  hand-run: `python3` it, no deps, no network
+    scripts/test_curated.py        hand-run: same; covers load_curated()
     scripts/test_dedupe.py         hand-run: same, for dedupe()
     scripts/notify_submitter.py  hand-run: "your event is live" mail
     scripts/venue_outreach.py    hand-run: "we built you a page" mail
@@ -580,6 +581,43 @@ green on the job, which is the visibility this deserves and no more.
 `/submit/` renders from it; the modal in `index.html` is hand-written to
 match, and `_check_modal_drift()` warns during the nightly build when they
 diverge. Add a field in both places.
+
+### Where a submission shows up
+
+An accepted submission is a row appended to **`events.json`** (hand-edited,
+not generated). It reaches the site by two paths, on two schedules:
+
+- **The homepage, on the next Pages deploy** — `js/sources.js` loads
+  `events.json` as its own browser source (`source: "json"`).
+- **Every generated page, on the next nightly run** — `/tonight/`,
+  `/this-weekend/`, `/free-events/`, district/city/venue pages, `feed.xml` and
+  every `calendar.ics`, via `load_curated()`. Until 2026-10-10 nothing in
+  `fetch_events.py` read `events.json` at all, so every submission was missing
+  from all of those while its submitter was being emailed that it was "live".
+
+`load_curated()` hands those rows **to the page writers only, never to
+`live-events.json`** — the browser already loads `events.json` directly, and
+both files would give every visitor each row twice. It is merged **curated
+first**, because `dedupe()` keeps the first occurrence and `loadLiveEvents()`
+loads `events.json` before `live-events.json`. Reverse it and the two layers
+keep different rows of a duplicate pair, with different titles, times and
+`?e=` links. Its field aliases (`cat`, `desc`, `dateISO`) mirror `_fromRows()`
+in `js/sources.js`. A malformed row is dropped loudly. An **unparseable file**
+is a source fault that turns the job red via `sourcecheck`, because the
+homepage cannot parse it either. `scripts/test_curated.py` covers all of it.
+
+Side effect, and a correct one: curated rows count toward
+`VENUE_MIN_EVENTS`, so the three ArmeniaFest rows gave St. Sarkis Armenian
+Church a venue page.
+
+**A hand-entered price is exact; a feed price is a floor.** Ticketmaster's
+`priceRanges.min`, SeatGeek's `lowest_price` and dallasites101's "lowest
+tier" are all starting prices, so `js/app.js` renders them "$50+". A
+submitter's $50 is just $50. `HAND_ENTERED` in `js/app.js` names the
+person-typed sources (`curated`, `json`, `sheet`, `sponsored`), and
+`priceText()` leaves the "+" off those. The same set already defined
+HIDDEN GEMS, which now reads it instead of carrying its own copy. The
+generated hub pages show no price, so this has no Python half.
 
 ## Pinterest board
 
