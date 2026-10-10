@@ -40,22 +40,6 @@
   "image": null
  },
  {
-  "name": "40+ Double Dutch",
-  "category": "family",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-10-10",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=17485",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
- },
- {
   "name": "After School Special: Improv Club",
   "category": "arts",
   "area": "Big Laugh Comedy Club – Fort Worth, 604 Main St, Suite 100, Fort Worth, TX, 76102, United States",
@@ -78,22 +62,6 @@
   "description": "Hip-Hop/Rap event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/akeem-ali-the-texture-tour-dallas-texas-10-10-2026/event/0C00647EE9A4BA59",
   "image": "https://s1.ticketm.net/dam/a/93b/9e615fed-37d3-4328-990c-7183ae96993b_RETINA_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Animal Encounter",
-  "category": "family",
-  "area": "Dogwood Canyon Audubon Center, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-10-10",
-  "time": "11:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://tickets.audubon.org/events/56ec3a76-777d-9db1-e515-63212697d19e",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
  },
  {
   "name": "Anything Goes presented by Garland Civic Theatre",
@@ -136,22 +104,6 @@
   "image": null
  },
  {
-  "name": "Block Builders Club",
-  "category": "family",
-  "area": "Lancaster Veterans Memorial Library, 1600 Veterans Memorial Parkway, Lancaster",
-  "city": "Lancaster",
-  "date": "2026-10-10",
-  "time": "11:30 AM",
-  "cost": null,
-  "description": "Where creativity meets construction! October 10, 2026 11:30 AM - 12:30 PM Lancaster Veterans Memorial Library 1600 Veterans Memorial ParkwayLancaster, TX 75146 https://www.lancaster-tx.com/Calendar.aspx?EID=8146/639151463420000000",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8146",
-  "image": null,
-  "organizer": {
-   "name": "City of Lancaster",
-   "url": "https://lancaster-tx.com/"
-  }
- },
- {
   "name": "Brooks & Dunn: Neon Moon Tour 2026",
   "category": "music",
   "area": "Dickies Arena, Fort Worth",
@@ -185,6 +137,18 @@
   "cost": null,
   "description": "Jim Milan’s Bucket List Jazz Band is an eleven-piece jazz band that plays the music of Matty Matlock, Bob Crosby, Count Basie and others.  The band has been a fixture in the DFW jazz scene for the past 14 years.  Their arrangements are clever, with a Dixieland vibe, enjoyable, en",
   "url": "https://whatsupfortworth.com/event/bucket-list-jazz-band-6/",
+  "image": null
+ },
+ {
+  "name": "Bucket List Jazz Band",
+  "category": "music",
+  "area": "Scat Jazz Lounge, 111 W 4th St, Fort Worth, 76102, United States",
+  "city": "Fort Worth",
+  "date": "2026-10-10",
+  "time": "10:00 PM",
+  "cost": null,
+  "description": "Jim Milan’s Bucket List Jazz Band is an eleven-piece jazz band that plays the music of Matty Matlock, Bob Crosby, Count Basie and others.  The band has been a fixture in the DFW jazz scene for the past 14 years.  Their arrangements are clever, with a Dixieland vibe, enjoyable, en",
+  "url": "https://whatsupfortworth.com/event/bucket-list-jazz-band-5/",
   "image": null
  },
  {
@@ -376,38 +340,6 @@
   "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Elite Fit Camp",
-  "category": "family",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-10-10",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=18018",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
- },
- {
-  "name": "Envision Dance Class",
-  "category": "arts",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-10-10",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "This Adult Movement Class blends modern, ballet, and social dancing to build strength, confidence, and expressive movement! Perfect for beginners and returning dancers! October 10, 2026 12:00 PM - 01:15 PM 310 E. Parkerville RoadCedar Hill, TX 75104 https://www.cedarhilltx.com/Ca",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=17261",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
- },
- {
   "name": "FWBG Family Fun Run",
   "category": "outdoors",
   "area": "Fort Worth Botanic Garden, Fort Worth",
@@ -430,38 +362,6 @@
   "description": "Magic & Illusion event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/family-magic-comedy-for-addison-improv-tickets/14353814",
   "image": "https://s1.ticketm.net/dam/c/049/f462b273-38a7-4d3d-b31a-af1b1e7c3049_105611_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Family Story Time",
-  "category": "family",
-  "area": "Lancaster Veterans Memorial Library, 1600 Veterans Memorial Parkway, Lancaster",
-  "city": "Lancaster",
-  "date": "2026-10-10",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=7806",
-  "image": null,
-  "organizer": {
-   "name": "City of Lancaster",
-   "url": "https://lancaster-tx.com/"
-  }
- },
- {
-  "name": "Fire Safety Week",
-  "category": "family",
-  "area": "West Garland Library, Garland",
-  "city": "Garland",
-  "date": "2026-10-10",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "10:00 a.m.; Stop, drop and roll with West! Join us for a fun-filled Fire Safety Week featuring a real fire truck “Touch-a-Truck” experience, an exciting firefighter-led storytime, and hands-on crafts and activities. It’s the perfect mix of fun and learning. You don’t want to miss",
-  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13337",
-  "image": null,
-  "organizer": {
-   "name": "City of Garland",
-   "url": "https://garlandtx.gov/"
-  }
  },
  {
   "name": "Forces at Play",
@@ -498,22 +398,6 @@
   "description": "Grapevine Main LIVE! is back and bigger than ever with an 8-week Spring Music Series sure to hit all the right notes! Guests can enjoy food from eight chef-inspired global kitchens as well as specialty crafted cocktails and performances by some of the best local artists and bands",
   "url": "https://whatsupfortworth.com/event/grapevine-main-live-2/2026-10-10/",
   "image": null
- },
- {
-  "name": "Heritage How-To: Collage with Zahra Jahanyfard",
-  "category": "family",
-  "area": "6455 Page Street, Frisco",
-  "city": "Frisco",
-  "date": "2026-10-10",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.friscotexas.gov/Calendar.aspx?EID=7709",
-  "image": null,
-  "organizer": {
-   "name": "City of Frisco",
-   "url": "https://friscotexas.gov/"
-  }
  },
  {
   "name": "Houndmouth & MARFA",
@@ -612,20 +496,16 @@
   "image": "https://s1.ticketm.net/dam/a/6a1/a9a781c8-d958-4578-8d18-367991ce86a1_RETINA_PORTRAIT_16_9.jpg"
  },
  {
-  "name": "Lunch Circuit",
-  "category": "family",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
+  "name": "Main Street Mayhem",
+  "category": "arts",
+  "area": "Big Laugh Comedy Club – Fort Worth, 604 Main St, Suite 100, Fort Worth, TX, 76102, United States",
+  "city": "Fort Worth",
   "date": "2026-10-10",
-  "time": "12:00 PM",
+  "time": "10:00 PM",
   "cost": null,
-  "description": "",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=18318",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
+  "description": "Main Street Mayhem  Downtown Fort Worth’s Wildest Night of Comedy  Main Street runs through the heart of Fort Worth, and on show nights, Big Laugh is the loudest room on it.  Main Street Mayhem is exactly what it sounds like, a high-energy, no-rules stand-up showcase built for th",
+  "url": "https://whatsupfortworth.com/event/main-street-mayhem-2/",
+  "image": null
  },
  {
   "name": "Mariachi El Bronx",
@@ -688,22 +568,6 @@
   "image": null
  },
  {
-  "name": "Nature Adventure",
-  "category": "outdoors",
-  "area": "Frisco Commons Park, Frisco",
-  "city": "Frisco",
-  "date": "2026-10-10",
-  "time": "09:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.friscotexas.gov/Calendar.aspx?EID=7131",
-  "image": null,
-  "organizer": {
-   "name": "City of Frisco",
-   "url": "https://friscotexas.gov/"
-  }
- },
- {
   "name": "New Mexico Ice Wolves at Lone Star Brahmas",
   "category": "sports",
   "area": "NYTEX Sports Centre, North Richland Hills",
@@ -734,18 +598,6 @@
    "name": "North Texas Mean Green",
    "url": "https://meangreensports.com"
   }
- },
- {
-  "name": "Oklahoma Sooners Football vs. Texas Longhorns Football",
-  "category": "sports",
-  "area": "Cotton Bowl, Dallas",
-  "city": "Dallas",
-  "date": "2026-10-10",
-  "time": "2:30 PM",
-  "cost": null,
-  "description": "Football event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P40V",
-  "image": "https://s1.ticketm.net/dam/a/5b8/55f13ad1-5c22-46a9-867d-877fa288d5b8_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
   "name": "One Night in Memphis",
@@ -841,18 +693,6 @@
   "area": "Casa Manana, Fort Worth",
   "city": "Fort Worth",
   "date": "2026-10-10",
-  "time": "1:00 PM",
-  "cost": null,
-  "description": "family event via SeatGeek.",
-  "url": "https://seatgeek.com/rapunzel-rapunzel-a-very-hairy-fairy-tale-tickets/family/2026-10-10-1-pm/18338111",
-  "image": null
- },
- {
-  "name": "Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth",
-  "category": "arts",
-  "area": "Casa Manana, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-10-10",
   "time": "5:00 PM",
   "cost": null,
   "description": "family event via SeatGeek.",
@@ -876,48 +716,16 @@
   }
  },
  {
-  "name": "Red River Showdown",
-  "category": "music",
-  "area": "Texas Live!, 1650 East Randol Mill Road, Arlington, 76011, United States",
-  "city": "Arlington",
+  "name": "Red River Rivalry: Oklahoma vs #1 Texas",
+  "category": "sports",
+  "area": "Cotton Bowl Stadium, Dallas",
+  "city": "Dallas",
   "date": "2026-10-10",
   "time": "2:30 PM",
   "cost": null,
-  "description": "Big rivalries in college football deserve big game day atmosphere.",
-  "url": "https://whatsupfortworth.com/event/red-river-showdown/",
+  "description": "ncaa football event via SeatGeek.",
+  "url": "https://seatgeek.com/red-river-rivalry-tickets/ncaa-football/2026-10-10-2-30-pm/17956673",
   "image": null
- },
- {
-  "name": "Saturday Music Series at Frisco Fresh Market",
-  "category": "market",
-  "area": "9215 John W. Elliott Dr, Frisco",
-  "city": "Frisco",
-  "date": "2026-10-10",
-  "time": "11:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.friscotexas.gov/Calendar.aspx?EID=7753",
-  "image": null,
-  "organizer": {
-   "name": "City of Frisco",
-   "url": "https://friscotexas.gov/"
-  }
- },
- {
-  "name": "Second Saturday: Fall Fun at Heritage",
-  "category": "family",
-  "area": "6455 Page Street, Frisco",
-  "city": "Frisco",
-  "date": "2026-10-10",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.friscotexas.gov/Calendar.aspx?EID=7439",
-  "image": null,
-  "organizer": {
-   "name": "City of Frisco",
-   "url": "https://friscotexas.gov/"
-  }
  },
  {
   "name": "Senior Recital: Eva Gomez, horn",
@@ -956,22 +764,6 @@
   "image": null
  },
  {
-  "name": "Sparkz Cheerleading",
-  "category": "outdoors",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-10-10",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=18462",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
- },
- {
   "name": "Stalefish, Fiction Love, Rattmaker",
   "category": "music",
   "area": "Three Links Deep Ellum, Dallas",
@@ -984,46 +776,6 @@
   "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_16_9.jpg"
  },
  {
-  "name": "Stars of Texas: Saturday Pass (10/10/26)",
-  "category": "music",
-  "area": "Texas Motorplex, Ennis",
-  "city": "Ennis",
-  "date": "2026-10-10",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "Other event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv4qV",
-  "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Stitchcraft Circle (18+)",
-  "category": "arts",
-  "area": "Grapevine",
-  "city": "Grapevine",
-  "date": "2026-10-10",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "Help us make quilts for the Grapevine Animal Shelter & local hospital or bring your own stitching project. Adults only (18+), Library Card & Registration Required to attend. October 10, 2026 10:00 AM - 01:00 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17454",
-  "image": null,
-  "organizer": {
-   "name": "City of Grapevine",
-   "url": "https://grapevinetexas.gov/"
-  }
- },
- {
-  "name": "Stockyards Championship Rodeo",
-  "category": "sports",
-  "area": "Cowtown Coliseum, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-10-10",
-  "time": "1:30 PM",
-  "cost": null,
-  "description": "Miscellaneous event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OY4b",
-  "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
   "name": "Stockyards Championship Rodeo",
   "category": "sports",
   "area": "Cowtown Coliseum, Fort Worth",
@@ -1034,6 +786,18 @@
   "description": "Miscellaneous event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OY4_",
   "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Stockyards Championship Rodeo - Matinee",
+  "category": "sports",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-10-10",
+  "time": "1:30 PM",
+  "cost": null,
+  "description": "rodeo event via SeatGeek.",
+  "url": "https://seatgeek.com/stockyards-championship-rodeo-tickets/rodeo/2026-10-10-1-30-pm/18063655",
+  "image": null
  },
  {
   "name": "Tea Around Town® Dallas",
@@ -1057,18 +821,6 @@
   "cost": null,
   "description": "Overview Mozart cobbled together his “Haffner” Symphony from music he wrote to celebrate the young Sigmund Haffner’s ascension to nobility, instructing musicians to play as “as fast as possible” in the thrilling finale. After the symphony, FWSO music director Robert Spano conduct",
   "url": "https://whatsupfortworth.com/event/the-classical-style-2/",
-  "image": null
- },
- {
-  "name": "The William Gammon Henry Concerto Competition: 2026 Piano Prelims",
-  "category": "music",
-  "area": "Recital Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-10",
-  "time": "2:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/the-william-gammon-henry-concerto-competition-2026-piano-prelims",
   "image": null
  },
  {
@@ -1450,18 +1202,6 @@
   "description": "Alternative event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/greywind-waiting-4-april-rain-three-links-deep-ellum-tickets/14192654",
   "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Guest Artist Recital: Yoshiyuki Ishikawa, bassoon",
-  "category": "music",
-  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-11",
-  "time": "2:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/guest-artist-recital-yoshiyuki-ishikawa-bassoon",
-  "image": null
  },
  {
   "name": "Hurricane Wisdom",
@@ -2000,6 +1740,30 @@
   }
  },
  {
+  "name": "Chamber Music Concert",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-12",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/chamber-music-concert26",
+  "image": null
+ },
+ {
+  "name": "Chamber Music Concert",
+  "category": "music",
+  "area": "Recital Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-12",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/chamber-music-concert262",
+  "image": null
+ },
+ {
   "name": "Entwined Minds Book Club for Adults",
   "category": "arts",
   "area": "1201 Municipal Way, Grapevine",
@@ -2496,18 +2260,6 @@
   }
  },
  {
-  "name": "Doctoral Lecture Recital: Esther Zhang, piano",
-  "category": "music",
-  "area": "Recital Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-13",
-  "time": "7:30 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/doctoral-lecture-recital-esther-zhang-piano",
-  "image": null
- },
- {
   "name": "EPIK HIGH 3.0 NORTH AMERICAN TOUR",
   "category": "music",
   "area": "Granada Theater - TX, Dallas",
@@ -2558,6 +2310,18 @@
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
   }
+ },
+ {
+  "name": "Kappa Kappa Psi Halloween Recital",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-13",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/kappa-kappa-psi-halloween-recital-2666",
+  "image": null
  },
  {
   "name": "Kids Jam ages 5-12",
@@ -2774,6 +2538,18 @@
   "description": "Comedy event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/test-your-mic-arlington-improv-tickets/15045353?REFERRAL_ID=tmfeed",
   "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "The William Gammon Henry Concerto Competition: 2026 Finals",
+  "category": "music",
+  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
+  "city": "Denton",
+  "date": "2026-10-13",
+  "time": "6:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/concerto-competition-finals-fall-2026",
+  "image": null
  },
  {
   "name": "Tiny Tots Sensory Adventures",
@@ -3008,18 +2784,6 @@
   "image": "https://s1.ticketm.net/dam/a/204/1cf0a6ef-fc13-449d-a78a-210f4ddbd204_1486961_RETINA_PORTRAIT_16_9.jpg"
  },
  {
-  "name": "Concert Orchestra",
-  "category": "music",
-  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
-  "city": "Denton",
-  "date": "2026-10-14",
-  "time": "7:30 PM",
-  "cost": null,
-  "description": "Clay Couturiaux, conductor  SaiSai Ding, violoncello (from the Dallas Symphony Orchestra)  Daniel Bubeck, countertenor     Barber First Essay for Orchestra, Op. 12  Bernstein Chichester Psalms  -intermission-  Dvořák Concerto for Violoncello and Orchestra in B Minor, Op. 104",
-  "url": "https://calendar.unt.edu/event/concert-orchestra-9767",
-  "image": null
- },
- {
   "name": "Crochet Corner In-Person (Ages 13+)",
   "category": "arts",
   "area": "Central Library, Garland",
@@ -3052,16 +2816,16 @@
   }
  },
  {
-  "name": "Dermot Kennedy: The Weight of the Woods Tour",
+  "name": "Dermot Kennedy with Jonah Kagen",
   "category": "music",
   "area": "The Pavilion at Toyota Music Factory, Irving",
   "city": "Irving",
   "date": "2026-10-14",
-  "time": "7:30 PM",
+  "time": "8:00 PM",
   "cost": null,
-  "description": "Rock event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-irving-texas-10-14-2026/event/0C00647992CC6674",
-  "image": "https://s1.ticketm.net/dam/a/970/92588748-6362-4a68-886b-71f55bee6970_TABLET_LANDSCAPE_16_9.jpg"
+  "description": "concert event via SeatGeek.",
+  "url": "https://seatgeek.com/dermot-kennedy-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-10-14-8-pm/concert/18147765",
+  "image": null
  },
  {
   "name": "Donizetti's The Elixir of Love - Dallas",
@@ -3644,18 +3408,6 @@
   }
  },
  {
-  "name": "Chamber Music Concert",
-  "category": "music",
-  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-15",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/chamber-music-concert263",
-  "image": null
- },
- {
   "name": "Community First: Safe, Welcoming Neighborhoods with the Garland Code Department (Ages 18+)",
   "category": "arts",
   "area": "West Garland Library, Garland",
@@ -3846,6 +3598,18 @@
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
   }
+ },
+ {
+  "name": "Guest Artist Recital: Ray Furuta, flute",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-15",
+  "time": "6:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/guest-artist-recital-ray-furuta-flute",
+  "image": null
  },
  {
   "name": "Illuminate: Magic & Mayhem",
@@ -5782,6 +5546,18 @@
   "description": "Rock event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/govt-mule-and-ziggy-marley-irving-texas-10-17-2026/event/0C0064BB92F38129",
   "image": "https://s1.ticketm.net/dam/e/ad8/1dd24285-e681-4671-a2b8-6c94ecb7ead8_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "Guest Artist Recital: Andrew Wright, piano",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-17",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program  Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/guest-artist-recital-andrew-wright-piano",
+  "image": null
  },
  {
   "name": "Jesse Baez",
@@ -11550,6 +11326,18 @@
   "image": null
  },
  {
+  "name": "Senior Recital: Emma Berg, oboe",
+  "category": "music",
+  "area": "Recital Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-25",
+  "time": "4:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/senior-recital-emma-berg-oboe",
+  "image": null
+ },
+ {
   "name": "TCU Horned Frogs Womens Soccer vs. Kansas Jayhawks Womens Soccer",
   "category": "sports",
   "area": "Garvey-Rosenthal Soccer Stadium, Fort Worth",
@@ -11782,6 +11570,18 @@
   "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "Senior Recital: Landon Murr, bassoon",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-27",
+  "time": "6:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/senior-recital-landon-murr-bassoon",
+  "image": null
+ },
+ {
   "name": "Sorry Ghost",
   "category": "music",
   "area": "Three Links Deep Ellum, Dallas",
@@ -11806,6 +11606,18 @@
   "image": [
    "https://speeddatingdallas.com/images/twenty04-speed-dating-reviews.jpg"
   ]
+ },
+ {
+  "name": "The Cabinet of Dr. Caligari: Halloween Silent Movie and Improvised Organ",
+  "category": "music",
+  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
+  "city": "Denton",
+  "date": "2026-10-27",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "Dr. Megan Bryan and guest organist Todd Wilson will lead a lecture beginning at 7pm discussing the period from which the film, The Cabinet of Dr. Caligari, comes—German Expressionism—and the history of improvised organ accompaniment for silent films.  A costume contest will follo",
+  "url": "https://calendar.unt.edu/event/the-cabinet-of-dr-caligari-halloween-silent-movie-and-improvised-organ",
+  "image": null
  },
  {
   "name": "Trombone Consortium Concert",
@@ -12628,6 +12440,18 @@
   "image": null
  },
  {
+  "name": "UNT Symphony Orchestra Pops Concert: The Music of John Williams",
+  "category": "music",
+  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
+  "city": "Denton",
+  "date": "2026-10-30",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream tickets available through the College of Music box office.     Patron assistance carts will be available",
+  "url": "https://calendar.unt.edu/event/symphony-orchestra20",
+  "image": null
+ },
+ {
   "name": "Uforia Latino Mix Live",
   "category": "music",
   "area": "Dos Equis Pavilion, Dallas",
@@ -12743,8 +12567,8 @@
   "date": "2026-10-31",
   "time": "5:00 PM",
   "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/doctoral-recital-eduardo-lopez-guitar",
+  "description": "Important Links and Information      Program  Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/copy-of-doctoral-recital-eduardo-lopez-guitar",
   "image": null
  },
  {
@@ -12806,6 +12630,18 @@
   "description": "Hockey event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/fifth-third-garage-dallas-stars-v-dallas-texas-10-31-2026/event/0C0064FBB7B29C10",
   "image": "https://s1.ticketm.net/dam/a/8e2/21595241-e1e4-436b-b8c1-413f429288e2_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "Faculty Recital: Cynthia Roberts, violin, and Malcolm Matthews, harpsichord",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-31",
+  "time": "12:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.     This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/faculty-recital-cynthia-roberts-violin-and-malcolm-matthews-harpsichord",
+  "image": null
  },
  {
   "name": "Family Magic & Comedy for All Ages",
@@ -13058,7 +12894,7 @@
   "city": "Dallas",
   "date": "2026-10-31",
   "time": "Doors — see listing",
-  "cost": 0.0,
+  "cost": 19.0,
   "description": "Live at Poor David's Pub.",
   "url": "http://www.prekindle.com/event/37252-vince-vance-halloween-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527948989872611"
@@ -13114,6 +12950,18 @@
    "name": "Dallas Cowboys",
    "url": "https://www.dallascowboys.com"
   }
+ },
+ {
+  "name": "Doctoral Recital: Isabellé Carson, saxophone",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-11-01",
+  "time": "12:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/doctoral-recital-isabelle-carson-saxophone",
+  "image": null
  },
  {
   "name": "ESTEMAN & DANIELA SPALLA - AMORIO USA TOUR",
@@ -13210,18 +13058,6 @@
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ7vV",
   "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Percussion Players and Percussion Group",
-  "category": "music",
-  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-11-01",
-  "time": "3:30 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/night-of-percussion26",
-  "image": null
  },
  {
   "name": "RNB X Live in Dallas",
@@ -13558,6 +13394,18 @@
   "description": "Country event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J3_7",
   "image": "https://s1.ticketm.net/dam/a/9f3/bf944ee4-4120-402d-a1e2-39ffebb009f3_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Senior Recital: Ethan Matous, Voice",
+  "category": "music",
+  "area": "Recital Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-11-03",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/senior-recital-ethan-matous-voice",
+  "image": null
  },
  {
   "name": "Slow Pulp",
@@ -13994,6 +13842,18 @@
   "description": "Theatre event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/buena-vista-social-club-touring-dallas-texas-11-06-2026/event/0C0064BAD934BBED",
   "image": "https://s1.ticketm.net/dam/a/8cf/25c443a0-c9bf-4043-8975-7a74db6578cf_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "DMA Recital: Jinkai Li, saxophone",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-11-06",
+  "time": "5:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program   Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/copy-of-dma-recital-jinkai-li-saxophone",
+  "image": null
  },
  {
   "name": "Dallas Mavericks vs. Utah Jazz",
@@ -14848,18 +14708,6 @@
   "image": null
  },
  {
-  "name": "Doctoral Recital: Jiaxin Ou, collaborative piano",
-  "category": "music",
-  "area": "Recital Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-11-08",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/copy-of-doctoral-recital-jiaxin-ou-collaborative-piano",
-  "image": null
- },
- {
   "name": "Flute Choir Recital Fall 2026",
   "category": "music",
   "area": "Recital Hall at the Music Building, Denton",
@@ -14869,6 +14717,18 @@
   "cost": null,
   "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.     This event is free and open to the public with general seating.",
   "url": "https://calendar.unt.edu/event/copy-of-flute-choir-recital",
+  "image": null
+ },
+ {
+  "name": "Graduate Artist Recital: Suji Chang, oboe",
+  "category": "music",
+  "area": "Recital Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-11-08",
+  "time": "6:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/graduate-artist-recital-suji-chang-oboe",
   "image": null
  },
  {
@@ -14994,6 +14854,18 @@
   "description": "Live at Sundown at Granada.",
   "url": "http://www.prekindle.com/event/19748-geeks-who-drink-free-trivia-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527948997586643"
+ },
+ {
+  "name": "Doctoral Recital: Brady Callicott, tuba",
+  "category": "music",
+  "area": "Recital Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-11-09",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/doctoral-recital-brady-callicott-tuba-2361",
+  "image": null
  },
  {
   "name": "Two & Three O'Clock Lab Bands Fall 2026 Concert",

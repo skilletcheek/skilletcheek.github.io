@@ -11,23 +11,24 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:concert-orchestra|winspear-performance-hall-at-the-murchison-performing
- -arts-center-denton|7-30-pm-2026-10-14@letsdoitdallas.com
-DTSTAMP:20261015T003000Z
-DTSTART:20261015T003000Z
-DTEND:20261015T033000Z
-SUMMARY:Concert Orchestra
+UID:the-william-gammon-henry-concerto-competition-2026-finals|winspear-perf
+ ormance-hall-at-the-murchison-performing-arts-center-denton|6-00-pm-2026-1
+ 0-13@letsdoitdallas.com
+DTSTAMP:20261013T230000Z
+DTSTART:20261013T230000Z
+DTEND:20261014T020000Z
+SUMMARY:The William Gammon Henry Concerto Competition: 2026 Finals
 LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
  · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=concert-orchestra%7Cwinsp
- ear-performance-hall-at-the-murchison-performing-arts-center-denton%7C7-30
- -pm
-DESCRIPTION:Clay Couturiaux\, conductor  SaiSai Ding\, violoncello (from th
- e Dallas Symphony Orchestra)  Daniel Bubeck\, countertenor     Barber Firs
- t Essay for Orchestra\, Op. 12  Bernstein Chichester Psalms  -intermission
- -  Dvořák Concerto for Violoncello and Orchestra in B Minor\, Op. 104 
- — More: https://letsdoitdallas.com/venue/winspear-performance-hall-at-th
- e-murchison-performing-arts-c/
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=the-william-gammon-henry-
+ concerto-competition-2026-finals%7Cwinspear-performance-hall-at-the-murchi
+ son-performing-arts-center-denton%7C6-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below.      This event is free
+  and open to the public with general seating. — More: https://letsdoitda
+ llas.com/venue/winspear-performance-hall-at-the-murchison-performing-arts-
+ c/
 END:VEVENT
 BEGIN:VEVENT
 UID:wind-orchestra|winspear-performance-hall-at-the-murchison-performing-ar
@@ -63,6 +64,47 @@ DESCRIPTION:“Chacona Amazônica” (1998) – North American Premiere by
  nce James David’s Western United States Premiere     “Konzertmusik fü
  r Blasorche — More: https://letsdoitdallas.com/venue/winspear-performanc
  e-hall-at-the-murchison-performing-arts-c/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-cabinet-of-dr-caligari-halloween-silent-movie-and-improvised-organ|
+ winspear-performance-hall-at-the-murchison-performing-arts-center-denton|7
+ -00-pm-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261028T000000Z
+DTSTART:20261028T000000Z
+DTEND:20261028T030000Z
+SUMMARY:The Cabinet of Dr. Caligari: Halloween Silent Movie and Improvised 
+ Organ
+LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
+ · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=the-cabinet-of-dr-caligar
+ i-halloween-silent-movie-and-improvised-organ%7Cwinspear-performance-hall-
+ at-the-murchison-performing-arts-center-denton%7C7-00-pm
+DESCRIPTION:Dr. Megan Bryan and guest organist Todd Wilson will lead a lect
+ ure beginning at 7pm discussing the period from which the film\, The Cabin
+ et of Dr. Caligari\, comes—German Expressionism—and the history of imp
+ rovised organ accompaniment for silent films.  A costume contest will foll
+ o — More: https://letsdoitdallas.com/venue/winspear-performance-hall-at-
+ the-murchison-performing-arts-c/
+END:VEVENT
+BEGIN:VEVENT
+UID:unt-symphony-orchestra-pops-concert-the-music-of-john-williams|winspear
+ -performance-hall-at-the-murchison-performing-arts-center-denton|8-00-pm-2
+ 026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T010000Z
+DTSTART:20261031T010000Z
+DTEND:20261031T040000Z
+SUMMARY:UNT Symphony Orchestra Pops Concert: The Music of John Williams
+LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
+ · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=unt-symphony-orchestra-po
+ ps-concert-the-music-of-john-williams%7Cwinspear-performance-hall-at-the-m
+ urchison-performing-arts-center-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream tickets available through the Colle
+ ge of Music box office.     Patron assistance carts will be available — 
+ More: https://letsdoitdallas.com/venue/winspear-performance-hall-at-the-mu
+ rchison-performing-arts-c/
 END:VEVENT
 BEGIN:VEVENT
 UID:concert-winds|winspear-performance-hall-at-the-murchison-performing-art

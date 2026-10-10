@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:red-river-showdown|texas-live-1650-east-randol-mill-road-arlington-7601
- 1-united-states|2-30-pm-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261010T193000Z
-DTSTART:20261010T193000Z
-DTEND:20261010T223000Z
-SUMMARY:Red River Showdown
-LOCATION:Texas Live! · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=red-river-showdown%7Ctexa
- s-live-1650-east-randol-mill-road-arlington-76011-united-states%7C2-30-pm
-DESCRIPTION:Big rivalries in college football deserve big game day atmosphe
- re. — More: https://letsdoitdallas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:zainab-johnson|arlington-improv-arlington|6-00-pm-2026-10-10@letsdoitda
  llas.com
 DTSTAMP:20261010T230000Z
