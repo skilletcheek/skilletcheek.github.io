@@ -220,6 +220,16 @@ function locationLabel(a, dLabel) {
    show opened the early show's drawer and its ticket link. */
 const uid = (a) => `${a.name}|${a.area}|${a.time}`.toLowerCase().replace(/[^a-z0-9|]+/g, "-");
 
+/* Rows a person typed in -- data.js ACTIVITIES, SPONSORED, events.json, the
+   sheet -- as opposed to rows a feed reported. The distinction matters for
+   price: every feed cost is a FLOOR (Ticketmaster priceRanges.min, SeatGeek
+   lowest_price, dallasites101's lowest tier), so "$50+" is honest there. A
+   hand-entered cost is what the organizer told us the ticket costs, and the
+   "+" turned a flat $50 submission into "from $50". */
+const HAND_ENTERED = new Set(["curated", "json", "sheet", "sponsored"]);
+const priceText = (a) =>
+  `$${a.cost}${a.cost >= 25 && !HAND_ENTERED.has(a.source) ? "+" : ""}`;
+
 /* How many real events a visitor sees before the unsold-inventory house ad.
    Was 4 (slot 5): the page's own highest-value inventory -- the first screen
    a first-time visitor meets -- was being spent advertising ad space instead
@@ -296,7 +306,7 @@ const VIBES = {
   "solo":       { label: "SOLO EXPLORER", test: (a) => ["arts", "outdoors", "market"].includes(a.cat) },
   "group":      { label: "GROUP OUTING", test: (a) => ["sports", "nightlife", "festival", "food"].includes(a.cat) },
   "next2h":     { label: "IN NEXT 2 HOURS", test: (a) => { if (!isToday(state.date)) return false; const s = parseTimeToMinutes(a.time); const n = nowMins(); return s >= n && s <= n + 120; } },
-  "gems":       { label: "HIDDEN GEMS", test: (a) => ["curated", "json", "sheet", "sponsored"].includes(a.source) && (a.cost == null || a.cost <= 15) },
+  "gems":       { label: "HIDDEN GEMS", test: (a) => HAND_ENTERED.has(a.source) && (a.cost == null || a.cost <= 15) },
 };
 // "+ SHOW" told a visitor there was more, never how much -- eight secondary
 // filters felt like an unknown-length list behind a vague link. Read off the
@@ -425,7 +435,7 @@ function buildVibes() {
 function costBadge(a) {
   if (a.cost === 0) return `<span class="badge free">FREE</span>`;
   if (a.cost == null) return `<span class="badge">TICKETED</span>`;
-  return `<span class="badge">$${a.cost}${a.cost >= 25 ? "+" : ""}</span>`;
+  return `<span class="badge">${priceText(a)}</span>`;
 }
 
 /* Card-footer version: the price chip is the highest-visibility real estate
@@ -443,7 +453,7 @@ function costAction(a) {
   const hasLink = a.url && a.url !== "#";
   // "TICKETED" reads as a static label; "TICKETS" reads as the start of an
   // action -- use whichever one actually matches what the chip does.
-  const priceLabel = a.cost === 0 ? "FREE" : (a.cost == null ? (hasLink ? "TICKETS" : "TICKETED") : `$${a.cost}${a.cost >= 25 ? "+" : ""}`);
+  const priceLabel = a.cost === 0 ? "FREE" : (a.cost == null ? (hasLink ? "TICKETS" : "TICKETED") : priceText(a));
   const label = hasLink ? `${priceLabel} →` : priceLabel;
   const cls = "badge" + (a.cost === 0 ? " free" : "") + (hasLink ? " link" : "");
   if (!hasLink) return `<span class="${cls}">${label}</span>`;
