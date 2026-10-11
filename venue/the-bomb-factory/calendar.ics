@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dylan-scott-16-and-under-with-legal-guardian-|the-bomb-factory-dallas|8
- -00-pm-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261016T010000Z
-DTSTART:20261016T010000Z
-DTEND:20261016T040000Z
-SUMMARY:Dylan Scott (16 and under with legal guardian)
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=dylan-scott-16-and-under-
- with-legal-guardian-%7Cthe-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/the-bomb-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:whethan-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory-da
  llas|9-00-pm-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261017T020000Z

@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fort-worth-symphony-orchestra|bass-performance-hall-fort-worth|2-00-pm-
- 2026-10-11@letsdoitdallas.com
-DTSTAMP:20261011T190000Z
-DTSTART:20261011T190000Z
-DTEND:20261011T220000Z
-SUMMARY:Fort Worth Symphony Orchestra
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=fort-worth-symphony-orche
- stra%7Cbass-performance-hall-fort-worth%7C2-00-pm
-DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
- com/venue/bass-performance-hall/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-classical-style|bass-performance-hall-fort-worth|2-00-pm-2026-10-11
- @letsdoitdallas.com
-DTSTAMP:20261011T190000Z
-DTSTART:20261011T190000Z
-DTEND:20261011T220000Z
-SUMMARY:The Classical Style
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=the-classical-style%7Cbas
- s-performance-hall-fort-worth%7C2-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/bass-performance-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:pat-green|bass-performance-hall-fort-worth|7-30-pm-2026-10-23@letsdoitd
  allas.com
 DTSTAMP:20261024T003000Z

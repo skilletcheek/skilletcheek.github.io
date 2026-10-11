@@ -9,19 +9,20 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:smu-mustangs-womens-volleyball-vs-pittsburgh-panthers-womens-volleyball
- |moody-coliseum-dallas|2-00-pm-2026-10-11@letsdoitdallas.com
-DTSTAMP:20261011T190000Z
-DTSTART:20261011T190000Z
-DTEND:20261011T220000Z
-SUMMARY:SMU Mustangs Womens Volleyball vs. Pittsburgh Panthers Womens Volle
- yball
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=smu-mustangs-womens-volle
- yball-vs-pittsburgh-panthers-womens-volleyball%7Cmoody-coliseum-dallas%7C2
- -00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/moody-coliseum/
+UID:smu-volleyball-vs-pittsburgh|moody-coliseum|1-00-pm-4-00-pm-2026-10-11@
+ letsdoitdallas.com
+DTSTAMP:20261011T180000Z
+DTSTART:20261011T180000Z
+DTEND:20261011T210000Z
+SUMMARY:SMU Volleyball vs. Pittsburgh
+LOCATION:Moody Coliseum
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=smu-volleyball-vs-pittsbu
+ rgh%7Cmoody-coliseum%7C1-00-pm-4-00-pm
+DESCRIPTION:Come out and support SMU Volleyball as the Mustangs take on Pit
+ tsburgh during the 2026 season! The matchup brings two ACC programs togeth
+ er at Moody Coliseum\, with SMU facing Pittsburgh twice this season\, incl
+ uding this home meeting in Dallas. — More: https://letsdoitdallas.com/ve
+ nue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-miami-hurricanes-womens-volleyball|mo
@@ -78,6 +79,21 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=texas-a-m-at-smu%7Cmoody-
  coliseum-dallas%7C1-00-pm
 DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
  allas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:unt-dallas-trailblazers-at-smu-mustangs-womens-basketball-exhibition-|m
+ oody-coliseum-dallas|6-30-pm-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261027T233000Z
+DTSTART:20261027T233000Z
+DTEND:20261028T023000Z
+SUMMARY:UNT Dallas Trailblazers at SMU Mustangs Womens Basketball (Exhibiti
+ on)
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=unt-dallas-trailblazers-a
+ t-smu-mustangs-womens-basketball-exhibition-%7Cmoody-coliseum-dallas%7C6-3
+ 0-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-north-carolina-tar-heels-womens-volle

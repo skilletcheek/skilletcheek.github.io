@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Bomb Factory - Dallas — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at The Bomb Factory - Dallas.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:kylie-cantrall|the-bomb-factory-dallas-dallas|8-00-pm-2026-10-12@letsdo
+ itdallas.com
+DTSTAMP:20261013T010000Z
+DTSTART:20261013T010000Z
+DTEND:20261013T040000Z
+SUMMARY:Kylie Cantrall
+LOCATION:The Bomb Factory - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=kylie-cantrall%7Cthe-bomb
+ -factory-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/the-bomb-factory-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:chiodos-with-hail-the-sun-emery-and-evergreen-terrace|the-bomb-factory-
+ dallas-dallas|7-00-pm-2026-10-13@letsdoitdallas.com
+DTSTAMP:20261014T000000Z
+DTSTART:20261014T000000Z
+DTEND:20261014T030000Z
+SUMMARY:Chiodos with Hail The Sun\, Emery\, and Evergreen Terrace
+LOCATION:The Bomb Factory - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=chiodos-with-hail-the-sun
+ -emery-and-evergreen-terrace%7Cthe-bomb-factory-dallas-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/the-bomb-factory-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dylan-scott|the-bomb-factory-dallas-dallas|8-00-pm-2026-10-15@letsdoitd
+ allas.com
+DTSTAMP:20261016T010000Z
+DTSTART:20261016T010000Z
+DTEND:20261016T040000Z
+SUMMARY:Dylan Scott
+LOCATION:The Bomb Factory - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=dylan-scott%7Cthe-bomb-fa
+ ctory-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/the-bomb-factory-dallas/
+END:VEVENT
+END:VCALENDAR
