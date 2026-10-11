@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:los-parras|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-10-10@lets
- doitdallas.com
-DTSTAMP:20261011T010000Z
-DTSTART:20261011T010000Z
-DTEND:20261011T040000Z
-SUMMARY:Los Parras
-LOCATION:Texas Trust CU Theatre · Grand Prairie
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=los-parras%7Ctexas-trust-
- cu-theatre-grand-prairie%7C8-00-pm
-DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/texas-trust-cu-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:artms|texas-trust-cu-theatre-grand-prairie|7-00-pm-2026-10-13@letsdoitd
  allas.com
 DTSTAMP:20261014T000000Z

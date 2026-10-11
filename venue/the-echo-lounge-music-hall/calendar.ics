@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:do-more-concert-dallas-featuring-dj-cedric-gervais|the-echo-lounge-musi
- c-hall-dallas|7-30-pm-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261011T003000Z
-DTSTART:20261011T003000Z
-DTEND:20261011T033000Z
-SUMMARY:Do More Concert Dallas: Featuring DJ Cedric Gervais
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=do-more-concert-dallas-fe
- aturing-dj-cedric-gervais%7Cthe-echo-lounge-music-hall-dallas%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:arch-enemy-the-black-dahlia-murder-wrath-across-north-america-2026|the-
  echo-lounge-music-hall-dallas|5-00-pm-2026-10-11@letsdoitdallas.com
 DTSTAMP:20261011T220000Z

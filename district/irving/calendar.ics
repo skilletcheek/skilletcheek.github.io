@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jokes-over-brunch|punch-line-irving-irving|2-00-pm-2026-10-10@letsdoitd
- allas.com
-DTSTAMP:20261010T190000Z
-DTSTART:20261010T190000Z
-DTEND:20261010T220000Z
-SUMMARY:Jokes Over Brunch
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=jokes-over-brunch%7Cpunch
- -line-irving-irving%7C2-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:winston-hodges|punch-line-irving-irving|7-00-pm-2026-10-10@letsdoitdall
- as.com
-DTSTAMP:20261011T000000Z
-DTSTART:20261011T000000Z
-DTEND:20261011T030000Z
-SUMMARY:Winston Hodges
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=winston-hodges%7Cpunch-li
- ne-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:winston-hodges|punch-line-irving-irving|9-15-pm-2026-10-10@letsdoitdall
- as.com
-DTSTAMP:20261011T021500Z
-DTSTART:20261011T021500Z
-DTEND:20261011T051500Z
-SUMMARY:Winston Hodges
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=winston-hodges%7Cpunch-li
- ne-irving-irving%7C9-15-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:billy-sorrells|punch-line-irving-irving|7-00-pm-2026-10-11@letsdoitdall
  as.com
 DTSTAMP:20261012T000000Z
@@ -716,5 +677,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-07&e=vladimir-caamano%7Cpunch-
  line-irving-irving%7C9-15-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-spotlight-the-best-of-dfw-comedy|punch-line-irving-irving|7-00-pm-2
+ 026-11-08@letsdoitdallas.com
+DTSTAMP:20261109T010000Z
+DTSTART:20261109T010000Z
+DTEND:20261109T040000Z
+SUMMARY:The Spotlight: The Best Of DFW Comedy
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=the-spotlight-the-best-of
+ -dfw-comedy%7Cpunch-line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:bryce-crawford-open-heaven|the-pavilion-at-toyota-music-factory-irving|
+ 7-30-pm-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261109T013000Z
+DTSTART:20261109T013000Z
+DTEND:20261109T043000Z
+SUMMARY:Bryce Crawford: Open Heaven
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=bryce-crawford-open-heave
+ n%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-30-pm
+DESCRIPTION:Religious event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/irving/
 END:VEVENT
 END:VCALENDAR

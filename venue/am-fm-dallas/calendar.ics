@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mariachi-el-bronx|am-fm-dallas-dallas|7-00-pm-2026-10-10@letsdoitdallas
- .com
-DTSTAMP:20261011T000000Z
-DTSTART:20261011T000000Z
-DTEND:20261011T030000Z
-SUMMARY:Mariachi El Bronx
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=mariachi-el-bronx%7Cam-fm
- -dallas-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/am-fm-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:kels-w-ella-maddux|am-fm-dallas-dallas|7-00-pm-2026-10-19@letsdoitdalla
  s.com
 DTSTAMP:20261020T000000Z
@@ -119,5 +106,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=moonshine-bandits%7Cam-fm
  -dallas-dallas%7C7-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:mushroomhead-w-fear-factory|am-fm-dallas-dallas|7-00-pm-2026-11-08@lets
+ doitdallas.com
+DTSTAMP:20261109T010000Z
+DTSTART:20261109T010000Z
+DTEND:20261109T040000Z
+SUMMARY:Mushroomhead w/ Fear Factory
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=mushroomhead-w-fear-facto
+ ry%7Cam-fm-dallas-dallas%7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/am-fm-dallas/
 END:VEVENT
 END:VCALENDAR

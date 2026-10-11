@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:stalefish-fiction-love-rattmaker|three-links-deep-ellum-dallas|7-00-pm-
- 2026-10-10@letsdoitdallas.com
-DTSTAMP:20261011T000000Z
-DTSTART:20261011T000000Z
-DTEND:20261011T030000Z
-SUMMARY:Stalefish\, Fiction Love\, Rattmaker
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=stalefish-fiction-love-ra
- ttmaker%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:greywind-waiting-4-april-rain-division-rodeo|three-links-deep-ellum-dal
  las|7-00-pm-2026-10-11@letsdoitdallas.com
 DTSTAMP:20261012T000000Z
@@ -887,16 +874,41 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:prayers-tour|trees-dallas|doors-see-listing-2026-11-08@letsdoitdallas.c
- om
-DTSTAMP:20261108T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:PRAYERS TOUR
+UID:ok-goodnight-lux-terminus-eve|three-links-deep-ellum-dallas|7-00-pm-202
+ 6-11-08@letsdoitdallas.com
+DTSTAMP:20261109T010000Z
+DTSTART:20261109T010000Z
+DTEND:20261109T040000Z
+SUMMARY:OK GOODNIGHT\, Lux Terminus\, eve
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=ok-goodnight-lux-terminus
+ -eve%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:prayers-w-devora|trees-dallas|7-30-pm-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261109T013000Z
+DTSTART:20261109T013000Z
+DTEND:20261109T043000Z
+SUMMARY:Prayers w/ Devora
 LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=prayers-tour%7Ctrees-dall
- as%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=prayers-w-devora%7Ctrees-
+ dallas%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:thundercat-w-54-ultra|the-bomb-factory-dallas|8-00-pm-2026-11-08@letsdo
+ itdallas.com
+DTSTAMP:20261109T020000Z
+DTSTART:20261109T020000Z
+DTEND:20261109T050000Z
+SUMMARY:Thundercat w/ 54 Ultra
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=thundercat-w-54-ultra%7Ct
+ he-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

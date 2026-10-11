@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:justin-silva-21-|mic-drop-comedy-plano-plano|7-00-pm-2026-10-10@letsdoi
- tdallas.com
-DTSTAMP:20261011T000000Z
-DTSTART:20261011T000000Z
-DTEND:20261011T030000Z
-SUMMARY:Justin Silva (21+)
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=justin-silva-21-%7Cmic-dr
- op-comedy-plano-plano%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/mic-drop-comedy-plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:justin-silva-21-|mic-drop-comedy-plano-plano|9-30-pm-2026-10-10@letsdoi
- tdallas.com
-DTSTAMP:20261011T023000Z
-DTSTART:20261011T023000Z
-DTEND:20261011T053000Z
-SUMMARY:Justin Silva (21+)
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=justin-silva-21-%7Cmic-dr
- op-comedy-plano-plano%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/mic-drop-comedy-plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:deric-cahill|mic-drop-comedy-plano-plano|7-00-pm-2026-10-22@letsdoitdal
  las.com
 DTSTAMP:20261023T000000Z
@@ -83,6 +57,19 @@ SUMMARY:Deric Cahill
 LOCATION:Mic Drop Comedy - Plano
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=deric-cahill%7Cmic-drop-c
  omedy-plano-plano%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/mic-drop-comedy-plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:deric-cahill|mic-drop-comedy-plano-plano|9-30-pm-2026-10-24@letsdoitdal
+ las.com
+DTSTAMP:20261025T023000Z
+DTSTART:20261025T023000Z
+DTEND:20261025T053000Z
+SUMMARY:Deric Cahill
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=deric-cahill%7Cmic-drop-c
+ omedy-plano-plano%7C9-30-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /venue/mic-drop-comedy-plano/
 END:VEVENT

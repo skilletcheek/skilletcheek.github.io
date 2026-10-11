@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:stockyards-championship-rodeo-matinee|cowtown-coliseum-fort-worth|1-30-
- pm-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261010T183000Z
-DTSTART:20261010T183000Z
-DTEND:20261010T213000Z
-SUMMARY:Stockyards Championship Rodeo - Matinee
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=stockyards-championship-r
- odeo-matinee%7Ccowtown-coliseum-fort-worth%7C1-30-pm
-DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
- venue/cowtown-coliseum/
-END:VEVENT
-BEGIN:VEVENT
-UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
- 10-10@letsdoitdallas.com
-DTSTAMP:20261011T003000Z
-DTSTART:20261011T003000Z
-DTEND:20261011T033000Z
-SUMMARY:Stockyards Championship Rodeo
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=stockyards-championship-r
- odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/cowtown-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
  10-11@letsdoitdallas.com
 DTSTAMP:20261011T183000Z
@@ -59,6 +33,23 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=ultimate-bullfighters%7Cc
  owtown-coliseum-fort-worth%7C1-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:legacy-of-the-longhorn-10-12|cowtown-coliseum-121-east-exchange-avenue-
+ fort-worth-76164-united-states|12-30-pm-2026-10-12@letsdoitdallas.com
+DTSTAMP:20261012T173000Z
+DTSTART:20261012T173000Z
+DTEND:20261012T203000Z
+SUMMARY:Legacy of the Longhorn 10/12
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=legacy-of-the-longhorn-10
+ -12%7Ccowtown-coliseum-121-east-exchange-avenue-fort-worth-76164-united-st
+ ates%7C12-30-pm
+DESCRIPTION:Event Details “  Where the World Meets the West\, Cowtown Col
+ iseum welcomes its newest show\, Legacy of the Longhorn\, beginning at 12:
+ 30 PM\, Monday – Thursday. In partnership with the Fort Worth Herd\, thi
+ s exciting new production celebrates the grit\, tradition\, and spirit of 
+ the Am — More: https://letsdoitdallas.com/venue/cowtown-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
@@ -202,6 +193,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=red-steagall-cowboy-gathe
  ring%7Ccowtown-coliseum-fort-worth%7C7-30-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
+ 10-25@letsdoitdallas.com
+DTSTAMP:20261025T183000Z
+DTSTART:20261025T183000Z
+DTEND:20261025T213000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
+DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/cowtown-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:ultimate-bullfighters|cowtown-coliseum-fort-worth|1-30-pm-2026-10-25@le

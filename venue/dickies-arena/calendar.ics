@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:brooks-dunn-neon-moon-tour-2026|dickies-arena-fort-worth|7-00-pm-2026-1
- 0-10@letsdoitdallas.com
-DTSTAMP:20261011T000000Z
-DTSTART:20261011T000000Z
-DTEND:20261011T030000Z
-SUMMARY:Brooks & Dunn: Neon Moon Tour 2026
-LOCATION:Dickies Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=brooks-dunn-neon-moon-tou
- r-2026%7Cdickies-arena-fort-worth%7C7-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/dickies-arena/
-END:VEVENT
-BEGIN:VEVENT
 UID:suites-cece-winans-come-worship-tour|dickies-arena-fort-worth|7-00-pm-2
  026-10-11@letsdoitdallas.com
 DTSTAMP:20261012T000000Z
@@ -173,6 +160,19 @@ DTEND:20261108T040000Z
 SUMMARY:JOHN SUMMIT - CTRL ESCAPE ARENA TOUR
 LOCATION:Dickies Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-07&e=john-summit-ctrl-escape-a
+ rena-tour%7Cdickies-arena-fort-worth%7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/dickies-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:john-summit-ctrl-escape-arena-tour|dickies-arena-fort-worth|7-00-pm-202
+ 6-11-08@letsdoitdallas.com
+DTSTAMP:20261109T010000Z
+DTSTART:20261109T010000Z
+DTEND:20261109T040000Z
+SUMMARY:JOHN SUMMIT - CTRL ESCAPE ARENA TOUR
+LOCATION:Dickies Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=john-summit-ctrl-escape-a
  rena-tour%7Cdickies-arena-fort-worth%7C7-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/venue/dickies-arena/

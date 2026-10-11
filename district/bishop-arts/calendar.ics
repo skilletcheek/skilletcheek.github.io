@@ -10,20 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:del-castillo-with-special-guest-guy-forsyth|the-kessler-theater-oak-cli
- ff-dallas|doors-see-listing-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261010T000000Z
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
-SUMMARY:Del Castillo with special guest Guy Forsyth
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=del-castillo-with-special
- -guest-guy-forsyth%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-list
- ing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/district/bishop-arts/
-END:VEVENT
-BEGIN:VEVENT
 UID:oscar-quesada-art-exhibition|the-kessler-theater-oak-cliff-dallas|doors
  -see-listing-2026-10-11@letsdoitdallas.com
 DTSTAMP:20261011T000000Z
@@ -215,16 +201,29 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/bishop-arts/
 END:VEVENT
 BEGIN:VEVENT
-UID:an-evening-with-andrew-mcmahon-and-his-piano|the-kessler-theater-oak-cl
- iff-dallas|doors-see-listing-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261108T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:An evening with Andrew McMahon and his piano
+UID:andrew-mcmahon-w-ivory-layne|the-kessler-dallas|7-00-pm-2026-11-08@lets
+ doitdallas.com
+DTSTAMP:20261109T010000Z
+DTSTART:20261109T010000Z
+DTEND:20261109T040000Z
+SUMMARY:Andrew McMahon w/ Ivory Layne
+LOCATION:The Kessler · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=andrew-mcmahon-w-ivory-la
+ yne%7Cthe-kessler-dallas%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/bishop-arts/
+END:VEVENT
+BEGIN:VEVENT
+UID:tommy-castro-the-painkillers-with-special-guest-ga-20|the-kessler-theat
+ er-oak-cliff-dallas|doors-see-listing-2026-11-10@letsdoitdallas.com
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Tommy Castro & The Painkillers with special guest GA-20
 LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=an-evening-with-andrew-mc
- mahon-and-his-piano%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-lis
- ting
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=tommy-castro-the-painkill
+ ers-with-special-guest-ga-20%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoor
+ s-see-listing
 DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/district/bishop-arts/
 END:VEVENT

@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:zainab-johnson|arlington-improv-arlington|6-00-pm-2026-10-10@letsdoitda
- llas.com
-DTSTAMP:20261010T230000Z
-DTSTART:20261010T230000Z
-DTEND:20261011T020000Z
-SUMMARY:Zainab Johnson
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=zainab-johnson%7Carlingto
- n-improv-arlington%7C6-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:zainab-johnson|arlington-improv-arlington|8-30-pm-2026-10-10@letsdoitda
- llas.com
-DTSTAMP:20261011T013000Z
-DTSTART:20261011T013000Z
-DTEND:20261011T043000Z
-SUMMARY:Zainab Johnson
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=zainab-johnson%7Carlingto
- n-improv-arlington%7C8-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:zainab-johnson|arlington-improv-arlington|7-00-pm-2026-10-11@letsdoitda
  llas.com
 DTSTAMP:20261012T000000Z
@@ -446,6 +420,19 @@ SUMMARY:Shuler King
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-11-07&e=shuler-king%7Carlington-i
  mprov-arlington%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:shuler-king|arlington-improv-arlington|7-00-pm-2026-11-08@letsdoitdalla
+ s.com
+DTSTAMP:20261109T010000Z
+DTSTART:20261109T010000Z
+DTEND:20261109T040000Z
+SUMMARY:Shuler King
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=shuler-king%7Carlington-i
+ mprov-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

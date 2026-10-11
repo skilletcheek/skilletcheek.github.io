@@ -10,82 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-10
- -10@letsdoitdallas.com
-DTSTAMP:20261010T190000Z
-DTSTART:20261010T190000Z
-DTEND:20261010T220000Z
-SUMMARY:Family Magic & Comedy For All Ages
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=family-magic-comedy-for-a
- ll-ages%7Caddison-improv-addison%7C2-00-pm
-DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
- doitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:justin-silva-21-|mic-drop-comedy-plano-plano|7-00-pm-2026-10-10@letsdoi
- tdallas.com
-DTSTAMP:20261011T000000Z
-DTSTART:20261011T000000Z
-DTEND:20261011T030000Z
-SUMMARY:Justin Silva (21+)
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=justin-silva-21-%7Cmic-dr
- op-comedy-plano-plano%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:michael-yo|addison-improv-addison|7-00-pm-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261011T000000Z
-DTSTART:20261011T000000Z
-DTEND:20261011T030000Z
-SUMMARY:Michael Yo
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=michael-yo%7Caddison-impr
- ov-addison%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:one-night-in-memphis|eisemann-center-richardson|7-30-pm-2026-10-10@lets
- doitdallas.com
-DTSTAMP:20261011T003000Z
-DTSTART:20261011T003000Z
-DTEND:20261011T033000Z
-SUMMARY:One Night in Memphis
-LOCATION:Eisemann Center · Richardson
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=one-night-in-memphis%7Cei
- semann-center-richardson%7C7-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:justin-silva-21-|mic-drop-comedy-plano-plano|9-30-pm-2026-10-10@letsdoi
- tdallas.com
-DTSTAMP:20261011T023000Z
-DTSTART:20261011T023000Z
-DTEND:20261011T053000Z
-SUMMARY:Justin Silva (21+)
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=justin-silva-21-%7Cmic-dr
- op-comedy-plano-plano%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:michael-yo|addison-improv-addison|9-30-pm-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261011T023000Z
-DTSTART:20261011T023000Z
-DTEND:20261011T053000Z
-SUMMARY:Michael Yo
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=michael-yo%7Caddison-impr
- ov-addison%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:michael-yo|addison-improv-addison|7-00-pm-2026-10-11@letsdoitdallas.com
 DTSTAMP:20261012T000000Z
 DTSTART:20261012T000000Z
@@ -96,6 +20,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=michael-yo%7Caddison-impr
  ov-addison%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:banfi-wine-dinner-at-sea-breeze|sea-breeze-plano|6-00-pm-8-00-pm-2026-1
+ 0-12@letsdoitdallas.com
+DTSTAMP:20261012T230000Z
+DTSTART:20261012T230000Z
+DTEND:20261013T020000Z
+SUMMARY:Banfi Wine Dinner at Sea Breeze
+LOCATION:Sea Breeze · Plano
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=banfi-wine-dinner-at-sea-
+ breeze%7Csea-breeze-plano%7C6-00-pm-8-00-pm
+DESCRIPTION:Sea Breeze Fish Market & Grill\, North Texas’ beloved family-
+ owned seafood restaurant\, is partnering with Banfi Family Wines for an ex
+ clusive wine dinner featuring a thoughtfully curated six-course menu paire
+ d with exceptional selections from the celebrated Italian winemaker. The 
+ — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:tales-from-the-dorkside|addison-improv-addison|7-00-pm-2026-10-15@letsd
@@ -381,6 +321,32 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=corey-holcomb%7Caddison-i
  mprov-addison%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:deric-cahill|mic-drop-comedy-plano-plano|9-30-pm-2026-10-24@letsdoitdal
+ las.com
+DTSTAMP:20261025T023000Z
+DTSTART:20261025T023000Z
+DTEND:20261025T053000Z
+SUMMARY:Deric Cahill
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=deric-cahill%7Cmic-drop-c
+ omedy-plano-plano%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:kenny-feidler|love-war-in-texas-plano|4-00-pm-2026-10-25@letsdoitdallas
+ .com
+DTSTAMP:20261025T210000Z
+DTSTART:20261025T210000Z
+DTEND:20261026T000000Z
+SUMMARY:Kenny Feidler
+LOCATION:Love & War in Texas · Plano
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=kenny-feidler%7Clove-war-
+ in-texas-plano%7C4-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:corey-holcomb|addison-improv-addison|7-30-pm-2026-10-25@letsdoitdallas.

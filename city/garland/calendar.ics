@@ -9,34 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:punktoberfest-2026-at-lakewood-brewing-co-|lakewood-brewing-co-garland|
- 12-00-pm-6-00-pm-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261010T170000Z
-DTSTART:20261010T170000Z
-DTEND:20261010T200000Z
-SUMMARY:Punktoberfest 2026 at Lakewood Brewing Co.
-LOCATION:Lakewood Brewing Co. · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=punktoberfest-2026-at-lak
- ewood-brewing-co-%7Clakewood-brewing-co-garland%7C12-00-pm-6-00-pm
-DESCRIPTION:Lakewood Brewing will host its annual Punktoberfest celebration
- \, bringing together Oktoberfest traditions and punk rock spirit for an af
- ternoon of live music\, beer\, food\, local vendors and activities. Guests
-  can enjoy an Oktoberfest beer release along with a few other surprises t 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:anything-goes-presented-by-garland-civic-theatre|300-n-fifth-street-gar
- land|07-30-pm-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261011T003000Z
-DTSTART:20261011T003000Z
-DTEND:20261011T033000Z
-SUMMARY:Anything Goes presented by Garland Civic Theatre
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=anything-goes-presented-b
- y-garland-civic-theatre%7C300-n-fifth-street-garland%7C07-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:anything-goes-presented-by-garland-civic-theatre|300-n-fifth-street-gar
  land|02-30-pm-2026-10-11@letsdoitdallas.com
 DTSTAMP:20261011T193000Z
@@ -1378,6 +1350,18 @@ DESCRIPTION:4:00 p.m.\; Are you a writer or hoping to become one? Join the
  and boost your creativity. Enjoy coffee\, light refreshments and a welcomi
  ng space to work on your stories. Share excerpts\, exchange tips and suppo
  r — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:anything-goes-presented-by-garland-civic-theatre|300-n-fifth-street-gar
+ land|02-30-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T193000Z
+DTSTART:20261025T193000Z
+DTEND:20261025T223000Z
+SUMMARY:Anything Goes presented by Garland Civic Theatre
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=anything-goes-presented-b
+ y-garland-civic-theatre%7C300-n-fifth-street-garland%7C02-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:fright-fest-dababy-and-friends|curtis-culwell-center-garland|8-00-pm-20

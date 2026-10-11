@@ -162,16 +162,15 @@ DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT
 BEGIN:VEVENT
-UID:prayers-tour|trees-dallas|doors-see-listing-2026-11-08@letsdoitdallas.c
- om
-DTSTAMP:20261108T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:PRAYERS TOUR
+UID:prayers-w-devora|trees-dallas|7-30-pm-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261109T013000Z
+DTSTART:20261109T013000Z
+DTEND:20261109T043000Z
+SUMMARY:Prayers w/ Devora
 LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=prayers-tour%7Ctrees-dall
- as%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=prayers-w-devora%7Ctrees-
+ dallas%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/trees/
 END:VEVENT
 END:VCALENDAR

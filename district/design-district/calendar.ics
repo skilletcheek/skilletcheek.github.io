@@ -10,44 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mariachi-el-bronx|am-fm-dallas-dallas|7-00-pm-2026-10-10@letsdoitdallas
- .com
-DTSTAMP:20261011T000000Z
-DTSTART:20261011T000000Z
-DTEND:20261011T030000Z
-SUMMARY:Mariachi El Bronx
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=mariachi-el-bronx%7Cam-fm
- -dallas-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:do-more-concert-dallas-featuring-dj-cedric-gervais|the-echo-lounge-musi
- c-hall-dallas|7-30-pm-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261011T003000Z
-DTSTART:20261011T003000Z
-DTEND:20261011T033000Z
-SUMMARY:Do More Concert Dallas: Featuring DJ Cedric Gervais
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=do-more-concert-dallas-fe
- aturing-dj-cedric-gervais%7Cthe-echo-lounge-music-hall-dallas%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:prospa-ages-18-|silo-dallas|9-00-pm-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261011T020000Z
-DTSTART:20261011T020000Z
-DTEND:20261011T050000Z
-SUMMARY:Prospa - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=prospa-ages-18-%7Csilo-da
- llas%7C9-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:arch-enemy-the-black-dahlia-murder-wrath-across-north-america-2026|the-
  echo-lounge-music-hall-dallas|5-00-pm-2026-10-11@letsdoitdallas.com
 DTSTAMP:20261011T220000Z
@@ -578,6 +540,19 @@ SUMMARY:INNA
 LOCATION:The Echo Lounge & Music Hall · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-08&e=inna%7Cthe-echo-lounge-mu
  sic-hall-dallas%7C6-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:mushroomhead-w-fear-factory|am-fm-dallas-dallas|7-00-pm-2026-11-08@lets
+ doitdallas.com
+DTSTAMP:20261109T010000Z
+DTSTART:20261109T010000Z
+DTEND:20261109T040000Z
+SUMMARY:Mushroomhead w/ Fear Factory
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=mushroomhead-w-fear-facto
+ ry%7Cam-fm-dallas-dallas%7C7-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/design-district/
 END:VEVENT

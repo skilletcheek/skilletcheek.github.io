@@ -9,30 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:country-day-on-the-hill|600-cedar-st-cedar-hill|09-00-am-2026-10-10@let
- sdoitdallas.com
-DTSTAMP:20261010T140000Z
-DTSTART:20261010T140000Z
-DTEND:20261010T170000Z
-SUMMARY:Country Day on the Hill
-LOCATION:600 Cedar St. · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=country-day-on-the-hill%7
- C600-cedar-st-cedar-hill%7C09-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:volleyball-open-play|310-e-parkerville-road-cedar-hill|06-30-pm-2026-10
- -10@letsdoitdallas.com
-DTSTAMP:20261010T233000Z
-DTSTART:20261010T233000Z
-DTEND:20261011T023000Z
-SUMMARY:Volleyball: Open Play
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=volleyball-open-play%7C31
- 0-e-parkerville-road-cedar-hill%7C06-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:mahjong-open-play|310-e-parkerville-road-cedar-hill|01-00-pm-2026-10-11
  @letsdoitdallas.com
 DTSTAMP:20261011T180000Z
@@ -1334,6 +1310,57 @@ SUMMARY:Volleyball: Open Play
 LOCATION:310 E. Parkerville Road · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=volleyball-open-play%7C31
  0-e-parkerville-road-cedar-hill%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:birding-by-ear|cedar-hill|08-00-am-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T130000Z
+DTSTART:20261025T130000Z
+DTEND:20261025T160000Z
+SUMMARY:Birding by Ear
+LOCATION:Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=birding-by-ear%7Ccedar-hi
+ ll%7C08-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:mahjong-open-play|310-e-parkerville-road-cedar-hill|01-00-pm-2026-10-25
+ @letsdoitdallas.com
+DTSTAMP:20261025T180000Z
+DTSTART:20261025T180000Z
+DTEND:20261025T210000Z
+SUMMARY:Mahjong: Open Play
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=mahjong-open-play%7C310-e
+ -parkerville-road-cedar-hill%7C01-00-pm
+DESCRIPTION:Join us every Sunday afternoon for an open play Mahjong program
+  at the Alan E. Sims Recreation Center! October 25\, 2026 01:00 PM - 05:00
+  PM 310 E. Parkerville RoadCedar Hill\, TX 75104 https://www.cedarhilltx.c
+ om/Calendar.aspx?EID=19097/639148837140000000 — More: https://letsdoitda
+ llas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:sparkz-cheerleading|310-e-parkerville-road-cedar-hill|04-00-pm-2026-10-
+ 25@letsdoitdallas.com
+DTSTAMP:20261025T210000Z
+DTSTART:20261025T210000Z
+DTEND:20261026T000000Z
+SUMMARY:Sparkz Cheerleading
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=sparkz-cheerleading%7C310
+ -e-parkerville-road-cedar-hill%7C04-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:community-care-sound-bath-series|310-e-parkerville-road-cedar-hill|05-3
+ 0-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T223000Z
+DTSTART:20261025T223000Z
+DTEND:20261026T013000Z
+SUMMARY:Community Care Sound Bath Series
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=community-care-sound-bath
+ -series%7C310-e-parkerville-road-cedar-hill%7C05-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 END:VCALENDAR

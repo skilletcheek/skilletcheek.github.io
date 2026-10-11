@@ -10,61 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261010T130000Z
-DTSTART:20261010T130000Z
-DTEND:20261010T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:akeem-ali-the-texture-tour|house-of-blues-dallas-dallas|7-00-pm-2026-10
- -10@letsdoitdallas.com
-DTSTAMP:20261011T000000Z
-DTSTART:20261011T000000Z
-DTEND:20261011T030000Z
-SUMMARY:Akeem Ali - The Texture Tour
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=akeem-ali-the-texture-tou
- r%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:kevin-atwater-blush-red-tour|the-cambridge-room-at-house-of-blues-dalla
- s|7-00-pm-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261011T000000Z
-DTSTART:20261011T000000Z
-DTEND:20261011T030000Z
-SUMMARY:Kevin Atwater - Blush Red Tour
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=kevin-atwater-blush-red-t
- our%7Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:kacey-musgraves-middle-of-nowhere-tour|american-airlines-center-dallas|
- 7-30-pm-2026-10-10@letsdoitdallas.com
-DTSTAMP:20261011T003000Z
-DTSTART:20261011T003000Z
-DTEND:20261011T033000Z
-SUMMARY:Kacey Musgraves - Middle of Nowhere Tour
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=kacey-musgraves-middle-of
- -nowhere-tour%7Camerican-airlines-center-dallas%7C7-30-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:pierre-bensusan-the-infinite-guitar-tour-2026|poor-david-s-pub-dallas|d
  oors-see-listing-2026-10-11@letsdoitdallas.com
 DTSTAMP:20261011T000000Z
@@ -76,6 +21,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-11&e=pierre-bensusan-the-infin
  ite-guitar-tour-2026%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-11@letsdoitdallas.com
+DTSTAMP:20261011T130000Z
+DTSTART:20261011T130000Z
+DTEND:20261011T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-11&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:kacey-musgraves-middle-of-nowhere-tour|american-airlines-center-dallas|
@@ -91,6 +52,22 @@ DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-12@letsdoitdallas.com
+DTSTAMP:20261012T130000Z
+DTSTART:20261012T130000Z
+DTEND:20261012T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:cavetown-running-with-scissors-tour|house-of-blues-dallas-dallas|7-00-p
  m-2026-10-12@letsdoitdallas.com
 DTSTAMP:20261013T000000Z
@@ -102,6 +79,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-12&e=cavetown-running-with-sci
  ssors-tour%7Chouse-of-blues-dallas-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-13@letsdoitdallas.com
+DTSTAMP:20261013T130000Z
+DTSTART:20261013T130000Z
+DTEND:20261013T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:ravyn-lenae-presents-blue-island|house-of-blues-dallas-dallas|7-00-pm-2
@@ -1314,6 +1307,45 @@ SUMMARY:Buena Vista Social Club (Touring)
 LOCATION:Music Hall At Fair Park · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-08&e=buena-vista-social-club-t
  ouring-%7Cmusic-hall-at-fair-park-dallas%7C1-00-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-vs-brooklyn-nets|american-airlines-center-dallas|6-30-
+ pm-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261109T003000Z
+DTSTART:20261109T003000Z
+DTEND:20261109T033000Z
+SUMMARY:Dallas Mavericks vs. Brooklyn Nets
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=dallas-mavericks-vs-brook
+ lyn-nets%7Camerican-airlines-center-dallas%7C6-30-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:bad-gyal-m-s-cara-world-tour-2026|house-of-blues-dallas-dallas|7-00-pm-
+ 2026-11-08@letsdoitdallas.com
+DTSTAMP:20261109T010000Z
+DTSTART:20261109T010000Z
+DTEND:20261109T040000Z
+SUMMARY:Bad Gyal - Más Cara World Tour 2026
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=bad-gyal-m-s-cara-world-t
+ our-2026%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Reggae event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-00-pm
+ -2026-11-08@letsdoitdallas.com
+DTSTAMP:20261109T010000Z
+DTSTART:20261109T010000Z
+DTEND:20261109T040000Z
+SUMMARY:Buena Vista Social Club (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=buena-vista-social-club-t
+ ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-00-pm
 DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/downtown-dallas/
 END:VEVENT

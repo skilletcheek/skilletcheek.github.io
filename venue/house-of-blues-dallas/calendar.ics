@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:akeem-ali-the-texture-tour|house-of-blues-dallas-dallas|7-00-pm-2026-10
- -10@letsdoitdallas.com
-DTSTAMP:20261011T000000Z
-DTSTART:20261011T000000Z
-DTEND:20261011T030000Z
-SUMMARY:Akeem Ali - The Texture Tour
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-10&e=akeem-ali-the-texture-tou
- r%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:cavetown-running-with-scissors-tour|house-of-blues-dallas-dallas|7-00-p
  m-2026-10-12@letsdoitdallas.com
 DTSTAMP:20261013T000000Z
@@ -292,5 +279,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-07&e=dance-now%7Chouse-of-blue
  s-dallas-dallas%7C7-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:bad-gyal-m-s-cara-world-tour-2026|house-of-blues-dallas-dallas|7-00-pm-
+ 2026-11-08@letsdoitdallas.com
+DTSTAMP:20261109T010000Z
+DTSTART:20261109T010000Z
+DTEND:20261109T040000Z
+SUMMARY:Bad Gyal - Más Cara World Tour 2026
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=bad-gyal-m-s-cara-world-t
+ our-2026%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Reggae event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/house-of-blues-dallas/
 END:VEVENT
 END:VCALENDAR
