@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bijou-21-and-over-|silo-dallas|7-00-pm-2026-10-11@letsdoitdallas.com
-DTSTAMP:20261012T000000Z
-DTSTART:20261012T000000Z
-DTEND:20261012T030000Z
-SUMMARY:Bijou (21 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=bijou-21-and-over-%7Csilo
- -dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:tokyo-machine-ages-18-|silo-dallas|9-00-pm-2026-10-15@letsdoitdallas.co
  m
 DTSTAMP:20261016T020000Z

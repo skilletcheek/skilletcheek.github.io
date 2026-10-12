@@ -48,6 +48,19 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/arlington-music-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-carole-king-james-taylor-story-arlington|arlington-music-hall-arlin
+ gton|7-30-pm-2026-10-21@letsdoitdallas.com
+DTSTAMP:20261022T003000Z
+DTSTART:20261022T003000Z
+DTEND:20261022T033000Z
+SUMMARY:The Carole King & James Taylor Story - Arlington
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=the-carole-king-james-tay
+ lor-story-arlington%7Carlington-music-hall-arlington%7C7-30-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-malpass-brothers|arlington-music-hall-arlington|7-30-pm-2026-10-22@
  letsdoitdallas.com
 DTSTAMP:20261023T003000Z
@@ -57,19 +70,6 @@ SUMMARY:The Malpass Brothers
 LOCATION:Arlington Music Hall
 URL:https://letsdoitdallas.com/?date=2026-10-22&e=the-malpass-brothers%7Car
  lington-music-hall-arlington%7C7-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/arlington-music-hall/
-END:VEVENT
-BEGIN:VEVENT
-UID:mo-pitney|arlington-music-hall-arlington|8-00-pm-2026-10-23@letsdoitdal
- las.com
-DTSTAMP:20261024T010000Z
-DTSTART:20261024T010000Z
-DTEND:20261024T040000Z
-SUMMARY:Mo Pitney
-LOCATION:Arlington Music Hall
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=mo-pitney%7Carlington-mus
- ic-hall-arlington%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/arlington-music-hall/
 END:VEVENT

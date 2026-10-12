@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:zainab-johnson|arlington-improv-arlington|7-00-pm-2026-10-11@letsdoitda
- llas.com
-DTSTAMP:20261012T000000Z
-DTSTART:20261012T000000Z
-DTEND:20261012T030000Z
-SUMMARY:Zainab Johnson
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=zainab-johnson%7Carlingto
- n-improv-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-10-13@letsdoitdal
  las.com
 DTSTAMP:20261013T233000Z

@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Legacy Hall — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Legacy Hall.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:the-rocky-horror-picture-show-plano|legacy-hall-plano|7-00-pm-2026-10-1
+ 4@letsdoitdallas.com
+DTSTAMP:20261015T000000Z
+DTSTART:20261015T000000Z
+DTEND:20261015T030000Z
+SUMMARY:The Rocky Horror Picture Show - Plano
+LOCATION:Legacy Hall · Plano
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=the-rocky-horror-picture-
+ show-plano%7Clegacy-hall-plano%7C7-00-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/legacy-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:william-clark-green|legacy-hall-plano|8-00-pm-2026-10-15@letsdoitdallas
+ .com
+DTSTAMP:20261016T010000Z
+DTSTART:20261016T010000Z
+DTEND:20261016T040000Z
+SUMMARY:William Clark Green
+LOCATION:Legacy Hall · Plano
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=william-clark-green%7Cleg
+ acy-hall-plano%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/legacy-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:pop-punk-nite|legacy-hall-plano|8-00-pm-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261017T010000Z
+DTSTART:20261017T010000Z
+DTEND:20261017T040000Z
+SUMMARY:Pop Punk Nite
+LOCATION:Legacy Hall · Plano
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=pop-punk-nite%7Clegacy-ha
+ ll-plano%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/legacy-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:queen-legacy-queen-tribute|legacy-hall-plano|8-00-pm-2026-10-17@letsdoi
+ tdallas.com
+DTSTAMP:20261018T010000Z
+DTSTART:20261018T010000Z
+DTEND:20261018T040000Z
+SUMMARY:Queen Legacy - Queen Tribute
+LOCATION:Legacy Hall · Plano
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=queen-legacy-queen-tribut
+ e%7Clegacy-hall-plano%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/legacy-hall/
+END:VEVENT
+END:VCALENDAR

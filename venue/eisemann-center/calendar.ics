@@ -9,6 +9,19 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:neon-nostalgic|eisemann-center-richardson|8-00-pm-2026-10-17@letsdoitda
+ llas.com
+DTSTAMP:20261018T010000Z
+DTSTART:20261018T010000Z
+DTEND:20261018T040000Z
+SUMMARY:Neon Nostalgic
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=neon-nostalgic%7Ceisemann
+ -center-richardson%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/eisemann-center/
+END:VEVENT
+BEGIN:VEVENT
 UID:kanan-gill|eisemann-center-richardson|7-30-pm-2026-10-23@letsdoitdallas
  .com
 DTSTAMP:20261024T003000Z
@@ -20,19 +33,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=kanan-gill%7Ceisemann-cen
  ter-richardson%7C7-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/eisemann-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:gunhild-carling|eisemann-center-richardson|7-00-pm-2026-10-24@letsdoitd
- allas.com
-DTSTAMP:20261025T000000Z
-DTSTART:20261025T000000Z
-DTEND:20261025T030000Z
-SUMMARY:Gunhild Carling
-LOCATION:Eisemann Center · Richardson
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=gunhild-carling%7Ceiseman
- n-center-richardson%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/eisemann-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:ann-hampton-callaway|eisemann-center-richardson|2-00-pm-2026-11-01@lets

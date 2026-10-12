@@ -9,6 +9,19 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:lucas-oil-divisional-racing-series|texas-motorplex-ennis|3-30-am-2026-1
+ 0-13@letsdoitdallas.com
+DTSTAMP:20261013T083000Z
+DTSTART:20261013T083000Z
+DTEND:20261013T113000Z
+SUMMARY:Lucas Oil Divisional Racing Series
+LOCATION:Texas Motorplex · Ennis
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=lucas-oil-divisional-raci
+ ng-series%7Ctexas-motorplex-ennis%7C3-30-am
+DESCRIPTION:auto racing event via SeatGeek. — More: https://letsdoitdalla
+ s.com/venue/texas-motorplex/
+END:VEVENT
+BEGIN:VEVENT
 UID:texas-nhra-fall-nationals-wednesday|texas-motorplex-ennis|3-30-am-2026-
  10-14@letsdoitdallas.com
 DTSTAMP:20261014T083000Z

@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Deep Ellum Art Co. — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Deep Ellum Art Co..
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:lilyisthatyou|deep-ellum-art-co-dallas|8-00-pm-2026-10-12@letsdoitdalla
+ s.com
+DTSTAMP:20261013T010000Z
+DTSTART:20261013T010000Z
+DTEND:20261013T040000Z
+SUMMARY:Lilyisthatyou
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-12&e=lilyisthatyou%7Cdeep-ellu
+ m-art-co-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/deep-ellum-art-co/
+END:VEVENT
+BEGIN:VEVENT
+UID:stars-and-stripes-festival|deep-ellum-art-co-dallas|8-00-pm-2026-10-13@
+ letsdoitdallas.com
+DTSTAMP:20261014T010000Z
+DTSTART:20261014T010000Z
+DTEND:20261014T040000Z
+SUMMARY:Stars and Stripes Festival
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=stars-and-stripes-festiva
+ l%7Cdeep-ellum-art-co-dallas%7C8-00-pm
+DESCRIPTION:music festival event via SeatGeek. — More: https://letsdoitda
+ llas.com/venue/deep-ellum-art-co/
+END:VEVENT
+BEGIN:VEVENT
+UID:wonkywilla|deep-ellum-art-co-dallas|9-00-pm-2026-10-16@letsdoitdallas.c
+ om
+DTSTAMP:20261017T020000Z
+DTSTART:20261017T020000Z
+DTEND:20261017T050000Z
+SUMMARY:WonkyWilla
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=wonkywilla%7Cdeep-ellum-a
+ rt-co-dallas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/deep-ellum-art-co/
+END:VEVENT
+BEGIN:VEVENT
+UID:joon|deep-ellum-art-co-dallas|8-00-pm-2026-10-20@letsdoitdallas.com
+DTSTAMP:20261021T010000Z
+DTSTART:20261021T010000Z
+DTEND:20261021T040000Z
+SUMMARY:Joon
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=joon%7Cdeep-ellum-art-co-
+ dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/deep-ellum-art-co/
+END:VEVENT
+BEGIN:VEVENT
+UID:dev-lemons|deep-ellum-art-co-dallas|8-00-pm-2026-10-21@letsdoitdallas.c
+ om
+DTSTAMP:20261022T010000Z
+DTSTART:20261022T010000Z
+DTEND:20261022T040000Z
+SUMMARY:Dev Lemons
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=dev-lemons%7Cdeep-ellum-a
+ rt-co-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/deep-ellum-art-co/
+END:VEVENT
+END:VCALENDAR

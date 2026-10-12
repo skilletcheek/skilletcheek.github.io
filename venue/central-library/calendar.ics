@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:smart-start-garland-school-readiness-workshops|central-library-garland|
- 10-00-am-2026-10-12@letsdoitdallas.com
-DTSTAMP:20261012T150000Z
-DTSTART:20261012T150000Z
-DTEND:20261012T180000Z
-SUMMARY:Smart Start Garland: School Readiness Workshops
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=smart-start-garland-schoo
- l-readiness-workshops%7Ccentral-library-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Set your child on the path for school success with
-  Smart Start Garland! This six-week school readiness program will introduc
- e children to fundamental skills and behaviors that will help them thrive 
- in a learning environment\, while also providing support and resources —
-  More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:coi-small-business-leadership-series-ages-18-|central-library-garland|0
  5-30-pm-2026-10-12@letsdoitdallas.com
 DTSTAMP:20261012T223000Z
@@ -559,5 +543,52 @@ DESCRIPTION:4:00 p.m.\; Are you a writer or hoping to become one? Join the
  and boost your creativity. Enjoy coffee\, light refreshments and a welcomi
  ng space to work on your stories. Share excerpts\, exchange tips and suppo
  r — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:smart-start-garland-school-readiness-workshops|central-library-garland|
+ 10-00-am-2026-10-26@letsdoitdallas.com
+DTSTAMP:20261026T150000Z
+DTSTART:20261026T150000Z
+DTEND:20261026T180000Z
+SUMMARY:Smart Start Garland: School Readiness Workshops
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=smart-start-garland-schoo
+ l-readiness-workshops%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Set your child on the path for school success with
+  Smart Start Garland! This six-week school readiness program will introduc
+ e children to fundamental skills and behaviors that will help them thrive 
+ in a learning environment\, while also providing support and resources —
+  More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:grow-with-google-learn-the-basics-of-google-ads-ages-18-|central-librar
+ y-garland|06-00-pm-2026-10-26@letsdoitdallas.com
+DTSTAMP:20261026T230000Z
+DTSTART:20261026T230000Z
+DTEND:20261027T020000Z
+SUMMARY:Grow with Google: Learn the Basics of Google Ads (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=grow-with-google-learn-th
+ e-basics-of-google-ads-ages-18-%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Discover how Google Ads can help you reach more cus
+ tomers and grow your business. Learn how to create and manage ad campaigns
+ \, write effective ads\, choose the right keywords\, use ad extensions and
+  measure your results to improve performance. October 26\, 2026 06:00 PM -
+  — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:heat-press-sublimation-workshop-ages-13-|central-library-garland|06-00-
+ pm-2026-10-26@letsdoitdallas.com
+DTSTAMP:20261026T230000Z
+DTSTART:20261026T230000Z
+DTEND:20261027T020000Z
+SUMMARY:Heat Press Sublimation Workshop (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=heat-press-sublimation-wo
+ rkshop-ages-13-%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Learn about the sublimation process and how to use 
+ the heat presses. October 26\, 2026 06:00 PM - 07:30 PM 625 Austin St.Garl
+ and\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13305/639234268
+ 170000000 — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

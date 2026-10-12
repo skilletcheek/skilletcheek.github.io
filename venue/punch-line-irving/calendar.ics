@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:billy-sorrells|punch-line-irving-irving|7-00-pm-2026-10-11@letsdoitdall
- as.com
-DTSTAMP:20261012T000000Z
-DTSTART:20261012T000000Z
-DTEND:20261012T030000Z
-SUMMARY:Billy Sorrells
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=billy-sorrells%7Cpunch-li
- ne-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:comedy-allstars|punch-line-irving-irving|7-30-pm-2026-10-14@letsdoitdal
  las.com
 DTSTAMP:20261015T003000Z

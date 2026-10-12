@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:greywind-waiting-4-april-rain-division-rodeo|three-links-deep-ellum-dal
- las|7-00-pm-2026-10-11@letsdoitdallas.com
-DTSTAMP:20261012T000000Z
-DTSTART:20261012T000000Z
-DTEND:20261012T030000Z
-SUMMARY:Greywind\, Waiting 4 April\, Rain Division\, Rodeo
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=greywind-waiting-4-april-
- rain-division-rodeo%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-11@letsdoitd
- allas.com
-DTSTAMP:20261012T040000Z
-DTSTART:20261012T040000Z
-DTEND:20261012T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
  pm-2026-10-12@letsdoitdallas.com
 DTSTAMP:20261013T020000Z
@@ -356,6 +330,19 @@ SUMMARY:OK GOODNIGHT\, Lux Terminus\, eve
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-08&e=ok-goodnight-lux-terminus
  -eve%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:careful-gaze-chrry-obsessed|three-links-deep-ellum-dallas|8-00-pm-2026-
+ 11-09@letsdoitdallas.com
+DTSTAMP:20261110T020000Z
+DTSTART:20261110T020000Z
+DTEND:20261110T050000Z
+SUMMARY:Careful Gaze\, Chrry Obsessed
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-09&e=careful-gaze-chrry-obsess
+ ed%7Cthree-links-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
 END:VEVENT

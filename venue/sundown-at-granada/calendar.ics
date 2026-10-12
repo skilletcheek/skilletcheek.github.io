@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
- doors-see-listing-2026-10-11@letsdoitdallas.com
-DTSTAMP:20261011T000000Z
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
-SUMMARY:geeks who drink FREE Trivia
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=geeks-who-drink-free-triv
- ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/venue/sundown-at-granada/
-END:VEVENT
-BEGIN:VEVENT
 UID:free-halloween-movie-month-halloween|sundown-at-granada-lower-greenvill
  e-dallas|doors-see-listing-2026-10-12@letsdoitdallas.com
 DTSTAMP:20261012T000000Z
@@ -50,16 +37,16 @@ DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/venue/sundown-at-granada/
 END:VEVENT
 BEGIN:VEVENT
-UID:tobacco-road|sundown-at-granada-lower-greenville-dallas|doors-see-listi
- ng-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261016T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+UID:tobacco-road|sundown-at-granada-dallas|9-30-pm-2026-10-16@letsdoitdalla
+ s.com
+DTSTAMP:20261017T023000Z
+DTSTART:20261017T023000Z
+DTEND:20261017T053000Z
 SUMMARY:Tobacco Road
 LOCATION:Sundown at Granada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-16&e=tobacco-road%7Csundown-at
- -granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ -granada-dallas%7C9-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/sundown-at-granada/
 END:VEVENT
 BEGIN:VEVENT
@@ -120,15 +107,28 @@ DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/venue/sundown-at-granada/
 END:VEVENT
 BEGIN:VEVENT
-UID:will-dempsey-carry-the-weight-tour|sundown-at-granada-lower-greenville-
- dallas|doors-see-listing-2026-10-22@letsdoitdallas.com
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
-SUMMARY:WILL DEMPSEY: Carry The Weight Tour
+UID:will-dempsey|sundown-at-granada-dallas|8-30-pm-2026-10-22@letsdoitdalla
+ s.com
+DTSTAMP:20261023T013000Z
+DTSTART:20261023T013000Z
+DTEND:20261023T043000Z
+SUMMARY:Will Dempsey
 LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=will-dempsey-carry-the-we
- ight-tour%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=will-dempsey%7Csundown-at
+ -granada-dallas%7C8-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/sundown-at-granada/
+END:VEVENT
+BEGIN:VEVENT
+UID:ronnie-fauss-and-his-band|sundown-at-granada-lower-greenville-dallas|do
+ ors-see-listing-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Ronnie Fauss and his Band
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=ronnie-fauss-and-his-band
+ %7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/venue/sundown-at-granada/
 END:VEVENT

@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:billy-sorrells|punch-line-irving-irving|7-00-pm-2026-10-11@letsdoitdall
- as.com
-DTSTAMP:20261012T000000Z
-DTSTART:20261012T000000Z
-DTEND:20261012T030000Z
-SUMMARY:Billy Sorrells
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=billy-sorrells%7Cpunch-li
- ne-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:wave-to-earth-the-pieces-tour|the-pavilion-at-toyota-music-factory-irvi
- ng|8-15-pm-2026-10-11@letsdoitdallas.com
-DTSTAMP:20261012T011500Z
-DTSTART:20261012T011500Z
-DTEND:20261012T041500Z
-SUMMARY:wave to earth - the pieces tour
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=wave-to-earth-the-pieces-
- tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-15-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:logic-g-eazy-the-endless-summer-tour-part-ii|the-pavilion-at-toyota-mus
  ic-factory-irving|7-00-pm-2026-10-12@letsdoitdallas.com
 DTSTAMP:20261013T000000Z
@@ -48,6 +22,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-12&e=logic-g-eazy-the-endless-
  m
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:riedel-wine-glass-experience|the-pavilion-at-toyota-music-factory-irvin
+ g|6-30-pm-8-00-pm-2026-10-13@letsdoitdallas.com
+DTSTAMP:20261013T233000Z
+DTSTART:20261013T233000Z
+DTEND:20261014T023000Z
+SUMMARY:RIEDEL Wine Glass Experience
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=riedel-wine-glass-experie
+ nce%7Cthe-pavilion-at-toyota-music-factory-irving%7C6-30-pm-8-00-pm
+DESCRIPTION:Join Maximilian Riedel for an educational wine tasting experien
+ ce exploring how glass shape can change the way wine tastes and smells. Gu
+ ests will enjoy a comparative tasting and take home a set of RIEDEL glasse
+ s\, with VIP packages offering upgraded glasses\, early access\, champag 
+ — More: https://letsdoitdallas.com/district/irving/
 END:VEVENT
 BEGIN:VEVENT
 UID:comedy-allstars|punch-line-irving-irving|7-30-pm-2026-10-14@letsdoitdal

@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hyena's Comedy Nightclub - Dallas — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Hyena's Comedy Nightclub - Dallas.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:charles-haycock|hyena-s-comedy-nightclub-dallas-dallas|8-00-pm-2026-10-
+ 15@letsdoitdallas.com
+DTSTAMP:20261016T010000Z
+DTSTART:20261016T010000Z
+DTEND:20261016T040000Z
+SUMMARY:Charles Haycock
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=charles-haycock%7Chyena-s
+ -comedy-nightclub-dallas-dallas%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:roast-battle-league|hyena-s-comedy-nightclub-dallas-dallas|10-00-pm-202
+ 6-10-16@letsdoitdallas.com
+DTSTAMP:20261017T030000Z
+DTSTART:20261017T030000Z
+DTEND:20261017T060000Z
+SUMMARY:Roast Battle League
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=roast-battle-league%7Chye
+ na-s-comedy-nightclub-dallas-dallas%7C10-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:graeson-mcgaha|hyena-s-comedy-nightclub-dallas-dallas|8-00-pm-2026-10-2
+ 1@letsdoitdallas.com
+DTSTAMP:20261022T010000Z
+DTSTART:20261022T010000Z
+DTEND:20261022T040000Z
+SUMMARY:Graeson McGaha
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=graeson-mcgaha%7Chyena-s-
+ comedy-nightclub-dallas-dallas%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:felicia-madison|hyena-s-comedy-nightclub-dallas-dallas|7-00-pm-2026-10-
+ 22@letsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART:20261023T000000Z
+DTEND:20261023T030000Z
+SUMMARY:Felicia Madison
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=felicia-madison%7Chyena-s
+ -comedy-nightclub-dallas-dallas%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+END:VCALENDAR

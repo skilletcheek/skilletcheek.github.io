@@ -9,6 +9,97 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:frankie-quinones|hyena-s-comedy-night-club-fort-worth-fort-worth|7-30-p
+ m-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261017T003000Z
+DTSTART:20261017T003000Z
+DTEND:20261017T033000Z
+SUMMARY:Frankie Quinones
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=frankie-quinones%7Chyena-
+ s-comedy-night-club-fort-worth-fort-worth%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-night-club-fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:arturo-vaca|hyena-s-comedy-night-club-fort-worth-fort-worth|8-30-pm-202
+ 6-10-16@letsdoitdallas.com
+DTSTAMP:20261017T013000Z
+DTSTART:20261017T013000Z
+DTEND:20261017T043000Z
+SUMMARY:Arturo Vaca
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=arturo-vaca%7Chyena-s-com
+ edy-night-club-fort-worth-fort-worth%7C8-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-night-club-fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:frankie-quinones|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-p
+ m-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261017T023000Z
+DTSTART:20261017T023000Z
+DTEND:20261017T053000Z
+SUMMARY:Frankie Quinones
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=frankie-quinones%7Chyena-
+ s-comedy-night-club-fort-worth-fort-worth%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-night-club-fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:frankie-quinones|hyena-s-comedy-night-club-fort-worth-fort-worth|7-00-p
+ m-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261018T000000Z
+DTSTART:20261018T000000Z
+DTEND:20261018T030000Z
+SUMMARY:Frankie Quinones
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=frankie-quinones%7Chyena-
+ s-comedy-night-club-fort-worth-fort-worth%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-night-club-fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:arturo-vaca|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm-202
+ 6-10-17@letsdoitdallas.com
+DTSTAMP:20261018T010000Z
+DTSTART:20261018T010000Z
+DTEND:20261018T040000Z
+SUMMARY:Arturo Vaca
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=arturo-vaca%7Chyena-s-com
+ edy-night-club-fort-worth-fort-worth%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-night-club-fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:frankie-quinones|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-p
+ m-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261018T023000Z
+DTSTART:20261018T023000Z
+DTEND:20261018T053000Z
+SUMMARY:Frankie Quinones
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=frankie-quinones%7Chyena-
+ s-comedy-night-club-fort-worth-fort-worth%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-night-club-fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:nick-mullen|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm-202
+ 6-10-19@letsdoitdallas.com
+DTSTAMP:20261020T010000Z
+DTSTART:20261020T010000Z
+DTEND:20261020T040000Z
+SUMMARY:Nick Mullen
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=nick-mullen%7Chyena-s-com
+ edy-night-club-fort-worth-fort-worth%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-night-club-fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:nick-mullen-18-|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm
  -2026-10-20@letsdoitdallas.com
 DTSTAMP:20261021T010000Z
@@ -57,45 +148,6 @@ SUMMARY:Chona E
 LOCATION:Hyena's Comedy Night Club - Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=chona-e%7Chyena-s-comedy-
  night-club-fort-worth-fort-worth%7C7-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/hyena-s-comedy-night-club-fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:chona-e|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-pm-2026-10
- -23@letsdoitdallas.com
-DTSTAMP:20261024T023000Z
-DTSTART:20261024T023000Z
-DTEND:20261024T053000Z
-SUMMARY:Chona E
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=chona-e%7Chyena-s-comedy-
- night-club-fort-worth-fort-worth%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/hyena-s-comedy-night-club-fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:chona-e|hyena-s-comedy-night-club-fort-worth-fort-worth|7-00-pm-2026-10
- -24@letsdoitdallas.com
-DTSTAMP:20261025T000000Z
-DTSTART:20261025T000000Z
-DTEND:20261025T030000Z
-SUMMARY:Chona E
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=chona-e%7Chyena-s-comedy-
- night-club-fort-worth-fort-worth%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/hyena-s-comedy-night-club-fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:chona-e|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-pm-2026-10
- -24@letsdoitdallas.com
-DTSTAMP:20261025T023000Z
-DTSTART:20261025T023000Z
-DTEND:20261025T053000Z
-SUMMARY:Chona E
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=chona-e%7Chyena-s-comedy-
- night-club-fort-worth-fort-worth%7C9-30-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /venue/hyena-s-comedy-night-club-fort-worth/
 END:VEVENT

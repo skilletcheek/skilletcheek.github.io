@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rubber Gloves — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Rubber Gloves.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:xasthur|rubber-gloves-denton|8-00-pm-2026-10-13@letsdoitdallas.com
+DTSTAMP:20261014T010000Z
+DTSTART:20261014T010000Z
+DTEND:20261014T040000Z
+SUMMARY:Xasthur
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=xasthur%7Crubber-gloves-d
+ enton%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/rubber-gloves/
+END:VEVENT
+BEGIN:VEVENT
+UID:yhwh-nailgun-with-keiyaa|rubber-gloves-denton|7-00-pm-2026-10-14@letsdo
+ itdallas.com
+DTSTAMP:20261015T000000Z
+DTSTART:20261015T000000Z
+DTEND:20261015T030000Z
+SUMMARY:YHWH Nailgun with KeiyaA
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=yhwh-nailgun-with-keiyaa%
+ 7Crubber-gloves-denton%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/rubber-gloves/
+END:VEVENT
+BEGIN:VEVENT
+UID:your-arms-are-my-cocoon|rubber-gloves-denton|7-00-pm-2026-10-15@letsdoi
+ tdallas.com
+DTSTAMP:20261016T000000Z
+DTSTART:20261016T000000Z
+DTEND:20261016T030000Z
+SUMMARY:Your Arms Are My Cocoon
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=your-arms-are-my-cocoon%7
+ Crubber-gloves-denton%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/rubber-gloves/
+END:VEVENT
+BEGIN:VEVENT
+UID:joey-cash|rubber-gloves-denton|7-00-pm-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261017T000000Z
+DTSTART:20261017T000000Z
+DTEND:20261017T030000Z
+SUMMARY:Joey Cash
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=joey-cash%7Crubber-gloves
+ -denton%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/rubber-gloves/
+END:VEVENT
+BEGIN:VEVENT
+UID:spirit-of-the-bear|rubber-gloves-denton|8-30-pm-2026-10-21@letsdoitdall
+ as.com
+DTSTAMP:20261022T013000Z
+DTSTART:20261022T013000Z
+DTEND:20261022T043000Z
+SUMMARY:Spirit Of The Bear
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=spirit-of-the-bear%7Crubb
+ er-gloves-denton%7C8-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/rubber-gloves/
+END:VEVENT
+END:VCALENDAR

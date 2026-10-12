@@ -10,48 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pierre-bensusan-the-infinite-guitar-tour-2026|poor-david-s-pub-dallas|d
- oors-see-listing-2026-10-11@letsdoitdallas.com
-DTSTAMP:20261011T000000Z
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
-SUMMARY:PIERRE BENSUSAN - THE INFINITE GUITAR TOUR 2026
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=pierre-bensusan-the-infin
- ite-guitar-tour-2026%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-11@letsdoitdallas.com
-DTSTAMP:20261011T130000Z
-DTSTART:20261011T130000Z
-DTEND:20261011T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:kacey-musgraves-middle-of-nowhere-tour|american-airlines-center-dallas|
- 7-30-pm-2026-10-11@letsdoitdallas.com
-DTSTAMP:20261012T003000Z
-DTSTART:20261012T003000Z
-DTEND:20261012T033000Z
-SUMMARY:Kacey Musgraves - Middle of Nowhere Tour
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=kacey-musgraves-middle-of
- -nowhere-tour%7Camerican-airlines-center-dallas%7C7-30-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-10-12@letsdoitdallas.com
 DTSTAMP:20261012T130000Z
@@ -121,6 +79,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-13&e=fifth-third-garage-dallas
  -stars-v-colorado-avalanche%7Camerican-airlines-center-dallas%7C7-30-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-14@letsdoitdallas.com
+DTSTAMP:20261014T130000Z
+DTSTART:20261014T130000Z
+DTEND:20261014T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:president-north-american-campaign-2026|house-of-blues-dallas-dallas|6-3
@@ -1348,5 +1322,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-08&e=buena-vista-social-club-t
  ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-00-pm
 DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-vs-indiana-pacers|american-airlines-center-dallas|7-00
+ -pm-2026-11-09@letsdoitdallas.com
+DTSTAMP:20261110T010000Z
+DTSTART:20261110T010000Z
+DTEND:20261110T040000Z
+SUMMARY:Dallas Mavericks vs. Indiana Pacers
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-09&e=dallas-mavericks-vs-india
+ na-pacers%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:lil-peep-30th-birthday-celebration|house-of-blues-dallas-dallas|7-00-pm
+ -2026-11-09@letsdoitdallas.com
+DTSTAMP:20261110T010000Z
+DTSTART:20261110T010000Z
+DTEND:20261110T040000Z
+SUMMARY:LIL PEEP 30TH BIRTHDAY CELEBRATION
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-09&e=lil-peep-30th-birthday-ce
+ lebration%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

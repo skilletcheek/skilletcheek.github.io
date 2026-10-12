@@ -10,33 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:arch-enemy-the-black-dahlia-murder-wrath-across-north-america-2026|the-
- echo-lounge-music-hall-dallas|5-00-pm-2026-10-11@letsdoitdallas.com
-DTSTAMP:20261011T220000Z
-DTSTART:20261011T220000Z
-DTEND:20261012T010000Z
-SUMMARY:Arch Enemy + The Black Dahlia Murder - Wrath Across North America 2
- 026
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=arch-enemy-the-black-dahl
- ia-murder-wrath-across-north-america-2026%7Cthe-echo-lounge-music-hall-dal
- las%7C5-00-pm
-DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:bijou-21-and-over-|silo-dallas|7-00-pm-2026-10-11@letsdoitdallas.com
-DTSTAMP:20261012T000000Z
-DTSTART:20261012T000000Z
-DTEND:20261012T030000Z
-SUMMARY:Bijou (21 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=bijou-21-and-over-%7Csilo
- -dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:l7-the-last-hurrah-tour-2026|the-echo-lounge-music-hall-dallas|7-00-pm-
  2026-10-13@letsdoitdallas.com
 DTSTAMP:20261014T000000Z
@@ -555,5 +528,30 @@ URL:https://letsdoitdallas.com/?date=2026-11-08&e=mushroomhead-w-fear-facto
  ry%7Cam-fm-dallas-dallas%7C7-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:gwar|am-fm-dallas-dallas|6-00-pm-2026-11-10@letsdoitdallas.com
+DTSTAMP:20261111T000000Z
+DTSTART:20261111T000000Z
+DTEND:20261111T030000Z
+SUMMARY:Gwar
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=gwar%7Cam-fm-dallas-dalla
+ s%7C6-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:state-champs-10-years-of-around-the-world-and-back-|the-echo-lounge-mus
+ ic-hall-dallas|6-00-pm-2026-11-10@letsdoitdallas.com
+DTSTAMP:20261111T000000Z
+DTSTART:20261111T000000Z
+DTEND:20261111T030000Z
+SUMMARY:STATE CHAMPS - 10 YEARS OF 'AROUND THE WORLD AND BACK'
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=state-champs-10-years-of-
+ around-the-world-and-back-%7Cthe-echo-lounge-music-hall-dallas%7C6-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
 END:VEVENT
 END:VCALENDAR

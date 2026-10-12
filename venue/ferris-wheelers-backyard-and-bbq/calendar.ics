@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ferris Wheelers Backyard and BBQ — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Ferris Wheelers Backyard and BBQ.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:chinese-football|ferris-wheelers-backyard-and-bbq-dallas|7-00-pm-2026-1
+ 0-14@letsdoitdallas.com
+DTSTAMP:20261015T000000Z
+DTSTART:20261015T000000Z
+DTEND:20261015T030000Z
+SUMMARY:Chinese Football
+LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=chinese-football%7Cferris
+ -wheelers-backyard-and-bbq-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/ferris-wheelers-backyard-and-bbq/
+END:VEVENT
+BEGIN:VEVENT
+UID:inoha|ferris-wheelers-backyard-and-bbq-dallas|6-30-pm-2026-10-16@letsdo
+ itdallas.com
+DTSTAMP:20261016T233000Z
+DTSTART:20261016T233000Z
+DTEND:20261017T023000Z
+SUMMARY:Inoha
+LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=inoha%7Cferris-wheelers-b
+ ackyard-and-bbq-dallas%7C6-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/ferris-wheelers-backyard-and-bbq/
+END:VEVENT
+BEGIN:VEVENT
+UID:flamy-grant-18-|ferris-wheelers-backyard-and-bbq-dallas|8-15-pm-2026-10
+ -16@letsdoitdallas.com
+DTSTAMP:20261017T011500Z
+DTSTART:20261017T011500Z
+DTEND:20261017T041500Z
+SUMMARY:Flamy Grant (18+)
+LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=flamy-grant-18-%7Cferris-
+ wheelers-backyard-and-bbq-dallas%7C8-15-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/ferris-wheelers-backyard-and-bbq/
+END:VEVENT
+BEGIN:VEVENT
+UID:kels|ferris-wheelers-backyard-and-bbq-dallas|7-00-pm-2026-10-19@letsdoi
+ tdallas.com
+DTSTAMP:20261020T000000Z
+DTSTART:20261020T000000Z
+DTEND:20261020T030000Z
+SUMMARY:KELS
+LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-19&e=kels%7Cferris-wheelers-ba
+ ckyard-and-bbq-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/ferris-wheelers-backyard-and-bbq/
+END:VEVENT
+BEGIN:VEVENT
+UID:machine-girl|ferris-wheelers-backyard-and-bbq-dallas|7-00-pm-2026-10-21
+ @letsdoitdallas.com
+DTSTAMP:20261022T000000Z
+DTSTART:20261022T000000Z
+DTEND:20261022T030000Z
+SUMMARY:Machine Girl
+LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=machine-girl%7Cferris-whe
+ elers-backyard-and-bbq-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/ferris-wheelers-backyard-and-bbq/
+END:VEVENT
+BEGIN:VEVENT
+UID:nether-hour|ferris-wheelers-backyard-and-bbq-dallas|7-00-pm-2026-10-21@
+ letsdoitdallas.com
+DTSTAMP:20261022T000000Z
+DTSTART:20261022T000000Z
+DTEND:20261022T030000Z
+SUMMARY:Nether Hour
+LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=nether-hour%7Cferris-whee
+ lers-backyard-and-bbq-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/ferris-wheelers-backyard-and-bbq/
+END:VEVENT
+BEGIN:VEVENT
+UID:edgehill|ferris-wheelers-backyard-and-bbq-dallas|7-00-pm-2026-10-22@let
+ sdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART:20261023T000000Z
+DTEND:20261023T030000Z
+SUMMARY:Edgehill
+LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=edgehill%7Cferris-wheeler
+ s-backyard-and-bbq-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/ferris-wheelers-backyard-and-bbq/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dallas Comedy Club - Mainstage Theater — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Dallas Comedy Club - Mainstage Theater.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:marcus-monroe|dallas-comedy-club-mainstage-theater-dallas|7-00-pm-2026-
+ 10-15@letsdoitdallas.com
+DTSTAMP:20261016T000000Z
+DTSTART:20261016T000000Z
+DTEND:20261016T030000Z
+SUMMARY:Marcus Monroe
+LOCATION:Dallas Comedy Club - Mainstage Theater
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=marcus-monroe%7Cdallas-co
+ medy-club-mainstage-theater-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/dallas-comedy-club-mainstage-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:rosebud-baker|dallas-comedy-club-mainstage-theater-dallas|7-30-pm-2026-
+ 10-16@letsdoitdallas.com
+DTSTAMP:20261017T003000Z
+DTSTART:20261017T003000Z
+DTEND:20261017T033000Z
+SUMMARY:Rosebud Baker
+LOCATION:Dallas Comedy Club - Mainstage Theater
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=rosebud-baker%7Cdallas-co
+ medy-club-mainstage-theater-dallas%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/dallas-comedy-club-mainstage-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:rosebud-baker|dallas-comedy-club-mainstage-theater-dallas|9-30-pm-2026-
+ 10-16@letsdoitdallas.com
+DTSTAMP:20261017T023000Z
+DTSTART:20261017T023000Z
+DTEND:20261017T053000Z
+SUMMARY:Rosebud Baker
+LOCATION:Dallas Comedy Club - Mainstage Theater
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=rosebud-baker%7Cdallas-co
+ medy-club-mainstage-theater-dallas%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/dallas-comedy-club-mainstage-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:jalen-hinton|dallas-comedy-club-mainstage-theater-dallas|5-00-pm-2026-1
+ 0-17@letsdoitdallas.com
+DTSTAMP:20261017T220000Z
+DTSTART:20261017T220000Z
+DTEND:20261018T010000Z
+SUMMARY:Jalen Hinton
+LOCATION:Dallas Comedy Club - Mainstage Theater
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=jalen-hinton%7Cdallas-com
+ edy-club-mainstage-theater-dallas%7C5-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/dallas-comedy-club-mainstage-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:rosebud-baker|dallas-comedy-club-mainstage-theater-dallas|7-30-pm-2026-
+ 10-17@letsdoitdallas.com
+DTSTAMP:20261018T003000Z
+DTSTART:20261018T003000Z
+DTEND:20261018T033000Z
+SUMMARY:Rosebud Baker
+LOCATION:Dallas Comedy Club - Mainstage Theater
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=rosebud-baker%7Cdallas-co
+ medy-club-mainstage-theater-dallas%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/dallas-comedy-club-mainstage-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:prime-time-comedy|dallas-comedy-club-mainstage-theater-dallas|8-30-pm-2
+ 026-10-17@letsdoitdallas.com
+DTSTAMP:20261018T013000Z
+DTSTART:20261018T013000Z
+DTEND:20261018T043000Z
+SUMMARY:Prime Time Comedy
+LOCATION:Dallas Comedy Club - Mainstage Theater
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=prime-time-comedy%7Cdalla
+ s-comedy-club-mainstage-theater-dallas%7C8-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/dallas-comedy-club-mainstage-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:rosebud-baker|dallas-comedy-club-mainstage-theater-dallas|9-30-pm-2026-
+ 10-17@letsdoitdallas.com
+DTSTAMP:20261018T023000Z
+DTSTART:20261018T023000Z
+DTEND:20261018T053000Z
+SUMMARY:Rosebud Baker
+LOCATION:Dallas Comedy Club - Mainstage Theater
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=rosebud-baker%7Cdallas-co
+ medy-club-mainstage-theater-dallas%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/dallas-comedy-club-mainstage-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:hannah-jones|dallas-comedy-club-mainstage-theater-dallas|7-00-pm-2026-1
+ 0-21@letsdoitdallas.com
+DTSTAMP:20261022T000000Z
+DTSTART:20261022T000000Z
+DTEND:20261022T030000Z
+SUMMARY:Hannah Jones
+LOCATION:Dallas Comedy Club - Mainstage Theater
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=hannah-jones%7Cdallas-com
+ edy-club-mainstage-theater-dallas%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/dallas-comedy-club-mainstage-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:aj-wilkerson|dallas-comedy-club-mainstage-theater-dallas|7-30-pm-2026-1
+ 0-22@letsdoitdallas.com
+DTSTAMP:20261023T003000Z
+DTSTART:20261023T003000Z
+DTEND:20261023T033000Z
+SUMMARY:AJ Wilkerson
+LOCATION:Dallas Comedy Club - Mainstage Theater
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=aj-wilkerson%7Cdallas-com
+ edy-club-mainstage-theater-dallas%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/dallas-comedy-club-mainstage-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:aj-wilkerson|dallas-comedy-club-mainstage-theater-dallas|7-30-pm-2026-1
+ 0-23@letsdoitdallas.com
+DTSTAMP:20261024T003000Z
+DTSTART:20261024T003000Z
+DTEND:20261024T033000Z
+SUMMARY:AJ Wilkerson
+LOCATION:Dallas Comedy Club - Mainstage Theater
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=aj-wilkerson%7Cdallas-com
+ edy-club-mainstage-theater-dallas%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/dallas-comedy-club-mainstage-theater/
+END:VEVENT
+END:VCALENDAR

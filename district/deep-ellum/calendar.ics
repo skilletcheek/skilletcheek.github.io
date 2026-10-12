@@ -10,57 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:greywind-waiting-4-april-rain-division-rodeo|three-links-deep-ellum-dal
- las|7-00-pm-2026-10-11@letsdoitdallas.com
-DTSTAMP:20261012T000000Z
-DTSTART:20261012T000000Z
-DTEND:20261012T030000Z
-SUMMARY:Greywind\, Waiting 4 April\, Rain Division\, Rodeo
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=greywind-waiting-4-april-
- rain-division-rodeo%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:plini-16-and-under-with-parent-or-legal-guardian-|the-studio-at-the-bom
- b-factory-dallas|7-00-pm-2026-10-11@letsdoitdallas.com
-DTSTAMP:20261012T000000Z
-DTSTART:20261012T000000Z
-DTEND:20261012T030000Z
-SUMMARY:Plini (16 and Under with Parent or Legal Guardian)
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=plini-16-and-under-with-p
- arent-or-legal-guardian-%7Cthe-studio-at-the-bomb-factory-dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:hurricane-wisdom|trees-dallas|8-00-pm-2026-10-11@letsdoitdallas.com
-DTSTAMP:20261012T010000Z
-DTSTART:20261012T010000Z
-DTEND:20261012T040000Z
-SUMMARY:Hurricane Wisdom
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=hurricane-wisdom%7Ctrees-
- dallas%7C8-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-11@letsdoitd
- allas.com
-DTSTAMP:20261012T040000Z
-DTSTART:20261012T040000Z
-DTEND:20261012T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-11&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:arrows-in-action-w-good-boy-daisy|club-dada-dallas|6-30-pm-2026-10-12@l
  etsdoitdallas.com
 DTSTAMP:20261012T233000Z
@@ -139,6 +88,18 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:after|club-dada-dallas|8-00-pm-2026-10-13@letsdoitdallas.com
+DTSTAMP:20261014T010000Z
+DTSTART:20261014T010000Z
+DTEND:20261014T040000Z
+SUMMARY:After
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=after%7Cclub-dada-dallas%
+ 7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:maris|club-dada-dallas|8-00-pm-2026-10-13@letsdoitdallas.com
 DTSTAMP:20261014T010000Z
 DTSTART:20261014T010000Z
@@ -149,6 +110,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-13&e=maris%7Cclub-dada-dallas%
  7C8-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:stars-and-stripes-festival|deep-ellum-art-co-dallas|8-00-pm-2026-10-13@
+ letsdoitdallas.com
+DTSTAMP:20261014T010000Z
+DTSTART:20261014T010000Z
+DTEND:20261014T040000Z
+SUMMARY:Stars and Stripes Festival
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-13&e=stars-and-stripes-festiva
+ l%7Cdeep-ellum-art-co-dallas%7C8-00-pm
+DESCRIPTION:music festival event via SeatGeek. — More: https://letsdoitda
+ llas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:rachel-bochner-janna-jamison-lizzy-cameron|three-links-deep-ellum-dalla
@@ -172,6 +146,18 @@ SUMMARY:Weatherday
 LOCATION:Club Dada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-14&e=weatherday%7Cclub-dada-da
  llas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:black-oxygen|club-dada-dallas|7-30-pm-2026-10-15@letsdoitdallas.com
+DTSTAMP:20261016T003000Z
+DTSTART:20261016T003000Z
+DTEND:20261016T033000Z
+SUMMARY:Black Oxygen
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=black-oxygen%7Cclub-dada-
+ dallas%7C7-30-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT
@@ -202,18 +188,6 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:daft-disko|trees-dallas|doors-see-listing-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261016T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
-SUMMARY:DAFT DISKO
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=daft-disko%7Ctrees-dallas
- %7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:bright-eyes-16-and-under-with-parent-or-legal-guardian-|the-studio-at-t
  he-bomb-factory-dallas|7-30-pm-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261017T003000Z
@@ -241,6 +215,19 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:daft-disko-21-|trees-dallas-dallas|9-00-pm-2026-10-16@letsdoitdallas.co
+ m
+DTSTAMP:20261017T020000Z
+DTSTART:20261017T020000Z
+DTEND:20261017T050000Z
+SUMMARY:Daft Disko (21+)
+LOCATION:Trees - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=daft-disko-21-%7Ctrees-da
+ llas-dallas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:whethan-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory-da
  llas|9-00-pm-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261017T020000Z
@@ -252,6 +239,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=whethan-16-and-under-with
  -parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C9-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:wonkywilla|deep-ellum-art-co-dallas|9-00-pm-2026-10-16@letsdoitdallas.c
+ om
+DTSTAMP:20261017T020000Z
+DTSTART:20261017T020000Z
+DTEND:20261017T050000Z
+SUMMARY:WonkyWilla
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=wonkywilla%7Cdeep-ellum-a
+ rt-co-dallas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:olivia-rodrigo-night|trees-dallas|doors-see-listing-2026-10-17@letsdoit
@@ -280,6 +280,18 @@ DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
  sdoitdallas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:karina-rykman|club-dada-dallas|8-00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261018T010000Z
+DTSTART:20261018T010000Z
+DTEND:20261018T040000Z
+SUMMARY:Karina Rykman
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=karina-rykman%7Cclub-dada
+ -dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:lolo-w-mylie-taylor|puzzles-deep-ellum-dallas|8-00-pm-2026-10-17@letsdo
  itdallas.com
 DTSTAMP:20261018T010000Z
@@ -291,6 +303,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=lolo-w-mylie-taylor%7Cpuz
  zles-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:house-of-heavy|rbc-deep-ellum-dallas|9-00-pm-2026-10-17@letsdoitdallas.
+ com
+DTSTAMP:20261018T020000Z
+DTSTART:20261018T020000Z
+DTEND:20261018T050000Z
+SUMMARY:House of Heavy
+LOCATION:RBC Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=house-of-heavy%7Crbc-deep
+ -ellum-dallas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:sabai-w-hoang|the-studio-at-the-bomb-factory-dallas|9-00-pm-2026-10-17@
@@ -409,6 +434,18 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:joon|deep-ellum-art-co-dallas|8-00-pm-2026-10-20@letsdoitdallas.com
+DTSTAMP:20261021T010000Z
+DTSTART:20261021T010000Z
+DTEND:20261021T040000Z
+SUMMARY:Joon
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=joon%7Cdeep-ellum-art-co-
+ dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:jackie-evans-blair-lamb|three-links-deep-ellum-dallas|7-00-pm-2026-10-2
  1@letsdoitdallas.com
 DTSTAMP:20261022T000000Z
@@ -422,16 +459,30 @@ DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:sludge-mother|club-dada-dallas|7-00-pm-2026-10-21@letsdoitdallas.com
+UID:sludge-mother-yellowbelly|club-dada-dallas|7-00-pm-2026-10-21@letsdoitd
+ allas.com
 DTSTAMP:20261022T000000Z
 DTSTART:20261022T000000Z
 DTEND:20261022T030000Z
-SUMMARY:Sludge Mother
+SUMMARY:Sludge Mother\, yellowbelly
 LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=sludge-mother%7Cclub-dada
- -dallas%7C7-00-pm
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=sludge-mother-yellowbelly
+ %7Cclub-dada-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dev-lemons|deep-ellum-art-co-dallas|8-00-pm-2026-10-21@letsdoitdallas.c
+ om
+DTSTAMP:20261022T010000Z
+DTSTART:20261022T010000Z
+DTEND:20261022T040000Z
+SUMMARY:Dev Lemons
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=dev-lemons%7Cdeep-ellum-a
+ rt-co-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-wldlfe|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-10-21@let
@@ -522,18 +573,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=visit-neptune-eileen-peyt
  on-aston%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:kyle-hume|club-dada-dallas|8-00-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261025T010000Z
-DTSTART:20261025T010000Z
-DTEND:20261025T040000Z
-SUMMARY:Kyle Hume
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=kyle-hume%7Cclub-dada-dal
- las%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:viktoria-xo-rebirth-album-release-show|three-links-deep-ellum-dallas|7-
@@ -910,5 +949,43 @@ URL:https://letsdoitdallas.com/?date=2026-11-08&e=thundercat-w-54-ultra%7Ct
  he-bomb-factory-dallas%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:careful-gaze-chrry-obsessed|three-links-deep-ellum-dallas|8-00-pm-2026-
+ 11-09@letsdoitdallas.com
+DTSTAMP:20261110T020000Z
+DTSTART:20261110T020000Z
+DTEND:20261110T050000Z
+SUMMARY:Careful Gaze\, Chrry Obsessed
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-09&e=careful-gaze-chrry-obsess
+ ed%7Cthree-links-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:medium-build-w-the-scratch|the-bomb-factory-dallas|8-00-pm-2026-11-09@l
+ etsdoitdallas.com
+DTSTAMP:20261110T020000Z
+DTSTART:20261110T020000Z
+DTEND:20261110T050000Z
+SUMMARY:Medium Build w/ The Scratch
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-09&e=medium-build-w-the-scratc
+ h%7Cthe-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:aces|trees-dallas|doors-see-listing-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:ACES
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=aces%7Ctrees-dallas%7Cdoo
+ rs-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
 END:VEVENT
 END:VCALENDAR
