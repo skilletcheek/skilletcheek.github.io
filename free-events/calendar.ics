@@ -235,15 +235,15 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:ronnie-fauss-and-his-band|sundown-at-granada-lower-greenville-dallas|do
- ors-see-listing-2026-10-23@letsdoitdallas.com
+UID:ronnie-fauss|sundown-at-granada-lower-greenville-dallas|doors-see-listi
+ ng-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261023T000000Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
-SUMMARY:Ronnie Fauss and his Band
+SUMMARY:Ronnie Fauss
 LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=ronnie-fauss-and-his-band
- %7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=ronnie-fauss%7Csundown-at
+ -granada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
 END:VEVENT
@@ -259,6 +259,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=invasion-car-show%7Ctrees
  -dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/free-events
  /
+END:VEVENT
+BEGIN:VEVENT
+UID:bluegrass-heritage-music-show-jam|poor-david-s-pub-dallas|doors-see-lis
+ ting-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Bluegrass Heritage Music Show & Jam
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=bluegrass-heritage-music-
+ show-jam%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|

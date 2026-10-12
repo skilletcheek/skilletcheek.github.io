@@ -595,6 +595,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:bluegrass-heritage-music-show-jam|poor-david-s-pub-dallas|doors-see-lis
+ ting-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Bluegrass Heritage Music Show & Jam
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=bluegrass-heritage-music-
+ show-jam%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:fifth-third-garage-dallas-stars-v-new-york-islanders|american-airlines-
  center-dallas|5-00-pm-2026-10-25@letsdoitdallas.com
 DTSTAMP:20261025T220000Z
