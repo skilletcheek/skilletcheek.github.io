@@ -55,4 +55,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-05&e=north-texas-mean-green-me
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/unt-superpit/
 END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-men-s-basketball-vs-santa-clara-broncos-mens-bas
+ ketball|unt-superpit-denton|see-details-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:North Texas Mean Green Men's Basketball vs. Santa Clara Broncos Men
+ s Basketball
+LOCATION:UNT Superpit · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=north-texas-mean-green-me
+ n-s-basketball-vs-santa-clara-broncos-mens-basketball%7Cunt-superpit-dento
+ n%7Csee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/unt-superpit/
+END:VEVENT
 END:VCALENDAR

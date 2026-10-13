@@ -11,22 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
- e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-12@letsdoitdallas
- .com
-DTSTAMP:20261012T000000Z
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261013
-SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
- Theatre Works
-LOCATION:8004 N. Dallas Parkway · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=-goosebumps-the-musical-p
- hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
- way-frisco%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/dis
- trict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
  e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-13@letsdoitdallas
  .com
 DTSTAMP:20261013T000000Z
@@ -459,6 +443,21 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=fc-dallas-vs-san-jose-ear
  thquakes%7Ctoyota-stadium-frisco%7C7-30-pm
 DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-from-vision-to-impact-an-evening-with-jeff-cheney-by-heritage-associat
+ ion-of-frisco|6455-page-street-frisco|06-30-pm-2026-10-27@letsdoitdallas.c
+ om
+DTSTAMP:20261027T233000Z
+DTSTART:20261027T233000Z
+DTEND:20261028T023000Z
+SUMMARY:"From Vision to Impact: An Evening with Jeff Cheney" by Heritage As
+ sociation of Frisco
+LOCATION:6455 Page Street · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=-from-vision-to-impact-an
+ -evening-with-jeff-cheney-by-heritage-association-of-frisco%7C6455-page-st
+ reet-frisco%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:fc-dallas-vs-columbus-crew|toyota-stadium-frisco|7-30-pm-2026-10-28@let

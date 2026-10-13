@@ -10,71 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:arrows-in-action-w-good-boy-daisy|club-dada-dallas|6-30-pm-2026-10-12@l
- etsdoitdallas.com
-DTSTAMP:20261012T233000Z
-DTSTART:20261012T233000Z
-DTEND:20261013T023000Z
-SUMMARY:Arrows In Action w/ Good Boy Daisy
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=arrows-in-action-w-good-b
- oy-daisy%7Cclub-dada-dallas%7C6-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:chad-gray-w-butcher-babies|the-studio-at-the-bomb-factory-dallas|7-00-p
- m-2026-10-12@letsdoitdallas.com
-DTSTAMP:20261013T000000Z
-DTSTART:20261013T000000Z
-DTEND:20261013T030000Z
-SUMMARY:Chad Gray w/ Butcher Babies
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=chad-gray-w-butcher-babie
- s%7Cthe-studio-at-the-bomb-factory-dallas%7C7-00-pm
-DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:kylie-cantrall|the-bomb-factory-dallas-dallas|8-00-pm-2026-10-12@letsdo
- itdallas.com
-DTSTAMP:20261013T010000Z
-DTSTART:20261013T010000Z
-DTEND:20261013T040000Z
-SUMMARY:Kylie Cantrall
-LOCATION:The Bomb Factory - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=kylie-cantrall%7Cthe-bomb
- -factory-dallas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:lilyisthatyou|deep-ellum-art-co-dallas|8-00-pm-2026-10-12@letsdoitdalla
- s.com
-DTSTAMP:20261013T010000Z
-DTSTART:20261013T010000Z
-DTEND:20261013T040000Z
-SUMMARY:Lilyisthatyou
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=lilyisthatyou%7Cdeep-ellu
- m-art-co-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
- pm-2026-10-12@letsdoitdallas.com
-DTSTAMP:20261013T020000Z
-DTSTART:20261013T020000Z
-DTEND:20261013T050000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:chiodos-with-hail-the-sun-emery-and-evergreen-terrace|the-bomb-factory-
  dallas-dallas|7-00-pm-2026-10-13@letsdoitdallas.com
 DTSTAMP:20261014T000000Z
@@ -110,19 +45,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-13&e=maris%7Cclub-dada-dallas%
  7C8-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:stars-and-stripes-festival|deep-ellum-art-co-dallas|8-00-pm-2026-10-13@
- letsdoitdallas.com
-DTSTAMP:20261014T010000Z
-DTSTART:20261014T010000Z
-DTEND:20261014T040000Z
-SUMMARY:Stars and Stripes Festival
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=stars-and-stripes-festiva
- l%7Cdeep-ellum-art-co-dallas%7C8-00-pm
-DESCRIPTION:music festival event via SeatGeek. — More: https://letsdoitda
- llas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:rachel-bochner-janna-jamison-lizzy-cameron|three-links-deep-ellum-dalla
@@ -975,6 +897,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-09&e=medium-build-w-the-scratc
  h%7Cthe-bomb-factory-dallas%7C8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:icon-for-hire|club-dada-dallas|7-00-pm-2026-11-10@letsdoitdallas.com
+DTSTAMP:20261111T010000Z
+DTSTART:20261111T010000Z
+DTEND:20261111T040000Z
+SUMMARY:Icon for Hire
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=icon-for-hire%7Cclub-dada
+ -dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:taylor-bickett-mori|three-links-deep-ellum-dallas|7-00-pm-2026-11-10@le
+ tsdoitdallas.com
+DTSTAMP:20261111T010000Z
+DTSTART:20261111T010000Z
+DTEND:20261111T040000Z
+SUMMARY:Taylor Bickett\, Mori
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=taylor-bickett-mori%7Cthr
+ ee-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:aces|trees-dallas|doors-see-listing-2026-11-11@letsdoitdallas.com

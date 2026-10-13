@@ -10,20 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:free-halloween-movie-month-halloween|sundown-at-granada-lower-greenvill
- e-dallas|doors-see-listing-2026-10-12@letsdoitdallas.com
-DTSTAMP:20261012T000000Z
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261013
-SUMMARY:FREE Halloween Movie Month:  HALLOWEEN
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=free-halloween-movie-mont
- h-halloween%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listi
- ng
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:free-halloween-movie-month-beetlejuice|sundown-at-granada-lower-greenvi
  lle-dallas|doors-see-listing-2026-10-13@letsdoitdallas.com
 DTSTAMP:20261013T000000Z
@@ -201,20 +187,6 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
-UID:book-of-love-with-special-guest-lord-byron|granada-theater-lower-greenv
- ille-dallas|doors-see-listing-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Book of Love with special guest Lord Byron
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=book-of-love-with-special
- -guest-lord-byron%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-li
- sting
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
- istrict/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:ronnie-fauss|sundown-at-granada-lower-greenville-dallas|doors-see-listi
  ng-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261023T000000Z
@@ -225,6 +197,19 @@ LOCATION:Sundown at Granada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=ronnie-fauss%7Csundown-at
  -granada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:book-of-love|granada-theater-dallas-dallas|8-00-pm-2026-10-23@letsdoitd
+ allas.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Book of Love
+LOCATION:Granada Theater - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=book-of-love%7Cgranada-th
+ eater-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT

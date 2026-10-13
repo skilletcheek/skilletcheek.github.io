@@ -31,25 +31,6 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  c/
 END:VEVENT
 BEGIN:VEVENT
-UID:concert-orchestra|winspear-performance-hall-at-the-murchison-performing
- -arts-center-denton|7-30-pm-2026-10-14@letsdoitdallas.com
-DTSTAMP:20261015T003000Z
-DTSTART:20261015T003000Z
-DTEND:20261015T033000Z
-SUMMARY:Concert Orchestra
-LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
- · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=concert-orchestra%7Cwinsp
- ear-performance-hall-at-the-murchison-performing-arts-center-denton%7C7-30
- -pm
-DESCRIPTION:Clay Couturiaux\, conductor  SaiSai Ding\, violoncello (from th
- e Dallas Symphony Orchestra)  Daniel Bubeck\, countertenor     Barber Firs
- t Essay for Orchestra\, Op. 12  Bernstein Chichester Psalms  -intermission
- -  Dvořák Concerto for Violoncello and Orchestra in B Minor\, Op. 104 
- — More: https://letsdoitdallas.com/venue/winspear-performance-hall-at-th
- e-murchison-performing-arts-c/
-END:VEVENT
-BEGIN:VEVENT
 UID:wind-orchestra|winspear-performance-hall-at-the-murchison-performing-ar
  ts-center-denton|7-30-pm-2026-10-15@letsdoitdallas.com
 DTSTAMP:20261016T003000Z
@@ -195,5 +176,24 @@ DESCRIPTION:The theme of the concert is “Realities and Imaginations.” S
  \, or hopeful worlds as a result of our dreams\, stories we’ve been told
  \, sc — More: https://letsdoitdallas.com/venue/winspear-performance-hall
  -at-the-murchison-performing-arts-c/
+END:VEVENT
+BEGIN:VEVENT
+UID:state-of-the-university-fall-2026|winspear-performance-hall-at-the-murc
+ hison-performing-arts-center-denton|3-00-pm-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T210000Z
+DTSTART:20261112T210000Z
+DTEND:20261113T000000Z
+SUMMARY:State of the University Fall 2026
+LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
+ · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=state-of-the-university-f
+ all-2026%7Cwinspear-performance-hall-at-the-murchison-performing-arts-cent
+ er-denton%7C3-00-pm
+DESCRIPTION:Join President Harrison Keller\, Ph.D.\, for his State of the U
+ niversity address and five-year strategic plan update.     Thursday\, Nove
+ mber 12\, 2026 Doors open at 2 p.m. Presentation begins at 3 p.m.     Wins
+ pear Performance Hall Event Parking Available in Lot 20     Following the 
+ — More: https://letsdoitdallas.com/venue/winspear-performance-hall-at-th
+ e-murchison-performing-arts-c/
 END:VEVENT
 END:VCALENDAR

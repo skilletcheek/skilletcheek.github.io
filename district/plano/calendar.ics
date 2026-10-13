@@ -10,22 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:banfi-wine-dinner-at-sea-breeze|sea-breeze-plano|6-00-pm-8-00-pm-2026-1
- 0-12@letsdoitdallas.com
-DTSTAMP:20261012T230000Z
-DTSTART:20261012T230000Z
-DTEND:20261013T020000Z
-SUMMARY:Banfi Wine Dinner at Sea Breeze
-LOCATION:Sea Breeze · Plano
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=banfi-wine-dinner-at-sea-
- breeze%7Csea-breeze-plano%7C6-00-pm-8-00-pm
-DESCRIPTION:Sea Breeze Fish Market & Grill\, North Texas’ beloved family-
- owned seafood restaurant\, is partnering with Banfi Family Wines for an ex
- clusive wine dinner featuring a thoughtfully curated six-course menu paire
- d with exceptional selections from the celebrated Italian winemaker. The 
- — More: https://letsdoitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-rocky-horror-picture-show-plano|legacy-hall-plano|7-00-pm-2026-10-1
  4@letsdoitdallas.com
 DTSTAMP:20261015T000000Z
@@ -435,6 +419,19 @@ SUMMARY:Sahib Singh
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-11-07&e=sahib-singh%7Caddison-imp
  rov-addison%7C9-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:stone-cold-and-the-jackal|addison-improv-addison|7-30-pm-2026-11-10@let
+ sdoitdallas.com
+DTSTAMP:20261111T013000Z
+DTSTART:20261111T013000Z
+DTEND:20261111T043000Z
+SUMMARY:Stone Cold and the Jackal
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=stone-cold-and-the-jackal
+ %7Caddison-improv-addison%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT

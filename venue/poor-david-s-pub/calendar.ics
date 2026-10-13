@@ -180,4 +180,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-08&e=open-band-jam-w-poor-davi
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
+BEGIN:VEVENT
+UID:boomershack-darling-farm-double-bill|poor-david-s-pub-dallas|doors-see-
+ listing-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:BOOMERSHACK + DARLING FARM DOUBLE BILL
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=boomershack-darling-farm-
+ double-bill%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
 END:VCALENDAR

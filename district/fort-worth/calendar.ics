@@ -10,87 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
- ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-12@lets
- doitdallas.com
-DTSTAMP:20261012T150000Z
-DTSTART:20261012T150000Z
-DTEND:20261012T180000Z
-SUMMARY:Puzzling Adventures Scavenger Hunt
-LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=puzzling-adventures-scave
- nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
- rth-76102-united-states%7C10-00-am
-DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
- uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
- e\, and an informative self-guided walking tour. Each adventure consists o
- f a series of locations that you are guided to where you are required t 
- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:suites-breaking-benjamin|dickies-arena-fort-worth|6-00-pm-2026-10-12@le
- tsdoitdallas.com
-DTSTAMP:20261012T230000Z
-DTSTART:20261012T230000Z
-DTEND:20261013T020000Z
-SUMMARY:Suites: Breaking Benjamin
-LOCATION:Dickies Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=suites-breaking-benjamin%
- 7Cdickies-arena-fort-worth%7C6-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-big-laugh-open-mic|big-laugh-comedy-club-fort-worth-604-main-st-sui
- te-100-fort-worth-tx-76102-united-states|8-00-pm-2026-10-12@letsdoitdallas
- .com
-DTSTAMP:20261013T010000Z
-DTSTART:20261013T010000Z
-DTEND:20261013T040000Z
-SUMMARY:The Big Laugh Open Mic
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=the-big-laugh-open-mic%7C
- big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102
- -united-states%7C8-00-pm
-DESCRIPTION:Have you wondered to yourself\, “where can I go on a Monday t
- o get a good laugh?” Look no further because we have the spot for you. T
- he Big Laugh Open Mic is a perfect setting for anyone who is looking to la
- ugh and have a good time.  So grab your grandma or your side piece and hea
-  — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:dock-open-mic|dock-bookshop-6637-meadowbrook-dr-fort-worth-tx-75116|7-0
- 0-am-2026-10-13@letsdoitdallas.com
-DTSTAMP:20261013T120000Z
-DTSTART:20261013T120000Z
-DTEND:20261013T150000Z
-SUMMARY:Dock Open Mic
-LOCATION:dock bookshop · Fort Worth Tx
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=dock-open-mic%7Cdock-book
- shop-6637-meadowbrook-dr-fort-worth-tx-75116%7C7-00-am
-DESCRIPTION:The Dock open mic presents Speak And Be Published. Everyone who
-  reads gets their poem published in an anthology   June 16\, 2026 at 7:30 
- PM CDT  The Dock Bookshop  $7 — More: https://letsdoitdallas.com/distric
- t/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:member-morning|fort-worth-museum-of-science-and-history-1600-gendy-stre
- et-fort-worth-76107-united-states|9-00-am-2026-10-13@letsdoitdallas.com
-DTSTAMP:20261013T140000Z
-DTSTART:20261013T140000Z
-DTEND:20261013T170000Z
-SUMMARY:Member Morning
-LOCATION:Fort Worth Museum of Science and History
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=member-morning%7Cfort-wor
- th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
- -states%7C9-00-am
-DESCRIPTION:Museum Members get early entry to the TCU Children’s Gallery 
- every Tuesday from 9AM-10AM!  Early entry only applies to the TCU Children
- ’s Gallery\, the rest of the Museum opens at 10AM.  Not a Member yet? Cl
- ick here to join! — More: https://letsdoitdallas.com/district/fort-worth
- /
-END:VEVENT
-BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
  et-fort-worth-76107-united-states|10-00-am-2026-10-13@letsdoitdallas.com
 DTSTAMP:20261013T150000Z
@@ -288,6 +207,74 @@ URL:https://letsdoitdallas.com/?date=2026-10-14&e=music-of-john-denver%7Cca
  sa-manana-fort-worth%7C7-30-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:whiskey-laughs-wednesdays|big-laugh-comedy-club-fort-worth-604-main-st-
+ suite-100-fort-worth-tx-76102-united-states|8-00-pm-2026-10-14@letsdoitdal
+ las.com
+DTSTAMP:20261015T010000Z
+DTSTART:20261015T010000Z
+DTEND:20261015T040000Z
+SUMMARY:Whiskey + Laughs Wednesdays
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=whiskey-laughs-wednesdays
+ %7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76
+ 102-united-states%7C8-00-pm
+DESCRIPTION:Do you sit around thinking to yourself\, “where could I go on
+  a Wednesday to get some laughs and drink some whiskey”?  You’ve turne
+ d to the right place. The Big Laugh Comedy Club + Big Laugh Bistro is the 
+ place for you to laugh till your face hurts\, eat delicious food\, and dri
+ nk a — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:scott-copeland-|-2nd-wednesday|magnolia-motor-lounge-3803-southwest-blv
+ d-fort-worth-76116-united-states|9-00-pm-2026-10-14@letsdoitdallas.com
+DTSTAMP:20261015T020000Z
+DTSTART:20261015T020000Z
+DTEND:20261015T050000Z
+SUMMARY:SCOTT COPELAND | 2nd Wednesday
+LOCATION:Magnolia Motor Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=scott-copeland-%7C-2nd-we
+ dnesday%7Cmagnolia-motor-lounge-3803-southwest-blvd-fort-worth-76116-unite
+ d-states%7C9-00-pm
+DESCRIPTION:SCOTT COPELAND | 2nd Wednesday Every 2nd Wednesday at 9:00PM   
+ No cover / No Ticket Needed      Ages 21+ @outhouseticketsShare it and ta
+ g a few friends! — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:wizop-wednesday-s-open-mic-night|big-laugh-comedy-club-fort-worth-604-m
+ ain-st-suite-100-fort-worth-tx-76102-united-states|9-30-pm-2026-10-14@lets
+ doitdallas.com
+DTSTAMP:20261015T023000Z
+DTSTART:20261015T023000Z
+DTEND:20261015T053000Z
+SUMMARY:Wizop Wednesday's Open Mic Night
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=wizop-wednesday-s-open-mi
+ c-night%7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-wort
+ h-tx-76102-united-states%7C9-30-pm
+DESCRIPTION:Wizop Wednesdays: Open Mic Comedy  Looking for a midweek jolt o
+ f ridiculous? Wizop Wednesdays is where fresh jokes are born\, wild bits g
+ et tested\, and legends-in-the-making grab the mic. It’s raw\, fast\, an
+ d absolutely addictive\, your new Wednesday night ritual.  Expect lightnin
+ g- — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-15@letsdoitdallas.com
+DTSTAMP:20261015T150000Z
+DTSTART:20261015T150000Z
+DTEND:20261015T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:music-of-john-denver|casa-manana-fort-worth|7-30-pm-2026-10-15@letsdoit
@@ -1013,6 +1000,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:ian-moore|the-post-at-river-east-fort-worth|8-00-pm-2026-10-23@letsdoit
+ dallas.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Ian Moore
+LOCATION:The Post at River East · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=ian-moore%7Cthe-post-at-r
+ iver-east-fort-worth%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:music-of-john-denver|casa-manana-fort-worth|8-00-pm-2026-10-23@letsdoit
  dallas.com
 DTSTAMP:20261024T010000Z
@@ -1037,6 +1037,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=boy-harsher%7Ctannahill-s
  -music-hall-lounge-fort-worth%7C9-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:emo-nite-event-18-|tulips-ftw-fort-worth|9-00-pm-2026-10-23@letsdoitdal
+ las.com
+DTSTAMP:20261024T020000Z
+DTSTART:20261024T020000Z
+DTEND:20261024T050000Z
+SUMMARY:Emo Nite ( Event) (18+)
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=emo-nite-event-18-%7Ctuli
+ ps-ftw-fort-worth%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:david-lee-murphy-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-23@l
@@ -1776,6 +1789,19 @@ DTEND:20261110T213000Z
 SUMMARY:Legacy of the Longhorn
 LOCATION:Cowtown Coliseum · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-10&e=legacy-of-the-longhorn%7C
+ cowtown-coliseum-fort-worth%7C12-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-11-11@
+ letsdoitdallas.com
+DTSTAMP:20261111T183000Z
+DTSTART:20261111T183000Z
+DTEND:20261111T213000Z
+SUMMARY:Legacy of the Longhorn
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=legacy-of-the-longhorn%7C
  cowtown-coliseum-fort-worth%7C12-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/

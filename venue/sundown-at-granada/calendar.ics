@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:free-halloween-movie-month-halloween|sundown-at-granada-lower-greenvill
- e-dallas|doors-see-listing-2026-10-12@letsdoitdallas.com
-DTSTAMP:20261012T000000Z
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261013
-SUMMARY:FREE Halloween Movie Month:  HALLOWEEN
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=free-halloween-movie-mont
- h-halloween%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listi
- ng
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/venue/sundown-at-granada/
-END:VEVENT
-BEGIN:VEVENT
 UID:free-halloween-movie-month-beetlejuice|sundown-at-granada-lower-greenvi
  lle-dallas|doors-see-listing-2026-10-13@letsdoitdallas.com
 DTSTAMP:20261013T000000Z

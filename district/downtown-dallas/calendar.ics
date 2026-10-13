@@ -11,35 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-12@letsdoitdallas.com
-DTSTAMP:20261012T130000Z
-DTSTART:20261012T130000Z
-DTEND:20261012T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:cavetown-running-with-scissors-tour|house-of-blues-dallas-dallas|7-00-p
- m-2026-10-12@letsdoitdallas.com
-DTSTAMP:20261013T000000Z
-DTSTART:20261013T000000Z
-DTEND:20261013T030000Z
-SUMMARY:Cavetown - Running With Scissors Tour
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=cavetown-running-with-sci
- ssors-tour%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-10-13@letsdoitdallas.com
 DTSTAMP:20261013T130000Z
 DTSTART:20261013T130000Z
@@ -174,6 +145,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-15&e=rich-o-toole-at-poor-davi
  d-s%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-15@letsdoitdallas.com
+DTSTAMP:20261015T130000Z
+DTSTART:20261015T130000Z
+DTEND:20261015T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:elevation-worship-|-official-ticket-hotel-packages|american-airlines-ce
@@ -1361,5 +1348,57 @@ URL:https://letsdoitdallas.com/?date=2026-11-09&e=lil-peep-30th-birthday-ce
  lebration%7Chouse-of-blues-dallas-dallas%7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
+ -2026-11-10@letsdoitdallas.com
+DTSTAMP:20261111T013000Z
+DTSTART:20261111T013000Z
+DTEND:20261111T043000Z
+SUMMARY:Buena Vista Social Club (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=buena-vista-social-club-t
+ ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:jonas-brothers-the-burning-up-tour-all-over-again|american-airlines-cen
+ ter-dallas|7-30-pm-2026-11-10@letsdoitdallas.com
+DTSTAMP:20261111T013000Z
+DTSTART:20261111T013000Z
+DTEND:20261111T043000Z
+SUMMARY:Jonas Brothers: The Burning Up Tour All Over Again
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=jonas-brothers-the-burnin
+ g-up-tour-all-over-again%7Camerican-airlines-center-dallas%7C7-30-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:10-years-of-6lack-tour|south-side-ballroom-dallas|8-00-pm-2026-11-10@le
+ tsdoitdallas.com
+DTSTAMP:20261111T020000Z
+DTSTART:20261111T020000Z
+DTEND:20261111T050000Z
+SUMMARY:10 Years of 6LACK Tour
+LOCATION:South Side Ballroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=10-years-of-6lack-tour%7C
+ south-side-ballroom-dallas%7C8-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:boomershack-darling-farm-double-bill|poor-david-s-pub-dallas|doors-see-
+ listing-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:BOOMERSHACK + DARLING FARM DOUBLE BILL
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=boomershack-darling-farm-
+ double-bill%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

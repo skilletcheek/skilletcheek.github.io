@@ -10,53 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:knit-crochet-circle|grapevine|05-30-pm-2026-10-12@letsdoitdallas.com
-DTSTAMP:20261012T223000Z
-DTSTART:20261012T223000Z
-DTEND:20261013T013000Z
-SUMMARY:Knit & Crochet Circle
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=knit-crochet-circle%7Cgra
- pevine%7C05-30-pm
-DESCRIPTION:Looking for a cozy way to unwind and connect with fellow yarn e
- nthusiasts? Join us Mondays for our casual Knit & Crochet Circle! Whether 
- you're a seasoned pro or just picking up your first set of needles or hook
- s\, this is the perfect opportunity to share your latest projects\, swa 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:tinker-create-innovate-3d-adventure-with-tinkercad|grapevine|05-30-pm-2
- 026-10-12@letsdoitdallas.com
-DTSTAMP:20261012T223000Z
-DTSTART:20261012T223000Z
-DTEND:20261013T013000Z
-SUMMARY:Tinker\, Create\, Innovate: 3D Adventure with TinkerCAD
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=tinker-create-innovate-3d
- -adventure-with-tinkercad%7Cgrapevine%7C05-30-pm
-DESCRIPTION:Who: Kids/Teens ages 8-16 When: Monday\, October 12th\, from 5:
- 30 to 6:30 pm Where: The Grapevine Library Esports Academy No Registration
-  Required. October 12\, 2026 05:30 PM - 06:30 PM Grapevine\, TX 76051 http
- s://www.grapevinetexas.gov/Calendar.aspx?EID=17811/639261215770000000 — 
- More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:express-yourself-writers-club-for-adults|grapevine|06-00-pm-2026-10-12@
- letsdoitdallas.com
-DTSTAMP:20261012T230000Z
-DTSTART:20261012T230000Z
-DTEND:20261013T020000Z
-SUMMARY:Express Yourself Writers' Club for Adults
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=express-yourself-writers-
- club-for-adults%7Cgrapevine%7C06-00-pm
-DESCRIPTION:Have you recently taken up writing as a hobby or have been writ
- ing for years? Enjoy journaling? Like writing poetry or short stories? Wor
- king on a novel? Play or screenplay? Would you like a place to share what 
- you’ve written or are currently writing? Let’s meet to share and disc 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:art-studio-18-|grapevine|10-00-am-2026-10-13@letsdoitdallas.com
 DTSTAMP:20261013T150000Z
 DTSTART:20261013T150000Z
@@ -69,22 +22,6 @@ DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
  our own projects or start something new. Bring your own project and ideas!
   This is a welcoming space for creatives 18+. *Library Card Required* Octo
  ber 13\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grapev 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-10-13@letsd
- oitdallas.com
-DTSTAMP:20261013T153000Z
-DTSTART:20261013T153000Z
-DTEND:20261013T183000Z
-SUMMARY:Storytime for Toddlers/Preschoolers
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=storytime-for-toddlers-pr
- eschoolers%7Cgrapevine%7C10-30-am
-DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
- welcome and no registrations is needed. (This is a Ticketed Program\; plea
- se stop at the Children's Desk 15 minutes before the program to receive ti
- ckets. 1 per attendee.) October 13\, 2026 10:30 AM - 11:00 AM Grapevine\, 
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
@@ -1255,5 +1192,67 @@ DESCRIPTION:Looking for a cozy way to unwind and connect with fellow yarn e
  you're a seasoned pro or just picking up your first set of needles or hook
  s\, this is the perfect opportunity to share your latest projects\, swa 
  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-studio-18-|grapevine|10-00-am-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261027T150000Z
+DTSTART:20261027T150000Z
+DTEND:20261027T180000Z
+SUMMARY:Art Studio (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=art-studio-18-%7Cgrapevin
+ e%7C10-00-am
+DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
+ our own projects or start something new. Bring your own project and ideas!
+  This is a welcoming space for creatives 18+. *Library Card Required* Octo
+ ber 27\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grapev 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-10-27@letsd
+ oitdallas.com
+DTSTAMP:20261027T153000Z
+DTSTART:20261027T153000Z
+DTEND:20261027T183000Z
+SUMMARY:Storytime for Toddlers/Preschoolers
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=storytime-for-toddlers-pr
+ eschoolers%7Cgrapevine%7C10-30-am
+DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
+ welcome and no registrations is needed. (This is a Ticketed Program\; plea
+ se stop at the Children's Desk 15 minutes before the program to receive ti
+ ckets. 1 per attendee.) October 27\, 2026 10:30 AM - 11:00 AM Grapevine\, 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:open-practice-and-play-night|grapevine|04-30-pm-2026-10-27@letsdoitdall
+ as.com
+DTSTAMP:20261027T213000Z
+DTSTART:20261027T213000Z
+DTEND:20261028T003000Z
+SUMMARY:Open Practice and Play Night
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=open-practice-and-play-ni
+ ght%7Cgrapevine%7C04-30-pm
+DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
+  ranked play. Ages 12 and up. October 27\, 2026 04:30 PM - 07:00 PM Grapev
+ ine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17836/6392
+ 65386440000000 — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:dnd-halloween-mini-adventures-no-registration-required-|grapevine|05-00
+ -pm-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261027T220000Z
+DTSTART:20261027T220000Z
+DTEND:20261028T010000Z
+SUMMARY:DnD Halloween Mini Adventures! (NO REGISTRATION REQUIRED)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=dnd-halloween-mini-advent
+ ures-no-registration-required-%7Cgrapevine%7C05-00-pm
+DESCRIPTION:Welcome to the realms of Dungeons and Dragons: HALLOWEEN EDITIO
+ N! These sessions are for 13 and up. Join me\, Mrs. Molly\, at my table fo
+ r a quick journey through some maybe scary? maybe spooky? maybe horrifying
+ ?! one shots this month to really get you ready for the holiday yet to —
+  More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 END:VCALENDAR

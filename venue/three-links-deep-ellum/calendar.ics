@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
- pm-2026-10-12@letsdoitdallas.com
-DTSTAMP:20261013T020000Z
-DTSTART:20261013T020000Z
-DTEND:20261013T050000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:rachel-bochner-janna-jamison-lizzy-cameron|three-links-deep-ellum-dalla
  s|7-00-pm-2026-10-14@letsdoitdallas.com
 DTSTAMP:20261015T000000Z
@@ -345,5 +332,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-09&e=careful-gaze-chrry-obsess
  ed%7Cthree-links-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:taylor-bickett-mori|three-links-deep-ellum-dallas|7-00-pm-2026-11-10@le
+ tsdoitdallas.com
+DTSTAMP:20261111T010000Z
+DTSTART:20261111T010000Z
+DTEND:20261111T040000Z
+SUMMARY:Taylor Bickett\, Mori
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=taylor-bickett-mori%7Cthr
+ ee-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

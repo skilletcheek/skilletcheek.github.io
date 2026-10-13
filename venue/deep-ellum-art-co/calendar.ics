@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lilyisthatyou|deep-ellum-art-co-dallas|8-00-pm-2026-10-12@letsdoitdalla
- s.com
-DTSTAMP:20261013T010000Z
-DTSTART:20261013T010000Z
-DTEND:20261013T040000Z
-SUMMARY:Lilyisthatyou
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-12&e=lilyisthatyou%7Cdeep-ellu
- m-art-co-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/deep-ellum-art-co/
-END:VEVENT
-BEGIN:VEVENT
-UID:stars-and-stripes-festival|deep-ellum-art-co-dallas|8-00-pm-2026-10-13@
- letsdoitdallas.com
-DTSTAMP:20261014T010000Z
-DTSTART:20261014T010000Z
-DTEND:20261014T040000Z
-SUMMARY:Stars and Stripes Festival
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=stars-and-stripes-festiva
- l%7Cdeep-ellum-art-co-dallas%7C8-00-pm
-DESCRIPTION:music festival event via SeatGeek. — More: https://letsdoitda
- llas.com/venue/deep-ellum-art-co/
-END:VEVENT
-BEGIN:VEVENT
 UID:wonkywilla|deep-ellum-art-co-dallas|9-00-pm-2026-10-16@letsdoitdallas.c
  om
 DTSTAMP:20261017T020000Z

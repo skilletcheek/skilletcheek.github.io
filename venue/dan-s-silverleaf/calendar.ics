@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dan's Silverleaf — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Dan's Silverleaf.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:max-stalling|dan-s-silverleaf-denton|8-00-pm-2026-10-16@letsdoitdallas.
+ com
+DTSTAMP:20261017T010000Z
+DTSTART:20261017T010000Z
+DTEND:20261017T040000Z
+SUMMARY:Max Stalling
+LOCATION:Dan's Silverleaf · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=max-stalling%7Cdan-s-silv
+ erleaf-denton%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/dan-s-silverleaf/
+END:VEVENT
+BEGIN:VEVENT
+UID:great-lake-swimmers|dan-s-silverleaf-denton|8-00-pm-2026-10-21@letsdoit
+ dallas.com
+DTSTAMP:20261022T010000Z
+DTSTART:20261022T010000Z
+DTEND:20261022T040000Z
+SUMMARY:Great Lake Swimmers
+LOCATION:Dan's Silverleaf · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=great-lake-swimmers%7Cdan
+ -s-silverleaf-denton%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/dan-s-silverleaf/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-knight|dan-s-silverleaf-denton|8-00-pm-2026-10-23@letsdoitdallas.
+ com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Chris Knight
+LOCATION:Dan's Silverleaf · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=chris-knight%7Cdan-s-silv
+ erleaf-denton%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/dan-s-silverleaf/
+END:VEVENT
+END:VCALENDAR
