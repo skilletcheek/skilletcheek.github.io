@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:It'll Do Club — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at It'll Do Club.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:tobiahs|it-ll-do-club-dallas|9-00-pm-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261017T020000Z
+DTSTART:20261017T020000Z
+DTEND:20261017T050000Z
+SUMMARY:Tobiahs
+LOCATION:It'll Do Club · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=tobiahs%7Cit-ll-do-club-d
+ allas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/it-ll-do-club/
+END:VEVENT
+BEGIN:VEVENT
+UID:jazzy|it-ll-do-club-dallas|9-00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261018T020000Z
+DTSTART:20261018T020000Z
+DTEND:20261018T050000Z
+SUMMARY:Jazzy
+LOCATION:It'll Do Club · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=jazzy%7Cit-ll-do-club-dal
+ las%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/it-ll-do-club/
+END:VEVENT
+BEGIN:VEVENT
+UID:baauer|it-ll-do-club-dallas|9-00-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261024T020000Z
+DTSTART:20261024T020000Z
+DTEND:20261024T050000Z
+SUMMARY:Baauer
+LOCATION:It'll Do Club · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=baauer%7Cit-ll-do-club-da
+ llas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/it-ll-do-club/
+END:VEVENT
+END:VCALENDAR

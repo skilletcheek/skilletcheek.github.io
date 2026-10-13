@@ -172,6 +172,19 @@ DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
  oitdallas.com/district/irving/
 END:VEVENT
 BEGIN:VEVENT
+UID:comedy-allstars|punch-line-irving-irving|7-00-pm-2026-10-18@letsdoitdal
+ las.com
+DTSTAMP:20261019T000000Z
+DTSTART:20261019T000000Z
+DTEND:20261019T030000Z
+SUMMARY:Comedy Allstars
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=comedy-allstars%7Cpunch-l
+ ine-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
 UID:elizabeth-brunot|punch-line-irving-irving|7-00-pm-2026-10-18@letsdoitda
  llas.com
 DTSTAMP:20261019T000000Z

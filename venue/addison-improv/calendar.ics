@@ -191,6 +191,54 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/addison-improv/
 END:VEVENT
 BEGIN:VEVENT
+UID:loni-love|addison-improv-addison|7-30-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261030T003000Z
+DTSTART:20261030T003000Z
+DTEND:20261030T033000Z
+SUMMARY:Loni Love
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=loni-love%7Caddison-impro
+ v-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:loni-love|addison-improv-addison|7-30-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T003000Z
+DTSTART:20261031T003000Z
+DTEND:20261031T033000Z
+SUMMARY:Loni Love
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=loni-love%7Caddison-impro
+ v-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:loni-love|addison-improv-addison|9-45-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T024500Z
+DTSTART:20261031T024500Z
+DTEND:20261031T054500Z
+SUMMARY:Loni Love
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=loni-love%7Caddison-impro
+ v-addison%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:loni-love|addison-improv-addison|7-00-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T000000Z
+DTEND:20261101T030000Z
+SUMMARY:Loni Love
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=loni-love%7Caddison-impro
+ v-addison%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
 UID:led-varela|addison-improv-addison|7-30-pm-2026-11-03@letsdoitdallas.com
 DTSTAMP:20261104T013000Z
 DTSTART:20261104T013000Z

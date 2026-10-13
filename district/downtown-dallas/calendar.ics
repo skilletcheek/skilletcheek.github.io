@@ -81,6 +81,19 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:sleeping-with-sirens-an-ending-in-itself-tour|south-side-ballroom-dalla
+ s|6-40-pm-2026-10-14@letsdoitdallas.com
+DTSTAMP:20261014T234000Z
+DTSTART:20261014T234000Z
+DTEND:20261015T024000Z
+SUMMARY:Sleeping With Sirens: An Ending In Itself Tour
+LOCATION:South Side Ballroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-14&e=sleeping-with-sirens-an-e
+ nding-in-itself-tour%7Csouth-side-ballroom-dallas%7C6-40-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-mavericks-v-new-orleans-pelicans-preseason|american-airlines-cen
  ter-dallas|7-00-pm-2026-10-14@letsdoitdallas.com
 DTSTAMP:20261015T000000Z
@@ -92,19 +105,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-14&e=dallas-mavericks-v-new-or
  leans-pelicans-preseason%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:sleeping-with-sirens-an-ending-in-itself-tour|south-side-ballroom-dalla
- s|7-00-pm-2026-10-14@letsdoitdallas.com
-DTSTAMP:20261015T000000Z
-DTSTART:20261015T000000Z
-DTEND:20261015T030000Z
-SUMMARY:Sleeping With Sirens: An Ending In Itself Tour
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=sleeping-with-sirens-an-e
- nding-in-itself-tour%7Csouth-side-ballroom-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-paradox|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-10

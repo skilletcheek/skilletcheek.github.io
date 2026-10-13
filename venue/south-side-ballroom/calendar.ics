@@ -10,14 +10,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:sleeping-with-sirens-an-ending-in-itself-tour|south-side-ballroom-dalla
- s|7-00-pm-2026-10-14@letsdoitdallas.com
-DTSTAMP:20261015T000000Z
-DTSTART:20261015T000000Z
-DTEND:20261015T030000Z
+ s|6-40-pm-2026-10-14@letsdoitdallas.com
+DTSTAMP:20261014T234000Z
+DTSTART:20261014T234000Z
+DTEND:20261015T024000Z
 SUMMARY:Sleeping With Sirens: An Ending In Itself Tour
 LOCATION:South Side Ballroom · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-14&e=sleeping-with-sirens-an-e
- nding-in-itself-tour%7Csouth-side-ballroom-dallas%7C7-00-pm
+ nding-in-itself-tour%7Csouth-side-ballroom-dallas%7C6-40-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/south-side-ballroom/
 END:VEVENT

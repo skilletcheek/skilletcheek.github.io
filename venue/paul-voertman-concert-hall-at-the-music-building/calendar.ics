@@ -64,15 +64,15 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  ic-building/
 END:VEVENT
 BEGIN:VEVENT
-UID:brass-chamber-music-concert|paul-voertman-concert-hall-at-the-music-bui
- lding-denton|8-00-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Brass Chamber Music Concert
+UID:chamber-music-concert|paul-voertman-concert-hall-at-the-music-building-
+ denton|8-00-pm-2026-10-15@letsdoitdallas.com
+DTSTAMP:20261016T010000Z
+DTSTART:20261016T010000Z
+DTEND:20261016T040000Z
+SUMMARY:Chamber Music Concert
 LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=brass-chamber-music-conce
- rt%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C8-00-pm
+URL:https://letsdoitdallas.com/?date=2026-10-15&e=chamber-music-concert%7Cp
+ aul-voertman-concert-hall-at-the-music-building-denton%7C8-00-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
  ay of the performance.      Livestream link below.      This event is free
@@ -115,15 +115,17 @@ DESCRIPTION:Important Links and Information      Program  Please note\, thi
  -building/
 END:VEVENT
 BEGIN:VEVENT
-UID:brass-chamber-music-concert|paul-voertman-concert-hall-at-the-music-bui
- lding-denton|8-00-pm-2026-10-21@letsdoitdallas.com
-DTSTAMP:20261022T010000Z
-DTSTART:20261022T010000Z
-DTEND:20261022T040000Z
-SUMMARY:Brass Chamber Music Concert
+UID:faculty-and-guest-artist-recital-daphne-gerling-viola|paul-voertman-con
+ cert-hall-at-the-music-building-denton|8-00-pm-2026-10-20@letsdoitdallas.c
+ om
+DTSTAMP:20261021T010000Z
+DTSTART:20261021T010000Z
+DTEND:20261021T040000Z
+SUMMARY:Faculty and Guest Artist Recital: Daphne Gerling\, viola
 LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=brass-chamber-music-conce
- rt%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C8-00-pm
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=faculty-and-guest-artist-
+ recital-daphne-gerling-viola%7Cpaul-voertman-concert-hall-at-the-music-bui
+ lding-denton%7C8-00-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
  ay of the performance.      Livestream link below.      This event is free
@@ -253,25 +255,6 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  ic-building/
 END:VEVENT
 BEGIN:VEVENT
-UID:faculty-recital-cynthia-roberts-violin-and-malcolm-matthews-harpsichord
- |paul-voertman-concert-hall-at-the-music-building-denton|12-00-pm-2026-10-
- 31@letsdoitdallas.com
-DTSTAMP:20261031T170000Z
-DTSTART:20261031T170000Z
-DTEND:20261031T200000Z
-SUMMARY:Faculty Recital: Cynthia Roberts\, violin\, and Malcolm Matthews\, 
- harpsichord
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=faculty-recital-cynthia-r
- oberts-violin-and-malcolm-matthews-harpsichord%7Cpaul-voertman-concert-hal
- l-at-the-music-building-denton%7C12-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream link below.     This event is free 
- and open to the public with general seating. — More: https://letsdoitdal
- las.com/venue/paul-voertman-concert-hall-at-the-music-building/
-END:VEVENT
-BEGIN:VEVENT
 UID:doctoral-recital-steven-robinson-clarinet|paul-voertman-concert-hall-at
  -the-music-building-denton|2-00-pm-2026-10-31@letsdoitdallas.com
 DTSTAMP:20261031T190000Z
@@ -307,6 +290,25 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  ic-building/
 END:VEVENT
 BEGIN:VEVENT
+UID:faculty-recital-cynthia-roberts-violin-and-malcolm-matthews-harpsichord
+ |paul-voertman-concert-hall-at-the-music-building-denton|8-30-pm-2026-10-3
+ 1@letsdoitdallas.com
+DTSTAMP:20261101T013000Z
+DTSTART:20261101T013000Z
+DTEND:20261101T043000Z
+SUMMARY:Faculty Recital: Cynthia Roberts\, violin\, and Malcolm Matthews\, 
+ harpsichord
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=faculty-recital-cynthia-r
+ oberts-violin-and-malcolm-matthews-harpsichord%7Cpaul-voertman-concert-hal
+ l-at-the-music-building-denton%7C8-30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below.     This event is free 
+ and open to the public with general seating. — More: https://letsdoitdal
+ las.com/venue/paul-voertman-concert-hall-at-the-music-building/
+END:VEVENT
+BEGIN:VEVENT
 UID:doctoral-recital-isabell-carson-saxophone|paul-voertman-concert-hall-at
  -the-music-building-denton|12-30-pm-2026-11-01@letsdoitdallas.com
 DTSTAMP:20261101T183000Z
@@ -323,6 +325,23 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
      This event is free and open to the public with general seating. — Mo
  re: https://letsdoitdallas.com/venue/paul-voertman-concert-hall-at-the-mus
  ic-building/
+END:VEVENT
+BEGIN:VEVENT
+UID:percussion-players-and-percussion-group|paul-voertman-concert-hall-at-t
+ he-music-building-denton|3-30-pm-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261101T213000Z
+DTSTART:20261101T213000Z
+DTEND:20261102T003000Z
+SUMMARY:Percussion Players and Percussion Group
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=percussion-players-and-pe
+ rcussion-group%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7
+ C3-30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below.      This event is free
+  and open to the public with general seating. — More: https://letsdoitda
+ llas.com/venue/paul-voertman-concert-hall-at-the-music-building/
 END:VEVENT
 BEGIN:VEVENT
 UID:jazz-strings-lab-band-fall-2026-concert|paul-voertman-concert-hall-at-t

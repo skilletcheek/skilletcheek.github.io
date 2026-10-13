@@ -1052,6 +1052,19 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:chona-e|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-pm-2026-10
+ -23@letsdoitdallas.com
+DTSTAMP:20261024T023000Z
+DTSTART:20261024T023000Z
+DTEND:20261024T053000Z
+SUMMARY:Chona E
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=chona-e%7Chyena-s-comedy-
+ night-club-fort-worth-fort-worth%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:david-lee-murphy-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-23@l
  etsdoitdallas.com
 DTSTAMP:20261024T030000Z
