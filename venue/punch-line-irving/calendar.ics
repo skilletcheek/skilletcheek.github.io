@@ -388,15 +388,15 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT
 BEGIN:VEVENT
-UID:filthy-pop-up-comedy-show|punch-line-irving-irving|9-30-pm-2026-11-06@l
- etsdoitdallas.com
+UID:comedy-allstars|punch-line-irving-irving|9-30-pm-2026-11-06@letsdoitdal
+ las.com
 DTSTAMP:20261107T033000Z
 DTSTART:20261107T033000Z
 DTEND:20261107T063000Z
-SUMMARY:Filthy Pop-Up Comedy Show
+SUMMARY:Comedy Allstars
 LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=filthy-pop-up-comedy-show
- %7Cpunch-line-irving-irving%7C9-30-pm
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=comedy-allstars%7Cpunch-l
+ ine-irving-irving%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT
@@ -436,6 +436,19 @@ SUMMARY:The Spotlight: The Best Of DFW Comedy
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-11-08&e=the-spotlight-the-best-of
  -dfw-comedy%7Cpunch-line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:comedy-allstars|punch-line-irving-irving|7-30-pm-2026-11-11@letsdoitdal
+ las.com
+DTSTAMP:20261112T013000Z
+DTSTART:20261112T013000Z
+DTEND:20261112T043000Z
+SUMMARY:Comedy Allstars
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=comedy-allstars%7Cpunch-l
+ ine-irving-irving%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT

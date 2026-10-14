@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fifth-third-garage-dallas-stars-v-colorado-avalanche|american-airlines-
- center-dallas|7-30-pm-2026-10-13@letsdoitdallas.com
-DTSTAMP:20261014T003000Z
-DTSTART:20261014T003000Z
-DTEND:20261014T033000Z
-SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Colorado Avalanche
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=fifth-third-garage-dallas
- -stars-v-colorado-avalanche%7Camerican-airlines-center-dallas%7C7-30-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-mavericks-v-new-orleans-pelicans-preseason|american-airlines-cen
  ter-dallas|7-00-pm-2026-10-14@letsdoitdallas.com
 DTSTAMP:20261015T000000Z
@@ -291,6 +278,19 @@ SUMMARY:Jonas Brothers: The Burning Up Tour All Over Again
 LOCATION:American Airlines Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-10&e=jonas-brothers-the-burnin
  g-up-tour-all-over-again%7Camerican-airlines-center-dallas%7C7-30-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:katseye-the-wildworld-tour|american-airlines-center-dallas|8-00-pm-2026
+ -11-11@letsdoitdallas.com
+DTSTAMP:20261112T020000Z
+DTSTART:20261112T020000Z
+DTEND:20261112T050000Z
+SUMMARY:KATSEYE: THE WILDWORLD TOUR
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=katseye-the-wildworld-tou
+ r%7Camerican-airlines-center-dallas%7C8-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/american-airlines-center/
 END:VEVENT

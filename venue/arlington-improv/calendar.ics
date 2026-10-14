@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-10-13@letsdoitdal
- las.com
-DTSTAMP:20261013T233000Z
-DTSTART:20261013T233000Z
-DTEND:20261014T023000Z
-SUMMARY:Test Your Mic
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=test-your-mic%7Carlington
- -improv-arlington%7C6-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:iv-n-fematt-la-mole-en-espa-ol-|arlington-improv-arlington|7-30-pm-2026
  -10-14@letsdoitdallas.com
 DTSTAMP:20261015T003000Z
@@ -126,15 +113,15 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT
 BEGIN:VEVENT
-UID:flip-phone-hocus-pocus-drag-brunch|arlington-improv-arlington|2-00-pm-2
+UID:flip-phone-hocus-pocus-drag-brunch|arlington-improv-arlington|1-00-pm-2
  026-10-18@letsdoitdallas.com
-DTSTAMP:20261018T190000Z
-DTSTART:20261018T190000Z
-DTEND:20261018T220000Z
+DTSTAMP:20261018T180000Z
+DTSTART:20261018T180000Z
+DTEND:20261018T210000Z
 SUMMARY:Flip Phone: Hocus Pocus Drag Brunch
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-18&e=flip-phone-hocus-pocus-dr
- ag-brunch%7Carlington-improv-arlington%7C2-00-pm
+ ag-brunch%7Carlington-improv-arlington%7C1-00-pm
 DESCRIPTION:Community/Civic event via Ticketmaster. — More: https://letsd
  oitdallas.com/venue/arlington-improv/
 END:VEVENT

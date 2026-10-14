@@ -74,6 +74,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/wyly-theatre/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-monsters-play|wyly-theatre-dallas|7-30-pm-2026-10-30@letsdoitdallas
+ .com
+DTSTAMP:20261031T003000Z
+DTSTART:20261031T003000Z
+DTEND:20261031T033000Z
+SUMMARY:The Monsters - Play
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=the-monsters-play%7Cwyly-
+ theatre-dallas%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/wyly-theatre/
+END:VEVENT
+BEGIN:VEVENT
 UID:you-are-not-alone-a-symphonic-hip-hop-storytelling-experience|wyly-thea
  tre-dallas|7-30-pm-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261031T003000Z

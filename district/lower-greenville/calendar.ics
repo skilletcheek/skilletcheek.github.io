@@ -10,33 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:free-halloween-movie-month-beetlejuice|sundown-at-granada-lower-greenvi
- lle-dallas|doors-see-listing-2026-10-13@letsdoitdallas.com
-DTSTAMP:20261013T000000Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-SUMMARY:FREE Halloween Movie Month: BEETLEJUICE
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=free-halloween-movie-mont
- h-beetlejuice%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-lis
- ting
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
-UID:epik-high-3-0-north-american-tour|granada-theater-tx-dallas|8-00-pm-202
- 6-10-13@letsdoitdallas.com
-DTSTAMP:20261014T010000Z
-DTSTART:20261014T010000Z
-DTEND:20261014T040000Z
-SUMMARY:EPIK HIGH 3.0 NORTH AMERICAN TOUR
-LOCATION:Granada Theater - TX · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=epik-high-3-0-north-ameri
- can-tour%7Cgranada-theater-tx-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:built-for-more-chris-seidman-built-as-sons|the-hills-dallas-3014-skillm
  an-st-dallas|6-00-pm-8-00-pm-2026-10-14@letsdoitdallas.com
 DTSTAMP:20261014T230000Z
@@ -456,5 +429,32 @@ URL:https://letsdoitdallas.com/?date=2026-11-11&e=built-for-more-michael-mi
 DESCRIPTION:Third night of the Built For More men's series — worship\, a 
  message from Michael Miller\, and food trucks. Free\, no ticket needed. 
  — More: https://letsdoitdallas.com/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:james-mcmurtry-with-special-guest-bettysoo|granada-theater-lower-greenv
+ ille-dallas|doors-see-listing-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:James McMurtry with special guest - BettySoo
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=james-mcmurtry-with-speci
+ al-guest-bettysoo%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-li
+ sting
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-surfrajettes|sundown-at-granada-lower-greenville-dallas|doors-see-l
+ isting-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:The Surfrajettes
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=the-surfrajettes%7Csundow
+ n-at-granada-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
 END:VEVENT
 END:VCALENDAR

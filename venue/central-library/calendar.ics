@@ -9,38 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:score-workshop-business-plans-101|central-library-garland|05-30-pm-2026
- -10-13@letsdoitdallas.com
-DTSTAMP:20261013T223000Z
-DTSTART:20261013T223000Z
-DTEND:20261014T013000Z
-SUMMARY:SCORE Workshop: Business Plans 101
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=score-workshop-business-p
- lans-101%7Ccentral-library-garland%7C05-30-pm
-DESCRIPTION:5:30 p.m.\; We're partnering with SCORE to bring you the latest
-  workshops about running your business! Join us in the Small Business Incu
- bator to learn about staring a business. Who is SCORE? SCORE Dallas has be
- en providing free\, confidential one-on-one business mentoring to thous 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:laboratorio-familiar-impresi-n-3d-|biblioteca-central-garland|06-00-pm-
- 2026-10-13@letsdoitdallas.com
-DTSTAMP:20261013T230000Z
-DTSTART:20261013T230000Z
-DTEND:20261014T020000Z
-SUMMARY:Laboratorio Familiar: ¡Impresión 3D!
-LOCATION:Biblioteca Central · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=laboratorio-familiar-impr
- esi-n-3d-%7Cbiblioteca-central-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; ¡Las familias con niños menores de 17 años está
- n invitadas a explorar el emocionante mundo de la impresión 3D! Aprenda c
- ómo funciona una impresora 3D y descubra cómo los creadores utilizan est
- a tecnología para dar vida a las ideas. Después de la demostración\, ca
- da niño — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:from-maker-to-market-using-makerspace-equipment-to-earn-ages-13-|centra
  l-library-garland|02-00-pm-2026-10-14@letsdoitdallas.com
 DTSTAMP:20261014T190000Z
@@ -589,6 +557,37 @@ DESCRIPTION:6:00 p.m.\; Free financial education presentations from Navy Fe
  deral Credit Union. Learn about a variety of topics to enhance your financ
  ial awareness. October 27\, 2026 06:00 PM - 07:00 PM 625 Austin St.Garland
  \, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13033/6392638702 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:teen-craft-corner-ages-13-17-|central-library-garland|03-00-pm-2026-10-
+ 28@letsdoitdallas.com
+DTSTAMP:20261028T200000Z
+DTSTART:20261028T200000Z
+DTEND:20261028T230000Z
+SUMMARY:Teen Craft Corner (Ages 13-17)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=teen-craft-corner-ages-13
+ -17-%7Ccentral-library-garland%7C03-00-pm
+DESCRIPTION:3:00 p.m.\; Join us at the Teen Craft Corner for some relaxing 
+ creativity and fun! October 28\, 2026 03:00 PM - 04:00 PM 625 Austin St.Ga
+ rland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12978/6392275
+ 35210000000 — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:gentle-yoga-ages-18-|central-library-garland|06-00-pm-2026-10-28@letsdo
+ itdallas.com
+DTSTAMP:20261028T230000Z
+DTSTART:20261028T230000Z
+DTEND:20261029T020000Z
+SUMMARY:Gentle Yoga (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=gentle-yoga-ages-18-%7Cce
+ ntral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; A gentle yoga class suitable for adult participants
+  of all levels of experience. Participants should bring their own mat and/
+ or towel. Props such as chairs and blocks will be available. October 28\, 
+ 2026 06:00 PM - 07:00 PM 625 Austin St.Garland\, TX 75040 https://www.ga 
  — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:xasthur|rubber-gloves-denton|8-00-pm-2026-10-13@letsdoitdallas.com
-DTSTAMP:20261014T010000Z
-DTSTART:20261014T010000Z
-DTEND:20261014T040000Z
-SUMMARY:Xasthur
-LOCATION:Rubber Gloves · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=xasthur%7Crubber-gloves-d
- enton%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/rubber-gloves/
-END:VEVENT
-BEGIN:VEVENT
 UID:yhwh-nailgun-with-keiyaa|rubber-gloves-denton|7-00-pm-2026-10-14@letsdo
  itdallas.com
 DTSTAMP:20261015T000000Z

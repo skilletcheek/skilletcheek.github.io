@@ -10,20 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:free-halloween-movie-month-beetlejuice|sundown-at-granada-lower-greenvi
- lle-dallas|doors-see-listing-2026-10-13@letsdoitdallas.com
-DTSTAMP:20261013T000000Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-SUMMARY:FREE Halloween Movie Month: BEETLEJUICE
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=free-halloween-movie-mont
- h-beetlejuice%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-lis
- ting
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:built-for-more-chris-seidman-built-as-sons|the-hills-dallas-3014-skillm
  an-st-dallas|6-00-pm-8-00-pm-2026-10-14@letsdoitdallas.com
 DTSTAMP:20261014T230000Z
@@ -248,6 +234,19 @@ DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/free-events
  /
 END:VEVENT
 BEGIN:VEVENT
+UID:rock-the-club|granada-theater-lower-greenville-dallas|doors-see-listing
+ -2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Rock the Club
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=rock-the-club%7Cgranada-t
+ heater-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/f
+ ree-events/
+END:VEVENT
+BEGIN:VEVENT
 UID:bluegrass-heritage-music-show-jam|poor-david-s-pub-dallas|doors-see-lis
  ting-2026-10-25@letsdoitdallas.com
 DTSTAMP:20261025T000000Z
@@ -461,5 +460,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-11&e=built-for-more-michael-mi
 DESCRIPTION:Third night of the Built For More men's series — worship\, a 
  message from Michael Miller\, and food trucks. Free\, no ticket needed. 
  — More: https://letsdoitdallas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-lowliest-one|rbc-deep-ellum-dallas|7-00-pm-2026-11-11@letsdoitdalla
+ s.com
+DTSTAMP:20261112T010000Z
+DTSTART:20261112T010000Z
+DTEND:20261112T040000Z
+SUMMARY:The Lowliest One
+LOCATION:RBC Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=the-lowliest-one%7Crbc-de
+ ep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/free-events/
 END:VEVENT
 END:VCALENDAR

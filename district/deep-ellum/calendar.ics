@@ -10,43 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chiodos-with-hail-the-sun-emery-and-evergreen-terrace|the-bomb-factory-
- dallas-dallas|7-00-pm-2026-10-13@letsdoitdallas.com
-DTSTAMP:20261014T000000Z
-DTSTART:20261014T000000Z
-DTEND:20261014T030000Z
-SUMMARY:Chiodos with Hail The Sun\, Emery\, and Evergreen Terrace
-LOCATION:The Bomb Factory - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=chiodos-with-hail-the-sun
- -emery-and-evergreen-terrace%7Cthe-bomb-factory-dallas-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:after|club-dada-dallas|8-00-pm-2026-10-13@letsdoitdallas.com
-DTSTAMP:20261014T010000Z
-DTSTART:20261014T010000Z
-DTEND:20261014T040000Z
-SUMMARY:After
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=after%7Cclub-dada-dallas%
- 7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:maris|club-dada-dallas|8-00-pm-2026-10-13@letsdoitdallas.com
-DTSTAMP:20261014T010000Z
-DTSTART:20261014T010000Z
-DTEND:20261014T040000Z
-SUMMARY:MARIS
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=maris%7Cclub-dada-dallas%
- 7C8-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:rachel-bochner-janna-jamison-lizzy-cameron|three-links-deep-ellum-dalla
  s|7-00-pm-2026-10-14@letsdoitdallas.com
 DTSTAMP:20261015T000000Z
@@ -561,15 +524,15 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:boss-daughter-half-foot-hog|three-links-deep-ellum-dallas|7-00-pm-2026-
- 10-28@letsdoitdallas.com
+UID:boss-daughter-half-foot-hog-kill-your-tv|three-links-deep-ellum-dallas|
+ 7-00-pm-2026-10-28@letsdoitdallas.com
 DTSTAMP:20261029T000000Z
 DTSTART:20261029T000000Z
 DTEND:20261029T030000Z
-SUMMARY:Boss' Daughter\, Half Foot Hog
+SUMMARY:Boss' Daughter\, Half Foot Hog\, Kill Your TV
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-28&e=boss-daughter-half-foot-h
- og%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+ og-kill-your-tv%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
 END:VEVENT
@@ -924,14 +887,66 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:aces|trees-dallas|doors-see-listing-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261111T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-SUMMARY:ACES
+UID:movements-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory-
+ dallas|7-00-pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T010000Z
+DTSTART:20261112T010000Z
+DTEND:20261112T040000Z
+SUMMARY:Movements (16 and Under with Parent or Legal Guardian)
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=movements-16-and-under-wi
+ th-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-lowliest-one|rbc-deep-ellum-dallas|7-00-pm-2026-11-11@letsdoitdalla
+ s.com
+DTSTAMP:20261112T010000Z
+DTSTART:20261112T010000Z
+DTEND:20261112T040000Z
+SUMMARY:The Lowliest One
+LOCATION:RBC Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=the-lowliest-one%7Crbc-de
+ ep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-aces-w-gatlin|trees-dallas|8-00-pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T020000Z
+DTSTART:20261112T020000Z
+DTEND:20261112T050000Z
+SUMMARY:The Aces w/ Gatlin
 LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=aces%7Ctrees-dallas%7Cdoo
- rs-see-listing
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=the-aces-w-gatlin%7Ctrees
+ -dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:tiny-habits-w-marie-dresselhuis|the-studio-at-the-bomb-factory-dallas|8
+ -00-pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T020000Z
+DTSTART:20261112T020000Z
+DTEND:20261112T050000Z
+SUMMARY:Tiny Habits w/ Marie Dresselhuis
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=tiny-habits-w-marie-dress
+ elhuis%7Cthe-studio-at-the-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:landrones-arriba-la-l-usa-2026-tour|trees-dallas|doors-see-listing-2026
+ -11-13@letsdoitdallas.com
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:LANDRONES "ARRIBA LA L" USA 2026 TOUR
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=landrones-arriba-la-l-usa
+ -2026-tour%7Ctrees-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
 END:VEVENT

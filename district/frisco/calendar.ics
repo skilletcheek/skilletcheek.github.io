@@ -11,46 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
- e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-13@letsdoitdallas
- .com
-DTSTAMP:20261013T000000Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
- Theatre Works
-LOCATION:8004 N. Dallas Parkway · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=-goosebumps-the-musical-p
- hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
- way-frisco%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/dis
- trict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:rail-district-celebration-at-4th-street-plaza|8802-4th-st-frisco|06-00-
- pm-2026-10-13@letsdoitdallas.com
-DTSTAMP:20261013T230000Z
-DTSTART:20261013T230000Z
-DTEND:20261014T020000Z
-SUMMARY:Rail District Celebration at 4th Street Plaza
-LOCATION:8802 4th St · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=rail-district-celebration
- -at-4th-street-plaza%7C8802-4th-st-frisco%7C06-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:plated-a-chef-s-table-on-main|8802-4th-st-frisco|07-00-pm-2026-10-13@le
- tsdoitdallas.com
-DTSTAMP:20261014T000000Z
-DTSTART:20261014T000000Z
-DTEND:20261014T030000Z
-SUMMARY:Plated: A Chef’s Table on Main
-LOCATION:8802 4th St · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=plated-a-chef-s-table-on-
- main%7C8802-4th-st-frisco%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
  e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-14@letsdoitdallas
  .com
 DTSTAMP:20261014T000000Z
@@ -457,6 +417,18 @@ LOCATION:6455 Page Street · Frisco
 URL:https://letsdoitdallas.com/?date=2026-10-27&e=-from-vision-to-impact-an
  -evening-with-jeff-cheney-by-heritage-association-of-frisco%7C6455-page-st
  reet-frisco%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:walnut-wednesday-nature-adventure|6455-page-street-frisco|10-00-am-2026
+ -10-28@letsdoitdallas.com
+DTSTAMP:20261028T150000Z
+DTSTART:20261028T150000Z
+DTEND:20261028T180000Z
+SUMMARY:Walnut Wednesday: Nature Adventure
+LOCATION:6455 Page Street · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=walnut-wednesday-nature-a
+ dventure%7C6455-page-street-frisco%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT

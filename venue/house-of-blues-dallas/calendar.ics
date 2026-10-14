@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ravyn-lenae-presents-blue-island|house-of-blues-dallas-dallas|7-00-pm-2
- 026-10-13@letsdoitdallas.com
-DTSTAMP:20261014T000000Z
-DTSTART:20261014T000000Z
-DTEND:20261014T030000Z
-SUMMARY:Ravyn Lenae Presents: Blue Island
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=ravyn-lenae-presents-blue
- -island%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:president-north-american-campaign-2026|house-of-blues-dallas-dallas|6-3
  0-pm-2026-10-14@letsdoitdallas.com
 DTSTAMP:20261014T233000Z
@@ -292,5 +279,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-09&e=lil-peep-30th-birthday-ce
  lebration%7Chouse-of-blues-dallas-dallas%7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-z-presents-se-est-haciendo-tarde|house-of-blues-dallas-dallas|7-00-pm
+ -2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T010000Z
+DTSTART:20261112T010000Z
+DTEND:20261112T040000Z
+SUMMARY:RØZ Presents: SE ESTÁ HACIENDO TARDE
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=r-z-presents-se-est-hacie
+ ndo-tarde%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/house-of-blues-dallas/
 END:VEVENT
 END:VCALENDAR

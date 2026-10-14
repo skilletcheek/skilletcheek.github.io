@@ -11,48 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-13@letsdoitdallas.com
-DTSTAMP:20261013T130000Z
-DTSTART:20261013T130000Z
-DTEND:20261013T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:ravyn-lenae-presents-blue-island|house-of-blues-dallas-dallas|7-00-pm-2
- 026-10-13@letsdoitdallas.com
-DTSTAMP:20261014T000000Z
-DTSTART:20261014T000000Z
-DTEND:20261014T030000Z
-SUMMARY:Ravyn Lenae Presents: Blue Island
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=ravyn-lenae-presents-blue
- -island%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:fifth-third-garage-dallas-stars-v-colorado-avalanche|american-airlines-
- center-dallas|7-30-pm-2026-10-13@letsdoitdallas.com
-DTSTAMP:20261014T003000Z
-DTSTART:20261014T003000Z
-DTEND:20261014T033000Z
-SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Colorado Avalanche
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=fifth-third-garage-dallas
- -stars-v-colorado-avalanche%7Camerican-airlines-center-dallas%7C7-30-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-10-14@letsdoitdallas.com
 DTSTAMP:20261014T130000Z
 DTSTART:20261014T130000Z
@@ -1389,6 +1347,59 @@ DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:inayah-therapy-wasn-t-enough-north-america-tour-2026|the-cambridge-room
+ -at-house-of-blues-dallas|7-00-pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T010000Z
+DTSTART:20261112T010000Z
+DTEND:20261112T040000Z
+SUMMARY:INAYAH - Therapy Wasn't Enough North America Tour 2026
+LOCATION:The Cambridge Room at House Of Blues · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=inayah-therapy-wasn-t-eno
+ ugh-north-america-tour-2026%7Cthe-cambridge-room-at-house-of-blues-dallas%
+ 7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-z-presents-se-est-haciendo-tarde|house-of-blues-dallas-dallas|7-00-pm
+ -2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T010000Z
+DTSTART:20261112T010000Z
+DTEND:20261112T040000Z
+SUMMARY:RØZ Presents: SE ESTÁ HACIENDO TARDE
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=r-z-presents-se-est-hacie
+ ndo-tarde%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
+ -2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T013000Z
+DTSTART:20261112T013000Z
+DTEND:20261112T043000Z
+SUMMARY:Buena Vista Social Club (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=buena-vista-social-club-t
+ ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:katseye-the-wildworld-tour|american-airlines-center-dallas|8-00-pm-2026
+ -11-11@letsdoitdallas.com
+DTSTAMP:20261112T020000Z
+DTSTART:20261112T020000Z
+DTEND:20261112T050000Z
+SUMMARY:KATSEYE: THE WILDWORLD TOUR
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=katseye-the-wildworld-tou
+ r%7Camerican-airlines-center-dallas%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:boomershack-darling-farm-double-bill|poor-david-s-pub-dallas|doors-see-
  listing-2026-11-12@letsdoitdallas.com
 DTSTAMP:20261112T000000Z
@@ -1398,6 +1409,22 @@ SUMMARY:BOOMERSHACK + DARLING FARM DOUBLE BILL
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-12&e=boomershack-darling-farm-
  double-bill%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:poor-david-s-presents-david-nail-down-to-the-studs-tour-|-friday-novemb
+ er-13th-8pm|poor-david-s-pub-dallas|doors-see-listing-2026-11-13@letsdoitd
+ allas.com
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Poor David's Presents DAVID NAIL: Down to the Studs Tour | Friday N
+ ovember 13th 8PM
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=poor-david-s-presents-dav
+ id-nail-down-to-the-studs-tour-%7C-friday-november-13th-8pm%7Cpoor-david-s
+ -pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
 END:VEVENT

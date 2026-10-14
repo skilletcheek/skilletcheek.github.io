@@ -10,53 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:virtual-author-talk-with-david-epstein|grapevine|01-00-pm-2026-10-13@le
- tsdoitdallas.com
-DTSTAMP:20261013T180000Z
-DTSTART:20261013T180000Z
-DTEND:20261013T210000Z
-SUMMARY:Virtual Author Talk with David Epstein
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=virtual-author-talk-with-
- david-epstein%7Cgrapevine%7C01-00-pm
-DESCRIPTION:Join us for an inspiring virtual conversation with bestselling 
- author David Epstein as we explore his latest book\, Inside the Box\, and 
- redefine how to approach our greatest challenges! October 13\, 2026 01:00 
- PM - 11:59 PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calenda 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:open-practice-and-play-night|grapevine|04-30-pm-2026-10-13@letsdoitdall
- as.com
-DTSTAMP:20261013T213000Z
-DTSTART:20261013T213000Z
-DTEND:20261014T003000Z
-SUMMARY:Open Practice and Play Night
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=open-practice-and-play-ni
- ght%7Cgrapevine%7C04-30-pm
-DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
-  ranked play. Ages 12 and up. October 13\, 2026 04:30 PM - 07:00 PM Grapev
- ine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17834/6392
- 65386440000000 — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:dnd-halloween-mini-adventures-no-registration-required-|grapevine|05-00
- -pm-2026-10-13@letsdoitdallas.com
-DTSTAMP:20261013T220000Z
-DTSTART:20261013T220000Z
-DTEND:20261014T010000Z
-SUMMARY:DnD Halloween Mini Adventures! (NO REGISTRATION REQUIRED)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-13&e=dnd-halloween-mini-advent
- ures-no-registration-required-%7Cgrapevine%7C05-00-pm
-DESCRIPTION:Welcome to the realms of Dungeons and Dragons: HALLOWEEN EDITIO
- N! These sessions are for 13 and up. Join me\, Mrs. Molly\, at my table fo
- r a quick journey through some maybe scary? maybe spooky? maybe horrifying
- ?! one shots this month to really get you ready for the holiday yet to —
-  More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:stem-lab-18-|grapevine|10-00-am-2026-10-14@letsdoitdallas.com
 DTSTAMP:20261014T150000Z
 DTSTART:20261014T150000Z
@@ -1239,5 +1192,83 @@ DESCRIPTION:Welcome to the realms of Dungeons and Dragons: HALLOWEEN EDITIO
  r a quick journey through some maybe scary? maybe spooky? maybe horrifying
  ?! one shots this month to really get you ready for the holiday yet to —
   More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:stem-lab-18-|grapevine|10-00-am-2026-10-28@letsdoitdallas.com
+DTSTAMP:20261028T150000Z
+DTSTART:20261028T150000Z
+DTEND:20261028T180000Z
+SUMMARY:STEM Lab (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=stem-lab-18-%7Cgrapevine%
+ 7C10-00-am
+DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
+ at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
+ ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
+ edgeable staff will be available to provide guidance\, tips\, and support 
+ as — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-10-28@letsd
+ oitdallas.com
+DTSTAMP:20261028T153000Z
+DTSTART:20261028T153000Z
+DTEND:20261028T183000Z
+SUMMARY:Storytime for Toddlers/Preschoolers
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=storytime-for-toddlers-pr
+ eschoolers%7Cgrapevine%7C10-30-am
+DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
+ welcome and no registrations is needed. (This is a Ticketed Program\; plea
+ se stop at the Children's Desk 15 minutes before the program to receive ti
+ ckets. 1 per attendee.) October 28\, 2026 10:30 AM - 11:00 AM Grapevine\, 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:afternoon-storytime-and-crafts|grapevine|04-00-pm-2026-10-28@letsdoitda
+ llas.com
+DTSTAMP:20261028T210000Z
+DTSTART:20261028T210000Z
+DTEND:20261029T000000Z
+SUMMARY:Afternoon Storytime and Crafts
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=afternoon-storytime-and-c
+ rafts%7Cgrapevine%7C04-00-pm
+DESCRIPTION:Join us on Wednesdays for a relaxing afternoon of storytime and
+  crafts in our Children's department. October 28\, 2026 04:00 PM - 05:00 P
+ M Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17
+ 722/639228425570000000 — More: https://letsdoitdallas.com/district/grape
+ vine/
+END:VEVENT
+BEGIN:VEVENT
+UID:esports-academy-halloween-horror-nights-|grapevine|04-30-pm-2026-10-28@
+ letsdoitdallas.com
+DTSTAMP:20261028T213000Z
+DTSTART:20261028T213000Z
+DTEND:20261029T003000Z
+SUMMARY:Esports Academy: Halloween Horror Nights!
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=esports-academy-halloween
+ -horror-nights-%7Cgrapevine%7C04-30-pm
+DESCRIPTION:Come play multiplayer scary games like Dead by Daylight\, Phasm
+ aphobia\, and REPO with your friends this month for some fun scares! Ages 
+ 12 and up. October 28\, 2026 04:30 PM - 07:30 PM Grapevine\, TX 76051 http
+ s://www.grapevinetexas.gov/Calendar.aspx?EID=17846/639268824550000000 — 
+ More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:open-practice-and-play-night|grapevine|04-30-pm-2026-10-28@letsdoitdall
+ as.com
+DTSTAMP:20261028T213000Z
+DTSTART:20261028T213000Z
+DTEND:20261029T003000Z
+SUMMARY:Open Practice and Play Night
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=open-practice-and-play-ni
+ ght%7Cgrapevine%7C04-30-pm
+DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
+  ranked play. Ages 12 and up. October 28\, 2026 04:30 PM - 07:30 PM Grapev
+ ine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17749/6392
+ 32829710000000 — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 END:VCALENDAR
