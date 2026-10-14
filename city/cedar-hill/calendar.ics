@@ -25,30 +25,6 @@ DESCRIPTION:Runs Oct 12 – Oct 16. Make Fall Break one to remember! 🍁 F
  \, seaso — More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
-UID:55-fitness-class|310-e-parkerville-road-cedar-hill|08-15-am-2026-10-14@
- letsdoitdallas.com
-DTSTAMP:20261014T131500Z
-DTSTART:20261014T131500Z
-DTEND:20261014T161500Z
-SUMMARY:55+ Fitness Class
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=55-fitness-class%7C310-e-
- parkerville-road-cedar-hill%7C08-15-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:lunch-circuit|310-e-parkerville-road-cedar-hill|12-00-pm-2026-10-14@let
- sdoitdallas.com
-DTSTAMP:20261014T170000Z
-DTSTART:20261014T170000Z
-DTEND:20261014T200000Z
-SUMMARY:Lunch Circuit
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=lunch-circuit%7C310-e-par
- kerville-road-cedar-hill%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:art-is-life|310-e-parkerville-road-cedar-hill|05-00-pm-2026-10-14@letsd
  oitdallas.com
 DTSTAMP:20261014T220000Z
@@ -377,6 +353,18 @@ SUMMARY:40+ Double Dutch
 LOCATION:310 E. Parkerville Road · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-10-17&e=40-double-dutch%7C310-e-p
  arkerville-road-cedar-hill%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:harvest-heritage-festival|1570-w-fm-1382-cedar-hill|10-00-am-2026-10-17
+ @letsdoitdallas.com
+DTSTAMP:20261017T150000Z
+DTSTART:20261017T150000Z
+DTEND:20261017T180000Z
+SUMMARY:Harvest Heritage Festival
+LOCATION:1570 W. FM 1382 · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=harvest-heritage-festival
+ %7C1570-w-fm-1382-cedar-hill%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT

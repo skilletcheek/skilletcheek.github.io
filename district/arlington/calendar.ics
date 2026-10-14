@@ -363,6 +363,19 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:marcus-d-wiley|arlington-improv-arlington|4-30-pm-2026-10-18@letsdoitda
+ llas.com
+DTSTAMP:20261018T213000Z
+DTSTART:20261018T213000Z
+DTEND:20261019T003000Z
+SUMMARY:Marcus D. Wiley
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=marcus-d-wiley%7Carlingto
+ n-improv-arlington%7C4-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:watch-party-cowboys-at-packers|at-t-stadium-arlington|6-00-pm-2026-10-1
  8@letsdoitdallas.com
 DTSTAMP:20261018T230000Z
