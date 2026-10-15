@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:donizetti-s-the-elixir-of-love-dallas|margot-and-bill-winspear-opera-ho
- use-dallas|7-30-pm-2026-10-14@letsdoitdallas.com
-DTSTAMP:20261015T003000Z
-DTSTART:20261015T003000Z
-DTEND:20261015T033000Z
-SUMMARY:Donizetti's The Elixir of Love - Dallas
-LOCATION:Margot and Bill Winspear Opera House · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=donizetti-s-the-elixir-of
- -love-dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C7-30-pm
-DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
- district/arts-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-beethoven-and-strauss-with-daniel-ha
  wkins|morton-meyerson-symphony-center-dallas|7-30-pm-2026-10-16@letsdoitda
  llas.com
@@ -194,6 +181,20 @@ LOCATION:Morton Meyerson Symphony Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-08&e=dallas-symphony-orchestra
  -presents-ellington-strayhorn-and-gershwin%7Cmorton-meyerson-symphony-cent
  er-dallas%7C2-00-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-ravel-and-gershwin|morton-meyerson-s
+ ymphony-center-dallas|7-30-pm-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261113T013000Z
+DTSTART:20261113T013000Z
+DTEND:20261113T043000Z
+SUMMARY:Dallas Symphony Orchestra Presents Ravel and Gershwin
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=dallas-symphony-orchestra
+ -presents-ravel-and-gershwin%7Cmorton-meyerson-symphony-center-dallas%7C7-
+ 30-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT

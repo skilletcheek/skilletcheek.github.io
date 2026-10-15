@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:rachel-bochner-janna-jamison-lizzy-cameron|three-links-deep-ellum-dalla
- s|7-00-pm-2026-10-14@letsdoitdallas.com
-DTSTAMP:20261015T000000Z
-DTSTART:20261015T000000Z
-DTEND:20261015T030000Z
-SUMMARY:Rachel Bochner\, Janna Jamison\, Lizzy Cameron
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=rachel-bochner-janna-jami
- son-lizzy-cameron%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:parrotfish-clement-hall-sundowning-|three-links-deep-ellum-dallas|8-00-
  pm-2026-10-15@letsdoitdallas.com
 DTSTAMP:20261016T010000Z
@@ -266,6 +253,19 @@ LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-31&e=playlunch-buckets%7Cthree
  -links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:boot-juice|three-links-deep-ellum-dallas|7-00-pm-2026-11-03@letsdoitdal
+ las.com
+DTSTAMP:20261104T010000Z
+DTSTART:20261104T010000Z
+DTEND:20261104T040000Z
+SUMMARY:Boot Juice
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=boot-juice%7Cthree-links-
+ deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT

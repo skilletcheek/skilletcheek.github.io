@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:rachel-bochner-janna-jamison-lizzy-cameron|three-links-deep-ellum-dalla
- s|7-00-pm-2026-10-14@letsdoitdallas.com
-DTSTAMP:20261015T000000Z
-DTSTART:20261015T000000Z
-DTEND:20261015T030000Z
-SUMMARY:Rachel Bochner\, Janna Jamison\, Lizzy Cameron
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=rachel-bochner-janna-jami
- son-lizzy-cameron%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:weatherday|club-dada-dallas|8-00-pm-2026-10-14@letsdoitdallas.com
-DTSTAMP:20261015T010000Z
-DTSTART:20261015T010000Z
-DTEND:20261015T040000Z
-SUMMARY:Weatherday
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=weatherday%7Cclub-dada-da
- llas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:black-oxygen|club-dada-dallas|7-30-pm-2026-10-15@letsdoitdallas.com
 DTSTAMP:20261016T003000Z
 DTSTART:20261016T003000Z
@@ -447,6 +422,18 @@ DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:rin|puzzles-deep-ellum-dallas|7-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Rin
+LOCATION:Puzzles Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=rin%7Cpuzzles-deep-ellum-
+ dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:visit-neptune-eileen-peyton-aston|three-links-deep-ellum-dallas|7-00-pm
  -2026-10-24@letsdoitdallas.com
 DTSTAMP:20261025T000000Z
@@ -669,6 +656,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-02&e=julia-jacklin-16-and-unde
  C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:boot-juice|three-links-deep-ellum-dallas|7-00-pm-2026-11-03@letsdoitdal
+ las.com
+DTSTAMP:20261104T010000Z
+DTSTART:20261104T010000Z
+DTEND:20261104T040000Z
+SUMMARY:Boot Juice
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=boot-juice%7Cthree-links-
+ deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:ike-dweck|club-dada-dallas|8-00-pm-2026-11-03@letsdoitdallas.com

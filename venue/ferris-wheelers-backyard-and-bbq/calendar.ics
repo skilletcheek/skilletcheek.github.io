@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chinese-football|ferris-wheelers-backyard-and-bbq-dallas|7-00-pm-2026-1
- 0-14@letsdoitdallas.com
-DTSTAMP:20261015T000000Z
-DTSTART:20261015T000000Z
-DTEND:20261015T030000Z
-SUMMARY:Chinese Football
-LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=chinese-football%7Cferris
- -wheelers-backyard-and-bbq-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/ferris-wheelers-backyard-and-bbq/
-END:VEVENT
-BEGIN:VEVENT
 UID:inoha|ferris-wheelers-backyard-and-bbq-dallas|6-30-pm-2026-10-16@letsdo
  itdallas.com
 DTSTAMP:20261016T233000Z

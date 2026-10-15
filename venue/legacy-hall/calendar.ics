@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-rocky-horror-picture-show-plano|legacy-hall-plano|7-00-pm-2026-10-1
- 4@letsdoitdallas.com
-DTSTAMP:20261015T000000Z
-DTSTART:20261015T000000Z
-DTEND:20261015T030000Z
-SUMMARY:The Rocky Horror Picture Show - Plano
-LOCATION:Legacy Hall · Plano
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=the-rocky-horror-picture-
- show-plano%7Clegacy-hall-plano%7C7-00-pm
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/legacy-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:william-clark-green|legacy-hall-plano|8-00-pm-2026-10-15@letsdoitdallas
  .com
 DTSTAMP:20261016T010000Z

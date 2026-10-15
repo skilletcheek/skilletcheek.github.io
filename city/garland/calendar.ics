@@ -9,54 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tween-club-ages-10-12-|south-garland-library-garland|04-30-pm-2026-10-1
- 4@letsdoitdallas.com
-DTSTAMP:20261014T213000Z
-DTSTART:20261014T213000Z
-DTEND:20261015T003000Z
-SUMMARY:Tween Club (Ages 10-12)
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=tween-club-ages-10-12-%7C
- south-garland-library-garland%7C04-30-pm
-DESCRIPTION:4:30 p.m.\; Unleash your creativity and have fun at Tween Club\
- , where you can explore different activities\, discover new hobbies and ma
- ke new friends! October 14\, 2026 04:30 PM - 05:30 PM 4845 Broadway Blvd.G
- arland\, TX 75043 https://www.garlandtx.gov/Calendar.aspx?EID=13121/639228
-  — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:crochet-corner-in-person-ages-13-|central-library-garland|06-00-pm-2026
- -10-14@letsdoitdallas.com
-DTSTAMP:20261014T230000Z
-DTSTART:20261014T230000Z
-DTEND:20261015T020000Z
-SUMMARY:Crochet Corner In-Person (Ages 13+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=crochet-corner-in-person-
- ages-13-%7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; All crafters welcome to Crochet Corner! Whether you
-  are a seasoned crocheter or just starting out\, join us for a fun\, cozy 
- hour of crochet. At each program\, we will go through making a creation fr
- om the monthly Crochet Corner display together as an active tutorial. Bas 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:gentle-yoga-ages-18-|central-library-garland|06-00-pm-2026-10-14@letsdo
- itdallas.com
-DTSTAMP:20261014T230000Z
-DTSTART:20261014T230000Z
-DTEND:20261015T020000Z
-SUMMARY:Gentle Yoga (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=gentle-yoga-ages-18-%7Cce
- ntral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; A gentle yoga class suitable for adult participants
-  of all levels of experience. Participants should bring their own mat and/
- or towel. Props such as chairs and blocks will be available. October 14\, 
- 2026 06:00 PM - 07:00 PM 625 Austin St.Garland\, TX 75040 https://www.ga 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-10
  -15@letsdoitdallas.com
 DTSTAMP:20261015T150000Z
@@ -299,17 +251,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=a-night-of-gershwin-thoma
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:anything-goes-garland|granville-arts-center-garland|7-30-pm-2026-10-16@
- letsdoitdallas.com
+UID:simone-sala-garland|granville-arts-center-garland|7-30-pm-2026-10-16@le
+ tsdoitdallas.com
 DTSTAMP:20261017T003000Z
 DTSTART:20261017T003000Z
 DTEND:20261017T033000Z
-SUMMARY:Anything Goes - Garland
+SUMMARY:Simone Sala - Garland
 LOCATION:Granville Arts Center · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=anything-goes-garland%7Cg
- ranville-arts-center-garland%7C7-30-pm
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/city/garland/
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=simone-sala-garland%7Cgra
+ nville-arts-center-garland%7C7-30-pm
+DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
+ com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-10-17@letsd
@@ -1440,6 +1392,102 @@ DESCRIPTION:6:00 p.m.\; A gentle yoga class suitable for adult participants
  or towel. Props such as chairs and blocks will be available. October 28\, 
  2026 06:00 PM - 07:00 PM 625 Austin St.Garland\, TX 75040 https://www.ga 
  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-10
+ -29@letsdoitdallas.com
+DTSTAMP:20261029T150000Z
+DTSTART:20261029T150000Z
+DTEND:20261029T180000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=preschool-discovery-3-5-y
+ ears-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
+ ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
+ ters\, numbers\, and much more that will help develop your preschooler's e
+ arly literacy skills. October 29\, 2026 10:00 AM - 11:00 AM 625 Austin St.
+ Ga — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:cuentos-y-espantos-0-5-a-os-|biblioteca-central-garland|11-00-am-2026-1
+ 0-29@letsdoitdallas.com
+DTSTAMP:20261029T160000Z
+DTSTART:20261029T160000Z
+DTEND:20261029T190000Z
+SUMMARY:Cuentos y Espantos (0-5 Años)
+LOCATION:Biblioteca Central · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=cuentos-y-espantos-0-5-a-
+ os-%7Cbiblioteca-central-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Acompáñenos en disfraces para Cuentos y Espantos
+ \, un cuento especial en español con temática espeluznante que celebra H
+ alloween y Día de los Muertos para niños de 0 a 5 años y sus familias! 
+ Disfruta de canciones y libros y un paseo de dulces por la biblioteca desp
+ ués — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-place-playgroup|south-garland-library-garland|01-00-pm-2026-10-2
+ 9@letsdoitdallas.com
+DTSTAMP:20261029T180000Z
+DTSTART:20261029T180000Z
+DTEND:20261029T210000Z
+SUMMARY:Family Place Playgroup
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=family-place-playgroup%7C
+ south-garland-library-garland%7C01-00-pm
+DESCRIPTION:1:00 p.m.\; Each week\, we welcome a different local profession
+ al who specializes in early childhood development\, covering topics like n
+ utrition and speech. Families will learn from their expertise and ask ques
+ tions about their child’s development\, as everyone enjoys a special pla
+ y — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261029T210000Z
+DTSTART:20261029T210000Z
+DTEND:20261030T000000Z
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=teenz-place-after-school-
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
+DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
+ eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
+  snacks while supplies last. Bring your friends! October 29\, 2026 04:00 P
+ M - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:spooktober|south-garland-library-garland|06-00-pm-2026-10-29@letsdoitda
+ llas.com
+DTSTAMP:20261029T230000Z
+DTSTART:20261029T230000Z
+DTEND:20261030T020000Z
+SUMMARY:Spooktober
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=spooktober%7Csouth-garlan
+ d-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Join us for spooky family fun! We will have games\,
+  crafts and treats for kids of all ages. Family-friendly costumes encourag
+ ed. October 29\, 2026 06:00 PM - 07:30 PM 625 Austin St.Garland\, TX 75040
+  https://www.garlandtx.gov/Calendar.aspx?EID=13321/639235982690000000 — 
+ More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:where-to-start-how-to-grow-a-small-business|central-library-garland|06-
+ 00-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261029T230000Z
+DTSTART:20261029T230000Z
+DTEND:20261030T020000Z
+SUMMARY:Where to Start & How to Grow a Small Business
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=where-to-start-how-to-gro
+ w-a-small-business%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Are you an aspiring business owner or an entreprene
+ ur looking to expand your business? Join us for a special presentation by 
+ Daniela Gonzalez\, owner of Dani's Bookshelf & More. Daniela will share he
+ r experiences as a business owner and discuss the challenges that come —
+  More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:fright-fest-dababy-and-friends|curtis-culwell-center-garland|8-00-pm-20

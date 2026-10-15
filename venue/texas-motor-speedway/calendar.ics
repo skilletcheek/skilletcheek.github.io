@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Texas Motor Speedway — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Texas Motor Speedway.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:high-limit-racing-championship|texas-motor-speedway-3545-lone-star-circ
+ le-fort-fort-worth-76177-united-states|all-day-2026-10-16@letsdoitdallas.c
+ om
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:High Limit Racing Championship
+LOCATION:Texas Motor Speedway · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=high-limit-racing-champio
+ nship%7Ctexas-motor-speedway-3545-lone-star-circle-fort-fort-worth-76177-u
+ nited-states%7Call-day
+DESCRIPTION:Five-time World of Outlaws Sprint Car Series champion Brad Swee
+ t’s newly-formed national 410 sprint car tour returns to the Texas Motor
+  Speedway Dirt Track October 16-17.  The “High Rollers”\, made up of t
+ he country’s greatest 410 sprint car drivers  battle it out for the $50
+ \,000 — More: https://letsdoitdallas.com/venue/texas-motor-speedway/
+END:VEVENT
+BEGIN:VEVENT
+UID:sick-new-world|texas-motor-speedway-fort-worth|3-30-am-2026-10-24@letsd
+ oitdallas.com
+DTSTAMP:20261024T083000Z
+DTSTART:20261024T083000Z
+DTEND:20261024T113000Z
+SUMMARY:Sick New World
+LOCATION:Texas Motor Speedway · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=sick-new-world%7Ctexas-mo
+ tor-speedway-fort-worth%7C3-30-am
+DESCRIPTION:music festival event via SeatGeek. — More: https://letsdoitda
+ llas.com/venue/texas-motor-speedway/
+END:VEVENT
+BEGIN:VEVENT
+UID:sick-new-world-festival-forth-worth|texas-motor-speedway-fort-worth|11-
+ 00-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T160000Z
+DTSTART:20261024T160000Z
+DTEND:20261024T190000Z
+SUMMARY:Sick New World Festival Forth Worth
+LOCATION:Texas Motor Speedway · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=sick-new-world-festival-f
+ orth-worth%7Ctexas-motor-speedway-fort-worth%7C11-00-am
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/texas-motor-speedway/
+END:VEVENT
+END:VCALENDAR

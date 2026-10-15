@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:iv-n-fematt-la-mole-en-espa-ol-|arlington-improv-arlington|7-30-pm-2026
- -10-14@letsdoitdallas.com
-DTSTAMP:20261015T003000Z
-DTSTART:20261015T003000Z
-DTEND:20261015T033000Z
-SUMMARY:Ivã¡N Fematt ÂLa Moleâ (En Espaã±Ol)
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=iv-n-fematt-la-mole-en-es
- pa-ol-%7Carlington-improv-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:don-chief-and-friends-feat-celebrity-|arlington-improv-arlington|7-30-p
  m-2026-10-15@letsdoitdallas.com
 DTSTAMP:20261016T003000Z
@@ -420,6 +407,19 @@ SUMMARY:Shuler King
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-11-08&e=shuler-king%7Carlington-i
  mprov-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-blackson|arlington-improv-arlington|7-30-pm-2026-11-12@letsdoit
+ dallas.com
+DTSTAMP:20261113T013000Z
+DTSTART:20261113T013000Z
+DTEND:20261113T043000Z
+SUMMARY:Michael Blackson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=michael-blackson%7Carling
+ ton-improv-arlington%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

@@ -10,21 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:built-for-more-chris-seidman-built-as-sons|the-hills-dallas-3014-skillm
- an-st-dallas|6-00-pm-8-00-pm-2026-10-14@letsdoitdallas.com
-DTSTAMP:20261014T230000Z
-DTSTART:20261014T230000Z
-DTEND:20261015T020000Z
-SUMMARY:Built For More: Chris Seidman — Built as Sons
-LOCATION:The Hills Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=built-for-more-chris-seid
- man-built-as-sons%7Cthe-hills-dallas-3014-skillman-st-dallas%7C6-00-pm-8-0
- 0-pm
-DESCRIPTION:Second night of the Built For More men's series — worship\, a
-  message from Chris Seidman\, and food trucks. Free\, no ticket needed. 
- — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:buffett-beach-band-at-rockwall-concert-by-the-lake|the-rockwall-harbor-
  rockwall|7-00-pm-9-00-pm-2026-10-15@letsdoitdallas.com
 DTSTAMP:20261016T000000Z
@@ -473,5 +458,21 @@ URL:https://letsdoitdallas.com/?date=2026-11-11&e=the-lowliest-one%7Crbc-de
  ep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
  om/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:creativity-ai-automation-an-n8n-workshop-for-artists-and-makers|parr-li
+ brary-6200-windhaven-pkwy-plano|2-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T200000Z
+DTSTART:20261114T200000Z
+DTEND:20261114T230000Z
+SUMMARY:Creativity + AI + Automation: An n8n Workshop for Artists and Maker
+ s
+LOCATION:Parr Library · Plano
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=creativity-ai-automation-
+ an-n8n-workshop-for-artists-and-makers%7Cparr-library-6200-windhaven-pkwy-
+ plano%7C2-00-pm
+DESCRIPTION:Free\, beginner-friendly n8n workshop for artists and makers at
+  Parr Library\, Plano. Hosted by Soft Pyramid with Created to Create. — 
+ More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 END:VCALENDAR

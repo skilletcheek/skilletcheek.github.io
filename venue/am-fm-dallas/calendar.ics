@@ -132,4 +132,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-10&e=gwar%7Cam-fm-dallas-dalla
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/am-fm-dallas/
 END:VEVENT
+BEGIN:VEVENT
+UID:we-are-scientists|am-fm-dallas-dallas|7-00-pm-2026-11-12@letsdoitdallas
+ .com
+DTSTAMP:20261113T010000Z
+DTSTART:20261113T010000Z
+DTEND:20261113T040000Z
+SUMMARY:We Are Scientists
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=we-are-scientists%7Cam-fm
+ -dallas-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/am-fm-dallas/
+END:VEVENT
 END:VCALENDAR

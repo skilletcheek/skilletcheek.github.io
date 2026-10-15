@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:comedy-allstars|punch-line-irving-irving|7-30-pm-2026-10-14@letsdoitdal
- las.com
-DTSTAMP:20261015T003000Z
-DTSTART:20261015T003000Z
-DTEND:20261015T033000Z
-SUMMARY:Comedy Allstars
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=comedy-allstars%7Cpunch-l
- ine-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:andy-franklin-kenny-lee-double-headliner|punch-line-irving-irving|7-30-
  pm-2026-10-15@letsdoitdallas.com
 DTSTAMP:20261016T003000Z
@@ -674,6 +661,45 @@ SUMMARY:Comedy Allstars
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-11-11&e=comedy-allstars%7Cpunch-l
  ine-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:nurse-john-against-medical-advice-tour|the-pavilion-at-toyota-music-fac
+ tory-irving|7-00-pm-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261113T010000Z
+DTSTART:20261113T010000Z
+DTEND:20261113T040000Z
+SUMMARY:Nurse John: Against Medical Advice Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=nurse-john-against-medica
+ l-advice-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:ali-macofsky|punch-line-irving-irving|7-30-pm-2026-11-12@letsdoitdallas
+ .com
+DTSTAMP:20261113T013000Z
+DTSTART:20261113T013000Z
+DTEND:20261113T043000Z
+SUMMARY:Ali Macofsky
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=ali-macofsky%7Cpunch-line
+ -irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:nurse-john-against-medical-advice-tour|the-pavilion-at-toyota-music-fac
+ tory-irving|9-30-pm-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261113T033000Z
+DTSTART:20261113T033000Z
+DTEND:20261113T063000Z
+SUMMARY:Nurse John: Against Medical Advice Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=nurse-john-against-medica
+ l-advice-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
 END:VEVENT

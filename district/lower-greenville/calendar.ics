@@ -10,21 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:built-for-more-chris-seidman-built-as-sons|the-hills-dallas-3014-skillm
- an-st-dallas|6-00-pm-8-00-pm-2026-10-14@letsdoitdallas.com
-DTSTAMP:20261014T230000Z
-DTSTART:20261014T230000Z
-DTEND:20261015T020000Z
-SUMMARY:Built For More: Chris Seidman — Built as Sons
-LOCATION:The Hills Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=built-for-more-chris-seid
- man-built-as-sons%7Cthe-hills-dallas-3014-skillman-st-dallas%7C6-00-pm-8-0
- 0-pm
-DESCRIPTION:Second night of the Built For More men's series — worship\, a
-  message from Chris Seidman\, and food trucks. Free\, no ticket needed. 
- — More: https://letsdoitdallas.com/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:kishi-bashi|granada-theater-dallas-dallas|8-00-pm-2026-10-16@letsdoitda
  llas.com
 DTSTAMP:20261017T010000Z
@@ -454,6 +439,33 @@ SUMMARY:The Surfrajettes
 LOCATION:Sundown at Granada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-13&e=the-surfrajettes%7Csundow
  n-at-granada-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:on-cinema-the-certified-five-bags-of-popcorn-tour|granada-theater-lower
+ -greenville-dallas|doors-see-listing-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:On Cinema - The Certified “Five Bags of Popcorn” Tour
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=on-cinema-the-certified-f
+ ive-bags-of-popcorn-tour%7Cgranada-theater-lower-greenville-dallas%7Cdoors
+ -see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:paige-hill-album-release-show|sundown-at-granada-lower-greenville-dalla
+ s|doors-see-listing-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Paige Hill - ALBUM RELEASE SHOW
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=paige-hill-album-release-
+ show%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/district/lower-greenville/
 END:VEVENT

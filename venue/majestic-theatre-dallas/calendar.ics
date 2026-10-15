@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:an-evening-with-celtic-thunder-2026-celebrate-your-favorite-songs|majes
- tic-theatre-dallas-dallas|8-00-pm-2026-10-14@letsdoitdallas.com
-DTSTAMP:20261015T010000Z
-DTSTART:20261015T010000Z
-DTEND:20261015T040000Z
-SUMMARY:An Evening With Celtic Thunder 2026: Celebrate Your Favorite Songs
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-14&e=an-evening-with-celtic-th
- under-2026-celebrate-your-favorite-songs%7Cmajestic-theatre-dallas-dallas%
- 7C8-00-pm
-DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:leonid-friends|majestic-theatre-dallas-dallas|3-00-pm-2026-10-17@letsdo
  itdallas.com
 DTSTAMP:20261017T200000Z
@@ -165,5 +151,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=an-evening-with-david-sed
  30-pm
 DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
  /letsdoitdallas.com/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-carpenters-songbook-a-live-celebration|majestic-theatre-dallas-dall
+ as|7-30-pm-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261113T013000Z
+DTSTART:20261113T013000Z
+DTEND:20261113T043000Z
+SUMMARY:The Carpenters Songbook - A Live Celebration
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=the-carpenters-songbook-a
+ -live-celebration%7Cmajestic-theatre-dallas-dallas%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/majestic-theatre-dallas/
 END:VEVENT
 END:VCALENDAR
