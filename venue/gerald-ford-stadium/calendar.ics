@@ -10,14 +10,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:smu-mustangs-football-vs-virginia-cavaliers-football|gerald-ford-stadiu
- m-dallas|see-details-2026-10-17@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+ m-dallas|11-00-am-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T160000Z
+DTSTART:20261017T160000Z
+DTEND:20261017T190000Z
 SUMMARY:SMU Mustangs Football vs. Virginia Cavaliers Football
 LOCATION:Gerald Ford Stadium · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-17&e=smu-mustangs-football-vs-
- virginia-cavaliers-football%7Cgerald-ford-stadium-dallas%7Csee-details
+ virginia-cavaliers-football%7Cgerald-ford-stadium-dallas%7C11-00-am
 DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/venue/gerald-ford-stadium/
 END:VEVENT

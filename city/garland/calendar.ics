@@ -9,54 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-10
- -15@letsdoitdallas.com
-DTSTAMP:20261015T150000Z
-DTSTART:20261015T150000Z
-DTEND:20261015T180000Z
-SUMMARY:Preschool Discovery (3-5 Years)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=preschool-discovery-3-5-y
- ears-%7Ccentral-library-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
- ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
- ters\, numbers\, and much more that will help develop your preschooler's e
- arly literacy skills. October 15\, 2026 10:00 AM - 11:00 AM 625 Austin St.
- Ga — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:cuentos-y-cantos-0-5-a-os-|biblioteca-central-garland|11-00-am-2026-10-
- 15@letsdoitdallas.com
-DTSTAMP:20261015T160000Z
-DTSTART:20261015T160000Z
-DTEND:20261015T190000Z
-SUMMARY:Cuentos y Cantos (0-5 Años)
-LOCATION:Biblioteca Central · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=cuentos-y-cantos-0-5-a-os
- -%7Cbiblioteca-central-garland%7C11-00-am
-DESCRIPTION:11:00 a.m.\; Acompáñenos para unos cuentos y cantos mientras 
- aprendemos sobre temas escolares y lo más importante\, las habilidades ne
- cesarias para leer. October 15\, 2026 11:00 AM - 12:00 PM 625 Austin St.Ga
- rland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12951/6392274
- 61 — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:family-place-playgroup|south-garland-library-garland|01-00-pm-2026-10-1
- 5@letsdoitdallas.com
-DTSTAMP:20261015T180000Z
-DTSTART:20261015T180000Z
-DTEND:20261015T210000Z
-SUMMARY:Family Place Playgroup
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=family-place-playgroup%7C
- south-garland-library-garland%7C01-00-pm
-DESCRIPTION:1:00 p.m.\; Each week\, we welcome a different local profession
- al who specializes in early childhood development\, covering topics like n
- utrition and speech. Families will learn from their expertise and ask ques
- tions about their child’s development\, as everyone enjoys a special pla
- y — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:teen-crafting-haunted-birdhouses-ages-13-17-|south-garland-library-garl
  and|04-30-pm-2026-10-15@letsdoitdallas.com
 DTSTAMP:20261015T213000Z
@@ -251,17 +203,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=a-night-of-gershwin-thoma
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:simone-sala-garland|granville-arts-center-garland|7-30-pm-2026-10-16@le
- tsdoitdallas.com
+UID:anything-goes-garland|granville-arts-center-garland|7-30-pm-2026-10-16@
+ letsdoitdallas.com
 DTSTAMP:20261017T003000Z
 DTSTART:20261017T003000Z
 DTEND:20261017T033000Z
-SUMMARY:Simone Sala - Garland
+SUMMARY:Anything Goes - Garland
 LOCATION:Granville Arts Center · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=simone-sala-garland%7Cgra
- nville-arts-center-garland%7C7-30-pm
-DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
- com/city/garland/
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=anything-goes-garland%7Cg
+ ranville-arts-center-garland%7C7-30-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-10-17@letsd

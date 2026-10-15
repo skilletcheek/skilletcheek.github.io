@@ -212,6 +212,19 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/design-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:mom-jeans|am-fm-diner-lounge-dallas-dallas|7-00-pm-2026-10-24@letsdoitd
+ allas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Mom Jeans
+LOCATION:AM/FM Diner & Lounge - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=mom-jeans%7Cam-fm-diner-l
+ ounge-dallas-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:mom-jeans|am-fm-dallas-dallas|7-30-pm-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261025T003000Z
 DTSTART:20261025T003000Z

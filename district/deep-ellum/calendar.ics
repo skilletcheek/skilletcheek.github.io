@@ -22,19 +22,6 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:dylan-scott|the-bomb-factory-dallas-dallas|8-00-pm-2026-10-15@letsdoitd
- allas.com
-DTSTAMP:20261016T010000Z
-DTSTART:20261016T010000Z
-DTEND:20261016T040000Z
-SUMMARY:Dylan Scott
-LOCATION:The Bomb Factory - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=dylan-scott%7Cthe-bomb-fa
- ctory-dallas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:parrotfish-clement-hall-sundowning-|three-links-deep-ellum-dallas|8-00-
  pm-2026-10-15@letsdoitdallas.com
 DTSTAMP:20261016T010000Z
@@ -420,18 +407,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=toki-the-japanese-elvis%7
  Ctrees-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:rin|puzzles-deep-ellum-dallas|7-00-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261025T000000Z
-DTSTART:20261025T000000Z
-DTEND:20261025T030000Z
-SUMMARY:Rin
-LOCATION:Puzzles Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=rin%7Cpuzzles-deep-ellum-
- dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:visit-neptune-eileen-peyton-aston|three-links-deep-ellum-dallas|7-00-pm
