@@ -330,6 +330,18 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:12-stones|love-war-in-texas-plano|8-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:12 Stones
+LOCATION:Love & War in Texas · Plano
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=12-stones%7Clove-war-in-t
+ exas-plano%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:los-lonely-boys|legacy-hall-plano|8-00-pm-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261025T010000Z
 DTSTART:20261025T010000Z
