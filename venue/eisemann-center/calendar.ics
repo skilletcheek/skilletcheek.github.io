@@ -35,6 +35,19 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/eisemann-center/
 END:VEVENT
 BEGIN:VEVENT
+UID:gunhild-carling|eisemann-center-richardson|7-00-pm-2026-10-24@letsdoitd
+ allas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Gunhild Carling
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=gunhild-carling%7Ceiseman
+ n-center-richardson%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/eisemann-center/
+END:VEVENT
+BEGIN:VEVENT
 UID:ann-hampton-callaway|eisemann-center-richardson|2-00-pm-2026-11-01@lets
  doitdallas.com
 DTSTAMP:20261101T200000Z

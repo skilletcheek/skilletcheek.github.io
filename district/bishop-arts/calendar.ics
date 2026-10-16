@@ -239,17 +239,16 @@ DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/district/bishop-arts/
 END:VEVENT
 BEGIN:VEVENT
-UID:sue-foley|the-kessler-theater-oak-cliff-dallas|doors-see-listing-2026-1
- 1-13@letsdoitdallas.com
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
+UID:sue-foley|the-kessler-dallas|8-00-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T020000Z
+DTSTART:20261114T020000Z
+DTEND:20261114T050000Z
 SUMMARY:Sue Foley
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=sue-foley%7Cthe-kessler-t
- heater-oak-cliff-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/district/bishop-arts/
+LOCATION:The Kessler · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=sue-foley%7Cthe-kessler-d
+ allas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/bishop-arts/
 END:VEVENT
 BEGIN:VEVENT
 UID:john-violinist|the-kessler-theater-oak-cliff-dallas|doors-see-listing-2

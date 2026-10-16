@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big Laugh Comedy Club – Fort Worth — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Big Laugh Comedy Club – Fort Worth.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:big-laugh-spotlight|big-laugh-comedy-club-fort-worth-604-main-st-suite-
+ 100-fort-worth-tx-76102-united-states|7-30-pm-2026-10-16@letsdoitdallas.co
+ m
+DTSTAMP:20261017T003000Z
+DTSTART:20261017T003000Z
+DTEND:20261017T033000Z
+SUMMARY:Big Laugh Spotlight
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=big-laugh-spotlight%7Cbig
+ -laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-un
+ ited-states%7C7-30-pm
+DESCRIPTION:Big sets. Real laughs. No filler.  Big Laugh Spotlight is a sta
+ nd-up comedy recording series built to showcase comedians the right way. E
+ ach show features 3–4 standout comedians performing extended 15–20 min
+ ute sets\, recorded live in front of a real audience.  This isn’t an ope
+ n — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fort-wo
+ rth/
+END:VEVENT
+BEGIN:VEVENT
+UID:eddie-ifft-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-
+ fort-worth-tx-76102-united-states|8-00-pm-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261017T010000Z
+DTSTART:20261017T010000Z
+DTEND:20261017T040000Z
+SUMMARY:Eddie Ifft: Live
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=eddie-ifft-live%7Cbig-lau
+ gh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-united
+ -states%7C8-00-pm
+DESCRIPTION:Some comedians tell jokes. Eddie Ifft detonates them.  Eddie ha
+ s built a reputation as one of stand-up’s most unapologetic voices. The 
+ moment he steps on stage\, anything can happen. No topic is off limits\, n
+ o crowd is safe\, and every show becomes a one-of-a-kind experience.  You
+ ’ — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fort-
+ worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-sized-comedy|big-laugh-comedy-club-fort-worth-604-main-st-suite-1
+ 00-fort-worth-tx-76102-united-states|9-30-pm-2026-10-16@letsdoitdallas.com
+DTSTAMP:20261017T023000Z
+DTSTART:20261017T023000Z
+DTEND:20261017T053000Z
+SUMMARY:Texas Sized Comedy
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=texas-sized-comedy%7Cbig-
+ laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-uni
+ ted-states%7C9-30-pm
+DESCRIPTION:More Comics. More Laughs. More Texas.  Everything’s bigger in
+  Texas\, and that includes the lineup.  Texas Sized is our extended showca
+ se\, where we pack more comedians\, more punchlines\, and more laughs into
+  one night than any other comedy show in town.  Five comics. One stage. Ze
+ r — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fort-wo
+ rth/
+END:VEVENT
+BEGIN:VEVENT
+UID:after-hours-down-funny|big-laugh-comedy-club-fort-worth-604-main-st-sui
+ te-100-fort-worth-tx-76102-united-states|10-00-pm-2026-10-16@letsdoitdalla
+ s.com
+DTSTAMP:20261017T030000Z
+DTSTART:20261017T030000Z
+DTEND:20261017T060000Z
+SUMMARY:After Hours: Down & Funny
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-16&e=after-hours-down-funny%7C
+ big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102
+ -united-states%7C10-00-pm
+DESCRIPTION:After Hours: Down & Funny is where comedy goes off the rails. R
+ aw\, unfiltered\, and unpredictable\, this late-night showcase is packed w
+ ith comics who bring bold\, edgy material and keep the crowd howling.  Per
+ fect for date night\, the night owls\, or anyone who’s had one too many.
+  Th — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fort-
+ worth/
+END:VEVENT
+END:VCALENDAR

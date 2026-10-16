@@ -184,4 +184,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-12&e=dallas-symphony-orchestra
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/venue/morton-meyerson-symphony-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-ravel-and-gershwin|morton-meyerson-s
+ ymphony-center-dallas|7-30-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T013000Z
+DTSTART:20261114T013000Z
+DTEND:20261114T043000Z
+SUMMARY:Dallas Symphony Orchestra Presents Ravel and Gershwin
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=dallas-symphony-orchestra
+ -presents-ravel-and-gershwin%7Cmorton-meyerson-symphony-center-dallas%7C7-
+ 30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/morton-meyerson-symphony-center/
+END:VEVENT
 END:VCALENDAR

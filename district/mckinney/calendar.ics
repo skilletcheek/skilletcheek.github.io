@@ -10,6 +10,23 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:halloween-at-the-heard|heard-natural-science-museum-wildlife-sanctuary-
+ mckinney|6-00-pm-10-00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T230000Z
+DTSTART:20261017T230000Z
+DTEND:20261018T020000Z
+SUMMARY:Halloween at the Heard
+LOCATION:Heard Natural Science Museum & Wildlife Sanctuary · McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=halloween-at-the-heard%7C
+ heard-natural-science-museum-wildlife-sanctuary-mckinney%7C6-00-pm-10-00-p
+ m
+DESCRIPTION:Experience Collin County’s premier family-friendly Halloween 
+ event at Heard Natural Science Museum & Wildlife Sanctuary. Halloween at t
+ he Heard features a safe environment to experience the joy of trick-or-tre
+ ating along the eerie Dinosaurs Live! Animatronic Dinosaurs Trail. Fami 
+ — More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:worlds-2026-swiss-1|credit-union-of-texas-event-center-allen|12-00-pm-2
  026-10-23@letsdoitdallas.com
 DTSTAMP:20261023T170000Z

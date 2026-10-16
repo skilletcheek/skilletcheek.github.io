@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:antoine-scott|mic-drop-comedy-plano-plano|7-30-pm-2026-10-15@letsdoitda
- llas.com
-DTSTAMP:20261016T003000Z
-DTSTART:20261016T003000Z
-DTEND:20261016T033000Z
-SUMMARY:Antoine Scott
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=antoine-scott%7Cmic-drop-
- comedy-plano-plano%7C7-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:william-clark-green|legacy-hall-plano|8-00-pm-2026-10-15@letsdoitdallas
- .com
-DTSTAMP:20261016T010000Z
-DTSTART:20261016T010000Z
-DTEND:20261016T040000Z
-SUMMARY:William Clark Green
-LOCATION:Legacy Hall · Plano
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=william-clark-green%7Cleg
- acy-hall-plano%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:cityline-live-featuring-william-dunhill|cityline-plaza-richardson|6-00-
  pm-9-00-pm-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261016T230000Z
@@ -88,6 +62,38 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=carlos-mencia%7Caddison-i
  mprov-addison%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:huffhines-harvest-fest|huffhines-park-richardson|10-00-am-5-00-pm-2026-
+ 10-17@letsdoitdallas.com
+DTSTAMP:20261017T150000Z
+DTSTART:20261017T150000Z
+DTEND:20261017T180000Z
+SUMMARY:Huffhines Harvest Fest
+LOCATION:Huffhines Park · Richardson
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=huffhines-harvest-fest%7C
+ huffhines-park-richardson%7C10-00-am-5-00-pm
+DESCRIPTION:Huffhines Harvest Fest returns for its 50th anniversary with a 
+ two-day celebration featuring local arts and crafts\, live music\, food\, 
+ and family-friendly fall activities. Saturday’s Pawtoberfest welcomes fu
+ rry friends for pet-friendly fun\, while guests can enjoy pumpkin decorati
+ n — More: https://letsdoitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:friends-of-the-farmstead-celebrates-15-years|heritage-farmstead-museum-
+ plano|6-00-pm-10-00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T230000Z
+DTSTART:20261017T230000Z
+DTEND:20261018T020000Z
+SUMMARY:Friends of the Farmstead Celebrates 15 Years
+LOCATION:Heritage Farmstead Museum · Plano
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=friends-of-the-farmstead-
+ celebrates-15-years%7Cheritage-farmstead-museum-plano%7C6-00-pm-10-00-pm
+DESCRIPTION:Celebrate 15 years of Friends of the Farmstead with an evening 
+ featuring specialty cocktails\, craft beer\, True Texas BBQ\, games\, auct
+ ions\, and live music from Jay-B & the Zydeco Posse. The event will also h
+ onor Jennifer and Luke Shertzer as the 2026 Best Friends of the Farmstead 
+ — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:carlos-mencia|addison-improv-addison|7-00-pm-2026-10-17@letsdoitdallas.
@@ -311,6 +317,31 @@ DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:gunhild-carling|eisemann-center-richardson|7-00-pm-2026-10-24@letsdoitd
+ allas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Gunhild Carling
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=gunhild-carling%7Ceiseman
+ n-center-richardson%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:los-lonely-boys|legacy-hall-plano|8-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:Los Lonely Boys
+LOCATION:Legacy Hall · Plano
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=los-lonely-boys%7Clegacy-
+ hall-plano%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:corey-holcomb|addison-improv-addison|9-30-pm-2026-10-24@letsdoitdallas.
  com
 DTSTAMP:20261025T023000Z
@@ -510,6 +541,32 @@ URL:https://letsdoitdallas.com/?date=2026-11-12&e=kev-adams%7Caddison-impro
  v-addison%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:steve-byrne|addison-improv-addison|7-00-pm-2026-11-13@letsdoitdallas.co
+ m
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:Steve Byrne
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=steve-byrne%7Caddison-imp
+ rov-addison%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:steve-byrne|addison-improv-addison|9-30-pm-2026-11-13@letsdoitdallas.co
+ m
+DTSTAMP:20261114T033000Z
+DTSTART:20261114T033000Z
+DTEND:20261114T063000Z
+SUMMARY:Steve Byrne
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=steve-byrne%7Caddison-imp
+ rov-addison%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:creativity-ai-automation-an-n8n-workshop-for-artists-and-makers|parr-li

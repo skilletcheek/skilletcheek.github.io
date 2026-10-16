@@ -47,4 +47,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=allen-americans-vs-idaho-
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/comerica-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:texas-legends-vs-rio-grande-valley-vipers|comerica-center-frisco|7-00-p
+ m-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:Texas Legends vs. Rio Grande Valley Vipers
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=texas-legends-vs-rio-gran
+ de-valley-vipers%7Ccomerica-center-frisco%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/comerica-center/
+END:VEVENT
 END:VCALENDAR

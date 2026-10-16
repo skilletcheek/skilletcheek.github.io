@@ -145,4 +145,16 @@ URL:https://letsdoitdallas.com/?date=2026-11-12&e=we-are-scientists%7Cam-fm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/am-fm-dallas/
 END:VEVENT
+BEGIN:VEVENT
+UID:king-buffalo|am-fm-dallas-dallas|7-00-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:King Buffalo
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=king-buffalo%7Cam-fm-dall
+ as-dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/am-fm-dallas/
+END:VEVENT
 END:VCALENDAR

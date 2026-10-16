@@ -10,21 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mahjong-learn-play|grapevine|12-30-pm-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261015T173000Z
-DTSTART:20261015T173000Z
-DTEND:20261015T203000Z
-SUMMARY:Mahjong: Learn & Play
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=mahjong-learn-play%7Cgrap
- evine%7C12-30-pm
-DESCRIPTION:Learn to Play Mahjong Thursdays 12:30-4:30. Beginners\, please 
- arrive at 12:30. Open play tables available on a first come first serve ba
- sis\, Space is Limited. Ages 18 and up. October 15\, 2026 12:30 PM - 04:30
-  PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
  e-tx-76051-united-states|8-00-am-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261016T130000Z
@@ -156,6 +141,23 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=day-out-with-thomas-tm-%7
  30-pm
 DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
  sdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
+ e-tx-76051-united-states|8-00-am-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T130000Z
+DTSTART:20261017T130000Z
+DTEND:20261017T160000Z
+SUMMARY:Phenomenomaly at Meow Wolf
+LOCATION:Meow Wolf · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=phenomenomaly-at-meow-wol
+ f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
+ C8-00-am
+DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
+  live immersive performance series inside The Real Unreal. Blending intera
+ ctive theater with a rotating lineup of North Texas talent\, the experienc
+ e unfolds around guests as they explore\, featuring music\, dance\, comedy
+ \, — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:day-out-with-thomas-tm-thomas-friends|museum-of-the-american-railroad-g
@@ -1208,5 +1210,65 @@ DESCRIPTION:Learn to Play Mahjong Thursdays 12:30-4:30. Beginners\, please
  sis\, Space is Limited. Ages 18 and up. October 29\, 2026 12:30 PM - 04:30
   PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID 
  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-studio-18-|grapevine|10-00-am-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261030T150000Z
+DTSTART:20261030T150000Z
+DTEND:20261030T180000Z
+SUMMARY:Art Studio (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=art-studio-18-%7Cgrapevin
+ e%7C10-00-am
+DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
+ our own projects or start something new. Bring your own project and ideas!
+  This is a welcoming space for creatives 18+. *Library Card Required* Octo
+ ber 30\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grapev 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:bouncing-babies|grapevine|10-30-am-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261030T153000Z
+DTSTART:20261030T153000Z
+DTEND:20261030T183000Z
+SUMMARY:Bouncing Babies
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=bouncing-babies%7Cgrapevi
+ ne%7C10-30-am
+DESCRIPTION:Bouncing Babies is a program for babies from birth to 18 months
+ . It includes songs\, bounces\, parachute\, as well as a social time for c
+ aregivers. No registration needed. October 30\, 2026 10:30 AM - 11:00 AM G
+ rapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17731
+  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:mahjong-open-play|grapevine|12-30-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261030T173000Z
+DTSTART:20261030T173000Z
+DTEND:20261030T203000Z
+SUMMARY:Mahjong: Open Play
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=mahjong-open-play%7Cgrape
+ vine%7C12-30-pm
+DESCRIPTION:Open Play Fridays 12:30-4:30. Tables available on a first come 
+ first serve basis\, Space is Limited. Players\, please bring your own card
+ s and bags. Ages 18 and up. October 30\, 2026 12:30 PM - 04:30 PM Grapevin
+ e\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17592/63920 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:bouncing-babies|grapevine|01-30-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261030T183000Z
+DTSTART:20261030T183000Z
+DTEND:20261030T213000Z
+SUMMARY:Bouncing Babies
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=bouncing-babies%7Cgrapevi
+ ne%7C01-30-pm
+DESCRIPTION:Bouncing Babies is a program for babies from birth to 18 months
+ . It includes songs\, bounces\, parachute\, as well as a social time for c
+ aregivers. No registration needed. October 30\, 2026 01:30 PM - 02:00 PM G
+ rapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17740
+  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 END:VCALENDAR

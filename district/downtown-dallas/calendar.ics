@@ -10,74 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:rich-o-toole-at-poor-david-s|poor-david-s-pub-dallas|doors-see-listing-
- 2026-10-15@letsdoitdallas.com
-DTSTAMP:20261015T000000Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:Rich O'Toole at Poor David's
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=rich-o-toole-at-poor-davi
- d-s%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261015T130000Z
-DTSTART:20261015T130000Z
-DTEND:20261015T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:elevation-worship-|-official-ticket-hotel-packages|american-airlines-ce
- nter-dallas|7-00-pm-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261016T000000Z
-DTSTART:20261016T000000Z
-DTEND:20261016T030000Z
-SUMMARY:Elevation Worship  | Official Ticket + Hotel Packages
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=elevation-worship-%7C-off
- icial-ticket-hotel-packages%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Religious event via Ticketmaster. — More: https://letsdoitdal
- las.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:something-different-presents-unpopular-opinion-night-21-|house-of-blues
- -dallas-dallas|7-00-pm-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261016T000000Z
-DTSTART:20261016T000000Z
-DTEND:20261016T030000Z
-SUMMARY:Something Different Presents: Unpopular Opinion Night - 21+
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=something-different-prese
- nts-unpopular-opinion-night-21-%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Lecture/Seminar event via Ticketmaster. — More: https://letsd
- oitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:randy-travis-w-james-dupre|longhorn-ballroom-backyard-amphitheater-dall
- as|8-00-pm-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261016T010000Z
-DTSTART:20261016T010000Z
-DTEND:20261016T040000Z
-SUMMARY:Randy Travis w/ James Dupre
-LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=randy-travis-w-james-dupr
- e%7Clonghorn-ballroom-backyard-amphitheater-dallas%7C8-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:sara-hickman-shortstop-35th-reunion-tour|poor-david-s-pub-dallas|doors-
  see-listing-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261016T000000Z
@@ -144,6 +76,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-16&e=michigander%7Cthe-cambrid
  ge-room-at-house-of-blues-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T130000Z
+DTSTART:20261017T130000Z
+DTEND:20261017T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:leonid-friends|majestic-theatre-dallas-dallas|3-00-pm-2026-10-17@letsdo
@@ -1429,6 +1377,85 @@ DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:em-beihold-tales-of-a-failed-shapeshifter-tour|the-cambridge-room-at-ho
+ use-of-blues-dallas|7-00-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:Em Beihold: Tales Of A Failed Shapeshifter Tour
+LOCATION:The Cambridge Room at House Of Blues · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=em-beihold-tales-of-a-fai
+ led-shapeshifter-tour%7Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00
+ -pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-blaustein-the-taste-me-tour-the-final-leg|majestic-theatre-dall
+ as-dallas|7-00-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:Michael Blaustein: The Taste Me Tour: The Final Leg
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=michael-blaustein-the-tas
+ te-me-tour-the-final-leg%7Cmajestic-theatre-dallas-dallas%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:streetlight-manifesto-the-presence-of-the-past-tour|house-of-blues-dall
+ as-dallas|7-00-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:Streetlight Manifesto: The Presence of the Past Tour
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=streetlight-manifesto-the
+ -presence-of-the-past-tour%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
+ -2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T013000Z
+DTSTART:20261114T013000Z
+DTEND:20261114T043000Z
+SUMMARY:Buena Vista Social Club (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=buena-vista-social-club-t
+ ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:jessie-reyez-a-little-vengeance-tour|south-side-ballroom-dallas|8-00-pm
+ -2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T020000Z
+DTSTART:20261114T020000Z
+DTEND:20261114T050000Z
+SUMMARY:Jessie Reyez: A Little Vengeance Tour
+LOCATION:South Side Ballroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=jessie-reyez-a-little-ven
+ geance-tour%7Csouth-side-ballroom-dallas%7C8-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:karan-aujla|american-airlines-center-dallas|8-00-pm-2026-11-13@letsdoit
+ dallas.com
+DTSTAMP:20261114T020000Z
+DTSTART:20261114T020000Z
+DTEND:20261114T050000Z
+SUMMARY:Karan Aujla
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=karan-aujla%7Camerican-ai
+ rlines-center-dallas%7C8-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:knon-benefit-event|poor-david-s-pub-dallas|doors-see-listing-2026-11-14
  @letsdoitdallas.com
 DTSTAMP:20261114T000000Z
@@ -1440,5 +1467,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=knon-benefit-event%7Cpoor
  -david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|1-30-pm
+ -2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T193000Z
+DTSTART:20261114T193000Z
+DTEND:20261114T223000Z
+SUMMARY:Buena Vista Social Club (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=buena-vista-social-club-t
+ ouring-%7Cmusic-hall-at-fair-park-dallas%7C1-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

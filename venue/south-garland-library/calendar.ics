@@ -9,38 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:teen-crafting-haunted-birdhouses-ages-13-17-|south-garland-library-garl
- and|04-30-pm-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261015T213000Z
-DTSTART:20261015T213000Z
-DTEND:20261016T003000Z
-SUMMARY:Teen Crafting: Haunted Birdhouses (Ages 13-17)
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=teen-crafting-haunted-bir
- dhouses-ages-13-17-%7Csouth-garland-library-garland%7C04-30-pm
-DESCRIPTION:4:30 p.m.\; Get in the Halloween spirit by turning a wooden bir
- dhouse into a mini haunted house! For ages 13 to 17. All craft materials w
- ill be provided. No registration required. October 15\, 2026 04:30 PM - 06
- :00 PM 4845 Broadway Blvd.Garland\, TX 75043 https://www.garlandtx.gov/C 
- — More: https://letsdoitdallas.com/venue/south-garland-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:fiction-book-club-ages-18-|south-garland-library-garland|06-30-pm-2026-
- 10-15@letsdoitdallas.com
-DTSTAMP:20261015T233000Z
-DTSTART:20261015T233000Z
-DTEND:20261016T023000Z
-SUMMARY:Fiction Book Club (Ages 18+)
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=fiction-book-club-ages-18
- -%7Csouth-garland-library-garland%7C06-30-pm
-DESCRIPTION:6:30 p.m.\; Are you an avid reader looking to connect with othe
- rs? Join us at the South Garland Library for our monthly book club\, where
-  we explore a new book each month and enjoy light refreshments. All perspe
- ctives are welcome. Come share your thoughts! October 15\, 2026 06:30 PM 
- — More: https://letsdoitdallas.com/venue/south-garland-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a
  m-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261016T150000Z
@@ -281,5 +249,37 @@ DESCRIPTION:6:00 p.m.\; Join us for spooky family fun! We will have games\,
  ed. October 29\, 2026 06:00 PM - 07:30 PM 625 Austin St.Garland\, TX 75040
   https://www.garlandtx.gov/Calendar.aspx?EID=13321/639235982690000000 — 
  More: https://letsdoitdallas.com/venue/south-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a
+ m-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261030T150000Z
+DTSTART:20261030T150000Z
+DTEND:20261030T180000Z
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=baby-bounce-read-birth-18
+ -months-%7Csouth-garland-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
+  will learn\, play\, and grow together in this lap-sit storytime that intr
+ oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
+ y literacy practices into their everyday lives. October 30\, 2026 10:00 AM
+  - 1 — More: https://letsdoitdallas.com/venue/south-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-18-36-months-|south-garland-library-garland|11-00-am-2026-
+ 10-30@letsdoitdallas.com
+DTSTAMP:20261030T160000Z
+DTSTART:20261030T160000Z
+DTEND:20261030T190000Z
+SUMMARY:Toddler Time (18-36 Months)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=toddler-time-18-36-months
+ -%7Csouth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Toddler Time is a storytime for children ages 18 m
+ onths to 3 years old. Toddler Time storytimes will be a mixture of age app
+ ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
+ rachute play. October 30\, 2026 11:00 AM - 12:00 PM 4845 Broadway Blvd.Gar
+ la — More: https://letsdoitdallas.com/venue/south-garland-library/
 END:VEVENT
 END:VCALENDAR

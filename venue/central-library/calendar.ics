@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cracking-the-mortgage-code|central-library-garland|06-00-pm-2026-10-15@
- letsdoitdallas.com
-DTSTAMP:20261015T230000Z
-DTSTART:20261015T230000Z
-DTEND:20261016T020000Z
-SUMMARY:Cracking the Mortgage Code
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=cracking-the-mortgage-cod
- e%7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Join us for a financial literacy workshop presented
-  by Peoples Mortgage Company. In this workshop\, learn four common home bu
- ying myths about down payments\, credit scores\, personal debt and mortgag
- e rates and learn how you can prepare today for a future real estate inve 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:basic-computer-practice-ages-18-|central-library-garland|10-00-am-2026-
  10-16@letsdoitdallas.com
 DTSTAMP:20261016T150000Z
@@ -556,5 +540,21 @@ DESCRIPTION:6:00 p.m.\; Are you an aspiring business owner or an entreprene
  Daniela Gonzalez\, owner of Dani's Bookshelf & More. Daniela will share he
  r experiences as a business owner and discuss the challenges that come —
   More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:basic-computer-practice-ages-18-|central-library-garland|10-00-am-2026-
+ 10-30@letsdoitdallas.com
+DTSTAMP:20261030T150000Z
+DTSTART:20261030T150000Z
+DTEND:20261030T180000Z
+SUMMARY:Basic Computer Practice (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=basic-computer-practice-a
+ ges-18-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Get basic computer practice every Friday morning. 
+ Learn the coordination skills needed to use a computer independently with 
+ confidence. Technology accessories like the mouse and keyboard take time a
+ nd practice to master\; that’s why our computer classes are held almost 
+ — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

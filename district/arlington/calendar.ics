@@ -10,46 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:karol-g-viajando-por-el-mundo-tropitour|at-t-stadium-arlington|7-00-pm-
- 2026-10-15@letsdoitdallas.com
-DTSTAMP:20261016T000000Z
-DTSTART:20261016T000000Z
-DTEND:20261016T030000Z
-SUMMARY:KAROL G - VIAJANDO POR EL MUNDO TROPITOUR
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=karol-g-viajando-por-el-m
- undo-tropitour%7Cat-t-stadium-arlington%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:don-chief-and-friends-feat-celebrity-|arlington-improv-arlington|7-30-p
- m-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261016T003000Z
-DTSTART:20261016T003000Z
-DTEND:20261016T033000Z
-SUMMARY:Don Chief and Friends (Feat Celebrity)
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=don-chief-and-friends-fea
- t-celebrity-%7Carlington-improv-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:karol-g-official-after-party|texas-live-1650-east-randol-mill-road-arli
- ngton-76011-united-states|10-00-pm-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261016T030000Z
-DTSTART:20261016T030000Z
-DTEND:20261016T060000Z
-SUMMARY:Karol G Official After Party
-LOCATION:Texas Live! · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=karol-g-official-after-pa
- rty%7Ctexas-live-1650-east-randol-mill-road-arlington-76011-united-states%
- 7C10-00-pm
-DESCRIPTION:Keep the night going at the Official Karol G After Party featur
- ing Daiky Gamboa! — More: https://letsdoitdallas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-16
  @letsdoitdallas.com
 DTSTAMP:20261016T150000Z
@@ -868,6 +828,45 @@ SUMMARY:Michael Blackson
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-11-12&e=michael-blackson%7Carling
  ton-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:garrison-keillor|arlington-music-hall-arlington|7-30-pm-2026-11-13@lets
+ doitdallas.com
+DTSTAMP:20261114T013000Z
+DTSTART:20261114T013000Z
+DTEND:20261114T043000Z
+SUMMARY:Garrison Keillor
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=garrison-keillor%7Carling
+ ton-music-hall-arlington%7C7-30-pm
+DESCRIPTION:Hobby/Special Interest Expos event via Ticketmaster. — More: 
+ https://letsdoitdallas.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-blackson|arlington-improv-arlington|7-30-pm-2026-11-13@letsdoit
+ dallas.com
+DTSTAMP:20261114T013000Z
+DTSTART:20261114T013000Z
+DTEND:20261114T043000Z
+SUMMARY:Michael Blackson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=michael-blackson%7Carling
+ ton-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-blackson|arlington-improv-arlington|9-45-pm-2026-11-13@letsdoit
+ dallas.com
+DTSTAMP:20261114T034500Z
+DTSTART:20261114T034500Z
+DTEND:20261114T064500Z
+SUMMARY:Michael Blackson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=michael-blackson%7Carling
+ ton-improv-arlington%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT

@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:black-oxygen|club-dada-dallas|7-30-pm-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261016T003000Z
-DTSTART:20261016T003000Z
-DTEND:20261016T033000Z
-SUMMARY:Black Oxygen
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=black-oxygen%7Cclub-dada-
- dallas%7C7-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:parrotfish-clement-hall-sundowning-|three-links-deep-ellum-dallas|8-00-
- pm-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261016T010000Z
-DTSTART:20261016T010000Z
-DTEND:20261016T040000Z
-SUMMARY:Parrotfish\, Clement Hall\, Sundowning.
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=parrotfish-clement-hall-s
- undowning-%7Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:bright-eyes-16-and-under-with-parent-or-legal-guardian-|the-studio-at-t
  he-bomb-factory-dallas|7-30-pm-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261017T003000Z
@@ -409,6 +384,18 @@ DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:rin|puzzles-deep-ellum-dallas|7-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Rin
+LOCATION:Puzzles Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=rin%7Cpuzzles-deep-ellum-
+ dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:visit-neptune-eileen-peyton-aston|three-links-deep-ellum-dallas|7-00-pm
  -2026-10-24@letsdoitdallas.com
 DTSTAMP:20261025T000000Z
@@ -420,6 +407,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=visit-neptune-eileen-peyt
  on-aston%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:cardinal-bloom|deep-ellum-art-co-dallas|8-00-pm-2026-10-24@letsdoitdall
+ as.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:Cardinal Bloom
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=cardinal-bloom%7Cdeep-ell
+ um-art-co-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:kyle-hume|club-dada-dallas|8-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:Kyle Hume
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=kyle-hume%7Cclub-dada-dal
+ las%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:viktoria-xo-rebirth-album-release-show|three-links-deep-ellum-dallas|7-
@@ -924,5 +936,46 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=landrones-arriba-la-l-usa
  -2026-tour%7Ctrees-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:mannequin-p-ssy-and-wednesday-16-and-under-with-parent-or-legal-guardia
+ n-|the-bomb-factory-dallas|8-00-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T020000Z
+DTSTART:20261114T020000Z
+DTEND:20261114T050000Z
+SUMMARY:Mannequin P*ssy and Wednesday (16 and Under with Parent or Legal Gu
+ ardian)
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=mannequin-p-ssy-and-wedne
+ sday-16-and-under-with-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas
+ %7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:bleood|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-11-13@letsdoi
+ tdallas.com
+DTSTAMP:20261114T020000Z
+DTSTART:20261114T020000Z
+DTEND:20261114T050000Z
+SUMMARY:bleood
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=bleood%7Cthe-studio-at-th
+ e-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:iscream-fest|three-links-deep-ellum-dallas|1-00-pm-2026-11-14@letsdoitd
+ allas.com
+DTSTAMP:20261114T190000Z
+DTSTART:20261114T190000Z
+DTEND:20261114T220000Z
+SUMMARY:iScream Fest
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=iscream-fest%7Cthree-link
+ s-deep-ellum-dallas%7C1-00-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

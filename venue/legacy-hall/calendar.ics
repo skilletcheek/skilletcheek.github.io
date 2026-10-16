@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:william-clark-green|legacy-hall-plano|8-00-pm-2026-10-15@letsdoitdallas
- .com
-DTSTAMP:20261016T010000Z
-DTSTART:20261016T010000Z
-DTEND:20261016T040000Z
-SUMMARY:William Clark Green
-LOCATION:Legacy Hall · Plano
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=william-clark-green%7Cleg
- acy-hall-plano%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/legacy-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:pop-punk-nite|legacy-hall-plano|8-00-pm-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261017T010000Z
 DTSTART:20261017T010000Z
@@ -43,6 +30,18 @@ SUMMARY:Queen Legacy - Queen Tribute
 LOCATION:Legacy Hall · Plano
 URL:https://letsdoitdallas.com/?date=2026-10-17&e=queen-legacy-queen-tribut
  e%7Clegacy-hall-plano%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/legacy-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:los-lonely-boys|legacy-hall-plano|8-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:Los Lonely Boys
+LOCATION:Legacy Hall · Plano
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=los-lonely-boys%7Clegacy-
+ hall-plano%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/legacy-hall/
 END:VEVENT

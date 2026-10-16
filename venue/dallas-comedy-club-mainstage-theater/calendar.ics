@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:marcus-monroe|dallas-comedy-club-mainstage-theater-dallas|7-00-pm-2026-
- 10-15@letsdoitdallas.com
-DTSTAMP:20261016T000000Z
-DTSTART:20261016T000000Z
-DTEND:20261016T030000Z
-SUMMARY:Marcus Monroe
-LOCATION:Dallas Comedy Club - Mainstage Theater
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=marcus-monroe%7Cdallas-co
- medy-club-mainstage-theater-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/dallas-comedy-club-mainstage-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:rosebud-baker|dallas-comedy-club-mainstage-theater-dallas|7-30-pm-2026-
  10-16@letsdoitdallas.com
 DTSTAMP:20261017T003000Z
@@ -161,6 +148,19 @@ SUMMARY:Abby Govindan
 LOCATION:Dallas Comedy Club - Mainstage Theater
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=abby-govindan%7Cdallas-co
  medy-club-mainstage-theater-dallas%7C5-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/dallas-comedy-club-mainstage-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:aj-wilkerson|dallas-comedy-club-mainstage-theater-dallas|7-30-pm-2026-1
+ 0-24@letsdoitdallas.com
+DTSTAMP:20261025T003000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T033000Z
+SUMMARY:AJ Wilkerson
+LOCATION:Dallas Comedy Club - Mainstage Theater
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=aj-wilkerson%7Cdallas-com
+ edy-club-mainstage-theater-dallas%7C7-30-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /venue/dallas-comedy-club-mainstage-theater/
 END:VEVENT

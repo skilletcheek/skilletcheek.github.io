@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:andy-franklin-kenny-lee-double-headliner|punch-line-irving-irving|7-30-
- pm-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261016T003000Z
-DTSTART:20261016T003000Z
-DTEND:20261016T033000Z
-SUMMARY:Andy Franklin & Kenny Lee: Double Headliner
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=andy-franklin-kenny-lee-d
- ouble-headliner%7Cpunch-line-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:funjelah-live-podcast-taping-w-anjelah-johnson-reyes-special-guest|punc
  h-line-irving-irving|7-00-pm-2026-10-16@letsdoitdallas.com
 DTSTAMP:20261017T000000Z
@@ -449,6 +436,32 @@ SUMMARY:Ali Macofsky
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-11-12&e=ali-macofsky%7Cpunch-line
  -irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:ali-macofsky|punch-line-irving-irving|7-00-pm-2026-11-13@letsdoitdallas
+ .com
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:Ali Macofsky
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=ali-macofsky%7Cpunch-line
+ -irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:success-jr|punch-line-irving-irving|9-30-pm-2026-11-13@letsdoitdallas.c
+ om
+DTSTAMP:20261114T033000Z
+DTSTART:20261114T033000Z
+DTEND:20261114T063000Z
+SUMMARY:Success Jr
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=success-jr%7Cpunch-line-i
+ rving-irving%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT

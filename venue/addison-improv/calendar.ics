@@ -326,4 +326,30 @@ URL:https://letsdoitdallas.com/?date=2026-11-12&e=kev-adams%7Caddison-impro
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
 END:VEVENT
+BEGIN:VEVENT
+UID:steve-byrne|addison-improv-addison|7-00-pm-2026-11-13@letsdoitdallas.co
+ m
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:Steve Byrne
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=steve-byrne%7Caddison-imp
+ rov-addison%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:steve-byrne|addison-improv-addison|9-30-pm-2026-11-13@letsdoitdallas.co
+ m
+DTSTAMP:20261114T033000Z
+DTSTART:20261114T033000Z
+DTEND:20261114T063000Z
+SUMMARY:Steve Byrne
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=steve-byrne%7Caddison-imp
+ rov-addison%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
 END:VCALENDAR

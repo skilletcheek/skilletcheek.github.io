@@ -11,46 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
- e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-15@letsdoitdallas
- .com
-DTSTAMP:20261015T000000Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
- Theatre Works
-LOCATION:8004 N. Dallas Parkway · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=-goosebumps-the-musical-p
- hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
- way-frisco%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/dis
- trict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:illuminate-magic-mayhem|6455-page-street-frisco|06-30-pm-2026-10-15@let
- sdoitdallas.com
-DTSTAMP:20261015T233000Z
-DTSTART:20261015T233000Z
-DTEND:20261016T023000Z
-SUMMARY:Illuminate: Magic & Mayhem
-LOCATION:6455 Page Street · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=illuminate-magic-mayhem%7
- C6455-page-street-frisco%7C06-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:rail-district-celebration-glow-in-the-dark-yoga-night|8802-4th-st-frisc
- o|07-30-pm-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261016T003000Z
-DTSTART:20261016T003000Z
-DTEND:20261016T033000Z
-SUMMARY:Rail District Celebration: Glow in the Dark Yoga Night
-LOCATION:8802 4th St · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=rail-district-celebration
- -glow-in-the-dark-yoga-night%7C8802-4th-st-frisco%7C07-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
  e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-16@letsdoitdallas
  .com
 DTSTAMP:20261016T000000Z
@@ -166,6 +126,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=artist-led-workshop-water
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:margarita-festival-in-frisco|rollertown-beerworks-frisco|12-00-pm-5-00-
+ pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T170000Z
+DTSTART:20261017T170000Z
+DTEND:20261017T200000Z
+SUMMARY:Margarita Festival in Frisco
+LOCATION:Rollertown Beerworks · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=margarita-festival-in-fri
+ sco%7Crollertown-beerworks-frisco%7C12-00-pm-5-00-pm
+DESCRIPTION:Calling all marg lovers! Margarita Festival is coming back to F
+ risco next Saturday\, bringing together 2\,500 margarita lovers to taste t
+ heir way through some of the area’s best margs and crown the best one! Y
+ our sampling ticket includes TEN 3.5 oz margaritas from local bars and re 
+ — More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:pumpkin-dunk|5828-nancy-jane-lane-frisco|12-30-pm-2026-10-17@letsdoitda
  llas.com
 DTSTAMP:20261017T173000Z
@@ -188,6 +164,22 @@ LOCATION:8802 4th St · Frisco
 URL:https://letsdoitdallas.com/?date=2026-10-17&e=rail-district-celebration
  -from-this-ground-art-activity%7C8802-4th-st-frisco%7C04-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:80s-mix-tape-band-concert|the-pga-district-frisco|6-00-pm-8-00-pm-2026-
+ 10-17@letsdoitdallas.com
+DTSTAMP:20261017T230000Z
+DTSTART:20261017T230000Z
+DTEND:20261018T020000Z
+SUMMARY:80s Mix Tape Band Concert
+LOCATION:The PGA District · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=80s-mix-tape-band-concert
+ %7Cthe-pga-district-frisco%7C6-00-pm-8-00-pm
+DESCRIPTION:Step into a time machine and travel back to the most iconic dec
+ ade of music! Join us for a totally tubular evening with 80’s Mix Tape\,
+  the ultimate band that brings all of your favorite 80’s hits to life. D
+ ress up in your raddest 80’s attire – think neon colors\, big hair\, a
+ nd sho — More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
@@ -404,6 +396,19 @@ DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:allen-americans-vs-idaho-steelheads|comerica-center-frisco|7-00-pm-2026
  -10-30@letsdoitdallas.com
 DTSTAMP:20261031T000000Z
@@ -417,6 +422,110 @@ DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-02@letsdoitdallas.com
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-03@letsdoitdallas.com
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:fc-dallas-vs-colorado-rapids|toyota-stadium-frisco|6-00-pm-2026-11-07@l
  etsdoitdallas.com
 DTSTAMP:20261108T000000Z
@@ -428,5 +537,122 @@ URL:https://letsdoitdallas.com/?date=2026-11-07&e=fc-dallas-vs-colorado-rap
  ids%7Ctoyota-stadium-frisco%7C6-00-pm
 DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-09@letsdoitdallas.com
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-09&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-10@letsdoitdallas.com
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-legends-vs-rio-grande-valley-vipers|comerica-center-frisco|7-00-p
+ m-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:Texas Legends vs. Rio Grande Valley Vipers
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=texas-legends-vs-rio-gran
+ de-valley-vipers%7Ccomerica-center-frisco%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
+ frisco|see-details-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:"The Cottage" by Theatre Frisco
+LOCATION:Black Box Theater · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=-the-cottage-by-theatre-f
+ risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
+DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
+ strict/frisco/
 END:VEVENT
 END:VCALENDAR

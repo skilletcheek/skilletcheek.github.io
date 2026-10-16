@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:don-chief-and-friends-feat-celebrity-|arlington-improv-arlington|7-30-p
- m-2026-10-15@letsdoitdallas.com
-DTSTAMP:20261016T003000Z
-DTSTART:20261016T003000Z
-DTEND:20261016T033000Z
-SUMMARY:Don Chief and Friends (Feat Celebrity)
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-15&e=don-chief-and-friends-fea
- t-celebrity-%7Carlington-improv-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:marcus-d-wiley|arlington-improv-arlington|7-30-pm-2026-10-16@letsdoitda
  llas.com
 DTSTAMP:20261017T003000Z
@@ -407,6 +394,32 @@ SUMMARY:Michael Blackson
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-11-12&e=michael-blackson%7Carling
  ton-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-blackson|arlington-improv-arlington|7-30-pm-2026-11-13@letsdoit
+ dallas.com
+DTSTAMP:20261114T013000Z
+DTSTART:20261114T013000Z
+DTEND:20261114T043000Z
+SUMMARY:Michael Blackson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=michael-blackson%7Carling
+ ton-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-blackson|arlington-improv-arlington|9-45-pm-2026-11-13@letsdoit
+ dallas.com
+DTSTAMP:20261114T034500Z
+DTSTART:20261114T034500Z
+DTEND:20261114T064500Z
+SUMMARY:Michael Blackson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=michael-blackson%7Carling
+ ton-improv-arlington%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT
