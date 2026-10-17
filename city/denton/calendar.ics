@@ -9,63 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:joey-cash|rubber-gloves-denton|7-00-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T030000Z
-SUMMARY:Joey Cash
-LOCATION:Rubber Gloves · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=joey-cash%7Crubber-gloves
- -denton%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:brass-chamber-music-concert|paul-voertman-concert-hall-at-the-music-bui
- lding-denton|8-00-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Brass Chamber Music Concert
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=brass-chamber-music-conce
- rt%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C8-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream link below.      This event is free
-  and open to the public with general seating. — More: https://letsdoitda
- llas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:chamber-music-concert|recital-hall-at-the-music-building-denton|8-00-pm
- -2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Chamber Music Concert
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=chamber-music-concert%7Cr
- ecital-hall-at-the-music-building-denton%7C8-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream link below.      This event is free
-  and open to the public with general seating. — More: https://letsdoitda
- llas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:max-stalling|dan-s-silverleaf-denton|8-00-pm-2026-10-16@letsdoitdallas.
- com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Max Stalling
-LOCATION:Dan's Silverleaf · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=max-stalling%7Cdan-s-silv
- erleaf-denton%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/city/denton/
-END:VEVENT
-BEGIN:VEVENT
 UID:faculty-recital-mikayla-peterson-saxophone|paul-voertman-concert-hall-a
  t-the-music-building-denton|5-00-pm-2026-10-17@letsdoitdallas.com
 DTSTAMP:20261017T220000Z
@@ -81,6 +24,23 @@ DESCRIPTION:Important Links and Information      Program   Please note\, th
  y of the performance.     Livestream link below.      This event is free a
  nd open to the public with general seating. — More: https://letsdoitdall
  as.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:intro-to-watercolor-pumpkins|wildflower-art-studio-715-north-locust-str
+ eet-denton-76201-united-states|6-00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T230000Z
+DTSTART:20261017T230000Z
+DTEND:20261018T020000Z
+SUMMARY:Intro to Watercolor: Pumpkins
+LOCATION:Wildflower Art Studio · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=intro-to-watercolor-pumpk
+ ins%7Cwildflower-art-studio-715-north-locust-street-denton-76201-united-st
+ ates%7C6-00-pm
+DESCRIPTION:Intro to Watercolor: Pumpkins • October 17 – 6:00-7:30pm  T
+ his introductory-level workshop covers basic instruction on painting with 
+ Watercolor. Explore the magic of creativity while creating layered paintin
+ gs using a variety of expressive watercolor techniques.  All supplies inc 
+ — More: https://letsdoitdallas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
 UID:guest-artist-recital-andrew-wright-piano|paul-voertman-concert-hall-at-
@@ -291,6 +251,33 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  llas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
+UID:memphis-womens-soccer-at-north-texas-womens-soccer|norma-knobel-hunt-st
+ adium-denton|1-00-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T180000Z
+DTSTART:20261025T180000Z
+DTEND:20261025T210000Z
+SUMMARY:Memphis Womens Soccer at North Texas Womens Soccer
+LOCATION:Norma Knobel Hunt Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=memphis-womens-soccer-at-
+ north-texas-womens-soccer%7Cnorma-knobel-hunt-stadium-denton%7C1-00-pm
+DESCRIPTION:womens college soccer event via SeatGeek. — More: https://let
+ sdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:uab-blazers-at-north-texas-mean-green-womens-volleyball|north-texas-vol
+ leyball-center-denton|1-00-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T180000Z
+DTSTART:20261025T180000Z
+DTEND:20261025T210000Z
+SUMMARY:UAB Blazers at North Texas Mean Green Womens Volleyball
+LOCATION:North Texas Volleyball Center · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=uab-blazers-at-north-texa
+ s-mean-green-womens-volleyball%7Cnorth-texas-volleyball-center-denton%7C1-
+ 00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
 UID:senior-recital-chase-thomas-euphonium|paul-voertman-concert-hall-at-the
  -music-building-denton|2-00-pm-2026-10-25@letsdoitdallas.com
 DTSTAMP:20261025T190000Z
@@ -306,6 +293,19 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  ay of the performance.      Livestream link below.      This event is free
   and open to the public with general seating. — More: https://letsdoitda
  llas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:bonnie-whitmore|dan-s-silverleaf-denton|3-00-pm-2026-10-25@letsdoitdall
+ as.com
+DTSTAMP:20261025T200000Z
+DTSTART:20261025T200000Z
+DTEND:20261025T230000Z
+SUMMARY:Bonnie Whitmore
+LOCATION:Dan's Silverleaf · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=bonnie-whitmore%7Cdan-s-s
+ ilverleaf-denton%7C3-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/city/denton/
 END:VEVENT
 BEGIN:VEVENT
 UID:senior-recital-emma-berg-oboe|recital-hall-at-the-music-building-denton
@@ -355,6 +355,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-26&e=north-texas-mean-green-me
  unt-superpit-denton%7Csee-details
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:graham-hunt|rubber-gloves-denton|7-00-pm-2026-10-26@letsdoitdallas.com
+DTSTAMP:20261027T000000Z
+DTSTART:20261027T000000Z
+DTEND:20261027T030000Z
+SUMMARY:Graham Hunt
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=graham-hunt%7Crubber-glov
+ es-denton%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/city/denton/
 END:VEVENT
 BEGIN:VEVENT
 UID:spectrum-a-performance-of-new-works-by-north-texas-composers-fall-2026-
@@ -1659,5 +1671,38 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  ay of the performance.      Livestream link below.      This event is free
   and open to the public with general seating. — More: https://letsdoitda
  llas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:doctoral-recital-shuhan-zhou-collaborative-piano|recital-hall-at-the-mu
+ sic-building-denton|5-00-pm-2026-11-16@letsdoitdallas.com
+DTSTAMP:20261116T230000Z
+DTSTART:20261116T230000Z
+DTEND:20261117T020000Z
+SUMMARY:Doctoral Recital: Shuhan Zhou\, collaborative piano
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-16&e=doctoral-recital-shuhan-z
+ hou-collaborative-piano%7Crecital-hall-at-the-music-building-denton%7C5-00
+ -pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below.     This event is free 
+ and open to the public with general seating. — More: https://letsdoitdal
+ las.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:one-o-clock-lab-band-fall-2026|paul-voertman-concert-hall-at-the-music-
+ building-denton|8-00-pm-2026-11-16@letsdoitdallas.com
+DTSTAMP:20261117T020000Z
+DTSTART:20261117T020000Z
+DTEND:20261117T050000Z
+SUMMARY:One O'Clock Lab Band Fall 2026
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-16&e=one-o-clock-lab-band-fall
+ -2026%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.       Livestream link below.      Patron assistance
+  carts will be available at this performance to assist those with mobi —
+  More: https://letsdoitdallas.com/city/denton/
 END:VEVENT
 END:VCALENDAR

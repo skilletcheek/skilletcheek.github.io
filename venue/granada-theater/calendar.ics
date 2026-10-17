@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kishi-bashi|granada-theater-dallas-dallas|8-00-pm-2026-10-16@letsdoitda
- llas.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Kishi Bashi
-LOCATION:Granada Theater - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=kishi-bashi%7Cgranada-the
- ater-dallas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:snarky-puppy|granada-theater-dallas-dallas|8-00-pm-2026-10-17@letsdoitd
  allas.com
 DTSTAMP:20261018T010000Z

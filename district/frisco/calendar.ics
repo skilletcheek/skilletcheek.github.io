@@ -11,47 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
- e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-16@letsdoitdallas
- .com
-DTSTAMP:20261016T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
-SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
- Theatre Works
-LOCATION:8004 N. Dallas Parkway · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=-goosebumps-the-musical-p
- hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
- way-frisco%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/dis
- trict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:rail-district-celebration-plaza-live-featuring-patrick-casey|8802-4th-s
- t-frisco|07-00-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T030000Z
-SUMMARY:Rail District Celebration: Plaza Live! featuring Patrick Casey
-LOCATION:8802 4th St · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=rail-district-celebration
- -plaza-live-featuring-patrick-casey%7C8802-4th-st-frisco%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:rahat-fateh-ali-khan-live-in-dallas|comerica-center-frisco|8-30-pm-2026
- -10-16@letsdoitdallas.com
-DTSTAMP:20261017T013000Z
-DTSTART:20261017T013000Z
-DTEND:20261017T043000Z
-SUMMARY:Rahat Fateh Ali Khan Live In Dallas
-LOCATION:Comerica Center · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=rahat-fateh-ali-khan-live
- -in-dallas%7Ccomerica-center-frisco%7C8-30-pm
-DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
  e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-17@letsdoitdallas
  .com
 DTSTAMP:20261017T000000Z
@@ -423,6 +382,29 @@ DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
  strict/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:sunrise-yoga|8802-4th-st-frisco|07-30-am-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T123000Z
+DTSTART:20261031T123000Z
+DTEND:20261031T153000Z
+SUMMARY:Sunrise Yoga
+LOCATION:8802 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=sunrise-yoga%7C8802-4th-s
+ t-frisco%7C07-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-music-series-at-frisco-fresh-market|9215-john-w-elliott-dr-fri
+ sco|11-00-am-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T160000Z
+DTSTART:20261031T160000Z
+DTEND:20261031T190000Z
+SUMMARY:Saturday Music Series at Frisco Fresh Market
+LOCATION:9215 John W. Elliott Dr · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=saturday-music-series-at-
+ frisco-fresh-market%7C9215-john-w-elliott-dr-frisco%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
  frisco|see-details-2026-11-01@letsdoitdallas.com
 DTSTAMP:20261101T000000Z
@@ -642,5 +624,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-15&e=-the-cottage-by-theatre-f
  risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
 DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
  strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-legends-vs-rio-grande-valley-vipers|comerica-center-frisco|3-00-p
+ m-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T210000Z
+DTSTART:20261115T210000Z
+DTEND:20261116T000000Z
+SUMMARY:Texas Legends vs. Rio Grande Valley Vipers
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=texas-legends-vs-rio-gran
+ de-valley-vipers%7Ccomerica-center-frisco%7C3-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/frisco/
 END:VEVENT
 END:VCALENDAR

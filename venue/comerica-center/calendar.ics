@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:rahat-fateh-ali-khan-live-in-dallas|comerica-center-frisco|8-30-pm-2026
- -10-16@letsdoitdallas.com
-DTSTAMP:20261017T013000Z
-DTSTART:20261017T013000Z
-DTEND:20261017T043000Z
-SUMMARY:Rahat Fateh Ali Khan Live In Dallas
-LOCATION:Comerica Center · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=rahat-fateh-ali-khan-live
- -in-dallas%7Ccomerica-center-frisco%7C8-30-pm
-DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/comerica-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:allen-americans-vs-idaho-steelheads|comerica-center-frisco|10-00-am-202
  6-10-29@letsdoitdallas.com
 DTSTAMP:20261029T150000Z
@@ -57,6 +44,19 @@ SUMMARY:Texas Legends vs. Rio Grande Valley Vipers
 LOCATION:Comerica Center · Frisco
 URL:https://letsdoitdallas.com/?date=2026-11-13&e=texas-legends-vs-rio-gran
  de-valley-vipers%7Ccomerica-center-frisco%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/comerica-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-legends-vs-rio-grande-valley-vipers|comerica-center-frisco|3-00-p
+ m-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T210000Z
+DTSTART:20261115T210000Z
+DTEND:20261116T000000Z
+SUMMARY:Texas Legends vs. Rio Grande Valley Vipers
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=texas-legends-vs-rio-gran
+ de-valley-vipers%7Ccomerica-center-frisco%7C3-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/comerica-center/
 END:VEVENT

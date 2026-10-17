@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pop-punk-nite|legacy-hall-plano|8-00-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Pop Punk Nite
-LOCATION:Legacy Hall · Plano
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=pop-punk-nite%7Clegacy-ha
- ll-plano%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/legacy-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:queen-legacy-queen-tribute|legacy-hall-plano|8-00-pm-2026-10-17@letsdoi
  tdallas.com
 DTSTAMP:20261018T010000Z
@@ -43,6 +31,19 @@ LOCATION:Legacy Hall · Plano
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=los-lonely-boys%7Clegacy-
  hall-plano%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/legacy-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:urban-trivia-live-plano|legacy-hall-plano|6-00-pm-2026-10-25@letsdoitda
+ llas.com
+DTSTAMP:20261025T230000Z
+DTSTART:20261025T230000Z
+DTEND:20261026T020000Z
+SUMMARY:Urban Trivia Live - Plano
+LOCATION:Legacy Hall · Plano
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=urban-trivia-live-plano%7
+ Clegacy-hall-plano%7C6-00-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/legacy-hall/
 END:VEVENT
 END:VCALENDAR

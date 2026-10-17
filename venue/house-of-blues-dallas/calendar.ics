@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:basement|house-of-blues-dallas-dallas|7-00-pm-2026-10-16@letsdoitdallas
- .com
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T030000Z
-SUMMARY:Basement
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=basement%7Chouse-of-blues
- -dallas-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:k-michelle|house-of-blues-dallas-dallas|7-00-pm-2026-10-17@letsdoitdall
  as.com
 DTSTAMP:20261018T000000Z
@@ -292,5 +279,20 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=streetlight-manifesto-the
  -presence-of-the-past-tour%7Chouse-of-blues-dallas-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-monster-energy-outbreak-tour-presents-r-z-se-est-haciendo-tarde|hou
+ se-of-blues-dallas-dallas|7-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T010000Z
+DTSTART:20261115T010000Z
+DTEND:20261115T040000Z
+SUMMARY:The Monster Energy Outbreak Tour Presents RØZ: SE ESTÁ HACIENDO T
+ ARDE
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=the-monster-energy-outbre
+ ak-tour-presents-r-z-se-est-haciendo-tarde%7Chouse-of-blues-dallas-dallas%
+ 7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/house-of-blues-dallas/
 END:VEVENT
 END:VCALENDAR

@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kishi-bashi|granada-theater-dallas-dallas|8-00-pm-2026-10-16@letsdoitda
- llas.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Kishi Bashi
-LOCATION:Granada Theater - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=kishi-bashi%7Cgranada-the
- ater-dallas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:dj-boomtown-chris-bullock-of-snarky-puppy-snarky-puppy-after-party|sund
  own-at-granada-lower-greenville-dallas|doors-see-listing-2026-10-17@letsdo
  itdallas.com
@@ -168,19 +155,6 @@ LOCATION:Granada Theater - Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=book-of-love%7Cgranada-th
  eater-dallas-dallas%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
-UID:artikal-sound-system|sundown-at-granada-lower-greenville-dallas|doors-s
- ee-listing-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:ARTIKAL SOUND SYSTEM
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=artikal-sound-system%7Csu
- ndown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT

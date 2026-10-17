@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jenna-davis|the-echo-lounge-music-hall-dallas|7-00-pm-2026-10-16@letsdo
- itdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T030000Z
-SUMMARY:Jenna Davis
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=jenna-davis%7Cthe-echo-lo
- unge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:rewind-the-ultimate-2000-s-rave-18-|the-echo-lounge-music-hall-dallas|8
  -00-pm-2026-10-17@letsdoitdallas.com
 DTSTAMP:20261018T010000Z
@@ -265,6 +252,19 @@ DTEND:20261114T040000Z
 SUMMARY:TWO NIGHTS WITH THEY MIGHT BE GIANTS - 16+ Event
 LOCATION:The Echo Lounge & Music Hall · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-13&e=two-nights-with-they-migh
+ t-be-giants-16-event%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:two-nights-with-they-might-be-giants-16-event|the-echo-lounge-music-hal
+ l-dallas|7-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T010000Z
+DTSTART:20261115T010000Z
+DTEND:20261115T040000Z
+SUMMARY:TWO NIGHTS WITH THEY MIGHT BE GIANTS - 16+ Event
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=two-nights-with-they-migh
  t-be-giants-16-event%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-echo-lounge-music-hall/

@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:inoha|ferris-wheelers-backyard-and-bbq-dallas|6-30-pm-2026-10-16@letsdo
- itdallas.com
-DTSTAMP:20261016T233000Z
-DTSTART:20261016T233000Z
-DTEND:20261017T023000Z
-SUMMARY:Inoha
-LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=inoha%7Cferris-wheelers-b
- ackyard-and-bbq-dallas%7C6-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/ferris-wheelers-backyard-and-bbq/
-END:VEVENT
-BEGIN:VEVENT
-UID:flamy-grant-18-|ferris-wheelers-backyard-and-bbq-dallas|8-15-pm-2026-10
- -16@letsdoitdallas.com
-DTSTAMP:20261017T011500Z
-DTSTART:20261017T011500Z
-DTEND:20261017T041500Z
-SUMMARY:Flamy Grant (18+)
-LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=flamy-grant-18-%7Cferris-
- wheelers-backyard-and-bbq-dallas%7C8-15-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/ferris-wheelers-backyard-and-bbq/
-END:VEVENT
-BEGIN:VEVENT
 UID:kels|ferris-wheelers-backyard-and-bbq-dallas|7-00-pm-2026-10-19@letsdoi
  tdallas.com
 DTSTAMP:20261020T000000Z

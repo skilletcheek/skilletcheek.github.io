@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
- 10-16@letsdoitdallas.com
-DTSTAMP:20261017T003000Z
-DTSTART:20261017T003000Z
-DTEND:20261017T033000Z
-SUMMARY:Stockyards Championship Rodeo
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=stockyards-championship-r
- odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/cowtown-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:bill-pickett-invitational-rodeo|cowtown-coliseum-fort-worth|1-30-pm-202
  6-10-17@letsdoitdallas.com
 DTSTAMP:20261017T183000Z
@@ -137,6 +124,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=red-steagall-cowboy-gathe
  ring%7Ccowtown-coliseum-fort-worth%7C7-30-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
+ 10-25@letsdoitdallas.com
+DTSTAMP:20261025T183000Z
+DTSTART:20261025T183000Z
+DTEND:20261025T213000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
+DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/cowtown-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:ultimate-bullfighters|cowtown-coliseum-fort-worth|1-30-pm-2026-10-25@le
@@ -423,5 +423,44 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=stockyards-championship-r
  odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
+ 11-14@letsdoitdallas.com
+DTSTAMP:20261115T013000Z
+DTSTART:20261115T013000Z
+DTEND:20261115T043000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:spirit-of-mexico-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-11-15@l
+ etsdoitdallas.com
+DTSTAMP:20261115T193000Z
+DTSTART:20261115T193000Z
+DTEND:20261115T223000Z
+SUMMARY:Spirit of Mexico Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=spirit-of-mexico-rodeo%7C
+ cowtown-coliseum-fort-worth%7C1-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:spirit-of-mexico-rodeo|cowtown-coliseum-fort-worth|6-00-pm-2026-11-15@l
+ etsdoitdallas.com
+DTSTAMP:20261116T000000Z
+DTSTART:20261116T000000Z
+DTEND:20261116T030000Z
+SUMMARY:Spirit of Mexico Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=spirit-of-mexico-rodeo%7C
+ cowtown-coliseum-fort-worth%7C6-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/cowtown-coliseum/
 END:VEVENT
 END:VCALENDAR

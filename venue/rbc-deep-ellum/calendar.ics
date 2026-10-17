@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RBC Deep Ellum — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at RBC Deep Ellum.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:house-of-heavy|rbc-deep-ellum-dallas|9-00-pm-2026-10-17@letsdoitdallas.
+ com
+DTSTAMP:20261018T020000Z
+DTSTART:20261018T020000Z
+DTEND:20261018T050000Z
+SUMMARY:House of Heavy
+LOCATION:RBC Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=house-of-heavy%7Crbc-deep
+ -ellum-dallas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/rbc-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-lowliest-one|rbc-deep-ellum-dallas|7-00-pm-2026-11-11@letsdoitdalla
+ s.com
+DTSTAMP:20261112T010000Z
+DTSTART:20261112T010000Z
+DTEND:20261112T040000Z
+SUMMARY:The Lowliest One
+LOCATION:RBC Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=the-lowliest-one%7Crbc-de
+ ep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/rbc-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-by-north-adolescent-tito-strange-maple|rbc-deep-ellum-dallas|8-00
+ -pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T020000Z
+DTSTART:20261115T020000Z
+DTEND:20261115T050000Z
+SUMMARY:North By North\, Adolescent\, Tito Strange\, Maple
+LOCATION:RBC Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=north-by-north-adolescent
+ -tito-strange-maple%7Crbc-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/rbc-deep-ellum/
+END:VEVENT
+END:VCALENDAR

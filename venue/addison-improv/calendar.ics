@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:carlos-mencia|addison-improv-addison|7-30-pm-2026-10-16@letsdoitdallas.
- com
-DTSTAMP:20261017T003000Z
-DTSTART:20261017T003000Z
-DTEND:20261017T033000Z
-SUMMARY:Carlos Mencia
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=carlos-mencia%7Caddison-i
- mprov-addison%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:carlos-mencia|addison-improv-addison|9-45-pm-2026-10-16@letsdoitdallas.
- com
-DTSTAMP:20261017T024500Z
-DTSTART:20261017T024500Z
-DTEND:20261017T054500Z
-SUMMARY:Carlos Mencia
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=carlos-mencia%7Caddison-i
- mprov-addison%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:carlos-mencia|addison-improv-addison|7-00-pm-2026-10-17@letsdoitdallas.
  com
 DTSTAMP:20261018T000000Z
@@ -349,6 +323,19 @@ SUMMARY:Steve Byrne
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-11-13&e=steve-byrne%7Caddison-imp
  rov-addison%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:steve-byrne|addison-improv-addison|6-30-pm-2026-11-14@letsdoitdallas.co
+ m
+DTSTAMP:20261115T003000Z
+DTSTART:20261115T003000Z
+DTEND:20261115T033000Z
+SUMMARY:Steve Byrne
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=steve-byrne%7Caddison-imp
+ rov-addison%7C6-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/addison-improv/
 END:VEVENT

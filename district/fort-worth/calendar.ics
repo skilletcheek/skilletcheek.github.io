@@ -10,32 +10,14 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:high-limit-racing-championship|texas-motor-speedway-3545-lone-star-circ
- le-fort-fort-worth-76177-united-states|all-day-2026-10-16@letsdoitdallas.c
- om
-DTSTAMP:20261016T000000Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
-SUMMARY:High Limit Racing Championship
-LOCATION:Texas Motor Speedway · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=high-limit-racing-champio
- nship%7Ctexas-motor-speedway-3545-lone-star-circle-fort-fort-worth-76177-u
- nited-states%7Call-day
-DESCRIPTION:Five-time World of Outlaws Sprint Car Series champion Brad Swee
- t’s newly-formed national 410 sprint car tour returns to the Texas Motor
-  Speedway Dirt Track October 16-17.  The “High Rollers”\, made up of t
- he country’s greatest 410 sprint car drivers  battle it out for the $50
- \,000 — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
- et-fort-worth-76107-united-states|10-00-am-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261016T150000Z
-DTSTART:20261016T150000Z
-DTEND:20261016T180000Z
+ et-fort-worth-76107-united-states|10-00-am-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T150000Z
+DTSTART:20261017T150000Z
+DTEND:20261017T180000Z
 SUMMARY:Forces at Play
 LOCATION:Fort Worth Museum of Science and History
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=forces-at-play%7Cfort-wor
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=forces-at-play%7Cfort-wor
  th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
  -states%7C10-00-am
 DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
@@ -46,14 +28,14 @@ DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
 END:VEVENT
 BEGIN:VEVENT
 UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
- ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-16@lets
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-17@lets
  doitdallas.com
-DTSTAMP:20261016T150000Z
-DTSTART:20261016T150000Z
-DTEND:20261016T180000Z
+DTSTAMP:20261017T150000Z
+DTSTART:20261017T150000Z
+DTEND:20261017T180000Z
 SUMMARY:Puzzling Adventures Scavenger Hunt
 LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=puzzling-adventures-scave
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=puzzling-adventures-scave
  nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
  rth-76102-united-states%7C10-00-am
 DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
@@ -65,13 +47,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-multi-cultural-western-heritage-museum|the-national-multicultu
  ral-western-heritage-museum-2201-dottie-lynn-pkwy-suite-115-fort-worth-761
- 20-united-states|11-00-am-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261016T160000Z
-DTSTART:20261016T160000Z
-DTEND:20261016T190000Z
+ 20-united-states|11-00-am-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T160000Z
+DTSTART:20261017T160000Z
+DTEND:20261017T190000Z
 SUMMARY:National Multi Cultural Western Heritage Museum
 LOCATION:The National Multicultural Western Heritage Museum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=national-multi-cultural-w
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=national-multi-cultural-w
  estern-heritage-museum%7Cthe-national-multicultural-western-heritage-museu
  m-2201-dottie-lynn-pkwy-suite-115-fort-worth-76120-united-states%7C11-00-a
  m
@@ -80,257 +62,6 @@ DESCRIPTION:The primary objective of the National Multicultural Western Her
  historical perspective of the people and activities that built the unique 
  culture of the American West. The work of artists who documented the — M
  ore: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:tcu-horned-frogs-womens-volleyball-vs-texas-tech-red-raider-womens-voll
- eyball|ed-and-rae-schollmaier-arena-fort-worth|6-30-pm-2026-10-16@letsdoit
- dallas.com
-DTSTAMP:20261016T233000Z
-DTSTART:20261016T233000Z
-DTEND:20261017T023000Z
-SUMMARY:TCU Horned Frogs Womens Volleyball vs. Texas Tech Red Raider Womens
-  Volleyball
-LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=tcu-horned-frogs-womens-v
- olleyball-vs-texas-tech-red-raider-womens-volleyball%7Ced-and-rae-schollma
- ier-arena-fort-worth%7C6-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:big-laugh-spotlight|big-laugh-comedy-club-fort-worth-604-main-st-suite-
- 100-fort-worth-tx-76102-united-states|7-30-pm-2026-10-16@letsdoitdallas.co
- m
-DTSTAMP:20261017T003000Z
-DTSTART:20261017T003000Z
-DTEND:20261017T033000Z
-SUMMARY:Big Laugh Spotlight
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=big-laugh-spotlight%7Cbig
- -laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-un
- ited-states%7C7-30-pm
-DESCRIPTION:Big sets. Real laughs. No filler.  Big Laugh Spotlight is a sta
- nd-up comedy recording series built to showcase comedians the right way. E
- ach show features 3–4 standout comedians performing extended 15–20 min
- ute sets\, recorded live in front of a real audience.  This isn’t an ope
- n — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:frankie-quinones|hyena-s-comedy-night-club-fort-worth-fort-worth|7-30-p
- m-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T003000Z
-DTSTART:20261017T003000Z
-DTEND:20261017T033000Z
-SUMMARY:Frankie Quinones
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=frankie-quinones%7Chyena-
- s-comedy-night-club-fort-worth-fort-worth%7C7-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
- 10-16@letsdoitdallas.com
-DTSTAMP:20261017T003000Z
-DTSTART:20261017T003000Z
-DTEND:20261017T033000Z
-SUMMARY:Stockyards Championship Rodeo
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=stockyards-championship-r
- odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:suites-gorillaz-the-mountain-tour|dickies-arena-fort-worth|7-30-pm-2026
- -10-16@letsdoitdallas.com
-DTSTAMP:20261017T003000Z
-DTSTART:20261017T003000Z
-DTEND:20261017T033000Z
-SUMMARY:Suites: Gorillaz - The Mountain Tour
-LOCATION:Dickies Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=suites-gorillaz-the-mount
- ain-tour%7Cdickies-arena-fort-worth%7C7-30-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:eddie-ifft-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-
- fort-worth-tx-76102-united-states|8-00-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Eddie Ifft: Live
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=eddie-ifft-live%7Cbig-lau
- gh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-united
- -states%7C8-00-pm
-DESCRIPTION:Some comedians tell jokes. Eddie Ifft detonates them.  Eddie ha
- s built a reputation as one of stand-up’s most unapologetic voices. The 
- moment he steps on stage\, anything can happen. No topic is off limits\, n
- o crowd is safe\, and every show becomes a one-of-a-kind experience.  You
- ’ — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:jordan-whitmore|the-post-at-river-east-fort-worth|8-00-pm-2026-10-16@le
- tsdoitdallas.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Jordan Whitmore
-LOCATION:The Post at River East · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=jordan-whitmore%7Cthe-pos
- t-at-river-east-fort-worth%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:music-of-john-denver|casa-manana-fort-worth|8-00-pm-2026-10-16@letsdoit
- dallas.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Music of John Denver
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=music-of-john-denver%7Cca
- sa-manana-fort-worth%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:nicholas-jamerson|tulips-ftw-fort-worth|8-00-pm-2026-10-16@letsdoitdall
- as.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Nicholas Jamerson
-LOCATION:Tulips FTW · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=nicholas-jamerson%7Ctulip
- s-ftw-fort-worth%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:ricki-derek-the-vegas-six|scat-jazz-lounge-111-w-4th-st-fort-worth-7610
- 2-united-states|8-00-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Ricki Derek & the Vegas Six
-LOCATION:Scat Jazz Lounge · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=ricki-derek-the-vegas-six
- %7Cscat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-states%7C8-00-pm
-DESCRIPTION:Imagine yourself on the strip in early 60’s when the Copa at 
- the Sands was the place to be. You don’t need a time machine or a loan\,
-  Ricki and his band swing into Scat for a fun night of some of the greates
- t songs ever written. If the sounds of Ricki and the band don’t get your
-  f — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:arturo-vaca|hyena-s-comedy-night-club-fort-worth-fort-worth|8-30-pm-202
- 6-10-16@letsdoitdallas.com
-DTSTAMP:20261017T013000Z
-DTSTART:20261017T013000Z
-DTEND:20261017T043000Z
-SUMMARY:Arturo Vaca
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=arturo-vaca%7Chyena-s-com
- edy-night-club-fort-worth-fort-worth%7C8-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:frankie-quinones|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-p
- m-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T023000Z
-DTSTART:20261017T023000Z
-DTEND:20261017T053000Z
-SUMMARY:Frankie Quinones
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=frankie-quinones%7Chyena-
- s-comedy-night-club-fort-worth-fort-worth%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:jacob-corder-band|magnolia-motor-lounge-3803-southwest-blvd-fort-worth-
- 76116-united-states|9-30-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T023000Z
-DTSTART:20261017T023000Z
-DTEND:20261017T053000Z
-SUMMARY:Jacob Corder Band
-LOCATION:Magnolia Motor Lounge · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=jacob-corder-band%7Cmagno
- lia-motor-lounge-3803-southwest-blvd-fort-worth-76116-united-states%7C9-30
- -pm
-DESCRIPTION:Jacob Corder Band  7:00 DOORS – 9:30 MUSIC   $10 GA ($15at do
- or) $80 – Table of 4 $120 – Table of 6 $160 – Table of 8  Ages 21+  
- @outhousetickets   Share it and tag a few friends! — More: https://let
- sdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:texas-sized-comedy|big-laugh-comedy-club-fort-worth-604-main-st-suite-1
- 00-fort-worth-tx-76102-united-states|9-30-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T023000Z
-DTSTART:20261017T023000Z
-DTEND:20261017T053000Z
-SUMMARY:Texas Sized Comedy
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=texas-sized-comedy%7Cbig-
- laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-uni
- ted-states%7C9-30-pm
-DESCRIPTION:More Comics. More Laughs. More Texas.  Everything’s bigger in
-  Texas\, and that includes the lineup.  Texas Sized is our extended showca
- se\, where we pack more comedians\, more punchlines\, and more laughs into
-  one night than any other comedy show in town.  Five comics. One stage. Ze
- r — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:after-hours-down-funny|big-laugh-comedy-club-fort-worth-604-main-st-sui
- te-100-fort-worth-tx-76102-united-states|10-00-pm-2026-10-16@letsdoitdalla
- s.com
-DTSTAMP:20261017T030000Z
-DTSTART:20261017T030000Z
-DTEND:20261017T060000Z
-SUMMARY:After Hours: Down & Funny
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=after-hours-down-funny%7C
- big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102
- -united-states%7C10-00-pm
-DESCRIPTION:After Hours: Down & Funny is where comedy goes off the rails. R
- aw\, unfiltered\, and unpredictable\, this late-night showcase is packed w
- ith comics who bring bold\, edgy material and keep the crowd howling.  Per
- fect for date night\, the night owls\, or anyone who’s had one too many.
-  Th — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:ashley-mcbryde-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-16@let
- sdoitdallas.com
-DTSTAMP:20261017T030000Z
-DTSTART:20261017T030000Z
-DTEND:20261017T060000Z
-SUMMARY:Ashley McBryde (18+ Event)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=ashley-mcbryde-18-event-%
- 7Cbilly-bob-s-fort-worth%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:ricki-derek-the-vegas-six|scat-jazz-lounge-111-w-4th-st-fort-worth-7610
- 2-united-states|10-00-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T030000Z
-DTSTART:20261017T030000Z
-DTEND:20261017T060000Z
-SUMMARY:Ricki Derek & the Vegas Six
-LOCATION:Scat Jazz Lounge · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=ricki-derek-the-vegas-six
- %7Cscat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-states%7C10-00-pm
-DESCRIPTION:Imagine yourself on the strip in early 60’s when the Copa at 
- the Sands was the place to be. You don’t need a time machine or a loan\,
-  Ricki and his band swing into Scat for a fun night of some of the greates
- t songs ever written. If the sounds of Ricki and the band don’t get your
-  f — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
@@ -359,6 +90,42 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:cliburn-family-concerts-the-magic-of-beethoven|kimbell-art-museum-3333-
+ camp-bowie-boulevard-fort-worth-76107-united-states|2-00-pm-2026-10-17@let
+ sdoitdallas.com
+DTSTAMP:20261017T190000Z
+DTSTART:20261017T190000Z
+DTEND:20261017T220000Z
+SUMMARY:Cliburn Family Concerts: The Magic of Beethoven
+LOCATION:Kimbell Art Museum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=cliburn-family-concerts-t
+ he-magic-of-beethoven%7Ckimbell-art-museum-3333-camp-bowie-boulevard-fort-
+ worth-76107-united-states%7C2-00-pm
+DESCRIPTION:How did Beethoven become one of the greatest composers of all t
+ ime? With courage\, creativity\, and a little bit of magic! This unique\, 
+ interactive concert brings the best of Beethoven to life with stories\, jo
+ kes\, and impressive piano performances. Encourage a love of music and art
+  — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:after-school-special-improv-club|big-laugh-comedy-club-fort-worth-604-m
+ ain-st-suite-100-fort-worth-tx-76102-united-states|5-00-pm-2026-10-17@lets
+ doitdallas.com
+DTSTAMP:20261017T220000Z
+DTSTART:20261017T220000Z
+DTEND:20261018T010000Z
+SUMMARY:After School Special: Improv Club
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=after-school-special-impr
+ ov-club%7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-wort
+ h-tx-76102-united-states%7C5-00-pm
+DESCRIPTION:Get ready for giggles\, surprises\, and a whole lot of fun at A
+ fter School Special: Improv Club\, a high-energy\, family-friendly comedy 
+ show where the kids are free and the laughter is endless!  Presented by Bi
+ g Laugh Comedy and Small Steps Performing Arts\, this improv experience is
+  — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
  orth|5-00-pm-2026-10-17@letsdoitdallas.com
 DTSTAMP:20261017T220000Z
@@ -370,6 +137,24 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=rapunzel-rapunzel-a-very-
  hairy-fairy-tale-fort-worth%7Ccasa-manana-fort-worth%7C5-00-pm
 DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:reel-adventures-hocus-pocus|fort-worth-museum-of-science-and-history-16
+ 00-gendy-street-fort-worth-76107-united-states|6-00-pm-2026-10-17@letsdoit
+ dallas.com
+DTSTAMP:20261017T230000Z
+DTSTART:20261017T230000Z
+DTEND:20261018T020000Z
+SUMMARY:Reel Adventures: Hocus Pocus
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=reel-adventures-hocus-poc
+ us%7Cfort-worth-museum-of-science-and-history-1600-gendy-street-fort-worth
+ -76107-united-states%7C6-00-pm
+DESCRIPTION:Reel Adventures is a series that provides exclusive access to F
+ WMSH after hours. There will be themed hands-on activities and interactiv
+ es from 5:30 pm – 9:00 pm with showtimes of Hocus Pocus in the Jane & J
+ ohn Justin Foundation Omni Theater at 6:00 pm & 8:00 pm. — More: https:/
+ /letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:frankie-quinones|hyena-s-comedy-night-club-fort-worth-fort-worth|7-00-p
@@ -396,6 +181,24 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=bill-pickett-invitational
  -rodeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:cowtown-killers-a-stand-up-stampede|big-laugh-comedy-club-fort-worth-60
+ 4-main-st-suite-100-fort-worth-tx-76102-united-states|7-30-pm-2026-10-17@l
+ etsdoitdallas.com
+DTSTAMP:20261018T003000Z
+DTSTART:20261018T003000Z
+DTEND:20261018T033000Z
+SUMMARY:Cowtown Killers: A Stand-Up Stampede
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=cowtown-killers-a-stand-u
+ p-stampede%7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-w
+ orth-tx-76102-united-states%7C7-30-pm
+DESCRIPTION:Get ready for a stampede of laughs! Cowtown Killers brings toge
+ ther a powerhouse lineup of the funniest stand-up comics from Fort Worth a
+ nd beyond. These are the rising stars and local legends who are tearing up
+  stages and leaving audiences gasping for air.  This is your prime-ti — 
+ More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:elizabeth-nichols|tulips-ftw-fort-worth|7-30-pm-2026-10-17@letsdoitdall
@@ -976,19 +779,6 @@ DESCRIPTION:sports event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:sick-new-world|texas-motor-speedway-fort-worth|3-30-am-2026-10-24@letsd
- oitdallas.com
-DTSTAMP:20261024T083000Z
-DTSTART:20261024T083000Z
-DTEND:20261024T113000Z
-SUMMARY:Sick New World
-LOCATION:Texas Motor Speedway · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=sick-new-world%7Ctexas-mo
- tor-speedway-fort-worth%7C3-30-am
-DESCRIPTION:music festival event via SeatGeek. — More: https://letsdoitda
- llas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:sick-new-world-festival-forth-worth|texas-motor-speedway-fort-worth|11-
  00-am-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261024T160000Z
@@ -1080,6 +870,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:chona-e|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-pm-2026-10
+ -24@letsdoitdallas.com
+DTSTAMP:20261025T023000Z
+DTSTART:20261025T023000Z
+DTEND:20261025T053000Z
+SUMMARY:Chona E
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=chona-e%7Chyena-s-comedy-
+ night-club-fort-worth-fort-worth%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:gary-allan-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-24@letsdoi
  tdallas.com
 DTSTAMP:20261025T030000Z
@@ -1107,6 +910,19 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
+ 10-25@letsdoitdallas.com
+DTSTAMP:20261025T183000Z
+DTSTART:20261025T183000Z
+DTEND:20261025T213000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
+DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:ultimate-bullfighters|cowtown-coliseum-fort-worth|1-30-pm-2026-10-25@le
  tsdoitdallas.com
 DTSTAMP:20261025T183000Z
@@ -1131,6 +947,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=music-of-john-denver%7Cca
  sa-manana-fort-worth%7C2-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:sarper-guven|hyena-s-comedy-night-club-fort-worth-fort-worth|7-00-pm-20
+ 26-10-25@letsdoitdallas.com
+DTSTAMP:20261026T000000Z
+DTSTART:20261026T000000Z
+DTEND:20261026T030000Z
+SUMMARY:Sarper Guven
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=sarper-guven%7Chyena-s-co
+ medy-night-club-fort-worth-fort-worth%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:hovvdy|tulips-ftw-fort-worth|8-00-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261026T010000Z
+DTSTART:20261026T010000Z
+DTEND:20261026T040000Z
+SUMMARY:Hovvdy
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=hovvdy%7Ctulips-ftw-fort-
+ worth%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-10-26@
@@ -1862,5 +1703,111 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=stockyards-championship-r
  odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:hot-wheels-monster-trucks-live-glow-n-fire|dickies-arena-fort-worth|6-3
+ 0-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T003000Z
+DTSTART:20261115T003000Z
+DTEND:20261115T033000Z
+SUMMARY:Hot Wheels Monster Trucks™ Live Glow-N-Fire
+LOCATION:Dickies Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=hot-wheels-monster-trucks
+ -live-glow-n-fire%7Cdickies-arena-fort-worth%7C6-30-pm
+DESCRIPTION:Motorsports/Racing event via Ticketmaster. — More: https://le
+ tsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
+ 11-14@letsdoitdallas.com
+DTSTAMP:20261115T013000Z
+DTSTART:20261115T013000Z
+DTEND:20261115T043000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:caiden-wallace|tannahill-s-music-hall-lounge-fort-worth|9-00-pm-2026-11
+ -14@letsdoitdallas.com
+DTSTAMP:20261115T030000Z
+DTSTART:20261115T030000Z
+DTEND:20261115T060000Z
+SUMMARY:Caiden Wallace
+LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=caiden-wallace%7Ctannahil
+ l-s-music-hall-lounge-fort-worth%7C9-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:ryan-bingham-and-the-texas-gentleman-18-and-over-|billy-bob-s-fort-wort
+ h|9-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T030000Z
+DTSTART:20261115T030000Z
+DTEND:20261115T060000Z
+SUMMARY:Ryan Bingham and The Texas Gentleman (18 and Over)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=ryan-bingham-and-the-texa
+ s-gentleman-18-and-over-%7Cbilly-bob-s-fort-worth%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:from-the-saddle-to-symphony-hall-cowtown-birthplace-of-western-swing|wi
+ ll-rogers-auditorium-fort-worth|1-30-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T193000Z
+DTSTART:20261115T193000Z
+DTEND:20261115T223000Z
+SUMMARY:From The Saddle To Symphony Hall - Cowtown Birthplace Of Western Sw
+ ing
+LOCATION:Will Rogers Auditorium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=from-the-saddle-to-sympho
+ ny-hall-cowtown-birthplace-of-western-swing%7Cwill-rogers-auditorium-fort-
+ worth%7C1-30-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:hot-wheels-monster-trucks-live-glow-n-fire|dickies-arena-fort-worth|1-3
+ 0-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T193000Z
+DTSTART:20261115T193000Z
+DTEND:20261115T223000Z
+SUMMARY:Hot Wheels Monster Trucks™ Live Glow-N-Fire
+LOCATION:Dickies Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=hot-wheels-monster-trucks
+ -live-glow-n-fire%7Cdickies-arena-fort-worth%7C1-30-pm
+DESCRIPTION:Motorsports/Racing event via Ticketmaster. — More: https://le
+ tsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:spirit-of-mexico-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-11-15@l
+ etsdoitdallas.com
+DTSTAMP:20261115T193000Z
+DTSTART:20261115T193000Z
+DTEND:20261115T223000Z
+SUMMARY:Spirit of Mexico Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=spirit-of-mexico-rodeo%7C
+ cowtown-coliseum-fort-worth%7C1-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:spirit-of-mexico-rodeo|cowtown-coliseum-fort-worth|6-00-pm-2026-11-15@l
+ etsdoitdallas.com
+DTSTAMP:20261116T000000Z
+DTSTART:20261116T000000Z
+DTEND:20261116T030000Z
+SUMMARY:Spirit of Mexico Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=spirit-of-mexico-rodeo%7C
+ cowtown-coliseum-fort-worth%7C6-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
 END:VEVENT
 END:VCALENDAR

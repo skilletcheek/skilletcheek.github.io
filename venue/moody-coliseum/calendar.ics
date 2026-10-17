@@ -9,21 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:smu-mustangs-womens-volleyball-vs-miami-hurricanes-womens-volleyball|mo
- ody-coliseum-dallas|7-00-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T030000Z
-SUMMARY:SMU Mustangs Womens Volleyball vs. Miami Hurricanes Womens Volleyba
- ll
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=smu-mustangs-womens-volle
- yball-vs-miami-hurricanes-womens-volleyball%7Cmoody-coliseum-dallas%7C7-00
- -pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-florida-state-seminoles-womens-volley
  ball|moody-coliseum-dallas|1-00-pm-2026-10-18@letsdoitdallas.com
 DTSTAMP:20261018T180000Z
@@ -48,6 +33,34 @@ SUMMARY:West Texas A&M (Women) at SMU Womens BB
 LOCATION:Moody Coliseum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-21&e=west-texas-a-m-women-at-s
  mu-womens-bb%7Cmoody-coliseum-dallas%7C6-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-a-m-at-smu|moody-coliseum-dallas|1-00-pm-2026-10-25@letsdoitdalla
+ s.com
+DTSTAMP:20261025T180000Z
+DTSTART:20261025T180000Z
+DTEND:20261025T210000Z
+SUMMARY:Texas A&M at SMU
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=texas-a-m-at-smu%7Cmoody-
+ coliseum-dallas%7C1-00-pm
+DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
+ allas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:unt-dallas-trailblazers-at-smu-mustangs-womens-basketball-exhibition-|m
+ oody-coliseum-dallas|6-30-pm-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261027T233000Z
+DTSTART:20261027T233000Z
+DTEND:20261028T023000Z
+SUMMARY:UNT Dallas Trailblazers at SMU Mustangs Womens Basketball (Exhibiti
+ on)
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=unt-dallas-trailblazers-a
+ t-smu-mustangs-womens-basketball-exhibition-%7Cmoody-coliseum-dallas%7C6-3
+ 0-pm
 DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
  tsdoitdallas.com/venue/moody-coliseum/
 END:VEVENT
@@ -93,6 +106,21 @@ LOCATION:Moody Coliseum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-13&e=smu-mustangs-womens-volle
  yball-vs-louisville-cardinals-womens-volleyball%7Cmoody-coliseum-dallas%7C
  see-details
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:smu-mustangs-womens-volleyball-vs-notre-dame-fighting-irish-womens-voll
+ eyball|moody-coliseum-dallas|1-00-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T190000Z
+DTSTART:20261115T190000Z
+DTEND:20261115T220000Z
+SUMMARY:SMU Mustangs Womens Volleyball vs. Notre Dame Fighting Irish Womens
+  Volleyball
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=smu-mustangs-womens-volle
+ yball-vs-notre-dame-fighting-irish-womens-volleyball%7Cmoody-coliseum-dall
+ as%7C1-00-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/moody-coliseum/
 END:VEVENT

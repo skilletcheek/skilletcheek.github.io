@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:modest-mouse|the-pavilion-at-toyota-music-factory-irving|7-00-pm-2026-1
- 0-16@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T030000Z
-SUMMARY:Modest Mouse
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=modest-mouse%7Cthe-pavili
- on-at-toyota-music-factory-irving%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:gov-t-mule-and-ziggy-marley|the-pavilion-at-toyota-music-factory-irving
  |6-00-pm-2026-10-17@letsdoitdallas.com
 DTSTAMP:20261017T230000Z
@@ -243,5 +230,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-12&e=nurse-john-against-medica
  l-advice-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/the-pavilion-at-toyota-music-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:el-tri|the-pavilion-at-toyota-music-factory-irving|8-00-pm-2026-11-14@l
+ etsdoitdallas.com
+DTSTAMP:20261115T020000Z
+DTSTART:20261115T020000Z
+DTEND:20261115T050000Z
+SUMMARY:El Tri
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=el-tri%7Cthe-pavilion-at-
+ toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/the-pavilion-at-toyota-music-factory/
 END:VEVENT
 END:VCALENDAR

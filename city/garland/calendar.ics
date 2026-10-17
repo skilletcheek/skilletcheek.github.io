@@ -9,34 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:a-night-of-gershwin-thomas-pandolfi-piano-presented-by-garland-symphony
- -orchestra|300-n-fifth-street-garland|07-30-pm-2026-10-16@letsdoitdallas.c
- om
-DTSTAMP:20261017T003000Z
-DTSTART:20261017T003000Z
-DTEND:20261017T033000Z
-SUMMARY:A Night of Gershwin\, Thomas Pandolfi\, piano - presented by Garlan
- d Symphony Orchestra
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=a-night-of-gershwin-thoma
- s-pandolfi-piano-presented-by-garland-symphony-orchestra%7C300-n-fifth-str
- eet-garland%7C07-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:anything-goes-garland|granville-arts-center-garland|7-30-pm-2026-10-16@
- letsdoitdallas.com
-DTSTAMP:20261017T003000Z
-DTSTART:20261017T003000Z
-DTEND:20261017T033000Z
-SUMMARY:Anything Goes - Garland
-LOCATION:Granville Arts Center · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=anything-goes-garland%7Cg
- ranville-arts-center-garland%7C7-30-pm
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-10-17@letsd
  oitdallas.com
 DTSTAMP:20261017T150000Z
@@ -1374,6 +1346,40 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=ibg-night-opening-ceremon
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
+UID:fun-fright-fiesta-divertida-fiesta-de-sustos-de-la-biblioteca-central|c
+ entral-library-garland|10-00-am-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T150000Z
+DTSTART:20261031T150000Z
+DTEND:20261031T180000Z
+SUMMARY:Fun Fright Fiesta / Divertida Fiesta de Sustos de la Biblioteca Cen
+ tral
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=fun-fright-fiesta-diverti
+ da-fiesta-de-sustos-de-la-biblioteca-central%7Ccentral-library-garland%7C1
+ 0-00-am
+DESCRIPTION:10:00 a.m.\; Join us for a fun and spooky family event at the C
+ entral Library. There will be games\, treats and a piñata with prizes! Pi
+ ñata breaking will be held at 11 a.m. Costumes encouraged! October 31\, 2
+ 026 10:00 AM - 11:30 AM 625 Austin St.Garland\, TX 75040 https://www.garla
+ n — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-fiesta-diy-sugar-skull-pi-atas|north-garland-library-garland|02-
+ 30-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T193000Z
+DTSTART:20261031T193000Z
+DTEND:20261031T223000Z
+SUMMARY:Family Fiesta: DIY Sugar Skull Piñatas
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=family-fiesta-diy-sugar-s
+ kull-pi-atas%7Cnorth-garland-library-garland%7C02-30-pm
+DESCRIPTION:2:30 p.m.\; Get ready for a Spooktacular craft event! Join us t
+ his Halloween for a hands-on sugar skull piñata craft event. Celebrate th
+ e vibrant tradition of Día de los Muertos with a festive twist as you des
+ ign and decorate your own piñata. All supplies provided. Costumes are en 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
 UID:fright-fest-dababy-and-friends|curtis-culwell-center-garland|8-00-pm-20
  26-10-31@letsdoitdallas.com
 DTSTAMP:20261101T010000Z
@@ -1383,6 +1389,19 @@ SUMMARY:Fright Fest DaBaby and Friends
 LOCATION:Curtis Culwell Center · Garland
 URL:https://letsdoitdallas.com/?date=2026-10-31&e=fright-fest-dababy-and-fr
  iends%7Ccurtis-culwell-center-garland%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:jubin-nautiyal|curtis-culwell-center-garland|8-00-pm-2026-11-14@letsdoi
+ tdallas.com
+DTSTAMP:20261115T020000Z
+DTSTART:20261115T020000Z
+DTEND:20261115T050000Z
+SUMMARY:Jubin Nautiyal
+LOCATION:Curtis Culwell Center · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=jubin-nautiyal%7Ccurtis-c
+ ulwell-center-garland%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/city/garland/
 END:VEVENT

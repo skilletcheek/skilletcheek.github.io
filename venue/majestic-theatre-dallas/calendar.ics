@@ -178,4 +178,30 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=michael-blaustein-the-tas
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/majestic-theatre-dallas/
 END:VEVENT
+BEGIN:VEVENT
+UID:daughtry-20-years-unplugged-tour|majestic-theatre-dallas-dallas|7-00-pm
+ -2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T010000Z
+DTSTART:20261115T010000Z
+DTEND:20261115T040000Z
+SUMMARY:Daughtry - 20 Years Unplugged Tour
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=daughtry-20-years-unplugg
+ ed-tour%7Cmajestic-theatre-dallas-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:elmo-s-got-the-moves|majestic-theatre-dallas-dallas|2-00-pm-2026-11-15@
+ letsdoitdallas.com
+DTSTAMP:20261115T200000Z
+DTSTART:20261115T200000Z
+DTEND:20261115T230000Z
+SUMMARY:Elmo's Got the Moves
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=elmo-s-got-the-moves%7Cma
+ jestic-theatre-dallas-dallas%7C2-00-pm
+DESCRIPTION:Children's Theatre event via Ticketmaster. — More: https://le
+ tsdoitdallas.com/venue/majestic-theatre-dallas/
+END:VEVENT
 END:VCALENDAR

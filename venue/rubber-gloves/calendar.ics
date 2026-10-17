@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:joey-cash|rubber-gloves-denton|7-00-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T030000Z
-SUMMARY:Joey Cash
-LOCATION:Rubber Gloves · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=joey-cash%7Crubber-gloves
- -denton%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/rubber-gloves/
-END:VEVENT
-BEGIN:VEVENT
 UID:spirit-of-the-bear|rubber-gloves-denton|8-30-pm-2026-10-21@letsdoitdall
  as.com
 DTSTAMP:20261022T013000Z
@@ -55,6 +43,18 @@ SUMMARY:DAMAG3
 LOCATION:Rubber Gloves · Denton
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=damag3%7Crubber-gloves-de
  nton%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/rubber-gloves/
+END:VEVENT
+BEGIN:VEVENT
+UID:graham-hunt|rubber-gloves-denton|7-00-pm-2026-10-26@letsdoitdallas.com
+DTSTAMP:20261027T000000Z
+DTSTART:20261027T000000Z
+DTEND:20261027T030000Z
+SUMMARY:Graham Hunt
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=graham-hunt%7Crubber-glov
+ es-denton%7C7-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/rubber-gloves/
 END:VEVENT

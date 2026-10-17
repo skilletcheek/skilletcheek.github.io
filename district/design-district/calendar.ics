@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jenna-davis|the-echo-lounge-music-hall-dallas|7-00-pm-2026-10-16@letsdo
- itdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T030000Z
-SUMMARY:Jenna Davis
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=jenna-davis%7Cthe-echo-lo
- unge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:bob-moses-club-set-ages-18-|silo-dallas|10-00-pm-2026-10-16@letsdoitdal
- las.com
-DTSTAMP:20261017T030000Z
-DTSTART:20261017T030000Z
-DTEND:20261017T060000Z
-SUMMARY:Bob Moses (club set) - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=bob-moses-club-set-ages-1
- 8-%7Csilo-dallas%7C10-00-pm
-DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:rewind-the-ultimate-2000-s-rave-18-|the-echo-lounge-music-hall-dallas|8
  -00-pm-2026-10-17@letsdoitdallas.com
 DTSTAMP:20261018T010000Z
@@ -614,6 +588,44 @@ SUMMARY:Ben Nicky + Vini Vici - Ages 18+
 LOCATION:SILO · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-13&e=ben-nicky-vini-vici-ages-
  18-%7Csilo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:two-nights-with-they-might-be-giants-16-event|the-echo-lounge-music-hal
+ l-dallas|7-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T010000Z
+DTSTART:20261115T010000Z
+DTEND:20261115T040000Z
+SUMMARY:TWO NIGHTS WITH THEY MIGHT BE GIANTS - 16+ Event
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=two-nights-with-they-migh
+ t-be-giants-16-event%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:zhu-on-the-move-18-event-|silo-dallas|9-00-pm-2026-11-14@letsdoitdallas
+ .com
+DTSTAMP:20261115T030000Z
+DTSTART:20261115T030000Z
+DTEND:20261115T060000Z
+SUMMARY:ZHU ??? ON THE MOVE (18+ Event)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=zhu-on-the-move-18-event-
+ %7Csilo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:solardo-ages-21-|silo-dallas|5-00-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T230000Z
+DTSTART:20261115T230000Z
+DTEND:20261116T020000Z
+SUMMARY:Solardo - Ages 21+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=solardo-ages-21-%7Csilo-d
+ allas%7C5-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/design-district/
 END:VEVENT

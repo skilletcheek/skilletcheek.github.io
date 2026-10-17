@@ -10,47 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:funjelah-live-podcast-taping-w-anjelah-johnson-reyes-special-guest|punc
- h-line-irving-irving|7-00-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T030000Z
-SUMMARY:Funjelah Live Podcast Taping w/ Anjelah Johnson-Reyes & Special Gue
- st
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=funjelah-live-podcast-tap
- ing-w-anjelah-johnson-reyes-special-guest%7Cpunch-line-irving-irving%7C7-0
- 0-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:modest-mouse|the-pavilion-at-toyota-music-factory-irving|7-00-pm-2026-1
- 0-16@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T030000Z
-SUMMARY:Modest Mouse
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=modest-mouse%7Cthe-pavili
- on-at-toyota-music-factory-irving%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:comedy-allstars|punch-line-irving-irving|9-30-pm-2026-10-16@letsdoitdal
- las.com
-DTSTAMP:20261017T023000Z
-DTSTART:20261017T023000Z
-DTEND:20261017T053000Z
-SUMMARY:Comedy Allstars
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=comedy-allstars%7Cpunch-l
- ine-irving-irving%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:gov-t-mule-and-ziggy-marley|the-pavilion-at-toyota-music-factory-irving
  |6-00-pm-2026-10-17@letsdoitdallas.com
 DTSTAMP:20261017T230000Z
@@ -298,6 +257,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=finesse-mitchell%7Cpunch-
  line-irving-irving%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:hector-acosta|las-lomas-irving-banquet-halls-event-center-irving|9-00-p
+ m-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T020000Z
+DTSTART:20261025T020000Z
+DTEND:20261025T050000Z
+SUMMARY:Hector Acosta
+LOCATION:Las Lomas Irving Banquet Halls Event Center
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=hector-acosta%7Clas-lomas
+ -irving-banquet-halls-event-center-irving%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/irving/
 END:VEVENT
 BEGIN:VEVENT
 UID:andrew-orolfo|punch-line-irving-irving|9-15-pm-2026-10-24@letsdoitdalla
@@ -701,5 +673,74 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=success-jr%7Cpunch-line-i
  rving-irving%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:speed-dating-in-irving-all-single-professionals-24-39|alamo-drafthouse-
+ cinema-las-colinas-irving|4-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T220000Z
+DTSTART:20261114T220000Z
+DTEND:20261115T010000Z
+SUMMARY:Speed Dating In Irving - All Single Professionals - 24 - 39
+LOCATION:Alamo Drafthouse Cinema-Las Colinas · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=speed-dating-in-irving-al
+ l-single-professionals-24-39%7Calamo-drafthouse-cinema-las-colinas-irving%
+ 7C4-00-pm
+DESCRIPTION:Another Fabulous Singles Event ♥ For Ages 24-39 @ Alamo Draft
+ house Cinema-Las Colinas in Irving\, TX. As featured recently in the WSJ\,
+  NPR and TLC 90 Day Fiance - The Single Life. Meet the love of your life a
+ t the best and most trusted dating event company in the US. Where else ca 
+ — More: https://letsdoitdallas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:ali-macofsky|punch-line-irving-irving|7-00-pm-2026-11-14@letsdoitdallas
+ .com
+DTSTAMP:20261115T010000Z
+DTSTART:20261115T010000Z
+DTEND:20261115T040000Z
+SUMMARY:Ali Macofsky
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=ali-macofsky%7Cpunch-line
+ -irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:el-tri|the-pavilion-at-toyota-music-factory-irving|8-00-pm-2026-11-14@l
+ etsdoitdallas.com
+DTSTAMP:20261115T020000Z
+DTSTART:20261115T020000Z
+DTEND:20261115T050000Z
+SUMMARY:El Tri
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=el-tri%7Cthe-pavilion-at-
+ toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:ali-macofsky|punch-line-irving-irving|9-15-pm-2026-11-14@letsdoitdallas
+ .com
+DTSTAMP:20261115T031500Z
+DTSTART:20261115T031500Z
+DTEND:20261115T061500Z
+SUMMARY:Ali Macofsky
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=ali-macofsky%7Cpunch-line
+ -irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:cynthia-lee-fontaine-presents-drag-brunch-at-the-punch|punch-line-irvin
+ g-irving|12-00-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T180000Z
+DTSTART:20261115T180000Z
+DTEND:20261115T210000Z
+SUMMARY:Cynthia Lee Fontaine Presents: Drag Brunch at the Punch
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=cynthia-lee-fontaine-pres
+ ents-drag-brunch-at-the-punch%7Cpunch-line-irving-irving%7C12-00-pm
+DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
+ oitdallas.com/district/irving/
 END:VEVENT
 END:VCALENDAR

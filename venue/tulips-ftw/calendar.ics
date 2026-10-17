@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:nicholas-jamerson|tulips-ftw-fort-worth|8-00-pm-2026-10-16@letsdoitdall
- as.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Nicholas Jamerson
-LOCATION:Tulips FTW · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=nicholas-jamerson%7Ctulip
- s-ftw-fort-worth%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/tulips-ftw/
-END:VEVENT
-BEGIN:VEVENT
 UID:elizabeth-nichols|tulips-ftw-fort-worth|7-30-pm-2026-10-17@letsdoitdall
  as.com
 DTSTAMP:20261018T003000Z
@@ -69,6 +56,18 @@ SUMMARY:Emo Nite ( Event) (18+)
 LOCATION:Tulips FTW · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=emo-nite-event-18-%7Ctuli
  ps-ftw-fort-worth%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/tulips-ftw/
+END:VEVENT
+BEGIN:VEVENT
+UID:hovvdy|tulips-ftw-fort-worth|8-00-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261026T010000Z
+DTSTART:20261026T010000Z
+DTEND:20261026T040000Z
+SUMMARY:Hovvdy
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=hovvdy%7Ctulips-ftw-fort-
+ worth%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/tulips-ftw/
 END:VEVENT

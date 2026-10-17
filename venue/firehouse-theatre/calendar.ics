@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sweeney-todd-farmers-branch|firehouse-theatre-farmers-branch|7-30-pm-20
- 26-10-16@letsdoitdallas.com
-DTSTAMP:20261017T003000Z
-DTSTART:20261017T003000Z
-DTEND:20261017T033000Z
-SUMMARY:Sweeney Todd - Farmers Branch
-LOCATION:Firehouse Theatre · Farmers Branch
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=sweeney-todd-farmers-bran
- ch%7Cfirehouse-theatre-farmers-branch%7C7-30-pm
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/firehouse-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:sweeney-todd-farmers-branch|firehouse-theatre-farmers-branch|2-30-pm-20
  26-10-17@letsdoitdallas.com
 DTSTAMP:20261017T193000Z
@@ -109,6 +96,19 @@ SUMMARY:Sweeney Todd - Farmers Branch
 LOCATION:Firehouse Theatre · Farmers Branch
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=sweeney-todd-farmers-bran
  ch%7Cfirehouse-theatre-farmers-branch%7C7-30-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/firehouse-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:sweeney-todd-farmers-branch|firehouse-theatre-farmers-branch|2-30-pm-20
+ 26-10-25@letsdoitdallas.com
+DTSTAMP:20261025T193000Z
+DTSTART:20261025T193000Z
+DTEND:20261025T223000Z
+SUMMARY:Sweeney Todd - Farmers Branch
+LOCATION:Firehouse Theatre · Farmers Branch
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=sweeney-todd-farmers-bran
+ ch%7Cfirehouse-theatre-farmers-branch%7C2-30-pm
 DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/firehouse-theatre/
 END:VEVENT

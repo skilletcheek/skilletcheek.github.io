@@ -10,85 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-10-16@
- letsdoitdallas.com
-DTSTAMP:20261016T200000Z
-DTSTART:20261016T200000Z
-DTEND:20261016T230000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C3-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:en-vivo-grupo-bryndis|texas-live-1650-east-randol-mill-road-arlington-7
- 6011-united-states|7-00-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T030000Z
-SUMMARY:En Vivo: Grupo Bryndis
-LOCATION:Texas Live! · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=en-vivo-grupo-bryndis%7Ct
- exas-live-1650-east-randol-mill-road-arlington-76011-united-states%7C7-00-
- pm
-DESCRIPTION:Coors Light En Vivo Concert Series Presents Grupo Bryndis! — 
- More: https://letsdoitdallas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:home-free|arlington-music-hall-arlington|7-30-pm-2026-10-16@letsdoitdal
- las.com
-DTSTAMP:20261017T003000Z
-DTSTART:20261017T003000Z
-DTEND:20261017T033000Z
-SUMMARY:Home Free
-LOCATION:Arlington Music Hall
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=home-free%7Carlington-mus
- ic-hall-arlington%7C7-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:marcus-d-wiley|arlington-improv-arlington|7-30-pm-2026-10-16@letsdoitda
- llas.com
-DTSTAMP:20261017T003000Z
-DTSTART:20261017T003000Z
-DTEND:20261017T033000Z
-SUMMARY:Marcus D. Wiley
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=marcus-d-wiley%7Carlingto
- n-improv-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:grupo-bryndis|cbd-kratom-backyard-arlington|8-00-pm-2026-10-16@letsdoit
- dallas.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Grupo Bryndis
-LOCATION:CBD Kratom Backyard · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=grupo-bryndis%7Ccbd-krato
- m-backyard-arlington%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:marcus-d-wiley|arlington-improv-arlington|9-45-pm-2026-10-16@letsdoitda
- llas.com
-DTSTAMP:20261017T024500Z
-DTSTART:20261017T024500Z
-DTEND:20261017T054500Z
-SUMMARY:Marcus D. Wiley
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=marcus-d-wiley%7Carlingto
- n-improv-arlington%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-17
  @letsdoitdallas.com
 DTSTAMP:20261017T150000Z
@@ -178,6 +99,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=marcus-d-wiley%7Carlingto
  n-improv-arlington%7C4-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:xko-fight-night|texas-live-1650-east-randol-mill-road-arlington-76011-u
+ nited-states|6-00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261017T230000Z
+DTSTART:20261017T230000Z
+DTEND:20261018T020000Z
+SUMMARY:XKO Fight Night
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=xko-fight-night%7Ctexas-l
+ ive-1650-east-randol-mill-road-arlington-76011-united-states%7C6-00-pm
+DESCRIPTION:Experience nonstop adrenaline at Xtreme Knockout Fight Night li
+ ve at Texas Live! — More: https://letsdoitdallas.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:marcus-d-wiley|arlington-improv-arlington|7-00-pm-2026-10-17@letsdoitda
@@ -532,6 +466,58 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-25
+ @letsdoitdallas.com
+DTSTAMP:20261025T150000Z
+DTSTART:20261025T150000Z
+DTEND:20261025T180000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C10-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-10-25
+ @letsdoitdallas.com
+DTSTAMP:20261025T170000Z
+DTSTART:20261025T170000Z
+DTEND:20261025T200000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C12-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-10-25@
+ letsdoitdallas.com
+DTSTAMP:20261025T190000Z
+DTSTART:20261025T190000Z
+DTEND:20261025T220000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C2-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-10-25@
+ letsdoitdallas.com
+DTSTAMP:20261025T210000Z
+DTSTART:20261025T210000Z
+DTEND:20261026T000000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C4-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:dc-young-fly|arlington-improv-arlington|6-00-pm-2026-10-25@letsdoitdall
  as.com
 DTSTAMP:20261025T230000Z
@@ -830,5 +816,44 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=michael-blackson%7Carling
  ton-improv-arlington%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-blackson|arlington-improv-arlington|7-00-pm-2026-11-14@letsdoit
+ dallas.com
+DTSTAMP:20261115T010000Z
+DTSTART:20261115T010000Z
+DTEND:20261115T040000Z
+SUMMARY:Michael Blackson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=michael-blackson%7Carling
+ ton-improv-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-blackson|arlington-improv-arlington|9-30-pm-2026-11-14@letsdoit
+ dallas.com
+DTSTAMP:20261115T033000Z
+DTSTART:20261115T033000Z
+DTEND:20261115T063000Z
+SUMMARY:Michael Blackson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=michael-blackson%7Carling
+ ton-improv-arlington%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-cowboys-vs-san-francisco-49ers|at-t-stadium-arlington|3-25-pm-20
+ 26-11-15@letsdoitdallas.com
+DTSTAMP:20261115T212500Z
+DTSTART:20261115T212500Z
+DTEND:20261116T002500Z
+SUMMARY:Dallas Cowboys vs. San Francisco 49ers
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=dallas-cowboys-vs-san-fra
+ ncisco-49ers%7Cat-t-stadium-arlington%7C3-25-pm
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/district/arlington/
 END:VEVENT
 END:VCALENDAR

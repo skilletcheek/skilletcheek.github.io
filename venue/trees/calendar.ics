@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:daft-disko-21-|trees-dallas-dallas|9-00-pm-2026-10-16@letsdoitdallas.co
- m
-DTSTAMP:20261017T020000Z
-DTSTART:20261017T020000Z
-DTEND:20261017T050000Z
-SUMMARY:Daft Disko (21+)
-LOCATION:Trees - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=daft-disko-21-%7Ctrees-da
- llas-dallas%7C9-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/trees/
-END:VEVENT
-BEGIN:VEVENT
 UID:olivia-rodrigo-night|trees-dallas|doors-see-listing-2026-10-17@letsdoit
  dallas.com
 DTSTAMP:20261017T000000Z

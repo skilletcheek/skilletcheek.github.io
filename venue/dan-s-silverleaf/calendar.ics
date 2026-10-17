@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:max-stalling|dan-s-silverleaf-denton|8-00-pm-2026-10-16@letsdoitdallas.
- com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Max Stalling
-LOCATION:Dan's Silverleaf · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=max-stalling%7Cdan-s-silv
- erleaf-denton%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/dan-s-silverleaf/
-END:VEVENT
-BEGIN:VEVENT
 UID:great-lake-swimmers|dan-s-silverleaf-denton|8-00-pm-2026-10-21@letsdoit
  dallas.com
 DTSTAMP:20261022T010000Z
@@ -44,6 +31,19 @@ SUMMARY:Chris Knight
 LOCATION:Dan's Silverleaf · Denton
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=chris-knight%7Cdan-s-silv
  erleaf-denton%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/dan-s-silverleaf/
+END:VEVENT
+BEGIN:VEVENT
+UID:bonnie-whitmore|dan-s-silverleaf-denton|3-00-pm-2026-10-25@letsdoitdall
+ as.com
+DTSTAMP:20261025T200000Z
+DTSTART:20261025T200000Z
+DTEND:20261025T230000Z
+SUMMARY:Bonnie Whitmore
+LOCATION:Dan's Silverleaf · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=bonnie-whitmore%7Cdan-s-s
+ ilverleaf-denton%7C3-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/dan-s-silverleaf/
 END:VEVENT

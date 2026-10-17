@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:marcus-d-wiley|arlington-improv-arlington|7-30-pm-2026-10-16@letsdoitda
- llas.com
-DTSTAMP:20261017T003000Z
-DTSTART:20261017T003000Z
-DTEND:20261017T033000Z
-SUMMARY:Marcus D. Wiley
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=marcus-d-wiley%7Carlingto
- n-improv-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:marcus-d-wiley|arlington-improv-arlington|9-45-pm-2026-10-16@letsdoitda
- llas.com
-DTSTAMP:20261017T024500Z
-DTSTART:20261017T024500Z
-DTEND:20261017T054500Z
-SUMMARY:Marcus D. Wiley
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=marcus-d-wiley%7Carlingto
- n-improv-arlington%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
  26-10-17@letsdoitdallas.com
 DTSTAMP:20261017T170000Z
@@ -420,6 +394,32 @@ SUMMARY:Michael Blackson
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-11-13&e=michael-blackson%7Carling
  ton-improv-arlington%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-blackson|arlington-improv-arlington|7-00-pm-2026-11-14@letsdoit
+ dallas.com
+DTSTAMP:20261115T010000Z
+DTSTART:20261115T010000Z
+DTEND:20261115T040000Z
+SUMMARY:Michael Blackson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=michael-blackson%7Carling
+ ton-improv-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-blackson|arlington-improv-arlington|9-30-pm-2026-11-14@letsdoit
+ dallas.com
+DTSTAMP:20261115T033000Z
+DTSTART:20261115T033000Z
+DTEND:20261115T063000Z
+SUMMARY:Michael Blackson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=michael-blackson%7Carling
+ ton-improv-arlington%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

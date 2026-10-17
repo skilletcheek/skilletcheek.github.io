@@ -9,34 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:funjelah-live-podcast-taping-w-anjelah-johnson-reyes-special-guest|punc
- h-line-irving-irving|7-00-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T030000Z
-SUMMARY:Funjelah Live Podcast Taping w/ Anjelah Johnson-Reyes & Special Gue
- st
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=funjelah-live-podcast-tap
- ing-w-anjelah-johnson-reyes-special-guest%7Cpunch-line-irving-irving%7C7-0
- 0-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:comedy-allstars|punch-line-irving-irving|9-30-pm-2026-10-16@letsdoitdal
- las.com
-DTSTAMP:20261017T023000Z
-DTSTART:20261017T023000Z
-DTEND:20261017T053000Z
-SUMMARY:Comedy Allstars
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=comedy-allstars%7Cpunch-l
- ine-irving-irving%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:desi-comedy-fest-texas-edition|punch-line-irving-irving|7-00-pm-2026-10
  -17@letsdoitdallas.com
 DTSTAMP:20261018T000000Z
@@ -464,5 +436,44 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=success-jr%7Cpunch-line-i
  rving-irving%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:ali-macofsky|punch-line-irving-irving|7-00-pm-2026-11-14@letsdoitdallas
+ .com
+DTSTAMP:20261115T010000Z
+DTSTART:20261115T010000Z
+DTEND:20261115T040000Z
+SUMMARY:Ali Macofsky
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=ali-macofsky%7Cpunch-line
+ -irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:ali-macofsky|punch-line-irving-irving|9-15-pm-2026-11-14@letsdoitdallas
+ .com
+DTSTAMP:20261115T031500Z
+DTSTART:20261115T031500Z
+DTEND:20261115T061500Z
+SUMMARY:Ali Macofsky
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=ali-macofsky%7Cpunch-line
+ -irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:cynthia-lee-fontaine-presents-drag-brunch-at-the-punch|punch-line-irvin
+ g-irving|12-00-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T180000Z
+DTSTART:20261115T180000Z
+DTEND:20261115T210000Z
+SUMMARY:Cynthia Lee Fontaine Presents: Drag Brunch at the Punch
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=cynthia-lee-fontaine-pres
+ ents-drag-brunch-at-the-punch%7Cpunch-line-irving-irving%7C12-00-pm
+DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
+ oitdallas.com/venue/punch-line-irving/
 END:VEVENT
 END:VCALENDAR

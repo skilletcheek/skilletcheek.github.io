@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jordan-whitmore|the-post-at-river-east-fort-worth|8-00-pm-2026-10-16@le
- tsdoitdallas.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:Jordan Whitmore
-LOCATION:The Post at River East · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=jordan-whitmore%7Cthe-pos
- t-at-river-east-fort-worth%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/the-post-at-river-east/
-END:VEVENT
-BEGIN:VEVENT
 UID:peter-case|the-post-at-river-east-fort-worth|8-00-pm-2026-10-17@letsdoi
  tdallas.com
 DTSTAMP:20261018T010000Z

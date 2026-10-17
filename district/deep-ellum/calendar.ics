@@ -10,72 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bright-eyes-16-and-under-with-parent-or-legal-guardian-|the-studio-at-t
- he-bomb-factory-dallas|7-30-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T003000Z
-DTSTART:20261017T003000Z
-DTEND:20261017T033000Z
-SUMMARY:Bright Eyes (16 and Under with Parent or Legal Guardian)
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=bright-eyes-16-and-under-
- with-parent-or-legal-guardian-%7Cthe-studio-at-the-bomb-factory-dallas%7C7
- -30-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:zzzahara-x-faerybabyy|three-links-deep-ellum-dallas|8-00-pm-2026-10-16@
- letsdoitdallas.com
-DTSTAMP:20261017T010000Z
-DTSTART:20261017T010000Z
-DTEND:20261017T040000Z
-SUMMARY:zzzahara x Faerybabyy
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=zzzahara-x-faerybabyy%7Ct
- hree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:daft-disko-21-|trees-dallas-dallas|9-00-pm-2026-10-16@letsdoitdallas.co
- m
-DTSTAMP:20261017T020000Z
-DTSTART:20261017T020000Z
-DTEND:20261017T050000Z
-SUMMARY:Daft Disko (21+)
-LOCATION:Trees - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=daft-disko-21-%7Ctrees-da
- llas-dallas%7C9-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:whethan-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory-da
- llas|9-00-pm-2026-10-16@letsdoitdallas.com
-DTSTAMP:20261017T020000Z
-DTSTART:20261017T020000Z
-DTEND:20261017T050000Z
-SUMMARY:Whethan (16 and Under with Parent or Legal Guardian)
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=whethan-16-and-under-with
- -parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:wonkywilla|deep-ellum-art-co-dallas|9-00-pm-2026-10-16@letsdoitdallas.c
- om
-DTSTAMP:20261017T020000Z
-DTSTART:20261017T020000Z
-DTEND:20261017T050000Z
-SUMMARY:WonkyWilla
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=wonkywilla%7Cdeep-ellum-a
- rt-co-dallas%7C9-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:olivia-rodrigo-night|trees-dallas|doors-see-listing-2026-10-17@letsdoit
  dallas.com
 DTSTAMP:20261017T000000Z
@@ -445,6 +379,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=viktoria-xo-rebirth-album
  -release-show%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:lefty-gunplay|puzzles-deep-ellum-dallas|8-00-pm-2026-10-25@letsdoitdall
+ as.com
+DTSTAMP:20261026T010000Z
+DTSTART:20261026T010000Z
+DTEND:20261026T040000Z
+SUMMARY:Lefty Gunplay
+LOCATION:Puzzles Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=lefty-gunplay%7Cpuzzles-d
+ eep-ellum-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:maxo-kream|trees-dallas|8-00-pm-2026-10-25@letsdoitdallas.com
@@ -977,5 +924,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=iscream-fest%7Cthree-link
  s-deep-ellum-dallas%7C1-00-pm
 DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:periphery-w-ne-obliviscaris|the-studio-at-the-bomb-factory-dallas|6-30-
+ pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T003000Z
+DTSTART:20261115T003000Z
+DTEND:20261115T033000Z
+SUMMARY:Periphery w/ Ne Obliviscaris
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=periphery-w-ne-obliviscar
+ is%7Cthe-studio-at-the-bomb-factory-dallas%7C6-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-by-north-adolescent-tito-strange-maple|rbc-deep-ellum-dallas|8-00
+ -pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T020000Z
+DTSTART:20261115T020000Z
+DTEND:20261115T050000Z
+SUMMARY:North By North\, Adolescent\, Tito Strange\, Maple
+LOCATION:RBC Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=north-by-north-adolescent
+ -tito-strange-maple%7Crbc-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

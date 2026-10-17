@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:michigander|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-10
- -16@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T030000Z
-SUMMARY:Michigander
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-16&e=michigander%7Cthe-cambrid
- ge-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-cambridge-room-at-house-of-blues/
-END:VEVENT
-BEGIN:VEVENT
 UID:rainao|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-10-17@l
  etsdoitdallas.com
 DTSTAMP:20261018T000000Z
@@ -140,6 +127,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=em-beihold-tales-of-a-fai
  led-shapeshifter-tour%7Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00
  -pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/the-cambridge-room-at-house-of-blues/
+END:VEVENT
+BEGIN:VEVENT
+UID:q-marsden-do-you-see-me-|the-cambridge-room-at-house-of-blues-dallas|7-
+ 00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T010000Z
+DTSTART:20261115T010000Z
+DTEND:20261115T040000Z
+SUMMARY:Q Marsden - Do You See Me?
+LOCATION:The Cambridge Room at House Of Blues · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=q-marsden-do-you-see-me-%
+ 7Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/the-cambridge-room-at-house-of-blues/
 END:VEVENT
 END:VCALENDAR

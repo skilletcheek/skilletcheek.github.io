@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Will Rogers Auditorium — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Will Rogers Auditorium.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fort-worth-symphony-orchestra-fort-worth|will-rogers-auditorium-fort-wo
+ rth|7-30-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T003000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T033000Z
+SUMMARY:Fort Worth Symphony Orchestra - Fort Worth
+LOCATION:Will Rogers Auditorium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=fort-worth-symphony-orche
+ stra-fort-worth%7Cwill-rogers-auditorium-fort-worth%7C7-30-pm
+DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
+ com/venue/will-rogers-auditorium/
+END:VEVENT
+BEGIN:VEVENT
+UID:adri-n-uribe-50-y-pico-tour-2026-north-america|will-rogers-auditorium-f
+ ort-worth|8-00-pm-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T020000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+SUMMARY:Adrián Uribe - 50 y Pico Tour - 2026 - North America
+LOCATION:Will Rogers Auditorium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=adri-n-uribe-50-y-pico-to
+ ur-2026-north-america%7Cwill-rogers-auditorium-fort-worth%7C8-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/will-rogers-auditorium/
+END:VEVENT
+BEGIN:VEVENT
+UID:from-the-saddle-to-symphony-hall-cowtown-birthplace-of-western-swing|wi
+ ll-rogers-auditorium-fort-worth|1-30-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T193000Z
+DTSTART:20261115T193000Z
+DTEND:20261115T223000Z
+SUMMARY:From The Saddle To Symphony Hall - Cowtown Birthplace Of Western Sw
+ ing
+LOCATION:Will Rogers Auditorium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=from-the-saddle-to-sympho
+ ny-hall-cowtown-birthplace-of-western-swing%7Cwill-rogers-auditorium-fort-
+ worth%7C1-30-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/will-rogers-auditorium/
+END:VEVENT
+END:VCALENDAR
