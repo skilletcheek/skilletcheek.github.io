@@ -247,6 +247,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/design-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:almost-monday|am-fm-diner-lounge-dallas-dallas|7-00-pm-2026-10-27@letsd
+ oitdallas.com
+DTSTAMP:20261028T000000Z
+DTSTART:20261028T000000Z
+DTEND:20261028T030000Z
+SUMMARY:Almost Monday
+LOCATION:AM/FM Diner & Lounge - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=almost-monday%7Cam-fm-din
+ er-lounge-dallas-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:emei-night-at-the-opera-tour|the-echo-lounge-music-hall-dallas|7-00-pm-
  2026-10-27@letsdoitdallas.com
 DTSTAMP:20261028T000000Z

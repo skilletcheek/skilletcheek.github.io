@@ -64,19 +64,6 @@ DESCRIPTION:The primary objective of the National Multicultural Western Her
  ore: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
- orth|1-00-pm-2026-10-17@letsdoitdallas.com
-DTSTAMP:20261017T180000Z
-DTSTART:20261017T180000Z
-DTEND:20261017T210000Z
-SUMMARY:Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=rapunzel-rapunzel-a-very-
- hairy-fairy-tale-fort-worth%7Ccasa-manana-fort-worth%7C1-00-pm
-DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
- /district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:bill-pickett-invitational-rodeo|cowtown-coliseum-fort-worth|1-30-pm-202
  6-10-17@letsdoitdallas.com
 DTSTAMP:20261017T183000Z
@@ -86,8 +73,8 @@ SUMMARY:Bill Pickett Invitational Rodeo
 LOCATION:Cowtown Coliseum · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-17&e=bill-pickett-invitational
  -rodeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/fort-worth/
+DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:cliburn-family-concerts-the-magic-of-beethoven|kimbell-art-museum-3333-
@@ -277,6 +264,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-17&e=peter-case%7Cthe-post-at-
  river-east-fort-worth%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:shelley-carrol|scat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-st
+ ates|8-00-pm-2026-10-17@letsdoitdallas.com
+DTSTAMP:20261018T010000Z
+DTSTART:20261018T010000Z
+DTEND:20261018T040000Z
+SUMMARY:Shelley Carrol
+LOCATION:Scat Jazz Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-17&e=shelley-carrol%7Cscat-jaz
+ z-lounge-111-w-4th-st-fort-worth-76102-united-states%7C8-00-pm
+DESCRIPTION:Renowned saxophonist Shelley Carrol was named the 2007 “Sammo
+ ns Center Jazz Artist of the Year\,” the highest accolade possible for D
+ allas/Ft. Worth area jazz musician. He was a 2014 Dallas Observer nominee 
+ for “Best Jazz Act.” Shelley has toured with multi-platinum artists Sh
+ eryl — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:frankie-quinones|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-p
@@ -777,6 +780,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=mecum-auctions%7Cdickies-
  arena-fort-worth%7C3-30-am
 DESCRIPTION:sports event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:sick-new-world|texas-motor-speedway-fort-worth|3-30-am-2026-10-24@letsd
+ oitdallas.com
+DTSTAMP:20261024T083000Z
+DTSTART:20261024T083000Z
+DTEND:20261024T113000Z
+SUMMARY:Sick New World
+LOCATION:Texas Motor Speedway · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=sick-new-world%7Ctexas-mo
+ tor-speedway-fort-worth%7C3-30-am
+DESCRIPTION:music festival event via SeatGeek. — More: https://letsdoitda
+ llas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:sick-new-world-festival-forth-worth|texas-motor-speedway-fort-worth|11-
