@@ -21,6 +21,23 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/tulips-ftw/
 END:VEVENT
 BEGIN:VEVENT
+UID:-2-tuesdays-live-at-tulips-ftw|tulips-ftw-112-saint-louis-avenue-fort-w
+ orth-76104-united-states|8-00-pm-2026-10-20@letsdoitdallas.com
+DTSTAMP:20261021T010000Z
+DTSTART:20261021T010000Z
+DTEND:20261021T040000Z
+SUMMARY:$2 Tuesdays: Live at Tulips FTW
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=-2-tuesdays-live-at-tulip
+ s-ftw%7Ctulips-ftw-112-saint-louis-avenue-fort-worth-76104-united-states%7
+ C8-00-pm
+DESCRIPTION:Blackstone Recording Studio presents $2 Tuesdays: Live at Tulip
+ s FTW  Doors: 7pm | Show: 8pm  Tickets: $2  Tuesdays are for the scene\, t
+ he artists\, the locals who need to see and support their favorite musicia
+ ns paving the way for the great talent within this eclectic musical eco 
+ — More: https://letsdoitdallas.com/venue/tulips-ftw/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-jungle-giants|tulips-ftw-fort-worth|8-00-pm-2026-10-21@letsdoitdall
  as.com
 DTSTAMP:20261022T010000Z

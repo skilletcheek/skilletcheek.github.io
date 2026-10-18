@@ -660,6 +660,19 @@ DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:idaho-steelheads-at-allen-americans|credit-union-of-texas-event-center-
+ allen|7-10-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T001000Z
+DTSTART:20261031T001000Z
+DTEND:20261031T031000Z
+SUMMARY:Idaho Steelheads at Allen Americans
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=idaho-steelheads-at-allen
+ -americans%7Ccredit-union-of-texas-event-center-allen%7C7-10-pm
+DESCRIPTION:minor league hockey event via SeatGeek. — More: https://letsd
+ oitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:planning-passport|mckinney|see-details-2026-10-31@letsdoitdallas.com
 DTSTAMP:20261031T000000Z
 DTSTART;VALUE=DATE:20261031

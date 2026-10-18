@@ -217,6 +217,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT
 BEGIN:VEVENT
+UID:flip-phone|punch-line-dallas-irvine-irving|7-00-pm-2026-10-30@letsdoitd
+ allas.com
+DTSTAMP:20261031T000000Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:Flip Phone
+LOCATION:Punch Line Dallas - Irvine · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=flip-phone%7Cpunch-line-d
+ allas-irvine-irving%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
 UID:rocky-horror-sing-along-drag-show|punch-line-irving-irving|7-00-pm-2026
  -10-30@letsdoitdallas.com
 DTSTAMP:20261031T000000Z

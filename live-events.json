@@ -21,30 +21,6 @@
   "area": "AT&T Stadium, Arlington",
   "city": "Arlington",
   "date": "2026-10-18",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-18-10-am/18499935",
-  "image": null
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-10-18",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-10-18-12-pm/18499855",
-  "image": null
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-10-18",
   "time": "2:00 PM",
   "cost": null,
   "description": "stadium tours event via SeatGeek.",
@@ -118,6 +94,22 @@
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70V1K",
   "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Baylor Bears at TCU Horned Frogs Womens Volleyball",
+  "category": "sports",
+  "area": "Ed & Rae Schollmaier Arena, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-10-18",
+  "time": "2:00 PM",
+  "cost": null,
+  "description": "womens college volleyball event via SeatGeek.",
+  "url": "https://seatgeek.com/tcu-horned-frogs-womens-volleyball-tickets/womens-college-volleyball/2026-10-18-2-pm/18212888",
+  "image": null,
+  "organizer": {
+   "name": "TCU Horned Frogs",
+   "url": "https://gofrogs.com"
+  }
  },
  {
   "name": "Borgeous - Ages 18+",
@@ -218,18 +210,6 @@
   "description": "Other event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/dj-sneak305-three-links-deep-ellum-tickets/14315044",
   "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Dallas Symphony Orchestra Presents Beethoven and Strauss with Daniel Hawkins",
-  "category": "music",
-  "area": "Morton Meyerson Symphony Center, Dallas",
-  "city": "Dallas",
-  "date": "2026-10-18",
-  "time": "2:00 PM",
-  "cost": null,
-  "description": "Classical event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J88V",
-  "image": "https://s1.ticketm.net/dam/a/995/a21cb909-11d7-4275-be7a-cde4a13ac995_1460271_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
   "name": "Dallas VS Green Bay",
@@ -456,22 +436,6 @@
   "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Open Sewing & Fiber Arts Studio (18+)",
-  "category": "arts",
-  "area": "Grapevine",
-  "city": "Grapevine",
-  "date": "2026-10-18",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "This open session gives you access to sewing machines, knitting tools, and more fiber arts equipment. Our knowledgeable staff will be on hand to guide you, share tips, and support you as you work on your projects. Open to adults 18+, library card in good standing required. Open t",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16978",
-  "image": null,
-  "organizer": {
-   "name": "City of Grapevine",
-   "url": "https://grapevinetexas.gov/"
-  }
- },
- {
   "name": "Pathfinder 2e - Ongoing Campaign",
   "category": "family",
   "area": "Grapevine",
@@ -545,39 +509,11 @@
   "area": "Casa Manana, Fort Worth",
   "city": "Fort Worth",
   "date": "2026-10-18",
-  "time": "11:00 AM",
-  "cost": null,
-  "description": "family event via SeatGeek.",
-  "url": "https://seatgeek.com/rapunzel-rapunzel-a-very-hairy-fairy-tale-tickets/family/2026-10-18-11-am/18338124",
-  "image": null
- },
- {
-  "name": "Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth",
-  "category": "arts",
-  "area": "Casa Manana, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-10-18",
   "time": "3:00 PM",
   "cost": null,
   "description": "family event via SeatGeek.",
   "url": "https://seatgeek.com/rapunzel-rapunzel-a-very-hairy-fairy-tale-tickets/family/2026-10-18-3-pm/18338129",
   "image": null
- },
- {
-  "name": "SMU Mustangs Womens Volleyball vs. Florida State Seminoles Womens Volleyball",
-  "category": "sports",
-  "area": "Moody Coliseum, Dallas",
-  "city": "Dallas",
-  "date": "2026-10-18",
-  "time": "1:00 PM",
-  "cost": null,
-  "description": "Miscellaneous event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ppvs",
-  "image": "https://s1.ticketm.net/dam/c/093/c74cfd95-af21-4e64-9f85-47677b951093_105651_TABLET_LANDSCAPE_16_9.jpg",
-  "organizer": {
-   "name": "SMU Mustangs",
-   "url": "https://smumustangs.com"
-  }
  },
  {
   "name": "SOMBR - You Are The Reason Tour",
@@ -627,9 +563,9 @@
   "date": "2026-10-18",
   "time": "1:30 PM",
   "cost": null,
-  "description": "Miscellaneous event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OY4N",
-  "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
+  "description": "rodeo event via SeatGeek.",
+  "url": "https://seatgeek.com/stockyards-championship-rodeo-tickets/rodeo/2026-10-18-1-30-pm/18107830",
+  "image": null
  },
  {
   "name": "Sweeney Todd - Farmers Branch",
@@ -642,22 +578,6 @@
   "description": "theater event via SeatGeek.",
   "url": "https://seatgeek.com/sweeney-todd-tickets/theater/2026-10-18-2-30-pm/18671486",
   "image": null
- },
- {
-  "name": "TCU Horned Frogs Womens Volleyball vs. Baylor Bears Womens Volleyball",
-  "category": "sports",
-  "area": "Ed and Rae Schollmaier Arena, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-10-18",
-  "time": "2:00 PM",
-  "cost": null,
-  "description": "Miscellaneous event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A707o3",
-  "image": "https://s1.ticketm.net/dam/c/093/c74cfd95-af21-4e64-9f85-47677b951093_105651_TABLET_LANDSCAPE_16_9.jpg",
-  "organizer": {
-   "name": "TCU Horned Frogs",
-   "url": "https://gofrogs.com"
-  }
  },
  {
   "name": "Take Me Home: The Music of John Denver Starring Jim Curry presented by Curry Family Projects",
@@ -750,22 +670,6 @@
   "description": "concert event via SeatGeek.",
   "url": "https://seatgeek.com/the-monsters-tickets/dallas-texas-at-t-performing-arts-center-the-wyly-theatre-2026-10-18-7-30-pm/concert/18670059",
   "image": null
- },
- {
-  "name": "Tulsa Golden Hurricane at North Texas Mean Green Womens Volleyball",
-  "category": "sports",
-  "area": "North Texas Volleyball Center, Denton",
-  "city": "Denton",
-  "date": "2026-10-18",
-  "time": "1:00 PM",
-  "cost": null,
-  "description": "womens college volleyball event via SeatGeek.",
-  "url": "https://seatgeek.com/north-texas-mean-green-womens-volleyball-tickets/womens-college-volleyball/2026-10-18-1-pm/18369226",
-  "image": null,
-  "organizer": {
-   "name": "North Texas Mean Green",
-   "url": "https://meangreensports.com"
-  }
  },
  {
   "name": "Watch Party: Cowboys at Packers",
@@ -974,18 +878,6 @@
    "name": "City of Grapevine",
    "url": "https://grapevinetexas.gov/"
   }
- },
- {
-  "name": "Doctoral Recital: Kai Wagner, jazz bass",
-  "category": "music",
-  "area": "Lab West at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-19",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/doctoral-recital-kai-wagner-jazz-bass",
-  "image": null
  },
  {
   "name": "FREE Halloween Movie Month: A NIGHTMARE ON ELM STREET",
@@ -1332,6 +1224,18 @@
   }
  },
  {
+  "name": "$2 Tuesdays: Live at Tulips FTW",
+  "category": "music",
+  "area": "Tulips FTW, 112 Saint Louis Avenue, Fort Worth, 76104, United States",
+  "city": "Fort Worth",
+  "date": "2026-10-20",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Blackstone Recording Studio presents $2 Tuesdays: Live at Tulips FTW  Doors: 7pm | Show: 8pm  Tickets: $2  Tuesdays are for the scene, the artists, the locals who need to see and support their favorite musicians paving the way for the great talent within this eclectic musical eco",
+  "url": "https://whatsupfortworth.com/event/2-tuesdays-live-at-tulips-ftw-12/",
+  "image": null
+ },
+ {
   "name": "20 Years of Nekrogoblikon with Special Guests Aborted",
   "category": "music",
   "area": "The Echo Lounge & Music Hall, Dallas",
@@ -1622,18 +1526,6 @@
   "description": "Live at Sundown at Granada.",
   "url": "http://www.prekindle.com/event/59658-free-halloween-movie-month-hocus-pocus-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949004367464"
- },
- {
-  "name": "Faculty and Guest Artist Recital: Daphne Gerling, viola",
-  "category": "music",
-  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-20",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/faculty-and-guest-artist-recital-daphne-gerling-viola",
-  "image": null
  },
  {
   "name": "Force Encounters Analysis (Open Enrollment)",
@@ -1945,18 +1837,6 @@
   "cost": null,
   "description": "Consistently rated the best local scavenger hunt since 2016!  Puzzling Adventures are a cross between a scavenger hunt, an adventure race, and an informative self-guided walking tour. Each adventure consists of a series of locations that you are guided to where you are required t",
   "url": "https://whatsupfortworth.com/event/puzzling-adventures-scavenger-hunt/2026-10-20/",
-  "image": null
- },
- {
-  "name": "Senior Recital: Benedict Mpeti, jazz drum set",
-  "category": "music",
-  "area": "Lab West at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-20",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/senior-recital-benedict-mpeti-jazz-drum-set",
   "image": null
  },
  {
@@ -5358,6 +5238,18 @@
   "image": null
  },
  {
+  "name": "Doctoral Lecture Recital: Hongling Liang, collaborative piano",
+  "category": "music",
+  "area": "Recital Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-24",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/doctoral-lecture-recital-hongling-liang-collaborative-piano",
+  "image": null
+ },
+ {
   "name": "Drug Take-Back Event",
   "category": "family",
   "area": "2100 Taylor Burk Dr., McKinney",
@@ -6698,6 +6590,18 @@
   "image": "https://s1.ticketm.net/dam/a/995/a21cb909-11d7-4275-be7a-cde4a13ac995_1460271_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "Doctoral Recital: Ben Carroll, horn",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-25",
+  "time": "5:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/copy-of-doctoral-recital-ben-carroll-horn",
+  "image": null
+ },
+ {
   "name": "FIFTH THIRD GARAGE: Dallas Stars v New York Islanders",
   "category": "sports",
   "area": "American Airlines Center, Dallas",
@@ -6911,6 +6815,18 @@
   "cost": null,
   "description": "comedy event via SeatGeek.",
   "url": "https://seatgeek.com/sarper-guven-tickets/comedy/2026-10-25-7-pm/18671136",
+  "image": null
+ },
+ {
+  "name": "Senior Recital: Chase Thomas, euphonium",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-25",
+  "time": "2:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/senior-recital-chase-thomas-euphonium",
   "image": null
  },
  {
@@ -7234,18 +7150,6 @@
   }
  },
  {
-  "name": "Commercial Music Showcase Fall 2026",
-  "category": "music",
-  "area": "Lab West at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-26",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/commercial-music-showcase-fall-2026",
-  "image": null
- },
- {
   "name": "FREE Halloween Movie Month: THE CROW",
   "category": "music",
   "area": "Sundown at Granada, Lower Greenville, Dallas",
@@ -7266,7 +7170,7 @@
   "time": "05:30 PM",
   "cost": null,
   "description": "Join us for a fun and creative journey into the world of 3D modeling! Who: Ages 8+ When: Monday, October 26th, from 5:30 to 6:30 pm Where: The Grapevine Library Esports Academy No Registration Required. October 26, 2026 05:30 PM - 06:30 PM Grapevine, TX 76051 https://www.grapevin",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17831",
+  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17807",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -7480,18 +7384,6 @@
   "description": "Alternative event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/specialized-karaoke-night-with-ruen-three-links-deep-ellum-tickets/14315074",
   "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Spectrum: A Performance of New Works by North Texas Composers Fall 2026 Concert 2",
-  "category": "music",
-  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-26",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/spectrum-a-performance-of-new-works-by-north-texas-composers-fall-2026-concert-2",
-  "image": null
  },
  {
   "name": "Step Aerobics/Extreme Hip Hop",
@@ -9060,6 +8952,18 @@
   }
  },
  {
+  "name": "Doctoral Lecture Recital: Tao Jiang, piano",
+  "category": "music",
+  "area": "Recital Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-10-29",
+  "time": "12:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program  Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/doctoral-lecture-recital-tao-jiang-piano",
+  "image": null
+ },
+ {
   "name": "Dossey, JonoJono, Gluestick",
   "category": "music",
   "area": "Three Links Deep Ellum, Dallas",
@@ -9505,18 +9409,6 @@
   "cost": null,
   "description": "theater event via SeatGeek.",
   "url": "https://seatgeek.com/sweeney-todd-tickets/theater/2026-10-29-7-30-pm/18671491",
-  "image": null
- },
- {
-  "name": "TAMS Dull Roar Orchestra Fall Concert 2026",
-  "category": "music",
-  "area": "Recital Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-10-29",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/tams-dull-roar-orchestra-fall-concert-2026",
   "image": null
  },
  {
@@ -10068,6 +9960,30 @@
   }
  },
  {
+  "name": "Flip Phone",
+  "category": "music",
+  "area": "Punch Line Dallas - Irvine, Irving",
+  "city": "Irving",
+  "date": "2026-10-30",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "concert event via SeatGeek.",
+  "url": "https://seatgeek.com/flip-phone-tickets/irving-texas-punch-line-dallas-irvine-2026-10-30-7-pm/concert/18515757",
+  "image": null
+ },
+ {
+  "name": "Fort Worth Symphony Orchestra",
+  "category": "arts",
+  "area": "Bass Performance Hall, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-10-30",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "classical event via SeatGeek.",
+  "url": "https://seatgeek.com/fort-worth-symphony-orchestra-tickets/classical/2026-10-30-7-30-pm/18302109",
+  "image": null
+ },
+ {
   "name": "Fraxiom | Adventures of Jester Jackalope",
   "category": "music",
   "area": "Three Links Deep Ellum, Dallas",
@@ -10122,6 +10038,18 @@
    "name": "City of Garland",
    "url": "https://garlandtx.gov/"
   }
+ },
+ {
+  "name": "Idaho Steelheads at Allen Americans",
+  "category": "sports",
+  "area": "Credit Union of Texas Event Center, Allen",
+  "city": "Allen",
+  "date": "2026-10-30",
+  "time": "7:10 PM",
+  "cost": null,
+  "description": "minor league hockey event via SeatGeek.",
+  "url": "https://seatgeek.com/allen-americans-tickets/minor-league-hockey/2026-10-30-7-10-pm/18244413",
+  "image": null
  },
  {
   "name": "LP Dance (Ages 8-15)",
@@ -10374,6 +10302,18 @@
   "description": "Miscellaneous event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OY4E",
   "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Sweeney Todd - Farmers Branch",
+  "category": "arts",
+  "area": "Firehouse Theatre, Farmers Branch",
+  "city": "Farmers Branch",
+  "date": "2026-10-30",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "theater event via SeatGeek.",
+  "url": "https://seatgeek.com/sweeney-todd-tickets/theater/2026-10-30-7-30-pm/18671492",
+  "image": null
  },
  {
   "name": "Teddy Swims: The UGLY Tour",
@@ -10724,7 +10664,7 @@
   "time": "2:00 PM",
   "cost": null,
   "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/dma-recital-jiwoong-hyun-tuba1",
+  "url": "https://calendar.unt.edu/event/copy-of-doctoral-recital-jiwoong-hyun-tuba",
   "image": null
  },
  {
@@ -10736,7 +10676,7 @@
   "time": "6:30 PM",
   "cost": null,
   "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/doctoral-recital-lucas-casagrande-cello",
+  "url": "https://calendar.unt.edu/event/copy-of-doctoral-recital-lucas-casagrande-cello",
   "image": null
  },
  {
@@ -15916,7 +15856,7 @@
   "time": "5:00 PM",
   "cost": null,
   "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.     This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/doctoral-recital-shuhan-zhou-collaborative-piano1",
+  "url": "https://calendar.unt.edu/event/copy-of-doctoral-recital-shuhan-zhou-collaborative-piano",
   "image": null
  },
  {

@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-10-18
- @letsdoitdallas.com
-DTSTAMP:20261018T150000Z
-DTSTART:20261018T150000Z
-DTEND:20261018T180000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C10-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-10-18
- @letsdoitdallas.com
-DTSTAMP:20261018T170000Z
-DTSTART:20261018T170000Z
-DTEND:20261018T200000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C12-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:flip-phone-hocus-pocus-drag-brunch|arlington-improv-arlington|1-00-pm-2
  026-10-18@letsdoitdallas.com
 DTSTAMP:20261018T180000Z

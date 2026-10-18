@@ -44,19 +44,6 @@ DESCRIPTION:A full day of Hispanic music\, dance\, and tradition\, with mar
  artisa — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
- orth|11-00-am-2026-10-18@letsdoitdallas.com
-DTSTAMP:20261018T160000Z
-DTSTART:20261018T160000Z
-DTEND:20261018T190000Z
-SUMMARY:Rapunzel! Rapunzel! A Very Hairy Fairy Tale - Fort Worth
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=rapunzel-rapunzel-a-very-
- hairy-fairy-tale-fort-worth%7Ccasa-manana-fort-worth%7C11-00-am
-DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
- /district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
  10-18@letsdoitdallas.com
 DTSTAMP:20261018T183000Z
@@ -66,24 +53,21 @@ SUMMARY:Stockyards Championship Rodeo
 LOCATION:Cowtown Coliseum · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-18&e=stockyards-championship-r
  odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/fort-worth/
+DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:tcu-horned-frogs-womens-volleyball-vs-baylor-bears-womens-volleyball|ed
- -and-rae-schollmaier-arena-fort-worth|2-00-pm-2026-10-18@letsdoitdallas.co
- m
+UID:baylor-bears-at-tcu-horned-frogs-womens-volleyball|ed-rae-schollmaier-a
+ rena-fort-worth|2-00-pm-2026-10-18@letsdoitdallas.com
 DTSTAMP:20261018T190000Z
 DTSTART:20261018T190000Z
 DTEND:20261018T220000Z
-SUMMARY:TCU Horned Frogs Womens Volleyball vs. Baylor Bears Womens Volleyba
- ll
-LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=tcu-horned-frogs-womens-v
- olleyball-vs-baylor-bears-womens-volleyball%7Ced-and-rae-schollmaier-arena
- -fort-worth%7C2-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/fort-worth/
+SUMMARY:Baylor Bears at TCU Horned Frogs Womens Volleyball
+LOCATION:Ed & Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-18&e=baylor-bears-at-tcu-horne
+ d-frogs-womens-volleyball%7Ced-rae-schollmaier-arena-fort-worth%7C2-00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:rapunzel-rapunzel-a-very-hairy-fairy-tale-fort-worth|casa-manana-fort-w
@@ -310,6 +294,23 @@ URL:https://letsdoitdallas.com/?date=2026-10-20&e=music-of-john-denver%7Cca
  sa-manana-fort-worth%7C7-30-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:-2-tuesdays-live-at-tulips-ftw|tulips-ftw-112-saint-louis-avenue-fort-w
+ orth-76104-united-states|8-00-pm-2026-10-20@letsdoitdallas.com
+DTSTAMP:20261021T010000Z
+DTSTART:20261021T010000Z
+DTEND:20261021T040000Z
+SUMMARY:$2 Tuesdays: Live at Tulips FTW
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=-2-tuesdays-live-at-tulip
+ s-ftw%7Ctulips-ftw-112-saint-louis-avenue-fort-worth-76104-united-states%7
+ C8-00-pm
+DESCRIPTION:Blackstone Recording Studio presents $2 Tuesdays: Live at Tulip
+ s FTW  Doors: 7pm | Show: 8pm  Tickets: $2  Tuesdays are for the scene\, t
+ he artists\, the locals who need to see and support their favorite musicia
+ ns paving the way for the great talent within this eclectic musical eco 
+ — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:nick-mullen-18-|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm
@@ -1054,6 +1055,19 @@ LOCATION:Bass Performance Hall · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-30&e=beethoven-s-pastoral%7Cba
  ss-performance-hall-fort-worth%7C7-30-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:fort-worth-symphony-orchestra|bass-performance-hall-fort-worth|7-30-pm-
+ 2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T003000Z
+DTSTART:20261031T003000Z
+DTEND:20261031T033000Z
+SUMMARY:Fort Worth Symphony Orchestra
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=fort-worth-symphony-orche
+ stra%7Cbass-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
  com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
