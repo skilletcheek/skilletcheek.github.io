@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:karina-rykman|club-dada-dallas|8-00-pm-2026-10-17@letsdoitdallas.com
-DTSTAMP:20261018T010000Z
-DTSTART:20261018T010000Z
-DTEND:20261018T040000Z
-SUMMARY:Karina Rykman
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=karina-rykman%7Cclub-dada
- -dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/club-dada/
-END:VEVENT
-BEGIN:VEVENT
 UID:she-s-green-w-witches-exist|club-dada-dallas|8-00-pm-2026-10-18@letsdoi
  tdallas.com
 DTSTAMP:20261019T010000Z
@@ -79,6 +67,18 @@ SUMMARY:Kyle Hume
 LOCATION:Club Dada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=kyle-hume%7Cclub-dada-dal
  las%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/club-dada/
+END:VEVENT
+BEGIN:VEVENT
+UID:clever|club-dada-dallas|8-30-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261030T013000Z
+DTSTART:20261030T013000Z
+DTEND:20261030T043000Z
+SUMMARY:Clever
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=clever%7Cclub-dada-dallas
+ %7C8-30-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/club-dada/
 END:VEVENT

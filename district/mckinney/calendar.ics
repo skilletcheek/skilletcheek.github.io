@@ -10,47 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:planning-passport|mckinney|see-details-2026-10-17@letsdoitdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Planning Passport
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=planning-passport%7Cmckin
- ney%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 31. — More: https://letsdoitdallas.com/dis
- trict/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:trick-or-treat-trail|2996-virginia-pkwy-mckinney|03-00-pm-2026-10-17@le
- tsdoitdallas.com
-DTSTAMP:20261017T200000Z
-DTSTART:20261017T200000Z
-DTEND:20261017T230000Z
-SUMMARY:Trick or Treat Trail
-LOCATION:2996 Virginia Pkwy. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=trick-or-treat-trail%7C29
- 96-virginia-pkwy-mckinney%7C03-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:halloween-at-the-heard|heard-natural-science-museum-wildlife-sanctuary-
- mckinney|6-00-pm-10-00-pm-2026-10-17@letsdoitdallas.com
-DTSTAMP:20261017T230000Z
-DTSTART:20261017T230000Z
-DTEND:20261018T020000Z
-SUMMARY:Halloween at the Heard
-LOCATION:Heard Natural Science Museum & Wildlife Sanctuary · McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=halloween-at-the-heard%7C
- heard-natural-science-museum-wildlife-sanctuary-mckinney%7C6-00-pm-10-00-p
- m
-DESCRIPTION:Experience Collin County’s premier family-friendly Halloween 
- event at Heard Natural Science Museum & Wildlife Sanctuary. Halloween at t
- he Heard features a safe environment to experience the joy of trick-or-tre
- ating along the eerie Dinosaurs Live! Animatronic Dinosaurs Trail. Fami 
- — More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:planning-passport|mckinney|see-details-2026-10-18@letsdoitdallas.com
 DTSTAMP:20261018T000000Z
 DTSTART;VALUE=DATE:20261018
@@ -602,6 +561,19 @@ DESCRIPTION:Runs Oct 8 – Oct 31. — More: https://letsdoitdallas.com/dis
  trict/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:idaho-steelheads-at-allen-americans|credit-union-of-texas-event-center-
+ allen|10-30-am-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261029T153000Z
+DTSTART:20261029T153000Z
+DTEND:20261029T183000Z
+SUMMARY:Idaho Steelheads at Allen Americans
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=idaho-steelheads-at-allen
+ -americans%7Ccredit-union-of-texas-event-center-allen%7C10-30-am
+DESCRIPTION:minor league hockey event via SeatGeek. — More: https://letsd
+ oitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
  am-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261029T153000Z
@@ -747,6 +719,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=worlds-2026-swiss-8%7Ccre
  dit-union-of-texas-event-center-allen%7C12-00-pm
 DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:genealogy-office-hours-adults-|6861-w-eldorado-parkway-mckinney|01-00-p
+ m-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261101T190000Z
+DTSTART:20261101T190000Z
+DTEND:20261101T220000Z
+SUMMARY:Genealogy Office Hours (Adults)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=genealogy-office-hours-ad
+ ults-%7C6861-w-eldorado-parkway-mckinney%7C01-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
 UID:worlds-2026-quarters-1|credit-union-of-texas-event-center-allen|4-00-pm

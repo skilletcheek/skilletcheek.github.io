@@ -11,6 +11,24 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:wind-symphony|winspear-performance-hall-at-the-murchison-performing-art
+ s-center-denton|7-30-pm-2026-10-22@letsdoitdallas.com
+DTSTAMP:20261023T003000Z
+DTSTART:20261023T003000Z
+DTEND:20261023T033000Z
+SUMMARY:Wind Symphony
+LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
+ · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=wind-symphony%7Cwinspear-
+ performance-hall-at-the-murchison-performing-arts-center-denton%7C7-30-pm
+DESCRIPTION:“Chacona Amazônica” (1998) – North American Premiere by 
+ Brazilian composer Marlos Nobre in a new edition by Marcelo Jardim     “
+ The Blue Riders: Concerto for Winds” By James David - Composer-in-Reside
+ nce James David’s Western United States Premiere     “Konzertmusik fü
+ r Blasorche — More: https://letsdoitdallas.com/venue/winspear-performanc
+ e-hall-at-the-murchison-performing-arts-c/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-cabinet-of-dr-caligari-halloween-silent-movie-and-improvised-organ|
  winspear-performance-hall-at-the-murchison-performing-arts-center-denton|7
  -00-pm-2026-10-27@letsdoitdallas.com
@@ -178,5 +196,23 @@ DESCRIPTION:With special guests:  Allen High School Chorale and Allen High
   Final program will be available by the day of the performance.      Li 
  — More: https://letsdoitdallas.com/venue/winspear-performance-hall-at-th
  e-murchison-performing-arts-c/
+END:VEVENT
+BEGIN:VEVENT
+UID:camerata-and-chorale|winspear-performance-hall-at-the-murchison-perform
+ ing-arts-center-denton|7-30-pm-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261118T013000Z
+DTSTART:20261118T013000Z
+DTEND:20261118T043000Z
+SUMMARY:Camerata and Chorale
+LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
+ · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=camerata-and-chorale%7Cwi
+ nspear-performance-hall-at-the-murchison-performing-arts-center-denton%7C7
+ -30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below. — More: https://letsd
+ oitdallas.com/venue/winspear-performance-hall-at-the-murchison-performing-
+ arts-c/
 END:VEVENT
 END:VCALENDAR

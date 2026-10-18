@@ -10,35 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dj-boomtown-chris-bullock-of-snarky-puppy-snarky-puppy-after-party|sund
- own-at-granada-lower-greenville-dallas|doors-see-listing-2026-10-17@letsdo
- itdallas.com
-DTSTAMP:20261017T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:DJ Boomtown (Chris Bullock of Snarky Puppy) - SNARKY PUPPY AFTER PA
- RTY
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=dj-boomtown-chris-bullock
- -of-snarky-puppy-snarky-puppy-after-party%7Csundown-at-granada-lower-green
- ville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
-UID:snarky-puppy|granada-theater-dallas-dallas|8-00-pm-2026-10-17@letsdoitd
- allas.com
-DTSTAMP:20261018T010000Z
-DTSTART:20261018T010000Z
-DTEND:20261018T040000Z
-SUMMARY:Snarky Puppy
-LOCATION:Granada Theater - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=snarky-puppy%7Cgranada-th
- eater-dallas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
  doors-see-listing-2026-10-18@letsdoitdallas.com
 DTSTAMP:20261018T000000Z
@@ -455,5 +426,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-15&e=geeks-who-drink-free-triv
  ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-wrecks-finally-outside-tour|granada-theater-lower-greenville-dallas
+ |doors-see-listing-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:The Wrecks - Finally : OUTSIDE Tour
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=the-wrecks-finally-outsid
+ e-tour%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
 END:VEVENT
 END:VCALENDAR

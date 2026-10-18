@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:rainao|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-10-17@l
- etsdoitdallas.com
-DTSTAMP:20261018T000000Z
-DTSTART:20261018T000000Z
-DTEND:20261018T030000Z
-SUMMARY:RaiNao
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=rainao%7Cthe-cambridge-ro
- om-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/the-cambridge-room-at-house-of-blues/
-END:VEVENT
-BEGIN:VEVENT
 UID:cannibal-ox-the-cold-vein-25-year-anniversary-18-|the-cambridge-room-at
  -house-of-blues-dallas|7-00-pm-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261024T000000Z
@@ -141,5 +128,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=q-marsden-do-you-see-me-%
  7Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00-pm
 DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/the-cambridge-room-at-house-of-blues/
+END:VEVENT
+BEGIN:VEVENT
+UID:olive-jones-us-tour-2026|the-cambridge-room-at-house-of-blues-dallas|7-
+ 00-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261116T010000Z
+DTSTART:20261116T010000Z
+DTEND:20261116T040000Z
+SUMMARY:Olive Jones US Tour 2026
+LOCATION:The Cambridge Room at House Of Blues · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=olive-jones-us-tour-2026%
+ 7Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00-pm
+DESCRIPTION:Jazz event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-cambridge-room-at-house-of-blues/
 END:VEVENT
 END:VCALENDAR

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sabai-w-hoang|the-studio-at-the-bomb-factory-dallas|9-00-pm-2026-10-17@
- letsdoitdallas.com
-DTSTAMP:20261018T020000Z
-DTSTART:20261018T020000Z
-DTEND:20261018T050000Z
-SUMMARY:Sabai w/ Hoang
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=sabai-w-hoang%7Cthe-studi
- o-at-the-bomb-factory-dallas%7C9-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-studio-at-the-bomb-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-wldlfe|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-10-21@let
  sdoitdallas.com
 DTSTAMP:20261022T010000Z
@@ -99,5 +86,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=periphery-w-ne-obliviscar
  is%7Cthe-studio-at-the-bomb-factory-dallas%7C6-30-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/the-studio-at-the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:lizzie-morgan|the-studio-at-the-bomb-factory-dallas|7-30-pm-2026-11-15@
+ letsdoitdallas.com
+DTSTAMP:20261116T013000Z
+DTSTART:20261116T013000Z
+DTEND:20261116T043000Z
+SUMMARY:Lizzie Morgan
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=lizzie-morgan%7Cthe-studi
+ o-at-the-bomb-factory-dallas%7C7-30-pm
+DESCRIPTION:Religious event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/the-studio-at-the-bomb-factory/
 END:VEVENT
 END:VCALENDAR

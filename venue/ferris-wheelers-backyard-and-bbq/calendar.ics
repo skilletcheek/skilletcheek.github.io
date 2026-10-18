@@ -60,4 +60,17 @@ URL:https://letsdoitdallas.com/?date=2026-10-22&e=edgehill%7Cferris-wheeler
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/ferris-wheelers-backyard-and-bbq/
 END:VEVENT
+BEGIN:VEVENT
+UID:city-of-the-sun|ferris-wheelers-backyard-and-bbq-dallas|7-00-pm-2026-10
+ -30@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:City of the Sun
+LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=city-of-the-sun%7Cferris-
+ wheelers-backyard-and-bbq-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/ferris-wheelers-backyard-and-bbq/
+END:VEVENT
 END:VCALENDAR

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:snarky-puppy|granada-theater-dallas-dallas|8-00-pm-2026-10-17@letsdoitd
- allas.com
-DTSTAMP:20261018T010000Z
-DTSTART:20261018T010000Z
-DTEND:20261018T040000Z
-SUMMARY:Snarky Puppy
-LOCATION:Granada Theater - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=snarky-puppy%7Cgranada-th
- eater-dallas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:butt-toot-king-18-event-|granada-theater-tx-dallas|8-00-pm-2026-10-18@l
  etsdoitdallas.com
 DTSTAMP:20261019T010000Z
@@ -219,6 +206,19 @@ LOCATION:Granada Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-14&e=on-cinema-the-certified-f
  ive-bags-of-popcorn-tour%7Cgranada-theater-lower-greenville-dallas%7Cdoors
  -see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
+ enue/granada-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-wrecks-finally-outside-tour|granada-theater-lower-greenville-dallas
+ |doors-see-listing-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:The Wrecks - Finally : OUTSIDE Tour
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=the-wrecks-finally-outsid
+ e-tour%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT

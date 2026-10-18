@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Texas Theatre - Dallas — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at The Texas Theatre - Dallas.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:yohay-sponder|the-texas-theatre-dallas-dallas|8-30-pm-2026-10-24@letsdo
+ itdallas.com
+DTSTAMP:20261025T013000Z
+DTSTART:20261025T013000Z
+DTEND:20261025T043000Z
+SUMMARY:Yohay Sponder
+LOCATION:The Texas Theatre - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=yohay-sponder%7Cthe-texas
+ -theatre-dallas-dallas%7C8-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/the-texas-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:willy-wonka-and-the-chocolate-factory-dallas|the-texas-theatre-dallas-d
+ allas|7-00-pm-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261028T000000Z
+DTSTART:20261028T000000Z
+DTEND:20261028T030000Z
+SUMMARY:Willy Wonka and the Chocolate Factory - Dallas
+LOCATION:The Texas Theatre - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=willy-wonka-and-the-choco
+ late-factory-dallas%7Cthe-texas-theatre-dallas-dallas%7C7-00-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/the-texas-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-nightmare-on-elm-street-film-dallas|the-texas-theatre-dallas-dallas|8
+ -00-pm-2026-10-28@letsdoitdallas.com
+DTSTAMP:20261029T010000Z
+DTSTART:20261029T010000Z
+DTEND:20261029T040000Z
+SUMMARY:A Nightmare on Elm Street - Film - Dallas
+LOCATION:The Texas Theatre - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=a-nightmare-on-elm-street
+ -film-dallas%7Cthe-texas-theatre-dallas-dallas%7C8-00-pm
+DESCRIPTION:film event via SeatGeek. — More: https://letsdoitdallas.com/v
+ enue/the-texas-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:fabio-frizzi|the-texas-theatre-dallas-dallas|8-00-pm-2026-10-29@letsdoi
+ tdallas.com
+DTSTAMP:20261030T010000Z
+DTSTART:20261030T010000Z
+DTEND:20261030T040000Z
+SUMMARY:Fabio Frizzi
+LOCATION:The Texas Theatre - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=fabio-frizzi%7Cthe-texas-
+ theatre-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/the-texas-theatre-dallas/
+END:VEVENT
+END:VCALENDAR

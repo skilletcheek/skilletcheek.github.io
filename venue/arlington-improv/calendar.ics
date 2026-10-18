@@ -9,58 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
- 26-10-17@letsdoitdallas.com
-DTSTAMP:20261017T170000Z
-DTSTART:20261017T170000Z
-DTEND:20261017T200000Z
-SUMMARY:Family Magic & Comedy for All Ages
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=family-magic-comedy-for-a
- ll-ages%7Carlington-improv-arlington%7C12-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:marcus-d-wiley|arlington-improv-arlington|4-00-pm-2026-10-17@letsdoitda
- llas.com
-DTSTAMP:20261017T210000Z
-DTSTART:20261017T210000Z
-DTEND:20261018T000000Z
-SUMMARY:Marcus D. Wiley
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=marcus-d-wiley%7Carlingto
- n-improv-arlington%7C4-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:marcus-d-wiley|arlington-improv-arlington|7-00-pm-2026-10-17@letsdoitda
- llas.com
-DTSTAMP:20261018T000000Z
-DTSTART:20261018T000000Z
-DTEND:20261018T030000Z
-SUMMARY:Marcus D. Wiley
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=marcus-d-wiley%7Carlingto
- n-improv-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:marcus-d-wiley|arlington-improv-arlington|9-30-pm-2026-10-17@letsdoitda
- llas.com
-DTSTAMP:20261018T023000Z
-DTSTART:20261018T023000Z
-DTEND:20261018T053000Z
-SUMMARY:Marcus D. Wiley
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=marcus-d-wiley%7Carlingto
- n-improv-arlington%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:flip-phone-hocus-pocus-drag-brunch|arlington-improv-arlington|1-00-pm-2
  026-10-18@letsdoitdallas.com
 DTSTAMP:20261018T180000Z
@@ -420,6 +368,19 @@ SUMMARY:Michael Blackson
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-11-14&e=michael-blackson%7Carling
  ton-improv-arlington%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:michael-blackson|arlington-improv-arlington|7-00-pm-2026-11-15@letsdoit
+ dallas.com
+DTSTAMP:20261116T010000Z
+DTSTART:20261116T010000Z
+DTEND:20261116T040000Z
+SUMMARY:Michael Blackson
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=michael-blackson%7Carling
+ ton-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

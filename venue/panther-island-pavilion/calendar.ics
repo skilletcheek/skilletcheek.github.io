@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Panther Island Pavilion — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Panther Island Pavilion.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:garden-brothers-circus-fort-worth|panther-island-pavilion-fort-worth|4-
+ 30-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261029T213000Z
+DTSTART:20261029T213000Z
+DTEND:20261030T003000Z
+SUMMARY:Garden Brothers Circus - Fort Worth
+LOCATION:Panther Island Pavilion · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=garden-brothers-circus-fo
+ rt-worth%7Cpanther-island-pavilion-fort-worth%7C4-30-pm
+DESCRIPTION:circus event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/panther-island-pavilion/
+END:VEVENT
+BEGIN:VEVENT
+UID:garden-brothers-circus-fort-worth|panther-island-pavilion-fort-worth|7-
+ 30-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261030T003000Z
+DTSTART:20261030T003000Z
+DTEND:20261030T033000Z
+SUMMARY:Garden Brothers Circus - Fort Worth
+LOCATION:Panther Island Pavilion · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=garden-brothers-circus-fo
+ rt-worth%7Cpanther-island-pavilion-fort-worth%7C7-30-pm
+DESCRIPTION:circus event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/panther-island-pavilion/
+END:VEVENT
+BEGIN:VEVENT
+UID:garden-brothers-circus-fort-worth|panther-island-pavilion-fort-worth|4-
+ 30-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261030T213000Z
+DTSTART:20261030T213000Z
+DTEND:20261031T003000Z
+SUMMARY:Garden Brothers Circus - Fort Worth
+LOCATION:Panther Island Pavilion · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=garden-brothers-circus-fo
+ rt-worth%7Cpanther-island-pavilion-fort-worth%7C4-30-pm
+DESCRIPTION:circus event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/panther-island-pavilion/
+END:VEVENT
+END:VCALENDAR

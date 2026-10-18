@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:leonid-friends|majestic-theatre-dallas-dallas|3-00-pm-2026-10-17@letsdo
- itdallas.com
-DTSTAMP:20261017T200000Z
-DTSTART:20261017T200000Z
-DTEND:20261017T230000Z
-SUMMARY:Leonid & Friends
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=leonid-friends%7Cmajestic
- -theatre-dallas-dallas%7C3-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:leonid-friends|majestic-theatre-dallas-dallas|7-30-pm-2026-10-17@letsdo
- itdallas.com
-DTSTAMP:20261018T003000Z
-DTSTART:20261018T003000Z
-DTEND:20261018T033000Z
-SUMMARY:Leonid & Friends
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=leonid-friends%7Cmajestic
- -theatre-dallas-dallas%7C7-30-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:dante-gebel-world-tour-despedida-2026|majestic-theatre-dallas-dallas|8-
  00-pm-2026-10-22@letsdoitdallas.com
 DTSTAMP:20261023T010000Z

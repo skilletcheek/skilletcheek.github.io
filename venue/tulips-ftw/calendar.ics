@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:elizabeth-nichols|tulips-ftw-fort-worth|7-30-pm-2026-10-17@letsdoitdall
- as.com
-DTSTAMP:20261018T003000Z
-DTSTART:20261018T003000Z
-DTEND:20261018T033000Z
-SUMMARY:Elizabeth Nichols
-LOCATION:Tulips FTW · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=elizabeth-nichols%7Ctulip
- s-ftw-fort-worth%7C7-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/tulips-ftw/
-END:VEVENT
-BEGIN:VEVENT
 UID:dark-divine|tulips-ftw-fort-worth|7-00-pm-2026-10-18@letsdoitdallas.com
 DTSTAMP:20261019T000000Z
 DTSTART:20261019T000000Z

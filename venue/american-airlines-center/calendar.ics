@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:weezer-the-gathering|american-airlines-center-dallas|7-00-pm-2026-10-17
- @letsdoitdallas.com
-DTSTAMP:20261018T000000Z
-DTSTART:20261018T000000Z
-DTEND:20261018T030000Z
-SUMMARY:WEEZER: The Gathering
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=weezer-the-gathering%7Cam
- erican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:sombr-you-are-the-reason-tour|american-airlines-center-dallas|7-30-pm-2
  026-10-18@letsdoitdallas.com
 DTSTAMP:20261019T003000Z
@@ -291,6 +278,19 @@ SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Buffalo Sabres
 LOCATION:American Airlines Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-14&e=fifth-third-garage-dallas
  -stars-v-buffalo-sabres%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:fifth-third-garage-dallas-stars-v-florida-panthers|american-airlines-ce
+ nter-dallas|7-00-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261116T010000Z
+DTSTART:20261116T010000Z
+DTEND:20261116T040000Z
+SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Florida Panthers
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=fifth-third-garage-dallas
+ -stars-v-florida-panthers%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/american-airlines-center/
 END:VEVENT

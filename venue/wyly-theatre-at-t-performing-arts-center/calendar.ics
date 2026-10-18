@@ -11,45 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:the-monsters|wyly-theatre-at-t-performing-arts-center-dallas|2-00-pm-20
- 26-10-17@letsdoitdallas.com
-DTSTAMP:20261017T190000Z
-DTSTART:20261017T190000Z
-DTEND:20261017T220000Z
-SUMMARY:The Monsters
-LOCATION:Wyly Theatre - AT&T Performing Arts Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=the-monsters%7Cwyly-theat
- re-at-t-performing-arts-center-dallas%7C2-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/wyly-theatre-at-t-performing-arts-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:hold-on-to-your-butts-dallas|wyly-theatre-at-t-performing-arts-center-d
- allas|7-00-pm-2026-10-17@letsdoitdallas.com
-DTSTAMP:20261018T000000Z
-DTSTART:20261018T000000Z
-DTEND:20261018T030000Z
-SUMMARY:Hold On To Your Butts - Dallas
-LOCATION:Wyly Theatre - AT&T Performing Arts Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=hold-on-to-your-butts-dal
- las%7Cwyly-theatre-at-t-performing-arts-center-dallas%7C7-00-pm
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/wyly-theatre-at-t-performing-arts-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:hold-on-to-your-butts-dallas|wyly-theatre-at-t-performing-arts-center-d
- allas|9-30-pm-2026-10-17@letsdoitdallas.com
-DTSTAMP:20261018T023000Z
-DTSTART:20261018T023000Z
-DTEND:20261018T053000Z
-SUMMARY:Hold On To Your Butts - Dallas
-LOCATION:Wyly Theatre - AT&T Performing Arts Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=hold-on-to-your-butts-dal
- las%7Cwyly-theatre-at-t-performing-arts-center-dallas%7C9-30-pm
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/wyly-theatre-at-t-performing-arts-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-monsters|wyly-theatre-at-t-performing-arts-center-dallas|2-00-pm-20
  26-10-18@letsdoitdallas.com
 DTSTAMP:20261018T190000Z
 DTSTART:20261018T190000Z
@@ -174,6 +135,32 @@ DTEND:20261028T033000Z
 SUMMARY:The Monsters
 LOCATION:Wyly Theatre - AT&T Performing Arts Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-27&e=the-monsters%7Cwyly-theat
+ re-at-t-performing-arts-center-dallas%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/wyly-theatre-at-t-performing-arts-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-monsters|wyly-theatre-at-t-performing-arts-center-dallas|7-30-pm-20
+ 26-10-28@letsdoitdallas.com
+DTSTAMP:20261029T003000Z
+DTSTART:20261029T003000Z
+DTEND:20261029T033000Z
+SUMMARY:The Monsters
+LOCATION:Wyly Theatre - AT&T Performing Arts Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=the-monsters%7Cwyly-theat
+ re-at-t-performing-arts-center-dallas%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/wyly-theatre-at-t-performing-arts-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-monsters|wyly-theatre-at-t-performing-arts-center-dallas|7-30-pm-20
+ 26-10-29@letsdoitdallas.com
+DTSTAMP:20261030T003000Z
+DTSTART:20261030T003000Z
+DTEND:20261030T033000Z
+SUMMARY:The Monsters
+LOCATION:Wyly Theatre - AT&T Performing Arts Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=the-monsters%7Cwyly-theat
  re-at-t-performing-arts-center-dallas%7C7-30-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/wyly-theatre-at-t-performing-arts-center/

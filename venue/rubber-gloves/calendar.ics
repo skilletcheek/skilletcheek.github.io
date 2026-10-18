@@ -58,4 +58,16 @@ URL:https://letsdoitdallas.com/?date=2026-10-26&e=graham-hunt%7Crubber-glov
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/rubber-gloves/
 END:VEVENT
+BEGIN:VEVENT
+UID:frog|rubber-gloves-denton|8-00-pm-2026-10-28@letsdoitdallas.com
+DTSTAMP:20261029T010000Z
+DTSTART:20261029T010000Z
+DTEND:20261029T040000Z
+SUMMARY:Frog
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=frog%7Crubber-gloves-dent
+ on%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/rubber-gloves/
+END:VEVENT
 END:VCALENDAR

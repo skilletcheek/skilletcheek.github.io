@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:olivia-rodrigo-night|trees-dallas|doors-see-listing-2026-10-17@letsdoit
- dallas.com
-DTSTAMP:20261017T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:OLIVIA RODRIGO NIGHT
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=olivia-rodrigo-night%7Ctr
- ees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
-END:VEVENT
-BEGIN:VEVENT
 UID:invasion-car-show|trees-dallas|doors-see-listing-2026-10-24@letsdoitdal
  las.com
 DTSTAMP:20261024T000000Z

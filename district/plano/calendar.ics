@@ -10,90 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:huffhines-harvest-fest|huffhines-park-richardson|10-00-am-5-00-pm-2026-
- 10-17@letsdoitdallas.com
-DTSTAMP:20261017T150000Z
-DTSTART:20261017T150000Z
-DTEND:20261017T180000Z
-SUMMARY:Huffhines Harvest Fest
-LOCATION:Huffhines Park · Richardson
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=huffhines-harvest-fest%7C
- huffhines-park-richardson%7C10-00-am-5-00-pm
-DESCRIPTION:Huffhines Harvest Fest returns for its 50th anniversary with a 
- two-day celebration featuring local arts and crafts\, live music\, food\, 
- and family-friendly fall activities. Saturday’s Pawtoberfest welcomes fu
- rry friends for pet-friendly fun\, while guests can enjoy pumpkin decorati
- n — More: https://letsdoitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:friends-of-the-farmstead-celebrates-15-years|heritage-farmstead-museum-
- plano|6-00-pm-10-00-pm-2026-10-17@letsdoitdallas.com
-DTSTAMP:20261017T230000Z
-DTSTART:20261017T230000Z
-DTEND:20261018T020000Z
-SUMMARY:Friends of the Farmstead Celebrates 15 Years
-LOCATION:Heritage Farmstead Museum · Plano
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=friends-of-the-farmstead-
- celebrates-15-years%7Cheritage-farmstead-museum-plano%7C6-00-pm-10-00-pm
-DESCRIPTION:Celebrate 15 years of Friends of the Farmstead with an evening 
- featuring specialty cocktails\, craft beer\, True Texas BBQ\, games\, auct
- ions\, and live music from Jay-B & the Zydeco Posse. The event will also h
- onor Jennifer and Luke Shertzer as the 2026 Best Friends of the Farmstead 
- — More: https://letsdoitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:carlos-mencia|addison-improv-addison|7-00-pm-2026-10-17@letsdoitdallas.
- com
-DTSTAMP:20261018T000000Z
-DTSTART:20261018T000000Z
-DTEND:20261018T030000Z
-SUMMARY:Carlos Mencia
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=carlos-mencia%7Caddison-i
- mprov-addison%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:neon-nostalgic|eisemann-center-richardson|8-00-pm-2026-10-17@letsdoitda
- llas.com
-DTSTAMP:20261018T010000Z
-DTSTART:20261018T010000Z
-DTEND:20261018T040000Z
-SUMMARY:Neon Nostalgic
-LOCATION:Eisemann Center · Richardson
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=neon-nostalgic%7Ceisemann
- -center-richardson%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:queen-legacy-queen-tribute|legacy-hall-plano|8-00-pm-2026-10-17@letsdoi
- tdallas.com
-DTSTAMP:20261018T010000Z
-DTSTART:20261018T010000Z
-DTEND:20261018T040000Z
-SUMMARY:Queen Legacy - Queen Tribute
-LOCATION:Legacy Hall · Plano
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=queen-legacy-queen-tribut
- e%7Clegacy-hall-plano%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:carlos-mencia|addison-improv-addison|9-30-pm-2026-10-17@letsdoitdallas.
- com
-DTSTAMP:20261018T023000Z
-DTSTART:20261018T023000Z
-DTEND:20261018T053000Z
-SUMMARY:Carlos Mencia
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-17&e=carlos-mencia%7Caddison-i
- mprov-addison%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-day-players|addison-improv-addison|1-00-pm-2026-10-18@letsdoitdalla
  s.com
 DTSTAMP:20261018T180000Z
@@ -403,6 +319,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:paris-sashay|mic-drop-comedy-plano-plano|7-30-pm-2026-10-29@letsdoitdal
+ las.com
+DTSTAMP:20261030T003000Z
+DTSTART:20261030T003000Z
+DTEND:20261030T033000Z
+SUMMARY:Paris Sashay
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=paris-sashay%7Cmic-drop-c
+ omedy-plano-plano%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:loni-love|addison-improv-addison|7-30-pm-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261031T003000Z
 DTSTART:20261031T003000Z
@@ -450,6 +379,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-01&e=ann-hampton-callaway%7Cei
  semann-center-richardson%7C2-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:addison-s-8x8|addison-improv-addison|6-00-pm-2026-11-01@letsdoitdallas.
+ com
+DTSTAMP:20261102T000000Z
+DTSTART:20261102T000000Z
+DTEND:20261102T030000Z
+SUMMARY:Addison's  8x8
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=addison-s-8x8%7Caddison-i
+ mprov-addison%7C6-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:steven-curtis-chapman|eisemann-center-richardson|7-00-pm-2026-11-02@let
@@ -617,6 +559,32 @@ SUMMARY:Steve Byrne
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-11-14&e=steve-byrne%7Caddison-imp
  rov-addison%7C6-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:asim-azhar|eisemann-center-richardson|7-00-pm-2026-11-15@letsdoitdallas
+ .com
+DTSTAMP:20261116T010000Z
+DTSTART:20261116T010000Z
+DTEND:20261116T040000Z
+SUMMARY:Asim Azhar
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=asim-azhar%7Ceisemann-cen
+ ter-richardson%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:steve-byrne|addison-improv-addison|7-00-pm-2026-11-15@letsdoitdallas.co
+ m
+DTSTAMP:20261116T010000Z
+DTSTART:20261116T010000Z
+DTEND:20261116T040000Z
+SUMMARY:Steve Byrne
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=steve-byrne%7Caddison-imp
+ rov-addison%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT
