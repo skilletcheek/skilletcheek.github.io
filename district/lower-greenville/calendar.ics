@@ -294,6 +294,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
+UID:lightnin-malcolm|sundown-at-granada-lower-greenville-dallas|doors-see-l
+ isting-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Lightnin' Malcolm
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=lightnin-malcolm%7Csundow
+ n-at-granada-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
 UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
  doors-see-listing-2026-11-08@letsdoitdallas.com
 DTSTAMP:20261108T000000Z

@@ -10,23 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lena-pope-golf-classic|rockwood-park-golf-course-1851-jacksboro-hwy-for
- t-worth-tx-76114-2332-united-states|9-00-am-2026-10-19@letsdoitdallas.com
-DTSTAMP:20261019T140000Z
-DTSTART:20261019T140000Z
-DTEND:20261019T170000Z
-SUMMARY:Lena Pope Golf Classic
-LOCATION:Rockwood Park Golf Course · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=lena-pope-golf-classic%7C
- rockwood-park-golf-course-1851-jacksboro-hwy-fort-worth-tx-76114-2332-unit
- ed-states%7C9-00-am
-DESCRIPTION:Join Lena Pope for the Annual Lena Pope Golf Classic on Monday\
- , October 19\, 2026\, at Rockwood Park Golf Course in Fort Worth.  For mor
- e than three decades\, the Lena Pope Golf Classic has brought together bus
- iness leaders\, community partners\, and golf enthusiasts for a day of fri
- e — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
  ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-19@lets
  doitdallas.com
@@ -43,19 +26,6 @@ DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
  e\, and an informative self-guided walking tour. Each adventure consists o
  f a series of locations that you are guided to where you are required t 
  — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-10-19@
- letsdoitdallas.com
-DTSTAMP:20261019T173000Z
-DTSTART:20261019T173000Z
-DTEND:20261019T203000Z
-SUMMARY:Legacy of the Longhorn
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=legacy-of-the-longhorn%7C
- cowtown-coliseum-fort-worth%7C12-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:nick-mullen|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm-202
@@ -394,6 +364,24 @@ DESCRIPTION:Do you sit around thinking to yourself\, “where could I go on
  d to the right place. The Big Laugh Comedy Club + Big Laugh Bistro is the 
  place for you to laugh till your face hurts\, eat delicious food\, and dri
  nk a — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:wizop-wednesday-s-open-mic-night|big-laugh-comedy-club-fort-worth-604-m
+ ain-st-suite-100-fort-worth-tx-76102-united-states|9-30-pm-2026-10-21@lets
+ doitdallas.com
+DTSTAMP:20261022T023000Z
+DTSTART:20261022T023000Z
+DTEND:20261022T053000Z
+SUMMARY:Wizop Wednesday's Open Mic Night
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=wizop-wednesday-s-open-mi
+ c-night%7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-wort
+ h-tx-76102-united-states%7C9-30-pm
+DESCRIPTION:Wizop Wednesdays: Open Mic Comedy  Looking for a midweek jolt o
+ f ridiculous? Wizop Wednesdays is where fresh jokes are born\, wild bits g
+ et tested\, and legends-in-the-making grab the mic. It’s raw\, fast\, an
+ d absolutely addictive\, your new Wednesday night ritual.  Expect lightnin
+ g- — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:mecum-auctions|dickies-arena-fort-worth|3-30-am-2026-10-22@letsdoitdall
@@ -841,6 +829,18 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=sarper-guven%7Chyena-s-co
  medy-night-club-fort-worth-fort-worth%7C7-00-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:hovvdy|tulips-ftw-fort-worth|8-00-pm-2026-10-25@letsdoitdallas.com
+DTSTAMP:20261026T010000Z
+DTSTART:20261026T010000Z
+DTEND:20261026T040000Z
+SUMMARY:Hovvdy
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=hovvdy%7Ctulips-ftw-fort-
+ worth%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-10-26@
