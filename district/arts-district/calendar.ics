@@ -92,6 +92,19 @@ DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-cunning-little-vixen-dallas|margot-and-bill-winspear-opera-house-da
+ llas|7-30-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T003000Z
+DTSTART:20261031T003000Z
+DTEND:20261031T033000Z
+SUMMARY:The Cunning Little Vixen - Dallas
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=the-cunning-little-vixen-
+ dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C7-30-pm
+DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-ellington-strayhorn-and-gershwin|mor
  ton-meyerson-symphony-center-dallas|7-30-pm-2026-11-06@letsdoitdallas.com
 DTSTAMP:20261107T013000Z

@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
- doors-see-listing-2026-10-18@letsdoitdallas.com
-DTSTAMP:20261018T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:geeks who drink FREE Trivia
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=geeks-who-drink-free-triv
- ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
-UID:butt-toot-king-18-event-|granada-theater-tx-dallas|8-00-pm-2026-10-18@l
- etsdoitdallas.com
-DTSTAMP:20261019T010000Z
-DTSTART:20261019T010000Z
-DTEND:20261019T040000Z
-SUMMARY:BUTT TOOT KING (18+ Event)
-LOCATION:Granada Theater - TX · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=butt-toot-king-18-event-%
- 7Cgranada-theater-tx-dallas%7C8-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
-UID:butttootking-dallas|granada-theater-dallas-dallas|8-00-pm-2026-10-18@le
- tsdoitdallas.com
-DTSTAMP:20261019T010000Z
-DTSTART:20261019T010000Z
-DTEND:20261019T040000Z
-SUMMARY:Butttootking - Dallas
-LOCATION:Granada Theater - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=butttootking-dallas%7Cgra
- nada-theater-dallas-dallas%7C8-00-pm
-DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
- las.com/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:free-halloween-movie-month-a-nightmare-on-elm-street|sundown-at-granada
  -lower-greenville-dallas|doors-see-listing-2026-10-19@letsdoitdallas.com
 DTSTAMP:20261019T000000Z
@@ -196,17 +157,17 @@ DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
-UID:ray-wylie-hubbard|granada-theater-lower-greenville-dallas|doors-see-lis
- ting-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261030T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+UID:ray-wylie-hubbard|granada-theater-dallas-dallas|8-00-pm-2026-10-30@lets
+ doitdallas.com
+DTSTAMP:20261031T010000Z
+DTSTART:20261031T010000Z
+DTEND:20261031T040000Z
 SUMMARY:Ray Wylie Hubbard
-LOCATION:Granada Theater · Dallas
+LOCATION:Granada Theater - Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-30&e=ray-wylie-hubbard%7Cgrana
- da-theater-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
- istrict/lower-greenville/
+ da-theater-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
 UID:doug-will-s-monster-mash-bash-featuring-the-music-of-dj-culturegang|sun

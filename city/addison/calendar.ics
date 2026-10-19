@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-day-players|addison-improv-addison|1-00-pm-2026-10-18@letsdoitdalla
- s.com
-DTSTAMP:20261018T180000Z
-DTSTART:20261018T180000Z
-DTEND:20261018T210000Z
-SUMMARY:The Day Players
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=the-day-players%7Caddison
- -improv-addison%7C1-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/city/addison/
-END:VEVENT
-BEGIN:VEVENT
-UID:carlos-mencia|addison-improv-addison|7-30-pm-2026-10-18@letsdoitdallas.
- com
-DTSTAMP:20261019T003000Z
-DTSTART:20261019T003000Z
-DTEND:20261019T033000Z
-SUMMARY:Carlos Mencia
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=carlos-mencia%7Caddison-i
- mprov-addison%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/city/addison/
-END:VEVENT
-BEGIN:VEVENT
 UID:standoperos-la-t-mbola|addison-improv-addison|7-30-pm-2026-10-22@letsdo
  itdallas.com
 DTSTAMP:20261023T003000Z
@@ -248,6 +222,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=sahib-singh%7Caddison-imp
  rov-addison%7C9-45-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-11
+ -07@letsdoitdallas.com
+DTSTAMP:20261107T200000Z
+DTSTART:20261107T200000Z
+DTEND:20261107T230000Z
+SUMMARY:Family Magic & Comedy For All Ages
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=family-magic-comedy-for-a
+ ll-ages%7Caddison-improv-addison%7C2-00-pm
+DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
+ doitdallas.com/city/addison/
 END:VEVENT
 BEGIN:VEVENT
 UID:sahib-singh|addison-improv-addison|7-00-pm-2026-11-07@letsdoitdallas.co

@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dead-week-nip-slip-kiss-with-your-teeth|three-links-deep-ellum-dallas|8
- -00-pm-2026-10-18@letsdoitdallas.com
-DTSTAMP:20261019T010000Z
-DTSTART:20261019T010000Z
-DTEND:20261019T040000Z
-SUMMARY:Dead Week\, Nip Slip\, Kiss With Your Teeth
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=dead-week-nip-slip-kiss-w
- ith-your-teeth%7Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-18@letsdoitd
- allas.com
-DTSTAMP:20261019T040000Z
-DTSTART:20261019T040000Z
-DTEND:20261019T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:sleep-club-life-after-youth-como-la-flor|three-links-deep-ellum-dallas|
  8-00-pm-2026-10-19@letsdoitdallas.com
 DTSTAMP:20261020T010000Z

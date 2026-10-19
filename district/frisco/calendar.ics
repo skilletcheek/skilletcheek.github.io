@@ -10,22 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:-goosebumps-the-musical-phantom-of-the-auditorium-by-centerstage-theatr
- e-works|8004-n-dallas-parkway-frisco|see-details-2026-10-18@letsdoitdallas
- .com
-DTSTAMP:20261018T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:"Goosebumps The Musical: Phantom of the Auditorium" by CenterStage 
- Theatre Works
-LOCATION:8004 N. Dallas Parkway · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=-goosebumps-the-musical-p
- hantom-of-the-auditorium-by-centerstage-theatre-works%7C8004-n-dallas-park
- way-frisco%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 18. — More: https://letsdoitdallas.com/dis
- trict/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:breakfast-with-santa-tickets-go-on-sale|frisco|see-details-2026-10-19@l
  etsdoitdallas.com
 DTSTAMP:20261019T000000Z
@@ -310,6 +294,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-02&e=-the-cottage-by-theatre-f
  risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
 DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
  strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-in-the-atrium-26-public-reception|6101-frisco-square-blvd-frisco|07
+ -00-pm-2026-11-02@letsdoitdallas.com
+DTSTAMP:20261103T010000Z
+DTSTART:20261103T010000Z
+DTEND:20261103T040000Z
+SUMMARY:Art in the Atrium 26 Public Reception
+LOCATION:6101 Frisco Square Blvd.
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=art-in-the-atrium-26-publ
+ ic-reception%7C6101-frisco-square-blvd-frisco%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-

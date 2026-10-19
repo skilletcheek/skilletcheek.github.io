@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:deer-tick|the-kessler-theater-dallas|8-00-pm-2026-10-18@letsdoitdallas.
- com
-DTSTAMP:20261019T010000Z
-DTSTART:20261019T010000Z
-DTEND:20261019T040000Z
-SUMMARY:Deer Tick
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=deer-tick%7Cthe-kessler-t
- heater-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/the-kessler-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:katie-pruitt|the-kessler-theater-dallas|8-00-pm-2026-10-21@letsdoitdall
  as.com
 DTSTAMP:20261022T010000Z
@@ -246,6 +233,20 @@ LOCATION:The Kessler Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-17&e=new-constellations-it-com
  es-in-waves-tour%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listin
  g
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:bahamas-industrial-sport-sound-with-special-guest-sister-ray|the-kessle
+ r-theater-oak-cliff-dallas|doors-see-listing-2026-11-18@letsdoitdallas.com
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Bahamas: Industrial Sport & Sound with special guest Sister Ray
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=bahamas-industrial-sport-
+ sound-with-special-guest-sister-ray%7Cthe-kessler-theater-oak-cliff-dallas
+ %7Cdoors-see-listing
 DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT

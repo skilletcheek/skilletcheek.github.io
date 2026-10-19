@@ -161,4 +161,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=landrones-arriba-la-l-usa
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT
+BEGIN:VEVENT
+UID:forbidden-tour|trees-dallas|doors-see-listing-2026-11-18@letsdoitdallas
+ .com
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:FORBIDDEN TOUR
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=forbidden-tour%7Ctrees-da
+ llas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
 END:VCALENDAR

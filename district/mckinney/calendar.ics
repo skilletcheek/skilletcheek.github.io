@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:planning-passport|mckinney|see-details-2026-10-18@letsdoitdallas.com
-DTSTAMP:20261018T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:Planning Passport
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=planning-passport%7Cmckin
- ney%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 31. — More: https://letsdoitdallas.com/dis
- trict/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:planning-passport|mckinney|see-details-2026-10-19@letsdoitdallas.com
 DTSTAMP:20261019T000000Z
 DTSTART;VALUE=DATE:20261019
@@ -743,6 +731,30 @@ SUMMARY:Genealogy Office Hours (Adults)
 LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-11-01&e=genealogy-office-hours-ad
  ults-%7C6861-w-eldorado-parkway-mckinney%7C01-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-11-02@
+ letsdoitdallas.com
+DTSTAMP:20261102T163000Z
+DTSTART:20261102T163000Z
+DTEND:20261102T193000Z
+SUMMARY:Baby & Me (0-10 Months)
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=baby-me-0-10-months-%7C68
+ 61-w-eldorado-pkwy-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:cultural-storytime-3-5-years-|6861-w-eldorado-parkway-mckinney|11-30-am
+ -2026-11-02@letsdoitdallas.com
+DTSTAMP:20261102T173000Z
+DTSTART:20261102T173000Z
+DTEND:20261102T203000Z
+SUMMARY:Cultural Storytime (3-5 Years)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=cultural-storytime-3-5-ye
+ ars-%7C6861-w-eldorado-parkway-mckinney%7C11-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT

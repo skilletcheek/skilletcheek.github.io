@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
- doors-see-listing-2026-10-18@letsdoitdallas.com
-DTSTAMP:20261018T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:geeks who drink FREE Trivia
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=geeks-who-drink-free-triv
- ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/venue/sundown-at-granada/
-END:VEVENT
-BEGIN:VEVENT
 UID:free-halloween-movie-month-a-nightmare-on-elm-street|sundown-at-granada
  -lower-greenville-dallas|doors-see-listing-2026-10-19@letsdoitdallas.com
 DTSTAMP:20261019T000000Z

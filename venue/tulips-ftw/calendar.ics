@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dark-divine|tulips-ftw-fort-worth|7-00-pm-2026-10-18@letsdoitdallas.com
-DTSTAMP:20261019T000000Z
-DTSTART:20261019T000000Z
-DTEND:20261019T030000Z
-SUMMARY:Dark Divine
-LOCATION:Tulips FTW · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=dark-divine%7Ctulips-ftw-
- fort-worth%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/tulips-ftw/
-END:VEVENT
-BEGIN:VEVENT
 UID:-2-tuesdays-live-at-tulips-ftw|tulips-ftw-112-saint-louis-avenue-fort-w
  orth-76104-united-states|8-00-pm-2026-10-20@letsdoitdallas.com
 DTSTAMP:20261021T010000Z
@@ -60,18 +48,6 @@ SUMMARY:Emo Nite ( Event) (18+)
 LOCATION:Tulips FTW · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=emo-nite-event-18-%7Ctuli
  ps-ftw-fort-worth%7C9-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/tulips-ftw/
-END:VEVENT
-BEGIN:VEVENT
-UID:hovvdy|tulips-ftw-fort-worth|8-00-pm-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261026T010000Z
-DTSTART:20261026T010000Z
-DTEND:20261026T040000Z
-SUMMARY:Hovvdy
-LOCATION:Tulips FTW · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=hovvdy%7Ctulips-ftw-fort-
- worth%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/tulips-ftw/
 END:VEVENT

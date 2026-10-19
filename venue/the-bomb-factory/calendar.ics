@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dying-fetus-w-sanguisugabogg|the-bomb-factory-dallas|7-00-pm-2026-10-18
- @letsdoitdallas.com
-DTSTAMP:20261019T000000Z
-DTSTART:20261019T000000Z
-DTEND:20261019T030000Z
-SUMMARY:Dying Fetus w/ Sanguisugabogg
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-18&e=dying-fetus-w-sanguisugab
- ogg%7Cthe-bomb-factory-dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/the-bomb-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:boynextdoor|the-bomb-factory-dallas|7-30-pm-2026-10-30@letsdoitdallas.c
  om
 DTSTAMP:20261031T003000Z

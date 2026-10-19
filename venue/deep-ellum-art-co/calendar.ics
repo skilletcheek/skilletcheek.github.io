@@ -47,6 +47,19 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/deep-ellum-art-co/
 END:VEVENT
 BEGIN:VEVENT
+UID:ghostwoman-18-|deep-ellum-art-co-dallas|8-00-pm-2026-10-25@letsdoitdall
+ as.com
+DTSTAMP:20261026T010000Z
+DTSTART:20261026T010000Z
+DTEND:20261026T040000Z
+SUMMARY:GHOSTWOMAN (18+)
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=ghostwoman-18-%7Cdeep-ell
+ um-art-co-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/deep-ellum-art-co/
+END:VEVENT
+BEGIN:VEVENT
 UID:justin-nozuka|deep-ellum-art-co-dallas|8-00-pm-2026-10-27@letsdoitdalla
  s.com
 DTSTAMP:20261028T010000Z
