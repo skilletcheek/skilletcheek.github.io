@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:token-w-clark-d|club-dada-dallas|10-00-pm-2026-10-19@letsdoitdallas.com
-DTSTAMP:20261020T030000Z
-DTSTART:20261020T030000Z
-DTEND:20261020T060000Z
-SUMMARY:Token w/ Clark D
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=token-w-clark-d%7Cclub-da
- da-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/club-dada/
-END:VEVENT
-BEGIN:VEVENT
 UID:sludge-mother-yellowbelly|club-dada-dallas|7-00-pm-2026-10-21@letsdoitd
  allas.com
 DTSTAMP:20261022T000000Z

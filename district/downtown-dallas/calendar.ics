@@ -10,22 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-19@letsdoitdallas.com
-DTSTAMP:20261019T130000Z
-DTSTART:20261019T130000Z
-DTEND:20261019T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:honky-tonk-tuesdays-with-raised-right-men|poor-david-s-pub-dallas|doors
  -see-listing-2026-10-20@letsdoitdallas.com
 DTSTAMP:20261020T000000Z
@@ -1499,5 +1483,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-15&e=olive-jones-us-tour-2026%
  7Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00-pm
 DESCRIPTION:Jazz event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dragonforce-inhuman-rampage-20th-anniversary|house-of-blues-dallas-dall
+ as|6-30-pm-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261118T003000Z
+DTSTART:20261118T003000Z
+DTEND:20261118T033000Z
+SUMMARY:DragonForce: Inhuman Rampage 20th Anniversary
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=dragonforce-inhuman-rampa
+ ge-20th-anniversary%7Chouse-of-blues-dallas-dallas%7C6-30-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:xg-world-tour-the-core-in-dallas|american-airlines-center-dallas|8-00-p
+ m-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261118T020000Z
+DTSTART:20261118T020000Z
+DTEND:20261118T050000Z
+SUMMARY:XG WORLD TOUR: THE CORE IN DALLAS
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=xg-world-tour-the-core-in
+ -dallas%7Camerican-airlines-center-dallas%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

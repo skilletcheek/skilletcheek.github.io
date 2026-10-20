@@ -223,17 +223,16 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:new-constellations-it-comes-in-waves-tour|the-kessler-theater-oak-cliff
- -dallas|doors-see-listing-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261117T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:New Constellations: It Comes In Waves Tour
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=new-constellations-it-com
- es-in-waves-tour%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listin
- g
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+UID:new-constellations|the-kessler-dallas|8-00-pm-2026-11-17@letsdoitdallas
+ .com
+DTSTAMP:20261118T020000Z
+DTSTART:20261118T020000Z
+DTEND:20261118T050000Z
+SUMMARY:New Constellations
+LOCATION:The Kessler · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=new-constellations%7Cthe-
+ kessler-dallas%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT

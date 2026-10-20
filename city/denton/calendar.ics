@@ -9,15 +9,17 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:brass-chamber-music-concert|paul-voertman-concert-hall-at-the-music-bui
- lding-denton|8-00-pm-2026-10-21@letsdoitdallas.com
-DTSTAMP:20261022T010000Z
-DTSTART:20261022T010000Z
-DTEND:20261022T040000Z
-SUMMARY:Brass Chamber Music Concert
+UID:faculty-and-guest-artist-recital-daphne-gerling-viola|paul-voertman-con
+ cert-hall-at-the-music-building-denton|8-00-pm-2026-10-20@letsdoitdallas.c
+ om
+DTSTAMP:20261021T010000Z
+DTSTART:20261021T010000Z
+DTEND:20261021T040000Z
+SUMMARY:Faculty and Guest Artist Recital: Daphne Gerling\, viola
 LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=brass-chamber-music-conce
- rt%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C8-00-pm
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=faculty-and-guest-artist-
+ recital-daphne-gerling-viola%7Cpaul-voertman-concert-hall-at-the-music-bui
+ lding-denton%7C8-00-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
  ay of the performance.      Livestream link below.      This event is free
@@ -25,15 +27,15 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  llas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
-UID:chamber-music-concert|recital-hall-at-the-music-building-denton|8-00-pm
- -2026-10-21@letsdoitdallas.com
-DTSTAMP:20261022T010000Z
-DTSTART:20261022T010000Z
-DTEND:20261022T040000Z
-SUMMARY:Chamber Music Concert
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=chamber-music-concert%7Cr
- ecital-hall-at-the-music-building-denton%7C8-00-pm
+UID:senior-recital-benedict-mpeti-jazz-drum-set|lab-west-at-the-music-build
+ ing-denton|8-00-pm-2026-10-20@letsdoitdallas.com
+DTSTAMP:20261021T010000Z
+DTSTART:20261021T010000Z
+DTEND:20261021T040000Z
+SUMMARY:Senior Recital: Benedict Mpeti\, jazz drum set
+LOCATION:Lab West at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-20&e=senior-recital-benedict-m
+ peti-jazz-drum-set%7Clab-west-at-the-music-building-denton%7C8-00-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
  ay of the performance.      Livestream link below.      This event is free
@@ -65,23 +67,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-21&e=spirit-of-the-bear%7Crubb
  er-gloves-denton%7C8-30-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:wind-symphony|winspear-performance-hall-at-the-murchison-performing-art
- s-center-denton|7-30-pm-2026-10-22@letsdoitdallas.com
-DTSTAMP:20261023T003000Z
-DTSTART:20261023T003000Z
-DTEND:20261023T033000Z
-SUMMARY:Wind Symphony
-LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
- · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=wind-symphony%7Cwinspear-
- performance-hall-at-the-murchison-performing-arts-center-denton%7C7-30-pm
-DESCRIPTION:“Chacona Amazônica” (1998) – North American Premiere by 
- Brazilian composer Marlos Nobre in a new edition by Marcelo Jardim     “
- The Blue Riders: Concerto for Winds” By James David - Composer-in-Reside
- nce James David’s Western United States Premiere     “Konzertmusik fü
- r Blasorche — More: https://letsdoitdallas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
 UID:rice-owls-at-north-texas-mean-green-womens-volleyball|north-texas-volle
@@ -122,39 +107,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=chris-knight%7Cdan-s-silv
  erleaf-denton%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:guest-artist-recital-minjung-baek-piano|paul-voertman-concert-hall-at-t
- he-music-building-denton|8-00-pm-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261024T010000Z
-DTSTART:20261024T010000Z
-DTEND:20261024T040000Z
-SUMMARY:Guest Artist Recital: MinJung Baek\, piano
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=guest-artist-recital-minj
- ung-baek-piano%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7
- C8-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:senior-recital-robin-sabatini-clarinet|recital-hall-at-the-music-buildi
- ng-denton|12-30-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T173000Z
-DTSTART:20261024T173000Z
-DTEND:20261024T203000Z
-SUMMARY:Senior Recital: Robin Sabatini\, clarinet
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=senior-recital-robin-saba
- tini-clarinet%7Crecital-hall-at-the-music-building-denton%7C12-30-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
 UID:damag3|rubber-gloves-denton|7-00-pm-2026-10-24@letsdoitdallas.com
@@ -304,6 +256,41 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/city/denton/
 END:VEVENT
 BEGIN:VEVENT
+UID:commercial-music-showcase-fall-2026|lab-west-at-the-music-building-dent
+ on|8-00-pm-2026-10-26@letsdoitdallas.com
+DTSTAMP:20261027T010000Z
+DTSTART:20261027T010000Z
+DTEND:20261027T040000Z
+SUMMARY:Commercial Music Showcase Fall 2026
+LOCATION:Lab West at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=commercial-music-showcase
+ -fall-2026%7Clab-west-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:spectrum-a-performance-of-new-works-by-north-texas-composers-fall-2026-
+ concert-2|paul-voertman-concert-hall-at-the-music-building-denton|8-00-pm-
+ 2026-10-26@letsdoitdallas.com
+DTSTAMP:20261027T010000Z
+DTSTART:20261027T010000Z
+DTEND:20261027T040000Z
+SUMMARY:Spectrum: A Performance of New Works by North Texas Composers Fall 
+ 2026 Concert 2
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=spectrum-a-performance-of
+ -new-works-by-north-texas-composers-fall-2026-concert-2%7Cpaul-voertman-co
+ ncert-hall-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below.      This event is free
+  and open to the public with general seating. — More: https://letsdoitda
+ llas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
 UID:senior-recital-landon-murr-bassoon|paul-voertman-concert-hall-at-the-mu
  sic-building-denton|6-30-pm-2026-10-27@letsdoitdallas.com
 DTSTAMP:20261027T233000Z
@@ -314,22 +301,6 @@ LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
 URL:https://letsdoitdallas.com/?date=2026-10-27&e=senior-recital-landon-mur
  r-bassoon%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C6-30
  -pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:tubaween-fall-2026-concert|recital-hall-at-the-music-building-denton|6-
- 30-pm-2026-10-27@letsdoitdallas.com
-DTSTAMP:20261027T233000Z
-DTSTART:20261027T233000Z
-DTEND:20261028T023000Z
-SUMMARY:Tubaween! Fall 2026 Concert
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=tubaween-fall-2026-concer
- t%7Crecital-hall-at-the-music-building-denton%7C6-30-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
  ay of the performance.      Livestream is not available for this event.   
@@ -357,22 +328,6 @@ DESCRIPTION:Dr. Megan Bryan and guest organist Todd Wilson will lead a lect
  o — More: https://letsdoitdallas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
-UID:graduate-artist-recital-hye-in-roh-piano|lab-west-at-the-music-building
- -denton|8-00-pm-2026-10-27@letsdoitdallas.com
-DTSTAMP:20261028T010000Z
-DTSTART:20261028T010000Z
-DTEND:20261028T040000Z
-SUMMARY:Graduate Artist Recital: Hye In Roh\, Piano
-LOCATION:Lab West at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=graduate-artist-recital-h
- ye-in-roh-piano%7Clab-west-at-the-music-building-denton%7C8-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
 UID:trombone-consortium-concert|paul-voertman-concert-hall-at-the-music-bui
  lding-denton|8-00-pm-2026-10-27@letsdoitdallas.com
 DTSTAMP:20261028T010000Z
@@ -382,23 +337,6 @@ SUMMARY:Trombone Consortium Concert
 LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
 URL:https://letsdoitdallas.com/?date=2026-10-27&e=trombone-consortium-conce
  rt%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C8-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:doctoral-recital-soyoung-park-piano|paul-voertman-concert-hall-at-the-m
- usic-building-denton|6-30-pm-2026-10-28@letsdoitdallas.com
-DTSTAMP:20261028T233000Z
-DTSTART:20261028T233000Z
-DTEND:20261029T023000Z
-SUMMARY:Doctoral Recital: Soyoung Park\, piano
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=doctoral-recital-soyoung-
- park-piano%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C6-3
- 0-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
  ay of the performance.      Livestream is not available for this event.   
@@ -446,6 +384,22 @@ DESCRIPTION:Important Links and Information      Program  Please note\, thi
   of the performance.      Livestream is not available for this event.     
    This event is free and open to the public with general seating. — More
  : https://letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:tams-dull-roar-orchestra-fall-concert-2026|recital-hall-at-the-music-bu
+ ilding-denton|8-00-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261030T010000Z
+DTSTART:20261030T010000Z
+DTEND:20261030T040000Z
+SUMMARY:TAMS Dull Roar Orchestra Fall Concert 2026
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=tams-dull-roar-orchestra-
+ fall-concert-2026%7Crecital-hall-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
 UID:doctoral-lecture-recital-hyeyeon-kim-flute|recital-hall-at-the-music-bu
@@ -1842,5 +1796,71 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  ay of the performance.      Livestream is not available for this event.   
      This event is free and open to the public with general seating. — Mo
  re: https://letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:doctoral-recital-jennifer-watson-voice|recital-hall-at-the-music-buildi
+ ng-denton|5-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261119T230000Z
+DTSTART:20261119T230000Z
+DTEND:20261120T020000Z
+SUMMARY:Doctoral Recital: Jennifer Watson\, voice
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=doctoral-recital-jennifer
+ -watson-voice%7Crecital-hall-at-the-music-building-denton%7C5-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:wind-symphony-and-wind-orchestra|winspear-performance-hall-at-the-murch
+ ison-performing-arts-center-denton|7-30-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T013000Z
+DTSTART:20261120T013000Z
+DTEND:20261120T043000Z
+SUMMARY:Wind Symphony and Wind Orchestra
+LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
+ · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=wind-symphony-and-wind-or
+ chestra%7Cwinspear-performance-hall-at-the-murchison-performing-arts-cente
+ r-denton%7C7-30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below.      Patron assistance 
+ carts will be available at this performance to assist those with mobil —
+  More: https://letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:doctoral-recital-tong-zeng-voice|recital-hall-at-the-music-building-den
+ ton|8-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T020000Z
+DTSTART:20261120T020000Z
+DTEND:20261120T050000Z
+SUMMARY:Doctoral Recital: Tong Zeng\, voice
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=doctoral-recital-tong-zen
+ g-voice%7Crecital-hall-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:masters-recital-nicolas-clark-jazz-cello|lab-west-at-the-music-building
+ -denton|8-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T020000Z
+DTSTART:20261120T020000Z
+DTEND:20261120T050000Z
+SUMMARY:Masters Recital: Nicolas Clark\, jazz cello
+LOCATION:Lab West at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=masters-recital-nicolas-c
+ lark-jazz-cello%7Clab-west-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below.      This event is free
+  and open to the public with general seating. — More: https://letsdoitda
+ llas.com/city/denton/
 END:VEVENT
 END:VCALENDAR

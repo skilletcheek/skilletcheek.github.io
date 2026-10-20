@@ -10,6 +10,22 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:small-talk-big-conversations-for-small-businesses|oak-cliff-brewing-co-
+ dallas|10-00-am-2-00-pm-2026-10-21@letsdoitdallas.com
+DTSTAMP:20261021T150000Z
+DTSTART:20261021T150000Z
+DTEND:20261021T180000Z
+SUMMARY:Small Talk: Big Conversations for Small Businesses
+LOCATION:Oak Cliff Brewing Co · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-21&e=small-talk-big-conversati
+ ons-for-small-businesses%7Coak-cliff-brewing-co-dallas%7C10-00-am-2-00-pm
+DESCRIPTION:Join FreshBooks on October 21 in Dallas for Small Talk: Big Con
+ versations for Small Businesses\, a FREE community event designed for free
+ lancers\, creators\, founders\, and small business owners. The event bring
+ s together local entrepreneurs for honest conversations\, practical advice
+  — More: https://letsdoitdallas.com/district/bishop-arts/
+END:VEVENT
+BEGIN:VEVENT
 UID:katie-pruitt|the-kessler-theater-dallas|8-00-pm-2026-10-21@letsdoitdall
  as.com
 DTSTAMP:20261022T010000Z
@@ -224,17 +240,16 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/bishop-arts/
 END:VEVENT
 BEGIN:VEVENT
-UID:new-constellations-it-comes-in-waves-tour|the-kessler-theater-oak-cliff
- -dallas|doors-see-listing-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261117T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:New Constellations: It Comes In Waves Tour
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=new-constellations-it-com
- es-in-waves-tour%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listin
- g
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+UID:new-constellations|the-kessler-dallas|8-00-pm-2026-11-17@letsdoitdallas
+ .com
+DTSTAMP:20261118T020000Z
+DTSTART:20261118T020000Z
+DTEND:20261118T050000Z
+SUMMARY:New Constellations
+LOCATION:The Kessler · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=new-constellations%7Cthe-
+ kessler-dallas%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/bishop-arts/
 END:VEVENT
 BEGIN:VEVENT

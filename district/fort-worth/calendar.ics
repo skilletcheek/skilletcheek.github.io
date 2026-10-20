@@ -10,70 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
- ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-19@lets
- doitdallas.com
-DTSTAMP:20261019T150000Z
-DTSTART:20261019T150000Z
-DTEND:20261019T180000Z
-SUMMARY:Puzzling Adventures Scavenger Hunt
-LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=puzzling-adventures-scave
- nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
- rth-76102-united-states%7C10-00-am
-DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
- uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
- e\, and an informative self-guided walking tour. Each adventure consists o
- f a series of locations that you are guided to where you are required t 
- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:nick-mullen|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm-202
- 6-10-19@letsdoitdallas.com
-DTSTAMP:20261020T010000Z
-DTSTART:20261020T010000Z
-DTEND:20261020T040000Z
-SUMMARY:Nick Mullen
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=nick-mullen%7Chyena-s-com
- edy-night-club-fort-worth-fort-worth%7C8-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-big-laugh-open-mic|big-laugh-comedy-club-fort-worth-604-main-st-sui
- te-100-fort-worth-tx-76102-united-states|8-00-pm-2026-10-19@letsdoitdallas
- .com
-DTSTAMP:20261020T010000Z
-DTSTART:20261020T010000Z
-DTEND:20261020T040000Z
-SUMMARY:The Big Laugh Open Mic
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=the-big-laugh-open-mic%7C
- big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102
- -united-states%7C8-00-pm
-DESCRIPTION:Have you wondered to yourself\, “where can I go on a Monday t
- o get a good laugh?” Look no further because we have the spot for you. T
- he Big Laugh Open Mic is a perfect setting for anyone who is looking to la
- ugh and have a good time.  So grab your grandma or your side piece and hea
-  — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:dock-open-mic|dock-bookshop-6637-meadowbrook-dr-fort-worth-tx-75116|7-0
- 0-am-2026-10-20@letsdoitdallas.com
-DTSTAMP:20261020T120000Z
-DTSTART:20261020T120000Z
-DTEND:20261020T150000Z
-SUMMARY:Dock Open Mic
-LOCATION:dock bookshop · Fort Worth Tx
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=dock-open-mic%7Cdock-book
- shop-6637-meadowbrook-dr-fort-worth-tx-75116%7C7-00-am
-DESCRIPTION:The Dock open mic presents Speak And Be Published. Everyone who
-  reads gets their poem published in an anthology   June 16\, 2026 at 7:30 
- PM CDT  The Dock Bookshop  $7 — More: https://letsdoitdallas.com/distric
- t/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:member-morning|fort-worth-museum-of-science-and-history-1600-gendy-stre
  et-fort-worth-76107-united-states|9-00-am-2026-10-20@letsdoitdallas.com
 DTSTAMP:20261020T140000Z
@@ -395,6 +331,77 @@ URL:https://letsdoitdallas.com/?date=2026-10-22&e=mecum-auctions%7Cdickies-
  arena-fort-worth%7C3-30-am
 DESCRIPTION:sports event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:chemistry-week|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-22@letsdoitdallas.com
+DTSTAMP:20261022T150000Z
+DTSTART:20261022T150000Z
+DTEND:20261022T180000Z
+SUMMARY:Chemistry Week
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=chemistry-week%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:This year’s theme\, “Chemistry Under Construction\,” high
+ lights how chemistry helps us build\, create\, and innovate the world arou
+ nd us. From the materials in our homes and communities to the technologies
+  shaping our future\, chemistry is at work behind the scenes.   Learn how
+  chemis — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-22@letsdoitdallas.com
+DTSTAMP:20261022T150000Z
+DTSTART:20261022T150000Z
+DTEND:20261022T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-22@lets
+ doitdallas.com
+DTSTAMP:20261022T150000Z
+DTSTART:20261022T150000Z
+DTEND:20261022T180000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:national-multi-cultural-western-heritage-museum|the-national-multicultu
+ ral-western-heritage-museum-2201-dottie-lynn-pkwy-suite-115-fort-worth-761
+ 20-united-states|11-00-am-2026-10-22@letsdoitdallas.com
+DTSTAMP:20261022T160000Z
+DTSTART:20261022T160000Z
+DTEND:20261022T190000Z
+SUMMARY:National Multi Cultural Western Heritage Museum
+LOCATION:The National Multicultural Western Heritage Museum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=national-multi-cultural-w
+ estern-heritage-museum%7Cthe-national-multicultural-western-heritage-museu
+ m-2201-dottie-lynn-pkwy-suite-115-fort-worth-76120-united-states%7C11-00-a
+ m
+DESCRIPTION:The primary objective of the National Multicultural Western Her
+ itage Museum and Hall of Fame is to offer the visitor a true and complete 
+ historical perspective of the people and activities that built the unique 
+ culture of the American West. The work of artists who documented the — M
+ ore: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:music-of-john-denver|casa-manana-fort-worth|7-30-pm-2026-10-22@letsdoit
@@ -1782,5 +1789,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-17&e=legacy-of-the-longhorn%7C
  cowtown-coliseum-fort-worth%7C12-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:lyle-lovett-and-his-small-large-band|bass-performance-hall-fort-worth|7
+ -30-pm-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261118T013000Z
+DTSTART:20261118T013000Z
+DTEND:20261118T043000Z
+SUMMARY:Lyle Lovett and his Small Large Band
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=lyle-lovett-and-his-small
+ -large-band%7Cbass-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/fort-worth/
 END:VEVENT
 END:VCALENDAR

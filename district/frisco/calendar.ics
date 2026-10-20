@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:breakfast-with-santa-tickets-go-on-sale|frisco|see-details-2026-10-19@l
- etsdoitdallas.com
-DTSTAMP:20261019T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
-SUMMARY:Breakfast with Santa tickets go on sale
-LOCATION:Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=breakfast-with-santa-tick
- ets-go-on-sale%7Cfrisco%7Csee-details
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:force-encounters-analysis-open-enrollment-|7200-stonebrook-pkwy-frisco|
  08-00-am-2026-10-20@letsdoitdallas.com
 DTSTAMP:20261020T130000Z
@@ -319,6 +307,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-03&e=-the-cottage-by-theatre-f
  risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
 DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
  strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:election-day|frisco|07-00-am-2026-11-03@letsdoitdallas.com
+DTSTAMP:20261103T130000Z
+DTSTART:20261103T130000Z
+DTEND:20261103T160000Z
+SUMMARY:Election Day
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=election-day%7Cfrisco%7C0
+ 7-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-

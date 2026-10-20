@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:planning-passport|mckinney|see-details-2026-10-19@letsdoitdallas.com
-DTSTAMP:20261019T000000Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
-SUMMARY:Planning Passport
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=planning-passport%7Cmckin
- ney%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 31. — More: https://letsdoitdallas.com/dis
- trict/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:tennessee-larmar-hunt-infrastructure-streets-project-public-meeting|401
- -e-virginia-st-mckinney|06-00-pm-2026-10-19@letsdoitdallas.com
-DTSTAMP:20261019T230000Z
-DTSTART:20261019T230000Z
-DTEND:20261020T020000Z
-SUMMARY:Tennessee\, Larmar\, & Hunt Infrastructure & Streets Project Public
-  Meeting
-LOCATION:401 E. Virginia St. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=tennessee-larmar-hunt-inf
- rastructure-streets-project-public-meeting%7C401-e-virginia-st-mckinney%7C
- 06-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:planning-passport|mckinney|see-details-2026-10-20@letsdoitdallas.com
 DTSTAMP:20261020T000000Z
 DTSTART;VALUE=DATE:20261020
@@ -746,6 +720,30 @@ URL:https://letsdoitdallas.com/?date=2026-11-02&e=cultural-storytime-3-5-ye
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:wobblers-walkers-10-20-months-|6861-w-eldorado-parkway-mckinney|10-30-a
+ m-2026-11-03@letsdoitdallas.com
+DTSTAMP:20261103T163000Z
+DTSTART:20261103T163000Z
+DTEND:20261103T193000Z
+SUMMARY:Wobblers & Walkers (10-20 Months)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=wobblers-walkers-10-20-mo
+ nths-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:music-movement-storytime-3-5-years-|6861-w-eldorado-pkwy-mckinney|11-30
+ -am-2026-11-03@letsdoitdallas.com
+DTSTAMP:20261103T173000Z
+DTSTART:20261103T173000Z
+DTEND:20261103T203000Z
+SUMMARY:Music & Movement Storytime (3-5 Years)
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=music-movement-storytime-
+ 3-5-years-%7C6861-w-eldorado-pkwy-mckinney%7C11-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:worlds-2026-quarters-1|credit-union-of-texas-event-center-allen|4-00-pm
  -2026-11-03@letsdoitdallas.com
 DTSTAMP:20261103T220000Z
@@ -757,6 +755,30 @@ URL:https://letsdoitdallas.com/?date=2026-11-03&e=worlds-2026-quarters-1%7C
  credit-union-of-texas-event-center-allen%7C4-00-pm
 DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:mad-science-k-5th-grade-|6861-w-eldorado-pkwy-mckinney|04-30-pm-2026-11
+ -03@letsdoitdallas.com
+DTSTAMP:20261103T223000Z
+DTSTART:20261103T223000Z
+DTEND:20261104T013000Z
+SUMMARY:Mad Science (K-5th Grade)
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=mad-science-k-5th-grade-%
+ 7C6861-w-eldorado-pkwy-mckinney%7C04-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:american-mahjong-hour-adults-|6861-w-eldorado-parkway-mckinney|06-30-pm
+ -2026-11-03@letsdoitdallas.com
+DTSTAMP:20261104T003000Z
+DTSTART:20261104T003000Z
+DTEND:20261104T033000Z
+SUMMARY:American Mahjong Hour (Adults)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=american-mahjong-hour-adu
+ lts-%7C6861-w-eldorado-parkway-mckinney%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
 UID:worlds-2026-quarters-2|credit-union-of-texas-event-center-allen|4-00-pm

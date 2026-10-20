@@ -10,44 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sleep-club-life-after-youth-como-la-flor|three-links-deep-ellum-dallas|
- 8-00-pm-2026-10-19@letsdoitdallas.com
-DTSTAMP:20261020T010000Z
-DTSTART:20261020T010000Z
-DTEND:20261020T040000Z
-SUMMARY:Sleep Club\, Life After Youth\, Como La Flor
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=sleep-club-life-after-you
- th-como-la-flor%7Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
- pm-2026-10-19@letsdoitdallas.com
-DTSTAMP:20261020T020000Z
-DTSTART:20261020T020000Z
-DTEND:20261020T050000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C9-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:token-w-clark-d|club-dada-dallas|10-00-pm-2026-10-19@letsdoitdallas.com
-DTSTAMP:20261020T030000Z
-DTSTART:20261020T030000Z
-DTEND:20261020T060000Z
-SUMMARY:Token w/ Clark D
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=token-w-clark-d%7Cclub-da
- da-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:paledusk-headwreck-slow-degrade-blind-lace|three-links-deep-ellum-dalla
  s|6-20-pm-2026-10-20@letsdoitdallas.com
 DTSTAMP:20261020T232000Z
@@ -136,6 +98,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-22&e=basic-printer-spirit-of-b
  ear%7Cthree-links-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:tin-pool-freeze-sucka-through-the-divide-faded-night|trees-dallas|doors
+ -see-listing-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:TIN POOL * FREEZE SUCKA * THROUGH THE DIVIDE * FADED NIGHT
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=tin-pool-freeze-sucka-thr
+ ough-the-divide-faded-night%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-saint-cecilia-toldja|three-links-deep-ellum-dallas|7-00-pm-2026-10-
@@ -782,15 +757,15 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:landrones-arriba-la-l-usa-2026-tour|trees-dallas|doors-see-listing-2026
- -11-13@letsdoitdallas.com
+UID:ladrones-arriba-la-l-usa-2026-tour|trees-dallas|doors-see-listing-2026-
+ 11-13@letsdoitdallas.com
 DTSTAMP:20261113T000000Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
-SUMMARY:LANDRONES "ARRIBA LA L" USA 2026 TOUR
+SUMMARY:LADRONES "ARRIBA LA L" USA 2026 TOUR
 LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=landrones-arriba-la-l-usa
- -2026-tour%7Ctrees-dallas%7Cdoors-see-listing
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=ladrones-arriba-la-l-usa-
+ 2026-tour%7Ctrees-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
 END:VEVENT
@@ -875,6 +850,19 @@ DESCRIPTION:Religious event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:moral-decaine-flowerbed|three-links-deep-ellum-dallas|8-00-pm-2026-11-1
+ 7@letsdoitdallas.com
+DTSTAMP:20261118T020000Z
+DTSTART:20261118T020000Z
+DTEND:20261118T050000Z
+SUMMARY:MORAL\, Decaine\, Flowerbed
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=moral-decaine-flowerbed%7
+ Cthree-links-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:forbidden-tour|trees-dallas|doors-see-listing-2026-11-18@letsdoitdallas
  .com
 DTSTAMP:20261118T000000Z
@@ -884,6 +872,18 @@ SUMMARY:FORBIDDEN TOUR
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-18&e=forbidden-tour%7Ctrees-da
  llas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:daley|trees-dallas|doors-see-listing-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:DALEY
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=daley%7Ctrees-dallas%7Cdo
+ ors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
 END:VEVENT

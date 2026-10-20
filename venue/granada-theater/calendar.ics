@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:peter-bjorn-and-john|granada-theater-dallas-dallas|8-00-pm-2026-10-19@l
- etsdoitdallas.com
-DTSTAMP:20261020T010000Z
-DTSTART:20261020T010000Z
-DTEND:20261020T040000Z
-SUMMARY:Peter Bjorn and John
-LOCATION:Granada Theater - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=peter-bjorn-and-john%7Cgr
- anada-theater-dallas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:ax-and-the-hatchetmen|granada-theater-tx-dallas|8-00-pm-2026-10-20@lets
  doitdallas.com
 DTSTAMP:20261021T010000Z

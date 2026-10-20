@@ -281,4 +281,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-15&e=fifth-third-garage-dallas
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/american-airlines-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:xg-world-tour-the-core-in-dallas|american-airlines-center-dallas|8-00-p
+ m-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261118T020000Z
+DTSTART:20261118T020000Z
+DTEND:20261118T050000Z
+SUMMARY:XG WORLD TOUR: THE CORE IN DALLAS
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=xg-world-tour-the-core-in
+ -dallas%7Camerican-airlines-center-dallas%7C8-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/american-airlines-center/
+END:VEVENT
 END:VCALENDAR

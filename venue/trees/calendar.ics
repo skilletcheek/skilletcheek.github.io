@@ -9,6 +9,19 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:tin-pool-freeze-sucka-through-the-divide-faded-night|trees-dallas|doors
+ -see-listing-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:TIN POOL * FREEZE SUCKA * THROUGH THE DIVIDE * FADED NIGHT
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=tin-pool-freeze-sucka-thr
+ ough-the-divide-faded-night%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:invasion-car-show|trees-dallas|doors-see-listing-2026-10-24@letsdoitdal
  las.com
 DTSTAMP:20261024T000000Z
@@ -137,15 +150,15 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
-UID:landrones-arriba-la-l-usa-2026-tour|trees-dallas|doors-see-listing-2026
- -11-13@letsdoitdallas.com
+UID:ladrones-arriba-la-l-usa-2026-tour|trees-dallas|doors-see-listing-2026-
+ 11-13@letsdoitdallas.com
 DTSTAMP:20261113T000000Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
-SUMMARY:LANDRONES "ARRIBA LA L" USA 2026 TOUR
+SUMMARY:LADRONES "ARRIBA LA L" USA 2026 TOUR
 LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=landrones-arriba-la-l-usa
- -2026-tour%7Ctrees-dallas%7Cdoors-see-listing
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=ladrones-arriba-la-l-usa-
+ 2026-tour%7Ctrees-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT
@@ -159,6 +172,18 @@ SUMMARY:FORBIDDEN TOUR
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-18&e=forbidden-tour%7Ctrees-da
  llas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:daley|trees-dallas|doors-see-listing-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:DALEY
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=daley%7Ctrees-dallas%7Cdo
+ ors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT

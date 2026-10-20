@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:nick-mullen|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm-202
- 6-10-19@letsdoitdallas.com
-DTSTAMP:20261020T010000Z
-DTSTART:20261020T010000Z
-DTEND:20261020T040000Z
-SUMMARY:Nick Mullen
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=nick-mullen%7Chyena-s-com
- edy-night-club-fort-worth-fort-worth%7C8-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/hyena-s-comedy-night-club-fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:nick-mullen-18-|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm
  -2026-10-20@letsdoitdallas.com
 DTSTAMP:20261021T010000Z

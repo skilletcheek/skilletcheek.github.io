@@ -9,38 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chamber-music-concert|recital-hall-at-the-music-building-denton|8-00-pm
- -2026-10-21@letsdoitdallas.com
-DTSTAMP:20261022T010000Z
-DTSTART:20261022T010000Z
-DTEND:20261022T040000Z
-SUMMARY:Chamber Music Concert
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=chamber-music-concert%7Cr
- ecital-hall-at-the-music-building-denton%7C8-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream link below.      This event is free
-  and open to the public with general seating. — More: https://letsdoitda
- llas.com/venue/recital-hall-at-the-music-building/
-END:VEVENT
-BEGIN:VEVENT
-UID:senior-recital-robin-sabatini-clarinet|recital-hall-at-the-music-buildi
- ng-denton|12-30-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T173000Z
-DTSTART:20261024T173000Z
-DTEND:20261024T203000Z
-SUMMARY:Senior Recital: Robin Sabatini\, clarinet
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=senior-recital-robin-saba
- tini-clarinet%7Crecital-hall-at-the-music-building-denton%7C12-30-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/venue/recital-hall-at-the-music-building/
-END:VEVENT
-BEGIN:VEVENT
 UID:doctoral-lecture-recital-hongling-liang-collaborative-piano|recital-hal
  l-at-the-music-building-denton|8-00-pm-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261025T010000Z
@@ -74,22 +42,6 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  re: https://letsdoitdallas.com/venue/recital-hall-at-the-music-building/
 END:VEVENT
 BEGIN:VEVENT
-UID:tubaween-fall-2026-concert|recital-hall-at-the-music-building-denton|6-
- 30-pm-2026-10-27@letsdoitdallas.com
-DTSTAMP:20261027T233000Z
-DTSTART:20261027T233000Z
-DTEND:20261028T023000Z
-SUMMARY:Tubaween! Fall 2026 Concert
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=tubaween-fall-2026-concer
- t%7Crecital-hall-at-the-music-building-denton%7C6-30-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/venue/recital-hall-at-the-music-building/
-END:VEVENT
-BEGIN:VEVENT
 UID:doctoral-lecture-recital-tao-jiang-piano|recital-hall-at-the-music-buil
  ding-denton|12-00-pm-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261029T170000Z
@@ -104,6 +56,22 @@ DESCRIPTION:Important Links and Information      Program  Please note\, thi
   of the performance.      Livestream is not available for this event.     
    This event is free and open to the public with general seating. — More
  : https://letsdoitdallas.com/venue/recital-hall-at-the-music-building/
+END:VEVENT
+BEGIN:VEVENT
+UID:tams-dull-roar-orchestra-fall-concert-2026|recital-hall-at-the-music-bu
+ ilding-denton|8-00-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261030T010000Z
+DTSTART:20261030T010000Z
+DTEND:20261030T040000Z
+SUMMARY:TAMS Dull Roar Orchestra Fall Concert 2026
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=tams-dull-roar-orchestra-
+ fall-concert-2026%7Crecital-hall-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/venue/recital-hall-at-the-music-building/
 END:VEVENT
 BEGIN:VEVENT
 UID:doctoral-lecture-recital-hyeyeon-kim-flute|recital-hall-at-the-music-bu
@@ -552,6 +520,38 @@ SUMMARY:Doctoral Recital: Yuchen Wang\, piano
 LOCATION:Recital Hall at the Music Building · Denton
 URL:https://letsdoitdallas.com/?date=2026-11-18&e=doctoral-recital-yuchen-w
  ang-piano%7Crecital-hall-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/venue/recital-hall-at-the-music-building/
+END:VEVENT
+BEGIN:VEVENT
+UID:doctoral-recital-jennifer-watson-voice|recital-hall-at-the-music-buildi
+ ng-denton|5-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261119T230000Z
+DTSTART:20261119T230000Z
+DTEND:20261120T020000Z
+SUMMARY:Doctoral Recital: Jennifer Watson\, voice
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=doctoral-recital-jennifer
+ -watson-voice%7Crecital-hall-at-the-music-building-denton%7C5-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/venue/recital-hall-at-the-music-building/
+END:VEVENT
+BEGIN:VEVENT
+UID:doctoral-recital-tong-zeng-voice|recital-hall-at-the-music-building-den
+ ton|8-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T020000Z
+DTSTART:20261120T020000Z
+DTEND:20261120T050000Z
+SUMMARY:Doctoral Recital: Tong Zeng\, voice
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=doctoral-recital-tong-zen
+ g-voice%7Crecital-hall-at-the-music-building-denton%7C8-00-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
  ay of the performance.      Livestream is not available for this event.   

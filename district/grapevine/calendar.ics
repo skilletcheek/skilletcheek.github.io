@@ -10,53 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
- grapevine|04-30-pm-2026-10-19@letsdoitdallas.com
-DTSTAMP:20261019T213000Z
-DTSTART:20261019T213000Z
-DTEND:20261020T003000Z
-SUMMARY:After-School Cinema & Snacks
-LOCATION:Grapevine Public Library
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=after-school-cinema-snack
- s%7Cgrapevine-public-library-1201-municipal-way-grapevine%7C04-30-pm
-DESCRIPTION:Kick back after school\, bring your favorite snacks\, and enjoy
-  a movie with friends! For teens ages 13 and up. October 19\, 2026 04:30 P
- M - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine\, TX 760
- 51 https://www.grapevinetexas.gov/Calendar.aspx?EID=17651/639210354230000 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:digital-dimensions-library-vr-day|grapevine|05-00-pm-2026-10-19@letsdoi
- tdallas.com
-DTSTAMP:20261019T220000Z
-DTSTART:20261019T220000Z
-DTEND:20261020T010000Z
-SUMMARY:Digital Dimensions: Library VR Day
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=digital-dimensions-librar
- y-vr-day%7Cgrapevine%7C05-00-pm
-DESCRIPTION:Who: Ages 10+ What: Join us at the Esports Academy this Monday 
- for Virtual Reality Night! Dive into our extensive library of VR titles an
- d embark on adventures spanning global exploration\, immersive gaming\, ar
- tistic creation\, and more. Don’t miss this opportunity to experience th
-  — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:knit-crochet-circle|grapevine|05-30-pm-2026-10-19@letsdoitdallas.com
-DTSTAMP:20261019T223000Z
-DTSTART:20261019T223000Z
-DTEND:20261020T013000Z
-SUMMARY:Knit & Crochet Circle
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=knit-crochet-circle%7Cgra
- pevine%7C05-30-pm
-DESCRIPTION:Looking for a cozy way to unwind and connect with fellow yarn e
- nthusiasts? Join us Mondays for our casual Knit & Crochet Circle! Whether 
- you're a seasoned pro or just picking up your first set of needles or hook
- s\, this is the perfect opportunity to share your latest projects\, swa 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:art-studio-18-|grapevine|10-00-am-2026-10-20@letsdoitdallas.com
 DTSTAMP:20261020T150000Z
 DTSTART:20261020T150000Z
@@ -962,6 +915,37 @@ URL:https://letsdoitdallas.com/?date=2026-11-02&e=board-of-zoning-adjustmen
  t-meeting%7Cplanning-and-zoning-conference-room-2nd-floor-200-south-main-s
  treet-grapevine%7C06-15-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-studio-18-|grapevine|10-00-am-2026-11-03@letsdoitdallas.com
+DTSTAMP:20261103T160000Z
+DTSTART:20261103T160000Z
+DTEND:20261103T190000Z
+SUMMARY:Art Studio (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=art-studio-18-%7Cgrapevin
+ e%7C10-00-am
+DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
+ our own projects or start something new. Bring your own project and ideas!
+  This is a welcoming space for creatives 18+. *Library Card Required* Nove
+ mber 3\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grapev 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:virtual-author-talk-with-asha-frost|grapevine|01-00-pm-2026-11-03@letsd
+ oitdallas.com
+DTSTAMP:20261103T190000Z
+DTSTART:20261103T190000Z
+DTEND:20261103T220000Z
+SUMMARY:Virtual Author Talk with Asha Frost
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=virtual-author-talk-with-
+ asha-frost%7Cgrapevine%7C01-00-pm
+DESCRIPTION:In a fast-paced world that often leaves us feeling overwhelmed 
+ and disconnected\, true healing does not come from looking outward—it be
+ gins within. Join us for a transformative virtual conversation with Indige
+ nous Medicine Woman Asha Frost as she explores her groundbreaking book\, 
+ — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:speed-dating-in-grapevine-speed-dating-all-professionals-35-50|hop-and-

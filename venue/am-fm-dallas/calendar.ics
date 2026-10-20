@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kels-w-ella-maddux|am-fm-dallas-dallas|7-00-pm-2026-10-19@letsdoitdalla
- s.com
-DTSTAMP:20261020T000000Z
-DTSTART:20261020T000000Z
-DTEND:20261020T030000Z
-SUMMARY:Kels w/ Ella Maddux
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-19&e=kels-w-ella-maddux%7Cam-f
- m-dallas-dallas%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/am-fm-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:machine-girl|am-fm-dallas-dallas|7-00-pm-2026-10-21@letsdoitdallas.com
 DTSTAMP:20261022T000000Z
 DTSTART:20261022T000000Z
@@ -154,6 +141,19 @@ SUMMARY:King Buffalo
 LOCATION:AM/FM Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-13&e=king-buffalo%7Cam-fm-dall
  as-dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:chase-petra-w-jer|am-fm-dallas-dallas|7-00-pm-2026-11-17@letsdoitdallas
+ .com
+DTSTAMP:20261118T010000Z
+DTSTART:20261118T010000Z
+DTEND:20261118T040000Z
+SUMMARY:Chase Petra w/ JER
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=chase-petra-w-jer%7Cam-fm
+ -dallas-dallas%7C7-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/am-fm-dallas/
 END:VEVENT
