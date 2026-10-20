@@ -229,7 +229,9 @@ venue-token equality-or-subset AND start times within 90 minutes.
   SeatGeek "Improv Comedy Club - Addison" would share one key and an alias
   would hijack the other city's club. The loader keys such a variant with
   the suffix (`keep_suffix=True`) and lookup tries that first; variants
-  without one behave as before. Mirrored in `_loadVenueAliases()` /
+  without one behave as before. **Look aliases up only through
+  `_canonical_venue()`** — until 2026-10-20 venue pages and `organizer.url`
+  used the plain key, so suffixed aliases deduped but never reached them. Mirrored in `_loadVenueAliases()` /
   `_venueTokens()` in `js/sources.js` — the two layers produced identical
   venue tokens for all 174 venue strings in the feed (hashed in the
   preview). Old JS reading a new alias file DOES hijack Addison, so ship the

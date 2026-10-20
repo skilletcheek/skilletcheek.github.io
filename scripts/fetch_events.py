@@ -1801,7 +1801,7 @@ def _organizer_url(event_url, venue):
             host == h or host.endswith("." + h) for h in _LISTING_HOSTS):
         return f"{p.scheme}://{host}/"
     if venue:
-        slug = _venue_slug(_VENUE_ALIASES.get(_venue_key(venue), venue))
+        slug = _venue_slug(_canonical_venue(venue))
         if slug in _VENUE_PAGES:
             return f"{SITE}/venue/{slug}/"
     return None
@@ -2566,7 +2566,7 @@ def write_venues(events):
         # under VENUE_MIN_EVENTS forever. "Trees" / "Trees - Dallas" did
         # exactly that: 1 event + 2 events, neither cleared the floor alone,
         # so a real Deep Ellum room with real shows had no venue page.
-        venue = _VENUE_ALIASES.get(_venue_key(venue), venue)
+        venue = _canonical_venue(venue)
         slug = _venue_slug(venue)
         if not slug:
             continue
@@ -4189,6 +4189,17 @@ def _venue_key(name: str, keep_suffix: bool = False) -> str:
 _VENUE_ALIASES = _load_venue_aliases()
 
 
+def _canonical_venue(name: str) -> str:
+    """`name` rewritten through venue-aliases.json, or unchanged.
+
+    The suffix-qualified key first, so "... - Arlington" beats "...". Every
+    alias lookup goes through here: until 2026-10-20 only _venue_tokens() tried
+    the suffix, so a variant written with one ("Trees - Dallas") deduped
+    correctly but never reached its venue page or organizer.url."""
+    return (_VENUE_ALIASES.get(_venue_key(name, keep_suffix=True))
+            or _VENUE_ALIASES.get(_venue_key(name)) or name)
+
+
 VENUE_DISTRICT_FILE = ROOT / "venue-districts.json"
 
 
@@ -4247,7 +4258,7 @@ def _load_home_teams() -> list:
     for t in raw:
         if not (t.get("team") and t.get("venues")):
             raise SystemExit(f"feeds.json home_teams: {t!r} needs a team and venues")
-        keys = {_venue_key(_VENUE_ALIASES.get(_venue_key(v), v)) for v in t["venues"]}
+        keys = {_venue_key(_canonical_venue(v)) for v in t["venues"]}
         out.append((t["team"], t.get("url"), t["team"].lower(), keys))
     return out
 
@@ -4270,7 +4281,7 @@ def tag_home_teams(rows):
         venue = _split_area(r.get("area", ""))[0]
         if not venue:
             continue
-        vkey = _venue_key(_VENUE_ALIASES.get(_venue_key(venue), venue))
+        vkey = _venue_key(_canonical_venue(venue))
         for team, url, low, keys in teams:
             if low in home and vkey in keys:
                 r["organizer"] = {"name": team, **({"url": url} if url else {})}
@@ -4288,11 +4299,7 @@ def _venue_tokens(area: str) -> set:
     of normalization fixes, so variants are first rewritten to a canonical name
     via venue-aliases.json (see that file for why this is data and not a looser
     comparison)."""
-    key = _venue_key(area)
-    # the suffix-qualified alias first, so "… - Arlington" beats "…"
-    canonical = (_VENUE_ALIASES.get(_venue_key(area, keep_suffix=True))
-                 or _VENUE_ALIASES.get(key))
-    v = _venue_key(canonical) if canonical else key
+    v = _venue_key(_canonical_venue(area))
     return {t for t in v.split() if t not in _STOP and len(t) > 1}
 
 
