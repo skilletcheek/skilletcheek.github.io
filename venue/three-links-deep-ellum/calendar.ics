@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:paledusk-headwreck-slow-degrade-blind-lace|three-links-deep-ellum-dalla
- s|6-20-pm-2026-10-20@letsdoitdallas.com
-DTSTAMP:20261020T232000Z
-DTSTART:20261020T232000Z
-DTEND:20261021T022000Z
-SUMMARY:Paledusk\, Headwreck\, Slow Degrade\, blind lace
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=paledusk-headwreck-slow-d
- egrade-blind-lace%7Cthree-links-deep-ellum-dallas%7C6-20-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:jackie-evans-blair-lamb|three-links-deep-ellum-dallas|7-00-pm-2026-10-2
  1@letsdoitdallas.com
 DTSTAMP:20261022T000000Z
@@ -293,5 +280,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-17&e=moral-decaine-flowerbed%7
  Cthree-links-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:big-ass-truck|three-links-deep-ellum-dallas|6-30-pm-2026-11-18@letsdoit
+ dallas.com
+DTSTAMP:20261119T003000Z
+DTSTART:20261119T003000Z
+DTEND:20261119T033000Z
+SUMMARY:Big Ass Truck
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=big-ass-truck%7Cthree-lin
+ ks-deep-ellum-dallas%7C6-30-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

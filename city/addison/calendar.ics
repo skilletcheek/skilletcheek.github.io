@@ -339,4 +339,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-15&e=steve-byrne%7Caddison-imp
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/city/addison/
 END:VEVENT
+BEGIN:VEVENT
+UID:doughboys-podcast|addison-improv-addison|7-30-pm-2026-11-18@letsdoitdal
+ las.com
+DTSTAMP:20261119T013000Z
+DTSTART:20261119T013000Z
+DTEND:20261119T043000Z
+SUMMARY:Doughboys Podcast
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=doughboys-podcast%7Caddis
+ on-improv-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/city/addison/
+END:VEVENT
 END:VCALENDAR

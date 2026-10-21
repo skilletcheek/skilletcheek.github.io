@@ -10,74 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:honky-tonk-tuesdays-with-raised-right-men|poor-david-s-pub-dallas|doors
- -see-listing-2026-10-20@letsdoitdallas.com
-DTSTAMP:20261020T000000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-SUMMARY:Honky Tonk Tuesdays with Raised Right Men
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=honky-tonk-tuesdays-with-
- raised-right-men%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-20@letsdoitdallas.com
-DTSTAMP:20261020T130000Z
-DTSTART:20261020T130000Z
-DTEND:20261020T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:fifth-third-garage-dallas-stars-v-boston-bruins|american-airlines-cente
- r-dallas|7-00-pm-2026-10-20@letsdoitdallas.com
-DTSTAMP:20261021T000000Z
-DTSTART:20261021T000000Z
-DTEND:20261021T030000Z
-SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Boston Bruins
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=fifth-third-garage-dallas
- -stars-v-boston-bruins%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:black-country-new-road|longhorn-ballroom-backyard-amphitheater-dallas|8
- -00-pm-2026-10-20@letsdoitdallas.com
-DTSTAMP:20261021T010000Z
-DTSTART:20261021T010000Z
-DTEND:20261021T040000Z
-SUMMARY:Black Country\, New Road
-LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=black-country-new-road%7C
- longhorn-ballroom-backyard-amphitheater-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:kxt-presents-hermanos-guti-rrez|south-side-ballroom-dallas|8-00-pm-2026
- -10-20@letsdoitdallas.com
-DTSTAMP:20261021T010000Z
-DTSTART:20261021T010000Z
-DTEND:20261021T040000Z
-SUMMARY:KXT Presents - Hermanos Gutiérrez
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=kxt-presents-hermanos-gut
- i-rrez%7Csouth-side-ballroom-dallas%7C8-00-pm
-DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-10-21@letsdoitdallas.com
 DTSTAMP:20261021T130000Z
@@ -1509,5 +1441,34 @@ URL:https://letsdoitdallas.com/?date=2026-11-17&e=xg-world-tour-the-core-in
  -dallas%7Camerican-airlines-center-dallas%7C8-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-vs-golden-state-warriors|american-airlines-center-dall
+ as|8-30-pm-2026-11-18@letsdoitdallas.com
+DTSTAMP:20261119T023000Z
+DTSTART:20261119T023000Z
+DTEND:20261119T053000Z
+SUMMARY:Dallas Mavericks vs. Golden State Warriors
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=dallas-mavericks-vs-golde
+ n-state-warriors%7Camerican-airlines-center-dallas%7C8-30-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:friendsgiving-a-harvest-night-of-live-music-with-gustavo-monsante-|-jfi
+ -|-jj-the-mystics|poor-david-s-pub-dallas|doors-see-listing-2026-11-20@let
+ sdoitdallas.com
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Friendsgiving: A Harvest Night of Live Music with Gustavo Monsante 
+ | JFI | JJ & The Mystics
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=friendsgiving-a-harvest-n
+ ight-of-live-music-with-gustavo-monsante-%7C-jfi-%7C-jj-the-mystics%7Cpoor
+ -david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:adult-color-workshop-orange-pass-the-canvas-ages-18-|west-garland-libra
- ry-garland|06-00-pm-2026-10-20@letsdoitdallas.com
-DTSTAMP:20261020T230000Z
-DTSTART:20261020T230000Z
-DTEND:20261021T020000Z
-SUMMARY:Adult Color Workshop: Orange\, Pass the Canvas (Ages 18+)
-LOCATION:West Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=adult-color-workshop-oran
- ge-pass-the-canvas-ages-18-%7Cwest-garland-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Explore the power of orange! Join us for the next i
- nstallment in our color series as we dive into the meaning behind orange 
- — a color of energy\, caution and the unknown. What does orange make you
-  feel? Let’s find out together. October 20\, 2026 06:00 PM - 07:30 PM 39
- 21 — More: https://letsdoitdallas.com/venue/west-garland-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:family-read-play-ages-0-5-|west-garland-library-garland|10-30-am-2026-1
  0-21@letsdoitdallas.com
 DTSTAMP:20261021T153000Z
@@ -119,5 +103,21 @@ DESCRIPTION:6:00 p.m.\; Join us for a hands-on class designed for those alr
  e your own custom monogram keychain using acrylic shapes and adhesive viny
  l. Whether you’re a Cricut Pro or looking to try something new\, this pr
  o — More: https://letsdoitdallas.com/venue/west-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-read-play-ages-0-5-|west-garland-library-garland|10-30-am-2026-1
+ 1-04@letsdoitdallas.com
+DTSTAMP:20261104T163000Z
+DTSTART:20261104T163000Z
+DTEND:20261104T193000Z
+SUMMARY:Family Read & Play (Ages 0-5)
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=family-read-play-ages-0-5
+ -%7Cwest-garland-library-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; The whole family will learn\, play\, and grow duri
+ ng this interactive storytime full of stories\, creative movement\, and so
+ ngs that will strengthen listening\, language\, and early literacy skills.
+  This storytime is ideal for children from birth to 5 years old and their 
+ ca — More: https://letsdoitdallas.com/venue/west-garland-library/
 END:VEVENT
 END:VCALENDAR

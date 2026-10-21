@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ax-and-the-hatchetmen|granada-theater-tx-dallas|8-00-pm-2026-10-20@lets
- doitdallas.com
-DTSTAMP:20261021T010000Z
-DTSTART:20261021T010000Z
-DTEND:20261021T040000Z
-SUMMARY:Ax and the Hatchetmen
-LOCATION:Granada Theater - TX · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=ax-and-the-hatchetmen%7Cg
- ranada-theater-tx-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:book-of-love|granada-theater-dallas-dallas|8-00-pm-2026-10-23@letsdoitd
  allas.com
 DTSTAMP:20261024T010000Z
@@ -180,6 +167,20 @@ SUMMARY:The Wrecks - Finally : OUTSIDE Tour
 LOCATION:Granada Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-17&e=the-wrecks-finally-outsid
  e-tour%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
+ enue/granada-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:-kxt-91-7-presents-the-afghan-whigs-w-night-moves|granada-theater-lower
+ -greenville-dallas|doors-see-listing-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:“KXT 91.7 Presents” The Afghan Whigs w / Night Moves
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=-kxt-91-7-presents-the-af
+ ghan-whigs-w-night-moves%7Cgranada-theater-lower-greenville-dallas%7Cdoors
+ -see-listing
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT

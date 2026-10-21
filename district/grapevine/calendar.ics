@@ -10,53 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:open-practice-and-play-night|grapevine|04-30-pm-2026-10-20@letsdoitdall
- as.com
-DTSTAMP:20261020T213000Z
-DTSTART:20261020T213000Z
-DTEND:20261021T003000Z
-SUMMARY:Open Practice and Play Night
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=open-practice-and-play-ni
- ght%7Cgrapevine%7C04-30-pm
-DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
-  ranked play. Ages 12 and up. October 20\, 2026 04:30 PM - 07:00 PM Grapev
- ine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17835/6392
- 65386440000000 — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:teentober-baba-yaga-birdhouses-|grapevine|05-00-pm-2026-10-20@letsdoitd
- allas.com
-DTSTAMP:20261020T220000Z
-DTSTART:20261020T220000Z
-DTEND:20261021T010000Z
-SUMMARY:TeenTober: Baba Yaga Birdhouses!
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=teentober-baba-yaga-birdh
- ouses-%7Cgrapevine%7C05-00-pm
-DESCRIPTION:For tweens and teens\, 6th grade and up! Registration is requir
- ed as supplies and space are limited. Have you ever wanted your own walkin
- g house that has bird legs? Well\, while you can't have one of those\, you
-  CAN join us in making a bird house version of Baba Yaga's iconic home f 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:american-history-storytime|grapevine|06-30-pm-2026-10-20@letsdoitdallas
- .com
-DTSTAMP:20261020T233000Z
-DTSTART:20261020T233000Z
-DTEND:20261021T023000Z
-SUMMARY:American History Storytime
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=american-history-storytim
- e%7Cgrapevine%7C06-30-pm
-DESCRIPTION:Travel through American history with stories\, crafts\, and fun
-  activities! Ruth Parrott from our local chapter of DAR will bring history
-  to life through engaging stories and activities for children. October 20\
- , 2026 06:30 PM - 07:00 PM Grapevine\, TX 76051 https://www.grapevinetexa 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:stem-lab-18-|grapevine|10-00-am-2026-10-21@letsdoitdallas.com
 DTSTAMP:20261021T150000Z
 DTSTART:20261021T150000Z
@@ -768,6 +721,18 @@ DESCRIPTION:Interested in podcasting or recording music? Come learn how to
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
+UID:trick-or-treat-at-the-library-|grapevine|12-00-pm-2026-10-31@letsdoitda
+ llas.com
+DTSTAMP:20261031T170000Z
+DTSTART:20261031T170000Z
+DTEND:20261031T200000Z
+SUMMARY:Trick or Treat at the Library!
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=trick-or-treat-at-the-lib
+ rary-%7Cgrapevine%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
 UID:board-game-meet-up-for-adults-halloween-special|grapevine|02-00-pm-2026
  -10-31@letsdoitdallas.com
 DTSTAMP:20261031T190000Z
@@ -914,6 +879,52 @@ DESCRIPTION:In a fast-paced world that often leaves us feeling overwhelmed
  and disconnected\, true healing does not come from looking outward—it be
  gins within. Join us for a transformative virtual conversation with Indige
  nous Medicine Woman Asha Frost as she explores her groundbreaking book\, 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:stem-lab-18-|grapevine|10-00-am-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261104T160000Z
+DTSTART:20261104T160000Z
+DTEND:20261104T190000Z
+SUMMARY:STEM Lab (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=stem-lab-18-%7Cgrapevine%
+ 7C10-00-am
+DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
+ at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
+ ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
+ edgeable staff will be available to provide guidance\, tips\, and support 
+ as — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:open-practice-and-play-night|grapevine|04-30-pm-2026-11-04@letsdoitdall
+ as.com
+DTSTAMP:20261104T223000Z
+DTSTART:20261104T223000Z
+DTEND:20261105T013000Z
+SUMMARY:Open Practice and Play Night
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=open-practice-and-play-ni
+ ght%7Cgrapevine%7C04-30-pm
+DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
+  ranked play. Ages 12 and up. November 4\, 2026 04:30 PM - 07:30 PM Grapev
+ ine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17750/6392
+ 32829710000000 — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-night-for-adults-18-|grapevine|06-00-pm-2026-11-04@letsdoitdallas.c
+ om
+DTSTAMP:20261105T000000Z
+DTSTART:20261105T000000Z
+DTEND:20261105T030000Z
+SUMMARY:Art Night for Adults (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=art-night-for-adults-18-%
+ 7Cgrapevine%7C06-00-pm
+DESCRIPTION:Not all art has to be Fine Art. Make Fun Art. Join us for a fun
+  evening of feel-good\, no-pressure\, creativity. All supplies will be pro
+ vided. Adults only. (18+). Registration Required. November 4\, 2026 06:00 
+ PM - 07:30 PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calenda 
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT

@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:paledusk-headwreck-slow-degrade-blind-lace|three-links-deep-ellum-dalla
- s|6-20-pm-2026-10-20@letsdoitdallas.com
-DTSTAMP:20261020T232000Z
-DTSTART:20261020T232000Z
-DTEND:20261021T022000Z
-SUMMARY:Paledusk\, Headwreck\, Slow Degrade\, blind lace
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=paledusk-headwreck-slow-d
- egrade-blind-lace%7Cthree-links-deep-ellum-dallas%7C6-20-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:joon|deep-ellum-art-co-dallas|8-00-pm-2026-10-20@letsdoitdallas.com
-DTSTAMP:20261021T010000Z
-DTSTART:20261021T010000Z
-DTEND:20261021T040000Z
-SUMMARY:Joon
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=joon%7Cdeep-ellum-art-co-
- dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:jackie-evans-blair-lamb|three-links-deep-ellum-dallas|7-00-pm-2026-10-2
  1@letsdoitdallas.com
 DTSTAMP:20261022T000000Z
@@ -475,6 +450,19 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:celebration-of-life-shannon-mcmillan|trees-dallas|doors-see-listing-202
+ 6-11-01@letsdoitdallas.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:CELEBRATION OF LIFE: SHANNON MCMILLAN
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=celebration-of-life-shann
+ on-mcmillan%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:julia-jacklin-16-and-under-with-parent-or-legal-guardian-|the-studio-at
  -the-bomb-factory-dallas|8-00-pm-2026-11-02@letsdoitdallas.com
 DTSTAMP:20261103T020000Z
@@ -615,6 +603,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-07&e=roa%7Cthe-bomb-factory-da
  llas%7C8-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:celebration-of-life-alan-keys|trees-dallas|doors-see-listing-2026-11-08
+ @letsdoitdallas.com
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CELEBRATION OF LIFE: ALAN KEYS
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=celebration-of-life-alan-
+ keys%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:ok-goodnight-lux-terminus-eve|three-links-deep-ellum-dallas|7-00-pm-202
@@ -837,6 +838,19 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:jennifer-pena-live|trees-dallas|doors-see-listing-2026-11-15@letsdoitda
+ llas.com
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:JENNIFER PENA LIVE
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=jennifer-pena-live%7Ctree
+ s-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:lizzie-morgan|the-studio-at-the-bomb-factory-dallas|7-30-pm-2026-11-15@
  letsdoitdallas.com
 DTSTAMP:20261116T013000Z
@@ -876,6 +890,19 @@ DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:big-ass-truck|three-links-deep-ellum-dallas|6-30-pm-2026-11-18@letsdoit
+ dallas.com
+DTSTAMP:20261119T003000Z
+DTSTART:20261119T003000Z
+DTEND:20261119T033000Z
+SUMMARY:Big Ass Truck
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=big-ass-truck%7Cthree-lin
+ ks-deep-ellum-dallas%7C6-30-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:daley|trees-dallas|doors-see-listing-2026-11-19@letsdoitdallas.com
 DTSTAMP:20261119T000000Z
 DTSTART;VALUE=DATE:20261119
@@ -884,6 +911,18 @@ SUMMARY:DALEY
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=daley%7Ctrees-dallas%7Cdo
  ors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:southfm|trees-dallas|doors-see-listing-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:SOUTHFM
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=southfm%7Ctrees-dallas%7C
+ doors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
 END:VEVENT

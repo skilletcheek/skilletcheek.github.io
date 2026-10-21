@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:joon|deep-ellum-art-co-dallas|8-00-pm-2026-10-20@letsdoitdallas.com
-DTSTAMP:20261021T010000Z
-DTSTART:20261021T010000Z
-DTEND:20261021T040000Z
-SUMMARY:Joon
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=joon%7Cdeep-ellum-art-co-
- dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/deep-ellum-art-co/
-END:VEVENT
-BEGIN:VEVENT
 UID:dev-lemons|deep-ellum-art-co-dallas|8-00-pm-2026-10-21@letsdoitdallas.c
  om
 DTSTAMP:20261022T010000Z

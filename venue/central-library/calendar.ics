@@ -9,41 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:make-a-clay-mythical-creature-haz-un-alebrije-de-plastilina-de-la-bibli
- oteca-central|central-library-garland|06-00-pm-2026-10-20@letsdoitdallas.c
- om
-DTSTAMP:20261020T230000Z
-DTSTART:20261020T230000Z
-DTEND:20261021T020000Z
-SUMMARY:Make a Clay Mythical Creature! / ¡Haz un Alebrije de Plastilina! d
- e la Biblioteca Central
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=make-a-clay-mythical-crea
- ture-haz-un-alebrije-de-plastilina-de-la-biblioteca-central%7Ccentral-libr
- ary-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Let your imagination soar with this kid-friendly cl
- ay workshop! Children ages 17 and under are invited to create their own my
- thical creature out of air-dry clay based off of the popular Mexican alebr
- ijes. Learn a little about the folk art creatures before sculpting you —
-  More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:graphic-novel-book-club-ages-18-|central-library-garland|06-30-pm-2026-
- 10-20@letsdoitdallas.com
-DTSTAMP:20261020T233000Z
-DTSTART:20261020T233000Z
-DTEND:20261021T023000Z
-SUMMARY:Graphic Novel Book Club (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=graphic-novel-book-club-a
- ges-18-%7Ccentral-library-garland%7C06-30-pm
-DESCRIPTION:6:30 p.m.\; Join us for Graphic Novel Book Club where we talk o
- ut exciting graphic novels every month. Read the book beforehand for discu
- ssion. October 20\, 2026 06:30 PM - 07:30 PM 625 Austin St.Garland\, TX 75
- 040 https://www.garlandtx.gov/Calendar.aspx?EID=13001/639227572760000000 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:medicaid-and-chip-application-renewal-assistance-with-parkland-hospital
  |central-library-garland|10-00-am-2026-10-21@letsdoitdallas.com
 DTSTAMP:20261021T150000Z
@@ -280,8 +245,8 @@ URL:https://letsdoitdallas.com/?date=2026-10-26&e=heat-press-sublimation-wo
  rkshop-ages-13-%7Ccentral-library-garland%7C06-00-pm
 DESCRIPTION:6:00 p.m.\; Learn about the sublimation process and how to use 
  the heat presses. October 26\, 2026 06:00 PM - 07:30 PM 625 Austin St.Garl
- and\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13305/639234268
- 170000000 — More: https://letsdoitdallas.com/venue/central-library/
+ and\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13305/639281714
+ 700000000 — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 BEGIN:VEVENT
 UID:spooky-storytime-0-5-years-|central-library-garland|11-00-am-2026-10-27
@@ -555,5 +520,51 @@ DESCRIPTION:5:00 p.m.\; Join us for the Sewing Lab — a dedicated makerspa
  0 sewing machines\, cutting tools and pressing equipment while receiving h
  elp in reading patterns\, cutting fabric and troubleshooting stitches. Con
   — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:medicaid-and-chip-application-renewal-assistance-with-parkland-hospital
+ |central-library-garland|10-00-am-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261104T160000Z
+DTSTART:20261104T160000Z
+DTEND:20261104T190000Z
+SUMMARY:Medicaid and CHIP Application & Renewal Assistance with Parkland Ho
+ spital
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=medicaid-and-chip-applica
+ tion-renewal-assistance-with-parkland-hospital%7Ccentral-library-garland%7
+ C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:sensory-friendly-storytime|central-library-garland|10-00-am-2026-11-04@
+ letsdoitdallas.com
+DTSTAMP:20261104T160000Z
+DTSTART:20261104T160000Z
+DTEND:20261104T190000Z
+SUMMARY:Sensory-Friendly Storytime
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=sensory-friendly-storytim
+ e%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Join us for Sensory-Friendly Storytime\, a welcomi
+ ng and inclusive storytime experience designed for children and individual
+ s with sensory sensitivities and developmental differences. This modified 
+ storytime aims to provide a calm\, consistent and comfortable environmen 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:crochet-corner-in-person-ages-13-|central-library-garland|06-00-pm-2026
+ -11-04@letsdoitdallas.com
+DTSTAMP:20261105T000000Z
+DTSTART:20261105T000000Z
+DTEND:20261105T030000Z
+SUMMARY:Crochet Corner In-Person (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=crochet-corner-in-person-
+ ages-13-%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; All crafters welcome to Crochet Corner! Whether you
+  are a seasoned crocheter or just starting out\, join us for a fun\, cozy 
+ hour of crochet. At each program\, we will go through making a creation fr
+ om the monthly Crochet Corner display together as an active tutorial. Bas 
+ — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

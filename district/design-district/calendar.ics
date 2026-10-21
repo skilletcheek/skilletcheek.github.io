@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:20-years-of-nekrogoblikon-with-special-guests-aborted|the-echo-lounge-m
- usic-hall-dallas|6-00-pm-2026-10-20@letsdoitdallas.com
-DTSTAMP:20261020T230000Z
-DTSTART:20261020T230000Z
-DTEND:20261021T020000Z
-SUMMARY:20 Years of Nekrogoblikon with Special Guests Aborted
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=20-years-of-nekrogoblikon
- -with-special-guests-aborted%7Cthe-echo-lounge-music-hall-dallas%7C6-00-pm
-DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:machine-girl|am-fm-dallas-dallas|7-00-pm-2026-10-21@letsdoitdallas.com
 DTSTAMP:20261022T000000Z
 DTSTART:20261022T000000Z
@@ -577,5 +564,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-17&e=chase-petra-w-jer%7Cam-fm
  -dallas-dallas%7C7-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:amble|the-echo-lounge-music-hall-dallas|7-00-pm-2026-11-18@letsdoitdall
+ as.com
+DTSTAMP:20261119T010000Z
+DTSTART:20261119T010000Z
+DTEND:20261119T040000Z
+SUMMARY:Amble
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=amble%7Cthe-echo-lounge-m
+ usic-hall-dallas%7C7-00-pm
+DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
 END:VEVENT
 END:VCALENDAR

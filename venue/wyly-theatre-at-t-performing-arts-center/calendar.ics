@@ -11,19 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:the-monsters|wyly-theatre-at-t-performing-arts-center-dallas|7-30-pm-20
- 26-10-20@letsdoitdallas.com
-DTSTAMP:20261021T003000Z
-DTSTART:20261021T003000Z
-DTEND:20261021T033000Z
-SUMMARY:The Monsters
-LOCATION:Wyly Theatre - AT&T Performing Arts Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-20&e=the-monsters%7Cwyly-theat
- re-at-t-performing-arts-center-dallas%7C7-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/wyly-theatre-at-t-performing-arts-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-monsters|wyly-theatre-at-t-performing-arts-center-dallas|7-30-pm-20
  26-10-21@letsdoitdallas.com
 DTSTAMP:20261022T003000Z
 DTSTART:20261022T003000Z

@@ -690,4 +690,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-17&e=luke-kidgell-live-in-the-
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
 END:VEVENT
+BEGIN:VEVENT
+UID:whatever-gen-x-does-stand-up|punch-line-irving-irving|7-30-pm-2026-11-1
+ 8@letsdoitdallas.com
+DTSTAMP:20261119T013000Z
+DTSTART:20261119T013000Z
+DTEND:20261119T043000Z
+SUMMARY:Whatever! Gen X Does Stand-up
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=whatever-gen-x-does-stand
+ -up%7Cpunch-line-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
 END:VCALENDAR
