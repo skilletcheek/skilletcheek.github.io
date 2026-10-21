@@ -295,6 +295,21 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/cowtown-coliseum/
 END:VEVENT
 BEGIN:VEVENT
+UID:imus-ranch-quarter-horses-american-hero-celebration-with-charly-crawfor
+ d|cowtown-coliseum-fort-worth|1-30-pm-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T193000Z
+DTSTART:20261108T193000Z
+DTEND:20261108T223000Z
+SUMMARY:Imus Ranch Quarter Horses American Hero Celebration with Charly Cra
+ wford
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=imus-ranch-quarter-horses
+ -american-hero-celebration-with-charly-crawford%7Ccowtown-coliseum-fort-wo
+ rth%7C1-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
 UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-11-10@
  letsdoitdallas.com
 DTSTAMP:20261110T183000Z

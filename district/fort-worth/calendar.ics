@@ -64,24 +64,6 @@ DESCRIPTION:The primary objective of the National Multicultural Western Her
  ore: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:homeschool-family-science-club|fort-worth-museum-of-science-and-history
- -1600-gendy-street-fort-worth-76107-united-states|2-00-pm-2026-10-21@letsd
- oitdallas.com
-DTSTAMP:20261021T190000Z
-DTSTART:20261021T190000Z
-DTEND:20261021T220000Z
-SUMMARY:Homeschool Family Science Club
-LOCATION:Fort Worth Museum of Science and History
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=homeschool-family-science
- -club%7Cfort-worth-museum-of-science-and-history-1600-gendy-street-fort-wo
- rth-76107-united-states%7C2-00-pm
-DESCRIPTION:Bird Beaks & Beyond | Tickets Discover how birds are uniquely a
- dapted to survive in their environments! Students will investigate differe
- nt bird beaks and the foods they are designed to eat while exploring the i
- ncredible world of animal adaptations. Families will also have the op — 
- More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:big-guns|cowtown-coliseum-fort-worth|7-00-pm-2026-10-21@letsdoitdallas.
  com
 DTSTAMP:20261022T000000Z
@@ -402,6 +384,21 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:free-show-playtown|magnolia-motor-lounge-3803-southwest-blvd-fort-worth
+ -76116-united-states|9-00-pm-2026-10-22@letsdoitdallas.com
+DTSTAMP:20261023T020000Z
+DTSTART:20261023T020000Z
+DTEND:20261023T050000Z
+SUMMARY:FREE SHOW - Playtown
+LOCATION:Magnolia Motor Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=free-show-playtown%7Cmagn
+ olia-motor-lounge-3803-southwest-blvd-fort-worth-76116-united-states%7C9-0
+ 0-pm
+DESCRIPTION:FREE SHOW – Playtown Doors at 7:00 PM  – Show at 8:00 PM 
+     FREE GA   Ages 21+ — More: https://letsdoitdallas.com/district/fort
+ -worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:mecum-auctions|dickies-arena-fort-worth|3-30-am-2026-10-23@letsdoitdall
  as.com
 DTSTAMP:20261023T083000Z
@@ -561,20 +558,6 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:tcu-horned-frogs-football-vs-west-virginia-mountaineers-football|amon-g
- -carter-stadium-fort-worth|see-details-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:TCU Horned Frogs Football vs. West Virginia Mountaineers Football
-LOCATION:Amon G. Carter Stadium · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=tcu-horned-frogs-football
- -vs-west-virginia-mountaineers-football%7Camon-g-carter-stadium-fort-worth
- %7Csee-details
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:mecum-auctions|dickies-arena-fort-worth|3-30-am-2026-10-24@letsdoitdall
  as.com
 DTSTAMP:20261024T083000Z
@@ -612,6 +595,20 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=sick-new-world-festival-f
  orth-worth%7Ctexas-motor-speedway-fort-worth%7C11-00-am
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-football-vs-west-virginia-mountaineers-football|amon-g
+ -carter-stadium-fort-worth|11-00-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T160000Z
+DTSTART:20261024T160000Z
+DTEND:20261024T190000Z
+SUMMARY:TCU Horned Frogs Football vs. West Virginia Mountaineers Football
+LOCATION:Amon G. Carter Stadium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=tcu-horned-frogs-football
+ -vs-west-virginia-mountaineers-football%7Camon-g-carter-stadium-fort-worth
+ %7C11-00-am
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:red-steagall-cowboy-gathering|cowtown-coliseum-fort-worth|1-30-pm-2026-
@@ -1388,6 +1385,21 @@ URL:https://letsdoitdallas.com/?date=2026-11-07&e=ian-munsick-18-and-over-%
  7Cbilly-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:imus-ranch-quarter-horses-american-hero-celebration-with-charly-crawfor
+ d|cowtown-coliseum-fort-worth|1-30-pm-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T193000Z
+DTSTART:20261108T193000Z
+DTEND:20261108T223000Z
+SUMMARY:Imus Ranch Quarter Horses American Hero Celebration with Charly Cra
+ wford
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=imus-ranch-quarter-horses
+ -american-hero-celebration-with-charly-crawford%7Ccowtown-coliseum-fort-wo
+ rth%7C1-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:texas-country-music-awards-18-event-|billy-bob-s-fort-worth|5-00-pm-202
