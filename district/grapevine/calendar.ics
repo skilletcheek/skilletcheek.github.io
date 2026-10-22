@@ -10,69 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:afternoon-storytime-and-crafts|grapevine|04-00-pm-2026-10-21@letsdoitda
- llas.com
-DTSTAMP:20261021T210000Z
-DTSTART:20261021T210000Z
-DTEND:20261022T000000Z
-SUMMARY:Afternoon Storytime and Crafts
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=afternoon-storytime-and-c
- rafts%7Cgrapevine%7C04-00-pm
-DESCRIPTION:Join us on Wednesdays for a relaxing afternoon of storytime and
-  crafts in our Children's department. October 21\, 2026 04:00 PM - 05:00 P
- M Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17
- 721/639228425570000000 — More: https://letsdoitdallas.com/district/grape
- vine/
-END:VEVENT
-BEGIN:VEVENT
-UID:open-practice-and-play-night|grapevine|04-30-pm-2026-10-21@letsdoitdall
- as.com
-DTSTAMP:20261021T213000Z
-DTSTART:20261021T213000Z
-DTEND:20261022T003000Z
-SUMMARY:Open Practice and Play Night
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=open-practice-and-play-ni
- ght%7Cgrapevine%7C04-30-pm
-DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
-  ranked play. Ages 12 and up. October 21\, 2026 04:30 PM - 07:30 PM Grapev
- ine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17748/6392
- 32829710000000 — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:teentober-ghost-family-portraits|grapevine|04-30-pm-2026-10-21@letsdoit
- dallas.com
-DTSTAMP:20261021T213000Z
-DTSTART:20261021T213000Z
-DTEND:20261022T003000Z
-SUMMARY:TeenTober: Ghost Family Portraits
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=teentober-ghost-family-po
- rtraits%7Cgrapevine%7C04-30-pm
-DESCRIPTION:For tweens and teens\, 6th grade and up! Come make a ghost fami
- ly portrait to add to your Halloween decor! Nothing is better than a bunch
-  of ghosts haunting up your home! October 21\, 2026 04:30 PM - 06:00 PM Gr
- apevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=1784 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:cardmaking-with-kari-18-|grapevine|06-00-pm-2026-10-21@letsdoitdallas.c
- om
-DTSTAMP:20261021T230000Z
-DTSTART:20261021T230000Z
-DTEND:20261022T020000Z
-SUMMARY:Cardmaking with Kari (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=cardmaking-with-kari-18-%
- 7Cgrapevine%7C06-00-pm
-DESCRIPTION:Come make a fun card with Kari and learn some cardmaking techni
- ques. Supplies and space are limited. This class is for adults 18+. Regist
- ration Required October 21\, 2026 06:00 PM - 07:30 PM Grapevine\, TX 76051
-  https://www.grapevinetexas.gov/Calendar.aspx?EID=17433/639154732560000 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:music-and-movement|grapevine|10-30-am-2026-10-22@letsdoitdallas.com
 DTSTAMP:20261022T153000Z
 DTSTART:20261022T153000Z
@@ -147,6 +84,23 @@ DESCRIPTION:Bring your Art/ Junk Journal and collage with us. We have some
  t uniquely yours. (18+) October 22\, 2026 06:00 PM - 07:30 PM Grapevine\, 
  TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17359/6391546 
  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
+ e-tx-76051-united-states|8-00-am-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T130000Z
+DTSTART:20261023T130000Z
+DTEND:20261023T160000Z
+SUMMARY:Phenomenomaly at Meow Wolf
+LOCATION:Meow Wolf · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=phenomenomaly-at-meow-wol
+ f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
+ C8-00-am
+DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
+  live immersive performance series inside The Real Unreal. Blending intera
+ ctive theater with a rotating lineup of North Texas talent\, the experienc
+ e unfolds around guests as they explore\, featuring music\, dance\, comedy
+ \, — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:art-studio-18-|grapevine|10-00-am-2026-10-23@letsdoitdallas.com
@@ -895,6 +849,49 @@ DESCRIPTION:Not all art has to be Fine Art. Make Fun Art. Join us for a fun
  vided. Adults only. (18+). Registration Required. November 4\, 2026 06:00 
  PM - 07:30 PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calenda 
  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:mahjong-learn-play|grapevine|12-30-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261105T183000Z
+DTSTART:20261105T183000Z
+DTEND:20261105T213000Z
+SUMMARY:Mahjong: Learn & Play
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=mahjong-learn-play%7Cgrap
+ evine%7C12-30-pm
+DESCRIPTION:Learn to Play Mahjong Thursdays 12:30-4:30. Beginners\, please 
+ arrive at 12:30. Open play tables available on a first come first serve ba
+ sis\, Space is Limited. Ages 18 and up. November 5\, 2026 12:30 PM - 04:30
+  PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:reference-solutions-and-my-jobs-library-training-session|1201-municipal
+ -way-grapevine|02-00-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261105T200000Z
+DTSTART:20261105T200000Z
+DTEND:20261105T230000Z
+SUMMARY:Reference Solutions and My Jobs Library Training Session
+LOCATION:1201 Municipal Way · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=reference-solutions-and-m
+ y-jobs-library-training-session%7C1201-municipal-way-grapevine%7C02-00-pm
+DESCRIPTION:Join Ryan Atkins of Data Axle Reference Solutions for a session
+  on how to utilize the Reference Solutions database for your business or j
+ ob searching needs. This session will cover: • How to access Data Axle R
+ eference Solutions from home or office through Grapevine Public Library 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:kids-crochet-club-ages-7-12-|grapevine|04-30-pm-2026-11-05@letsdoitdall
+ as.com
+DTSTAMP:20261105T223000Z
+DTSTART:20261105T223000Z
+DTEND:20261106T013000Z
+SUMMARY:Kids Crochet Club (ages 7-12)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=kids-crochet-club-ages-7-
+ 12-%7Cgrapevine%7C04-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:speed-dating-in-grapevine-speed-dating-all-professionals-35-50|hop-and-

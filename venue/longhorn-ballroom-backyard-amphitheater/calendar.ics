@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Longhorn Ballroom & Backyard Amphitheater — Lets Do It Dalla
+ s
+X-WR-CALDESC:Upcoming shows at Longhorn Ballroom & Backyard Amphitheater.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:killer-queen|longhorn-ballroom-backyard-amphitheater-dallas|8-00-pm-202
+ 6-10-24@letsdoitdallas.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:Killer Queen
+LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=killer-queen%7Clonghorn-b
+ allroom-backyard-amphitheater-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/longhorn-ballroom-backyard-amphitheater/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-fetish-ball|longhorn-ballroom-backyard-amphitheater-dallas|10-00
+ -pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T040000Z
+DTSTART:20261115T040000Z
+DTEND:20261115T070000Z
+SUMMARY:Dallas Fetish Ball
+LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=dallas-fetish-ball%7Clong
+ horn-ballroom-backyard-amphitheater-dallas%7C10-00-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/longhorn-ballroom-backyard-amphitheater/
+END:VEVENT
+BEGIN:VEVENT
+UID:tab-benoit-w-jesse-dayton|longhorn-ballroom-backyard-amphitheater-dalla
+ s|8-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T020000Z
+DTSTART:20261120T020000Z
+DTEND:20261120T050000Z
+SUMMARY:Tab Benoit w/ Jesse Dayton
+LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=tab-benoit-w-jesse-dayton
+ %7Clonghorn-ballroom-backyard-amphitheater-dallas%7C8-00-pm
+DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/longhorn-ballroom-backyard-amphitheater/
+END:VEVENT
+END:VCALENDAR

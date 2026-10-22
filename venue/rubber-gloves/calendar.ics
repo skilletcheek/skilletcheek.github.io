@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:spirit-of-the-bear|rubber-gloves-denton|8-30-pm-2026-10-21@letsdoitdall
- as.com
-DTSTAMP:20261022T013000Z
-DTSTART:20261022T013000Z
-DTEND:20261022T043000Z
-SUMMARY:Spirit Of The Bear
-LOCATION:Rubber Gloves · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=spirit-of-the-bear%7Crubb
- er-gloves-denton%7C8-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/rubber-gloves/
-END:VEVENT
-BEGIN:VEVENT
 UID:improvement-movement|rubber-gloves-denton|7-00-pm-2026-10-23@letsdoitda
  llas.com
 DTSTAMP:20261024T000000Z

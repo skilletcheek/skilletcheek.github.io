@@ -10,58 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jackie-evans-blair-lamb|three-links-deep-ellum-dallas|7-00-pm-2026-10-2
- 1@letsdoitdallas.com
-DTSTAMP:20261022T000000Z
-DTSTART:20261022T000000Z
-DTEND:20261022T030000Z
-SUMMARY:Jackie Evans\, Blair Lamb
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=jackie-evans-blair-lamb%7
- Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:sludge-mother-yellowbelly|club-dada-dallas|7-00-pm-2026-10-21@letsdoitd
- allas.com
-DTSTAMP:20261022T000000Z
-DTSTART:20261022T000000Z
-DTEND:20261022T030000Z
-SUMMARY:Sludge Mother\, yellowbelly
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=sludge-mother-yellowbelly
- %7Cclub-dada-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dev-lemons|deep-ellum-art-co-dallas|8-00-pm-2026-10-21@letsdoitdallas.c
- om
-DTSTAMP:20261022T010000Z
-DTSTART:20261022T010000Z
-DTEND:20261022T040000Z
-SUMMARY:Dev Lemons
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=dev-lemons%7Cdeep-ellum-a
- rt-co-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-wldlfe|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-10-21@let
- sdoitdallas.com
-DTSTAMP:20261022T010000Z
-DTSTART:20261022T010000Z
-DTEND:20261022T040000Z
-SUMMARY:The WLDLFE
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=the-wldlfe%7Cthe-studio-a
- t-the-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:basic-printer-spirit-of-bear|three-links-deep-ellum-dallas|8-00-pm-2026
  -10-22@letsdoitdallas.com
 DTSTAMP:20261023T010000Z
@@ -682,6 +630,22 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:i-d-i-o-t-s-indie-night-4th-anniversary|deep-ellum-art-co-dallas|7-00-p
+ m-2026-11-10@letsdoitdallas.com
+DTSTAMP:20261111T010000Z
+DTSTART:20261111T010000Z
+DTEND:20261111T040000Z
+SUMMARY:I.D.I.O.T.s Indie Night: 4th Anniversary
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=i-d-i-o-t-s-indie-night-4
+ th-anniversary%7Cdeep-ellum-art-co-dallas%7C7-00-pm
+DESCRIPTION:A free night of live comedy from indie improv troupes from Dall
+ as and beyond. I.D.I.O.T.s (Independent Dallas Improv on TuesdayS) celebra
+ tes its fourth anniversary with giveaways and extras. Lineup announcements
+  on Instagram: @i.d.i.o.t.s.indienight. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:icon-for-hire|club-dada-dallas|7-00-pm-2026-11-10@letsdoitdallas.com
 DTSTAMP:20261111T010000Z
 DTSTART:20261111T010000Z
@@ -903,16 +867,42 @@ DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:daley|trees-dallas|doors-see-listing-2026-11-19@letsdoitdallas.com
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:DALEY
+UID:alex-jean|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-11-19@lets
+ doitdallas.com
+DTSTAMP:20261120T020000Z
+DTSTART:20261120T020000Z
+DTEND:20261120T050000Z
+SUMMARY:Alex Jean
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=alex-jean%7Cthe-studio-at
+ -the-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:minka-electric-tongues|three-links-deep-ellum-dallas|8-00-pm-2026-11-19
+ @letsdoitdallas.com
+DTSTAMP:20261120T020000Z
+DTSTART:20261120T020000Z
+DTEND:20261120T050000Z
+SUMMARY:MINKA\, Electric Tongues
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=minka-electric-tongues%7C
+ three-links-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:daley|trees-dallas|8-30-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T023000Z
+DTSTART:20261120T023000Z
+DTEND:20261120T053000Z
+SUMMARY:Daley
 LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=daley%7Ctrees-dallas%7Cdo
- ors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=daley%7Ctrees-dallas%7C8-
+ 30-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:southfm|trees-dallas|doors-see-listing-2026-11-20@letsdoitdallas.com

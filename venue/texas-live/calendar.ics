@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Texas Live! — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Texas Live!.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:concert-by-candlelight-tribute-to-halloween|texas-live-1650-east-randol
+ -mill-road-arlington-76011-united-states|6-00-pm-2026-10-22@letsdoitdallas
+ .com
+DTSTAMP:20261022T230000Z
+DTSTART:20261022T230000Z
+DTEND:20261023T020000Z
+SUMMARY:Concert by Candlelight - Tribute to Halloween
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-22&e=concert-by-candlelight-tr
+ ibute-to-halloween%7Ctexas-live-1650-east-randol-mill-road-arlington-76011
+ -united-states%7C6-00-pm
+DESCRIPTION:Halloween… reimagined. Enjoy concert by candlelight at Troy
+ ’s! — More: https://letsdoitdallas.com/venue/texas-live/
+END:VEVENT
+BEGIN:VEVENT
+UID:witch-please-its-bingo-loco-|texas-live-1650-east-randol-mill-road-arli
+ ngton-76011-united-states|6-30-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T233000Z
+DTSTART:20261023T233000Z
+DTEND:20261024T023000Z
+SUMMARY:Witch\, Please! Its Bingo Loco!
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=witch-please-its-bingo-lo
+ co-%7Ctexas-live-1650-east-randol-mill-road-arlington-76011-united-states%
+ 7C6-30-pm
+DESCRIPTION:The wildest bingo meets music trivia party is taking over! Show
+  up in your favorite costume and get ready for a night you — More: https
+ ://letsdoitdallas.com/venue/texas-live/
+END:VEVENT
+BEGIN:VEVENT
+UID:en-vivo-profugos-de-nuevo-leon-la-nueva-pradera|texas-live-1650-east-ra
+ ndol-mill-road-arlington-76011-united-states|7-00-pm-2026-10-23@letsdoitda
+ llas.com
+DTSTAMP:20261024T000000Z
+DTSTART:20261024T000000Z
+DTEND:20261024T030000Z
+SUMMARY:En Vivo: Profugos de Nuevo Leon & La Nueva Pradera
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=en-vivo-profugos-de-nuevo
+ -leon-la-nueva-pradera%7Ctexas-live-1650-east-randol-mill-road-arlington-7
+ 6011-united-states%7C7-00-pm
+DESCRIPTION:Coors Light En Vivo Concert Series Presents Profugos de Nuevo L
+ eon & La Nueva Pradera! — More: https://letsdoitdallas.com/venue/texas-l
+ ive/
+END:VEVENT
+END:VCALENDAR

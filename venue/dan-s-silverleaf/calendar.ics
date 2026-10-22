@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:great-lake-swimmers|dan-s-silverleaf-denton|8-00-pm-2026-10-21@letsdoit
- dallas.com
-DTSTAMP:20261022T010000Z
-DTSTART:20261022T010000Z
-DTEND:20261022T040000Z
-SUMMARY:Great Lake Swimmers
-LOCATION:Dan's Silverleaf · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=great-lake-swimmers%7Cdan
- -s-silverleaf-denton%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/dan-s-silverleaf/
-END:VEVENT
-BEGIN:VEVENT
 UID:chris-knight|dan-s-silverleaf-denton|8-00-pm-2026-10-23@letsdoitdallas.
  com
 DTSTAMP:20261024T010000Z

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:katie-pruitt|the-kessler-theater-dallas|8-00-pm-2026-10-21@letsdoitdall
- as.com
-DTSTAMP:20261022T010000Z
-DTSTART:20261022T010000Z
-DTEND:20261022T040000Z
-SUMMARY:Katie Pruitt
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=katie-pruitt%7Cthe-kessle
- r-theater-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/the-kessler-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:christopher-holt-presents-beyond-the-milky-way|the-kessler-theater-oak-
  cliff-dallas|doors-see-listing-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261023T000000Z
@@ -259,6 +246,19 @@ SUMMARY:North Mississippi Allstars
 LOCATION:The Kessler Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-20&e=north-mississippi-allstar
  s%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:margaret-glaspy-the-i-am-both-tour|the-kessler-theater-oak-cliff-dallas
+ |doors-see-listing-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Margaret Glaspy: The I Am Both Tour
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=margaret-glaspy-the-i-am-
+ both-tour%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT

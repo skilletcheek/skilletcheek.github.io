@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:machine-girl|ferris-wheelers-backyard-and-bbq-dallas|7-00-pm-2026-10-21
- @letsdoitdallas.com
-DTSTAMP:20261022T000000Z
-DTSTART:20261022T000000Z
-DTEND:20261022T030000Z
-SUMMARY:Machine Girl
-LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=machine-girl%7Cferris-whe
- elers-backyard-and-bbq-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/ferris-wheelers-backyard-and-bbq/
-END:VEVENT
-BEGIN:VEVENT
-UID:nether-hour|ferris-wheelers-backyard-and-bbq-dallas|7-00-pm-2026-10-21@
- letsdoitdallas.com
-DTSTAMP:20261022T000000Z
-DTSTART:20261022T000000Z
-DTEND:20261022T030000Z
-SUMMARY:Nether Hour
-LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=nether-hour%7Cferris-whee
- lers-backyard-and-bbq-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/ferris-wheelers-backyard-and-bbq/
-END:VEVENT
-BEGIN:VEVENT
 UID:edgehill|ferris-wheelers-backyard-and-bbq-dallas|7-00-pm-2026-10-22@let
  sdoitdallas.com
 DTSTAMP:20261023T000000Z

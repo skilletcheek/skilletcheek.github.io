@@ -10,30 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:unplug-texas-day|frisco|see-details-2026-10-21@letsdoitdallas.com
-DTSTAMP:20261021T000000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
-SUMMARY:Unplug Texas Day
-LOCATION:Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=unplug-texas-day%7Cfrisco
- %7Csee-details
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:force-encounters-analysis-open-enrollment-|7200-stonebrook-pkwy-frisco|
- 08-00-am-2026-10-21@letsdoitdallas.com
-DTSTAMP:20261021T130000Z
-DTSTART:20261021T130000Z
-DTEND:20261021T160000Z
-SUMMARY:Force Encounters Analysis (Open Enrollment)
-LOCATION:7200 Stonebrook Pkwy · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=force-encounters-analysis
- -open-enrollment-%7C7200-stonebrook-pkwy-frisco%7C08-00-am
-DESCRIPTION:Runs Oct 20 – Oct 22. — More: https://letsdoitdallas.com/di
- strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:force-encounters-analysis-open-enrollment-|7200-stonebrook-pkwy-frisco|
  08-00-am-2026-10-22@letsdoitdallas.com
 DTSTAMP:20261022T130000Z

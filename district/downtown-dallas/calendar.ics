@@ -11,35 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-21@letsdoitdallas.com
-DTSTAMP:20261021T130000Z
-DTSTART:20261021T130000Z
-DTEND:20261021T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:foos-gone-wild-the-foos-gone-wild-tour-2026|house-of-blues-dallas-dalla
- s|7-00-pm-2026-10-21@letsdoitdallas.com
-DTSTAMP:20261022T000000Z
-DTSTART:20261022T000000Z
-DTEND:20261022T030000Z
-SUMMARY:FOOS GONE WILD: The FOOS GONE WILD Tour 2026
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=foos-gone-wild-the-foos-g
- one-wild-tour-2026%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-10-22@letsdoitdallas.com
 DTSTAMP:20261022T130000Z
 DTSTART:20261022T130000Z
@@ -92,6 +63,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-22&e=dante-gebel-world-tour-de
  spedida-2026%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
 DESCRIPTION:Community/Civic event via Ticketmaster. — More: https://letsd
  oitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T130000Z
+DTSTART:20261023T130000Z
+DTEND:20261023T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:cannibal-ox-the-cold-vein-25-year-anniversary-18-|the-cambridge-room-at
@@ -1454,6 +1441,46 @@ URL:https://letsdoitdallas.com/?date=2026-11-18&e=dallas-mavericks-vs-golde
  n-state-warriors%7Camerican-airlines-center-dallas%7C8-30-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:bryan-andrews|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-
+ 11-19@letsdoitdallas.com
+DTSTAMP:20261120T010000Z
+DTSTART:20261120T010000Z
+DTEND:20261120T040000Z
+SUMMARY:Bryan Andrews
+LOCATION:The Cambridge Room at House Of Blues · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=bryan-andrews%7Cthe-cambr
+ idge-room-at-house-of-blues-dallas%7C7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:nick-cannon-presents-wild-n-out-live-the-next-generation|american-airli
+ nes-center-dallas|8-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T020000Z
+DTSTART:20261120T020000Z
+DTEND:20261120T050000Z
+SUMMARY:Nick Cannon Presents: Wild 'N Out Live - The Next Generation
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=nick-cannon-presents-wild
+ -n-out-live-the-next-generation%7Camerican-airlines-center-dallas%7C8-00-p
+ m
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tab-benoit-w-jesse-dayton|longhorn-ballroom-backyard-amphitheater-dalla
+ s|8-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T020000Z
+DTSTART:20261120T020000Z
+DTEND:20261120T050000Z
+SUMMARY:Tab Benoit w/ Jesse Dayton
+LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=tab-benoit-w-jesse-dayton
+ %7Clonghorn-ballroom-backyard-amphitheater-dallas%7C8-00-pm
+DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:friendsgiving-a-harvest-night-of-live-music-with-gustavo-monsante-|-jfi

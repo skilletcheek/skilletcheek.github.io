@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-wldlfe|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-10-21@let
- sdoitdallas.com
-DTSTAMP:20261022T010000Z
-DTSTART:20261022T010000Z
-DTEND:20261022T040000Z
-SUMMARY:The WLDLFE
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=the-wldlfe%7Cthe-studio-a
- t-the-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/the-studio-at-the-bomb-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:ten-16-and-under-with-parent-or-legal-guardian-|the-studio-at-the-bomb-
  factory-dallas|8-00-pm-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261030T010000Z
@@ -99,5 +86,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-15&e=lizzie-morgan%7Cthe-studi
  o-at-the-bomb-factory-dallas%7C7-30-pm
 DESCRIPTION:Religious event via Ticketmaster. — More: https://letsdoitdal
  las.com/venue/the-studio-at-the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:alex-jean|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-11-19@lets
+ doitdallas.com
+DTSTAMP:20261120T020000Z
+DTSTART:20261120T020000Z
+DTEND:20261120T050000Z
+SUMMARY:Alex Jean
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=alex-jean%7Cthe-studio-at
+ -the-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/the-studio-at-the-bomb-factory/
 END:VEVENT
 END:VCALENDAR

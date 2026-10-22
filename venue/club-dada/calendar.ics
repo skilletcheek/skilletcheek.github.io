@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sludge-mother-yellowbelly|club-dada-dallas|7-00-pm-2026-10-21@letsdoitd
- allas.com
-DTSTAMP:20261022T000000Z
-DTSTART:20261022T000000Z
-DTEND:20261022T030000Z
-SUMMARY:Sludge Mother\, yellowbelly
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=sludge-mother-yellowbelly
- %7Cclub-dada-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/club-dada/
-END:VEVENT
-BEGIN:VEVENT
 UID:bayonne|club-dada-dallas|8-00-pm-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261024T010000Z
 DTSTART:20261024T010000Z

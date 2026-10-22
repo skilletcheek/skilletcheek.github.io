@@ -215,16 +215,16 @@ DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT
 BEGIN:VEVENT
-UID:daley|trees-dallas|doors-see-listing-2026-11-19@letsdoitdallas.com
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:DALEY
+UID:daley|trees-dallas|8-30-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T023000Z
+DTSTART:20261120T023000Z
+DTEND:20261120T053000Z
+SUMMARY:Daley
 LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=daley%7Ctrees-dallas%7Cdo
- ors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=daley%7Ctrees-dallas%7C8-
+ 30-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
 UID:southfm|trees-dallas|doors-see-listing-2026-11-20@letsdoitdallas.com

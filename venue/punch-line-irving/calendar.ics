@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:josh-gondelman|punch-line-irving-irving|7-30-pm-2026-10-21@letsdoitdall
- as.com
-DTSTAMP:20261022T003000Z
-DTSTART:20261022T003000Z
-DTEND:20261022T033000Z
-SUMMARY:Josh Gondelman
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=josh-gondelman%7Cpunch-li
- ne-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:tk-kirkland|punch-line-irving-irving|7-00-pm-2026-10-22@letsdoitdallas.
  com
 DTSTAMP:20261023T000000Z
@@ -460,6 +447,19 @@ SUMMARY:Whatever! Gen X Does Stand-up
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-11-18&e=whatever-gen-x-does-stand
  -up%7Cpunch-line-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-redd|punch-line-irving-irving|7-30-pm-2026-11-19@letsdoitdallas.c
+ om
+DTSTAMP:20261120T013000Z
+DTSTART:20261120T013000Z
+DTEND:20261120T043000Z
+SUMMARY:Chris Redd
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=chris-redd%7Cpunch-line-i
+ rving-irving%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT

@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:machine-girl|am-fm-dallas-dallas|7-00-pm-2026-10-21@letsdoitdallas.com
-DTSTAMP:20261022T000000Z
-DTSTART:20261022T000000Z
-DTEND:20261022T030000Z
-SUMMARY:Machine Girl
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=machine-girl%7Cam-fm-dall
- as-dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:t-3-the-fifth-season-tour|the-echo-lounge-music-hall-dallas|7-00-pm-202
- 6-10-21@letsdoitdallas.com
-DTSTAMP:20261022T000000Z
-DTSTART:20261022T000000Z
-DTEND:20261022T030000Z
-SUMMARY:T.3 - The Fifth Season Tour
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-21&e=t-3-the-fifth-season-tour
- %7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:edgehill|am-fm-dallas-dallas|7-00-pm-2026-10-22@letsdoitdallas.com
 DTSTAMP:20261023T000000Z
 DTSTART:20261023T000000Z
@@ -577,5 +552,30 @@ URL:https://letsdoitdallas.com/?date=2026-11-18&e=amble%7Cthe-echo-lounge-m
  usic-hall-dallas%7C7-00-pm
 DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:holywatr-deo-gratias-tour|the-echo-lounge-music-hall-dallas|7-00-pm-202
+ 6-11-19@letsdoitdallas.com
+DTSTAMP:20261120T010000Z
+DTSTART:20261120T010000Z
+DTEND:20261120T040000Z
+SUMMARY:Holywatr: Deo Gratias Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=holywatr-deo-gratias-tour
+ %7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:3ballmty-ages-18-|silo-dallas|9-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T030000Z
+DTSTART:20261120T030000Z
+DTEND:20261120T060000Z
+SUMMARY:3BALLMTY - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=3ballmty-ages-18-%7Csilo-
+ dallas%7C9-00-pm
+DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
 END:VEVENT
 END:VCALENDAR
