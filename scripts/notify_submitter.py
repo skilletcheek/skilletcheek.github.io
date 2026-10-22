@@ -119,7 +119,7 @@ def compose(rows, contact_name: str) -> "tuple[str, str]":
         r = rows[0]
         listing = deep_link(r)
         detail = (f"Listed as {fmt_date(r['date'])}, {r['time']}, "
-                  f"{r['area'].split(',')[0].strip()}.")
+                  f"{r['area'].split(',')[0].strip().rstrip('.')}.")
     else:
         listing = "\n".join(f"  {fmt_date(r['date'])}: {deep_link(r)}" for r in rows)
         detail = (f"It runs across {len(rows)} dates, so each one is listed "
