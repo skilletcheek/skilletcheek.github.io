@@ -10,21 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:music-and-movement|grapevine|10-30-am-2026-10-22@letsdoitdallas.com
-DTSTAMP:20261022T153000Z
-DTSTART:20261022T153000Z
-DTEND:20261022T183000Z
-SUMMARY:Music and Movement
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=music-and-movement%7Cgrap
- evine%7C10-30-am
-DESCRIPTION:Books\, songs\, music\, parachutes and more! Toddlers to school
-  age are welcome! No registration required. October 22\, 2026 10:30 AM - 1
- 1:00 AM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?
- EID=17789/639244660000000000 — More: https://letsdoitdallas.com/district
- /grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:mahjong-learn-play|grapevine|12-30-pm-2026-10-22@letsdoitdallas.com
 DTSTAMP:20261022T173000Z
 DTSTART:20261022T173000Z
@@ -161,6 +146,24 @@ DESCRIPTION:Bouncing Babies is a program for babies from birth to 18 months
  aregivers. No registration needed. October 23\, 2026 01:30 PM - 02:00 PM G
  rapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17739
   — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:ultimate-rod-stewart-experience-starring-vic-vaga|palace-arts-theatre-3
+ 00-s-main-st-grapevine-76051-united-states|7-30-pm-2026-10-23@letsdoitdall
+ as.com
+DTSTAMP:20261024T003000Z
+DTSTART:20261024T003000Z
+DTEND:20261024T033000Z
+SUMMARY:Ultimate Rod Stewart Experience Starring Vic Vaga
+LOCATION:Palace Arts Theatre · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=ultimate-rod-stewart-expe
+ rience-starring-vic-vaga%7Cpalace-arts-theatre-300-s-main-st-grapevine-760
+ 51-united-states%7C7-30-pm
+DESCRIPTION:Vic Vaga is an internationally renowned Rod Stewart lookalike a
+ nd tribute performer. Whether Vaga is performing in Las Vegas\, Canada\, F
+ lorida or in Texas\, his live shows are exciting and energetic. A true tri
+ bute to “Rod the Mod” that has been critically acclaimed many times ov
+ er — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:stitchcraft-circle-18-|grapevine|10-00-am-2026-10-24@letsdoitdallas.com
