@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dante-gebel-world-tour-despedida-2026|majestic-theatre-dallas-dallas|8-
- 00-pm-2026-10-22@letsdoitdallas.com
-DTSTAMP:20261023T010000Z
-DTSTART:20261023T010000Z
-DTEND:20261023T040000Z
-SUMMARY:Dante Gebel - World Tour Despedida 2026
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=dante-gebel-world-tour-de
- spedida-2026%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
-DESCRIPTION:Community/Civic event via Ticketmaster. — More: https://letsd
- oitdallas.com/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:charlie-berens-the-lost-and-found-tour|majestic-theatre-dallas-dallas|7
  -00-pm-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261024T000000Z
@@ -177,5 +164,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-15&e=elmo-s-got-the-moves%7Cma
  jestic-theatre-dallas-dallas%7C2-00-pm
 DESCRIPTION:Children's Theatre event via Ticketmaster. — More: https://le
  tsdoitdallas.com/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-fab-four-tribute-to-the-beatles-a-hard-day-s-night|majestic-theatre
+ -dallas-dallas|7-30-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T013000Z
+DTSTART:20261121T013000Z
+DTEND:20261121T043000Z
+SUMMARY:The Fab Four: Tribute to the Beatles' A Hard Day's Night
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=the-fab-four-tribute-to-t
+ he-beatles-a-hard-day-s-night%7Cmajestic-theatre-dallas-dallas%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/majestic-theatre-dallas/
 END:VEVENT
 END:VCALENDAR

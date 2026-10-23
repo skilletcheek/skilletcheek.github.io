@@ -10,43 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:edgehill|am-fm-dallas-dallas|7-00-pm-2026-10-22@letsdoitdallas.com
-DTSTAMP:20261023T000000Z
-DTSTART:20261023T000000Z
-DTEND:20261023T030000Z
-SUMMARY:Edgehill
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=edgehill%7Cam-fm-dallas-d
- allas%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:mico-running-from-a-feeling-tour|the-echo-lounge-music-hall-dallas|7-00
- -pm-2026-10-22@letsdoitdallas.com
-DTSTAMP:20261023T000000Z
-DTSTART:20261023T000000Z
-DTEND:20261023T030000Z
-SUMMARY:MICO - Running From A Feeling Tour
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=mico-running-from-a-feeli
- ng-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:gorillat-ages-18-|silo-dallas|9-00-pm-2026-10-22@letsdoitdallas.com
-DTSTAMP:20261023T020000Z
-DTSTART:20261023T020000Z
-DTEND:20261023T050000Z
-SUMMARY:GorillaT - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=gorillat-ages-18-%7Csilo-
- dallas%7C9-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:dax-the-anger-management-tour|the-echo-lounge-music-hall-dallas|7-00-pm
  -2026-10-23@letsdoitdallas.com
 DTSTAMP:20261024T000000Z
@@ -576,6 +539,44 @@ LOCATION:SILO · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=3ballmty-ages-18-%7Csilo-
  dallas%7C9-00-pm
 DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:an-evening-with-band-of-horses|the-echo-lounge-music-hall-dallas|7-00-p
+ m-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T010000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:An Evening With Band Of Horses
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=an-evening-with-band-of-h
+ orses%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:aterciopelados|am-fm-dallas-dallas|7-00-pm-2026-11-20@letsdoitdallas.co
+ m
+DTSTAMP:20261121T010000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:Aterciopelados
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=aterciopelados%7Cam-fm-da
+ llas-dallas%7C7-00-pm
+DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:crankdat-18-and-over-|silo-dallas|9-00-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T030000Z
+DTSTART:20261121T030000Z
+DTEND:20261121T060000Z
+SUMMARY:Crankdat (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=crankdat-18-and-over-%7Cs
+ ilo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/design-district/
 END:VEVENT
 END:VCALENDAR

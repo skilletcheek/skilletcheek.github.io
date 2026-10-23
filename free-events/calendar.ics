@@ -49,6 +49,22 @@ DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/f
  ree-events/
 END:VEVENT
 BEGIN:VEVENT
+UID:between-earth-and-sky-art-exhibition|flocc-studio-dallas|5-00-pm-8-00-p
+ m-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T220000Z
+DTSTART:20261024T220000Z
+DTEND:20261025T010000Z
+SUMMARY:Between Earth and Sky — Art Exhibition
+LOCATION:Flocc Studio · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=between-earth-and-sky-art
+ -exhibition%7Cflocc-studio-dallas%7C5-00-pm-8-00-pm
+DESCRIPTION:Between Earth and Sky explores landscape as an experience shape
+ d by light\, memory\, and material. Jake Trujillo’s luminous Santa Fe sc
+ enes\, Brandon McKenzie’s restrained Kansas abstractions\, and Sasinun K
+ ladpetch’s earthy sculptures offer distinct ways of encountering place. 
+ Toget — More: https://letsdoitdallas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
 UID:bluegrass-heritage-music-show-jam|poor-david-s-pub-dallas|doors-see-lis
  ting-2026-10-25@letsdoitdallas.com
 DTSTAMP:20261025T000000Z
@@ -356,6 +372,32 @@ DTEND;VALUE=DATE:20261116
 SUMMARY:geeks who drink FREE Trivia
 LOCATION:Sundown at Granada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-15&e=geeks-who-drink-free-triv
+ ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:heal-the-hurt-magdalene-rose-unbroken-reign|three-links-deep-ellum-dall
+ as|7-00-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T010000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:Heal The Hurt\, Magdalene Rose\, Unbroken Reign
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=heal-the-hurt-magdalene-r
+ ose-unbroken-reign%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
+ doors-see-listing-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:geeks who drink FREE Trivia
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=geeks-who-drink-free-triv
  ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/

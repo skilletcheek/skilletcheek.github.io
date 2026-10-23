@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mecum-auctions|dickies-arena-fort-worth|3-30-am-2026-10-23@letsdoitdall
- as.com
-DTSTAMP:20261023T083000Z
-DTSTART:20261023T083000Z
-DTEND:20261023T113000Z
-SUMMARY:Mecum Auctions
-LOCATION:Dickies Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=mecum-auctions%7Cdickies-
- arena-fort-worth%7C3-30-am
-DESCRIPTION:sports event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/dickies-arena/
-END:VEVENT
-BEGIN:VEVENT
 UID:mecum-auctions|dickies-arena-fort-worth|3-30-am-2026-10-24@letsdoitdall
  as.com
 DTSTAMP:20261024T083000Z

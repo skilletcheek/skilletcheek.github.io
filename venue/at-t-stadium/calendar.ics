@@ -191,6 +191,19 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/at-t-stadium/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-rally-day-tour|at-t-stadium-arlington|3-45-pm-2
+ 026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T204500Z
+DTSTART:20261031T204500Z
+DTEND:20261031T234500Z
+SUMMARY:AT&T Stadium VIP Guided Rally Day Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=at-t-stadium-vip-guided-r
+ ally-day-tour%7Cat-t-stadium-arlington%7C3-45-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-cowboys-vs-arizona-cardinals|at-t-stadium-arlington|12-00-pm-202
  6-11-01@letsdoitdallas.com
 DTSTAMP:20261101T180000Z

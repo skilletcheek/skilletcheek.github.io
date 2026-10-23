@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fifth-third-garage-dallas-stars-v-winnipeg-jets|american-airlines-cente
- r-dallas|7-00-pm-2026-10-22@letsdoitdallas.com
-DTSTAMP:20261023T000000Z
-DTSTART:20261023T000000Z
-DTEND:20261023T030000Z
-SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Winnipeg Jets
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=fifth-third-garage-dallas
- -stars-v-winnipeg-jets%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-mavericks-vs-san-antonio-spurs|american-airlines-center-dallas|7
  -00-pm-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261025T000000Z
@@ -307,5 +294,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-19&e=nick-cannon-presents-wild
  m
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:journey-final-frontier-tour-an-evening-with-|american-airlines-center-d
+ allas|7-30-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T013000Z
+DTSTART:20261121T013000Z
+DTEND:20261121T043000Z
+SUMMARY:JOURNEY - Final Frontier Tour (An Evening With)
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=journey-final-frontier-to
+ ur-an-evening-with-%7Camerican-airlines-center-dallas%7C7-30-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/american-airlines-center/
 END:VEVENT
 END:VCALENDAR

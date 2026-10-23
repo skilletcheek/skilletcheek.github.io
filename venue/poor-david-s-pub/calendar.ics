@@ -184,4 +184,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-20&e=friendsgiving-a-harvest-n
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
+BEGIN:VEVENT
+UID:mama-s-broke-reunion-album-release-tour|poor-david-s-pub-dallas|doors-s
+ ee-listing-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Mama’s Broke Reunion Album Release Tour
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=mama-s-broke-reunion-albu
+ m-release-tour%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
 END:VCALENDAR

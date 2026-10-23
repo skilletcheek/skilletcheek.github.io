@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:deric-cahill|mic-drop-comedy-plano-plano|7-00-pm-2026-10-22@letsdoitdal
- las.com
-DTSTAMP:20261023T000000Z
-DTSTART:20261023T000000Z
-DTEND:20261023T030000Z
-SUMMARY:Deric Cahill
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=deric-cahill%7Cmic-drop-c
- omedy-plano-plano%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:standoperos-la-t-mbola|addison-improv-addison|7-30-pm-2026-10-22@letsdo
- itdallas.com
-DTSTAMP:20261023T003000Z
-DTSTART:20261023T003000Z
-DTEND:20261023T033000Z
-SUMMARY:Standoperos: La Tómbola
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=standoperos-la-t-mbola%7C
- addison-improv-addison%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:deric-cahill|mic-drop-comedy-plano-plano|7-00-pm-2026-10-23@letsdoitdal
  las.com
 DTSTAMP:20261024T000000Z
@@ -598,6 +572,32 @@ SUMMARY:DeRay Davis
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=deray-davis%7Caddison-imp
  rov-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:deray-davis|addison-improv-addison|7-30-pm-2026-11-20@letsdoitdallas.co
+ m
+DTSTAMP:20261121T013000Z
+DTSTART:20261121T013000Z
+DTEND:20261121T043000Z
+SUMMARY:DeRay Davis
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=deray-davis%7Caddison-imp
+ rov-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:deray-davis|addison-improv-addison|9-45-pm-2026-11-20@letsdoitdallas.co
+ m
+DTSTAMP:20261121T034500Z
+DTSTART:20261121T034500Z
+DTEND:20261121T064500Z
+SUMMARY:DeRay Davis
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=deray-davis%7Caddison-imp
+ rov-addison%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT

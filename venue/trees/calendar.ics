@@ -227,15 +227,15 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
-UID:southfm|trees-dallas|doors-see-listing-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:SOUTHFM
+UID:southfm|trees-dallas|8-00-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T020000Z
+DTSTART:20261121T020000Z
+DTEND:20261121T050000Z
+SUMMARY:SouthFM
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-20&e=southfm%7Ctrees-dallas%7C
- doors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+ 8-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/trees/
 END:VEVENT
 END:VCALENDAR

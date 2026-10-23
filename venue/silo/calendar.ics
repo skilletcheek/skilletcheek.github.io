@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gorillat-ages-18-|silo-dallas|9-00-pm-2026-10-22@letsdoitdallas.com
-DTSTAMP:20261023T020000Z
-DTSTART:20261023T020000Z
-DTEND:20261023T050000Z
-SUMMARY:GorillaT - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=gorillat-ages-18-%7Csilo-
- dallas%7C9-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:kettama-18-|silo-dallas|9-00-pm-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261024T020000Z
 DTSTART:20261024T020000Z
@@ -191,6 +179,18 @@ LOCATION:SILO · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=3ballmty-ages-18-%7Csilo-
  dallas%7C9-00-pm
 DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:crankdat-18-and-over-|silo-dallas|9-00-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T030000Z
+DTSTART:20261121T030000Z
+DTEND:20261121T060000Z
+SUMMARY:Crankdat (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=crankdat-18-and-over-%7Cs
+ ilo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/silo/
 END:VEVENT
 END:VCALENDAR

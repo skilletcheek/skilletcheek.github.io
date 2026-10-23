@@ -282,4 +282,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-17&e=dragonforce-inhuman-rampa
 DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/house-of-blues-dallas/
 END:VEVENT
+BEGIN:VEVENT
+UID:syd-beard-tour|house-of-blues-dallas-dallas|7-00-pm-2026-11-20@letsdoit
+ dallas.com
+DTSTAMP:20261121T010000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:Syd: Beard Tour
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=syd-beard-tour%7Chouse-of
+ -blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/house-of-blues-dallas/
+END:VEVENT
 END:VCALENDAR

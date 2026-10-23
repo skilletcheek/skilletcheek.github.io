@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:basic-printer-spirit-of-bear|three-links-deep-ellum-dallas|8-00-pm-2026
- -10-22@letsdoitdallas.com
-DTSTAMP:20261023T010000Z
-DTSTART:20261023T010000Z
-DTEND:20261023T040000Z
-SUMMARY:Basic Printer\, Spirit of Bear
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=basic-printer-spirit-of-b
- ear%7Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:tin-pool-freeze-sucka-through-the-divide-faded-night|trees-dallas|doors
  -see-listing-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261023T000000Z
@@ -905,15 +892,42 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:southfm|trees-dallas|doors-see-listing-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:SOUTHFM
+UID:heal-the-hurt-magdalene-rose-unbroken-reign|three-links-deep-ellum-dall
+ as|7-00-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T010000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:Heal The Hurt\, Magdalene Rose\, Unbroken Reign
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=heal-the-hurt-magdalene-r
+ ose-unbroken-reign%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:all-the-feels-r-and-b-16-and-under-with-parent-or-legal-guardian-|the-b
+ omb-factory-dallas|8-00-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T020000Z
+DTSTART:20261121T020000Z
+DTEND:20261121T050000Z
+SUMMARY:All The Feels R and B (16 and Under with Parent or Legal Guardian)
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=all-the-feels-r-and-b-16-
+ and-under-with-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C8-00-
+ pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:southfm|trees-dallas|8-00-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T020000Z
+DTSTART:20261121T020000Z
+DTEND:20261121T050000Z
+SUMMARY:SouthFM
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-20&e=southfm%7Ctrees-dallas%7C
- doors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
+ 8-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

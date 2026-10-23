@@ -152,6 +152,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/billy-bob-s/
 END:VEVENT
 BEGIN:VEVENT
+UID:justin-moore-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-11-20@le
+ tsdoitdallas.com
+DTSTAMP:20261121T040000Z
+DTSTART:20261121T040000Z
+DTEND:20261121T070000Z
+SUMMARY:Justin Moore (18 and Over)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=justin-moore-18-and-over-
+ %7Cbilly-bob-s-fort-worth%7C10-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
 UID:wade-bowen|billy-bob-s-texas-fort-worth|7-00-pm-2026-11-21@letsdoitdall
  as.com
 DTSTAMP:20261122T010000Z

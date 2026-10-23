@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-malpass-brothers|arlington-music-hall-arlington|7-30-pm-2026-10-22@
- letsdoitdallas.com
-DTSTAMP:20261023T003000Z
-DTSTART:20261023T003000Z
-DTEND:20261023T033000Z
-SUMMARY:The Malpass Brothers
-LOCATION:Arlington Music Hall
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=the-malpass-brothers%7Car
- lington-music-hall-arlington%7C7-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/arlington-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:mo-pitney|arlington-music-hall-arlington|8-00-pm-2026-10-23@letsdoitdal
  las.com
 DTSTAMP:20261024T010000Z

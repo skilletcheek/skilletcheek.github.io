@@ -10,54 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:planning-passport|mckinney|see-details-2026-10-22@letsdoitdallas.com
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
-SUMMARY:Planning Passport
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=planning-passport%7Cmckin
- ney%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 31. — More: https://letsdoitdallas.com/dis
- trict/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:mckinney-community-development-corporation-mcdc-|401-e-virginia-st-mcki
- nney|08-00-am-2026-10-22@letsdoitdallas.com
-DTSTAMP:20261022T130000Z
-DTSTART:20261022T130000Z
-DTEND:20261022T160000Z
-SUMMARY:McKinney Community Development Corporation (MCDC)
-LOCATION:401 E. Virginia St. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=mckinney-community-develo
- pment-corporation-mcdc-%7C401-e-virginia-st-mckinney%7C08-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:branching-out-mckinney-trees-adults-|6861-w-eldorado-parkway-mckinney|0
- 7-00-pm-2026-10-22@letsdoitdallas.com
-DTSTAMP:20261023T000000Z
-DTSTART:20261023T000000Z
-DTEND:20261023T030000Z
-SUMMARY:Branching Out: McKinney Trees (Adults)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=branching-out-mckinney-tr
- ees-adults-%7C6861-w-eldorado-parkway-mckinney%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:hoa-neighborhood-leaders-meeting|2100-taylor-burk-dr-mckinney|07-00-pm-
- 2026-10-22@letsdoitdallas.com
-DTSTAMP:20261023T000000Z
-DTSTART:20261023T000000Z
-DTEND:20261023T030000Z
-SUMMARY:HOA & Neighborhood Leaders Meeting
-LOCATION:2100 Taylor Burk Dr. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=hoa-neighborhood-leaders-
- meeting%7C2100-taylor-burk-dr-mckinney%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:planning-passport|mckinney|see-details-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261023T000000Z
 DTSTART;VALUE=DATE:20261023
@@ -759,6 +711,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-05&e=surviving-world-war-ii-ad
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
+ am-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261106T163000Z
+DTSTART:20261106T163000Z
+DTEND:20261106T193000Z
+SUMMARY:Toddler Time (16 Months-3 Years)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=toddler-time-16-months-3-
+ years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:worlds-2026-quarters-4|credit-union-of-texas-event-center-allen|4-00-pm
  -2026-11-06@letsdoitdallas.com
 DTSTAMP:20261106T220000Z
@@ -796,5 +760,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-08&e=worlds-2026-semis-2%7Ccre
  dit-union-of-texas-event-center-allen%7C4-00-pm
 DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:allen-americans-vs-kansas-city-mavericks-red-out|credit-union-of-texas-
+ event-center-allen|7-00-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T010000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:Allen Americans vs Kansas City Mavericks - Red Out
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=allen-americans-vs-kansas
+ -city-mavericks-red-out%7Ccredit-union-of-texas-event-center-allen%7C7-00-
+ pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/mckinney/
 END:VEVENT
 END:VCALENDAR

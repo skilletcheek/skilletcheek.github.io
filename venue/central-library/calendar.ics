@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:thrills-chills-book-club-ages-18-|central-library-garland|06-30-pm-2026
- -10-22@letsdoitdallas.com
-DTSTAMP:20261022T233000Z
-DTSTART:20261022T233000Z
-DTEND:20261023T023000Z
-SUMMARY:Thrills & Chills Book Club (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=thrills-chills-book-club-
- ages-18-%7Ccentral-library-garland%7C06-30-pm
-DESCRIPTION:6:30 p.m.\; An adult book club for mystery and thriller enthusi
- asts! Join us for engaging discussions and enjoy light refreshments. Octob
- er 22\, 2026 06:30 PM - 07:30 PM 625 Austin St.Garland\, TX 75040 https://
- www.garlandtx.gov/Calendar.aspx?EID=13004/639227577320000000 — More: htt
- ps://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:basic-computer-practice-ages-18-|central-library-garland|10-00-am-2026-
  10-23@letsdoitdallas.com
 DTSTAMP:20261023T150000Z
@@ -552,5 +536,40 @@ DESCRIPTION:6:00 p.m.\; Roll the dice\, draw your cards and join us for Gam
  l player or just looking for a fun night out\, this adults-only evening is
   the perfect chance to relax and connect with fellow gamers. Enjoy a varie
  t — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:basic-computer-practice-ages-18-|central-library-garland|10-00-am-2026-
+ 11-06@letsdoitdallas.com
+DTSTAMP:20261106T160000Z
+DTSTART:20261106T160000Z
+DTEND:20261106T190000Z
+SUMMARY:Basic Computer Practice (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=basic-computer-practice-a
+ ges-18-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Get basic computer practice every Friday morning. 
+ Learn the coordination skills needed to use a computer independently with 
+ confidence. Technology accessories like the mouse and keyboard take time a
+ nd practice to master\; that’s why our computer classes are held almost 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:paint-like-fernando-botero-ages-18-pintar-como-fernando-botero-a-os-18-
+ de-la-biblioteca-central|central-library-garland|06-00-pm-2026-11-06@letsd
+ oitdallas.com
+DTSTAMP:20261107T000000Z
+DTSTART:20261107T000000Z
+DTEND:20261107T030000Z
+SUMMARY:Paint Like Fernando Botero (Ages 18+) / Pintar Como Fernando Botero
+  (Años 18+) de la Biblioteca Central
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=paint-like-fernando-boter
+ o-ages-18-pintar-como-fernando-botero-a-os-18-de-la-biblioteca-central%7Cc
+ entral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Join us for a creative and cultural evening celebra
+ ting the life and legacy of renowned Colombian artist Fernando Botero. The
+  evening begins with a bilingual (English and Spanish) presentation explor
+ ing Botero’s impactful life\, bold artistic style and lasting contribut 
+ — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

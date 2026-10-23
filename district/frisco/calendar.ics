@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:force-encounters-analysis-open-enrollment-|7200-stonebrook-pkwy-frisco|
- 08-00-am-2026-10-22@letsdoitdallas.com
-DTSTAMP:20261022T130000Z
-DTSTART:20261022T130000Z
-DTEND:20261022T160000Z
-SUMMARY:Force Encounters Analysis (Open Enrollment)
-LOCATION:7200 Stonebrook Pkwy · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=force-encounters-analysis
- -open-enrollment-%7C7200-stonebrook-pkwy-frisco%7C08-00-am
-DESCRIPTION:Runs Oct 20 – Oct 22. — More: https://letsdoitdallas.com/di
- strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:sunrise-yoga|8802-4th-st-frisco|07-30-am-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261024T123000Z
 DTSTART:20261024T123000Z
@@ -294,18 +281,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-04&e=-the-cottage-by-theatre-f
  risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
 DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
  strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:plaza-live-|8800-8840-4th-st-frisco|05-00-pm-2026-11-04@letsdoitdallas.
- com
-DTSTAMP:20261104T230000Z
-DTSTART:20261104T230000Z
-DTEND:20261105T020000Z
-SUMMARY:Plaza Live!
-LOCATION:8800-8840 4th St · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=plaza-live-%7C8800-8840-4
- th-st-frisco%7C05-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-

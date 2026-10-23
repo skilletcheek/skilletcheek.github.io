@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tk-kirkland|punch-line-irving-irving|7-00-pm-2026-10-22@letsdoitdallas.
- com
-DTSTAMP:20261023T000000Z
-DTSTART:20261023T000000Z
-DTEND:20261023T030000Z
-SUMMARY:TK Kirkland
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=tk-kirkland%7Cpunch-line-
- irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:maria-jose-moenia-us-tour-2026|the-pavilion-at-toyota-music-factory-irv
- ing|8-00-pm-2026-10-22@letsdoitdallas.com
-DTSTAMP:20261023T010000Z
-DTSTART:20261023T010000Z
-DTEND:20261023T040000Z
-SUMMARY:Maria Jose + Moenia Us Tour 2026
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=maria-jose-moenia-us-tour
- -2026%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:andrew-orolfo|punch-line-irving-irving|7-00-pm-2026-10-23@letsdoitdalla
  s.com
 DTSTAMP:20261024T000000Z
@@ -687,6 +661,32 @@ SUMMARY:Chris Redd
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=chris-redd%7Cpunch-line-i
  rving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-redd|punch-line-irving-irving|7-00-pm-2026-11-20@letsdoitdallas.c
+ om
+DTSTAMP:20261121T010000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:Chris Redd
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=chris-redd%7Cpunch-line-i
+ rving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:stoned-vs-drunk-vs-sober|punch-line-irving-irving|9-30-pm-2026-11-20@le
+ tsdoitdallas.com
+DTSTAMP:20261121T033000Z
+DTSTART:20261121T033000Z
+DTEND:20261121T063000Z
+SUMMARY:Stoned vs Drunk vs Sober
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=stoned-vs-drunk-vs-sober%
+ 7Cpunch-line-irving-irving%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
 END:VEVENT

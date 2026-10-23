@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:aaron-branch-18-|improv-comedy-club-arlington-arlington|7-30-pm-2026-10
- -22@letsdoitdallas.com
-DTSTAMP:20261023T003000Z
-DTSTART:20261023T003000Z
-DTEND:20261023T033000Z
-SUMMARY:Aaron Branch (18+)
-LOCATION:Improv Comedy Club - Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-22&e=aaron-branch-18-%7Cimprov
- -comedy-club-arlington-arlington%7C7-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-ratt-packs-of-comedy-tour|arlington-improv-arlington|7-30-pm-2026-1
  0-23@letsdoitdallas.com
 DTSTAMP:20261024T003000Z
@@ -342,6 +329,32 @@ SUMMARY:Flame and Friends
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=flame-and-friends%7Carlin
  gton-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:godfrey|arlington-improv-arlington|7-30-pm-2026-11-20@letsdoitdallas.co
+ m
+DTSTAMP:20261121T013000Z
+DTSTART:20261121T013000Z
+DTEND:20261121T043000Z
+SUMMARY:Godfrey
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=godfrey%7Carlington-impro
+ v-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:godfrey|arlington-improv-arlington|9-45-pm-2026-11-20@letsdoitdallas.co
+ m
+DTSTAMP:20261121T034500Z
+DTSTART:20261121T034500Z
+DTEND:20261121T064500Z
+SUMMARY:Godfrey
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=godfrey%7Carlington-impro
+ v-arlington%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

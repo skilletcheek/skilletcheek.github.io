@@ -50,4 +50,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=tcu-horned-frogs-football
 DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/venue/amon-g-carter-stadium/
 END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-football-vs-utah-utes-football|amon-g-carter-stadium-f
+ ort-worth|see-details-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:TCU Horned Frogs Football vs. Utah Utes Football
+LOCATION:Amon G. Carter Stadium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=tcu-horned-frogs-football
+ -vs-utah-utes-football%7Camon-g-carter-stadium-fort-worth%7Csee-details
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/amon-g-carter-stadium/
+END:VEVENT
 END:VCALENDAR
