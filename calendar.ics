@@ -10,6 +10,23 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:art-worth-festival|the-shops-at-clearfork-5188-monahans-ave-fort-worth-
+ tx-76109-united-states|all-day-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Art Worth Festival
+LOCATION:The Shops at Clearfork · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=art-worth-festival%7Cthe-
+ shops-at-clearfork-5188-monahans-ave-fort-worth-tx-76109-united-states%7Ca
+ ll-day
+DESCRIPTION:Art Worth Festival celebrates creativity in every form—and th
+ roughout the weekend\, the South Lawn Stage will come alive with an except
+ ional lineup of classical music\, opera\, jazz and choral performances.  F
+ rom talented middle and high school ensembles to university musicians\, co
+ m — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:christopher-holt-presents-beyond-the-milky-way|the-kessler-theater-oak-
  cliff-dallas|doors-see-listing-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261023T000000Z
@@ -33,6 +50,23 @@ LOCATION:McKinney
 URL:https://letsdoitdallas.com/?date=2026-10-23&e=planning-passport%7Cmckin
  ney%7Csee-details
 DESCRIPTION:Runs Oct 8 – Oct 31. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:red-steagall-cowboy-gathering|fort-worth-stockyards-131-east-exchange-a
+ venue-fort-worth-76164-united-states|all-day-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:RED STEAGALL COWBOY GATHERING
+LOCATION:Fort Worth Stockyards
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=red-steagall-cowboy-gathe
+ ring%7Cfort-worth-stockyards-131-east-exchange-avenue-fort-worth-76164-uni
+ ted-states%7Call-day
+DESCRIPTION:The annual Red Steagall Cowboy Gathering held in the Fort Wor
+ th Stockyards National Historic District is the premier western lifestyle 
+ event! Designed to celebrate the men and women that feed and clothe Americ
+ a through their work on ranches across this country. Savor the aroma of 
+ — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:ronnie-fauss|sundown-at-granada-lower-greenville-dallas|doors-see-listi
@@ -60,167 +94,108 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=tin-pool-freeze-sucka-thr
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:chair-volleyball|310-e-parkerville-road-cedar-hill|09-30-am-2026-10-23@
- letsdoitdallas.com
-DTSTAMP:20261023T143000Z
-DTSTART:20261023T143000Z
-DTEND:20261023T173000Z
-SUMMARY:Chair Volleyball
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=chair-volleyball%7C310-e-
- parkerville-road-cedar-hill%7C09-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/
+UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
+ e-tx-76051-united-states|8-00-am-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T130000Z
+DTSTART:20261023T130000Z
+DTEND:20261023T160000Z
+SUMMARY:Phenomenomaly at Meow Wolf
+LOCATION:Meow Wolf · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=phenomenomaly-at-meow-wol
+ f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
+ C8-00-am
+DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
+  live immersive performance series inside The Real Unreal. Blending intera
+ ctive theater with a rotating lineup of North Texas talent\, the experienc
+ e unfolds around guests as they explore\, featuring music\, dance\, comedy
+ \, — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:art-studio-18-|grapevine|10-00-am-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T150000Z
-DTSTART:20261023T150000Z
-DTEND:20261023T180000Z
-SUMMARY:Art Studio (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=art-studio-18-%7Cgrapevin
- e%7C10-00-am
-DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
- our own projects or start something new. Bring your own project and ideas!
-  This is a welcoming space for creatives 18+. *Library Card Required* Octo
- ber 23\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grapev 
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T130000Z
+DTSTART:20261023T130000Z
+DTEND:20261023T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a
- m-2026-10-23@letsdoitdallas.com
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261023T150000Z
 DTSTART:20261023T150000Z
 DTEND:20261023T180000Z
-SUMMARY:Baby Bounce & Read (Birth-18 Months)
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=baby-bounce-read-birth-18
- -months-%7Csouth-garland-library-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
-  will learn\, play\, and grow together in this lap-sit storytime that intr
- oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
- y literacy practices into their everyday lives. October 23\, 2026 10:00 AM
-  - 1 — More: https://letsdoitdallas.com/
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:basic-computer-practice-ages-18-|central-library-garland|10-00-am-2026-
- 10-23@letsdoitdallas.com
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-23@lets
+ doitdallas.com
 DTSTAMP:20261023T150000Z
 DTSTART:20261023T150000Z
 DTEND:20261023T180000Z
-SUMMARY:Basic Computer Practice (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=basic-computer-practice-a
- ges-18-%7Ccentral-library-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Get basic computer practice every Friday morning. 
- Learn the coordination skills needed to use a computer independently with 
- confidence. Technology accessories like the mouse and keyboard take time a
- nd practice to master\; that’s why our computer classes are held almost 
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:toddler-time-18-36-months-|north-garland-library-garland|10-00-am-2026-
- 10-23@letsdoitdallas.com
-DTSTAMP:20261023T150000Z
-DTSTART:20261023T150000Z
-DTEND:20261023T180000Z
-SUMMARY:Toddler Time (18-36 Months)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=toddler-time-18-36-months
- -%7Cnorth-garland-library-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Toddler Time is a storytime for children ages 18 m
- onths to 3 years old. Toddler Time storytimes will be a mixture of age app
- ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
- rachute play. October 23\, 2026 10:00 AM - 11:00 AM 3845 N. Garland Ave.Ga
- rl — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:baby-bounce-read-birth-18-months-|west-garland-library-garland|10-30-am
- -2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T153000Z
-DTSTART:20261023T153000Z
-DTEND:20261023T183000Z
-SUMMARY:Baby Bounce & Read (Birth-18 Months)
-LOCATION:West Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=baby-bounce-read-birth-18
- -months-%7Cwest-garland-library-garland%7C10-30-am
-DESCRIPTION:10:30 a.m.\; Babies\, birth to 18 months\, and their caregivers
-  will learn\, play\, and grow together in this lap-sit storytime that intr
- oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
- y literacy practices into their everyday lives. October 23\, 2026 10:30 AM
-  - 1 — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:bouncing-babies|grapevine|10-30-am-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T153000Z
-DTSTART:20261023T153000Z
-DTEND:20261023T183000Z
-SUMMARY:Bouncing Babies
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=bouncing-babies%7Cgrapevi
- ne%7C10-30-am
-DESCRIPTION:Bouncing Babies is a program for babies from birth to 18 months
- . It includes songs\, bounces\, parachute\, as well as a social time for c
- aregivers. No registration needed. October 23\, 2026 10:30 AM - 11:00 AM G
- rapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17730
-  — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:toddler-story-time|lancaster-veterans-memorial-library-1600-veterans-me
- morial-parkway-lancaster|10-30-am-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T153000Z
-DTSTART:20261023T153000Z
-DTEND:20261023T183000Z
-SUMMARY:Toddler Story Time
-LOCATION:Lancaster Veterans Memorial Library
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=toddler-story-time%7Clanc
- aster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%7
- C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
- am-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T153000Z
-DTSTART:20261023T153000Z
-DTEND:20261023T183000Z
-SUMMARY:Toddler Time (16 Months-3 Years)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=toddler-time-16-months-3-
- years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:preschool-discovery-3-5-years-|north-garland-library-garland|11-00-am-2
- 026-10-23@letsdoitdallas.com
+UID:county-line-records-wmg-vinyl-take-back-event|county-line-records-600-n
+ -main-st-building-b-keller-tx-76248-united-states|11-00-am-2026-10-23@lets
+ doitdallas.com
 DTSTAMP:20261023T160000Z
 DTSTART:20261023T160000Z
 DTEND:20261023T190000Z
-SUMMARY:Preschool Discovery (3-5 Years)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=preschool-discovery-3-5-y
- ears-%7Cnorth-garland-library-garland%7C11-00-am
-DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
- ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
- ters\, numbers\, and much more that will help develop your preschooler's e
- arly literacy skills. October 23\, 2026 11:00 AM - 12:00 PM 3845 N. Garlan
- d — More: https://letsdoitdallas.com/
+SUMMARY:County Line Records & WMG Vinyl Take-Back Event
+LOCATION:County Line Records · Keller
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=county-line-records-wmg-v
+ inyl-take-back-event%7Ccounty-line-records-600-n-main-st-building-b-keller
+ -tx-76248-united-states%7C11-00-am
+DESCRIPTION:Drop into County Line Records for an afternoon of crate digging
+ . While you’re there drop off your damaged or unplayable vinyl records t
+ o help support vinyl recycling efforts! Collection bins will be out throug
+ h the end of September. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:toddler-time-18-36-months-|south-garland-library-garland|11-00-am-2026-
- 10-23@letsdoitdallas.com
+UID:national-multi-cultural-western-heritage-museum|the-national-multicultu
+ ral-western-heritage-museum-2201-dottie-lynn-pkwy-suite-115-fort-worth-761
+ 20-united-states|11-00-am-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261023T160000Z
 DTSTART:20261023T160000Z
 DTEND:20261023T190000Z
-SUMMARY:Toddler Time (18-36 Months)
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=toddler-time-18-36-months
- -%7Csouth-garland-library-garland%7C11-00-am
-DESCRIPTION:11:00 a.m.\; Toddler Time is a storytime for children ages 18 m
- onths to 3 years old. Toddler Time storytimes will be a mixture of age app
- ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
- rachute play. October 23\, 2026 11:00 AM - 12:00 PM 4845 Broadway Blvd.Gar
- la — More: https://letsdoitdallas.com/
+SUMMARY:National Multi Cultural Western Heritage Museum
+LOCATION:The National Multicultural Western Heritage Museum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=national-multi-cultural-w
+ estern-heritage-museum%7Cthe-national-multicultural-western-heritage-museu
+ m-2201-dottie-lynn-pkwy-suite-115-fort-worth-76120-united-states%7C11-00-a
+ m
+DESCRIPTION:The primary objective of the National Multicultural Western Her
+ itage Museum and Hall of Fame is to offer the visitor a true and complete 
+ historical perspective of the people and activities that built the unique 
+ culture of the American West. The work of artists who documented the — M
+ ore: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:worlds-2026-swiss-1|credit-union-of-texas-event-center-allen|12-00-pm-2
@@ -249,49 +224,6 @@ DESCRIPTION:Open Play Fridays 12:30-4:30. Tables available on a first come
  s and bags. Ages 18 and up. October 23\, 2026 12:30 PM - 04:30 PM Grapevin
  e\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17591/63920 
  — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:homeschool-libratory-sewer-drain-engineering-challenge|west-garland-lib
- rary-garland|01-00-pm-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T180000Z
-DTSTART:20261023T180000Z
-DTEND:20261023T210000Z
-SUMMARY:Homeschool Libratory: Sewer Drain Engineering Challenge
-LOCATION:West Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=homeschool-libratory-sewe
- r-drain-engineering-challenge%7Cwest-garland-library-garland%7C01-00-pm
-DESCRIPTION:1:00 p.m.\; Drop in for an afternoon of exploring hands-on STEA
- M activities with your fellow homeschoolers each month! Share your latest 
- discoveries\, books you’ve read and more while having fun and making fri
- ends. Families who are considering homeschooling are also welcome! Octobe 
- — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:pilates-for-older-adults|310-e-parkerville-road-cedar-hill|01-00-pm-202
- 6-10-23@letsdoitdallas.com
-DTSTAMP:20261023T180000Z
-DTSTART:20261023T180000Z
-DTEND:20261023T210000Z
-SUMMARY:Pilates for Older Adults
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=pilates-for-older-adults%
- 7C310-e-parkerville-road-cedar-hill%7C01-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:bouncing-babies|grapevine|01-30-pm-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T183000Z
-DTSTART:20261023T183000Z
-DTEND:20261023T213000Z
-SUMMARY:Bouncing Babies
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=bouncing-babies%7Cgrapevi
- ne%7C01-30-pm
-DESCRIPTION:Bouncing Babies is a program for babies from birth to 18 months
- . It includes songs\, bounces\, parachute\, as well as a social time for c
- aregivers. No registration needed. October 23\, 2026 01:30 PM - 02:00 PM G
- rapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17739
-  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:days-at-dogwood-canyon-podcast|cedar-hill|05-00-pm-2026-10-23@letsdoitd
@@ -378,6 +310,21 @@ DESCRIPTION:Elevate your weekly card game into something sleeker with Champ
   — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:witch-please-its-bingo-loco-|texas-live-1650-east-randol-mill-road-arli
+ ngton-76011-united-states|6-30-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T233000Z
+DTSTART:20261023T233000Z
+DTEND:20261024T023000Z
+SUMMARY:Witch\, Please! Its Bingo Loco!
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=witch-please-its-bingo-lo
+ co-%7Ctexas-live-1650-east-randol-mill-road-arlington-76011-united-states%
+ 7C6-30-pm
+DESCRIPTION:The wildest bingo meets music trivia party is taking over! Show
+  up in your favorite costume and get ready for a night you — More: https
+ ://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:andrew-orolfo|punch-line-irving-irving|7-00-pm-2026-10-23@letsdoitdalla
  s.com
 DTSTAMP:20261024T000000Z
@@ -442,6 +389,21 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=deric-cahill%7Cmic-drop-c
  omedy-plano-plano%7C7-00-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /
+END:VEVENT
+BEGIN:VEVENT
+UID:en-vivo-profugos-de-nuevo-leon-la-nueva-pradera|texas-live-1650-east-ra
+ ndol-mill-road-arlington-76011-united-states|7-00-pm-2026-10-23@letsdoitda
+ llas.com
+DTSTAMP:20261024T000000Z
+DTSTART:20261024T000000Z
+DTEND:20261024T030000Z
+SUMMARY:En Vivo: Profugos de Nuevo Leon & La Nueva Pradera
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=en-vivo-profugos-de-nuevo
+ -leon-la-nueva-pradera%7Ctexas-live-1650-east-randol-mill-road-arlington-7
+ 6011-united-states%7C7-00-pm
+DESCRIPTION:Coors Light En Vivo Concert Series Presents Profugos de Nuevo L
+ eon & La Nueva Pradera! — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:envision-dance-class|310-e-parkerville-road-cedar-hill|07-00-pm-2026-10
@@ -697,6 +659,24 @@ DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-best-comedy-show|big-laugh-comedy-club-fort-worth-604-main-st-suite
+ -100-fort-worth-tx-76102-united-states|7-30-pm-2026-10-23@letsdoitdallas.c
+ om
+DTSTAMP:20261024T003000Z
+DTSTART:20261024T003000Z
+DTEND:20261024T033000Z
+SUMMARY:The Best Comedy Show
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=the-best-comedy-show%7Cbi
+ g-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-u
+ nited-states%7C7-30-pm
+DESCRIPTION:Get ready for the laugh of your life!  Looking for the ultimate
+  Friday night out? Look no further! The Best Comedy Show at Big Laugh Come
+ dy Club is your go-to ticket for non-stop laughs\, unexpected moments\, an
+ d a good time you won’t soon forget.  Featuring some of the funniest co 
+ — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-monsters|wyly-theatre-at-t-performing-arts-center-dallas|7-30-pm-20
  26-10-23@letsdoitdallas.com
 DTSTAMP:20261024T003000Z
@@ -721,6 +701,24 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=the-ratt-packs-of-comedy-
  tour%7Carlington-improv-arlington%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/
+END:VEVENT
+BEGIN:VEVENT
+UID:ultimate-rod-stewart-experience-starring-vic-vaga|palace-arts-theatre-3
+ 00-s-main-st-grapevine-76051-united-states|7-30-pm-2026-10-23@letsdoitdall
+ as.com
+DTSTAMP:20261024T003000Z
+DTSTART:20261024T003000Z
+DTEND:20261024T033000Z
+SUMMARY:Ultimate Rod Stewart Experience Starring Vic Vaga
+LOCATION:Palace Arts Theatre · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=ultimate-rod-stewart-expe
+ rience-starring-vic-vaga%7Cpalace-arts-theatre-300-s-main-st-grapevine-760
+ 51-united-states%7C7-30-pm
+DESCRIPTION:Vic Vaga is an internationally renowned Rod Stewart lookalike a
+ nd tribute performer. Whether Vaga is performing in Las Vegas\, Canada\, F
+ lorida or in Texas\, his live shows are exciting and energetic. A true tri
+ bute to “Rod the Mod” that has been critically acclaimed many times ov
+ er — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:-the-days-that-made-america-tour-with-lindsay-graham-presented-by-garla
@@ -803,23 +801,6 @@ DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
-UID:guest-artist-recital-minjung-baek-piano|paul-voertman-concert-hall-at-t
- he-music-building-denton|8-00-pm-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261024T010000Z
-DTSTART:20261024T010000Z
-DTEND:20261024T040000Z
-SUMMARY:Guest Artist Recital: MinJung Baek\, piano
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=guest-artist-recital-minj
- ung-baek-piano%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7
- C8-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:ian-moore|the-post-at-river-east-fort-worth|8-00-pm-2026-10-23@letsdoit
  dallas.com
 DTSTAMP:20261024T010000Z
@@ -898,6 +879,22 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/
 END:VEVENT
 BEGIN:VEVENT
+UID:quamon-fowler|scat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-sta
+ tes|8-00-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Quamon Fowler
+LOCATION:Scat Jazz Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=quamon-fowler%7Cscat-jazz
+ -lounge-111-w-4th-st-fort-worth-76102-united-states%7C8-00-pm
+DESCRIPTION:Saxophonist Quamon Fowler has been honing his craft most of his
+  life. He was mentored by legendary clarinetist Alvin Batiste\, performing
+  in Baton Rouge and New Orleans\, sparking the release of his debut album 
+ “Introducing Quamon Fowler”. He was selected as a Panasonic Young Solo
+ i — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:seth-meyers-live|music-hall-at-fair-park-dallas|8-00-pm-2026-10-23@lets
  doitdallas.com
 DTSTAMP:20261024T010000Z
@@ -934,6 +931,21 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=huser-brothers%7Choots-bu
  rleson%7C8-30-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/
+END:VEVENT
+BEGIN:VEVENT
+UID:kill-em-all-the-premier-tribute-to-metallica|fat-daddy-s-mansfield-781-
+ west-debbie-lane-mansfield-76063-united-states|8-30-pm-2026-10-23@letsdoit
+ dallas.com
+DTSTAMP:20261024T013000Z
+DTSTART:20261024T013000Z
+DTEND:20261024T043000Z
+SUMMARY:Kill 'Em All - THE PREMIER TRIBUTE TO METALLICA
+LOCATION:Fat Daddy’s Mansfield
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=kill-em-all-the-premier-t
+ ribute-to-metallica%7Cfat-daddy-s-mansfield-781-west-debbie-lane-mansfield
+ -76063-united-states%7C8-30-pm
+DESCRIPTION:$5 online or with reservation at the bar $7 at the door — Mor
+ e: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:baauer|it-ll-do-club-dallas|9-00-pm-2026-10-23@letsdoitdallas.com
@@ -974,6 +986,23 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/
 END:VEVENT
 BEGIN:VEVENT
+UID:jordan-nix-w-special-guest-brayden-stewart|magnolia-motor-lounge-3803-s
+ outhwest-blvd-fort-worth-76116-united-states|9-00-pm-2026-10-23@letsdoitda
+ llas.com
+DTSTAMP:20261024T020000Z
+DTSTART:20261024T020000Z
+DTEND:20261024T050000Z
+SUMMARY:Jordan Nix w/ special guest Brayden Stewart
+LOCATION:Magnolia Motor Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=jordan-nix-w-special-gues
+ t-brayden-stewart%7Cmagnolia-motor-lounge-3803-southwest-blvd-fort-worth-7
+ 6116-united-states%7C9-00-pm
+DESCRIPTION:Jordan Nix w/ special guest Brayden Stewart  7:00 DOORS – 9:0
+ 0 MUSIC   $10 GA ($15 at door) $80 – Table of 4 $120 – Table of 6 $160
+  – Table of 8  Ages 21+  @outhousetickets   Share it and tag a few fri
+ ends! — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:kettama-18-|silo-dallas|9-00-pm-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261024T020000Z
 DTSTART:20261024T020000Z
@@ -986,15 +1015,15 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/
 END:VEVENT
 BEGIN:VEVENT
-UID:next-level-kpop|rbc-dallas|9-00-pm-11-00-pm-2026-10-23@letsdoitdallas.c
- om
+UID:next-level-kpop|rbc-2617-commerce-st-dallas-tx-75226-united-states|9-00
+ -pm-2026-10-23@letsdoitdallas.com
 DTSTAMP:20261024T020000Z
 DTSTART:20261024T020000Z
 DTEND:20261024T050000Z
 SUMMARY:Next Level KPop
 LOCATION:RBC · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=next-level-kpop%7Crbc-dal
- las%7C9-00-pm-11-00-pm
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=next-level-kpop%7Crbc-261
+ 7-commerce-st-dallas-tx-75226-united-states%7C9-00-pm
 DESCRIPTION:Obsessed with K-pop? Same. Next Level K-Pop Rave is the ultimat
  e DJ dance party dedicated to the biggest hits and hottest idols in the ga
  me. Expect nonstop anthems from BLACKPINK\, BTS\, TWICE\, Stray Kids\, New
@@ -1149,6 +1178,22 @@ DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /
 END:VEVENT
 BEGIN:VEVENT
+UID:quamon-fowler|scat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-sta
+ tes|10-00-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261024T030000Z
+DTSTART:20261024T030000Z
+DTEND:20261024T060000Z
+SUMMARY:Quamon Fowler
+LOCATION:Scat Jazz Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=quamon-fowler%7Cscat-jazz
+ -lounge-111-w-4th-st-fort-worth-76102-united-states%7C10-00-pm
+DESCRIPTION:Saxophonist Quamon Fowler has been honing his craft most of his
+  life. He was mentored by legendary clarinetist Alvin Batiste\, performing
+  in Baton Rouge and New Orleans\, sparking the release of his debut album 
+ “Introducing Quamon Fowler”. He was selected as a Panasonic Young Solo
+ i — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:invasion-car-show|trees-dallas|doors-see-listing-2026-10-24@letsdoitdal
  las.com
 DTSTAMP:20261024T000000Z
@@ -1256,6 +1301,39 @@ LOCATION:8802 4th St · Frisco
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=sunrise-yoga%7C8802-4th-s
  t-frisco%7C07-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
+ e-tx-76051-united-states|8-00-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T130000Z
+DTSTART:20261024T130000Z
+DTEND:20261024T160000Z
+SUMMARY:Phenomenomaly at Meow Wolf
+LOCATION:Meow Wolf · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=phenomenomaly-at-meow-wol
+ f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
+ C8-00-am
+DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
+  live immersive performance series inside The Real Unreal. Blending intera
+ ctive theater with a rotating lineup of North Texas talent\, the experienc
+ e unfolds around guests as they explore\, featuring music\, dance\, comedy
+ \, — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T130000Z
+DTSTART:20261024T130000Z
+DTEND:20261024T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:step-aerobics-extreme-hip-hop|310-e-parkerville-road-cedar-hill|08-45-a
@@ -1392,6 +1470,23 @@ DESCRIPTION:Visit Burger Schmurger at Oktoberfest Dallas for smashed burger
  n — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:chemistry-week|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T150000Z
+DTSTART:20261024T150000Z
+DTEND:20261024T180000Z
+SUMMARY:Chemistry Week
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=chemistry-week%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:This year’s theme\, “Chemistry Under Construction\,” high
+ lights how chemistry helps us build\, create\, and innovate the world arou
+ nd us. From the materials in our homes and communities to the technologies
+  shaping our future\, chemistry is at work behind the scenes.   Learn how
+  chemis — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:collect-a-con-dallas-tx-|kay-bailey-hutchison-convention-center-dallas-
  dallas|10-00-am-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261024T150000Z
@@ -1433,6 +1528,23 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=drug-take-back-event%7C21
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T150000Z
+DTSTART:20261024T150000Z
+DTEND:20261024T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-10-24@letsd
  oitdallas.com
 DTSTAMP:20261024T150000Z
@@ -1447,6 +1559,24 @@ DESCRIPTION:10:00 a.m.\; Families with children ages 0-5 can enjoy Play & L
  ination\, creativity and problem-solving. This program offers a chance for
   children and caregivers to play together. October 24\, 2026 10:00 AM - 11
   — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-24@lets
+ doitdallas.com
+DTSTAMP:20261024T150000Z
+DTSTART:20261024T150000Z
+DTEND:20261024T180000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:roundtable-writer-s-breakfast-a-tough-row-to-hoe|the-women-s-museum-dal
@@ -1842,22 +1972,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=worlds-2026-swiss-2%7Ccre
  dit-union-of-texas-event-center-allen%7C12-00-pm
 DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
  s.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:senior-recital-robin-sabatini-clarinet|recital-hall-at-the-music-buildi
- ng-denton|12-30-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T173000Z
-DTSTART:20261024T173000Z
-DTEND:20261024T203000Z
-SUMMARY:Senior Recital: Robin Sabatini\, clarinet
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=senior-recital-robin-saba
- tini-clarinet%7Crecital-hall-at-the-music-building-denton%7C12-30-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:north-alabama-lions-at-ut-arlington-mavericks-womens-volleyball|college
@@ -2683,19 +2797,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=artikal-sound-system%7Csu
  ndown-at-granada-dallas%7C9-30-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/
-END:VEVENT
-BEGIN:VEVENT
-UID:chona-e|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-pm-2026-10
- -24@letsdoitdallas.com
-DTSTAMP:20261025T023000Z
-DTSTART:20261025T023000Z
-DTEND:20261025T053000Z
-SUMMARY:Chona E
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=chona-e%7Chyena-s-comedy-
- night-club-fort-worth-fort-worth%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /
 END:VEVENT
 BEGIN:VEVENT
 UID:corey-holcomb|addison-improv-addison|9-30-pm-2026-10-24@letsdoitdallas.
@@ -3823,6 +3924,41 @@ URL:https://letsdoitdallas.com/?date=2026-10-26&e=lp-dance-ages-3-7-%7C310-
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:commercial-music-showcase-fall-2026|lab-west-at-the-music-building-dent
+ on|8-00-pm-2026-10-26@letsdoitdallas.com
+DTSTAMP:20261027T010000Z
+DTSTART:20261027T010000Z
+DTEND:20261027T040000Z
+SUMMARY:Commercial Music Showcase Fall 2026
+LOCATION:Lab West at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=commercial-music-showcase
+ -fall-2026%7Clab-west-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:spectrum-a-performance-of-new-works-by-north-texas-composers-fall-2026-
+ concert-2|paul-voertman-concert-hall-at-the-music-building-denton|8-00-pm-
+ 2026-10-26@letsdoitdallas.com
+DTSTAMP:20261027T010000Z
+DTSTART:20261027T010000Z
+DTEND:20261027T040000Z
+SUMMARY:Spectrum: A Performance of New Works by North Texas Composers Fall 
+ 2026 Concert 2
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=spectrum-a-performance-of
+ -new-works-by-north-texas-composers-fall-2026-concert-2%7Cpaul-voertman-co
+ ncert-hall-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program   Please note\, th
+ is program is subject to change. Final program will be available by the da
+ y of the performance.      Livestream link below.      This event is free 
+ and open to the public with general seating. — More: https://letsdoitdal
+ las.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
  pm-2026-10-26@letsdoitdallas.com
 DTSTAMP:20261027T020000Z
@@ -4240,22 +4376,6 @@ DESCRIPTION:6:30 p.m.\; Are you ready to take your Spanish conversation ski
  dult — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:tubaween-fall-2026-concert|recital-hall-at-the-music-building-denton|6-
- 30-pm-2026-10-27@letsdoitdallas.com
-DTSTAMP:20261027T233000Z
-DTSTART:20261027T233000Z
-DTEND:20261028T023000Z
-SUMMARY:Tubaween! Fall 2026 Concert
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=tubaween-fall-2026-concer
- t%7Crecital-hall-at-the-music-building-denton%7C6-30-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:unt-dallas-trailblazers-at-smu-mustangs-womens-basketball-exhibition-|m
  oody-coliseum-dallas|6-30-pm-2026-10-27@letsdoitdallas.com
 DTSTAMP:20261027T233000Z
@@ -4437,22 +4557,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-27&e=the-monsters%7Cwyly-theat
  re-at-t-performing-arts-center-dallas%7C7-30-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/
-END:VEVENT
-BEGIN:VEVENT
-UID:graduate-artist-recital-hye-in-roh-piano|lab-west-at-the-music-building
- -denton|8-00-pm-2026-10-27@letsdoitdallas.com
-DTSTAMP:20261028T010000Z
-DTSTART:20261028T010000Z
-DTEND:20261028T040000Z
-SUMMARY:Graduate Artist Recital: Hye In Roh\, Piano
-LOCATION:Lab West at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=graduate-artist-recital-h
- ye-in-roh-piano%7Clab-west-at-the-music-building-denton%7C8-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:justin-nozuka|deep-ellum-art-co-dallas|8-00-pm-2026-10-27@letsdoitdalla
@@ -4921,23 +5025,6 @@ LOCATION:450 Pioneer Trail · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-10-28&e=beginner-s-yoga-in-the-pa
  rk%7C450-pioneer-trail-cedar-hill%7C06-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:doctoral-recital-soyoung-park-piano|paul-voertman-concert-hall-at-the-m
- usic-building-denton|6-30-pm-2026-10-28@letsdoitdallas.com
-DTSTAMP:20261028T233000Z
-DTSTART:20261028T233000Z
-DTEND:20261029T023000Z
-SUMMARY:Doctoral Recital: Soyoung Park\, piano
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=doctoral-recital-soyoung-
- park-piano%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C6-3
- 0-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:boss-daughter-half-foot-hog-kill-your-tv|three-links-deep-ellum-dallas|
@@ -5461,9 +5548,9 @@ URL:https://letsdoitdallas.com/?date=2026-10-29&e=spooktober%7Csouth-garlan
  d-library-garland%7C06-00-pm
 DESCRIPTION:6:00 p.m.\; Join us for spooky family fun! We will have games\,
   crafts and treats for kids of all ages. Family-friendly costumes encourag
- ed. October 29\, 2026 06:00 PM - 07:30 PM 625 Austin St.Garland\, TX 75040
-  https://www.garlandtx.gov/Calendar.aspx?EID=13321/639235982690000000 — 
- More: https://letsdoitdallas.com/
+ ed. October 29\, 2026 06:00 PM - 07:30 PM 4845 Broadway Blvd.Garland\, TX 
+ 75043 https://www.garlandtx.gov/Calendar.aspx?EID=13321/63928352169000000 
+ — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:step-aerobics-extreme-hip-hop|310-e-parkerville-road-cedar-hill|06-00-p
@@ -5802,6 +5889,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-29&e=madeon-presents-victory-l
  ive%7Csouth-side-ballroom-dallas%7C8-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/
+END:VEVENT
+BEGIN:VEVENT
+UID:tams-dull-roar-orchestra-fall-concert-2026|recital-hall-at-the-music-bu
+ ilding-denton|8-00-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261030T010000Z
+DTSTART:20261030T010000Z
+DTEND:20261030T040000Z
+SUMMARY:TAMS Dull Roar Orchestra Fall Concert 2026
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=tams-dull-roar-orchestra-
+ fall-concert-2026%7Crecital-hall-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:ten-16-and-under-with-parent-or-legal-guardian-|the-studio-at-the-bomb-
@@ -6223,6 +6326,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=days-at-dogwood-canyon-po
 DESCRIPTION:Days at Dogwood Canyon Podcast October 30\, 2026 05:00 PM - 11:
  59 PM Cedar Hill\, TX 75104 https://dcacu.podbean.com//639222998610000000 
  — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:doctoral-lecture-recital-hyeyeon-kim-flute|recital-hall-at-the-music-bu
+ ilding-denton|5-00-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261030T220000Z
+DTSTART:20261030T220000Z
+DTEND:20261031T010000Z
+SUMMARY:Doctoral Lecture Recital: Hyeyeon Kim\, flute
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=doctoral-lecture-recital-
+ hyeyeon-kim-flute%7Crecital-hall-at-the-music-building-denton%7C5-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:lp-dance-ages-8-15-|310-e-parkerville-road-cedar-hill|05-00-pm-2026-10-
@@ -7449,23 +7568,6 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  llas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:doctoral-recital-steven-robinson-clarinet|paul-voertman-concert-hall-at
- -the-music-building-denton|2-00-pm-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261031T190000Z
-DTSTART:20261031T190000Z
-DTEND:20261031T220000Z
-SUMMARY:Doctoral Recital: Steven Robinson\, clarinet
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=doctoral-recital-steven-r
- obinson-clarinet%7Cpaul-voertman-concert-hall-at-the-music-building-denton
- %7C2-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream link below.      This event is free
-  and open to the public with general seating. — More: https://letsdoitda
- llas.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:open-play-saturday|grapevine|02-00-pm-2026-10-31@letsdoitdallas.com
 DTSTAMP:20261031T190000Z
 DTSTART:20261031T190000Z
@@ -7517,6 +7619,23 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=sweeney-todd-farmers-bran
  ch%7Cfirehouse-theatre-farmers-branch%7C2-30-pm
 DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/
+END:VEVENT
+BEGIN:VEVENT
+UID:senior-recital-justin-beyer-horn|paul-voertman-concert-hall-at-the-musi
+ c-building-denton|3-30-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T203000Z
+DTSTART:20261031T203000Z
+DTEND:20261031T233000Z
+SUMMARY:Senior Recital: Justin Beyer\, horn
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=senior-recital-justin-bey
+ er-horn%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C3-30-p
+ m
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-rally-day-tour|at-t-stadium-arlington|3-45-pm-2
@@ -8225,6 +8344,40 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:unt-opera-presents-florencia-en-el-amazonas|lyric-theater-at-the-murchi
+ son-performing-arts-center-denton|3-00-pm-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261101T210000Z
+DTSTART:20261101T210000Z
+DTEND:20261102T000000Z
+SUMMARY:UNT Opera presents Florencia en el Amazonas
+LOCATION:Lyric Theater at the Murchison Performing Arts Center · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=unt-opera-presents-floren
+ cia-en-el-amazonas%7Clyric-theater-at-the-murchison-performing-arts-center
+ -denton%7C3-00-pm
+DESCRIPTION:Important Links and Information      New this season! Experienc
+ e the full UNT Opera season with a Flex Season Package. For $90\, you'll r
+ eceive admission to one performance of each mainstage opera and save compa
+ red to purchasing tickets separately.     Program     Please note\, thi 
+ — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:percussion-players-and-percussion-group|paul-voertman-concert-hall-at-t
+ he-music-building-denton|3-30-pm-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261101T213000Z
+DTSTART:20261101T213000Z
+DTEND:20261102T003000Z
+SUMMARY:Percussion Players and Percussion Group
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=percussion-players-and-pe
+ rcussion-group%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7
+ C3-30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below.      This event is free
+  and open to the public with general seating. — More: https://letsdoitda
+ llas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:sparkz-cheerleading|310-e-parkerville-road-cedar-hill|04-00-pm-2026-11-
  01@letsdoitdallas.com
 DTSTAMP:20261101T220000Z
@@ -8273,22 +8426,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-01&e=addison-s-8x8%7Caddison-i
  mprov-addison%7C6-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/
-END:VEVENT
-BEGIN:VEVENT
-UID:graduate-artist-recital-natalie-zeles-flute|recital-hall-at-the-music-b
- uilding-denton|6-30-pm-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261102T003000Z
-DTSTART:20261102T003000Z
-DTEND:20261102T033000Z
-SUMMARY:Graduate Artist Recital: Natalie Zeles\, flute
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=graduate-artist-recital-n
- atalie-zeles-flute%7Crecital-hall-at-the-music-building-denton%7C6-30-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:alvin-perry-friends|punch-line-irving-irving|7-00-pm-2026-11-01@letsdoi
@@ -9153,22 +9290,6 @@ DESCRIPTION:6:30 p.m.\; Acompáñenos para unos cuentos y cantos mientras a
  22 — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:global-rhythms|paul-voertman-concert-hall-at-the-music-building-denton|
- 6-30-pm-2026-11-03@letsdoitdallas.com
-DTSTAMP:20261104T003000Z
-DTSTART:20261104T003000Z
-DTEND:20261104T033000Z
-SUMMARY:Global Rhythms
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=global-rhythms%7Cpaul-voe
- rtman-concert-hall-at-the-music-building-denton%7C6-30-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream link below.      This event is free
-  and open to the public with general seating. — More: https://letsdoitda
- llas.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:spanish-conversation-circle-ages-18-|south-garland-library-garland|06-3
  0-pm-2026-11-03@letsdoitdallas.com
 DTSTAMP:20261104T003000Z
@@ -9625,23 +9746,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-04&e=art-is-life%7C310-e-parke
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:graduate-artist-recital-amber-lo-clarinet|paul-voertman-concert-hall-at
- -the-music-building-denton|5-00-pm-2026-11-04@letsdoitdallas.com
-DTSTAMP:20261104T230000Z
-DTSTART:20261104T230000Z
-DTEND:20261105T020000Z
-SUMMARY:Graduate Artist Recital: Amber Lo\, clarinet
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=graduate-artist-recital-a
- mber-lo-clarinet%7Cpaul-voertman-concert-hall-at-the-music-building-denton
- %7C5-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:you-up-next-live-music-talent-showcase|310-e-parkerville-road-cedar-hil
  l|05-00-pm-2026-11-04@letsdoitdallas.com
 DTSTAMP:20261104T230000Z
@@ -9696,6 +9800,23 @@ LOCATION:450 Pioneer Trail · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-11-04&e=beginner-s-yoga-in-the-pa
  rk%7C450-pioneer-trail-cedar-hill%7C06-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:masters-recital-donovan-neal-bassoon|paul-voertman-concert-hall-at-the-
+ music-building-denton|6-30-pm-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261105T003000Z
+DTSTART:20261105T003000Z
+DTEND:20261105T033000Z
+SUMMARY:Masters Recital: Donovan Neal\, bassoon
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=masters-recital-donovan-n
+ eal-bassoon%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C6-
+ 30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below.      This event is free
+  and open to the public with general seating. — More: https://letsdoitda
+ llas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:daring-greatly|three-links-deep-ellum-dallas|7-00-pm-2026-11-04@letsdoi
@@ -9832,23 +9953,6 @@ DESCRIPTION:Family event via Ticketmaster. — More: https://letsdoitdallas
  .com/
 END:VEVENT
 BEGIN:VEVENT
-UID:senior-recital-heath-cedric-deguzman-jazz-saxophone|lab-west-at-the-mus
- ic-building-denton|8-00-pm-2026-11-04@letsdoitdallas.com
-DTSTAMP:20261105T020000Z
-DTSTART:20261105T020000Z
-DTEND:20261105T050000Z
-SUMMARY:Senior Recital: Heath Cedric DeGuzman\, jazz saxophone
-LOCATION:Lab West at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=senior-recital-heath-cedr
- ic-deguzman-jazz-saxophone%7Clab-west-at-the-music-building-denton%7C8-00-
- pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream link below.      This event is free
-  and open to the public with general seating. — More: https://letsdoitda
- llas.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
  frisco|see-details-2026-11-05@letsdoitdallas.com
 DTSTAMP:20261105T000000Z
@@ -9874,20 +9978,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-05&e=north-texas-mean-green-me
  ton%7Csee-details
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:guest-artist-masterclass-bridget-kibbey-harp|recital-hall-at-the-music-
- building-denton|9-30-am-2026-11-05@letsdoitdallas.com
-DTSTAMP:20261105T153000Z
-DTSTART:20261105T153000Z
-DTEND:20261105T183000Z
-SUMMARY:Guest Artist Masterclass: Bridget Kibbey\, harp
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=guest-artist-masterclass-
- bridget-kibbey-harp%7Crecital-hall-at-the-music-building-denton%7C9-30-am
-DESCRIPTION:Important Links and Information      Livestream is not availabl
- e for this event.       This event is free and open to the public with gen
- eral seating. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:dallas-college-preview-day-morning-session|4849-w-illinois-ave-dallas|1
@@ -10430,23 +10520,6 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  oitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:doctoral-recital-junyoung-hwang-piano|paul-voertman-concert-hall-at-the
- -music-building-denton|8-00-pm-2026-11-05@letsdoitdallas.com
-DTSTAMP:20261106T020000Z
-DTSTART:20261106T020000Z
-DTEND:20261106T050000Z
-SUMMARY:Doctoral Recital: Junyoung Hwang\, piano
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=doctoral-recital-junyoung
- -hwang-piano%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C8
- -00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream not available for this event.     T
- his event is free and open to the public with general seating. — More: h
- ttps://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:graduate-artist-recital-jasmine-perry-grice-horn|recital-hall-at-the-mu
  sic-building-denton|8-00-pm-2026-11-05@letsdoitdallas.com
 DTSTAMP:20261106T020000Z
@@ -10487,19 +10560,6 @@ LOCATION:Black Box Theater · Frisco
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=-the-cottage-by-theatre-f
  risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
 DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:jordan-nix|sundown-at-granada-lower-greenville-dallas|doors-see-listing
- -2026-11-06@letsdoitdallas.com
-DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:Jordan Nix
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=jordan-nix%7Csundown-at-g
- ranada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-mustangs-football-vs-virginia-tech-hokies-football|gerald-ford-stad
@@ -11784,19 +11844,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-08&e=celebration-of-life-alan-
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:lightnin-malcolm|sundown-at-granada-lower-greenville-dallas|doors-see-l
- isting-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261108T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:Lightnin' Malcolm
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=lightnin-malcolm%7Csundow
- n-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/
-END:VEVENT
-BEGIN:VEVENT
 UID:open-band-jam-w-poor-david-s-house-band|poor-david-s-pub-dallas|doors-s
  ee-listing-2026-11-08@letsdoitdallas.com
 DTSTAMP:20261108T000000Z
@@ -11807,19 +11854,6 @@ LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-08&e=open-band-jam-w-poor-davi
  d-s-house-band%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
- doors-see-listing-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261108T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:geeks who drink FREE Trivia
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=geeks-who-drink-free-triv
- ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/
 END:VEVENT
 BEGIN:VEVENT
 UID:doctoral-recital-cameron-montgomery-saxophone|recital-hall-at-the-music
@@ -11895,6 +11929,23 @@ URL:https://letsdoitdallas.com/?date=2026-11-08&e=dallas-symphony-orchestra
  er-dallas%7C2-00-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:unt-opera-presents-florencia-en-el-amazonas|lyric-theater-at-the-murchi
+ son-performing-arts-center-denton|3-00-pm-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T210000Z
+DTSTART:20261108T210000Z
+DTEND:20261109T000000Z
+SUMMARY:UNT Opera presents Florencia en el Amazonas
+LOCATION:Lyric Theater at the Murchison Performing Arts Center · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=unt-opera-presents-floren
+ cia-en-el-amazonas%7Clyric-theater-at-the-murchison-performing-arts-center
+ -denton%7C3-00-pm
+DESCRIPTION:Important Links and Information      New this season! Experienc
+ e the full UNT Opera season with a Flex Season Package. For $90\, you'll r
+ eceive admission to one performance of each mainstage opera and save compa
+ red to purchasing tickets separately.     Program  Please note\, this p 
+ — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:flute-choir-recital-fall-2026|recital-hall-at-the-music-building-denton
@@ -12180,20 +12231,20 @@ URL:https://letsdoitdallas.com/?date=2026-11-09&e=-the-cottage-by-theatre-f
 DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:doctoral-recital-isaac-carlin-baritone|recital-hall-at-the-music-buildi
- ng-denton|5-00-pm-2026-11-09@letsdoitdallas.com
-DTSTAMP:20261109T230000Z
-DTSTART:20261109T230000Z
-DTEND:20261110T020000Z
-SUMMARY:Doctoral Recital: Isaac Carlin\, baritone
+UID:doctoral-recital-julia-jiho-choi-cello|recital-hall-at-the-music-buildi
+ ng-denton|6-30-pm-2026-11-09@letsdoitdallas.com
+DTSTAMP:20261110T003000Z
+DTSTART:20261110T003000Z
+DTEND:20261110T033000Z
+SUMMARY:Doctoral Recital: Julia Jiho Choi\, cello
 LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-09&e=doctoral-recital-isaac-ca
- rlin-baritone%7Crecital-hall-at-the-music-building-denton%7C5-00-pm
+URL:https://letsdoitdallas.com/?date=2026-11-09&e=doctoral-recital-julia-ji
+ ho-choi-cello%7Crecital-hall-at-the-music-building-denton%7C6-30-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream link below.      This event is free
-  and open to the public with general seating. — More: https://letsdoitda
- llas.com/
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:dallas-mavericks-vs-indiana-pacers|american-airlines-center-dallas|7-00
@@ -12233,22 +12284,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-09&e=careful-gaze-chrry-obsess
  ed%7Cthree-links-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/
-END:VEVENT
-BEGIN:VEVENT
-UID:doctoral-recital-brady-callicott-tuba|recital-hall-at-the-music-buildin
- g-denton|8-00-pm-2026-11-09@letsdoitdallas.com
-DTSTAMP:20261110T020000Z
-DTSTART:20261110T020000Z
-DTEND:20261110T050000Z
-SUMMARY:Doctoral Recital: Brady Callicott\, tuba
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-09&e=doctoral-recital-brady-ca
- llicott-tuba%7Crecital-hall-at-the-music-building-denton%7C8-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream link below.      This event is free
-  and open to the public with general seating. — More: https://letsdoitda
- llas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:medium-build-w-the-scratch|the-bomb-factory-dallas|8-00-pm-2026-11-09@l
@@ -12763,6 +12798,22 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/
 END:VEVENT
 BEGIN:VEVENT
+UID:doctoral-recital-mario-montes-jazz-saxophone|lab-west-at-the-music-buil
+ ding-denton|8-00-pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T020000Z
+DTSTART:20261112T020000Z
+DTEND:20261112T050000Z
+SUMMARY:Doctoral Recital: Mario Montes\, jazz saxophone
+LOCATION:Lab West at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=doctoral-recital-mario-mo
+ ntes-jazz-saxophone%7Clab-west-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:katseye-the-wildworld-tour|american-airlines-center-dallas|8-00-pm-2026
  -11-11@letsdoitdallas.com
 DTSTAMP:20261112T020000Z
@@ -13228,33 +13279,21 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-surfrajettes|sundown-at-granada-lower-greenville-dallas|doors-see-l
- isting-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:The Surfrajettes
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=the-surfrajettes%7Csundow
- n-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/
-END:VEVENT
-BEGIN:VEVENT
-UID:doctoral-recital-qingya-ding-mezzo-soprano|recital-hall-at-the-music-bu
- ilding-denton|6-30-pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T003000Z
-DTSTART:20261114T003000Z
-DTEND:20261114T033000Z
-SUMMARY:Doctoral Recital: Qingya Ding\, mezzo soprano
+UID:doctoral-recital-cristian-garcia-castillo-collaborative-piano|recital-h
+ all-at-the-music-building-denton|5-00-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261113T230000Z
+DTSTART:20261113T230000Z
+DTEND:20261114T020000Z
+SUMMARY:Doctoral Recital: Cristian Garcia Castillo\, collaborative piano
 LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=doctoral-recital-qingya-d
- ing-mezzo-soprano%7Crecital-hall-at-the-music-building-denton%7C6-30-pm
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=doctoral-recital-cristian
+ -garcia-castillo-collaborative-piano%7Crecital-hall-at-the-music-building-
+ denton%7C5-00-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/
+ ay of the performance.      Livestream link below.      This event is free
+  and open to the public with general seating. — More: https://letsdoitda
+ llas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:ali-macofsky|punch-line-irving-irving|7-00-pm-2026-11-13@letsdoitdallas
@@ -13295,6 +13334,21 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=hot-wheels-monster-trucks
  -live-glow-n-fire%7Cdickies-arena-fort-worth%7C7-00-pm
 DESCRIPTION:Motorsports/Racing event via Ticketmaster. — More: https://le
  tsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:jazz-singers-avenue-c-fall-2026|paul-voertman-concert-hall-at-the-music
+ -building-denton|7-00-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:Jazz Singers & Avenue C Fall 2026
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=jazz-singers-avenue-c-fal
+ l-2026%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C7-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.       Livestream link below. — More: https://lets
+ doitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:king-buffalo|am-fm-dallas-dallas|7-00-pm-2026-11-13@letsdoitdallas.com
@@ -13694,19 +13748,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=on-cinema-the-certified-f
  ive-bags-of-popcorn-tour%7Cgranada-theater-lower-greenville-dallas%7Cdoors
  -see-listing
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:paige-hill-album-release-show|sundown-at-granada-lower-greenville-dalla
- s|doors-see-listing-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Paige Hill - ALBUM RELEASE SHOW
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=paige-hill-album-release-
- show%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-mustangs-football-vs-wake-forest-demon-deacons-football|gerald-ford
@@ -14258,19 +14299,6 @@ LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-15&e=jennifer-pena-live%7Ctree
  s-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
- doors-see-listing-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261115T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:geeks who drink FREE Trivia
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=geeks-who-drink-free-triv
- ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/
 END:VEVENT
 BEGIN:VEVENT
 UID:cynthia-lee-fontaine-presents-drag-brunch-at-the-punch|punch-line-irvin
@@ -14880,6 +14908,22 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/
 END:VEVENT
 BEGIN:VEVENT
+UID:zebras-commercial-music-lab-band-fall-2026|lab-west-at-the-music-buildi
+ ng-denton|8-00-pm-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261118T020000Z
+DTSTART:20261118T020000Z
+DTEND:20261118T050000Z
+SUMMARY:Zebras Commercial Music Lab Band Fall 2026
+LOCATION:Lab West at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=zebras-commercial-music-l
+ ab-band-fall-2026%7Clab-west-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below.      This event is free
+  and open to the public with general seating. — More: https://letsdoitda
+ llas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:bahamas-industrial-sport-sound-with-special-guest-sister-ray|the-kessle
  r-theater-oak-cliff-dallas|doors-see-listing-2026-11-18@letsdoitdallas.com
 DTSTAMP:20261118T000000Z
@@ -15362,19 +15406,6 @@ DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
-UID:dingus|sundown-at-granada-lower-greenville-dallas|doors-see-listing-202
- 6-11-20@letsdoitdallas.com
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:DINGUS
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=dingus%7Csundown-at-grana
- da-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/
-END:VEVENT
-BEGIN:VEVENT
 UID:friendsgiving-a-harvest-night-of-live-music-with-gustavo-monsante-|-jfi
  -|-jj-the-mystics|poor-david-s-pub-dallas|doors-see-listing-2026-11-20@let
  sdoitdallas.com
@@ -15416,6 +15447,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-20&e=-kxt-91-7-presents-the-af
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:doctoral-recital-nicholas-losos-trombone|recital-hall-at-the-music-buil
+ ding-denton|5-00-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261120T230000Z
+DTSTART:20261120T230000Z
+DTEND:20261121T020000Z
+SUMMARY:Doctoral Recital: Nicholas Losos\, trombone
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=doctoral-recital-nicholas
+ -losos-trombone%7Crecital-hall-at-the-music-building-denton%7C5-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:band-of-heathens-w-donavon-frankenreiter|longhorn-ballroom-backyard-amp
  hitheater-dallas|6-30-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T003000Z
@@ -15427,22 +15474,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-20&e=band-of-heathens-w-donavo
  n-frankenreiter%7Clonghorn-ballroom-backyard-amphitheater-dallas%7C6-30-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/
-END:VEVENT
-BEGIN:VEVENT
-UID:doctoral-recital-yan-li-collaborative-piano|recital-hall-at-the-music-b
- uilding-denton|6-30-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T003000Z
-DTSTART:20261121T003000Z
-DTEND:20261121T033000Z
-SUMMARY:Doctoral Recital: Yan Li\, collaborative piano
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=doctoral-recital-yan-li-c
- ollaborative-piano%7Crecital-hall-at-the-music-building-denton%7C6-30-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:tcu-horned-frogs-womens-volleyball-vs-arizona-state-sun-devils-womens-v
@@ -15699,6 +15730,22 @@ DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:masters-recital-brandon-lau-piano|recital-hall-at-the-music-building-de
+ nton|8-00-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T020000Z
+DTSTART:20261121T020000Z
+DTEND:20261121T050000Z
+SUMMARY:Masters Recital: Brandon Lau\, piano
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=masters-recital-brandon-l
+ au-piano%7Crecital-hall-at-the-music-building-denton%7C8-00-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:southfm|trees-dallas|8-00-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T020000Z
 DTSTART:20261121T020000Z
@@ -15800,19 +15847,6 @@ DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:heaven-below|sundown-at-granada-lower-greenville-dallas|doors-see-listi
- ng-2026-11-21@letsdoitdallas.com
-DTSTAMP:20261121T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Heaven Below
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=heaven-below%7Csundown-at
- -granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/
-END:VEVENT
-BEGIN:VEVENT
 UID:margaret-glaspy-the-i-am-both-tour|the-kessler-theater-oak-cliff-dallas
  |doors-see-listing-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261121T000000Z
@@ -15905,18 +15939,5 @@ LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-22&e=mama-s-broke-reunion-albu
  m-release-tour%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
- doors-see-listing-2026-11-22@letsdoitdallas.com
-DTSTAMP:20261122T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:geeks who drink FREE Trivia
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=geeks-who-drink-free-triv
- ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/
 END:VEVENT
 END:VCALENDAR

@@ -10,6 +10,94 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:art-worth-festival|the-shops-at-clearfork-5188-monahans-ave-fort-worth-
+ tx-76109-united-states|all-day-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Art Worth Festival
+LOCATION:The Shops at Clearfork · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=art-worth-festival%7Cthe-
+ shops-at-clearfork-5188-monahans-ave-fort-worth-tx-76109-united-states%7Ca
+ ll-day
+DESCRIPTION:Art Worth Festival celebrates creativity in every form—and th
+ roughout the weekend\, the South Lawn Stage will come alive with an except
+ ional lineup of classical music\, opera\, jazz and choral performances.  F
+ rom talented middle and high school ensembles to university musicians\, co
+ m — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:red-steagall-cowboy-gathering|fort-worth-stockyards-131-east-exchange-a
+ venue-fort-worth-76164-united-states|all-day-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:RED STEAGALL COWBOY GATHERING
+LOCATION:Fort Worth Stockyards
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=red-steagall-cowboy-gathe
+ ring%7Cfort-worth-stockyards-131-east-exchange-avenue-fort-worth-76164-uni
+ ted-states%7Call-day
+DESCRIPTION:The annual Red Steagall Cowboy Gathering held in the Fort Wor
+ th Stockyards National Historic District is the premier western lifestyle 
+ event! Designed to celebrate the men and women that feed and clothe Americ
+ a through their work on ranches across this country. Savor the aroma of 
+ — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T150000Z
+DTSTART:20261023T150000Z
+DTEND:20261023T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-23@lets
+ doitdallas.com
+DTSTAMP:20261023T150000Z
+DTSTART:20261023T150000Z
+DTEND:20261023T180000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:national-multi-cultural-western-heritage-museum|the-national-multicultu
+ ral-western-heritage-museum-2201-dottie-lynn-pkwy-suite-115-fort-worth-761
+ 20-united-states|11-00-am-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261023T160000Z
+DTSTART:20261023T160000Z
+DTEND:20261023T190000Z
+SUMMARY:National Multi Cultural Western Heritage Museum
+LOCATION:The National Multicultural Western Heritage Museum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=national-multi-cultural-w
+ estern-heritage-museum%7Cthe-national-multicultural-western-heritage-museu
+ m-2201-dottie-lynn-pkwy-suite-115-fort-worth-76120-united-states%7C11-00-a
+ m
+DESCRIPTION:The primary objective of the National Multicultural Western Her
+ itage Museum and Hall of Fame is to offer the visitor a true and complete 
+ historical perspective of the people and activities that built the unique 
+ culture of the American West. The work of artists who documented the — M
+ ore: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:tcu-horned-frogs-womens-volleyball-vs-kansas-jayhawks-womens-volleyball
  |ed-and-rae-schollmaier-arena-fort-worth|7-00-pm-2026-10-23@letsdoitdallas
  .com
@@ -78,6 +166,24 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-best-comedy-show|big-laugh-comedy-club-fort-worth-604-main-st-suite
+ -100-fort-worth-tx-76102-united-states|7-30-pm-2026-10-23@letsdoitdallas.c
+ om
+DTSTAMP:20261024T003000Z
+DTSTART:20261024T003000Z
+DTEND:20261024T033000Z
+SUMMARY:The Best Comedy Show
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=the-best-comedy-show%7Cbi
+ g-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-u
+ nited-states%7C7-30-pm
+DESCRIPTION:Get ready for the laugh of your life!  Looking for the ultimate
+  Friday night out? Look no further! The Best Comedy Show at Big Laugh Come
+ dy Club is your go-to ticket for non-stop laughs\, unexpected moments\, an
+ d a good time you won’t soon forget.  Featuring some of the funniest co 
+ — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:ian-moore|the-post-at-river-east-fort-worth|8-00-pm-2026-10-23@letsdoit
  dallas.com
 DTSTAMP:20261024T010000Z
@@ -102,6 +208,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-23&e=music-of-john-denver%7Cca
  sa-manana-fort-worth%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:quamon-fowler|scat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-sta
+ tes|8-00-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261024T010000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T040000Z
+SUMMARY:Quamon Fowler
+LOCATION:Scat Jazz Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=quamon-fowler%7Cscat-jazz
+ -lounge-111-w-4th-st-fort-worth-76102-united-states%7C8-00-pm
+DESCRIPTION:Saxophonist Quamon Fowler has been honing his craft most of his
+  life. He was mentored by legendary clarinetist Alvin Batiste\, performing
+  in Baton Rouge and New Orleans\, sparking the release of his debut album 
+ “Introducing Quamon Fowler”. He was selected as a Panasonic Young Solo
+ i — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:boy-harsher|tannahill-s-music-hall-lounge-fort-worth|9-00-pm-2026-10-23
@@ -130,6 +252,23 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:jordan-nix-w-special-guest-brayden-stewart|magnolia-motor-lounge-3803-s
+ outhwest-blvd-fort-worth-76116-united-states|9-00-pm-2026-10-23@letsdoitda
+ llas.com
+DTSTAMP:20261024T020000Z
+DTSTART:20261024T020000Z
+DTEND:20261024T050000Z
+SUMMARY:Jordan Nix w/ special guest Brayden Stewart
+LOCATION:Magnolia Motor Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=jordan-nix-w-special-gues
+ t-brayden-stewart%7Cmagnolia-motor-lounge-3803-southwest-blvd-fort-worth-7
+ 6116-united-states%7C9-00-pm
+DESCRIPTION:Jordan Nix w/ special guest Brayden Stewart  7:00 DOORS – 9:0
+ 0 MUSIC   $10 GA ($15 at door) $80 – Table of 4 $120 – Table of 6 $160
+  – Table of 8  Ages 21+  @outhousetickets   Share it and tag a few fri
+ ends! — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:chona-e|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-pm-2026-10
  -23@letsdoitdallas.com
 DTSTAMP:20261024T023000Z
@@ -156,6 +295,22 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:quamon-fowler|scat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-sta
+ tes|10-00-pm-2026-10-23@letsdoitdallas.com
+DTSTAMP:20261024T030000Z
+DTSTART:20261024T030000Z
+DTEND:20261024T060000Z
+SUMMARY:Quamon Fowler
+LOCATION:Scat Jazz Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-23&e=quamon-fowler%7Cscat-jazz
+ -lounge-111-w-4th-st-fort-worth-76102-united-states%7C10-00-pm
+DESCRIPTION:Saxophonist Quamon Fowler has been honing his craft most of his
+  life. He was mentored by legendary clarinetist Alvin Batiste\, performing
+  in Baton Rouge and New Orleans\, sparking the release of his debut album 
+ “Introducing Quamon Fowler”. He was selected as a Panasonic Young Solo
+ i — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:mecum-auctions|dickies-arena-fort-worth|3-30-am-2026-10-24@letsdoitdall
  as.com
 DTSTAMP:20261024T083000Z
@@ -180,6 +335,58 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=sick-new-world%7Ctexas-mo
  tor-speedway-fort-worth%7C3-30-am
 DESCRIPTION:music festival event via SeatGeek. — More: https://letsdoitda
  llas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:chemistry-week|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T150000Z
+DTSTART:20261024T150000Z
+DTEND:20261024T180000Z
+SUMMARY:Chemistry Week
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=chemistry-week%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:This year’s theme\, “Chemistry Under Construction\,” high
+ lights how chemistry helps us build\, create\, and innovate the world arou
+ nd us. From the materials in our homes and communities to the technologies
+  shaping our future\, chemistry is at work behind the scenes.   Learn how
+  chemis — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T150000Z
+DTSTART:20261024T150000Z
+DTEND:20261024T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-24@lets
+ doitdallas.com
+DTSTAMP:20261024T150000Z
+DTSTART:20261024T150000Z
+DTEND:20261024T180000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:sick-new-world-festival-forth-worth|texas-motor-speedway-fort-worth|11-
@@ -301,19 +508,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=music-of-john-denver%7Cca
  sa-manana-fort-worth%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:chona-e|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-pm-2026-10
- -24@letsdoitdallas.com
-DTSTAMP:20261025T023000Z
-DTSTART:20261025T023000Z
-DTEND:20261025T053000Z
-SUMMARY:Chona E
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=chona-e%7Chyena-s-comedy-
- night-club-fort-worth-fort-worth%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:gary-allan-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-24@letsdoi

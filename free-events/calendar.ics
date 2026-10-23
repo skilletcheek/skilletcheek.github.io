@@ -252,19 +252,6 @@ DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/free-events
  /
 END:VEVENT
 BEGIN:VEVENT
-UID:lightnin-malcolm|sundown-at-granada-lower-greenville-dallas|doors-see-l
- isting-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261108T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:Lightnin' Malcolm
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=lightnin-malcolm%7Csundow
- n-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:open-band-jam-w-poor-david-s-house-band|poor-david-s-pub-dallas|doors-s
  ee-listing-2026-11-08@letsdoitdallas.com
 DTSTAMP:20261108T000000Z
@@ -276,19 +263,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-08&e=open-band-jam-w-poor-davi
  d-s-house-band%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
- doors-see-listing-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261108T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:geeks who drink FREE Trivia
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=geeks-who-drink-free-triv
- ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:ok-goodnight-lux-terminus-eve|three-links-deep-ellum-dallas|7-00-pm-202
@@ -364,19 +338,6 @@ DESCRIPTION:Free\, beginner-friendly n8n workshop for artists and makers at
  More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
- doors-see-listing-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261115T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:geeks who drink FREE Trivia
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=geeks-who-drink-free-triv
- ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:heal-the-hurt-magdalene-rose-unbroken-reign|three-links-deep-ellum-dall
  as|7-00-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T010000Z
@@ -388,18 +349,5 @@ URL:https://letsdoitdallas.com/?date=2026-11-20&e=heal-the-hurt-magdalene-r
  ose-unbroken-reign%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
- doors-see-listing-2026-11-22@letsdoitdallas.com
-DTSTAMP:20261122T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:geeks who drink FREE Trivia
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=geeks-who-drink-free-triv
- ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/free-events/
 END:VEVENT
 END:VCALENDAR

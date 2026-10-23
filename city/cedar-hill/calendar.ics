@@ -9,30 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chair-volleyball|310-e-parkerville-road-cedar-hill|09-30-am-2026-10-23@
- letsdoitdallas.com
-DTSTAMP:20261023T143000Z
-DTSTART:20261023T143000Z
-DTEND:20261023T173000Z
-SUMMARY:Chair Volleyball
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=chair-volleyball%7C310-e-
- parkerville-road-cedar-hill%7C09-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:pilates-for-older-adults|310-e-parkerville-road-cedar-hill|01-00-pm-202
- 6-10-23@letsdoitdallas.com
-DTSTAMP:20261023T180000Z
-DTSTART:20261023T180000Z
-DTEND:20261023T210000Z
-SUMMARY:Pilates for Older Adults
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=pilates-for-older-adults%
- 7C310-e-parkerville-road-cedar-hill%7C01-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:days-at-dogwood-canyon-podcast|cedar-hill|05-00-pm-2026-10-23@letsdoitd
  allas.com
 DTSTAMP:20261023T220000Z
