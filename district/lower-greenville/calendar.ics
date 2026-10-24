@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ronnie-fauss|sundown-at-granada-lower-greenville-dallas|doors-see-listi
- ng-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Ronnie Fauss
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=ronnie-fauss%7Csundown-at
- -granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
-UID:book-of-love|granada-theater-dallas-dallas|8-00-pm-2026-10-23@letsdoitd
- allas.com
-DTSTAMP:20261024T010000Z
-DTSTART:20261024T010000Z
-DTEND:20261024T040000Z
-SUMMARY:Book of Love
-LOCATION:Granada Theater - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=book-of-love%7Cgranada-th
- eater-dallas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:rock-the-club|granada-theater-lower-greenville-dallas|doors-see-listing
  -2026-10-24@letsdoitdallas.com
 DTSTAMP:20261024T000000Z
@@ -145,22 +119,6 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
-UID:rhett-miller-friends-breathe-easy-concert-benefiting-the-cystic-fibrosi
- s-foundation|granada-theater-lower-greenville-dallas|doors-see-listing-202
- 6-11-01@letsdoitdallas.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Rhett Miller & Friends - Breathe Easy Concert Benefiting the Cystic
-  Fibrosis Foundation
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=rhett-miller-friends-brea
- the-easy-concert-benefiting-the-cystic-fibrosis-foundation%7Cgranada-theat
- er-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
- istrict/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
  doors-see-listing-2026-11-01@letsdoitdallas.com
 DTSTAMP:20261101T000000Z
@@ -171,6 +129,19 @@ LOCATION:Sundown at Granada · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-01&e=geeks-who-drink-free-triv
  ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:rhett-miller|granada-theater-dallas-dallas|7-15-pm-2026-11-01@letsdoitd
+ allas.com
+DTSTAMP:20261102T011500Z
+DTSTART:20261102T011500Z
+DTEND:20261102T041500Z
+SUMMARY:Rhett Miller
+LOCATION:Granada Theater - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=rhett-miller%7Cgranada-th
+ eater-dallas-dallas%7C7-15-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT

@@ -217,6 +217,58 @@ DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/venue/at-t-stadium/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|9-15-am-2026-11-02@
+ letsdoitdallas.com
+DTSTAMP:20261102T151500Z
+DTSTART:20261102T151500Z
+DTEND:20261102T181500Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C9-15-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|11-00-am-2026-11-02
+ @letsdoitdallas.com
+DTSTAMP:20261102T170000Z
+DTSTART:20261102T170000Z
+DTEND:20261102T200000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C11-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|1-00-pm-2026-11-02@
+ letsdoitdallas.com
+DTSTAMP:20261102T190000Z
+DTSTART:20261102T190000Z
+DTEND:20261102T220000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C1-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-11-02@
+ letsdoitdallas.com
+DTSTAMP:20261102T210000Z
+DTSTART:20261102T210000Z
+DTEND:20261103T000000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C3-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
 UID:kanye-west|at-t-stadium-arlington|8-00-pm-2026-11-07@letsdoitdallas.com
 DTSTAMP:20261108T020000Z
 DTSTART:20261108T020000Z
@@ -238,6 +290,19 @@ SUMMARY:Dallas Cowboys vs. San Francisco 49ers
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-11-15&e=dallas-cowboys-vs-san-fra
  ncisco-49ers%7Cat-t-stadium-arlington%7C3-25-pm
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-cowboys-vs-tennessee-titans|at-t-stadium-arlington|12-00-pm-2026
+ -11-22@letsdoitdallas.com
+DTSTAMP:20261122T180000Z
+DTSTART:20261122T180000Z
+DTEND:20261122T210000Z
+SUMMARY:Dallas Cowboys vs. Tennessee Titans
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=dallas-cowboys-vs-tenness
+ ee-titans%7Cat-t-stadium-arlington%7C12-00-pm
 DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/venue/at-t-stadium/
 END:VEVENT

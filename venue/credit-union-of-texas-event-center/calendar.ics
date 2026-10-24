@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:worlds-2026-swiss-1|credit-union-of-texas-event-center-allen|12-00-pm-2
- 026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T170000Z
-DTSTART:20261023T170000Z
-DTEND:20261023T200000Z
-SUMMARY:Worlds 2026 - Swiss 1
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=worlds-2026-swiss-1%7Ccre
- dit-union-of-texas-event-center-allen%7C12-00-pm
-DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/credit-union-of-texas-event-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:worlds-2026-swiss-2|credit-union-of-texas-event-center-allen|12-00-pm-2
  026-10-24@letsdoitdallas.com
 DTSTAMP:20261024T170000Z
@@ -227,6 +214,19 @@ LOCATION:Credit Union of Texas Event Center · Allen
 URL:https://letsdoitdallas.com/?date=2026-11-20&e=allen-americans-vs-kansas
  -city-mavericks-red-out%7Ccredit-union-of-texas-event-center-allen%7C7-00-
  pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/credit-union-of-texas-event-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:allen-americans-vs-kansas-city-mavericks|credit-union-of-texas-event-ce
+ nter-allen|7-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T010000Z
+DTSTART:20261122T010000Z
+DTEND:20261122T040000Z
+SUMMARY:Allen Americans vs Kansas City Mavericks
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=allen-americans-vs-kansas
+ -city-mavericks%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/credit-union-of-texas-event-center/
 END:VEVENT

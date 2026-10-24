@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:aj-wilkerson|dallas-comedy-club-mainstage-theater-dallas|7-30-pm-2026-1
- 0-23@letsdoitdallas.com
-DTSTAMP:20261024T003000Z
-DTSTART:20261024T003000Z
-DTEND:20261024T033000Z
-SUMMARY:AJ Wilkerson
-LOCATION:Dallas Comedy Club - Mainstage Theater
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=aj-wilkerson%7Cdallas-com
- edy-club-mainstage-theater-dallas%7C7-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/dallas-comedy-club-mainstage-theater/
-END:VEVENT
-BEGIN:VEVENT
-UID:aj-wilkerson|dallas-comedy-club-mainstage-theater-dallas|9-30-pm-2026-1
- 0-23@letsdoitdallas.com
-DTSTAMP:20261024T023000Z
-DTSTART:20261024T023000Z
-DTEND:20261024T053000Z
-SUMMARY:AJ Wilkerson
-LOCATION:Dallas Comedy Club - Mainstage Theater
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=aj-wilkerson%7Cdallas-com
- edy-club-mainstage-theater-dallas%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/dallas-comedy-club-mainstage-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:abby-govindan|dallas-comedy-club-mainstage-theater-dallas|5-00-pm-2026-
  10-24@letsdoitdallas.com
 DTSTAMP:20261024T220000Z
@@ -111,5 +85,31 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=my-cousin-tiera%7Cdallas-
  comedy-club-mainstage-theater-dallas%7C5-00-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /venue/dallas-comedy-club-mainstage-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:stand-up-comedy-show|dallas-comedy-club-mainstage-theater-dallas|5-00-p
+ m-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261101T230000Z
+DTSTART:20261101T230000Z
+DTEND:20261102T020000Z
+SUMMARY:Stand Up Comedy Show
+LOCATION:Dallas Comedy Club - Mainstage Theater
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=stand-up-comedy-show%7Cda
+ llas-comedy-club-mainstage-theater-dallas%7C5-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/dallas-comedy-club-mainstage-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:sketch-club-dallas|dallas-comedy-club-mainstage-theater-dallas|7-00-pm-
+ 2026-11-01@letsdoitdallas.com
+DTSTAMP:20261102T010000Z
+DTSTART:20261102T010000Z
+DTEND:20261102T040000Z
+SUMMARY:Sketch Club - Dallas
+LOCATION:Dallas Comedy Club - Mainstage Theater
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=sketch-club-dallas%7Cdall
+ as-comedy-club-mainstage-theater-dallas%7C7-00-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/dallas-comedy-club-mainstage-theater/
 END:VEVENT
 END:VCALENDAR

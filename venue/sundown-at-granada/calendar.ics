@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ronnie-fauss|sundown-at-granada-lower-greenville-dallas|doors-see-listi
- ng-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Ronnie Fauss
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=ronnie-fauss%7Csundown-at
- -granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/venue/sundown-at-granada/
-END:VEVENT
-BEGIN:VEVENT
 UID:artikal-sound-system|sundown-at-granada-dallas|9-30-pm-2026-10-24@letsd
  oitdallas.com
 DTSTAMP:20261025T023000Z

@@ -9,58 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:andrew-orolfo|punch-line-irving-irving|7-00-pm-2026-10-23@letsdoitdalla
- s.com
-DTSTAMP:20261024T000000Z
-DTSTART:20261024T000000Z
-DTEND:20261024T030000Z
-SUMMARY:Andrew Orolfo
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=andrew-orolfo%7Cpunch-lin
- e-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:finesse-mitchell|punch-line-irving-irving|7-00-pm-2026-10-23@letsdoitda
- llas.com
-DTSTAMP:20261024T000000Z
-DTSTART:20261024T000000Z
-DTEND:20261024T030000Z
-SUMMARY:Finesse Mitchell
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=finesse-mitchell%7Cpunch-
- line-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:finesse-mitchell|punch-line-irving-irving|9-15-pm-2026-10-23@letsdoitda
- llas.com
-DTSTAMP:20261024T021500Z
-DTSTART:20261024T021500Z
-DTEND:20261024T051500Z
-SUMMARY:Finesse Mitchell
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=finesse-mitchell%7Cpunch-
- line-irving-irving%7C9-15-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:comedy-allstars|punch-line-irving-irving|9-30-pm-2026-10-23@letsdoitdal
- las.com
-DTSTAMP:20261024T023000Z
-DTSTART:20261024T023000Z
-DTEND:20261024T053000Z
-SUMMARY:Comedy Allstars
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=comedy-allstars%7Cpunch-l
- ine-irving-irving%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:andrew-orolfo|punch-line-irving-irving|7-00-pm-2026-10-24@letsdoitdalla
  s.com
 DTSTAMP:20261025T000000Z
@@ -189,6 +137,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=comedy-allstars%7Cpunch-l
  ine-irving-irving%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:comedy-allstars|punch-line-dallas-irvine-irving|8-00-pm-2026-10-31@lets
+ doitdallas.com
+DTSTAMP:20261101T010000Z
+DTSTART:20261101T010000Z
+DTEND:20261101T040000Z
+SUMMARY:Comedy Allstars
+LOCATION:Punch Line Dallas - Irvine · Irving
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=comedy-allstars%7Cpunch-l
+ ine-dallas-irvine-irving%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/punch-line-irving/
 END:VEVENT
 BEGIN:VEVENT
 UID:ha-ha-halloween-showcase|punch-line-irving-irving|8-00-pm-2026-10-31@le
@@ -473,6 +434,45 @@ SUMMARY:Stoned vs Drunk vs Sober
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-11-20&e=stoned-vs-drunk-vs-sober%
  7Cpunch-line-irving-irving%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-redd|punch-line-irving-irving|7-00-pm-2026-11-21@letsdoitdallas.c
+ om
+DTSTAMP:20261122T010000Z
+DTSTART:20261122T010000Z
+DTEND:20261122T040000Z
+SUMMARY:Chris Redd
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=chris-redd%7Cpunch-line-i
+ rving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-redd|punch-line-irving-irving|9-15-pm-2026-11-21@letsdoitdallas.c
+ om
+DTSTAMP:20261122T031500Z
+DTSTART:20261122T031500Z
+DTEND:20261122T061500Z
+SUMMARY:Chris Redd
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=chris-redd%7Cpunch-line-i
+ rving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:santi-espinosa-me-time-english-spanish-show-|punch-line-irving-irving|6
+ -00-pm-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261123T000000Z
+DTSTART:20261123T000000Z
+DTEND:20261123T030000Z
+SUMMARY:Santi Espinosa - ME Time (English/Spanish Show)
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=santi-espinosa-me-time-en
+ glish-spanish-show-%7Cpunch-line-irving-irving%7C6-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT

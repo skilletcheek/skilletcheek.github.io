@@ -10,73 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
- e-tx-76051-united-states|8-00-am-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T130000Z
-DTSTART:20261023T130000Z
-DTEND:20261023T160000Z
-SUMMARY:Phenomenomaly at Meow Wolf
-LOCATION:Meow Wolf · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=phenomenomaly-at-meow-wol
- f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
- C8-00-am
-DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
-  live immersive performance series inside The Real Unreal. Blending intera
- ctive theater with a rotating lineup of North Texas talent\, the experienc
- e unfolds around guests as they explore\, featuring music\, dance\, comedy
- \, — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:mahjong-open-play|grapevine|12-30-pm-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T173000Z
-DTSTART:20261023T173000Z
-DTEND:20261023T203000Z
-SUMMARY:Mahjong: Open Play
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=mahjong-open-play%7Cgrape
- vine%7C12-30-pm
-DESCRIPTION:Open Play Fridays 12:30-4:30. Tables available on a first come 
- first serve basis\, Space is Limited. Players\, please bring your own card
- s and bags. Ages 18 and up. October 23\, 2026 12:30 PM - 04:30 PM Grapevin
- e\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17591/63920 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:ultimate-rod-stewart-experience-starring-vic-vaga|palace-arts-theatre-3
- 00-s-main-st-grapevine-76051-united-states|7-30-pm-2026-10-23@letsdoitdall
- as.com
-DTSTAMP:20261024T003000Z
-DTSTART:20261024T003000Z
-DTEND:20261024T033000Z
-SUMMARY:Ultimate Rod Stewart Experience Starring Vic Vaga
-LOCATION:Palace Arts Theatre · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=ultimate-rod-stewart-expe
- rience-starring-vic-vaga%7Cpalace-arts-theatre-300-s-main-st-grapevine-760
- 51-united-states%7C7-30-pm
-DESCRIPTION:Vic Vaga is an internationally renowned Rod Stewart lookalike a
- nd tribute performer. Whether Vaga is performing in Las Vegas\, Canada\, F
- lorida or in Texas\, his live shows are exciting and energetic. A true tri
- bute to “Rod the Mod” that has been critically acclaimed many times ov
- er — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
- e-tx-76051-united-states|8-00-am-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T130000Z
-DTSTART:20261024T130000Z
-DTEND:20261024T160000Z
-SUMMARY:Phenomenomaly at Meow Wolf
-LOCATION:Meow Wolf · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=phenomenomaly-at-meow-wol
- f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
- C8-00-am
-DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
-  live immersive performance series inside The Real Unreal. Blending intera
- ctive theater with a rotating lineup of North Texas talent\, the experienc
- e unfolds around guests as they explore\, featuring music\, dance\, comedy
- \, — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:stitchcraft-circle-18-|grapevine|10-00-am-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261024T150000Z
 DTSTART:20261024T150000Z
@@ -852,6 +785,68 @@ DESCRIPTION:Open Play Fridays 12:30-4:30. Tables available on a first come
  s and bags. Ages 18 and up. November 6\, 2026 12:30 PM - 04:30 PM Grapevin
  e\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17593/63920 
  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:stitchcraft-circle-18-|grapevine|10-00-am-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T160000Z
+DTSTART:20261107T160000Z
+DTEND:20261107T190000Z
+SUMMARY:Stitchcraft Circle (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=stitchcraft-circle-18-%7C
+ grapevine%7C10-00-am
+DESCRIPTION:Help us make quilts for the Grapevine Animal Shelter & local ho
+ spital or bring your own stitching project. Adults only (18+)\, Library Ca
+ rd & Registration Required to attend. November 7\, 2026 10:00 AM - 01:00 P
+ M Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID= 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:recording-studio-attended|grapevine|12-00-pm-2026-11-07@letsdoitdallas.
+ com
+DTSTAMP:20261107T180000Z
+DTSTART:20261107T180000Z
+DTEND:20261107T210000Z
+SUMMARY:Recording Studio Attended
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=recording-studio-attended
+ %7Cgrapevine%7C12-00-pm
+DESCRIPTION:Interested in podcasting or recording music? Come learn how to 
+ use the library’s Recording Studio! To reserve and use the Recording Stu
+ dio\, you must first complete a mandatory orientation. Orientations are of
+ fered on Saturdays from 12 to 4 pm. No registration or appointment neede 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:board-game-meet-up-for-adults-|grapevine|02-00-pm-2026-11-07@letsdoitda
+ llas.com
+DTSTAMP:20261107T200000Z
+DTSTART:20261107T200000Z
+DTEND:20261107T230000Z
+SUMMARY:Board Game Meet-Up for Adults!
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=board-game-meet-up-for-ad
+ ults-%7Cgrapevine%7C02-00-pm
+DESCRIPTION:Join us for a fun day of board and card gaming at the library. 
+ Select from our collection of board games\, card games\, party games\, or 
+ bring your own games! 1st & 3rd Saturdays (and those ocassional 5th Saturd
+ ays: 1/31\, 5/30\, 8/29\, & 10/31) For Adults\, ages 18+ November 7\, 2026
+  02 — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:read-to-a-furry-friend|grapevine|02-30-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T203000Z
+DTSTART:20261107T203000Z
+DTEND:20261107T233000Z
+SUMMARY:Read to a Furry Friend
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=read-to-a-furry-friend%7C
+ grapevine%7C02-30-pm
+DESCRIPTION:The 1st and 3rd Saturday the library is visited by therapy dogs
+ . They love to listen to children practice reading! No registration needed
+ . November 7\, 2026 02:30 PM - 03:30 PM Grapevine\, TX 76051 https://www.g
+ rapevinetexas.gov/Calendar.aspx?EID=17687/639221334170000000 — More: htt
+ ps://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:speed-dating-in-grapevine-speed-dating-all-professionals-35-50|hop-and-

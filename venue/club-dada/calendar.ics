@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bayonne|club-dada-dallas|8-00-pm-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261024T010000Z
-DTSTART:20261024T010000Z
-DTEND:20261024T040000Z
-SUMMARY:Bayonne
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=bayonne%7Cclub-dada-dalla
- s%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/club-dada/
-END:VEVENT
-BEGIN:VEVENT
 UID:kyle-hume|club-dada-dallas|8-00-pm-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261025T010000Z
 DTSTART:20261025T010000Z

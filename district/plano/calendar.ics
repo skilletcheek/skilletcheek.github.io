@@ -10,84 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:deric-cahill|mic-drop-comedy-plano-plano|7-00-pm-2026-10-23@letsdoitdal
- las.com
-DTSTAMP:20261024T000000Z
-DTSTART:20261024T000000Z
-DTEND:20261024T030000Z
-SUMMARY:Deric Cahill
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=deric-cahill%7Cmic-drop-c
- omedy-plano-plano%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:uau-2026-fancon-playlist-your-youth-in-dallas|coppell-arts-center-coppe
- ll|7-00-pm-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261024T000000Z
-DTSTART:20261024T000000Z
-DTEND:20261024T030000Z
-SUMMARY:UAU 2026 FANCON [Playlist #Your Youth] in Dallas
-LOCATION:Coppell Arts Center
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=uau-2026-fancon-playlist-
- your-youth-in-dallas%7Ccoppell-arts-center-coppell%7C7-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:corey-holcomb|addison-improv-addison|7-30-pm-2026-10-23@letsdoitdallas.
- com
-DTSTAMP:20261024T003000Z
-DTSTART:20261024T003000Z
-DTEND:20261024T033000Z
-SUMMARY:Corey Holcomb
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=corey-holcomb%7Caddison-i
- mprov-addison%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:kanan-gill|eisemann-center-richardson|7-30-pm-2026-10-23@letsdoitdallas
- .com
-DTSTAMP:20261024T003000Z
-DTSTART:20261024T003000Z
-DTEND:20261024T033000Z
-SUMMARY:Kanan Gill
-LOCATION:Eisemann Center · Richardson
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=kanan-gill%7Ceisemann-cen
- ter-richardson%7C7-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:deric-cahill|mic-drop-comedy-plano-plano|9-30-pm-2026-10-23@letsdoitdal
- las.com
-DTSTAMP:20261024T023000Z
-DTSTART:20261024T023000Z
-DTEND:20261024T053000Z
-SUMMARY:Deric Cahill
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=deric-cahill%7Cmic-drop-c
- omedy-plano-plano%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:corey-holcomb|addison-improv-addison|9-45-pm-2026-10-23@letsdoitdallas.
- com
-DTSTAMP:20261024T024500Z
-DTSTART:20261024T024500Z
-DTEND:20261024T054500Z
-SUMMARY:Corey Holcomb
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=corey-holcomb%7Caddison-i
- mprov-addison%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-10
  -24@letsdoitdallas.com
 DTSTAMP:20261024T190000Z
@@ -99,6 +21,25 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=family-magic-comedy-for-a
  ll-ages%7Caddison-improv-addison%7C2-00-pm
 DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
  doitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:rebirth-of-the-phoenix-soar|hill-performance-hall-at-the-charles-w-eise
+ mann-center-for-performing-arts-richardson|6-30-pm-8-00-am-2026-10-24@lets
+ doitdallas.com
+DTSTAMP:20261024T233000Z
+DTSTART:20261024T233000Z
+DTEND:20261025T023000Z
+SUMMARY:Rebirth of the Phoenix: SOAR
+LOCATION:Hill Performance Hall at the Charles W. Eisemann Center for Perfor
+ ming Arts · Richardson
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=rebirth-of-the-phoenix-so
+ ar%7Chill-performance-hall-at-the-charles-w-eisemann-center-for-performing
+ -arts-richardson%7C6-30-pm-8-00-am
+DESCRIPTION:Art of VIII School of Dance presents Rebirth of the Phoenix: SO
+ AR \, a powerful celebration of transformation\, courage\, and movement. A
+ dult dancers will take the stage across seven disciplines\, including Ball
+ et\, Modern\, Jazz\, Contemporary\, Tap\, West African Dance\, and Hip-Hop
+ \, pro — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:corey-holcomb|addison-improv-addison|7-00-pm-2026-10-24@letsdoitdallas.
@@ -598,6 +539,32 @@ SUMMARY:DeRay Davis
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-11-20&e=deray-davis%7Caddison-imp
  rov-addison%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:deray-davis|addison-improv-addison|7-00-pm-2026-11-21@letsdoitdallas.co
+ m
+DTSTAMP:20261122T010000Z
+DTSTART:20261122T010000Z
+DTEND:20261122T040000Z
+SUMMARY:DeRay Davis
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=deray-davis%7Caddison-imp
+ rov-addison%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:deray-davis|addison-improv-addison|9-30-pm-2026-11-21@letsdoitdallas.co
+ m
+DTSTAMP:20261122T033000Z
+DTSTART:20261122T033000Z
+DTEND:20261122T063000Z
+SUMMARY:DeRay Davis
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=deray-davis%7Caddison-imp
+ rov-addison%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT

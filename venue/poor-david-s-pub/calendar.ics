@@ -74,6 +74,19 @@ DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
 BEGIN:VEVENT
+UID:dallas-entertainment-awards-opening-day-celebration|poor-david-s-pub-da
+ llas|doors-see-listing-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Dallas Entertainment Awards - Opening Day Celebration
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=dallas-entertainment-awar
+ ds-opening-day-celebration%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
+BEGIN:VEVENT
 UID:honky-tonk-tuesday-with-texas-zephers|poor-david-s-pub-dallas|doors-see
  -listing-2026-11-03@letsdoitdallas.com
 DTSTAMP:20261103T000000Z
@@ -165,6 +178,19 @@ SUMMARY:All Night with the Red Elvises
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-14&e=all-night-with-the-red-el
  vises%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
+BEGIN:VEVENT
+UID:honky-tonk-tuesday-with-cory-cross|poor-david-s-pub-dallas|doors-see-li
+ sting-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Honky Tonk Tuesday with Cory Cross
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=honky-tonk-tuesday-with-c
+ ory-cross%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT

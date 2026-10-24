@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:david-lee-murphy-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-23@l
- etsdoitdallas.com
-DTSTAMP:20261024T030000Z
-DTSTART:20261024T030000Z
-DTEND:20261024T060000Z
-SUMMARY:David Lee Murphy (18+ Event)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=david-lee-murphy-18-event
- -%7Cbilly-bob-s-fort-worth%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/billy-bob-s/
-END:VEVENT
-BEGIN:VEVENT
 UID:lone-star-murder-mystery-dinner-show-18-and-over-|billy-bob-s-fort-wort
  h|7-30-pm-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261025T003000Z
@@ -176,5 +163,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=wade-bowen%7Cbilly-bob-s-
  texas-fort-worth%7C7-00-pm
 DESCRIPTION:Wade Bowen live at Billy Bob's Texas. — More: https://letsdoi
  tdallas.com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:lone-star-murder-mystery-dinner-show|billy-bob-s-fort-worth|7-30-pm-202
+ 6-11-21@letsdoitdallas.com
+DTSTAMP:20261122T013000Z
+DTSTART:20261122T013000Z
+DTEND:20261122T043000Z
+SUMMARY:Lone Star Murder Mystery & Dinner show
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=lone-star-murder-mystery-
+ dinner-show%7Cbilly-bob-s-fort-worth%7C7-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:wade-bowen-ages-18-|billy-bob-s-fort-worth|10-00-pm-2026-11-21@letsdoit
+ dallas.com
+DTSTAMP:20261122T040000Z
+DTSTART:20261122T040000Z
+DTEND:20261122T070000Z
+SUMMARY:Wade Bowen - Ages 18+
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=wade-bowen-ages-18-%7Cbil
+ ly-bob-s-fort-worth%7C10-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/billy-bob-s/
 END:VEVENT
 END:VCALENDAR

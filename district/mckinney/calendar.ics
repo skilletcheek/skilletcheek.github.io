@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:planning-passport|mckinney|see-details-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Planning Passport
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=planning-passport%7Cmckin
- ney%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 31. — More: https://letsdoitdallas.com/dis
- trict/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:worlds-2026-swiss-1|credit-union-of-texas-event-center-allen|12-00-pm-2
- 026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T170000Z
-DTSTART:20261023T170000Z
-DTEND:20261023T200000Z
-SUMMARY:Worlds 2026 - Swiss 1
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=worlds-2026-swiss-1%7Ccre
- dit-union-of-texas-event-center-allen%7C12-00-pm
-DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:planning-passport|mckinney|see-details-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261024T000000Z
 DTSTART;VALUE=DATE:20261024
@@ -110,6 +85,38 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=worlds-2026-swiss-2%7Ccre
  dit-union-of-texas-event-center-allen%7C12-00-pm
 DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:mckinney-wine-music-festival|mckinney|2-00-pm-6-00-pm-2026-10-24@letsdo
+ itdallas.com
+DTSTAMP:20261024T190000Z
+DTSTART:20261024T190000Z
+DTEND:20261024T220000Z
+SUMMARY:McKinney Wine & Music Festival
+LOCATION:McKinney
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=mckinney-wine-music-festi
+ val%7Cmckinney%7C2-00-pm-6-00-pm
+DESCRIPTION:Celebrate 10 years of the McKinney Wine & Music Festival with a
+ n afternoon of wine\, live music\, and local flavor in the Entertainment D
+ istrict. Explore 15 tasting stations featuring a variety of wines\, with a
+  $45 tasting pass that includes a souvenir wine glass and 20 tasting tic 
+ — More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:mckinney-wine-music-festival-2026|district-121-mckinney|2-00-pm-6-00-pm
+ -2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T190000Z
+DTSTART:20261024T190000Z
+DTEND:20261024T220000Z
+SUMMARY:McKinney Wine & Music Festival 2026
+LOCATION:District 121 · MCKINNEY
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=mckinney-wine-music-festi
+ val-2026%7Cdistrict-121-mckinney%7C2-00-pm-6-00-pm
+DESCRIPTION:Sip\, savor\, and sway to the rhythm at a vibrant celebration o
+ f wine\, music\, and local flavor! Explore a curated lineup of tasting sta
+ tions pouring a variety of wines\, groove to live bands across the day\, c
+ apture fun moments with friends\, and wander through unique vendor spots
+ —all — More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
 UID:wade-bowen|the-rook-mckinney|7-00-pm-2026-10-24@letsdoitdallas.com
@@ -724,6 +731,54 @@ DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:family-storytime-all-ages-|1201-e-louisiana-st-mckinney|10-30-am-2026-1
+ 1-07@letsdoitdallas.com
+DTSTAMP:20261107T163000Z
+DTSTART:20261107T163000Z
+DTEND:20261107T193000Z
+SUMMARY:Family Storytime (All Ages)
+LOCATION:1201 E. Louisiana St. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=family-storytime-all-ages
+ -%7C1201-e-louisiana-st-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-chess-meetup-all-ages-|6861-w-eldorado-parkway-mckinney|11-00-
+ am-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T170000Z
+DTSTART:20261107T170000Z
+DTEND:20261107T200000Z
+SUMMARY:Saturday Chess Meetup (All Ages)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=saturday-chess-meetup-all
+ -ages-%7C6861-w-eldorado-parkway-mckinney%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:love-mckinney-event|401-e-virginia-st-mckinney|01-00-pm-2026-11-07@lets
+ doitdallas.com
+DTSTAMP:20261107T190000Z
+DTSTART:20261107T190000Z
+DTEND:20261107T220000Z
+SUMMARY:Love McKinney Event
+LOCATION:401 E. Virginia St. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=love-mckinney-event%7C401
+ -e-virginia-st-mckinney%7C01-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:babysitters-club-class-mckinney-fire-department|2100-taylor-burk-dr-mck
+ inney|02-00-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T200000Z
+DTSTART:20261107T200000Z
+DTEND:20261107T230000Z
+SUMMARY:Babysitters Club Class - McKinney Fire Department
+LOCATION:2100 Taylor Burk Dr. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=babysitters-club-class-mc
+ kinney-fire-department%7C2100-taylor-burk-dr-mckinney%7C02-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:worlds-2026-semis-1|credit-union-of-texas-event-center-allen|4-00-pm-20
  26-11-07@letsdoitdallas.com
 DTSTAMP:20261107T220000Z
@@ -760,6 +815,19 @@ LOCATION:Credit Union of Texas Event Center · Allen
 URL:https://letsdoitdallas.com/?date=2026-11-20&e=allen-americans-vs-kansas
  -city-mavericks-red-out%7Ccredit-union-of-texas-event-center-allen%7C7-00-
  pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:allen-americans-vs-kansas-city-mavericks|credit-union-of-texas-event-ce
+ nter-allen|7-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T010000Z
+DTSTART:20261122T010000Z
+DTEND:20261122T040000Z
+SUMMARY:Allen Americans vs Kansas City Mavericks
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=allen-americans-vs-kansas
+ -city-mavericks%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/mckinney/
 END:VEVENT

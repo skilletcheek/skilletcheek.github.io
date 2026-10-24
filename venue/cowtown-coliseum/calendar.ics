@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:red-steagall-cowboy-gathering|cowtown-coliseum-fort-worth|7-30-pm-2026-
- 10-23@letsdoitdallas.com
-DTSTAMP:20261024T003000Z
-DTSTART:20261024T003000Z
-DTEND:20261024T033000Z
-SUMMARY:Red Steagall Cowboy Gathering
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=red-steagall-cowboy-gathe
- ring%7Ccowtown-coliseum-fort-worth%7C7-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/cowtown-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:red-steagall-cowboy-gathering|cowtown-coliseum-fort-worth|1-30-pm-2026-
  10-24@letsdoitdallas.com
 DTSTAMP:20261024T183000Z
@@ -464,5 +451,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=stockyards-championship-r
  odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
+ 11-21@letsdoitdallas.com
+DTSTAMP:20261122T013000Z
+DTSTART:20261122T013000Z
+DTEND:20261122T043000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:ultimate-bullfighters|cowtown-coliseum-fort-worth|1-30-pm-2026-11-22@le
+ tsdoitdallas.com
+DTSTAMP:20261122T193000Z
+DTSTART:20261122T193000Z
+DTEND:20261122T223000Z
+SUMMARY:Ultimate Bullfighters
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=ultimate-bullfighters%7Cc
+ owtown-coliseum-fort-worth%7C1-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/cowtown-coliseum/
 END:VEVENT
 END:VCALENDAR

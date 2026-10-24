@@ -9,33 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:anything-goes-presented-by-garland-civic-theatre|300-n-fifth-street-gar
- land|07-30-pm-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261024T003000Z
-DTSTART:20261024T003000Z
-DTEND:20261024T033000Z
-SUMMARY:Anything Goes presented by Garland Civic Theatre
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=anything-goes-presented-b
- y-garland-civic-theatre%7C300-n-fifth-street-garland%7C07-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:-the-days-that-made-america-tour-with-lindsay-graham-presented-by-garla
- nd-cultural-arts|521-w-state-street-garland|08-00-pm-2026-10-23@letsdoitda
- llas.com
-DTSTAMP:20261024T010000Z
-DTSTART:20261024T010000Z
-DTEND:20261024T040000Z
-SUMMARY:'The Days That Made America Tour' with Lindsay Graham presented by 
- Garland Cultural Arts
-LOCATION:521 W State Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=-the-days-that-made-ameri
- ca-tour-with-lindsay-graham-presented-by-garland-cultural-arts%7C521-w-sta
- te-street-garland%7C08-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-10-24@letsd
  oitdallas.com
 DTSTAMP:20261024T150000Z
@@ -1266,6 +1239,110 @@ DESCRIPTION:6:00 p.m.\; Join us for a creative and cultural evening celebra
   evening begins with a bilingual (English and Spanish) presentation explor
  ing Botero’s impactful life\, bold artistic style and lasting contribut 
  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-11-07@letsd
+ oitdallas.com
+DTSTAMP:20261107T160000Z
+DTSTART:20261107T160000Z
+DTEND:20261107T190000Z
+SUMMARY:Play & Learn (0-5 years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=play-learn-0-5-years-%7Cc
+ entral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Families with children ages 0-5 can enjoy Play & L
+ earn\, a weekly event with toys\, games and activities that encourage imag
+ ination\, creativity and problem-solving. This program offers a chance for
+  children and caregivers to play together. November 7\, 2026 10:00 AM - 11
+  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:skill-building-series-scrap-patchwork-coaster-ages-13-|west-garland-lib
+ rary-garland|10-30-am-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T163000Z
+DTSTART:20261107T163000Z
+DTEND:20261107T193000Z
+SUMMARY:Skill Building Series: Scrap Patchwork Coaster (Ages 13+)
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=skill-building-series-scr
+ ap-patchwork-coaster-ages-13-%7Cwest-garland-library-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; Enhance your skills in this hands-on project class
+ \, designed for those already certified to use the sewing machine in our m
+ akerspace. You’ll use fabric scraps to create a simple patchwork coaster
+  to take home\, gaining confidence and enjoying the process every step of 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:understanding-medicare-ages-18-|south-garland-library-garland|11-00-am-
+ 2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T170000Z
+DTSTART:20261107T170000Z
+DTEND:20261107T200000Z
+SUMMARY:Understanding Medicare (Ages 18+)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=understanding-medicare-ag
+ es-18-%7Csouth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; New to Medicare? Need to know what changes there a
+ re for the coming year? Everyone is welcome to attend an informational ses
+ sion to learn what the right mix of benefits and costs could be for you. B
+ ring your questions and get prepared before open enrollment ends. Nove —
+  More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:what-she-s-having-presented-by-tasha-studios|300-n-fifth-street-garland
+ |02-00-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T200000Z
+DTSTART:20261107T200000Z
+DTEND:20261107T230000Z
+SUMMARY:What She's Having presented by Tasha Studios
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=what-she-s-having-present
+ ed-by-tasha-studios%7C300-n-fifth-street-garland%7C02-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:crafternoon-ages-13-|central-library-garland|03-00-pm-2026-11-07@letsdo
+ itdallas.com
+DTSTAMP:20261107T210000Z
+DTSTART:20261107T210000Z
+DTEND:20261108T000000Z
+SUMMARY:Crafternoon (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=crafternoon-ages-13-%7Cce
+ ntral-library-garland%7C03-00-pm
+DESCRIPTION:3:00 p.m.\; Drop by the library and dedicate time to work on yo
+ ur personal crafts! This time is for freeform crafting and conversation. B
+ ring your own project or choose something from the makerspace to work on! 
+ We have materials for sewing\, knitting\, crocheting\, embroidery and pap 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:writers-club-ages-18-|central-library-garland|04-00-pm-2026-11-07@letsd
+ oitdallas.com
+DTSTAMP:20261107T220000Z
+DTSTART:20261107T220000Z
+DTEND:20261108T010000Z
+SUMMARY:Writers’ Club (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=writers-club-ages-18-%7Cc
+ entral-library-garland%7C04-00-pm
+DESCRIPTION:4:00 p.m.\; Are you a writer or hoping to become one? Join the 
+ Writers’ Club for dedicated time to write\, connect with fellow writers 
+ and boost your creativity. Enjoy coffee\, light refreshments and a welcomi
+ ng space to work on your stories. Share excerpts\, exchange tips and suppo
+ r — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:what-she-s-having-presented-by-tasha-studios|300-n-fifth-street-garland
+ |07-00-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T010000Z
+DTSTART:20261108T010000Z
+DTEND:20261108T040000Z
+SUMMARY:What She's Having presented by Tasha Studios
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=what-she-s-having-present
+ ed-by-tasha-studios%7C300-n-fifth-street-garland%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:jubin-nautiyal|curtis-culwell-center-garland|8-00-pm-2026-11-14@letsdoi

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:charlie-berens-the-lost-and-found-tour|majestic-theatre-dallas-dallas|7
- -00-pm-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261024T000000Z
-DTSTART:20261024T000000Z
-DTEND:20261024T030000Z
-SUMMARY:Charlie Berens: The Lost and Found Tour
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=charlie-berens-the-lost-a
- nd-found-tour%7Cmajestic-theatre-dallas-dallas%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:iron-and-wine|majestic-theatre-dallas-dallas|8-00-pm-2026-10-24@letsdoi
  tdallas.com
 DTSTAMP:20261025T010000Z
@@ -175,6 +162,45 @@ SUMMARY:The Fab Four: Tribute to the Beatles' A Hard Day's Night
 LOCATION:Majestic Theatre Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-20&e=the-fab-four-tribute-to-t
  he-beatles-a-hard-day-s-night%7Cmajestic-theatre-dallas-dallas%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:mojo-brookzz|majestic-theatre-dallas-dallas|7-00-pm-2026-11-21@letsdoit
+ dallas.com
+DTSTAMP:20261122T010000Z
+DTSTART:20261122T010000Z
+DTEND:20261122T040000Z
+SUMMARY:Mojo Brookzz
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=mojo-brookzz%7Cmajestic-t
+ heatre-dallas-dallas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:mojo-brookzz|majestic-theatre-dallas-dallas|10-00-pm-2026-11-21@letsdoi
+ tdallas.com
+DTSTAMP:20261122T040000Z
+DTSTART:20261122T040000Z
+DTEND:20261122T070000Z
+SUMMARY:Mojo Brookzz
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=mojo-brookzz%7Cmajestic-t
+ heatre-dallas-dallas%7C10-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:mojo-brookzz|majestic-theatre-dallas-dallas|6-00-pm-2026-11-22@letsdoit
+ dallas.com
+DTSTAMP:20261123T000000Z
+DTSTART:20261123T000000Z
+DTEND:20261123T030000Z
+SUMMARY:Mojo Brookzz
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=mojo-brookzz%7Cmajestic-t
+ heatre-dallas-dallas%7C6-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/majestic-theatre-dallas/
 END:VEVENT

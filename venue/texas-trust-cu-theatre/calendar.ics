@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cristian-castro|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-10-23
- @letsdoitdallas.com
-DTSTAMP:20261024T010000Z
-DTSTART:20261024T010000Z
-DTEND:20261024T040000Z
-SUMMARY:Cristian Castro
-LOCATION:Texas Trust CU Theatre · Grand Prairie
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=cristian-castro%7Ctexas-t
- rust-cu-theatre-grand-prairie%7C8-00-pm
-DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/texas-trust-cu-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:grand-prairie-comedy-festival|texas-trust-cu-theatre-grand-prairie|8-00
  -pm-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261025T010000Z
@@ -97,6 +84,19 @@ LOCATION:Texas Trust CU Theatre · Grand Prairie
 URL:https://letsdoitdallas.com/?date=2026-11-20&e=don-lemon-w-d-l-hughley%7
  Ctexas-trust-cu-theatre-grand-prairie%7C8-00-pm
 DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/texas-trust-cu-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:sugarland|texas-trust-cu-theatre-grand-prairie|7-00-pm-2026-11-21@letsd
+ oitdallas.com
+DTSTAMP:20261122T010000Z
+DTSTART:20261122T010000Z
+DTEND:20261122T040000Z
+SUMMARY:Sugarland
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=sugarland%7Ctexas-trust-c
+ u-theatre-grand-prairie%7C7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/texas-trust-cu-theatre/
 END:VEVENT
 END:VCALENDAR

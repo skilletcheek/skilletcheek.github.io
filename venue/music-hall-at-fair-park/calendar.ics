@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:seth-meyers-live|music-hall-at-fair-park-dallas|8-00-pm-2026-10-23@lets
- doitdallas.com
-DTSTAMP:20261024T010000Z
-DTSTART:20261024T010000Z
-DTEND:20261024T040000Z
-SUMMARY:Seth Meyers: Live
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=seth-meyers-live%7Cmusic-
- hall-at-fair-park-dallas%7C8-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/music-hall-at-fair-park/
-END:VEVENT
-BEGIN:VEVENT
 UID:little-big-town-for-the-art-of-it-tour|music-hall-at-fair-park-dallas|7
  -30-pm-2026-10-31@letsdoitdallas.com
 DTSTAMP:20261101T003000Z

@@ -1,0 +1,82 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Richardson\, TX — Lets Do It Dallas
+X-WR-CALDESC:Upcoming events in Richardson\, Texas.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:rebirth-of-the-phoenix-soar|hill-performance-hall-at-the-charles-w-eise
+ mann-center-for-performing-arts-richardson|6-30-pm-8-00-am-2026-10-24@lets
+ doitdallas.com
+DTSTAMP:20261024T233000Z
+DTSTART:20261024T233000Z
+DTEND:20261025T023000Z
+SUMMARY:Rebirth of the Phoenix: SOAR
+LOCATION:Hill Performance Hall at the Charles W. Eisemann Center for Perfor
+ ming Arts · Richardson
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=rebirth-of-the-phoenix-so
+ ar%7Chill-performance-hall-at-the-charles-w-eisemann-center-for-performing
+ -arts-richardson%7C6-30-pm-8-00-am
+DESCRIPTION:Art of VIII School of Dance presents Rebirth of the Phoenix: SO
+ AR \, a powerful celebration of transformation\, courage\, and movement. A
+ dult dancers will take the stage across seven disciplines\, including Ball
+ et\, Modern\, Jazz\, Contemporary\, Tap\, West African Dance\, and Hip-Hop
+ \, pro — More: https://letsdoitdallas.com/city/richardson/
+END:VEVENT
+BEGIN:VEVENT
+UID:gunhild-carling|eisemann-center-richardson|7-00-pm-2026-10-24@letsdoitd
+ allas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Gunhild Carling
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=gunhild-carling%7Ceiseman
+ n-center-richardson%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/city/richardson/
+END:VEVENT
+BEGIN:VEVENT
+UID:ann-hampton-callaway|eisemann-center-richardson|2-00-pm-2026-11-01@lets
+ doitdallas.com
+DTSTAMP:20261101T200000Z
+DTSTART:20261101T200000Z
+DTEND:20261101T230000Z
+SUMMARY:Ann Hampton Callaway
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=ann-hampton-callaway%7Cei
+ semann-center-richardson%7C2-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/city/richardson/
+END:VEVENT
+BEGIN:VEVENT
+UID:steven-curtis-chapman|eisemann-center-richardson|7-00-pm-2026-11-02@let
+ sdoitdallas.com
+DTSTAMP:20261103T010000Z
+DTSTART:20261103T010000Z
+DTEND:20261103T040000Z
+SUMMARY:Steven Curtis Chapman
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=steven-curtis-chapman%7Ce
+ isemann-center-richardson%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/city/richardson/
+END:VEVENT
+BEGIN:VEVENT
+UID:asim-azhar|eisemann-center-richardson|7-00-pm-2026-11-15@letsdoitdallas
+ .com
+DTSTAMP:20261116T010000Z
+DTSTART:20261116T010000Z
+DTEND:20261116T040000Z
+SUMMARY:Asim Azhar
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=asim-azhar%7Ceisemann-cen
+ ter-richardson%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/city/richardson/
+END:VEVENT
+END:VCALENDAR

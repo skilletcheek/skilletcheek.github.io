@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Bruton Theatre — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Bruton Theatre.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:the-hip-hop-puppet-show-i-m-not-playin-with-you-|bruton-theatre-dallas|
+ 10-00-am-2026-11-18@letsdoitdallas.com
+DTSTAMP:20261118T160000Z
+DTSTART:20261118T160000Z
+DTEND:20261118T190000Z
+SUMMARY:The Hip Hop Puppet Show "I'm Not Playin With You"
+LOCATION:Bruton Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=the-hip-hop-puppet-show-i
+ -m-not-playin-with-you-%7Cbruton-theatre-dallas%7C10-00-am
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/bruton-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-hip-hop-puppet-show-i-m-not-playin-with-you-|bruton-theatre-dallas|
+ 10-00-am-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261119T160000Z
+DTSTART:20261119T160000Z
+DTEND:20261119T190000Z
+SUMMARY:The Hip Hop Puppet Show "I'm Not Playin With You"
+LOCATION:Bruton Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=the-hip-hop-puppet-show-i
+ -m-not-playin-with-you-%7Cbruton-theatre-dallas%7C10-00-am
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/bruton-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:3-o-clock-sunday-evening-musical-1-of-3|bruton-theatre-dallas|3-00-pm-2
+ 026-11-22@letsdoitdallas.com
+DTSTAMP:20261122T210000Z
+DTSTART:20261122T210000Z
+DTEND:20261123T000000Z
+SUMMARY:3 O' Clock Sunday Evening Musical 1 of 3
+LOCATION:Bruton Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=3-o-clock-sunday-evening-
+ musical-1-of-3%7Cbruton-theatre-dallas%7C3-00-pm
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/bruton-theatre/
+END:VEVENT
+END:VCALENDAR

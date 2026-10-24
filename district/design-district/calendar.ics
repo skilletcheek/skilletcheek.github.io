@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dax-the-anger-management-tour|the-echo-lounge-music-hall-dallas|7-00-pm
- -2026-10-23@letsdoitdallas.com
-DTSTAMP:20261024T000000Z
-DTSTART:20261024T000000Z
-DTEND:20261024T030000Z
-SUMMARY:Dax - The Anger Management Tour
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=dax-the-anger-management-
- tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:kettama-18-|silo-dallas|9-00-pm-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261024T020000Z
-DTSTART:20261024T020000Z
-DTEND:20261024T050000Z
-SUMMARY:Kettama (18+)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=kettama-18-%7Csilo-dallas
- %7C9-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:glaive-god-save-the-three-tour|the-echo-lounge-music-hall-dallas|7-00-p
  m-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261025T000000Z
@@ -577,6 +552,43 @@ LOCATION:SILO · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-20&e=crankdat-18-and-over-%7Cs
  ilo-dallas%7C9-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:ez-band|am-fm-dallas-dallas|7-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T010000Z
+DTSTART:20261122T010000Z
+DTEND:20261122T040000Z
+SUMMARY:EZ Band
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=ez-band%7Cam-fm-dallas-da
+ llas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:afrojack-18-and-over-|silo-dallas|9-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T030000Z
+DTSTART:20261122T030000Z
+DTEND:20261122T060000Z
+SUMMARY:Afrojack (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=afrojack-18-and-over-%7Cs
+ ilo-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:live-nation-presents-yallah-habibi-crew-21-event|the-echo-lounge-music-
+ hall-dallas|10-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T040000Z
+DTSTART:20261122T040000Z
+DTEND:20261122T070000Z
+SUMMARY:Live Nation Presents: Yallah Habibi Crew - 21+ Event
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=live-nation-presents-yall
+ ah-habibi-crew-21-event%7Cthe-echo-lounge-music-hall-dallas%7C10-00-pm
+DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/design-district/
 END:VEVENT
 END:VCALENDAR

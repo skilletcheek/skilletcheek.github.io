@@ -146,4 +146,16 @@ URL:https://letsdoitdallas.com/?date=2026-11-20&e=aterciopelados%7Cam-fm-da
 DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/am-fm-dallas/
 END:VEVENT
+BEGIN:VEVENT
+UID:ez-band|am-fm-dallas-dallas|7-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T010000Z
+DTSTART:20261122T010000Z
+DTEND:20261122T040000Z
+SUMMARY:EZ Band
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=ez-band%7Cam-fm-dallas-da
+ llas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/am-fm-dallas/
+END:VEVENT
 END:VCALENDAR

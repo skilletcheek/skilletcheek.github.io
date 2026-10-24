@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:boy-harsher|tannahill-s-music-hall-lounge-fort-worth|9-00-pm-2026-10-23
- @letsdoitdallas.com
-DTSTAMP:20261024T020000Z
-DTSTART:20261024T020000Z
-DTEND:20261024T050000Z
-SUMMARY:Boy Harsher
-LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=boy-harsher%7Ctannahill-s
- -music-hall-lounge-fort-worth%7C9-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/tannahill-s-music-hall-lounge/
-END:VEVENT
-BEGIN:VEVENT
 UID:punchis-punchis-banda-rave-ages-18-up-|tannahill-s-music-hall-lounge-fo
  rt-worth|10-00-pm-2026-10-31@letsdoitdallas.com
 DTSTAMP:20261101T030000Z
@@ -84,6 +71,20 @@ LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-20&e=elijah-scott%7Ctannahill-
  s-music-hall-lounge-fort-worth%7C8-00-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/tannahill-s-music-hall-lounge/
+END:VEVENT
+BEGIN:VEVENT
+UID:carousel-club-burlesque-presents-rhinestone-rodeo-ages-18-up-|tannahill
+ -s-music-hall-lounge-fort-worth|9-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T030000Z
+DTSTART:20261122T030000Z
+DTEND:20261122T060000Z
+SUMMARY:Carousel Club Burlesque Presents Rhinestone Rodeo (Ages 18 & Up)
+LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=carousel-club-burlesque-p
+ resents-rhinestone-rodeo-ages-18-up-%7Ctannahill-s-music-hall-lounge-fort-
+ worth%7C9-00-pm
+DESCRIPTION:Variety event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/tannahill-s-music-hall-lounge/
 END:VEVENT
 END:VCALENDAR

@@ -9,15 +9,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:commercial-music-showcase-fall-2026|lab-west-at-the-music-building-dent
- on|8-00-pm-2026-10-26@letsdoitdallas.com
-DTSTAMP:20261027T010000Z
-DTSTART:20261027T010000Z
-DTEND:20261027T040000Z
-SUMMARY:Commercial Music Showcase Fall 2026
+UID:graduate-artist-recital-hye-in-roh-piano|lab-west-at-the-music-building
+ -denton|8-00-pm-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261028T010000Z
+DTSTART:20261028T010000Z
+DTEND:20261028T040000Z
+SUMMARY:Graduate Artist Recital: Hye In Roh\, Piano
 LOCATION:Lab West at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-26&e=commercial-music-showcase
- -fall-2026%7Clab-west-at-the-music-building-denton%7C8-00-pm
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=graduate-artist-recital-h
+ ye-in-roh-piano%7Clab-west-at-the-music-building-denton%7C8-00-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
  ay of the performance.      Livestream is not available for this event.   
@@ -41,6 +41,23 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  llas.com/venue/lab-west-at-the-music-building/
 END:VEVENT
 BEGIN:VEVENT
+UID:senior-recital-heath-cedric-deguzman-jazz-saxophone|lab-west-at-the-mus
+ ic-building-denton|8-00-pm-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261105T020000Z
+DTSTART:20261105T020000Z
+DTEND:20261105T050000Z
+SUMMARY:Senior Recital: Heath Cedric DeGuzman\, jazz saxophone
+LOCATION:Lab West at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=senior-recital-heath-cedr
+ ic-deguzman-jazz-saxophone%7Clab-west-at-the-music-building-denton%7C8-00-
+ pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below.      This event is free
+  and open to the public with general seating. — More: https://letsdoitda
+ llas.com/venue/lab-west-at-the-music-building/
+END:VEVENT
+BEGIN:VEVENT
 UID:four-seven-o-clock-lab-bands|lab-west-at-the-music-building-denton|8-00
  -pm-2026-11-10@letsdoitdallas.com
 DTSTAMP:20261111T020000Z
@@ -57,22 +74,6 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  llas.com/venue/lab-west-at-the-music-building/
 END:VEVENT
 BEGIN:VEVENT
-UID:doctoral-recital-mario-montes-jazz-saxophone|lab-west-at-the-music-buil
- ding-denton|8-00-pm-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261112T020000Z
-DTSTART:20261112T020000Z
-DTEND:20261112T050000Z
-SUMMARY:Doctoral Recital: Mario Montes\, jazz saxophone
-LOCATION:Lab West at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=doctoral-recital-mario-mo
- ntes-jazz-saxophone%7Clab-west-at-the-music-building-denton%7C8-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/venue/lab-west-at-the-music-building/
-END:VEVENT
-BEGIN:VEVENT
 UID:west-end-and-third-street|lab-west-at-the-music-building-denton|8-00-pm
  -2026-11-12@letsdoitdallas.com
 DTSTAMP:20261113T020000Z
@@ -82,22 +83,6 @@ SUMMARY:West End and Third Street
 LOCATION:Lab West at the Music Building · Denton
 URL:https://letsdoitdallas.com/?date=2026-11-12&e=west-end-and-third-street
  %7Clab-west-at-the-music-building-denton%7C8-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream link below.      This event is free
-  and open to the public with general seating. — More: https://letsdoitda
- llas.com/venue/lab-west-at-the-music-building/
-END:VEVENT
-BEGIN:VEVENT
-UID:zebras-commercial-music-lab-band-fall-2026|lab-west-at-the-music-buildi
- ng-denton|8-00-pm-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261118T020000Z
-DTSTART:20261118T020000Z
-DTEND:20261118T050000Z
-SUMMARY:Zebras Commercial Music Lab Band Fall 2026
-LOCATION:Lab West at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=zebras-commercial-music-l
- ab-band-fall-2026%7Clab-west-at-the-music-building-denton%7C8-00-pm
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
  ay of the performance.      Livestream link below.      This event is free

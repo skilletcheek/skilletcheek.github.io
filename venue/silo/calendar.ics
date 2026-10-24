@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kettama-18-|silo-dallas|9-00-pm-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261024T020000Z
-DTSTART:20261024T020000Z
-DTEND:20261024T050000Z
-SUMMARY:Kettama (18+)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=kettama-18-%7Csilo-dallas
- %7C9-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:san-holo-18-and-over-|silo-dallas|9-00-pm-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261025T020000Z
 DTSTART:20261025T020000Z
@@ -192,5 +180,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-20&e=crankdat-18-and-over-%7Cs
  ilo-dallas%7C9-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:afrojack-18-and-over-|silo-dallas|9-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T030000Z
+DTSTART:20261122T030000Z
+DTEND:20261122T060000Z
+SUMMARY:Afrojack (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=afrojack-18-and-over-%7Cs
+ ilo-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/silo/
 END:VEVENT
 END:VCALENDAR

@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ronnie-fauss|sundown-at-granada-lower-greenville-dallas|doors-see-listi
- ng-2026-10-23@letsdoitdallas.com
-DTSTAMP:20261023T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Ronnie Fauss
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=ronnie-fauss%7Csundown-at
- -granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:invasion-car-show|trees-dallas|doors-see-listing-2026-10-24@letsdoitdal
  las.com
 DTSTAMP:20261024T000000Z
@@ -63,6 +50,22 @@ DESCRIPTION:Between Earth and Sky explores landscape as an experience shape
  enes\, Brandon McKenzie’s restrained Kansas abstractions\, and Sasinun K
  ladpetch’s earthy sculptures offer distinct ways of encountering place. 
  Toget — More: https://letsdoitdallas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:movie-on-the-lawn-casper-at-preston-hollow-village|preston-hollow-villa
+ ge-dallas|7-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T000000Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Movie On The Lawn: Casper At Preston Hollow Village
+LOCATION:Preston Hollow Village · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=movie-on-the-lawn-casper-
+ at-preston-hollow-village%7Cpreston-hollow-village-dallas%7C7-00-pm
+DESCRIPTION:Enjoy a free outdoor screening of Casper at Preston Hollow Vill
+ age for a fun fall evening. The lawn opens at 6 PM\, with the movie beginn
+ ing around 7 PM. Arrive early to explore the shops and restaurants\, grab 
+ a bite\, and find the perfect spot on the lawn for a family-friendly mov 
+ — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:bluegrass-heritage-music-show-jam|poor-david-s-pub-dallas|doors-see-lis
@@ -224,6 +227,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-01&e=celebration-of-life-shann
  on-mcmillan%7Ctrees-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/free-events
  /
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-entertainment-awards-opening-day-celebration|poor-david-s-pub-da
+ llas|doors-see-listing-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Dallas Entertainment Awards - Opening Day Celebration
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=dallas-entertainment-awar
+ ds-opening-day-celebration%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:improvement-movement|rubber-gloves-denton|7-00-pm-2026-10-23@letsdoitda
- llas.com
-DTSTAMP:20261024T000000Z
-DTSTART:20261024T000000Z
-DTEND:20261024T030000Z
-SUMMARY:Improvement Movement
-LOCATION:Rubber Gloves · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-23&e=improvement-movement%7Cru
- bber-gloves-denton%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/rubber-gloves/
-END:VEVENT
-BEGIN:VEVENT
 UID:damag3|rubber-gloves-denton|7-00-pm-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261025T000000Z
 DTSTART:20261025T000000Z
