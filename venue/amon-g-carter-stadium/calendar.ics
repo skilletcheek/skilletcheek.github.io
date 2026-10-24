@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tcu-horned-frogs-football-vs-west-virginia-mountaineers-football|amon-g
- -carter-stadium-fort-worth|11-00-am-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T160000Z
-DTSTART:20261024T160000Z
-DTEND:20261024T190000Z
-SUMMARY:TCU Horned Frogs Football vs. West Virginia Mountaineers Football
-LOCATION:Amon G. Carter Stadium · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=tcu-horned-frogs-football
- -vs-west-virginia-mountaineers-football%7Camon-g-carter-stadium-fort-worth
- %7C11-00-am
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/venue/amon-g-carter-stadium/
-END:VEVENT
-BEGIN:VEVENT
 UID:tcu-horned-frogs-football-vs-kansas-jayhawks-football|amon-g-carter-sta
  dium-fort-worth|see-details-2026-10-31@letsdoitdallas.com
 DTSTAMP:20261031T000000Z

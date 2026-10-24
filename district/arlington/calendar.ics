@@ -10,20 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:north-alabama-lions-at-ut-arlington-mavericks-womens-volleyball|college
- -park-center-arlington|1-00-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T180000Z
-DTSTART:20261024T180000Z
-DTEND:20261024T210000Z
-SUMMARY:North Alabama Lions at UT Arlington Mavericks Womens Volleyball
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=north-alabama-lions-at-ut
- -arlington-mavericks-womens-volleyball%7Ccollege-park-center-arlington%7C1
- -00-pm
-DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
- /letsdoitdallas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:do-good-fest|levitt-pavilion-arlington-arlington|4-00-pm-10-00-pm-2026-
  10-24@letsdoitdallas.com
 DTSTAMP:20261024T210000Z
@@ -466,6 +452,20 @@ URL:https://letsdoitdallas.com/?date=2026-11-02&e=at-t-stadium-vip-guided-t
  our%7Cat-t-stadium-arlington%7C3-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:unt-dallas-trailblazers-at-ut-arlington-mavericks-mens-basketball|colle
+ ge-park-center-arlington|7-00-pm-2026-11-02@letsdoitdallas.com
+DTSTAMP:20261103T010000Z
+DTSTART:20261103T010000Z
+DTEND:20261103T040000Z
+SUMMARY:UNT Dallas Trailblazers at UT Arlington Mavericks Mens Basketball
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=unt-dallas-trailblazers-a
+ t-ut-arlington-mavericks-mens-basketball%7Ccollege-park-center-arlington%7
+ C7-00-pm
+DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
+ allas.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:shuler-king|arlington-improv-arlington|7-30-pm-2026-11-05@letsdoitdalla

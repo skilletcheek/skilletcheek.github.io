@@ -10,6 +10,60 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T150000Z
+DTSTART:20261024T150000Z
+DTEND:20261024T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-24@lets
+ doitdallas.com
+DTSTAMP:20261024T150000Z
+DTSTART:20261024T150000Z
+DTEND:20261024T180000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:national-multi-cultural-western-heritage-museum|the-national-multicultu
+ ral-western-heritage-museum-2201-dottie-lynn-pkwy-suite-115-fort-worth-761
+ 20-united-states|11-00-am-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T160000Z
+DTSTART:20261024T160000Z
+DTEND:20261024T190000Z
+SUMMARY:National Multi Cultural Western Heritage Museum
+LOCATION:The National Multicultural Western Heritage Museum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=national-multi-cultural-w
+ estern-heritage-museum%7Cthe-national-multicultural-western-heritage-museu
+ m-2201-dottie-lynn-pkwy-suite-115-fort-worth-76120-united-states%7C11-00-a
+ m
+DESCRIPTION:The primary objective of the National Multicultural Western Her
+ itage Museum and Hall of Fame is to offer the visitor a true and complete 
+ historical perspective of the people and activities that built the unique 
+ culture of the American West. The work of artists who documented the — M
+ ore: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:sick-new-world-festival-forth-worth|texas-motor-speedway-fort-worth|11-
  00-am-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261024T160000Z
@@ -23,18 +77,20 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:tcu-horned-frogs-football-vs-west-virginia-mountaineers-football|amon-g
- -carter-stadium-fort-worth|11-00-am-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T160000Z
-DTSTART:20261024T160000Z
-DTEND:20261024T190000Z
-SUMMARY:TCU Horned Frogs Football vs. West Virginia Mountaineers Football
-LOCATION:Amon G. Carter Stadium · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=tcu-horned-frogs-football
- -vs-west-virginia-mountaineers-football%7Camon-g-carter-stadium-fort-worth
- %7C11-00-am
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/district/fort-worth/
+UID:arts-goggle|near-southside-magnolia-ave-fort-worth-tx-76104-united-stat
+ es|12-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261024T170000Z
+DTSTART:20261024T170000Z
+DTEND:20261024T200000Z
+SUMMARY:Arts Goggle
+LOCATION:Near Southside · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=arts-goggle%7Cnear-souths
+ ide-magnolia-ave-fort-worth-tx-76104-united-states%7C12-00-pm
+DESCRIPTION:ArtsGoggle presented by Frost is Fort Worth’s premier festi
+ val of local arts. This free-to-the-public\, family-friendly event annua
+ lly hosts more than 1\,000 visual artists\, 50 musical performances\, arti
+ stic displays of every kind\, food\, drink\, and fun for everyone. Unlike 
+ any even — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:artsgoggle-2026|magnolia-ave-fort-worth|12-00-pm-10-00-pm-2026-10-24@le
@@ -53,6 +109,24 @@ DESCRIPTION:ArtsGoggle 2026 is Fort Worth’s premier free arts festival\,
  ar — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:marco-bicego-trunk-show-at-bachendorf-s|5175-monahans-ave-5175-monahans
+ -ave-fort-worth-tx-76109-united-states|12-00-pm-2026-10-24@letsdoitdallas.
+ com
+DTSTAMP:20261024T170000Z
+DTSTART:20261024T170000Z
+DTEND:20261024T200000Z
+SUMMARY:Marco Bicego Trunk Show at Bachendorf's
+LOCATION:5175 Monahans Ave · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=marco-bicego-trunk-show-a
+ t-bachendorf-s%7C5175-monahans-ave-5175-monahans-ave-fort-worth-tx-76109-u
+ nited-states%7C12-00-pm
+DESCRIPTION:Bachendorf’s\, Dallas-Fort Worth’s premier destination for 
+ fine jewelry and luxury timepieces\, we are pleased to invite you to an ex
+ clusive event highlighting Marco Bicego’ refined jewelry collection. Fro
+ m bold\, colorful\, sparkling pieces to timeless dainty heirlooms that can
+  be a — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:red-steagall-cowboy-gathering|cowtown-coliseum-fort-worth|1-30-pm-2026-
  10-24@letsdoitdallas.com
 DTSTAMP:20261024T183000Z
@@ -62,8 +136,8 @@ SUMMARY:Red Steagall Cowboy Gathering
 LOCATION:Cowtown Coliseum · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=red-steagall-cowboy-gathe
  ring%7Ccowtown-coliseum-fort-worth%7C1-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/fort-worth/
+DESCRIPTION:music festival event via SeatGeek. — More: https://letsdoitda
+ llas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:chona-e|hyena-s-comedy-night-club-fort-worth-fort-worth|7-00-pm-2026-10
@@ -77,6 +151,23 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=chona-e%7Chyena-s-comedy-
  night-club-fort-worth-fort-worth%7C7-00-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:batman-1989-in-concert|will-rogers-auditorium-3401-w-lancaster-fort-wor
+ th-76107-united-states|7-30-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T003000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T033000Z
+SUMMARY:Batman (1989) in Concert
+LOCATION:Will Rogers Auditorium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=batman-1989-in-concert%7C
+ will-rogers-auditorium-3401-w-lancaster-fort-worth-76107-united-states%7C7
+ -30-pm
+DESCRIPTION:Overview FULL FEATURE FILM with LIVE ORCHESTRA The bat signal i
+ s lighting up Fort Worth! For one night only\, experience Tim Burton’s B
+ atman (1989) like never before—with full film projected on the big scree
+ n while the Fort Worth Symphony Orchestra performs Danny Elfman’s iconic
+  s — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:fort-worth-symphony-orchestra-fort-worth|will-rogers-auditorium-fort-wo
@@ -118,6 +209,57 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:bishop-avenue-hot-six|scat-jazz-lounge-111-w-4th-st-fort-worth-76102-un
+ ited-states|8-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:Bishop Avenue Hot Six
+LOCATION:Scat Jazz Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=bishop-avenue-hot-six%7Cs
+ cat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-states%7C8-00-pm
+DESCRIPTION:Bishop Avenue Hot SIX formed in December of 2019 with the sole 
+ purpose of preserving an American art form known as early jazz. Consisting
+  of trumpet\, clarinet\, trombone\, piano\, upright bass and drums\, the b
+ ands goal is to stay as authentic as possible while keeping the band stage
+  — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:death-row-poetry-artist-showcase|tulips-ftw-112-saint-louis-avenue-fort
+ -worth-76104-united-states|8-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:DEATH ROW POETRY Artist Showcase
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=death-row-poetry-artist-s
+ howcase%7Ctulips-ftw-112-saint-louis-avenue-fort-worth-76104-united-states
+ %7C8-00-pm
+DESCRIPTION:Tulips FTW is excited to host DEATH ROW POETRY Artist Showcase 
+ on October 24th\, 2026 at your local independent venue!  Doors 7 pm II Con
+ cert 8 pm    —  Unapologetic. Unfiltered. Unfadeable. Welcome to Death R
+ ow Poetry Artist Showcase.    Step into a night of raw lyricism where hi 
+ — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:left-arm-tan-w-special-guests-elizabeth-wills-and-austin-lee|magnolia-m
+ otor-lounge-3803-southwest-blvd-fort-worth-76116-united-states|8-00-pm-202
+ 6-10-24@letsdoitdallas.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:LEFT ARM TAN w/ special guests Elizabeth Wills and Austin Lee
+LOCATION:Magnolia Motor Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=left-arm-tan-w-special-gu
+ ests-elizabeth-wills-and-austin-lee%7Cmagnolia-motor-lounge-3803-southwest
+ -blvd-fort-worth-76116-united-states%7C8-00-pm
+DESCRIPTION:LEFT ARM TAN w/ special guests Elizabeth Wills and Austin Lee  
+ 7:00 DOORS – 8:00 MUSIC   $15 GA ($20 at door) $120 – Table of 4 $180 
+ – Table of 6 $240 – Table of 8  Ages 21+  @outhousetickets   Share i
+ t and tag a few friends! — More: https://letsdoitdallas.com/district/for
+ t-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:music-of-john-denver|casa-manana-fort-worth|8-00-pm-2026-10-24@letsdoit
  dallas.com
 DTSTAMP:20261025T010000Z
@@ -142,6 +284,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-24&e=chona-e%7Chyena-s-comedy-
  night-club-fort-worth-fort-worth%7C9-30-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:bishop-avenue-hot-six|scat-jazz-lounge-111-w-4th-st-fort-worth-76102-un
+ ited-states|10-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T030000Z
+DTSTART:20261025T030000Z
+DTEND:20261025T060000Z
+SUMMARY:Bishop Avenue Hot Six
+LOCATION:Scat Jazz Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=bishop-avenue-hot-six%7Cs
+ cat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-states%7C10-00-pm
+DESCRIPTION:Bishop Avenue Hot SIX formed in December of 2019 with the sole 
+ purpose of preserving an American art form known as early jazz. Consisting
+  of trumpet\, clarinet\, trombone\, piano\, upright bass and drums\, the b
+ ands goal is to stay as authentic as possible while keeping the band stage
+  — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:gary-allan-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-24@letsdoi
@@ -480,6 +638,21 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=music-of-john-denver%7Cca
  sa-manana-fort-worth%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-improvised-horror-movie-the-13th-year|artstillery-723-fort-worth-av
+ e-dallas|8-00-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T010000Z
+DTSTART:20261031T010000Z
+DTEND:20261031T040000Z
+SUMMARY:The Improvised Horror Movie: The 13th Year
+LOCATION:Artstillery · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=the-improvised-horror-mov
+ ie-the-13th-year%7Cartstillery-723-fort-worth-ave-dallas%7C8-00-pm
+DESCRIPTION:The Improvised Horror Movie returns for its 13th year: a cast o
+ f veteran improvisers creates a never-before-seen horror film live on stag
+ e from audience suggestions. About an hour\; rated R. — More: https://le
+ tsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:easton-corbin-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-30@lets

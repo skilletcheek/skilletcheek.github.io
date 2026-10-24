@@ -9,6 +9,23 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:batman-1989-in-concert|will-rogers-auditorium-3401-w-lancaster-fort-wor
+ th-76107-united-states|7-30-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T003000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T033000Z
+SUMMARY:Batman (1989) in Concert
+LOCATION:Will Rogers Auditorium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=batman-1989-in-concert%7C
+ will-rogers-auditorium-3401-w-lancaster-fort-worth-76107-united-states%7C7
+ -30-pm
+DESCRIPTION:Overview FULL FEATURE FILM with LIVE ORCHESTRA The bat signal i
+ s lighting up Fort Worth! For one night only\, experience Tim Burton’s B
+ atman (1989) like never before—with full film projected on the big scree
+ n while the Fort Worth Symphony Orchestra performs Danny Elfman’s iconic
+  s — More: https://letsdoitdallas.com/venue/will-rogers-auditorium/
+END:VEVENT
+BEGIN:VEVENT
 UID:fort-worth-symphony-orchestra-fort-worth|will-rogers-auditorium-fort-wo
  rth|7-30-pm-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261025T003000Z

@@ -9,6 +9,23 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:death-row-poetry-artist-showcase|tulips-ftw-112-saint-louis-avenue-fort
+ -worth-76104-united-states|8-00-pm-2026-10-24@letsdoitdallas.com
+DTSTAMP:20261025T010000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+SUMMARY:DEATH ROW POETRY Artist Showcase
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-24&e=death-row-poetry-artist-s
+ howcase%7Ctulips-ftw-112-saint-louis-avenue-fort-worth-76104-united-states
+ %7C8-00-pm
+DESCRIPTION:Tulips FTW is excited to host DEATH ROW POETRY Artist Showcase 
+ on October 24th\, 2026 at your local independent venue!  Doors 7 pm II Con
+ cert 8 pm    —  Unapologetic. Unfiltered. Unfadeable. Welcome to Death R
+ ow Poetry Artist Showcase.    Step into a night of raw lyricism where hi 
+ — More: https://letsdoitdallas.com/venue/tulips-ftw/
+END:VEVENT
+BEGIN:VEVENT
 UID:hovvdy|tulips-ftw-fort-worth|8-00-pm-2026-10-25@letsdoitdallas.com
 DTSTAMP:20261026T010000Z
 DTSTART:20261026T010000Z

@@ -10,17 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sunrise-yoga|8802-4th-st-frisco|07-30-am-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T123000Z
-DTSTART:20261024T123000Z
-DTEND:20261024T153000Z
-SUMMARY:Sunrise Yoga
-LOCATION:8802 4th St · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=sunrise-yoga%7C8802-4th-s
- t-frisco%7C07-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:clean-it-green-it-streams|frisco|09-00-am-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261024T140000Z
 DTSTART:20261024T140000Z
@@ -29,42 +18,6 @@ SUMMARY:Clean It & Green It: Streams
 LOCATION:Frisco
 URL:https://letsdoitdallas.com/?date=2026-10-24&e=clean-it-green-it-streams
  %7Cfrisco%7C09-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:craft-and-care-fair|8300-mckinney-rd-frisco|09-00-am-2026-10-24@letsdoi
- tdallas.com
-DTSTAMP:20261024T140000Z
-DTSTART:20261024T140000Z
-DTEND:20261024T170000Z
-SUMMARY:Craft and Care Fair
-LOCATION:8300 McKinney Rd · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=craft-and-care-fair%7C830
- 0-mckinney-rd-frisco%7C09-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:heritage-halloween|6455-page-street-frisco|11-00-am-2026-10-24@letsdoit
- dallas.com
-DTSTAMP:20261024T160000Z
-DTSTART:20261024T160000Z
-DTEND:20261024T190000Z
-SUMMARY:Heritage Halloween
-LOCATION:6455 Page Street · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=heritage-halloween%7C6455
- -page-street-frisco%7C11-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:saturday-music-series-at-frisco-fresh-market|9215-john-w-elliott-dr-fri
- sco|11-00-am-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T160000Z
-DTSTART:20261024T160000Z
-DTEND:20261024T190000Z
-SUMMARY:Saturday Music Series at Frisco Fresh Market
-LOCATION:9215 John W. Elliott Dr · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=saturday-music-series-at-
- frisco-fresh-market%7C9215-john-w-elliott-dr-frisco%7C11-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT

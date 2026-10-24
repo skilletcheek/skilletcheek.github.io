@@ -37,6 +37,19 @@ DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
  tsdoitdallas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
+UID:southern-university-at-smu|moody-coliseum-dallas|7-00-pm-2026-11-02@let
+ sdoitdallas.com
+DTSTAMP:20261103T010000Z
+DTSTART:20261103T010000Z
+DTEND:20261103T040000Z
+SUMMARY:Southern University at SMU
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=southern-university-at-sm
+ u%7Cmoody-coliseum-dallas%7C7-00-pm
+DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
+ allas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-north-carolina-tar-heels-womens-volle
  yball|moody-coliseum-dallas|12-00-pm-2026-11-06@letsdoitdallas.com
 DTSTAMP:20261106T180000Z

@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:the-black-academy-of-arts-and-letters-dallas|the-womens-museum-dallas-d
- allas|10-00-am-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T150000Z
-DTSTART:20261024T150000Z
-DTEND:20261024T180000Z
-SUMMARY:The Black Academy of Arts and Letters - Dallas
-LOCATION:The Womens Museum - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=the-black-academy-of-arts
- -and-letters-dallas%7Cthe-womens-museum-dallas-dallas%7C10-00-am
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/the-womens-museum-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-black-academy-of-arts-and-letters-dallas|the-womens-museum-dallas-d
  allas|9-00-pm-2026-10-24@letsdoitdallas.com
 DTSTAMP:20261025T020000Z
 DTSTART:20261025T020000Z
