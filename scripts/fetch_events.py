@@ -438,10 +438,11 @@ def fetch_ics_feeds(start, end):
         # answers reads 0 -- an absent key has no baseline and never alarms.
         feed_key = f"ics_feeds ({urllib.parse.urlsplit(url).hostname})"
         _SUB_YIELDS[feed_key] = 0
-        lines = None
+        lines = body = None
         for attempt in range(1, ICS_ATTEMPTS + 1):
             try:
-                lines = unfold_ics(http_text(url))
+                body = http_text(url)
+                lines = unfold_ics(body)
                 break
             except Exception as e:  # noqa: BLE001
                 print(f"ics feed failed ({url}, attempt {attempt}/{ICS_ATTEMPTS}): {e}",
@@ -459,8 +460,17 @@ def fetch_ics_feeds(start, end):
         match = [s.lower() for s in feed.get("location_match") or []]
         city = feed.get("city")
         # Fault: a VEVENT with no parseable DTSTART or no SUMMARY. Out of
-        # window, canceled and location_match misses are filters.
+        # window, canceled and location_match misses are filters -- counted
+        # separately so the log can tell them apart. whatsupfortworth.com
+        # yielded 0 on two morning runs (2026-10-23/24) with no error and no
+        # fault, and 28 that afternoon; the log could not say whether it had
+        # served an empty calendar or a stale one (it sends a 30-day
+        # max-age). The newest start date answers that: a stale copy shows
+        # every event before the window.
         ev, count, total, faults = None, 0, 0, 0
+        filtered = {"before window": 0, "after window": 0,
+                    "canceled": 0, "location miss": 0}
+        newest = ""
         for line in lines:
             if line.startswith("BEGIN:VEVENT"):
                 ev = {}
@@ -473,10 +483,16 @@ def fetch_ics_feeds(start, end):
                     faults += 1
                     ev = None
                     continue
-                keep = (lo <= date <= hi
-                        and not re.match(r"(cancell?ed|postponed)\b", title, re.I)
-                        and (not match or any(s in loc.lower() for s in match)))
-                if keep:
+                newest = max(newest, date)
+                if date < lo:
+                    filtered["before window"] += 1
+                elif date > hi:
+                    filtered["after window"] += 1
+                elif re.match(r"(cancell?ed|postponed)\b", title, re.I):
+                    filtered["canceled"] += 1
+                elif match and not any(s in loc.lower() for s in match):
+                    filtered["location miss"] += 1
+                else:
                     area = loc or feed.get("area")
                     if city and city.lower() not in area.lower():
                         area = f"{area}, {city}"
@@ -498,7 +514,15 @@ def fetch_ics_feeds(start, end):
                            "URL", "CATEGORIES"):
                     ev[key] = val.replace("\\,", ",").replace("\\;", ";")
         _SUB_YIELDS[feed_key] = count
-        print(f"ics ({url}): {count} events" + (f", {faults} UNPARSED" if faults else ""))
+        if total:
+            why = ", ".join(f"{n} {k}" for k, n in filtered.items() if n)
+            detail = (f" from {total} VEVENTs, newest {newest}"
+                      + (f" ({why})" if why else ""))
+        else:
+            head = body.lstrip()[:40].replace("\r", " ").replace("\n", " ")
+            detail = f" -- no VEVENTs in {len(body)} chars, starts {head!r}"
+        print(f"ics ({url}): {count} events{detail}"
+              + (f", {faults} UNPARSED" if faults else ""))
         report_parse_health(f"ics_feeds ({urllib.parse.urlsplit(url).hostname})",
                             total, faults, f"{faults} without DTSTART or SUMMARY",
                             unit="events")
