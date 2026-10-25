@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:texas-a-m-at-smu|moody-coliseum-dallas|1-00-pm-2026-10-25@letsdoitdalla
- s.com
-DTSTAMP:20261025T180000Z
-DTSTART:20261025T180000Z
-DTEND:20261025T210000Z
-SUMMARY:Texas A&M at SMU
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=texas-a-m-at-smu%7Cmoody-
- coliseum-dallas%7C1-00-pm
-DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
- allas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:unt-dallas-trailblazers-at-smu-mustangs-womens-basketball-exhibition-|m
  oody-coliseum-dallas|6-30-pm-2026-10-27@letsdoitdallas.com
 DTSTAMP:20261027T233000Z
@@ -74,6 +61,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-05&e=hampton-womens-bb-at-smu-
  womens-bb%7Cmoody-coliseum-dallas%7C11-00-am
 DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
  tsdoitdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:vmi-at-smu|moody-coliseum-dallas|7-00-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261106T010000Z
+DTSTART:20261106T010000Z
+DTEND:20261106T040000Z
+SUMMARY:VMI at SMU
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=vmi-at-smu%7Cmoody-colise
+ um-dallas%7C7-00-pm
+DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
+ allas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-north-carolina-tar-heels-womens-volle

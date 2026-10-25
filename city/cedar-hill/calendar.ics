@@ -9,17 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:birding-by-ear|cedar-hill|08-00-am-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261025T130000Z
-DTSTART:20261025T130000Z
-DTEND:20261025T160000Z
-SUMMARY:Birding by Ear
-LOCATION:Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=birding-by-ear%7Ccedar-hi
- ll%7C08-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:mahjong-open-play|310-e-parkerville-road-cedar-hill|01-00-pm-2026-10-25
  @letsdoitdallas.com
 DTSTAMP:20261025T180000Z

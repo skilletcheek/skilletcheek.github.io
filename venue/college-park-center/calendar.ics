@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:College Park Center — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at College Park Center.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:unt-dallas-trailblazers-at-ut-arlington-mavericks-mens-basketball|colle
+ ge-park-center-arlington|7-00-pm-2026-11-02@letsdoitdallas.com
+DTSTAMP:20261103T010000Z
+DTSTART:20261103T010000Z
+DTEND:20261103T040000Z
+SUMMARY:UNT Dallas Trailblazers at UT Arlington Mavericks Mens Basketball
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=unt-dallas-trailblazers-a
+ t-ut-arlington-mavericks-mens-basketball%7Ccollege-park-center-arlington%7
+ C7-00-pm
+DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
+ allas.com/venue/college-park-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:sacramento-state-womens-bb-at-ut-arlington-womens-bb|college-park-cente
+ r-arlington|6-30-pm-2026-11-03@letsdoitdallas.com
+DTSTAMP:20261104T003000Z
+DTSTART:20261104T003000Z
+DTEND:20261104T033000Z
+SUMMARY:Sacramento State Womens BB at UT Arlington Womens BB
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=sacramento-state-womens-b
+ b-at-ut-arlington-womens-bb%7Ccollege-park-center-arlington%7C6-30-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/college-park-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:lamar-womens-bb-at-ut-arlington-womens-bb|college-park-center-arlington
+ |6-30-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261106T003000Z
+DTSTART:20261106T003000Z
+DTEND:20261106T033000Z
+SUMMARY:Lamar Womens BB at UT Arlington Womens BB
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=lamar-womens-bb-at-ut-arl
+ ington-womens-bb%7Ccollege-park-center-arlington%7C6-30-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/college-park-center/
+END:VEVENT
+END:VCALENDAR
