@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:red-steagall-cowboy-gathering|cowtown-coliseum-fort-worth|1-30-pm-2026-
- 10-24@letsdoitdallas.com
-DTSTAMP:20261024T183000Z
-DTSTART:20261024T183000Z
-DTEND:20261024T213000Z
-SUMMARY:Red Steagall Cowboy Gathering
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=red-steagall-cowboy-gathe
- ring%7Ccowtown-coliseum-fort-worth%7C1-30-pm
-DESCRIPTION:music festival event via SeatGeek. — More: https://letsdoitda
- llas.com/venue/cowtown-coliseum/
-END:VEVENT
-BEGIN:VEVENT
-UID:red-steagall-cowboy-gathering|cowtown-coliseum-fort-worth|7-30-pm-2026-
- 10-24@letsdoitdallas.com
-DTSTAMP:20261025T003000Z
-DTSTART:20261025T003000Z
-DTEND:20261025T033000Z
-SUMMARY:Red Steagall Cowboy Gathering
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=red-steagall-cowboy-gathe
- ring%7Ccowtown-coliseum-fort-worth%7C7-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/cowtown-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
  10-25@letsdoitdallas.com
 DTSTAMP:20261025T183000Z
@@ -475,6 +449,19 @@ SUMMARY:Ultimate Bullfighters
 LOCATION:Cowtown Coliseum · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-22&e=ultimate-bullfighters%7Cc
  owtown-coliseum-fort-worth%7C1-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-11-23@
+ letsdoitdallas.com
+DTSTAMP:20261123T183000Z
+DTSTART:20261123T183000Z
+DTEND:20261123T213000Z
+SUMMARY:Legacy of the Longhorn
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=legacy-of-the-longhorn%7C
+ cowtown-coliseum-fort-worth%7C12-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/cowtown-coliseum/
 END:VEVENT

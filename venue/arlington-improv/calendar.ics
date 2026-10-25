@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dc-young-fly|arlington-improv-arlington|7-00-pm-2026-10-24@letsdoitdall
- as.com
-DTSTAMP:20261025T000000Z
-DTSTART:20261025T000000Z
-DTEND:20261025T030000Z
-SUMMARY:DC Young Fly
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=dc-young-fly%7Carlington-
- improv-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:dc-young-fly|arlington-improv-arlington|9-30-pm-2026-10-24@letsdoitdall
- as.com
-DTSTAMP:20261025T023000Z
-DTSTART:20261025T023000Z
-DTEND:20261025T053000Z
-SUMMARY:DC Young Fly
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=dc-young-fly%7Carlington-
- improv-arlington%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:dc-young-fly|arlington-improv-arlington|6-00-pm-2026-10-25@letsdoitdall
  as.com
 DTSTAMP:20261025T230000Z
@@ -57,6 +31,19 @@ SUMMARY:DC Young Fly
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-10-25&e=dc-young-fly%7Carlington-
  improv-arlington%7C8-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-10-27@letsdoitdal
+ las.com
+DTSTAMP:20261027T233000Z
+DTSTART:20261027T233000Z
+DTEND:20261028T023000Z
+SUMMARY:Test Your Mic
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=test-your-mic%7Carlington
+ -improv-arlington%7C6-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT
@@ -355,6 +342,19 @@ SUMMARY:Godfrey
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-11-21&e=godfrey%7Carlington-impro
  v-arlington%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:godfrey|arlington-improv-arlington|7-00-pm-2026-11-22@letsdoitdallas.co
+ m
+DTSTAMP:20261123T010000Z
+DTSTART:20261123T010000Z
+DTEND:20261123T040000Z
+SUMMARY:Godfrey
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=godfrey%7Carlington-impro
+ v-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

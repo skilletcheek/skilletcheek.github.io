@@ -50,6 +50,32 @@ DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
  allas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
+UID:le-moyne-dolphins-at-smu-mustangs-womens-basketball|moody-coliseum-dall
+ as|6-30-pm-2026-11-03@letsdoitdallas.com
+DTSTAMP:20261104T003000Z
+DTSTART:20261104T003000Z
+DTEND:20261104T033000Z
+SUMMARY:Le Moyne Dolphins at SMU Mustangs Womens Basketball
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=le-moyne-dolphins-at-smu-
+ mustangs-womens-basketball%7Cmoody-coliseum-dallas%7C6-30-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:hampton-womens-bb-at-smu-womens-bb|moody-coliseum-dallas|11-00-am-2026-
+ 11-05@letsdoitdallas.com
+DTSTAMP:20261105T170000Z
+DTSTART:20261105T170000Z
+DTEND:20261105T200000Z
+SUMMARY:Hampton Womens BB at SMU Womens BB
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=hampton-womens-bb-at-smu-
+ womens-bb%7Cmoody-coliseum-dallas%7C11-00-am
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-north-carolina-tar-heels-womens-volle
  yball|moody-coliseum-dallas|12-00-pm-2026-11-06@letsdoitdallas.com
 DTSTAMP:20261106T180000Z

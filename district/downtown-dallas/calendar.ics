@@ -10,74 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:timothy-mank-the-songs-never-stopped|poor-david-s-pub-dallas|doors-see-
- listing-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Timothy Mank - The Songs Never Stopped
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=timothy-mank-the-songs-ne
- ver-stopped%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T130000Z
-DTSTART:20261024T130000Z
-DTEND:20261024T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-mavericks-vs-san-antonio-spurs|american-airlines-center-dallas|7
- -00-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261025T000000Z
-DTSTART:20261025T000000Z
-DTEND:20261025T030000Z
-SUMMARY:Dallas Mavericks vs. San Antonio Spurs
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=dallas-mavericks-vs-san-a
- ntonio-spurs%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:iron-and-wine|majestic-theatre-dallas-dallas|8-00-pm-2026-10-24@letsdoi
- tdallas.com
-DTSTAMP:20261025T010000Z
-DTSTART:20261025T010000Z
-DTEND:20261025T040000Z
-SUMMARY:Iron and Wine
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=iron-and-wine%7Cmajestic-
- theatre-dallas-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:killer-queen|longhorn-ballroom-backyard-amphitheater-dallas|8-00-pm-202
- 6-10-24@letsdoitdallas.com
-DTSTAMP:20261025T010000Z
-DTSTART:20261025T010000Z
-DTEND:20261025T040000Z
-SUMMARY:Killer Queen
-LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=killer-queen%7Clonghorn-b
- allroom-backyard-amphitheater-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:bluegrass-heritage-music-show-jam|poor-david-s-pub-dallas|doors-see-lis
  ting-2026-10-25@letsdoitdallas.com
 DTSTAMP:20261025T000000Z
@@ -1607,6 +1539,32 @@ SUMMARY:Mojo Brookzz
 LOCATION:Majestic Theatre Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-22&e=mojo-brookzz%7Cmajestic-t
  heatre-dallas-dallas%7C6-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:charlie-zaa|house-of-blues-dallas-dallas|7-00-pm-2026-11-22@letsdoitdal
+ las.com
+DTSTAMP:20261123T010000Z
+DTSTART:20261123T010000Z
+DTEND:20261123T040000Z
+SUMMARY:Charlie Zaa
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=charlie-zaa%7Chouse-of-bl
+ ues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:mojo-brookzz|majestic-theatre-dallas-dallas|9-00-pm-2026-11-22@letsdoit
+ dallas.com
+DTSTAMP:20261123T030000Z
+DTSTART:20261123T030000Z
+DTEND:20261123T060000Z
+SUMMARY:Mojo Brookzz
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=mojo-brookzz%7Cmajestic-t
+ heatre-dallas-dallas%7C9-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT

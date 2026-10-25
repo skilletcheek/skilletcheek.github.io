@@ -10,82 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:invasion-car-show|trees-dallas|doors-see-listing-2026-10-24@letsdoitdal
- las.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:INVASION CAR SHOW
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=invasion-car-show%7Ctrees
- -dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:toki-the-japanese-elvis|trees-dallas|doors-see-listing-2026-10-24@letsd
- oitdallas.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:TOKI THE JAPANESE ELVIS
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=toki-the-japanese-elvis%7
- Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:rin|puzzles-deep-ellum-dallas|7-00-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261025T000000Z
-DTSTART:20261025T000000Z
-DTEND:20261025T030000Z
-SUMMARY:Rin
-LOCATION:Puzzles Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=rin%7Cpuzzles-deep-ellum-
- dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:visit-neptune-eileen-peyton-aston|three-links-deep-ellum-dallas|7-00-pm
- -2026-10-24@letsdoitdallas.com
-DTSTAMP:20261025T000000Z
-DTSTART:20261025T000000Z
-DTEND:20261025T030000Z
-SUMMARY:Visit Neptune\, Eileen\, Peyton Aston
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=visit-neptune-eileen-peyt
- on-aston%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:cardinal-bloom|deep-ellum-art-co-dallas|8-00-pm-2026-10-24@letsdoitdall
- as.com
-DTSTAMP:20261025T010000Z
-DTSTART:20261025T010000Z
-DTEND:20261025T040000Z
-SUMMARY:Cardinal Bloom
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=cardinal-bloom%7Cdeep-ell
- um-art-co-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:kyle-hume|club-dada-dallas|8-00-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261025T010000Z
-DTSTART:20261025T010000Z
-DTEND:20261025T040000Z
-SUMMARY:Kyle Hume
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=kyle-hume%7Cclub-dada-dal
- las%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:viktoria-xo-rebirth-album-release-show|three-links-deep-ellum-dallas|7-
  00-pm-2026-10-25@letsdoitdallas.com
 DTSTAMP:20261026T000000Z
@@ -374,6 +298,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:strawberry-girls|puzzles-deep-ellum-dallas|6-00-pm-2026-11-03@letsdoitd
+ allas.com
+DTSTAMP:20261104T000000Z
+DTSTART:20261104T000000Z
+DTEND:20261104T030000Z
+SUMMARY:Strawberry Girls
+LOCATION:Puzzles Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=strawberry-girls%7Cpuzzle
+ s-deep-ellum-dallas%7C6-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:boot-juice|three-links-deep-ellum-dallas|7-00-pm-2026-11-03@letsdoitdal
  las.com
 DTSTAMP:20261104T010000Z
@@ -399,6 +336,19 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:stephen-day|deep-ellum-art-co-dallas|8-00-pm-2026-11-03@letsdoitdallas.
+ com
+DTSTAMP:20261104T020000Z
+DTSTART:20261104T020000Z
+DTEND:20261104T050000Z
+SUMMARY:Stephen Day
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=stephen-day%7Cdeep-ellum-
+ art-co-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:daring-greatly|three-links-deep-ellum-dallas|7-00-pm-2026-11-04@letsdoi
  tdallas.com
 DTSTAMP:20261105T010000Z
@@ -410,6 +360,30 @@ URL:https://letsdoitdallas.com/?date=2026-11-04&e=daring-greatly%7Cthree-li
  nks-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:jady|club-dada-dallas|8-00-pm-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261105T020000Z
+DTSTART:20261105T020000Z
+DTEND:20261105T050000Z
+SUMMARY:Jady
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=jady%7Cclub-dada-dallas%7
+ C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:ouija-macc|rbc-deep-ellum-dallas|6-00-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261106T000000Z
+DTSTART:20261106T000000Z
+DTEND:20261106T030000Z
+SUMMARY:Ouija Macc
+LOCATION:RBC Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=ouija-macc%7Crbc-deep-ell
+ um-dallas%7C6-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-kilans-jade-street|trees-dallas|doors-see-listing-2026-11-06@letsdo
@@ -931,5 +905,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=the-floozies-21-%7Cdeep-e
  llum-art-co-dallas%7C8-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:n8noface-x-ho99o9|trees-dallas|doors-see-listing-2026-11-24@letsdoitdal
+ las.com
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:N8NOFACE x HO99O9
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=n8noface-x-ho99o9%7Ctrees
+ -dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
 END:VEVENT
 END:VCALENDAR

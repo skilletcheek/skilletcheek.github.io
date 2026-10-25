@@ -10,43 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:glaive-god-save-the-three-tour|the-echo-lounge-music-hall-dallas|7-00-p
- m-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261025T000000Z
-DTSTART:20261025T000000Z
-DTEND:20261025T030000Z
-SUMMARY:GLAIVE - GOD SAVE THE THREE TOUR
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=glaive-god-save-the-three
- -tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:mom-jeans|am-fm-dallas-dallas|7-30-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261025T003000Z
-DTSTART:20261025T003000Z
-DTEND:20261025T033000Z
-SUMMARY:Mom Jeans
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=mom-jeans%7Cam-fm-dallas-
- dallas%7C7-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:san-holo-18-and-over-|silo-dallas|9-00-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261025T020000Z
-DTSTART:20261025T020000Z
-DTEND:20261025T050000Z
-SUMMARY:San Holo (18 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=san-holo-18-and-over-%7Cs
- ilo-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:lukas-frank-ages-21-|silo-dallas|5-00-pm-2026-10-25@letsdoitdallas.com
 DTSTAMP:20261025T220000Z
 DTSTART:20261025T220000Z
@@ -590,5 +553,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=live-nation-presents-yall
  ah-habibi-crew-21-event%7Cthe-echo-lounge-music-hall-dallas%7C10-00-pm
 DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:josh-fawaz-ages-18-|silo-dallas|7-00-pm-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261123T010000Z
+DTSTART:20261123T010000Z
+DTEND:20261123T040000Z
+SUMMARY:Josh Fawaz - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=josh-fawaz-ages-18-%7Csil
+ o-dallas%7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
 END:VEVENT
 END:VCALENDAR

@@ -10,44 +10,20 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:clean-it-green-it-streams|frisco|09-00-am-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T140000Z
-DTSTART:20261024T140000Z
-DTEND:20261024T170000Z
-SUMMARY:Clean It & Green It: Streams
-LOCATION:Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=clean-it-green-it-streams
- %7Cfrisco%7C09-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:halloween-par-tee-at-pga-frisco|omni-pga-frisco-frisco|6-00-pm-9-00-pm-
- 2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T230000Z
-DTSTART:20261024T230000Z
-DTEND:20261025T020000Z
-SUMMARY:Halloween Par-Tee at PGA Frisco
-LOCATION:OMNI PGA Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=halloween-par-tee-at-pga-
- frisco%7Comni-pga-frisco-frisco%7C6-00-pm-9-00-pm
-DESCRIPTION:The Halloween Par-Tee is a ticketed\, family-friendly Halloween
-  takeover of the PGA District\, with the District closing to the public at
-  3 p.m. and reopening exclusively for ticket holders that evening. Highlig
- hts include a Pumpkin Putting Patch on the Dance Floor\, trick-or-treati 
+UID:32nd-annual-phil-berry-golf-tournament|stonebriar-country-club-frisco|1
+ 0-00-am-5-00-pm-2026-10-26@letsdoitdallas.com
+DTSTAMP:20261026T150000Z
+DTSTART:20261026T150000Z
+DTEND:20261026T180000Z
+SUMMARY:32nd Annual Phil Berry Golf Tournament
+LOCATION:Stonebriar Country Club · Frisco
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=32nd-annual-phil-berry-go
+ lf-tournament%7Cstonebriar-country-club-frisco%7C10-00-am-5-00-pm
+DESCRIPTION:The Phil Berry Transplant Tournament is a critical funding sour
+ ce for the STA Foundation Family Support Program. Every sponsorship\, regi
+ stration\, and contribution helps provide meaningful relief to transplant 
+ recipients\, allowing them to focus on what matters most - healing\, reco 
  — More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:fc-dallas-vs-san-jose-earthquakes|toyota-stadium-frisco|7-30-pm-2026-10
- -24@letsdoitdallas.com
-DTSTAMP:20261025T003000Z
-DTSTART:20261025T003000Z
-DTEND:20261025T033000Z
-SUMMARY:FC Dallas vs. San Jose Earthquakes
-LOCATION:Toyota Stadium · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=fc-dallas-vs-san-jose-ear
- thquakes%7Ctoyota-stadium-frisco%7C7-30-pm
-DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:-from-vision-to-impact-an-evening-with-jeff-cheney-by-heritage-associat
@@ -518,6 +494,19 @@ SUMMARY:Hoopfest Basketball Women's Challenge Session 1
 LOCATION:Comerica Center · Frisco
 URL:https://letsdoitdallas.com/?date=2026-11-22&e=hoopfest-basketball-women
  -s-challenge-session-1%7Ccomerica-center-frisco%7C1-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:hoopfest-basketball-women-s-challenge-session-2|comerica-center-frisco|
+ 3-00-pm-2026-11-23@letsdoitdallas.com
+DTSTAMP:20261123T210000Z
+DTSTART:20261123T210000Z
+DTEND:20261124T000000Z
+SUMMARY:Hoopfest Basketball Women's Challenge Session 2
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=hoopfest-basketball-women
+ -s-challenge-session-2%7Ccomerica-center-frisco%7C3-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
 END:VEVENT

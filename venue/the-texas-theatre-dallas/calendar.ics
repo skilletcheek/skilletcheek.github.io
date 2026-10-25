@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:yohay-sponder|the-texas-theatre-dallas-dallas|8-30-pm-2026-10-24@letsdo
- itdallas.com
-DTSTAMP:20261025T013000Z
-DTSTART:20261025T013000Z
-DTEND:20261025T043000Z
-SUMMARY:Yohay Sponder
-LOCATION:The Texas Theatre - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=yohay-sponder%7Cthe-texas
- -theatre-dallas-dallas%7C8-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/the-texas-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:willy-wonka-and-the-chocolate-factory-dallas|the-texas-theatre-dallas-d
  allas|7-00-pm-2026-10-27@letsdoitdallas.com
 DTSTAMP:20261028T000000Z

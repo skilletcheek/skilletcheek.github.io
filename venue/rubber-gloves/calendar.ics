@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:damag3|rubber-gloves-denton|7-00-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261025T000000Z
-DTSTART:20261025T000000Z
-DTEND:20261025T030000Z
-SUMMARY:DAMAG3
-LOCATION:Rubber Gloves · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=damag3%7Crubber-gloves-de
- nton%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/rubber-gloves/
-END:VEVENT
-BEGIN:VEVENT
 UID:graham-hunt|rubber-gloves-denton|7-00-pm-2026-10-26@letsdoitdallas.com
 DTSTAMP:20261027T000000Z
 DTSTART:20261027T000000Z
@@ -41,6 +29,18 @@ SUMMARY:Frog
 LOCATION:Rubber Gloves · Denton
 URL:https://letsdoitdallas.com/?date=2026-10-28&e=frog%7Crubber-gloves-dent
  on%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/rubber-gloves/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-tubs|rubber-gloves-denton|8-00-pm-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261105T020000Z
+DTSTART:20261105T020000Z
+DTEND:20261105T050000Z
+SUMMARY:The Tubs
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=the-tubs%7Crubber-gloves-
+ denton%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/rubber-gloves/
 END:VEVENT

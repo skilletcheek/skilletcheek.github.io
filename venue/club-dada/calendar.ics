@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kyle-hume|club-dada-dallas|8-00-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261025T010000Z
-DTSTART:20261025T010000Z
-DTEND:20261025T040000Z
-SUMMARY:Kyle Hume
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=kyle-hume%7Cclub-dada-dal
- las%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/club-dada/
-END:VEVENT
-BEGIN:VEVENT
 UID:clever|club-dada-dallas|8-30-pm-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261030T013000Z
 DTSTART:20261030T013000Z
@@ -43,6 +31,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-03&e=ike-dweck%7Cclub-dada-dal
  las%7C8-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/club-dada/
+END:VEVENT
+BEGIN:VEVENT
+UID:jady|club-dada-dallas|8-00-pm-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261105T020000Z
+DTSTART:20261105T020000Z
+DTEND:20261105T050000Z
+SUMMARY:Jady
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=jady%7Cclub-dada-dallas%7
+ C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/club-dada/
 END:VEVENT
 BEGIN:VEVENT
 UID:francis-of-delirium|club-dada-dallas|8-00-pm-2026-11-06@letsdoitdallas.

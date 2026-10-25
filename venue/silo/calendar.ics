@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:san-holo-18-and-over-|silo-dallas|9-00-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261025T020000Z
-DTSTART:20261025T020000Z
-DTEND:20261025T050000Z
-SUMMARY:San Holo (18 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=san-holo-18-and-over-%7Cs
- ilo-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:lukas-frank-ages-21-|silo-dallas|5-00-pm-2026-10-25@letsdoitdallas.com
 DTSTAMP:20261025T220000Z
 DTSTART:20261025T220000Z
@@ -190,6 +178,18 @@ SUMMARY:Afrojack (18 and Over)
 LOCATION:SILO · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-21&e=afrojack-18-and-over-%7Cs
  ilo-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:josh-fawaz-ages-18-|silo-dallas|7-00-pm-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261123T010000Z
+DTSTART:20261123T010000Z
+DTEND:20261123T040000Z
+SUMMARY:Josh Fawaz - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=josh-fawaz-ages-18-%7Csil
+ o-dallas%7C7-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/venue/silo/
 END:VEVENT

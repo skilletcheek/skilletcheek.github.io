@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UNT Coliseum (Super Pit) — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at UNT Coliseum (Super Pit).
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:newman-jets-at-north-texas-mean-green-womens-basketball|unt-coliseum-su
+ per-pit-denton|5-30-pm-2026-11-02@letsdoitdallas.com
+DTSTAMP:20261102T233000Z
+DTSTART:20261102T233000Z
+DTEND:20261103T023000Z
+SUMMARY:Newman Jets at North Texas Mean Green Womens Basketball
+LOCATION:UNT Coliseum (Super Pit) · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=newman-jets-at-north-texa
+ s-mean-green-womens-basketball%7Cunt-coliseum-super-pit-denton%7C5-30-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/unt-coliseum-super-pit/
+END:VEVENT
+BEGIN:VEVENT
+UID:southwestern-christian-university-eagles-at-north-texas-mean-green-mens
+ -basketball|unt-coliseum-super-pit-denton|7-30-pm-2026-11-02@letsdoitdalla
+ s.com
+DTSTAMP:20261103T013000Z
+DTSTART:20261103T013000Z
+DTEND:20261103T043000Z
+SUMMARY:Southwestern Christian University Eagles at North Texas Mean Green 
+ Mens Basketball
+LOCATION:UNT Coliseum (Super Pit) · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=southwestern-christian-un
+ iversity-eagles-at-north-texas-mean-green-mens-basketball%7Cunt-coliseum-s
+ uper-pit-denton%7C7-30-pm
+DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
+ allas.com/venue/unt-coliseum-super-pit/
+END:VEVENT
+BEGIN:VEVENT
+UID:mcneese-state-at-north-texas|unt-coliseum-super-pit-denton|4-00-pm-2026
+ -11-05@letsdoitdallas.com
+DTSTAMP:20261105T220000Z
+DTSTART:20261105T220000Z
+DTEND:20261106T010000Z
+SUMMARY:McNeese State at North Texas
+LOCATION:UNT Coliseum (Super Pit) · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=mcneese-state-at-north-te
+ xas%7Cunt-coliseum-super-pit-denton%7C4-00-pm
+DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
+ allas.com/venue/unt-coliseum-super-pit/
+END:VEVENT
+END:VCALENDAR

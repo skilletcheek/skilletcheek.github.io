@@ -10,64 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:invasion-car-show|trees-dallas|doors-see-listing-2026-10-24@letsdoitdal
- las.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:INVASION CAR SHOW
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=invasion-car-show%7Ctrees
- -dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/free-events
- /
-END:VEVENT
-BEGIN:VEVENT
-UID:rock-the-club|granada-theater-lower-greenville-dallas|doors-see-listing
- -2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Rock the Club
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=rock-the-club%7Cgranada-t
- heater-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/f
- ree-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:between-earth-and-sky-art-exhibition|flocc-studio-dallas|5-00-pm-8-00-p
- m-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T220000Z
-DTSTART:20261024T220000Z
-DTEND:20261025T010000Z
-SUMMARY:Between Earth and Sky — Art Exhibition
-LOCATION:Flocc Studio · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=between-earth-and-sky-art
- -exhibition%7Cflocc-studio-dallas%7C5-00-pm-8-00-pm
-DESCRIPTION:Between Earth and Sky explores landscape as an experience shape
- d by light\, memory\, and material. Jake Trujillo’s luminous Santa Fe sc
- enes\, Brandon McKenzie’s restrained Kansas abstractions\, and Sasinun K
- ladpetch’s earthy sculptures offer distinct ways of encountering place. 
- Toget — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:movie-on-the-lawn-casper-at-preston-hollow-village|preston-hollow-villa
- ge-dallas|7-00-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261025T000000Z
-DTSTART:20261025T000000Z
-DTEND:20261025T030000Z
-SUMMARY:Movie On The Lawn: Casper At Preston Hollow Village
-LOCATION:Preston Hollow Village · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=movie-on-the-lawn-casper-
- at-preston-hollow-village%7Cpreston-hollow-village-dallas%7C7-00-pm
-DESCRIPTION:Enjoy a free outdoor screening of Casper at Preston Hollow Vill
- age for a fun fall evening. The lawn opens at 6 PM\, with the movie beginn
- ing around 7 PM. Arrive early to explore the shops and restaurants\, grab 
- a bite\, and find the perfect spot on the lawn for a family-friendly mov 
- — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:bluegrass-heritage-music-show-jam|poor-david-s-pub-dallas|doors-see-lis
  ting-2026-10-25@letsdoitdallas.com
 DTSTAMP:20261025T000000Z
@@ -92,6 +34,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-25&e=geeks-who-drink-free-triv
  ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:empanada-festival|four-corners-brewing-company-dallas|12-00-pm-5-00-pm-
+ 2026-10-25@letsdoitdallas.com
+DTSTAMP:20261025T170000Z
+DTSTART:20261025T170000Z
+DTEND:20261025T200000Z
+SUMMARY:Empanada Festival
+LOCATION:Four Corners Brewing Company · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-25&e=empanada-festival%7Cfour-
+ corners-brewing-company-dallas%7C12-00-pm-5-00-pm
+DESCRIPTION:Empanada Fest is about bringing together the best empanadas fro
+ m across Latin America and beyond for a day full of food\, music\, and com
+ munity. From savory to sweet\, traditional to creative twists\, this is th
+ e ultimate celebration of everyone’s favorite hand-held delight. An empa
+ n — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-25@letsdoitd

@@ -9,45 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:abby-govindan|dallas-comedy-club-mainstage-theater-dallas|5-00-pm-2026-
- 10-24@letsdoitdallas.com
-DTSTAMP:20261024T220000Z
-DTSTART:20261024T220000Z
-DTEND:20261025T010000Z
-SUMMARY:Abby Govindan
-LOCATION:Dallas Comedy Club - Mainstage Theater
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=abby-govindan%7Cdallas-co
- medy-club-mainstage-theater-dallas%7C5-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/dallas-comedy-club-mainstage-theater/
-END:VEVENT
-BEGIN:VEVENT
-UID:aj-wilkerson|dallas-comedy-club-mainstage-theater-dallas|7-30-pm-2026-1
- 0-24@letsdoitdallas.com
-DTSTAMP:20261025T003000Z
-DTSTART:20261025T003000Z
-DTEND:20261025T033000Z
-SUMMARY:AJ Wilkerson
-LOCATION:Dallas Comedy Club - Mainstage Theater
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=aj-wilkerson%7Cdallas-com
- edy-club-mainstage-theater-dallas%7C7-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/dallas-comedy-club-mainstage-theater/
-END:VEVENT
-BEGIN:VEVENT
-UID:aj-wilkerson|dallas-comedy-club-mainstage-theater-dallas|9-30-pm-2026-1
- 0-24@letsdoitdallas.com
-DTSTAMP:20261025T023000Z
-DTSTART:20261025T023000Z
-DTEND:20261025T053000Z
-SUMMARY:AJ Wilkerson
-LOCATION:Dallas Comedy Club - Mainstage Theater
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=aj-wilkerson%7Cdallas-com
- edy-club-mainstage-theater-dallas%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/dallas-comedy-club-mainstage-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:dovi-neuburger|dallas-comedy-club-mainstage-theater-dallas|7-00-pm-2026
  -10-29@letsdoitdallas.com
 DTSTAMP:20261030T000000Z
@@ -110,6 +71,19 @@ LOCATION:Dallas Comedy Club - Mainstage Theater
 URL:https://letsdoitdallas.com/?date=2026-11-01&e=sketch-club-dallas%7Cdall
  as-comedy-club-mainstage-theater-dallas%7C7-00-pm
 DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/dallas-comedy-club-mainstage-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:sam-miller|dallas-comedy-club-mainstage-theater-dallas|7-00-pm-2026-11-
+ 04@letsdoitdallas.com
+DTSTAMP:20261105T010000Z
+DTSTART:20261105T010000Z
+DTEND:20261105T040000Z
+SUMMARY:Sam Miller
+LOCATION:Dallas Comedy Club - Mainstage Theater
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=sam-miller%7Cdallas-comed
+ y-club-mainstage-theater-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/dallas-comedy-club-mainstage-theater/
 END:VEVENT
 END:VCALENDAR

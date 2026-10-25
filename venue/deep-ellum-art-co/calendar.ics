@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cardinal-bloom|deep-ellum-art-co-dallas|8-00-pm-2026-10-24@letsdoitdall
- as.com
-DTSTAMP:20261025T010000Z
-DTSTART:20261025T010000Z
-DTEND:20261025T040000Z
-SUMMARY:Cardinal Bloom
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=cardinal-bloom%7Cdeep-ell
- um-art-co-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/deep-ellum-art-co/
-END:VEVENT
-BEGIN:VEVENT
 UID:ghostwoman-18-|deep-ellum-art-co-dallas|8-00-pm-2026-10-25@letsdoitdall
  as.com
 DTSTAMP:20261026T010000Z
@@ -44,6 +31,19 @@ SUMMARY:Justin Nozuka
 LOCATION:Deep Ellum Art Co. · Dallas
 URL:https://letsdoitdallas.com/?date=2026-10-27&e=justin-nozuka%7Cdeep-ellu
  m-art-co-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/deep-ellum-art-co/
+END:VEVENT
+BEGIN:VEVENT
+UID:stephen-day|deep-ellum-art-co-dallas|8-00-pm-2026-11-03@letsdoitdallas.
+ com
+DTSTAMP:20261104T020000Z
+DTSTART:20261104T020000Z
+DTEND:20261104T050000Z
+SUMMARY:Stephen Day
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=stephen-day%7Cdeep-ellum-
+ art-co-dallas%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/deep-ellum-art-co/
 END:VEVENT

@@ -9,58 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:andrew-orolfo|punch-line-irving-irving|7-00-pm-2026-10-24@letsdoitdalla
- s.com
-DTSTAMP:20261025T000000Z
-DTSTART:20261025T000000Z
-DTEND:20261025T030000Z
-SUMMARY:Andrew Orolfo
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=andrew-orolfo%7Cpunch-lin
- e-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:finesse-mitchell|punch-line-irving-irving|7-00-pm-2026-10-24@letsdoitda
- llas.com
-DTSTAMP:20261025T000000Z
-DTSTART:20261025T000000Z
-DTEND:20261025T030000Z
-SUMMARY:Finesse Mitchell
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=finesse-mitchell%7Cpunch-
- line-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:andrew-orolfo|punch-line-irving-irving|9-15-pm-2026-10-24@letsdoitdalla
- s.com
-DTSTAMP:20261025T021500Z
-DTSTART:20261025T021500Z
-DTEND:20261025T051500Z
-SUMMARY:Andrew Orolfo
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=andrew-orolfo%7Cpunch-lin
- e-irving-irving%7C9-15-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:finesse-mitchell|punch-line-irving-irving|9-15-pm-2026-10-24@letsdoitda
- llas.com
-DTSTAMP:20261025T021500Z
-DTSTART:20261025T021500Z
-DTEND:20261025T051500Z
-SUMMARY:Finesse Mitchell
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=finesse-mitchell%7Cpunch-
- line-irving-irving%7C9-15-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:joanne-mcnally-pinotphile|punch-line-irving-irving|7-00-pm-2026-10-25@l
  etsdoitdallas.com
 DTSTAMP:20261026T000000Z

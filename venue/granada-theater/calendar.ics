@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:rock-the-club|granada-theater-lower-greenville-dallas|doors-see-listing
- -2026-10-24@letsdoitdallas.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Rock the Club
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=rock-the-club%7Cgranada-t
- heater-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:ray-wylie-hubbard|granada-theater-dallas-dallas|8-00-pm-2026-10-30@lets
  doitdallas.com
 DTSTAMP:20261031T010000Z
@@ -61,18 +48,17 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:dinosaur-jr-fall-tour-2026-w-special-guest-stef-chura|granada-theater-l
- ower-greenville-dallas|doors-see-listing-2026-11-02@letsdoitdallas.com
-DTSTAMP:20261102T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:Dinosaur Jr. Fall Tour 2026 w / special guest Stef Chura
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=dinosaur-jr-fall-tour-202
- 6-w-special-guest-stef-chura%7Cgranada-theater-lower-greenville-dallas%7Cd
- oors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
+UID:dinosaur-jr-with-stef-chura|granada-theater-dallas-dallas|8-00-pm-2026-
+ 11-02@letsdoitdallas.com
+DTSTAMP:20261103T020000Z
+DTSTART:20261103T020000Z
+DTEND:20261103T050000Z
+SUMMARY:Dinosaur Jr. with Stef Chura
+LOCATION:Granada Theater - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=dinosaur-jr-with-stef-chu
+ ra%7Cgranada-theater-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-damned-final-damnation-50|granada-theater-tx-dallas|7-00-pm-2026-11

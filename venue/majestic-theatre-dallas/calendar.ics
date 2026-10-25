@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:iron-and-wine|majestic-theatre-dallas-dallas|8-00-pm-2026-10-24@letsdoi
- tdallas.com
-DTSTAMP:20261025T010000Z
-DTSTART:20261025T010000Z
-DTEND:20261025T040000Z
-SUMMARY:Iron and Wine
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=iron-and-wine%7Cmajestic-
- theatre-dallas-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-billy-joel-legacy|majestic-theatre-dallas-dallas|7-00-pm-2026-10-25
  @letsdoitdallas.com
 DTSTAMP:20261026T000000Z
@@ -201,6 +188,19 @@ SUMMARY:Mojo Brookzz
 LOCATION:Majestic Theatre Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-22&e=mojo-brookzz%7Cmajestic-t
  heatre-dallas-dallas%7C6-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:mojo-brookzz|majestic-theatre-dallas-dallas|9-00-pm-2026-11-22@letsdoit
+ dallas.com
+DTSTAMP:20261123T030000Z
+DTSTART:20261123T030000Z
+DTEND:20261123T060000Z
+SUMMARY:Mojo Brookzz
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=mojo-brookzz%7Cmajestic-t
+ heatre-dallas-dallas%7C9-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/majestic-theatre-dallas/
 END:VEVENT

@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pete-yorn|the-kessler-dallas|8-00-pm-2026-10-24@letsdoitdallas.com
-DTSTAMP:20261025T010000Z
-DTSTART:20261025T010000Z
-DTEND:20261025T040000Z
-SUMMARY:Pete Yorn
-LOCATION:The Kessler · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=pete-yorn%7Cthe-kessler-d
- allas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/the-kessler-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:alejandro-escovedo|the-kessler-dallas|8-00-pm-2026-10-29@letsdoitdallas
  .com
 DTSTAMP:20261030T010000Z
@@ -60,18 +48,17 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:lucinda-williams-and-her-band-with-danny-reidy-night-1|the-kessler-thea
- ter-oak-cliff-dallas|doors-see-listing-2026-11-02@letsdoitdallas.com
-DTSTAMP:20261102T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:Lucinda Williams and her band with Danny Reidy - Night 1
+UID:lucinda-williams|the-kessler-theater-dallas|8-00-pm-2026-11-02@letsdoit
+ dallas.com
+DTSTAMP:20261103T020000Z
+DTSTART:20261103T020000Z
+DTEND:20261103T050000Z
+SUMMARY:Lucinda Williams
 LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=lucinda-williams-and-her-
- band-with-danny-reidy-night-1%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoo
- rs-see-listing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/venue/the-kessler-theater/
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=lucinda-williams%7Cthe-ke
+ ssler-theater-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:lucinda-williams|the-kessler-dallas|7-30-pm-2026-11-03@letsdoitdallas.c
@@ -247,19 +234,16 @@ DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:choir-choir-choir-presents-landslide-an-epic-fleetwood-mac-singalong-|t
- he-kessler-theater-oak-cliff-dallas|doors-see-listing-2026-11-22@letsdoitd
- allas.com
-DTSTAMP:20261122T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Choir! Choir! Choir! Presents: Landslide: An Epic Fleetwood Mac Sin
- galong!
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=choir-choir-choir-present
- s-landslide-an-epic-fleetwood-mac-singalong-%7Cthe-kessler-theater-oak-cli
- ff-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/venue/the-kessler-theater/
+UID:landslide-tribute-to-fleetwood-mac|the-kessler-dallas|8-00-pm-2026-11-2
+ 2@letsdoitdallas.com
+DTSTAMP:20261123T020000Z
+DTSTART:20261123T020000Z
+DTEND:20261123T050000Z
+SUMMARY:Landslide - Tribute to Fleetwood Mac
+LOCATION:The Kessler · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=landslide-tribute-to-flee
+ twood-mac%7Cthe-kessler-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/the-kessler-theater/
 END:VEVENT
 END:VCALENDAR

@@ -9,46 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sparkz-cheerleading|310-e-parkerville-road-cedar-hill|12-00-pm-2026-10-
- 24@letsdoitdallas.com
-DTSTAMP:20261024T170000Z
-DTSTART:20261024T170000Z
-DTEND:20261024T200000Z
-SUMMARY:Sparkz Cheerleading
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=sparkz-cheerleading%7C310
- -e-parkerville-road-cedar-hill%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:envision-dance-class|310-e-parkerville-road-cedar-hill|01-30-pm-2026-10
- -24@letsdoitdallas.com
-DTSTAMP:20261024T183000Z
-DTSTART:20261024T183000Z
-DTEND:20261024T213000Z
-SUMMARY:Envision Dance Class
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=envision-dance-class%7C31
- 0-e-parkerville-road-cedar-hill%7C01-30-pm
-DESCRIPTION:This Adult Movement Class blends modern\, ballet\, and social d
- ancing to build strength\, confidence\, and expressive movement! Perfect f
- or beginners and returning dancers! October 24\, 2026 01:30 PM - 02:45 PM 
- 310 E. Parkerville RoadCedar Hill\, TX 75104 https://www.cedarhilltx.com/C
- a — More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:volleyball-open-play|310-e-parkerville-road-cedar-hill|06-30-pm-2026-10
- -24@letsdoitdallas.com
-DTSTAMP:20261024T233000Z
-DTSTART:20261024T233000Z
-DTEND:20261025T023000Z
-SUMMARY:Volleyball: Open Play
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=volleyball-open-play%7C31
- 0-e-parkerville-road-cedar-hill%7C06-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:birding-by-ear|cedar-hill|08-00-am-2026-10-25@letsdoitdallas.com
 DTSTAMP:20261025T130000Z
 DTSTART:20261025T130000Z
@@ -1279,6 +1239,46 @@ SUMMARY:Volleyball: Open Play
 LOCATION:310 E. Parkerville Road · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-11-07&e=volleyball-open-play%7C31
  0-e-parkerville-road-cedar-hill%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:mahjong-open-play|310-e-parkerville-road-cedar-hill|01-00-pm-2026-11-08
+ @letsdoitdallas.com
+DTSTAMP:20261108T190000Z
+DTSTART:20261108T190000Z
+DTEND:20261108T220000Z
+SUMMARY:Mahjong: Open Play
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=mahjong-open-play%7C310-e
+ -parkerville-road-cedar-hill%7C01-00-pm
+DESCRIPTION:Join us every Sunday afternoon for an open play Mahjong program
+  at the Alan E. Sims Recreation Center! November 8\, 2026 01:00 PM - 05:00
+  PM 310 E. Parkerville RoadCedar Hill\, TX 75104 https://www.cedarhilltx.c
+ om/Calendar.aspx?EID=19099/639148837140000000 — More: https://letsdoitda
+ llas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:sparkz-cheerleading|310-e-parkerville-road-cedar-hill|04-00-pm-2026-11-
+ 08@letsdoitdallas.com
+DTSTAMP:20261108T220000Z
+DTSTART:20261108T220000Z
+DTEND:20261109T010000Z
+SUMMARY:Sparkz Cheerleading
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=sparkz-cheerleading%7C310
+ -e-parkerville-road-cedar-hill%7C04-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:community-care-sound-bath-series|310-e-parkerville-road-cedar-hill|05-3
+ 0-pm-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T233000Z
+DTSTART:20261108T233000Z
+DTEND:20261109T023000Z
+SUMMARY:Community Care Sound Bath Series
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=community-care-sound-bath
+ -series%7C310-e-parkerville-road-cedar-hill%7C05-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 END:VCALENDAR

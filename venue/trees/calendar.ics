@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:invasion-car-show|trees-dallas|doors-see-listing-2026-10-24@letsdoitdal
- las.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:INVASION CAR SHOW
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=invasion-car-show%7Ctrees
- -dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
-END:VEVENT
-BEGIN:VEVENT
-UID:toki-the-japanese-elvis|trees-dallas|doors-see-listing-2026-10-24@letsd
- oitdallas.com
-DTSTAMP:20261024T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:TOKI THE JAPANESE ELVIS
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-24&e=toki-the-japanese-elvis%7
- Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
-END:VEVENT
-BEGIN:VEVENT
 UID:maxo-kream|trees-dallas|8-00-pm-2026-10-25@letsdoitdallas.com
 DTSTAMP:20261026T010000Z
 DTSTART:20261026T010000Z
@@ -224,5 +198,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-20&e=southfm%7Ctrees-dallas%7C
  8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/trees/
+END:VEVENT
+BEGIN:VEVENT
+UID:n8noface-x-ho99o9|trees-dallas|doors-see-listing-2026-11-24@letsdoitdal
+ las.com
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:N8NOFACE x HO99O9
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=n8noface-x-ho99o9%7Ctrees
+ -dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
 END:VEVENT
 END:VCALENDAR
