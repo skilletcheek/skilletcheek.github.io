@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lukas-frank-ages-21-|silo-dallas|5-00-pm-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261025T220000Z
-DTSTART:20261025T220000Z
-DTEND:20261026T010000Z
-SUMMARY:Lukas & Frank - Ages 21+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=lukas-frank-ages-21-%7Csi
- lo-dallas%7C5-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:ruslan-kd-godly-ambition-tour-|the-echo-lounge-music-hall-dallas|6-00-p
- m-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261025T230000Z
-DTSTART:20261025T230000Z
-DTEND:20261026T020000Z
-SUMMARY:RUSLAN KD "GODLY AMBITION TOUR"
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=ruslan-kd-godly-ambition-
- tour-%7Cthe-echo-lounge-music-hall-dallas%7C6-00-pm
-DESCRIPTION:Multimedia event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:almost-monday|am-fm-dallas-dallas|7-00-pm-2026-10-27@letsdoitdallas.com
 DTSTAMP:20261028T000000Z
 DTSTART:20261028T000000Z
@@ -184,6 +159,19 @@ LOCATION:The Echo Lounge & Music Hall · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-03&e=slow-pulp%7Cthe-echo-loun
  ge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:ely-oaks|ductwork-at-silo-dallas-dallas|9-00-pm-2026-11-05@letsdoitdall
+ as.com
+DTSTAMP:20261106T030000Z
+DTSTART:20261106T030000Z
+DTEND:20261106T060000Z
+SUMMARY:Ely Oaks
+LOCATION:Ductwork at SILO Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=ely-oaks%7Cductwork-at-si
+ lo-dallas-dallas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/design-district/
 END:VEVENT
 BEGIN:VEVENT

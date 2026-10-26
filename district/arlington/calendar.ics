@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-10-25@
- letsdoitdallas.com
-DTSTAMP:20261025T200000Z
-DTSTART:20261025T200000Z
-DTEND:20261025T230000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C3-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:dc-young-fly|arlington-improv-arlington|6-00-pm-2026-10-25@letsdoitdall
- as.com
-DTSTAMP:20261025T230000Z
-DTSTART:20261025T230000Z
-DTEND:20261026T020000Z
-SUMMARY:DC Young Fly
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=dc-young-fly%7Carlington-
- improv-arlington%7C6-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:dc-young-fly|arlington-improv-arlington|8-30-pm-2026-10-25@letsdoitdall
- as.com
-DTSTAMP:20261026T013000Z
-DTSTART:20261026T013000Z
-DTEND:20261026T043000Z
-SUMMARY:DC Young Fly
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=dc-young-fly%7Carlington-
- improv-arlington%7C8-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-10-27@letsdoitdal
  las.com
 DTSTAMP:20261027T233000Z

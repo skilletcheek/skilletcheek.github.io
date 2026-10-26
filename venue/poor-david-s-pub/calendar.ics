@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bluegrass-heritage-music-show-jam|poor-david-s-pub-dallas|doors-see-lis
- ting-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261025T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:Bluegrass Heritage Music Show & Jam
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=bluegrass-heritage-music-
- show-jam%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:poor-david-s-open-mic-hosted-by-rob-case|poor-david-s-pub-dallas|doors-
  see-listing-2026-10-28@letsdoitdallas.com
 DTSTAMP:20261028T000000Z
@@ -207,6 +194,19 @@ SUMMARY:Mama’s Broke Reunion Album Release Tour
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-22&e=mama-s-broke-reunion-albu
  m-release-tour%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
+BEGIN:VEVENT
+UID:poor-david-s-open-mic-hosted-by-rob-case|poor-david-s-pub-dallas|doors-
+ see-listing-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Poor David's Open Mic - Hosted by Rob Case
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=poor-david-s-open-mic-hos
+ ted-by-rob-case%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT

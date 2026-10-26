@@ -10,70 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:viktoria-xo-rebirth-album-release-show|three-links-deep-ellum-dallas|7-
- 00-pm-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261026T000000Z
-DTSTART:20261026T000000Z
-DTEND:20261026T030000Z
-SUMMARY:Viktoria XO: Rebirth Album Release Show
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=viktoria-xo-rebirth-album
- -release-show%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:ghostwoman-18-|deep-ellum-art-co-dallas|8-00-pm-2026-10-25@letsdoitdall
- as.com
-DTSTAMP:20261026T010000Z
-DTSTART:20261026T010000Z
-DTEND:20261026T040000Z
-SUMMARY:GHOSTWOMAN (18+)
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=ghostwoman-18-%7Cdeep-ell
- um-art-co-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:lefty-gunplay|puzzles-deep-ellum-dallas|8-00-pm-2026-10-25@letsdoitdall
- as.com
-DTSTAMP:20261026T010000Z
-DTSTART:20261026T010000Z
-DTEND:20261026T040000Z
-SUMMARY:Lefty Gunplay
-LOCATION:Puzzles Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=lefty-gunplay%7Cpuzzles-d
- eep-ellum-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:maxo-kream|trees-dallas|8-00-pm-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261026T010000Z
-DTSTART:20261026T010000Z
-DTEND:20261026T040000Z
-SUMMARY:Maxo Kream
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=maxo-kream%7Ctrees-dallas
- %7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-25@letsdoitd
- allas.com
-DTSTAMP:20261026T040000Z
-DTSTART:20261026T040000Z
-DTEND:20261026T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
  pm-2026-10-26@letsdoitdallas.com
 DTSTAMP:20261027T020000Z
@@ -382,6 +318,19 @@ SUMMARY:Ouija Macc
 LOCATION:RBC Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-05&e=ouija-macc%7Crbc-deep-ell
  um-dallas%7C6-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dead-on-a-sunday|deep-ellum-art-co-dallas|8-00-pm-2026-11-05@letsdoitda
+ llas.com
+DTSTAMP:20261106T020000Z
+DTSTART:20261106T020000Z
+DTEND:20261106T050000Z
+SUMMARY:Dead on a Sunday
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=dead-on-a-sunday%7Cdeep-e
+ llum-art-co-dallas%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT

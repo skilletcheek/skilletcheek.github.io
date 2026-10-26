@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:viktoria-xo-rebirth-album-release-show|three-links-deep-ellum-dallas|7-
- 00-pm-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261026T000000Z
-DTSTART:20261026T000000Z
-DTEND:20261026T030000Z
-SUMMARY:Viktoria XO: Rebirth Album Release Show
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=viktoria-xo-rebirth-album
- -release-show%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-10-25@letsdoitd
- allas.com
-DTSTAMP:20261026T040000Z
-DTSTART:20261026T040000Z
-DTEND:20261026T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
  pm-2026-10-26@letsdoitdallas.com
 DTSTAMP:20261027T020000Z

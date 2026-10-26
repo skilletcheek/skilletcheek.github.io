@@ -10,58 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bluegrass-heritage-music-show-jam|poor-david-s-pub-dallas|doors-see-lis
- ting-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261025T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:Bluegrass Heritage Music Show & Jam
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=bluegrass-heritage-music-
- show-jam%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:fifth-third-garage-dallas-stars-v-new-york-islanders|american-airlines-
- center-dallas|5-00-pm-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261025T220000Z
-DTSTART:20261025T220000Z
-DTEND:20261026T010000Z
-SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v New York Islanders
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=fifth-third-garage-dallas
- -stars-v-new-york-islanders%7Camerican-airlines-center-dallas%7C5-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:shyne-2622-lgnd-tour-with-barrington-levy-and-lil-cease|house-of-blues-
- dallas-dallas|7-00-pm-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261026T000000Z
-DTSTART:20261026T000000Z
-DTEND:20261026T030000Z
-SUMMARY:SHYNE: 2622 LGND Tour with Barrington Levy and Lil' Cease
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=shyne-2622-lgnd-tour-with
- -barrington-levy-and-lil-cease%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-billy-joel-legacy|majestic-theatre-dallas-dallas|7-00-pm-2026-10-25
- @letsdoitdallas.com
-DTSTAMP:20261026T000000Z
-DTSTART:20261026T000000Z
-DTEND:20261026T030000Z
-SUMMARY:The Billy Joel Legacy
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=the-billy-joel-legacy%7Cm
- ajestic-theatre-dallas-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:honey-revenge-x-dead-poet-society|house-of-blues-dallas-dallas|5-30-pm-
  2026-10-27@letsdoitdallas.com
 DTSTAMP:20261027T223000Z
@@ -1567,5 +1515,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-22&e=mojo-brookzz%7Cmajestic-t
  heatre-dallas-dallas%7C9-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:poor-david-s-open-mic-hosted-by-rob-case|poor-david-s-pub-dallas|doors-
+ see-listing-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Poor David's Open Mic - Hosted by Rob Case
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=poor-david-s-open-mic-hos
+ ted-by-rob-case%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

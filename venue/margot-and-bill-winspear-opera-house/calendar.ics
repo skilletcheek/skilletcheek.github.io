@@ -48,6 +48,19 @@ DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
  venue/margot-and-bill-winspear-opera-house/
 END:VEVENT
 BEGIN:VEVENT
+UID:jonathan-van-ness|margot-and-bill-winspear-opera-house-dallas|7-00-pm-2
+ 026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T010000Z
+DTSTART:20261107T010000Z
+DTEND:20261107T040000Z
+SUMMARY:Jonathan Van Ness
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=jonathan-van-ness%7Cmargo
+ t-and-bill-winspear-opera-house-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/margot-and-bill-winspear-opera-house/
+END:VEVENT
+BEGIN:VEVENT
 UID:lyle-lovett|margot-and-bill-winspear-opera-house-dallas|7-30-pm-2026-11
  -18@letsdoitdallas.com
 DTSTAMP:20261119T013000Z

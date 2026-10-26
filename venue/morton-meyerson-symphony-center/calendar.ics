@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:anna-lapwood|morton-meyerson-symphony-center-dallas|2-00-pm-2026-10-25@
- letsdoitdallas.com
-DTSTAMP:20261025T190000Z
-DTSTART:20261025T190000Z
-DTEND:20261025T220000Z
-SUMMARY:Anna Lapwood
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=anna-lapwood%7Cmorton-mey
- erson-symphony-center-dallas%7C2-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/morton-meyerson-symphony-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-symphony-orchestra|morton-meyerson-symphony-center-dallas|7-30-p
- m-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261026T003000Z
-DTSTART:20261026T003000Z
-DTEND:20261026T033000Z
-SUMMARY:Dallas Symphony Orchestra
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=dallas-symphony-orchestra
- %7Cmorton-meyerson-symphony-center-dallas%7C7-30-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/venue/morton-meyerson-symphony-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-dia-de-los-muertos|morton-meyerson-s
  ymphony-center-dallas|7-30-pm-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261031T003000Z

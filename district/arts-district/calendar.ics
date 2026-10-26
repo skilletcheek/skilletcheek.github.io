@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:anna-lapwood|morton-meyerson-symphony-center-dallas|2-00-pm-2026-10-25@
- letsdoitdallas.com
-DTSTAMP:20261025T190000Z
-DTSTART:20261025T190000Z
-DTEND:20261025T220000Z
-SUMMARY:Anna Lapwood
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=anna-lapwood%7Cmorton-mey
- erson-symphony-center-dallas%7C2-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/arts-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-symphony-orchestra|morton-meyerson-symphony-center-dallas|7-30-p
- m-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261026T003000Z
-DTSTART:20261026T003000Z
-DTEND:20261026T033000Z
-SUMMARY:Dallas Symphony Orchestra
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=dallas-symphony-orchestra
- %7Cmorton-meyerson-symphony-center-dallas%7C7-30-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/district/arts-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-dia-de-los-muertos|morton-meyerson-s
  ymphony-center-dallas|7-30-pm-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261031T003000Z
@@ -87,6 +61,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-04&e=the-cunning-little-vixen-
  dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C7-30-pm
 DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
  district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:jonathan-van-ness|margot-and-bill-winspear-opera-house-dallas|7-00-pm-2
+ 026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T010000Z
+DTSTART:20261107T010000Z
+DTEND:20261107T040000Z
+SUMMARY:Jonathan Van Ness
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=jonathan-van-ness%7Cmargo
+ t-and-bill-winspear-opera-house-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-ellington-strayhorn-and-gershwin|mor

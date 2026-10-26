@@ -99,4 +99,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-23&e=hoopfest-basketball-women
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/comerica-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:hoopfest-basketball-women-s-challenge-session-3|comerica-center-frisco|
+ 6-00-pm-2026-11-24@letsdoitdallas.com
+DTSTAMP:20261125T000000Z
+DTSTART:20261125T000000Z
+DTEND:20261125T030000Z
+SUMMARY:Hoopfest Basketball Women's Challenge Session 3
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=hoopfest-basketball-women
+ -s-challenge-session-3%7Ccomerica-center-frisco%7C6-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/comerica-center/
+END:VEVENT
 END:VCALENDAR

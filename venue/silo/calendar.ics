@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lukas-frank-ages-21-|silo-dallas|5-00-pm-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261025T220000Z
-DTSTART:20261025T220000Z
-DTEND:20261026T010000Z
-SUMMARY:Lukas & Frank - Ages 21+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=lukas-frank-ages-21-%7Csi
- lo-dallas%7C5-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:massano-18-and-over-|silo-dallas|9-00-pm-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261030T020000Z
 DTSTART:20261030T020000Z

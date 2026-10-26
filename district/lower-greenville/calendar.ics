@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
- doors-see-listing-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261025T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:geeks who drink FREE Trivia
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=geeks-who-drink-free-triv
- ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:free-halloween-movie-month-the-crow|sundown-at-granada-lower-greenville
  -dallas|doors-see-listing-2026-10-26@letsdoitdallas.com
 DTSTAMP:20261026T000000Z
@@ -104,6 +91,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=the-linda-lindas%7Cgranad
  a-theater-tx-dallas%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/lower-greenville/
+END:VEVENT
+BEGIN:VEVENT
+UID:paul-renna|sundown-at-granada-lower-greenville-dallas|doors-see-listing
+ -2026-11-01@letsdoitdallas.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Paul Renna
+LOCATION:Sundown at Granada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=paul-renna%7Csundown-at-g
+ ranada-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
 UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|

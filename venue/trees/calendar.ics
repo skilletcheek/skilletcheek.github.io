@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:maxo-kream|trees-dallas|8-00-pm-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261026T010000Z
-DTSTART:20261026T010000Z
-DTEND:20261026T040000Z
-SUMMARY:Maxo Kream
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=maxo-kream%7Ctrees-dallas
- %7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/trees/
-END:VEVENT
-BEGIN:VEVENT
 UID:2slimey|trees-dallas|8-00-pm-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261030T010000Z
 DTSTART:20261030T010000Z

@@ -10,44 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
- 10-25@letsdoitdallas.com
-DTSTAMP:20261025T183000Z
-DTSTART:20261025T183000Z
-DTEND:20261025T213000Z
-SUMMARY:Stockyards Championship Rodeo
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=stockyards-championship-r
- odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
-DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
- district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:sarper-guven|hyena-s-comedy-night-club-fort-worth-fort-worth|7-00-pm-20
- 26-10-25@letsdoitdallas.com
-DTSTAMP:20261026T000000Z
-DTSTART:20261026T000000Z
-DTEND:20261026T030000Z
-SUMMARY:Sarper Guven
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=sarper-guven%7Chyena-s-co
- medy-night-club-fort-worth-fort-worth%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:hovvdy|tulips-ftw-fort-worth|8-00-pm-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261026T010000Z
-DTSTART:20261026T010000Z
-DTEND:20261026T040000Z
-SUMMARY:Hovvdy
-LOCATION:Tulips FTW · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=hovvdy%7Ctulips-ftw-fort-
- worth%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-10-26@
  letsdoitdallas.com
 DTSTAMP:20261026T173000Z
@@ -178,15 +140,28 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:morrissey-live-in-concert|dickies-arena-fort-worth|8-20-pm-2026-10-29@l
- etsdoitdallas.com
+UID:morrissey|dickies-arena-fort-worth|8-20-pm-2026-10-29@letsdoitdallas.co
+ m
+DTSTAMP:20261030T012000Z
+DTSTART:20261030T012000Z
+DTEND:20261030T042000Z
+SUMMARY:Morrissey
+LOCATION:Dickies Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=morrissey%7Cdickies-arena
+ -fort-worth%7C8-20-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:morrissey-live-in-concert|ariat-arena-fort-worth|8-20-pm-2026-10-29@let
+ sdoitdallas.com
 DTSTAMP:20261030T012000Z
 DTSTART:20261030T012000Z
 DTEND:20261030T042000Z
 SUMMARY:Morrissey: Live In Concert
-LOCATION:Dickies Arena · Fort Worth
+LOCATION:Ariat Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-29&e=morrissey-live-in-concert
- %7Cdickies-arena-fort-worth%7C8-20-pm
+ %7Cariat-arena-fort-worth%7C8-20-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/fort-worth/
 END:VEVENT
@@ -217,15 +192,28 @@ DESCRIPTION:circus event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:teddy-swims-the-ugly-tour|dickies-arena-fort-worth|7-00-pm-2026-10-30@l
- etsdoitdallas.com
+UID:teddy-swims-with-freak-freely|dickies-arena-fort-worth|7-00-pm-2026-10-
+ 30@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:Teddy Swims with Freak Freely
+LOCATION:Dickies Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=teddy-swims-with-freak-fr
+ eely%7Cdickies-arena-fort-worth%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:teddy-swims-the-ugly-tour|ariat-arena-fort-worth|7-00-pm-2026-10-30@let
+ sdoitdallas.com
 DTSTAMP:20261031T000000Z
 DTSTART:20261031T000000Z
 DTEND:20261031T030000Z
 SUMMARY:Teddy Swims: The UGLY Tour
-LOCATION:Dickies Arena · Fort Worth
+LOCATION:Ariat Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-30&e=teddy-swims-the-ugly-tour
- %7Cdickies-arena-fort-worth%7C7-00-pm
+ %7Cariat-arena-fort-worth%7C7-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/fort-worth/
 END:VEVENT
@@ -560,15 +548,28 @@ DESCRIPTION:circus event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:mercyme-jeremy-camp-tim-timmons-sam-wesley|dickies-arena-fort-worth|7-0
- 0-pm-2026-11-01@letsdoitdallas.com
+UID:mercyme-with-jeremy-camp-tim-timmons-and-sam-wesley|dickies-arena-fort-
+ worth|7-00-pm-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261102T010000Z
+DTSTART:20261102T010000Z
+DTEND:20261102T040000Z
+SUMMARY:MercyMe with Jeremy Camp\, Tim Timmons\, and Sam Wesley
+LOCATION:Dickies Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=mercyme-with-jeremy-camp-
+ tim-timmons-and-sam-wesley%7Cdickies-arena-fort-worth%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:mercyme-jeremy-camp-tim-timmons-sam-wesley|ariat-arena-fort-worth|7-00-
+ pm-2026-11-01@letsdoitdallas.com
 DTSTAMP:20261102T010000Z
 DTSTART:20261102T010000Z
 DTEND:20261102T040000Z
 SUMMARY:MercyMe\, Jeremy Camp\, Tim Timmons\, Sam Wesley
-LOCATION:Dickies Arena · Fort Worth
+LOCATION:Ariat Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-01&e=mercyme-jeremy-camp-tim-t
- immons-sam-wesley%7Cdickies-arena-fort-worth%7C7-00-pm
+ immons-sam-wesley%7Cariat-arena-fort-worth%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
 END:VEVENT
@@ -707,6 +708,19 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:jersey-boys-fort-worth|bass-performance-hall-fort-worth|7-30-pm-2026-11
+ -05@letsdoitdallas.com
+DTSTAMP:20261106T013000Z
+DTSTART:20261106T013000Z
+DTEND:20261106T043000Z
+SUMMARY:Jersey Boys - Fort Worth
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=jersey-boys-fort-worth%7C
+ bass-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:tcu-horned-frogs-mens-basketball-vs-southern-jaguars-basketball|ed-and-
  rae-schollmaier-arena-fort-worth|see-details-2026-11-06@letsdoitdallas.com
 DTSTAMP:20261106T000000Z
@@ -719,6 +733,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=tcu-horned-frogs-mens-bas
  -worth%7Csee-details
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:greg-warren|hyena-s-comedy-night-club-fort-worth-fort-worth|6-45-pm-202
+ 6-11-06@letsdoitdallas.com
+DTSTAMP:20261107T004500Z
+DTSTART:20261107T004500Z
+DTEND:20261107T034500Z
+SUMMARY:Greg Warren
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=greg-warren%7Chyena-s-com
+ edy-night-club-fort-worth-fort-worth%7C6-45-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
@@ -773,15 +800,15 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:john-summit-ctrl-escape-arena-tour|dickies-arena-fort-worth|7-00-pm-202
- 6-11-07@letsdoitdallas.com
+UID:john-summit-ctrl-escape-arena-tour|ariat-arena-fort-worth|7-00-pm-2026-
+ 11-07@letsdoitdallas.com
 DTSTAMP:20261108T010000Z
 DTSTART:20261108T010000Z
 DTEND:20261108T040000Z
 SUMMARY:JOHN SUMMIT - CTRL ESCAPE ARENA TOUR
-LOCATION:Dickies Arena · Fort Worth
+LOCATION:Ariat Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-07&e=john-summit-ctrl-escape-a
- rena-tour%7Cdickies-arena-fort-worth%7C7-00-pm
+ rena-tour%7Cariat-arena-fort-worth%7C7-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/fort-worth/
 END:VEVENT
@@ -853,15 +880,15 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:john-summit-ctrl-escape-arena-tour|dickies-arena-fort-worth|7-00-pm-202
- 6-11-08@letsdoitdallas.com
+UID:john-summit-ctrl-escape-arena-tour|ariat-arena-fort-worth|7-00-pm-2026-
+ 11-08@letsdoitdallas.com
 DTSTAMP:20261109T010000Z
 DTSTART:20261109T010000Z
 DTEND:20261109T040000Z
 SUMMARY:JOHN SUMMIT - CTRL ESCAPE ARENA TOUR
-LOCATION:Dickies Arena · Fort Worth
+LOCATION:Ariat Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-08&e=john-summit-ctrl-escape-a
- rena-tour%7Cdickies-arena-fort-worth%7C7-00-pm
+ rena-tour%7Cariat-arena-fort-worth%7C7-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/fort-worth/
 END:VEVENT
@@ -950,15 +977,15 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:hot-wheels-monster-trucks-live-glow-n-fire|dickies-arena-fort-worth|7-0
- 0-pm-2026-11-13@letsdoitdallas.com
+UID:hot-wheels-monster-trucks-live-glow-n-fire|ariat-arena-fort-worth|7-00-
+ pm-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261114T010000Z
 DTSTART:20261114T010000Z
 DTEND:20261114T040000Z
 SUMMARY:Hot Wheels Monster Trucks™ Live Glow-N-Fire
-LOCATION:Dickies Arena · Fort Worth
+LOCATION:Ariat Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-13&e=hot-wheels-monster-trucks
- -live-glow-n-fire%7Cdickies-arena-fort-worth%7C7-00-pm
+ -live-glow-n-fire%7Cariat-arena-fort-worth%7C7-00-pm
 DESCRIPTION:Motorsports/Racing event via Ticketmaster. — More: https://le
  tsdoitdallas.com/district/fort-worth/
 END:VEVENT
@@ -1003,15 +1030,15 @@ DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:hot-wheels-monster-trucks-live-glow-n-fire|dickies-arena-fort-worth|11-
- 30-am-2026-11-14@letsdoitdallas.com
+UID:hot-wheels-monster-trucks-live-glow-n-fire|ariat-arena-fort-worth|11-30
+ -am-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261114T173000Z
 DTSTART:20261114T173000Z
 DTEND:20261114T203000Z
 SUMMARY:Hot Wheels Monster Trucks™ Live Glow-N-Fire
-LOCATION:Dickies Arena · Fort Worth
+LOCATION:Ariat Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-14&e=hot-wheels-monster-trucks
- -live-glow-n-fire%7Cdickies-arena-fort-worth%7C11-30-am
+ -live-glow-n-fire%7Cariat-arena-fort-worth%7C11-30-am
 DESCRIPTION:Motorsports/Racing event via Ticketmaster. — More: https://le
  tsdoitdallas.com/district/fort-worth/
 END:VEVENT
@@ -1029,15 +1056,15 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:hot-wheels-monster-trucks-live-glow-n-fire|dickies-arena-fort-worth|6-3
- 0-pm-2026-11-14@letsdoitdallas.com
+UID:hot-wheels-monster-trucks-live-glow-n-fire|ariat-arena-fort-worth|6-30-
+ pm-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261115T003000Z
 DTSTART:20261115T003000Z
 DTEND:20261115T033000Z
 SUMMARY:Hot Wheels Monster Trucks™ Live Glow-N-Fire
-LOCATION:Dickies Arena · Fort Worth
+LOCATION:Ariat Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-14&e=hot-wheels-monster-trucks
- -live-glow-n-fire%7Cdickies-arena-fort-worth%7C6-30-pm
+ -live-glow-n-fire%7Cariat-arena-fort-worth%7C6-30-pm
 DESCRIPTION:Motorsports/Racing event via Ticketmaster. — More: https://le
  tsdoitdallas.com/district/fort-worth/
 END:VEVENT
@@ -1096,15 +1123,15 @@ DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:hot-wheels-monster-trucks-live-glow-n-fire|dickies-arena-fort-worth|1-3
- 0-pm-2026-11-15@letsdoitdallas.com
+UID:hot-wheels-monster-trucks-live-glow-n-fire|ariat-arena-fort-worth|1-30-
+ pm-2026-11-15@letsdoitdallas.com
 DTSTAMP:20261115T193000Z
 DTSTART:20261115T193000Z
 DTEND:20261115T223000Z
 SUMMARY:Hot Wheels Monster Trucks™ Live Glow-N-Fire
-LOCATION:Dickies Arena · Fort Worth
+LOCATION:Ariat Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-15&e=hot-wheels-monster-trucks
- -live-glow-n-fire%7Cdickies-arena-fort-worth%7C1-30-pm
+ -live-glow-n-fire%7Cariat-arena-fort-worth%7C1-30-pm
 DESCRIPTION:Motorsports/Racing event via Ticketmaster. — More: https://le
  tsdoitdallas.com/district/fort-worth/
 END:VEVENT
@@ -1349,15 +1376,15 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:ty-myers-the-legal-tour-2026|dickies-arena-fort-worth|7-30-pm-2026-11-2
- 1@letsdoitdallas.com
+UID:ty-myers-the-legal-tour-2026|ariat-arena-fort-worth|7-30-pm-2026-11-21@
+ letsdoitdallas.com
 DTSTAMP:20261122T013000Z
 DTSTART:20261122T013000Z
 DTEND:20261122T043000Z
 SUMMARY:Ty Myers: The Legal Tour 2026
-LOCATION:Dickies Arena · Fort Worth
+LOCATION:Ariat Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-21&e=ty-myers-the-legal-tour-2
- 026%7Cdickies-arena-fort-worth%7C7-30-pm
+ 026%7Cariat-arena-fort-worth%7C7-30-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/fort-worth/
 END:VEVENT
@@ -1389,15 +1416,15 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:ls-hoops-with-heart-weekend-i|dickies-arena-fort-worth|12-00-pm-2026-11
- -22@letsdoitdallas.com
+UID:ls-hoops-with-heart-weekend-i|ariat-arena-fort-worth|12-00-pm-2026-11-2
+ 2@letsdoitdallas.com
 DTSTAMP:20261122T180000Z
 DTSTART:20261122T180000Z
 DTEND:20261122T210000Z
 SUMMARY:LS² - Hoops with Heart - Weekend I
-LOCATION:Dickies Arena · Fort Worth
+LOCATION:Ariat Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-22&e=ls-hoops-with-heart-weeke
- nd-i%7Cdickies-arena-fort-worth%7C12-00-pm
+ nd-i%7Cariat-arena-fort-worth%7C12-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/fort-worth/
 END:VEVENT

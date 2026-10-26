@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:anything-goes-presented-by-garland-civic-theatre|300-n-fifth-street-gar
- land|02-30-pm-2026-10-25@letsdoitdallas.com
-DTSTAMP:20261025T193000Z
-DTSTART:20261025T193000Z
-DTEND:20261025T223000Z
-SUMMARY:Anything Goes presented by Garland Civic Theatre
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-25&e=anything-goes-presented-b
- y-garland-civic-theatre%7C300-n-fifth-street-garland%7C02-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:smart-start-garland-school-readiness-workshops|central-library-garland|
  10-00-am-2026-10-26@letsdoitdallas.com
 DTSTAMP:20261026T150000Z
@@ -1244,6 +1232,70 @@ LOCATION:300 N Fifth Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-11-07&e=what-she-s-having-present
  ed-by-tasha-studios%7C300-n-fifth-street-garland%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:smart-start-garland-school-readiness-workshops|central-library-garland|
+ 10-00-am-2026-11-09@letsdoitdallas.com
+DTSTAMP:20261109T160000Z
+DTSTART:20261109T160000Z
+DTEND:20261109T190000Z
+SUMMARY:Smart Start Garland: School Readiness Workshops
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-09&e=smart-start-garland-schoo
+ l-readiness-workshops%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Set your child on the path for school success with
+  Smart Start Garland! This six-week school readiness program will introduc
+ e children to fundamental skills and behaviors that will help them thrive 
+ in a learning environment\, while also providing support and resources —
+  More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:financial-education-with-navy-federal-ages-18-|central-library-garland|
+ 06-00-pm-2026-11-09@letsdoitdallas.com
+DTSTAMP:20261110T000000Z
+DTSTART:20261110T000000Z
+DTEND:20261110T030000Z
+SUMMARY:Financial Education with Navy Federal (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-09&e=financial-education-with-
+ navy-federal-ages-18-%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Free financial education presentations from Navy Fe
+ deral Credit Union. Learn about a variety of topics to enhance your financ
+ ial awareness. November 9\, 2026 06:00 PM - 07:00 PM 625 Austin St.Garland
+ \, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13034/6392282242 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:intro-to-laser-cutting-ages-13-|central-library-garland|06-00-pm-2026-1
+ 1-09@letsdoitdallas.com
+DTSTAMP:20261110T000000Z
+DTSTART:20261110T000000Z
+DTEND:20261110T030000Z
+SUMMARY:Intro to Laser Cutting (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-09&e=intro-to-laser-cutting-ag
+ es-13-%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Learn to laser cut in this intro makerspace class. 
+ This training class will set patrons up to use the laser cutter at the lib
+ rary! Open to adults ages 13+ with a library card in good standing. Novemb
+ er 9\, 2026 06:00 PM - 07:30 PM 625 Austin St.Garland\, TX 75040 https:/ 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:library-board-monthly-meeting|city-hall-garland|06-00-pm-2026-11-09@let
+ sdoitdallas.com
+DTSTAMP:20261110T000000Z
+DTSTART:20261110T000000Z
+DTEND:20261110T030000Z
+SUMMARY:Library Board Monthly Meeting
+LOCATION:City Hall · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-09&e=library-board-monthly-mee
+ ting%7Ccity-hall-garland%7C06-00-pm
+DESCRIPTION:6 p.m.\; The purpose of the Library Board is to advise the City
+  Council on problems relating to the Public Library and to recommend plans
+  and programs to promote the library system for the City. November 9\, 202
+ 6 06:00 PM - 07:00 PM 200 N. Fifth StreetGarland\, TX 75040 https://www. 
+ — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:jubin-nautiyal|curtis-culwell-center-garland|8-00-pm-2026-11-14@letsdoi
