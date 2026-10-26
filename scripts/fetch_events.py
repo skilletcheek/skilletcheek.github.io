@@ -438,10 +438,21 @@ def fetch_ics_feeds(start, end):
         # answers reads 0 -- an absent key has no baseline and never alarms.
         feed_key = f"ics_feeds ({urllib.parse.urlsplit(url).hostname})"
         _SUB_YIELDS[feed_key] = 0
+        # cache_bust: whatsupfortworth.com sits behind an nginx proxy cache
+        # that stores the export for 30 days (max-age=2592000, keyed on the
+        # full URL), so for three days in Oct 2026 the runner was handed a
+        # copy whose newest event had already passed -- "0 events from 30
+        # VEVENTs (30 before window)", a parse that looks healthy and a
+        # source that looks dead. A per-day param is a new cache key: the
+        # first run of the day reaches origin, the second gets that copy.
+        fetch_url = url
+        if feed.get("cache_bust"):
+            sep = "&" if urllib.parse.urlsplit(url).query else "?"
+            fetch_url = f"{url}{sep}ldd={start.strftime('%Y%m%d')}"
         lines = body = None
         for attempt in range(1, ICS_ATTEMPTS + 1):
             try:
-                body = http_text(url)
+                body = http_text(fetch_url)
                 lines = unfold_ics(body)
                 break
             except Exception as e:  # noqa: BLE001

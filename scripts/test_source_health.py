@@ -441,6 +441,28 @@ def test_ics_health():
     check("no SUMMARY faults", len(F._SOURCE_FAULTS), 1)
 
 
+def test_ics_cache_bust():
+    """whatsupfortworth.com's proxy cache kept serving a month-old export.
+    cache_bust must change only the URL fetched, never the yield key."""
+    print("ics_feeds: cache_bust fetches a per-day URL")
+    day = WINDOW[0].strftime("%Y%m%d")
+    cfg = {"ics_feeds": [{"url": "https://a.test/events/?ical=1", "area": "Fort Worth",
+                          "cache_bust": True},
+                         {"url": "https://b.test/y.ics", "area": "Denton", "cache_bust": True}]}
+    served = {f"https://a.test/events/?ical=1&ldd={day}": _ics(4),
+              f"https://b.test/y.ics?ldd={day}": _ics(3)}
+    F._SUB_YIELDS.clear()
+    F._SOURCE_FAULTS.clear()
+    rows = _with_feeds(cfg, served, F.fetch_ics_feeds)
+    check("both busted URLs fetched", len(rows), 7)
+    check("yield keys keep the bare host", sorted(F._SUB_YIELDS),
+          ["ics_feeds (a.test)", "ics_feeds (b.test)"])
+    cfg["ics_feeds"][1].pop("cache_bust")
+    F._SUB_YIELDS.clear()
+    rows = _with_feeds(cfg, {**served, "https://b.test/y.ics": _ics(3)}, F.fetch_ics_feeds)
+    check("a feed without it fetches the plain URL", len(rows), 7)
+
+
 def test_ics_per_feed_yield():
     """The blind spot two feeds created: UNT kept the ics_feeds TOTAL up, so
     What's Up Fort Worth could go dark without the total ever reaching zero."""
@@ -483,7 +505,7 @@ def main():
               test_bookkeeping, test_parse_health, test_civicplus_health,
               test_civicplus_multiday,
               test_prekindle_health, test_singles_health, test_ics_health,
-              test_ics_per_feed_yield):
+              test_ics_cache_bust, test_ics_per_feed_yield):
         t()
         print()
     if FAILURES:

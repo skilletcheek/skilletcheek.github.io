@@ -3,6 +3,8 @@
  "ics_feeds": [
   {
    "url": "https://whatsupfortworth.com/events/?ical=1",
+   "_note": "Behind an nginx proxy cache that holds the export for 30 days; cache_bust adds a per-day query param so each day's first run reaches origin (it served a copy ending Oct 25 to the 2026-10-24..26 runs).",
+   "cache_bust": true,
    "area": "Fort Worth",
    "category": "festival",
    "fallback_url": "https://whatsupfortworth.com/events/"
