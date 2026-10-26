@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:north-texas-mean-green-men-s-basketball-vs-northwestern-state-demons-me
- ns-basketball-exhibition-|unt-superpit-denton|see-details-2026-10-26@letsd
- oitdallas.com
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-SUMMARY:North Texas Mean Green Men's Basketball vs Northwestern State Demon
- s Mens Basketball (Exhibition)
-LOCATION:UNT Superpit · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-26&e=north-texas-mean-green-me
- n-s-basketball-vs-northwestern-state-demons-mens-basketball-exhibition-%7C
- unt-superpit-denton%7Csee-details
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
 UID:graham-hunt|rubber-gloves-denton|7-00-pm-2026-10-26@letsdoitdallas.com
 DTSTAMP:20261027T000000Z
 DTSTART:20261027T000000Z
@@ -35,6 +19,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-26&e=graham-hunt%7Crubber-glov
  es-denton%7C7-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-men-s-basketball-vs-northwestern-state-demons-me
+ ns-basketball-exhibition-|unt-superpit-denton|7-00-pm-2026-10-26@letsdoitd
+ allas.com
+DTSTAMP:20261027T000000Z
+DTSTART:20261027T000000Z
+DTEND:20261027T030000Z
+SUMMARY:North Texas Mean Green Men's Basketball vs Northwestern State Demon
+ s Mens Basketball (Exhibition)
+LOCATION:UNT Superpit · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=north-texas-mean-green-me
+ n-s-basketball-vs-northwestern-state-demons-mens-basketball-exhibition-%7C
+ unt-superpit-denton%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
 UID:senior-recital-landon-murr-bassoon|paul-voertman-concert-hall-at-the-mu
@@ -151,20 +151,6 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/city/denton/
 END:VEVENT
 BEGIN:VEVENT
-UID:north-texas-mean-green-football-vs-florida-atlantic-owls-football|datcu
- -stadium-denton|see-details-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261029T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:North Texas Mean Green Football vs. Florida Atlantic Owls Football
-LOCATION:DATCU Stadium · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=north-texas-mean-green-fo
- otball-vs-florida-atlantic-owls-football%7Cdatcu-stadium-denton%7Csee-deta
- ils
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
 UID:doctoral-lecture-recital-tao-jiang-piano|recital-hall-at-the-music-buil
  ding-denton|12-00-pm-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261029T170000Z
@@ -179,6 +165,19 @@ DESCRIPTION:Important Links and Information      Program  Please note\, thi
   of the performance.      Livestream is not available for this event.     
    This event is free and open to the public with general seating. — More
  : https://letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-football-vs-florida-atlantic-owls-football|datcu
+ -stadium-denton|6-30-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261029T233000Z
+DTSTART:20261029T233000Z
+DTEND:20261030T023000Z
+SUMMARY:North Texas Mean Green Football vs. Florida Atlantic Owls Football
+LOCATION:DATCU Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=north-texas-mean-green-fo
+ otball-vs-florida-atlantic-owls-football%7Cdatcu-stadium-denton%7C6-30-pm
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
 UID:utsa-womens-soccer-at-north-texas-womens-soccer|norma-knobel-hunt-stadi

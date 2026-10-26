@@ -24,22 +24,6 @@ DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/
 END:VEVENT
 BEGIN:VEVENT
-UID:north-texas-mean-green-men-s-basketball-vs-northwestern-state-demons-me
- ns-basketball-exhibition-|unt-superpit-denton|see-details-2026-10-26@letsd
- oitdallas.com
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-SUMMARY:North Texas Mean Green Men's Basketball vs Northwestern State Demon
- s Mens Basketball (Exhibition)
-LOCATION:UNT Superpit · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-26&e=north-texas-mean-green-me
- n-s-basketball-vs-northwestern-state-demons-mens-basketball-exhibition-%7C
- unt-superpit-denton%7Csee-details
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:planning-passport|mckinney|see-details-2026-10-26@letsdoitdallas.com
 DTSTAMP:20261026T000000Z
 DTSTART;VALUE=DATE:20261026
@@ -49,6 +33,22 @@ LOCATION:McKinney
 URL:https://letsdoitdallas.com/?date=2026-10-26&e=planning-passport%7Cmckin
  ney%7Csee-details
 DESCRIPTION:Runs Oct 8 – Oct 31. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-26@letsdoitdallas.com
+DTSTAMP:20261026T130000Z
+DTSTART:20261026T130000Z
+DTEND:20261026T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:32nd-annual-phil-berry-golf-tournament|stonebriar-country-club-frisco|1
@@ -67,59 +67,22 @@ DESCRIPTION:The Phil Berry Transplant Tournament is a critical funding sour
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:stem-lab-18-|grapevine|10-00-am-2026-10-26@letsdoitdallas.com
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-26@lets
+ doitdallas.com
 DTSTAMP:20261026T150000Z
 DTSTART:20261026T150000Z
 DTEND:20261026T180000Z
-SUMMARY:STEM Lab (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-26&e=stem-lab-18-%7Cgrapevine%
- 7C10-00-am
-DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
- at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
- ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
- edgeable staff will be available to provide guidance\, tips\, and support 
- as — More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:smart-start-garland-school-readiness-workshops|central-library-garland|
- 10-00-am-2026-10-26@letsdoitdallas.com
-DTSTAMP:20261026T150000Z
-DTSTART:20261026T150000Z
-DTEND:20261026T180000Z
-SUMMARY:Smart Start Garland: School Readiness Workshops
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-26&e=smart-start-garland-schoo
- l-readiness-workshops%7Ccentral-library-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Set your child on the path for school success with
-  Smart Start Garland! This six-week school readiness program will introduc
- e children to fundamental skills and behaviors that will help them thrive 
- in a learning environment\, while also providing support and resources —
-  More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-10-26@
- letsdoitdallas.com
-DTSTAMP:20261026T153000Z
-DTSTART:20261026T153000Z
-DTEND:20261026T183000Z
-SUMMARY:Baby & Me (0-10 Months)
-LOCATION:6861 W. Eldorado Pkwy. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-26&e=baby-me-0-10-months-%7C68
- 61-w-eldorado-pkwy-mckinney%7C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:chair-volleyball|310-e-parkerville-road-cedar-hill|11-00-am-2026-10-26@
- letsdoitdallas.com
-DTSTAMP:20261026T160000Z
-DTSTART:20261026T160000Z
-DTEND:20261026T190000Z
-SUMMARY:Chair Volleyball
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-26&e=chair-volleyball%7C310-e-
- parkerville-road-cedar-hill%7C11-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:worlds-2026-swiss-4|credit-union-of-texas-event-center-allen|12-00-pm-2
@@ -133,19 +96,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-26&e=worlds-2026-swiss-4%7Ccre
  dit-union-of-texas-event-center-allen%7C12-00-pm
 DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
  s.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-10-26@
- letsdoitdallas.com
-DTSTAMP:20261026T173000Z
-DTSTART:20261026T173000Z
-DTEND:20261026T203000Z
-SUMMARY:Legacy of the Longhorn
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-26&e=legacy-of-the-longhorn%7C
- cowtown-coliseum-fort-worth%7C12-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/
 END:VEVENT
 BEGIN:VEVENT
 UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
@@ -331,6 +281,37 @@ URL:https://letsdoitdallas.com/?date=2026-10-26&e=next-gen-art-lab%7C1700-v
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:north-texas-mean-green-men-s-basketball-vs-northwestern-state-demons-me
+ ns-basketball-exhibition-|unt-superpit-denton|7-00-pm-2026-10-26@letsdoitd
+ allas.com
+DTSTAMP:20261027T000000Z
+DTSTART:20261027T000000Z
+DTEND:20261027T030000Z
+SUMMARY:North Texas Mean Green Men's Basketball vs Northwestern State Demon
+ s Mens Basketball (Exhibition)
+LOCATION:UNT Superpit · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=north-texas-mean-green-me
+ n-s-basketball-vs-northwestern-state-demons-mens-basketball-exhibition-%7C
+ unt-superpit-denton%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-vs-philadelphia|texas-live-1650-east-randol-mill-road-arlington-
+ 76011-united-states|7-15-pm-2026-10-26@letsdoitdallas.com
+DTSTAMP:20261027T001500Z
+DTSTART:20261027T001500Z
+DTEND:20261027T031500Z
+SUMMARY:Dallas VS Philadelphia
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=dallas-vs-philadelphia%7C
+ texas-live-1650-east-randol-mill-road-arlington-76011-united-states%7C7-15
+ -pm
+DESCRIPTION:The 2026 Dallas football season is coming—reserve your table 
+ now for the ultimate game day experience. — More: https://letsdoitdallas
+ .com/
+END:VEVENT
+BEGIN:VEVENT
 UID:lp-dance-ages-3-7-|310-e-parkerville-road-cedar-hill|07-15-pm-2026-10-2
  6@letsdoitdallas.com
 DTSTAMP:20261027T001500Z
@@ -341,6 +322,24 @@ LOCATION:310 E. Parkerville Road · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-10-26&e=lp-dance-ages-3-7-%7C310-
  e-parkerville-road-cedar-hill%7C07-15-pm
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-big-laugh-open-mic|big-laugh-comedy-club-fort-worth-604-main-st-sui
+ te-100-fort-worth-tx-76102-united-states|8-00-pm-2026-10-26@letsdoitdallas
+ .com
+DTSTAMP:20261027T010000Z
+DTSTART:20261027T010000Z
+DTEND:20261027T040000Z
+SUMMARY:The Big Laugh Open Mic
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-26&e=the-big-laugh-open-mic%7C
+ big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102
+ -united-states%7C8-00-pm
+DESCRIPTION:Have you wondered to yourself\, “where can I go on a Monday t
+ o get a good laugh?” Look no further because we have the spot for you. T
+ he Big Laugh Open Mic is a perfect setting for anyone who is looking to la
+ ugh and have a good time.  So grab your grandma or your side piece and hea
+  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|9-00-
@@ -381,6 +380,36 @@ URL:https://letsdoitdallas.com/?date=2026-10-27&e=planning-passport%7Cmckin
 DESCRIPTION:Runs Oct 8 – Oct 31. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:dock-open-mic|dock-bookshop-6637-meadowbrook-dr-fort-worth-tx-75116|7-0
+ 0-am-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261027T120000Z
+DTSTART:20261027T120000Z
+DTEND:20261027T150000Z
+SUMMARY:Dock Open Mic
+LOCATION:dock bookshop · Fort Worth Tx
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=dock-open-mic%7Cdock-book
+ shop-6637-meadowbrook-dr-fort-worth-tx-75116%7C7-00-am
+DESCRIPTION:The Dock open mic presents Speak And Be Published. Everyone who
+  reads gets their poem published in an anthology   June 16\, 2026 at 7:30 
+ PM CDT  The Dock Bookshop  $7 — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261027T130000Z
+DTSTART:20261027T130000Z
+DTEND:20261027T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:visit-mckinney-mckinney-convention-visitors-bureau-|401-e-virginia-st-m
  ckinney|08-00-am-2026-10-27@letsdoitdallas.com
 DTSTAMP:20261027T130000Z
@@ -391,6 +420,22 @@ LOCATION:401 E. Virginia St. · McKinney
 URL:https://letsdoitdallas.com/?date=2026-10-27&e=visit-mckinney-mckinney-c
  onvention-visitors-bureau-%7C401-e-virginia-st-mckinney%7C08-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:member-morning|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|9-00-am-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261027T140000Z
+DTSTART:20261027T140000Z
+DTEND:20261027T170000Z
+SUMMARY:Member Morning
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=member-morning%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C9-00-am
+DESCRIPTION:Museum Members get early entry to the TCU Children’s Gallery 
+ every Tuesday from 9AM-10AM!  Early entry only applies to the TCU Children
+ ’s Gallery\, the rest of the Museum opens at 10AM.  Not a Member yet? Cl
+ ick here to join! — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:tiny-tots-sensory-adventures|1700-veterans-memorial-parkway-lancaster|0
@@ -419,6 +464,41 @@ DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
  our own projects or start something new. Bring your own project and ideas!
   This is a welcoming space for creatives 18+. *Library Card Required* Octo
  ber 27\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grapev 
+ — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261027T150000Z
+DTSTART:20261027T150000Z
+DTEND:20261027T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-27@lets
+ doitdallas.com
+DTSTAMP:20261027T150000Z
+DTSTART:20261027T150000Z
+DTEND:20261027T180000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
  — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
@@ -460,6 +540,23 @@ LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-10-27&e=wobblers-walkers-10-20-mo
  nths-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:county-line-records-wmg-vinyl-take-back-event|county-line-records-600-n
+ -main-st-building-b-keller-tx-76248-united-states|11-00-am-2026-10-27@lets
+ doitdallas.com
+DTSTAMP:20261027T160000Z
+DTSTART:20261027T160000Z
+DTEND:20261027T190000Z
+SUMMARY:County Line Records & WMG Vinyl Take-Back Event
+LOCATION:County Line Records · Keller
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=county-line-records-wmg-v
+ inyl-take-back-event%7Ccounty-line-records-600-n-main-st-building-b-keller
+ -tx-76248-united-states%7C11-00-am
+DESCRIPTION:Drop into County Line Records for an afternoon of crate digging
+ . While you’re there drop off your damaged or unplayable vinyl records t
+ o help support vinyl recycling efforts! Collection bins will be out throug
+ h the end of September. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:spooky-storytime-0-5-years-|central-library-garland|11-00-am-2026-10-27
@@ -1032,6 +1129,23 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/
 END:VEVENT
 BEGIN:VEVENT
+UID:-2-tuesdays-live-at-tulips-ftw|tulips-ftw-112-saint-louis-avenue-fort-w
+ orth-76104-united-states|8-00-pm-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261028T010000Z
+DTSTART:20261028T010000Z
+DTEND:20261028T040000Z
+SUMMARY:$2 Tuesdays: Live at Tulips FTW
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=-2-tuesdays-live-at-tulip
+ s-ftw%7Ctulips-ftw-112-saint-louis-avenue-fort-worth-76104-united-states%7
+ C8-00-pm
+DESCRIPTION:Blackstone Recording Studio presents $2 Tuesdays: Live at Tulip
+ s FTW  Doors: 7pm | Show: 8pm  Tickets: $2  Tuesdays are for the scene\, t
+ he artists\, the locals who need to see and support their favorite musicia
+ ns paving the way for the great talent within this eclectic musical eco 
+ — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:graduate-artist-recital-hye-in-roh-piano|lab-west-at-the-music-building
  -denton|8-00-pm-2026-10-27@letsdoitdallas.com
 DTSTAMP:20261028T010000Z
@@ -1113,6 +1227,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-28&e=poor-david-s-open-mic-hos
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-28@letsdoitdallas.com
+DTSTAMP:20261028T130000Z
+DTSTART:20261028T130000Z
+DTEND:20261028T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:55-fitness-class|310-e-parkerville-road-cedar-hill|08-15-am-2026-10-28@
  letsdoitdallas.com
 DTSTAMP:20261028T131500Z
@@ -1167,6 +1297,41 @@ DESCRIPTION:Whether you’re planning for college after high school\, looki
  eview Days can help you take the next step. October 28\, 2026 10:00 AM - 0
  2:00 PM 3737 Motley DriveMesquite\, TX 75150 https://www.cedarhilltx.com/C
  a — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-28@letsdoitdallas.com
+DTSTAMP:20261028T150000Z
+DTSTART:20261028T150000Z
+DTEND:20261028T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-10-28@lets
+ doitdallas.com
+DTSTAMP:20261028T150000Z
+DTSTART:20261028T150000Z
+DTEND:20261028T180000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:stem-lab-18-|grapevine|10-00-am-2026-10-28@letsdoitdallas.com
@@ -1250,6 +1415,42 @@ DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are
  se stop at the Children's Desk 15 minutes before the program to receive ti
  ckets. 1 per attendee.) October 28\, 2026 10:30 AM - 11:00 AM Grapevine\, 
  — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:county-line-records-wmg-vinyl-take-back-event|county-line-records-600-n
+ -main-st-building-b-keller-tx-76248-united-states|11-00-am-2026-10-28@lets
+ doitdallas.com
+DTSTAMP:20261028T160000Z
+DTSTART:20261028T160000Z
+DTEND:20261028T190000Z
+SUMMARY:County Line Records & WMG Vinyl Take-Back Event
+LOCATION:County Line Records · Keller
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=county-line-records-wmg-v
+ inyl-take-back-event%7Ccounty-line-records-600-n-main-st-building-b-keller
+ -tx-76248-united-states%7C11-00-am
+DESCRIPTION:Drop into County Line Records for an afternoon of crate digging
+ . While you’re there drop off your damaged or unplayable vinyl records t
+ o help support vinyl recycling efforts! Collection bins will be out throug
+ h the end of September. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:national-multi-cultural-western-heritage-museum|the-national-multicultu
+ ral-western-heritage-museum-2201-dottie-lynn-pkwy-suite-115-fort-worth-761
+ 20-united-states|11-00-am-2026-10-28@letsdoitdallas.com
+DTSTAMP:20261028T160000Z
+DTSTART:20261028T160000Z
+DTEND:20261028T190000Z
+SUMMARY:National Multi Cultural Western Heritage Museum
+LOCATION:The National Multicultural Western Heritage Museum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=national-multi-cultural-w
+ estern-heritage-museum%7Cthe-national-multicultural-western-heritage-museu
+ m-2201-dottie-lynn-pkwy-suite-115-fort-worth-76120-united-states%7C11-00-a
+ m
+DESCRIPTION:The primary objective of the National Multicultural Western Her
+ itage Museum and Hall of Fame is to offer the visitor a true and complete 
+ historical perspective of the people and activities that built the unique 
+ culture of the American West. The work of artists who documented the — M
+ ore: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:play-learn-0-5-years-|north-garland-library-garland|11-00-am-2026-10-28
@@ -1576,6 +1777,36 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/
 END:VEVENT
 BEGIN:VEVENT
+UID:no-blues-rock-jam-|fat-daddy-s-mansfield-781-west-debbie-lane-mansfield
+ -76063-united-states|7-00-pm-2026-10-28@letsdoitdallas.com
+DTSTAMP:20261029T000000Z
+DTSTART:20261029T000000Z
+DTEND:20261029T030000Z
+SUMMARY:NO BLUES Rock Jam!
+LOCATION:Fat Daddy’s Mansfield
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=no-blues-rock-jam-%7Cfat-
+ daddy-s-mansfield-781-west-debbie-lane-mansfield-76063-united-states%7C7-0
+ 0-pm
+DESCRIPTION:presented by Daniel “Skeetholio” Ellsberg No Blues Allowed.
+  Just Rock n Roll Every Wednesday Night 7-10PM NO COVER CHARGE! — More: 
+ https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:steve-helms-|-4th-wednesday|magnolia-motor-lounge-3803-southwest-blvd-f
+ ort-worth-76116-united-states|7-00-pm-2026-10-28@letsdoitdallas.com
+DTSTAMP:20261029T000000Z
+DTSTART:20261029T000000Z
+DTEND:20261029T030000Z
+SUMMARY:STEVE HELMS | 4th Wednesday
+LOCATION:Magnolia Motor Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=steve-helms-%7C-4th-wedne
+ sday%7Cmagnolia-motor-lounge-3803-southwest-blvd-fort-worth-76116-united-s
+ tates%7C7-00-pm
+DESCRIPTION:STEVE HELMS | 4th Wednesday Every 4th Wednesday at 9:00PM   No 
+ cover / No Ticket Needed      Ages 21+ @outhouseticketsShare it and tag a
+  few friends! — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:lp-dance-ages-3-7-|310-e-parkerville-road-cedar-hill|07-15-pm-2026-10-2
  8@letsdoitdallas.com
 DTSTAMP:20261029T001500Z
@@ -1612,6 +1843,19 @@ URL:https://letsdoitdallas.com/?date=2026-10-28&e=james-tom-goes-on-a-mini-
  tour-casual-style%7Cpunch-line-irving-irving%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/
+END:VEVENT
+BEGIN:VEVENT
+UID:jim-milan-s-bucket-list-jazz-band|tulips-ftw-112-saint-louis-avenue-for
+ t-worth-76104-united-states|7-30-pm-2026-10-28@letsdoitdallas.com
+DTSTAMP:20261029T003000Z
+DTSTART:20261029T003000Z
+DTEND:20261029T033000Z
+SUMMARY:Jim Milan's Bucket List Jazz Band
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=jim-milan-s-bucket-list-j
+ azz-band%7Ctulips-ftw-112-saint-louis-avenue-fort-worth-76104-united-state
+ s%7C7-30-pm
+DESCRIPTION:Event Details — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:kinda-kinks-w-the-rubinoos|arlington-music-hall-arlington|7-30-pm-2026-
@@ -1677,6 +1921,24 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/
 END:VEVENT
 BEGIN:VEVENT
+UID:whiskey-laughs-wednesdays|big-laugh-comedy-club-fort-worth-604-main-st-
+ suite-100-fort-worth-tx-76102-united-states|8-00-pm-2026-10-28@letsdoitdal
+ las.com
+DTSTAMP:20261029T010000Z
+DTSTART:20261029T010000Z
+DTEND:20261029T040000Z
+SUMMARY:Whiskey + Laughs Wednesdays
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=whiskey-laughs-wednesdays
+ %7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76
+ 102-united-states%7C8-00-pm
+DESCRIPTION:Do you sit around thinking to yourself\, “where could I go on
+  a Wednesday to get some laughs and drink some whiskey”?  You’ve turne
+ d to the right place. The Big Laugh Comedy Club + Big Laugh Bistro is the 
+ place for you to laugh till your face hurts\, eat delicious food\, and dri
+ nk a — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-mavericks-vs-oklahoma-city-thunder|american-airlines-center-dall
  as|8-30-pm-2026-10-28@letsdoitdallas.com
 DTSTAMP:20261029T013000Z
@@ -1690,18 +1952,22 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:north-texas-mean-green-football-vs-florida-atlantic-owls-football|datcu
- -stadium-denton|see-details-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261029T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:North Texas Mean Green Football vs. Florida Atlantic Owls Football
-LOCATION:DATCU Stadium · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=north-texas-mean-green-fo
- otball-vs-florida-atlantic-owls-football%7Cdatcu-stadium-denton%7Csee-deta
- ils
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/
+UID:wizop-wednesday-s-open-mic-night|big-laugh-comedy-club-fort-worth-604-m
+ ain-st-suite-100-fort-worth-tx-76102-united-states|9-30-pm-2026-10-28@lets
+ doitdallas.com
+DTSTAMP:20261029T023000Z
+DTSTART:20261029T023000Z
+DTEND:20261029T053000Z
+SUMMARY:Wizop Wednesday's Open Mic Night
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=wizop-wednesday-s-open-mi
+ c-night%7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-wort
+ h-tx-76102-united-states%7C9-30-pm
+DESCRIPTION:Wizop Wednesdays: Open Mic Comedy  Looking for a midweek jolt o
+ f ridiculous? Wizop Wednesdays is where fresh jokes are born\, wild bits g
+ et tested\, and legends-in-the-making grab the mic. It’s raw\, fast\, an
+ d absolutely addictive\, your new Wednesday night ritual.  Expect lightnin
+ g- — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:planning-passport|mckinney|see-details-2026-10-29@letsdoitdallas.com
@@ -1713,6 +1979,19 @@ LOCATION:McKinney
 URL:https://letsdoitdallas.com/?date=2026-10-29&e=planning-passport%7Cmckin
  ney%7Csee-details
 DESCRIPTION:Runs Oct 8 – Oct 31. — More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:poweri-racing|texas-motor-speedway-3545-lone-star-circle-fort-fort-wort
+ h-76177-united-states|all-day-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Poweri Racing
+LOCATION:Texas Motor Speedway · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=poweri-racing%7Ctexas-mot
+ or-speedway-3545-lone-star-circle-fort-fort-worth-76177-united-states%7Cal
+ l-day
+DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:allen-americans-vs-idaho-steelheads|comerica-center-frisco|10-00-am-202
@@ -2114,6 +2393,19 @@ DESCRIPTION:6:00 p.m.\; Are you an aspiring business owner or an entreprene
  Daniela Gonzalez\, owner of Dani's Bookshelf & More. Daniela will share he
  r experiences as a business owner and discuss the challenges that come —
   More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-football-vs-florida-atlantic-owls-football|datcu
+ -stadium-denton|6-30-pm-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261029T233000Z
+DTSTART:20261029T233000Z
+DTEND:20261030T023000Z
+SUMMARY:North Texas Mean Green Football vs. Florida Atlantic Owls Football
+LOCATION:DATCU Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=north-texas-mean-green-fo
+ otball-vs-florida-atlantic-owls-football%7Cdatcu-stadium-denton%7C6-30-pm
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:zumba-in-the-park|104-s-broad-st-cedar-hill|06-45-pm-2026-10-29@letsdoi
@@ -5672,17 +5964,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-02&e=next-gen-art-lab%7C1700-v
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:southern-university-at-smu|moody-coliseum-dallas|7-00-pm-2026-11-02@let
- sdoitdallas.com
+UID:smu-mustangs-mens-basketball-vs-southern-jaguars-basketball|moody-colis
+ eum-dallas|7-00-pm-2026-11-02@letsdoitdallas.com
 DTSTAMP:20261103T010000Z
 DTSTART:20261103T010000Z
 DTEND:20261103T040000Z
-SUMMARY:Southern University at SMU
+SUMMARY:SMU Mustangs Mens Basketball vs. Southern Jaguars Basketball
 LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=southern-university-at-sm
- u%7Cmoody-coliseum-dallas%7C7-00-pm
-DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
- allas.com/
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=smu-mustangs-mens-basketb
+ all-vs-southern-jaguars-basketball%7Cmoody-coliseum-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:steven-curtis-chapman|eisemann-center-richardson|7-00-pm-2026-11-02@let
@@ -7738,6 +8030,21 @@ URL:https://letsdoitdallas.com/?date=2026-11-05&e=jay-s-swing-camp%7C310-e-
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:smu-mustangs-mens-basketball-vs-virginia-military-institute-mens-basket
+ ball|moody-coliseum-dallas|7-00-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261106T010000Z
+DTSTART:20261106T010000Z
+DTEND:20261106T040000Z
+SUMMARY:SMU Mustangs Mens Basketball vs. Virginia Military Institute Mens B
+ asketball
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=smu-mustangs-mens-basketb
+ all-vs-virginia-military-institute-mens-basketball%7Cmoody-coliseum-dallas
+ %7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:surviving-world-war-ii-adults-|6861-w-eldorado-pkwy-mckinney|07-00-pm-2
  026-11-05@letsdoitdallas.com
 DTSTAMP:20261106T010000Z
@@ -7790,18 +8097,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-05&e=twitty-and-lynn-a-salute-
  to-conway-loretta-presented-by-mepop-llc-anjoli-productions%7C521-w-state-
  street-garland%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:vmi-at-smu|moody-coliseum-dallas|7-00-pm-2026-11-05@letsdoitdallas.com
-DTSTAMP:20261106T010000Z
-DTSTART:20261106T010000Z
-DTEND:20261106T040000Z
-SUMMARY:VMI at SMU
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=vmi-at-smu%7Cmoody-colise
- um-dallas%7C7-00-pm
-DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
- allas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
@@ -8633,6 +8928,19 @@ SUMMARY:Ian Lara
 LOCATION:Dallas Comedy Club - Mainstage Theater
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=ian-lara%7Cdallas-comedy-
  club-mainstage-theater-dallas%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:ryan-hamilton-18-|the-addison-improv-addison|7-30-pm-2026-11-06@letsdoi
+ tdallas.com
+DTSTAMP:20261107T013000Z
+DTSTART:20261107T013000Z
+DTEND:20261107T043000Z
+SUMMARY:Ryan Hamilton (18+)
+LOCATION:The Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=ryan-hamilton-18-%7Cthe-a
+ ddison-improv-addison%7C7-30-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /
 END:VEVENT
@@ -10824,6 +11132,21 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:smu-mustangs-mens-basketball-vs-prairie-view-a-m-panthers-mens-basketba
+ ll|moody-coliseum-dallas|7-00-pm-2026-11-10@letsdoitdallas.com
+DTSTAMP:20261111T010000Z
+DTSTART:20261111T010000Z
+DTEND:20261111T040000Z
+SUMMARY:SMU Mustangs Mens Basketball vs. Prairie View A & M Panthers Mens B
+ asketball
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=smu-mustangs-mens-basketb
+ all-vs-prairie-view-a-m-panthers-mens-basketball%7Cmoody-coliseum-dallas%7
+ C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:speed-dating-in-prosper-singles-30s-40s|black-hawk-brewery-prosper|7-00
  -pm-2026-11-10@letsdoitdallas.com
 DTSTAMP:20261111T010000Z
@@ -11069,6 +11392,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-11&e=inayah-therapy-wasn-t-eno
  7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:mikey-b|addison-improv-addison|7-00-pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T010000Z
+DTSTART:20261112T010000Z
+DTEND:20261112T040000Z
+SUMMARY:Mikey B
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=mikey-b%7Caddison-improv-
+ addison%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/
 END:VEVENT
 BEGIN:VEVENT
 UID:movements-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory-
@@ -13095,6 +13430,21 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/
 END:VEVENT
 BEGIN:VEVENT
+UID:smu-mustangs-mens-basketball-vs-oral-roberts-golden-eagles-mens-basketb
+ all|moody-coliseum-dallas|7-00-pm-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261118T010000Z
+DTSTART:20261118T010000Z
+DTEND:20261118T040000Z
+SUMMARY:SMU Mustangs Mens Basketball vs. Oral Roberts Golden Eagles Mens Ba
+ sketball
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=smu-mustangs-mens-basketb
+ all-vs-oral-roberts-golden-eagles-mens-basketball%7Cmoody-coliseum-dallas%
+ 7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:speed-dating-in-burleson-cancelled-all-single-professionals-35-50|old-t
  exas-brewing-burleson-burleson|7-00-pm-2026-11-17@letsdoitdallas.com
 DTSTAMP:20261118T010000Z
@@ -13917,6 +14267,21 @@ URL:https://letsdoitdallas.com/?date=2026-11-20&e=heal-the-hurt-magdalene-r
  ose-unbroken-reign%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/
+END:VEVENT
+BEGIN:VEVENT
+UID:smu-mustangs-mens-basketball-vs-south-alabama-jaguars-mens-basketball|m
+ oody-coliseum-dallas|7-00-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T010000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:SMU Mustangs Mens Basketball vs. South Alabama Jaguars Mens Basketb
+ all
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=smu-mustangs-mens-basketb
+ all-vs-south-alabama-jaguars-mens-basketball%7Cmoody-coliseum-dallas%7C7-0
+ 0-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:syd-beard-tour|house-of-blues-dallas-dallas|7-00-pm-2026-11-20@letsdoit

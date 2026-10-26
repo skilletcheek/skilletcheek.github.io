@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tulips FTW — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Tulips FTW.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:-2-tuesdays-live-at-tulips-ftw|tulips-ftw-112-saint-louis-avenue-fort-w
+ orth-76104-united-states|8-00-pm-2026-10-27@letsdoitdallas.com
+DTSTAMP:20261028T010000Z
+DTSTART:20261028T010000Z
+DTEND:20261028T040000Z
+SUMMARY:$2 Tuesdays: Live at Tulips FTW
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-27&e=-2-tuesdays-live-at-tulip
+ s-ftw%7Ctulips-ftw-112-saint-louis-avenue-fort-worth-76104-united-states%7
+ C8-00-pm
+DESCRIPTION:Blackstone Recording Studio presents $2 Tuesdays: Live at Tulip
+ s FTW  Doors: 7pm | Show: 8pm  Tickets: $2  Tuesdays are for the scene\, t
+ he artists\, the locals who need to see and support their favorite musicia
+ ns paving the way for the great talent within this eclectic musical eco 
+ — More: https://letsdoitdallas.com/venue/tulips-ftw/
+END:VEVENT
+BEGIN:VEVENT
+UID:jim-milan-s-bucket-list-jazz-band|tulips-ftw-112-saint-louis-avenue-for
+ t-worth-76104-united-states|7-30-pm-2026-10-28@letsdoitdallas.com
+DTSTAMP:20261029T003000Z
+DTSTART:20261029T003000Z
+DTEND:20261029T033000Z
+SUMMARY:Jim Milan's Bucket List Jazz Band
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-28&e=jim-milan-s-bucket-list-j
+ azz-band%7Ctulips-ftw-112-saint-louis-avenue-fort-worth-76104-united-state
+ s%7C7-30-pm
+DESCRIPTION:Event Details — More: https://letsdoitdallas.com/venue/tulips
+ -ftw/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-shadow|tulips-ftw-fort-worth|8-00-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261101T010000Z
+DTSTART:20261101T010000Z
+DTEND:20261101T040000Z
+SUMMARY:DJ Shadow
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=dj-shadow%7Ctulips-ftw-fo
+ rt-worth%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/tulips-ftw/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-shadow|tulips-ftw-fort-worth|8-00-pm-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261102T020000Z
+DTSTART:20261102T020000Z
+DTEND:20261102T050000Z
+SUMMARY:DJ Shadow
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=dj-shadow%7Ctulips-ftw-fo
+ rt-worth%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/tulips-ftw/
+END:VEVENT
+END:VCALENDAR

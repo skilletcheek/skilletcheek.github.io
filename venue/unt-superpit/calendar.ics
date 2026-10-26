@@ -10,17 +10,17 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:north-texas-mean-green-men-s-basketball-vs-northwestern-state-demons-me
- ns-basketball-exhibition-|unt-superpit-denton|see-details-2026-10-26@letsd
- oitdallas.com
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+ ns-basketball-exhibition-|unt-superpit-denton|7-00-pm-2026-10-26@letsdoitd
+ allas.com
+DTSTAMP:20261027T000000Z
+DTSTART:20261027T000000Z
+DTEND:20261027T030000Z
 SUMMARY:North Texas Mean Green Men's Basketball vs Northwestern State Demon
  s Mens Basketball (Exhibition)
 LOCATION:UNT Superpit · Denton
 URL:https://letsdoitdallas.com/?date=2026-10-26&e=north-texas-mean-green-me
  n-s-basketball-vs-northwestern-state-demons-mens-basketball-exhibition-%7C
- unt-superpit-denton%7Csee-details
+ unt-superpit-denton%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/unt-superpit/
 END:VEVENT

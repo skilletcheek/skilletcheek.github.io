@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:smart-start-garland-school-readiness-workshops|central-library-garland|
- 10-00-am-2026-10-26@letsdoitdallas.com
-DTSTAMP:20261026T150000Z
-DTSTART:20261026T150000Z
-DTEND:20261026T180000Z
-SUMMARY:Smart Start Garland: School Readiness Workshops
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-26&e=smart-start-garland-schoo
- l-readiness-workshops%7Ccentral-library-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Set your child on the path for school success with
-  Smart Start Garland! This six-week school readiness program will introduc
- e children to fundamental skills and behaviors that will help them thrive 
- in a learning environment\, while also providing support and resources —
-  More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:grow-with-google-learn-the-basics-of-google-ads-ages-18-|central-librar
  y-garland|06-00-pm-2026-10-26@letsdoitdallas.com
 DTSTAMP:20261026T230000Z

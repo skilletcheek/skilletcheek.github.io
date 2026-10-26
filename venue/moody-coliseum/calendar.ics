@@ -24,17 +24,17 @@ DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
  tsdoitdallas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
-UID:southern-university-at-smu|moody-coliseum-dallas|7-00-pm-2026-11-02@let
- sdoitdallas.com
+UID:smu-mustangs-mens-basketball-vs-southern-jaguars-basketball|moody-colis
+ eum-dallas|7-00-pm-2026-11-02@letsdoitdallas.com
 DTSTAMP:20261103T010000Z
 DTSTART:20261103T010000Z
 DTEND:20261103T040000Z
-SUMMARY:Southern University at SMU
+SUMMARY:SMU Mustangs Mens Basketball vs. Southern Jaguars Basketball
 LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=southern-university-at-sm
- u%7Cmoody-coliseum-dallas%7C7-00-pm
-DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
- allas.com/venue/moody-coliseum/
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=smu-mustangs-mens-basketb
+ all-vs-southern-jaguars-basketball%7Cmoody-coliseum-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:le-moyne-dolphins-at-smu-mustangs-womens-basketball|moody-coliseum-dall
@@ -63,16 +63,19 @@ DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
  tsdoitdallas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
-UID:vmi-at-smu|moody-coliseum-dallas|7-00-pm-2026-11-05@letsdoitdallas.com
+UID:smu-mustangs-mens-basketball-vs-virginia-military-institute-mens-basket
+ ball|moody-coliseum-dallas|7-00-pm-2026-11-05@letsdoitdallas.com
 DTSTAMP:20261106T010000Z
 DTSTART:20261106T010000Z
 DTEND:20261106T040000Z
-SUMMARY:VMI at SMU
+SUMMARY:SMU Mustangs Mens Basketball vs. Virginia Military Institute Mens B
+ asketball
 LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=vmi-at-smu%7Cmoody-colise
- um-dallas%7C7-00-pm
-DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
- allas.com/venue/moody-coliseum/
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=smu-mustangs-mens-basketb
+ all-vs-virginia-military-institute-mens-basketball%7Cmoody-coliseum-dallas
+ %7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-north-carolina-tar-heels-womens-volle
@@ -105,6 +108,21 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
+UID:smu-mustangs-mens-basketball-vs-prairie-view-a-m-panthers-mens-basketba
+ ll|moody-coliseum-dallas|7-00-pm-2026-11-10@letsdoitdallas.com
+DTSTAMP:20261111T010000Z
+DTSTART:20261111T010000Z
+DTEND:20261111T040000Z
+SUMMARY:SMU Mustangs Mens Basketball vs. Prairie View A & M Panthers Mens B
+ asketball
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=smu-mustangs-mens-basketb
+ all-vs-prairie-view-a-m-panthers-mens-basketball%7Cmoody-coliseum-dallas%7
+ C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-louisville-cardinals-womens-volleybal
  l|moody-coliseum-dallas|see-details-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261113T000000Z
@@ -133,5 +151,35 @@ URL:https://letsdoitdallas.com/?date=2026-11-15&e=smu-mustangs-womens-volle
  as%7C1-00-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:smu-mustangs-mens-basketball-vs-oral-roberts-golden-eagles-mens-basketb
+ all|moody-coliseum-dallas|7-00-pm-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261118T010000Z
+DTSTART:20261118T010000Z
+DTEND:20261118T040000Z
+SUMMARY:SMU Mustangs Mens Basketball vs. Oral Roberts Golden Eagles Mens Ba
+ sketball
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=smu-mustangs-mens-basketb
+ all-vs-oral-roberts-golden-eagles-mens-basketball%7Cmoody-coliseum-dallas%
+ 7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:smu-mustangs-mens-basketball-vs-south-alabama-jaguars-mens-basketball|m
+ oody-coliseum-dallas|7-00-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T010000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:SMU Mustangs Mens Basketball vs. South Alabama Jaguars Mens Basketb
+ all
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=smu-mustangs-mens-basketb
+ all-vs-south-alabama-jaguars-mens-basketball%7Cmoody-coliseum-dallas%7C7-0
+ 0-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/moody-coliseum/
 END:VEVENT
 END:VCALENDAR
