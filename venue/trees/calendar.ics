@@ -188,16 +188,15 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
-UID:n8noface-x-ho99o9|trees-dallas|doors-see-listing-2026-11-24@letsdoitdal
- las.com
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:N8NOFACE x HO99O9
+UID:n8noface|trees-dallas|7-30-pm-2026-11-24@letsdoitdallas.com
+DTSTAMP:20261125T013000Z
+DTSTART:20261125T013000Z
+DTEND:20261125T043000Z
+SUMMARY:N8NOFACE
 LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-24&e=n8noface-x-ho99o9%7Ctrees
- -dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=n8noface%7Ctrees-dallas%7
+ C7-30-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/trees/
 END:VEVENT
 END:VCALENDAR

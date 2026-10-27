@@ -10,15 +10,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tcu-horned-frogs-football-vs-kansas-jayhawks-football|amon-g-carter-sta
- dium-fort-worth|see-details-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
+ dium-fort-worth|2-30-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T193000Z
+DTSTART:20261031T193000Z
+DTEND:20261031T223000Z
 SUMMARY:TCU Horned Frogs Football vs. Kansas Jayhawks Football
 LOCATION:Amon G. Carter Stadium · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-10-31&e=tcu-horned-frogs-football
- -vs-kansas-jayhawks-football%7Camon-g-carter-stadium-fort-worth%7Csee-deta
- ils
+ -vs-kansas-jayhawks-football%7Camon-g-carter-stadium-fort-worth%7C2-30-pm
 DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/venue/amon-g-carter-stadium/
 END:VEVENT

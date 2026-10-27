@@ -11,22 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-26@letsdoitdallas.com
-DTSTAMP:20261026T130000Z
-DTSTART:20261026T130000Z
-DTEND:20261026T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-26&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-10-27@letsdoitdallas.com
 DTSTAMP:20261027T130000Z
 DTSTART:20261027T130000Z
@@ -134,6 +118,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-28&e=dallas-mavericks-vs-oklah
  oma-city-thunder%7Camerican-airlines-center-dallas%7C8-30-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-29@letsdoitdallas.com
+DTSTAMP:20261029T130000Z
+DTSTART:20261029T130000Z
+DTEND:20261029T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:plim-plim-en-vivo-|house-of-blues-dallas-dallas|2-00-pm-2026-10-29@lets
@@ -1563,6 +1563,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-22&e=mojo-brookzz%7Cmajestic-t
  heatre-dallas-dallas%7C9-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:imminence-axis-mundi-tour-north-america-2026|south-side-ballroom-dallas
+ |7-00-pm-2026-11-24@letsdoitdallas.com
+DTSTAMP:20261125T010000Z
+DTSTART:20261125T010000Z
+DTEND:20261125T040000Z
+SUMMARY:Imminence- Axis Mundi Tour: North America 2026
+LOCATION:South Side Ballroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=imminence-axis-mundi-tour
+ -north-america-2026%7Csouth-side-ballroom-dallas%7C7-00-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:poor-david-s-open-mic-hosted-by-rob-case|poor-david-s-pub-dallas|doors-

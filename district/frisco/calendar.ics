@@ -10,22 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:32nd-annual-phil-berry-golf-tournament|stonebriar-country-club-frisco|1
- 0-00-am-5-00-pm-2026-10-26@letsdoitdallas.com
-DTSTAMP:20261026T150000Z
-DTSTART:20261026T150000Z
-DTEND:20261026T180000Z
-SUMMARY:32nd Annual Phil Berry Golf Tournament
-LOCATION:Stonebriar Country Club · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-26&e=32nd-annual-phil-berry-go
- lf-tournament%7Cstonebriar-country-club-frisco%7C10-00-am-5-00-pm
-DESCRIPTION:The Phil Berry Transplant Tournament is a critical funding sour
- ce for the STA Foundation Family Support Program. Every sponsorship\, regi
- stration\, and contribution helps provide meaningful relief to transplant 
- recipients\, allowing them to focus on what matters most - healing\, reco 
- — More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:-from-vision-to-impact-an-evening-with-jeff-cheney-by-heritage-associat
  ion-of-frisco|6455-page-street-frisco|06-30-pm-2026-10-27@letsdoitdallas.c
  om
@@ -381,6 +365,21 @@ DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
  strict/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:-mg-anthony-woods-presents-the-legacy-of-the-buffalo-soldiers-by-herita
+ ge-association-of-frisco|6455-page-street-frisco|06-30-pm-2026-11-10@letsd
+ oitdallas.com
+DTSTAMP:20261111T003000Z
+DTSTART:20261111T003000Z
+DTEND:20261111T033000Z
+SUMMARY:"MG Anthony Woods Presents the Legacy of the Buffalo Soldiers" by H
+ eritage Association of Frisco
+LOCATION:6455 Page Street · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=-mg-anthony-woods-present
+ s-the-legacy-of-the-buffalo-soldiers-by-heritage-association-of-frisco%7C6
+ 455-page-street-frisco%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
  frisco|see-details-2026-11-11@letsdoitdallas.com
 DTSTAMP:20261111T000000Z
@@ -520,6 +519,19 @@ SUMMARY:Hoopfest Basketball Women's Challenge Session 3
 LOCATION:Comerica Center · Frisco
 URL:https://letsdoitdallas.com/?date=2026-11-24&e=hoopfest-basketball-women
  -s-challenge-session-3%7Ccomerica-center-frisco%7C6-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:hoopfest-basketball-women-s-challenge-session-4|comerica-center-frisco|
+ 12-00-pm-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261125T180000Z
+DTSTART:20261125T180000Z
+DTEND:20261125T210000Z
+SUMMARY:Hoopfest Basketball Women's Challenge Session 4
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=hoopfest-basketball-women
+ -s-challenge-session-4%7Ccomerica-center-frisco%7C12-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
 END:VEVENT

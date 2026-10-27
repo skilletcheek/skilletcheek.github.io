@@ -86,4 +86,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=jessie-reyez-a-little-ven
 DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/south-side-ballroom/
 END:VEVENT
+BEGIN:VEVENT
+UID:imminence-axis-mundi-tour-north-america-2026|south-side-ballroom-dallas
+ |7-00-pm-2026-11-24@letsdoitdallas.com
+DTSTAMP:20261125T010000Z
+DTSTART:20261125T010000Z
+DTEND:20261125T040000Z
+SUMMARY:Imminence- Axis Mundi Tour: North America 2026
+LOCATION:South Side Ballroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=imminence-axis-mundi-tour
+ -north-america-2026%7Csouth-side-ballroom-dallas%7C7-00-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/south-side-ballroom/
+END:VEVENT
 END:VCALENDAR
