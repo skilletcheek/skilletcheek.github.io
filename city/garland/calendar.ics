@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:spooky-storytime-0-5-years-|central-library-garland|11-00-am-2026-10-27
- @letsdoitdallas.com
-DTSTAMP:20261027T160000Z
-DTSTART:20261027T160000Z
-DTEND:20261027T190000Z
-SUMMARY:Spooky Storytime (0-5 Years)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=spooky-storytime-0-5-year
- s-%7Ccentral-library-garland%7C11-00-am
-DESCRIPTION:11:00 a.m.\; Put on your costumes for a special Halloween-theme
- d storytime! We will have books\, songs\, rhymes and a trick-or-treat walk
-  through the library. October 27\, 2026 11:00 AM - 12:00 PM 625 Austin St.
- Garland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13287/63923
-  — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
  |04-00-pm-2026-10-27@letsdoitdallas.com
 DTSTAMP:20261027T210000Z
@@ -697,17 +681,17 @@ DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
   - 1 — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:medicaid-and-chip-application-renewal-assistance-with-parkland-hospital
- |central-library-garland|10-00-am-2026-11-04@letsdoitdallas.com
+UID:cancelled-medicaid-and-chip-application-renewal-assistance-with-parklan
+ d-hospital|625-austin-st-garland|10-00-am-2026-11-04@letsdoitdallas.com
 DTSTAMP:20261104T160000Z
 DTSTART:20261104T160000Z
 DTEND:20261104T190000Z
-SUMMARY:Medicaid and CHIP Application & Renewal Assistance with Parkland Ho
- spital
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=medicaid-and-chip-applica
- tion-renewal-assistance-with-parkland-hospital%7Ccentral-library-garland%7
- C10-00-am
+SUMMARY:CANCELLED Medicaid and CHIP Application & Renewal Assistance with P
+ arkland Hospital
+LOCATION:625 Austin St. · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=cancelled-medicaid-and-ch
+ ip-application-renewal-assistance-with-parkland-hospital%7C625-austin-st-g
+ arland%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT

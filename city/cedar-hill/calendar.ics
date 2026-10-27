@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:yogalates|310-e-parkerville-road-cedar-hill|12-00-pm-2026-10-27@letsdoi
- tdallas.com
-DTSTAMP:20261027T170000Z
-DTSTART:20261027T170000Z
-DTEND:20261027T200000Z
-SUMMARY:Yogalates
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=yogalates%7C310-e-parkerv
- ille-road-cedar-hill%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:chat-youth-empowerment-program|310-e-parkerville-road-cedar-hill|04-00-
  pm-2026-10-27@letsdoitdallas.com
 DTSTAMP:20261027T210000Z
@@ -69,15 +57,15 @@ URL:https://letsdoitdallas.com/?date=2026-10-27&e=xtreme-soul-line-dance-in
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
-UID:zumba-in-the-park|104-s-broad-st-cedar-hill|06-45-pm-2026-10-27@letsdoi
+UID:zumba-in-the-park|104-s-broad-st-cedar-hill|06-30-pm-2026-10-27@letsdoi
  tdallas.com
-DTSTAMP:20261027T234500Z
-DTSTART:20261027T234500Z
-DTEND:20261028T024500Z
+DTSTAMP:20261027T233000Z
+DTSTART:20261027T233000Z
+DTEND:20261028T023000Z
 SUMMARY:Zumba in the Park
 LOCATION:104 S Broad St. · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-10-27&e=zumba-in-the-park%7C104-s
- -broad-st-cedar-hill%7C06-45-pm
+ -broad-st-cedar-hill%7C06-30-pm
 DESCRIPTION:Zumba in the Park returns September 1\, bringing back the music
  \, the energy\, and the community spirit that makes this one of Cedar Hill
  's most-loved annual fitness programs. Come dance\, get active\, and enjoy
@@ -289,15 +277,15 @@ URL:https://letsdoitdallas.com/?date=2026-10-29&e=tai-chi-qigong-in-the-par
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
-UID:zumba-in-the-park|104-s-broad-st-cedar-hill|06-45-pm-2026-10-29@letsdoi
+UID:zumba-in-the-park|104-s-broad-st-cedar-hill|06-30-pm-2026-10-29@letsdoi
  tdallas.com
-DTSTAMP:20261029T234500Z
-DTSTART:20261029T234500Z
-DTEND:20261030T024500Z
+DTSTAMP:20261029T233000Z
+DTSTART:20261029T233000Z
+DTEND:20261030T023000Z
 SUMMARY:Zumba in the Park
 LOCATION:104 S Broad St. · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-10-29&e=zumba-in-the-park%7C104-s
- -broad-st-cedar-hill%7C06-45-pm
+ -broad-st-cedar-hill%7C06-30-pm
 DESCRIPTION:Zumba in the Park returns September 1\, bringing back the music
  \, the energy\, and the community spirit that makes this one of Cedar Hill
  's most-loved annual fitness programs. Come dance\, get active\, and enjoy
@@ -862,15 +850,15 @@ URL:https://letsdoitdallas.com/?date=2026-11-05&e=tai-chi-qigong-in-the-par
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
-UID:zumba-in-the-park|104-s-broad-st-cedar-hill|06-45-pm-2026-11-05@letsdoi
+UID:zumba-in-the-park|104-s-broad-st-cedar-hill|06-30-pm-2026-11-05@letsdoi
  tdallas.com
-DTSTAMP:20261106T004500Z
-DTSTART:20261106T004500Z
-DTEND:20261106T034500Z
+DTSTAMP:20261106T003000Z
+DTSTART:20261106T003000Z
+DTEND:20261106T033000Z
 SUMMARY:Zumba in the Park
 LOCATION:104 S Broad St. · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-11-05&e=zumba-in-the-park%7C104-s
- -broad-st-cedar-hill%7C06-45-pm
+ -broad-st-cedar-hill%7C06-30-pm
 DESCRIPTION:Zumba in the Park returns September 1\, bringing back the music
  \, the energy\, and the community spirit that makes this one of Cedar Hill
  's most-loved annual fitness programs. Come dance\, get active\, and enjoy

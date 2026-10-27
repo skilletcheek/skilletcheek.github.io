@@ -74,6 +74,58 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:king-of-drag-watch-party-hosted-by-buck-wylde|three-links-deep-ellum-da
+ llas|8-00-pm-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261102T020000Z
+DTSTART:20261102T020000Z
+DTEND:20261102T050000Z
+SUMMARY:King of Drag Watch Party Hosted by Buck Wylde
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=king-of-drag-watch-party-
+ hosted-by-buck-wylde%7Cthree-links-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-11-01@letsdoitd
+ allas.com
+DTSTAMP:20261102T050000Z
+DTSTART:20261102T050000Z
+DTEND:20261102T080000Z
+SUMMARY:DJ SNEAK305
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=dj-sneak305%7Cthree-links
+ -deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:arte-a-gogo|three-links-deep-ellum-dallas|7-00-pm-2026-11-02@letsdoitda
+ llas.com
+DTSTAMP:20261103T010000Z
+DTSTART:20261103T010000Z
+DTEND:20261103T040000Z
+SUMMARY:ARTE-A-GOGO
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=arte-a-gogo%7Cthree-links
+ -deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+ -pm-2026-11-02@letsdoitdallas.com
+DTSTAMP:20261103T050000Z
+DTSTART:20261103T050000Z
+DTEND:20261103T080000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:boot-juice|three-links-deep-ellum-dallas|7-00-pm-2026-11-03@letsdoitdal
  las.com
 DTSTAMP:20261104T010000Z
@@ -85,6 +137,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-03&e=boot-juice%7Cthree-links-
  deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|11-00-pm-2026-11
+ -03@letsdoitdallas.com
+DTSTAMP:20261104T050000Z
+DTSTART:20261104T050000Z
+DTEND:20261104T080000Z
+SUMMARY:The Ox and The Waymakers
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=the-ox-and-the-waymakers%
+ 7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:daring-greatly|three-links-deep-ellum-dallas|7-00-pm-2026-11-04@letsdoi
@@ -100,6 +165,32 @@ DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:wub-wednesday|three-links-deep-ellum-dallas|11-00-pm-2026-11-04@letsdoi
+ tdallas.com
+DTSTAMP:20261105T050000Z
+DTSTART:20261105T050000Z
+DTEND:20261105T080000Z
+SUMMARY:Wub Wednesday
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=wub-wednesday%7Cthree-lin
+ ks-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-05@letsdoitdall
+ as.com
+DTSTAMP:20261106T050000Z
+DTSTART:20261106T050000Z
+DTEND:20261106T080000Z
+SUMMARY:DJ JREAM
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=dj-jream%7Cthree-links-de
+ ep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:sparkbird-wrongbird|three-links-deep-ellum-dallas|7-00-pm-2026-11-06@le
  tsdoitdallas.com
 DTSTAMP:20261107T010000Z
@@ -109,6 +200,19 @@ SUMMARY:Sparkbird\, Wrongbird
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=sparkbird-wrongbird%7Cthr
  ee-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+ -pm-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T050000Z
+DTSTART:20261107T050000Z
+DTEND:20261107T080000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
 END:VEVENT
@@ -139,6 +243,19 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-11-08@letsdoitd
+ allas.com
+DTSTAMP:20261109T050000Z
+DTSTART:20261109T050000Z
+DTEND:20261109T080000Z
+SUMMARY:DJ SNEAK305
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=dj-sneak305%7Cthree-links
+ -deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:careful-gaze-chrry-obsessed|three-links-deep-ellum-dallas|8-00-pm-2026-
  11-09@letsdoitdallas.com
 DTSTAMP:20261110T020000Z
@@ -150,6 +267,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-09&e=careful-gaze-chrry-obsess
  ed%7Cthree-links-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+ -pm-2026-11-09@letsdoitdallas.com
+DTSTAMP:20261110T050000Z
+DTSTART:20261110T050000Z
+DTEND:20261110T080000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-09&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:taylor-bickett-mori|three-links-deep-ellum-dallas|7-00-pm-2026-11-10@le
@@ -165,6 +295,58 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|11-00-pm-2026-11
+ -10@letsdoitdallas.com
+DTSTAMP:20261111T050000Z
+DTSTART:20261111T050000Z
+DTEND:20261111T080000Z
+SUMMARY:The Ox and The Waymakers
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=the-ox-and-the-waymakers%
+ 7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:wub-wednesday|three-links-deep-ellum-dallas|11-00-pm-2026-11-11@letsdoi
+ tdallas.com
+DTSTAMP:20261112T050000Z
+DTSTART:20261112T050000Z
+DTEND:20261112T080000Z
+SUMMARY:Wub Wednesday
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=wub-wednesday%7Cthree-lin
+ ks-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-12@letsdoitdall
+ as.com
+DTSTAMP:20261113T050000Z
+DTSTART:20261113T050000Z
+DTEND:20261113T080000Z
+SUMMARY:DJ JREAM
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=dj-jream%7Cthree-links-de
+ ep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+ -pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T050000Z
+DTSTART:20261114T050000Z
+DTEND:20261114T080000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:iscream-fest|three-links-deep-ellum-dallas|1-00-pm-2026-11-14@letsdoitd
  allas.com
 DTSTAMP:20261114T190000Z
@@ -176,6 +358,32 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=iscream-fest%7Cthree-link
  s-deep-ellum-dallas%7C1-00-pm
 DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-11-15@letsdoitd
+ allas.com
+DTSTAMP:20261116T050000Z
+DTSTART:20261116T050000Z
+DTEND:20261116T080000Z
+SUMMARY:DJ SNEAK305
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=dj-sneak305%7Cthree-links
+ -deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+ -pm-2026-11-16@letsdoitdallas.com
+DTSTAMP:20261117T050000Z
+DTSTART:20261117T050000Z
+DTEND:20261117T080000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-16&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:moral-decaine-flowerbed|three-links-deep-ellum-dallas|8-00-pm-2026-11-1
@@ -191,6 +399,19 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|11-00-pm-2026-11
+ -17@letsdoitdallas.com
+DTSTAMP:20261118T050000Z
+DTSTART:20261118T050000Z
+DTEND:20261118T080000Z
+SUMMARY:The Ox and The Waymakers
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=the-ox-and-the-waymakers%
+ 7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:big-ass-truck|three-links-deep-ellum-dallas|6-30-pm-2026-11-18@letsdoit
  dallas.com
 DTSTAMP:20261119T003000Z
@@ -202,6 +423,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-18&e=big-ass-truck%7Cthree-lin
  ks-deep-ellum-dallas%7C6-30-pm
 DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:wub-wednesday|three-links-deep-ellum-dallas|11-00-pm-2026-11-18@letsdoi
+ tdallas.com
+DTSTAMP:20261119T050000Z
+DTSTART:20261119T050000Z
+DTEND:20261119T080000Z
+SUMMARY:Wub Wednesday
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=wub-wednesday%7Cthree-lin
+ ks-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:minka-electric-tongues|three-links-deep-ellum-dallas|8-00-pm-2026-11-19
@@ -217,6 +451,19 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-19@letsdoitdall
+ as.com
+DTSTAMP:20261120T050000Z
+DTSTART:20261120T050000Z
+DTEND:20261120T080000Z
+SUMMARY:DJ JREAM
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=dj-jream%7Cthree-links-de
+ ep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:heal-the-hurt-magdalene-rose-unbroken-reign|three-links-deep-ellum-dall
  as|7-00-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T010000Z
@@ -227,6 +474,71 @@ LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-20&e=heal-the-hurt-magdalene-r
  ose-unbroken-reign%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+ -pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T050000Z
+DTSTART:20261121T050000Z
+DTEND:20261121T080000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-11-22@letsdoitd
+ allas.com
+DTSTAMP:20261123T050000Z
+DTSTART:20261123T050000Z
+DTEND:20261123T080000Z
+SUMMARY:DJ SNEAK305
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=dj-sneak305%7Cthree-links
+ -deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:iconic-altitude-guyceritops|three-links-deep-ellum-dallas|7-00-pm-2026-
+ 11-23@letsdoitdallas.com
+DTSTAMP:20261124T010000Z
+DTSTART:20261124T010000Z
+DTEND:20261124T040000Z
+SUMMARY:IcoNic\, Altitude\, Guyceritops
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=iconic-altitude-guycerito
+ ps%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+ -pm-2026-11-23@letsdoitdallas.com
+DTSTAMP:20261124T050000Z
+DTSTART:20261124T050000Z
+DTEND:20261124T080000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|11-00-pm-2026-11
+ -24@letsdoitdallas.com
+DTSTAMP:20261125T050000Z
+DTSTART:20261125T050000Z
+DTEND:20261125T080000Z
+SUMMARY:The Ox and The Waymakers
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=the-ox-and-the-waymakers%
+ 7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

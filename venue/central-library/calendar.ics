@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:spooky-storytime-0-5-years-|central-library-garland|11-00-am-2026-10-27
- @letsdoitdallas.com
-DTSTAMP:20261027T160000Z
-DTSTART:20261027T160000Z
-DTEND:20261027T190000Z
-SUMMARY:Spooky Storytime (0-5 Years)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=spooky-storytime-0-5-year
- s-%7Ccentral-library-garland%7C11-00-am
-DESCRIPTION:11:00 a.m.\; Put on your costumes for a special Halloween-theme
- d storytime! We will have books\, songs\, rhymes and a trick-or-treat walk
-  through the library. October 27\, 2026 11:00 AM - 12:00 PM 625 Austin St.
- Garland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13287/63923
-  — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:sewing-lab-ages-13-|central-library-garland|05-00-pm-2026-10-27@letsdoi
  tdallas.com
 DTSTAMP:20261027T220000Z
@@ -280,20 +264,6 @@ DESCRIPTION:5:00 p.m.\; Join us for the Sewing Lab — a dedicated makerspa
  0 sewing machines\, cutting tools and pressing equipment while receiving h
  elp in reading patterns\, cutting fabric and troubleshooting stitches. Con
   — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:medicaid-and-chip-application-renewal-assistance-with-parkland-hospital
- |central-library-garland|10-00-am-2026-11-04@letsdoitdallas.com
-DTSTAMP:20261104T160000Z
-DTSTART:20261104T160000Z
-DTEND:20261104T190000Z
-SUMMARY:Medicaid and CHIP Application & Renewal Assistance with Parkland Ho
- spital
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=medicaid-and-chip-applica
- tion-renewal-assistance-with-parkland-hospital%7Ccentral-library-garland%7
- C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 BEGIN:VEVENT
 UID:sensory-friendly-storytime|central-library-garland|10-00-am-2026-11-04@
