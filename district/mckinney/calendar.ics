@@ -10,42 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:planning-passport|mckinney|see-details-2026-10-27@letsdoitdallas.com
-DTSTAMP:20261027T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-SUMMARY:Planning Passport
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=planning-passport%7Cmckin
- ney%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 31. — More: https://letsdoitdallas.com/dis
- trict/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:visit-mckinney-mckinney-convention-visitors-bureau-|401-e-virginia-st-m
- ckinney|08-00-am-2026-10-27@letsdoitdallas.com
-DTSTAMP:20261027T130000Z
-DTSTART:20261027T130000Z
-DTEND:20261027T160000Z
-SUMMARY:Visit McKinney (McKinney Convention & Visitors Bureau)
-LOCATION:401 E. Virginia St. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=visit-mckinney-mckinney-c
- onvention-visitors-bureau-%7C401-e-virginia-st-mckinney%7C08-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:mad-science-k-5th-grade-|6861-w-eldorado-pkwy-mckinney|04-30-pm-2026-10
- -27@letsdoitdallas.com
-DTSTAMP:20261027T213000Z
-DTSTART:20261027T213000Z
-DTEND:20261028T003000Z
-SUMMARY:Mad Science (K-5th Grade)
-LOCATION:6861 W. Eldorado Pkwy. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=mad-science-k-5th-grade-%
- 7C6861-w-eldorado-pkwy-mckinney%7C04-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:planning-passport|mckinney|see-details-2026-10-28@letsdoitdallas.com
 DTSTAMP:20261028T000000Z
 DTSTART;VALUE=DATE:20261028
@@ -202,6 +166,19 @@ SUMMARY:Worlds 2026 - Swiss 7
 LOCATION:Credit Union of Texas Event Center · Allen
 URL:https://letsdoitdallas.com/?date=2026-10-30&e=worlds-2026-swiss-7%7Ccre
  dit-union-of-texas-event-center-allen%7C3-00-pm
+DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:worlds-2026-swiss-7|credit-union-of-texas-event-center-allen|7-00-pm-20
+ 26-10-30@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:Worlds 2026 - Swiss 7
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=worlds-2026-swiss-7%7Ccre
+ dit-union-of-texas-event-center-allen%7C7-00-pm
 DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/mckinney/
 END:VEVENT
@@ -670,6 +647,54 @@ URL:https://letsdoitdallas.com/?date=2026-11-10&e=small-business-masterclas
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-11-11@
+ letsdoitdallas.com
+DTSTAMP:20261111T163000Z
+DTSTART:20261111T163000Z
+DTEND:20261111T193000Z
+SUMMARY:Baby & Me (0-10 Months)
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=baby-me-0-10-months-%7C68
+ 61-w-eldorado-pkwy-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:creative-writers-workshop-adults-|6861-w-eldorado-parkway-mckinney|01-0
+ 0-pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261111T190000Z
+DTSTART:20261111T190000Z
+DTEND:20261111T220000Z
+SUMMARY:Creative Writers Workshop (Adults)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=creative-writers-workshop
+ -adults-%7C6861-w-eldorado-parkway-mckinney%7C01-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:kids-art-studio-k-5th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-
+ 2026-11-11@letsdoitdallas.com
+DTSTAMP:20261111T223000Z
+DTSTART:20261111T223000Z
+DTEND:20261112T013000Z
+SUMMARY:Kids Art Studio (K-5th Grade)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=kids-art-studio-k-5th-gra
+ de-%7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:true-crime-book-club-adults-|6861-w-eldorado-pkwy-mckinney|07-00-pm-202
+ 6-11-11@letsdoitdallas.com
+DTSTAMP:20261112T010000Z
+DTSTART:20261112T010000Z
+DTEND:20261112T040000Z
+SUMMARY:True Crime Book Club (Adults)
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=true-crime-book-club-adul
+ ts-%7C6861-w-eldorado-pkwy-mckinney%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:allen-americans-vs-kansas-city-mavericks-red-out|credit-union-of-texas-
  event-center-allen|7-00-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T010000Z
@@ -695,5 +720,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=allen-americans-vs-kansas
  -city-mavericks%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c
+ enter-allen|7-00-pm-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261126T010000Z
+DTSTART:20261126T010000Z
+DTEND:20261126T040000Z
+SUMMARY:Disney On Ice presents Magic in the Stars
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=disney-on-ice-presents-ma
+ gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
+DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/mckinney/
 END:VEVENT
 END:VCALENDAR

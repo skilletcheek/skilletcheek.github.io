@@ -10,37 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:open-practice-and-play-night|grapevine|04-30-pm-2026-10-27@letsdoitdall
- as.com
-DTSTAMP:20261027T213000Z
-DTSTART:20261027T213000Z
-DTEND:20261028T003000Z
-SUMMARY:Open Practice and Play Night
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=open-practice-and-play-ni
- ght%7Cgrapevine%7C04-30-pm
-DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
-  ranked play. Ages 12 and up. October 27\, 2026 04:30 PM - 07:00 PM Grapev
- ine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17836/6392
- 65386440000000 — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:dnd-halloween-mini-adventures-no-registration-required-|grapevine|05-00
- -pm-2026-10-27@letsdoitdallas.com
-DTSTAMP:20261027T220000Z
-DTSTART:20261027T220000Z
-DTEND:20261028T010000Z
-SUMMARY:DnD Halloween Mini Adventures! (NO REGISTRATION REQUIRED)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=dnd-halloween-mini-advent
- ures-no-registration-required-%7Cgrapevine%7C05-00-pm
-DESCRIPTION:Welcome to the realms of Dungeons and Dragons: HALLOWEEN EDITIO
- N! These sessions are for 13 and up. Join me\, Mrs. Molly\, at my table fo
- r a quick journey through some maybe scary? maybe spooky? maybe horrifying
- ?! one shots this month to really get you ready for the holiday yet to —
-  More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:stem-lab-18-|grapevine|10-00-am-2026-10-28@letsdoitdallas.com
 DTSTAMP:20261028T150000Z
 DTSTART:20261028T150000Z
@@ -831,6 +800,84 @@ DESCRIPTION:Welcome to the realms of Dungeons and Dragons! Here at the Grap
  for the session and we will be looking forward to having you at the table!
   For teens 13 and up. REGISTRATION IS REQUIRED. Make sure your level 3 —
   More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:stem-lab-18-|grapevine|10-00-am-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261111T160000Z
+DTSTART:20261111T160000Z
+DTEND:20261111T190000Z
+SUMMARY:STEM Lab (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=stem-lab-18-%7Cgrapevine%
+ 7C10-00-am
+DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
+ at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
+ ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
+ edgeable staff will be available to provide guidance\, tips\, and support 
+ as — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-11-11@letsd
+ oitdallas.com
+DTSTAMP:20261111T163000Z
+DTSTART:20261111T163000Z
+DTEND:20261111T193000Z
+SUMMARY:Storytime for Toddlers/Preschoolers
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=storytime-for-toddlers-pr
+ eschoolers%7Cgrapevine%7C10-30-am
+DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
+ welcome and no registrations is needed. (This is a Ticketed Program\; plea
+ se stop at the Children's Desk 15 minutes before the program to receive ti
+ ckets. 1 per attendee.) November 11\, 2026 10:30 AM - 11:00 AM Grapevine\,
+  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:virtual-author-talk-with-paul-vigna|grapevine|01-00-pm-2026-11-11@letsd
+ oitdallas.com
+DTSTAMP:20261111T190000Z
+DTSTART:20261111T190000Z
+DTEND:20261111T220000Z
+SUMMARY:Virtual Author Talk with Paul Vigna
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=virtual-author-talk-with-
+ paul-vigna%7Cgrapevine%7C01-00-pm
+DESCRIPTION:Join us for an eye-opening conversation with veteran journalist
+  Paul Vigna as we examine his provocative book\, The Almightier: How Money
+  Became God\, Greed Became Virtue\, and Debt Became Sin\, in which he expl
+ ores the question: how did money go from a tool of commerce into the domi 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:open-practice-and-play-night|grapevine|04-30-pm-2026-11-11@letsdoitdall
+ as.com
+DTSTAMP:20261111T223000Z
+DTSTART:20261111T223000Z
+DTEND:20261112T013000Z
+SUMMARY:Open Practice and Play Night
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=open-practice-and-play-ni
+ ght%7Cgrapevine%7C04-30-pm
+DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
+  ranked play. Ages 12 and up. November 11\, 2026 04:30 PM - 07:30 PM Grape
+ vine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17751/639
+ 232829710000000 — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-signal-a-science-fiction-book-club|grapevine|06-30-pm-2026-11-11@le
+ tsdoitdallas.com
+DTSTAMP:20261112T003000Z
+DTSTART:20261112T003000Z
+DTEND:20261112T033000Z
+SUMMARY:The Signal: A Science Fiction Book Club
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=the-signal-a-science-fict
+ ion-book-club%7Cgrapevine%7C06-30-pm
+DESCRIPTION:📖 Book for Discussion: TBD 🗓️ Meets 2nd Wednesday of th
+ e Month • 6:30 PM Open to new members\; come & go\, join us anytime! Ema
+ il jnpettit@grapevinetexas.gov for more info November 11\, 2026 06:30 PM -
+  07:30 PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.asp
+ x?EID=171 — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:speed-dating-in-grapevine-speed-dating-all-professionals-35-50|hop-and-

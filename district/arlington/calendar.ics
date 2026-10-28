@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-10-27@letsdoitdal
- las.com
-DTSTAMP:20261027T233000Z
-DTSTART:20261027T233000Z
-DTEND:20261028T023000Z
-SUMMARY:Test Your Mic
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=test-your-mic%7Carlington
- -improv-arlington%7C6-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:kinda-kinks-w-the-rubinoos|arlington-music-hall-arlington|7-30-pm-2026-
  10-28@letsdoitdallas.com
 DTSTAMP:20261029T003000Z
@@ -492,6 +479,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:three-dog-night|arlington-music-hall-arlington|7-30-pm-2026-11-06@letsd
+ oitdallas.com
+DTSTAMP:20261107T013000Z
+DTSTART:20261107T013000Z
+DTEND:20261107T043000Z
+SUMMARY:Three Dog Night
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=three-dog-night%7Carlingt
+ on-music-hall-arlington%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:shuler-king|arlington-improv-arlington|9-45-pm-2026-11-06@letsdoitdalla
  s.com
 DTSTAMP:20261107T034500Z
@@ -791,5 +791,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-22&e=godfrey%7Carlington-impro
  v-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:shed-g-and-friends|arlington-improv-arlington|7-30-pm-2026-11-25@letsdo
+ itdallas.com
+DTSTAMP:20261126T013000Z
+DTSTART:20261126T013000Z
+DTEND:20261126T043000Z
+SUMMARY:Shed G and Friends
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=shed-g-and-friends%7Carli
+ ngton-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-cowboys-vs-philadelphia-eagles|at-t-stadium-arlington|3-30-pm-20
+ 26-11-26@letsdoitdallas.com
+DTSTAMP:20261126T213000Z
+DTSTART:20261126T213000Z
+DTEND:20261127T003000Z
+SUMMARY:Dallas Cowboys vs. Philadelphia Eagles
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=dallas-cowboys-vs-philade
+ lphia-eagles%7Cat-t-stadium-arlington%7C3-30-pm
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/district/arlington/
 END:VEVENT
 END:VCALENDAR

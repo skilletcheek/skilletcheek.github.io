@@ -9,21 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:unt-dallas-trailblazers-at-smu-mustangs-womens-basketball-exhibition-|m
- oody-coliseum-dallas|6-30-pm-2026-10-27@letsdoitdallas.com
-DTSTAMP:20261027T233000Z
-DTSTART:20261027T233000Z
-DTEND:20261028T023000Z
-SUMMARY:UNT Dallas Trailblazers at SMU Mustangs Womens Basketball (Exhibiti
- on)
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=unt-dallas-trailblazers-a
- t-smu-mustangs-womens-basketball-exhibition-%7Cmoody-coliseum-dallas%7C6-3
- 0-pm
-DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
- tsdoitdallas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:smu-mustangs-mens-basketball-vs-southern-jaguars-basketball|moody-colis
  eum-dallas|7-00-pm-2026-11-02@letsdoitdallas.com
 DTSTAMP:20261103T010000Z

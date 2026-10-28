@@ -22,6 +22,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/arlington-music-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:three-dog-night|arlington-music-hall-arlington|7-30-pm-2026-11-06@letsd
+ oitdallas.com
+DTSTAMP:20261107T013000Z
+DTSTART:20261107T013000Z
+DTEND:20261107T043000Z
+SUMMARY:Three Dog Night
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=three-dog-night%7Carlingt
+ on-music-hall-arlington%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:texas-mariachi-festival|arlington-music-hall-arlington|6-00-pm-2026-11-
  08@letsdoitdallas.com
 DTSTAMP:20261109T000000Z

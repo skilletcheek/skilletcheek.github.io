@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fifth-third-garage-dallas-stars-v-new-jersey-devils|american-airlines-c
- enter-dallas|7-00-pm-2026-10-27@letsdoitdallas.com
-DTSTAMP:20261028T000000Z
-DTSTART:20261028T000000Z
-DTEND:20261028T030000Z
-SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v New Jersey Devils
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=fifth-third-garage-dallas
- -stars-v-new-jersey-devils%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-mavericks-vs-oklahoma-city-thunder|american-airlines-center-dall
  as|8-30-pm-2026-10-28@letsdoitdallas.com
 DTSTAMP:20261029T013000Z
@@ -305,6 +292,19 @@ SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Pittsburgh Penguins
 LOCATION:American Airlines Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-22&e=fifth-third-garage-dallas
  -stars-v-pittsburgh-penguins%7Camerican-airlines-center-dallas%7C6-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:fifth-third-garage-dallas-stars-v-nashville-predators|american-airlines
+ -center-dallas|7-00-pm-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261126T010000Z
+DTSTART:20261126T010000Z
+DTEND:20261126T040000Z
+SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Nashville Predators
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=fifth-third-garage-dallas
+ -stars-v-nashville-predators%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/american-airlines-center/
 END:VEVENT

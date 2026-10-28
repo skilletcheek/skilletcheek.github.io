@@ -61,6 +61,19 @@ DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/credit-union-of-texas-event-center/
 END:VEVENT
 BEGIN:VEVENT
+UID:worlds-2026-swiss-7|credit-union-of-texas-event-center-allen|7-00-pm-20
+ 26-10-30@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:Worlds 2026 - Swiss 7
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=worlds-2026-swiss-7%7Ccre
+ dit-union-of-texas-event-center-allen%7C7-00-pm
+DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/credit-union-of-texas-event-center/
+END:VEVENT
+BEGIN:VEVENT
 UID:idaho-steelheads-at-allen-americans|credit-union-of-texas-event-center-
  allen|7-10-pm-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261031T001000Z
@@ -190,5 +203,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=allen-americans-vs-kansas
  -city-mavericks%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/credit-union-of-texas-event-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c
+ enter-allen|7-00-pm-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261126T010000Z
+DTSTART:20261126T010000Z
+DTEND:20261126T040000Z
+SUMMARY:Disney On Ice presents Magic in the Stars
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=disney-on-ice-presents-ma
+ gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
+DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/credit-union-of-texas-event-center/
 END:VEVENT
 END:VCALENDAR

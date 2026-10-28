@@ -10,21 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:-from-vision-to-impact-an-evening-with-jeff-cheney-by-heritage-associat
- ion-of-frisco|6455-page-street-frisco|06-30-pm-2026-10-27@letsdoitdallas.c
- om
-DTSTAMP:20261027T233000Z
-DTSTART:20261027T233000Z
-DTEND:20261028T023000Z
-SUMMARY:"From Vision to Impact: An Evening with Jeff Cheney" by Heritage As
- sociation of Frisco
-LOCATION:6455 Page Street · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=-from-vision-to-impact-an
- -evening-with-jeff-cheney-by-heritage-association-of-frisco%7C6455-page-st
- reet-frisco%7C06-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:southwestern-watercolor-society-exhibition-opens|8004-n-dallas-parkway-
  frisco|10-00-am-2026-10-28@letsdoitdallas.com
 DTSTAMP:20261028T150000Z
@@ -300,6 +285,18 @@ DESCRIPTION:Runs Nov 7 – Nov 8. — More: https://letsdoitdallas.com/dist
  rict/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:pumpkin-smash-2026|6501-hillcrest-road-frisco|02-00-pm-2026-11-07@letsd
+ oitdallas.com
+DTSTAMP:20261107T200000Z
+DTSTART:20261107T200000Z
+DTEND:20261107T230000Z
+SUMMARY:Pumpkin Smash 2026
+LOCATION:6501 Hillcrest Road · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=pumpkin-smash-2026%7C6501
+ -hillcrest-road-frisco%7C02-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:fc-dallas-vs-colorado-rapids|toyota-stadium-frisco|6-00-pm-2026-11-07@l
  etsdoitdallas.com
 DTSTAMP:20261108T000000Z
@@ -391,6 +388,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-11&e=-the-cottage-by-theatre-f
  risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
 DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
  strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:social-services-and-housing-board|6101-frisco-square-blvd-frisco|06-30-
+ pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T003000Z
+DTSTART:20261112T003000Z
+DTEND:20261112T033000Z
+SUMMARY:Social Services and Housing Board
+LOCATION:6101 Frisco Square Blvd.
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=social-services-and-housi
+ ng-board%7C6101-frisco-square-blvd-frisco%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-

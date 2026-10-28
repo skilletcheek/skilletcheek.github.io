@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-10-27@letsdoitdal
- las.com
-DTSTAMP:20261027T233000Z
-DTSTART:20261027T233000Z
-DTEND:20261028T023000Z
-SUMMARY:Test Your Mic
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=test-your-mic%7Carlington
- -improv-arlington%7C6-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:c-rich|arlington-improv-arlington|7-30-pm-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261030T003000Z
 DTSTART:20261030T003000Z
@@ -329,6 +316,19 @@ SUMMARY:Godfrey
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-11-22&e=godfrey%7Carlington-impro
  v-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:shed-g-and-friends|arlington-improv-arlington|7-30-pm-2026-11-25@letsdo
+ itdallas.com
+DTSTAMP:20261126T013000Z
+DTSTART:20261126T013000Z
+DTEND:20261126T043000Z
+SUMMARY:Shed G and Friends
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=shed-g-and-friends%7Carli
+ ngton-improv-arlington%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

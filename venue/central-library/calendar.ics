@@ -9,38 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sewing-lab-ages-13-|central-library-garland|05-00-pm-2026-10-27@letsdoi
- tdallas.com
-DTSTAMP:20261027T220000Z
-DTSTART:20261027T220000Z
-DTEND:20261028T010000Z
-SUMMARY:Sewing Lab (Ages 13+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=sewing-lab-ages-13-%7Ccen
- tral-library-garland%7C05-00-pm
-DESCRIPTION:5:00 p.m.\; Join us for the Sewing Lab — a dedicated makerspa
- ce time just for sewing enthusiasts! Bring your ideas and use any of our 1
- 0 sewing machines\, cutting tools and pressing equipment while receiving h
- elp in reading patterns\, cutting fabric and troubleshooting stitches. Con
-  — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:financial-education-with-navy-federal-ages-18-|central-library-garland|
- 06-00-pm-2026-10-27@letsdoitdallas.com
-DTSTAMP:20261027T230000Z
-DTSTART:20261027T230000Z
-DTEND:20261028T020000Z
-SUMMARY:Financial Education with Navy Federal (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=financial-education-with-
- navy-federal-ages-18-%7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Free financial education presentations from Navy Fe
- deral Credit Union. Learn about a variety of topics to enhance your financ
- ial awareness. October 27\, 2026 06:00 PM - 07:00 PM 625 Austin St.Garland
- \, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13033/6392638702 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:teen-craft-corner-ages-13-17-|central-library-garland|03-00-pm-2026-10-
  28@letsdoitdallas.com
 DTSTAMP:20261028T200000Z
@@ -554,6 +522,39 @@ DESCRIPTION:5:30 p.m.\; We're partnering with SCORE to bring you the latest
   workshops about running your business! Join us in the Small Business Incu
  bator to learn about staring a business. Who is SCORE? SCORE Dallas has be
  en providing free\, confidential one-on-one business mentoring to thous 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:sensory-friendly-storytime|central-library-garland|10-00-am-2026-11-11@
+ letsdoitdallas.com
+DTSTAMP:20261111T160000Z
+DTSTART:20261111T160000Z
+DTEND:20261111T190000Z
+SUMMARY:Sensory-Friendly Storytime
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=sensory-friendly-storytim
+ e%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Join us for Sensory-Friendly Storytime\, a welcomi
+ ng and inclusive storytime experience designed for children and individual
+ s with sensory sensitivities and developmental differences. This modified 
+ storytime aims to provide a calm\, consistent and comfortable environmen 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:from-maker-to-market-using-makerspace-equipment-to-earn-ages-13-|centra
+ l-library-garland|02-00-pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261111T200000Z
+DTSTART:20261111T200000Z
+DTEND:20261111T230000Z
+SUMMARY:From Maker to Market: Using Makerspace Equipment to Earn (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=from-maker-to-market-usin
+ g-makerspace-equipment-to-earn-ages-13-%7Ccentral-library-garland%7C02-00-
+ pm
+DESCRIPTION:2:00 p.m.\; Learn how to use makerspace tools to create product
+ s with income potential. Participants will explore side hustle ideas using
+  equipment such as 3D printers\, laser cutters\, Cricut machines and subli
+ mation tools\, etc. There will be a Q&A at the end to allow patrons to as 
  — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

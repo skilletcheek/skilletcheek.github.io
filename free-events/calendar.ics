@@ -10,33 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:free-halloween-movie-month-hocus-pocus-2|sundown-at-granada-lower-green
- ville-dallas|doors-see-listing-2026-10-27@letsdoitdallas.com
-DTSTAMP:20261027T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-SUMMARY:FREE Halloween Movie Month: HOCUS POCUS 2
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=free-halloween-movie-mont
- h-hocus-pocus-2%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-l
- isting
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:sorry-ghost|three-links-deep-ellum-dallas|8-00-pm-2026-10-27@letsdoitda
- llas.com
-DTSTAMP:20261028T010000Z
-DTSTART:20261028T010000Z
-DTEND:20261028T040000Z
-SUMMARY:Sorry Ghost
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=sorry-ghost%7Cthree-links
- -deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:poor-david-s-open-mic-hosted-by-rob-case|poor-david-s-pub-dallas|doors-
  see-listing-2026-10-28@letsdoitdallas.com
 DTSTAMP:20261028T000000Z
@@ -185,19 +158,6 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:arte-a-gogo|three-links-deep-ellum-dallas|7-00-pm-2026-11-02@letsdoitda
- llas.com
-DTSTAMP:20261103T010000Z
-DTSTART:20261103T010000Z
-DTEND:20261103T040000Z
-SUMMARY:ARTE-A-GOGO
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=arte-a-gogo%7Cthree-links
- -deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
  -pm-2026-11-02@letsdoitdallas.com
 DTSTAMP:20261103T050000Z
@@ -211,15 +171,15 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|11-00-pm-2026-11
+UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
  -03@letsdoitdallas.com
-DTSTAMP:20261104T050000Z
-DTSTART:20261104T050000Z
-DTEND:20261104T080000Z
+DTSTAMP:20261104T040000Z
+DTSTART:20261104T040000Z
+DTEND:20261104T070000Z
 SUMMARY:The Ox and The Waymakers
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-03&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C11-00-pm
+ 7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
 END:VEVENT
@@ -344,15 +304,15 @@ DESCRIPTION:A free night of live comedy from indie improv troupes from Dall
  om/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|11-00-pm-2026-11
+UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
  -10@letsdoitdallas.com
-DTSTAMP:20261111T050000Z
-DTSTART:20261111T050000Z
-DTEND:20261111T080000Z
+DTSTAMP:20261111T040000Z
+DTSTART:20261111T040000Z
+DTEND:20261111T070000Z
 SUMMARY:The Ox and The Waymakers
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-10&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C11-00-pm
+ 7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
 END:VEVENT
@@ -466,15 +426,15 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|11-00-pm-2026-11
+UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
  -17@letsdoitdallas.com
-DTSTAMP:20261118T050000Z
-DTSTART:20261118T050000Z
-DTEND:20261118T080000Z
+DTSTAMP:20261118T040000Z
+DTSTART:20261118T040000Z
+DTEND:20261118T070000Z
 SUMMARY:The Ox and The Waymakers
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-17&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C11-00-pm
+ 7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
 END:VEVENT
@@ -570,15 +530,15 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|11-00-pm-2026-11
+UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
  -24@letsdoitdallas.com
-DTSTAMP:20261125T050000Z
-DTSTART:20261125T050000Z
-DTEND:20261125T080000Z
+DTSTAMP:20261125T040000Z
+DTSTART:20261125T040000Z
+DTEND:20261125T070000Z
 SUMMARY:The Ox and The Waymakers
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-24&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C11-00-pm
+ 7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
 END:VEVENT
@@ -594,5 +554,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-25&e=poor-david-s-open-mic-hos
  ted-by-rob-case%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:wub-wednesday|three-links-deep-ellum-dallas|11-00-pm-2026-11-25@letsdoi
+ tdallas.com
+DTSTAMP:20261126T050000Z
+DTSTART:20261126T050000Z
+DTEND:20261126T080000Z
+SUMMARY:Wub Wednesday
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=wub-wednesday%7Cthree-lin
+ ks-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/free-events/
 END:VEVENT
 END:VCALENDAR

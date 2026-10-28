@@ -456,19 +456,6 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
 END:VEVENT
 BEGIN:VEVENT
-UID:cynthia-lee-fontaine-presents-drag-brunch-at-the-punch|punch-line-irvin
- g-irving|12-00-pm-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261115T180000Z
-DTSTART:20261115T180000Z
-DTEND:20261115T210000Z
-SUMMARY:Cynthia Lee Fontaine Presents: Drag Brunch at the Punch
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=cynthia-lee-fontaine-pres
- ents-drag-brunch-at-the-punch%7Cpunch-line-irving-irving%7C12-00-pm
-DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
- oitdallas.com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:jay-badlani|punch-line-irving-irving|7-00-pm-2026-11-15@letsdoitdallas.
  com
 DTSTAMP:20261116T010000Z
@@ -573,6 +560,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
 END:VEVENT
 BEGIN:VEVENT
+UID:cynthia-lee-fontaine-presents-drag-brunch-at-the-punch|punch-line-irvin
+ g-irving|12-00-pm-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261122T180000Z
+DTSTART:20261122T180000Z
+DTEND:20261122T210000Z
+SUMMARY:Cynthia Lee Fontaine Presents: Drag Brunch at the Punch
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=cynthia-lee-fontaine-pres
+ ents-drag-brunch-at-the-punch%7Cpunch-line-irving-irving%7C12-00-pm
+DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
+ oitdallas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
 UID:santi-espinosa-me-time-english-spanish-show-|punch-line-irving-irving|6
  -00-pm-2026-11-22@letsdoitdallas.com
 DTSTAMP:20261123T000000Z
@@ -595,6 +595,19 @@ SUMMARY:CHELSEA HANDLER: THE HIGH AND MIGHTY TOUR
 LOCATION:The Pavilion at Toyota Music Factory · Irving
 URL:https://letsdoitdallas.com/?date=2026-11-22&e=chelsea-handler-the-high-
  and-mighty-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:we-funny-wednesdays|punch-line-irving-irving|7-30-pm-2026-11-25@letsdoi
+ tdallas.com
+DTSTAMP:20261126T013000Z
+DTSTART:20261126T013000Z
+DTEND:20261126T043000Z
+SUMMARY:We Funny Wednesdays
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=we-funny-wednesdays%7Cpun
+ ch-line-irving-irving%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
 END:VEVENT

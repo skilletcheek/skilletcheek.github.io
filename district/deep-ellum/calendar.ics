@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-funeral-portrait|puzzles-deep-ellum-dallas|7-00-pm-2026-10-27@letsd
- oitdallas.com
-DTSTAMP:20261028T000000Z
-DTSTART:20261028T000000Z
-DTEND:20261028T030000Z
-SUMMARY:The Funeral Portrait
-LOCATION:Puzzles Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=the-funeral-portrait%7Cpu
- zzles-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:justin-nozuka|deep-ellum-art-co-dallas|8-00-pm-2026-10-27@letsdoitdalla
- s.com
-DTSTAMP:20261028T010000Z
-DTSTART:20261028T010000Z
-DTEND:20261028T040000Z
-SUMMARY:Justin Nozuka
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=justin-nozuka%7Cdeep-ellu
- m-art-co-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:sorry-ghost|three-links-deep-ellum-dallas|8-00-pm-2026-10-27@letsdoitda
- llas.com
-DTSTAMP:20261028T010000Z
-DTSTART:20261028T010000Z
-DTEND:20261028T040000Z
-SUMMARY:Sorry Ghost
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-27&e=sorry-ghost%7Cthree-links
- -deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:boss-daughter-half-foot-hog-kill-your-tv|three-links-deep-ellum-dallas|
  7-00-pm-2026-10-28@letsdoitdallas.com
 DTSTAMP:20261029T000000Z
@@ -324,15 +285,15 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|11-00-pm-2026-11
+UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
  -03@letsdoitdallas.com
-DTSTAMP:20261104T050000Z
-DTSTART:20261104T050000Z
-DTEND:20261104T080000Z
+DTSTAMP:20261104T040000Z
+DTSTART:20261104T040000Z
+DTEND:20261104T070000Z
 SUMMARY:The Ox and The Waymakers
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-03&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C11-00-pm
+ 7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
@@ -413,19 +374,6 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-kilans-jade-street|trees-dallas|doors-see-listing-2026-11-06@letsdo
- itdallas.com
-DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:THE KILANS * JADE STREET
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-kilans-jade-street%7C
- trees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:sparkbird-wrongbird|three-links-deep-ellum-dallas|7-00-pm-2026-11-06@le
  tsdoitdallas.com
 DTSTAMP:20261107T010000Z
@@ -463,6 +411,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=francis-of-delirium%7Cclu
  b-dada-dallas%7C8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-kilans|trees-dallas-dallas|8-00-pm-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T020000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+SUMMARY:The Kilans
+LOCATION:Trees - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-kilans%7Ctrees-dallas
+ -dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
@@ -660,15 +620,15 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|11-00-pm-2026-11
+UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
  -10@letsdoitdallas.com
-DTSTAMP:20261111T050000Z
-DTSTART:20261111T050000Z
-DTEND:20261111T080000Z
+DTSTAMP:20261111T040000Z
+DTSTART:20261111T040000Z
+DTEND:20261111T070000Z
 SUMMARY:The Ox and The Waymakers
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-10&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C11-00-pm
+ 7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
@@ -908,15 +868,15 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|11-00-pm-2026-11
+UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
  -17@letsdoitdallas.com
-DTSTAMP:20261118T050000Z
-DTSTART:20261118T050000Z
-DTEND:20261118T080000Z
+DTSTAMP:20261118T040000Z
+DTSTART:20261118T040000Z
+DTEND:20261118T070000Z
 SUMMARY:The Ox and The Waymakers
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-17&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C11-00-pm
+ 7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
@@ -1154,16 +1114,43 @@ DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|11-00-pm-2026-11
+UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
  -24@letsdoitdallas.com
-DTSTAMP:20261125T050000Z
-DTSTART:20261125T050000Z
-DTEND:20261125T080000Z
+DTSTAMP:20261125T040000Z
+DTSTART:20261125T040000Z
+DTEND:20261125T070000Z
 SUMMARY:The Ox and The Waymakers
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-24&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C11-00-pm
+ 7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:randy-s-cheeseburger-picnic-trailer-park-boys-live-in-dallas-tx|three-l
+ inks-deep-ellum-dallas|8-00-pm-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261126T020000Z
+DTSTART:20261126T020000Z
+DTEND:20261126T050000Z
+SUMMARY:Randy's Cheeseburger Picnic (Trailer Park Boys) Live In Dallas TX
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=randy-s-cheeseburger-picn
+ ic-trailer-park-boys-live-in-dallas-tx%7Cthree-links-deep-ellum-dallas%7C8
+ -00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:wub-wednesday|three-links-deep-ellum-dallas|11-00-pm-2026-11-25@letsdoi
+ tdallas.com
+DTSTAMP:20261126T050000Z
+DTSTART:20261126T050000Z
+DTEND:20261126T080000Z
+SUMMARY:Wub Wednesday
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=wub-wednesday%7Cthree-lin
+ ks-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

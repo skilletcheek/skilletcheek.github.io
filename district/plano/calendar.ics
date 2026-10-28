@@ -134,6 +134,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:addisons-a-list|addison-improv-addison|7-00-pm-2026-11-05@letsdoitdalla
+ s.com
+DTSTAMP:20261106T010000Z
+DTSTART:20261106T010000Z
+DTEND:20261106T040000Z
+SUMMARY:Addisons A-List
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=addisons-a-list%7Caddison
+ -improv-addison%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:ryan-hamilton-18-|the-addison-improv-addison|7-30-pm-2026-11-05@letsdoi
  tdallas.com
 DTSTAMP:20261106T013000Z
@@ -168,6 +181,19 @@ SUMMARY:Jon "Polar Bear" Gonzalez
 LOCATION:Mic Drop Comedy - Plano
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=jon-polar-bear-gonzalez%7
  Cmic-drop-comedy-plano-plano%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:ryan-hamilton-18-|the-addison-improv-addison|7-30-pm-2026-11-06@letsdoi
+ tdallas.com
+DTSTAMP:20261107T013000Z
+DTSTART:20261107T013000Z
+DTEND:20261107T043000Z
+SUMMARY:Ryan Hamilton (18+)
+LOCATION:The Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=ryan-hamilton-18-%7Cthe-a
+ ddison-improv-addison%7C7-30-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /district/plano/
 END:VEVENT
