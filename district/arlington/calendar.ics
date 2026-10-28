@@ -585,6 +585,18 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:nctcog-transportation-public-meeting|616-six-flags-drive-arlington|12-0
+ 0-pm-2026-11-09@letsdoitdallas.com
+DTSTAMP:20261109T180000Z
+DTSTART:20261109T180000Z
+DTEND:20261109T210000Z
+SUMMARY:NCTCOG Transportation Public Meeting
+LOCATION:616 Six Flags Drive · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-09&e=nctcog-transportation-pub
+ lic-meeting%7C616-six-flags-drive-arlington%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:michael-blackson|arlington-improv-arlington|7-30-pm-2026-11-12@letsdoit
  dallas.com
 DTSTAMP:20261113T013000Z

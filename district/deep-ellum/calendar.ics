@@ -374,6 +374,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-kilans-jade-street|trees-dallas|doors-see-listing-2026-11-06@letsdo
+ itdallas.com
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:THE KILANS * JADE STREET
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-kilans-jade-street%7C
+ trees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:sparkbird-wrongbird|three-links-deep-ellum-dallas|7-00-pm-2026-11-06@le
  tsdoitdallas.com
 DTSTAMP:20261107T010000Z
@@ -411,18 +424,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=francis-of-delirium%7Cclu
  b-dada-dallas%7C8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-kilans|trees-dallas-dallas|8-00-pm-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261107T020000Z
-DTSTART:20261107T020000Z
-DTEND:20261107T050000Z
-SUMMARY:The Kilans
-LOCATION:Trees - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-kilans%7Ctrees-dallas
- -dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00

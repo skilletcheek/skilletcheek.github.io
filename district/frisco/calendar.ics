@@ -22,18 +22,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-28&e=southwestern-watercolor-s
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
-UID:walnut-wednesday-nature-adventure|6455-page-street-frisco|10-00-am-2026
- -10-28@letsdoitdallas.com
-DTSTAMP:20261028T150000Z
-DTSTART:20261028T150000Z
-DTEND:20261028T180000Z
-SUMMARY:Walnut Wednesday: Nature Adventure
-LOCATION:6455 Page Street · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=walnut-wednesday-nature-a
- dventure%7C6455-page-street-frisco%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:fc-dallas-vs-columbus-crew|toyota-stadium-frisco|7-30-pm-2026-10-28@let
  sdoitdallas.com
 DTSTAMP:20261029T003000Z
@@ -181,6 +169,18 @@ SUMMARY:Election Day
 LOCATION:Frisco
 URL:https://letsdoitdallas.com/?date=2026-11-03&e=election-day%7Cfrisco%7C0
  7-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:budget-and-audit-committee-meeting|6101-frisco-square-blvd-frisco|03-00
+ -pm-2026-11-03@letsdoitdallas.com
+DTSTAMP:20261103T210000Z
+DTSTART:20261103T210000Z
+DTEND:20261104T000000Z
+SUMMARY:Budget and Audit Committee Meeting
+LOCATION:6101 Frisco Square Blvd.
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=budget-and-audit-committe
+ e-meeting%7C6101-frisco-square-blvd-frisco%7C03-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT

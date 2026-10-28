@@ -130,17 +130,17 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
-UID:shadowgrass-an-evening-with|granada-theater-lower-greenville-dallas|doo
- rs-see-listing-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:Shadowgrass - An Evening With
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=shadowgrass-an-evening-wi
- th%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
- istrict/lower-greenville/
+UID:shadowgrass|granada-theater-dallas-dallas|8-00-pm-2026-11-06@letsdoitda
+ llas.com
+DTSTAMP:20261107T020000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+SUMMARY:ShadowGrass
+LOCATION:Granada Theater - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=shadowgrass%7Cgranada-the
+ ater-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
 UID:low-cut-connie|granada-theater-tx-dallas|8-00-pm-2026-11-07@letsdoitdal

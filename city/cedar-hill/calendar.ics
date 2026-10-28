@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lunch-circuit|310-e-parkerville-road-cedar-hill|12-00-pm-2026-10-28@let
- sdoitdallas.com
-DTSTAMP:20261028T170000Z
-DTSTART:20261028T170000Z
-DTEND:20261028T200000Z
-SUMMARY:Lunch Circuit
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=lunch-circuit%7C310-e-par
- kerville-road-cedar-hill%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:art-is-life|310-e-parkerville-road-cedar-hill|05-00-pm-2026-10-28@letsd
  oitdallas.com
 DTSTAMP:20261028T220000Z
@@ -895,6 +883,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-07&e=step-aerobics-extreme-hip
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
+UID:shop-small-cedar-hill-neighborhood-market|600-cedar-st-cedar-hill|09-00
+ -am-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T150000Z
+DTSTART:20261107T150000Z
+DTEND:20261107T180000Z
+SUMMARY:Shop Small Cedar Hill Neighborhood Market
+LOCATION:600 Cedar St. · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=shop-small-cedar-hill-nei
+ ghborhood-market%7C600-cedar-st-cedar-hill%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
 UID:40-double-dutch|310-e-parkerville-road-cedar-hill|10-00-am-2026-11-07@l
  etsdoitdallas.com
 DTSTAMP:20261107T160000Z
@@ -916,18 +916,6 @@ SUMMARY:Lester Lorch Park 50th Anniversary Celebration
 LOCATION:1823 Texas Plume Rd · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-11-07&e=lester-lorch-park-50th-an
  niversary-celebration%7C1823-texas-plume-rd-cedar-hill%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:shop-small-cedar-hill-neighborhood-market|600-cedar-st-cedar-hill|10-00
- -am-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261107T160000Z
-DTSTART:20261107T160000Z
-DTEND:20261107T190000Z
-SUMMARY:Shop Small Cedar Hill Neighborhood Market
-LOCATION:600 Cedar St. · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=shop-small-cedar-hill-nei
- ghborhood-market%7C600-cedar-st-cedar-hill%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
