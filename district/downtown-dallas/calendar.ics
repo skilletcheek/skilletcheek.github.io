@@ -10,22 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261029T130000Z
-DTSTART:20261029T130000Z
-DTEND:20261029T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:plim-plim-en-vivo-|house-of-blues-dallas-dallas|2-00-pm-2026-10-29@lets
  doitdallas.com
 DTSTAMP:20261029T190000Z
@@ -65,15 +49,15 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifth-third-garage-dallas-stars-v-montreal-canadiens|american-airlines-
- center-dallas|7-00-pm-2026-10-29@letsdoitdallas.com
+UID:dallas-stars-vs-montreal-canadiens|american-airlines-center-dallas|7-00
+ -pm-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261030T000000Z
 DTSTART:20261030T000000Z
 DTEND:20261030T030000Z
-SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Montreal Canadiens
+SUMMARY:Dallas Stars vs. Montreal Canadiens
 LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=fifth-third-garage-dallas
- -stars-v-montreal-canadiens%7Camerican-airlines-center-dallas%7C7-00-pm
+URL:https://letsdoitdallas.com/?date=2026-10-29&e=dallas-stars-vs-montreal-
+ canadiens%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
 END:VEVENT
@@ -102,22 +86,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=7th-annual-zach-welch-hau
  nted-hootenanny%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261030T130000Z
-DTSTART:20261030T130000Z
-DTEND:20261030T160000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:eladio-carrion|dos-equis-pavilion-dallas|6-00-pm-2026-10-30@letsdoitdal
@@ -211,6 +179,19 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:dallas-stars-vs-columbus-blue-jackets|american-airlines-center-dallas|7
+ -00-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T000000Z
+DTEND:20261101T030000Z
+SUMMARY:Dallas Stars vs. Columbus Blue Jackets
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=dallas-stars-vs-columbus-
+ blue-jackets%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:edgar-alejandro|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-202
  6-10-31@letsdoitdallas.com
 DTSTAMP:20261101T000000Z
@@ -222,19 +203,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=edgar-alejandro%7Cthe-cam
  bridge-room-at-house-of-blues-dallas%7C7-00-pm
 DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:fifth-third-garage-dallas-stars-v-columbus-blue-jackets|american-airlin
- es-center-dallas|7-00-pm-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261101T000000Z
-DTEND:20261101T030000Z
-SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Columbus Blue Jackets
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=fifth-third-garage-dallas
- -stars-v-columbus-blue-jackets%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:little-big-town-for-the-art-of-it-tour|music-hall-at-fair-park-dallas|7
@@ -576,6 +544,19 @@ DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:dallas-stars-vs-san-jose-sharks|american-airlines-center-dallas|7-00-pm
+ -2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T010000Z
+DTSTART:20261108T010000Z
+DTEND:20261108T040000Z
+SUMMARY:Dallas Stars vs. San Jose Sharks
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=dallas-stars-vs-san-jose-
+ sharks%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:dance-now|house-of-blues-dallas-dallas|7-00-pm-2026-11-07@letsdoitdalla
  s.com
 DTSTAMP:20261108T010000Z
@@ -587,19 +568,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-07&e=dance-now%7Chouse-of-blue
  s-dallas-dallas%7C7-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:fifth-third-garage-dallas-stars-v-san-jose-sharks|american-airlines-cen
- ter-dallas|7-00-pm-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261108T010000Z
-DTSTART:20261108T010000Z
-DTEND:20261108T040000Z
-SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v San Jose Sharks
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=fifth-third-garage-dallas
- -stars-v-san-jose-sharks%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
@@ -811,15 +779,15 @@ DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifth-third-garage-dallas-stars-v-winnipeg-jets|american-airlines-cente
- r-dallas|7-00-pm-2026-11-12@letsdoitdallas.com
+UID:dallas-stars-vs-winnipeg-jets|american-airlines-center-dallas|7-00-pm-2
+ 026-11-12@letsdoitdallas.com
 DTSTAMP:20261113T010000Z
 DTSTART:20261113T010000Z
 DTEND:20261113T040000Z
-SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Winnipeg Jets
+SUMMARY:Dallas Stars vs. Winnipeg Jets
 LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=fifth-third-garage-dallas
- -stars-v-winnipeg-jets%7Camerican-airlines-center-dallas%7C7-00-pm
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=dallas-stars-vs-winnipeg-
+ jets%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
 END:VEVENT
@@ -998,6 +966,19 @@ DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:dallas-stars-vs-buffalo-sabres|american-airlines-center-dallas|7-00-pm-
+ 2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T010000Z
+DTSTART:20261115T010000Z
+DTEND:20261115T040000Z
+SUMMARY:Dallas Stars vs. Buffalo Sabres
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=dallas-stars-vs-buffalo-s
+ abres%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:daughtry-20-years-unplugged-tour|majestic-theatre-dallas-dallas|7-00-pm
  -2026-11-14@letsdoitdallas.com
 DTSTAMP:20261115T010000Z
@@ -1009,19 +990,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=daughtry-20-years-unplugg
  ed-tour%7Cmajestic-theatre-dallas-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:fifth-third-garage-dallas-stars-v-buffalo-sabres|american-airlines-cent
- er-dallas|7-00-pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T010000Z
-DTSTART:20261115T010000Z
-DTEND:20261115T040000Z
-SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Buffalo Sabres
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=fifth-third-garage-dallas
- -stars-v-buffalo-sabres%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:q-marsden-do-you-see-me-|the-cambridge-room-at-house-of-blues-dallas|7-
@@ -1104,15 +1072,15 @@ DESCRIPTION:Children's Theatre event via Ticketmaster. — More: https://le
  tsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifth-third-garage-dallas-stars-v-florida-panthers|american-airlines-ce
- nter-dallas|7-00-pm-2026-11-15@letsdoitdallas.com
+UID:dallas-stars-vs-florida-panthers|american-airlines-center-dallas|7-00-p
+ m-2026-11-15@letsdoitdallas.com
 DTSTAMP:20261116T010000Z
 DTSTART:20261116T010000Z
 DTEND:20261116T040000Z
-SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Florida Panthers
+SUMMARY:Dallas Stars vs. Florida Panthers
 LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=fifth-third-garage-dallas
- -stars-v-florida-panthers%7Camerican-airlines-center-dallas%7C7-00-pm
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=dallas-stars-vs-florida-p
+ anthers%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
 END:VEVENT
@@ -1419,15 +1387,15 @@ DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifth-third-garage-dallas-stars-v-pittsburgh-penguins|american-airlines
- -center-dallas|6-00-pm-2026-11-22@letsdoitdallas.com
+UID:dallas-stars-vs-pittsburgh-penguins|american-airlines-center-dallas|6-0
+ 0-pm-2026-11-22@letsdoitdallas.com
 DTSTAMP:20261123T000000Z
 DTSTART:20261123T000000Z
 DTEND:20261123T030000Z
-SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Pittsburgh Penguins
+SUMMARY:Dallas Stars vs. Pittsburgh Penguins
 LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=fifth-third-garage-dallas
- -stars-v-pittsburgh-penguins%7Camerican-airlines-center-dallas%7C6-00-pm
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=dallas-stars-vs-pittsburg
+ h-penguins%7Camerican-airlines-center-dallas%7C6-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
 END:VEVENT
@@ -1497,15 +1465,15 @@ DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifth-third-garage-dallas-stars-v-nashville-predators|american-airlines
- -center-dallas|7-00-pm-2026-11-25@letsdoitdallas.com
+UID:dallas-stars-vs-nashville-predators|american-airlines-center-dallas|7-0
+ 0-pm-2026-11-25@letsdoitdallas.com
 DTSTAMP:20261126T010000Z
 DTSTART:20261126T010000Z
 DTEND:20261126T040000Z
-SUMMARY:FIFTH THIRD GARAGE: Dallas Stars v Nashville Predators
+SUMMARY:Dallas Stars vs. Nashville Predators
 LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=fifth-third-garage-dallas
- -stars-v-nashville-predators%7Camerican-airlines-center-dallas%7C7-00-pm
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=dallas-stars-vs-nashville
+ -predators%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
 END:VEVENT

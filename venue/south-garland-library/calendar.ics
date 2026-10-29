@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:family-place-playgroup|south-garland-library-garland|01-00-pm-2026-10-2
- 9@letsdoitdallas.com
-DTSTAMP:20261029T180000Z
-DTSTART:20261029T180000Z
-DTEND:20261029T210000Z
-SUMMARY:Family Place Playgroup
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=family-place-playgroup%7C
- south-garland-library-garland%7C01-00-pm
-DESCRIPTION:1:00 p.m.\; Each week\, we welcome a different local profession
- al who specializes in early childhood development\, covering topics like n
- utrition and speech. Families will learn from their expertise and ask ques
- tions about their child’s development\, as everyone enjoys a special pla
- y — More: https://letsdoitdallas.com/venue/south-garland-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:spooktober|south-garland-library-garland|06-00-pm-2026-10-29@letsdoitda
  llas.com
 DTSTAMP:20261029T230000Z

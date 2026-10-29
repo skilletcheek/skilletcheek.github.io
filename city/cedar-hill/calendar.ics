@@ -9,42 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:popcorn-with-planning|285-uptown-blvd-cedar-hill|11-00-am-2026-10-29@le
- tsdoitdallas.com
-DTSTAMP:20261029T160000Z
-DTSTART:20261029T160000Z
-DTEND:20261029T190000Z
-SUMMARY:Popcorn with Planning
-LOCATION:285 Uptown Blvd. · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=popcorn-with-planning%7C2
- 85-uptown-blvd-cedar-hill%7C11-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:yogalates|310-e-parkerville-road-cedar-hill|12-00-pm-2026-10-29@letsdoi
- tdallas.com
-DTSTAMP:20261029T170000Z
-DTSTART:20261029T170000Z
-DTEND:20261029T200000Z
-SUMMARY:Yogalates
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=yogalates%7C310-e-parkerv
- ille-road-cedar-hill%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:kidokinetics|310-e-parkerville-road-cedar-hill|02-00-pm-2026-10-29@lets
- doitdallas.com
-DTSTAMP:20261029T190000Z
-DTSTART:20261029T190000Z
-DTEND:20261029T220000Z
-SUMMARY:Kidokinetics
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=kidokinetics%7C310-e-park
- erville-road-cedar-hill%7C02-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:chat-youth-empowerment-program|310-e-parkerville-road-cedar-hill|04-00-
  pm-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261029T210000Z
@@ -594,15 +558,15 @@ URL:https://letsdoitdallas.com/?date=2026-11-04&e=you-up-next-live-music-ta
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
-UID:beginner-s-yoga-in-the-park|450-pioneer-trail-cedar-hill|06-30-pm-2026-
+UID:beginner-s-yoga-in-the-park|450-pioneer-trail-cedar-hill|06-00-pm-2026-
  11-04@letsdoitdallas.com
-DTSTAMP:20261105T003000Z
-DTSTART:20261105T003000Z
-DTEND:20261105T033000Z
+DTSTAMP:20261105T000000Z
+DTSTART:20261105T000000Z
+DTEND:20261105T030000Z
 SUMMARY:Beginner's Yoga in the Park
 LOCATION:450 Pioneer Trail · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-11-04&e=beginner-s-yoga-in-the-pa
- rk%7C450-pioneer-trail-cedar-hill%7C06-30-pm
+ rk%7C450-pioneer-trail-cedar-hill%7C06-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
@@ -1183,15 +1147,15 @@ URL:https://letsdoitdallas.com/?date=2026-11-11&e=you-up-next-live-music-ta
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
-UID:beginner-s-yoga-in-the-park|450-pioneer-trail-cedar-hill|06-30-pm-2026-
+UID:beginner-s-yoga-in-the-park|450-pioneer-trail-cedar-hill|06-00-pm-2026-
  11-11@letsdoitdallas.com
-DTSTAMP:20261112T003000Z
-DTSTART:20261112T003000Z
-DTEND:20261112T033000Z
+DTSTAMP:20261112T000000Z
+DTSTART:20261112T000000Z
+DTEND:20261112T030000Z
 SUMMARY:Beginner's Yoga in the Park
 LOCATION:450 Pioneer Trail · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-11-11&e=beginner-s-yoga-in-the-pa
- rk%7C450-pioneer-trail-cedar-hill%7C06-30-pm
+ rk%7C450-pioneer-trail-cedar-hill%7C06-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 BEGIN:VEVENT
