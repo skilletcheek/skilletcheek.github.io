@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:frog|rubber-gloves-denton|8-00-pm-2026-10-28@letsdoitdallas.com
-DTSTAMP:20261029T010000Z
-DTSTART:20261029T010000Z
-DTEND:20261029T040000Z
-SUMMARY:Frog
-LOCATION:Rubber Gloves · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=frog%7Crubber-gloves-dent
- on%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/rubber-gloves/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-tubs|rubber-gloves-denton|8-00-pm-2026-11-04@letsdoitdallas.com
 DTSTAMP:20261105T020000Z
 DTSTART:20261105T020000Z
@@ -42,6 +30,19 @@ SUMMARY:Radiator Hospital
 LOCATION:Rubber Gloves · Denton
 URL:https://letsdoitdallas.com/?date=2026-11-05&e=radiator-hospital%7Crubbe
  r-gloves-denton%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/rubber-gloves/
+END:VEVENT
+BEGIN:VEVENT
+UID:russian-circles-with-primitive-man|rubber-gloves-denton|8-00-pm-2026-11
+ -06@letsdoitdallas.com
+DTSTAMP:20261107T020000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+SUMMARY:Russian Circles with Primitive Man
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=russian-circles-with-prim
+ itive-man%7Crubber-gloves-denton%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/rubber-gloves/
 END:VEVENT

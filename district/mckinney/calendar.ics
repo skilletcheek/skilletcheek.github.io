@@ -10,43 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:planning-passport|mckinney|see-details-2026-10-28@letsdoitdallas.com
-DTSTAMP:20261028T000000Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-SUMMARY:Planning Passport
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=planning-passport%7Cmckin
- ney%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 31. — More: https://letsdoitdallas.com/dis
- trict/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:worlds-2026-swiss-5|credit-union-of-texas-event-center-allen|3-00-pm-20
- 26-10-28@letsdoitdallas.com
-DTSTAMP:20261028T200000Z
-DTSTART:20261028T200000Z
-DTEND:20261028T230000Z
-SUMMARY:Worlds 2026 - Swiss 5
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=worlds-2026-swiss-5%7Ccre
- dit-union-of-texas-event-center-allen%7C3-00-pm
-DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:kids-art-studio-k-5th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-
- 2026-10-28@letsdoitdallas.com
-DTSTAMP:20261028T213000Z
-DTSTART:20261028T213000Z
-DTEND:20261029T003000Z
-SUMMARY:Kids Art Studio (K-5th Grade)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=kids-art-studio-k-5th-gra
- de-%7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:planning-passport|mckinney|see-details-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261029T000000Z
 DTSTART;VALUE=DATE:20261029
@@ -683,6 +646,66 @@ URL:https://letsdoitdallas.com/?date=2026-11-11&e=true-crime-book-club-adul
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
+ am-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T163000Z
+DTSTART:20261112T163000Z
+DTEND:20261112T193000Z
+SUMMARY:Toddler Time (16 Months-3 Years)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=toddler-time-16-months-3-
+ years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:little-explorers-3-5-years-|6861-w-eldorado-parkway-mckinney|11-30-am-2
+ 026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T173000Z
+DTSTART:20261112T173000Z
+DTEND:20261112T203000Z
+SUMMARY:Little Explorers (3-5 Years)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=little-explorers-3-5-year
+ s-%7C6861-w-eldorado-parkway-mckinney%7C11-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:american-mahjong-hour-adults-|6861-w-eldorado-parkway-mckinney|01-00-pm
+ -2026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T190000Z
+DTSTART:20261112T190000Z
+DTEND:20261112T220000Z
+SUMMARY:American Mahjong Hour (Adults)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=american-mahjong-hour-adu
+ lts-%7C6861-w-eldorado-parkway-mckinney%7C01-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:crochet-club-6th-12th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-
+ 2026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T223000Z
+DTSTART:20261112T223000Z
+DTEND:20261113T013000Z
+SUMMARY:Crochet Club (6th-12th Grade)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=crochet-club-6th-12th-gra
+ de-%7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:ready-to-react-cpr-training|2100-taylor-burk-dr-mckinney|06-30-pm-2026-
+ 11-12@letsdoitdallas.com
+DTSTAMP:20261113T003000Z
+DTSTART:20261113T003000Z
+DTEND:20261113T033000Z
+SUMMARY:Ready to React CPR Training
+LOCATION:2100 Taylor Burk Dr. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=ready-to-react-cpr-traini
+ ng%7C2100-taylor-burk-dr-mckinney%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:allen-americans-vs-kansas-city-mavericks-red-out|credit-union-of-texas-
  event-center-allen|7-00-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T010000Z
@@ -719,6 +742,32 @@ SUMMARY:Disney On Ice presents Magic in the Stars
 LOCATION:Credit Union of Texas Event Center · Allen
 URL:https://letsdoitdallas.com/?date=2026-11-25&e=disney-on-ice-presents-ma
  gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
+DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c
+ enter-allen|11-00-am-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261127T170000Z
+DTSTART:20261127T170000Z
+DTEND:20261127T200000Z
+SUMMARY:Disney On Ice presents Magic in the Stars
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=disney-on-ice-presents-ma
+ gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C11-00-am
+DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c
+ enter-allen|3-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261127T210000Z
+DTSTART:20261127T210000Z
+DTEND:20261128T000000Z
+SUMMARY:Disney On Ice presents Magic in the Stars
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=disney-on-ice-presents-ma
+ gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C3-00-pm
 DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/mckinney/
 END:VEVENT

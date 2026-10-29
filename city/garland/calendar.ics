@@ -9,38 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
- |04-00-pm-2026-10-28@letsdoitdallas.com
-DTSTAMP:20261028T210000Z
-DTSTART:20261028T210000Z
-DTEND:20261029T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=teenz-place-after-school-
- hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
-DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
- eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
-  snacks while supplies last. Bring your friends! October 28\, 2026 04:00 P
- M - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:gentle-yoga-ages-18-|central-library-garland|06-00-pm-2026-10-28@letsdo
- itdallas.com
-DTSTAMP:20261028T230000Z
-DTSTART:20261028T230000Z
-DTEND:20261029T020000Z
-SUMMARY:Gentle Yoga (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=gentle-yoga-ages-18-%7Cce
- ntral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; A gentle yoga class suitable for adult participants
-  of all levels of experience. Participants should bring their own mat and/
- or towel. Props such as chairs and blocks will be available. October 28\, 
- 2026 06:00 PM - 07:00 PM 625 Austin St.Garland\, TX 75040 https://www.ga 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-10
  -29@letsdoitdallas.com
 DTSTAMP:20261029T150000Z
@@ -952,6 +920,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-07&e=what-she-s-having-present
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
+UID:teen-uno-tournament|north-garland-library-garland|02-30-pm-2026-11-07@l
+ etsdoitdallas.com
+DTSTAMP:20261107T203000Z
+DTSTART:20261107T203000Z
+DTEND:20261107T233000Z
+SUMMARY:Teen UNO® Tournament
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=teen-uno-tournament%7Cnor
+ th-garland-library-garland%7C02-30-pm
+DESCRIPTION:Tweens and teens can stack\, skip\, reverse\, and draw your way
+  to victory at the ultimate Teen UNO® Tournament! November 7\, 2026 02:30
+  PM - 04:30 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandt
+ x.gov/Calendar.aspx?EID=13463/639288107540000000 — More: https://letsdoi
+ tdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
 UID:crafternoon-ages-13-|central-library-garland|03-00-pm-2026-11-07@letsdo
  itdallas.com
 DTSTAMP:20261107T210000Z
@@ -1311,6 +1295,182 @@ LOCATION:521 W State Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-11-11&e=bye-bye-birdie-ype-presen
  ted-by-hometown-theater%7C521-w-state-street-garland%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-11
+ -12@letsdoitdallas.com
+DTSTAMP:20261112T160000Z
+DTSTART:20261112T160000Z
+DTEND:20261112T190000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=preschool-discovery-3-5-y
+ ears-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
+ ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
+ ters\, numbers\, and much more that will help develop your preschooler's e
+ arly literacy skills. November 12\, 2026 10:00 AM - 11:00 AM 625 Austin St
+ .G — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:cuentos-y-cantos-0-5-a-os-|biblioteca-central-garland|11-00-am-2026-11-
+ 12@letsdoitdallas.com
+DTSTAMP:20261112T170000Z
+DTSTART:20261112T170000Z
+DTEND:20261112T200000Z
+SUMMARY:Cuentos y Cantos (0-5 Años)
+LOCATION:Biblioteca Central · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=cuentos-y-cantos-0-5-a-os
+ -%7Cbiblioteca-central-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Acompáñenos para unos cuentos y cantos mientras 
+ aprendemos sobre temas escolares y lo más importante\, las habilidades ne
+ cesarias para leer. November 12\, 2026 11:00 AM - 12:00 PM 625 Austin St.G
+ arland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12955/639227
+ 46 — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:stuffie-sleepover|south-garland-library-garland|12-00-pm-2026-11-12@let
+ sdoitdallas.com
+DTSTAMP:20261112T180000Z
+DTSTART:20261112T180000Z
+DTEND:20261112T210000Z
+SUMMARY:Stuffie Sleepover
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=stuffie-sleepover%7Csouth
+ -garland-library-garland%7C12-00-pm
+DESCRIPTION:Runs Nov 12 – Nov 13. Your stuffed animals and dolls are invi
+ ted to a special sleepover at the library! Drop them off during open hours
+  on Thursday (noon – 8 p.m.) and pick up during open hours on Friday (10
+  a.m. – 6 p.m.). Your stuffie friend will go home with a scrapbook full 
+ o — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-place-playgroup|south-garland-library-garland|01-00-pm-2026-11-1
+ 2@letsdoitdallas.com
+DTSTAMP:20261112T190000Z
+DTSTART:20261112T190000Z
+DTEND:20261112T220000Z
+SUMMARY:Family Place Playgroup
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=family-place-playgroup%7C
+ south-garland-library-garland%7C01-00-pm
+DESCRIPTION:1:00 p.m.\; Each week\, we welcome a different local profession
+ al who specializes in early childhood development\, covering topics like n
+ utrition and speech. Families will learn from their expertise and ask ques
+ tions about their child’s development\, as everyone enjoys a special pla
+ y — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T220000Z
+DTSTART:20261112T220000Z
+DTEND:20261113T010000Z
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=teenz-place-after-school-
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
+DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
+ eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
+  snacks while supplies last. Bring your friends! November 12\, 2026 04:00 
+ PM - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandt 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-game-night-noche-de-juegos-en-familia-de-la-biblioteca-south-gar
+ land|south-garland-library-garland|05-30-pm-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T233000Z
+DTSTART:20261112T233000Z
+DTEND:20261113T023000Z
+SUMMARY:Family Game Night / Noche de Juegos en Familia de la Biblioteca Sou
+ th Garland
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=family-game-night-noche-d
+ e-juegos-en-familia-de-la-biblioteca-south-garland%7Csouth-garland-library
+ -garland%7C05-30-pm
+DESCRIPTION:5:30 p.m.\; Enjoy classic and modern games designed to bring fa
+ milies together in a friendly\, welcoming atmosphere. Play together or mee
+ t other families in your community. Games will be available in English and
+  Spanish. No registration required. Space is limited. Children 13 and y 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:crochet-beginner-basics-ages-13-|central-library-garland|06-00-pm-2026-
+ 11-12@letsdoitdallas.com
+DTSTAMP:20261113T000000Z
+DTSTART:20261113T000000Z
+DTEND:20261113T030000Z
+SUMMARY:Crochet Beginner Basics (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=crochet-beginner-basics-a
+ ges-13-%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; In this beginner-friendly class\, we’ll focus on 
+ basic crochet stitches to help beginner crocheters build confidence in the
+ ir crocheting abilities. We’ll cover the slip knot\, chain stitch and si
+ ngle crochet stitch. November 12\, 2026 06:00 PM - 07:30 PM 625 Austin St.
+ Gar — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:celebrities-about-town-a-memoir-book-club-ages-18-at-lakewood-brewing-c
+ ompany|2302-executive-drive-garland|06-30-pm-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261113T003000Z
+DTSTART:20261113T003000Z
+DTEND:20261113T033000Z
+SUMMARY:Celebrities About Town: A Memoir Book Club (Ages 18+) at Lakewood B
+ rewing Company
+LOCATION:2302 Executive Drive · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=celebrities-about-town-a-
+ memoir-book-club-ages-18-at-lakewood-brewing-company%7C2302-executive-driv
+ e-garland%7C06-30-pm
+DESCRIPTION:6:30 p.m.\; Step into the shoes of your favorite celebs and mee
+ t other readers as we spotlight a new memoir each month. Whether we’re d
+ elving into the lives of musicians\, actors\, athletes or royalty ― it
+ ’s sure to be a fun and star-powered conversation! Food and drinks (both
+  alcoh — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:english-learners-conversation-club-ages-18-|north-garland-library-garla
+ nd|06-30-pm-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261113T003000Z
+DTSTART:20261113T003000Z
+DTEND:20261113T033000Z
+SUMMARY:English Learners Conversation Club (Ages 18+)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=english-learners-conversa
+ tion-club-ages-18-%7Cnorth-garland-library-garland%7C06-30-pm
+DESCRIPTION:6:30 p.m.\; Practice English in a friendly and supportive conve
+ rsation group. Build confidence through guided discussions\, language acti
+ vities and open conversation while meeting others in the community. All sk
+ ill levels are welcome. November 12\, 2026 06:30 PM - 07:30 PM 3845 N. G 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:bye-bye-birdie-ype-presented-by-hometown-theater|521-w-state-street-gar
+ land|07-00-pm-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261113T010000Z
+DTSTART:20261113T010000Z
+DTEND:20261113T040000Z
+SUMMARY:Bye Bye Birdie: YPE presented by Hometown Theater
+LOCATION:521 W State Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=bye-bye-birdie-ype-presen
+ ted-by-hometown-theater%7C521-w-state-street-garland%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:stuffie-sleepover|south-garland-library-garland|12-00-pm-2026-11-13@let
+ sdoitdallas.com
+DTSTAMP:20261113T180000Z
+DTSTART:20261113T180000Z
+DTEND:20261113T210000Z
+SUMMARY:Stuffie Sleepover
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=stuffie-sleepover%7Csouth
+ -garland-library-garland%7C12-00-pm
+DESCRIPTION:Runs Nov 12 – Nov 13. Your stuffed animals and dolls are invi
+ ted to a special sleepover at the library! Drop them off during open hours
+  on Thursday (noon – 8 p.m.) and pick up during open hours on Friday (10
+  a.m. – 6 p.m.). Your stuffie friend will go home with a scrapbook full 
+ o — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:jubin-nautiyal|curtis-culwell-center-garland|8-00-pm-2026-11-14@letsdoi

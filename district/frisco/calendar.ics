@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:southwestern-watercolor-society-exhibition-opens|8004-n-dallas-parkway-
- frisco|10-00-am-2026-10-28@letsdoitdallas.com
-DTSTAMP:20261028T150000Z
-DTSTART:20261028T150000Z
-DTEND:20261028T180000Z
-SUMMARY:Southwestern Watercolor Society Exhibition Opens
-LOCATION:8004 N. Dallas Parkway · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=southwestern-watercolor-s
- ociety-exhibition-opens%7C8004-n-dallas-parkway-frisco%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:fc-dallas-vs-columbus-crew|toyota-stadium-frisco|7-30-pm-2026-10-28@let
- sdoitdallas.com
-DTSTAMP:20261029T003000Z
-DTSTART:20261029T003000Z
-DTEND:20261029T033000Z
-SUMMARY:FC Dallas vs. Columbus Crew
-LOCATION:Toyota Stadium · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=fc-dallas-vs-columbus-cre
- w%7Ctoyota-stadium-frisco%7C7-30-pm
-DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:allen-americans-vs-idaho-steelheads|comerica-center-frisco|10-00-am-202
  6-10-29@letsdoitdallas.com
 DTSTAMP:20261029T150000Z
@@ -208,6 +183,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-05&e=-the-cottage-by-theatre-f
  risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
 DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
  strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:plaza-live-|8802-4th-street-frisco|06-00-pm-2026-11-05@letsdoitdallas.c
+ om
+DTSTAMP:20261106T000000Z
+DTSTART:20261106T000000Z
+DTEND:20261106T030000Z
+SUMMARY:Plaza Live!
+LOCATION:8802 4th Street · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=plaza-live-%7C8802-4th-st
+ reet-frisco%7C06-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
@@ -413,6 +400,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-12&e=-the-cottage-by-theatre-f
  risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
 DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
  strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:multicultural-committee-meeting|8000-n-dallas-pkwy-frisco|05-00-pm-2026
+ -11-12@letsdoitdallas.com
+DTSTAMP:20261112T230000Z
+DTSTART:20261112T230000Z
+DTEND:20261113T020000Z
+SUMMARY:Multicultural Committee Meeting
+LOCATION:8000 N. Dallas Pkwy. · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=multicultural-committee-m
+ eeting%7C8000-n-dallas-pkwy-frisco%7C05-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-

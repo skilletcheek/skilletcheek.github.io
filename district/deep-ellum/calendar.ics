@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:boss-daughter-half-foot-hog-kill-your-tv|three-links-deep-ellum-dallas|
- 7-00-pm-2026-10-28@letsdoitdallas.com
-DTSTAMP:20261029T000000Z
-DTSTART:20261029T000000Z
-DTEND:20261029T030000Z
-SUMMARY:Boss' Daughter\, Half Foot Hog\, Kill Your TV
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=boss-daughter-half-foot-h
- og-kill-your-tv%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:2slimey|trees-dallas|8-00-pm-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261030T010000Z
 DTSTART:20261030T010000Z
@@ -374,19 +361,6 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-kilans-jade-street|trees-dallas|doors-see-listing-2026-11-06@letsdo
- itdallas.com
-DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:THE KILANS * JADE STREET
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-kilans-jade-street%7C
- trees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:sparkbird-wrongbird|three-links-deep-ellum-dallas|7-00-pm-2026-11-06@le
  tsdoitdallas.com
 DTSTAMP:20261107T010000Z
@@ -424,6 +398,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=francis-of-delirium%7Cclu
  b-dada-dallas%7C8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:jervis-campbell|deep-ellum-art-co-dallas|8-00-pm-2026-11-06@letsdoitdal
+ las.com
+DTSTAMP:20261107T020000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+SUMMARY:Jervis Campbell
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=jervis-campbell%7Cdeep-el
+ lum-art-co-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-kilans|trees-dallas-dallas|8-00-pm-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T020000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+SUMMARY:The Kilans
+LOCATION:Trees - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-kilans%7Ctrees-dallas
+ -dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
@@ -1153,5 +1152,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-25&e=wub-wednesday%7Cthree-lin
  ks-deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-26@letsdoitdall
+ as.com
+DTSTAMP:20261127T050000Z
+DTSTART:20261127T050000Z
+DTEND:20261127T080000Z
+SUMMARY:DJ JREAM
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=dj-jream%7Cthree-links-de
+ ep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:as-i-lay-dying-the-curse-within-commissary|trees-dallas|doors-see-listi
+ ng-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:AS I LAY DYING * THE CURSE WITHIN * COMMISSARY
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=as-i-lay-dying-the-curse-
+ within-commissary%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
 END:VEVENT
 END:VCALENDAR

@@ -35,6 +35,19 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/deep-ellum-art-co/
 END:VEVENT
 BEGIN:VEVENT
+UID:jervis-campbell|deep-ellum-art-co-dallas|8-00-pm-2026-11-06@letsdoitdal
+ las.com
+DTSTAMP:20261107T020000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+SUMMARY:Jervis Campbell
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=jervis-campbell%7Cdeep-el
+ lum-art-co-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/deep-ellum-art-co/
+END:VEVENT
+BEGIN:VEVENT
 UID:i-d-i-o-t-s-indie-night-4th-anniversary|deep-ellum-art-co-dallas|7-00-p
  m-2026-11-10@letsdoitdallas.com
 DTSTAMP:20261111T010000Z

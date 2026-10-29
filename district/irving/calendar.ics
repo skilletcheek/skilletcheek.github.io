@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:james-tom-goes-on-a-mini-tour-casual-style|punch-line-irving-irving|7-3
- 0-pm-2026-10-28@letsdoitdallas.com
-DTSTAMP:20261029T003000Z
-DTSTART:20261029T003000Z
-DTEND:20261029T033000Z
-SUMMARY:James Tom Goes on a Mini-Tour\, Casual Style
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=james-tom-goes-on-a-mini-
- tour-casual-style%7Cpunch-line-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:marito-lopez|punch-line-irving-irving|7-30-pm-2026-10-29@letsdoitdallas
  .com
 DTSTAMP:20261030T003000Z
@@ -229,6 +216,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=vladimir-caamano%7Cpunch-
  line-irving-irving%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:arcangel|the-pavilion-at-toyota-music-factory-irving|8-00-pm-2026-11-06
+ @letsdoitdallas.com
+DTSTAMP:20261107T020000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+SUMMARY:Arcangel
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=arcangel%7Cthe-pavilion-a
+ t-toyota-music-factory-irving%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/irving/
 END:VEVENT
 BEGIN:VEVENT
 UID:arc-ngel-la-8va-maravilla-world-tour|the-pavilion-at-toyota-music-facto

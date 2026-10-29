@@ -1,36 +1,20 @@
 {
- "date": "2026-10-28",
+ "date": "2026-10-29",
  "counts": {
-  "ticketmaster": 536,
+  "ticketmaster": 532,
   "seatgeek": 300,
   "ics_feeds": 129,
-  "civicplus": 347,
-  "prekindle": 64,
+  "civicplus": 363,
+  "prekindle": 65,
   "singles_pages": 5,
   "do214": 0,
-  "dallasites101": 5,
+  "dallasites101": 7,
   "seated": 1,
   "ics_feeds (whatsupfortworth.com)": 29,
   "ics_feeds (calendar.unt.edu)": 100
  },
  "alarms": [],
  "history": [
-  {
-   "date": "2026-10-22",
-   "counts": {
-    "ticketmaster": 511,
-    "seatgeek": 300,
-    "ics_feeds": 141,
-    "civicplus": 374,
-    "prekindle": 80,
-    "singles_pages": 7,
-    "do214": 0,
-    "dallasites101": 5,
-    "seated": 2,
-    "ics_feeds (whatsupfortworth.com)": 28,
-    "ics_feeds (calendar.unt.edu)": 113
-   }
-  },
   {
    "date": "2026-10-22",
    "counts": {
@@ -234,6 +218,22 @@
     "singles_pages": 5,
     "do214": 0,
     "dallasites101": 5,
+    "seated": 1,
+    "ics_feeds (whatsupfortworth.com)": 29,
+    "ics_feeds (calendar.unt.edu)": 100
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "counts": {
+    "ticketmaster": 532,
+    "seatgeek": 300,
+    "ics_feeds": 129,
+    "civicplus": 363,
+    "prekindle": 65,
+    "singles_pages": 5,
+    "do214": 0,
+    "dallasites101": 7,
     "seated": 1,
     "ics_feeds (whatsupfortworth.com)": 29,
     "ics_feeds (calendar.unt.edu)": 100

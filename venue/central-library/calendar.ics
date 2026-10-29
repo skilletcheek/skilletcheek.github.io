@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gentle-yoga-ages-18-|central-library-garland|06-00-pm-2026-10-28@letsdo
- itdallas.com
-DTSTAMP:20261028T230000Z
-DTSTART:20261028T230000Z
-DTEND:20261029T020000Z
-SUMMARY:Gentle Yoga (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=gentle-yoga-ages-18-%7Cce
- ntral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; A gentle yoga class suitable for adult participants
-  of all levels of experience. Participants should bring their own mat and/
- or towel. Props such as chairs and blocks will be available. October 28\, 
- 2026 06:00 PM - 07:00 PM 625 Austin St.Garland\, TX 75040 https://www.ga 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-10
  -29@letsdoitdallas.com
 DTSTAMP:20261029T150000Z
@@ -541,5 +525,53 @@ DESCRIPTION:2:00 p.m.\; Learn how to use makerspace tools to create product
   equipment such as 3D printers\, laser cutters\, Cricut machines and subli
  mation tools\, etc. There will be a Q&A at the end to allow patrons to as 
  — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-11
+ -12@letsdoitdallas.com
+DTSTAMP:20261112T160000Z
+DTSTART:20261112T160000Z
+DTEND:20261112T190000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=preschool-discovery-3-5-y
+ ears-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
+ ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
+ ters\, numbers\, and much more that will help develop your preschooler's e
+ arly literacy skills. November 12\, 2026 10:00 AM - 11:00 AM 625 Austin St
+ .G — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:cuentos-y-cantos-0-5-a-os-|biblioteca-central-garland|11-00-am-2026-11-
+ 12@letsdoitdallas.com
+DTSTAMP:20261112T170000Z
+DTSTART:20261112T170000Z
+DTEND:20261112T200000Z
+SUMMARY:Cuentos y Cantos (0-5 Años)
+LOCATION:Biblioteca Central · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=cuentos-y-cantos-0-5-a-os
+ -%7Cbiblioteca-central-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Acompáñenos para unos cuentos y cantos mientras 
+ aprendemos sobre temas escolares y lo más importante\, las habilidades ne
+ cesarias para leer. November 12\, 2026 11:00 AM - 12:00 PM 625 Austin St.G
+ arland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12955/639227
+ 46 — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:crochet-beginner-basics-ages-13-|central-library-garland|06-00-pm-2026-
+ 11-12@letsdoitdallas.com
+DTSTAMP:20261113T000000Z
+DTSTART:20261113T000000Z
+DTEND:20261113T030000Z
+SUMMARY:Crochet Beginner Basics (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=crochet-beginner-basics-a
+ ges-13-%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; In this beginner-friendly class\, we’ll focus on 
+ basic crochet stitches to help beginner crocheters build confidence in the
+ ir crocheting abilities. We’ll cover the slip knot\, chain stitch and si
+ ngle crochet stitch. November 12\, 2026 06:00 PM - 07:30 PM 625 Austin St.
+ Gar — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

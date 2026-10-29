@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:daniel-sloss-bitter-brand-new-tour-|majestic-theatre-dallas-dallas|7-00
- -pm-2026-10-28@letsdoitdallas.com
-DTSTAMP:20261029T000000Z
-DTSTART:20261029T000000Z
-DTEND:20261029T030000Z
-SUMMARY:Daniel Sloss: BITTER  (Brand New Tour!)
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=daniel-sloss-bitter-brand
- -new-tour-%7Cmajestic-theatre-dallas-dallas%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:pj-morton-saturday-night-sunday-morning-tour|majestic-theatre-dallas-da
  llas|8-00-pm-2026-10-31@letsdoitdallas.com
 DTSTAMP:20261101T010000Z

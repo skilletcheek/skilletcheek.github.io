@@ -62,17 +62,16 @@ DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT
 BEGIN:VEVENT
-UID:the-kilans-jade-street|trees-dallas|doors-see-listing-2026-11-06@letsdo
- itdallas.com
-DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:THE KILANS * JADE STREET
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-kilans-jade-street%7C
- trees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+UID:the-kilans|trees-dallas-dallas|8-00-pm-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T020000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+SUMMARY:The Kilans
+LOCATION:Trees - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-kilans%7Ctrees-dallas
+ -dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
 UID:ceremony-w-support-from-slippers-world-peace|trees-dallas|doors-see-lis
@@ -198,5 +197,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-24&e=n8noface%7Ctrees-dallas%7
  C7-30-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/trees/
+END:VEVENT
+BEGIN:VEVENT
+UID:as-i-lay-dying-the-curse-within-commissary|trees-dallas|doors-see-listi
+ ng-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:AS I LAY DYING * THE CURSE WITHIN * COMMISSARY
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=as-i-lay-dying-the-curse-
+ within-commissary%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
 END:VEVENT
 END:VCALENDAR

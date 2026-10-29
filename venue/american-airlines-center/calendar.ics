@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-mavericks-vs-oklahoma-city-thunder|american-airlines-center-dall
- as|8-30-pm-2026-10-28@letsdoitdallas.com
-DTSTAMP:20261029T013000Z
-DTSTART:20261029T013000Z
-DTEND:20261029T043000Z
-SUMMARY:Dallas Mavericks vs. Oklahoma City Thunder
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=dallas-mavericks-vs-oklah
- oma-city-thunder%7Camerican-airlines-center-dallas%7C8-30-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:fifth-third-garage-dallas-stars-v-montreal-canadiens|american-airlines-
  center-dallas|7-00-pm-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261030T000000Z

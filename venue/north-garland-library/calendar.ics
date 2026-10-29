@@ -10,22 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
- |04-00-pm-2026-10-28@letsdoitdallas.com
-DTSTAMP:20261028T210000Z
-DTSTART:20261028T210000Z
-DTEND:20261029T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-28&e=teenz-place-after-school-
- hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
-DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
- eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
-  snacks while supplies last. Bring your friends! October 28\, 2026 04:00 P
- M - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx 
- — More: https://letsdoitdallas.com/venue/north-garland-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
  |04-00-pm-2026-10-29@letsdoitdallas.com
 DTSTAMP:20261029T210000Z
 DTSTART:20261029T210000Z
@@ -169,6 +153,22 @@ DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
  d — More: https://letsdoitdallas.com/venue/north-garland-library/
 END:VEVENT
 BEGIN:VEVENT
+UID:teen-uno-tournament|north-garland-library-garland|02-30-pm-2026-11-07@l
+ etsdoitdallas.com
+DTSTAMP:20261107T203000Z
+DTSTART:20261107T203000Z
+DTEND:20261107T233000Z
+SUMMARY:Teen UNO® Tournament
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=teen-uno-tournament%7Cnor
+ th-garland-library-garland%7C02-30-pm
+DESCRIPTION:Tweens and teens can stack\, skip\, reverse\, and draw your way
+  to victory at the ultimate Teen UNO® Tournament! November 7\, 2026 02:30
+  PM - 04:30 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandt
+ x.gov/Calendar.aspx?EID=13463/639288107540000000 — More: https://letsdoi
+ tdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
 UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
  |04-00-pm-2026-11-10@letsdoitdallas.com
 DTSTAMP:20261110T220000Z
@@ -230,6 +230,38 @@ DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
  eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
   snacks while supplies last. Bring your friends! November 11\, 2026 04:00 
  PM - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandt 
+ — More: https://letsdoitdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T220000Z
+DTSTART:20261112T220000Z
+DTEND:20261113T010000Z
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=teenz-place-after-school-
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
+DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
+ eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
+  snacks while supplies last. Bring your friends! November 12\, 2026 04:00 
+ PM - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandt 
+ — More: https://letsdoitdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:english-learners-conversation-club-ages-18-|north-garland-library-garla
+ nd|06-30-pm-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261113T003000Z
+DTSTART:20261113T003000Z
+DTEND:20261113T033000Z
+SUMMARY:English Learners Conversation Club (Ages 18+)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=english-learners-conversa
+ tion-club-ages-18-%7Cnorth-garland-library-garland%7C06-30-pm
+DESCRIPTION:6:30 p.m.\; Practice English in a friendly and supportive conve
+ rsation group. Build confidence through guided discussions\, language acti
+ vities and open conversation while meeting others in the community. All sk
+ ill levels are welcome. November 12\, 2026 06:30 PM - 07:30 PM 3845 N. G 
  — More: https://letsdoitdallas.com/venue/north-garland-library/
 END:VEVENT
 END:VCALENDAR

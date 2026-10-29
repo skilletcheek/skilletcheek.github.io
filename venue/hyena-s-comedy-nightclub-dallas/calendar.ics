@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hyena's Comedy Nightclub - Dallas — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Hyena's Comedy Nightclub - Dallas.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:a-nightmare-on-elm-street-film-dallas|hyena-s-comedy-nightclub-dallas-d
+ allas|10-00-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T030000Z
+DTSTART:20261031T030000Z
+DTEND:20261031T060000Z
+SUMMARY:A Nightmare on Elm Street - Film - Dallas
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=a-nightmare-on-elm-street
+ -film-dallas%7Chyena-s-comedy-nightclub-dallas-dallas%7C10-00-pm
+DESCRIPTION:film event via SeatGeek. — More: https://letsdoitdallas.com/v
+ enue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:david-koechner|hyena-s-comedy-nightclub-dallas-dallas|7-00-pm-2026-11-0
+ 5@letsdoitdallas.com
+DTSTAMP:20261106T010000Z
+DTSTART:20261106T010000Z
+DTEND:20261106T040000Z
+SUMMARY:David Koechner
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=david-koechner%7Chyena-s-
+ comedy-nightclub-dallas-dallas%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:david-koechner|hyena-s-comedy-nightclub-dallas-dallas|8-00-pm-2026-11-0
+ 6@letsdoitdallas.com
+DTSTAMP:20261107T020000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+SUMMARY:David Koechner
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=david-koechner%7Chyena-s-
+ comedy-nightclub-dallas-dallas%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+END:VCALENDAR
