@@ -34,6 +34,18 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/am-fm-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:bombargo|am-fm-dallas-dallas|7-00-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261106T010000Z
+DTSTART:20261106T010000Z
+DTEND:20261106T040000Z
+SUMMARY:Bombargo
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=bombargo%7Cam-fm-dallas-d
+ allas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:moonshine-bandits|am-fm-dallas-dallas|7-00-pm-2026-11-06@letsdoitdallas
  .com
 DTSTAMP:20261107T010000Z
@@ -58,6 +70,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-08&e=mushroomhead-w-fear-facto
  ry%7Cam-fm-dallas-dallas%7C7-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:obskuros-18-event-|am-fm-dallas-dallas|9-00-pm-2026-11-08@letsdoitdalla
+ s.com
+DTSTAMP:20261109T030000Z
+DTSTART:20261109T030000Z
+DTEND:20261109T060000Z
+SUMMARY:Obskuros (18+ Event)
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=obskuros-18-event-%7Cam-f
+ m-dallas-dallas%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/am-fm-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:gwar|am-fm-dallas-dallas|6-00-pm-2026-11-10@letsdoitdallas.com
@@ -97,6 +122,31 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/am-fm-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:caroline-carr|am-fm-dallas-dallas|9-30-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T033000Z
+DTSTART:20261114T033000Z
+DTEND:20261114T063000Z
+SUMMARY:Caroline Carr
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=caroline-carr%7Cam-fm-dal
+ las-dallas%7C9-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:identity-crisis-18-event-|am-fm-dallas-dallas|9-30-pm-2026-11-15@letsdo
+ itdallas.com
+DTSTAMP:20261116T033000Z
+DTSTART:20261116T033000Z
+DTEND:20261116T063000Z
+SUMMARY:Identity Crisis (18+ Event)
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=identity-crisis-18-event-
+ %7Cam-fm-dallas-dallas%7C9-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:chase-petra-w-jer|am-fm-dallas-dallas|7-00-pm-2026-11-17@letsdoitdallas
  .com
 DTSTAMP:20261118T010000Z
@@ -108,6 +158,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-17&e=chase-petra-w-jer%7Cam-fm
  -dallas-dallas%7C7-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:liim-18-event-|am-fm-dallas-dallas|9-30-pm-2026-11-17@letsdoitdallas.co
+ m
+DTSTAMP:20261118T033000Z
+DTSTART:20261118T033000Z
+DTEND:20261118T063000Z
+SUMMARY:Liim (18+ Event)
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=liim-18-event-%7Cam-fm-da
+ llas-dallas%7C9-30-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/am-fm-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:aterciopelados|am-fm-dallas-dallas|7-00-pm-2026-11-20@letsdoitdallas.co

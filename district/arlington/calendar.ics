@@ -10,41 +10,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|11-00-am-2026-10-30
- @letsdoitdallas.com
-DTSTAMP:20261030T160000Z
-DTSTART:20261030T160000Z
-DTEND:20261030T190000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C11-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|1-00-pm-2026-10-30@
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-10-30@
  letsdoitdallas.com
-DTSTAMP:20261030T180000Z
-DTSTART:20261030T180000Z
-DTEND:20261030T210000Z
+DTSTAMP:20261030T210000Z
+DTSTART:20261030T210000Z
+DTEND:20261031T000000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-10-30&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C1-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-10-30@
- letsdoitdallas.com
-DTSTAMP:20261030T200000Z
-DTSTART:20261030T200000Z
-DTEND:20261030T230000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C3-00-pm
+ our%7Cat-t-stadium-arlington%7C4-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
@@ -536,6 +510,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-07&e=kanye-west%7Cat-t-stadium
  -arlington%7C8-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:ye-live-in-dallas|at-t-stadium-arlington|8-00-pm-2026-11-07@letsdoitdal
+ las.com
+DTSTAMP:20261108T020000Z
+DTSTART:20261108T020000Z
+DTEND:20261108T050000Z
+SUMMARY:Ye Live in Dallas
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=ye-live-in-dallas%7Cat-t-
+ stadium-arlington%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:shuler-king|arlington-improv-arlington|9-30-pm-2026-11-07@letsdoitdalla
