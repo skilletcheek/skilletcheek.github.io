@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:morrissey-live-in-concert|ariat-arena-fort-worth|8-20-pm-2026-10-29@let
- sdoitdallas.com
-DTSTAMP:20261030T012000Z
-DTSTART:20261030T012000Z
-DTEND:20261030T042000Z
-SUMMARY:Morrissey: Live In Concert
-LOCATION:Ariat Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=morrissey-live-in-concert
- %7Cariat-arena-fort-worth%7C8-20-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/ariat-arena/
-END:VEVENT
-BEGIN:VEVENT
 UID:teddy-swims-the-ugly-tour|ariat-arena-fort-worth|7-00-pm-2026-10-30@let
  sdoitdallas.com
 DTSTAMP:20261031T000000Z
@@ -150,5 +137,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-22&e=ls-hoops-with-heart-weeke
  nd-i%7Cariat-arena-fort-worth%7C12-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/ariat-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:intocable-cultura-tour-2026|ariat-arena-fort-worth|8-00-pm-2026-11-27@l
+ etsdoitdallas.com
+DTSTAMP:20261128T020000Z
+DTSTART:20261128T020000Z
+DTEND:20261128T050000Z
+SUMMARY:Intocable: Cultura Tour 2026
+LOCATION:Ariat Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=intocable-cultura-tour-20
+ 26%7Cariat-arena-fort-worth%7C8-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/ariat-arena/
 END:VEVENT
 END:VCALENDAR

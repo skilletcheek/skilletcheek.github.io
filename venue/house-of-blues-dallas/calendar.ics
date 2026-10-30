@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:plim-plim-en-vivo-|house-of-blues-dallas-dallas|2-00-pm-2026-10-29@lets
- doitdallas.com
-DTSTAMP:20261029T190000Z
-DTSTART:20261029T190000Z
-DTEND:20261029T220000Z
-SUMMARY:Plim Plim - En Vivo!
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=plim-plim-en-vivo-%7Chous
- e-of-blues-dallas-dallas%7C2-00-pm
-DESCRIPTION:Circus & Specialty Acts event via Ticketmaster. — More: https
- ://letsdoitdallas.com/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:plim-plim-en-vivo-|house-of-blues-dallas-dallas|5-00-pm-2026-10-29@lets
- doitdallas.com
-DTSTAMP:20261029T220000Z
-DTSTART:20261029T220000Z
-DTEND:20261030T010000Z
-SUMMARY:Plim Plim - En Vivo!
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=plim-plim-en-vivo-%7Chous
- e-of-blues-dallas-dallas%7C5-00-pm
-DESCRIPTION:Circus & Specialty Acts event via Ticketmaster. — More: https
- ://letsdoitdallas.com/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:cameron-whitcomb-kingdom-of-fear-tour|house-of-blues-dallas-dallas|7-00
  -pm-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261031T000000Z
@@ -268,5 +242,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-22&e=charlie-zaa%7Chouse-of-bl
  ues-dallas-dallas%7C7-00-pm
 DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:an-intimate-evening-with-tamar-braxton|house-of-blues-dallas-dallas|7-0
+ 0-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T010000Z
+DTSTART:20261128T010000Z
+DTEND:20261128T040000Z
+SUMMARY:An Intimate Evening With Tamar Braxton
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=an-intimate-evening-with-
+ tamar-braxton%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/house-of-blues-dallas/
 END:VEVENT
 END:VCALENDAR

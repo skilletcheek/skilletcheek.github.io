@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:alvaro-diaz-omakase-tour|the-pavilion-at-toyota-music-factory-irving|8-
- 00-pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261030T010000Z
-DTSTART:20261030T010000Z
-DTEND:20261030T040000Z
-SUMMARY:ALVARO DIAZ - OMAKASE TOUR
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=alvaro-diaz-omakase-tour%
- 7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:los-gemelos-de-sinaloa|the-pavilion-at-toyota-music-factory-irving|8-00
  -pm-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261031T010000Z
@@ -202,5 +189,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-22&e=chelsea-handler-the-high-
  and-mighty-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/the-pavilion-at-toyota-music-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:blue-october-foiled-20th-anniversary-world-tour|the-pavilion-at-toyota-
+ music-factory-irving|8-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T020000Z
+DTSTART:20261128T020000Z
+DTEND:20261128T050000Z
+SUMMARY:Blue October: Foiled 20th Anniversary World Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=blue-october-foiled-20th-
+ anniversary-world-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-0
+ 0-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-pavilion-at-toyota-music-factory/
 END:VEVENT
 END:VCALENDAR

@@ -10,15 +10,19 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:popcorn-with-planning|285-uptown-blvd-cedar-hill|11-00-am-2026-10-29@le
- tsdoitdallas.com
-DTSTAMP:20261029T160000Z
-DTSTART:20261029T160000Z
-DTEND:20261029T190000Z
-SUMMARY:Popcorn with Planning
-LOCATION:285 Uptown Blvd. · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=popcorn-with-planning%7C2
- 85-uptown-blvd-cedar-hill%7C11-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/uptown/
+UID:y-alloween-at-marriott-dallas-uptown|marriott-dallas-uptown-dallas|7-00
+ -pm-11-00-pm-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261031T000000Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:Y'alloween at Marriott Dallas Uptown
+LOCATION:Marriott Dallas Uptown
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=y-alloween-at-marriott-da
+ llas-uptown%7Cmarriott-dallas-uptown-dallas%7C7-00-pm-11-00-pm
+DESCRIPTION:Marriott Dallas Uptown is getting into the Halloween spirit wit
+ h Y’alloween\, Uptown Dallas’ newest Halloween celebration at Y’all 
+ Plaza. Residents\, visitors\, and hotel guests are invited to dress up and
+  enjoy a festive evening of live music\, cocktails\, costumes\, and Hallow
+ een fun — More: https://letsdoitdallas.com/district/uptown/
 END:VEVENT
 END:VCALENDAR

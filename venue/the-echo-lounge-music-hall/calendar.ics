@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sawyer-hill|the-echo-lounge-music-hall-dallas|7-00-pm-2026-10-29@letsdo
- itdallas.com
-DTSTAMP:20261030T000000Z
-DTSTART:20261030T000000Z
-DTEND:20261030T030000Z
-SUMMARY:Sawyer Hill
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=sawyer-hill%7Cthe-echo-lo
- unge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:punchis-presents-eres-emo-18-event|the-echo-lounge-music-hall-dallas|9-
  00-pm-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261031T020000Z

@@ -106,6 +106,19 @@ DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-cunning-little-vixen-dallas|margot-and-bill-winspear-opera-house-da
+ llas|7-30-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T013000Z
+DTSTART:20261108T013000Z
+DTEND:20261108T043000Z
+SUMMARY:The Cunning Little Vixen - Dallas
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=the-cunning-little-vixen-
+ dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C7-30-pm
+DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-ellington-strayhorn-and-gershwin|mor
  ton-meyerson-symphony-center-dallas|2-00-pm-2026-11-08@letsdoitdallas.com
 DTSTAMP:20261108T200000Z
@@ -199,6 +212,22 @@ LOCATION:Morton Meyerson Symphony Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-22&e=dallas-symphony-orchestra
  -presents-debussy-s-la-mer-and-karen-gomyo%7Cmorton-meyerson-symphony-cent
  er-dallas%7C2-00-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-tchaikovsky-s-piano-concerto-no-1-an
+ d-swan-lake|morton-meyerson-symphony-center-dallas|7-30-pm-2026-11-27@lets
+ doitdallas.com
+DTSTAMP:20261128T013000Z
+DTSTART:20261128T013000Z
+DTEND:20261128T043000Z
+SUMMARY:Dallas Symphony Orchestra Presents Tchaikovsky's Piano Concerto No 
+ 1 and Swan Lake
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=dallas-symphony-orchestra
+ -presents-tchaikovsky-s-piano-concerto-no-1-and-swan-lake%7Cmorton-meyerso
+ n-symphony-center-dallas%7C7-30-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT

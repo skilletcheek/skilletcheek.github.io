@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:where-to-start-how-to-grow-a-small-business|central-library-garland|06-
- 00-pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261029T230000Z
-DTSTART:20261029T230000Z
-DTEND:20261030T020000Z
-SUMMARY:Where to Start & How to Grow a Small Business
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=where-to-start-how-to-gro
- w-a-small-business%7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Are you an aspiring business owner or an entreprene
- ur looking to expand your business? Join us for a special presentation by 
- Daniela Gonzalez\, owner of Dani's Bookshelf & More. Daniela will share he
- r experiences as a business owner and discuss the challenges that come —
-  More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:basic-computer-practice-ages-18-|central-library-garland|10-00-am-2026-
  10-30@letsdoitdallas.com
 DTSTAMP:20261030T150000Z
@@ -541,5 +525,37 @@ DESCRIPTION:6:00 p.m.\; In this beginner-friendly class\, we’ll focus on
  ir crocheting abilities. We’ll cover the slip knot\, chain stitch and si
  ngle crochet stitch. November 12\, 2026 06:00 PM - 07:30 PM 625 Austin St.
  Gar — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:basic-computer-practice-ages-18-|central-library-garland|10-00-am-2026-
+ 11-13@letsdoitdallas.com
+DTSTAMP:20261113T160000Z
+DTSTART:20261113T160000Z
+DTEND:20261113T190000Z
+SUMMARY:Basic Computer Practice (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=basic-computer-practice-a
+ ges-18-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Get basic computer practice every Friday morning. 
+ Learn the coordination skills needed to use a computer independently with 
+ confidence. Technology accessories like the mouse and keyboard take time a
+ nd practice to master\; that’s why our computer classes are held almost 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:silent-book-club-ages-18-|central-library-garland|06-00-pm-2026-11-13@l
+ etsdoitdallas.com
+DTSTAMP:20261114T000000Z
+DTSTART:20261114T000000Z
+DTEND:20261114T030000Z
+SUMMARY:Silent Book Club® (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=silent-book-club-ages-18-
+ %7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Join us for Silent Book Club® at the Garland Centr
+ al Library\, held once a month on Fridays at 6 p.m. — exclusively for ad
+ ults 18+. Enjoy a relaxed\, quiet reading environment without assigned boo
+ ks or discussion pressure. Bring your own book or browse the library’s c
+ oll — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

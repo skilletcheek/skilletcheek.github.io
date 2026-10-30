@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-stars-vs-montreal-canadiens|american-airlines-center-dallas|7-00
- -pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261030T000000Z
-DTSTART:20261030T000000Z
-DTEND:20261030T030000Z
-SUMMARY:Dallas Stars vs. Montreal Canadiens
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=dallas-stars-vs-montreal-
- canadiens%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-mavericks-vs-houston-rockets|american-airlines-center-dallas|7-0
  0-pm-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261031T000000Z

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:allen-americans-vs-idaho-steelheads|comerica-center-frisco|10-00-am-202
- 6-10-29@letsdoitdallas.com
-DTSTAMP:20261029T150000Z
-DTSTART:20261029T150000Z
-DTEND:20261029T180000Z
-SUMMARY:Allen Americans Vs Idaho Steelheads
-LOCATION:Comerica Center · Frisco
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=allen-americans-vs-idaho-
- steelheads%7Ccomerica-center-frisco%7C10-00-am
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/comerica-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:allen-americans-vs-idaho-steelheads|comerica-center-frisco|7-00-pm-2026
  -10-30@letsdoitdallas.com
 DTSTAMP:20261031T000000Z
@@ -122,6 +109,19 @@ SUMMARY:Hoopfest Basketball Women's Challenge Session 4
 LOCATION:Comerica Center · Frisco
 URL:https://letsdoitdallas.com/?date=2026-11-25&e=hoopfest-basketball-women
  -s-challenge-session-4%7Ccomerica-center-frisco%7C12-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/comerica-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-legends-vs-osceola-magic|comerica-center-frisco|7-00-pm-2026-11-2
+ 7@letsdoitdallas.com
+DTSTAMP:20261128T010000Z
+DTSTART:20261128T010000Z
+DTEND:20261128T040000Z
+SUMMARY:Texas Legends vs. Osceola Magic
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=texas-legends-vs-osceola-
+ magic%7Ccomerica-center-frisco%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/comerica-center/
 END:VEVENT

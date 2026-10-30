@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fort Worth Museum of Science and History — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Fort Worth Museum of Science and History.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261030T150000Z
+DTSTART:20261030T150000Z
+DTEND:20261030T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/venue/fort-worth-museum-of-s
+ cience-and-history/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T150000Z
+DTSTART:20261031T150000Z
+DTEND:20261031T180000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/venue/fort-worth-museum-of-s
+ cience-and-history/
+END:VEVENT
+BEGIN:VEVENT
+UID:ick-or-treat|fort-worth-museum-of-science-and-history-1600-gendy-street
+ -fort-worth-76107-united-states|10-00-am-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T150000Z
+DTSTART:20261031T150000Z
+DTEND:20261031T180000Z
+SUMMARY:Ick or Treat
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=ick-or-treat%7Cfort-worth
+ -museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united-s
+ tates%7C10-00-am
+DESCRIPTION:Guests are invited to wear their Halloween costumes. Please not
+ e that costume masks may not cover the eyes. For more information\, the Mu
+ seum’s costume policy can be found on the Museum Policies page of the M
+ useum website. — More: https://letsdoitdallas.com/venue/fort-worth-museu
+ m-of-science-and-history/
+END:VEVENT
+END:VCALENDAR

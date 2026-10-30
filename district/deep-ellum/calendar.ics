@@ -10,56 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:2slimey|trees-dallas|8-00-pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261030T010000Z
-DTSTART:20261030T010000Z
-DTEND:20261030T040000Z
-SUMMARY:2slimey
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=2slimey%7Ctrees-dallas%7C
- 8-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dossey-jonojono-gluestick|three-links-deep-ellum-dallas|8-00-pm-2026-10
- -29@letsdoitdallas.com
-DTSTAMP:20261030T010000Z
-DTSTART:20261030T010000Z
-DTEND:20261030T040000Z
-SUMMARY:Dossey\, JonoJono\, Gluestick
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=dossey-jonojono-gluestick
- %7Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:ten-16-and-under-with-parent-or-legal-guardian-|the-studio-at-the-bomb-
- factory-dallas|8-00-pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261030T010000Z
-DTSTART:20261030T010000Z
-DTEND:20261030T040000Z
-SUMMARY:Ten (16 and Under with Parent or Legal Guardian)
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=ten-16-and-under-with-par
- ent-or-legal-guardian-%7Cthe-studio-at-the-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:clever|club-dada-dallas|8-30-pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261030T013000Z
-DTSTART:20261030T013000Z
-DTEND:20261030T043000Z
-SUMMARY:Clever
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=clever%7Cclub-dada-dallas
- %7C8-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:promiscuous-halloween-a-spooky-2000-s-club-bangers-throwbacks-party|tre
  es-dallas|doors-see-listing-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261030T000000Z
@@ -1165,6 +1115,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-26&e=dj-jream%7Cthree-links-de
  ep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+ -pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T050000Z
+DTSTART:20261128T050000Z
+DTEND:20261128T080000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:as-i-lay-dying-the-curse-within-commissary|trees-dallas|doors-see-listi

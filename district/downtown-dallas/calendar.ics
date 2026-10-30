@@ -10,71 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:plim-plim-en-vivo-|house-of-blues-dallas-dallas|2-00-pm-2026-10-29@lets
- doitdallas.com
-DTSTAMP:20261029T190000Z
-DTSTART:20261029T190000Z
-DTEND:20261029T220000Z
-SUMMARY:Plim Plim - En Vivo!
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=plim-plim-en-vivo-%7Chous
- e-of-blues-dallas-dallas%7C2-00-pm
-DESCRIPTION:Circus & Specialty Acts event via Ticketmaster. — More: https
- ://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:plim-plim-en-vivo-|house-of-blues-dallas-dallas|5-00-pm-2026-10-29@lets
- doitdallas.com
-DTSTAMP:20261029T220000Z
-DTSTART:20261029T220000Z
-DTEND:20261030T010000Z
-SUMMARY:Plim Plim - En Vivo!
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=plim-plim-en-vivo-%7Chous
- e-of-blues-dallas-dallas%7C5-00-pm
-DESCRIPTION:Circus & Specialty Acts event via Ticketmaster. — More: https
- ://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:chasing-abbey|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-
- 10-29@letsdoitdallas.com
-DTSTAMP:20261030T000000Z
-DTSTART:20261030T000000Z
-DTEND:20261030T030000Z
-SUMMARY:Chasing Abbey
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=chasing-abbey%7Cthe-cambr
- idge-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-stars-vs-montreal-canadiens|american-airlines-center-dallas|7-00
- -pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261030T000000Z
-DTSTART:20261030T000000Z
-DTEND:20261030T030000Z
-SUMMARY:Dallas Stars vs. Montreal Canadiens
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=dallas-stars-vs-montreal-
- canadiens%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:madeon-presents-victory-live|south-side-ballroom-dallas|8-00-pm-2026-10
- -29@letsdoitdallas.com
-DTSTAMP:20261030T010000Z
-DTSTART:20261030T010000Z
-DTEND:20261030T040000Z
-SUMMARY:Madeon presents Victory Live
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=madeon-presents-victory-l
- ive%7Csouth-side-ballroom-dallas%7C8-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:7th-annual-zach-welch-haunted-hootenanny|poor-david-s-pub-dallas|doors-
  see-listing-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261030T000000Z
@@ -86,6 +21,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-30&e=7th-annual-zach-welch-hau
  nted-hootenanny%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-30@letsdoitdallas.com
+DTSTAMP:20261030T130000Z
+DTSTART:20261030T130000Z
+DTEND:20261030T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-30&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:eladio-carrion|dos-equis-pavilion-dallas|6-00-pm-2026-10-30@letsdoitdal
@@ -164,6 +115,22 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=vince-vance-the-valiants-
  halloween-spook-tacular%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T130000Z
+DTSTART:20261031T130000Z
+DTEND:20261031T160000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:voil-presents-moonbloom|house-of-blues-dallas-dallas|6-00-pm-2026-10-31
@@ -1527,6 +1494,61 @@ DTEND:20261128T000000Z
 SUMMARY:Dr. Seuss' How the Grinch Stole Christmas! The Musical (Touring)
 LOCATION:Music Hall At Fair Park · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-27&e=dr-seuss-how-the-grinch-s
+ tole-christmas-the-musical-touring-%7Cmusic-hall-at-fair-park-dallas%7C3-0
+ 0-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:an-intimate-evening-with-tamar-braxton|house-of-blues-dallas-dallas|7-0
+ 0-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T010000Z
+DTSTART:20261128T010000Z
+DTEND:20261128T040000Z
+SUMMARY:An Intimate Evening With Tamar Braxton
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=an-intimate-evening-with-
+ tamar-braxton%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dr-seuss-how-the-grinch-stole-christmas-the-musical-touring-|music-hall
+ -at-fair-park-dallas|7-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T010000Z
+DTSTART:20261128T010000Z
+DTEND:20261128T040000Z
+SUMMARY:Dr. Seuss' How the Grinch Stole Christmas! The Musical (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=dr-seuss-how-the-grinch-s
+ tole-christmas-the-musical-touring-%7Cmusic-hall-at-fair-park-dallas%7C7-0
+ 0-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dr-seuss-how-the-grinch-stole-christmas-the-musical-touring-|music-hall
+ -at-fair-park-dallas|11-00-am-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261128T170000Z
+DTSTART:20261128T170000Z
+DTEND:20261128T200000Z
+SUMMARY:Dr. Seuss' How the Grinch Stole Christmas! The Musical (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=dr-seuss-how-the-grinch-s
+ tole-christmas-the-musical-touring-%7Cmusic-hall-at-fair-park-dallas%7C11-
+ 00-am
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dr-seuss-how-the-grinch-stole-christmas-the-musical-touring-|music-hall
+ -at-fair-park-dallas|3-00-pm-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261128T210000Z
+DTSTART:20261128T210000Z
+DTEND:20261129T000000Z
+SUMMARY:Dr. Seuss' How the Grinch Stole Christmas! The Musical (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=dr-seuss-how-the-grinch-s
  tole-christmas-the-musical-touring-%7Cmusic-hall-at-fair-park-dallas%7C3-0
  0-pm
 DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla

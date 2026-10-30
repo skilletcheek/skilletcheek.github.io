@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:marito-lopez|punch-line-irving-irving|7-30-pm-2026-10-29@letsdoitdallas
- .com
-DTSTAMP:20261030T003000Z
-DTSTART:20261030T003000Z
-DTEND:20261030T033000Z
-SUMMARY:Marito Lopez
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=marito-lopez%7Cpunch-line
- -irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:alvaro-diaz-omakase-tour|the-pavilion-at-toyota-music-factory-irving|8-
- 00-pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261030T010000Z
-DTSTART:20261030T010000Z
-DTEND:20261030T040000Z
-SUMMARY:ALVARO DIAZ - OMAKASE TOUR
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=alvaro-diaz-omakase-tour%
- 7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:flip-phone|punch-line-dallas-irvine-irving|7-00-pm-2026-10-30@letsdoitd
  allas.com
 DTSTAMP:20261031T000000Z
@@ -608,6 +582,46 @@ SUMMARY:We Funny Wednesdays
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-11-25&e=we-funny-wednesdays%7Cpun
  ch-line-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:darren-fleet|punch-line-irving-irving|7-00-pm-2026-11-27@letsdoitdallas
+ .com
+DTSTAMP:20261128T010000Z
+DTSTART:20261128T010000Z
+DTEND:20261128T040000Z
+SUMMARY:Darren Fleet
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=darren-fleet%7Cpunch-line
+ -irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:blue-october-foiled-20th-anniversary-world-tour|the-pavilion-at-toyota-
+ music-factory-irving|8-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T020000Z
+DTSTART:20261128T020000Z
+DTEND:20261128T050000Z
+SUMMARY:Blue October: Foiled 20th Anniversary World Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=blue-october-foiled-20th-
+ anniversary-world-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-0
+ 0-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:darren-fleet|punch-line-irving-irving|9-15-pm-2026-11-27@letsdoitdallas
+ .com
+DTSTAMP:20261128T031500Z
+DTSTART:20261128T031500Z
+DTEND:20261128T061500Z
+SUMMARY:Darren Fleet
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=darren-fleet%7Cpunch-line
+ -irving-irving%7C9-15-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
 END:VEVENT

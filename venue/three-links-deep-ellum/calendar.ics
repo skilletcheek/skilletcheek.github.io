@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dossey-jonojono-gluestick|three-links-deep-ellum-dallas|8-00-pm-2026-10
- -29@letsdoitdallas.com
-DTSTAMP:20261030T010000Z
-DTSTART:20261030T010000Z
-DTEND:20261030T040000Z
-SUMMARY:Dossey\, JonoJono\, Gluestick
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=dossey-jonojono-gluestick
- %7Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:fraxiom-|-adventures-of-jester-jackalope|three-links-deep-ellum-dallas|
  7-00-pm-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261031T000000Z
@@ -554,5 +541,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-26&e=dj-jream%7Cthree-links-de
  ep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+ -pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T050000Z
+DTSTART:20261128T050000Z
+DTEND:20261128T080000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

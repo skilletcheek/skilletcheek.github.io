@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sawyer-hill|the-echo-lounge-music-hall-dallas|7-00-pm-2026-10-29@letsdo
- itdallas.com
-DTSTAMP:20261030T000000Z
-DTSTART:20261030T000000Z
-DTEND:20261030T030000Z
-SUMMARY:Sawyer Hill
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=sawyer-hill%7Cthe-echo-lo
- unge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:massano-18-and-over-|silo-dallas|9-00-pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261030T020000Z
-DTSTART:20261030T020000Z
-DTEND:20261030T050000Z
-SUMMARY:Massano (18 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=massano-18-and-over-%7Csi
- lo-dallas%7C9-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:city-of-the-sun|am-fm-dallas-dallas|7-00-pm-2026-10-30@letsdoitdallas.c
  om
 DTSTAMP:20261031T000000Z
@@ -186,6 +161,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=eric-prydz-ages-18-%7Csil
  o-dallas%7C9-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:planet-perreo-18-|silo-dallas-dallas|11-00-pm-2026-11-06@letsdoitdallas
+ .com
+DTSTAMP:20261107T050000Z
+DTSTART:20261107T050000Z
+DTEND:20261107T080000Z
+SUMMARY:Planet Perreo (18+)
+LOCATION:SILO - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=planet-perreo-18-%7Csilo-
+ dallas-dallas%7C11-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/design-district/
 END:VEVENT
 BEGIN:VEVENT
 UID:bonobo-distance-in-static-live-north-american-tour|the-echo-lounge-musi
@@ -541,5 +529,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-25&e=virtual-riot-blanke-ages-
  18-%7Csilo-dallas%7C9-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:deathpact-ages-18-|silo-dallas|9-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T030000Z
+DTSTART:20261128T030000Z
+DTEND:20261128T060000Z
+SUMMARY:DEATHPACT - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=deathpact-ages-18-%7Csilo
+ -dallas%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
 END:VEVENT
 END:VCALENDAR

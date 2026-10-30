@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:c-rich|arlington-improv-arlington|7-30-pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261030T003000Z
-DTSTART:20261030T003000Z
-DTEND:20261030T033000Z
-SUMMARY:C Rich
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=c-rich%7Carlington-improv
- -arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:lewis-belt|arlington-improv-arlington|7-30-pm-2026-10-30@letsdoitdallas
  .com
 DTSTAMP:20261031T003000Z

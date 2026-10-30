@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hyena's Comedy Night Club - Fort Worth — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Hyena's Comedy Night Club - Fort Worth.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:greg-warren|hyena-s-comedy-night-club-fort-worth-fort-worth|6-45-pm-202
+ 6-11-06@letsdoitdallas.com
+DTSTAMP:20261107T004500Z
+DTSTART:20261107T004500Z
+DTEND:20261107T034500Z
+SUMMARY:Greg Warren
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=greg-warren%7Chyena-s-com
+ edy-night-club-fort-worth-fort-worth%7C6-45-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-night-club-fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:greg-warren|hyena-s-comedy-night-club-fort-worth-fort-worth|8-45-pm-202
+ 6-11-06@letsdoitdallas.com
+DTSTAMP:20261107T024500Z
+DTSTART:20261107T024500Z
+DTEND:20261107T054500Z
+SUMMARY:Greg Warren
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=greg-warren%7Chyena-s-com
+ edy-night-club-fort-worth-fort-worth%7C8-45-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-night-club-fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:greg-warren|hyena-s-comedy-night-club-fort-worth-fort-worth|6-00-pm-202
+ 6-11-07@letsdoitdallas.com
+DTSTAMP:20261108T000000Z
+DTSTART:20261108T000000Z
+DTEND:20261108T030000Z
+SUMMARY:Greg Warren
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=greg-warren%7Chyena-s-com
+ edy-night-club-fort-worth-fort-worth%7C6-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-night-club-fort-worth/
+END:VEVENT
+END:VCALENDAR

@@ -9,54 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
- |04-00-pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261029T210000Z
-DTSTART:20261029T210000Z
-DTEND:20261030T000000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=teenz-place-after-school-
- hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
-DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
- eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
-  snacks while supplies last. Bring your friends! October 29\, 2026 04:00 P
- M - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:spooktober|south-garland-library-garland|06-00-pm-2026-10-29@letsdoitda
- llas.com
-DTSTAMP:20261029T230000Z
-DTSTART:20261029T230000Z
-DTEND:20261030T020000Z
-SUMMARY:Spooktober
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=spooktober%7Csouth-garlan
- d-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Join us for spooky family fun! We will have games\,
-  crafts and treats for kids of all ages. Family-friendly costumes encourag
- ed. October 29\, 2026 06:00 PM - 07:30 PM 4845 Broadway Blvd.Garland\, TX 
- 75043 https://www.garlandtx.gov/Calendar.aspx?EID=13321/63928352169000000 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:where-to-start-how-to-grow-a-small-business|central-library-garland|06-
- 00-pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261029T230000Z
-DTSTART:20261029T230000Z
-DTEND:20261030T020000Z
-SUMMARY:Where to Start & How to Grow a Small Business
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=where-to-start-how-to-gro
- w-a-small-business%7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Are you an aspiring business owner or an entreprene
- ur looking to expand your business? Join us for a special presentation by 
- Daniela Gonzalez\, owner of Dani's Bookshelf & More. Daniela will share he
- r experiences as a business owner and discuss the challenges that come —
-  More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a
  m-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261030T150000Z
@@ -166,6 +118,22 @@ LOCATION:300 N Fifth Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-10-30&e=ibg-night-opening-ceremon
  y-2026-presented-by-ibg%7C300-n-fifth-street-garland%7C08-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:spooky-sprint-dallas|audubon-park-342-w-oates-rd-garland-tx-75043-unite
+ d-states|8-00-am-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T130000Z
+DTSTART:20261031T130000Z
+DTEND:20261031T160000Z
+SUMMARY:Spooky Sprint- Dallas
+LOCATION:Audubon Park · Garland
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=spooky-sprint-dallas%7Cau
+ dubon-park-342-w-oates-rd-garland-tx-75043-united-states%7C8-00-am
+DESCRIPTION:Race Day Schedule  6:30-7:45am Packet Pickup 7:55am Kids Dash (
+ Meet at the Start Line and we will walk participants out to the starting a
+ rea) 8:00am National Anthem and Race Start!  Results and Awards are live a
+ nd available at the Registration tent immediately following your fini — 
+ More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:fun-fright-fiesta-divertida-fiesta-de-sustos-de-la-biblioteca-central|c
@@ -1409,6 +1377,102 @@ URL:https://letsdoitdallas.com/?date=2026-11-12&e=bye-bye-birdie-ype-presen
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
+UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a
+ m-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261113T160000Z
+DTSTART:20261113T160000Z
+DTEND:20261113T190000Z
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=baby-bounce-read-birth-18
+ -months-%7Csouth-garland-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
+  will learn\, play\, and grow together in this lap-sit storytime that intr
+ oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
+ y literacy practices into their everyday lives. November 13\, 2026 10:00 A
+ M - — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:basic-computer-practice-ages-18-|central-library-garland|10-00-am-2026-
+ 11-13@letsdoitdallas.com
+DTSTAMP:20261113T160000Z
+DTSTART:20261113T160000Z
+DTEND:20261113T190000Z
+SUMMARY:Basic Computer Practice (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=basic-computer-practice-a
+ ges-18-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Get basic computer practice every Friday morning. 
+ Learn the coordination skills needed to use a computer independently with 
+ confidence. Technology accessories like the mouse and keyboard take time a
+ nd practice to master\; that’s why our computer classes are held almost 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-18-36-months-|north-garland-library-garland|10-00-am-2026-
+ 11-13@letsdoitdallas.com
+DTSTAMP:20261113T160000Z
+DTSTART:20261113T160000Z
+DTEND:20261113T190000Z
+SUMMARY:Toddler Time (18-36 Months)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=toddler-time-18-36-months
+ -%7Cnorth-garland-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Toddler Time is a storytime for children ages 18 m
+ onths to 3 years old. Toddler Time storytimes will be a mixture of age app
+ ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
+ rachute play. November 13\, 2026 10:00 AM - 11:00 AM 3845 N. Garland Ave.G
+ ar — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-bounce-read-birth-18-months-|west-garland-library-garland|10-30-am
+ -2026-11-13@letsdoitdallas.com
+DTSTAMP:20261113T163000Z
+DTSTART:20261113T163000Z
+DTEND:20261113T193000Z
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=baby-bounce-read-birth-18
+ -months-%7Cwest-garland-library-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; Babies\, birth to 18 months\, and their caregivers
+  will learn\, play\, and grow together in this lap-sit storytime that intr
+ oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
+ y literacy practices into their everyday lives. November 13\, 2026 10:30 A
+ M - — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-discovery-3-5-years-|north-garland-library-garland|11-00-am-2
+ 026-11-13@letsdoitdallas.com
+DTSTAMP:20261113T170000Z
+DTSTART:20261113T170000Z
+DTEND:20261113T200000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=preschool-discovery-3-5-y
+ ears-%7Cnorth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
+ ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
+ ters\, numbers\, and much more that will help develop your preschooler's e
+ arly literacy skills. November 13\, 2026 11:00 AM - 12:00 PM 3845 N. Garla
+ nd — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-18-36-months-|south-garland-library-garland|11-00-am-2026-
+ 11-13@letsdoitdallas.com
+DTSTAMP:20261113T170000Z
+DTSTART:20261113T170000Z
+DTEND:20261113T200000Z
+SUMMARY:Toddler Time (18-36 Months)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=toddler-time-18-36-months
+ -%7Csouth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Toddler Time is a storytime for children ages 18 m
+ onths to 3 years old. Toddler Time storytimes will be a mixture of age app
+ ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
+ rachute play. November 13\, 2026 11:00 AM - 12:00 PM 4845 Broadway Blvd.Ga
+ rl — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
 UID:stuffie-sleepover|south-garland-library-garland|12-00-pm-2026-11-13@let
  sdoitdallas.com
 DTSTAMP:20261113T180000Z
@@ -1423,6 +1487,34 @@ DESCRIPTION:Runs Nov 12 – Nov 13. Your stuffed animals and dolls are invi
   on Thursday (noon – 8 p.m.) and pick up during open hours on Friday (10
   a.m. – 6 p.m.). Your stuffie friend will go home with a scrapbook full 
  o — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:silent-book-club-ages-18-|central-library-garland|06-00-pm-2026-11-13@l
+ etsdoitdallas.com
+DTSTAMP:20261114T000000Z
+DTSTART:20261114T000000Z
+DTEND:20261114T030000Z
+SUMMARY:Silent Book Club® (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=silent-book-club-ages-18-
+ %7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Join us for Silent Book Club® at the Garland Centr
+ al Library\, held once a month on Fridays at 6 p.m. — exclusively for ad
+ ults 18+. Enjoy a relaxed\, quiet reading environment without assigned boo
+ ks or discussion pressure. Bring your own book or browse the library’s c
+ oll — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:bye-bye-birdie-ype-presented-by-hometown-theater|521-w-state-street-gar
+ land|07-00-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:Bye Bye Birdie: YPE presented by Hometown Theater
+LOCATION:521 W State Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=bye-bye-birdie-ype-presen
+ ted-by-hometown-theater%7C521-w-state-street-garland%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:jubin-nautiyal|curtis-culwell-center-garland|8-00-pm-2026-11-14@letsdoi

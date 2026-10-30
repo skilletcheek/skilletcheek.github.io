@@ -9,35 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:doctoral-lecture-recital-tao-jiang-piano|recital-hall-at-the-music-buil
- ding-denton|12-00-pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261029T170000Z
-DTSTART:20261029T170000Z
-DTEND:20261029T200000Z
-SUMMARY:Doctoral Lecture Recital: Tao Jiang\, piano
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=doctoral-lecture-recital-
- tao-jiang-piano%7Crecital-hall-at-the-music-building-denton%7C12-00-pm
-DESCRIPTION:Important Links and Information      Program  Please note\, thi
- s program is subject to change. Final program will be available by the day
-  of the performance.      Livestream is not available for this event.     
-   This event is free and open to the public with general seating. — More
- : https://letsdoitdallas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:north-texas-mean-green-football-vs-florida-atlantic-owls-football|datcu
- -stadium-denton|6-30-pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261029T233000Z
-DTSTART:20261029T233000Z
-DTEND:20261030T023000Z
-SUMMARY:North Texas Mean Green Football vs. Florida Atlantic Owls Football
-LOCATION:DATCU Stadium · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=north-texas-mean-green-fo
- otball-vs-florida-atlantic-owls-football%7Cdatcu-stadium-denton%7C6-30-pm
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
 UID:utsa-womens-soccer-at-north-texas-womens-soccer|norma-knobel-hunt-stadi
  um-denton|7-00-pm-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261031T000000Z
@@ -1555,5 +1526,18 @@ DESCRIPTION:Important Links and Information     Program  Please note\, this
   program is subject to change. Final program will be available by the day 
  of the performance.     Livestream link below. — More: https://letsdoitd
  allas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-football-vs-uab-blazers-football|datcu-stadium-d
+ enton|see-details-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:North Texas Mean Green Football vs. UAB Blazers Football
+LOCATION:DATCU Stadium · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=north-texas-mean-green-fo
+ otball-vs-uab-blazers-football%7Cdatcu-stadium-denton%7Csee-details
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/city/denton/
 END:VEVENT
 END:VCALENDAR

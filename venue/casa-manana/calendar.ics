@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:music-of-john-denver|casa-manana-fort-worth|7-30-pm-2026-10-29@letsdoit
- dallas.com
-DTSTAMP:20261030T003000Z
-DTSTART:20261030T003000Z
-DTEND:20261030T033000Z
-SUMMARY:Music of John Denver
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=music-of-john-denver%7Cca
- sa-manana-fort-worth%7C7-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/casa-manana/
-END:VEVENT
-BEGIN:VEVENT
 UID:music-of-john-denver|casa-manana-fort-worth|8-00-pm-2026-10-30@letsdoit
  dallas.com
 DTSTAMP:20261031T010000Z
@@ -59,5 +46,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-01&e=music-of-john-denver%7Cca
  sa-manana-fort-worth%7C2-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-s-frozen-the-musical-fort-worth|casa-manana-fort-worth|2-00-pm-2
+ 026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T200000Z
+DTSTART:20261107T200000Z
+DTEND:20261107T230000Z
+SUMMARY:Disney's Frozen - The Musical - Fort Worth
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=disney-s-frozen-the-music
+ al-fort-worth%7Ccasa-manana-fort-worth%7C2-00-pm
+DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
+ om/venue/casa-manana/
 END:VEVENT
 END:VCALENDAR

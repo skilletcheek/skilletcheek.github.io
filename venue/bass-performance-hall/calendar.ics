@@ -113,6 +113,32 @@ DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
  om/venue/bass-performance-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:jersey-boys-fort-worth|bass-performance-hall-fort-worth|1-30-pm-2026-11
+ -07@letsdoitdallas.com
+DTSTAMP:20261107T193000Z
+DTSTART:20261107T193000Z
+DTEND:20261107T223000Z
+SUMMARY:Jersey Boys - Fort Worth
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=jersey-boys-fort-worth%7C
+ bass-performance-hall-fort-worth%7C1-30-pm
+DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
+ om/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:jersey-boys-fort-worth|bass-performance-hall-fort-worth|7-30-pm-2026-11
+ -07@letsdoitdallas.com
+DTSTAMP:20261108T013000Z
+DTSTART:20261108T013000Z
+DTEND:20261108T043000Z
+SUMMARY:Jersey Boys - Fort Worth
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=jersey-boys-fort-worth%7C
+ bass-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
+ om/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:lyle-lovett-and-his-small-large-band|bass-performance-hall-fort-worth|7
  -30-pm-2026-11-17@letsdoitdallas.com
 DTSTAMP:20261118T013000Z
@@ -124,5 +150,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-17&e=lyle-lovett-and-his-small
  -large-band%7Cbass-performance-hall-fort-worth%7C7-30-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:home-for-the-holidays|bass-performance-hall-fort-worth|7-30-pm-2026-11-
+ 27@letsdoitdallas.com
+DTSTAMP:20261128T013000Z
+DTSTART:20261128T013000Z
+DTEND:20261128T043000Z
+SUMMARY:Home for the Holidays
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=home-for-the-holidays%7Cb
+ ass-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
+ sdoitdallas.com/venue/bass-performance-hall/
 END:VEVENT
 END:VCALENDAR

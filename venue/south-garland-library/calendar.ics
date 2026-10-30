@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:spooktober|south-garland-library-garland|06-00-pm-2026-10-29@letsdoitda
- llas.com
-DTSTAMP:20261029T230000Z
-DTSTART:20261029T230000Z
-DTEND:20261030T020000Z
-SUMMARY:Spooktober
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=spooktober%7Csouth-garlan
- d-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Join us for spooky family fun! We will have games\,
-  crafts and treats for kids of all ages. Family-friendly costumes encourag
- ed. October 29\, 2026 06:00 PM - 07:30 PM 4845 Broadway Blvd.Garland\, TX 
- 75043 https://www.garlandtx.gov/Calendar.aspx?EID=13321/63928352169000000 
- — More: https://letsdoitdallas.com/venue/south-garland-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a
  m-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261030T150000Z
@@ -298,6 +282,38 @@ DESCRIPTION:5:30 p.m.\; Enjoy classic and modern games designed to bring fa
  t other families in your community. Games will be available in English and
   Spanish. No registration required. Space is limited. Children 13 and y 
  — More: https://letsdoitdallas.com/venue/south-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a
+ m-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261113T160000Z
+DTSTART:20261113T160000Z
+DTEND:20261113T190000Z
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=baby-bounce-read-birth-18
+ -months-%7Csouth-garland-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
+  will learn\, play\, and grow together in this lap-sit storytime that intr
+ oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
+ y literacy practices into their everyday lives. November 13\, 2026 10:00 A
+ M - — More: https://letsdoitdallas.com/venue/south-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-18-36-months-|south-garland-library-garland|11-00-am-2026-
+ 11-13@letsdoitdallas.com
+DTSTAMP:20261113T170000Z
+DTSTART:20261113T170000Z
+DTEND:20261113T200000Z
+SUMMARY:Toddler Time (18-36 Months)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=toddler-time-18-36-months
+ -%7Csouth-garland-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Toddler Time is a storytime for children ages 18 m
+ onths to 3 years old. Toddler Time storytimes will be a mixture of age app
+ ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
+ rachute play. November 13\, 2026 11:00 AM - 12:00 PM 4845 Broadway Blvd.Ga
+ rl — More: https://letsdoitdallas.com/venue/south-garland-library/
 END:VEVENT
 BEGIN:VEVENT
 UID:stuffie-sleepover|south-garland-library-garland|12-00-pm-2026-11-13@let

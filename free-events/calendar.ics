@@ -10,39 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:trunk-or-treat-at-the-spca-of-texas|spca-of-texas-8211-jan-rees-jones-a
- nimal-care-center-dallas|6-00-pm-8-00-pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261029T230000Z
-DTSTART:20261029T230000Z
-DTEND:20261030T020000Z
-SUMMARY:Trunk or Treat at the SPCA of Texas
-LOCATION:SPCA of Texas &#8211\; Jan Rees-Jones Animal Care Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=trunk-or-treat-at-the-spc
- a-of-texas%7Cspca-of-texas-8211-jan-rees-jones-animal-care-center-dallas%7
- C6-00-pm-8-00-pm
-DESCRIPTION:Join the SPCA of Texas for a family-friendly Halloween celebrat
- ion featuring decorated trunks\, trick-or-treating\, festive photo opportu
- nities\, and treats for kids and pets. Dress up for costume contests for b
- oth people and animals\, cheer on adorable kittens and puppies during rac 
- — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:spooky-nights-and-pumpkin-lights|the-rockwall-harbor-rockwall|7-00-pm-9
- -00-pm-2026-10-29@letsdoitdallas.com
-DTSTAMP:20261030T000000Z
-DTSTART:20261030T000000Z
-DTEND:20261030T030000Z
-SUMMARY:Spooky Nights and Pumpkin Lights
-LOCATION:The Rockwall Harbor
-URL:https://letsdoitdallas.com/?date=2026-10-29&e=spooky-nights-and-pumpkin
- -lights%7Cthe-rockwall-harbor-rockwall%7C7-00-pm-9-00-pm
-DESCRIPTION:The Rockwall Philharmonic Orchestra will perform a special “S
- pooky Nights and Pumpkin Lights” concert to celebrate Halloween at The H
- arbor. This performance will feature an evening of mysterious melodies\, f
- amily favorites and symphonic thrills. Come in costume or come as you are 
- — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:fraxiom-|-adventures-of-jester-jackalope|three-links-deep-ellum-dallas|
  7-00-pm-2026-10-30@letsdoitdallas.com
 DTSTAMP:20261031T000000Z
@@ -70,19 +37,6 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=doug-will-s-monster-mash-
  nville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:sugarfree-presents-club-kitty-halloween-|trees-dallas|doors-see-listing
- -2026-10-31@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:SUGARFREE PRESENTS: CLUB KITTY (HALLOWEEN)
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=sugarfree-presents-club-k
- itty-halloween-%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/free-events
- /
 END:VEVENT
 BEGIN:VEVENT
 UID:celebration-of-life-shannon-mcmillan|trees-dallas|doors-see-listing-202
@@ -585,5 +539,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-26&e=dj-jream%7Cthree-links-de
  ep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+ -pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T050000Z
+DTSTART:20261128T050000Z
+DTEND:20261128T080000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/free-events/
 END:VEVENT
 END:VCALENDAR
