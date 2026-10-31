@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:brand-new|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-10-30@letsd
- oitdallas.com
-DTSTAMP:20261031T010000Z
-DTSTART:20261031T010000Z
-DTEND:20261031T040000Z
-SUMMARY:Brand New
-LOCATION:Texas Trust CU Theatre · Grand Prairie
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=brand-new%7Ctexas-trust-c
- u-theatre-grand-prairie%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/texas-trust-cu-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:franco-escamilla|texas-trust-cu-theatre-grand-prairie|8-30-pm-2026-11-0
  6@letsdoitdallas.com
 DTSTAMP:20261107T023000Z
@@ -85,5 +72,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=rene-vaca-w-that-mexican-
  ot%7Ctexas-trust-cu-theatre-grand-prairie%7C8-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/texas-trust-cu-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:charlie-wilson-w-jody-watley|texas-trust-cu-theatre-grand-prairie|8-00-
+ pm-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261129T020000Z
+DTSTART:20261129T020000Z
+DTEND:20261129T050000Z
+SUMMARY:Charlie Wilson w/ Jody Watley
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=charlie-wilson-w-jody-wat
+ ley%7Ctexas-trust-cu-theatre-grand-prairie%7C8-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/texas-trust-cu-theatre/
 END:VEVENT
 END:VCALENDAR

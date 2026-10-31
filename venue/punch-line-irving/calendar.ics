@@ -9,45 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:flip-phone|punch-line-dallas-irvine-irving|7-00-pm-2026-10-30@letsdoitd
- allas.com
-DTSTAMP:20261031T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:Flip Phone
-LOCATION:Punch Line Dallas - Irvine · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=flip-phone%7Cpunch-line-d
- allas-irvine-irving%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:rocky-horror-sing-along-drag-show|punch-line-irving-irving|7-00-pm-2026
- -10-30@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:Rocky Horror Sing-Along Drag Show
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=rocky-horror-sing-along-d
- rag-show%7Cpunch-line-irving-irving%7C7-00-pm
-DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
- oitdallas.com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:comedy-allstars|punch-line-irving-irving|9-30-pm-2026-10-30@letsdoitdal
- las.com
-DTSTAMP:20261031T023000Z
-DTSTART:20261031T023000Z
-DTEND:20261031T053000Z
-SUMMARY:Comedy Allstars
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=comedy-allstars%7Cpunch-l
- ine-irving-irving%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:comedy-allstars|punch-line-dallas-irvine-irving|8-00-pm-2026-10-31@lets
  doitdallas.com
 DTSTAMP:20261101T010000Z
@@ -407,6 +368,32 @@ DTEND:20261128T061500Z
 SUMMARY:Darren Fleet
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-11-27&e=darren-fleet%7Cpunch-line
+ -irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:darren-fleet|punch-line-irving-irving|7-00-pm-2026-11-28@letsdoitdallas
+ .com
+DTSTAMP:20261129T010000Z
+DTSTART:20261129T010000Z
+DTEND:20261129T040000Z
+SUMMARY:Darren Fleet
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=darren-fleet%7Cpunch-line
+ -irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:darren-fleet|punch-line-irving-irving|9-15-pm-2026-11-28@letsdoitdallas
+ .com
+DTSTAMP:20261129T031500Z
+DTSTART:20261129T031500Z
+DTEND:20261129T061500Z
+SUMMARY:Darren Fleet
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=darren-fleet%7Cpunch-line
  -irving-irving%7C9-15-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/

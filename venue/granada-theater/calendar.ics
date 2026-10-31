@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ray-wylie-hubbard|granada-theater-dallas-dallas|8-00-pm-2026-10-30@lets
- doitdallas.com
-DTSTAMP:20261031T010000Z
-DTSTART:20261031T010000Z
-DTEND:20261031T040000Z
-SUMMARY:Ray Wylie Hubbard
-LOCATION:Granada Theater - Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=ray-wylie-hubbard%7Cgrana
- da-theater-dallas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-linda-lindas|granada-theater-tx-dallas|8-00-pm-2026-10-31@letsdoitd
  allas.com
 DTSTAMP:20261101T010000Z

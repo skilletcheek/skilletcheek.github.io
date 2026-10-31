@@ -9,84 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:utsa-womens-soccer-at-north-texas-womens-soccer|norma-knobel-hunt-stadi
- um-denton|7-00-pm-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:UTSA Womens Soccer at North Texas Womens Soccer
-LOCATION:Norma Knobel Hunt Stadium · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=utsa-womens-soccer-at-nor
- th-texas-womens-soccer%7Cnorma-knobel-hunt-stadium-denton%7C7-00-pm
-DESCRIPTION:womens college soccer event via SeatGeek. — More: https://let
- sdoitdallas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:mario-kart-live|recital-hall-at-the-music-building-denton|7-30-pm-2026-
- 10-30@letsdoitdallas.com
-DTSTAMP:20261031T003000Z
-DTSTART:20261031T003000Z
-DTEND:20261031T033000Z
-SUMMARY:Mario Kart Live
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=mario-kart-live%7Crecital
- -hall-at-the-music-building-denton%7C7-30-pm
-DESCRIPTION:Mario Kart in the Recital Hall with live soundtrack performed b
- y College of Music students!     Important Links and Information       Liv
- estream is not available for this event.       This event is free and open
-  to the public with general seating. — More: https://letsdoitdallas.com/
- city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:unt-opera-presents-florencia-en-el-amazonas|lyric-theater-at-the-murchi
- son-performing-arts-center-denton|7-30-pm-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T003000Z
-DTSTART:20261031T003000Z
-DTEND:20261031T033000Z
-SUMMARY:UNT Opera presents Florencia en el Amazonas
-LOCATION:Lyric Theater at the Murchison Performing Arts Center · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=unt-opera-presents-floren
- cia-en-el-amazonas%7Clyric-theater-at-the-murchison-performing-arts-center
- -denton%7C7-30-pm
-DESCRIPTION:Important Links and Information      New this season! Experienc
- e the full UNT Opera season with a Flex Season Package. For $90\, you'll r
- eceive admission to one performance of each mainstage opera and save compa
- red to purchasing tickets separately.     Program  Please note\, this p 
- — More: https://letsdoitdallas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:race-ricketts|dan-s-silverleaf-denton|8-00-pm-2026-10-30@letsdoitdallas
- .com
-DTSTAMP:20261031T010000Z
-DTSTART:20261031T010000Z
-DTEND:20261031T040000Z
-SUMMARY:Race Ricketts
-LOCATION:Dan's Silverleaf · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=race-ricketts%7Cdan-s-sil
- verleaf-denton%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:unt-symphony-orchestra-pops-concert-the-music-of-john-williams|winspear
- -performance-hall-at-the-murchison-performing-arts-center-denton|8-00-pm-2
- 026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T010000Z
-DTSTART:20261031T010000Z
-DTEND:20261031T040000Z
-SUMMARY:UNT Symphony Orchestra Pops Concert: The Music of John Williams
-LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
- · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=unt-symphony-orchestra-po
- ps-concert-the-music-of-john-williams%7Cwinspear-performance-hall-at-the-m
- urchison-performing-arts-center-denton%7C8-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream tickets available through the Colle
- ge of Music box office.     Patron assistance carts will be available — 
- More: https://letsdoitdallas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
 UID:doctoral-recital-jiwoong-hyun-tuba|recital-hall-at-the-music-building-d
  enton|2-00-pm-2026-10-31@letsdoitdallas.com
 DTSTAMP:20261031T190000Z
@@ -681,22 +603,6 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  ay of the performance.      Livestream is not available for this event.   
      This event is free and open to the public with general seating. — Mo
  re: https://letsdoitdallas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:percussion-ensemble|paul-voertman-concert-hall-at-the-music-building-de
- nton|6-30-pm-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261109T003000Z
-DTSTART:20261109T003000Z
-DTEND:20261109T033000Z
-SUMMARY:Percussion Ensemble
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=percussion-ensemble%7Cpau
- l-voertman-concert-hall-at-the-music-building-denton%7C6-30-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream link below.      This event is free
-  and open to the public with general seating. — More: https://letsdoitda
- llas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
 UID:doctoral-recital-isaac-carlin-baritone|recital-hall-at-the-music-buildi
@@ -1555,5 +1461,24 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=north-texas-mean-green-fo
  otball-vs-uab-blazers-football%7Cdatcu-stadium-denton%7Csee-details
 DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:studio-recital-students-of-malcolm-matthews-organ|winspear-performance-
+ hall-at-the-murchison-performing-arts-center-denton|7-30-pm-2026-11-30@let
+ sdoitdallas.com
+DTSTAMP:20261201T013000Z
+DTSTART:20261201T013000Z
+DTEND:20261201T043000Z
+SUMMARY:Studio Recital: Students of Malcolm Matthews\, organ
+LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
+ · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-30&e=studio-recital-students-o
+ f-malcolm-matthews-organ%7Cwinspear-performance-hall-at-the-murchison-perf
+ orming-arts-center-denton%7C7-30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/city/denton/
 END:VEVENT
 END:VCALENDAR

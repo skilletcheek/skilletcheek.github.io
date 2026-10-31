@@ -11,26 +11,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:unt-symphony-orchestra-pops-concert-the-music-of-john-williams|winspear
- -performance-hall-at-the-murchison-performing-arts-center-denton|8-00-pm-2
- 026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T010000Z
-DTSTART:20261031T010000Z
-DTEND:20261031T040000Z
-SUMMARY:UNT Symphony Orchestra Pops Concert: The Music of John Williams
-LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
- · Denton
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=unt-symphony-orchestra-po
- ps-concert-the-music-of-john-williams%7Cwinspear-performance-hall-at-the-m
- urchison-performing-arts-center-denton%7C8-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream tickets available through the Colle
- ge of Music box office.     Patron assistance carts will be available — 
- More: https://letsdoitdallas.com/venue/winspear-performance-hall-at-the-mu
- rchison-performing-arts-c/
-END:VEVENT
-BEGIN:VEVENT
 UID:concert-winds|winspear-performance-hall-at-the-murchison-performing-art
  s-center-denton|7-30-pm-2026-11-02@letsdoitdallas.com
 DTSTAMP:20261103T013000Z
@@ -180,5 +160,25 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  carts will be available at this performance to assist those with mobil —
   More: https://letsdoitdallas.com/venue/winspear-performance-hall-at-the-m
  urchison-performing-arts-c/
+END:VEVENT
+BEGIN:VEVENT
+UID:studio-recital-students-of-malcolm-matthews-organ|winspear-performance-
+ hall-at-the-murchison-performing-arts-center-denton|7-30-pm-2026-11-30@let
+ sdoitdallas.com
+DTSTAMP:20261201T013000Z
+DTSTART:20261201T013000Z
+DTEND:20261201T043000Z
+SUMMARY:Studio Recital: Students of Malcolm Matthews\, organ
+LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
+ · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-30&e=studio-recital-students-o
+ f-malcolm-matthews-organ%7Cwinspear-performance-hall-at-the-murchison-perf
+ orming-arts-center-denton%7C7-30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/venue/winspear-performance-hall-at-the-murc
+ hison-performing-arts-c/
 END:VEVENT
 END:VCALENDAR

@@ -10,44 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:planning-passport|mckinney|see-details-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261030T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:Planning Passport
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=planning-passport%7Cmckin
- ney%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 31. — More: https://letsdoitdallas.com/dis
- trict/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:worlds-2026-swiss-7|credit-union-of-texas-event-center-allen|3-00-pm-20
- 26-10-30@letsdoitdallas.com
-DTSTAMP:20261030T200000Z
-DTSTART:20261030T200000Z
-DTEND:20261030T230000Z
-SUMMARY:Worlds 2026 - Swiss 7
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=worlds-2026-swiss-7%7Ccre
- dit-union-of-texas-event-center-allen%7C3-00-pm
-DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:worlds-2026-swiss-7|credit-union-of-texas-event-center-allen|7-00-pm-20
- 26-10-30@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:Worlds 2026 - Swiss 7
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=worlds-2026-swiss-7%7Ccre
- dit-union-of-texas-event-center-allen%7C7-00-pm
-DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:planning-passport|mckinney|see-details-2026-10-31@letsdoitdallas.com
 DTSTAMP:20261031T000000Z
 DTSTART;VALUE=DATE:20261031
@@ -631,6 +593,42 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=hunger-games-after-hours-
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:farmers-market-storytime-all-ages-10-am|315-s-chestnut-st-mckinney|10-0
+ 0-am-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T160000Z
+DTSTART:20261114T160000Z
+DTEND:20261114T190000Z
+SUMMARY:Farmers Market Storytime (All Ages) - 10 AM
+LOCATION:315 S Chestnut St · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=farmers-market-storytime-
+ all-ages-10-am%7C315-s-chestnut-st-mckinney%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:share-the-shade|401-e-virginia-st-mckinney|10-00-am-2026-11-14@letsdoit
+ dallas.com
+DTSTAMP:20261114T160000Z
+DTSTART:20261114T160000Z
+DTEND:20261114T190000Z
+SUMMARY:Share the Shade
+LOCATION:401 E. Virginia St. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=share-the-shade%7C401-e-v
+ irginia-st-mckinney%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-chess-meetup-all-ages-|6861-w-eldorado-parkway-mckinney|11-00-
+ am-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T170000Z
+DTSTART:20261114T170000Z
+DTEND:20261114T200000Z
+SUMMARY:Saturday Chess Meetup (All Ages)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=saturday-chess-meetup-all
+ -ages-%7C6861-w-eldorado-parkway-mckinney%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:allen-americans-vs-kansas-city-mavericks-red-out|credit-union-of-texas-
  event-center-allen|7-00-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T010000Z
@@ -732,6 +730,32 @@ SUMMARY:Disney On Ice presents Magic in the Stars
 LOCATION:Credit Union of Texas Event Center · Allen
 URL:https://letsdoitdallas.com/?date=2026-11-28&e=disney-on-ice-presents-ma
  gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C5-00-pm
+DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c
+ enter-allen|12-00-pm-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261129T180000Z
+DTSTART:20261129T180000Z
+DTEND:20261129T210000Z
+SUMMARY:Disney On Ice presents Magic in the Stars
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=disney-on-ice-presents-ma
+ gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C12-00-pm
+DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c
+ enter-allen|4-00-pm-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261129T220000Z
+DTSTART:20261129T220000Z
+DTEND:20261130T010000Z
+SUMMARY:Disney On Ice presents Magic in the Stars
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=disney-on-ice-presents-ma
+ gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C4-00-pm
 DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/mckinney/
 END:VEVENT

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:los-gemelos-de-sinaloa|the-pavilion-at-toyota-music-factory-irving|8-00
- -pm-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T010000Z
-DTSTART:20261031T010000Z
-DTEND:20261031T040000Z
-SUMMARY:Los Gemelos de Sinaloa
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=los-gemelos-de-sinaloa%7C
- the-pavilion-at-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:hugel-presents-make-the-girls-dance|the-pavilion-at-toyota-music-factor
  y-irving|6-00-pm-2026-10-31@letsdoitdallas.com
 DTSTAMP:20261031T230000Z
@@ -201,6 +188,20 @@ LOCATION:The Pavilion at Toyota Music Factory · Irving
 URL:https://letsdoitdallas.com/?date=2026-11-27&e=blue-october-foiled-20th-
  anniversary-world-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-0
  0-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-pavilion-at-toyota-music-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:2-day-pass-blue-october-foiled-20th-anniversary-world-tour|the-pavilion
+ -at-toyota-music-factory-irving|8-00-pm-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261129T020000Z
+DTSTART:20261129T020000Z
+DTEND:20261129T050000Z
+SUMMARY:2-DAY PASS: Blue October: Foiled 20th Anniversary World Tour
+LOCATION:The Pavilion at Toyota Music Factory · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=2-day-pass-blue-october-f
+ oiled-20th-anniversary-world-tour%7Cthe-pavilion-at-toyota-music-factory-i
+ rving%7C8-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-pavilion-at-toyota-music-factory/
 END:VEVENT

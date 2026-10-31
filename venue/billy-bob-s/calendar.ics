@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:easton-corbin-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10-30@lets
- doitdallas.com
-DTSTAMP:20261031T030000Z
-DTSTART:20261031T030000Z
-DTEND:20261031T060000Z
-SUMMARY:Easton Corbin (18+ Event)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=easton-corbin-18-event-%7
- Cbilly-bob-s-fort-worth%7C10-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/billy-bob-s/
-END:VEVENT
-BEGIN:VEVENT
 UID:here-come-the-mummies-18-event-|billy-bob-s-fort-worth|10-00-pm-2026-10
  -31@letsdoitdallas.com
 DTSTAMP:20261101T030000Z
@@ -176,5 +163,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=chase-matthews-ages-18-%7
  Cbilly-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:william-clark-green-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-1
+ 1-28@letsdoitdallas.com
+DTSTAMP:20261129T040000Z
+DTSTART:20261129T040000Z
+DTEND:20261129T070000Z
+SUMMARY:William Clark Green (18 and Over)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=william-clark-green-18-an
+ d-over-%7Cbilly-bob-s-fort-worth%7C10-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/billy-bob-s/
 END:VEVENT
 END:VCALENDAR

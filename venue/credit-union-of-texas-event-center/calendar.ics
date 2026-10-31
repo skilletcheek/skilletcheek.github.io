@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:worlds-2026-swiss-7|credit-union-of-texas-event-center-allen|3-00-pm-20
- 26-10-30@letsdoitdallas.com
-DTSTAMP:20261030T200000Z
-DTSTART:20261030T200000Z
-DTEND:20261030T230000Z
-SUMMARY:Worlds 2026 - Swiss 7
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=worlds-2026-swiss-7%7Ccre
- dit-union-of-texas-event-center-allen%7C3-00-pm
-DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/credit-union-of-texas-event-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:worlds-2026-swiss-7|credit-union-of-texas-event-center-allen|7-00-pm-20
- 26-10-30@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:Worlds 2026 - Swiss 7
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=worlds-2026-swiss-7%7Ccre
- dit-union-of-texas-event-center-allen%7C7-00-pm
-DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/credit-union-of-texas-event-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:worlds-2026-swiss-8|credit-union-of-texas-event-center-allen|12-00-pm-2
  026-10-31@letsdoitdallas.com
 DTSTAMP:20261031T170000Z
@@ -227,6 +201,32 @@ SUMMARY:Disney On Ice presents Magic in the Stars
 LOCATION:Credit Union of Texas Event Center · Allen
 URL:https://letsdoitdallas.com/?date=2026-11-28&e=disney-on-ice-presents-ma
  gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C5-00-pm
+DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/credit-union-of-texas-event-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c
+ enter-allen|12-00-pm-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261129T180000Z
+DTSTART:20261129T180000Z
+DTEND:20261129T210000Z
+SUMMARY:Disney On Ice presents Magic in the Stars
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=disney-on-ice-presents-ma
+ gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C12-00-pm
+DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/credit-union-of-texas-event-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c
+ enter-allen|4-00-pm-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261129T220000Z
+DTSTART:20261129T220000Z
+DTEND:20261130T010000Z
+SUMMARY:Disney On Ice presents Magic in the Stars
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=disney-on-ice-presents-ma
+ gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C4-00-pm
 DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
  las.com/venue/credit-union-of-texas-event-center/
 END:VEVENT

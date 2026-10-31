@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:city-of-the-sun|ferris-wheelers-backyard-and-bbq-dallas|7-00-pm-2026-10
- -30@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:City of the Sun
-LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=city-of-the-sun%7Cferris-
- wheelers-backyard-and-bbq-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/ferris-wheelers-backyard-and-bbq/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-fretliners|ferris-wheelers-backyard-and-bbq-dallas|9-30-pm-2026-10-
- 30@letsdoitdallas.com
-DTSTAMP:20261031T023000Z
-DTSTART:20261031T023000Z
-DTEND:20261031T053000Z
-SUMMARY:The Fretliners
-LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=the-fretliners%7Cferris-w
- heelers-backyard-and-bbq-dallas%7C9-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/ferris-wheelers-backyard-and-bbq/
-END:VEVENT
-BEGIN:VEVENT
 UID:goodbye-june|ferris-wheelers-backyard-and-bbq-dallas|7-30-pm-2026-11-01
  @letsdoitdallas.com
 DTSTAMP:20261102T013000Z
@@ -109,6 +83,19 @@ SUMMARY:Blue Capricorn
 LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=blue-capricorn%7Cferris-w
  heelers-backyard-and-bbq-dallas%7C9-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/ferris-wheelers-backyard-and-bbq/
+END:VEVENT
+BEGIN:VEVENT
+UID:mushroomhead-with-fear-factory|ferris-wheelers-backyard-and-bbq-dallas|
+ 7-00-pm-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261109T010000Z
+DTSTART:20261109T010000Z
+DTEND:20261109T040000Z
+SUMMARY:Mushroomhead with Fear Factory
+LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=mushroomhead-with-fear-fa
+ ctory%7Cferris-wheelers-backyard-and-bbq-dallas%7C7-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/ferris-wheelers-backyard-and-bbq/
 END:VEVENT

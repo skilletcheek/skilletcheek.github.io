@@ -9,21 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:promiscuous-halloween-a-spooky-2000-s-club-bangers-throwbacks-party|tre
- es-dallas|doors-see-listing-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261030T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:PROMISCUOUS HALLOWEEN: A SPOOKY 2000's CLUB BANGERS THROWBACKS PART
- Y
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=promiscuous-halloween-a-s
- pooky-2000-s-club-bangers-throwbacks-party%7Ctrees-dallas%7Cdoors-see-list
- ing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
-END:VEVENT
-BEGIN:VEVENT
 UID:sugarfree-presents-club-kitty-halloween-|trees-dallas|doors-see-listing
  -2026-10-31@letsdoitdallas.com
 DTSTAMP:20261031T000000Z
@@ -62,17 +47,17 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
-UID:ceremony-w-support-from-slippers-world-peace|trees-dallas|doors-see-lis
- ting-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261107T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:CEREMONY W / SUPPORT FROM SLIPPERS & WORLD PEACE
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=ceremony-w-support-from-s
- lippers-world-peace%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+UID:ceremony-with-slippers-world-peace|trees-dallas-dallas|8-00-pm-2026-11-
+ 07@letsdoitdallas.com
+DTSTAMP:20261108T020000Z
+DTSTART:20261108T020000Z
+DTEND:20261108T050000Z
+SUMMARY:Ceremony with Slippers\, World Peace
+LOCATION:Trees - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=ceremony-with-slippers-wo
+ rld-peace%7Ctrees-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
 UID:celebration-of-life-alan-keys|trees-dallas|doors-see-listing-2026-11-08

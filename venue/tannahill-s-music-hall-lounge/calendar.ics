@@ -35,6 +35,19 @@ DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/tannahill-s-music-hall-lounge/
 END:VEVENT
 BEGIN:VEVENT
+UID:that-arena-rock-show|tannahills-tavern-and-music-hall-fort-worth|8-00-p
+ m-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261109T020000Z
+DTSTART:20261109T020000Z
+DTEND:20261109T050000Z
+SUMMARY:That Arena Rock Show
+LOCATION:Tannahills Tavern and Music Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=that-arena-rock-show%7Cta
+ nnahills-tavern-and-music-hall-fort-worth%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/tannahill-s-music-hall-lounge/
+END:VEVENT
+BEGIN:VEVENT
 UID:caiden-wallace|tannahill-s-music-hall-lounge-fort-worth|9-00-pm-2026-11
  -14@letsdoitdallas.com
 DTSTAMP:20261115T030000Z
@@ -97,6 +110,20 @@ SUMMARY:Gannon Fremin & CCREV
 LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-27&e=gannon-fremin-ccrev%7Ctan
  nahill-s-music-hall-lounge-fort-worth%7C9-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/tannahill-s-music-hall-lounge/
+END:VEVENT
+BEGIN:VEVENT
+UID:aj-mclean-presents-alexander-james-the-better-man-tour|tannahill-s-musi
+ c-hall-lounge-fort-worth|8-00-pm-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261129T020000Z
+DTSTART:20261129T020000Z
+DTEND:20261129T050000Z
+SUMMARY:AJ McLean presents Alexander James : The Better Man Tour
+LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=aj-mclean-presents-alexan
+ der-james-the-better-man-tour%7Ctannahill-s-music-hall-lounge-fort-worth%7
+ C8-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/tannahill-s-music-hall-lounge/
 END:VEVENT

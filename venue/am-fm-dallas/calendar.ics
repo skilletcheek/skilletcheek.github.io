@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:city-of-the-sun|am-fm-dallas-dallas|7-00-pm-2026-10-30@letsdoitdallas.c
- om
-DTSTAMP:20261031T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:City of the Sun
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=city-of-the-sun%7Cam-fm-d
- allas-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/am-fm-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:black-flag|am-fm-dallas-dallas|7-00-pm-2026-10-31@letsdoitdallas.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261101T000000Z

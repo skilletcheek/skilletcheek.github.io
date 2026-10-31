@@ -9,34 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-rocky-horror-picture-show-presented-by-los-b-stardos|521-w-state-st
- reet-garland|07-30-pm-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T003000Z
-DTSTART:20261031T003000Z
-DTEND:20261031T033000Z
-SUMMARY:The Rocky Horror Picture Show presented by Los B*stardos
-LOCATION:521 W State Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=the-rocky-horror-picture-
- show-presented-by-los-b-stardos%7C521-w-state-street-garland%7C07-30-pm
-DESCRIPTION:Let's do the time warp AGAIN. Join Los Bastardos shadow cast fo
- r a special one-night-only anniversary screening of the cult classic\, The
-  Rocky Horror Picture Show. October 30\, 2026 07:30 PM - 11:59 PM 521 W St
- ate StreetGarland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:ibg-night-opening-ceremony-2026-presented-by-ibg|300-n-fifth-street-gar
- land|08-00-pm-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T010000Z
-DTSTART:20261031T010000Z
-DTEND:20261031T040000Z
-SUMMARY:IBG Night - Opening Ceremony 2026 presented by IBG
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=ibg-night-opening-ceremon
- y-2026-presented-by-ibg%7C300-n-fifth-street-garland%7C08-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:spooky-sprint-dallas|audubon-park-342-w-oates-rd-garland-tx-75043-unite
  d-states|8-00-am-2026-10-31@letsdoitdallas.com
 DTSTAMP:20261031T130000Z
@@ -1432,6 +1404,120 @@ LOCATION:521 W State Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-11-13&e=bye-bye-birdie-ype-presen
  ted-by-hometown-theater%7C521-w-state-street-garland%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-11-14@letsd
+ oitdallas.com
+DTSTAMP:20261114T160000Z
+DTSTART:20261114T160000Z
+DTEND:20261114T190000Z
+SUMMARY:Play & Learn (0-5 years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=play-learn-0-5-years-%7Cc
+ entral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Families with children ages 0-5 can enjoy Play & L
+ earn\, a weekly event with toys\, games and activities that encourage imag
+ ination\, creativity and problem-solving. This program offers a chance for
+  children and caregivers to play together. November 14\, 2026 10:00 AM - 1
+  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:troubleshooting-laser-cutting-q-a-ages-13-|central-library-garland|10-0
+ 0-am-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T160000Z
+DTSTART:20261114T160000Z
+DTEND:20261114T190000Z
+SUMMARY:Troubleshooting Laser Cutting Q&A (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=troubleshooting-laser-cut
+ ting-q-a-ages-13-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Learn how to correct common pitfalls in laser cutt
+ ing. November 14\, 2026 10:00 AM - 12:00 PM 625 Austin St.Garland\, TX 750
+ 40 https://www.garlandtx.gov/Calendar.aspx?EID=13308/639234271780000000 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:1-2-3-steam-ages-1-5-wind-and-air|west-garland-library-garland|10-30-am
+ -2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T163000Z
+DTSTART:20261114T163000Z
+DTEND:20261114T193000Z
+SUMMARY:1-2-3 STEAM (Ages 1-5): Wind and Air
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=1-2-3-steam-ages-1-5-wind
+ -and-air%7Cwest-garland-library-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; Explore science\, technology\, engineering\, art a
+ nd math through play and discovery! Join us for a fun-filled session desig
+ ned for little learners ages 1–5 and their caregivers. We’ll start wit
+ h a story before jumping into our hands-on STEAM activities. November 14\,
+  202 — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:recording-studio-101-ages-18-|central-library-garland|10-30-am-2026-11-
+ 14@letsdoitdallas.com
+DTSTAMP:20261114T163000Z
+DTSTART:20261114T163000Z
+DTEND:20261114T193000Z
+SUMMARY:Recording Studio 101 (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=recording-studio-101-ages
+ -18-%7Ccentral-library-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; Learn the basics of Garland Central Library’s re
+ cording studio and become certified for studio use in this introduction cl
+ ass. Open to ages 13+. Registration is required. Attendees MUST have a Gar
+ land Public Library card in good standing to attend this program. If you 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:reavis-z-rev-wortham-book-signing-ages-18-|central-library-garland|11-0
+ 0-am-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T170000Z
+DTSTART:20261114T170000Z
+DTEND:20261114T200000Z
+SUMMARY:Reavis Z. "Rev" Wortham Book Signing (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=reavis-z-rev-wortham-book
+ -signing-ages-18-%7Ccentral-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Join the feature author from 2024's "One Book\, On
+ e Garland" festival as he sells and signs copies of his new novel\, "The S
+ ound of a Dead Man's Laugh". November 14\, 2026 11:00 AM - 01:00 PM 625 Au
+ stin St.Garland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=134
+  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:robot-puppets-ages-6-12-marionetas-robot-6-12-a-os-de-la-biblioteca-sou
+ th-garland|south-garland-library-garland|02-30-pm-2026-11-14@letsdoitdalla
+ s.com
+DTSTAMP:20261114T203000Z
+DTSTART:20261114T203000Z
+DTEND:20261114T233000Z
+SUMMARY:Robot Puppets (Ages 6-12) / Marionetas Robot (6-12 Años) de la Bib
+ lioteca South Garland
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=robot-puppets-ages-6-12-m
+ arionetas-robot-6-12-a-os-de-la-biblioteca-south-garland%7Csouth-garland-l
+ ibrary-garland%7C02-30-pm
+DESCRIPTION:2:30 p.m.\; Make a “dancing” robot puppet using simple mate
+ rials like cardboard and construction paper and then use your creativity t
+ o make it your own. November 14\, 2026 02:30 PM - 03:30 PM 4845 Broadway B
+ lvd.Garland\, TX 75043 https://www.garlandtx.gov/Calendar.aspx?EID=13317/6
+ 39 — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-art-of-kinusaiga-ages-18-|west-garland-library-garland|02-30-pm-202
+ 6-11-14@letsdoitdallas.com
+DTSTAMP:20261114T203000Z
+DTSTART:20261114T203000Z
+DTEND:20261114T233000Z
+SUMMARY:The Art of Kinusaiga (Ages 18+)
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=the-art-of-kinusaiga-ages
+ -18-%7Cwest-garland-library-garland%7C02-30-pm
+DESCRIPTION:2:30 p.m.\; Discover a beautiful blend of creativity\, culture 
+ and sustainability at Introduction to Kinusaiga (fabric mosaic art)! Novem
+ ber 14\, 2026 02:30 PM - 04:00 PM 3921 W. Walnut St.Garland\, TX 75042 htt
+ ps://www.garlandtx.gov/Calendar.aspx?EID=13339/639236122550000000 — More
+ : https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:jubin-nautiyal|curtis-culwell-center-garland|8-00-pm-2026-11-14@letsdoi

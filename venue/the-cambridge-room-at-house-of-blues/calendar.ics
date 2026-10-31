@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mitchell-ferguson|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2
- 026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:Mitchell Ferguson
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=mitchell-ferguson%7Cthe-c
- ambridge-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-cambridge-room-at-house-of-blues/
-END:VEVENT
-BEGIN:VEVENT
 UID:edgar-alejandro|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-202
  6-10-31@letsdoitdallas.com
 DTSTAMP:20261101T000000Z
@@ -140,5 +127,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-20&e=baby-jane-s-winter-foreve
  r-tour%7Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/venue/the-cambridge-room-at-house-of-blues/
+END:VEVENT
+BEGIN:VEVENT
+UID:noodah05|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-11-28
+ @letsdoitdallas.com
+DTSTAMP:20261129T010000Z
+DTSTART:20261129T010000Z
+DTEND:20261129T040000Z
+SUMMARY:Noodah05
+LOCATION:The Cambridge Room at House Of Blues · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=noodah05%7Cthe-cambridge-
+ room-at-house-of-blues-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/the-cambridge-room-at-house-of-blues/
 END:VEVENT
 END:VCALENDAR

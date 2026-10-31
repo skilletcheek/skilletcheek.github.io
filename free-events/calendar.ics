@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fraxiom-|-adventures-of-jester-jackalope|three-links-deep-ellum-dallas|
- 7-00-pm-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:Fraxiom | Adventures of Jester Jackalope
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=fraxiom-%7C-adventures-of
- -jester-jackalope%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:doug-will-s-monster-mash-bash-featuring-the-music-of-dj-culturegang|sun
  down-at-granada-lower-greenville-dallas|doors-see-listing-2026-10-31@letsd
  oitdallas.com
@@ -37,6 +24,38 @@ URL:https://letsdoitdallas.com/?date=2026-10-31&e=doug-will-s-monster-mash-
  nville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:nfm-halloween-spooktacular|nfm-nebraska-furniture-mart-the-colony|10-00
+ -am-3-00-pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261031T150000Z
+DTSTART:20261031T150000Z
+DTEND:20261031T180000Z
+SUMMARY:NFM Halloween Spooktacular
+LOCATION:NFM (Nebraska Furniture Mart) · The Colony
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=nfm-halloween-spooktacula
+ r%7Cnfm-nebraska-furniture-mart-the-colony%7C10-00-am-3-00-pm
+DESCRIPTION:Gather your little goblins and ghouls for Halloween fun! Its's 
+ sure to be a spooktacular time with trick-or-treating\, games and even a f
+ ew special character appearances! Visit the various stations throughout th
+ e store for all the fun! Candy\, games\, face painting\, food trucks\, act
+  — More: https://letsdoitdallas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:nightmare-on-main-street-halloween-block-party|the-village-dallas|8-00-
+ pm-2026-10-31@letsdoitdallas.com
+DTSTAMP:20261101T010000Z
+DTSTART:20261101T010000Z
+DTEND:20261101T040000Z
+SUMMARY:Nightmare on Main Street Halloween Block Party
+LOCATION:The Village · Dallas
+URL:https://letsdoitdallas.com/?date=2026-10-31&e=nightmare-on-main-street-
+ halloween-block-party%7Cthe-village-dallas%7C8-00-pm
+DESCRIPTION:Halloween takes over The Village with Nightmare on Main Street\
+ , a free-with-RSVP block party featuring scare actors\, live DJs\, spooky 
+ thrills\, and a $5\,000 costume contest. Guests can also catch Bryce Alaka
+ i live at the Haunted Beach Club with a separate ticket required for entry
+  — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:celebration-of-life-shannon-mcmillan|trees-dallas|doors-see-listing-202

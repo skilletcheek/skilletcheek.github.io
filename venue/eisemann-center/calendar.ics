@@ -60,4 +60,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=the-nutcracker%7Ceisemann
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/eisemann-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker|eisemann-center-richardson|2-00-pm-2026-11-29@letsdoitda
+ llas.com
+DTSTAMP:20261129T200000Z
+DTSTART:20261129T200000Z
+DTEND:20261129T230000Z
+SUMMARY:The Nutcracker
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=the-nutcracker%7Ceisemann
+ -center-richardson%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/eisemann-center/
+END:VEVENT
 END:VCALENDAR

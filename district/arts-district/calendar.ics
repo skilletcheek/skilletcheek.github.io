@@ -10,33 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-symphony-orchestra-presents-dia-de-los-muertos|morton-meyerson-s
- ymphony-center-dallas|7-30-pm-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T003000Z
-DTSTART:20261031T003000Z
-DTEND:20261031T033000Z
-SUMMARY:Dallas Symphony Orchestra Presents Dia de los Muertos
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=dallas-symphony-orchestra
- -presents-dia-de-los-muertos%7Cmorton-meyerson-symphony-center-dallas%7C7-
- 30-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/district/arts-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-cunning-little-vixen-dallas|margot-and-bill-winspear-opera-house-da
- llas|7-30-pm-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T003000Z
-DTSTART:20261031T003000Z
-DTEND:20261031T033000Z
-SUMMARY:The Cunning Little Vixen - Dallas
-LOCATION:Margot and Bill Winspear Opera House · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=the-cunning-little-vixen-
- dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C7-30-pm
-DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
- district/arts-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-cunning-little-vixen-dallas|margot-and-bill-winspear-opera-house-da
  llas|2-00-pm-2026-11-01@letsdoitdallas.com
 DTSTAMP:20261101T200000Z
@@ -228,6 +201,38 @@ LOCATION:Morton Meyerson Symphony Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-27&e=dallas-symphony-orchestra
  -presents-tchaikovsky-s-piano-concerto-no-1-and-swan-lake%7Cmorton-meyerso
  n-symphony-center-dallas%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-tchaikovsky-s-piano-concerto-no-1-an
+ d-swan-lake|morton-meyerson-symphony-center-dallas|7-30-pm-2026-11-28@lets
+ doitdallas.com
+DTSTAMP:20261129T013000Z
+DTSTART:20261129T013000Z
+DTEND:20261129T043000Z
+SUMMARY:Dallas Symphony Orchestra Presents Tchaikovsky's Piano Concerto No 
+ 1 and Swan Lake
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=dallas-symphony-orchestra
+ -presents-tchaikovsky-s-piano-concerto-no-1-and-swan-lake%7Cmorton-meyerso
+ n-symphony-center-dallas%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-tchaikovsky-s-piano-concerto-no-1-an
+ d-swan-lake|morton-meyerson-symphony-center-dallas|2-00-pm-2026-11-29@lets
+ doitdallas.com
+DTSTAMP:20261129T200000Z
+DTSTART:20261129T200000Z
+DTEND:20261129T230000Z
+SUMMARY:Dallas Symphony Orchestra Presents Tchaikovsky's Piano Concerto No 
+ 1 and Swan Lake
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=dallas-symphony-orchestra
+ -presents-tchaikovsky-s-piano-concerto-no-1-and-swan-lake%7Cmorton-meyerso
+ n-symphony-center-dallas%7C2-00-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT

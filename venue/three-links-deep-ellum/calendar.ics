@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fraxiom-|-adventures-of-jester-jackalope|three-links-deep-ellum-dallas|
- 7-00-pm-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:Fraxiom | Adventures of Jester Jackalope
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=fraxiom-%7C-adventures-of
- -jester-jackalope%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:playlunch-buckets|three-links-deep-ellum-dallas|7-00-pm-2026-10-31@lets
  doitdallas.com
 DTSTAMP:20261101T000000Z

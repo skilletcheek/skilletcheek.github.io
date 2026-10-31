@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cameron-whitcomb-kingdom-of-fear-tour|house-of-blues-dallas-dallas|7-00
- -pm-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:Cameron Whitcomb - Kingdom of Fear Tour
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=cameron-whitcomb-kingdom-
- of-fear-tour%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:voil-presents-moonbloom|house-of-blues-dallas-dallas|6-00-pm-2026-10-31
  @letsdoitdallas.com
 DTSTAMP:20261031T230000Z
@@ -255,5 +242,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=an-intimate-evening-with-
  tamar-braxton%7Chouse-of-blues-dallas-dallas%7C7-00-pm
 DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:flex-la-factor-a-makano|house-of-blues-dallas-dallas|7-00-pm-2026-11-28
+ @letsdoitdallas.com
+DTSTAMP:20261129T010000Z
+DTSTART:20261129T010000Z
+DTEND:20261129T040000Z
+SUMMARY:FLEX\, LA FACTORÍA & MAKANO
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=flex-la-factor-a-makano%7
+ Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/house-of-blues-dallas/
 END:VEVENT
 END:VCALENDAR

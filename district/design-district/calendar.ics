@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:city-of-the-sun|am-fm-dallas-dallas|7-00-pm-2026-10-30@letsdoitdallas.c
- om
-DTSTAMP:20261031T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:City of the Sun
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=city-of-the-sun%7Cam-fm-d
- allas-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:adriatique-18-and-over-|silo-dallas|9-00-pm-2026-10-30@letsdoitdallas.c
- om
-DTSTAMP:20261031T020000Z
-DTSTART:20261031T020000Z
-DTEND:20261031T050000Z
-SUMMARY:Adriatique (18 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=adriatique-18-and-over-%7
- Csilo-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:punchis-presents-eres-emo-18-event|the-echo-lounge-music-hall-dallas|9-
- 00-pm-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T020000Z
-DTSTART:20261031T020000Z
-DTEND:20261031T050000Z
-SUMMARY:Punchis Presents ¿ERES EMO? - 18+ Event
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=punchis-presents-eres-emo
- -18-event%7Cthe-echo-lounge-music-hall-dallas%7C9-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:black-flag|am-fm-dallas-dallas|7-00-pm-2026-10-31@letsdoitdallas.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261101T000000Z
@@ -604,5 +565,30 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=deathpact-ages-18-%7Csilo
  -dallas%7C9-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:cure-for-paranoia|the-echo-lounge-music-hall-dallas|7-00-pm-2026-11-28@
+ letsdoitdallas.com
+DTSTAMP:20261129T010000Z
+DTSTART:20261129T010000Z
+DTEND:20261129T040000Z
+SUMMARY:Cure For Paranoia
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=cure-for-paranoia%7Cthe-e
+ cho-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:deorro-ages-18-|silo-dallas|9-00-pm-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261129T030000Z
+DTSTART:20261129T030000Z
+DTEND:20261129T060000Z
+SUMMARY:DEORRO - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=deorro-ages-18-%7Csilo-da
+ llas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
 END:VEVENT
 END:VCALENDAR

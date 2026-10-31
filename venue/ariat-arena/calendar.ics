@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:teddy-swims-the-ugly-tour|ariat-arena-fort-worth|7-00-pm-2026-10-30@let
- sdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:Teddy Swims: The UGLY Tour
-LOCATION:Ariat Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=teddy-swims-the-ugly-tour
- %7Cariat-arena-fort-worth%7C7-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/ariat-arena/
-END:VEVENT
-BEGIN:VEVENT
 UID:mercyme-jeremy-camp-tim-timmons-sam-wesley|ariat-arena-fort-worth|7-00-
  pm-2026-11-01@letsdoitdallas.com
 DTSTAMP:20261102T010000Z

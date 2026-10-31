@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-mavericks-vs-houston-rockets|american-airlines-center-dallas|7-0
- 0-pm-2026-10-30@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:Dallas Mavericks vs. Houston Rockets
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-30&e=dallas-mavericks-vs-houst
- on-rockets%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-stars-vs-columbus-blue-jackets|american-airlines-center-dallas|7
  -00-pm-2026-10-31@letsdoitdallas.com
 DTSTAMP:20261101T000000Z
@@ -266,6 +253,19 @@ SUMMARY:Dallas Stars vs. Nashville Predators
 LOCATION:American Airlines Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-25&e=dallas-stars-vs-nashville
  -predators%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-stars-vs-utah-mammoth|american-airlines-center-dallas|7-00-pm-20
+ 26-11-28@letsdoitdallas.com
+DTSTAMP:20261129T010000Z
+DTSTART:20261129T010000Z
+DTEND:20261129T040000Z
+SUMMARY:Dallas Stars vs. Utah Mammoth
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=dallas-stars-vs-utah-mamm
+ oth%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/american-airlines-center/
 END:VEVENT

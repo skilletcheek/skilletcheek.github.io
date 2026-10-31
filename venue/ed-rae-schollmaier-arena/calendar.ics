@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ed & Rae Schollmaier Arena — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Ed & Rae Schollmaier Arena.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:oral-roberts-womens-bb-at-tcu-womens-bb|ed-rae-schollmaier-arena-fort-w
+ orth|6-30-pm-2026-11-03@letsdoitdallas.com
+DTSTAMP:20261104T003000Z
+DTSTART:20261104T003000Z
+DTEND:20261104T033000Z
+SUMMARY:Oral Roberts Womens BB at TCU Womens BB
+LOCATION:Ed & Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=oral-roberts-womens-bb-at
+ -tcu-womens-bb%7Ced-rae-schollmaier-arena-fort-worth%7C6-30-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/ed-rae-schollmaier-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:le-moyne-dolphins-at-tcu-horned-frogs-womens-basketball|ed-rae-schollma
+ ier-arena-fort-worth|6-30-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261106T003000Z
+DTSTART:20261106T003000Z
+DTEND:20261106T033000Z
+SUMMARY:Le Moyne Dolphins at TCU Horned Frogs Womens Basketball
+LOCATION:Ed & Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=le-moyne-dolphins-at-tcu-
+ horned-frogs-womens-basketball%7Ced-rae-schollmaier-arena-fort-worth%7C6-3
+ 0-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/ed-rae-schollmaier-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:tarleton-state-womens-bb-at-tcu-womens-bb|ed-rae-schollmaier-arena-fort
+ -worth|2-00-pm-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T200000Z
+DTSTART:20261108T200000Z
+DTEND:20261108T230000Z
+SUMMARY:Tarleton State Womens BB at TCU Womens BB
+LOCATION:Ed & Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=tarleton-state-womens-bb-
+ at-tcu-womens-bb%7Ced-rae-schollmaier-arena-fort-worth%7C2-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/ed-rae-schollmaier-arena/
+END:VEVENT
+END:VCALENDAR
