@@ -115,20 +115,17 @@ DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/district/bishop-arts/
 END:VEVENT
 BEGIN:VEVENT
-UID:olivia-o-brien-presents-the-pixie-tour-with-special-guest-sophie-cates|
- the-kessler-theater-oak-cliff-dallas|doors-see-listing-2026-11-11@letsdoit
- dallas.com
-DTSTAMP:20261111T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-SUMMARY:Olivia O'Brien Presents: The PIXIE Tour with special guest Sophie C
- ates
+UID:olivia-o-brien|the-kessler-theater-dallas|8-00-pm-2026-11-11@letsdoitda
+ llas.com
+DTSTAMP:20261112T020000Z
+DTSTART:20261112T020000Z
+DTEND:20261112T050000Z
+SUMMARY:Olivia O'Brien
 LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=olivia-o-brien-presents-t
- he-pixie-tour-with-special-guest-sophie-cates%7Cthe-kessler-theater-oak-cl
- iff-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/district/bishop-arts/
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=olivia-o-brien%7Cthe-kess
+ ler-theater-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/bishop-arts/
 END:VEVENT
 BEGIN:VEVENT
 UID:trish-toledo-with-special-guest-los-tranquilos|the-kessler-theater-oak-

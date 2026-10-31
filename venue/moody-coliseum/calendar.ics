@@ -121,6 +121,19 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
+UID:liu-womens-bb-at-smu-womens-bb|moody-coliseum-dallas|6-00-pm-2026-11-11
+ @letsdoitdallas.com
+DTSTAMP:20261112T000000Z
+DTSTART:20261112T000000Z
+DTEND:20261112T030000Z
+SUMMARY:LIU Womens BB at SMU Womens BB
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=liu-womens-bb-at-smu-wome
+ ns-bb%7Cmoody-coliseum-dallas%7C6-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-louisville-cardinals-womens-volleybal
  l|moody-coliseum-dallas|see-details-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261113T000000Z
