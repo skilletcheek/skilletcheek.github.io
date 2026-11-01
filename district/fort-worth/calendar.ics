@@ -10,17 +10,40 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:garden-brothers-circus-fort-worth|panther-island-pavilion-fort-worth|1-
- 00-pm-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261101T190000Z
-DTSTART:20261101T190000Z
-DTEND:20261101T220000Z
-SUMMARY:Garden Brothers Circus - Fort Worth
-LOCATION:Panther Island Pavilion · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=garden-brothers-circus-fo
- rt-worth%7Cpanther-island-pavilion-fort-worth%7C1-00-pm
-DESCRIPTION:circus event via SeatGeek. — More: https://letsdoitdallas.com
- /district/fort-worth/
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-01@lets
+ doitdallas.com
+DTSTAMP:20261101T160000Z
+DTSTART:20261101T160000Z
+DTEND:20261101T190000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:wild-furloween-west-fort-worth-furry-convention|doubletree-by-hilton-fo
+ rt-worth-south-hotel-conference-center-100-altamesa-blvd-fort-worth-76134-
+ united-states|10-00-am-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261101T160000Z
+DTSTART:20261101T160000Z
+DTEND:20261101T190000Z
+SUMMARY:Wild Furloween West - Fort Worth Furry Convention
+LOCATION:DoubleTree by Hilton Fort Worth South Hotel & Conference Center
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=wild-furloween-west-fort-
+ worth-furry-convention%7Cdoubletree-by-hilton-fort-worth-south-hotel-confe
+ rence-center-100-altamesa-blvd-fort-worth-76134-united-states%7C10-00-am
+DESCRIPTION:Wild Furloween West\, Fort Worth’s premier Halloween furry co
+ nvention!  From October 30 through November 1\, 2026\, join us for a spoo
+ ky three-day celebration packed with creativity and community.  Here is wh
+ at you can look forward to across the weekend:    Fursuits and Furry Art:
+  S — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
@@ -32,50 +55,22 @@ SUMMARY:Stockyards Championship Rodeo
 LOCATION:Cowtown Coliseum · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-01&e=stockyards-championship-r
  odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/fort-worth/
+DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:fort-worth-symphony-orchestra|bass-performance-hall-fort-worth|2-00-pm-
- 2026-11-01@letsdoitdallas.com
+UID:kansas-state-wildcats-at-tcu-horned-frogs-womens-volleyball|ed-rae-scho
+ llmaier-arena-fort-worth|2-00-pm-2026-11-01@letsdoitdallas.com
 DTSTAMP:20261101T200000Z
 DTSTART:20261101T200000Z
 DTEND:20261101T230000Z
-SUMMARY:Fort Worth Symphony Orchestra
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=fort-worth-symphony-orche
- stra%7Cbass-performance-hall-fort-worth%7C2-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:music-of-john-denver|casa-manana-fort-worth|2-00-pm-2026-11-01@letsdoit
- dallas.com
-DTSTAMP:20261101T200000Z
-DTSTART:20261101T200000Z
-DTEND:20261101T230000Z
-SUMMARY:Music of John Denver
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=music-of-john-denver%7Cca
- sa-manana-fort-worth%7C2-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:tcu-horned-frogs-womens-volleyball-vs-kansas-state-wildcats-womens-voll
- eyball|ed-and-rae-schollmaier-arena-fort-worth|2-00-pm-2026-11-01@letsdoit
- dallas.com
-DTSTAMP:20261101T200000Z
-DTSTART:20261101T200000Z
-DTEND:20261101T230000Z
-SUMMARY:TCU Horned Frogs Womens Volleyball vs. Kansas State Wildcats Womens
-  Volleyball
-LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=tcu-horned-frogs-womens-v
- olleyball-vs-kansas-state-wildcats-womens-volleyball%7Ced-and-rae-schollma
- ier-arena-fort-worth%7C2-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/fort-worth/
+SUMMARY:Kansas State Wildcats at TCU Horned Frogs Womens Volleyball
+LOCATION:Ed & Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=kansas-state-wildcats-at-
+ tcu-horned-frogs-womens-volleyball%7Ced-rae-schollmaier-arena-fort-worth%7
+ C2-00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:garden-brothers-circus-fort-worth|panther-island-pavilion-fort-worth|4-
@@ -129,6 +124,22 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-black-dog-jazz-jam|scat-jazz-lounge-111-w-4th-st-fort-worth-76102-u
+ nited-states|8-00-pm-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261102T020000Z
+DTSTART:20261102T020000Z
+DTEND:20261102T050000Z
+SUMMARY:The Black Dog Jazz Jam
+LOCATION:Scat Jazz Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=the-black-dog-jazz-jam%7C
+ scat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-states%7C8-00-pm
+DESCRIPTION:Don’t miss this long running tradition at the Lounge. It’s 
+ the Black Dog Jazz Jam with Joey Carter & Paul Metzger as your fearless ba
+ nd leaders. Come sit in or just take it all in as musicians from near and 
+ far gather every Sunday and make music together. 21 & up only. — More: h
+ ttps://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:tcu-horned-frogs-mens-basketball-vs-lindenwood-lions-mens-basketball|ed
  -and-rae-schollmaier-arena-fort-worth|see-details-2026-11-02@letsdoitdalla
  s.com
@@ -145,6 +156,24 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-02@lets
+ doitdallas.com
+DTSTAMP:20261102T160000Z
+DTSTART:20261102T160000Z
+DTEND:20261102T190000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-11-02@
  letsdoitdallas.com
 DTSTAMP:20261102T183000Z
@@ -156,6 +185,74 @@ URL:https://letsdoitdallas.com/?date=2026-11-02&e=legacy-of-the-longhorn%7C
  cowtown-coliseum-fort-worth%7C12-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-big-laugh-open-mic|big-laugh-comedy-club-fort-worth-604-main-st-sui
+ te-100-fort-worth-tx-76102-united-states|8-00-pm-2026-11-02@letsdoitdallas
+ .com
+DTSTAMP:20261103T020000Z
+DTSTART:20261103T020000Z
+DTEND:20261103T050000Z
+SUMMARY:The Big Laugh Open Mic
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=the-big-laugh-open-mic%7C
+ big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102
+ -united-states%7C8-00-pm
+DESCRIPTION:Have you wondered to yourself\, “where can I go on a Monday t
+ o get a good laugh?” Look no further because we have the spot for you. T
+ he Big Laugh Open Mic is a perfect setting for anyone who is looking to la
+ ugh and have a good time.  So grab your grandma or your side piece and hea
+  — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:dock-open-mic|dock-bookshop-6637-meadowbrook-dr-fort-worth-tx-75116|7-0
+ 0-am-2026-11-03@letsdoitdallas.com
+DTSTAMP:20261103T130000Z
+DTSTART:20261103T130000Z
+DTEND:20261103T160000Z
+SUMMARY:Dock Open Mic
+LOCATION:dock bookshop · Fort Worth Tx
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=dock-open-mic%7Cdock-book
+ shop-6637-meadowbrook-dr-fort-worth-tx-75116%7C7-00-am
+DESCRIPTION:The Dock open mic presents Speak And Be Published. Everyone who
+  reads gets their poem published in an anthology   June 16\, 2026 at 7:30 
+ PM CDT  The Dock Bookshop  $7 — More: https://letsdoitdallas.com/distric
+ t/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-11-03@letsdoitdallas.com
+DTSTAMP:20261103T160000Z
+DTSTART:20261103T160000Z
+DTEND:20261103T190000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-03@lets
+ doitdallas.com
+DTSTAMP:20261103T160000Z
+DTSTART:20261103T160000Z
+DTEND:20261103T190000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-11-03@
@@ -195,6 +292,77 @@ URL:https://letsdoitdallas.com/?date=2026-11-03&e=jersey-boys-fort-worth%7C
  bass-performance-hall-fort-worth%7C7-30-pm
 DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
  om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:lone-star-film-festival|modern-art-museum-of-fort-worth-3200-darnell-st
+ reet-fort-worth-76107-united-states|all-day-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Lone Star Film Festival
+LOCATION:Modern Art Museum of Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=lone-star-film-festival%7
+ Cmodern-art-museum-of-fort-worth-3200-darnell-street-fort-worth-76107-unit
+ ed-states%7Call-day
+DESCRIPTION:The mission of the Lone Star Film Society is to cultivate an ap
+ preciation and understanding of the moving image as an art form and to sho
+ wcase the city of Fort Worth. The society accomplishes this mission throug
+ h year-round screenings\, film education workshops\, and community coll 
+ — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261104T160000Z
+DTSTART:20261104T160000Z
+DTEND:20261104T190000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-04@lets
+ doitdallas.com
+DTSTAMP:20261104T160000Z
+DTSTART:20261104T160000Z
+DTEND:20261104T190000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:national-multi-cultural-western-heritage-museum|the-national-multicultu
+ ral-western-heritage-museum-2201-dottie-lynn-pkwy-suite-115-fort-worth-761
+ 20-united-states|11-00-am-2026-11-04@letsdoitdallas.com
+DTSTAMP:20261104T170000Z
+DTSTART:20261104T170000Z
+DTEND:20261104T200000Z
+SUMMARY:National Multi Cultural Western Heritage Museum
+LOCATION:The National Multicultural Western Heritage Museum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=national-multi-cultural-w
+ estern-heritage-museum%7Cthe-national-multicultural-western-heritage-museu
+ m-2201-dottie-lynn-pkwy-suite-115-fort-worth-76120-united-states%7C11-00-a
+ m
+DESCRIPTION:The primary objective of the National Multicultural Western Her
+ itage Museum and Hall of Fame is to offer the visitor a true and complete 
+ historical perspective of the people and activities that built the unique 
+ culture of the American West. The work of artists who documented the — M
+ ore: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:jersey-boys-fort-worth|bass-performance-hall-fort-worth|7-30-pm-2026-11
@@ -700,6 +868,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=hot-wheels-monster-trucks
  -live-glow-n-fire%7Cariat-arena-fort-worth%7C7-00-pm
 DESCRIPTION:Motorsports/Racing event via Ticketmaster. — More: https://le
  tsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:fort-worth-symphony-orchestra-oz-with-orchestra|bass-performance-hall-f
+ ort-worth|7-30-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T013000Z
+DTSTART:20261114T013000Z
+DTEND:20261114T043000Z
+SUMMARY:Fort Worth Symphony Orchestra - Oz with Orchestra
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=fort-worth-symphony-orche
+ stra-oz-with-orchestra%7Cbass-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
+ com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-

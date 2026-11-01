@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kroger-game-day-live-arizona-at-dallas|texas-live-arlington|9-00-am-202
- 6-11-01@letsdoitdallas.com
-DTSTAMP:20261101T150000Z
-DTSTART:20261101T150000Z
-DTEND:20261101T180000Z
-SUMMARY:Kroger Game Day Live - Arizona at Dallas
-LOCATION:Texas Live! · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=kroger-game-day-live-ariz
- ona-at-dallas%7Ctexas-live-arlington%7C9-00-am
-DESCRIPTION:sports event via SeatGeek. — More: https://letsdoitdallas.com
- /district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-cowboys-vs-arizona-cardinals|at-t-stadium-arlington|12-00-pm-202
  6-11-01@letsdoitdallas.com
 DTSTAMP:20261101T180000Z

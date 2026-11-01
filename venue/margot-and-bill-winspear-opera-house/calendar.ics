@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:the-cunning-little-vixen-dallas|margot-and-bill-winspear-opera-house-da
- llas|2-00-pm-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261101T200000Z
-DTSTART:20261101T200000Z
-DTEND:20261101T230000Z
-SUMMARY:The Cunning Little Vixen - Dallas
-LOCATION:Margot and Bill Winspear Opera House · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=the-cunning-little-vixen-
- dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C2-00-pm
-DESCRIPTION:opera event via SeatGeek. — More: https://letsdoitdallas.com/
- venue/margot-and-bill-winspear-opera-house/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-cunning-little-vixen-dallas|margot-and-bill-winspear-opera-house-da
  llas|7-30-pm-2026-11-04@letsdoitdallas.com
 DTSTAMP:20261105T013000Z
 DTSTART:20261105T013000Z

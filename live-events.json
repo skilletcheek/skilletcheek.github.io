@@ -47,25 +47,9 @@
   "date": "2026-11-01",
   "time": "2:00 PM",
   "cost": null,
-  "description": "Pop event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFPt",
-  "image": "https://s1.ticketm.net/dam/a/898/147f5f7b-552c-4725-b282-d474f536b898_476451_RETINA_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Art Cart",
-  "category": "arts",
-  "area": "Grapevine",
-  "city": "Grapevine",
-  "date": "2026-11-01",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "Use your creativity, critical thinking, and maker skills to make crafts for your friends and family using the art and craft supplies provided on the Art Cart. November 1, 2026 10:30 AM - 02:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17513/639169542",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17513",
-  "image": null,
-  "organizer": {
-   "name": "City of Grapevine",
-   "url": "https://grapevinetexas.gov/"
-  }
+  "description": "concert event via SeatGeek.",
+  "url": "https://seatgeek.com/ann-hampton-callaway-tickets/richardson-texas-eisemann-center-2026-11-01-2-pm/concert/18670144",
+  "image": null
  },
  {
   "name": "CELEBRATION OF LIFE: SHANNON MCMILLAN",
@@ -94,6 +78,18 @@
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
   }
+ },
+ {
+  "name": "County Line Records & WMG Vinyl Take-Back Event",
+  "category": "music",
+  "area": "County Line Records, 600 N Main St Building B, Keller, TX, 76248, United States",
+  "city": "Keller",
+  "date": "2026-11-01",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "Drop into County Line Records for an afternoon of crate digging. While you’re there drop off your damaged or unplayable vinyl records to help support vinyl recycling efforts! Collection bins will be out through the end of September.",
+  "url": "https://whatsupfortworth.com/event/county-line-records-wmg-vinyl-take-back-event/2026-11-01/",
+  "image": null
  },
  {
   "name": "DJ SNEAK305",
@@ -196,30 +192,6 @@
   "image": null
  },
  {
-  "name": "Fort Worth Symphony Orchestra",
-  "category": "music",
-  "area": "Bass Performance Hall, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-11-01",
-  "time": "2:00 PM",
-  "cost": null,
-  "description": "Other event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv7b_",
-  "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Garden Brothers Circus - Fort Worth",
-  "category": "arts",
-  "area": "Panther Island Pavilion, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-11-01",
-  "time": "1:00 PM",
-  "cost": null,
-  "description": "circus event via SeatGeek.",
-  "url": "https://seatgeek.com/garden-brothers-circus-tickets/circus/2026-11-01-1-pm/18352847",
-  "image": null
- },
- {
   "name": "Garden Brothers Circus - Fort Worth",
   "category": "arts",
   "area": "Panther Island Pavilion, Fort Worth",
@@ -272,6 +244,22 @@
   "image": null
  },
  {
+  "name": "Kansas State Wildcats at TCU Horned Frogs Womens Volleyball",
+  "category": "sports",
+  "area": "Ed & Rae Schollmaier Arena, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-11-01",
+  "time": "2:00 PM",
+  "cost": null,
+  "description": "womens college volleyball event via SeatGeek.",
+  "url": "https://seatgeek.com/tcu-horned-frogs-womens-volleyball-tickets/womens-college-volleyball/2026-11-01-2-pm/18212897",
+  "image": null,
+  "organizer": {
+   "name": "TCU Horned Frogs",
+   "url": "https://gofrogs.com"
+  }
+ },
+ {
   "name": "King of Drag Watch Party Hosted by Buck Wylde",
   "category": "festival",
   "area": "Three Links Deep Ellum, Dallas",
@@ -282,18 +270,6 @@
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/king-of-drag-watch-party-three-links-deep-ellum-tickets/14404944",
   "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Kroger Game Day Live - Arizona at Dallas",
-  "category": "sports",
-  "area": "Texas Live!, Arlington",
-  "city": "Arlington",
-  "date": "2026-11-01",
-  "time": "9:00 AM",
-  "cost": null,
-  "description": "sports event via SeatGeek.",
-  "url": "https://seatgeek.com/cowboys-fan-event-tickets/sports/2026-11-01-9-am/18669897",
-  "image": null
  },
  {
   "name": "Level Up: Smash Bros. Training Camp",
@@ -340,18 +316,6 @@
   "image": "https://s1.ticketm.net/dam/a/85c/d68735d8-20db-4571-b244-d70cf5a3485c_285531_RETINA_PORTRAIT_16_9.jpg"
  },
  {
-  "name": "Music of John Denver",
-  "category": "music",
-  "area": "Casa Manana, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-11-01",
-  "time": "2:00 PM",
-  "cost": null,
-  "description": "Other event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P4qe",
-  "image": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_RETINA_LANDSCAPE_16_9.jpg"
- },
- {
   "name": "Old Crow Medicine Show w/ Ken Pomeroy",
   "category": "music",
   "area": "Majestic Theatre Dallas, Dallas",
@@ -362,22 +326,6 @@
   "description": "Country event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OPP",
   "image": "https://s1.ticketm.net/dam/a/3e6/a5887c53-4a2a-4c10-baa4-fa9f23df23e6_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Open Sewing & Fiber Arts Studio (18+)",
-  "category": "arts",
-  "area": "Grapevine",
-  "city": "Grapevine",
-  "date": "2026-11-01",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "This open session gives you access to sewing machines, knitting tools, and more fiber arts equipment. Our knowledgeable staff will be on hand to guide you, share tips, and support you as you work on your projects. Open to adults 18+, library card in good standing required. Open t",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16980",
-  "image": null,
-  "organizer": {
-   "name": "City of Grapevine",
-   "url": "https://grapevinetexas.gov/"
-  }
  },
  {
   "name": "Pan-Pot (21 and Over)",
@@ -402,6 +350,30 @@
   "description": "Live at Sundown at Granada.",
   "url": "http://www.prekindle.com/event/79939-paul-renna-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527948964318307"
+ },
+ {
+  "name": "Phenomenomaly at Meow Wolf",
+  "category": "festival",
+  "area": "Meow Wolf, 3000 Grapevine Mills Pkwy, Grapevine, TX, 76051, United States",
+  "city": "Grapevine",
+  "date": "2026-11-01",
+  "time": "8:00 AM",
+  "cost": null,
+  "description": "This summer, Meow Wolf Grapevine brings back Phenomenomaly, a live immersive performance series inside The Real Unreal. Blending interactive theater with a rotating lineup of North Texas talent, the experience unfolds around guests as they explore, featuring music, dance, comedy,",
+  "url": "https://whatsupfortworth.com/event/phenomenomaly-at-meow-wolf/2026-11-01/",
+  "image": null
+ },
+ {
+  "name": "Puzzling Adventures Scavenger Hunt",
+  "category": "festival",
+  "area": "Puzzling Adventures Start & Finish Location, 400 Jones St, Fort Worth, 76102, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-01",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "Consistently rated the best local scavenger hunt since 2016!  Puzzling Adventures are a cross between a scavenger hunt, an adventure race, and an informative self-guided walking tour. Each adventure consists of a series of locations that you are guided to where you are required t",
+  "url": "https://whatsupfortworth.com/event/puzzling-adventures-scavenger-hunt/2026-11-01/",
+  "image": null
  },
  {
   "name": "RNB X Live in Dallas",
@@ -438,6 +410,18 @@
   "description": "Discover vintage finds, local art, handmade goods, vinyl records, jewelry, and unique gifts at Rhythm & Relics, a monthly flea market featuring 30+ local vendors in Dallas’s Design District. Enjoy an afternoon of shopping, music, brunch, and drinks, with AM/FM serving its full ba",
   "url": "https://www.dallasites101.com/event/rhythm-%26-relics-dallas%3a-november-flea-market-at-am-fm/17674/",
   "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/November-Flea-Market_AE88CE61-C097-D025-2147C35A694508C4_ae8be547-94dc-23a8-687b70cbed0aca28.jpg"
+ },
+ {
+  "name": "Scarborough's Hollow",
+  "category": "festival",
+  "area": "Scarborough Renaissance Festival, 2511 FM 66, Waxahachie, 75167, United States",
+  "city": "Waxahachie",
+  "date": "2026-11-01",
+  "time": "1:00 PM",
+  "cost": null,
+  "description": "Step into a world of magic, mystery, and adventure as Scarborough’s Hollow returns with expanded entertainment, artisan shopping, seasonal food and drink, interactive experiences, and unforgettable fall fun for all ages.",
+  "url": "https://whatsupfortworth.com/event/scarboroughs-hollow-2/",
+  "image": null
  },
  {
   "name": "Sketch Club - Dallas",
@@ -499,20 +483,8 @@
   "date": "2026-11-01",
   "time": "1:30 PM",
   "cost": null,
-  "description": "Miscellaneous event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OpP_",
-  "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Sweeney Todd - Farmers Branch",
-  "category": "arts",
-  "area": "Firehouse Theatre, Farmers Branch",
-  "city": "Farmers Branch",
-  "date": "2026-11-01",
-  "time": "2:30 PM",
-  "cost": null,
-  "description": "theater event via SeatGeek.",
-  "url": "https://seatgeek.com/sweeney-todd-tickets/theater/2026-11-01-2-30-pm/18671495",
+  "description": "rodeo event via SeatGeek.",
+  "url": "https://seatgeek.com/stockyards-championship-rodeo-tickets/rodeo/2026-11-01-1-30-pm/18107842",
   "image": null
  },
  {
@@ -528,31 +500,27 @@
   "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "TCU Horned Frogs Womens Volleyball vs. Kansas State Wildcats Womens Volleyball",
-  "category": "sports",
-  "area": "Ed and Rae Schollmaier Arena, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-11-01",
-  "time": "2:00 PM",
-  "cost": null,
-  "description": "Miscellaneous event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A707oK",
-  "image": "https://s1.ticketm.net/dam/c/093/c74cfd95-af21-4e64-9f85-47677b951093_105651_TABLET_LANDSCAPE_16_9.jpg",
-  "organizer": {
-   "name": "TCU Horned Frogs",
-   "url": "https://gofrogs.com"
-  }
- },
- {
-  "name": "The Cunning Little Vixen - Dallas",
-  "category": "arts",
-  "area": "Margot and Bill Winspear Opera House, Dallas",
+  "name": "Tea Around Town® Dallas",
+  "category": "festival",
+  "area": "Tea Around Town, 646 Main Street, Dallas, 75202, United States",
   "city": "Dallas",
   "date": "2026-11-01",
-  "time": "2:00 PM",
+  "time": "8:00 AM",
   "cost": null,
-  "description": "opera event via SeatGeek.",
-  "url": "https://seatgeek.com/the-cunning-little-vixen-tickets/opera/2026-11-01-2-pm/18390534",
+  "description": "Turn Dallas into your own mobile tea room! Tea Around Town Dallas brings vibrant city views and a cozy afternoon tea experience aboard our elegant double-decker bus. Sip teas, enjoy freshly prepared pastries, and take in landmarks like the Arts District, Reunion Tower, and the Da",
+  "url": "https://whatsupfortworth.com/event/tea-around-town-dallas/2026-11-01/",
+  "image": null
+ },
+ {
+  "name": "The Black Dog Jazz Jam",
+  "category": "music",
+  "area": "Scat Jazz Lounge, 111 W 4th St, Fort Worth, 76102, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-01",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Don’t miss this long running tradition at the Lounge. It’s the Black Dog Jazz Jam with Joey Carter & Paul Metzger as your fearless band leaders. Come sit in or just take it all in as musicians from near and far gather every Sunday and make music together. 21 & up only.",
+  "url": "https://whatsupfortworth.com/event/the-black-dog-jazz-jam-18/",
   "image": null
  },
  {
@@ -590,6 +558,18 @@
   "description": "Totally Made-Up Musical is DFW's premiere improvised musical theatre group— no script, no rehearsal, and no idea what's coming until the audience gives us a single suggestion and the band starts playing. Every show brings together professional musical theatre actors, seasoned imp",
   "url": "https://ci.ovationtix.com/35214/production/1291103?performanceId=11867978",
   "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/ClientFile-635504-_161F4A68-EFC9-089A-0A57CEB4D7D4FC34_1628d7bb-9b44-bf4c-c9aeba2d616b2409.png"
+ },
+ {
+  "name": "Wild Furloween West - Fort Worth Furry Convention",
+  "category": "festival",
+  "area": "DoubleTree by Hilton Fort Worth South Hotel & Conference Center, 100 Altamesa Blvd, Fort Worth, 76134, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-01",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "Wild Furloween West, Fort Worth’s premier Halloween furry convention!  From October 30 through November 1, 2026, join us for a spooky three-day celebration packed with creativity and community.  Here is what you can look forward to across the weekend:    Fursuits and Furry Art: S",
+  "url": "https://whatsupfortworth.com/event/wild-furloween-west-fort-worth-furry-convention/",
+  "image": null
  },
  {
   "name": "geeks who drink FREE Trivia",
@@ -1068,6 +1048,18 @@
   "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/2026_Worlds_Night_47A6627C-DDF4-AF6A-952190DAC3DA6B27_47b050f8-f74f-393d-f331baefb95f9eca.jpg"
  },
  {
+  "name": "Puzzling Adventures Scavenger Hunt",
+  "category": "festival",
+  "area": "Puzzling Adventures Start & Finish Location, 400 Jones St, Fort Worth, 76102, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-02",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "Consistently rated the best local scavenger hunt since 2016!  Puzzling Adventures are a cross between a scavenger hunt, an adventure race, and an informative self-guided walking tour. Each adventure consists of a series of locations that you are guided to where you are required t",
+  "url": "https://whatsupfortworth.com/event/puzzling-adventures-scavenger-hunt/2026-11-02/",
+  "image": null
+ },
+ {
   "name": "SBDC Workshop: How to Start a Business",
   "category": "arts",
   "area": "Central Library, Garland",
@@ -1198,6 +1190,30 @@
    "name": "TCU Horned Frogs",
    "url": "https://gofrogs.com"
   }
+ },
+ {
+  "name": "Tea Around Town® Dallas",
+  "category": "festival",
+  "area": "Tea Around Town, 646 Main Street, Dallas, 75202, United States",
+  "city": "Dallas",
+  "date": "2026-11-02",
+  "time": "8:00 AM",
+  "cost": null,
+  "description": "Turn Dallas into your own mobile tea room! Tea Around Town Dallas brings vibrant city views and a cozy afternoon tea experience aboard our elegant double-decker bus. Sip teas, enjoy freshly prepared pastries, and take in landmarks like the Arts District, Reunion Tower, and the Da",
+  "url": "https://whatsupfortworth.com/event/tea-around-town-dallas/2026-11-02/",
+  "image": null
+ },
+ {
+  "name": "The Big Laugh Open Mic",
+  "category": "arts",
+  "area": "Big Laugh Comedy Club – Fort Worth, 604 Main St, Suite 100, Fort Worth, TX, 76102, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-02",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Have you wondered to yourself, “where can I go on a Monday to get a good laugh?” Look no further because we have the spot for you. The Big Laugh Open Mic is a perfect setting for anyone who is looking to laugh and have a good time.  So grab your grandma or your side piece and hea",
+  "url": "https://whatsupfortworth.com/event/the-big-laugh-open-mic/2026-11-02/",
+  "image": null
  },
  {
   "name": "UNT Dallas Trailblazers at UT Arlington Mavericks Mens Basketball",
@@ -1476,6 +1492,18 @@
   }
  },
  {
+  "name": "County Line Records & WMG Vinyl Take-Back Event",
+  "category": "music",
+  "area": "County Line Records, 600 N Main St Building B, Keller, TX, 76248, United States",
+  "city": "Keller",
+  "date": "2026-11-03",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "Drop into County Line Records for an afternoon of crate digging. While you’re there drop off your damaged or unplayable vinyl records to help support vinyl recycling efforts! Collection bins will be out through the end of September.",
+  "url": "https://whatsupfortworth.com/event/county-line-records-wmg-vinyl-take-back-event/2026-11-03/",
+  "image": null
+ },
+ {
   "name": "Cricut Project Class: Monogram Keychain (Ages 13+)",
   "category": "family",
   "area": "West Garland Library, Garland",
@@ -1508,6 +1536,18 @@
   }
  },
  {
+  "name": "Dock Open Mic",
+  "category": "festival",
+  "area": "dock bookshop, 6637 Meadowbrook Dr, Fort Worth Tx, 75116",
+  "city": null,
+  "date": "2026-11-03",
+  "time": "7:00 AM",
+  "cost": null,
+  "description": "The Dock open mic presents Speak And Be Published. Everyone who reads gets their poem published in an anthology   June 16, 2026 at 7:30 PM CDT  The Dock Bookshop  $7",
+  "url": "https://whatsupfortworth.com/event/dock-open-mic-with-mike-g/2026-11-03/",
+  "image": null
+ },
+ {
   "name": "Election Day",
   "category": "family",
   "area": "Frisco",
@@ -1533,6 +1573,18 @@
   "cost": null,
   "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
   "url": "https://calendar.unt.edu/event/five-four-oclock-lab-bands",
+  "image": null
+ },
+ {
+  "name": "Forces at Play",
+  "category": "arts",
+  "area": "Fort Worth Museum of Science and History, 1600 Gendy Street, Fort Worth, 76107, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-03",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "April 25, 2026 – February 28, 2027    Forces at Play is an interactive exhibit that explores the science behind some of the world’s most beloved sports. Through hands-on activities and historical collections, visitors discover how forces like gravity, friction, and momentum impac",
+  "url": "https://whatsupfortworth.com/event/forces-at-play-169/2026-11-03/",
   "image": null
  },
  {
@@ -1728,6 +1780,18 @@
   "image": null
  },
  {
+  "name": "Puzzling Adventures Scavenger Hunt",
+  "category": "festival",
+  "area": "Puzzling Adventures Start & Finish Location, 400 Jones St, Fort Worth, 76102, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-03",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "Consistently rated the best local scavenger hunt since 2016!  Puzzling Adventures are a cross between a scavenger hunt, an adventure race, and an informative self-guided walking tour. Each adventure consists of a series of locations that you are guided to where you are required t",
+  "url": "https://whatsupfortworth.com/event/puzzling-adventures-scavenger-hunt/2026-11-03/",
+  "image": null
+ },
+ {
   "name": "Sacramento State Womens BB at UT Arlington Womens BB",
   "category": "sports",
   "area": "College Park Center, Arlington",
@@ -1833,6 +1897,18 @@
   "cost": null,
   "description": "concert event via SeatGeek.",
   "url": "https://seatgeek.com/strawberry-girls-tickets/dallas-texas-puzzles-deep-ellum-2026-11-03-6-pm/concert/18671602",
+  "image": null
+ },
+ {
+  "name": "Tea Around Town® Dallas",
+  "category": "festival",
+  "area": "Tea Around Town, 646 Main Street, Dallas, 75202, United States",
+  "city": "Dallas",
+  "date": "2026-11-03",
+  "time": "8:00 AM",
+  "cost": null,
+  "description": "Turn Dallas into your own mobile tea room! Tea Around Town Dallas brings vibrant city views and a cozy afternoon tea experience aboard our elegant double-decker bus. Sip teas, enjoy freshly prepared pastries, and take in landmarks like the Arts District, Reunion Tower, and the Da",
+  "url": "https://whatsupfortworth.com/event/tea-around-town-dallas/2026-11-03/",
   "image": null
  },
  {
@@ -2248,6 +2324,18 @@
   }
  },
  {
+  "name": "County Line Records & WMG Vinyl Take-Back Event",
+  "category": "music",
+  "area": "County Line Records, 600 N Main St Building B, Keller, TX, 76248, United States",
+  "city": "Keller",
+  "date": "2026-11-04",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "Drop into County Line Records for an afternoon of crate digging. While you’re there drop off your damaged or unplayable vinyl records to help support vinyl recycling efforts! Collection bins will be out through the end of September.",
+  "url": "https://whatsupfortworth.com/event/county-line-records-wmg-vinyl-take-back-event/2026-11-04/",
+  "image": null
+ },
+ {
   "name": "Crochet Corner In-Person (Ages 13+)",
   "category": "arts",
   "area": "Central Library, Garland",
@@ -2314,6 +2402,18 @@
    "name": "City of Garland",
    "url": "https://garlandtx.gov/"
   }
+ },
+ {
+  "name": "Forces at Play",
+  "category": "arts",
+  "area": "Fort Worth Museum of Science and History, 1600 Gendy Street, Fort Worth, 76107, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-04",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "April 25, 2026 – February 28, 2027    Forces at Play is an interactive exhibit that explores the science behind some of the world’s most beloved sports. Through hands-on activities and historical collections, visitors discover how forces like gravity, friction, and momentum impac",
+  "url": "https://whatsupfortworth.com/event/forces-at-play-169/2026-11-04/",
+  "image": null
  },
  {
   "name": "Graduate Artist Recital: Amber Lo, clarinet",
@@ -2412,6 +2512,18 @@
   }
  },
  {
+  "name": "Lone Star Film Festival",
+  "category": "festival",
+  "area": "Modern Art Museum of Fort Worth, 3200 Darnell Street, Fort Worth, 76107, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-04",
+  "time": "All day",
+  "cost": null,
+  "description": "The mission of the Lone Star Film Society is to cultivate an appreciation and understanding of the moving image as an art form and to showcase the city of Fort Worth. The society accomplishes this mission through year-round screenings, film education workshops, and community coll",
+  "url": "https://whatsupfortworth.com/event/lone-star-film-festival/",
+  "image": null
+ },
+ {
   "name": "Lunch Circuit",
   "category": "family",
   "area": "310 E. Parkerville Road, Cedar Hill",
@@ -2438,6 +2550,18 @@
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/mark-paul-addison-improv-tickets/15003343",
   "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "National Multi Cultural Western Heritage Museum",
+  "category": "arts",
+  "area": "The National Multicultural Western Heritage Museum, 2201 Dottie Lynn Pkwy, Suite 115, Fort Worth, 76120, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-04",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "The primary objective of the National Multicultural Western Heritage Museum and Hall of Fame is to offer the visitor a true and complete historical perspective of the people and activities that built the unique culture of the American West. The work of artists who documented the",
+  "url": "https://whatsupfortworth.com/event/national-multi-cultural-western-heritage-museum/2026-11-04/",
+  "image": null
  },
  {
   "name": "Open Practice and Play Night",
@@ -2486,6 +2610,18 @@
    "name": "City of Garland",
    "url": "https://garlandtx.gov/"
   }
+ },
+ {
+  "name": "Puzzling Adventures Scavenger Hunt",
+  "category": "festival",
+  "area": "Puzzling Adventures Start & Finish Location, 400 Jones St, Fort Worth, 76102, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-04",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "Consistently rated the best local scavenger hunt since 2016!  Puzzling Adventures are a cross between a scavenger hunt, an adventure race, and an informative self-guided walking tour. Each adventure consists of a series of locations that you are guided to where you are required t",
+  "url": "https://whatsupfortworth.com/event/puzzling-adventures-scavenger-hunt/2026-11-04/",
+  "image": null
  },
  {
   "name": "STEM Lab (18+)",
@@ -2570,6 +2706,18 @@
    "name": "City of Grapevine",
    "url": "https://grapevinetexas.gov/"
   }
+ },
+ {
+  "name": "Tea Around Town® Dallas",
+  "category": "festival",
+  "area": "Tea Around Town, 646 Main Street, Dallas, 75202, United States",
+  "city": "Dallas",
+  "date": "2026-11-04",
+  "time": "8:00 AM",
+  "cost": null,
+  "description": "Turn Dallas into your own mobile tea room! Tea Around Town Dallas brings vibrant city views and a cozy afternoon tea experience aboard our elegant double-decker bus. Sip teas, enjoy freshly prepared pastries, and take in landmarks like the Arts District, Reunion Tower, and the Da",
+  "url": "https://whatsupfortworth.com/event/tea-around-town-dallas/2026-11-04/",
+  "image": null
  },
  {
   "name": "Teenz Place After School Hour (Ages 13-17)",
@@ -9580,6 +9728,18 @@
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
   }
+ },
+ {
+  "name": "Fort Worth Symphony Orchestra - Oz with Orchestra",
+  "category": "arts",
+  "area": "Bass Performance Hall, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-11-13",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "classical event via SeatGeek.",
+  "url": "https://seatgeek.com/fort-worth-symphony-orchestra-tickets/classical/2026-11-13-7-30-pm/18628957",
+  "image": null
  },
  {
   "name": "Garrison Keillor",
