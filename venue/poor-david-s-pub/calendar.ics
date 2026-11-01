@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:vince-vance-the-valiants-halloween-spook-tacular|poor-david-s-pub-dalla
- s|doors-see-listing-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Vince Vance & The Valiants Halloween Spook-Tacular
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=vince-vance-the-valiants-
- halloween-spook-tacular%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-entertainment-awards-opening-day-celebration|poor-david-s-pub-da
  llas|doors-see-listing-2026-11-01@letsdoitdallas.com
 DTSTAMP:20261101T000000Z
@@ -181,6 +168,19 @@ SUMMARY:Poor David's Open Mic - Hosted by Rob Case
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-25&e=poor-david-s-open-mic-hos
  ted-by-rob-case%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
+BEGIN:VEVENT
+UID:honky-tonk-tuesday-with-texas-zephers|poor-david-s-pub-dallas|doors-see
+ -listing-2026-12-01@letsdoitdallas.com
+DTSTAMP:20261201T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Honky Tonk Tuesday with Texas Zephers
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=honky-tonk-tuesday-with-t
+ exas-zephers%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT

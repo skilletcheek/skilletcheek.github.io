@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:planning-passport|mckinney|see-details-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Planning Passport
-LOCATION:McKinney
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=planning-passport%7Cmckin
- ney%7Csee-details
-DESCRIPTION:Runs Oct 8 – Oct 31. — More: https://letsdoitdallas.com/dis
- trict/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:worlds-2026-swiss-8|credit-union-of-texas-event-center-allen|12-00-pm-2
- 026-10-31@letsdoitdallas.com
-DTSTAMP:20261031T170000Z
-DTSTART:20261031T170000Z
-DTEND:20261031T200000Z
-SUMMARY:Worlds 2026 - Swiss 8
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=worlds-2026-swiss-8%7Ccre
- dit-union-of-texas-event-center-allen%7C12-00-pm
-DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:genealogy-office-hours-adults-|6861-w-eldorado-parkway-mckinney|01-00-p
  m-2026-11-01@letsdoitdallas.com
 DTSTAMP:20261101T190000Z

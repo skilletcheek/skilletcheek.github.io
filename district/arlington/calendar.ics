@@ -10,71 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-self-guided-rally-day-tour|at-t-stadium-arlington|10-00-am
- -2026-10-31@letsdoitdallas.com
-DTSTAMP:20261031T150000Z
-DTSTART:20261031T150000Z
-DTEND:20261031T180000Z
-SUMMARY:AT&T Stadium Self-Guided Rally Day Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=at-t-stadium-self-guided-
- rally-day-tour%7Cat-t-stadium-arlington%7C10-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
- 26-10-31@letsdoitdallas.com
-DTSTAMP:20261031T170000Z
-DTSTART:20261031T170000Z
-DTEND:20261031T200000Z
-SUMMARY:Family Magic & Comedy for All Ages
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=family-magic-comedy-for-a
- ll-ages%7Carlington-improv-arlington%7C12-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-rally-day-tour|at-t-stadium-arlington|3-15-pm-2
- 026-10-31@letsdoitdallas.com
-DTSTAMP:20261031T201500Z
-DTSTART:20261031T201500Z
-DTEND:20261031T231500Z
-SUMMARY:AT&T Stadium VIP Guided Rally Day Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=at-t-stadium-vip-guided-r
- ally-day-tour%7Cat-t-stadium-arlington%7C3-15-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-rally-day-tour|at-t-stadium-arlington|5-00-pm-2
- 026-10-31@letsdoitdallas.com
-DTSTAMP:20261031T220000Z
-DTSTART:20261031T220000Z
-DTEND:20261101T010000Z
-SUMMARY:AT&T Stadium VIP Guided Rally Day Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=at-t-stadium-vip-guided-r
- ally-day-tour%7Cat-t-stadium-arlington%7C5-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:lewis-belt|arlington-improv-arlington|7-00-pm-2026-10-31@letsdoitdallas
- .com
-DTSTAMP:20261101T000000Z
-DTSTART:20261101T000000Z
-DTEND:20261101T030000Z
-SUMMARY:Lewis Belt
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=lewis-belt%7Carlington-im
- prov-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:kroger-game-day-live-arizona-at-dallas|texas-live-arlington|9-00-am-202
  6-11-01@letsdoitdallas.com
 DTSTAMP:20261101T150000Z
@@ -599,6 +534,59 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-11-12
+ @letsdoitdallas.com
+DTSTAMP:20261112T180000Z
+DTSTART:20261112T180000Z
+DTEND:20261112T210000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C12-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-11-12@
+ letsdoitdallas.com
+DTSTAMP:20261112T200000Z
+DTSTART:20261112T200000Z
+DTEND:20261112T230000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C2-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-11-12@
+ letsdoitdallas.com
+DTSTAMP:20261112T220000Z
+DTSTART:20261112T220000Z
+DTEND:20261113T010000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C4-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:austin-peay-governors-at-ut-arlington-mavericks-womens-volleyball|colle
+ ge-park-center-arlington|6-00-pm-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261113T000000Z
+DTSTART:20261113T000000Z
+DTEND:20261113T030000Z
+SUMMARY:Austin Peay Governors at UT Arlington Mavericks Womens Volleyball
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=austin-peay-governors-at-
+ ut-arlington-mavericks-womens-volleyball%7Ccollege-park-center-arlington%7
+ C6-00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:michael-blackson|arlington-improv-arlington|7-30-pm-2026-11-12@letsdoit
  dallas.com
 DTSTAMP:20261113T013000Z
@@ -610,6 +598,58 @@ URL:https://letsdoitdallas.com/?date=2026-11-12&e=michael-blackson%7Carling
  ton-improv-arlington%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-11-13
+ @letsdoitdallas.com
+DTSTAMP:20261113T160000Z
+DTSTART:20261113T160000Z
+DTEND:20261113T190000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C10-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-11-13
+ @letsdoitdallas.com
+DTSTAMP:20261113T180000Z
+DTSTART:20261113T180000Z
+DTEND:20261113T210000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C12-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-11-13@
+ letsdoitdallas.com
+DTSTAMP:20261113T200000Z
+DTSTART:20261113T200000Z
+DTEND:20261113T230000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C2-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-11-13@
+ letsdoitdallas.com
+DTSTAMP:20261113T220000Z
+DTSTART:20261113T220000Z
+DTEND:20261114T010000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C4-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:garrison-keillor|arlington-music-hall-arlington|7-30-pm-2026-11-13@lets
@@ -647,6 +687,19 @@ SUMMARY:Michael Blackson
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-11-13&e=michael-blackson%7Carling
  ton-improv-arlington%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
+ 26-11-14@letsdoitdallas.com
+DTSTAMP:20261114T180000Z
+DTSTART:20261114T180000Z
+DTEND:20261114T210000Z
+SUMMARY:Family Magic & Comedy for All Ages
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=family-magic-comedy-for-a
+ ll-ages%7Carlington-improv-arlington%7C12-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT

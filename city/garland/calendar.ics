@@ -9,51 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:spooky-sprint-dallas|audubon-park-garland|8-00-am-11-00-am-2026-10-31@l
- etsdoitdallas.com
-DTSTAMP:20261031T130000Z
-DTSTART:20261031T130000Z
-DTEND:20261031T160000Z
-SUMMARY:Spooky Sprint- Dallas
-LOCATION:Audubon Park · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=spooky-sprint-dallas%7Cau
- dubon-park-garland%7C8-00-am-11-00-am
-DESCRIPTION:This family-friendly race welcomes every pace and fitness level
-  with 5K\, 10K\, half marathon\, 1-mile\, and kids dash options. Registrat
- ion includes a designer shirt\, custom medal\, chip timing with live resul
- ts\, free race photos\, and snacks at the finish line. — More: https://l
- etsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:family-fiesta-diy-sugar-skull-pi-atas|north-garland-library-garland|02-
- 30-pm-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261031T193000Z
-DTSTART:20261031T193000Z
-DTEND:20261031T223000Z
-SUMMARY:Family Fiesta: DIY Sugar Skull Piñatas
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=family-fiesta-diy-sugar-s
- kull-pi-atas%7Cnorth-garland-library-garland%7C02-30-pm
-DESCRIPTION:2:30 p.m.\; Get ready for a Spooktacular craft event! Join us t
- his Halloween for a hands-on sugar skull piñata craft event. Celebrate th
- e vibrant tradition of Día de los Muertos with a festive twist as you des
- ign and decorate your own piñata. All supplies provided. Costumes are en 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:fright-fest-dababy-and-friends|curtis-culwell-center-garland|8-00-pm-20
- 26-10-31@letsdoitdallas.com
-DTSTAMP:20261101T010000Z
-DTSTART:20261101T010000Z
-DTEND:20261101T040000Z
-SUMMARY:Fright Fest DaBaby and Friends
-LOCATION:Curtis Culwell Center · Garland
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=fright-fest-dababy-and-fr
- iends%7Ccurtis-culwell-center-garland%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:smart-start-garland-school-readiness-workshops|central-library-garland|
  10-00-am-2026-11-02@letsdoitdallas.com
 DTSTAMP:20261102T160000Z
@@ -1513,5 +1468,54 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=jubin-nautiyal%7Ccurtis-c
  ulwell-center-garland%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-red-door-nutcracker-presented-by-red-door-dance-academy|300-n-fifth-s
+ treet-garland|01-30-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T193000Z
+DTSTART:20261115T193000Z
+DTEND:20261115T223000Z
+SUMMARY:A Red Door Nutcracker presented by Red Door Dance Academy
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=a-red-door-nutcracker-pre
+ sented-by-red-door-dance-academy%7C300-n-fifth-street-garland%7C01-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:kalayatna-annual-recital-2026-theerpu-a-dance-drama-production|521-w-st
+ ate-street-garland|02-00-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T200000Z
+DTSTART:20261115T200000Z
+DTEND:20261115T230000Z
+SUMMARY:Kalayatna Annual Recital 2026 & Theerpu - a Dance Drama Production
+LOCATION:521 W State Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=kalayatna-annual-recital-
+ 2026-theerpu-a-dance-drama-production%7C521-w-state-street-garland%7C02-00
+ -pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-red-door-nutcracker-presented-by-red-door-dance-academy|300-n-fifth-s
+ treet-garland|03-30-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T213000Z
+DTSTART:20261115T213000Z
+DTEND:20261116T003000Z
+SUMMARY:A Red Door Nutcracker presented by Red Door Dance Academy
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=a-red-door-nutcracker-pre
+ sented-by-red-door-dance-academy%7C300-n-fifth-street-garland%7C03-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-red-door-nutcracker-presented-by-red-door-dance-academy|300-n-fifth-s
+ treet-garland|05-30-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T233000Z
+DTSTART:20261115T233000Z
+DTEND:20261116T023000Z
+SUMMARY:A Red Door Nutcracker presented by Red Door Dance Academy
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=a-red-door-nutcracker-pre
+ sented-by-red-door-dance-academy%7C300-n-fifth-street-garland%7C05-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 END:VCALENDAR

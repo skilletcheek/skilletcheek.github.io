@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gorgon-city-18-and-over-|silo-dallas|9-00-pm-2026-10-31@letsdoitdallas.
- com
-DTSTAMP:20261101T020000Z
-DTSTART:20261101T020000Z
-DTEND:20261101T050000Z
-SUMMARY:Gorgon City (18 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=gorgon-city-18-and-over-%
- 7Csilo-dallas%7C9-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:pan-pot-21-and-over-|silo-dallas|7-00-pm-2026-11-01@letsdoitdallas.com
 DTSTAMP:20261102T010000Z
 DTSTART:20261102T010000Z
@@ -203,6 +190,18 @@ SUMMARY:DEORRO - Ages 18+
 LOCATION:SILO · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-28&e=deorro-ages-18-%7Csilo-da
  llas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:deorro-ages-21-|silo-dallas|7-00-pm-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261130T010000Z
+DTSTART:20261130T010000Z
+DTEND:20261130T040000Z
+SUMMARY:Deorro - Ages 21+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=deorro-ages-21-%7Csilo-da
+ llas%7C7-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/silo/
 END:VEVENT

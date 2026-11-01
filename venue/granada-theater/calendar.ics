@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-linda-lindas|granada-theater-tx-dallas|8-00-pm-2026-10-31@letsdoitd
- allas.com
-DTSTAMP:20261101T010000Z
-DTSTART:20261101T010000Z
-DTEND:20261101T040000Z
-SUMMARY:The Linda Lindas
-LOCATION:Granada Theater - TX · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=the-linda-lindas%7Cgranad
- a-theater-tx-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:rhett-miller|granada-theater-dallas-dallas|7-15-pm-2026-11-01@letsdoitd
  allas.com
 DTSTAMP:20261102T011500Z

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:thee-sinseers|the-kessler-theater-dallas|8-00-pm-2026-10-31@letsdoitdal
- las.com
-DTSTAMP:20261101T010000Z
-DTSTART:20261101T010000Z
-DTEND:20261101T040000Z
-SUMMARY:Thee Sinseers
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=thee-sinseers%7Cthe-kessl
- er-theater-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/the-kessler-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-war-and-treaty|the-kessler-theater-dallas|8-00-pm-2026-11-01@letsdo
  itdallas.com
 DTSTAMP:20261102T020000Z

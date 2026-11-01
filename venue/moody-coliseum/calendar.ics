@@ -134,6 +134,19 @@ DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
  tsdoitdallas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
+UID:louisville-cardinals-at-smu-mustangs-womens-volleyball|moody-coliseum-d
+ allas|7-00-pm-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261113T010000Z
+DTSTART:20261113T010000Z
+DTEND:20261113T040000Z
+SUMMARY:Louisville Cardinals at SMU Mustangs Womens Volleyball
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=louisville-cardinals-at-s
+ mu-mustangs-womens-volleyball%7Cmoody-coliseum-dallas%7C7-00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-louisville-cardinals-womens-volleybal
  l|moody-coliseum-dallas|see-details-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261113T000000Z

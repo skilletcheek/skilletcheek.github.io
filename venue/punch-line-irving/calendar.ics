@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:comedy-allstars|punch-line-dallas-irvine-irving|8-00-pm-2026-10-31@lets
- doitdallas.com
-DTSTAMP:20261101T010000Z
-DTSTART:20261101T010000Z
-DTEND:20261101T040000Z
-SUMMARY:Comedy Allstars
-LOCATION:Punch Line Dallas - Irvine · Irving
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=comedy-allstars%7Cpunch-l
- ine-dallas-irvine-irving%7C8-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:ha-ha-halloween-showcase|punch-line-irving-irving|8-00-pm-2026-10-31@le
- tsdoitdallas.com
-DTSTAMP:20261101T010000Z
-DTSTART:20261101T010000Z
-DTEND:20261101T040000Z
-SUMMARY:Ha Ha Halloween Showcase
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=ha-ha-halloween-showcase%
- 7Cpunch-line-irving-irving%7C8-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:alvin-perry-friends|punch-line-irving-irving|7-00-pm-2026-11-01@letsdoi
  tdallas.com
 DTSTAMP:20261102T010000Z
@@ -397,5 +371,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=darren-fleet%7Cpunch-line
  -irving-irving%7C9-15-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:funky-dineva-live|punch-line-irving-irving|7-00-pm-2026-11-29@letsdoitd
+ allas.com
+DTSTAMP:20261130T010000Z
+DTSTART:20261130T010000Z
+DTEND:20261130T040000Z
+SUMMARY:Funky Dineva Live
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=funky-dineva-live%7Cpunch
+ -line-irving-irving%7C7-00-pm
+DESCRIPTION:Multimedia event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/punch-line-irving/
 END:VEVENT
 END:VCALENDAR

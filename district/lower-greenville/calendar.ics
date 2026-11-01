@@ -10,35 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:doug-will-s-monster-mash-bash-featuring-the-music-of-dj-culturegang|sun
- down-at-granada-lower-greenville-dallas|doors-see-listing-2026-10-31@letsd
- oitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:DOUG & WILL'S MONSTER MASH BASH Featuring the Music of DJ CULTUREGA
- NG
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=doug-will-s-monster-mash-
- bash-featuring-the-music-of-dj-culturegang%7Csundown-at-granada-lower-gree
- nville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-linda-lindas|granada-theater-tx-dallas|8-00-pm-2026-10-31@letsdoitd
- allas.com
-DTSTAMP:20261101T010000Z
-DTSTART:20261101T010000Z
-DTEND:20261101T040000Z
-SUMMARY:The Linda Lindas
-LOCATION:Granada Theater - TX · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=the-linda-lindas%7Cgranad
- a-theater-tx-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:paul-renna|sundown-at-granada-lower-greenville-dallas|doors-see-listing
  -2026-11-01@letsdoitdallas.com
 DTSTAMP:20261101T000000Z

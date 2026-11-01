@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:loni-love|addison-improv-addison|7-00-pm-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261101T000000Z
-DTEND:20261101T030000Z
-SUMMARY:Loni Love
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=loni-love%7Caddison-impro
- v-addison%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:ann-hampton-callaway|eisemann-center-richardson|2-00-pm-2026-11-01@lets
  doitdallas.com
 DTSTAMP:20261101T200000Z

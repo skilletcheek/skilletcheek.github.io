@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:my-cousin-tiera|dallas-comedy-club-mainstage-theater-dallas|5-00-pm-202
- 6-10-31@letsdoitdallas.com
-DTSTAMP:20261031T220000Z
-DTSTART:20261031T220000Z
-DTEND:20261101T010000Z
-SUMMARY:My Cousin Tiera
-LOCATION:Dallas Comedy Club - Mainstage Theater
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=my-cousin-tiera%7Cdallas-
- comedy-club-mainstage-theater-dallas%7C5-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/dallas-comedy-club-mainstage-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:stand-up-comedy-show|dallas-comedy-club-mainstage-theater-dallas|5-00-p
  m-2026-11-01@letsdoitdallas.com
 DTSTAMP:20261101T230000Z

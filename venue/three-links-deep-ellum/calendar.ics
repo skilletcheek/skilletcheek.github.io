@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:playlunch-buckets|three-links-deep-ellum-dallas|7-00-pm-2026-10-31@lets
- doitdallas.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261101T000000Z
-DTEND:20261101T030000Z
-SUMMARY:Playlunch\, Buckets
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=playlunch-buckets%7Cthree
- -links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:king-of-drag-watch-party-hosted-by-buck-wylde|three-links-deep-ellum-da
  llas|8-00-pm-2026-11-01@letsdoitdallas.com
 DTSTAMP:20261102T020000Z
@@ -308,6 +295,19 @@ DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:pipe-hillcountry-halfwit-judge-joy-scream|three-links-deep-ellum-dallas
+ |7-00-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261116T010000Z
+DTSTART:20261116T010000Z
+DTEND:20261116T040000Z
+SUMMARY:Pipe\, Hillcountry\, Halfwit\, Judge Joy Scream
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=pipe-hillcountry-halfwit-
+ judge-joy-scream%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-11-15@letsdoitd
  allas.com
 DTSTAMP:20261116T050000Z
@@ -541,5 +541,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=specialized-karaoke-night
  -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:ezcodylee-ninexteen|three-links-deep-ellum-dallas|8-00-pm-2026-11-29@le
+ tsdoitdallas.com
+DTSTAMP:20261130T020000Z
+DTSTART:20261130T020000Z
+DTEND:20261130T050000Z
+SUMMARY:ezcodylee\, Ninexteen
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=ezcodylee-ninexteen%7Cthr
+ ee-links-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-11-29@letsdoitd
+ allas.com
+DTSTAMP:20261130T050000Z
+DTSTART:20261130T050000Z
+DTEND:20261130T080000Z
+SUMMARY:DJ SNEAK305
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=dj-sneak305%7Cthree-links
+ -deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

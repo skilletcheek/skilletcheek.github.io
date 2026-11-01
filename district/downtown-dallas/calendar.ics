@@ -10,97 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:vince-vance-the-valiants-halloween-spook-tacular|poor-david-s-pub-dalla
- s|doors-see-listing-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Vince Vance & The Valiants Halloween Spook-Tacular
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=vince-vance-the-valiants-
- halloween-spook-tacular%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:voil-presents-moonbloom|house-of-blues-dallas-dallas|6-00-pm-2026-10-31
- @letsdoitdallas.com
-DTSTAMP:20261031T230000Z
-DTSTART:20261031T230000Z
-DTEND:20261101T020000Z
-SUMMARY:VOILÀ Presents: Moonbloom
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=voil-presents-moonbloom%7
- Chouse-of-blues-dallas-dallas%7C6-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-stars-vs-columbus-blue-jackets|american-airlines-center-dallas|7
- -00-pm-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261101T000000Z
-DTEND:20261101T030000Z
-SUMMARY:Dallas Stars vs. Columbus Blue Jackets
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=dallas-stars-vs-columbus-
- blue-jackets%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:edgar-alejandro|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-202
- 6-10-31@letsdoitdallas.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261101T000000Z
-DTEND:20261101T030000Z
-SUMMARY:Edgar Alejandro
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=edgar-alejandro%7Cthe-cam
- bridge-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:little-big-town-for-the-art-of-it-tour|music-hall-at-fair-park-dallas|7
- -30-pm-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261101T003000Z
-DTSTART:20261101T003000Z
-DTEND:20261101T033000Z
-SUMMARY:Little Big Town - For The Art Of It Tour
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=little-big-town-for-the-a
- rt-of-it-tour%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:pj-morton-saturday-night-sunday-morning-tour|majestic-theatre-dallas-da
- llas|8-00-pm-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261101T010000Z
-DTSTART:20261101T010000Z
-DTEND:20261101T040000Z
-SUMMARY:PJ Morton - Saturday Night Sunday Morning Tour
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=pj-morton-saturday-night-
- sunday-morning-tour%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:clrs-halloween|south-side-ballroom-dallas|9-00-pm-2026-10-31@letsdoitda
- llas.com
-DTSTAMP:20261101T020000Z
-DTSTART:20261101T020000Z
-DTEND:20261101T050000Z
-SUMMARY:CLRS- HALLOWEEN
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=clrs-halloween%7Csouth-si
- de-ballroom-dallas%7C9-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-entertainment-awards-opening-day-celebration|poor-david-s-pub-da
  llas|doors-see-listing-2026-11-01@letsdoitdallas.com
 DTSTAMP:20261101T000000Z
@@ -1497,5 +1406,45 @@ URL:https://letsdoitdallas.com/?date=2026-11-29&e=dr-seuss-how-the-grinch-s
  0-pm
 DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dr-seuss-how-the-grinch-stole-christmas-the-musical-touring-|music-hall
+ -at-fair-park-dallas|6-30-pm-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261130T003000Z
+DTSTART:20261130T003000Z
+DTEND:20261130T033000Z
+SUMMARY:Dr. Seuss' How the Grinch Stole Christmas! The Musical (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=dr-seuss-how-the-grinch-s
+ tole-christmas-the-musical-touring-%7Cmusic-hall-at-fair-park-dallas%7C6-3
+ 0-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:trivium-crown-in-the-grave-world-tour|south-side-ballroom-dallas|6-35-p
+ m-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261130T003500Z
+DTSTART:20261130T003500Z
+DTEND:20261130T033500Z
+SUMMARY:TRIVIUM: CROWN IN THE GRAVE WORLD TOUR
+LOCATION:South Side Ballroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=trivium-crown-in-the-grav
+ e-world-tour%7Csouth-side-ballroom-dallas%7C6-35-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:honky-tonk-tuesday-with-texas-zephers|poor-david-s-pub-dallas|doors-see
+ -listing-2026-12-01@letsdoitdallas.com
+DTSTAMP:20261201T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Honky Tonk Tuesday with Texas Zephers
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=honky-tonk-tuesday-with-t
+ exas-zephers%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

@@ -10,61 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:recording-studio-attended|grapevine|12-00-pm-2026-10-31@letsdoitdallas.
- com
-DTSTAMP:20261031T170000Z
-DTSTART:20261031T170000Z
-DTEND:20261031T200000Z
-SUMMARY:Recording Studio Attended
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=recording-studio-attended
- %7Cgrapevine%7C12-00-pm
-DESCRIPTION:Interested in podcasting or recording music? Come learn how to 
- use the library’s Recording Studio! To reserve and use the Recording Stu
- dio\, you must first complete a mandatory orientation. Orientations are of
- fered on Saturdays from 12 to 4 pm. No registration or appointment neede 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:trick-or-treat-at-the-library-|grapevine|12-00-pm-2026-10-31@letsdoitda
- llas.com
-DTSTAMP:20261031T170000Z
-DTSTART:20261031T170000Z
-DTEND:20261031T200000Z
-SUMMARY:Trick or Treat at the Library!
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=trick-or-treat-at-the-lib
- rary-%7Cgrapevine%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:board-game-meet-up-for-adults-halloween-special|grapevine|02-00-pm-2026
- -10-31@letsdoitdallas.com
-DTSTAMP:20261031T190000Z
-DTSTART:20261031T190000Z
-DTEND:20261031T220000Z
-SUMMARY:Board Game Meet-Up for Adults! Halloween Special
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=board-game-meet-up-for-ad
- ults-halloween-special%7Cgrapevine%7C02-00-pm
-DESCRIPTION:Join us for a special edition of board and card gaming at the l
- ibrary. Feel free to come in costume\, if you would like to. Select from o
- ur collection of board games\, card games\, party games\, or bring your ow
- n games! 1st & 3rd Saturdays (and those ocassional 5th Saturdays: 1/31\, 5
-  — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:open-play-saturday|grapevine|02-00-pm-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261031T190000Z
-DTSTART:20261031T190000Z
-DTEND:20261031T220000Z
-SUMMARY:Open Play Saturday
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=open-play-saturday%7Cgrap
- evine%7C02-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:open-sewing-fiber-arts-studio-18-|grapevine|10-00-am-2026-11-01@letsdoi
  tdallas.com
 DTSTAMP:20261101T160000Z
@@ -852,6 +797,85 @@ DESCRIPTION:Thirty years ago\, Fred Campos founded one of the nation’s lo
  Inc. Mr. Campos will present on the history of DFW Pug Rescue\, and the ch
  allenges of building and sustaining a nonprofit organization. He will also
   — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:open-sewing-fiber-arts-studio-18-|grapevine|10-00-am-2026-11-15@letsdoi
+ tdallas.com
+DTSTAMP:20261115T160000Z
+DTSTART:20261115T160000Z
+DTEND:20261115T190000Z
+SUMMARY:Open Sewing & Fiber Arts Studio (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=open-sewing-fiber-arts-st
+ udio-18-%7Cgrapevine%7C10-00-am
+DESCRIPTION:This open session gives you access to sewing machines\, knittin
+ g tools\, and more fiber arts equipment. Our knowledgeable staff will be o
+ n hand to guide you\, share tips\, and support you as you work on your pro
+ jects. Open to adults 18+\, library card in good standing required. Open t
+  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-cart|grapevine|10-30-am-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T163000Z
+DTSTART:20261115T163000Z
+DTEND:20261115T193000Z
+SUMMARY:Art Cart
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=art-cart%7Cgrapevine%7C10
+ -30-am
+DESCRIPTION:Use your creativity\, critical thinking\, and maker skills to m
+ ake crafts for your friends and family using the art and craft supplies pr
+ ovided on the Art Cart. November 15\, 2026 10:30 AM - 02:30 PM Grapevine\,
+  TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17515/63916954 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:pathfinder-2e-ongoing-campaign|grapevine|11-30-am-2026-11-15@letsdoitda
+ llas.com
+DTSTAMP:20261115T173000Z
+DTSTART:20261115T173000Z
+DTEND:20261115T203000Z
+SUMMARY:Pathfinder 2e - Ongoing Campaign
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=pathfinder-2e-ongoing-cam
+ paign%7Cgrapevine%7C11-30-am
+DESCRIPTION:Registration Required to attend. Join us in the Library Board R
+ oom for our ongoing Pathfinder 2e campaign! Registration for the current c
+ ampaign in full\, but new players are always welcome to join us on the fir
+ st Saturday of the month for an open session available to all who regi —
+  More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:level-up-smash-bros-training-camp|grapevine|12-30-pm-2026-11-15@letsdoi
+ tdallas.com
+DTSTAMP:20261115T183000Z
+DTSTART:20261115T183000Z
+DTEND:20261115T213000Z
+SUMMARY:Level Up: Smash Bros. Training Camp
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=level-up-smash-bros-train
+ ing-camp%7Cgrapevine%7C12-30-pm
+DESCRIPTION:Who: Ages 8+ What: The Esports Academy's gaming PCs and console
+ s will be available for tournament practice during the holiday-themed Supe
+ r Smash Bros.Tournament and Mario Kart Grand Prix. Stop by this Sunday to 
+ hone your in-game skills\, learn strategy\, and compete with peers! Whe 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:teen-junk-journal-club-ages-13-17-|grapevine|02-00-pm-2026-11-15@letsdo
+ itdallas.com
+DTSTAMP:20261115T200000Z
+DTSTART:20261115T200000Z
+DTEND:20261115T230000Z
+SUMMARY:Teen Junk Journal Club (ages 13-17)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=teen-junk-journal-club-ag
+ es-13-17-%7Cgrapevine%7C02-00-pm
+DESCRIPTION:Unleash your creativity and make a journal that’s completely 
+ your own! ✂️📓 Join us for a relaxed\, creative space where you can 
+ collage\, doodle\, decorate\, write\, and experiment with different papers
+ \, stickers\, ephemera\, and other fun materials. Whether you’re new to 
+ junk journalin — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:speed-dating-in-grapevine-speed-dating-all-professionals-35-50|hop-and-

@@ -10,54 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:doug-will-s-monster-mash-bash-featuring-the-music-of-dj-culturegang|sun
- down-at-granada-lower-greenville-dallas|doors-see-listing-2026-10-31@letsd
- oitdallas.com
-DTSTAMP:20261031T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:DOUG & WILL'S MONSTER MASH BASH Featuring the Music of DJ CULTUREGA
- NG
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=doug-will-s-monster-mash-
- bash-featuring-the-music-of-dj-culturegang%7Csundown-at-granada-lower-gree
- nville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:nfm-halloween-spooktacular|nfm-nebraska-furniture-mart-the-colony|10-00
- -am-3-00-pm-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261031T150000Z
-DTSTART:20261031T150000Z
-DTEND:20261031T180000Z
-SUMMARY:NFM Halloween Spooktacular
-LOCATION:NFM (Nebraska Furniture Mart) · The Colony
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=nfm-halloween-spooktacula
- r%7Cnfm-nebraska-furniture-mart-the-colony%7C10-00-am-3-00-pm
-DESCRIPTION:Gather your little goblins and ghouls for Halloween fun! Its's 
- sure to be a spooktacular time with trick-or-treating\, games and even a f
- ew special character appearances! Visit the various stations throughout th
- e store for all the fun! Candy\, games\, face painting\, food trucks\, act
-  — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:nightmare-on-main-street-halloween-block-party|the-village-dallas|8-00-
- pm-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261101T010000Z
-DTSTART:20261101T010000Z
-DTEND:20261101T040000Z
-SUMMARY:Nightmare on Main Street Halloween Block Party
-LOCATION:The Village · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=nightmare-on-main-street-
- halloween-block-party%7Cthe-village-dallas%7C8-00-pm
-DESCRIPTION:Halloween takes over The Village with Nightmare on Main Street\
- , a free-with-RSVP block party featuring scare actors\, live DJs\, spooky 
- thrills\, and a $5\,000 costume contest. Guests can also catch Bryce Alaka
- i live at the Haunted Beach Club with a separate ticket required for entry
-  — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:celebration-of-life-shannon-mcmillan|trees-dallas|doors-see-listing-202
  6-11-01@letsdoitdallas.com
 DTSTAMP:20261101T000000Z
@@ -108,6 +60,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-01&e=geeks-who-drink-free-triv
  ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
  m/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:rhythm-relics-dallas-november-flea-market-at-am-fm|am-fm-dallas|11-00-a
+ m-3-00-pm-2026-11-01@letsdoitdallas.com
+DTSTAMP:20261101T170000Z
+DTSTART:20261101T170000Z
+DTEND:20261101T200000Z
+SUMMARY:Rhythm & Relics Dallas: November Flea Market at AM/FM
+LOCATION:AM/FM · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-01&e=rhythm-relics-dallas-nove
+ mber-flea-market-at-am-fm%7Cam-fm-dallas%7C11-00-am-3-00-pm
+DESCRIPTION:Discover vintage finds\, local art\, handmade goods\, vinyl rec
+ ords\, jewelry\, and unique gifts at Rhythm & Relics\, a monthly flea mark
+ et featuring 30+ local vendors in Dallas’s Design District. Enjoy an aft
+ ernoon of shopping\, music\, brunch\, and drinks\, with AM/FM serving its 
+ full ba — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:king-of-drag-watch-party-hosted-by-buck-wylde|three-links-deep-ellum-da
@@ -558,5 +526,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=specialized-karaoke-night
  -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:ezcodylee-ninexteen|three-links-deep-ellum-dallas|8-00-pm-2026-11-29@le
+ tsdoitdallas.com
+DTSTAMP:20261130T020000Z
+DTSTART:20261130T020000Z
+DTEND:20261130T050000Z
+SUMMARY:ezcodylee\, Ninexteen
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=ezcodylee-ninexteen%7Cthr
+ ee-links-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-11-29@letsdoitd
+ allas.com
+DTSTAMP:20261130T050000Z
+DTSTART:20261130T050000Z
+DTEND:20261130T080000Z
+SUMMARY:DJ SNEAK305
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=dj-sneak305%7Cthree-links
+ -deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/free-events/
 END:VEVENT
 END:VCALENDAR

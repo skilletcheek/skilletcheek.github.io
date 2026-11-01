@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-stars-vs-columbus-blue-jackets|american-airlines-center-dallas|7
- -00-pm-2026-10-31@letsdoitdallas.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261101T000000Z
-DTEND:20261101T030000Z
-SUMMARY:Dallas Stars vs. Columbus Blue Jackets
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=dallas-stars-vs-columbus-
- blue-jackets%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-mavericks-vs-sacramento-kings|american-airlines-center-dallas|7-
  00-pm-2026-11-02@letsdoitdallas.com
 DTSTAMP:20261103T010000Z

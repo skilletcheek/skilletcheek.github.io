@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:clrs-halloween|south-side-ballroom-dallas|9-00-pm-2026-10-31@letsdoitda
- llas.com
-DTSTAMP:20261101T020000Z
-DTSTART:20261101T020000Z
-DTEND:20261101T050000Z
-SUMMARY:CLRS- HALLOWEEN
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-10-31&e=clrs-halloween%7Csouth-si
- de-ballroom-dallas%7C9-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/south-side-ballroom/
-END:VEVENT
-BEGIN:VEVENT
 UID:victoria-mon-t-frequency-of-love-tour|south-side-ballroom-dallas|8-00-p
  m-2026-11-02@letsdoitdallas.com
 DTSTAMP:20261103T020000Z
@@ -85,5 +72,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-24&e=imminence-axis-mundi-tour
  -north-america-2026%7Csouth-side-ballroom-dallas%7C7-00-pm
 DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/south-side-ballroom/
+END:VEVENT
+BEGIN:VEVENT
+UID:trivium-crown-in-the-grave-world-tour|south-side-ballroom-dallas|6-35-p
+ m-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261130T003500Z
+DTSTART:20261130T003500Z
+DTEND:20261130T033500Z
+SUMMARY:TRIVIUM: CROWN IN THE GRAVE WORLD TOUR
+LOCATION:South Side Ballroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=trivium-crown-in-the-grav
+ e-world-tour%7Csouth-side-ballroom-dallas%7C6-35-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/south-side-ballroom/
 END:VEVENT
 END:VCALENDAR
