@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:celebration-of-life-shannon-mcmillan|trees-dallas|doors-see-listing-202
- 6-11-01@letsdoitdallas.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:CELEBRATION OF LIFE: SHANNON MCMILLAN
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=celebration-of-life-shann
- on-mcmillan%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
-END:VEVENT
-BEGIN:VEVENT
 UID:the-kilans|trees-dallas-dallas|8-00-pm-2026-11-06@letsdoitdallas.com
 DTSTAMP:20261107T020000Z
 DTSTART:20261107T020000Z
@@ -168,6 +155,19 @@ SUMMARY:AS I LAY DYING * THE CURSE WITHIN * COMMISSARY
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-28&e=as-i-lay-dying-the-curse-
  within-commissary%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:darkest-hour|trees-dallas|doors-see-listing-2026-12-02@letsdoitdallas.c
+ om
+DTSTAMP:20261202T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:DARKEST HOUR
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=darkest-hour%7Ctrees-dall
+ as%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT

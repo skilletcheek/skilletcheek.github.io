@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:t-murph|arlington-improv-arlington|7-00-pm-2026-11-01@letsdoitdallas.co
- m
-DTSTAMP:20261102T010000Z
-DTSTART:20261102T010000Z
-DTEND:20261102T040000Z
-SUMMARY:T. Murph
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=t-murph%7Carlington-impro
- v-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:shuler-king|arlington-improv-arlington|7-30-pm-2026-11-05@letsdoitdalla
  s.com
 DTSTAMP:20261106T013000Z

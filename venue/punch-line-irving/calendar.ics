@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:alvin-perry-friends|punch-line-irving-irving|7-00-pm-2026-11-01@letsdoi
- tdallas.com
-DTSTAMP:20261102T010000Z
-DTSTART:20261102T010000Z
-DTEND:20261102T040000Z
-SUMMARY:Alvin Perry & Friends
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=alvin-perry-friends%7Cpun
- ch-line-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:dean-lewis-friends-a-night-of-stand-up-comedy|punch-line-irving-irving|
  7-30-pm-2026-11-04@letsdoitdallas.com
 DTSTAMP:20261105T013000Z

@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ann-hampton-callaway|eisemann-center-richardson|2-00-pm-2026-11-01@lets
- doitdallas.com
-DTSTAMP:20261101T200000Z
-DTSTART:20261101T200000Z
-DTEND:20261101T230000Z
-SUMMARY:Ann Hampton Callaway
-LOCATION:Eisemann Center · Richardson
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=ann-hampton-callaway%7Cei
- semann-center-richardson%7C2-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:addison-s-8x8|addison-improv-addison|6-00-pm-2026-11-01@letsdoitdallas.
- com
-DTSTAMP:20261102T000000Z
-DTSTART:20261102T000000Z
-DTEND:20261102T030000Z
-SUMMARY:Addison's  8x8
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=addison-s-8x8%7Caddison-i
- mprov-addison%7C6-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:steven-curtis-chapman|eisemann-center-richardson|7-00-pm-2026-11-02@let
  sdoitdallas.com
 DTSTAMP:20261103T010000Z

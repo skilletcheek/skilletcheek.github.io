@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:king-of-drag-watch-party-hosted-by-buck-wylde|three-links-deep-ellum-da
- llas|8-00-pm-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261102T020000Z
-DTSTART:20261102T020000Z
-DTEND:20261102T050000Z
-SUMMARY:King of Drag Watch Party Hosted by Buck Wylde
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=king-of-drag-watch-party-
- hosted-by-buck-wylde%7Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-11-01@letsdoitd
- allas.com
-DTSTAMP:20261102T050000Z
-DTSTART:20261102T050000Z
-DTEND:20261102T080000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:arte-a-gogo|three-links-deep-ellum-dallas|7-00-pm-2026-11-02@letsdoitda
  llas.com
 DTSTAMP:20261103T010000Z
@@ -61,15 +35,15 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:boot-juice|three-links-deep-ellum-dallas|7-00-pm-2026-11-03@letsdoitdal
- las.com
+UID:boot-juice-walker-and-the-white-lines|three-links-deep-ellum-dallas|7-0
+ 0-pm-2026-11-03@letsdoitdallas.com
 DTSTAMP:20261104T010000Z
 DTSTART:20261104T010000Z
 DTEND:20261104T040000Z
-SUMMARY:Boot Juice
+SUMMARY:Boot Juice\, Walker and The White Lines
 LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=boot-juice%7Cthree-links-
- deep-ellum-dallas%7C7-00-pm
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=boot-juice-walker-and-the
+ -white-lines%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
 END:VEVENT
@@ -152,15 +126,15 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:moon-darling-hearts-to-blame-tour|three-links-deep-ellum-dallas|8-00-pm
+UID:moon-darling-hearts-to-blame-tour|three-links-deep-ellum-dallas|7-30-pm
  -2026-11-07@letsdoitdallas.com
-DTSTAMP:20261108T020000Z
-DTSTART:20261108T020000Z
-DTEND:20261108T050000Z
+DTSTAMP:20261108T013000Z
+DTSTART:20261108T013000Z
+DTEND:20261108T043000Z
 SUMMARY:Moon Darling: Hearts to Blame Tour
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-07&e=moon-darling-hearts-to-bl
- ame-tour%7Cthree-links-deep-ellum-dallas%7C8-00-pm
+ ame-tour%7Cthree-links-deep-ellum-dallas%7C7-30-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
 END:VEVENT
@@ -543,6 +517,19 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:maximum-aggression-xcape-venadryl-eyebleed|three-links-deep-ellum-dalla
+ s|7-00-pm-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261129T010000Z
+DTSTART:20261129T010000Z
+DTEND:20261129T040000Z
+SUMMARY:Maximum Aggression\, Xcape\, Venadryl\, Eyebleed
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=maximum-aggression-xcape-
+ venadryl-eyebleed%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:ezcodylee-ninexteen|three-links-deep-ellum-dallas|8-00-pm-2026-11-29@le
  tsdoitdallas.com
 DTSTAMP:20261130T020000Z
@@ -567,5 +554,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-29&e=dj-sneak305%7Cthree-links
  -deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+ -pm-2026-11-30@letsdoitdallas.com
+DTSTAMP:20261201T050000Z
+DTSTART:20261201T050000Z
+DTEND:20261201T080000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-30&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

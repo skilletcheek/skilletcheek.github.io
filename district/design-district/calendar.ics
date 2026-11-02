@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pan-pot-21-and-over-|silo-dallas|7-00-pm-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261102T010000Z
-DTSTART:20261102T010000Z
-DTEND:20261102T040000Z
-SUMMARY:Pan-Pot (21 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=pan-pot-21-and-over-%7Csi
- lo-dallas%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:slow-pulp|the-echo-lounge-music-hall-dallas|7-00-pm-2026-11-03@letsdoit
  dallas.com
 DTSTAMP:20261104T010000Z

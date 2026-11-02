@@ -10,100 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:celebration-of-life-shannon-mcmillan|trees-dallas|doors-see-listing-202
- 6-11-01@letsdoitdallas.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:CELEBRATION OF LIFE: SHANNON MCMILLAN
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=celebration-of-life-shann
- on-mcmillan%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/free-events
- /
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-entertainment-awards-opening-day-celebration|poor-david-s-pub-da
- llas|doors-see-listing-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Dallas Entertainment Awards - Opening Day Celebration
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=dallas-entertainment-awar
- ds-opening-day-celebration%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:paul-renna|sundown-at-granada-lower-greenville-dallas|doors-see-listing
- -2026-11-01@letsdoitdallas.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Paul Renna
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=paul-renna%7Csundown-at-g
- ranada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:geeks-who-drink-free-trivia|sundown-at-granada-lower-greenville-dallas|
- doors-see-listing-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:geeks who drink FREE Trivia
-LOCATION:Sundown at Granada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=geeks-who-drink-free-triv
- ia%7Csundown-at-granada-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Sundown at Granada. — More: https://letsdoitdallas.co
- m/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:rhythm-relics-dallas-november-flea-market-at-am-fm|am-fm-dallas|11-00-a
- m-3-00-pm-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261101T170000Z
-DTSTART:20261101T170000Z
-DTEND:20261101T200000Z
-SUMMARY:Rhythm & Relics Dallas: November Flea Market at AM/FM
-LOCATION:AM/FM · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=rhythm-relics-dallas-nove
- mber-flea-market-at-am-fm%7Cam-fm-dallas%7C11-00-am-3-00-pm
-DESCRIPTION:Discover vintage finds\, local art\, handmade goods\, vinyl rec
- ords\, jewelry\, and unique gifts at Rhythm & Relics\, a monthly flea mark
- et featuring 30+ local vendors in Dallas’s Design District. Enjoy an aft
- ernoon of shopping\, music\, brunch\, and drinks\, with AM/FM serving its 
- full ba — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:king-of-drag-watch-party-hosted-by-buck-wylde|three-links-deep-ellum-da
- llas|8-00-pm-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261102T020000Z
-DTSTART:20261102T020000Z
-DTEND:20261102T050000Z
-SUMMARY:King of Drag Watch Party Hosted by Buck Wylde
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=king-of-drag-watch-party-
- hosted-by-buck-wylde%7Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-11-01@letsdoitd
- allas.com
-DTSTAMP:20261102T050000Z
-DTSTART:20261102T050000Z
-DTEND:20261102T080000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
  -pm-2026-11-02@letsdoitdallas.com
 DTSTAMP:20261103T050000Z
@@ -130,6 +36,25 @@ DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
 END:VEVENT
 BEGIN:VEVENT
+UID:aurora-biennial-x-dallas-contemporary-monira-al-qadiri-public-opening-r
+ eception|dallas-contemporary-dallas|8-00-pm-9-00-pm-2026-11-04@letsdoitdal
+ las.com
+DTSTAMP:20261105T020000Z
+DTSTART:20261105T020000Z
+DTEND:20261105T050000Z
+SUMMARY:AURORA Biennial x Dallas Contemporary: Monira Al Qadiri Public Open
+ ing Reception
+LOCATION:Dallas Contemporary
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=aurora-biennial-x-dallas-
+ contemporary-monira-al-qadiri-public-opening-reception%7Cdallas-contempora
+ ry-dallas%7C8-00-pm-9-00-pm
+DESCRIPTION:To kick off the 7th AURORA Biennial\, States of Becoming\, join
+  AURORA and Dallas Contemporary for a special opening of two works by Berl
+ in-based Kuwaiti artist Monira Al Qadiri. Exploring the Arabian Gulf’s p
+ re- and post-oil histories\, the works trace the region’s transformation
+  f — More: https://letsdoitdallas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
 UID:wub-wednesday|three-links-deep-ellum-dallas|11-00-pm-2026-11-04@letsdoi
  tdallas.com
 DTSTAMP:20261105T050000Z
@@ -141,6 +66,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-04&e=wub-wednesday%7Cthree-lin
  ks-deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:community-remembrance-service|first-presbyterian-church-of-dallas-dalla
+ s|11-00-am-12-00-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261105T170000Z
+DTSTART:20261105T170000Z
+DTEND:20261105T200000Z
+SUMMARY:Community Remembrance Service
+LOCATION:First Presbyterian Church Of Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=community-remembrance-ser
+ vice%7Cfirst-presbyterian-church-of-dallas-dallas%7C11-00-am-12-00-pm
+DESCRIPTION:Join The Stewpot for a Community Remembrance Service honoring p
+ eople in Dallas County who died this past year while living unhoused or wh
+ ose remains went unclaimed. November 5 at 11 AM in the Sanctuary at First 
+ Presbyterian Church of Dallas\, 1835 Young Street. The church’s pastor 
+ — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-05@letsdoitdall
@@ -552,5 +493,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-29&e=dj-sneak305%7Cthree-links
  -deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+ -pm-2026-11-30@letsdoitdallas.com
+DTSTAMP:20261201T050000Z
+DTSTART:20261201T050000Z
+DTEND:20261201T080000Z
+SUMMARY:Specialized Karaoke Night with RUEN
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-30&e=specialized-karaoke-night
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/free-events/
 END:VEVENT
 END:VCALENDAR

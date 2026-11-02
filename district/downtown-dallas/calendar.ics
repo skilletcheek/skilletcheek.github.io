@@ -10,61 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-entertainment-awards-opening-day-celebration|poor-david-s-pub-da
- llas|doors-see-listing-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Dallas Entertainment Awards - Opening Day Celebration
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=dallas-entertainment-awar
- ds-opening-day-celebration%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261101T140000Z
-DTSTART:20261101T140000Z
-DTEND:20261101T170000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:esteman-daniela-spalla-amorio-usa-tour|house-of-blues-dallas-dallas|7-0
- 0-pm-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261102T010000Z
-DTSTART:20261102T010000Z
-DTEND:20261102T040000Z
-SUMMARY:ESTEMAN & DANIELA SPALLA - AMORIO USA TOUR
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=esteman-daniela-spalla-am
- orio-usa-tour%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:old-crow-medicine-show-w-ken-pomeroy|majestic-theatre-dallas-dallas|8-0
- 0-pm-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261102T020000Z
-DTSTART:20261102T020000Z
-DTEND:20261102T050000Z
-SUMMARY:Old Crow Medicine Show w/ Ken Pomeroy
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=old-crow-medicine-show-w-
- ken-pomeroy%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-11-02@letsdoitdallas.com
 DTSTAMP:20261102T140000Z
@@ -227,6 +172,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-04&e=jim-henson-s-labyrinth-in
  -concert%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
 DESCRIPTION:Family event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261105T140000Z
+DTSTART:20261105T140000Z
+DTEND:20261105T170000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:skillet-comatose-20-years-still-screaming-tour|house-of-blues-dallas-da
@@ -1495,6 +1456,33 @@ SUMMARY:TRIVIUM: CROWN IN THE GRAVE WORLD TOUR
 LOCATION:South Side Ballroom · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-29&e=trivium-crown-in-the-grav
  e-world-tour%7Csouth-side-ballroom-dallas%7C6-35-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-vs-boston-celtics|american-airlines-center-dallas|7-00
+ -pm-2026-11-30@letsdoitdallas.com
+DTSTAMP:20261201T010000Z
+DTSTART:20261201T010000Z
+DTEND:20261201T040000Z
+SUMMARY:Dallas Mavericks vs. Boston Celtics
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-30&e=dallas-mavericks-vs-bosto
+ n-celtics%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:beat-belew-vai-levin-bozzio-performing-the-music-of-king-crimson|music-
+ hall-at-fair-park-dallas|7-30-pm-2026-11-30@letsdoitdallas.com
+DTSTAMP:20261201T013000Z
+DTSTART:20261201T013000Z
+DTEND:20261201T043000Z
+SUMMARY:BEAT: Belew/Vai/Levin/Bozzio Performing the Music of KING CRIMSON
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-30&e=beat-belew-vai-levin-bozz
+ io-performing-the-music-of-king-crimson%7Cmusic-hall-at-fair-park-dallas%7
+ C7-30-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT

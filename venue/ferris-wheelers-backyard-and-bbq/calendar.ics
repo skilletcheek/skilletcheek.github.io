@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:goodbye-june|ferris-wheelers-backyard-and-bbq-dallas|7-30-pm-2026-11-01
- @letsdoitdallas.com
-DTSTAMP:20261102T013000Z
-DTSTART:20261102T013000Z
-DTEND:20261102T043000Z
-SUMMARY:Goodbye June
-LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=goodbye-june%7Cferris-whe
- elers-backyard-and-bbq-dallas%7C7-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/ferris-wheelers-backyard-and-bbq/
-END:VEVENT
-BEGIN:VEVENT
 UID:havok|ferris-wheelers-backyard-and-bbq-dallas|6-30-pm-2026-11-02@letsdo
  itdallas.com
 DTSTAMP:20261103T003000Z

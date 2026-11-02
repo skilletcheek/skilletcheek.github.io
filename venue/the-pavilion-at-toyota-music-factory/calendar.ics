@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:erykah-badu-with-h-e-r-|the-pavilion-at-toyota-music-factory-irving|5-0
- 0-pm-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261101T230000Z
-DTSTART:20261101T230000Z
-DTEND:20261102T020000Z
-SUMMARY:Erykah Badu with H.E.R.
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=erykah-badu-with-h-e-r-%7
- Cthe-pavilion-at-toyota-music-factory-irving%7C5-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
-UID:rnb-x-live-in-dallas|the-pavilion-at-toyota-music-factory-irving|5-00-p
- m-2026-11-01@letsdoitdallas.com
-DTSTAMP:20261101T230000Z
-DTSTART:20261101T230000Z
-DTEND:20261102T020000Z
-SUMMARY:RNB X Live in Dallas
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=rnb-x-live-in-dallas%7Cth
- e-pavilion-at-toyota-music-factory-irving%7C5-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:steve-lacy-oh-yeah-tour|the-pavilion-at-toyota-music-factory-irving|8-0
  0-pm-2026-11-05@letsdoitdallas.com
 DTSTAMP:20261106T020000Z

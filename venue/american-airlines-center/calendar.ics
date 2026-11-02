@@ -256,4 +256,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=dallas-stars-vs-utah-mamm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/american-airlines-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-vs-boston-celtics|american-airlines-center-dallas|7-00
+ -pm-2026-11-30@letsdoitdallas.com
+DTSTAMP:20261201T010000Z
+DTSTART:20261201T010000Z
+DTEND:20261201T040000Z
+SUMMARY:Dallas Mavericks vs. Boston Celtics
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-30&e=dallas-mavericks-vs-bosto
+ n-celtics%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/american-airlines-center/
+END:VEVENT
 END:VCALENDAR

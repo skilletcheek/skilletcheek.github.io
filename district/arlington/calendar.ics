@@ -10,58 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-cowboys-vs-arizona-cardinals|at-t-stadium-arlington|12-00-pm-202
- 6-11-01@letsdoitdallas.com
-DTSTAMP:20261101T180000Z
-DTSTART:20261101T180000Z
-DTEND:20261101T210000Z
-SUMMARY:Dallas Cowboys vs. Arizona Cardinals
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=dallas-cowboys-vs-arizona
- -cardinals%7Cat-t-stadium-arlington%7C12-00-pm
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:t-murph|arlington-improv-arlington|7-00-pm-2026-11-01@letsdoitdallas.co
- m
-DTSTAMP:20261102T010000Z
-DTSTART:20261102T010000Z
-DTEND:20261102T040000Z
-SUMMARY:T. Murph
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-01&e=t-murph%7Carlington-impro
- v-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|9-15-am-2026-11-02@
- letsdoitdallas.com
-DTSTAMP:20261102T151500Z
-DTSTART:20261102T151500Z
-DTEND:20261102T181500Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C9-15-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|11-00-am-2026-11-02
- @letsdoitdallas.com
-DTSTAMP:20261102T170000Z
-DTSTART:20261102T170000Z
-DTEND:20261102T200000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C11-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|1-00-pm-2026-11-02@
  letsdoitdallas.com
 DTSTAMP:20261102T190000Z
@@ -676,6 +624,20 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=michael-blackson%7Carling
  ton-improv-arlington%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-rally-day-tour-dallas-cowboys-locker-room|at-t-
+ stadium-arlington|9-00-am-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T150000Z
+DTSTART:20261114T150000Z
+DTEND:20261114T180000Z
+SUMMARY:AT&T Stadium VIP Guided Rally Day Tour + Dallas Cowboys Locker Room
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=at-t-stadium-vip-guided-r
+ ally-day-tour-dallas-cowboys-locker-room%7Cat-t-stadium-arlington%7C9-00-a
+ m
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
