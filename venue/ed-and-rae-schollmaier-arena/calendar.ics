@@ -10,47 +10,47 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tcu-horned-frogs-mens-basketball-vs-lindenwood-lions-mens-basketball|ed
- -and-rae-schollmaier-arena-fort-worth|see-details-2026-11-02@letsdoitdalla
- s.com
-DTSTAMP:20261102T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+ -and-rae-schollmaier-arena-fort-worth|7-00-pm-2026-11-02@letsdoitdallas.co
+ m
+DTSTAMP:20261103T010000Z
+DTSTART:20261103T010000Z
+DTEND:20261103T040000Z
 SUMMARY:TCU Horned Frogs Mens Basketball vs. Lindenwood Lions Mens Basketba
  ll
 LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-02&e=tcu-horned-frogs-mens-bas
  ketball-vs-lindenwood-lions-mens-basketball%7Ced-and-rae-schollmaier-arena
- -fort-worth%7Csee-details
+ -fort-worth%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/ed-and-rae-schollmaier-arena/
 END:VEVENT
 BEGIN:VEVENT
 UID:tcu-horned-frogs-mens-basketball-vs-southern-jaguars-basketball|ed-and-
- rae-schollmaier-arena-fort-worth|see-details-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
+ rae-schollmaier-arena-fort-worth|7-00-pm-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T010000Z
+DTSTART:20261107T010000Z
+DTEND:20261107T040000Z
 SUMMARY:TCU Horned Frogs Mens Basketball vs. Southern Jaguars Basketball
 LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-06&e=tcu-horned-frogs-mens-bas
  ketball-vs-southern-jaguars-basketball%7Ced-and-rae-schollmaier-arena-fort
- -worth%7Csee-details
+ -worth%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/ed-and-rae-schollmaier-arena/
 END:VEVENT
 BEGIN:VEVENT
 UID:tcu-horned-frogs-mens-basketball-vs-louisiana-monroe-warhawks-mens-bask
- etball|ed-and-rae-schollmaier-arena-fort-worth|see-details-2026-11-10@lets
- doitdallas.com
-DTSTAMP:20261110T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
+ etball|ed-and-rae-schollmaier-arena-fort-worth|8-00-pm-2026-11-10@letsdoit
+ dallas.com
+DTSTAMP:20261111T020000Z
+DTSTART:20261111T020000Z
+DTEND:20261111T050000Z
 SUMMARY:TCU Horned Frogs Mens Basketball vs. Louisiana Monroe Warhawks Mens
   Basketball
 LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-10&e=tcu-horned-frogs-mens-bas
  ketball-vs-louisiana-monroe-warhawks-mens-basketball%7Ced-and-rae-schollma
- ier-arena-fort-worth%7Csee-details
+ ier-arena-fort-worth%7C8-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/ed-and-rae-schollmaier-arena/
 END:VEVENT

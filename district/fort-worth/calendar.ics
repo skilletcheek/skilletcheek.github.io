@@ -10,22 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tcu-horned-frogs-mens-basketball-vs-lindenwood-lions-mens-basketball|ed
- -and-rae-schollmaier-arena-fort-worth|see-details-2026-11-02@letsdoitdalla
- s.com
-DTSTAMP:20261102T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:TCU Horned Frogs Mens Basketball vs. Lindenwood Lions Mens Basketba
- ll
-LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=tcu-horned-frogs-mens-bas
- ketball-vs-lindenwood-lions-mens-basketball%7Ced-and-rae-schollmaier-arena
- -fort-worth%7Csee-details
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
  ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-02@lets
  doitdallas.com
@@ -44,17 +28,20 @@ DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
  — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-11-02@
- letsdoitdallas.com
-DTSTAMP:20261102T183000Z
-DTSTART:20261102T183000Z
-DTEND:20261102T213000Z
-SUMMARY:Legacy of the Longhorn
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=legacy-of-the-longhorn%7C
- cowtown-coliseum-fort-worth%7C12-30-pm
-DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
- district/fort-worth/
+UID:tcu-horned-frogs-mens-basketball-vs-lindenwood-lions-mens-basketball|ed
+ -and-rae-schollmaier-arena-fort-worth|7-00-pm-2026-11-02@letsdoitdallas.co
+ m
+DTSTAMP:20261103T010000Z
+DTSTART:20261103T010000Z
+DTEND:20261103T040000Z
+SUMMARY:TCU Horned Frogs Mens Basketball vs. Lindenwood Lions Mens Basketba
+ ll
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=tcu-horned-frogs-mens-bas
+ ketball-vs-lindenwood-lions-mens-basketball%7Ced-and-rae-schollmaier-arena
+ -fort-worth%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-big-laugh-open-mic|big-laugh-comedy-club-fort-worth-604-main-st-sui
@@ -438,20 +425,6 @@ DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
  om/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:tcu-horned-frogs-mens-basketball-vs-southern-jaguars-basketball|ed-and-
- rae-schollmaier-arena-fort-worth|see-details-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:TCU Horned Frogs Mens Basketball vs. Southern Jaguars Basketball
-LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=tcu-horned-frogs-mens-bas
- ketball-vs-southern-jaguars-basketball%7Ced-and-rae-schollmaier-arena-fort
- -worth%7Csee-details
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:greg-warren|hyena-s-comedy-night-club-fort-worth-fort-worth|6-45-pm-202
  6-11-06@letsdoitdallas.com
 DTSTAMP:20261107T004500Z
@@ -463,6 +436,20 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=greg-warren%7Chyena-s-com
  edy-night-club-fort-worth-fort-worth%7C6-45-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-mens-basketball-vs-southern-jaguars-basketball|ed-and-
+ rae-schollmaier-arena-fort-worth|7-00-pm-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261107T010000Z
+DTSTART:20261107T010000Z
+DTEND:20261107T040000Z
+SUMMARY:TCU Horned Frogs Mens Basketball vs. Southern Jaguars Basketball
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=tcu-horned-frogs-mens-bas
+ ketball-vs-southern-jaguars-basketball%7Ced-and-rae-schollmaier-arena-fort
+ -worth%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:jersey-boys-fort-worth|bass-performance-hall-fort-worth|7-30-pm-2026-11
@@ -766,22 +753,6 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:tcu-horned-frogs-mens-basketball-vs-louisiana-monroe-warhawks-mens-bask
- etball|ed-and-rae-schollmaier-arena-fort-worth|see-details-2026-11-10@lets
- doitdallas.com
-DTSTAMP:20261110T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:TCU Horned Frogs Mens Basketball vs. Louisiana Monroe Warhawks Mens
-  Basketball
-LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-10&e=tcu-horned-frogs-mens-bas
- ketball-vs-louisiana-monroe-warhawks-mens-basketball%7Ced-and-rae-schollma
- ier-arena-fort-worth%7Csee-details
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-11-10@
  letsdoitdallas.com
 DTSTAMP:20261110T183000Z
@@ -793,6 +764,35 @@ URL:https://letsdoitdallas.com/?date=2026-11-10&e=legacy-of-the-longhorn%7C
  cowtown-coliseum-fort-worth%7C12-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:iona-womens-bb-at-tcu-womens-bb|ed-rae-schollmaier-arena-fort-worth|4-0
+ 0-pm-2026-11-10@letsdoitdallas.com
+DTSTAMP:20261110T220000Z
+DTSTART:20261110T220000Z
+DTEND:20261111T010000Z
+SUMMARY:Iona Womens BB at TCU Womens BB
+LOCATION:Ed & Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=iona-womens-bb-at-tcu-wom
+ ens-bb%7Ced-rae-schollmaier-arena-fort-worth%7C4-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-mens-basketball-vs-louisiana-monroe-warhawks-mens-bask
+ etball|ed-and-rae-schollmaier-arena-fort-worth|8-00-pm-2026-11-10@letsdoit
+ dallas.com
+DTSTAMP:20261111T020000Z
+DTSTART:20261111T020000Z
+DTEND:20261111T050000Z
+SUMMARY:TCU Horned Frogs Mens Basketball vs. Louisiana Monroe Warhawks Mens
+  Basketball
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=tcu-horned-frogs-mens-bas
+ ketball-vs-louisiana-monroe-warhawks-mens-basketball%7Ced-and-rae-schollma
+ ier-arena-fort-worth%7C8-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-11-11@
@@ -927,6 +927,20 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=tcu-horned-frogs-football
  e-details
 DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:fort-worth-symphony-orchestra-when-instruments-roamed-the-earth|bass-pe
+ rformance-hall-fort-worth|11-00-am-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T170000Z
+DTSTART:20261114T170000Z
+DTEND:20261114T200000Z
+SUMMARY:Fort Worth Symphony Orchestra - When Instruments Roamed the Earth
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=fort-worth-symphony-orche
+ stra-when-instruments-roamed-the-earth%7Cbass-performance-hall-fort-worth%
+ 7C11-00-am
+DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
+ com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:hot-wheels-monster-trucks-live-glow-n-fire|ariat-arena-fort-worth|11-30

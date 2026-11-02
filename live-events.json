@@ -40,30 +40,6 @@
   "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-11-02",
-  "time": "1:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-11-02-1-pm/18251915",
-  "image": null
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-11-02",
-  "time": "3:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-11-02-3-pm/18251916",
-  "image": null
- },
- {
   "name": "After-School Cinema & Snacks",
   "category": "family",
   "area": "Grapevine Public Library, 1201 Municipal Way, Grapevine",
@@ -176,18 +152,6 @@
   }
  },
  {
-  "name": "Concert Winds",
-  "category": "music",
-  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
-  "city": "Denton",
-  "date": "2026-11-02",
-  "time": "7:30 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.",
-  "url": "https://calendar.unt.edu/event/concert-winds2",
-  "image": null
- },
- {
   "name": "Dallas Mavericks vs. Sacramento Kings",
   "category": "sports",
   "area": "American Airlines Center, Dallas",
@@ -296,18 +260,6 @@
   }
  },
  {
-  "name": "Legacy of the Longhorn",
-  "category": "sports",
-  "area": "Cowtown Coliseum, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-11-02",
-  "time": "12:30 PM",
-  "cost": null,
-  "description": "rodeo event via SeatGeek.",
-  "url": "https://seatgeek.com/legacy-of-the-longhorn-tickets/rodeo/2026-11-02-12-30-pm/18669967",
-  "image": null
- },
- {
   "name": "Lucinda Williams",
   "category": "music",
   "area": "The Kessler Theater, Dallas",
@@ -385,7 +337,7 @@
   "area": "UNT Superpit, Denton",
   "city": "Denton",
   "date": "2026-11-02",
-  "time": "See details",
+  "time": "7:30 PM",
   "cost": null,
   "description": "Basketball event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7AAN",
@@ -416,22 +368,6 @@
   "image": null
  },
  {
-  "name": "SBDC Workshop: How to Start a Business",
-  "category": "arts",
-  "area": "Central Library, Garland",
-  "city": "Garland",
-  "date": "2026-11-02",
-  "time": "12:00 PM",
-  "cost": null,
-  "description": "12:00 p.m.; Meet us in the Small Business Incubator for Small Business Development Centers (SBDC) presentations on professional business and finance topics. The SBDC provides trainings and support for small businesses and start-ups to help them grow. November 2, 2026 12:00 PM - 0",
-  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13044",
-  "image": null,
-  "organizer": {
-   "name": "City of Garland",
-   "url": "https://garlandtx.gov/"
-  }
- },
- {
   "name": "SMU Mustangs Mens Basketball vs. Southern Jaguars Basketball",
   "category": "sports",
   "area": "Moody Coliseum, Dallas",
@@ -445,22 +381,6 @@
   "organizer": {
    "name": "SMU Mustangs",
    "url": "https://smumustangs.com"
-  }
- },
- {
-  "name": "STEM Lab (18+)",
-  "category": "family",
-  "area": "Grapevine",
-  "city": "Grapevine",
-  "date": "2026-11-02",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "Mondays & Wednesdays 10 AM-1:00 PM (Adults, ages 18+) Join us at Grapevine Makerspace for our STEM Lab! During this session, you’ll have access to 3D printers, laser cutters, and other equipment. Our knowledgeable staff will be available to provide guidance, tips, and support as ",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17821",
-  "image": null,
-  "organizer": {
-   "name": "City of Grapevine",
-   "url": "https://grapevinetexas.gov/"
   }
  },
  {
@@ -516,12 +436,24 @@
   "image": "https://s1.ticketm.net/dam/a/b82/ffd0c5ce-2e8a-46a1-b2b8-cc61e7e7ab82_RETINA_PORTRAIT_16_9.jpg"
  },
  {
+  "name": "Symphonic and Concert Winds",
+  "category": "music",
+  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
+  "city": "Denton",
+  "date": "2026-11-02",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.",
+  "url": "https://calendar.unt.edu/event/concert-winds2",
+  "image": null
+ },
+ {
   "name": "TCU Horned Frogs Mens Basketball vs. Lindenwood Lions Mens Basketball",
   "category": "sports",
   "area": "Ed and Rae Schollmaier Arena, Fort Worth",
   "city": "Fort Worth",
   "date": "2026-11-02",
-  "time": "See details",
+  "time": "7:00 PM",
   "cost": null,
   "description": "Basketball event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7AvS",
@@ -1266,6 +1198,18 @@
    "name": "City of Garland",
    "url": "https://garlandtx.gov/"
   }
+ },
+ {
+  "name": "Test Your Mic",
+  "category": "arts",
+  "area": "Arlington Improv, Arlington",
+  "city": "Arlington",
+  "date": "2026-11-03",
+  "time": "6:30 PM",
+  "cost": null,
+  "description": "Comedy event via Ticketmaster.",
+  "url": "https://www.ticketweb.com/event/test-your-mic-arlington-improv-tickets/15045443?REFERRAL_ID=tmfeed",
+  "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
   "name": "The Entire American Revolution in 40 Minutes or Less by Classical Center at Vial Elementary",
@@ -3124,6 +3068,18 @@
   }
  },
  {
+  "name": "The Atlas Moth",
+  "category": "music",
+  "area": "Three Links Deep Ellum, Dallas",
+  "city": "Dallas",
+  "date": "2026-11-05",
+  "time": "8:00 PM",
+  "cost": 7,
+  "description": "Metal event via Ticketmaster.",
+  "url": "https://www.ticketweb.com/event/the-atlas-moth-three-links-deep-ellum-tickets/14414144",
+  "image": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
   "name": "The Damned - Final Damnation 50",
   "category": "music",
   "area": "Granada Theater - TX, Dallas",
@@ -4129,7 +4085,7 @@
   "area": "Ed and Rae Schollmaier Arena, Fort Worth",
   "city": "Fort Worth",
   "date": "2026-11-06",
-  "time": "See details",
+  "time": "7:00 PM",
   "cost": null,
   "description": "Basketball event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7AvV",
@@ -5408,6 +5364,22 @@
   }
  },
  {
+  "name": "Veterans Day Ceremony",
+  "category": "family",
+  "area": "8000 McKinney Road, Frisco",
+  "city": "Frisco",
+  "date": "2026-11-07",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.friscotexas.gov/Calendar.aspx?EID=7878",
+  "image": null,
+  "organizer": {
+   "name": "City of Frisco",
+   "url": "https://friscotexas.gov/"
+  }
+ },
+ {
   "name": "Vladimir Caamano",
   "category": "arts",
   "area": "Punch Line Irving, Irving",
@@ -6403,7 +6375,7 @@
   "date": "2026-11-09",
   "time": "06:00 PM",
   "cost": null,
-  "description": "6:00 p.m.; Free financial education presentations from Navy Federal Credit Union. Learn about a variety of topics to enhance your financial awareness. November 9, 2026 06:00 PM - 07:00 PM 625 Austin St.Garland, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13034/6392282242",
+  "description": "6:00 p.m.; Free financial education presentations from Navy Federal Credit Union. Learn about a variety of topics to enhance your financial awareness. November 9, 2026 06:00 PM - 07:00 PM 625 Austin St.Garland, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13034/6392922443",
   "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13034",
   "image": null,
   "organizer": {
@@ -6964,6 +6936,18 @@
   }
  },
  {
+  "name": "Iona Womens BB at TCU Womens BB",
+  "category": "sports",
+  "area": "Ed & Rae Schollmaier Arena, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-11-10",
+  "time": "4:00 PM",
+  "cost": null,
+  "description": "ncaa womens basketball event via SeatGeek.",
+  "url": "https://seatgeek.com/tcu-horned-frogs-womens-basketball-tickets/ncaa-womens-basketball/2026-11-10-4-pm/18556493",
+  "image": null
+ },
+ {
   "name": "Jonas Brothers: The Burning Up Tour All Over Again",
   "category": "music",
   "area": "American Airlines Center, Dallas",
@@ -7203,7 +7187,7 @@
   "area": "Ed and Rae Schollmaier Arena, Fort Worth",
   "city": "Fort Worth",
   "date": "2026-11-10",
-  "time": "See details",
+  "time": "8:00 PM",
   "cost": null,
   "description": "Basketball event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Avg",
@@ -9930,6 +9914,18 @@
   "image": null
  },
  {
+  "name": "AT&T Stadium VIP Guided Rally Day Tour",
+  "category": "sports",
+  "area": "AT&T Stadium, Arlington",
+  "city": "Arlington",
+  "date": "2026-11-14",
+  "time": "10:45 AM",
+  "cost": null,
+  "description": "stadium tours event via SeatGeek.",
+  "url": "https://seatgeek.com/at-t-stadium-vip-guided-rally-day-tour-1-tickets/stadium-tours/2026-11-14-10-45-am/18252049",
+  "image": null
+ },
+ {
   "name": "AT&T Stadium VIP Guided Rally Day Tour + Dallas Cowboys Locker Room",
   "category": "sports",
   "area": "AT&T Stadium, Arlington",
@@ -10332,6 +10328,18 @@
    "name": "City of McKinney",
    "url": "https://mckinneytexas.org/"
   }
+ },
+ {
+  "name": "Fort Worth Symphony Orchestra - When Instruments Roamed the Earth",
+  "category": "arts",
+  "area": "Bass Performance Hall, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-11-14",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "classical event via SeatGeek.",
+  "url": "https://seatgeek.com/fort-worth-symphony-orchestra-tickets/classical/2026-11-14-11-am/18628956",
+  "image": null
  },
  {
   "name": "Hot Wheels Monster Trucks™ Live Glow-N-Fire",

@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:north-texas-mean-green-men-s-basketball-vs-southwestern-christian-eagle
- s-mens-basketball|unt-superpit-denton|see-details-2026-11-02@letsdoitdalla
- s.com
-DTSTAMP:20261102T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:North Texas Mean Green Men's Basketball vs. Southwestern Christian 
- Eagles Mens Basketball
-LOCATION:UNT Superpit · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=north-texas-mean-green-me
- n-s-basketball-vs-southwestern-christian-eagles-mens-basketball%7Cunt-supe
- rpit-denton%7Csee-details
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
 UID:newman-jets-at-north-texas-mean-green-womens-basketball|unt-coliseum-su
  per-pit-denton|5-30-pm-2026-11-02@letsdoitdallas.com
 DTSTAMP:20261102T233000Z
@@ -38,20 +22,20 @@ DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
  tsdoitdallas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
-UID:concert-winds|winspear-performance-hall-at-the-murchison-performing-art
- s-center-denton|7-30-pm-2026-11-02@letsdoitdallas.com
+UID:north-texas-mean-green-men-s-basketball-vs-southwestern-christian-eagle
+ s-mens-basketball|unt-superpit-denton|7-30-pm-2026-11-02@letsdoitdallas.co
+ m
 DTSTAMP:20261103T013000Z
 DTSTART:20261103T013000Z
 DTEND:20261103T043000Z
-SUMMARY:Concert Winds
-LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
- · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=concert-winds%7Cwinspear-
- performance-hall-at-the-murchison-performing-arts-center-denton%7C7-30-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream link below. — More: https://letsd
- oitdallas.com/city/denton/
+SUMMARY:North Texas Mean Green Men's Basketball vs. Southwestern Christian 
+ Eagles Mens Basketball
+LOCATION:UNT Superpit · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=north-texas-mean-green-me
+ n-s-basketball-vs-southwestern-christian-eagles-mens-basketball%7Cunt-supe
+ rpit-denton%7C7-30-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
 UID:southwestern-christian-university-eagles-at-north-texas-mean-green-mens
@@ -68,6 +52,23 @@ URL:https://letsdoitdallas.com/?date=2026-11-02&e=southwestern-christian-un
  uper-pit-denton%7C7-30-pm
 DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
  allas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:symphonic-and-concert-winds|winspear-performance-hall-at-the-murchison-
+ performing-arts-center-denton|7-30-pm-2026-11-02@letsdoitdallas.com
+DTSTAMP:20261103T013000Z
+DTSTART:20261103T013000Z
+DTEND:20261103T043000Z
+SUMMARY:Symphonic and Concert Winds
+LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
+ · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-02&e=symphonic-and-concert-win
+ ds%7Cwinspear-performance-hall-at-the-murchison-performing-arts-center-den
+ ton%7C7-30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream link below. — More: https://letsd
+ oitdallas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
 UID:jazz-strings-lab-band-fall-2026-concert|paul-voertman-concert-hall-at-t

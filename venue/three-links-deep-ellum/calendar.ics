@@ -87,6 +87,19 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-atlas-moth|three-links-deep-ellum-dallas|8-00-pm-2026-11-05@letsdoi
+ tdallas.com
+DTSTAMP:20261106T020000Z
+DTSTART:20261106T020000Z
+DTEND:20261106T050000Z
+SUMMARY:The Atlas Moth
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=the-atlas-moth%7Cthree-li
+ nks-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-05@letsdoitdall
  as.com
 DTSTAMP:20261106T050000Z

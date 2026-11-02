@@ -10,17 +10,17 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:north-texas-mean-green-men-s-basketball-vs-southwestern-christian-eagle
- s-mens-basketball|unt-superpit-denton|see-details-2026-11-02@letsdoitdalla
- s.com
-DTSTAMP:20261102T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+ s-mens-basketball|unt-superpit-denton|7-30-pm-2026-11-02@letsdoitdallas.co
+ m
+DTSTAMP:20261103T013000Z
+DTSTART:20261103T013000Z
+DTEND:20261103T043000Z
 SUMMARY:North Texas Mean Green Men's Basketball vs. Southwestern Christian 
  Eagles Mens Basketball
 LOCATION:UNT Superpit · Denton
 URL:https://letsdoitdallas.com/?date=2026-11-02&e=north-texas-mean-green-me
  n-s-basketball-vs-southwestern-christian-eagles-mens-basketball%7Cunt-supe
- rpit-denton%7Csee-details
+ rpit-denton%7C7-30-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/unt-superpit/
 END:VEVENT
