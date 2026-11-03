@@ -10,41 +10,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|11-00-am-2026-11-03
- @letsdoitdallas.com
-DTSTAMP:20261103T170000Z
-DTSTART:20261103T170000Z
-DTEND:20261103T200000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C11-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|1-00-pm-2026-11-03@
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-11-03@
  letsdoitdallas.com
-DTSTAMP:20261103T190000Z
-DTSTART:20261103T190000Z
-DTEND:20261103T220000Z
+DTSTAMP:20261103T220000Z
+DTSTART:20261103T220000Z
+DTEND:20261104T010000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-11-03&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C1-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-11-03@
- letsdoitdallas.com
-DTSTAMP:20261103T210000Z
-DTSTART:20261103T210000Z
-DTEND:20261104T000000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C3-00-pm
+ our%7Cat-t-stadium-arlington%7C4-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
@@ -651,6 +625,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=central-arkansas-bears-at
  7C1-00-pm
 DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
  /letsdoitdallas.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:ut-rio-grande-valley-at-ut-arlington|college-park-center-arlington|6-00
+ -pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T000000Z
+DTSTART:20261115T000000Z
+DTEND:20261115T030000Z
+SUMMARY:UT Rio Grande Valley at UT Arlington
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=ut-rio-grande-valley-at-u
+ t-arlington%7Ccollege-park-center-arlington%7C6-00-pm
+DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
+ allas.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:michael-blackson|arlington-improv-arlington|7-00-pm-2026-11-14@letsdoit

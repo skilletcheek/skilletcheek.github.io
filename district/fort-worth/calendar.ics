@@ -45,19 +45,6 @@ DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
  — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-11-03@
- letsdoitdallas.com
-DTSTAMP:20261103T183000Z
-DTSTART:20261103T183000Z
-DTEND:20261103T213000Z
-SUMMARY:Legacy of the Longhorn
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=legacy-of-the-longhorn%7C
- cowtown-coliseum-fort-worth%7C12-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:oral-roberts-womens-bb-at-tcu-womens-bb|ed-rae-schollmaier-arena-fort-w
  orth|6-30-pm-2026-11-03@letsdoitdallas.com
 DTSTAMP:20261104T003000Z
@@ -392,6 +379,22 @@ DESCRIPTION:Rich Vos: Live In Fort Worth  With a mic in his hand and zero f
  group chat roasts. He’s fast\, fearless\, and brutally funny—whether h
  e’s talking life\, family\, or the absolute madness of being a comic for
   over — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-wildwoods|tulips-ftw-112-saint-louis-avenue-fort-worth-76104-united
+ -states|8-00-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261106T020000Z
+DTSTART:20261106T020000Z
+DTEND:20261106T050000Z
+SUMMARY:The Wildwoods
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=the-wildwoods%7Ctulips-ft
+ w-112-saint-louis-avenue-fort-worth-76104-united-states%7C8-00-pm
+DESCRIPTION:Tulips FTW is excited to host The Wildwoods on November 5th\, 2
+ 026 at your local independent venue!  Doors 7 pm II Concert 8 pm    The Wi
+ ldwoods\, hailing from Lincoln\, Nebraska\, continue to bring sonic beauty
+  and simplicity to today’s increasingly complicated and cluttered musica
+ l — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:greg-warren|hyena-s-comedy-night-club-fort-worth-fort-worth|6-45-pm-202
@@ -1123,6 +1126,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-19&e=pbr-stockyards-showcase%7
  Ccowtown-coliseum-fort-worth%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:gunnar-latham-18-and-over-|billy-bob-s-fort-worth|9-00-pm-2026-11-19@le
+ tsdoitdallas.com
+DTSTAMP:20261120T030000Z
+DTSTART:20261120T030000Z
+DTEND:20261120T060000Z
+SUMMARY:Gunnar Latham (18 and Over)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=gunnar-latham-18-and-over
+ -%7Cbilly-bob-s-fort-worth%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:tcu-horned-frogs-womens-volleyball-vs-arizona-state-sun-devils-womens-v

@@ -47,4 +47,30 @@ URL:https://letsdoitdallas.com/?date=2026-11-11&e=santa-clara-at-north-texa
 DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
  allas.com/venue/unt-coliseum-super-pit/
 END:VEVENT
+BEGIN:VEVENT
+UID:incarnate-word-womens-bb-at-north-texas-womens-bb|unt-coliseum-super-pi
+ t-denton|2-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T200000Z
+DTSTART:20261114T200000Z
+DTEND:20261114T230000Z
+SUMMARY:Incarnate Word Womens BB at North Texas Womens BB
+LOCATION:UNT Coliseum (Super Pit) · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=incarnate-word-womens-bb-
+ at-north-texas-womens-bb%7Cunt-coliseum-super-pit-denton%7C2-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/unt-coliseum-super-pit/
+END:VEVENT
+BEGIN:VEVENT
+UID:south-alabama-at-north-texas|unt-coliseum-super-pit-denton|5-00-pm-2026
+ -11-14@letsdoitdallas.com
+DTSTAMP:20261114T230000Z
+DTSTART:20261114T230000Z
+DTEND:20261115T020000Z
+SUMMARY:South Alabama at North Texas
+LOCATION:UNT Coliseum (Super Pit) · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=south-alabama-at-north-te
+ xas%7Cunt-coliseum-super-pit-denton%7C5-00-pm
+DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
+ allas.com/venue/unt-coliseum-super-pit/
+END:VEVENT
 END:VCALENDAR
