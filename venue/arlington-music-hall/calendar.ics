@@ -60,4 +60,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-19&e=symphony-arlington-the-mu
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/arlington-music-hall/
 END:VEVENT
+BEGIN:VEVENT
+UID:david-archuleta|arlington-music-hall-arlington|7-30-pm-2026-12-01@letsd
+ oitdallas.com
+DTSTAMP:20261202T013000Z
+DTSTART:20261202T013000Z
+DTEND:20261202T043000Z
+SUMMARY:David Archuleta
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=david-archuleta%7Carlingt
+ on-music-hall-arlington%7C7-30-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/arlington-music-hall/
+END:VEVENT
 END:VCALENDAR

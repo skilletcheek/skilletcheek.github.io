@@ -10,46 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:arte-a-gogo|three-links-deep-ellum-dallas|7-00-pm-2026-11-02@letsdoitda
- llas.com
-DTSTAMP:20261103T010000Z
-DTSTART:20261103T010000Z
-DTEND:20261103T040000Z
-SUMMARY:ARTE-A-GOGO
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=arte-a-gogo%7Cthree-links
- -deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:julia-jacklin-16-and-under-with-parent-or-legal-guardian-|the-studio-at
- -the-bomb-factory-dallas|8-00-pm-2026-11-02@letsdoitdallas.com
-DTSTAMP:20261103T020000Z
-DTSTART:20261103T020000Z
-DTEND:20261103T050000Z
-SUMMARY:Julia Jacklin (16 and Under with Parent or Legal Guardian)
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=julia-jacklin-16-and-unde
- r-with-parent-or-legal-guardian-%7Cthe-studio-at-the-bomb-factory-dallas%7
- C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
- -pm-2026-11-02@letsdoitdallas.com
-DTSTAMP:20261103T050000Z
-DTSTART:20261103T050000Z
-DTEND:20261103T080000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:strawberry-girls|puzzles-deep-ellum-dallas|6-00-pm-2026-11-03@letsdoitd
  allas.com
 DTSTAMP:20261104T000000Z
@@ -576,6 +536,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=ladrones-arriba-la-l-usa-
  2026-tour%7Ctrees-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-candle-company-tar-and-feather-here-for-now|three-links-deep-ellum-
+ dallas|7-00-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:The Candle Company \, Tar and Feather\, Here for Now
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=the-candle-company-tar-an
+ d-feather-here-for-now%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:mannequin-p-ssy-and-wednesday-16-and-under-with-parent-or-legal-guardia
@@ -1122,6 +1095,19 @@ SUMMARY:DARKEST HOUR
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-02&e=darkest-hour%7Ctrees-dall
  as%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:dirty-rotten-imbeciles|trees-dallas|doors-see-listing-2026-12-03@letsdo
+ itdallas.com
+DTSTAMP:20261203T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:DIRTY ROTTEN IMBECILES
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=dirty-rotten-imbeciles%7C
+ trees-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
 END:VEVENT

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:smu-mustangs-mens-basketball-vs-southern-jaguars-basketball|moody-colis
- eum-dallas|7-00-pm-2026-11-02@letsdoitdallas.com
-DTSTAMP:20261103T010000Z
-DTSTART:20261103T010000Z
-DTEND:20261103T040000Z
-SUMMARY:SMU Mustangs Mens Basketball vs. Southern Jaguars Basketball
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=smu-mustangs-mens-basketb
- all-vs-southern-jaguars-basketball%7Cmoody-coliseum-dallas%7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:le-moyne-dolphins-at-smu-mustangs-womens-basketball|moody-coliseum-dall
  as|6-30-pm-2026-11-03@letsdoitdallas.com
 DTSTAMP:20261104T003000Z
@@ -220,5 +207,20 @@ URL:https://letsdoitdallas.com/?date=2026-11-25&e=smu-mustangs-womens-volle
  llas%7C1-00-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:smu-mustangs-mens-basketball-vs-stephen-f-austin-lumberjacks-mens-baske
+ tball|moody-coliseum-dallas|7-00-pm-2026-12-01@letsdoitdallas.com
+DTSTAMP:20261202T010000Z
+DTSTART:20261202T010000Z
+DTEND:20261202T040000Z
+SUMMARY:SMU Mustangs Mens Basketball vs. Stephen F. Austin Lumberjacks Mens
+  Basketball
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=smu-mustangs-mens-basketb
+ all-vs-stephen-f-austin-lumberjacks-mens-basketball%7Cmoody-coliseum-dalla
+ s%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/moody-coliseum/
 END:VEVENT
 END:VCALENDAR

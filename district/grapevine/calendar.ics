@@ -10,67 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
- grapevine|04-30-pm-2026-11-02@letsdoitdallas.com
-DTSTAMP:20261102T223000Z
-DTSTART:20261102T223000Z
-DTEND:20261103T013000Z
-SUMMARY:After-School Cinema & Snacks
-LOCATION:Grapevine Public Library
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=after-school-cinema-snack
- s%7Cgrapevine-public-library-1201-municipal-way-grapevine%7C04-30-pm
-DESCRIPTION:Kick back after school\, bring your favorite snacks\, and enjoy
-  a movie with friends! For teens ages 13 and up. November 2\, 2026 04:30 P
- M - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine\, TX 760
- 51 https://www.grapevinetexas.gov/Calendar.aspx?EID=17653/639210354230000 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:minecraft-lab-mods-machines-more|grapevine|05-00-pm-2026-11-02@letsdoit
- dallas.com
-DTSTAMP:20261102T230000Z
-DTSTART:20261102T230000Z
-DTEND:20261103T020000Z
-SUMMARY:Minecraft Lab - Mods\, Machines\, & More
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=minecraft-lab-mods-machin
- es-more%7Cgrapevine%7C05-00-pm
-DESCRIPTION:Who: Ages 8+ What: Step into the Esports Academy Minecraft Lab 
- this Monday and experiment with a brand-new set of server-wide mods! Build
-  steampunk contraptions\, hunt Pokémon and challenge trainers across wild
-  biomes\, or design complex machines\, clever circuits\, and fully automat
-  — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:knit-crochet-circle|grapevine|05-30-pm-2026-11-02@letsdoitdallas.com
-DTSTAMP:20261102T233000Z
-DTSTART:20261102T233000Z
-DTEND:20261103T023000Z
-SUMMARY:Knit & Crochet Circle
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=knit-crochet-circle%7Cgra
- pevine%7C05-30-pm
-DESCRIPTION:Looking for a cozy way to unwind and connect with fellow yarn e
- nthusiasts? Join us Mondays for our casual Knit & Crochet Circle! Whether 
- you're a seasoned pro or just picking up your first set of needles or hook
- s\, this is the perfect opportunity to share your latest projects\, swa 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:board-of-zoning-adjustment-meeting|planning-and-zoning-conference-room-
- 2nd-floor-200-south-main-street-grapevine|06-15-pm-2026-11-02@letsdoitdall
- as.com
-DTSTAMP:20261103T001500Z
-DTSTART:20261103T001500Z
-DTEND:20261103T031500Z
-SUMMARY:Board of Zoning Adjustment Meeting
-LOCATION:Planning and Zoning Conference Room - 2nd Floor · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=board-of-zoning-adjustmen
- t-meeting%7Cplanning-and-zoning-conference-room-2nd-floor-200-south-main-s
- treet-grapevine%7C06-15-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:art-studio-18-|grapevine|10-00-am-2026-11-03@letsdoitdallas.com
 DTSTAMP:20261103T160000Z
 DTSTART:20261103T160000Z
@@ -876,6 +815,37 @@ DESCRIPTION:Looking for a cozy way to unwind and connect with fellow yarn e
  you're a seasoned pro or just picking up your first set of needles or hook
  s\, this is the perfect opportunity to share your latest projects\, swa 
  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-studio-18-|grapevine|10-00-am-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261117T160000Z
+DTSTART:20261117T160000Z
+DTEND:20261117T190000Z
+SUMMARY:Art Studio (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=art-studio-18-%7Cgrapevin
+ e%7C10-00-am
+DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
+ our own projects or start something new. Bring your own project and ideas!
+  This is a welcoming space for creatives 18+. *Library Card Required* Nove
+ mber 17\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grape 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-11-17@letsd
+ oitdallas.com
+DTSTAMP:20261117T163000Z
+DTSTART:20261117T163000Z
+DTEND:20261117T193000Z
+SUMMARY:Storytime for Toddlers/Preschoolers
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=storytime-for-toddlers-pr
+ eschoolers%7Cgrapevine%7C10-30-am
+DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
+ welcome and no registrations is needed. (This is a Ticketed Program\; plea
+ se stop at the Children's Desk 15 minutes before the program to receive ti
+ ckets. 1 per attendee.) November 17\, 2026 10:30 AM - 11:00 AM Grapevine\,
+  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:speed-dating-in-grapevine-speed-dating-all-professionals-35-50|hop-and-

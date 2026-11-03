@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:arte-a-gogo|three-links-deep-ellum-dallas|7-00-pm-2026-11-02@letsdoitda
- llas.com
-DTSTAMP:20261103T010000Z
-DTSTART:20261103T010000Z
-DTEND:20261103T040000Z
-SUMMARY:ARTE-A-GOGO
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=arte-a-gogo%7Cthree-links
- -deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
- -pm-2026-11-02@letsdoitdallas.com
-DTSTAMP:20261103T050000Z
-DTSTART:20261103T050000Z
-DTEND:20261103T080000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:boot-juice-walker-and-the-white-lines|three-links-deep-ellum-dallas|7-0
  0-pm-2026-11-03@letsdoitdallas.com
 DTSTAMP:20261104T010000Z
@@ -254,6 +228,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-12&e=dj-jream%7Cthree-links-de
  ep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-candle-company-tar-and-feather-here-for-now|three-links-deep-ellum-
+ dallas|7-00-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:The Candle Company \, Tar and Feather\, Here for Now
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=the-candle-company-tar-an
+ d-feather-here-for-now%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00

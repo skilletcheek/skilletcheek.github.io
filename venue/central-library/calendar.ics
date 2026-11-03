@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:coi-small-business-leadership-series-ages-18-|central-library-garland|0
- 5-30-pm-2026-11-02@letsdoitdallas.com
-DTSTAMP:20261102T233000Z
-DTSTART:20261102T233000Z
-DTEND:20261103T023000Z
-SUMMARY:COI Small Business Leadership Series (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=coi-small-business-leader
- ship-series-ages-18-%7Ccentral-library-garland%7C05-30-pm
-DESCRIPTION:5:30 p.m.\; In this five-part workshop\, Jennifer Jordan (MBA\,
-  CPTD\, CPTM) of J2 Leadership and Learning Solutions\, will introduce asp
- iring entrepreneurs\, recent small business owners\, and established small
-  business owners to the COI (clarity\, ownership and independence) framewo
- rk — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:baby-bounce-read-birth-18-months-|central-library-garland|10-00-am-2026
  -11-03@letsdoitdallas.com
 DTSTAMP:20261103T160000Z
@@ -601,5 +585,53 @@ DESCRIPTION:6:00 p.m.\; Celebrate Native American Heritage Month by learnin
  g about loom work. November 16\, 2026 06:00 PM - 07:30 PM 625 Austin St.Ga
  rland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13309/6392707
  04510000000 — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-bounce-read-birth-18-months-|central-library-garland|10-00-am-2026
+ -11-17@letsdoitdallas.com
+DTSTAMP:20261117T160000Z
+DTSTART:20261117T160000Z
+DTEND:20261117T190000Z
+SUMMARY:Baby Bounce & Read (Birth-18 Months)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=baby-bounce-read-birth-18
+ -months-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Babies\, birth to 18 months\, and their caregivers
+  will learn\, play\, and grow together in this lap-sit storytime that intr
+ oduces books\, rhymes\, tickles\, and bounces designed to incorporate earl
+ y literacy practices into their everyday lives. November 17\, 2026 10:00 A
+ M - — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-18-36-months-|central-library-garland|11-00-am-2026-11-17@
+ letsdoitdallas.com
+DTSTAMP:20261117T170000Z
+DTSTART:20261117T170000Z
+DTEND:20261117T200000Z
+SUMMARY:Toddler Time (18-36 Months)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=toddler-time-18-36-months
+ -%7Ccentral-library-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Toddler Time is a storytime for children ages 18 m
+ onths to 3 years old. Toddler Time storytimes will be a mixture of age app
+ ropriate stories\, songs\, rhymes\, flannelboard stories\, crafts\, and pa
+ rachute play. November 17\, 2026 11:00 AM - 12:00 PM 625 Austin St.Garland
+ \, — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:graphic-novel-book-club-ages-18-|central-library-garland|06-30-pm-2026-
+ 11-17@letsdoitdallas.com
+DTSTAMP:20261118T003000Z
+DTSTART:20261118T003000Z
+DTEND:20261118T033000Z
+SUMMARY:Graphic Novel Book Club (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=graphic-novel-book-club-a
+ ges-18-%7Ccentral-library-garland%7C06-30-pm
+DESCRIPTION:6:30 p.m.\; Join us for Graphic Novel Book Club where we talk o
+ ut exciting graphic novels every month. Read the book beforehand for discu
+ ssion. November 17\, 2026 06:30 PM - 07:30 PM 625 Austin St.Garland\, TX 7
+ 5040 https://www.garlandtx.gov/Calendar.aspx?EID=13002/63922757359000000 
+ — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
- -pm-2026-11-02@letsdoitdallas.com
-DTSTAMP:20261103T050000Z
-DTSTART:20261103T050000Z
-DTEND:20261103T080000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
  -03@letsdoitdallas.com
 DTSTAMP:20261104T040000Z

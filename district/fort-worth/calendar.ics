@@ -10,73 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
- ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-02@lets
- doitdallas.com
-DTSTAMP:20261102T160000Z
-DTSTART:20261102T160000Z
-DTEND:20261102T190000Z
-SUMMARY:Puzzling Adventures Scavenger Hunt
-LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=puzzling-adventures-scave
- nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
- rth-76102-united-states%7C10-00-am
-DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
- uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
- e\, and an informative self-guided walking tour. Each adventure consists o
- f a series of locations that you are guided to where you are required t 
- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:tcu-horned-frogs-mens-basketball-vs-lindenwood-lions-mens-basketball|ed
- -and-rae-schollmaier-arena-fort-worth|7-00-pm-2026-11-02@letsdoitdallas.co
- m
-DTSTAMP:20261103T010000Z
-DTSTART:20261103T010000Z
-DTEND:20261103T040000Z
-SUMMARY:TCU Horned Frogs Mens Basketball vs. Lindenwood Lions Mens Basketba
- ll
-LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=tcu-horned-frogs-mens-bas
- ketball-vs-lindenwood-lions-mens-basketball%7Ced-and-rae-schollmaier-arena
- -fort-worth%7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-big-laugh-open-mic|big-laugh-comedy-club-fort-worth-604-main-st-sui
- te-100-fort-worth-tx-76102-united-states|8-00-pm-2026-11-02@letsdoitdallas
- .com
-DTSTAMP:20261103T020000Z
-DTSTART:20261103T020000Z
-DTEND:20261103T050000Z
-SUMMARY:The Big Laugh Open Mic
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=the-big-laugh-open-mic%7C
- big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102
- -united-states%7C8-00-pm
-DESCRIPTION:Have you wondered to yourself\, “where can I go on a Monday t
- o get a good laugh?” Look no further because we have the spot for you. T
- he Big Laugh Open Mic is a perfect setting for anyone who is looking to la
- ugh and have a good time.  So grab your grandma or your side piece and hea
-  — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:dock-open-mic|dock-bookshop-6637-meadowbrook-dr-fort-worth-tx-75116|7-0
- 0-am-2026-11-03@letsdoitdallas.com
-DTSTAMP:20261103T130000Z
-DTSTART:20261103T130000Z
-DTEND:20261103T160000Z
-SUMMARY:Dock Open Mic
-LOCATION:dock bookshop · Fort Worth Tx
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=dock-open-mic%7Cdock-book
- shop-6637-meadowbrook-dr-fort-worth-tx-75116%7C7-00-am
-DESCRIPTION:The Dock open mic presents Speak And Be Published. Everyone who
-  reads gets their poem published in an anthology   June 16\, 2026 at 7:30 
- PM CDT  The Dock Bookshop  $7 — More: https://letsdoitdallas.com/distric
- t/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
  et-fort-worth-76107-united-states|10-00-am-2026-11-03@letsdoitdallas.com
 DTSTAMP:20261103T160000Z
@@ -398,6 +331,25 @@ DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
  tsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:lena-pope-s-strong-foundations-speaker-series-i-was-almost-a-school-sho
+ oter|lena-pope-s-amon-carter-center-3200-sanguinet-st-fort-worth-76107-uni
+ ted-states|6-30-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261106T003000Z
+DTSTART:20261106T003000Z
+DTEND:20261106T033000Z
+SUMMARY:Lena Pope’s Strong Foundations Speaker Series: I Was Almost a Sch
+ ool Shooter
+LOCATION:Lena Pope’s Amon Carter Center · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=lena-pope-s-strong-founda
+ tions-speaker-series-i-was-almost-a-school-shooter%7Clena-pope-s-amon-cart
+ er-center-3200-sanguinet-st-fort-worth-76107-united-states%7C6-30-pm
+DESCRIPTION:Aaron Stark went from nearly becoming a school shooter to becom
+ ing a devoted father of four and a passionate mental wellness advocate. Hi
+ s powerful story\, “I Was Almost a School Shooter\,” has reached milli
+ ons\, inspiring people with a message of hope\, connection\, and the belie
+ f th — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:tcu-horned-frogs-womens-soccer-vs-arizona-wildcats-womens-soccer|garvey
  -rosenthal-soccer-stadium-fort-worth|7-00-pm-2026-11-05@letsdoitdallas.com
 DTSTAMP:20261106T010000Z
@@ -423,6 +375,23 @@ URL:https://letsdoitdallas.com/?date=2026-11-05&e=jersey-boys-fort-worth%7C
  bass-performance-hall-fort-worth%7C7-30-pm
 DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
  om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:rich-vos-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fo
+ rt-worth-tx-76102-united-states|7-30-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261106T013000Z
+DTSTART:20261106T013000Z
+DTEND:20261106T043000Z
+SUMMARY:Rich Vos Live
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=rich-vos-live%7Cbig-laugh
+ -comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-united-s
+ tates%7C7-30-pm
+DESCRIPTION:Rich Vos: Live In Fort Worth  With a mic in his hand and zero f
+ ilters in his brain\, Rich delivers punchlines that land harder than your 
+ group chat roasts. He’s fast\, fearless\, and brutally funny—whether h
+ e’s talking life\, family\, or the absolute madness of being a comic for
+  over — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:greg-warren|hyena-s-comedy-night-club-fort-worth-fort-worth|6-45-pm-202
@@ -1588,6 +1557,45 @@ DTEND:20261201T213000Z
 SUMMARY:Legacy of the Longhorn
 LOCATION:Cowtown Coliseum · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-01&e=legacy-of-the-longhorn%7C
+ cowtown-coliseum-fort-worth%7C12-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:106-1-kiss-fm-s-jingle-ball-presented-by-capital-one|ariat-arena-fort-w
+ orth|7-30-pm-2026-12-01@letsdoitdallas.com
+DTSTAMP:20261202T013000Z
+DTSTART:20261202T013000Z
+DTEND:20261202T043000Z
+SUMMARY:106.1 KISS FM's Jingle Ball Presented by Capital One
+LOCATION:Ariat Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=106-1-kiss-fm-s-jingle-ba
+ ll-presented-by-capital-one%7Cariat-arena-fort-worth%7C7-30-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-music-of-johnny-mathis|casa-manana-fort-worth|7-30-pm-2026-12-01@le
+ tsdoitdallas.com
+DTSTAMP:20261202T013000Z
+DTSTART:20261202T013000Z
+DTEND:20261202T043000Z
+SUMMARY:The Music of Johnny Mathis
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=the-music-of-johnny-mathi
+ s%7Ccasa-manana-fort-worth%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-12-02@
+ letsdoitdallas.com
+DTSTAMP:20261202T183000Z
+DTSTART:20261202T183000Z
+DTEND:20261202T213000Z
+SUMMARY:Legacy of the Longhorn
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=legacy-of-the-longhorn%7C
  cowtown-coliseum-fort-worth%7C12-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/

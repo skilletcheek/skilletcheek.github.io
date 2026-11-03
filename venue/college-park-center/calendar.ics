@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:unt-dallas-trailblazers-at-ut-arlington-mavericks-mens-basketball|colle
- ge-park-center-arlington|7-00-pm-2026-11-02@letsdoitdallas.com
-DTSTAMP:20261103T010000Z
-DTSTART:20261103T010000Z
-DTEND:20261103T040000Z
-SUMMARY:UNT Dallas Trailblazers at UT Arlington Mavericks Mens Basketball
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=unt-dallas-trailblazers-a
- t-ut-arlington-mavericks-mens-basketball%7Ccollege-park-center-arlington%7
- C7-00-pm
-DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
- allas.com/venue/college-park-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:sacramento-state-womens-bb-at-ut-arlington-womens-bb|college-park-cente
  r-arlington|6-30-pm-2026-11-03@letsdoitdallas.com
 DTSTAMP:20261104T003000Z
@@ -74,6 +60,20 @@ LOCATION:College Park Center · Arlington
 URL:https://letsdoitdallas.com/?date=2026-11-12&e=austin-peay-governors-at-
  ut-arlington-mavericks-womens-volleyball%7Ccollege-park-center-arlington%7
  C6-00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/venue/college-park-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:central-arkansas-bears-at-ut-arlington-mavericks-womens-volleyball|coll
+ ege-park-center-arlington|1-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T190000Z
+DTSTART:20261114T190000Z
+DTEND:20261114T220000Z
+SUMMARY:Central Arkansas Bears at UT Arlington Mavericks Womens Volleyball
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=central-arkansas-bears-at
+ -ut-arlington-mavericks-womens-volleyball%7Ccollege-park-center-arlington%
+ 7C1-00-pm
 DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
  /letsdoitdallas.com/venue/college-park-center/
 END:VEVENT

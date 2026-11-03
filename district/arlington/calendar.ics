@@ -10,68 +10,41 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:unt-dallas-trailblazers-at-ut-arlington-mavericks-mens-basketball|colle
- ge-park-center-arlington|7-00-pm-2026-11-02@letsdoitdallas.com
-DTSTAMP:20261103T010000Z
-DTSTART:20261103T010000Z
-DTEND:20261103T040000Z
-SUMMARY:UNT Dallas Trailblazers at UT Arlington Mavericks Mens Basketball
-LOCATION:College Park Center · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-02&e=unt-dallas-trailblazers-a
- t-ut-arlington-mavericks-mens-basketball%7Ccollege-park-center-arlington%7
- C7-00-pm
-DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
- allas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|10-00-am-20
- 26-11-03@letsdoitdallas.com
-DTSTAMP:20261103T160000Z
-DTSTART:20261103T160000Z
-DTEND:20261103T190000Z
-SUMMARY:AT&T Stadium Owner's Experience Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=at-t-stadium-owner-s-expe
- rience-tour%7Cat-t-stadium-arlington%7C10-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|12-00-pm-20
- 26-11-03@letsdoitdallas.com
-DTSTAMP:20261103T180000Z
-DTSTART:20261103T180000Z
-DTEND:20261103T210000Z
-SUMMARY:AT&T Stadium Owner's Experience Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=at-t-stadium-owner-s-expe
- rience-tour%7Cat-t-stadium-arlington%7C12-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-11-03@
- letsdoitdallas.com
-DTSTAMP:20261103T200000Z
-DTSTART:20261103T200000Z
-DTEND:20261103T230000Z
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|11-00-am-2026-11-03
+ @letsdoitdallas.com
+DTSTAMP:20261103T170000Z
+DTSTART:20261103T170000Z
+DTEND:20261103T200000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-11-03&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C2-00-pm
+ our%7Cat-t-stadium-arlington%7C11-00-am
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-11-03@
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|1-00-pm-2026-11-03@
  letsdoitdallas.com
-DTSTAMP:20261103T220000Z
-DTSTART:20261103T220000Z
-DTEND:20261104T010000Z
+DTSTAMP:20261103T190000Z
+DTSTART:20261103T190000Z
+DTEND:20261103T220000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-11-03&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C4-00-pm
+ our%7Cat-t-stadium-arlington%7C1-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-11-03@
+ letsdoitdallas.com
+DTSTAMP:20261103T210000Z
+DTSTART:20261103T210000Z
+DTEND:20261104T000000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-03&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C3-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
@@ -653,6 +626,33 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-rally-day-tour-jerry-jones-experience|at-t-stad
+ ium-arlington|12-20-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T182000Z
+DTSTART:20261114T182000Z
+DTEND:20261114T212000Z
+SUMMARY:AT&T Stadium VIP Guided Rally Day Tour + Jerry Jones Experience
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=at-t-stadium-vip-guided-r
+ ally-day-tour-jerry-jones-experience%7Cat-t-stadium-arlington%7C12-20-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:central-arkansas-bears-at-ut-arlington-mavericks-womens-volleyball|coll
+ ege-park-center-arlington|1-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T190000Z
+DTSTART:20261114T190000Z
+DTEND:20261114T220000Z
+SUMMARY:Central Arkansas Bears at UT Arlington Mavericks Womens Volleyball
+LOCATION:College Park Center · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=central-arkansas-bears-at
+ -ut-arlington-mavericks-womens-volleyball%7Ccollege-park-center-arlington%
+ 7C1-00-pm
+DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
+ /letsdoitdallas.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:michael-blackson|arlington-improv-arlington|7-00-pm-2026-11-14@letsdoit
  dallas.com
 DTSTAMP:20261115T010000Z
@@ -833,5 +833,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-26&e=dallas-cowboys-vs-philade
  lphia-eagles%7Cat-t-stadium-arlington%7C3-30-pm
 DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:david-archuleta|arlington-music-hall-arlington|7-30-pm-2026-12-01@letsd
+ oitdallas.com
+DTSTAMP:20261202T013000Z
+DTSTART:20261202T013000Z
+DTEND:20261202T043000Z
+SUMMARY:David Archuleta
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=david-archuleta%7Carlingt
+ on-music-hall-arlington%7C7-30-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/arlington/
 END:VEVENT
 END:VCALENDAR
