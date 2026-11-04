@@ -466,6 +466,25 @@ def fetch_ics_feeds(start, end):
                     time.sleep(10)
         if lines is None:
             continue
+        # The request succeeded but what came back is not a calendar: the
+        # host answered someone it took for a bot. whatsupfortworth.com (on
+        # SiteGround) hands the runner a ~205-char HTML page on about one run
+        # in four since cache_bust sent every request past its proxy cache.
+        # That is the host refusing us, not the feed dying, so the feed's
+        # rows from the last good run are carried forward and the alarm
+        # waits for BLOCKED_ALARM_RUNS in a row -- see _carry_forward().
+        # Never "fixed" by posing as a browser or answering the challenge.
+        if "BEGIN:VCALENDAR" not in body:
+            host = urllib.parse.urlsplit(url).hostname
+            streak = _blocked_streak(feed_key) + 1
+            carried = _carry_forward(host, lo, hi) if streak <= BLOCKED_CARRY_RUNS else []
+            _BLOCKED[feed_key] = len(carried)
+            out.extend(carried)
+            short = body.strip()[:600].replace("\r", " ").replace("\n", " ")
+            print(f"ics ({url}): BLOCKED -- {len(body)} chars and no calendar "
+                  f"({short!r}); carried forward {len(carried)} rows from the last "
+                  f"run (blocked {streak} run(s) in a row)")
+            continue
         # Optional per-feed knobs, all data in feeds.json:
         #   location_match -- keep only events whose LOCATION contains one of
         #     these (case-insensitive). A whole-campus feed is mostly club
@@ -4490,6 +4509,43 @@ _SOURCE_FAULTS = []
 # skips them so nothing is counted twice.
 _SUB_YIELDS = {}
 
+# Yield keys whose host answered with something that is not the feed (a bot
+# challenge page) this run -> how many rows were carried forward for it.
+# check_source_health() notes these instead of alarming until the block has
+# lasted BLOCKED_ALARM_RUNS runs in a row, and leaves them out of the rolling
+# baseline: a refused night says nothing about the feed's normal yield.
+# Carrying stops after BLOCKED_CARRY_RUNS, so listings never go stale for
+# longer than about two days (two runs a day).
+_BLOCKED = {}
+BLOCKED_ALARM_RUNS = 3
+BLOCKED_CARRY_RUNS = 4
+
+
+def _blocked_streak(key) -> int:
+    """How many runs in a row, ending with the last one, had `key` blocked."""
+    n = 0
+    for h in reversed(_load_source_history()):
+        if key not in (h.get("blocked") or []):
+            break
+        n += 1
+    return n
+
+
+def _carry_forward(host, lo, hi) -> list:
+    """The last published rows whose link is on `host`, still in the window.
+
+    live-events.json is the previous run's output when the fetchers run, so
+    this is what the site showed last night, minus anything now past. Rows
+    that lost dedupe to another source last night are not there -- correctly,
+    since that source still lists them."""
+    try:
+        rows = json.loads(OUT_FILE.read_text())
+    except (OSError, ValueError):
+        return []
+    return [dict(r) for r in rows
+            if urllib.parse.urlsplit(r.get("url") or "").hostname == host
+            and lo <= str(r.get("date")) <= hi]
+
 # Some pages always fail to parse -- a cancelled event, a malformed listing.
 # It is a fault when most of a run's pages do, over a sample big enough for
 # the ratio to mean anything.
@@ -4580,7 +4636,7 @@ def _source_baseline(history: list, name: str):
     return statistics.median_low(seen), len(seen)
 
 
-def check_source_health(counts: dict, faults=None) -> list:
+def check_source_health(counts: dict, faults=None, blocked=None) -> list:
     """Compare this run's per-source yields with a rolling baseline, record
     both, and return the alarms.
 
@@ -4600,7 +4656,18 @@ def check_source_health(counts: dict, faults=None) -> list:
     # Parse faults first: they name a specific broken thing, where a yield
     # alarm only says a number moved.
     alarms = list(_SOURCE_FAULTS if faults is None else faults)
+    blocked = _BLOCKED if blocked is None else blocked
     for name, now in sorted(counts.items()):
+        if name in blocked:
+            streak = _blocked_streak(name) + 1
+            msg = (f"{name}: host returned no calendar {streak} run(s) in a row "
+                   f"(a bot-challenge page, not the feed); carried forward "
+                   f"{blocked[name]} rows")
+            if streak >= BLOCKED_ALARM_RUNS:
+                alarms.append(msg + " -- persistent; ask the host to allowlist us")
+            else:
+                print(f"SOURCE NOTE: {msg}", file=sys.stderr)
+            continue
         base, runs = _source_baseline(history, name)
         if base is None:
             continue                      # first run, or a newly added source
@@ -4613,10 +4680,15 @@ def check_source_health(counts: dict, faults=None) -> list:
                           f"{runs}-run baseline)")
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    # A blocked key's 0 is left out of the history entry's counts so it never
+    # enters the baseline; "blocked" is what _blocked_streak() reads.
+    entry = {"date": today, "counts": {k: v for k, v in counts.items() if k not in blocked}}
+    if blocked:
+        entry["blocked"] = sorted(blocked)
     SOURCE_COUNTS_FILE.write_text(json.dumps(
         {"date": today, "counts": counts, "alarms": alarms,
-         "history": (history + [{"date": today, "counts": counts}]
-                     )[-SOURCE_HISTORY_RUNS:]}, indent=1) + "\n")
+         **({"blocked": dict(blocked)} if blocked else {}),
+         "history": (history + [entry])[-SOURCE_HISTORY_RUNS:]}, indent=1) + "\n")
 
     total = sum(v for k, v in counts.items() if " (" not in k)   # parts are in their source
     print("source yields: " + ", ".join(f"{k}={v}" for k, v in sorted(counts.items()))

@@ -364,6 +364,24 @@ rejected** so they don't get re-probed.
   `"name (part)"` keys so nothing is counted twice. New feeds get a baseline
   after their first run.
 
+  **A feed whose host answers with something that is not the feed is
+  "blocked", not dead** (since 2026-11-04). whatsupfortworth.com is on
+  SiteGround, and since `cache_bust` sent every request past its proxy cache
+  it hands the runner a ~205-char HTML page — apparently its anti-bot
+  challenge — on about one run in four, while the same URL serves the
+  calendar to anyone else. A 200 with no `BEGIN:VCALENDAR` therefore
+  **carries forward** that feed's rows from the previous `live-events.json`
+  (matched by the row link's host, still inside the window) via
+  `_carry_forward()`, records the key in `_BLOCKED`, and prints the whole
+  page. `check_source_health()` turns that into a `SOURCE NOTE` rather than
+  an alarm until it has lasted `BLOCKED_ALARM_RUNS` (3) runs in a row, keeps
+  the blocked 0 **out of the baseline history** (`"blocked"` on the history
+  entry is what `_blocked_streak()` reads), and carrying stops after
+  `BLOCKED_CARRY_RUNS` (4) so listings never go more than ~2 days stale.
+  A fetch that *fails* — timeout, 404, refused — is not a block and alarms
+  exactly as before. **Never answer the challenge or pose as a browser**;
+  the real fix is the host allowlisting the fetcher's User-Agent.
+
   **It writes, it does not raise.** A source going dark must never cost the
   site its nightly refresh — `/tonight/` serving yesterday is worse than a
   feed briefly short one venue class. The workflow runs

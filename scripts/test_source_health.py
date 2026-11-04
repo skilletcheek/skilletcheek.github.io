@@ -48,6 +48,7 @@ def reset():
         F.SOURCE_COUNTS_FILE.unlink()
     F._SOURCE_FAULTS.clear()
     F._SUB_YIELDS.clear()
+    F._BLOCKED.clear()
 
 
 def run(**counts):
@@ -487,7 +488,9 @@ def test_ics_timeout_and_short_body():
     finally:
         F.FEEDS_FILE, F.http_text = real_feeds, real
     check("timeout from feeds.json reaches http_text, default otherwise", seen, [120, 30])
-    check("the whole short page is in the log", 'is \'<html><head><link rel="icon" href="data:,"></head></html>\'' in buf.getvalue(), True)
+    check("the whole short page is in the log (as a BLOCKED line)",
+          '<html><head><link rel="icon" href="data:,"></head></html>' in buf.getvalue()
+          and "BLOCKED" in buf.getvalue(), True)
 
 
 def test_ics_per_feed_yield():
@@ -526,6 +529,76 @@ def test_ics_per_feed_yield():
           ["ics_feeds (a.test)"])
 
 
+def test_ics_blocked_carry_forward():
+    """whatsupfortworth.com answering the runner with a bot-challenge page:
+    carry last night's rows, note it, alarm only if it persists."""
+    print("ics_feeds: a host that answers with a challenge page instead of the feed")
+    challenge = '<html><head><link rel="icon" href="data:,"></head></html>'
+    cfg = {"ics_feeds": [{"url": "https://a.test/x.ics", "area": "Fort Worth"},
+                         {"url": "https://b.test/y.ics", "area": "Denton"}]}
+    last_night = ([{"name": f"Show {i}", "area": "Fort Worth", "date": "2026-10-12",
+                    "time": "7:00 PM", "url": f"https://a.test/e/{i}"} for i in range(25)]
+                  + [{"name": "Gone", "area": "Fort Worth", "date": "2026-09-30",
+                      "time": "7:00 PM", "url": "https://a.test/e/old"},
+                     {"name": "Other", "area": "Dallas", "date": "2026-10-12",
+                      "time": "7:00 PM", "url": "https://elsewhere.test/1"}])
+    real_out = F.OUT_FILE
+    F.OUT_FILE = pathlib.Path(tempfile.mkdtemp()) / "live-events.json"
+    F.OUT_FILE.write_text(json.dumps(last_night))
+
+    def night(a_body):
+        F._SUB_YIELDS.clear(); F._SOURCE_FAULTS.clear(); F._BLOCKED.clear()
+        served = {"https://b.test/y.ics": _ics(30)}
+        if a_body is not None:
+            served["https://a.test/x.ics"] = a_body
+        rows = _with_feeds(cfg, served, F.fetch_ics_feeds)
+        counts = {"ics_feeds": len(rows)}
+        counts.update(F._SUB_YIELDS)
+        return rows, counts, F.check_source_health(counts)
+
+    try:
+        reset()
+        for _ in range(3):
+            night(_ics(25))
+        rows, counts, alarms = night(challenge)
+        carried = [r for r in rows if "a.test" in r["url"]]
+        check("blocked: last night's in-window rows on that host are carried",
+              sorted(r["name"] for r in carried), sorted(f"Show {i}" for i in range(25)))
+        check("past rows and other hosts' rows are not", any(r["name"] in ("Gone", "Other")
+                                                           for r in rows), False)
+        check("the feed's own yield still reads 0", counts["ics_feeds (a.test)"], 0)
+        check("and it is a note, not an alarm", alarms, [])
+        hist = json.loads(F.SOURCE_COUNTS_FILE.read_text())["history"][-1]
+        check("the blocked 0 stays out of the baseline history",
+              ("ics_feeds (a.test)" in hist["counts"], hist.get("blocked")),
+              (False, ["ics_feeds (a.test)"]))
+
+        rows, counts, alarms = night(challenge)
+        check("second blocked run in a row: still a note", alarms, [])
+        rows, counts, alarms = night(challenge)
+        check(f"run {F.BLOCKED_ALARM_RUNS} in a row alarms", [a.split(":")[0] for a in alarms],
+              ["ics_feeds (a.test)"])
+        print(f"        -> {alarms[0]}")
+        rows, _, _ = night(challenge)
+        check(f"run {F.BLOCKED_CARRY_RUNS} still carries", len([r for r in rows if "a.test" in r["url"]]), 25)
+        rows, _, alarms = night(challenge)
+        check(f"after {F.BLOCKED_CARRY_RUNS} runs it stops carrying (no stale listings)",
+              len([r for r in rows if "a.test" in r["url"]]), 0)
+
+        rows, counts, alarms = night(_ics(25))
+        check("the feed coming back clears it", (counts["ics_feeds (a.test)"], alarms), (25, []))
+
+        reset()
+        for _ in range(3):
+            night(_ics(25))
+        rows, counts, alarms = night(None)
+        check("a fetch that FAILS (timeout, 404) is not a block: it still alarms",
+              ([a.split(":")[0] for a in alarms], "ics_feeds (a.test)" in F._BLOCKED),
+              (["ics_feeds (a.test)"], False))
+    finally:
+        F.OUT_FILE = real_out
+
+
 def main():
     F.SOURCE_COUNTS_FILE = pathlib.Path(tempfile.mkdtemp()) / "source-counts.json"
     for t in (test_sunday_false_alarm, test_zero_rule, test_drop_rule,
@@ -533,7 +606,7 @@ def main():
               test_civicplus_multiday,
               test_prekindle_health, test_singles_health, test_ics_health,
               test_ics_cache_bust, test_ics_per_feed_yield,
-              test_ics_timeout_and_short_body):
+              test_ics_timeout_and_short_body, test_ics_blocked_carry_forward):
         t()
         print()
     if FAILURES:
