@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:le-moyne-dolphins-at-smu-mustangs-womens-basketball|moody-coliseum-dall
- as|6-30-pm-2026-11-03@letsdoitdallas.com
-DTSTAMP:20261104T003000Z
-DTSTART:20261104T003000Z
-DTEND:20261104T033000Z
-SUMMARY:Le Moyne Dolphins at SMU Mustangs Womens Basketball
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=le-moyne-dolphins-at-smu-
- mustangs-womens-basketball%7Cmoody-coliseum-dallas%7C6-30-pm
-DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
- tsdoitdallas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:hampton-womens-bb-at-smu-womens-bb|moody-coliseum-dallas|11-00-am-2026-
  11-05@letsdoitdallas.com
 DTSTAMP:20261105T170000Z

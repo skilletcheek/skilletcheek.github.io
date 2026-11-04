@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
- -03@letsdoitdallas.com
-DTSTAMP:20261104T040000Z
-DTSTART:20261104T040000Z
-DTEND:20261104T070000Z
-SUMMARY:The Ox and The Waymakers
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
- com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:aurora-biennial-x-dallas-contemporary-monira-al-qadiri-public-opening-r
  eception|dallas-contemporary-dallas|8-00-pm-9-00-pm-2026-11-04@letsdoitdal
  las.com
@@ -272,6 +259,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=creativity-ai-automation-
 DESCRIPTION:Free\, beginner-friendly n8n workshop for artists and makers at
   Parr Library\, Plano. Hosted by Soft Pyramid with Created to Create. — 
  More: https://letsdoitdallas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:fall-into-fun|harry-stone-recreation-center-2403-millmar-dr-dallas|6-30
+ -pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T003000Z
+DTSTART:20261115T003000Z
+DTEND:20261115T033000Z
+SUMMARY:Fall Into Fun
+LOCATION:Harry Stone Recreation Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=fall-into-fun%7Charry-sto
+ ne-recreation-center-2403-millmar-dr-dallas%7C6-30-pm
+DESCRIPTION:Christ Embassy Dallas Central Youth Church hosts an evening of 
+ fall crafts\, fall snacks and fellowship activities for young adults ages 
+ 17–30\, in the rec center's multi-purpose room. Doors open 6:10 PM\; fre
+ e entry\, RSVP via the QR code on the flyer. — More: https://letsdoitdal
+ las.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:dj-sneak305|three-links-deep-ellum-dallas|11-00-pm-2026-11-15@letsdoitd

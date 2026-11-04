@@ -46,4 +46,16 @@ URL:https://letsdoitdallas.com/?date=2026-11-06&e=russian-circles-with-prim
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/rubber-gloves/
 END:VEVENT
+BEGIN:VEVENT
+UID:girl-band|rubber-gloves-denton|8-00-pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T020000Z
+DTSTART:20261112T020000Z
+DTEND:20261112T050000Z
+SUMMARY:Girl Band
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=girl-band%7Crubber-gloves
+ -denton%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/rubber-gloves/
+END:VEVENT
 END:VCALENDAR

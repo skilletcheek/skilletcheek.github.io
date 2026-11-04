@@ -10,16 +10,16 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:north-texas-mean-green-men-s-basketball-vs-mcneese-state-cowboys-mens-b
- asketball|unt-superpit-denton|see-details-2026-11-05@letsdoitdallas.com
-DTSTAMP:20261105T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+ asketball|unt-superpit-denton|4-00-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261105T220000Z
+DTSTART:20261105T220000Z
+DTEND:20261106T010000Z
 SUMMARY:North Texas Mean Green Men's Basketball vs. McNeese State Cowboys M
  ens Basketball
 LOCATION:UNT Superpit · Denton
 URL:https://letsdoitdallas.com/?date=2026-11-05&e=north-texas-mean-green-me
  n-s-basketball-vs-mcneese-state-cowboys-mens-basketball%7Cunt-superpit-den
- ton%7Csee-details
+ ton%7C4-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/unt-superpit/
 END:VEVENT

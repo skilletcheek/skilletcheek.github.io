@@ -9,41 +9,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:boot-juice-walker-and-the-white-lines|three-links-deep-ellum-dallas|7-0
- 0-pm-2026-11-03@letsdoitdallas.com
-DTSTAMP:20261104T010000Z
-DTSTART:20261104T010000Z
-DTEND:20261104T040000Z
-SUMMARY:Boot Juice\, Walker and The White Lines
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=boot-juice-walker-and-the
- -white-lines%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
- -03@letsdoitdallas.com
-DTSTAMP:20261104T040000Z
-DTSTART:20261104T040000Z
-DTEND:20261104T070000Z
-SUMMARY:The Ox and The Waymakers
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:daring-greatly|three-links-deep-ellum-dallas|7-00-pm-2026-11-04@letsdoi
- tdallas.com
+UID:daring-greatly-goosechase|three-links-deep-ellum-dallas|7-00-pm-2026-11
+ -04@letsdoitdallas.com
 DTSTAMP:20261105T010000Z
 DTSTART:20261105T010000Z
 DTEND:20261105T040000Z
-SUMMARY:Daring Greatly
+SUMMARY:Daring Greatly\, Goosechase
 LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=daring-greatly%7Cthree-li
- nks-deep-ellum-dallas%7C7-00-pm
+URL:https://letsdoitdallas.com/?date=2026-11-04&e=daring-greatly-goosechase
+ %7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
 END:VEVENT

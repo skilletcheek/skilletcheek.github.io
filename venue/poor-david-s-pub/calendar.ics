@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:honky-tonk-tuesday-with-texas-zephers|poor-david-s-pub-dallas|doors-see
- -listing-2026-11-03@letsdoitdallas.com
-DTSTAMP:20261103T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-SUMMARY:Honky Tonk Tuesday with Texas Zephers
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=honky-tonk-tuesday-with-t
- exas-zephers%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-gotten-w-fat-by-the-gallon-american-werewolf-academy|poor-david-s-p
  ub-dallas|doors-see-listing-2026-11-06@letsdoitdallas.com
 DTSTAMP:20261106T000000Z

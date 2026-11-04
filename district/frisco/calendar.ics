@@ -11,42 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
- frisco|see-details-2026-11-03@letsdoitdallas.com
-DTSTAMP:20261103T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-SUMMARY:"The Cottage" by Theatre Frisco
-LOCATION:Black Box Theater · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=-the-cottage-by-theatre-f
- risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
-DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
- strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:election-day|frisco|07-00-am-2026-11-03@letsdoitdallas.com
-DTSTAMP:20261103T130000Z
-DTSTART:20261103T130000Z
-DTEND:20261103T160000Z
-SUMMARY:Election Day
-LOCATION:Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=election-day%7Cfrisco%7C0
- 7-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:budget-and-audit-committee-meeting|6101-frisco-square-blvd-frisco|03-00
- -pm-2026-11-03@letsdoitdallas.com
-DTSTAMP:20261103T210000Z
-DTSTART:20261103T210000Z
-DTEND:20261104T000000Z
-SUMMARY:Budget and Audit Committee Meeting
-LOCATION:6101 Frisco Square Blvd.
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=budget-and-audit-committe
- e-meeting%7C6101-frisco-square-blvd-frisco%7C03-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
  frisco|see-details-2026-11-04@letsdoitdallas.com
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20261104
@@ -448,6 +412,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-15&e=texas-legends-vs-rio-gran
  de-valley-vipers%7Ccomerica-center-frisco%7C3-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:walnut-wednesday-walnut-s-friendsgiving|6455-page-street-frisco|10-00-a
+ m-2026-11-18@letsdoitdallas.com
+DTSTAMP:20261118T160000Z
+DTSTART:20261118T160000Z
+DTEND:20261118T190000Z
+SUMMARY:Walnut Wednesday: Walnut’s Friendsgiving
+LOCATION:6455 Page Street · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=walnut-wednesday-walnut-s
+ -friendsgiving%7C6455-page-street-frisco%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:texas-legends-vs-memphis-hustle|comerica-center-frisco|7-00-pm-2026-11-

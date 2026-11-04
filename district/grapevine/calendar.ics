@@ -10,22 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:virtual-author-talk-with-asha-frost|grapevine|01-00-pm-2026-11-03@letsd
- oitdallas.com
-DTSTAMP:20261103T190000Z
-DTSTART:20261103T190000Z
-DTEND:20261103T220000Z
-SUMMARY:Virtual Author Talk with Asha Frost
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-03&e=virtual-author-talk-with-
- asha-frost%7Cgrapevine%7C01-00-pm
-DESCRIPTION:In a fast-paced world that often leaves us feeling overwhelmed 
- and disconnected\, true healing does not come from looking outward—it be
- gins within. Join us for a transformative virtual conversation with Indige
- nous Medicine Woman Asha Frost as she explores her groundbreaking book\, 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:stem-lab-18-|grapevine|10-00-am-2026-11-04@letsdoitdallas.com
 DTSTAMP:20261104T160000Z
 DTSTART:20261104T160000Z
@@ -815,6 +799,68 @@ DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are
  se stop at the Children's Desk 15 minutes before the program to receive ti
  ckets. 1 per attendee.) November 17\, 2026 10:30 AM - 11:00 AM Grapevine\,
   — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:stem-lab-18-|grapevine|10-00-am-2026-11-18@letsdoitdallas.com
+DTSTAMP:20261118T160000Z
+DTSTART:20261118T160000Z
+DTEND:20261118T190000Z
+SUMMARY:STEM Lab (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=stem-lab-18-%7Cgrapevine%
+ 7C10-00-am
+DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
+ at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
+ ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
+ edgeable staff will be available to provide guidance\, tips\, and support 
+ as — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-11-18@letsd
+ oitdallas.com
+DTSTAMP:20261118T163000Z
+DTSTART:20261118T163000Z
+DTEND:20261118T193000Z
+SUMMARY:Storytime for Toddlers/Preschoolers
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=storytime-for-toddlers-pr
+ eschoolers%7Cgrapevine%7C10-30-am
+DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
+ welcome and no registrations is needed. (This is a Ticketed Program\; plea
+ se stop at the Children's Desk 15 minutes before the program to receive ti
+ ckets. 1 per attendee.) November 18\, 2026 10:30 AM - 11:00 AM Grapevine\,
+  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:open-practice-and-play-night|grapevine|04-30-pm-2026-11-18@letsdoitdall
+ as.com
+DTSTAMP:20261118T223000Z
+DTSTART:20261118T223000Z
+DTEND:20261119T013000Z
+SUMMARY:Open Practice and Play Night
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=open-practice-and-play-ni
+ ght%7Cgrapevine%7C04-30-pm
+DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
+  ranked play. Ages 12 and up. November 18\, 2026 04:30 PM - 07:30 PM Grape
+ vine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17752/639
+ 232829710000000 — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:cardmaking-with-kari-18-|grapevine|06-00-pm-2026-11-18@letsdoitdallas.c
+ om
+DTSTAMP:20261119T000000Z
+DTSTART:20261119T000000Z
+DTEND:20261119T030000Z
+SUMMARY:Cardmaking with Kari (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=cardmaking-with-kari-18-%
+ 7Cgrapevine%7C06-00-pm
+DESCRIPTION:Come make a fun card with Kari and learn some cardmaking techni
+ ques. Supplies and space are limited. This class is for adults 18+. Regist
+ ration Required November 18\, 2026 06:00 PM - 07:30 PM Grapevine\, TX 7605
+ 1 https://www.grapevinetexas.gov/Calendar.aspx?EID=17434/63915473308000 
+ — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:speed-dating-in-grapevine-speed-dating-all-professionals-35-50|hop-and-

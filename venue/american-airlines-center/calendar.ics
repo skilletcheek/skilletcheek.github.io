@@ -256,4 +256,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-30&e=dallas-mavericks-vs-bosto
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/american-airlines-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-vs-orlando-magic|american-airlines-center-dallas|7-00-
+ pm-2026-12-02@letsdoitdallas.com
+DTSTAMP:20261203T010000Z
+DTSTART:20261203T010000Z
+DTEND:20261203T040000Z
+SUMMARY:Dallas Mavericks vs. Orlando Magic
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=dallas-mavericks-vs-orlan
+ do-magic%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/american-airlines-center/
+END:VEVENT
 END:VCALENDAR
