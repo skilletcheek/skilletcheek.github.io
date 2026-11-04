@@ -465,6 +465,11 @@ rejected** so they don't get re-probed.
   `parse_ics_datetime()` converts them to Chicago — read literally, every
   7:30 PM concert landed at 12:30 AM the next day. A feed's optional `city`
   is appended to a bare hall name so the row still resolves a city.
+  **UNT's export is slow to build** — `x-runtime` ~43s in Nov 2026, against
+  a 30s default timeout, so it needed retries on 13 of 30 runs and lost the
+  feed on two. Its `feeds.json` entry carries `timeout: 120`; any feed may.
+  It also rate-limits to one request per short window (`x-ratelimit-limit:
+  1`), so a probe by hand right before a run can 429 the run's first try.
   Rejected 2026-09-28: fortworthreport.org (robots.txt disallows `/events/`,
   and `?ical=1` exports only ~2 days), dallasdoinggood.com (social-service
   listings, not things to do).

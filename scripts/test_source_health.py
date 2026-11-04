@@ -463,6 +463,33 @@ def test_ics_cache_bust():
     check("a feed without it fetches the plain URL", len(rows), 7)
 
 
+def test_ics_timeout_and_short_body():
+    print("ics_feeds: per-feed timeout, and a short non-calendar body is logged whole")
+    seen = []
+    real = F.http_text
+
+    def spy(url, timeout=30):
+        seen.append(timeout)
+        return "<html><head><link rel=\"icon\" href=\"data:,\"></head></html>"
+
+    cfg = {"ics_feeds": [{"url": "https://slow.test/x.ics", "timeout": 120},
+                         {"url": "https://fast.test/y.ics"}]}
+    real_feeds = F.FEEDS_FILE
+    path = pathlib.Path(tempfile.mkdtemp()) / "feeds.json"
+    path.write_text(json.dumps(cfg))
+    import io, contextlib
+    buf = io.StringIO()
+    F.FEEDS_FILE, F.http_text = path, spy
+    try:
+        reset()
+        with contextlib.redirect_stdout(buf):
+            F.fetch_ics_feeds(*WINDOW)
+    finally:
+        F.FEEDS_FILE, F.http_text = real_feeds, real
+    check("timeout from feeds.json reaches http_text, default otherwise", seen, [120, 30])
+    check("the whole short page is in the log", 'is \'<html><head><link rel="icon" href="data:,"></head></html>\'' in buf.getvalue(), True)
+
+
 def test_ics_per_feed_yield():
     """The blind spot two feeds created: UNT kept the ics_feeds TOTAL up, so
     What's Up Fort Worth could go dark without the total ever reaching zero."""
@@ -505,7 +532,8 @@ def main():
               test_bookkeeping, test_parse_health, test_civicplus_health,
               test_civicplus_multiday,
               test_prekindle_health, test_singles_health, test_ics_health,
-              test_ics_cache_bust, test_ics_per_feed_yield):
+              test_ics_cache_bust, test_ics_per_feed_yield,
+              test_ics_timeout_and_short_body):
         t()
         print()
     if FAILURES:

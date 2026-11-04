@@ -179,9 +179,9 @@ def http_json(url: str, headers: dict | None = None):
         return json.loads(res.read().decode("utf-8"))
 
 
-def http_text(url: str):
+def http_text(url: str, timeout: float = 30):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=30) as res:
+    with urllib.request.urlopen(req, timeout=timeout) as res:
         return res.read().decode("utf-8", errors="replace")
 
 
@@ -452,7 +452,11 @@ def fetch_ics_feeds(start, end):
         lines = body = None
         for attempt in range(1, ICS_ATTEMPTS + 1):
             try:
-                body = http_text(fetch_url)
+                # `timeout` per feed: UNT's Localist export takes its server
+                # ~43s to build (x-runtime, Nov 2026; it was <1s in Sep), so
+                # the default 30s timed out on 13 of 30 runs and lost the
+                # whole feed on two of them.
+                body = http_text(fetch_url, timeout=feed.get("timeout", 30))
                 lines = unfold_ics(body)
                 break
             except Exception as e:  # noqa: BLE001
@@ -530,8 +534,12 @@ def fetch_ics_feeds(start, end):
             detail = (f" from {total} VEVENTs, newest {newest}"
                       + (f" ({why})" if why else ""))
         else:
-            head = body.lstrip()[:40].replace("\r", " ").replace("\n", " ")
-            detail = f" -- no VEVENTs in {len(body)} chars, starts {head!r}"
+            # A short non-calendar body is printed WHOLE: whatsupfortworth.com
+            # sometimes hands the runner a ~205-char HTML page, and its first
+            # 40 chars could not say what that page was.
+            short = len(body) <= 600
+            head = (body.strip() if short else body.lstrip()[:40]).replace("\r", " ").replace("\n", " ")
+            detail = f" -- no VEVENTs in {len(body)} chars, {'is' if short else 'starts'} {head!r}"
         print(f"ics ({url}): {count} events{detail}"
               + (f", {faults} UNPARSED" if faults else ""))
         report_parse_health(f"ics_feeds ({urllib.parse.urlsplit(url).hostname})",
