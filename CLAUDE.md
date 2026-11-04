@@ -34,6 +34,7 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
     scripts/test_source_health.py  hand-run: `python3` it, no deps, no network
     scripts/test_curated.py        hand-run: same; covers load_curated()
     scripts/test_dedupe.py         hand-run: same, for dedupe()
+    scripts/test_social_post.py    hand-run: same-day pick rules (needs Pillow)
     scripts/notify_submitter.py  hand-run: "your event is live" mail
     scripts/venue_outreach.py    hand-run: "we built you a page" mail
     scripts/pinterest_post.py    weekly Pinterest board (own workflow)
@@ -958,8 +959,13 @@ slot" can only map one slot name per unique string.
 A day's second slot must never repeat the first's picks, so
 `social/posted.json` is nested `date -> slot -> {facebook, instagram, picks,
 venues}`, and `already_posted_today()` hard-excludes (in `select_picks()`,
-before scoring even starts) any event a same-day earlier slot already
-featured — see that function's docstring for why this is a hard filter and
+before scoring even starts) any event **any other slot** already featured
+that day. Until 2026-11-04 it looked only at slots *earlier in
+`SLOT_ORDER`*, assuming slots run in order; GitHub's delays break that (a
+catch-up lands after the next slot's primary), and on Nov 2, 3 and 4 the
+same three picks went out twice a day. `_entries_before()` now skips only
+the building slot's own entry, so a retry after a partial post still
+rebuilds the same picks — see that function's docstring for why this is a hard filter and
 not the same -6 soft penalty `recent_venues` applies across days. On a day
 thin enough that a later slot has nothing left to post, it skips cleanly
 rather than repeating an earlier slot's picks or posting an empty card. Cards
@@ -992,9 +998,14 @@ What breaks it:
   a secret come back masked as `***` in Actions logs — a Page id printing as
   a raw number is itself proof it differs from `META_PAGE_ID`, which is how
   the wrong-id case was finally caught.
-- **Moving the cron into 00:00–05:00 UTC.** `_today()` uses the UTC date so it
-  agrees with `write_hubs()`; inside that band Dallas is still on the previous
-  day and the post would advertise picks that `/tonight/` does not list.
+- **A run landing after the UTC date rolls over.** `_today()` uses the UTC
+  date so it agrees with `write_hubs()`; from 00:00 UTC (7 PM CDT / 6 PM CST)
+  until Dallas's midnight the UTC date is a day ahead. The crons are pinned
+  outside that band, but GitHub's delay is not: the 21:00 UTC afternoon
+  catch-up ran at 00:57 UTC on 2026-11-04 and posted Nov 4's picks on the
+  evening of Nov 3. `_not_today_in_dallas()` makes `build` skip whenever
+  Dallas's date differs from the UTC date — there is no correct day to post
+  then. A manual dispatch in that band skips too; that is intended.
 - **Forgetting `social` in the workflow's `git add` allowlist** — the same
   trap documented under Deploy, and worse here: an uncommitted card means the
   Instagram fetch 404s. The reel is a `.mp4` under the same directory, so the

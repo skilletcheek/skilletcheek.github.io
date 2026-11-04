@@ -72,6 +72,7 @@ import urllib.parse
 import urllib.request
 import uuid
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -99,13 +100,14 @@ POSTED_FILE = ROOT / "social" / "posted.json"
 KEEP_DAYS = 60
 PICKS = 3
 
-# Three posts a day, each with its own card headline. Order matters: it is how
-# same-day de-duplication (already_posted_today(), recent_venues()) decides
-# which slot(s) count as "already happened today" when a later slot builds --
-# a slot only ever looks at slots earlier than itself in this tuple, never
-# itself or one that hasn't run yet. The actual times live in
-# social-post.yml's cron, not here, so there is exactly one place that can
-# drift out of sync with reality instead of two.
+# Three posts a day, each with its own card headline. Same-day
+# de-duplication (already_posted_today(), recent_venues()) excludes every
+# OTHER slot already logged today, not just the ones earlier in this tuple:
+# GitHub runs them out of order often enough (a late catch-up landing after
+# the next slot's primary) that slot order is not run order -- see
+# _entries_before(). The actual times live in social-post.yml's cron, not
+# here, so there is exactly one place that can drift out of sync with
+# reality instead of two.
 SLOTS = {"morning": "DFW Today", "midday": "DFW This Afternoon",
          "afternoon": "Tonight in DFW"}
 SLOT_ORDER = tuple(SLOTS)
@@ -322,6 +324,25 @@ def _today() -> str:
     comment on the cron in social-post.yml.
     """
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+def _not_today_in_dallas(today: str, now: datetime | None = None) -> str | None:
+    """Why a post built for `today` (a UTC date) would be wrong to publish
+    now, or None.
+
+    The cron is pinned outside 00:00-05:00 UTC, but GitHub's delay is not:
+    the afternoon catch-up (21:00 UTC) ran at 00:57 UTC on 2026-11-04, when
+    it was 6:57 PM on Nov 3 in Dallas, and posted a card dated Nov 4 with
+    Nov 4's events as that evening's picks. From 7 PM CDT (6 PM CST) the UTC
+    date is a day ahead; a run then has no correct day to post -- Dallas's
+    date would disagree with /tonight/, and UTC's is tomorrow -- so it skips.
+    """
+    now = now or datetime.now(timezone.utc)
+    dallas = now.astimezone(ZoneInfo("America/Chicago")).strftime("%Y-%m-%d")
+    if dallas != today:
+        return (f"it is {dallas} in Dallas but {today} in UTC; a post now would "
+                f"advertise the wrong day's events")
+    return None
 
 
 def _page_exists(path: str) -> bool:
@@ -553,14 +574,20 @@ def save_posted(log: dict) -> None:
 def _entries_before(log: dict, today: str, slot: str):
     """Yield every logged entry that should count as "already happened" from
     the point of view of building `slot` on `today`: every entry on an
-    earlier date, and -- for today itself -- only the slots that come before
-    `slot` in SLOT_ORDER. A slot must never see itself (it hasn't run yet at
-    build time) or a slot later in the day that also hasn't run.
+    earlier date, and every OTHER slot logged today, whatever its position in
+    SLOT_ORDER. Only `slot`'s own entry is skipped, so a retry after a
+    partial post (Facebook done, Instagram failed) rebuilds the same picks.
+
+    Until 2026-11-04 this skipped today's LATER slots too, on the assumption
+    that slots run in SLOT_ORDER. They don't: GitHub delays scheduled runs by
+    hours, so a catch-up can land after the next slot has posted. On Nov 2, 3
+    and 4 the morning slot ran after another slot that day, could not see it,
+    and posted the identical three picks a second time. A slot that has not
+    run has no entry, so there is nothing to protect by skipping later ones.
     """
-    idx = SLOT_ORDER.index(slot)
     for date, slots in log.items():
         for s, entry in slots.items():
-            if date == today and SLOT_ORDER.index(s) >= idx:
+            if date == today and s == slot:
                 continue
             yield date, entry
 
@@ -572,8 +599,8 @@ def recent_venues(log: dict, today: str, slot: str, days: int = 7) -> set[str]:
 
 
 def already_posted_today(log: dict, today: str, slot: str) -> frozenset[str]:
-    """Normalized names of events already picked earlier TODAY (in a slot
-    before this one), so this slot can never repeat one of them -- see
+    """Normalized names of events already picked TODAY in any other slot, so
+    this slot can never repeat one of them -- see
     select_picks()'s exclude_names. Checked against `picks`, which
     cmd_publish() writes unconditionally before either platform is attempted,
     so this still excludes correctly even if the earlier slot's post failed.
@@ -867,6 +894,13 @@ def cmd_build(args) -> int:
         print(f"already posted {slot} for {today} (fb={done['facebook']['id']} "
               f"ig={done['instagram']['id']}); nothing to do")
         Path(args.plan).write_text(json.dumps({"skip": "already posted"}) + "\n")
+        return 0
+
+    stale = _not_today_in_dallas(today)
+    if stale:
+        print(f"skipping {slot} for {today}: {stale}. The next slot's run (or "
+              f"tomorrow's) will post; a manual dispatch now would hit this too.")
+        Path(args.plan).write_text(json.dumps({"skip": "too late for today"}) + "\n")
         return 0
 
     events = json.loads((ROOT / "live-events.json").read_text())
