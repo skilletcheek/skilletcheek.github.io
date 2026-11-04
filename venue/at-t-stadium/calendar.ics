@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-11-04@
- letsdoitdallas.com
-DTSTAMP:20261104T200000Z
-DTSTART:20261104T200000Z
-DTEND:20261104T230000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C2-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-11-04@
- letsdoitdallas.com
-DTSTAMP:20261104T220000Z
-DTSTART:20261104T220000Z
-DTEND:20261105T010000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C4-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
 UID:kanye-west|at-t-stadium-arlington|8-00-pm-2026-11-07@letsdoitdallas.com
 DTSTAMP:20261108T020000Z
 DTSTART:20261108T020000Z

@@ -267,6 +267,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/city/addison/
 END:VEVENT
 BEGIN:VEVENT
+UID:steve-byrne|addison-improv-addison|9-00-pm-2026-11-14@letsdoitdallas.co
+ m
+DTSTAMP:20261115T030000Z
+DTSTART:20261115T030000Z
+DTEND:20261115T060000Z
+SUMMARY:Steve Byrne
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=steve-byrne%7Caddison-imp
+ rov-addison%7C9-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/addison/
+END:VEVENT
+BEGIN:VEVENT
 UID:steve-byrne|addison-improv-addison|7-00-pm-2026-11-15@letsdoitdallas.co
  m
 DTSTAMP:20261116T010000Z

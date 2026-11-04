@@ -567,6 +567,18 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:yana|club-dada-dallas|8-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T020000Z
+DTSTART:20261115T020000Z
+DTEND:20261115T050000Z
+SUMMARY:Yana
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=yana%7Cclub-dada-dallas%7
+ C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:jennifer-pena-live|trees-dallas|doors-see-listing-2026-11-15@letsdoitda
  llas.com
 DTSTAMP:20261115T000000Z

@@ -10,25 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:aurora-biennial-x-dallas-contemporary-monira-al-qadiri-public-opening-r
- eception|dallas-contemporary-dallas|8-00-pm-9-00-pm-2026-11-04@letsdoitdal
- las.com
-DTSTAMP:20261105T020000Z
-DTSTART:20261105T020000Z
-DTEND:20261105T050000Z
-SUMMARY:AURORA Biennial x Dallas Contemporary: Monira Al Qadiri Public Open
- ing Reception
-LOCATION:Dallas Contemporary
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=aurora-biennial-x-dallas-
- contemporary-monira-al-qadiri-public-opening-reception%7Cdallas-contempora
- ry-dallas%7C8-00-pm-9-00-pm
-DESCRIPTION:To kick off the 7th AURORA Biennial\, States of Becoming\, join
-  AURORA and Dallas Contemporary for a special opening of two works by Berl
- in-based Kuwaiti artist Monira Al Qadiri. Exploring the Arabian Gulf’s p
- re- and post-oil histories\, the works trace the region’s transformation
-  f — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:wub-wednesday|three-links-deep-ellum-dallas|10-00-pm-2026-11-04@letsdoi
  tdallas.com
 DTSTAMP:20261105T040000Z
@@ -40,22 +21,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-04&e=wub-wednesday%7Cthree-lin
  ks-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:community-remembrance-service|first-presbyterian-church-of-dallas-dalla
- s|11-00-am-12-00-pm-2026-11-05@letsdoitdallas.com
-DTSTAMP:20261105T170000Z
-DTSTART:20261105T170000Z
-DTEND:20261105T200000Z
-SUMMARY:Community Remembrance Service
-LOCATION:First Presbyterian Church Of Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=community-remembrance-ser
- vice%7Cfirst-presbyterian-church-of-dallas-dallas%7C11-00-am-12-00-pm
-DESCRIPTION:Join The Stewpot for a Community Remembrance Service honoring p
- eople in Dallas County who died this past year while living unhoused or wh
- ose remains went unclaimed. November 5 at 11 AM in the Sanctuary at First 
- Presbyterian Church of Dallas\, 1835 Young Street. The church’s pastor 
- — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-05@letsdoitdall
@@ -191,19 +156,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-11&e=nyos-rats-of-mars-intake-
  drywall%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-lowliest-one|rbc-deep-ellum-dallas|7-00-pm-2026-11-11@letsdoitdalla
- s.com
-DTSTAMP:20261112T010000Z
-DTSTART:20261112T010000Z
-DTEND:20261112T040000Z
-SUMMARY:The Lowliest One
-LOCATION:RBC Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=the-lowliest-one%7Crbc-de
- ep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
- om/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:wub-wednesday|three-links-deep-ellum-dallas|10-00-pm-2026-11-11@letsdoi
