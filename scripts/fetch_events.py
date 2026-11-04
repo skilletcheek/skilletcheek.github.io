@@ -915,6 +915,14 @@ def fetch_prekindle(start, end):
         if not url:
             continue
         tried += 1
+        # Per-venue yield, set before the fetch so a failed page reads 0 --
+        # the same shape as ics_feeds. The prekindle total drifted 74 -> 50
+        # over October while Three Links (moved to TicketWeb) and Sundown at
+        # Granada (stopped ticketing) each went to 0; a gradual slide never
+        # trips the 50% rule, and a venue going dark never trips the zero
+        # rule while the other five keep the total up.
+        venue_key = f"prekindle ({venue})"
+        _SUB_YIELDS[venue_key] = 0
         try:
             html = http_text(url)
         except Exception as e:  # noqa: BLE001
@@ -953,6 +961,7 @@ def fetch_prekindle(start, end):
                            date, "Doors — see listing", cost, desc, ev.get("url"),
                            ev.get("image")))
             count += 1
+        _SUB_YIELDS[venue_key] = count
         print(f"prekindle ({venue}): {count} events")
     report_parse_health("prekindle", tried, sum(page_faults.values()),
                         ", ".join(f"{v} {k}" for k, v in page_faults.items() if v),
@@ -3701,9 +3710,9 @@ def _event_day_start(e):
 def _event_start(e):
     """Timezone-aware Dallas start, or None when the row has no usable time.
 
-    Uses the real America/Chicago zone rather than the fixed -05:00 that
-    _jsonld() hardcodes: a calendar entry is a promise about an instant, and
-    that constant is an hour wrong for every event between November and March.
+    Uses the real America/Chicago zone for the exact instant: a calendar entry
+    is a promise about a moment. (_jsonld() resolves a per-DATE offset via
+    _dallas_offset() instead, so it can mirror js/app.js -- see CLAUDE.md.)
     """
     mins = _time_minutes(e.get("time"))
     if mins is None:

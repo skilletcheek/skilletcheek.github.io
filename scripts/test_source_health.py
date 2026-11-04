@@ -385,6 +385,32 @@ def test_prekindle_health():
     print(f"        -> {F._SOURCE_FAULTS[0]}")
 
 
+def test_prekindle_per_venue_yield():
+    """Three Links and Sundown went to 0 in Oct 2026 while the other venues
+    kept the prekindle total up; nothing alarmed until per-venue yields."""
+    print("prekindle: each venue's yield has its own baseline")
+
+    def night(pages):
+        F._SUB_YIELDS.clear(); F._SOURCE_FAULTS.clear()
+        rows = _pk(pages)
+        counts = {"prekindle": len(rows)}
+        counts.update(F._SUB_YIELDS)
+        return counts, F.check_source_health(counts)
+
+    reset()
+    for _ in range(3):
+        counts, alarms = night([_pk_page(5)] * 6)
+    check("healthy nights: one key per venue, no alarm",
+          (len([k for k in counts if k.startswith("prekindle (")]), alarms), (6, []))
+    counts, alarms = night([_pk_page(5)] * 5 + [_pk_page(0)])
+    check("one venue going empty alarms by name while the total (30 -> 25) does not",
+          [a.split(":")[0] for a in alarms], ["prekindle (Venue 5)"])
+    counts, alarms = night([_pk_page(5)] * 5 + [None])
+    check("a venue page that fails to fetch reads 0 and alarms too",
+          (counts["prekindle (Venue 5)"], [a.split(":")[0] for a in alarms]),
+          (0, ["prekindle (Venue 5)"]))
+
+
 def _singles_page(n, date="2026-10-04T16:00:00-06:00", city="Dallas"):
     org = '<script type="application/ld+json">{"@type": "Organization", "name": "x"}</script>'
     ev = lambda i: json.dumps({
@@ -604,7 +630,8 @@ def main():
     for t in (test_sunday_false_alarm, test_zero_rule, test_drop_rule,
               test_bookkeeping, test_parse_health, test_civicplus_health,
               test_civicplus_multiday,
-              test_prekindle_health, test_singles_health, test_ics_health,
+              test_prekindle_health, test_prekindle_per_venue_yield,
+              test_singles_health, test_ics_health,
               test_ics_cache_bust, test_ics_per_feed_yield,
               test_ics_timeout_and_short_body, test_ics_blocked_carry_forward):
         t()

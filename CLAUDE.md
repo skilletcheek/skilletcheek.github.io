@@ -362,7 +362,15 @@ rejected** so they don't get re-probed.
   before it is fetched**, so one that never answers still has a key — an
   absent key has no baseline and can never alarm. The printed total skips
   `"name (part)"` keys so nothing is counted twice. New feeds get a baseline
-  after their first run.
+  after their first run. **Prekindle does the same per venue** since
+  2026-11-04 (`prekindle (<venue>)`): its total slid 74 → 50 through October
+  while Three Links (moved to TicketWeb) and Sundown at Granada (stopped
+  ticketing) each sat at 0, and neither rule could see it — a gradual slide
+  never trips the 50% rule, and one dark venue never zeroes the total. Both
+  were removed from `prekindle_pages`; `_prekindle_note` in `feeds.json` says
+  why. With four venues left, Prekindle's page-level parse check (which needs
+  `SOURCE_UNPARSED_MIN` 5 pages) can no longer fire; a broken page now shows
+  as that venue's yield going to 0.
 
   **A feed whose host answers with something that is not the feed is
   "blocked", not dead** (since 2026-11-04). whatsupfortworth.com is on
@@ -533,11 +541,12 @@ timezones and cannot be reproduced server-side.
 
 ### Details that are load-bearing
 
-- **`_event_start()` uses real `America/Chicago`**, not the fixed `-05:00`
-  that `_jsonld()` hardcodes. That constant is an hour wrong for every event
-  between November and March; a calendar entry is a promise about an instant,
-  so it cannot inherit that bug. **`_jsonld()` still has it** — worth fixing
-  separately.
+- **`_event_start()` resolves the real instant in `America/Chicago`.** A
+  calendar entry is a promise about an instant, so it never used a fixed
+  offset. (`_jsonld()` hardcoded `-05:00` when this was written; it has used
+  `_dallas_offset()` since 2026-09-11 — see "Two-layer mirrors" — and was
+  re-checked on 2026-11-04, after the switch to CST: a Nov 10 event is
+  `-06:00`.)
 - **Rows with no usable time become all-day entries**, not 10 AM. `app.js`'s
   download button guesses 10 AM; a subscription repeating that guess 30 times
   in someone's calendar is a different thing from doing it once on request.

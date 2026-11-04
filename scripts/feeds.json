@@ -40,11 +40,6 @@
    "area": "Granada Theater, Lower Greenville, Dallas"
   },
   {
-   "url": "https://www.prekindle.com/organizer-grid-widget-main/id/24898848614692498/?fp=false&thumbs=false&style=null",
-   "venue": "Sundown at Granada",
-   "area": "Sundown at Granada, Lower Greenville, Dallas"
-  },
-  {
    "url": "https://www.prekindle.com/kessler/",
    "venue": "The Kessler Theater",
    "area": "The Kessler Theater, Oak Cliff, Dallas"
@@ -55,16 +50,12 @@
    "area": "Poor David's Pub, Dallas"
   },
   {
-   "url": "https://www.prekindle.com/events/threelinks",
-   "venue": "Three Links",
-   "area": "Three Links Deep Ellum, Dallas"
-  },
-  {
    "url": "https://www.prekindle.com/events/trees",
    "venue": "Trees",
    "area": "Trees, Dallas"
   }
  ],
+ "_prekindle_note": "Removed 2026-11-04, both empty for weeks and caught only once per-venue yields existed: Three Links (prekindle.com/events/threelinks) now sells through TicketWeb, which already brings in its shows via Ticketmaster's API (42 that day). Sundown at Granada (organizer widget id 24898848614692498) stopped ticketed shows: the widget says 'no upcoming events', and sundownatgranada.com's Calendar link now points at granadatheater.com/calendar, which embeds only Granada's organizer -- already pulled above. Re-add either if its page lists events again.",
  "_singles_note": "Evaluated 2026-08-27 against three lookalikes for a DFW singles/speed-dating source: CitySwoon, MyCheekyDate, TheFun.Singles. All three carry SOME JSON-LD on their Dallas landing page (Organization/WebSite/BreadcrumbList) but no @type Event anywhere -- don't re-add them expecting a different result unless their markup changes. speeddatingdallas.com is the one that actually embeds real, dated Event objects (8 upcoming at last check, $25-35, real DFW venues) with no API key needed.",
  "singles_pages": [
   {
