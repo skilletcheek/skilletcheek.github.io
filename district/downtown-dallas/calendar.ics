@@ -11,75 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-11-04@letsdoitdallas.com
-DTSTAMP:20261104T140000Z
-DTSTART:20261104T140000Z
-DTEND:20261104T170000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:skilla-baby-the-price-of-fame-tour-18-moved-to-cambridge-room|the-cambr
- idge-room-at-house-of-blues-dallas|7-00-pm-2026-11-04@letsdoitdallas.com
-DTSTAMP:20261105T010000Z
-DTSTART:20261105T010000Z
-DTEND:20261105T040000Z
-SUMMARY:Skilla Baby: The Price of Fame Tour - 18+ - MOVED TO CAMBRIDGE ROOM
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=skilla-baby-the-price-of-
- fame-tour-18-moved-to-cambridge-room%7Cthe-cambridge-room-at-house-of-blue
- s-dallas%7C7-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
- -2026-11-04@letsdoitdallas.com
-DTSTAMP:20261105T013000Z
-DTSTART:20261105T013000Z
-DTEND:20261105T043000Z
-SUMMARY:Buena Vista Social Club (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=buena-vista-social-club-t
- ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:doja-cat-tour-ma-vie-world-tour|american-airlines-center-dallas|7-30-pm
- -2026-11-04@letsdoitdallas.com
-DTSTAMP:20261105T013000Z
-DTSTART:20261105T013000Z
-DTEND:20261105T043000Z
-SUMMARY:Doja Cat - Tour Ma Vie World Tour
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=doja-cat-tour-ma-vie-worl
- d-tour%7Camerican-airlines-center-dallas%7C7-30-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:jim-henson-s-labyrinth-in-concert|majestic-theatre-dallas-dallas|8-00-p
- m-2026-11-04@letsdoitdallas.com
-DTSTAMP:20261105T020000Z
-DTSTART:20261105T020000Z
-DTEND:20261105T050000Z
-SUMMARY:Jim Henson's Labyrinth: In Concert
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=jim-henson-s-labyrinth-in
- -concert%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
-DESCRIPTION:Family event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-11-05@letsdoitdallas.com
 DTSTAMP:20261105T140000Z
 DTSTART:20261105T140000Z
@@ -1445,5 +1376,33 @@ URL:https://letsdoitdallas.com/?date=2026-12-02&e=eric-benet%7Chouse-of-blu
  es-dallas-dallas%7C7-00-pm
 DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-descendants-zombies-camp-rock-worlds-collide-concert-tour|americ
+ an-airlines-center-dallas|7-00-pm-2026-12-03@letsdoitdallas.com
+DTSTAMP:20261204T010000Z
+DTSTART:20261204T010000Z
+DTEND:20261204T040000Z
+SUMMARY:Disney Descendants\, ZOMBIES & Camp Rock: Worlds Collide Concert To
+ ur
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=disney-descendants-zombie
+ s-camp-rock-worlds-collide-concert-tour%7Camerican-airlines-center-dallas%
+ 7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:christmas-with-the-beatles-ft-abbey-road-trip|poor-david-s-pub-dallas|d
+ oors-see-listing-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Christmas with The Beatles ft. Abbey Road Trip
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=christmas-with-the-beatle
+ s-ft-abbey-road-trip%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

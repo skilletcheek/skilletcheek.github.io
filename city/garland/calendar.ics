@@ -9,38 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
- |04-00-pm-2026-11-04@letsdoitdallas.com
-DTSTAMP:20261104T220000Z
-DTSTART:20261104T220000Z
-DTEND:20261105T010000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=teenz-place-after-school-
- hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
-DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
- eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
-  snacks while supplies last. Bring your friends! November 4\, 2026 04:00 P
- M - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:crochet-corner-in-person-ages-13-|central-library-garland|06-00-pm-2026
- -11-04@letsdoitdallas.com
-DTSTAMP:20261105T000000Z
-DTSTART:20261105T000000Z
-DTEND:20261105T030000Z
-SUMMARY:Crochet Corner In-Person (Ages 13+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=crochet-corner-in-person-
- ages-13-%7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; All crafters welcome to Crochet Corner! Whether you
-  are a seasoned crocheter or just starting out\, join us for a fun\, cozy 
- hour of crochet. At each program\, we will go through making a creation fr
- om the monthly Crochet Corner display together as an active tutorial. Bas 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-11
  -05@letsdoitdallas.com
 DTSTAMP:20261105T160000Z
@@ -495,7 +463,7 @@ URL:https://letsdoitdallas.com/?date=2026-11-09&e=financial-education-with-
 DESCRIPTION:6:00 p.m.\; Free financial education presentations from Navy Fe
  deral Credit Union. Learn about a variety of topics to enhance your financ
  ial awareness. November 9\, 2026 06:00 PM - 07:00 PM 625 Austin St.Garland
- \, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13034/6392922443 
+ \, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13034/6392940702 
  — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
@@ -1522,5 +1490,117 @@ DESCRIPTION:6:30 p.m.\; An adult book club for mystery and thriller enthusi
  ber 18\, 2026 06:30 PM - 07:30 PM 625 Austin St.Garland\, TX 75040 https:/
  /www.garlandtx.gov/Calendar.aspx?EID=13005/639227577960000000 — More: ht
  tps://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-11
+ -19@letsdoitdallas.com
+DTSTAMP:20261119T160000Z
+DTSTART:20261119T160000Z
+DTEND:20261119T190000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=preschool-discovery-3-5-y
+ ears-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
+ ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
+ ters\, numbers\, and much more that will help develop your preschooler's e
+ arly literacy skills. November 19\, 2026 10:00 AM - 11:00 AM 625 Austin St
+ .G — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:cuentos-y-cantos-0-5-a-os-|biblioteca-central-garland|11-00-am-2026-11-
+ 19@letsdoitdallas.com
+DTSTAMP:20261119T170000Z
+DTSTART:20261119T170000Z
+DTEND:20261119T200000Z
+SUMMARY:Cuentos y Cantos (0-5 Años)
+LOCATION:Biblioteca Central · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=cuentos-y-cantos-0-5-a-os
+ -%7Cbiblioteca-central-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Acompáñenos para unos cuentos y cantos mientras 
+ aprendemos sobre temas escolares y lo más importante\, las habilidades ne
+ cesarias para leer. November 19\, 2026 11:00 AM - 12:00 PM 625 Austin St.G
+ arland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12956/639227
+ 46 — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261119T220000Z
+DTSTART:20261119T220000Z
+DTEND:20261120T010000Z
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=teenz-place-after-school-
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
+DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
+ eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
+  snacks while supplies last. Bring your friends! November 19\, 2026 04:00 
+ PM - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandt 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:intro-to-cricut-for-teens-hunger-games-bookmarks-ages-13-17-|south-garl
+ and-library-garland|04-30-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261119T223000Z
+DTSTART:20261119T223000Z
+DTEND:20261120T013000Z
+SUMMARY:Intro to Cricut for Teens: "Hunger Games" Bookmarks (Ages 13-17)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=intro-to-cricut-for-teens
+ -hunger-games-bookmarks-ages-13-17-%7Csouth-garland-library-garland%7C04-3
+ 0-pm
+DESCRIPTION:4:30 p.m.\; Teens ages 13 to 17 can learn how to use a Cricut m
+ achine and create a "Hunger Games"-themed bookmark to take home in this in
+ troductory makerspace class. This program is for teens who have not used a
+  Cricut before or have not gotten their Cricut certification for the l —
+  More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:beginner-reader-book-club|west-garland-library-garland|05-00-pm-2026-11
+ -19@letsdoitdallas.com
+DTSTAMP:20261119T230000Z
+DTSTART:20261119T230000Z
+DTEND:20261120T020000Z
+SUMMARY:Beginner Reader Book Club
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=beginner-reader-book-club
+ %7Cwest-garland-library-garland%7C05-00-pm
+DESCRIPTION:5:00 p.m.\; Join us for a fun read-aloud book club with activit
+ ies and crafts just for beginner readers ages six to eight! This program i
+ s perfect for children who have started their reading journey and want to 
+ build confidence while having fun! No prior book reading is required. — 
+ More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:fiction-book-club-ages-18-|south-garland-library-garland|06-30-pm-2026-
+ 11-19@letsdoitdallas.com
+DTSTAMP:20261120T003000Z
+DTSTART:20261120T003000Z
+DTEND:20261120T033000Z
+SUMMARY:Fiction Book Club (Ages 18+)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=fiction-book-club-ages-18
+ -%7Csouth-garland-library-garland%7C06-30-pm
+DESCRIPTION:6:30 p.m.\; Are you an avid reader looking to connect with othe
+ rs? Join us at the South Garland Library for our monthly book club\, where
+  we explore a new book each month and enjoy light refreshments. All perspe
+ ctives are welcome. Come share your thoughts! November 19\, 2026 06:30 P 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:dr-seuss-how-the-grinch-stole-christmas-the-musical-presented-by-breitl
+ ing-performing-arts|300-n-fifth-street-garland|07-00-pm-2026-11-19@letsdoi
+ tdallas.com
+DTSTAMP:20261120T010000Z
+DTSTART:20261120T010000Z
+DTEND:20261120T040000Z
+SUMMARY:Dr. Seuss' How the Grinch Stole Christmas! The Musical presented by
+  Breitling Performing Arts
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=dr-seuss-how-the-grinch-s
+ tole-christmas-the-musical-presented-by-breitling-performing-arts%7C300-n-
+ fifth-street-garland%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 END:VCALENDAR

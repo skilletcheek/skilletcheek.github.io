@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:doja-cat-tour-ma-vie-world-tour|american-airlines-center-dallas|7-30-pm
- -2026-11-04@letsdoitdallas.com
-DTSTAMP:20261105T013000Z
-DTSTART:20261105T013000Z
-DTEND:20261105T043000Z
-SUMMARY:Doja Cat - Tour Ma Vie World Tour
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=doja-cat-tour-ma-vie-worl
- d-tour%7Camerican-airlines-center-dallas%7C7-30-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-mavericks-vs-utah-jazz|american-airlines-center-dallas|7-00-pm-2
  026-11-06@letsdoitdallas.com
 DTSTAMP:20261107T010000Z
@@ -268,5 +255,20 @@ URL:https://letsdoitdallas.com/?date=2026-12-02&e=dallas-mavericks-vs-orlan
  do-magic%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-descendants-zombies-camp-rock-worlds-collide-concert-tour|americ
+ an-airlines-center-dallas|7-00-pm-2026-12-03@letsdoitdallas.com
+DTSTAMP:20261204T010000Z
+DTSTART:20261204T010000Z
+DTEND:20261204T040000Z
+SUMMARY:Disney Descendants\, ZOMBIES & Camp Rock: Worlds Collide Concert To
+ ur
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=disney-descendants-zombie
+ s-camp-rock-worlds-collide-concert-tour%7Camerican-airlines-center-dallas%
+ 7C7-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/american-airlines-center/
 END:VEVENT
 END:VCALENDAR

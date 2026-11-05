@@ -10,28 +10,31 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:wub-wednesday|three-links-deep-ellum-dallas|10-00-pm-2026-11-04@letsdoi
- tdallas.com
-DTSTAMP:20261105T040000Z
-DTSTART:20261105T040000Z
-DTEND:20261105T070000Z
-SUMMARY:Wub Wednesday
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=wub-wednesday%7Cthree-lin
- ks-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/free-events/
+UID:community-remembrance-service|first-presbyterian-church-of-dallas-dalla
+ s|11-00-am-12-00-pm-2026-11-05@letsdoitdallas.com
+DTSTAMP:20261105T170000Z
+DTSTART:20261105T170000Z
+DTEND:20261105T200000Z
+SUMMARY:Community Remembrance Service
+LOCATION:First Presbyterian Church Of Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-05&e=community-remembrance-ser
+ vice%7Cfirst-presbyterian-church-of-dallas-dallas%7C11-00-am-12-00-pm
+DESCRIPTION:Join The Stewpot for a Community Remembrance Service honoring p
+ eople in Dallas County who died this past year while living unhoused or wh
+ ose remains went unclaimed. November 5 at 11 AM in the Sanctuary at First 
+ Presbyterian Church of Dallas\, 1835 Young Street. The church’s pastor 
+ — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-05@letsdoitdall
+UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-05@letsdoitdall
  as.com
-DTSTAMP:20261106T050000Z
-DTSTART:20261106T050000Z
-DTEND:20261106T080000Z
+DTSTAMP:20261106T040000Z
+DTSTART:20261106T040000Z
+DTEND:20261106T070000Z
 SUMMARY:DJ JREAM
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-05&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C11-00-pm
+ ep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
 END:VEVENT
@@ -171,15 +174,15 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-12@letsdoitdall
+UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-12@letsdoitdall
  as.com
-DTSTAMP:20261113T050000Z
-DTSTART:20261113T050000Z
-DTEND:20261113T080000Z
+DTSTAMP:20261113T040000Z
+DTSTART:20261113T040000Z
+DTEND:20261113T070000Z
 SUMMARY:DJ JREAM
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-12&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C11-00-pm
+ ep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
 END:VEVENT
@@ -281,15 +284,15 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-19@letsdoitdall
+UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-19@letsdoitdall
  as.com
-DTSTAMP:20261120T050000Z
-DTSTART:20261120T050000Z
-DTEND:20261120T080000Z
+DTSTAMP:20261120T040000Z
+DTSTART:20261120T040000Z
+DTEND:20261120T070000Z
 SUMMARY:DJ JREAM
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C11-00-pm
+ ep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
 END:VEVENT
@@ -398,15 +401,15 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-26@letsdoitdall
+UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-26@letsdoitdall
  as.com
-DTSTAMP:20261127T050000Z
-DTSTART:20261127T050000Z
-DTEND:20261127T080000Z
+DTSTAMP:20261127T040000Z
+DTSTART:20261127T040000Z
+DTEND:20261127T070000Z
 SUMMARY:DJ JREAM
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-26&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C11-00-pm
+ ep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
 END:VEVENT

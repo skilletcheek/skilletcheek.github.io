@@ -3,24 +3,11 @@ VERSION:2.0
 PRODID:-//Lets Do It Dallas//DFW Events//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Majestic Theatre Dallas — Lets Do It Dallas
-X-WR-CALDESC:Upcoming shows at Majestic Theatre Dallas.
+X-WR-CALNAME:Majestic Theatre - Dallas — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Majestic Theatre - Dallas.
 X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VEVENT
-UID:jim-henson-s-labyrinth-in-concert|majestic-theatre-dallas-dallas|8-00-p
- m-2026-11-04@letsdoitdallas.com
-DTSTAMP:20261105T020000Z
-DTSTART:20261105T020000Z
-DTEND:20261105T050000Z
-SUMMARY:Jim Henson's Labyrinth: In Concert
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=jim-henson-s-labyrinth-in
- -concert%7Cmajestic-theatre-dallas-dallas%7C8-00-pm
-DESCRIPTION:Family event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/majestic-theatre-dallas/
-END:VEVENT
 BEGIN:VEVENT
 UID:an-evening-with-david-sedaris-presented-by-arts-letters-live-|majestic-
  theatre-dallas-dallas|7-30-pm-2026-11-06@letsdoitdallas.com
@@ -86,6 +73,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-15&e=elmo-s-got-the-moves%7Cma
  jestic-theatre-dallas-dallas%7C2-00-pm
 DESCRIPTION:Children's Theatre event via Ticketmaster. — More: https://le
  tsdoitdallas.com/venue/majestic-theatre-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:sesame-street-live-dallas|majestic-theatre-dallas-dallas|2-00-pm-2026-1
+ 1-15@letsdoitdallas.com
+DTSTAMP:20261115T200000Z
+DTSTART:20261115T200000Z
+DTEND:20261115T230000Z
+SUMMARY:Sesame Street Live - Dallas
+LOCATION:Majestic Theatre - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=sesame-street-live-dallas
+ %7Cmajestic-theatre-dallas-dallas%7C2-00-pm
+DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/majestic-theatre-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-fab-four-tribute-to-the-beatles-a-hard-day-s-night|majestic-theatre

@@ -158,4 +158,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-01&e=honky-tonk-tuesday-with-t
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
+BEGIN:VEVENT
+UID:christmas-with-the-beatles-ft-abbey-road-trip|poor-david-s-pub-dallas|d
+ oors-see-listing-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Christmas with The Beatles ft. Abbey Road Trip
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=christmas-with-the-beatle
+ s-ft-abbey-road-trip%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
 END:VCALENDAR

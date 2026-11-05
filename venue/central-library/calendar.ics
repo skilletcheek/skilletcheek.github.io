@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:crochet-corner-in-person-ages-13-|central-library-garland|06-00-pm-2026
- -11-04@letsdoitdallas.com
-DTSTAMP:20261105T000000Z
-DTSTART:20261105T000000Z
-DTEND:20261105T030000Z
-SUMMARY:Crochet Corner In-Person (Ages 13+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=crochet-corner-in-person-
- ages-13-%7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; All crafters welcome to Crochet Corner! Whether you
-  are a seasoned crocheter or just starting out\, join us for a fun\, cozy 
- hour of crochet. At each program\, we will go through making a creation fr
- om the monthly Crochet Corner display together as an active tutorial. Bas 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-11
  -05@letsdoitdallas.com
 DTSTAMP:20261105T160000Z
@@ -200,7 +184,7 @@ URL:https://letsdoitdallas.com/?date=2026-11-09&e=financial-education-with-
 DESCRIPTION:6:00 p.m.\; Free financial education presentations from Navy Fe
  deral Credit Union. Learn about a variety of topics to enhance your financ
  ial awareness. November 9\, 2026 06:00 PM - 07:00 PM 625 Austin St.Garland
- \, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13034/6392922443 
+ \, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13034/6392940702 
  — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 BEGIN:VEVENT
@@ -615,5 +599,37 @@ DESCRIPTION:6:30 p.m.\; An adult book club for mystery and thriller enthusi
  ber 18\, 2026 06:30 PM - 07:30 PM 625 Austin St.Garland\, TX 75040 https:/
  /www.garlandtx.gov/Calendar.aspx?EID=13005/639227577960000000 — More: ht
  tps://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-11
+ -19@letsdoitdallas.com
+DTSTAMP:20261119T160000Z
+DTSTART:20261119T160000Z
+DTEND:20261119T190000Z
+SUMMARY:Preschool Discovery (3-5 Years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=preschool-discovery-3-5-y
+ ears-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
+ ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
+ ters\, numbers\, and much more that will help develop your preschooler's e
+ arly literacy skills. November 19\, 2026 10:00 AM - 11:00 AM 625 Austin St
+ .G — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:cuentos-y-cantos-0-5-a-os-|biblioteca-central-garland|11-00-am-2026-11-
+ 19@letsdoitdallas.com
+DTSTAMP:20261119T170000Z
+DTSTART:20261119T170000Z
+DTEND:20261119T200000Z
+SUMMARY:Cuentos y Cantos (0-5 Años)
+LOCATION:Biblioteca Central · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=cuentos-y-cantos-0-5-a-os
+ -%7Cbiblioteca-central-garland%7C11-00-am
+DESCRIPTION:11:00 a.m.\; Acompáñenos para unos cuentos y cantos mientras 
+ aprendemos sobre temas escolares y lo más importante\, las habilidades ne
+ cesarias para leer. November 19\, 2026 11:00 AM - 12:00 PM 625 Austin St.G
+ arland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12956/639227
+ 46 — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

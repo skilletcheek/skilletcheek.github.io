@@ -11,19 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
- frisco|see-details-2026-11-04@letsdoitdallas.com
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
-SUMMARY:"The Cottage" by Theatre Frisco
-LOCATION:Black Box Theater · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=-the-cottage-by-theatre-f
- risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
-DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
- strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
  frisco|see-details-2026-11-05@letsdoitdallas.com
 DTSTAMP:20261105T000000Z
 DTSTART;VALUE=DATE:20261105
@@ -95,6 +82,18 @@ SUMMARY:Bison & Blossoms: Frisco’s Arbor Day Celebration
 LOCATION:8000 McKinney Road · Frisco
 URL:https://letsdoitdallas.com/?date=2026-11-07&e=bison-blossoms-frisco-s-a
  rbor-day-celebration%7C8000-mckinney-road-frisco%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:women-in-law-enforcement|7200-stonebrook-pkwy-frisco|09-00-am-2026-11-0
+ 7@letsdoitdallas.com
+DTSTAMP:20261107T150000Z
+DTSTART:20261107T150000Z
+DTEND:20261107T180000Z
+SUMMARY:Women in Law Enforcement
+LOCATION:7200 Stonebrook Pkwy · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=women-in-law-enforcement%
+ 7C7200-stonebrook-pkwy-frisco%7C09-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
@@ -212,6 +211,18 @@ DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
  strict/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:pga-championship-boot-camp-for-the-2027-pga-championship|1916-pga-parkw
+ ay-frisco|03-00-pm-2026-11-10@letsdoitdallas.com
+DTSTAMP:20261110T210000Z
+DTSTART:20261110T210000Z
+DTEND:20261111T000000Z
+SUMMARY:PGA Championship Boot Camp for the 2027 PGA Championship
+LOCATION:1916 PGA Parkway · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=pga-championship-boot-cam
+ p-for-the-2027-pga-championship%7C1916-pga-parkway-frisco%7C03-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:-mg-anthony-woods-presents-the-legacy-of-the-buffalo-soldiers-by-herita
  ge-association-of-frisco|6455-page-street-frisco|06-30-pm-2026-11-10@letsd
  oitdallas.com
@@ -265,15 +276,15 @@ DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
  strict/frisco/
 END:VEVENT
 BEGIN:VEVENT
-UID:multicultural-committee-meeting|8000-n-dallas-pkwy-frisco|05-00-pm-2026
- -11-12@letsdoitdallas.com
-DTSTAMP:20261112T230000Z
-DTSTART:20261112T230000Z
-DTEND:20261113T020000Z
+UID:multicultural-committee-meeting|6101-frisco-square-blvd-frisco|04-30-pm
+ -2026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T223000Z
+DTSTART:20261112T223000Z
+DTEND:20261113T013000Z
 SUMMARY:Multicultural Committee Meeting
-LOCATION:8000 N. Dallas Pkwy. · Frisco
+LOCATION:6101 Frisco Square Blvd.
 URL:https://letsdoitdallas.com/?date=2026-11-12&e=multicultural-committee-m
- eeting%7C8000-n-dallas-pkwy-frisco%7C05-00-pm
+ eeting%7C6101-frisco-square-blvd-frisco%7C04-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
@@ -423,6 +434,42 @@ SUMMARY:Walnut Wednesday: Walnut’s Friendsgiving
 LOCATION:6455 Page Street · Frisco
 URL:https://letsdoitdallas.com/?date=2026-11-18&e=walnut-wednesday-walnut-s
  -friendsgiving%7C6455-page-street-frisco%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:4th-street-plaza-holiday-tree-lighting|8802-4th-st-frisco|05-30-pm-2026
+ -11-19@letsdoitdallas.com
+DTSTAMP:20261119T233000Z
+DTSTART:20261119T233000Z
+DTEND:20261120T023000Z
+SUMMARY:4th Street Plaza Holiday Tree Lighting
+LOCATION:8802 4th St · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=4th-street-plaza-holiday-
+ tree-lighting%7C8802-4th-st-frisco%7C05-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:plaza-live-|8802-4th-street-frisco|06-00-pm-2026-11-19@letsdoitdallas.c
+ om
+DTSTAMP:20261120T000000Z
+DTSTART:20261120T000000Z
+DTEND:20261120T030000Z
+SUMMARY:Plaza Live!
+LOCATION:8802 4th Street · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=plaza-live-%7C8802-4th-st
+ reet-frisco%7C06-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:illuminate-christmas-movie-classics|6455-page-street-frisco|06-30-pm-20
+ 26-11-19@letsdoitdallas.com
+DTSTAMP:20261120T003000Z
+DTSTART:20261120T003000Z
+DTEND:20261120T033000Z
+SUMMARY:Illuminate: Christmas Movie Classics
+LOCATION:6455 Page Street · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=illuminate-christmas-movi
+ e-classics%7C6455-page-street-frisco%7C06-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT

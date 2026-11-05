@@ -10,37 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:open-practice-and-play-night|grapevine|04-30-pm-2026-11-04@letsdoitdall
- as.com
-DTSTAMP:20261104T223000Z
-DTSTART:20261104T223000Z
-DTEND:20261105T013000Z
-SUMMARY:Open Practice and Play Night
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=open-practice-and-play-ni
- ght%7Cgrapevine%7C04-30-pm
-DESCRIPTION:Drop by the Esports Academy and get some extra practice time or
-  ranked play. Ages 12 and up. November 4\, 2026 04:30 PM - 07:30 PM Grapev
- ine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17750/6392
- 32829710000000 — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:art-night-for-adults-18-|grapevine|06-00-pm-2026-11-04@letsdoitdallas.c
- om
-DTSTAMP:20261105T000000Z
-DTSTART:20261105T000000Z
-DTEND:20261105T030000Z
-SUMMARY:Art Night for Adults (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=art-night-for-adults-18-%
- 7Cgrapevine%7C06-00-pm
-DESCRIPTION:Not all art has to be Fine Art. Make Fun Art. Join us for a fun
-  evening of feel-good\, no-pressure\, creativity. All supplies will be pro
- vided. Adults only. (18+). Registration Required. November 4\, 2026 06:00 
- PM - 07:30 PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calenda 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:mahjong-learn-play|grapevine|12-30-pm-2026-11-05@letsdoitdallas.com
 DTSTAMP:20261105T183000Z
 DTSTART:20261105T183000Z
@@ -863,6 +832,53 @@ DESCRIPTION:Another Fabulous Singles Event ♥ For Ages 35-50 @ Hop and Sti
  ng Brewing Company in Grapevine\, TX. As featured recently in the WSJ\, NP
  R and TLC 90 Day Fiance - The Single Life. Meet the love of your life at t
  he best and most trusted dating event company in the US. Where else can y 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:mahjong-learn-play|grapevine|12-30-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261119T183000Z
+DTSTART:20261119T183000Z
+DTEND:20261119T213000Z
+SUMMARY:Mahjong: Learn & Play
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=mahjong-learn-play%7Cgrap
+ evine%7C12-30-pm
+DESCRIPTION:Learn to Play Mahjong Thursdays 12:30-4:30. Beginners\, please 
+ arrive at 12:30. Open play tables available on a first come first serve ba
+ sis\, Space is Limited. Ages 18 and up. November 19\, 2026 12:30 PM - 04:3
+ 0 PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EI 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:bilingual-storytime-english-espa-ol-|grapevine|04-30-pm-2026-11-19@lets
+ doitdallas.com
+DTSTAMP:20261119T223000Z
+DTSTART:20261119T223000Z
+DTEND:20261120T013000Z
+SUMMARY:Bilingual Storytime (English/Español)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=bilingual-storytime-engli
+ sh-espa-ol-%7Cgrapevine%7C04-30-pm
+DESCRIPTION:Join us for a fun and engaging Bilingual Storytime! Perfect for
+  children and families\, this event features stories\, songs\, and activit
+ ies in both Spanish and English. Come ready to sing\, laugh\, and explore 
+ stories together. All are welcome—no prior Spanish or English experience
+  i — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:virtual-author-talk-with-rebecca-roanhorse|grapevine|06-00-pm-2026-11-1
+ 9@letsdoitdallas.com
+DTSTAMP:20261120T000000Z
+DTSTART:20261120T000000Z
+DTEND:20261120T030000Z
+SUMMARY:Virtual Author Talk with Rebecca Roanhorse
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=virtual-author-talk-with-
+ rebecca-roanhorse%7Cgrapevine%7C06-00-pm
+DESCRIPTION:Step into a sprawling world of celestial magic\, political intr
+ igue\, and ancient prophecies with New York Times bestselling author Rebec
+ ca Roanhorse as we dive deep into her acclaimed Between Earth and Sky tril
+ ogy. Black Sun\, Fevered Star\, and Mirrored Heavens are inspired by the 
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 END:VCALENDAR

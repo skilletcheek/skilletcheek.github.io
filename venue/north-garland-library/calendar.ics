@@ -10,22 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
- |04-00-pm-2026-11-04@letsdoitdallas.com
-DTSTAMP:20261104T220000Z
-DTSTART:20261104T220000Z
-DTEND:20261105T010000Z
-SUMMARY:Teenz Place After School Hour (Ages 13-17)
-LOCATION:North Garland Library
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=teenz-place-after-school-
- hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
-DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
- eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
-  snacks while supplies last. Bring your friends! November 4\, 2026 04:00 P
- M - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandtx 
- — More: https://letsdoitdallas.com/venue/north-garland-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
  |04-00-pm-2026-11-05@letsdoitdallas.com
 DTSTAMP:20261105T220000Z
 DTSTART:20261105T220000Z
@@ -229,6 +213,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-18&e=teenz-place-after-school-
 DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
  eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
   snacks while supplies last. Bring your friends! November 18\, 2026 04:00 
+ PM - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandt 
+ — More: https://letsdoitdallas.com/venue/north-garland-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
+ |04-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261119T220000Z
+DTSTART:20261119T220000Z
+DTEND:20261120T010000Z
+SUMMARY:Teenz Place After School Hour (Ages 13-17)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=teenz-place-after-school-
+ hour-ages-13-17-%7Cnorth-garland-library-garland%7C04-00-pm
+DESCRIPTION:4:00 p.m.\; Need a place after school to kick back and relax? T
+ eens ages 13 to 17 can drop by Teenz Place to enjoy games\, free Wi-Fi and
+  snacks while supplies last. Bring your friends! November 19\, 2026 04:00 
  PM - 05:00 PM 3845 N. Garland Ave.Garland\, TX 75040 https://www.garlandt 
  — More: https://letsdoitdallas.com/venue/north-garland-library/
 END:VEVENT

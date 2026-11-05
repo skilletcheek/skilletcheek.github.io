@@ -10,44 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:daring-greatly-goosechase|three-links-deep-ellum-dallas|7-00-pm-2026-11
- -04@letsdoitdallas.com
-DTSTAMP:20261105T010000Z
-DTSTART:20261105T010000Z
-DTEND:20261105T040000Z
-SUMMARY:Daring Greatly\, Goosechase
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=daring-greatly-goosechase
- %7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:jady|club-dada-dallas|8-00-pm-2026-11-04@letsdoitdallas.com
-DTSTAMP:20261105T020000Z
-DTSTART:20261105T020000Z
-DTEND:20261105T050000Z
-SUMMARY:Jady
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=jady%7Cclub-dada-dallas%7
- C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:wub-wednesday|three-links-deep-ellum-dallas|10-00-pm-2026-11-04@letsdoi
- tdallas.com
-DTSTAMP:20261105T040000Z
-DTSTART:20261105T040000Z
-DTEND:20261105T070000Z
-SUMMARY:Wub Wednesday
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=wub-wednesday%7Cthree-lin
- ks-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:ouija-macc|rbc-deep-ellum-dallas|6-00-pm-2026-11-05@letsdoitdallas.com
 DTSTAMP:20261106T000000Z
 DTSTART:20261106T000000Z
@@ -73,15 +35,15 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-05@letsdoitdall
+UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-05@letsdoitdall
  as.com
-DTSTAMP:20261106T050000Z
-DTSTART:20261106T050000Z
-DTEND:20261106T080000Z
+DTSTAMP:20261106T040000Z
+DTSTART:20261106T040000Z
+DTEND:20261106T070000Z
 SUMMARY:DJ JREAM
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-05&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C11-00-pm
+ ep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
@@ -163,19 +125,6 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:moon-darling-hearts-to-blame-tour|three-links-deep-ellum-dallas|7-30-pm
- -2026-11-07@letsdoitdallas.com
-DTSTAMP:20261108T013000Z
-DTSTART:20261108T013000Z
-DTEND:20261108T043000Z
-SUMMARY:Moon Darling: Hearts to Blame Tour
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=moon-darling-hearts-to-bl
- ame-tour%7Cthree-links-deep-ellum-dallas%7C7-30-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:noah-gundersen-21-event-|deep-ellum-art-co-dallas|7-30-pm-2026-11-07@le
  tsdoitdallas.com
 DTSTAMP:20261108T013000Z
@@ -187,6 +136,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-07&e=noah-gundersen-21-event-%
  7Cdeep-ellum-art-co-dallas%7C7-30-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-infamists-daughters-of-evil-henry-the-archer|three-links-deep-ellum
+ -dallas|7-30-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T013000Z
+DTSTART:20261108T013000Z
+DTEND:20261108T043000Z
+SUMMARY:The Infamists \, Daughters of Evil\, Henry The Archer
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=the-infamists-daughters-o
+ f-evil-henry-the-archer%7Cthree-links-deep-ellum-dallas%7C7-30-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:ceremony-with-slippers-world-peace|trees-dallas-dallas|8-00-pm-2026-11-
@@ -448,15 +410,15 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-12@letsdoitdall
+UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-12@letsdoitdall
  as.com
-DTSTAMP:20261113T050000Z
-DTSTART:20261113T050000Z
-DTEND:20261113T080000Z
+DTSTAMP:20261113T040000Z
+DTSTART:20261113T040000Z
+DTEND:20261113T070000Z
 SUMMARY:DJ JREAM
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-12&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C11-00-pm
+ ep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
@@ -747,15 +709,15 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-19@letsdoitdall
+UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-19@letsdoitdall
  as.com
-DTSTAMP:20261120T050000Z
-DTSTART:20261120T050000Z
-DTEND:20261120T080000Z
+DTSTAMP:20261120T040000Z
+DTSTART:20261120T040000Z
+DTEND:20261120T070000Z
 SUMMARY:DJ JREAM
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C11-00-pm
+ ep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
@@ -943,15 +905,15 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|11-00-pm-2026-11-26@letsdoitdall
+UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-26@letsdoitdall
  as.com
-DTSTAMP:20261127T050000Z
-DTSTART:20261127T050000Z
-DTEND:20261127T080000Z
+DTSTAMP:20261127T040000Z
+DTSTART:20261127T040000Z
+DTEND:20261127T070000Z
 SUMMARY:DJ JREAM
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-26&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C11-00-pm
+ ep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
@@ -1094,6 +1056,19 @@ SUMMARY:LETDOWN * LUCHIANO * SIKARUS * POE THE PASSENGER
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-04&e=letdown-luchiano-sikarus-
  poe-the-passenger%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:upon-a-burning-body|trees-dallas|doors-see-listing-2026-12-05@letsdoitd
+ allas.com
+DTSTAMP:20261205T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:UPON A BURNING BODY
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=upon-a-burning-body%7Ctre
+ es-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
 END:VEVENT

@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mark-paul|addison-improv-addison|7-30-pm-2026-11-04@letsdoitdallas.com
-DTSTAMP:20261105T013000Z
-DTSTART:20261105T013000Z
-DTEND:20261105T043000Z
-SUMMARY:Mark Paul
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=mark-paul%7Caddison-impro
- v-addison%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:addisons-a-list|addison-improv-addison|7-00-pm-2026-11-05@letsdoitdalla
  s.com
 DTSTAMP:20261106T010000Z
@@ -58,6 +46,20 @@ URL:https://letsdoitdallas.com/?date=2026-11-05&e=quiet-riot%7Clegacy-hall-
  plano%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:jj-pearce-spirit-night-at-bread-zeppelin|bread-zeppelin-richardson|4-00
+ -pm-11-00-pm-2026-11-06@letsdoitdallas.com
+DTSTAMP:20261106T220000Z
+DTSTART:20261106T220000Z
+DTEND:20261107T010000Z
+SUMMARY:JJ Pearce Spirit Night at Bread Zeppelin
+LOCATION:Bread Zeppelin · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-06&e=jj-pearce-spirit-night-at
+ -bread-zeppelin%7Cbread-zeppelin-richardson%7C4-00-pm-11-00-pm
+DESCRIPTION:Mention the Pearce Booster Club at checkout The PABC will recei
+ ve 15% of in-store sales to support all of our athletes and spirit teams. 
+ — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:jon-polar-bear-gonzalez|mic-drop-comedy-plano-plano|7-00-pm-2026-11-06@
@@ -476,5 +478,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-29&e=the-nutcracker%7Ceisemann
  -center-richardson%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:robyn-schall|addison-improv-addison|7-30-pm-2026-12-03@letsdoitdallas.c
+ om
+DTSTAMP:20261204T013000Z
+DTSTART:20261204T013000Z
+DTEND:20261204T043000Z
+SUMMARY:Robyn Schall
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=robyn-schall%7Caddison-im
+ prov-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
 END:VEVENT
 END:VCALENDAR

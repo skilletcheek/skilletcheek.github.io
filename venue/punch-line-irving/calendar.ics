@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dean-lewis-friends-a-night-of-stand-up-comedy|punch-line-irving-irving|
- 7-30-pm-2026-11-04@letsdoitdallas.com
-DTSTAMP:20261105T013000Z
-DTSTART:20261105T013000Z
-DTEND:20261105T043000Z
-SUMMARY:Dean Lewis & Friends - A Night of Stand-Up Comedy
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-04&e=dean-lewis-friends-a-nigh
- t-of-stand-up-comedy%7Cpunch-line-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:vladimir-caamano|punch-line-irving-irving|7-30-pm-2026-11-05@letsdoitda
  llas.com
 DTSTAMP:20261106T013000Z
@@ -381,6 +368,19 @@ DTEND:20261203T043000Z
 SUMMARY:Jeff Dean
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-12-02&e=jeff-dean%7Cpunch-line-ir
+ ving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:josh-wolf|punch-line-irving-irving|7-30-pm-2026-12-03@letsdoitdallas.co
+ m
+DTSTAMP:20261204T013000Z
+DTSTART:20261204T013000Z
+DTEND:20261204T043000Z
+SUMMARY:Josh Wolf
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=josh-wolf%7Cpunch-line-ir
  ving-irving%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/

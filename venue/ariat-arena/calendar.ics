@@ -138,4 +138,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-01&e=106-1-kiss-fm-s-jingle-ba
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/ariat-arena/
 END:VEVENT
+BEGIN:VEVENT
+UID:critical-role-live-fort-worth|ariat-arena-fort-worth|7-00-pm-2026-12-03
+ @letsdoitdallas.com
+DTSTAMP:20261204T010000Z
+DTSTART:20261204T010000Z
+DTEND:20261204T040000Z
+SUMMARY:CRITICAL ROLE LIVE: FORT WORTH
+LOCATION:Ariat Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=critical-role-live-fort-w
+ orth%7Cariat-arena-fort-worth%7C7-00-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/ariat-arena/
+END:VEVENT
 END:VCALENDAR
