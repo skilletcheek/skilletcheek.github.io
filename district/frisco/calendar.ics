@@ -11,31 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
- frisco|see-details-2026-11-05@letsdoitdallas.com
-DTSTAMP:20261105T000000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:"The Cottage" by Theatre Frisco
-LOCATION:Black Box Theater · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=-the-cottage-by-theatre-f
- risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
-DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
- strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:plaza-live-|8802-4th-street-frisco|06-00-pm-2026-11-05@letsdoitdallas.c
- om
-DTSTAMP:20261106T000000Z
-DTSTART:20261106T000000Z
-DTEND:20261106T030000Z
-SUMMARY:Plaza Live!
-LOCATION:8802 4th Street · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=plaza-live-%7C8802-4th-st
- reet-frisco%7C06-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
  frisco|see-details-2026-11-06@letsdoitdallas.com
 DTSTAMP:20261106T000000Z
 DTSTART;VALUE=DATE:20261106

@@ -9,38 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tax-deductions-every-self-employed-person-should-know|central-library-g
- arland|05-30-pm-2026-11-05@letsdoitdallas.com
-DTSTAMP:20261105T233000Z
-DTSTART:20261105T233000Z
-DTEND:20261106T023000Z
-SUMMARY:Tax Deductions Every Self-Employed Person Should Know
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=tax-deductions-every-self
- -employed-person-should-know%7Ccentral-library-garland%7C05-30-pm
-DESCRIPTION:5:30 p.m.\; Are you a current or aspiring entrepreneur? Expand 
- your financial awareness and learn how self-employment impacts your taxes.
-  This presentation will focus on qualified business expense deductions and
-  tips for compiling your documents to be ready for tax season. Present —
-  More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:game-night-ages-18-|central-library-garland|06-00-pm-2026-11-05@letsdoi
- tdallas.com
-DTSTAMP:20261106T000000Z
-DTSTART:20261106T000000Z
-DTEND:20261106T030000Z
-SUMMARY:Game Night (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=game-night-ages-18-%7Ccen
- tral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Roll the dice\, draw your cards and join us for Gam
- e Night at the Central Library! Whether you’re a strategy master\, casua
- l player or just looking for a fun night out\, this adults-only evening is
-  the perfect chance to relax and connect with fellow gamers. Enjoy a varie
- t — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:basic-computer-practice-ages-18-|central-library-garland|10-00-am-2026-
  11-06@letsdoitdallas.com
 DTSTAMP:20261106T160000Z
@@ -599,5 +567,21 @@ DESCRIPTION:11:00 a.m.\; Acompáñenos para unos cuentos y cantos mientras
  cesarias para leer. November 19\, 2026 11:00 AM - 12:00 PM 625 Austin St.G
  arland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12956/639227
  46 — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:basic-computer-practice-ages-18-|central-library-garland|10-00-am-2026-
+ 11-20@letsdoitdallas.com
+DTSTAMP:20261120T160000Z
+DTSTART:20261120T160000Z
+DTEND:20261120T190000Z
+SUMMARY:Basic Computer Practice (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=basic-computer-practice-a
+ ges-18-%7Ccentral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Get basic computer practice every Friday morning. 
+ Learn the coordination skills needed to use a computer independently with 
+ confidence. Technology accessories like the mouse and keyboard take time a
+ nd practice to master\; that’s why our computer classes are held almost 
+ — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

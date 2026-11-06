@@ -185,17 +185,16 @@ DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT
 BEGIN:VEVENT
-UID:letdown-luchiano-sikarus-poe-the-passenger|trees-dallas|doors-see-listi
- ng-2026-12-04@letsdoitdallas.com
-DTSTAMP:20261204T000000Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:LETDOWN * LUCHIANO * SIKARUS * POE THE PASSENGER
+UID:letdown|trees-dallas|8-00-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T020000Z
+DTSTART:20261205T020000Z
+DTEND:20261205T050000Z
+SUMMARY:LETDOWN
 LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-12-04&e=letdown-luchiano-sikarus-
- poe-the-passenger%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=letdown%7Ctrees-dallas%7C
+ 8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
 UID:upon-a-burning-body|trees-dallas|doors-see-listing-2026-12-05@letsdoitd
@@ -207,6 +206,19 @@ SUMMARY:UPON A BURNING BODY
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=upon-a-burning-body%7Ctre
  es-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:westside-boogie|trees-dallas|doors-see-listing-2026-12-06@letsdoitdalla
+ s.com
+DTSTAMP:20261206T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:WESTSIDE BOOGIE
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=westside-boogie%7Ctrees-d
+ allas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT

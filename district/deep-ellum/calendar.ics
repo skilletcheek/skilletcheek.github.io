@@ -10,44 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ouija-macc|rbc-deep-ellum-dallas|6-00-pm-2026-11-05@letsdoitdallas.com
-DTSTAMP:20261106T000000Z
-DTSTART:20261106T000000Z
-DTEND:20261106T030000Z
-SUMMARY:Ouija Macc
-LOCATION:RBC Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=ouija-macc%7Crbc-deep-ell
- um-dallas%7C6-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dead-on-a-sunday|deep-ellum-art-co-dallas|8-00-pm-2026-11-05@letsdoitda
- llas.com
-DTSTAMP:20261106T020000Z
-DTSTART:20261106T020000Z
-DTEND:20261106T050000Z
-SUMMARY:Dead on a Sunday
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=dead-on-a-sunday%7Cdeep-e
- llum-art-co-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-05@letsdoitdall
- as.com
-DTSTAMP:20261106T040000Z
-DTSTART:20261106T040000Z
-DTEND:20261106T070000Z
-SUMMARY:DJ JREAM
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:sparkbird-wrongbird|three-links-deep-ellum-dallas|7-00-pm-2026-11-06@le
  tsdoitdallas.com
 DTSTAMP:20261107T010000Z
@@ -1048,17 +1010,45 @@ DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:letdown-luchiano-sikarus-poe-the-passenger|trees-dallas|doors-see-listi
- ng-2026-12-04@letsdoitdallas.com
-DTSTAMP:20261204T000000Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:LETDOWN * LUCHIANO * SIKARUS * POE THE PASSENGER
+UID:catch-your-breath-16-and-under-with-parent-or-legal-guardian-|the-studi
+ o-at-the-bomb-factory-dallas|7-00-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T010000Z
+DTSTART:20261205T010000Z
+DTEND:20261205T040000Z
+SUMMARY:Catch Your Breath (16 and Under with Parent or Legal Guardian)
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=catch-your-breath-16-and-
+ under-with-parent-or-legal-guardian-%7Cthe-studio-at-the-bomb-factory-dall
+ as%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:letdown|trees-dallas|8-00-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T020000Z
+DTSTART:20261205T020000Z
+DTEND:20261205T050000Z
+SUMMARY:LETDOWN
 LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-12-04&e=letdown-luchiano-sikarus-
- poe-the-passenger%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=letdown%7Ctrees-dallas%7C
+ 8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:shane-smith-and-the-saints-16-and-under-with-parent-or-legal-guardian-|
+ the-bomb-factory-dallas|8-00-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T020000Z
+DTSTART:20261205T020000Z
+DTEND:20261205T050000Z
+SUMMARY:Shane Smith and the Saints (16 and Under with Parent or Legal Guard
+ ian)
+LOCATION:The Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=shane-smith-and-the-saint
+ s-16-and-under-with-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C
+ 8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:upon-a-burning-body|trees-dallas|doors-see-listing-2026-12-05@letsdoitd
@@ -1070,6 +1060,19 @@ SUMMARY:UPON A BURNING BODY
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=upon-a-burning-body%7Ctre
  es-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:westside-boogie|trees-dallas|doors-see-listing-2026-12-06@letsdoitdalla
+ s.com
+DTSTAMP:20261206T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:WESTSIDE BOOGIE
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=westside-boogie%7Ctrees-d
+ allas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
 END:VEVENT

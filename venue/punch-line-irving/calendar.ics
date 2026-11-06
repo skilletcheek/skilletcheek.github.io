@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:vladimir-caamano|punch-line-irving-irving|7-30-pm-2026-11-05@letsdoitda
- llas.com
-DTSTAMP:20261106T013000Z
-DTSTART:20261106T013000Z
-DTEND:20261106T043000Z
-SUMMARY:Vladimir Caamano
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=vladimir-caamano%7Cpunch-
- line-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:vladimir-caamano|punch-line-irving-irving|7-00-pm-2026-11-06@letsdoitda
  llas.com
 DTSTAMP:20261107T010000Z
@@ -382,6 +369,32 @@ SUMMARY:Josh Wolf
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-12-03&e=josh-wolf%7Cpunch-line-ir
  ving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:josh-wolf|punch-line-irving-irving|7-00-pm-2026-12-04@letsdoitdallas.co
+ m
+DTSTAMP:20261205T010000Z
+DTSTART:20261205T010000Z
+DTEND:20261205T040000Z
+SUMMARY:Josh Wolf
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=josh-wolf%7Cpunch-line-ir
+ ving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:josh-wolf|punch-line-irving-irving|9-15-pm-2026-12-04@letsdoitdallas.co
+ m
+DTSTAMP:20261205T031500Z
+DTSTART:20261205T031500Z
+DTEND:20261205T061500Z
+SUMMARY:Josh Wolf
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=josh-wolf%7Cpunch-line-ir
+ ving-irving%7C9-15-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT

@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bombargo|am-fm-dallas-dallas|7-00-pm-2026-11-05@letsdoitdallas.com
-DTSTAMP:20261106T010000Z
-DTSTART:20261106T010000Z
-DTEND:20261106T040000Z
-SUMMARY:Bombargo
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=bombargo%7Cam-fm-dallas-d
- allas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/am-fm-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:moonshine-bandits|am-fm-dallas-dallas|7-00-pm-2026-11-06@letsdoitdallas
  .com
 DTSTAMP:20261107T010000Z

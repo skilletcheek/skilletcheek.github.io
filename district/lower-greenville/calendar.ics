@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-damned-final-damnation-50|granada-theater-tx-dallas|7-00-pm-2026-11
- -05@letsdoitdallas.com
-DTSTAMP:20261106T010000Z
-DTSTART:20261106T010000Z
-DTEND:20261106T040000Z
-SUMMARY:The Damned - Final Damnation 50
-LOCATION:Granada Theater - TX · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=the-damned-final-damnatio
- n-50%7Cgranada-theater-tx-dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:shadowgrass|granada-theater-dallas-dallas|8-00-pm-2026-11-06@letsdoitda
  llas.com
 DTSTAMP:20261107T020000Z
@@ -160,16 +147,16 @@ DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
  istrict/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
-UID:davide-de-pierro-early-show|granada-theater-lower-greenville-dallas|doo
- rs-see-listing-2026-12-05@letsdoitdallas.com
-DTSTAMP:20261205T000000Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Davide De Pierro - EARLY SHOW
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-12-05&e=davide-de-pierro-early-sh
- ow%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
- istrict/lower-greenville/
+UID:davide-de-pierro|granada-theater-tx-dallas|3-00-pm-2026-12-05@letsdoitd
+ allas.com
+DTSTAMP:20261205T210000Z
+DTSTART:20261205T210000Z
+DTEND:20261206T000000Z
+SUMMARY:Davide De Pierro
+LOCATION:Granada Theater - TX · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=davide-de-pierro%7Cgranad
+ a-theater-tx-dallas%7C3-00-pm
+DESCRIPTION:Hobby/Special Interest Expos event via Ticketmaster. — More: 
+ https://letsdoitdallas.com/district/lower-greenville/
 END:VEVENT
 END:VCALENDAR

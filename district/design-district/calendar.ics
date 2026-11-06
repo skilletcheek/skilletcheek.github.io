@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bombargo|am-fm-dallas-dallas|7-00-pm-2026-11-05@letsdoitdallas.com
-DTSTAMP:20261106T010000Z
-DTSTART:20261106T010000Z
-DTEND:20261106T040000Z
-SUMMARY:Bombargo
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=bombargo%7Cam-fm-dallas-d
- allas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:ely-oaks|ductwork-at-silo-dallas-dallas|9-00-pm-2026-11-05@letsdoitdall
- as.com
-DTSTAMP:20261106T030000Z
-DTSTART:20261106T030000Z
-DTEND:20261106T060000Z
-SUMMARY:Ely Oaks
-LOCATION:Ductwork at SILO Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=ely-oaks%7Cductwork-at-si
- lo-dallas-dallas%7C9-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:grateful-shred|the-echo-lounge-music-hall-dallas|7-00-pm-2026-11-06@let
  sdoitdallas.com
 DTSTAMP:20261107T010000Z
@@ -578,5 +553,30 @@ URL:https://letsdoitdallas.com/?date=2026-12-03&e=samplifire-18-and-over-%7
  Csilo-dallas%7C9-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-erre-bourne|the-echo-lounge-music-hall-dallas|7-00-pm-2026-12-04@let
+ sdoitdallas.com
+DTSTAMP:20261205T010000Z
+DTSTART:20261205T010000Z
+DTEND:20261205T040000Z
+SUMMARY:Pi'erre Bourne
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=pi-erre-bourne%7Cthe-echo
+ -lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-grime-ages-18-|silo-dallas|9-00-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T030000Z
+DTSTART:20261205T030000Z
+DTEND:20261205T060000Z
+SUMMARY:RL GRIME - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=rl-grime-ages-18-%7Csilo-
+ dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
 END:VEVENT
 END:VCALENDAR

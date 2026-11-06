@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bombargo|ferris-wheelers-backyard-and-bbq-dallas|7-00-pm-2026-11-05@let
- sdoitdallas.com
-DTSTAMP:20261106T010000Z
-DTSTART:20261106T010000Z
-DTEND:20261106T040000Z
-SUMMARY:BOMBARGO
-LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=bombargo%7Cferris-wheeler
- s-backyard-and-bbq-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/ferris-wheelers-backyard-and-bbq/
-END:VEVENT
-BEGIN:VEVENT
 UID:moonshine-bandits|ferris-wheelers-backyard-and-bbq-dallas|7-00-pm-2026-
  11-06@letsdoitdallas.com
 DTSTAMP:20261107T010000Z

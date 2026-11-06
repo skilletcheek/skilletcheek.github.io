@@ -9,21 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:smu-mustangs-mens-basketball-vs-virginia-military-institute-mens-basket
- ball|moody-coliseum-dallas|7-00-pm-2026-11-05@letsdoitdallas.com
-DTSTAMP:20261106T010000Z
-DTSTART:20261106T010000Z
-DTEND:20261106T040000Z
-SUMMARY:SMU Mustangs Mens Basketball vs. Virginia Military Institute Mens B
- asketball
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=smu-mustangs-mens-basketb
- all-vs-virginia-military-institute-mens-basketball%7Cmoody-coliseum-dallas
- %7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-north-carolina-tar-heels-womens-volle
  yball|moody-coliseum-dallas|12-00-pm-2026-11-06@letsdoitdallas.com
 DTSTAMP:20261106T180000Z
@@ -136,6 +121,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-15&e=smu-mustangs-womens-volle
  as%7C1-00-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:nicholls-colonels-at-smu-mustangs-womens-basketball|moody-coliseum-dall
+ as|6-00-pm-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261116T000000Z
+DTSTART:20261116T000000Z
+DTEND:20261116T030000Z
+SUMMARY:Nicholls Colonels at SMU Mustangs Womens Basketball
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=nicholls-colonels-at-smu-
+ mustangs-womens-basketball%7Cmoody-coliseum-dallas%7C6-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-mustangs-mens-basketball-vs-oral-roberts-golden-eagles-mens-basketb

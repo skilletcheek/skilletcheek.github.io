@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-05@letsdoitdall
- as.com
-DTSTAMP:20261106T040000Z
-DTSTART:20261106T040000Z
-DTEND:20261106T070000Z
-SUMMARY:DJ JREAM
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:sparkbird-wrongbird|three-links-deep-ellum-dallas|7-00-pm-2026-11-06@le
  tsdoitdallas.com
 DTSTAMP:20261107T010000Z

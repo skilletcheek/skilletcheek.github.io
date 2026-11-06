@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:worlds-2026-quarters-3|credit-union-of-texas-event-center-allen|4-00-pm
- -2026-11-05@letsdoitdallas.com
-DTSTAMP:20261105T220000Z
-DTSTART:20261105T220000Z
-DTEND:20261106T010000Z
-SUMMARY:Worlds 2026 - Quarters 3
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=worlds-2026-quarters-3%7C
- credit-union-of-texas-event-center-allen%7C4-00-pm
-DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/credit-union-of-texas-event-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:worlds-2026-quarters-4|credit-union-of-texas-event-center-allen|4-00-pm
  -2026-11-06@letsdoitdallas.com
 DTSTAMP:20261106T220000Z
@@ -202,6 +189,19 @@ LOCATION:Credit Union of Texas Event Center · Allen
 URL:https://letsdoitdallas.com/?date=2026-12-03&e=allen-americans-vs-kansas
  -city-mavericks-school-day-game%7Ccredit-union-of-texas-event-center-allen
  %7C10-00-am
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/credit-union-of-texas-event-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:allen-americans-vs-tahoe-knight-monsters|credit-union-of-texas-event-ce
+ nter-allen|7-00-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T010000Z
+DTSTART:20261205T010000Z
+DTEND:20261205T040000Z
+SUMMARY:Allen Americans vs Tahoe Knight Monsters
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=allen-americans-vs-tahoe-
+ knight-monsters%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/credit-union-of-texas-event-center/
 END:VEVENT

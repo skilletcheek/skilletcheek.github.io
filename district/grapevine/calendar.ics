@@ -10,33 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mahjong-learn-play|grapevine|12-30-pm-2026-11-05@letsdoitdallas.com
-DTSTAMP:20261105T183000Z
-DTSTART:20261105T183000Z
-DTEND:20261105T213000Z
-SUMMARY:Mahjong: Learn & Play
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=mahjong-learn-play%7Cgrap
- evine%7C12-30-pm
-DESCRIPTION:Learn to Play Mahjong Thursdays 12:30-4:30. Beginners\, please 
- arrive at 12:30. Open play tables available on a first come first serve ba
- sis\, Space is Limited. Ages 18 and up. November 5\, 2026 12:30 PM - 04:30
-  PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:kids-crochet-club-ages-7-12-|grapevine|04-30-pm-2026-11-05@letsdoitdall
- as.com
-DTSTAMP:20261105T223000Z
-DTSTART:20261105T223000Z
-DTEND:20261106T013000Z
-SUMMARY:Kids Crochet Club (ages 7-12)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-05&e=kids-crochet-club-ages-7-
- 12-%7Cgrapevine%7C04-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
  e-tx-76051-united-states|8-00-am-2026-11-06@letsdoitdallas.com
 DTSTAMP:20261106T140000Z
@@ -98,6 +71,23 @@ DESCRIPTION:Open Play Fridays 12:30-4:30. Tables available on a first come
  s and bags. Ages 18 and up. November 6\, 2026 12:30 PM - 04:30 PM Grapevin
  e\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17593/63920 
  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
+ e-tx-76051-united-states|8-00-am-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T140000Z
+DTSTART:20261107T140000Z
+DTEND:20261107T170000Z
+SUMMARY:Phenomenomaly at Meow Wolf
+LOCATION:Meow Wolf · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=phenomenomaly-at-meow-wol
+ f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
+ C8-00-am
+DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
+  live immersive performance series inside The Real Unreal. Blending intera
+ ctive theater with a rotating lineup of North Texas talent\, the experienc
+ e unfolds around guests as they explore\, featuring music\, dance\, comedy
+ \, — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:stitchcraft-circle-18-|grapevine|10-00-am-2026-11-07@letsdoitdallas.com
@@ -863,6 +853,36 @@ DESCRIPTION:Step into a sprawling world of celestial magic\, political intr
  igue\, and ancient prophecies with New York Times bestselling author Rebec
  ca Roanhorse as we dive deep into her acclaimed Between Earth and Sky tril
  ogy. Black Sun\, Fevered Star\, and Mirrored Heavens are inspired by the 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-studio-18-|grapevine|10-00-am-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261120T160000Z
+DTSTART:20261120T160000Z
+DTEND:20261120T190000Z
+SUMMARY:Art Studio (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=art-studio-18-%7Cgrapevin
+ e%7C10-00-am
+DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
+ our own projects or start something new. Bring your own project and ideas!
+  This is a welcoming space for creatives 18+. *Library Card Required* Nove
+ mber 20\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grape 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:mahjong-open-play|grapevine|12-30-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261120T183000Z
+DTSTART:20261120T183000Z
+DTEND:20261120T213000Z
+SUMMARY:Mahjong: Open Play
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=mahjong-open-play%7Cgrape
+ vine%7C12-30-pm
+DESCRIPTION:Open Play Fridays 12:30-4:30. Tables available on a first come 
+ first serve basis\, Space is Limited. Players\, please bring your own card
+ s and bags. Ages 18 and up. November 20\, 2026 12:30 PM - 04:30 PM Grapevi
+ ne\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17595/6392 
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 END:VCALENDAR
