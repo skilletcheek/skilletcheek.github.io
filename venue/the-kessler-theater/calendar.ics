@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:paula-cole-w-rett-madison|the-kessler-dallas|8-00-pm-2026-11-06@letsdoi
- tdallas.com
-DTSTAMP:20261107T020000Z
-DTSTART:20261107T020000Z
-DTEND:20261107T050000Z
-SUMMARY:Paula Cole w/ Rett Madison
-LOCATION:The Kessler · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=paula-cole-w-rett-madison
- %7Cthe-kessler-dallas%7C8-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/the-kessler-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-army-the-navy|the-kessler-dallas|8-00-pm-2026-11-07@letsdoitdallas.
  com
 DTSTAMP:20261108T020000Z
@@ -126,18 +113,17 @@ DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:bahamas-industrial-sport-sound-with-special-guest-sister-ray|the-kessle
- r-theater-oak-cliff-dallas|doors-see-listing-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261118T000000Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Bahamas: Industrial Sport & Sound with special guest Sister Ray
+UID:bahamas|the-kessler-theater-dallas|8-00-pm-2026-11-18@letsdoitdallas.co
+ m
+DTSTAMP:20261119T020000Z
+DTSTART:20261119T020000Z
+DTEND:20261119T050000Z
+SUMMARY:Bahamas
 LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=bahamas-industrial-sport-
- sound-with-special-guest-sister-ray%7Cthe-kessler-theater-oak-cliff-dallas
- %7Cdoors-see-listing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/venue/the-kessler-theater/
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=bahamas%7Cthe-kessler-the
+ ater-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:north-mississippi-allstars|the-kessler-theater-oak-cliff-dallas|doors-s
@@ -218,19 +204,15 @@ DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:kxt-91-7-presents-jd-mcpherson-socks-a-rock-n-roll-christmas-tour|the-k
- essler-theater-oak-cliff-dallas|doors-see-listing-2026-12-05@letsdoitdalla
- s.com
-DTSTAMP:20261205T000000Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:KXT 91.7 presents JD McPherson - SOCKS: A Rock N’ Roll Christmas 
- Tour
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-12-05&e=kxt-91-7-presents-jd-mcph
- erson-socks-a-rock-n-roll-christmas-tour%7Cthe-kessler-theater-oak-cliff-d
- allas%7Cdoors-see-listing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/venue/the-kessler-theater/
+UID:jd-mcpherson|the-kessler-dallas|8-00-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T020000Z
+DTSTART:20261206T020000Z
+DTEND:20261206T050000Z
+SUMMARY:JD McPherson
+LOCATION:The Kessler · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=jd-mcpherson%7Cthe-kessle
+ r-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/the-kessler-theater/
 END:VEVENT
 END:VCALENDAR

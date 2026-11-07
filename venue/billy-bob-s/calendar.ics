@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:giovannie-and-the-hired-guns-18-and-over-|billy-bob-s-fort-worth|10-00-
- pm-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261107T040000Z
-DTSTART:20261107T040000Z
-DTEND:20261107T070000Z
-SUMMARY:Giovannie and The Hired Guns (18 and Over)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=giovannie-and-the-hired-g
- uns-18-and-over-%7Cbilly-bob-s-fort-worth%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/billy-bob-s/
-END:VEVENT
-BEGIN:VEVENT
 UID:ian-munsick-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-11-07@let
  sdoitdallas.com
 DTSTAMP:20261108T040000Z
@@ -187,6 +174,19 @@ SUMMARY:Neal McCoy - Ages 18+
 LOCATION:Billy Bob's · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-04&e=neal-mccoy-ages-18-%7Cbil
  ly-bob-s-fort-worth%7C10-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:dustin-lynch-ages-18-|billy-bob-s-fort-worth|10-00-pm-2026-12-05@letsdo
+ itdallas.com
+DTSTAMP:20261206T040000Z
+DTSTART:20261206T040000Z
+DTEND:20261206T070000Z
+SUMMARY:Dustin Lynch - Ages 18+
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=dustin-lynch-ages-18-%7Cb
+ illy-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/billy-bob-s/
 END:VEVENT

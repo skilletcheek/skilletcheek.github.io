@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:franco-escamilla|texas-trust-cu-theatre-grand-prairie|8-30-pm-2026-11-0
- 6@letsdoitdallas.com
-DTSTAMP:20261107T023000Z
-DTSTART:20261107T023000Z
-DTEND:20261107T053000Z
-SUMMARY:Franco Escamilla
-LOCATION:Texas Trust CU Theatre · Grand Prairie
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=franco-escamilla%7Ctexas-
- trust-cu-theatre-grand-prairie%7C8-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/texas-trust-cu-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:stray-cats|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-11-09@lets
  doitdallas.com
 DTSTAMP:20261110T020000Z
@@ -98,5 +85,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-04&e=chris-tucker%7Ctexas-trus
  t-cu-theatre-grand-prairie%7C8-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/texas-trust-cu-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:sam-barber|texas-trust-cu-theatre-grand-prairie|7-00-pm-2026-12-05@lets
+ doitdallas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Sam Barber
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=sam-barber%7Ctexas-trust-
+ cu-theatre-grand-prairie%7C7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/texas-trust-cu-theatre/
 END:VEVENT
 END:VCALENDAR

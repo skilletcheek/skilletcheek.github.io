@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-mavericks-vs-utah-jazz|american-airlines-center-dallas|7-00-pm-2
- 026-11-06@letsdoitdallas.com
-DTSTAMP:20261107T010000Z
-DTSTART:20261107T010000Z
-DTEND:20261107T040000Z
-SUMMARY:Dallas Mavericks vs. Utah Jazz
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=dallas-mavericks-vs-utah-
- jazz%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-stars-vs-san-jose-sharks|american-airlines-center-dallas|7-00-pm
  -2026-11-07@letsdoitdallas.com
 DTSTAMP:20261108T010000Z

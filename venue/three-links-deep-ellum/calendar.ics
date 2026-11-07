@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sparkbird-wrongbird|three-links-deep-ellum-dallas|7-00-pm-2026-11-06@le
- tsdoitdallas.com
-DTSTAMP:20261107T010000Z
-DTSTART:20261107T010000Z
-DTEND:20261107T040000Z
-SUMMARY:Sparkbird\, Wrongbird
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=sparkbird-wrongbird%7Cthr
- ee-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
- -pm-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261107T040000Z
-DTSTART:20261107T040000Z
-DTEND:20261107T070000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-infamists-daughters-of-evil-henry-the-archer|three-links-deep-ellum
  -dallas|7-30-pm-2026-11-07@letsdoitdallas.com
 DTSTAMP:20261108T013000Z
@@ -503,5 +477,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-30&e=specialized-karaoke-night
  -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:babe-haven-spaced-scarlet-demore|three-links-deep-ellum-dallas|8-00-pm-
+ 2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T020000Z
+DTSTART:20261206T020000Z
+DTEND:20261206T050000Z
+SUMMARY:Babe Haven\, Spaced\, Scarlet Demore
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=babe-haven-spaced-scarlet
+ -demore%7Cthree-links-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

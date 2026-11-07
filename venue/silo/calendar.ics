@@ -9,31 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:eric-prydz-ages-18-|silo-dallas|9-00-pm-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261107T030000Z
-DTSTART:20261107T030000Z
-DTEND:20261107T060000Z
-SUMMARY:ERIC PRYDZ - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=eric-prydz-ages-18-%7Csil
- o-dallas%7C9-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
-UID:planet-perreo-18-|silo-dallas-dallas|11-00-pm-2026-11-06@letsdoitdallas
- .com
-DTSTAMP:20261107T050000Z
-DTSTART:20261107T050000Z
-DTEND:20261107T080000Z
-SUMMARY:Planet Perreo (18+)
-LOCATION:SILO - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=planet-perreo-18-%7Csilo-
- dallas-dallas%7C11-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:jessica-audiffred-18-and-over-|silo-dallas|9-00-pm-2026-11-07@letsdoitd
  allas.com
 DTSTAMP:20261108T030000Z
@@ -217,5 +192,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-04&e=rl-grime-ages-18-%7Csilo-
  dallas%7C9-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:rupaul-ages-18-|silo-dallas|9-00-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T030000Z
+DTSTART:20261206T030000Z
+DTEND:20261206T060000Z
+SUMMARY:RUPAUL - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=rupaul-ages-18-%7Csilo-da
+ llas%7C9-00-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/silo/
 END:VEVENT
 END:VCALENDAR

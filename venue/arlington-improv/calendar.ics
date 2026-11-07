@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:shuler-king|arlington-improv-arlington|7-30-pm-2026-11-06@letsdoitdalla
- s.com
-DTSTAMP:20261107T013000Z
-DTSTART:20261107T013000Z
-DTEND:20261107T043000Z
-SUMMARY:Shuler King
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=shuler-king%7Carlington-i
- mprov-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:shuler-king|arlington-improv-arlington|9-45-pm-2026-11-06@letsdoitdalla
- s.com
-DTSTAMP:20261107T034500Z
-DTSTART:20261107T034500Z
-DTEND:20261107T064500Z
-SUMMARY:Shuler King
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=shuler-king%7Carlington-i
- mprov-arlington%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:shuler-king|arlington-improv-arlington|7-00-pm-2026-11-07@letsdoitdalla
  s.com
 DTSTAMP:20261108T010000Z
@@ -317,6 +291,58 @@ SUMMARY:Tacarra Williams
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-12-04&e=tacarra-williams%7Carling
  ton-improv-arlington%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:tacarra-williams|arlington-improv-arlington|7-00-pm-2026-12-05@letsdoit
+ dallas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Tacarra Williams
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=tacarra-williams%7Carling
+ ton-improv-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:tacarra-williams|arlington-improv-arlington|9-30-pm-2026-12-05@letsdoit
+ dallas.com
+DTSTAMP:20261206T033000Z
+DTSTART:20261206T033000Z
+DTEND:20261206T063000Z
+SUMMARY:Tacarra Williams
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=tacarra-williams%7Carling
+ ton-improv-arlington%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:flip-phone-dolly-parton-christmas-drag-brunch|arlington-improv-arlingto
+ n|2-00-pm-2026-12-06@letsdoitdallas.com
+DTSTAMP:20261206T200000Z
+DTSTART:20261206T200000Z
+DTEND:20261206T230000Z
+SUMMARY:Flip Phone: Dolly Parton Christmas Drag Brunch
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=flip-phone-dolly-parton-c
+ hristmas-drag-brunch%7Carlington-improv-arlington%7C2-00-pm
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:-the-parents-have-entered-the-chat-comedy-jam|arlington-improv-arlingto
+ n|6-00-pm-2026-12-06@letsdoitdallas.com
+DTSTAMP:20261207T000000Z
+DTSTART:20261207T000000Z
+DTEND:20261207T030000Z
+SUMMARY:"The Parents Have Entered the Chat" Comedy Jam
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=-the-parents-have-entered
+ -the-chat-comedy-jam%7Carlington-improv-arlington%7C6-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

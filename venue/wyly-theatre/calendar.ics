@@ -125,4 +125,30 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=a-christmas-carol%7Cwyly-
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/wyly-theatre/
 END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|8-00-pm-2026-12-05@letsdoitdallas
+ .com
+DTSTAMP:20261206T020000Z
+DTSTART:20261206T020000Z
+DTEND:20261206T050000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C8-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/wyly-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-12-06@letsdoitdallas
+ .com
+DTSTAMP:20261206T200000Z
+DTSTART:20261206T200000Z
+DTEND:20261206T230000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/wyly-theatre/
+END:VEVENT
 END:VCALENDAR

@@ -10,34 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jonathan-van-ness|margot-and-bill-winspear-opera-house-dallas|7-00-pm-2
- 026-11-06@letsdoitdallas.com
-DTSTAMP:20261107T010000Z
-DTSTART:20261107T010000Z
-DTEND:20261107T040000Z
-SUMMARY:Jonathan Van Ness
-LOCATION:Margot and Bill Winspear Opera House · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=jonathan-van-ness%7Cmargo
- t-and-bill-winspear-opera-house-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/arts-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-symphony-orchestra-presents-ellington-strayhorn-and-gershwin|mor
- ton-meyerson-symphony-center-dallas|7-30-pm-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261107T013000Z
-DTSTART:20261107T013000Z
-DTEND:20261107T043000Z
-SUMMARY:Dallas Symphony Orchestra Presents Ellington\, Strayhorn and Gershw
- in
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=dallas-symphony-orchestra
- -presents-ellington-strayhorn-and-gershwin%7Cmorton-meyerson-symphony-cent
- er-dallas%7C7-30-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/district/arts-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-ellington-strayhorn-and-gershwin|mor
  ton-meyerson-symphony-center-dallas|7-30-pm-2026-11-07@letsdoitdallas.com
 DTSTAMP:20261108T013000Z
@@ -223,6 +195,38 @@ LOCATION:Morton Meyerson Symphony Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-04&e=dallas-symphony-orchestra
  -presents-disney-s-the-muppet-christmas-carol-in-concert-live-to-film%7Cmo
  rton-meyerson-symphony-center-dallas%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-disney-s-the-muppet-christmas-carol-
+ in-concert-live-to-film|morton-meyerson-symphony-center-dallas|7-30-pm-202
+ 6-12-05@letsdoitdallas.com
+DTSTAMP:20261206T013000Z
+DTSTART:20261206T013000Z
+DTEND:20261206T043000Z
+SUMMARY:Dallas Symphony Orchestra Presents Disney's The Muppet Christmas Ca
+ rol in Concert Live to Film
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=dallas-symphony-orchestra
+ -presents-disney-s-the-muppet-christmas-carol-in-concert-live-to-film%7Cmo
+ rton-meyerson-symphony-center-dallas%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presents-disney-s-the-muppet-christmas-carol-
+ in-concert-live-to-film|morton-meyerson-symphony-center-dallas|2-00-pm-202
+ 6-12-06@letsdoitdallas.com
+DTSTAMP:20261206T200000Z
+DTSTART:20261206T200000Z
+DTEND:20261206T230000Z
+SUMMARY:Dallas Symphony Orchestra Presents Disney's The Muppet Christmas Ca
+ rol in Concert Live to Film
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=dallas-symphony-orchestra
+ -presents-disney-s-the-muppet-christmas-carol-in-concert-live-to-film%7Cmo
+ rton-meyerson-symphony-center-dallas%7C2-00-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT

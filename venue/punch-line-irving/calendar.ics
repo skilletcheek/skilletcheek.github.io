@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:vladimir-caamano|punch-line-irving-irving|7-00-pm-2026-11-06@letsdoitda
- llas.com
-DTSTAMP:20261107T010000Z
-DTSTART:20261107T010000Z
-DTEND:20261107T040000Z
-SUMMARY:Vladimir Caamano
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=vladimir-caamano%7Cpunch-
- line-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:comedy-allstars|punch-line-irving-irving|9-30-pm-2026-11-06@letsdoitdal
- las.com
-DTSTAMP:20261107T033000Z
-DTSTART:20261107T033000Z
-DTEND:20261107T063000Z
-SUMMARY:Comedy Allstars
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=comedy-allstars%7Cpunch-l
- ine-irving-irving%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:vladimir-caamano|punch-line-irving-irving|7-00-pm-2026-11-07@letsdoitda
  llas.com
 DTSTAMP:20261108T010000Z
@@ -394,6 +368,32 @@ DTEND:20261205T061500Z
 SUMMARY:Josh Wolf
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-12-04&e=josh-wolf%7Cpunch-line-ir
+ ving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:josh-wolf|punch-line-irving-irving|7-00-pm-2026-12-05@letsdoitdallas.co
+ m
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Josh Wolf
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=josh-wolf%7Cpunch-line-ir
+ ving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:josh-wolf|punch-line-irving-irving|9-15-pm-2026-12-05@letsdoitdallas.co
+ m
+DTSTAMP:20261206T031500Z
+DTSTART:20261206T031500Z
+DTEND:20261206T061500Z
+SUMMARY:Josh Wolf
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=josh-wolf%7Cpunch-line-ir
  ving-irving%7C9-15-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/

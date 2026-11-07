@@ -9,25 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:paint-like-fernando-botero-ages-18-pintar-como-fernando-botero-a-os-18-
- de-la-biblioteca-central|central-library-garland|06-00-pm-2026-11-06@letsd
- oitdallas.com
-DTSTAMP:20261107T000000Z
-DTSTART:20261107T000000Z
-DTEND:20261107T030000Z
-SUMMARY:Paint Like Fernando Botero (Ages 18+) / Pintar Como Fernando Botero
-  (Años 18+) de la Biblioteca Central
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=paint-like-fernando-boter
- o-ages-18-pintar-como-fernando-botero-a-os-18-de-la-biblioteca-central%7Cc
- entral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Join us for a creative and cultural evening celebra
- ting the life and legacy of renowned Colombian artist Fernando Botero. The
-  evening begins with a bilingual (English and Spanish) presentation explor
- ing Botero’s impactful life\, bold artistic style and lasting contribut 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:trucks-tools-tech|300-n-fifth-street-garland|09-00-am-2026-11-07@letsdo
  itdallas.com
 DTSTAMP:20261107T150000Z
@@ -1515,6 +1496,67 @@ SUMMARY:Rocky 50th Anniversary presented by Garland Cultural Arts
 LOCATION:521 W State Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-11-20&e=rocky-50th-anniversary-pr
  esented-by-garland-cultural-arts%7C521-w-state-street-garland%7C08-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-11-21@letsd
+ oitdallas.com
+DTSTAMP:20261121T160000Z
+DTSTART:20261121T160000Z
+DTEND:20261121T190000Z
+SUMMARY:Play & Learn (0-5 years)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=play-learn-0-5-years-%7Cc
+ entral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Families with children ages 0-5 can enjoy Play & L
+ earn\, a weekly event with toys\, games and activities that encourage imag
+ ination\, creativity and problem-solving. This program offers a chance for
+  children and caregivers to play together. November 21\, 2026 10:00 AM - 1
+  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:steam-lab-explore-magnets-ages-6-12-|north-garland-library-garland|02-3
+ 0-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T203000Z
+DTSTART:20261121T203000Z
+DTEND:20261121T233000Z
+SUMMARY:STEAM Lab: Explore Magnets (Ages 6-12)
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=steam-lab-explore-magnets
+ -ages-6-12-%7Cnorth-garland-library-garland%7C02-30-pm
+DESCRIPTION:2:30 p.m.\; Get ready for a STEAM experience that pulls curiosi
+ ty in every direction! In this hands-on program\, children will explore th
+ e amazing world of magnets through fun\, guided experiments. Make an elect
+ romagnet and create magnet art. November 21\, 2026 02:30 PM - 03:30 PM 38 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:intro-to-cricut-class-holiday-centerpieces-ages-18-|south-garland-libra
+ ry-garland|03-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T210000Z
+DTSTART:20261121T210000Z
+DTEND:20261122T000000Z
+SUMMARY:Intro to Cricut Class: Holiday Centerpieces (Ages 18+)
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=intro-to-cricut-class-hol
+ iday-centerpieces-ages-18-%7Csouth-garland-library-garland%7C03-00-pm
+DESCRIPTION:3:00 p.m.\; Curious about using a Cricut machine but not sure w
+ here to start? This introductory class is perfect for adults who have neve
+ r used a Cricut before. Learn the basics of machine safety\, how to naviga
+ te Cricut Design Space\, and practice the essential steps for creating y 
+ — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker-presented-by-rockwall-ballet-company-and-ck-studio|300-n-fif
+ th-street-garland|06-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T000000Z
+DTSTART:20261122T000000Z
+DTEND:20261122T030000Z
+SUMMARY:Nutcracker presented by Rockwall Ballet Company and CK Studio
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=nutcracker-presented-by-r
+ ockwall-ballet-company-and-ck-studio%7C300-n-fifth-street-garland%7C06-00-
+ pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 END:VCALENDAR

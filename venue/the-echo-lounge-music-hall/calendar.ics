@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:grateful-shred|the-echo-lounge-music-hall-dallas|7-00-pm-2026-11-06@let
- sdoitdallas.com
-DTSTAMP:20261107T010000Z
-DTSTART:20261107T010000Z
-DTEND:20261107T040000Z
-SUMMARY:Grateful Shred
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=grateful-shred%7Cthe-echo
- -lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:bonobo-distance-in-static-live-north-american-tour|the-echo-lounge-musi
  c-hall-dallas|7-00-pm-2026-11-07@letsdoitdallas.com
 DTSTAMP:20261108T010000Z

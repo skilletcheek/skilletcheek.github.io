@@ -10,98 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jj-pearce-spirit-night-at-bread-zeppelin|bread-zeppelin-richardson|4-00
- -pm-11-00-pm-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261106T220000Z
-DTSTART:20261106T220000Z
-DTEND:20261107T010000Z
-SUMMARY:JJ Pearce Spirit Night at Bread Zeppelin
-LOCATION:Bread Zeppelin · Richardson
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=jj-pearce-spirit-night-at
- -bread-zeppelin%7Cbread-zeppelin-richardson%7C4-00-pm-11-00-pm
-DESCRIPTION:Mention the Pearce Booster Club at checkout The PABC will recei
- ve 15% of in-store sales to support all of our athletes and spirit teams. 
- — More: https://letsdoitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:jon-polar-bear-gonzalez|mic-drop-comedy-plano-plano|7-00-pm-2026-11-06@
- letsdoitdallas.com
-DTSTAMP:20261107T010000Z
-DTSTART:20261107T010000Z
-DTEND:20261107T040000Z
-SUMMARY:Jon "Polar Bear" Gonzalez
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=jon-polar-bear-gonzalez%7
- Cmic-drop-comedy-plano-plano%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:ryan-hamilton-18-|the-addison-improv-addison|7-30-pm-2026-11-06@letsdoi
- tdallas.com
-DTSTAMP:20261107T013000Z
-DTSTART:20261107T013000Z
-DTEND:20261107T043000Z
-SUMMARY:Ryan Hamilton (18+)
-LOCATION:The Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=ryan-hamilton-18-%7Cthe-a
- ddison-improv-addison%7C7-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:sahib-singh|addison-improv-addison|7-30-pm-2026-11-06@letsdoitdallas.co
- m
-DTSTAMP:20261107T013000Z
-DTSTART:20261107T013000Z
-DTEND:20261107T043000Z
-SUMMARY:Sahib Singh
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=sahib-singh%7Caddison-imp
- rov-addison%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:jon-polar-bear-gonzalez|mic-drop-comedy-plano-plano|9-30-pm-2026-11-06@
- letsdoitdallas.com
-DTSTAMP:20261107T033000Z
-DTSTART:20261107T033000Z
-DTEND:20261107T063000Z
-SUMMARY:Jon "Polar Bear" Gonzalez
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=jon-polar-bear-gonzalez%7
- Cmic-drop-comedy-plano-plano%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:ryan-hamilton-18-|the-addison-improv-addison|9-45-pm-2026-11-06@letsdoi
- tdallas.com
-DTSTAMP:20261107T034500Z
-DTSTART:20261107T034500Z
-DTEND:20261107T064500Z
-SUMMARY:Ryan Hamilton (18+)
-LOCATION:The Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=ryan-hamilton-18-%7Cthe-a
- ddison-improv-addison%7C9-45-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:sahib-singh|addison-improv-addison|9-45-pm-2026-11-06@letsdoitdallas.co
- m
-DTSTAMP:20261107T034500Z
-DTSTART:20261107T034500Z
-DTEND:20261107T064500Z
-SUMMARY:Sahib Singh
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=sahib-singh%7Caddison-imp
- rov-addison%7C9-45-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:addison-full-circle-film-festival|the-addison-performing-arts-centre-ad
  dison|11-00-am-8-00-pm-2026-11-07@letsdoitdallas.com
 DTSTAMP:20261107T170000Z
@@ -118,6 +26,21 @@ DESCRIPTION:The Addison Performing Arts Centre will host the inaugural Addi
  — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:plano-food-wine-festival-2026|legacy-west-plano|12-00-pm-6-00-pm-2026-1
+ 1-07@letsdoitdallas.com
+DTSTAMP:20261107T180000Z
+DTSTART:20261107T180000Z
+DTEND:20261107T210000Z
+SUMMARY:Plano Food + Wine Festival 2026
+LOCATION:Legacy West · Plano
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=plano-food-wine-festival-
+ 2026%7Clegacy-west-plano%7C12-00-pm-6-00-pm
+DESCRIPTION:Savor an unforgettable culinary adventure with endless bites\, 
+ fine wines\, craft cocktails\, and live entertainment\, all in one vibrant
+  festival. Indulge your taste buds and experience the flavors everyone wil
+ l be talking about! — More: https://letsdoitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-11
  -07@letsdoitdallas.com
 DTSTAMP:20261107T200000Z
@@ -129,6 +52,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-07&e=family-magic-comedy-for-a
  ll-ages%7Caddison-improv-addison%7C2-00-pm
 DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
  doitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:out-of-the-darkness-dfw-metro-walk|the-sound-at-cypress-waters-coppell|
+ 4-00-pm-10-00-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261107T220000Z
+DTSTART:20261107T220000Z
+DTEND:20261108T010000Z
+SUMMARY:Out of the Darkness DFW Metro Walk
+LOCATION:The Sound at Cypress Waters · Coppell
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=out-of-the-darkness-dfw-m
+ etro-walk%7Cthe-sound-at-cypress-waters-coppell%7C4-00-pm-10-00-pm
+DESCRIPTION:Out of the Darkness DFW Metro Walk Set for November 7th at The 
+ Sound at Cypress Waters DALLAS-FORT WORTH\, TX — The American Foundation
+  for Suicide Prevention (AFSP) North Texas chapter will host the DFW Metro
+  Out of the Darkness Walk on Saturday\, November 7th\, 2026\, at The Sound
+  — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:ryan-hamilton-18-|the-addison-improv-addison|7-00-pm-2026-11-07@letsdoi
@@ -458,6 +397,19 @@ DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:vinnie-corrales|addison-improv-addison|7-00-pm-2026-12-02@letsdoitdalla
+ s.com
+DTSTAMP:20261203T010000Z
+DTSTART:20261203T010000Z
+DTEND:20261203T040000Z
+SUMMARY:Vinnie Corrales
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=vinnie-corrales%7Caddison
+ -improv-addison%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:robyn-schall|addison-improv-addison|7-30-pm-2026-12-03@letsdoitdallas.c
  om
 DTSTAMP:20261204T013000Z
@@ -493,6 +445,32 @@ SUMMARY:Natasha Leggero
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-04&e=natasha-leggero%7Caddison
  -improv-addison%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:natasha-leggero|addison-improv-addison|7-00-pm-2026-12-05@letsdoitdalla
+ s.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Natasha Leggero
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=natasha-leggero%7Caddison
+ -improv-addison%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:natasha-leggero|addison-improv-addison|9-30-pm-2026-12-05@letsdoitdalla
+ s.com
+DTSTAMP:20261206T033000Z
+DTSTART:20261206T033000Z
+DTEND:20261206T063000Z
+SUMMARY:Natasha Leggero
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=natasha-leggero%7Caddison
+ -improv-addison%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT

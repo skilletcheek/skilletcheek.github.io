@@ -9,21 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:smu-volleyball-vs-north-carolina|moody-coliseum|12-00-pm-3-00-pm-2026-1
- 1-06@letsdoitdallas.com
-DTSTAMP:20261106T180000Z
-DTSTART:20261106T180000Z
-DTEND:20261106T210000Z
-SUMMARY:SMU Volleyball vs. North Carolina
-LOCATION:Moody Coliseum
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=smu-volleyball-vs-north-c
- arolina%7Cmoody-coliseum%7C12-00-pm-3-00-pm
-DESCRIPTION:Cheer on the SMU Mustangs as they face the North Carolina Tar H
- eels in an exciting ACC volleyball matchup at Moody Coliseum. Support the 
- home team and enjoy an afternoon of competitive collegiate volleyball. —
-  More: https://letsdoitdallas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-duke-blue-devils-womens-volleyball|mo
  ody-coliseum-dallas|1-00-pm-2026-11-08@letsdoitdallas.com
 DTSTAMP:20261108T190000Z

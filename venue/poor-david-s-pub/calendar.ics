@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-gotten-w-fat-by-the-gallon-american-werewolf-academy|poor-david-s-p
- ub-dallas|doors-see-listing-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:THE GOTTEN w /  Fat by the Gallon & American Werewolf Academy
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-gotten-w-fat-by-the-g
- allon-american-werewolf-academy%7Cpoor-david-s-pub-dallas%7Cdoors-see-list
- ing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:alexandra-w-katy-day|poor-david-s-pub-dallas|doors-see-listing-2026-11-
  07@letsdoitdallas.com
 DTSTAMP:20261107T000000Z
@@ -133,19 +119,6 @@ DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
 BEGIN:VEVENT
-UID:poor-david-s-open-mic-hosted-by-rob-case|poor-david-s-pub-dallas|doors-
- see-listing-2026-11-25@letsdoitdallas.com
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Poor David's Open Mic - Hosted by Rob Case
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=poor-david-s-open-mic-hos
- ted-by-rob-case%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:honky-tonk-tuesday-with-texas-zephers|poor-david-s-pub-dallas|doors-see
  -listing-2026-12-01@letsdoitdallas.com
 DTSTAMP:20261201T000000Z
@@ -155,6 +128,19 @@ SUMMARY:Honky Tonk Tuesday with Texas Zephers
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-01&e=honky-tonk-tuesday-with-t
  exas-zephers%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
+BEGIN:VEVENT
+UID:poor-david-s-open-mic-hosted-by-rob-case|poor-david-s-pub-dallas|doors-
+ see-listing-2026-12-02@letsdoitdallas.com
+DTSTAMP:20261202T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Poor David's Open Mic - Hosted by Rob Case
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=poor-david-s-open-mic-hos
+ ted-by-rob-case%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT

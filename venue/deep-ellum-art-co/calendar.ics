@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jervis-campbell|deep-ellum-art-co-dallas|8-00-pm-2026-11-06@letsdoitdal
- las.com
-DTSTAMP:20261107T020000Z
-DTSTART:20261107T020000Z
-DTEND:20261107T050000Z
-SUMMARY:Jervis Campbell
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=jervis-campbell%7Cdeep-el
- lum-art-co-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/deep-ellum-art-co/
-END:VEVENT
-BEGIN:VEVENT
 UID:noah-gundersen-21-event-|deep-ellum-art-co-dallas|7-30-pm-2026-11-07@le
  tsdoitdallas.com
 DTSTAMP:20261108T013000Z

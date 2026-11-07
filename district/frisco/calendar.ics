@@ -11,19 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
- frisco|see-details-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:"The Cottage" by Theatre Frisco
-LOCATION:Black Box Theater · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=-the-cottage-by-theatre-f
- risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
-DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
- strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
  frisco|see-details-2026-11-07@letsdoitdallas.com
 DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20261107
@@ -457,6 +444,31 @@ SUMMARY:Illuminate: Christmas Movie Classics
 LOCATION:6455 Page Street · Frisco
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=illuminate-christmas-movi
  e-classics%7C6455-page-street-frisco%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:tbd-at-fc-dallas-mls-cup-round-1-home-game-1-|toyota-stadium-frisco|3-3
+ 0-am-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261120T093000Z
+DTSTART:20261120T093000Z
+DTEND:20261120T123000Z
+SUMMARY:TBD at FC Dallas - MLS Cup Round 1 (Home Game 1)
+LOCATION:Toyota Stadium · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=tbd-at-fc-dallas-mls-cup-
+ round-1-home-game-1-%7Ctoyota-stadium-frisco%7C3-30-am
+DESCRIPTION:mls event via SeatGeek. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-music-series-at-frisco-fresh-market|9215-john-w-elliott-dr-fri
+ sco|11-00-am-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T170000Z
+DTSTART:20261121T170000Z
+DTEND:20261121T200000Z
+SUMMARY:Saturday Music Series at Frisco Fresh Market
+LOCATION:9215 John W. Elliott Dr · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=saturday-music-series-at-
+ frisco-fresh-market%7C9215-john-w-elliott-dr-frisco%7C11-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT

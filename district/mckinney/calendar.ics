@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:worlds-2026-quarters-4|credit-union-of-texas-event-center-allen|4-00-pm
- -2026-11-06@letsdoitdallas.com
-DTSTAMP:20261106T220000Z
-DTSTART:20261106T220000Z
-DTEND:20261107T010000Z
-SUMMARY:Worlds 2026 - Quarters 4
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=worlds-2026-quarters-4%7C
- credit-union-of-texas-event-center-allen%7C4-00-pm
-DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:family-storytime-all-ages-|1201-e-louisiana-st-mckinney|10-30-am-2026-1
  1-07@letsdoitdallas.com
 DTSTAMP:20261107T163000Z
@@ -556,6 +543,42 @@ DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:native-american-heritage-celebration-all-ages-|6861-w-eldorado-parkway-
+ mckinney|10-00-am-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T160000Z
+DTSTART:20261121T160000Z
+DTEND:20261121T190000Z
+SUMMARY:Native American Heritage Celebration (All Ages)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=native-american-heritage-
+ celebration-all-ages-%7C6861-w-eldorado-parkway-mckinney%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-storytime-all-ages-|1201-e-louisiana-st-mckinney|10-30-am-2026-1
+ 1-21@letsdoitdallas.com
+DTSTAMP:20261121T163000Z
+DTSTART:20261121T163000Z
+DTEND:20261121T193000Z
+SUMMARY:Family Storytime (All Ages)
+LOCATION:1201 E. Louisiana St. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=family-storytime-all-ages
+ -%7C1201-e-louisiana-st-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-chess-meetup-all-ages-|6861-w-eldorado-parkway-mckinney|11-00-
+ am-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T170000Z
+DTSTART:20261121T170000Z
+DTEND:20261121T200000Z
+SUMMARY:Saturday Chess Meetup (All Ages)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=saturday-chess-meetup-all
+ -ages-%7C6861-w-eldorado-parkway-mckinney%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:allen-americans-vs-kansas-city-mavericks|credit-union-of-texas-event-ce
  nter-allen|7-00-pm-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T010000Z
@@ -696,6 +719,20 @@ SUMMARY:Allen Americans vs Tahoe Knight Monsters
 LOCATION:Credit Union of Texas Event Center · Allen
 URL:https://letsdoitdallas.com/?date=2026-12-04&e=allen-americans-vs-tahoe-
  knight-monsters%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:allen-americans-vs-tahoe-knight-monsters-star-wars-night|credit-union-o
+ f-texas-event-center-allen|7-00-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Allen Americans vs Tahoe Knight Monsters - Star Wars Night
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=allen-americans-vs-tahoe-
+ knight-monsters-star-wars-night%7Ccredit-union-of-texas-event-center-allen
+ %7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/mckinney/
 END:VEVENT

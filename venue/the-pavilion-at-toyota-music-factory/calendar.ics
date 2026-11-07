@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:arcangel|the-pavilion-at-toyota-music-factory-irving|8-00-pm-2026-11-06
- @letsdoitdallas.com
-DTSTAMP:20261107T020000Z
-DTSTART:20261107T020000Z
-DTEND:20261107T050000Z
-SUMMARY:Arcangel
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=arcangel%7Cthe-pavilion-a
- t-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
-UID:arc-ngel-la-8va-maravilla-world-tour|the-pavilion-at-toyota-music-facto
- ry-irving|8-00-pm-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261107T020000Z
-DTSTART:20261107T020000Z
-DTEND:20261107T050000Z
-SUMMARY:Arcángel - La 8va Maravilla World Tour
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=arc-ngel-la-8va-maravilla
- -world-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/the-pavilion-at-toyota-music-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:lenny-pearce-toddler-rave-world-tour|the-pavilion-at-toyota-music-facto
  ry-irving|5-00-pm-2026-11-07@letsdoitdallas.com
 DTSTAMP:20261107T230000Z

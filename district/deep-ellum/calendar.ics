@@ -10,83 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sparkbird-wrongbird|three-links-deep-ellum-dallas|7-00-pm-2026-11-06@le
- tsdoitdallas.com
-DTSTAMP:20261107T010000Z
-DTSTART:20261107T010000Z
-DTEND:20261107T040000Z
-SUMMARY:Sparkbird\, Wrongbird
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=sparkbird-wrongbird%7Cthr
- ee-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:turnover-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory-d
- allas|7-30-pm-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261107T013000Z
-DTSTART:20261107T013000Z
-DTEND:20261107T043000Z
-SUMMARY:Turnover (16 and Under with Parent or Legal Guardian)
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=turnover-16-and-under-wit
- h-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C7-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:francis-of-delirium|club-dada-dallas|8-00-pm-2026-11-06@letsdoitdallas.
- com
-DTSTAMP:20261107T020000Z
-DTSTART:20261107T020000Z
-DTEND:20261107T050000Z
-SUMMARY:Francis of Delirium
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=francis-of-delirium%7Cclu
- b-dada-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:jervis-campbell|deep-ellum-art-co-dallas|8-00-pm-2026-11-06@letsdoitdal
- las.com
-DTSTAMP:20261107T020000Z
-DTSTART:20261107T020000Z
-DTEND:20261107T050000Z
-SUMMARY:Jervis Campbell
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=jervis-campbell%7Cdeep-el
- lum-art-co-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-kilans|trees-dallas-dallas|8-00-pm-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261107T020000Z
-DTSTART:20261107T020000Z
-DTEND:20261107T050000Z
-SUMMARY:The Kilans
-LOCATION:Trees - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-kilans%7Ctrees-dallas
- -dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
- -pm-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261107T040000Z
-DTSTART:20261107T040000Z
-DTEND:20261107T070000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:noah-gundersen-21-event-|deep-ellum-art-co-dallas|7-30-pm-2026-11-07@le
  tsdoitdallas.com
 DTSTAMP:20261108T013000Z
@@ -621,6 +544,31 @@ DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:bodysnatcher-with-gideon-psycho-frame-and-volatile-ways|puzzles-deep-el
+ lum-dallas|7-00-pm-2026-11-18@letsdoitdallas.com
+DTSTAMP:20261119T010000Z
+DTSTART:20261119T010000Z
+DTEND:20261119T040000Z
+SUMMARY:Bodysnatcher with Gideon\, Psycho-Frame\, and Volatile Ways
+LOCATION:Puzzles Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=bodysnatcher-with-gideon-
+ psycho-frame-and-volatile-ways%7Cpuzzles-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:cannelle|rbc-deep-ellum-dallas|7-00-pm-2026-11-18@letsdoitdallas.com
+DTSTAMP:20261119T010000Z
+DTSTART:20261119T010000Z
+DTEND:20261119T040000Z
+SUMMARY:Cannelle
+LOCATION:RBC Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=cannelle%7Crbc-deep-ellum
+ -dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:wub-wednesday|three-links-deep-ellum-dallas|10-00-pm-2026-11-18@letsdoi
  tdallas.com
 DTSTAMP:20261119T040000Z
@@ -632,6 +580,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-18&e=wub-wednesday%7Cthree-lin
  ks-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:beauty-school-dropout-with-no-love-for-the-middle-child|puzzles-deep-el
+ lum-dallas|7-30-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T013000Z
+DTSTART:20261120T013000Z
+DTEND:20261120T043000Z
+SUMMARY:Beauty School Dropout with No Love For The Middle Child
+LOCATION:Puzzles Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=beauty-school-dropout-wit
+ h-no-love-for-the-middle-child%7Cpuzzles-deep-ellum-dallas%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:alex-jean|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-11-19@lets
@@ -1051,17 +1012,29 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:upon-a-burning-body|trees-dallas|doors-see-listing-2026-12-05@letsdoitd
- allas.com
-DTSTAMP:20261205T000000Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:UPON A BURNING BODY
+UID:upon-a-burning-body|trees-dallas|7-00-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Upon a Burning Body
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=upon-a-burning-body%7Ctre
- es-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
+ es-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:babe-haven-spaced-scarlet-demore|three-links-deep-ellum-dallas|8-00-pm-
+ 2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T020000Z
+DTSTART:20261206T020000Z
+DTEND:20261206T050000Z
+SUMMARY:Babe Haven\, Spaced\, Scarlet Demore
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=babe-haven-spaced-scarlet
+ -demore%7Cthree-links-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:westside-boogie|trees-dallas|doors-see-listing-2026-12-06@letsdoitdalla

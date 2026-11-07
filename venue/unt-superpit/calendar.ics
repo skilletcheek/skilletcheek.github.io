@@ -53,4 +53,20 @@ URL:https://letsdoitdallas.com/?date=2026-12-04&e=north-texas-mean-green-me
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/unt-superpit/
 END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-men-s-basketball-vs-mississippi-valley-delta-dev
+ ils-mens-basketball|unt-superpit-denton|see-details-2026-12-06@letsdoitdal
+ las.com
+DTSTAMP:20261206T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:North Texas Mean Green Men's Basketball vs. Mississippi Valley Delt
+ a Devils Mens Basketball
+LOCATION:UNT Superpit · Denton
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=north-texas-mean-green-me
+ n-s-basketball-vs-mississippi-valley-delta-devils-mens-basketball%7Cunt-su
+ perpit-denton%7Csee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/unt-superpit/
+END:VEVENT
 END:VCALENDAR

@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-kilans|trees-dallas-dallas|8-00-pm-2026-11-06@letsdoitdallas.com
-DTSTAMP:20261107T020000Z
-DTSTART:20261107T020000Z
-DTEND:20261107T050000Z
-SUMMARY:The Kilans
-LOCATION:Trees - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=the-kilans%7Ctrees-dallas
- -dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/trees/
-END:VEVENT
-BEGIN:VEVENT
 UID:ceremony-with-slippers-world-peace|trees-dallas-dallas|8-00-pm-2026-11-
  07@letsdoitdallas.com
 DTSTAMP:20261108T020000Z
@@ -197,17 +185,16 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
-UID:upon-a-burning-body|trees-dallas|doors-see-listing-2026-12-05@letsdoitd
- allas.com
-DTSTAMP:20261205T000000Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:UPON A BURNING BODY
+UID:upon-a-burning-body|trees-dallas|7-00-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Upon a Burning Body
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=upon-a-burning-body%7Ctre
- es-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+ es-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
 UID:westside-boogie|trees-dallas|doors-see-listing-2026-12-06@letsdoitdalla

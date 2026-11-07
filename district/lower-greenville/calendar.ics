@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:shadowgrass|granada-theater-dallas-dallas|8-00-pm-2026-11-06@letsdoitda
- llas.com
-DTSTAMP:20261107T020000Z
-DTSTART:20261107T020000Z
-DTEND:20261107T050000Z
-SUMMARY:ShadowGrass
-LOCATION:Granada Theater - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=shadowgrass%7Cgranada-the
- ater-dallas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/lower-greenville/
-END:VEVENT
-BEGIN:VEVENT
 UID:low-cut-connie|granada-theater-tx-dallas|8-00-pm-2026-11-07@letsdoitdal
  las.com
 DTSTAMP:20261108T020000Z
@@ -78,17 +65,17 @@ DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-wrecks-finally-outside-tour|granada-theater-lower-greenville-dallas
- |doors-see-listing-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261117T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:The Wrecks - Finally : OUTSIDE Tour
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=the-wrecks-finally-outsid
- e-tour%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
- istrict/lower-greenville/
+UID:the-wrecks-with-worry-club-and-kid-sistr|granada-theater-dallas-dallas|
+ 7-00-pm-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261118T010000Z
+DTSTART:20261118T010000Z
+DTEND:20261118T040000Z
+SUMMARY:The Wrecks with Worry Club and Kid Sistr
+LOCATION:Granada Theater - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=the-wrecks-with-worry-clu
+ b-and-kid-sistr%7Cgranada-theater-dallas-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/lower-greenville/
 END:VEVENT
 BEGIN:VEVENT
 UID:-kxt-91-7-presents-the-afghan-whigs-w-night-moves|granada-theater-lower

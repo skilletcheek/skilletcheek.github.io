@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
- -2026-11-06@letsdoitdallas.com
-DTSTAMP:20261107T013000Z
-DTSTART:20261107T013000Z
-DTEND:20261107T043000Z
-SUMMARY:Buena Vista Social Club (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-06&e=buena-vista-social-club-t
- ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/music-hall-at-fair-park/
-END:VEVENT
-BEGIN:VEVENT
 UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|1-30-pm
  -2026-11-07@letsdoitdallas.com
 DTSTAMP:20261107T193000Z
@@ -316,5 +303,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-30&e=beat-belew-vai-levin-bozz
  C7-30-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/music-hall-at-fair-park/
+END:VEVENT
+BEGIN:VEVENT
+UID:ali-wong-live|music-hall-at-fair-park-dallas|8-00-pm-2026-12-05@letsdoi
+ tdallas.com
+DTSTAMP:20261206T020000Z
+DTSTART:20261206T020000Z
+DTEND:20261206T050000Z
+SUMMARY:Ali Wong Live
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=ali-wong-live%7Cmusic-hal
+ l-at-fair-park-dallas%7C8-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/music-hall-at-fair-park/
 END:VEVENT
 END:VCALENDAR
