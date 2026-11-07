@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Big Laugh Comedy Club – Fort Worth — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Big Laugh Comedy Club – Fort Worth.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:rich-vos-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fo
+ rt-worth|7-30-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T013000Z
+DTSTART:20261108T013000Z
+DTEND:20261108T043000Z
+SUMMARY:Rich Vos Live
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=rich-vos-live%7Cbig-laugh
+ -comedy-club-fort-worth-604-main-st-suite-100-fort-worth%7C7-30-pm
+DESCRIPTION:Rich Vos: Live In Fort Worth  With a mic in his hand and zero f
+ ilters in his brain\, Rich delivers punchlines that land harder than your 
+ group chat roasts. He’s fast\, fearless\, and brutally funny—whether h
+ e’s talking life\, family\, or the absolute madness of being a comic for
+  over — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-for
+ t-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:katsura-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-for
+ t-worth|8-00-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T020000Z
+DTSTART:20261108T020000Z
+DTEND:20261108T050000Z
+SUMMARY:Katsura Live
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=katsura-live%7Cbig-laugh-
+ comedy-club-fort-worth-604-main-st-suite-100-fort-worth%7C8-00-pm
+DESCRIPTION:A show of hilarity and culture in equal doses!  Katsura Sunshin
+ e completed his grueling traditional apprenticeship in Rakugo comic storyt
+ elling under the great Rakugo Master Katsura Bunshi VI in 2011.  His perfo
+ rmances have delighted audiences throughout the world as well as all — M
+ ore: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:rich-vos-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fo
+ rt-worth|9-30-pm-2026-11-07@letsdoitdallas.com
+DTSTAMP:20261108T033000Z
+DTSTART:20261108T033000Z
+DTEND:20261108T063000Z
+SUMMARY:Rich Vos Live
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-07&e=rich-vos-live%7Cbig-laugh
+ -comedy-club-fort-worth-604-main-st-suite-100-fort-worth%7C9-30-pm
+DESCRIPTION:Rich Vos: Live In Fort Worth  With a mic in his hand and zero f
+ ilters in his brain\, Rich delivers punchlines that land harder than your 
+ group chat roasts. He’s fast\, fearless\, and brutally funny—whether h
+ e’s talking life\, family\, or the absolute madness of being a comic for
+  over — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-for
+ t-worth/
+END:VEVENT
+END:VCALENDAR

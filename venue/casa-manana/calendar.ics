@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:disney-s-frozen-the-musical-fort-worth|casa-manana-fort-worth|2-00-pm-2
- 026-11-07@letsdoitdallas.com
-DTSTAMP:20261107T200000Z
-DTSTART:20261107T200000Z
-DTEND:20261107T230000Z
-SUMMARY:Disney's Frozen - The Musical - Fort Worth
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=disney-s-frozen-the-music
- al-fort-worth%7Ccasa-manana-fort-worth%7C2-00-pm
-DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
- om/venue/casa-manana/
-END:VEVENT
-BEGIN:VEVENT
 UID:disney-s-frozen-the-musical-fort-worth|casa-manana-fort-worth|8-00-pm-2
  026-11-07@letsdoitdallas.com
 DTSTAMP:20261108T020000Z
