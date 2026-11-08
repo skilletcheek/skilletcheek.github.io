@@ -10,43 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:love-mckinney-event|401-e-virginia-st-mckinney|01-00-pm-2026-11-07@lets
- doitdallas.com
-DTSTAMP:20261107T190000Z
-DTSTART:20261107T190000Z
-DTEND:20261107T220000Z
-SUMMARY:Love McKinney Event
-LOCATION:401 E. Virginia St. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=love-mckinney-event%7C401
- -e-virginia-st-mckinney%7C01-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:babysitters-club-class-mckinney-fire-department|2100-taylor-burk-dr-mck
- inney|02-00-pm-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261107T200000Z
-DTSTART:20261107T200000Z
-DTEND:20261107T230000Z
-SUMMARY:Babysitters Club Class - McKinney Fire Department
-LOCATION:2100 Taylor Burk Dr. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=babysitters-club-class-mc
- kinney-fire-department%7C2100-taylor-burk-dr-mckinney%7C02-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:worlds-2026-semis-1|credit-union-of-texas-event-center-allen|4-00-pm-20
- 26-11-07@letsdoitdallas.com
-DTSTAMP:20261107T220000Z
-DTSTART:20261107T220000Z
-DTEND:20261108T010000Z
-SUMMARY:Worlds 2026 - Semis 1
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=worlds-2026-semis-1%7Ccre
- dit-union-of-texas-event-center-allen%7C4-00-pm
-DESCRIPTION:eSports event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:worlds-2026-semis-2|credit-union-of-texas-event-center-allen|4-00-pm-20
  26-11-08@letsdoitdallas.com
 DTSTAMP:20261108T220000Z

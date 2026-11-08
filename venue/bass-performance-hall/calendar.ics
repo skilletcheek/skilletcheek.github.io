@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jersey-boys-fort-worth|bass-performance-hall-fort-worth|7-30-pm-2026-11
- -07@letsdoitdallas.com
-DTSTAMP:20261108T013000Z
-DTSTART:20261108T013000Z
-DTEND:20261108T043000Z
-SUMMARY:Jersey Boys - Fort Worth
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=jersey-boys-fort-worth%7C
- bass-performance-hall-fort-worth%7C7-30-pm
-DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
- om/venue/bass-performance-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:jersey-boys-fort-worth|bass-performance-hall-fort-worth|1-30-pm-2026-11
  -08@letsdoitdallas.com
 DTSTAMP:20261108T193000Z
@@ -99,6 +86,20 @@ URL:https://letsdoitdallas.com/?date=2026-11-17&e=lyle-lovett-and-his-small
  -large-band%7Cbass-performance-hall-fort-worth%7C7-30-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:fort-worth-symphony-orchestra-rachmaninoff-copland-dvorak|bass-performa
+ nce-hall-fort-worth|7-30-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T013000Z
+DTSTART:20261121T013000Z
+DTEND:20261121T043000Z
+SUMMARY:Fort Worth Symphony Orchestra - Rachmaninoff\, Copland\, Dvorak
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=fort-worth-symphony-orche
+ stra-rachmaninoff-copland-dvorak%7Cbass-performance-hall-fort-worth%7C7-30
+ -pm
+DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
+ com/venue/bass-performance-hall/
 END:VEVENT
 BEGIN:VEVENT
 UID:home-for-the-holidays|bass-performance-hall-fort-worth|7-30-pm-2026-11-

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bonobo-distance-in-static-live-north-american-tour|the-echo-lounge-musi
- c-hall-dallas|7-00-pm-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261108T010000Z
-DTSTART:20261108T010000Z
-DTEND:20261108T040000Z
-SUMMARY:Bonobo - Distance In Static Live North American Tour
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=bonobo-distance-in-static
- -live-north-american-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:inna|the-echo-lounge-music-hall-dallas|6-00-pm-2026-11-08@letsdoitdalla
  s.com
 DTSTAMP:20261109T000000Z
@@ -187,6 +174,19 @@ SUMMARY:Pi'erre Bourne
 LOCATION:The Echo Lounge & Music Hall · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-04&e=pi-erre-bourne%7Cthe-echo
  -lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:yung-gravy-the-joyrider-tour|the-echo-lounge-music-hall-dallas|7-00-pm-
+ 2026-12-06@letsdoitdallas.com
+DTSTAMP:20261207T010000Z
+DTSTART:20261207T010000Z
+DTEND:20261207T040000Z
+SUMMARY:Yung Gravy: The Joyrider Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=yung-gravy-the-joyrider-t
+ our%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/the-echo-lounge-music-hall/
 END:VEVENT

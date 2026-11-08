@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-infamists-daughters-of-evil-henry-the-archer|three-links-deep-ellum
- -dallas|7-30-pm-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261108T013000Z
-DTSTART:20261108T013000Z
-DTEND:20261108T043000Z
-SUMMARY:The Infamists \, Daughters of Evil\, Henry The Archer
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=the-infamists-daughters-o
- f-evil-henry-the-archer%7Cthree-links-deep-ellum-dallas%7C7-30-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:ok-goodnight-lux-terminus-eve-bricktooth|three-links-deep-ellum-dallas|
  7-00-pm-2026-11-08@letsdoitdallas.com
 DTSTAMP:20261109T010000Z
@@ -488,6 +475,19 @@ SUMMARY:Babe Haven\, Spaced\, Scarlet Demore
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=babe-haven-spaced-scarlet
  -demore%7Cthree-links-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:eyes-set-to-kill-sicksense-twist-it-moonstone|three-links-deep-ellum-da
+ llas|7-00-pm-2026-12-06@letsdoitdallas.com
+DTSTAMP:20261207T010000Z
+DTSTART:20261207T010000Z
+DTEND:20261207T040000Z
+SUMMARY:Eyes Set To Kill\, Sicksense\, Twist It\, Moonstone
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=eyes-set-to-kill-sicksens
+ e-twist-it-moonstone%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
 END:VEVENT

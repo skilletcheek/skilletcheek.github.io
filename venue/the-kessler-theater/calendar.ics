@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-army-the-navy|the-kessler-dallas|8-00-pm-2026-11-07@letsdoitdallas.
- com
-DTSTAMP:20261108T020000Z
-DTSTART:20261108T020000Z
-DTEND:20261108T050000Z
-SUMMARY:The Army\, The Navy
-LOCATION:The Kessler · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=the-army-the-navy%7Cthe-k
- essler-dallas%7C8-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-kessler-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:andrew-mcmahon-w-ivory-layne|the-kessler-dallas|7-00-pm-2026-11-08@lets
  doitdallas.com
 DTSTAMP:20261109T010000Z
@@ -126,17 +113,17 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:north-mississippi-allstars|the-kessler-theater-oak-cliff-dallas|doors-s
- ee-listing-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
+UID:north-mississippi-allstars|the-kessler-theater-dallas|8-00-pm-2026-11-2
+ 0@letsdoitdallas.com
+DTSTAMP:20261121T020000Z
+DTSTART:20261121T020000Z
+DTEND:20261121T050000Z
 SUMMARY:North Mississippi Allstars
 LOCATION:The Kessler Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-20&e=north-mississippi-allstar
- s%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/venue/the-kessler-theater/
+ s%7Cthe-kessler-theater-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:margaret-glaspy-the-i-am-both-tour|the-kessler-theater-oak-cliff-dallas

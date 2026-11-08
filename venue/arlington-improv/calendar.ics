@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:shuler-king|arlington-improv-arlington|7-00-pm-2026-11-07@letsdoitdalla
- s.com
-DTSTAMP:20261108T010000Z
-DTSTART:20261108T010000Z
-DTEND:20261108T040000Z
-SUMMARY:Shuler King
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=shuler-king%7Carlington-i
- mprov-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:shuler-king|arlington-improv-arlington|9-30-pm-2026-11-07@letsdoitdalla
- s.com
-DTSTAMP:20261108T033000Z
-DTSTART:20261108T033000Z
-DTEND:20261108T063000Z
-SUMMARY:Shuler King
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=shuler-king%7Carlington-i
- mprov-arlington%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:shuler-king|arlington-improv-arlington|7-00-pm-2026-11-08@letsdoitdalla
  s.com
 DTSTAMP:20261109T010000Z
@@ -343,6 +317,19 @@ SUMMARY:"The Parents Have Entered the Chat" Comedy Jam
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-12-06&e=-the-parents-have-entered
  -the-chat-comedy-jam%7Carlington-improv-arlington%7C6-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:jose-hoozay-velasquez|arlington-improv-arlington|8-30-pm-2026-12-06@let
+ sdoitdallas.com
+DTSTAMP:20261207T023000Z
+DTSTART:20261207T023000Z
+DTEND:20261207T053000Z
+SUMMARY:Jose ÂHoozayâ Velasquez
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=jose-hoozay-velasquez%7Ca
+ rlington-improv-arlington%7C8-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

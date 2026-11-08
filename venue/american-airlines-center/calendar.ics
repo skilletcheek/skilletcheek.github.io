@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-stars-vs-san-jose-sharks|american-airlines-center-dallas|7-00-pm
- -2026-11-07@letsdoitdallas.com
-DTSTAMP:20261108T010000Z
-DTSTART:20261108T010000Z
-DTEND:20261108T040000Z
-SUMMARY:Dallas Stars vs. San Jose Sharks
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=dallas-stars-vs-san-jose-
- sharks%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-mavericks-vs-brooklyn-nets|american-airlines-center-dallas|6-30-
  pm-2026-11-08@letsdoitdallas.com
 DTSTAMP:20261109T003000Z

@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bonobo-distance-in-static-live-north-american-tour|the-echo-lounge-musi
- c-hall-dallas|7-00-pm-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261108T010000Z
-DTSTART:20261108T010000Z
-DTEND:20261108T040000Z
-SUMMARY:Bonobo - Distance In Static Live North American Tour
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=bonobo-distance-in-static
- -live-north-american-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:jessica-audiffred-18-and-over-|silo-dallas|9-00-pm-2026-11-07@letsdoitd
- allas.com
-DTSTAMP:20261108T030000Z
-DTSTART:20261108T030000Z
-DTEND:20261108T060000Z
-SUMMARY:Jessica Audiffred (18 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=jessica-audiffred-18-and-
- over-%7Csilo-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:inna|the-echo-lounge-music-hall-dallas|6-00-pm-2026-11-08@letsdoitdalla
  s.com
 DTSTAMP:20261109T000000Z
@@ -539,5 +513,30 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=rupaul-ages-18-%7Csilo-da
  llas%7C9-00-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:awen-hybrid-ages-18-|silo-dallas|7-00-pm-2026-12-06@letsdoitdallas.com
+DTSTAMP:20261207T010000Z
+DTSTART:20261207T010000Z
+DTEND:20261207T040000Z
+SUMMARY:AWEN Hybrid - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=awen-hybrid-ages-18-%7Csi
+ lo-dallas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:yung-gravy-the-joyrider-tour|the-echo-lounge-music-hall-dallas|7-00-pm-
+ 2026-12-06@letsdoitdallas.com
+DTSTAMP:20261207T010000Z
+DTSTART:20261207T010000Z
+DTEND:20261207T040000Z
+SUMMARY:Yung Gravy: The Joyrider Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=yung-gravy-the-joyrider-t
+ our%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/design-district/
 END:VEVENT
 END:VCALENDAR

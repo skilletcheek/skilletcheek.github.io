@@ -10,60 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:walk-to-defeat-als-dallas|dallas-college-north-lake-campus-5001-n-macar
- thur-blvd-irving|9-00-am-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261107T150000Z
-DTSTART:20261107T150000Z
-DTEND:20261107T180000Z
-SUMMARY:Walk to Defeat ALS Dallas
-LOCATION:Dallas College North Lake Campus · Irving
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=walk-to-defeat-als-dallas
- %7Cdallas-college-north-lake-campus-5001-n-macarthur-blvd-irving%7C9-00-am
-DESCRIPTION:The ALS Association's Dallas walk\, a fundraiser for ALS resear
- ch and for local support\, care and advocacy for people living with ALS an
- d their families. Check-in 9:00 AM\, walk starts 10:00 AM\; the route is u
- nder a mile. — More: https://letsdoitdallas.com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:lenny-pearce-toddler-rave-world-tour|the-pavilion-at-toyota-music-facto
- ry-irving|5-00-pm-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261107T230000Z
-DTSTART:20261107T230000Z
-DTEND:20261108T020000Z
-SUMMARY:Lenny Pearce - Toddler Rave World Tour
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=lenny-pearce-toddler-rave
- -world-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C5-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:vladimir-caamano|punch-line-irving-irving|7-00-pm-2026-11-07@letsdoitda
- llas.com
-DTSTAMP:20261108T010000Z
-DTSTART:20261108T010000Z
-DTEND:20261108T040000Z
-SUMMARY:Vladimir Caamano
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=vladimir-caamano%7Cpunch-
- line-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:vladimir-caamano|punch-line-irving-irving|9-15-pm-2026-11-07@letsdoitda
- llas.com
-DTSTAMP:20261108T031500Z
-DTSTART:20261108T031500Z
-DTEND:20261108T061500Z
-SUMMARY:Vladimir Caamano
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=vladimir-caamano%7Cpunch-
- line-irving-irving%7C9-15-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-spotlight-the-best-of-dfw-comedy|punch-line-irving-irving|7-00-pm-2
  026-11-08@letsdoitdallas.com
 DTSTAMP:20261109T010000Z
@@ -547,6 +493,19 @@ SUMMARY:Josh Wolf
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=josh-wolf%7Cpunch-line-ir
  ving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:keropi-s-nchez-remastered-en-espa-ol-|punch-line-irving-irving|7-00-pm-
+ 2026-12-06@letsdoitdallas.com
+DTSTAMP:20261207T010000Z
+DTSTART:20261207T010000Z
+DTEND:20261207T040000Z
+SUMMARY:Keropi Sánchez: Remastered (en Español)
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=keropi-s-nchez-remastered
+ -en-espa-ol-%7Cpunch-line-irving-irving%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
 END:VEVENT

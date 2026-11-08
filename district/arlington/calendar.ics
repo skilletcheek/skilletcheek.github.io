@@ -10,91 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-big-dill-world-s-largest-pickle-party|texas-live-1650-east-randol-m
- ill-road-arlington-76011-united-states|11-00-am-2026-11-07@letsdoitdallas.
- com
-DTSTAMP:20261107T170000Z
-DTSTART:20261107T170000Z
-DTEND:20261107T200000Z
-SUMMARY:The Big Dill-World's Largest Pickle Party
-LOCATION:Texas Live! · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=the-big-dill-world-s-larg
- est-pickle-party%7Ctexas-live-1650-east-randol-mill-road-arlington-76011-u
- nited-states%7C11-00-am
-DESCRIPTION:The Big Dill® In My Pickle Era Tour returns to Texas Live! for
-  Round 2\, and the headliner is Nicole “Snooki” Polizzi\, crowned Amer
- ica’s Pickle Queen\, live on our main stage.  Around her: unlimited pick
- le sampling from the biggest brands in the country\, pickle-powered food\,
-  custom — More: https://letsdoitdallas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-journey-unfaulted|inclusion-coffee-arlington|5-30-pm-8-00-pm-2026-1
- 1-07@letsdoitdallas.com
-DTSTAMP:20261107T233000Z
-DTSTART:20261107T233000Z
-DTEND:20261108T023000Z
-SUMMARY:The Journey — Unfaulted
-LOCATION:Inclusion Coffee · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=the-journey-unfaulted%7Ci
- nclusion-coffee-arlington%7C5-30-pm-8-00-pm
-DESCRIPTION:An evening from Unfaulted on the realities facing young adults 
- aging out of foster care\, told through video stories\, interactive exhibi
- ts and two speakers with lived experience. Each ticket includes dinner\, t
- wo drink tickets and a coffee\; Freedom Threads apparel on sale. — More:
-  https://letsdoitdallas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:shuler-king|arlington-improv-arlington|7-00-pm-2026-11-07@letsdoitdalla
- s.com
-DTSTAMP:20261108T010000Z
-DTSTART:20261108T010000Z
-DTEND:20261108T040000Z
-SUMMARY:Shuler King
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=shuler-king%7Carlington-i
- mprov-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:kanye-west|at-t-stadium-arlington|8-00-pm-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261108T020000Z
-DTSTART:20261108T020000Z
-DTEND:20261108T050000Z
-SUMMARY:Kanye West
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=kanye-west%7Cat-t-stadium
- -arlington%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:ye-live-in-dallas|at-t-stadium-arlington|8-00-pm-2026-11-07@letsdoitdal
- las.com
-DTSTAMP:20261108T020000Z
-DTSTART:20261108T020000Z
-DTEND:20261108T050000Z
-SUMMARY:Ye Live in Dallas
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=ye-live-in-dallas%7Cat-t-
- stadium-arlington%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:shuler-king|arlington-improv-arlington|9-30-pm-2026-11-07@letsdoitdalla
- s.com
-DTSTAMP:20261108T033000Z
-DTSTART:20261108T033000Z
-DTEND:20261108T063000Z
-SUMMARY:Shuler King
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=shuler-king%7Carlington-i
- mprov-arlington%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-11-08
  @letsdoitdallas.com
 DTSTAMP:20261108T160000Z
@@ -119,6 +34,21 @@ URL:https://letsdoitdallas.com/?date=2026-11-08&e=at-t-stadium-vip-guided-t
  our%7Cat-t-stadium-arlington%7C12-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-vs-indianapolis|texas-live-1650-east-randol-mill-road-arlington-
+ 76011-united-states|12-00-pm-2026-11-08@letsdoitdallas.com
+DTSTAMP:20261108T180000Z
+DTSTART:20261108T180000Z
+DTEND:20261108T210000Z
+SUMMARY:Dallas VS Indianapolis
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-08&e=dallas-vs-indianapolis%7C
+ texas-live-1650-east-randol-mill-road-arlington-76011-united-states%7C12-0
+ 0-pm
+DESCRIPTION:The 2026 Dallas football season is coming—reserve your table 
+ now for the ultimate game day experience. — More: https://letsdoitdallas
+ .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-11-08@
@@ -825,6 +755,20 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-rally-day-tour-dallas-cowboys-locker-room|at-t-
+ stadium-arlington|9-00-am-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T150000Z
+DTSTART:20261121T150000Z
+DTEND:20261121T180000Z
+SUMMARY:AT&T Stadium VIP Guided Rally Day Tour + Dallas Cowboys Locker Room
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=at-t-stadium-vip-guided-r
+ ally-day-tour-dallas-cowboys-locker-room%7Cat-t-stadium-arlington%7C9-00-a
+ m
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:godfrey|arlington-improv-arlington|7-00-pm-2026-11-21@letsdoitdallas.co
  m
 DTSTAMP:20261122T010000Z
@@ -1016,6 +960,19 @@ SUMMARY:"The Parents Have Entered the Chat" Comedy Jam
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-12-06&e=-the-parents-have-entered
  -the-chat-comedy-jam%7Carlington-improv-arlington%7C6-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:jose-hoozay-velasquez|arlington-improv-arlington|8-30-pm-2026-12-06@let
+ sdoitdallas.com
+DTSTAMP:20261207T023000Z
+DTSTART:20261207T023000Z
+DTEND:20261207T053000Z
+SUMMARY:Jose ÂHoozayâ Velasquez
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=jose-hoozay-velasquez%7Ca
+ rlington-improv-arlington%7C8-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT

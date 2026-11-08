@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:low-cut-connie|granada-theater-tx-dallas|8-00-pm-2026-11-07@letsdoitdal
- las.com
-DTSTAMP:20261108T020000Z
-DTSTART:20261108T020000Z
-DTEND:20261108T050000Z
-SUMMARY:Low Cut Connie
-LOCATION:Granada Theater - TX · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=low-cut-connie%7Cgranada-
- theater-tx-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:james-mcmurtry-with-special-guest-bettysoo|granada-theater-lower-greenv
  ille-dallas|doors-see-listing-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261113T000000Z
@@ -62,18 +49,17 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:-kxt-91-7-presents-the-afghan-whigs-w-night-moves|granada-theater-lower
- -greenville-dallas|doors-see-listing-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:“KXT 91.7 Presents” The Afghan Whigs w / Night Moves
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=-kxt-91-7-presents-the-af
- ghan-whigs-w-night-moves%7Cgranada-theater-lower-greenville-dallas%7Cdoors
- -see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
+UID:the-afghan-whigs|granada-theater-dallas-dallas|8-00-pm-2026-11-20@letsd
+ oitdallas.com
+DTSTAMP:20261121T020000Z
+DTSTART:20261121T020000Z
+DTEND:20261121T050000Z
+SUMMARY:The Afghan Whigs
+LOCATION:Granada Theater - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=the-afghan-whigs%7Cgranad
+ a-theater-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:-dad-rock-night-2000s-rock-tribute-presented-by-council-hill|granada-th

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dance-now|house-of-blues-dallas-dallas|7-00-pm-2026-11-07@letsdoitdalla
- s.com
-DTSTAMP:20261108T010000Z
-DTSTART:20261108T010000Z
-DTEND:20261108T040000Z
-SUMMARY:Dance Now
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=dance-now%7Chouse-of-blue
- s-dallas-dallas%7C7-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:bad-gyal-m-s-cara-world-tour-2026|house-of-blues-dallas-dallas|7-00-pm-
  2026-11-08@letsdoitdallas.com
 DTSTAMP:20261109T010000Z

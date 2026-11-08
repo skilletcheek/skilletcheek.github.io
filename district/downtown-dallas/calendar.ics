@@ -10,87 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:alexandra-w-katy-day|poor-david-s-pub-dallas|doors-see-listing-2026-11-
- 07@letsdoitdallas.com
-DTSTAMP:20261107T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:ALEXANDRA w /  Katy Day
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=alexandra-w-katy-day%7Cpo
- or-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261107T140000Z
-DTSTART:20261107T140000Z
-DTEND:20261107T170000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|1-30-pm
- -2026-11-07@letsdoitdallas.com
-DTSTAMP:20261107T193000Z
-DTSTART:20261107T193000Z
-DTEND:20261107T223000Z
-SUMMARY:Buena Vista Social Club (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=buena-vista-social-club-t
- ouring-%7Cmusic-hall-at-fair-park-dallas%7C1-30-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-stars-vs-san-jose-sharks|american-airlines-center-dallas|7-00-pm
- -2026-11-07@letsdoitdallas.com
-DTSTAMP:20261108T010000Z
-DTSTART:20261108T010000Z
-DTEND:20261108T040000Z
-SUMMARY:Dallas Stars vs. San Jose Sharks
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=dallas-stars-vs-san-jose-
- sharks%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dance-now|house-of-blues-dallas-dallas|7-00-pm-2026-11-07@letsdoitdalla
- s.com
-DTSTAMP:20261108T010000Z
-DTSTART:20261108T010000Z
-DTEND:20261108T040000Z
-SUMMARY:Dance Now
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=dance-now%7Chouse-of-blue
- s-dallas-dallas%7C7-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
- -2026-11-07@letsdoitdallas.com
-DTSTAMP:20261108T013000Z
-DTSTART:20261108T013000Z
-DTEND:20261108T043000Z
-SUMMARY:Buena Vista Social Club (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=buena-vista-social-club-t
- ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:open-band-jam-w-poor-david-s-house-band|poor-david-s-pub-dallas|doors-s
  ee-listing-2026-11-08@letsdoitdallas.com
 DTSTAMP:20261108T000000Z
@@ -172,6 +91,22 @@ DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-11-09@letsdoitdallas.com
+DTSTAMP:20261109T140000Z
+DTSTART:20261109T140000Z
+DTEND:20261109T170000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-09&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-mavericks-vs-indiana-pacers|american-airlines-center-dallas|7-00
  -pm-2026-11-09@letsdoitdallas.com
 DTSTAMP:20261110T010000Z
@@ -196,6 +131,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-09&e=lil-peep-30th-birthday-ce
  lebration%7Chouse-of-blues-dallas-dallas%7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-11-10@letsdoitdallas.com
+DTSTAMP:20261110T140000Z
+DTSTART:20261110T140000Z
+DTEND:20261110T170000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm

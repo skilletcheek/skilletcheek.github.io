@@ -10,57 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:noah-gundersen-21-event-|deep-ellum-art-co-dallas|7-30-pm-2026-11-07@le
- tsdoitdallas.com
-DTSTAMP:20261108T013000Z
-DTSTART:20261108T013000Z
-DTEND:20261108T043000Z
-SUMMARY:Noah Gundersen (21+ Event)
-LOCATION:Deep Ellum Art Co · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=noah-gundersen-21-event-%
- 7Cdeep-ellum-art-co-dallas%7C7-30-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-infamists-daughters-of-evil-henry-the-archer|three-links-deep-ellum
- -dallas|7-30-pm-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261108T013000Z
-DTSTART:20261108T013000Z
-DTEND:20261108T043000Z
-SUMMARY:The Infamists \, Daughters of Evil\, Henry The Archer
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=the-infamists-daughters-o
- f-evil-henry-the-archer%7Cthree-links-deep-ellum-dallas%7C7-30-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:ceremony-with-slippers-world-peace|trees-dallas-dallas|8-00-pm-2026-11-
- 07@letsdoitdallas.com
-DTSTAMP:20261108T020000Z
-DTSTART:20261108T020000Z
-DTEND:20261108T050000Z
-SUMMARY:Ceremony with Slippers\, World Peace
-LOCATION:Trees - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=ceremony-with-slippers-wo
- rld-peace%7Ctrees-dallas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:roa|the-bomb-factory-dallas|8-00-pm-2026-11-07@letsdoitdallas.com
-DTSTAMP:20261108T020000Z
-DTSTART:20261108T020000Z
-DTEND:20261108T050000Z
-SUMMARY:ROA
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-07&e=roa%7Cthe-bomb-factory-da
- llas%7C8-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:celebration-of-life-alan-keys|trees-dallas|doors-see-listing-2026-11-08
  @letsdoitdallas.com
 DTSTAMP:20261108T000000Z
@@ -1048,5 +997,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-06&e=westside-boogie%7Ctrees-d
  allas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:eyes-set-to-kill-sicksense-twist-it-moonstone|three-links-deep-ellum-da
+ llas|7-00-pm-2026-12-06@letsdoitdallas.com
+DTSTAMP:20261207T010000Z
+DTSTART:20261207T010000Z
+DTEND:20261207T040000Z
+SUMMARY:Eyes Set To Kill\, Sicksense\, Twist It\, Moonstone
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=eyes-set-to-kill-sicksens
+ e-twist-it-moonstone%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR
