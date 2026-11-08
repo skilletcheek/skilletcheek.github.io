@@ -10,21 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-symphony-orchestra-presents-ellington-strayhorn-and-gershwin|mor
- ton-meyerson-symphony-center-dallas|2-00-pm-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261108T200000Z
-DTSTART:20261108T200000Z
-DTEND:20261108T230000Z
-SUMMARY:Dallas Symphony Orchestra Presents Ellington\, Strayhorn and Gershw
- in
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=dallas-symphony-orchestra
- -presents-ellington-strayhorn-and-gershwin%7Cmorton-meyerson-symphony-cent
- er-dallas%7C2-00-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/district/arts-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-ravel-and-gershwin|morton-meyerson-s
  ymphony-center-dallas|7-30-pm-2026-11-12@letsdoitdallas.com
 DTSTAMP:20261113T013000Z
