@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-spotlight-the-best-of-dfw-comedy|punch-line-irving-irving|7-00-pm-2
- 026-11-08@letsdoitdallas.com
-DTSTAMP:20261109T010000Z
-DTSTART:20261109T010000Z
-DTEND:20261109T040000Z
-SUMMARY:The Spotlight: The Best Of DFW Comedy
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=the-spotlight-the-best-of
- -dfw-comedy%7Cpunch-line-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:comedy-allstars|punch-line-irving-irving|7-30-pm-2026-11-11@letsdoitdal
  las.com
 DTSTAMP:20261112T013000Z

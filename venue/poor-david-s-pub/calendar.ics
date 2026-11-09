@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:open-band-jam-w-poor-david-s-house-band|poor-david-s-pub-dallas|doors-s
- ee-listing-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261108T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:Open Band Jam w /  Poor David's House Band
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=open-band-jam-w-poor-davi
- d-s-house-band%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:boomershack-darling-farm-double-bill|poor-david-s-pub-dallas|doors-see-
  listing-2026-11-12@letsdoitdallas.com
 DTSTAMP:20261112T000000Z

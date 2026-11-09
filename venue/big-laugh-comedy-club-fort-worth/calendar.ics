@@ -9,39 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:katsura-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-for
- t-worth|6-00-pm-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261109T000000Z
-DTSTART:20261109T000000Z
-DTEND:20261109T030000Z
-SUMMARY:Katsura Live
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=katsura-live%7Cbig-laugh-
- comedy-club-fort-worth-604-main-st-suite-100-fort-worth%7C6-00-pm
-DESCRIPTION:A show of hilarity and culture in equal doses!  Katsura Sunshin
- e completed his grueling traditional apprenticeship in Rakugo comic storyt
- elling under the great Rakugo Master Katsura Bunshi VI in 2011.  His perfo
- rmances have delighted audiences throughout the world as well as all — M
- ore: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:rich-vos-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fo
- rt-worth|7-30-pm-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261109T013000Z
-DTSTART:20261109T013000Z
-DTEND:20261109T043000Z
-SUMMARY:Rich Vos Live
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=rich-vos-live%7Cbig-laugh
- -comedy-club-fort-worth-604-main-st-suite-100-fort-worth%7C7-30-pm
-DESCRIPTION:Rich Vos: Live In Fort Worth  With a mic in his hand and zero f
- ilters in his brain\, Rich delivers punchlines that land harder than your 
- group chat roasts. He’s fast\, fearless\, and brutally funny—whether h
- e’s talking life\, family\, or the absolute madness of being a comic for
-  over — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-for
- t-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:rich-vos-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fo
  rt-worth|7-30-pm-2026-11-09@letsdoitdallas.com
 DTSTAMP:20261110T013000Z
@@ -75,5 +42,57 @@ DESCRIPTION:Have you wondered to yourself\, “where can I go on a Monday t
  ugh and have a good time.  So grab your grandma or your side piece and hea
   — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fort-wor
  th/
+END:VEVENT
+BEGIN:VEVENT
+UID:rich-vos-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fo
+ rt-worth|7-30-pm-2026-11-10@letsdoitdallas.com
+DTSTAMP:20261111T013000Z
+DTSTART:20261111T013000Z
+DTEND:20261111T043000Z
+SUMMARY:Rich Vos Live
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-10&e=rich-vos-live%7Cbig-laugh
+ -comedy-club-fort-worth-604-main-st-suite-100-fort-worth%7C7-30-pm
+DESCRIPTION:Rich Vos: Live In Fort Worth  With a mic in his hand and zero f
+ ilters in his brain\, Rich delivers punchlines that land harder than your 
+ group chat roasts. He’s fast\, fearless\, and brutally funny—whether h
+ e’s talking life\, family\, or the absolute madness of being a comic for
+  over — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-for
+ t-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:rich-vos-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fo
+ rt-worth|7-30-pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T013000Z
+DTSTART:20261112T013000Z
+DTEND:20261112T043000Z
+SUMMARY:Rich Vos Live
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=rich-vos-live%7Cbig-laugh
+ -comedy-club-fort-worth-604-main-st-suite-100-fort-worth%7C7-30-pm
+DESCRIPTION:Rich Vos: Live In Fort Worth  With a mic in his hand and zero f
+ ilters in his brain\, Rich delivers punchlines that land harder than your 
+ group chat roasts. He’s fast\, fearless\, and brutally funny—whether h
+ e’s talking life\, family\, or the absolute madness of being a comic for
+  over — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-for
+ t-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:wizop-wednesday-s-open-mic-night|big-laugh-comedy-club-fort-worth-604-m
+ ain-st-suite-100-fort-worth|9-30-pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T033000Z
+DTSTART:20261112T033000Z
+DTEND:20261112T063000Z
+SUMMARY:Wizop Wednesday's Open Mic Night
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=wizop-wednesday-s-open-mi
+ c-night%7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-wort
+ h%7C9-30-pm
+DESCRIPTION:Wizop Wednesdays: Open Mic Comedy  Looking for a midweek jolt o
+ f ridiculous? Wizop Wednesdays is where fresh jokes are born\, wild bits g
+ et tested\, and legends-in-the-making grab the mic. It’s raw\, fast\, an
+ d absolutely addictive\, your new Wednesday night ritual.  Expect lightnin
+ g- — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fort-w
+ orth/
 END:VEVENT
 END:VCALENDAR

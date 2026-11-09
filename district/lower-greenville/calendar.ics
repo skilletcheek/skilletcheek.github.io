@@ -132,4 +132,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=davide-de-pierro%7Cgranad
 DESCRIPTION:Hobby/Special Interest Expos event via Ticketmaster. — More: 
  https://letsdoitdallas.com/district/lower-greenville/
 END:VEVENT
+BEGIN:VEVENT
+UID:amorphis-insomnium|granada-theater-lower-greenville-dallas|doors-see-li
+ sting-2026-12-09@letsdoitdallas.com
+DTSTAMP:20261209T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Amorphis & Insomnium
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=amorphis-insomnium%7Cgran
+ ada-theater-lower-greenville-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/d
+ istrict/lower-greenville/
+END:VEVENT
 END:VCALENDAR

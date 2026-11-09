@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:celebration-of-life-alan-keys|trees-dallas|doors-see-listing-2026-11-08
- @letsdoitdallas.com
-DTSTAMP:20261108T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:CELEBRATION OF LIFE: ALAN KEYS
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=celebration-of-life-alan-
- keys%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/free-events
- /
-END:VEVENT
-BEGIN:VEVENT
-UID:open-band-jam-w-poor-david-s-house-band|poor-david-s-pub-dallas|doors-s
- ee-listing-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261108T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:Open Band Jam w /  Poor David's House Band
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=open-band-jam-w-poor-davi
- d-s-house-band%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|10-00-pm-2026-11-08@letsdoitd
- allas.com
-DTSTAMP:20261109T040000Z
-DTSTART:20261109T040000Z
-DTEND:20261109T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
  -pm-2026-11-09@letsdoitdallas.com
 DTSTAMP:20261110T050000Z
@@ -89,6 +50,42 @@ URL:https://letsdoitdallas.com/?date=2026-11-10&e=the-ox-and-the-waymakers%
  7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:h-e-b-s-annual-feast-of-sharing-holiday-dinner|dickies-arena-lower-leve
+ l-8211-southeast-side-of-arena-fort-worth|3-00-pm-7-00-pm-2026-11-11@letsd
+ oitdallas.com
+DTSTAMP:20261111T210000Z
+DTSTART:20261111T210000Z
+DTEND:20261112T000000Z
+SUMMARY:H-E-B’s Annual Feast of Sharing Holiday Dinner
+LOCATION:Dickies Arena (Lower level &#8211\; southeast side of arena) · Fo
+ rt Worth
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=h-e-b-s-annual-feast-of-s
+ haring-holiday-dinner%7Cdickies-arena-lower-level-8211-southeast-side-of-a
+ rena-fort-worth%7C3-00-pm-7-00-pm
+DESCRIPTION:H-E-B/Central Market has announced that this year’s Fort Wort
+ h Feast of Sharing will be held on Wednesday\, Nov. 11 from 3 to 7 p.m. on
+  the lower level of Dickies Arena. Feast of Sharing provides a family-frie
+ ndly\, Texas-style holiday meal paired alongside a festive celebration co 
+ — More: https://letsdoitdallas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:silent-reading-night-health-talk-at-the-wild-detectives-ideas|the-wild-
+ detectives-dallas|5-45-pm-8-00-pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261111T234500Z
+DTSTART:20261111T234500Z
+DTEND:20261112T024500Z
+SUMMARY:Silent Reading Night + Health Talk At The Wild Detectives - Ideas
+LOCATION:The Wild Detectives · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=silent-reading-night-heal
+ th-talk-at-the-wild-detectives-ideas%7Cthe-wild-detectives-dallas%7C5-45-p
+ m-8-00-pm
+DESCRIPTION:JOIN US FOR A HEALTH TALK WITH METHODIST HEALTH DFW FOLLOWED BY
+  SILENT READING AT THE NEW WILD DETECTIVES: IDEAS IN DALLAS The Details: E
+ ducational health talk from Juan (John) Avila II\, MD\, internal medicine 
+ physician on the medical staff at Methodist Dallas Medical Center Live —
+  More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:built-for-more-michael-miller-built-in-his-presence|the-hills-dallas-30

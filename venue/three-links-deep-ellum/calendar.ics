@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ok-goodnight-lux-terminus-eve-bricktooth|three-links-deep-ellum-dallas|
- 7-00-pm-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261109T010000Z
-DTSTART:20261109T010000Z
-DTEND:20261109T040000Z
-SUMMARY:OK GOODNIGHT\, Lux Terminus\, eve\, BrickTooth
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=ok-goodnight-lux-terminus
- -eve-bricktooth%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|10-00-pm-2026-11-08@letsdoitd
- allas.com
-DTSTAMP:20261109T040000Z
-DTSTART:20261109T040000Z
-DTEND:20261109T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:careful-gaze-chrry-obsessed-right-behind-you|three-links-deep-ellum-dal
  las|8-00-pm-2026-11-09@letsdoitdallas.com
 DTSTAMP:20261110T020000Z

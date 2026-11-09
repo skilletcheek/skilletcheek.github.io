@@ -77,6 +77,19 @@ DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:mystic-pizza-the-musical-dallas|margot-and-bill-winspear-opera-house-da
+ llas|2-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T200000Z
+DTSTART:20261121T200000Z
+DTEND:20261121T230000Z
+SUMMARY:Mystic Pizza - The Musical - Dallas
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=mystic-pizza-the-musical-
+ dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C2-00-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-debussy-s-la-mer-and-karen-gomyo|mor
  ton-meyerson-symphony-center-dallas|7-30-pm-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T013000Z

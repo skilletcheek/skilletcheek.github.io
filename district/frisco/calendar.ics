@@ -11,19 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
- frisco|see-details-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261108T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:"The Cottage" by Theatre Frisco
-LOCATION:Black Box Theater · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=-the-cottage-by-theatre-f
- risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
-DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
- strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
  frisco|see-details-2026-11-09@letsdoitdallas.com
 DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261109
@@ -99,6 +86,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-11&e=-the-cottage-by-theatre-f
  risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
 DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
  strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:veterans-day-at-cantina-laredo|cantina-laredo-frisco|11-00-am-9-00-pm-2
+ 026-11-11@letsdoitdallas.com
+DTSTAMP:20261111T170000Z
+DTSTART:20261111T170000Z
+DTEND:20261111T200000Z
+SUMMARY:Veterans Day at Cantina Laredo
+LOCATION:Cantina Laredo · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=veterans-day-at-cantina-l
+ aredo%7Ccantina-laredo-frisco%7C11-00-am-9-00-pm
+DESCRIPTION:In recognition of Veterans Day\, Cantina Laredo will honor vete
+ rans and active-duty military personnel with complimentary meals on Wednes
+ day\, Nov. 11 as a gesture of gratitude for veterans’ service and sacrif
+ ice. Cantina Laredo will treat veterans and active-duty military personne 
+ — More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:social-services-and-housing-board|6101-frisco-square-blvd-frisco|06-30-
@@ -321,19 +324,6 @@ LOCATION:6455 Page Street · Frisco
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=illuminate-christmas-movi
  e-classics%7C6455-page-street-frisco%7C06-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:portland-timbers-at-fc-dallas-mls-cup-round-1-gm-1-hg-1-|toyota-stadium
- -frisco|3-30-am-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261120T093000Z
-DTSTART:20261120T093000Z
-DTEND:20261120T123000Z
-SUMMARY:Portland Timbers at FC Dallas - MLS Cup Round 1 (Gm 1\, HG 1)
-LOCATION:Toyota Stadium · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=portland-timbers-at-fc-da
- llas-mls-cup-round-1-gm-1-hg-1-%7Ctoyota-stadium-frisco%7C3-30-am
-DESCRIPTION:mls event via SeatGeek. — More: https://letsdoitdallas.com/di
- strict/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-music-series-at-frisco-fresh-market|9215-john-w-elliott-dr-fri

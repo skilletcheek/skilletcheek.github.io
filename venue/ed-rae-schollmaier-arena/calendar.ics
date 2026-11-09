@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tarleton-state-womens-bb-at-tcu-womens-bb|ed-rae-schollmaier-arena-fort
- -worth|2-00-pm-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261108T200000Z
-DTSTART:20261108T200000Z
-DTEND:20261108T230000Z
-SUMMARY:Tarleton State Womens BB at TCU Womens BB
-LOCATION:Ed & Rae Schollmaier Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=tarleton-state-womens-bb-
- at-tcu-womens-bb%7Ced-rae-schollmaier-arena-fort-worth%7C2-00-pm
-DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
- tsdoitdallas.com/venue/ed-rae-schollmaier-arena/
-END:VEVENT
-BEGIN:VEVENT
 UID:iona-womens-bb-at-tcu-womens-bb|ed-rae-schollmaier-arena-fort-worth|4-0
  0-pm-2026-11-10@letsdoitdallas.com
 DTSTAMP:20261110T220000Z

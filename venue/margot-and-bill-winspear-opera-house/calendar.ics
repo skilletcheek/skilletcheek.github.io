@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Margot and Bill Winspear Opera House — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Margot and Bill Winspear Opera House.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:lyle-lovett|margot-and-bill-winspear-opera-house-dallas|7-30-pm-2026-11
+ -18@letsdoitdallas.com
+DTSTAMP:20261119T013000Z
+DTSTART:20261119T013000Z
+DTEND:20261119T043000Z
+SUMMARY:Lyle Lovett
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=lyle-lovett%7Cmargot-and-
+ bill-winspear-opera-house-dallas%7C7-30-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/margot-and-bill-winspear-opera-house/
+END:VEVENT
+BEGIN:VEVENT
+UID:mystic-pizza-the-musical-dallas|margot-and-bill-winspear-opera-house-da
+ llas|7-30-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T013000Z
+DTSTART:20261121T013000Z
+DTEND:20261121T043000Z
+SUMMARY:Mystic Pizza - The Musical - Dallas
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=mystic-pizza-the-musical-
+ dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C7-30-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/margot-and-bill-winspear-opera-house/
+END:VEVENT
+BEGIN:VEVENT
+UID:mystic-pizza-the-musical-dallas|margot-and-bill-winspear-opera-house-da
+ llas|2-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T200000Z
+DTSTART:20261121T200000Z
+DTEND:20261121T230000Z
+SUMMARY:Mystic Pizza - The Musical - Dallas
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=mystic-pizza-the-musical-
+ dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C2-00-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/margot-and-bill-winspear-opera-house/
+END:VEVENT
+END:VCALENDAR

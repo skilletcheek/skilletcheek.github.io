@@ -9,17 +9,20 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:texas-country-music-awards-18-event-|billy-bob-s-fort-worth|5-00-pm-202
- 6-11-08@letsdoitdallas.com
-DTSTAMP:20261108T230000Z
-DTSTART:20261108T230000Z
-DTEND:20261109T020000Z
-SUMMARY:Texas Country Music Awards (18+ Event)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=texas-country-music-award
- s-18-event-%7Cbilly-bob-s-fort-worth%7C5-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/billy-bob-s/
+UID:the-dog-house|billy-bob-s-texas-2520-rodeo-plaza-fort-worth-76164-unite
+ d-states|8-00-pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T020000Z
+DTSTART:20261112T020000Z
+DTEND:20261112T050000Z
+SUMMARY:The Dog House
+LOCATION:Billy Bob’s Texas · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=the-dog-house%7Cbilly-bob
+ -s-texas-2520-rodeo-plaza-fort-worth-76164-united-states%7C8-00-pm
+DESCRIPTION:We look forward to welcoming you to the Dog House at Billy Bo
+ b’s Texas. While you’re here\, check out the Handprint Hall of Fame\, 
+ enjoy a tasty meal in the Honky Tonk Kitchen\, and take part in free Line 
+ Dance Lessons.   Then get ready for a live recording of Season 2\, Episod
+ e 1 of — More: https://letsdoitdallas.com/venue/billy-bob-s/
 END:VEVENT
 BEGIN:VEVENT
 UID:kolby-cooper-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-11-13@le

@@ -10,39 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
- e-tx-76051-united-states|8-00-am-2026-11-08@letsdoitdallas.com
-DTSTAMP:20261108T140000Z
-DTSTART:20261108T140000Z
-DTEND:20261108T170000Z
-SUMMARY:Phenomenomaly at Meow Wolf
-LOCATION:Meow Wolf · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=phenomenomaly-at-meow-wol
- f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
- C8-00-am
-DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
-  live immersive performance series inside The Real Unreal. Blending intera
- ctive theater with a rotating lineup of North Texas talent\, the experienc
- e unfolds around guests as they explore\, featuring music\, dance\, comedy
- \, — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:level-up-smash-bros-training-camp|grapevine|12-30-pm-2026-11-08@letsdoi
- tdallas.com
-DTSTAMP:20261108T183000Z
-DTSTART:20261108T183000Z
-DTEND:20261108T213000Z
-SUMMARY:Level Up: Smash Bros. Training Camp
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-08&e=level-up-smash-bros-train
- ing-camp%7Cgrapevine%7C12-30-pm
-DESCRIPTION:Who: Ages 8+ What: The Esports Academy's gaming PCs and console
- s will be available for tournament practice during the holiday-themed Supe
- r Smash Bros.Tournament and Mario Kart Grand Prix. Stop by this Sunday to 
- hone your in-game skills\, learn strategy\, and compete with peers! Whe 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:stem-lab-18-|grapevine|10-00-am-2026-11-09@letsdoitdallas.com
 DTSTAMP:20261109T160000Z
 DTSTART:20261109T160000Z
@@ -883,6 +850,65 @@ DESCRIPTION:This Sunday\, join us at the Esports Academy for our monthly Su
  per Smash Bros tournament! Test your skills against local players for a ch
  ance to win prizes and earn bragging rights. Participants will be grouped 
  into age divisions based on the number of entries and their ages\, ensu 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:stem-lab-18-|grapevine|10-00-am-2026-11-23@letsdoitdallas.com
+DTSTAMP:20261123T160000Z
+DTSTART:20261123T160000Z
+DTEND:20261123T190000Z
+SUMMARY:STEM Lab (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=stem-lab-18-%7Cgrapevine%
+ 7C10-00-am
+DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
+ at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
+ ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
+ edgeable staff will be available to provide guidance\, tips\, and support 
+ as — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:junk-journaling-club-ages-7-12-|grapevine|11-00-am-2026-11-23@letsdoitd
+ allas.com
+DTSTAMP:20261123T170000Z
+DTSTART:20261123T170000Z
+DTEND:20261123T200000Z
+SUMMARY:Junk Journaling Club (Ages 7-12)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=junk-journaling-club-ages
+ -7-12-%7Cgrapevine%7C11-00-am
+DESCRIPTION:Unleash your creativity at our Junk Journaling Club! Designed f
+ or children ages 7-12\, this hands-on club invites participants to create 
+ unique\, personalized journals using recycled papers\, craft supplies\, an
+ d found objects. Learn techniques like layering\, collage\, and embellishm
+ e — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:kids-crochet-club-ages-7-12-|grapevine|01-30-pm-2026-11-23@letsdoitdall
+ as.com
+DTSTAMP:20261123T193000Z
+DTSTART:20261123T193000Z
+DTEND:20261123T223000Z
+SUMMARY:Kids Crochet Club (ages 7-12)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=kids-crochet-club-ages-7-
+ 12-%7Cgrapevine%7C01-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
+ grapevine|04-30-pm-2026-11-23@letsdoitdallas.com
+DTSTAMP:20261123T223000Z
+DTSTART:20261123T223000Z
+DTEND:20261124T013000Z
+SUMMARY:After-School Cinema & Snacks
+LOCATION:Grapevine Public Library
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=after-school-cinema-snack
+ s%7Cgrapevine-public-library-1201-municipal-way-grapevine%7C04-30-pm
+DESCRIPTION:Kick back after school\, bring your favorite snacks\, and enjoy
+  a movie with friends! For teens ages 13 and up. November 23\, 2026 04:30 
+ PM - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine\, TX 76
+ 051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17656/63921035423000 
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 END:VCALENDAR
