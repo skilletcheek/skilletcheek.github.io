@@ -1681,19 +1681,23 @@ def fetch_press():
 def _slugify_matches(area: str):
     """District slug for an event's free-text `area`, or None.
 
-    The substring pass runs first and is untouched, so anything that already
-    resolved keeps resolving the same way. Only when it finds nothing do we ask
-    venue-districts.json, which places venues whose `area` is just
-    "Venue, City" and therefore never contained a district name — 36% of rows,
-    and the reason six district pages had no listings at all. Mirrored by
-    districtOf() in js/radar.js; change both or the radar and the generated
-    pages will disagree about the same event.
+    venue-districts.json is asked FIRST: it places venues whose `area` is just
+    "Venue, City" and so never names a district -- 36% of rows, and the reason
+    six district pages had no listings at all. A named venue is more specific
+    than a city word. Until 2026-11-09 the substring pass ran first, and since
+    "fort worth" is checked before "stockyards", every "Cowtown Coliseum, Fort
+    Worth" row went to /district/fort-worth/ and /district/stockyards/ sat
+    empty and noindexed. Mirrored by districtOf() in js/radar.js; change both
+    or the radar and the generated pages will disagree about the same event.
     """
+    venue = _VENUE_DISTRICTS.get(_venue_key(area))
+    if venue:
+        return venue
     a = (area or "").lower()
     for slug, _label, match in DISTRICTS:
         if any(m in a for m in match):
             return slug
-    return _VENUE_DISTRICTS.get(_venue_key(area))
+    return None
 
 
 _ADDR_NOISE = re.compile(r"^(united states|usa|us|tx|texas)$", re.I)

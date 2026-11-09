@@ -18,9 +18,11 @@
     "'Discovered - currently not indexed', which is what a page with no unique",
     "content earns.",
     "",
-    "WHY THIS IS THE SAFE FIX: the substring match still runs FIRST and is",
-    "unchanged, so nothing that matched before can move. This table is only",
-    "consulted when the old path returned nothing -- it is purely additive.",
+    "PRECEDENCE: this table is consulted BEFORE the substring match (since",
+    "2026-11-09). A named venue is more specific than a city word: 'fort worth'",
+    "is matched before 'stockyards', so 'Cowtown Coliseum, Fort Worth' could",
+    "otherwise never reach the Stockyards. An entry here overrides the substring",
+    "match, so check a new entry moves only the rows you mean it to.",
     "Values are checked against DISTRICTS at build time, so a typo'd slug fails",
     "the nightly run loudly instead of silently dropping a venue.",
     "",
@@ -40,6 +42,11 @@
     "Split them out here first if either district is ever added."
   ],
   "venues": {
+    "cowtown coliseum": "stockyards",
+    "billy bobs": "stockyards",
+    "billy bobs texas": "stockyards",
+    "fort worth stockyards": "stockyards",
+
     "american airlines center": "downtown-dallas",
     "house of blues dallas": "downtown-dallas",
     "the cambridge room at house of blues": "downtown-dallas",

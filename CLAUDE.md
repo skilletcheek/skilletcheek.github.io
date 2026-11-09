@@ -1120,8 +1120,14 @@ and index.html's footer column. See "Internal links are the crawl budget".
 
 `_slugify_matches()` (`fetch_events.py`) / `districtOf()` (`js/radar.js`) is the
 other one: it decides an event's district for both the generated
-`/district/*/` pages and the homepage radar's per-district counts. Both do a
-substring pass over `area` first, then fall back to `venue-districts.json`.
+`/district/*/` pages and the homepage radar's per-district counts. Both ask
+`venue-districts.json` **first**, then do a substring pass over `area`. Until
+2026-11-09 the order was reversed, and because `"fort worth"` is matched
+before `"stockyards"`, all 45 Cowtown Coliseum and Billy Bob's rows went to
+`/district/fort-worth/` while `/district/stockyards/` sat empty and noindexed
+— which is what Search Console's "Excluded by 'noindex' tag" notice surfaced.
+An entry in that file now overrides the substring match, so when adding one
+check it moves only the rows you mean it to.
 
 **Districts are matched on free text, so a venue whose name doesn't contain its
 district never matched.** Most ticketing rows are just "Venue, City", so on

@@ -95,8 +95,22 @@ def test_fuzzy_pass_unchanged():
                    ev("Cipha Sounds", "Hyena's Comedy Club, Dallas"))), 2)
 
 
+def test_districts():
+    print("districts: a named venue beats a city word")
+    check("Cowtown Coliseum is the Stockyards, not Fort Worth",
+          F._slugify_matches("Cowtown Coliseum, Fort Worth"), "stockyards")
+    check("Billy Bob's too", F._slugify_matches("Billy Bob's, Fort Worth"), "stockyards")
+    check("another Fort Worth venue is still Fort Worth",
+          F._slugify_matches("Bass Performance Hall, Fort Worth"), "fort-worth")
+    check("a substring match still works",
+          F._slugify_matches("Trees, Deep Ellum, Dallas"), "deep-ellum")
+    check("an unplaced venue still claims no district",
+          F._slugify_matches("Some Unknown Room, Dallas"), None)
+
+
 def main():
-    for t in (test_identical_title_pass, test_times_and_dates, test_fuzzy_pass_unchanged):
+    for t in (test_identical_title_pass, test_times_and_dates, test_fuzzy_pass_unchanged,
+              test_districts):
         t()
         print()
     if FAILURES:

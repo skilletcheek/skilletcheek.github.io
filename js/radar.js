@@ -18,11 +18,15 @@ const RADAR = (function () {
      whose `area` is just "Venue, City" (36% of rows, and the reason six
      districts read 0 EVENTS while their rooms were booked all week). */
   function districtOf(a) {
+    // The venue table first: "fort worth" precedes "stockyards" below, so
+    // "Cowtown Coliseum, Fort Worth" would otherwise never reach Stockyards.
+    const venue = typeof venueDistrictOf === "function" ? venueDistrictOf(a.area) : null;
+    if (venue) return venue;
     const area = (a.area || "").toLowerCase();
     for (const d of DISTRICTS) {
       if (d.match.some((m) => area.includes(m))) return d.slug;
     }
-    return typeof venueDistrictOf === "function" ? venueDistrictOf(a.area) : null;
+    return null;
   }
 
   function el(tag, attrs, parent) {
