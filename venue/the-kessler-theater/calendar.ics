@@ -151,15 +151,16 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:ripe|the-kessler-theater-oak-cliff-dallas|doors-see-listing-2026-11-29@
- letsdoitdallas.com
+UID:ripe-with-special-guest-by-the-good-night|the-kessler-theater-oak-cliff
+ -dallas|doors-see-listing-2026-11-29@letsdoitdallas.com
 DTSTAMP:20261129T000000Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-SUMMARY:Ripe
+SUMMARY:Ripe with special guest By The Good Night
 LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-29&e=ripe%7Cthe-kessler-theate
- r-oak-cliff-dallas%7Cdoors-see-listing
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=ripe-with-special-guest-b
+ y-the-good-night%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listin
+ g
 DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT

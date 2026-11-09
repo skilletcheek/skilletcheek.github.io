@@ -38,6 +38,19 @@ DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:switchfoot-with-anberlin|annette-strauss-square-dallas|7-00-pm-2026-11-
+ 15@letsdoitdallas.com
+DTSTAMP:20261116T010000Z
+DTSTART:20261116T010000Z
+DTEND:20261116T040000Z
+SUMMARY:Switchfoot with Anberlin
+LOCATION:Annette Strauss Square · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=switchfoot-with-anberlin%
+ 7Cannette-strauss-square-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:lyle-lovett|margot-and-bill-winspear-opera-house-dallas|7-30-pm-2026-11
  -18@letsdoitdallas.com
 DTSTAMP:20261119T013000Z
@@ -118,6 +131,32 @@ DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-11-27@letsdoitdallas
+ .com
+DTSTAMP:20261127T200000Z
+DTSTART:20261127T200000Z
+DTEND:20261127T230000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-11-27@letsdoitdallas
+ .com
+DTSTAMP:20261128T013000Z
+DTSTART:20261128T013000Z
+DTEND:20261128T043000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C7-30-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-tchaikovsky-s-piano-concerto-no-1-an
  d-swan-lake|morton-meyerson-symphony-center-dallas|7-30-pm-2026-11-27@lets
  doitdallas.com
@@ -132,6 +171,58 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=dallas-symphony-orchestra
  n-symphony-center-dallas%7C7-30-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-w-texas-ballet-theater|margot-and-bill-winspear-opera-ho
+ use-dallas|8-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T020000Z
+DTSTART:20261128T020000Z
+DTEND:20261128T050000Z
+SUMMARY:The Nutcracker w/ Texas Ballet Theater
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=the-nutcracker-w-texas-ba
+ llet-theater%7Cmargot-and-bill-winspear-opera-house-dallas%7C8-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-11-28@letsdoitdallas
+ .com
+DTSTAMP:20261128T200000Z
+DTSTART:20261128T200000Z
+DTEND:20261128T230000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-w-texas-ballet-theater|margot-and-bill-winspear-opera-ho
+ use-dallas|2-00-pm-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261128T200000Z
+DTSTART:20261128T200000Z
+DTEND:20261128T230000Z
+SUMMARY:The Nutcracker w/ Texas Ballet Theater
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=the-nutcracker-w-texas-ba
+ llet-theater%7Cmargot-and-bill-winspear-opera-house-dallas%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-11-28@letsdoitdallas
+ .com
+DTSTAMP:20261129T013000Z
+DTSTART:20261129T013000Z
+DTEND:20261129T043000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C7-30-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-tchaikovsky-s-piano-concerto-no-1-an
@@ -150,6 +241,32 @@ DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-nutcracker-w-texas-ballet-theater|margot-and-bill-winspear-opera-ho
+ use-dallas|8-00-pm-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261129T020000Z
+DTSTART:20261129T020000Z
+DTEND:20261129T050000Z
+SUMMARY:The Nutcracker w/ Texas Ballet Theater
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=the-nutcracker-w-texas-ba
+ llet-theater%7Cmargot-and-bill-winspear-opera-house-dallas%7C8-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-11-29@letsdoitdallas
+ .com
+DTSTAMP:20261129T200000Z
+DTSTART:20261129T200000Z
+DTEND:20261129T230000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-tchaikovsky-s-piano-concerto-no-1-an
  d-swan-lake|morton-meyerson-symphony-center-dallas|2-00-pm-2026-11-29@lets
  doitdallas.com
@@ -164,6 +281,71 @@ URL:https://letsdoitdallas.com/?date=2026-11-29&e=dallas-symphony-orchestra
  n-symphony-center-dallas%7C2-00-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-w-texas-ballet-theater|margot-and-bill-winspear-opera-ho
+ use-dallas|2-00-pm-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261129T200000Z
+DTSTART:20261129T200000Z
+DTEND:20261129T230000Z
+SUMMARY:The Nutcracker w/ Texas Ballet Theater
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=the-nutcracker-w-texas-ba
+ llet-theater%7Cmargot-and-bill-winspear-opera-house-dallas%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-02@letsdoitdallas
+ .com
+DTSTAMP:20261203T013000Z
+DTSTART:20261203T013000Z
+DTEND:20261203T043000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C7-30-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-w-texas-ballet-theater|margot-and-bill-winspear-opera-ho
+ use-dallas|7-00-pm-2026-12-03@letsdoitdallas.com
+DTSTAMP:20261204T010000Z
+DTSTART:20261204T010000Z
+DTEND:20261204T040000Z
+SUMMARY:The Nutcracker w/ Texas Ballet Theater
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=the-nutcracker-w-texas-ba
+ llet-theater%7Cmargot-and-bill-winspear-opera-house-dallas%7C7-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-03@letsdoitdallas
+ .com
+DTSTAMP:20261204T013000Z
+DTSTART:20261204T013000Z
+DTEND:20261204T043000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C7-30-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-04@letsdoitdallas
+ .com
+DTSTAMP:20261205T013000Z
+DTSTART:20261205T013000Z
+DTEND:20261205T043000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C7-30-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-disney-s-the-muppet-christmas-carol-
@@ -182,6 +364,45 @@ DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-nutcracker-w-texas-ballet-theater|margot-and-bill-winspear-opera-ho
+ use-dallas|8-00-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T020000Z
+DTSTART:20261205T020000Z
+DTEND:20261205T050000Z
+SUMMARY:The Nutcracker w/ Texas Ballet Theater
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-nutcracker-w-texas-ba
+ llet-theater%7Cmargot-and-bill-winspear-opera-house-dallas%7C8-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-12-05@letsdoitdallas
+ .com
+DTSTAMP:20261205T200000Z
+DTSTART:20261205T200000Z
+DTEND:20261205T230000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-w-texas-ballet-theater|margot-and-bill-winspear-opera-ho
+ use-dallas|2-00-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T200000Z
+DTSTART:20261205T200000Z
+DTEND:20261205T230000Z
+SUMMARY:The Nutcracker w/ Texas Ballet Theater
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=the-nutcracker-w-texas-ba
+ llet-theater%7Cmargot-and-bill-winspear-opera-house-dallas%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-disney-s-the-muppet-christmas-carol-
  in-concert-live-to-film|morton-meyerson-symphony-center-dallas|7-30-pm-202
  6-12-05@letsdoitdallas.com
@@ -198,6 +419,45 @@ DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|8-00-pm-2026-12-05@letsdoitdallas
+ .com
+DTSTAMP:20261206T020000Z
+DTSTART:20261206T020000Z
+DTEND:20261206T050000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C8-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-w-texas-ballet-theater|margot-and-bill-winspear-opera-ho
+ use-dallas|8-00-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T020000Z
+DTSTART:20261206T020000Z
+DTEND:20261206T050000Z
+SUMMARY:The Nutcracker w/ Texas Ballet Theater
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=the-nutcracker-w-texas-ba
+ llet-theater%7Cmargot-and-bill-winspear-opera-house-dallas%7C8-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-12-06@letsdoitdallas
+ .com
+DTSTAMP:20261206T200000Z
+DTSTART:20261206T200000Z
+DTEND:20261206T230000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-disney-s-the-muppet-christmas-carol-
  in-concert-live-to-film|morton-meyerson-symphony-center-dallas|2-00-pm-202
  6-12-06@letsdoitdallas.com
@@ -212,5 +472,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-06&e=dallas-symphony-orchestra
  rton-meyerson-symphony-center-dallas%7C2-00-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-w-texas-ballet-theater|margot-and-bill-winspear-opera-ho
+ use-dallas|2-00-pm-2026-12-06@letsdoitdallas.com
+DTSTAMP:20261206T200000Z
+DTSTART:20261206T200000Z
+DTEND:20261206T230000Z
+SUMMARY:The Nutcracker w/ Texas Ballet Theater
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=the-nutcracker-w-texas-ba
+ llet-theater%7Cmargot-and-bill-winspear-opera-house-dallas%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
 END:VEVENT
 END:VCALENDAR

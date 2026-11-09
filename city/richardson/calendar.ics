@@ -1,0 +1,82 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Richardson\, TX — Lets Do It Dallas
+X-WR-CALDESC:Upcoming events in Richardson\, Texas.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:veterans-day-at-silver-fox|silver-fox-richardson|6-00-pm-9-00-pm-2026-1
+ 1-11@letsdoitdallas.com
+DTSTAMP:20261112T000000Z
+DTSTART:20261112T000000Z
+DTEND:20261112T030000Z
+SUMMARY:Veterans Day at Silver Fox
+LOCATION:Silver Fox · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-11&e=veterans-day-at-silver-fo
+ x%7Csilver-fox-richardson%7C6-00-pm-9-00-pm
+DESCRIPTION:In recognition of Veterans Day\, Silver Fox will honor veterans
+  and active-duty military personnel with complimentary meals on Wednesday\
+ , Nov. 11 as a gesture of gratitude for veterans’ service and sacrifice.
+  Silver Fox\, a neighborhood favorite for prime steaks and seafood in Fort
+  — More: https://letsdoitdallas.com/city/richardson/
+END:VEVENT
+BEGIN:VEVENT
+UID:asim-azhar|eisemann-center-richardson|7-00-pm-2026-11-15@letsdoitdallas
+ .com
+DTSTAMP:20261116T010000Z
+DTSTART:20261116T010000Z
+DTEND:20261116T040000Z
+SUMMARY:Asim Azhar
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=asim-azhar%7Ceisemann-cen
+ ter-richardson%7C7-00-pm
+DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/city/richardson/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-after-hours-art-music-and-lattes-at-moon-wolf|moon-wolf-provisions-
+ 920-custer-rd-richardson|6-00-pm-9-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T000000Z
+DTSTART:20261122T000000Z
+DTEND:20261122T030000Z
+SUMMARY:Art After Hours: Art\, Music and Lattes at Moon Wolf
+LOCATION:Moon Wolf Provisions · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=art-after-hours-art-music
+ -and-lattes-at-moon-wolf%7Cmoon-wolf-provisions-920-custer-rd-richardson%7
+ C6-00-pm-9-00-pm
+DESCRIPTION:An evening of art\, music\, pizza\, wine and lattes at Moon Wol
+ f Provisions. The $25 ticket includes pizza\, wine and coffee\; limited to
+  50 spots\, and ticket sales close Nov 14. — More: https://letsdoitdalla
+ s.com/city/richardson/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker|eisemann-center-richardson|2-00-pm-2026-11-28@letsdoitda
+ llas.com
+DTSTAMP:20261128T200000Z
+DTSTART:20261128T200000Z
+DTEND:20261128T230000Z
+SUMMARY:The Nutcracker
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=the-nutcracker%7Ceisemann
+ -center-richardson%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/city/richardson/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker|eisemann-center-richardson|2-00-pm-2026-11-29@letsdoitda
+ llas.com
+DTSTAMP:20261129T200000Z
+DTSTART:20261129T200000Z
+DTEND:20261129T230000Z
+SUMMARY:The Nutcracker
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=the-nutcracker%7Ceisemann
+ -center-richardson%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/city/richardson/
+END:VEVENT
+END:VCALENDAR

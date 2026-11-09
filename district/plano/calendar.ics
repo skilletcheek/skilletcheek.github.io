@@ -93,6 +93,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-premier-tribute-to-90-s-country-straight-tequila-night|legacy-hall-
+ plano|8-00-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T020000Z
+DTSTART:20261114T020000Z
+DTEND:20261114T050000Z
+SUMMARY:The Premier Tribute to 90's Country - Straight Tequila Night
+LOCATION:Legacy Hall · Plano
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=the-premier-tribute-to-90
+ -s-country-straight-tequila-night%7Clegacy-hall-plano%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:steve-byrne|addison-improv-addison|9-30-pm-2026-11-13@letsdoitdallas.co
  m
 DTSTAMP:20261114T033000Z
@@ -237,6 +250,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=family-magic-comedy-for-a
  ll-ages%7Caddison-improv-addison%7C2-00-pm
 DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
  doitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-after-hours-art-music-and-lattes-at-moon-wolf|moon-wolf-provisions-
+ 920-custer-rd-richardson|6-00-pm-9-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T000000Z
+DTSTART:20261122T000000Z
+DTEND:20261122T030000Z
+SUMMARY:Art After Hours: Art\, Music and Lattes at Moon Wolf
+LOCATION:Moon Wolf Provisions · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=art-after-hours-art-music
+ -and-lattes-at-moon-wolf%7Cmoon-wolf-provisions-920-custer-rd-richardson%7
+ C6-00-pm-9-00-pm
+DESCRIPTION:An evening of art\, music\, pizza\, wine and lattes at Moon Wol
+ f Provisions. The $25 ticket includes pizza\, wine and coffee\; limited to
+  50 spots\, and ticket sales close Nov 14. — More: https://letsdoitdalla
+ s.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:deray-davis|addison-improv-addison|7-00-pm-2026-11-21@letsdoitdallas.co
