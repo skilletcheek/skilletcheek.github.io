@@ -10,37 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:art-studio-18-|grapevine|10-00-am-2026-11-10@letsdoitdallas.com
-DTSTAMP:20261110T160000Z
-DTSTART:20261110T160000Z
-DTEND:20261110T190000Z
-SUMMARY:Art Studio (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-10&e=art-studio-18-%7Cgrapevin
- e%7C10-00-am
-DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
- our own projects or start something new. Bring your own project and ideas!
-  This is a welcoming space for creatives 18+. *Library Card Required* Nove
- mber 10\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grape 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-11-10@letsd
- oitdallas.com
-DTSTAMP:20261110T163000Z
-DTSTART:20261110T163000Z
-DTEND:20261110T193000Z
-SUMMARY:Storytime for Toddlers/Preschoolers
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-10&e=storytime-for-toddlers-pr
- eschoolers%7Cgrapevine%7C10-30-am
-DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
- welcome and no registrations is needed. (This is a Ticketed Program\; plea
- se stop at the Children's Desk 15 minutes before the program to receive ti
- ckets. 1 per attendee.) November 10\, 2026 10:30 AM - 11:00 AM Grapevine\,
-  — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:virtual-author-talk-with-kelly-zach-weinersmith|grapevine|01-00-pm-2026
  -11-10@letsdoitdallas.com
 DTSTAMP:20261110T190000Z
@@ -800,6 +769,22 @@ LOCATION:Grapevine
 URL:https://letsdoitdallas.com/?date=2026-11-23&e=kids-crochet-club-ages-7-
  12-%7Cgrapevine%7C01-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:brain-builders-cancelled|grapevine|03-30-pm-2026-11-23@letsdoitdallas.c
+ om
+DTSTAMP:20261123T213000Z
+DTSTART:20261123T213000Z
+DTEND:20261124T003000Z
+SUMMARY:Brain Builders-Cancelled
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=brain-builders-cancelled%
+ 7Cgrapevine%7C03-30-pm
+DESCRIPTION:Join us from 3:30-5:00 PM as we build using manipulatives\, leg
+ os\, marble runs\, magnatiles and more. No registration or supplies needed
+ . Just bring your imagination. November 23\, 2026 03:30 PM - 05:00 PM Grap
+ evine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17538/63
+  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
