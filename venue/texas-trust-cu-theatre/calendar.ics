@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:stray-cats|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-11-09@lets
- doitdallas.com
-DTSTAMP:20261110T020000Z
-DTSTART:20261110T020000Z
-DTEND:20261110T050000Z
-SUMMARY:Stray Cats
-LOCATION:Texas Trust CU Theatre · Grand Prairie
-URL:https://letsdoitdallas.com/?date=2026-11-09&e=stray-cats%7Ctexas-trust-
- cu-theatre-grand-prairie%7C8-00-pm
-DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/texas-trust-cu-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:don-lemon-w-d-l-hughley|texas-trust-cu-theatre-grand-prairie|8-00-pm-20
  26-11-20@letsdoitdallas.com
 DTSTAMP:20261121T020000Z

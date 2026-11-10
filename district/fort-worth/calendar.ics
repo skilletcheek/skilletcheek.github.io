@@ -10,57 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
- ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-09@lets
- doitdallas.com
-DTSTAMP:20261109T160000Z
-DTSTART:20261109T160000Z
-DTEND:20261109T190000Z
-SUMMARY:Puzzling Adventures Scavenger Hunt
-LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-09&e=puzzling-adventures-scave
- nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
- rth-76102-united-states%7C10-00-am
-DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
- uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
- e\, and an informative self-guided walking tour. Each adventure consists o
- f a series of locations that you are guided to where you are required t 
- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:rich-vos-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fo
- rt-worth|7-30-pm-2026-11-09@letsdoitdallas.com
-DTSTAMP:20261110T013000Z
-DTSTART:20261110T013000Z
-DTEND:20261110T043000Z
-SUMMARY:Rich Vos Live
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-09&e=rich-vos-live%7Cbig-laugh
- -comedy-club-fort-worth-604-main-st-suite-100-fort-worth%7C7-30-pm
-DESCRIPTION:Rich Vos: Live In Fort Worth  With a mic in his hand and zero f
- ilters in his brain\, Rich delivers punchlines that land harder than your 
- group chat roasts. He’s fast\, fearless\, and brutally funny—whether h
- e’s talking life\, family\, or the absolute madness of being a comic for
-  over — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-big-laugh-open-mic|big-laugh-comedy-club-fort-worth-604-main-st-sui
- te-100-fort-worth|8-00-pm-2026-11-09@letsdoitdallas.com
-DTSTAMP:20261110T020000Z
-DTSTART:20261110T020000Z
-DTEND:20261110T050000Z
-SUMMARY:The Big Laugh Open Mic
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-09&e=the-big-laugh-open-mic%7C
- big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth%7C8-00-p
- m
-DESCRIPTION:Have you wondered to yourself\, “where can I go on a Monday t
- o get a good laugh?” Look no further because we have the spot for you. T
- he Big Laugh Open Mic is a perfect setting for anyone who is looking to la
- ugh and have a good time.  So grab your grandma or your side piece and hea
-  — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:dock-open-mic|dock-bookshop-6637-meadowbrook-dr-fort-worth-tx-75116|7-0
  0-am-2026-11-10@letsdoitdallas.com
 DTSTAMP:20261110T130000Z
@@ -900,5 +849,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-08&e=tcu-horned-frogs-mens-bas
  arena-fort-worth%7Csee-details
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-music-of-johnny-mathis|casa-manana-fort-worth|7-30-pm-2026-12-08@le
+ tsdoitdallas.com
+DTSTAMP:20261209T013000Z
+DTSTART:20261209T013000Z
+DTEND:20261209T043000Z
+SUMMARY:The Music of Johnny Mathis
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=the-music-of-johnny-mathi
+ s%7Ccasa-manana-fort-worth%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
 END:VEVENT
 END:VCALENDAR

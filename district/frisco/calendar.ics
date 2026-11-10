@@ -11,31 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
- frisco|see-details-2026-11-09@letsdoitdallas.com
-DTSTAMP:20261109T000000Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
-SUMMARY:"The Cottage" by Theatre Frisco
-LOCATION:Black Box Theater · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-09&e=-the-cottage-by-theatre-f
- risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
-DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
- strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:multicultural-committee-meeting|6101-frisco-square-blvd-frisco|04-30-pm
- -2026-11-09@letsdoitdallas.com
-DTSTAMP:20261109T223000Z
-DTSTART:20261109T223000Z
-DTEND:20261110T013000Z
-SUMMARY:Multicultural Committee Meeting
-LOCATION:6101 Frisco Square Blvd.
-URL:https://letsdoitdallas.com/?date=2026-11-09&e=multicultural-committee-m
- eeting%7C6101-frisco-square-blvd-frisco%7C04-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
  frisco|see-details-2026-11-10@letsdoitdallas.com
 DTSTAMP:20261110T000000Z
 DTSTART;VALUE=DATE:20261110
@@ -338,6 +313,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=saturday-music-series-at-
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:portland-timbers-at-fc-dallas-mls-cup-round-1-gm-1-hg-1-|toyota-stadium
+ -frisco|3-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T210000Z
+DTSTART:20261121T210000Z
+DTEND:20261122T000000Z
+SUMMARY:Portland Timbers at FC Dallas - MLS Cup Round 1 (Gm 1\, HG 1)
+LOCATION:Toyota Stadium · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=portland-timbers-at-fc-da
+ llas-mls-cup-round-1-gm-1-hg-1-%7Ctoyota-stadium-frisco%7C3-00-pm
+DESCRIPTION:mls event via SeatGeek. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:texas-legends-vs-memphis-hustle|comerica-center-frisco|7-00-pm-2026-11-
  21@letsdoitdallas.com
 DTSTAMP:20261122T010000Z
@@ -427,5 +415,21 @@ URL:https://letsdoitdallas.com/?date=2026-11-29&e=texas-legends-vs-osceola-
  magic%7Ccomerica-center-frisco%7C3-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:portland-timbers-at-fc-dallas-western-conference-round-one-home-game-2-
+ if-necessary-|toyota-stadium-frisco|see-details-2026-12-02@letsdoitdallas.
+ com
+DTSTAMP:20261202T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Portland Timbers at FC Dallas: Western Conference Round One (Home G
+ ame 2\, If Necessary)
+LOCATION:Toyota Stadium · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=portland-timbers-at-fc-da
+ llas-western-conference-round-one-home-game-2-if-necessary-%7Ctoyota-stadi
+ um-frisco%7Csee-details
+DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/frisco/
 END:VEVENT
 END:VCALENDAR

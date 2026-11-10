@@ -10,31 +10,31 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:north-texas-mean-green-men-s-basketball-vs-santa-clara-broncos-mens-bas
- ketball|unt-superpit-denton|see-details-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261111T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+ ketball|unt-superpit-denton|7-00-pm-2026-11-11@letsdoitdallas.com
+DTSTAMP:20261112T010000Z
+DTSTART:20261112T010000Z
+DTEND:20261112T040000Z
 SUMMARY:North Texas Mean Green Men's Basketball vs. Santa Clara Broncos Men
  s Basketball
 LOCATION:UNT Superpit · Denton
 URL:https://letsdoitdallas.com/?date=2026-11-11&e=north-texas-mean-green-me
  n-s-basketball-vs-santa-clara-broncos-mens-basketball%7Cunt-superpit-dento
- n%7Csee-details
+ n%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/unt-superpit/
 END:VEVENT
 BEGIN:VEVENT
 UID:north-texas-mean-green-men-s-basketball-vs-south-alabama-jaguars-mens-b
- asketball|unt-superpit-denton|see-details-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+ asketball|unt-superpit-denton|5-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T230000Z
+DTSTART:20261114T230000Z
+DTEND:20261115T020000Z
 SUMMARY:North Texas Mean Green Men's Basketball vs. South Alabama Jaguars M
  ens Basketball
 LOCATION:UNT Superpit · Denton
 URL:https://letsdoitdallas.com/?date=2026-11-14&e=north-texas-mean-green-me
  n-s-basketball-vs-south-alabama-jaguars-mens-basketball%7Cunt-superpit-den
- ton%7Csee-details
+ ton%7C5-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/unt-superpit/
 END:VEVENT

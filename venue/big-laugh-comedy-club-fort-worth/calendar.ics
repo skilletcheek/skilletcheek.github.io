@@ -10,41 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:rich-vos-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fo
- rt-worth|7-30-pm-2026-11-09@letsdoitdallas.com
-DTSTAMP:20261110T013000Z
-DTSTART:20261110T013000Z
-DTEND:20261110T043000Z
-SUMMARY:Rich Vos Live
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-09&e=rich-vos-live%7Cbig-laugh
- -comedy-club-fort-worth-604-main-st-suite-100-fort-worth%7C7-30-pm
-DESCRIPTION:Rich Vos: Live In Fort Worth  With a mic in his hand and zero f
- ilters in his brain\, Rich delivers punchlines that land harder than your 
- group chat roasts. He’s fast\, fearless\, and brutally funny—whether h
- e’s talking life\, family\, or the absolute madness of being a comic for
-  over — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-for
- t-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-big-laugh-open-mic|big-laugh-comedy-club-fort-worth-604-main-st-sui
- te-100-fort-worth|8-00-pm-2026-11-09@letsdoitdallas.com
-DTSTAMP:20261110T020000Z
-DTSTART:20261110T020000Z
-DTEND:20261110T050000Z
-SUMMARY:The Big Laugh Open Mic
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-09&e=the-big-laugh-open-mic%7C
- big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth%7C8-00-p
- m
-DESCRIPTION:Have you wondered to yourself\, “where can I go on a Monday t
- o get a good laugh?” Look no further because we have the spot for you. T
- he Big Laugh Open Mic is a perfect setting for anyone who is looking to la
- ugh and have a good time.  So grab your grandma or your side piece and hea
-  — More: https://letsdoitdallas.com/venue/big-laugh-comedy-club-fort-wor
- th/
-END:VEVENT
-BEGIN:VEVENT
-UID:rich-vos-live|big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fo
  rt-worth|7-30-pm-2026-11-10@letsdoitdallas.com
 DTSTAMP:20261111T013000Z
 DTSTART:20261111T013000Z

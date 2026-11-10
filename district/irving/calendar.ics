@@ -144,6 +144,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
 END:VEVENT
 BEGIN:VEVENT
+UID:comedy-allstars|punch-line-irving-irving|7-00-pm-2026-11-15@letsdoitdal
+ las.com
+DTSTAMP:20261116T010000Z
+DTSTART:20261116T010000Z
+DTEND:20261116T040000Z
+SUMMARY:Comedy Allstars
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=comedy-allstars%7Cpunch-l
+ ine-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
 UID:jay-badlani|punch-line-irving-irving|7-00-pm-2026-11-15@letsdoitdallas.
  com
 DTSTAMP:20261116T010000Z

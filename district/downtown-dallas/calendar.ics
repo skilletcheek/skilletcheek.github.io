@@ -11,48 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-11-09@letsdoitdallas.com
-DTSTAMP:20261109T140000Z
-DTSTART:20261109T140000Z
-DTEND:20261109T170000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-09&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-mavericks-vs-indiana-pacers|american-airlines-center-dallas|7-00
- -pm-2026-11-09@letsdoitdallas.com
-DTSTAMP:20261110T010000Z
-DTSTART:20261110T010000Z
-DTEND:20261110T040000Z
-SUMMARY:Dallas Mavericks vs. Indiana Pacers
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-09&e=dallas-mavericks-vs-india
- na-pacers%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:lil-peep-30th-birthday-celebration|house-of-blues-dallas-dallas|7-00-pm
- -2026-11-09@letsdoitdallas.com
-DTSTAMP:20261110T010000Z
-DTSTART:20261110T010000Z
-DTEND:20261110T040000Z
-SUMMARY:LIL PEEP 30TH BIRTHDAY CELEBRATION
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-09&e=lil-peep-30th-birthday-ce
- lebration%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-11-10@letsdoitdallas.com
 DTSTAMP:20261110T140000Z
 DTSTART:20261110T140000Z
@@ -1184,5 +1142,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=ali-wong-live%7Cmusic-hal
  l-at-fair-park-dallas%7C8-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:key-glock-big5-live-|house-of-blues-dallas-dallas|7-00-pm-2026-12-08@le
+ tsdoitdallas.com
+DTSTAMP:20261209T010000Z
+DTSTART:20261209T010000Z
+DTEND:20261209T040000Z
+SUMMARY:Key Glock - Big5 Live!
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=key-glock-big5-live-%7Cho
+ use-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

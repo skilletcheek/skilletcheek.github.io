@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:medium-build-w-the-scratch|the-bomb-factory-dallas|8-00-pm-2026-11-09@l
- etsdoitdallas.com
-DTSTAMP:20261110T020000Z
-DTSTART:20261110T020000Z
-DTEND:20261110T050000Z
-SUMMARY:Medium Build w/ The Scratch
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-09&e=medium-build-w-the-scratc
- h%7Cthe-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/the-bomb-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:movements-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory-
  dallas|7-00-pm-2026-11-11@letsdoitdallas.com
 DTSTAMP:20261112T010000Z
