@@ -51,6 +51,19 @@ DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
 BEGIN:VEVENT
+UID:songwriter-sunday-with-dezi5-katherine-paterson|poor-david-s-pub-dallas
+ |doors-see-listing-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Songwriter Sunday with Dezi5 & Katherine Paterson
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=songwriter-sunday-with-de
+ zi5-katherine-paterson%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
+BEGIN:VEVENT
 UID:honky-tonk-tuesday-with-cory-cross|poor-david-s-pub-dallas|doors-see-li
  sting-2026-11-17@letsdoitdallas.com
 DTSTAMP:20261117T000000Z

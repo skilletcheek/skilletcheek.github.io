@@ -37,32 +37,34 @@ DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
  tsdoitdallas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
-UID:louisville-cardinals-at-smu-mustangs-womens-volleyball|moody-coliseum-d
- allas|7-00-pm-2026-11-12@letsdoitdallas.com
+UID:smu-mustangs-womens-volleyball-vs-louisville-cardinals-womens-volleybal
+ l|moody-coliseum-dallas|7-00-pm-2026-11-12@letsdoitdallas.com
 DTSTAMP:20261113T010000Z
 DTSTART:20261113T010000Z
 DTEND:20261113T040000Z
-SUMMARY:Louisville Cardinals at SMU Mustangs Womens Volleyball
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=louisville-cardinals-at-s
- mu-mustangs-womens-volleyball%7Cmoody-coliseum-dallas%7C7-00-pm
-DESCRIPTION:womens college volleyball event via SeatGeek. — More: https:/
- /letsdoitdallas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
-UID:smu-mustangs-womens-volleyball-vs-louisville-cardinals-womens-volleybal
- l|moody-coliseum-dallas|see-details-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
 SUMMARY:SMU Mustangs Womens Volleyball vs. Louisville Cardinals Womens Voll
  eyball
 LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=smu-mustangs-womens-volle
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=smu-mustangs-womens-volle
  yball-vs-louisville-cardinals-womens-volleyball%7Cmoody-coliseum-dallas%7C
- see-details
+ 7-00-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:smu-mustangs-mens-basketball-vs-ball-state-cardinals-mens-basketball|mo
+ ody-coliseum-dallas|8-00-pm-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T020000Z
+DTSTART:20261114T020000Z
+DTEND:20261114T050000Z
+SUMMARY:SMU Mustangs Mens Basketball vs. Ball State Cardinals Mens Basketba
+ ll
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=smu-mustangs-mens-basketb
+ all-vs-ball-state-cardinals-mens-basketball%7Cmoody-coliseum-dallas%7C8-00
+ -pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-notre-dame-fighting-irish-womens-voll

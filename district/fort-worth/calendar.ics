@@ -10,21 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dock-open-mic|dock-bookshop-6637-meadowbrook-dr-fort-worth-tx-75116|7-0
- 0-am-2026-11-10@letsdoitdallas.com
-DTSTAMP:20261110T130000Z
-DTSTART:20261110T130000Z
-DTEND:20261110T160000Z
-SUMMARY:Dock Open Mic
-LOCATION:dock bookshop · Fort Worth Tx
-URL:https://letsdoitdallas.com/?date=2026-11-10&e=dock-open-mic%7Cdock-book
- shop-6637-meadowbrook-dr-fort-worth-tx-75116%7C7-00-am
-DESCRIPTION:The Dock open mic presents Speak And Be Published. Everyone who
-  reads gets their poem published in an anthology   June 16\, 2026 at 7:30 
- PM CDT  The Dock Bookshop  $7 — More: https://letsdoitdallas.com/distric
- t/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
  et-fort-worth-76107-united-states|10-00-am-2026-11-10@letsdoitdallas.com
 DTSTAMP:20261110T160000Z
@@ -254,6 +239,95 @@ DESCRIPTION:Wizop Wednesdays: Open Mic Comedy  Looking for a midweek jolt o
  g- — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:fort-worth-songwriter-s-festival|southside-preservation-hall-1519-lipsc
+ omb-street-fort-worth-tx-76104-united-states|all-day-2026-11-12@letsdoitda
+ llas.com
+DTSTAMP:20261112T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Fort Worth Songwriter's Festival
+LOCATION:Southside Preservation Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=fort-worth-songwriter-s-f
+ estival%7Csouthside-preservation-hall-1519-lipscomb-street-fort-worth-tx-7
+ 6104-united-states%7Call-day
+DESCRIPTION:The third annual Fort Worth Songwriter Festival will be held No
+ vember 2026 at the historic Southside Preservation Hall and Rose Chapel wi
+ th accompanying afterparties at various beloved Fort Worth music venue sta
+ ples.  The Fort Worth Songwriter Festival is the flagship event of th — 
+ More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:southwest-rv-supershow|texas-motor-speedway-3545-lone-star-circle-fort-
+ fort-worth-76177-united-states|all-day-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Southwest RV SuperShow
+LOCATION:Texas Motor Speedway · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=southwest-rv-supershow%7C
+ texas-motor-speedway-3545-lone-star-circle-fort-fort-worth-76177-united-st
+ ates%7Call-day
+DESCRIPTION:The 52nd Annual Southwest RV SuperShow will be held at Texas Mo
+ tor Speedway in Fort Worth\, TX.  This event is open to the public. The e
+ vent showcases a vast selection of travel trailers\, fifth wheels\, class 
+ A\, B and C motorhomes from dealers around the DFW area. On-site financing
+  — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T160000Z
+DTSTART:20261112T160000Z
+DTEND:20261112T190000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-12@lets
+ doitdallas.com
+DTSTAMP:20261112T160000Z
+DTSTART:20261112T160000Z
+DTEND:20261112T190000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:national-multi-cultural-western-heritage-museum|the-national-multicultu
+ ral-western-heritage-museum-2201-dottie-lynn-pkwy-suite-115-fort-worth-761
+ 20-united-states|11-00-am-2026-11-12@letsdoitdallas.com
+DTSTAMP:20261112T170000Z
+DTSTART:20261112T170000Z
+DTEND:20261112T200000Z
+SUMMARY:National Multi Cultural Western Heritage Museum
+LOCATION:The National Multicultural Western Heritage Museum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=national-multi-cultural-w
+ estern-heritage-museum%7Cthe-national-multicultural-western-heritage-museu
+ m-2201-dottie-lynn-pkwy-suite-115-fort-worth-76120-united-states%7C11-00-a
+ m
+DESCRIPTION:The primary objective of the National Multicultural Western Her
+ itage Museum and Hall of Fame is to offer the visitor a true and complete 
+ historical perspective of the people and activities that built the unique 
+ culture of the American West. The work of artists who documented the — M
+ ore: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:southeastern-louisiana-womens-bb-at-tcu-womens-bb|ed-rae-schollmaier-ar
  ena-fort-worth|6-30-pm-2026-11-12@letsdoitdallas.com
 DTSTAMP:20261113T003000Z
@@ -265,22 +339,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-12&e=southeastern-louisiana-wo
  mens-bb-at-tcu-womens-bb%7Ced-rae-schollmaier-arena-fort-worth%7C6-30-pm
 DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
  tsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:tcu-horned-frogs-mens-basketball-vs-uw-milwaukee-panthers-mens-basketba
- ll|ed-and-rae-schollmaier-arena-fort-worth|see-details-2026-11-13@letsdoit
- dallas.com
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:TCU Horned Frogs Mens Basketball vs. UW- Milwaukee Panthers Mens Ba
- sketball
-LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=tcu-horned-frogs-mens-bas
- ketball-vs-uw-milwaukee-panthers-mens-basketball%7Ced-and-rae-schollmaier-
- arena-fort-worth%7Csee-details
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:hot-wheels-monster-trucks-live-glow-n-fire|ariat-arena-fort-worth|7-00-
@@ -296,6 +354,22 @@ DESCRIPTION:Motorsports/Racing event via Ticketmaster. — More: https://le
  tsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:tcu-horned-frogs-mens-basketball-vs-uw-milwaukee-panthers-mens-basketba
+ ll|ed-and-rae-schollmaier-arena-fort-worth|7-00-pm-2026-11-13@letsdoitdall
+ as.com
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:TCU Horned Frogs Mens Basketball vs. UW- Milwaukee Panthers Mens Ba
+ sketball
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=tcu-horned-frogs-mens-bas
+ ketball-vs-uw-milwaukee-panthers-mens-basketball%7Ced-and-rae-schollmaier-
+ arena-fort-worth%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:fort-worth-symphony-orchestra-oz-with-orchestra|bass-performance-hall-f
  ort-worth|7-30-pm-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261114T013000Z
@@ -307,20 +381,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=fort-worth-symphony-orche
  stra-oz-with-orchestra%7Cbass-performance-hall-fort-worth%7C7-30-pm
 DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
  com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:tcu-horned-frogs-football-vs-kansas-state-wildcats-football|amon-g-cart
- er-stadium-fort-worth|see-details-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:TCU Horned Frogs Football vs. Kansas State Wildcats Football
-LOCATION:Amon G. Carter Stadium · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=tcu-horned-frogs-football
- -vs-kansas-state-wildcats-football%7Camon-g-carter-stadium-fort-worth%7Cse
- e-details
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:fort-worth-symphony-orchestra-when-instruments-roamed-the-earth|bass-pe
@@ -348,6 +408,20 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=hot-wheels-monster-trucks
  -live-glow-n-fire%7Cariat-arena-fort-worth%7C11-30-am
 DESCRIPTION:Motorsports/Racing event via Ticketmaster. — More: https://le
  tsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-football-vs-kansas-state-wildcats-football|amon-g-cart
+ er-stadium-fort-worth|1-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T190000Z
+DTSTART:20261114T190000Z
+DTEND:20261114T220000Z
+SUMMARY:TCU Horned Frogs Football vs. Kansas State Wildcats Football
+LOCATION:Amon G. Carter Stadium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=tcu-horned-frogs-football
+ -vs-kansas-state-wildcats-football%7Camon-g-carter-stadium-fort-worth%7C1-
+ 00-pm
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:hot-wheels-monster-trucks-live-glow-n-fire|ariat-arena-fort-worth|6-30-
@@ -486,17 +560,17 @@ DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
 END:VEVENT
 BEGIN:VEVENT
 UID:tcu-horned-frogs-mens-basketball-vs-texas-a-m-aggies-mens-basketball|ed
- -and-rae-schollmaier-arena-fort-worth|see-details-2026-11-19@letsdoitdalla
- s.com
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
+ -and-rae-schollmaier-arena-fort-worth|7-00-pm-2026-11-19@letsdoitdallas.co
+ m
+DTSTAMP:20261120T010000Z
+DTSTART:20261120T010000Z
+DTEND:20261120T040000Z
 SUMMARY:TCU Horned Frogs Mens Basketball vs. Texas A&M Aggies Mens Basketba
  ll
 LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=tcu-horned-frogs-mens-bas
  ketball-vs-texas-a-m-aggies-mens-basketball%7Ced-and-rae-schollmaier-arena
- -fort-worth%7Csee-details
+ -fort-worth%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/fort-worth/
 END:VEVENT
