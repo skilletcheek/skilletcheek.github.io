@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lunch-circuit|310-e-parkerville-road-cedar-hill|12-00-pm-2026-11-11@let
- sdoitdallas.com
-DTSTAMP:20261111T180000Z
-DTSTART:20261111T180000Z
-DTEND:20261111T210000Z
-SUMMARY:Lunch Circuit
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=lunch-circuit%7C310-e-par
- kerville-road-cedar-hill%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:art-is-life|310-e-parkerville-road-cedar-hill|05-00-pm-2026-11-11@letsd
  oitdallas.com
 DTSTAMP:20261111T230000Z

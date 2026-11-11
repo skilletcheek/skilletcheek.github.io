@@ -9,39 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sensory-friendly-storytime|central-library-garland|10-00-am-2026-11-11@
- letsdoitdallas.com
-DTSTAMP:20261111T160000Z
-DTSTART:20261111T160000Z
-DTEND:20261111T190000Z
-SUMMARY:Sensory-Friendly Storytime
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=sensory-friendly-storytim
- e%7Ccentral-library-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Join us for Sensory-Friendly Storytime\, a welcomi
- ng and inclusive storytime experience designed for children and individual
- s with sensory sensitivities and developmental differences. This modified 
- storytime aims to provide a calm\, consistent and comfortable environmen 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:from-maker-to-market-using-makerspace-equipment-to-earn-ages-13-|centra
- l-library-garland|02-00-pm-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261111T200000Z
-DTSTART:20261111T200000Z
-DTEND:20261111T230000Z
-SUMMARY:From Maker to Market: Using Makerspace Equipment to Earn (Ages 13+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=from-maker-to-market-usin
- g-makerspace-equipment-to-earn-ages-13-%7Ccentral-library-garland%7C02-00-
- pm
-DESCRIPTION:2:00 p.m.\; Learn how to use makerspace tools to create product
- s with income potential. Participants will explore side hustle ideas using
-  equipment such as 3D printers\, laser cutters\, Cricut machines and subli
- mation tools\, etc. There will be a Q&A at the end to allow patrons to as 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-11
  -12@letsdoitdallas.com
 DTSTAMP:20261112T160000Z

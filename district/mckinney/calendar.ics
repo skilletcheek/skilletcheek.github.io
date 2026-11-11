@@ -10,30 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-11-11@
- letsdoitdallas.com
-DTSTAMP:20261111T163000Z
-DTSTART:20261111T163000Z
-DTEND:20261111T193000Z
-SUMMARY:Baby & Me (0-10 Months)
-LOCATION:6861 W. Eldorado Pkwy. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=baby-me-0-10-months-%7C68
- 61-w-eldorado-pkwy-mckinney%7C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:creative-writers-workshop-adults-|6861-w-eldorado-parkway-mckinney|01-0
- 0-pm-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261111T190000Z
-DTSTART:20261111T190000Z
-DTEND:20261111T220000Z
-SUMMARY:Creative Writers Workshop (Adults)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=creative-writers-workshop
- -adults-%7C6861-w-eldorado-parkway-mckinney%7C01-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:kids-art-studio-k-5th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-
  2026-11-11@letsdoitdallas.com
 DTSTAMP:20261111T223000Z

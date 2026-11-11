@@ -10,37 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:stem-lab-18-|grapevine|10-00-am-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261111T160000Z
-DTSTART:20261111T160000Z
-DTEND:20261111T190000Z
-SUMMARY:STEM Lab (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=stem-lab-18-%7Cgrapevine%
- 7C10-00-am
-DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
- at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
- ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
- edgeable staff will be available to provide guidance\, tips\, and support 
- as — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-11-11@letsd
- oitdallas.com
-DTSTAMP:20261111T163000Z
-DTSTART:20261111T163000Z
-DTEND:20261111T193000Z
-SUMMARY:Storytime for Toddlers/Preschoolers
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=storytime-for-toddlers-pr
- eschoolers%7Cgrapevine%7C10-30-am
-DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
- welcome and no registrations is needed. (This is a Ticketed Program\; plea
- se stop at the Children's Desk 15 minutes before the program to receive ti
- ckets. 1 per attendee.) November 11\, 2026 10:30 AM - 11:00 AM Grapevine\,
-  — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:virtual-author-talk-with-paul-vigna|grapevine|01-00-pm-2026-11-11@letsd
  oitdallas.com
 DTSTAMP:20261111T190000Z
@@ -103,6 +72,23 @@ DESCRIPTION:Learn to Play Mahjong Thursdays 12:30-4:30. Beginners\, please
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
+UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
+ e-tx-76051-united-states|8-00-am-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261113T140000Z
+DTSTART:20261113T140000Z
+DTEND:20261113T170000Z
+SUMMARY:Phenomenomaly at Meow Wolf
+LOCATION:Meow Wolf · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=phenomenomaly-at-meow-wol
+ f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
+ C8-00-am
+DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
+  live immersive performance series inside The Real Unreal. Blending intera
+ ctive theater with a rotating lineup of North Texas talent\, the experienc
+ e unfolds around guests as they explore\, featuring music\, dance\, comedy
+ \, — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
 UID:art-studio-18-|grapevine|10-00-am-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261113T160000Z
 DTSTART:20261113T160000Z
@@ -133,18 +119,18 @@ DESCRIPTION:Open Play Fridays 12:30-4:30. Tables available on a first come
  — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
-UID:kidzart-|grapevine|05-15-pm-2026-11-13@letsdoitdallas.com
+UID:kidzart-cancelled|grapevine|05-15-pm-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261113T231500Z
 DTSTART:20261113T231500Z
 DTEND:20261114T021500Z
-SUMMARY:KidzArt!
+SUMMARY:KidzArt!--Cancelled
 LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=kidzart-%7Cgrapevine%7C05
- -15-pm
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=kidzart-cancelled%7Cgrape
+ vine%7C05-15-pm
 DESCRIPTION:Volunteers from our area high schools will be bringing their cr
  eativity to the library. Join us for this fun afterschool craft time. Nove
  mber 13\, 2026 05:15 PM - 05:45 PM Grapevine\, TX 76051 https://www.grapev
- inetexas.gov/Calendar.aspx?EID=17875/639284448890000000 — More: https://
+ inetexas.gov/Calendar.aspx?EID=17875/639300004310000000 — More: https://
  letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
