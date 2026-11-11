@@ -171,4 +171,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-06&e=westside-boogie%7Ctrees-d
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT
+BEGIN:VEVENT
+UID:the-emo-night-tour|trees-dallas|doors-see-listing-2026-12-11@letsdoitda
+ llas.com
+DTSTAMP:20261211T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:THE EMO NIGHT TOUR
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=the-emo-night-tour%7Ctree
+ s-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
 END:VCALENDAR

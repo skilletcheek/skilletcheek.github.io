@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:stone-cold-and-the-jackal|the-addison-improv-addison|7-30-pm-2026-11-10
- @letsdoitdallas.com
-DTSTAMP:20261111T013000Z
-DTSTART:20261111T013000Z
-DTEND:20261111T043000Z
-SUMMARY:Stone Cold and The Jackal
-LOCATION:The Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-10&e=stone-cold-and-the-jackal
- %7Cthe-addison-improv-addison%7C7-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:josh-firestine-and-mikey-b|addison-improv-addison|7-00-pm-2026-11-11@le
  tsdoitdallas.com
 DTSTAMP:20261112T010000Z

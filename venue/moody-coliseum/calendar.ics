@@ -9,21 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:smu-mustangs-mens-basketball-vs-prairie-view-a-m-panthers-mens-basketba
- ll|moody-coliseum-dallas|7-00-pm-2026-11-10@letsdoitdallas.com
-DTSTAMP:20261111T010000Z
-DTSTART:20261111T010000Z
-DTEND:20261111T040000Z
-SUMMARY:SMU Mustangs Mens Basketball vs. Prairie View A & M Panthers Mens B
- asketball
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-10&e=smu-mustangs-mens-basketb
- all-vs-prairie-view-a-m-panthers-mens-basketball%7Cmoody-coliseum-dallas%7
- C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:liu-womens-bb-at-smu-womens-bb|moody-coliseum-dallas|6-00-pm-2026-11-11
  @letsdoitdallas.com
 DTSTAMP:20261112T000000Z
@@ -123,6 +108,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-20&e=smu-mustangs-mens-basketb
  0-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:grand-canyon-womens-bb-at-smu-womens-bb|moody-coliseum-dallas|5-00-pm-2
+ 026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T230000Z
+DTSTART:20261121T230000Z
+DTEND:20261122T020000Z
+SUMMARY:Grand Canyon Womens BB at SMU Womens BB
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=grand-canyon-womens-bb-at
+ -smu-womens-bb%7Cmoody-coliseum-dallas%7C5-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-georgia-tech-yellow-jackets-womens-vo

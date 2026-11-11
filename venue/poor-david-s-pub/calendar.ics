@@ -22,18 +22,16 @@ DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
 BEGIN:VEVENT
-UID:poor-david-s-presents-david-nail-down-to-the-studs-tour-|-friday-novemb
- er-13th-8pm|poor-david-s-pub-dallas|doors-see-listing-2026-11-13@letsdoitd
- allas.com
+UID:poor-david-s-presents-david-nail-down-to-the-studs-tour|poor-david-s-pu
+ b-dallas|doors-see-listing-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261113T000000Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
-SUMMARY:Poor David's Presents DAVID NAIL: Down to the Studs Tour | Friday N
- ovember 13th 8PM
+SUMMARY:Poor David's Presents DAVID NAIL: Down to the Studs Tour
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-13&e=poor-david-s-presents-dav
- id-nail-down-to-the-studs-tour-%7C-friday-november-13th-8pm%7Cpoor-david-s
- -pub-dallas%7Cdoors-see-listing
+ id-nail-down-to-the-studs-tour%7Cpoor-david-s-pub-dallas%7Cdoors-see-listi
+ ng
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
@@ -141,6 +139,19 @@ SUMMARY:Christmas with The Beatles ft. Abbey Road Trip
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=christmas-with-the-beatle
  s-ft-abbey-road-trip%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
+BEGIN:VEVENT
+UID:helene-cronin-scott-sean-white|poor-david-s-pub-dallas|doors-see-listin
+ g-2026-12-11@letsdoitdallas.com
+DTSTAMP:20261211T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Helene Cronin & Scott Sean White
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=helene-cronin-scott-sean-
+ white%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT

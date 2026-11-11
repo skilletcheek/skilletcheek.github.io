@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-11-10@letsdoitdal
- las.com
-DTSTAMP:20261111T003000Z
-DTSTART:20261111T003000Z
-DTEND:20261111T033000Z
-SUMMARY:Test Your Mic
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-10&e=test-your-mic%7Carlington
- -improv-arlington%7C6-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:michael-blackson|arlington-improv-arlington|7-30-pm-2026-11-12@letsdoit
  dallas.com
 DTSTAMP:20261113T013000Z
@@ -283,14 +270,14 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
 END:VEVENT
 BEGIN:VEVENT
 UID:flip-phone-dolly-parton-christmas-drag-brunch|arlington-improv-arlingto
- n|2-00-pm-2026-12-06@letsdoitdallas.com
-DTSTAMP:20261206T200000Z
-DTSTART:20261206T200000Z
-DTEND:20261206T230000Z
+ n|1-00-pm-2026-12-06@letsdoitdallas.com
+DTSTAMP:20261206T190000Z
+DTSTART:20261206T190000Z
+DTEND:20261206T220000Z
 SUMMARY:Flip Phone: Dolly Parton Christmas Drag Brunch
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-12-06&e=flip-phone-dolly-parton-c
- hristmas-drag-brunch%7Carlington-improv-arlington%7C2-00-pm
+ hristmas-drag-brunch%7Carlington-improv-arlington%7C1-00-pm
 DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
  /letsdoitdallas.com/venue/arlington-improv/
 END:VEVENT

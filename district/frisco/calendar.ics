@@ -11,48 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
- frisco|see-details-2026-11-10@letsdoitdallas.com
-DTSTAMP:20261110T000000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:"The Cottage" by Theatre Frisco
-LOCATION:Black Box Theater · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-10&e=-the-cottage-by-theatre-f
- risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
-DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
- strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:pga-championship-boot-camp-for-the-2027-pga-championship-cancelled|1916
- -pga-parkway-frisco|03-00-pm-2026-11-10@letsdoitdallas.com
-DTSTAMP:20261110T210000Z
-DTSTART:20261110T210000Z
-DTEND:20261111T000000Z
-SUMMARY:PGA Championship Boot Camp for the 2027 PGA Championship - CANCELLE
- D
-LOCATION:1916 PGA Parkway · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-10&e=pga-championship-boot-cam
- p-for-the-2027-pga-championship-cancelled%7C1916-pga-parkway-frisco%7C03-0
- 0-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-mg-anthony-woods-presents-the-legacy-of-the-buffalo-soldiers-by-herita
- ge-association-of-frisco|6455-page-street-frisco|06-30-pm-2026-11-10@letsd
- oitdallas.com
-DTSTAMP:20261111T003000Z
-DTSTART:20261111T003000Z
-DTEND:20261111T033000Z
-SUMMARY:"MG Anthony Woods Presents the Legacy of the Buffalo Soldiers" by H
- eritage Association of Frisco
-LOCATION:6455 Page Street · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-10&e=-mg-anthony-woods-present
- s-the-legacy-of-the-buffalo-soldiers-by-heritage-association-of-frisco%7C6
- 455-page-street-frisco%7C06-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
  frisco|see-details-2026-11-11@letsdoitdallas.com
 DTSTAMP:20261111T000000Z
 DTSTART;VALUE=DATE:20261111
@@ -352,6 +310,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=portland-timbers-at-fc-da
  llas-mls-cup-round-1-gm-1-hg-1-%7Ctoyota-stadium-frisco%7C3-00-pm
 DESCRIPTION:mls event via SeatGeek. — More: https://letsdoitdallas.com/di
  strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:memphis-hustle-at-texas-legends|comerica-center-frisco|7-00-pm-2026-11-
+ 21@letsdoitdallas.com
+DTSTAMP:20261122T010000Z
+DTSTART:20261122T010000Z
+DTEND:20261122T040000Z
+SUMMARY:Memphis Hustle at Texas Legends
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=memphis-hustle-at-texas-l
+ egends%7Ccomerica-center-frisco%7C7-00-pm
+DESCRIPTION:nba g league event via SeatGeek. — More: https://letsdoitdall
+ as.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:texas-legends-vs-memphis-hustle|fifth-third-arena-frisco|7-00-pm-2026-1

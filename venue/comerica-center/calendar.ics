@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Comerica Center — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Comerica Center.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:rio-grande-valley-vipers-at-texas-legends|comerica-center-frisco|7-00-p
+ m-2026-11-13@letsdoitdallas.com
+DTSTAMP:20261114T010000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:Rio Grande Valley Vipers at Texas Legends
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=rio-grande-valley-vipers-
+ at-texas-legends%7Ccomerica-center-frisco%7C7-00-pm
+DESCRIPTION:nba g league event via SeatGeek. — More: https://letsdoitdall
+ as.com/venue/comerica-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:rio-grande-valley-vipers-at-texas-legends|comerica-center-frisco|3-00-p
+ m-2026-11-15@letsdoitdallas.com
+DTSTAMP:20261115T210000Z
+DTSTART:20261115T210000Z
+DTEND:20261116T000000Z
+SUMMARY:Rio Grande Valley Vipers at Texas Legends
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=rio-grande-valley-vipers-
+ at-texas-legends%7Ccomerica-center-frisco%7C3-00-pm
+DESCRIPTION:nba g league event via SeatGeek. — More: https://letsdoitdall
+ as.com/venue/comerica-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:memphis-hustle-at-texas-legends|comerica-center-frisco|7-00-pm-2026-11-
+ 21@letsdoitdallas.com
+DTSTAMP:20261122T010000Z
+DTSTART:20261122T010000Z
+DTEND:20261122T040000Z
+SUMMARY:Memphis Hustle at Texas Legends
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=memphis-hustle-at-texas-l
+ egends%7Ccomerica-center-frisco%7C7-00-pm
+DESCRIPTION:nba g league event via SeatGeek. — More: https://letsdoitdall
+ as.com/venue/comerica-center/
+END:VEVENT
+END:VCALENDAR

@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-11-10@letsdoitdal
- las.com
-DTSTAMP:20261111T003000Z
-DTSTART:20261111T003000Z
-DTEND:20261111T033000Z
-SUMMARY:Test Your Mic
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-10&e=test-your-mic%7Carlington
- -improv-arlington%7C6-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-11-12
  @letsdoitdallas.com
 DTSTAMP:20261112T180000Z
@@ -651,6 +638,19 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-rally-day-tour|at-t-stadium-arlington|3-45-pm-2
+ 026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T214500Z
+DTSTART:20261121T214500Z
+DTEND:20261122T004500Z
+SUMMARY:AT&T Stadium VIP Guided Rally Day Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=at-t-stadium-vip-guided-r
+ ally-day-tour%7Cat-t-stadium-arlington%7C3-45-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:godfrey|arlington-improv-arlington|7-00-pm-2026-11-21@letsdoitdallas.co
  m
 DTSTAMP:20261122T010000Z
@@ -821,14 +821,14 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
 END:VEVENT
 BEGIN:VEVENT
 UID:flip-phone-dolly-parton-christmas-drag-brunch|arlington-improv-arlingto
- n|2-00-pm-2026-12-06@letsdoitdallas.com
-DTSTAMP:20261206T200000Z
-DTSTART:20261206T200000Z
-DTEND:20261206T230000Z
+ n|1-00-pm-2026-12-06@letsdoitdallas.com
+DTSTAMP:20261206T190000Z
+DTSTART:20261206T190000Z
+DTEND:20261206T220000Z
 SUMMARY:Flip Phone: Dolly Parton Christmas Drag Brunch
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-12-06&e=flip-phone-dolly-parton-c
- hristmas-drag-brunch%7Carlington-improv-arlington%7C2-00-pm
+ hristmas-drag-brunch%7Carlington-improv-arlington%7C1-00-pm
 DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
  /letsdoitdallas.com/district/arlington/
 END:VEVENT

@@ -597,4 +597,30 @@ URL:https://letsdoitdallas.com/?date=2026-12-09&e=legacy-of-the-longhorn%7C
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/stockyards/
 END:VEVENT
+BEGIN:VEVENT
+UID:koe-wetzel-w-parker-mccollum|billy-bob-s-fort-worth|9-00-pm-2026-12-09@
+ letsdoitdallas.com
+DTSTAMP:20261210T030000Z
+DTSTART:20261210T030000Z
+DTEND:20261210T060000Z
+SUMMARY:Koe Wetzel w/ Parker McCollum
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=koe-wetzel-w-parker-mccol
+ lum%7Cbilly-bob-s-fort-worth%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/stockyards/
+END:VEVENT
+BEGIN:VEVENT
+UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-12-10@
+ letsdoitdallas.com
+DTSTAMP:20261210T183000Z
+DTSTART:20261210T183000Z
+DTEND:20261210T213000Z
+SUMMARY:Legacy of the Longhorn
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-10&e=legacy-of-the-longhorn%7C
+ cowtown-coliseum-fort-worth%7C12-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/stockyards/
+END:VEVENT
 END:VCALENDAR
