@@ -35,6 +35,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/arlington-music-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:larry-gatlin-the-gatlin-brothers|arlington-music-hall-arlington|7-30-pm
+ -2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T013000Z
+DTSTART:20261122T013000Z
+DTEND:20261122T043000Z
+SUMMARY:Larry Gatlin & The Gatlin Brothers
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=larry-gatlin-the-gatlin-b
+ rothers%7Carlington-music-hall-arlington%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:david-archuleta|arlington-music-hall-arlington|7-30-pm-2026-12-01@letsd
  oitdallas.com
 DTSTAMP:20261202T013000Z

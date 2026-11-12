@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-aces-w-gatlin|trees-dallas|8-00-pm-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261112T020000Z
-DTSTART:20261112T020000Z
-DTEND:20261112T050000Z
-SUMMARY:The Aces w/ Gatlin
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=the-aces-w-gatlin%7Ctrees
- -dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/trees/
-END:VEVENT
-BEGIN:VEVENT
 UID:ladrones-arriba-la-l-usa-2026-tour|trees-dallas|doors-see-listing-2026-
  11-13@letsdoitdallas.com
 DTSTAMP:20261113T000000Z
@@ -181,6 +169,18 @@ SUMMARY:THE EMO NIGHT TOUR
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-11&e=the-emo-night-tour%7Ctree
  s-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:gothcumbia|trees-dallas|doors-see-listing-2026-12-12@letsdoitdallas.com
+DTSTAMP:20261212T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:GOTHCUMBIA
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=gothcumbia%7Ctrees-dallas
+ %7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
  /
 END:VEVENT

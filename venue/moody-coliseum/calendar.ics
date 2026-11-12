@@ -9,17 +9,20 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:liu-womens-bb-at-smu-womens-bb|moody-coliseum-dallas|6-00-pm-2026-11-11
- @letsdoitdallas.com
-DTSTAMP:20261112T000000Z
-DTSTART:20261112T000000Z
-DTEND:20261112T030000Z
-SUMMARY:LIU Womens BB at SMU Womens BB
+UID:smu-vs-louisville-cardinals|moody-coliseum-dallas|11-00-am-11-00-pm-202
+ 6-11-12@letsdoitdallas.com
+DTSTAMP:20261112T170000Z
+DTSTART:20261112T170000Z
+DTEND:20261112T200000Z
+SUMMARY:SMU vs. Louisville Cardinals
 LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=liu-womens-bb-at-smu-wome
- ns-bb%7Cmoody-coliseum-dallas%7C6-00-pm
-DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
- tsdoitdallas.com/venue/moody-coliseum/
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=smu-vs-louisville-cardina
+ ls%7Cmoody-coliseum-dallas%7C11-00-am-11-00-pm
+DESCRIPTION:Cheer on SMU Volleyball as the Mustangs take on the Louisville 
+ Cardinals in an exciting collegiate matchup. Catch the action\, rally behi
+ nd the home team\, and enjoy an evening of competitive volleyball as both 
+ teams battle for the win. — More: https://letsdoitdallas.com/venue/moody
+ -coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-louisville-cardinals-womens-volleybal

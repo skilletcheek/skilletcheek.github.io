@@ -10,42 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kids-art-studio-k-5th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-
- 2026-11-11@letsdoitdallas.com
-DTSTAMP:20261111T223000Z
-DTSTART:20261111T223000Z
-DTEND:20261112T013000Z
-SUMMARY:Kids Art Studio (K-5th Grade)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=kids-art-studio-k-5th-gra
- de-%7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:true-crime-book-club-adults-|6861-w-eldorado-pkwy-mckinney|07-00-pm-202
- 6-11-11@letsdoitdallas.com
-DTSTAMP:20261112T010000Z
-DTSTART:20261112T010000Z
-DTEND:20261112T040000Z
-SUMMARY:True Crime Book Club (Adults)
-LOCATION:6861 W. Eldorado Pkwy. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=true-crime-book-club-adul
- ts-%7C6861-w-eldorado-pkwy-mckinney%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
- am-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261112T163000Z
-DTSTART:20261112T163000Z
-DTEND:20261112T193000Z
-SUMMARY:Toddler Time (16 Months-3 Years)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=toddler-time-16-months-3-
- years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:little-explorers-3-5-years-|6861-w-eldorado-parkway-mckinney|11-30-am-2
  026-11-12@letsdoitdallas.com
 DTSTAMP:20261112T173000Z
@@ -118,6 +82,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=hunger-games-after-hours-
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:7th-annual-tour-of-trees-at-trinity-falls|trinity-falls-mckinney|10-00-
+ am-5-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T160000Z
+DTSTART:20261114T160000Z
+DTEND:20261114T190000Z
+SUMMARY:7th Annual Tour of Trees at Trinity Falls
+LOCATION:Trinity Falls · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=7th-annual-tour-of-trees-
+ at-trinity-falls%7Ctrinity-falls-mckinney%7C10-00-am-5-00-pm
+DESCRIPTION:For many North Texas families\, the holiday season doesn’t of
+ ficially begin until they’ve walked the Tour of Trees. The 7th Annual To
+ ur of Trees at Trinity Falls returns Saturday\, Nov. 14 through Sunday\, D
+ ec. 13\, inviting visitors to stroll through beautifully furnished model h
+ ome — More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:farmers-market-storytime-all-ages-10-am|315-s-chestnut-st-mckinney|10-0
  0-am-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261114T160000Z
@@ -152,6 +132,22 @@ LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-11-14&e=saturday-chess-meetup-all
  -ages-%7C6861-w-eldorado-parkway-mckinney%7C11-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:beethoven-bach-and-brahms|trinity-presbyterian-church-great-hall-mckinn
+ ey|7-00-pm-8-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T010000Z
+DTSTART:20261115T010000Z
+DTEND:20261115T040000Z
+SUMMARY:Beethoven\, Bach and Brahms
+LOCATION:Trinity Presbyterian Church (Great Hall) · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=beethoven-bach-and-brahms
+ %7Ctrinity-presbyterian-church-great-hall-mckinney%7C7-00-pm-8-00-pm
+DESCRIPTION:Experience an unforgettable evening of musical masterworks as t
+ he McKinney Philharmonic Orchestra celebrates three towering figures of cl
+ assical music. The concert opens with Beethoven's stirring Egmont Overture
+ \, a powerful tale of courage\, sacrifice\, and triumph. Internationally 
+ — More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
 UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-11-16@
@@ -529,6 +525,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-25&e=disney-on-ice-presents-ma
  gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
 DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:thanksgiving-holiday-|-city-offices-closed|mckinney|08-00-am-2026-11-26
+ @letsdoitdallas.com
+DTSTAMP:20261126T140000Z
+DTSTART:20261126T140000Z
+DTEND:20261126T170000Z
+SUMMARY:Thanksgiving Holiday | City Offices Closed
+LOCATION:McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=thanksgiving-holiday-%7C-
+ city-offices-closed%7Cmckinney%7C08-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
 UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c

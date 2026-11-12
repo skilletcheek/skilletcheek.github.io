@@ -117,6 +117,19 @@ DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/arts-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:mystic-pizza-the-musical-dallas|margot-and-bill-winspear-opera-house-da
+ llas|7-30-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T013000Z
+DTSTART:20261122T013000Z
+DTEND:20261122T043000Z
+SUMMARY:Mystic Pizza - The Musical - Dallas
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=mystic-pizza-the-musical-
+ dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C7-30-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-debussy-s-la-mer-and-karen-gomyo|mor
  ton-meyerson-symphony-center-dallas|2-00-pm-2026-11-22@letsdoitdallas.com
 DTSTAMP:20261122T200000Z
@@ -495,6 +508,19 @@ DTEND:20261210T043000Z
 SUMMARY:A Christmas Carol
 LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-09&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C7-30-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-10@letsdoitdallas
+ .com
+DTSTAMP:20261211T013000Z
+DTSTART:20261211T013000Z
+DTEND:20261211T043000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-10&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/arts-district/

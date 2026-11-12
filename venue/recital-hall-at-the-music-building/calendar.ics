@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:doctoral-recital-ming-wei-hsieh-violin|recital-hall-at-the-music-buildi
- ng-denton|6-30-pm-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261112T003000Z
-DTSTART:20261112T003000Z
-DTEND:20261112T033000Z
-SUMMARY:Doctoral Recital: Ming-Wei Hsieh\, violin
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=doctoral-recital-ming-wei
- -hsieh-violin%7Crecital-hall-at-the-music-building-denton%7C6-30-pm
-DESCRIPTION:Important Links and Information      Program  Please note\, thi
- s program is subject to change. Final program will be available by the day
-  of the performance.      Livestream link below.      This event is free a
- nd open to the public with general seating. — More: https://letsdoitdall
- as.com/venue/recital-hall-at-the-music-building/
-END:VEVENT
-BEGIN:VEVENT
 UID:doctoral-recital-qingya-ding-mezzo-soprano|recital-hall-at-the-music-bu
  ilding-denton|6-30-pm-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261114T003000Z
@@ -39,22 +23,6 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  ay of the performance.      Livestream is not available for this event.   
      This event is free and open to the public with general seating. — Mo
  re: https://letsdoitdallas.com/venue/recital-hall-at-the-music-building/
-END:VEVENT
-BEGIN:VEVENT
-UID:unt-viola-day|recital-hall-at-the-music-building-denton|10-00-am-2026-1
- 1-14@letsdoitdallas.com
-DTSTAMP:20261114T160000Z
-DTSTART:20261114T160000Z
-DTEND:20261114T190000Z
-SUMMARY:UNT Viola Day
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=unt-viola-day%7Crecital-h
- all-at-the-music-building-denton%7C10-00-am
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-   This event is free and open to the public with general seating. — More
- : https://letsdoitdallas.com/venue/recital-hall-at-the-music-building/
 END:VEVENT
 BEGIN:VEVENT
 UID:doctoral-recital-bohao-wang-collaborative-piano|recital-hall-at-the-mus

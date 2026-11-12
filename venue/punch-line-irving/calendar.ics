@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:comedy-allstars|punch-line-irving-irving|7-30-pm-2026-11-11@letsdoitdal
- las.com
-DTSTAMP:20261112T013000Z
-DTSTART:20261112T013000Z
-DTEND:20261112T043000Z
-SUMMARY:Comedy Allstars
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=comedy-allstars%7Cpunch-l
- ine-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:ali-macofsky|punch-line-irving-irving|7-30-pm-2026-11-12@letsdoitdallas
  .com
 DTSTAMP:20261113T013000Z
@@ -395,6 +382,18 @@ SUMMARY:J Valentino
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-12-09&e=j-valentino%7Cpunch-line-
  irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:ola-dada|punch-line-irving-irving|7-30-pm-2026-12-10@letsdoitdallas.com
+DTSTAMP:20261211T013000Z
+DTSTART:20261211T013000Z
+DTEND:20261211T043000Z
+SUMMARY:Ola Dada
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-10&e=ola-dada%7Cpunch-line-irv
+ ing-irving%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT

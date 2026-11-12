@@ -9,31 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:roz|house-of-blues-dallas-dallas|7-00-pm-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261112T010000Z
-DTSTART:20261112T010000Z
-DTEND:20261112T040000Z
-SUMMARY:ROZ
-LOCATION:House of Blues - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=roz%7Chouse-of-blues-dall
- as-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:r-z-presents-se-est-haciendo-tarde|house-of-blues-dallas-dallas|7-00-pm
- -2026-11-11@letsdoitdallas.com
-DTSTAMP:20261112T010000Z
-DTSTART:20261112T010000Z
-DTEND:20261112T040000Z
-SUMMARY:RØZ Presents: SE ESTÁ HACIENDO TARDE
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=r-z-presents-se-est-hacie
- ndo-tarde%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:jose-madero-usa-tour-2026|house-of-blues-dallas-dallas|7-00-pm-2026-11-
  12@letsdoitdallas.com
 DTSTAMP:20261113T010000Z

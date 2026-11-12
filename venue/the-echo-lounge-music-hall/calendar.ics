@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:eelke-kleijn-18-event|the-echo-lounge-music-hall-dallas|7-00-pm-2026-11
- -11@letsdoitdallas.com
-DTSTAMP:20261112T010000Z
-DTSTART:20261112T010000Z
-DTEND:20261112T040000Z
-SUMMARY:Eelke Kleijn - 18+ Event
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=eelke-kleijn-18-event%7Ct
- he-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:helado-negro-and-reyna-tropical-as-helado-tropical-|the-echo-lounge-mus
  ic-hall-dallas|7-00-pm-2026-11-12@letsdoitdallas.com
 DTSTAMP:20261113T010000Z

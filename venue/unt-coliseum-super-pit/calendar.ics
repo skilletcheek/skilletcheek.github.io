@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:santa-clara-at-north-texas|unt-coliseum-super-pit-denton|7-00-pm-2026-1
- 1-11@letsdoitdallas.com
-DTSTAMP:20261112T010000Z
-DTSTART:20261112T010000Z
-DTEND:20261112T040000Z
-SUMMARY:Santa Clara at North Texas
-LOCATION:UNT Coliseum (Super Pit) · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=santa-clara-at-north-texa
- s%7Cunt-coliseum-super-pit-denton%7C7-00-pm
-DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
- allas.com/venue/unt-coliseum-super-pit/
-END:VEVENT
-BEGIN:VEVENT
 UID:incarnate-word-womens-bb-at-north-texas-womens-bb|unt-coliseum-super-pi
  t-denton|2-00-pm-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261114T200000Z

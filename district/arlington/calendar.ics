@@ -128,6 +128,22 @@ DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:12th-annual-do-it-for-durrett-birdies-boots|texas-live-1650-east-randol
+ -mill-road-arlington-76011-united-states|6-30-pm-2026-11-13@letsdoitdallas
+ .com
+DTSTAMP:20261114T003000Z
+DTSTART:20261114T003000Z
+DTEND:20261114T033000Z
+SUMMARY:12th Annual Do It For Durrett: Birdies & Boots
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=12th-annual-do-it-for-dur
+ rett-birdies-boots%7Ctexas-live-1650-east-randol-mill-road-arlington-76011
+ -united-states%7C6-30-pm
+DESCRIPTION:Join us for a live performance by Randall King as we honor the 
+ 12th Anniversary of the Do It For Durrett Foundation. — More: https://le
+ tsdoitdallas.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:garrison-keillor|arlington-music-hall-arlington|7-30-pm-2026-11-13@lets
  doitdallas.com
 DTSTAMP:20261114T013000Z
@@ -664,6 +680,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:larry-gatlin-the-gatlin-brothers|arlington-music-hall-arlington|7-30-pm
+ -2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T013000Z
+DTSTART:20261122T013000Z
+DTEND:20261122T043000Z
+SUMMARY:Larry Gatlin & The Gatlin Brothers
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=larry-gatlin-the-gatlin-b
+ rothers%7Carlington-music-hall-arlington%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:godfrey|arlington-improv-arlington|9-30-pm-2026-11-21@letsdoitdallas.co
  m
 DTSTAMP:20261122T033000Z
@@ -855,6 +884,19 @@ SUMMARY:Jose ÂHoozayâ Velasquez
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-12-06&e=jose-hoozay-velasquez%7Ca
  rlington-improv-arlington%7C8-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:arnez-j|arlington-improv-arlington|7-30-pm-2026-12-10@letsdoitdallas.co
+ m
+DTSTAMP:20261211T013000Z
+DTSTART:20261211T013000Z
+DTEND:20261211T043000Z
+SUMMARY:Arnez J
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-12-10&e=arnez-j%7Carlington-impro
+ v-arlington%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT

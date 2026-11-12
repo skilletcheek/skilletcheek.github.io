@@ -73,4 +73,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-22&e=3-o-clock-sunday-evening-
 DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
  /letsdoitdallas.com/venue/bruton-theatre/
 END:VEVENT
+BEGIN:VEVENT
+UID:33rd-annual-christmas-kanzaa-concert-student-performance|bruton-theatre
+ -dallas|10-00-am-2026-12-11@letsdoitdallas.com
+DTSTAMP:20261211T160000Z
+DTSTART:20261211T160000Z
+DTEND:20261211T190000Z
+SUMMARY:33rd Annual Christmas/Kanzaa Concert- Student Performance
+LOCATION:Bruton Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=33rd-annual-christmas-kan
+ zaa-concert-student-performance%7Cbruton-theatre-dallas%7C10-00-am
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/bruton-theatre/
+END:VEVENT
 END:VCALENDAR

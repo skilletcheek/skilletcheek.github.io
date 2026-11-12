@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bebe-stockwell|am-fm-diner-lounge-dallas-dallas|9-30-pm-2026-11-11@lets
- doitdallas.com
-DTSTAMP:20261112T033000Z
-DTSTART:20261112T033000Z
-DTEND:20261112T063000Z
-SUMMARY:Bebe Stockwell
-LOCATION:AM/FM Diner & Lounge - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=bebe-stockwell%7Cam-fm-di
- ner-lounge-dallas-dallas%7C9-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/am-fm-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:we-are-scientists|am-fm-dallas-dallas|7-00-pm-2026-11-12@letsdoitdallas
  .com
 DTSTAMP:20261113T010000Z

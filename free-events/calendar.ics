@@ -10,87 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:evercutz-celebration-prize-drawings|evercutz-salon-barbershop-525-w-ara
- paho-rd-richardson|11-00-am-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261111T170000Z
-DTSTART:20261111T170000Z
-DTEND:20261111T200000Z
-SUMMARY:EverCutz Celebration & Prize Drawings
-LOCATION:EverCutz Salon & Barbershop · Richardson
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=evercutz-celebration-priz
- e-drawings%7Cevercutz-salon-barbershop-525-w-arapaho-rd-richardson%7C11-00
- -am
-DESCRIPTION:EverCutz celebrates at its Richardson barbershop and salon with
-  an outdoor DJ and dabke\, American and Latin dancing. Prize drawings for 
- EverCutz service credits at 2:30 PM: register on site 11 AM–2 PM\, must 
- be present to win\, terms apply. Free to attend\, no purchase necessary. 
- — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:h-e-b-s-annual-feast-of-sharing-holiday-dinner|dickies-arena-lower-leve
- l-8211-southeast-side-of-arena-fort-worth|3-00-pm-7-00-pm-2026-11-11@letsd
- oitdallas.com
-DTSTAMP:20261111T210000Z
-DTSTART:20261111T210000Z
-DTEND:20261112T000000Z
-SUMMARY:H-E-B’s Annual Feast of Sharing Holiday Dinner
-LOCATION:Dickies Arena (Lower level &#8211\; southeast side of arena) · Fo
- rt Worth
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=h-e-b-s-annual-feast-of-s
- haring-holiday-dinner%7Cdickies-arena-lower-level-8211-southeast-side-of-a
- rena-fort-worth%7C3-00-pm-7-00-pm
-DESCRIPTION:H-E-B/Central Market has announced that this year’s Fort Wort
- h Feast of Sharing will be held on Wednesday\, Nov. 11 from 3 to 7 p.m. on
-  the lower level of Dickies Arena. Feast of Sharing provides a family-frie
- ndly\, Texas-style holiday meal paired alongside a festive celebration co 
- — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:silent-reading-night-health-talk-at-the-wild-detectives-ideas|the-wild-
- detectives-dallas|5-45-pm-8-00-pm-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261111T234500Z
-DTSTART:20261111T234500Z
-DTEND:20261112T024500Z
-SUMMARY:Silent Reading Night + Health Talk At The Wild Detectives - Ideas
-LOCATION:The Wild Detectives · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=silent-reading-night-heal
- th-talk-at-the-wild-detectives-ideas%7Cthe-wild-detectives-dallas%7C5-45-p
- m-8-00-pm
-DESCRIPTION:JOIN US FOR A HEALTH TALK WITH METHODIST HEALTH DFW FOLLOWED BY
-  SILENT READING AT THE NEW WILD DETECTIVES: IDEAS IN DALLAS The Details: E
- ducational health talk from Juan (John) Avila II\, MD\, internal medicine 
- physician on the medical staff at Methodist Dallas Medical Center Live —
-  More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:built-for-more-michael-miller-built-in-his-presence|the-hills-dallas-30
- 14-skillman-st-dallas|6-00-pm-8-00-pm-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261112T000000Z
-DTSTART:20261112T000000Z
-DTEND:20261112T030000Z
-SUMMARY:Built For More: Michael Miller — Built in His Presence
-LOCATION:The Hills Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=built-for-more-michael-mi
- ller-built-in-his-presence%7Cthe-hills-dallas-3014-skillman-st-dallas%7C6-
- 00-pm-8-00-pm
-DESCRIPTION:Third night of the Built For More men's series — worship\, a 
- message from Michael Miller\, and food trucks. Free\, no ticket needed. 
- — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:wub-wednesday|three-links-deep-ellum-dallas|10-00-pm-2026-11-11@letsdoi
- tdallas.com
-DTSTAMP:20261112T040000Z
-DTSTART:20261112T040000Z
-DTEND:20261112T070000Z
-SUMMARY:Wub Wednesday
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=wub-wednesday%7Cthree-lin
- ks-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-12@letsdoitdall
  as.com
 DTSTAMP:20261113T040000Z
@@ -115,6 +34,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=specialized-karaoke-night
  -with-ruen%7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:7th-annual-tour-of-trees-at-trinity-falls|trinity-falls-mckinney|10-00-
+ am-5-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T160000Z
+DTSTART:20261114T160000Z
+DTEND:20261114T190000Z
+SUMMARY:7th Annual Tour of Trees at Trinity Falls
+LOCATION:Trinity Falls · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=7th-annual-tour-of-trees-
+ at-trinity-falls%7Ctrinity-falls-mckinney%7C10-00-am-5-00-pm
+DESCRIPTION:For many North Texas families\, the holiday season doesn’t of
+ ficially begin until they’ve walked the Tour of Trees. The 7th Annual To
+ ur of Trees at Trinity Falls returns Saturday\, Nov. 14 through Sunday\, D
+ ec. 13\, inviting visitors to stroll through beautifully furnished model h
+ ome — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:creativity-ai-automation-an-n8n-workshop-for-artists-and-makers|parr-li

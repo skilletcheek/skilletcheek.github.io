@@ -10,17 +10,20 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:comedy-allstars|punch-line-irving-irving|7-30-pm-2026-11-11@letsdoitdal
- las.com
-DTSTAMP:20261112T013000Z
-DTSTART:20261112T013000Z
-DTEND:20261112T043000Z
-SUMMARY:Comedy Allstars
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=comedy-allstars%7Cpunch-l
- ine-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
+UID:prism-awards|the-constellation-club-irving|5-30-pm-8-00-pm-2026-11-12@l
+ etsdoitdallas.com
+DTSTAMP:20261112T233000Z
+DTSTART:20261112T233000Z
+DTEND:20261113T023000Z
+SUMMARY:PRISM Awards
+LOCATION:The Constellation Club · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-12&e=prism-awards%7Cthe-conste
+ llation-club-irving%7C5-30-pm-8-00-pm
+DESCRIPTION:Join Mental Health America of Greater Dallas for the 2026 Prism
+  Awards\, an elegant evening celebrating the individuals and organizations
+  advancing mental health in the community. Enjoy dinner at the Constellati
+ on Club in Irving while honoring seven distinguished award recipients — 
+ More: https://letsdoitdallas.com/district/irving/
 END:VEVENT
 BEGIN:VEVENT
 UID:nurse-john-against-medical-advice-tour|the-pavilion-at-toyota-music-fac
@@ -103,6 +106,22 @@ DESCRIPTION:Another Fabulous Singles Event ♥ For Ages 24-39 @ Alamo Draft
   NPR and TLC 90 Day Fiance - The Single Life. Meet the love of your life a
  t the best and most trusted dating event company in the US. Where else ca 
  — More: https://letsdoitdallas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:-nights-on-broadway-red-tie-gala|astoria-event-venue-irving|7-00-pm-10-
+ 00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T010000Z
+DTSTART:20261115T010000Z
+DTEND:20261115T040000Z
+SUMMARY:"Nights on Broadway" Red Tie Gala
+LOCATION:Astoria Event Venue · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=-nights-on-broadway-red-t
+ ie-gala%7Castoria-event-venue-irving%7C7-00-pm-10-00-pm
+DESCRIPTION:The sun will come out as we defy gravity for the sixth annual R
+ ed Tie Gala – “Nights on Broadway!” Expect a sweeping night of Broad
+ way-worthy surprises\, stunning themed attire\, exceptional dining\, thril
+ ling auction packages\, and unforgettable experiences that will linger lon
+ g aft — More: https://letsdoitdallas.com/district/irving/
 END:VEVENT
 BEGIN:VEVENT
 UID:ali-macofsky|punch-line-irving-irving|7-00-pm-2026-11-14@letsdoitdallas
@@ -534,5 +553,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-09&e=tyla-the-a-pop-world-tour
  %7Cthe-pavilion-at-toyota-music-factory-irving%7C8-00-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:ola-dada|punch-line-irving-irving|7-30-pm-2026-12-10@letsdoitdallas.com
+DTSTAMP:20261211T013000Z
+DTSTART:20261211T013000Z
+DTEND:20261211T043000Z
+SUMMARY:Ola Dada
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-10&e=ola-dada%7Cpunch-line-irv
+ ing-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
 END:VEVENT
 END:VCALENDAR

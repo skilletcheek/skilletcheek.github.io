@@ -10,84 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:nyos-rats-of-mars-plot-get-out-rose-pink-marginalia-bob|three-links-dee
- p-ellum-dallas|6-30-pm-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261112T003000Z
-DTSTART:20261112T003000Z
-DTEND:20261112T033000Z
-SUMMARY:Nyos\, Rats Of Mars \, Plot\, Get Out! \, Rose Pink\, Marginalia Bo
- b
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=nyos-rats-of-mars-plot-ge
- t-out-rose-pink-marginalia-bob%7Cthree-links-deep-ellum-dallas%7C6-30-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:movements-16-and-under-with-parent-or-legal-guardian-|the-bomb-factory-
- dallas|7-00-pm-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261112T010000Z
-DTSTART:20261112T010000Z
-DTEND:20261112T040000Z
-SUMMARY:Movements (16 and Under with Parent or Legal Guardian)
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=movements-16-and-under-wi
- th-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-lowliest-one-max-twaddle-kelvin-thomas|rbc-deep-ellum-dallas|7-00-p
- m-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261112T010000Z
-DTSTART:20261112T010000Z
-DTEND:20261112T040000Z
-SUMMARY:The Lowliest One\, MAX TWADDLE\, Kelvin Thomas
-LOCATION:RBC Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=the-lowliest-one-max-twad
- dle-kelvin-thomas%7Crbc-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-aces-w-gatlin|trees-dallas|8-00-pm-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261112T020000Z
-DTSTART:20261112T020000Z
-DTEND:20261112T050000Z
-SUMMARY:The Aces w/ Gatlin
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=the-aces-w-gatlin%7Ctrees
- -dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:tiny-habits-w-marie-dresselhuis|the-studio-at-the-bomb-factory-dallas|8
- -00-pm-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261112T020000Z
-DTSTART:20261112T020000Z
-DTEND:20261112T050000Z
-SUMMARY:Tiny Habits w/ Marie Dresselhuis
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=tiny-habits-w-marie-dress
- elhuis%7Cthe-studio-at-the-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:wub-wednesday|three-links-deep-ellum-dallas|10-00-pm-2026-11-11@letsdoi
- tdallas.com
-DTSTAMP:20261112T040000Z
-DTSTART:20261112T040000Z
-DTEND:20261112T070000Z
-SUMMARY:Wub Wednesday
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=wub-wednesday%7Cthree-lin
- ks-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-12@letsdoitdall
  as.com
 DTSTAMP:20261113T040000Z
@@ -502,6 +424,32 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:jalen-ngonda|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-11-21@l
+ etsdoitdallas.com
+DTSTAMP:20261122T020000Z
+DTSTART:20261122T020000Z
+DTEND:20261122T050000Z
+SUMMARY:Jalen Ngonda
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=jalen-ngonda%7Cthe-studio
+ -at-the-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:oso-oso-with-liquid-mike-bugsy-moran|puzzles-deep-ellum-dallas|8-00-pm-
+ 2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T020000Z
+DTSTART:20261122T020000Z
+DTEND:20261122T050000Z
+SUMMARY:Oso Oso with Liquid Mike\, Bugsy Moran
+LOCATION:Puzzles Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=oso-oso-with-liquid-mike-
+ bugsy-moran%7Cpuzzles-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:paul-cauthen|the-bomb-factory-dallas|8-00-pm-2026-11-21@letsdoitdallas.
  com
 DTSTAMP:20261122T020000Z
@@ -875,6 +823,18 @@ SUMMARY:THE EMO NIGHT TOUR
 LOCATION:Trees · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-11&e=the-emo-night-tour%7Ctree
  s-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:gothcumbia|trees-dallas|doors-see-listing-2026-12-12@letsdoitdallas.com
+DTSTAMP:20261212T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:GOTHCUMBIA
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=gothcumbia%7Ctrees-dallas
+ %7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
 END:VEVENT

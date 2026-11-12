@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:eelke-kleijn-18-event|the-echo-lounge-music-hall-dallas|7-00-pm-2026-11
- -11@letsdoitdallas.com
-DTSTAMP:20261112T010000Z
-DTSTART:20261112T010000Z
-DTEND:20261112T040000Z
-SUMMARY:Eelke Kleijn - 18+ Event
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=eelke-kleijn-18-event%7Ct
- he-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:bebe-stockwell|am-fm-diner-lounge-dallas-dallas|9-30-pm-2026-11-11@lets
- doitdallas.com
-DTSTAMP:20261112T033000Z
-DTSTART:20261112T033000Z
-DTEND:20261112T063000Z
-SUMMARY:Bebe Stockwell
-LOCATION:AM/FM Diner & Lounge - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=bebe-stockwell%7Cam-fm-di
- ner-lounge-dallas-dallas%7C9-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:helado-negro-and-reyna-tropical-as-helado-tropical-|the-echo-lounge-mus
  ic-hall-dallas|7-00-pm-2026-11-12@letsdoitdallas.com
 DTSTAMP:20261113T010000Z
@@ -474,5 +448,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-06&e=yung-gravy-the-joyrider-t
  our%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:goldie-ages-18-|silo-dallas|9-00-pm-2026-12-10@letsdoitdallas.com
+DTSTAMP:20261211T030000Z
+DTSTART:20261211T030000Z
+DTEND:20261211T060000Z
+SUMMARY:Goldie - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-10&e=goldie-ages-18-%7Csilo-da
+ llas%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
 END:VEVENT
 END:VCALENDAR

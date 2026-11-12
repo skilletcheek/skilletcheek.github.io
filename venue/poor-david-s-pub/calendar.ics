@@ -155,4 +155,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-11&e=helene-cronin-scott-sean-
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
+BEGIN:VEVENT
+UID:charles-milton-gaby-and-friends|poor-david-s-pub-dallas|doors-see-listi
+ ng-2026-12-12@letsdoitdallas.com
+DTSTAMP:20261212T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Charles Milton Gaby and Friends
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=charles-milton-gaby-and-f
+ riends%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
 END:VCALENDAR

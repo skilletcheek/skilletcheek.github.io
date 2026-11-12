@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tiny-habits-w-marie-dresselhuis|the-studio-at-the-bomb-factory-dallas|8
- -00-pm-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261112T020000Z
-DTSTART:20261112T020000Z
-DTEND:20261112T050000Z
-SUMMARY:Tiny Habits w/ Marie Dresselhuis
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=tiny-habits-w-marie-dress
- elhuis%7Cthe-studio-at-the-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-studio-at-the-bomb-factory/
-END:VEVENT
-BEGIN:VEVENT
 UID:bleood|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-11-13@letsdoi
  tdallas.com
 DTSTAMP:20261114T020000Z
@@ -72,6 +59,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-19&e=alex-jean%7Cthe-studio-at
  -the-bomb-factory-dallas%7C8-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/the-studio-at-the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
+UID:jalen-ngonda|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-11-21@l
+ etsdoitdallas.com
+DTSTAMP:20261122T020000Z
+DTSTART:20261122T020000Z
+DTEND:20261122T050000Z
+SUMMARY:Jalen Ngonda
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=jalen-ngonda%7Cthe-studio
+ -at-the-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/the-studio-at-the-bomb-factory/
 END:VEVENT
 BEGIN:VEVENT
 UID:catch-your-breath-16-and-under-with-parent-or-legal-guardian-|the-studi

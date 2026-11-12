@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:josh-firestine-and-mikey-b|addison-improv-addison|7-00-pm-2026-11-11@le
- tsdoitdallas.com
-DTSTAMP:20261112T010000Z
-DTSTART:20261112T010000Z
-DTEND:20261112T040000Z
-SUMMARY:Josh Firestine and Mikey B
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=josh-firestine-and-mikey-
- b%7Caddison-improv-addison%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:kev-adams|addison-improv-addison|7-30-pm-2026-11-12@letsdoitdallas.com
 DTSTAMP:20261113T013000Z
 DTSTART:20261113T013000Z
@@ -290,6 +277,19 @@ SUMMARY:Aristotle Athari
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-06&e=aristotle-athari%7Caddiso
  n-improv-addison%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:jesus-castillo|addison-improv-addison|7-00-pm-2026-12-10@letsdoitdallas
+ .com
+DTSTAMP:20261211T010000Z
+DTSTART:20261211T010000Z
+DTEND:20261211T040000Z
+SUMMARY:Jesus Castillo
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-10&e=jesus-castillo%7Caddison-
+ improv-addison%7C7-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
 END:VEVENT

@@ -1,44 +1,27 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "counts": {
-  "ticketmaster": 460,
+  "ticketmaster": 458,
   "seatgeek": 300,
-  "ics_feeds": 74,
-  "civicplus": 316,
-  "prekindle": 49,
+  "ics_feeds": 69,
+  "civicplus": 57,
+  "prekindle": 52,
   "singles_pages": 6,
   "do214": 0,
   "dallasites101": 11,
   "seated": 2,
   "ics_feeds (whatsupfortworth.com)": 28,
-  "ics_feeds (calendar.unt.edu)": 46,
-  "prekindle (Granada Theater)": 10,
+  "ics_feeds (calendar.unt.edu)": 41,
+  "prekindle (Granada Theater)": 11,
   "prekindle (The Kessler Theater)": 15,
-  "prekindle (Poor David's Pub)": 11,
-  "prekindle (Trees)": 13
+  "prekindle (Poor David's Pub)": 12,
+  "prekindle (Trees)": 14
  },
- "alarms": [],
+ "alarms": [
+  "civicplus: 4 of 6 city feeds did not parse (4 fetch) \u2014 the page template probably changed",
+  "civicplus: 344 -> 57 (below 50% of its 14-run baseline)"
+ ],
  "history": [
-  {
-   "date": "2026-11-05",
-   "counts": {
-    "ticketmaster": 494,
-    "seatgeek": 300,
-    "ics_feeds": 101,
-    "civicplus": 366,
-    "prekindle": 55,
-    "singles_pages": 6,
-    "do214": 0,
-    "dallasites101": 9,
-    "seated": 2,
-    "ics_feeds (whatsupfortworth.com)": 29,
-    "ics_feeds (calendar.unt.edu)": 72,
-    "prekindle (Granada Theater)": 12,
-    "prekindle (The Kessler Theater)": 17,
-    "prekindle (Poor David's Pub)": 12,
-    "prekindle (Trees)": 14
-   }
-  },
   {
    "date": "2026-11-06",
    "counts": {
@@ -299,6 +282,26 @@
     "prekindle (The Kessler Theater)": 15,
     "prekindle (Poor David's Pub)": 11,
     "prekindle (Trees)": 13
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "counts": {
+    "ticketmaster": 458,
+    "seatgeek": 300,
+    "ics_feeds": 69,
+    "civicplus": 57,
+    "prekindle": 52,
+    "singles_pages": 6,
+    "do214": 0,
+    "dallasites101": 11,
+    "seated": 2,
+    "ics_feeds (whatsupfortworth.com)": 28,
+    "ics_feeds (calendar.unt.edu)": 41,
+    "prekindle (Granada Theater)": 11,
+    "prekindle (The Kessler Theater)": 15,
+    "prekindle (Poor David's Pub)": 12,
+    "prekindle (Trees)": 14
    }
   }
  ]
