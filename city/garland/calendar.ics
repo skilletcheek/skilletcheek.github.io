@@ -9,66 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tween-club-ages-10-12-|south-garland-library-garland|04-30-pm-2026-11-1
- 1@letsdoitdallas.com
-DTSTAMP:20261111T223000Z
-DTSTART:20261111T223000Z
-DTEND:20261112T013000Z
-SUMMARY:Tween Club (Ages 10-12)
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=tween-club-ages-10-12-%7C
- south-garland-library-garland%7C04-30-pm
-DESCRIPTION:4:30 p.m.\; Unleash your creativity and have fun at Tween Club\
- , where you can explore different activities\, discover new hobbies and ma
- ke new friends! November 11\, 2026 04:30 PM - 05:30 PM 4845 Broadway Blvd.
- Garland\, TX 75043 https://www.garlandtx.gov/Calendar.aspx?EID=13122/63922
-  — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:bye-bye-birdie-ype-presented-by-hometown-theater|521-w-state-street-gar
- land|07-00-pm-2026-11-11@letsdoitdallas.com
-DTSTAMP:20261112T010000Z
-DTSTART:20261112T010000Z
-DTEND:20261112T040000Z
-SUMMARY:Bye Bye Birdie: YPE presented by Hometown Theater
-LOCATION:521 W State Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-11&e=bye-bye-birdie-ype-presen
- ted-by-hometown-theater%7C521-w-state-street-garland%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-11
- -12@letsdoitdallas.com
-DTSTAMP:20261112T160000Z
-DTSTART:20261112T160000Z
-DTEND:20261112T190000Z
-SUMMARY:Preschool Discovery (3-5 Years)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=preschool-discovery-3-5-y
- ears-%7Ccentral-library-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
- ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
- ters\, numbers\, and much more that will help develop your preschooler's e
- arly literacy skills. November 12\, 2026 10:00 AM - 11:00 AM 625 Austin St
- .G — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:cuentos-y-cantos-0-5-a-os-|biblioteca-central-garland|11-00-am-2026-11-
- 12@letsdoitdallas.com
-DTSTAMP:20261112T170000Z
-DTSTART:20261112T170000Z
-DTEND:20261112T200000Z
-SUMMARY:Cuentos y Cantos (0-5 Años)
-LOCATION:Biblioteca Central · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=cuentos-y-cantos-0-5-a-os
- -%7Cbiblioteca-central-garland%7C11-00-am
-DESCRIPTION:11:00 a.m.\; Acompáñenos para unos cuentos y cantos mientras 
- aprendemos sobre temas escolares y lo más importante\, las habilidades ne
- cesarias para leer. November 12\, 2026 11:00 AM - 12:00 PM 625 Austin St.G
- arland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=12955/639227
- 46 — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:stuffie-sleepover|south-garland-library-garland|12-00-pm-2026-11-12@let
  sdoitdallas.com
 DTSTAMP:20261112T180000Z
@@ -83,22 +23,6 @@ DESCRIPTION:Runs Nov 12 – Nov 13. Your stuffed animals and dolls are invi
   on Thursday (noon – 8 p.m.) and pick up during open hours on Friday (10
   a.m. – 6 p.m.). Your stuffie friend will go home with a scrapbook full 
  o — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:family-place-playgroup|south-garland-library-garland|01-00-pm-2026-11-1
- 2@letsdoitdallas.com
-DTSTAMP:20261112T190000Z
-DTSTART:20261112T190000Z
-DTEND:20261112T220000Z
-SUMMARY:Family Place Playgroup
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=family-place-playgroup%7C
- south-garland-library-garland%7C01-00-pm
-DESCRIPTION:1:00 p.m.\; Each week\, we welcome a different local profession
- al who specializes in early childhood development\, covering topics like n
- utrition and speech. Families will learn from their expertise and ask ques
- tions about their child’s development\, as everyone enjoys a special pla
- y — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:teenz-place-after-school-hour-ages-13-17-|north-garland-library-garland
@@ -211,6 +135,22 @@ LOCATION:521 W State Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-11-12&e=bye-bye-birdie-ype-presen
  ted-by-hometown-theater%7C521-w-state-street-garland%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:annual-outlet-hat-sale|dorfmanmilano-garland|8-00-am-6-00-pm-2026-11-13
+ @letsdoitdallas.com
+DTSTAMP:20261113T140000Z
+DTSTART:20261113T140000Z
+DTEND:20261113T170000Z
+SUMMARY:Annual Outlet Hat Sale
+LOCATION:DorfmanMilano · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-13&e=annual-outlet-hat-sale%7C
+ dorfmanmilano-garland%7C8-00-am-6-00-pm
+DESCRIPTION:Browse a variety of styles at special prices while getting a he
+ ad start on holiday shopping. Stop by the Garland location on November 13
+ –14 from 8 AM to 6 PM. Bring friends and family along to find the perfec
+ t hat for yourself or someone special! Contactless payment accepted and 
+ — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a
@@ -1205,5 +1145,31 @@ LOCATION:Garland
 URL:https://letsdoitdallas.com/?date=2026-11-25&e=all-garland-libraries-clo
  se-at-6-00-pm%7Cgarland%7C06-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:thanksgiving-all-garland-libraries-closed|garland|see-details-2026-11-2
+ 6@letsdoitdallas.com
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Thanksgiving: All Garland Libraries closed
+LOCATION:Garland
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=thanksgiving-all-garland-
+ libraries-closed%7Cgarland%7Csee-details
+DESCRIPTION:Runs Nov 26 – Nov 27. — More: https://letsdoitdallas.com/ci
+ ty/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:thanksgiving-all-garland-libraries-closed|garland|see-details-2026-11-2
+ 7@letsdoitdallas.com
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Thanksgiving: All Garland Libraries closed
+LOCATION:Garland
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=thanksgiving-all-garland-
+ libraries-closed%7Cgarland%7Csee-details
+DESCRIPTION:Runs Nov 26 – Nov 27. — More: https://letsdoitdallas.com/ci
+ ty/garland/
 END:VEVENT
 END:VCALENDAR

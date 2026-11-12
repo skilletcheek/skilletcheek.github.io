@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-11-12
- @letsdoitdallas.com
-DTSTAMP:20261112T180000Z
-DTSTART:20261112T180000Z
-DTEND:20261112T210000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C12-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-11-12@
- letsdoitdallas.com
-DTSTAMP:20261112T200000Z
-DTSTART:20261112T200000Z
-DTEND:20261112T230000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C2-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-11-12@
- letsdoitdallas.com
-DTSTAMP:20261112T220000Z
-DTSTART:20261112T220000Z
-DTEND:20261113T010000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C4-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
 UID:austin-peay-governors-at-ut-arlington-mavericks-womens-volleyball|colle
  ge-park-center-arlington|6-00-pm-2026-11-12@letsdoitdallas.com
 DTSTAMP:20261113T000000Z
@@ -756,6 +717,71 @@ URL:https://letsdoitdallas.com/?date=2026-11-26&e=dallas-cowboys-vs-philade
  lphia-eagles%7Cat-t-stadium-arlington%7C3-30-pm
 DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:keir-junior-spates|arlington-improv-arlington|7-30-pm-2026-11-27@letsdo
+ itdallas.com
+DTSTAMP:20261128T013000Z
+DTSTART:20261128T013000Z
+DTEND:20261128T043000Z
+SUMMARY:Keir "Junior" Spates
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=keir-junior-spates%7Carli
+ ngton-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:keir-junior-spates|arlington-improv-arlington|9-45-pm-2026-11-27@letsdo
+ itdallas.com
+DTSTAMP:20261128T034500Z
+DTSTART:20261128T034500Z
+DTEND:20261128T064500Z
+SUMMARY:Keir "Junior" Spates
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=keir-junior-spates%7Carli
+ ngton-improv-arlington%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:keir-junior-spates|arlington-improv-arlington|4-00-pm-2026-11-28@letsdo
+ itdallas.com
+DTSTAMP:20261128T220000Z
+DTSTART:20261128T220000Z
+DTEND:20261129T010000Z
+SUMMARY:Keir "Junior" Spates
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=keir-junior-spates%7Carli
+ ngton-improv-arlington%7C4-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:keir-junior-spates|arlington-improv-arlington|6-00-pm-2026-11-29@letsdo
+ itdallas.com
+DTSTAMP:20261130T000000Z
+DTSTART:20261130T000000Z
+DTEND:20261130T030000Z
+SUMMARY:Keir "Junior" Spates
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=keir-junior-spates%7Carli
+ ngton-improv-arlington%7C6-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:keir-junior-spates|arlington-improv-arlington|8-30-pm-2026-11-29@letsdo
+ itdallas.com
+DTSTAMP:20261130T023000Z
+DTSTART:20261130T023000Z
+DTEND:20261130T053000Z
+SUMMARY:Keir "Junior" Spates
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=keir-junior-spates%7Carli
+ ngton-improv-arlington%7C8-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:david-archuleta|arlington-music-hall-arlington|7-30-pm-2026-12-01@letsd

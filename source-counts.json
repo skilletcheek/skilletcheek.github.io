@@ -1,47 +1,24 @@
 {
  "date": "2026-11-12",
  "counts": {
-  "ticketmaster": 458,
+  "ticketmaster": 462,
   "seatgeek": 300,
-  "ics_feeds": 69,
-  "civicplus": 57,
+  "ics_feeds": 67,
+  "civicplus": 308,
   "prekindle": 52,
   "singles_pages": 6,
   "do214": 0,
   "dallasites101": 11,
   "seated": 2,
   "ics_feeds (whatsupfortworth.com)": 28,
-  "ics_feeds (calendar.unt.edu)": 41,
+  "ics_feeds (calendar.unt.edu)": 39,
   "prekindle (Granada Theater)": 11,
   "prekindle (The Kessler Theater)": 15,
   "prekindle (Poor David's Pub)": 12,
   "prekindle (Trees)": 14
  },
- "alarms": [
-  "civicplus: 4 of 6 city feeds did not parse (4 fetch) \u2014 the page template probably changed",
-  "civicplus: 344 -> 57 (below 50% of its 14-run baseline)"
- ],
+ "alarms": [],
  "history": [
-  {
-   "date": "2026-11-06",
-   "counts": {
-    "ticketmaster": 505,
-    "seatgeek": 300,
-    "ics_feeds": 96,
-    "civicplus": 363,
-    "prekindle": 55,
-    "singles_pages": 6,
-    "do214": 0,
-    "dallasites101": 14,
-    "seated": 2,
-    "ics_feeds (whatsupfortworth.com)": 27,
-    "ics_feeds (calendar.unt.edu)": 69,
-    "prekindle (Granada Theater)": 11,
-    "prekindle (The Kessler Theater)": 17,
-    "prekindle (Poor David's Pub)": 12,
-    "prekindle (Trees)": 15
-   }
-  },
   {
    "date": "2026-11-06",
    "counts": {
@@ -298,6 +275,26 @@
     "seated": 2,
     "ics_feeds (whatsupfortworth.com)": 28,
     "ics_feeds (calendar.unt.edu)": 41,
+    "prekindle (Granada Theater)": 11,
+    "prekindle (The Kessler Theater)": 15,
+    "prekindle (Poor David's Pub)": 12,
+    "prekindle (Trees)": 14
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "counts": {
+    "ticketmaster": 462,
+    "seatgeek": 300,
+    "ics_feeds": 67,
+    "civicplus": 308,
+    "prekindle": 52,
+    "singles_pages": 6,
+    "do214": 0,
+    "dallasites101": 11,
+    "seated": 2,
+    "ics_feeds (whatsupfortworth.com)": 28,
+    "ics_feeds (calendar.unt.edu)": 39,
     "prekindle (Granada Theater)": 11,
     "prekindle (The Kessler Theater)": 15,
     "prekindle (Poor David's Pub)": 12,

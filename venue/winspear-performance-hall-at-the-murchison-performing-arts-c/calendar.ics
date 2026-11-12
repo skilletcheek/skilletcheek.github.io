@@ -11,25 +11,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:state-of-the-university-fall-2026|winspear-performance-hall-at-the-murc
- hison-performing-arts-center-denton|3-00-pm-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261112T210000Z
-DTSTART:20261112T210000Z
-DTEND:20261113T000000Z
-SUMMARY:State of the University Fall 2026
-LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
- · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=state-of-the-university-f
- all-2026%7Cwinspear-performance-hall-at-the-murchison-performing-arts-cent
- er-denton%7C3-00-pm
-DESCRIPTION:Join President Harrison Keller\, Ph.D.\, for his State of the U
- niversity address and five-year strategic plan update.     Thursday\, Nove
- mber 12\, 2026 Doors open at 2 p.m. Presentation begins at 3 p.m.     Wins
- pear Performance Hall Event Parking Available in Lot 20     Following the 
- — More: https://letsdoitdallas.com/venue/winspear-performance-hall-at-th
- e-murchison-performing-arts-c/
-END:VEVENT
-BEGIN:VEVENT
 UID:concert-choir-fall-2026-concert|winspear-performance-hall-at-the-murchi
  son-performing-arts-center-denton|7-30-pm-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261114T013000Z
@@ -84,26 +65,6 @@ DESCRIPTION:Important Links and Information      Program    Please note\, t
  ay of the performance.      Livestream link below. — More: https://letsd
  oitdallas.com/venue/winspear-performance-hall-at-the-murchison-performing-
  arts-c/
-END:VEVENT
-BEGIN:VEVENT
-UID:symphony-orchestra-and-concert-orchestra-fall-2026|winspear-performance
- -hall-at-the-murchison-performing-arts-center-denton|7-30-pm-2026-11-18@le
- tsdoitdallas.com
-DTSTAMP:20261119T013000Z
-DTSTART:20261119T013000Z
-DTEND:20261119T043000Z
-SUMMARY:Symphony Orchestra and Concert Orchestra Fall 2026
-LOCATION:Winspear Performance Hall at the Murchison Performing Arts Center 
- · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=symphony-orchestra-and-co
- ncert-orchestra-fall-2026%7Cwinspear-performance-hall-at-the-murchison-per
- forming-arts-center-denton%7C7-30-pm
-DESCRIPTION:Brahms Tragic Overture\, Op. 81  Conducted by Ko-Te Chen     Mo
- zart Symphony No. 36 in C Major\, "Linz\," K. 425              Conductors 
- Nathan Howard\, MingTong Xie\, Alexandra Kovatch\, and Sol Yoon     -inter
- mission-     Sibelius The Swan of Tuonela\, Op. 22\, No. 2  Respighi Feste
-  Ro — More: https://letsdoitdallas.com/venue/winspear-performance-hall-a
- t-the-murchison-performing-arts-c/
 END:VEVENT
 BEGIN:VEVENT
 UID:wind-symphony-and-wind-orchestra|winspear-performance-hall-at-the-murch

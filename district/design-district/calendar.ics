@@ -275,6 +275,19 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/design-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:crankdat-18-|ductwork-at-silo-dallas-dallas|9-00-pm-2026-11-21@letsdoit
+ dallas.com
+DTSTAMP:20261122T030000Z
+DTSTART:20261122T030000Z
+DTEND:20261122T060000Z
+SUMMARY:Crankdat (18+)
+LOCATION:Ductwork at SILO Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=crankdat-18-%7Cductwork-a
+ t-silo-dallas-dallas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:live-nation-presents-yallah-habibi-crew-21-event|the-echo-lounge-music-
  hall-dallas|10-00-pm-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T040000Z
