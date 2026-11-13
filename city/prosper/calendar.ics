@@ -9,17 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mahjong|407-e-first-st-prosper|12-00-pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261113T180000Z
-DTSTART:20261113T180000Z
-DTEND:20261113T210000Z
-SUMMARY:Mahjong
-LOCATION:407 E. First St. · Prosper
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=mahjong%7C407-e-first-st-
- prosper%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
-END:VEVENT
-BEGIN:VEVENT
 UID:adaptive-shining-soccer-stars-parent-me-ages-2-5-|1454-e-first-st-prosp
  er|09-30-am-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261114T153000Z

@@ -9,30 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cell-phone-photography-workshop|cedar-hill|12-00-pm-2026-11-13@letsdoit
- dallas.com
-DTSTAMP:20261113T180000Z
-DTSTART:20261113T180000Z
-DTEND:20261113T210000Z
-SUMMARY:Cell Phone Photography Workshop
-LOCATION:Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=cell-phone-photography-wo
- rkshop%7Ccedar-hill%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:pilates-for-older-adults|310-e-parkerville-road-cedar-hill|01-00-pm-202
- 6-11-13@letsdoitdallas.com
-DTSTAMP:20261113T190000Z
-DTSTART:20261113T190000Z
-DTEND:20261113T220000Z
-SUMMARY:Pilates for Older Adults
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=pilates-for-older-adults%
- 7C310-e-parkerville-road-cedar-hill%7C01-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:days-at-dogwood-canyon-podcast|cedar-hill|05-00-pm-2026-11-13@letsdoitd
  allas.com
 DTSTAMP:20261113T230000Z

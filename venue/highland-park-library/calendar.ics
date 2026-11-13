@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:story-time|highland-park-library-highland-park|10-45-am-2026-11-13@lets
- doitdallas.com
-DTSTAMP:20261113T164500Z
-DTSTART:20261113T164500Z
-DTEND:20261113T194500Z
-SUMMARY:Story Time
-LOCATION:Highland Park Library
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=story-time%7Chighland-par
- k-library-highland-park%7C10-45-am
-DESCRIPTION:Join Miss Victoria and Mr. Tre for Story Time at the Highland P
- ark Library\, 2nd Floor Town Hall. This Story Time is designed for all age
- s. Read stories\, sing\, and follow along with Miss Victoria and Mr. Tre. 
- Tickets will be required for entry to Story Time. Tickets are free and w 
- — More: https://letsdoitdallas.com/venue/highland-park-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:baby-bounce|highland-park-library-highland-park|10-00-am-2026-11-19@let
  sdoitdallas.com
 DTSTAMP:20261119T160000Z
