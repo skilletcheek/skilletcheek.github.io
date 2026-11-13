@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:trish-toledo-with-special-guest-los-tranquilos|the-kessler-theater-oak-
- cliff-dallas|doors-see-listing-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261112T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Trish Toledo with special guest Los Tranquilos
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=trish-toledo-with-special
- -guest-los-tranquilos%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-l
- isting
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/venue/the-kessler-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:sue-foley|the-kessler-dallas|8-00-pm-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261114T020000Z
 DTSTART:20261114T020000Z
@@ -203,6 +189,22 @@ LOCATION:The Kessler Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-12&e=joshua-ray-walker-plus-a-
  special-screening-of-thank-you-for-listening-%7Cthe-kessler-theater-oak-cl
  iff-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:sequestered-songwriters-matt-hillyer-present-matt-the-cat-s-magical-mus
+ ical-christmas|the-kessler-theater-oak-cliff-dallas|doors-see-listing-2026
+ -12-13@letsdoitdallas.com
+DTSTAMP:20261213T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Sequestered Songwriters & Matt Hillyer present Matt the Cat's Magic
+ al Musical Christmas
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=sequestered-songwriters-m
+ att-hillyer-present-matt-the-cat-s-magical-musical-christmas%7Cthe-kessler
+ -theater-oak-cliff-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT

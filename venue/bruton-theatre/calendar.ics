@@ -74,6 +74,19 @@ DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
  /letsdoitdallas.com/venue/bruton-theatre/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-black-academy-of-arts-and-letters-dallas|bruton-theatre-dallas|3-00
+ -pm-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261122T210000Z
+DTSTART:20261122T210000Z
+DTEND:20261123T000000Z
+SUMMARY:The Black Academy of Arts and Letters - Dallas
+LOCATION:Bruton Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=the-black-academy-of-arts
+ -and-letters-dallas%7Cbruton-theatre-dallas%7C3-00-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/bruton-theatre/
+END:VEVENT
+BEGIN:VEVENT
 UID:33rd-annual-christmas-kanzaa-concert-student-performance|bruton-theatre
  -dallas|10-00-am-2026-12-11@letsdoitdallas.com
 DTSTAMP:20261211T160000Z
@@ -83,6 +96,20 @@ SUMMARY:33rd Annual Christmas/Kanzaa Concert- Student Performance
 LOCATION:Bruton Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-11&e=33rd-annual-christmas-kan
  zaa-concert-student-performance%7Cbruton-theatre-dallas%7C10-00-am
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/bruton-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:promising-young-artist-series-33rd-annual-christmas-kwanzaa-concert|bru
+ ton-theatre-dallas|7-30-pm-2026-12-11@letsdoitdallas.com
+DTSTAMP:20261212T013000Z
+DTSTART:20261212T013000Z
+DTEND:20261212T043000Z
+SUMMARY:Promising Young Artist Series 33rd Annual Christmas/Kwanzaa Concert
+LOCATION:Bruton Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=promising-young-artist-se
+ ries-33rd-annual-christmas-kwanzaa-concert%7Cbruton-theatre-dallas%7C7-30-
+ pm
 DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
  /letsdoitdallas.com/venue/bruton-theatre/
 END:VEVENT

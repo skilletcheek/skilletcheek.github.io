@@ -61,6 +61,19 @@ DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/margot-and-bill-winspear-opera-house/
 END:VEVENT
 BEGIN:VEVENT
+UID:mystic-pizza-the-musical-dallas|margot-and-bill-winspear-opera-house-da
+ llas|1-30-pm-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261122T193000Z
+DTSTART:20261122T193000Z
+DTEND:20261122T223000Z
+SUMMARY:Mystic Pizza - The Musical - Dallas
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=mystic-pizza-the-musical-
+ dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C1-30-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/margot-and-bill-winspear-opera-house/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-nutcracker-w-texas-ballet-theater|margot-and-bill-winspear-opera-ho
  use-dallas|8-00-pm-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261128T020000Z

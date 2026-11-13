@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-12@letsdoitdall
- as.com
-DTSTAMP:20261113T040000Z
-DTSTART:20261113T040000Z
-DTEND:20261113T070000Z
-SUMMARY:DJ JREAM
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-candle-company-tar-and-feather-here-for-now|three-links-deep-ellum-
  dallas|7-00-pm-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261114T010000Z
@@ -61,15 +48,15 @@ DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:pipe-hillcountry-halfwit-judge-joy-scream|three-links-deep-ellum-dallas
+UID:pipe-hillcountry-halfwit-judge-roy-scream|three-links-deep-ellum-dallas
  |7-00-pm-2026-11-15@letsdoitdallas.com
 DTSTAMP:20261116T010000Z
 DTSTART:20261116T010000Z
 DTEND:20261116T040000Z
-SUMMARY:Pipe\, Hillcountry\, Halfwit\, Judge Joy Scream
+SUMMARY:Pipe\, Hillcountry\, Halfwit\, Judge Roy Scream
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-15&e=pipe-hillcountry-halfwit-
- judge-joy-scream%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+ judge-roy-scream%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/three-links-deep-ellum/
 END:VEVENT
@@ -385,5 +372,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-06&e=eyes-set-to-kill-sicksens
  e-twist-it-moonstone%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/three-links-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:flight-by-nothing-clement-hall|three-links-deep-ellum-dallas|7-00-pm-20
+ 26-12-11@letsdoitdallas.com
+DTSTAMP:20261212T010000Z
+DTSTART:20261212T010000Z
+DTEND:20261212T040000Z
+SUMMARY:Flight By Nothing\, Clement Hall
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=flight-by-nothing-clement
+ -hall%7Cthree-links-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/venue/three-links-deep-ellum/
 END:VEVENT
 END:VCALENDAR

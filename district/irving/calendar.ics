@@ -10,61 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:prism-awards|the-constellation-club-irving|5-30-pm-8-00-pm-2026-11-12@l
- etsdoitdallas.com
-DTSTAMP:20261112T233000Z
-DTSTART:20261112T233000Z
-DTEND:20261113T023000Z
-SUMMARY:PRISM Awards
-LOCATION:The Constellation Club · Irving
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=prism-awards%7Cthe-conste
- llation-club-irving%7C5-30-pm-8-00-pm
-DESCRIPTION:Join Mental Health America of Greater Dallas for the 2026 Prism
-  Awards\, an elegant evening celebrating the individuals and organizations
-  advancing mental health in the community. Enjoy dinner at the Constellati
- on Club in Irving while honoring seven distinguished award recipients — 
- More: https://letsdoitdallas.com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:nurse-john-against-medical-advice-tour|the-pavilion-at-toyota-music-fac
- tory-irving|7-00-pm-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261113T010000Z
-DTSTART:20261113T010000Z
-DTEND:20261113T040000Z
-SUMMARY:Nurse John: Against Medical Advice Tour
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=nurse-john-against-medica
- l-advice-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:ali-macofsky|punch-line-irving-irving|7-30-pm-2026-11-12@letsdoitdallas
- .com
-DTSTAMP:20261113T013000Z
-DTSTART:20261113T013000Z
-DTEND:20261113T043000Z
-SUMMARY:Ali Macofsky
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=ali-macofsky%7Cpunch-line
- -irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:nurse-john-against-medical-advice-tour|the-pavilion-at-toyota-music-fac
- tory-irving|9-30-pm-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261113T033000Z
-DTSTART:20261113T033000Z
-DTEND:20261113T063000Z
-SUMMARY:Nurse John: Against Medical Advice Tour
-LOCATION:The Pavilion at Toyota Music Factory · Irving
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=nurse-john-against-medica
- l-advice-tour%7Cthe-pavilion-at-toyota-music-factory-irving%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:ali-macofsky|punch-line-irving-irving|7-00-pm-2026-11-13@letsdoitdallas
  .com
 DTSTAMP:20261114T010000Z
@@ -563,6 +508,45 @@ SUMMARY:Ola Dada
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-12-10&e=ola-dada%7Cpunch-line-irv
  ing-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:laurie-kilmartin|punch-line-irving-irving|7-00-pm-2026-12-11@letsdoitda
+ llas.com
+DTSTAMP:20261212T010000Z
+DTSTART:20261212T010000Z
+DTEND:20261212T040000Z
+SUMMARY:Laurie Kilmartin
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=laurie-kilmartin%7Cpunch-
+ line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:comedy-allstars|punch-line-irving-irving|9-30-pm-2026-12-11@letsdoitdal
+ las.com
+DTSTAMP:20261212T033000Z
+DTSTART:20261212T033000Z
+DTEND:20261212T063000Z
+SUMMARY:Comedy Allstars
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=comedy-allstars%7Cpunch-l
+ ine-irving-irving%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:teachers-gone-bad-comedy-loteria-ed-|punch-line-irving-irving|3-30-pm-2
+ 026-12-12@letsdoitdallas.com
+DTSTAMP:20261212T213000Z
+DTSTART:20261212T213000Z
+DTEND:20261213T003000Z
+SUMMARY:Teachers Gone Bad Comedy: Loteria Ed.
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=teachers-gone-bad-comedy-
+ loteria-ed-%7Cpunch-line-irving-irving%7C3-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
 END:VEVENT

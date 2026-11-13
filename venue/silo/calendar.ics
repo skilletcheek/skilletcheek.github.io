@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tisoki-ages-18-|silo-dallas|9-00-pm-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261113T030000Z
-DTSTART:20261113T030000Z
-DTEND:20261113T060000Z
-SUMMARY:Tisoki - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=tisoki-ages-18-%7Csilo-da
- llas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:ben-nicky-vini-vici-ages-18-|silo-dallas|9-00-pm-2026-11-13@letsdoitdal
  las.com
 DTSTAMP:20261114T030000Z
@@ -215,5 +203,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-10&e=goldie-ages-18-%7Csilo-da
  llas%7C9-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:wooli-ages-18-|silo-dallas|9-00-pm-2026-12-11@letsdoitdallas.com
+DTSTAMP:20261212T030000Z
+DTSTART:20261212T030000Z
+DTEND:20261212T060000Z
+SUMMARY:Wooli - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=wooli-ages-18-%7Csilo-dal
+ las%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/silo/
 END:VEVENT
 END:VCALENDAR

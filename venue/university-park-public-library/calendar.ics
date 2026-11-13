@@ -1,0 +1,91 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:University Park Public Library — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at University Park Public Library.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:junk-journaling-teen-adult-|8383-preston-center-plaza-suite-200-univers
+ ity-park|12-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T180000Z
+DTSTART:20261114T180000Z
+DTEND:20261114T210000Z
+SUMMARY:Junk Journaling (Teen/Adult)
+LOCATION:8383 Preston Center Plaza · University Park
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=junk-journaling-teen-adul
+ t-%7C8383-preston-center-plaza-suite-200-university-park%7C12-00-pm
+DESCRIPTION:Get cozy at the library for an hour of junk journaling time! No
+ vember 14\, 2026 12:00 PM - 01:30 PM 8383 Preston Center Plaza Suite 200Un
+ iversity Park\, TX 75205 https://www.uptexas.org/Calendar.aspx?EID=3572/63
+ 9288837110000000 — More: https://letsdoitdallas.com/venue/university-par
+ k-public-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-story-time-0-to-12-months-|8383-preston-center-plaza-suite-200-uni
+ versity-park|10-30-am-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261117T163000Z
+DTSTART:20261117T163000Z
+DTEND:20261117T193000Z
+SUMMARY:Baby Story Time (0 to 12 months)
+LOCATION:8383 Preston Center Plaza · University Park
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=baby-story-time-0-to-12-m
+ onths-%7C8383-preston-center-plaza-suite-200-university-park%7C10-30-am
+DESCRIPTION:Intended for non-walkers and crawlers ages 0 to 12 months. Stor
+ ies\, movement and music for babies and caregivers to enjoy together. Nove
+ mber 17\, 2026 10:30 AM - 11:00 AM 8383 Preston Center Plaza Suite 200Univ
+ ersity Park\, TX 75205 https://www.uptexas.org/Calendar.aspx?EID=3372/63 
+ — More: https://letsdoitdallas.com/venue/university-park-public-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:english-conversation-adult-|8383-preston-center-plaza-suite-200-univers
+ ity-park|07-00-pm-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261118T010000Z
+DTSTART:20261118T010000Z
+DTEND:20261118T040000Z
+SUMMARY:English Conversation (Adult)
+LOCATION:8383 Preston Center Plaza · University Park
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=english-conversation-adul
+ t-%7C8383-preston-center-plaza-suite-200-university-park%7C07-00-pm
+DESCRIPTION:Join us for a Free English Conversation class for adults. Pract
+ ice your language skills with other learners\, and improve your listening\
+ , and speaking. November 17\, 2026 07:00 PM - 08:00 PM 8383 Preston Center
+  Plaza Suite 200University Park\, TX 75205 https://www.uptexas.org/Calend 
+ — More: https://letsdoitdallas.com/venue/university-park-public-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:nostalgia-corner-gilmore-girls-teen-adult-|8383-preston-center-plaza-su
+ ite-200-university-park|02-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T200000Z
+DTSTART:20261121T200000Z
+DTEND:20261121T230000Z
+SUMMARY:Nostalgia Corner: Gilmore Girls (Teen/Adult)
+LOCATION:8383 Preston Center Plaza · University Park
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=nostalgia-corner-gilmore-
+ girls-teen-adult-%7C8383-preston-center-plaza-suite-200-university-park%7C
+ 02-00-pm
+DESCRIPTION:Are you ready for a blast from the past?! November 21\, 2026 02
+ :00 PM - 03:00 PM 8383 Preston Center Plaza Suite 200University Park\, TX 
+ 75205 https://www.uptexas.org/Calendar.aspx?EID=3571/639259355710000000 
+ — More: https://letsdoitdallas.com/venue/university-park-public-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:english-conversation-adult-|8383-preston-center-plaza-suite-200-univers
+ ity-park|07-00-pm-2026-11-24@letsdoitdallas.com
+DTSTAMP:20261125T010000Z
+DTSTART:20261125T010000Z
+DTEND:20261125T040000Z
+SUMMARY:English Conversation (Adult)
+LOCATION:8383 Preston Center Plaza · University Park
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=english-conversation-adul
+ t-%7C8383-preston-center-plaza-suite-200-university-park%7C07-00-pm
+DESCRIPTION:Join us for a Free English Conversation class for adults. Pract
+ ice your language skills with other learners\, and improve your listening\
+ , and speaking. November 24\, 2026 07:00 PM - 08:00 PM 8383 Preston Center
+  Plaza Suite 200University Park\, TX 75205 https://www.uptexas.org/Calend 
+ — More: https://letsdoitdallas.com/venue/university-park-public-library/
+END:VEVENT
+END:VCALENDAR

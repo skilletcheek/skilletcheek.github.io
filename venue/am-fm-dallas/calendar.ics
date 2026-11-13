@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:we-are-scientists|am-fm-dallas-dallas|7-00-pm-2026-11-12@letsdoitdallas
- .com
-DTSTAMP:20261113T010000Z
-DTSTART:20261113T010000Z
-DTEND:20261113T040000Z
-SUMMARY:We Are Scientists
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=we-are-scientists%7Cam-fm
- -dallas-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/am-fm-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:king-buffalo|am-fm-dallas-dallas|7-00-pm-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261114T010000Z
 DTSTART:20261114T010000Z
@@ -105,6 +92,18 @@ DTEND:20261122T040000Z
 SUMMARY:EZ Band
 LOCATION:AM/FM Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-21&e=ez-band%7Cam-fm-dallas-da
+ llas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:oakwood|am-fm-dallas-dallas|7-00-pm-2026-12-11@letsdoitdallas.com
+DTSTAMP:20261212T010000Z
+DTSTART:20261212T010000Z
+DTEND:20261212T040000Z
+SUMMARY:Oakwood
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=oakwood%7Cam-fm-dallas-da
  llas%7C7-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/am-fm-dallas/

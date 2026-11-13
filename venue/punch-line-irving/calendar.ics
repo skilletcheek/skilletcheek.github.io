@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ali-macofsky|punch-line-irving-irving|7-30-pm-2026-11-12@letsdoitdallas
- .com
-DTSTAMP:20261113T013000Z
-DTSTART:20261113T013000Z
-DTEND:20261113T043000Z
-SUMMARY:Ali Macofsky
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=ali-macofsky%7Cpunch-line
- -irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:ali-macofsky|punch-line-irving-irving|7-00-pm-2026-11-13@letsdoitdallas
  .com
 DTSTAMP:20261114T010000Z
@@ -394,6 +381,45 @@ SUMMARY:Ola Dada
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-12-10&e=ola-dada%7Cpunch-line-irv
  ing-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:laurie-kilmartin|punch-line-irving-irving|7-00-pm-2026-12-11@letsdoitda
+ llas.com
+DTSTAMP:20261212T010000Z
+DTSTART:20261212T010000Z
+DTEND:20261212T040000Z
+SUMMARY:Laurie Kilmartin
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=laurie-kilmartin%7Cpunch-
+ line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:comedy-allstars|punch-line-irving-irving|9-30-pm-2026-12-11@letsdoitdal
+ las.com
+DTSTAMP:20261212T033000Z
+DTSTART:20261212T033000Z
+DTEND:20261212T063000Z
+SUMMARY:Comedy Allstars
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=comedy-allstars%7Cpunch-l
+ ine-irving-irving%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:teachers-gone-bad-comedy-loteria-ed-|punch-line-irving-irving|3-30-pm-2
+ 026-12-12@letsdoitdallas.com
+DTSTAMP:20261212T213000Z
+DTSTART:20261212T213000Z
+DTEND:20261213T003000Z
+SUMMARY:Teachers Gone Bad Comedy: Loteria Ed.
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=teachers-gone-bad-comedy-
+ loteria-ed-%7Cpunch-line-irving-irving%7C3-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT

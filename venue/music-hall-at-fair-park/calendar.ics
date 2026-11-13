@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
- -2026-11-12@letsdoitdallas.com
-DTSTAMP:20261113T013000Z
-DTSTART:20261113T013000Z
-DTEND:20261113T043000Z
-SUMMARY:Buena Vista Social Club (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=buena-vista-social-club-t
- ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/music-hall-at-fair-park/
-END:VEVENT
-BEGIN:VEVENT
-UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
  -2026-11-13@letsdoitdallas.com
 DTSTAMP:20261114T013000Z
 DTSTART:20261114T013000Z
@@ -238,5 +225,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=ali-wong-live%7Cmusic-hal
  l-at-fair-park-dallas%7C8-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/music-hall-at-fair-park/
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker-magical-christmas-ballet|music-hall-at-fair-park-dallas|3-00
+ -pm-2026-12-12@letsdoitdallas.com
+DTSTAMP:20261212T210000Z
+DTSTART:20261212T210000Z
+DTEND:20261213T000000Z
+SUMMARY:NUTCRACKER! Magical Christmas Ballet
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=nutcracker-magical-christ
+ mas-ballet%7Cmusic-hall-at-fair-park-dallas%7C3-00-pm
+DESCRIPTION:Dance event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/music-hall-at-fair-park/
 END:VEVENT
 END:VCALENDAR

@@ -87,6 +87,19 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/ariat-arena/
 END:VEVENT
 BEGIN:VEVENT
+UID:lone-star-series-tcu-vs-utah-state-texas-vs-ohio-state|ariat-arena-fort
+ -worth|12-00-pm-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261122T180000Z
+DTSTART:20261122T180000Z
+DTEND:20261122T210000Z
+SUMMARY:Lone Star Series: TCU vs Utah State\, Texas vs Ohio State
+LOCATION:Ariat Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=lone-star-series-tcu-vs-u
+ tah-state-texas-vs-ohio-state%7Cariat-arena-fort-worth%7C12-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/ariat-arena/
+END:VEVENT
+BEGIN:VEVENT
 UID:intocable-cultura-tour-2026|ariat-arena-fort-worth|8-00-pm-2026-11-27@l
  etsdoitdallas.com
 DTSTAMP:20261128T020000Z
@@ -150,5 +163,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-06&e=suites-ls-hoops-with-hear
  t-weekend-ii%7Cariat-arena-fort-worth%7C12-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/ariat-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:suites-billy-strings|ariat-arena-fort-worth|7-30-pm-2026-12-11@letsdoit
+ dallas.com
+DTSTAMP:20261212T013000Z
+DTSTART:20261212T013000Z
+DTEND:20261212T043000Z
+SUMMARY:Suites: Billy Strings
+LOCATION:Ariat Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=suites-billy-strings%7Car
+ iat-arena-fort-worth%7C7-30-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/ariat-arena/
 END:VEVENT
 END:VCALENDAR

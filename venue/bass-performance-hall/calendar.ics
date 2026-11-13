@@ -90,6 +90,20 @@ DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
  com/venue/bass-performance-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:fort-worth-symphony-orchestra-rachmaninoff-copland-dvorak|bass-performa
+ nce-hall-fort-worth|2-00-pm-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261122T200000Z
+DTSTART:20261122T200000Z
+DTEND:20261122T230000Z
+SUMMARY:Fort Worth Symphony Orchestra - Rachmaninoff\, Copland\, Dvorak
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=fort-worth-symphony-orche
+ stra-rachmaninoff-copland-dvorak%7Cbass-performance-hall-fort-worth%7C2-00
+ -pm
+DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
+ com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:home-for-the-holidays|bass-performance-hall-fort-worth|7-30-pm-2026-11-
  27@letsdoitdallas.com
 DTSTAMP:20261128T013000Z
@@ -114,5 +128,31 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=home-for-the-holidays%7Cb
  ass-performance-hall-fort-worth%7C7-30-pm
 DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
  sdoitdallas.com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker|bass-performance-hall-fort-worth|8-00-pm-2026-12-11@lets
+ doitdallas.com
+DTSTAMP:20261212T020000Z
+DTSTART:20261212T020000Z
+DTEND:20261212T050000Z
+SUMMARY:The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=the-nutcracker%7Cbass-per
+ formance-hall-fort-worth%7C8-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-ballet-theater-the-nutcracker|bass-performance-hall-fort-worth|2-
+ 00-pm-2026-12-12@letsdoitdallas.com
+DTSTAMP:20261212T200000Z
+DTSTART:20261212T200000Z
+DTEND:20261212T230000Z
+SUMMARY:Texas Ballet Theater: The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=texas-ballet-theater-the-
+ nutcracker%7Cbass-performance-hall-fort-worth%7C2-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/bass-performance-hall/
 END:VEVENT
 END:VCALENDAR

@@ -10,21 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mahjong-learn-play|grapevine|12-30-pm-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261112T183000Z
-DTSTART:20261112T183000Z
-DTEND:20261112T213000Z
-SUMMARY:Mahjong: Learn & Play
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=mahjong-learn-play%7Cgrap
- evine%7C12-30-pm
-DESCRIPTION:Learn to Play Mahjong Thursdays 12:30-4:30. Beginners\, please 
- arrive at 12:30. Open play tables available on a first come first serve ba
- sis\, Space is Limited. Ages 18 and up. November 12\, 2026 12:30 PM - 04:3
- 0 PM Grapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EI 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
  e-tx-76051-united-states|8-00-am-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261113T140000Z
@@ -85,6 +70,23 @@ DESCRIPTION:Volunteers from our area high schools will be bringing their cr
  mber 13\, 2026 05:15 PM - 05:45 PM Grapevine\, TX 76051 https://www.grapev
  inetexas.gov/Calendar.aspx?EID=17875/639300004310000000 — More: https://
  letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
+ e-tx-76051-united-states|8-00-am-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T140000Z
+DTSTART:20261114T140000Z
+DTEND:20261114T170000Z
+SUMMARY:Phenomenomaly at Meow Wolf
+LOCATION:Meow Wolf · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=phenomenomaly-at-meow-wol
+ f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
+ C8-00-am
+DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
+  live immersive performance series inside The Real Unreal. Blending intera
+ ctive theater with a rotating lineup of North Texas talent\, the experienc
+ e unfolds around guests as they explore\, featuring music\, dance\, comedy
+ \, — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 BEGIN:VEVENT
 UID:stitchcraft-circle-18-|grapevine|10-00-am-2026-11-14@letsdoitdallas.com
@@ -785,5 +787,20 @@ DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are
  se stop at the Children's Desk 15 minutes before the program to receive ti
  ckets. 1 per attendee.) November 25\, 2026 10:30 AM - 11:00 AM Grapevine\,
   — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-studio-18-|grapevine|10-00-am-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261127T160000Z
+DTSTART:20261127T160000Z
+DTEND:20261127T190000Z
+SUMMARY:Art Studio (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=art-studio-18-%7Cgrapevin
+ e%7C10-00-am
+DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
+ our own projects or start something new. Bring your own project and ideas!
+  This is a welcoming space for creatives 18+. *Library Card Required* Nove
+ mber 27\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grape 
+ — More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 END:VCALENDAR

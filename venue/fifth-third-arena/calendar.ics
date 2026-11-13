@@ -138,4 +138,30 @@ URL:https://letsdoitdallas.com/?date=2026-12-10&e=2026-dallas-stars-hall-of
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/fifth-third-arena/
 END:VEVENT
+BEGIN:VEVENT
+UID:texas-legends-vs-birmingham-squadron|fifth-third-arena-frisco|7-00-pm-2
+ 026-12-11@letsdoitdallas.com
+DTSTAMP:20261212T010000Z
+DTSTART:20261212T010000Z
+DTEND:20261212T040000Z
+SUMMARY:Texas Legends vs. Birmingham Squadron
+LOCATION:Fifth Third Arena · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=texas-legends-vs-birmingh
+ am-squadron%7Cfifth-third-arena-frisco%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/fifth-third-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-duel-minnesota-v-smu|fifth-third-arena-frisco|12-30-pm-2026-12-1
+ 2@letsdoitdallas.com
+DTSTAMP:20261212T183000Z
+DTSTART:20261212T183000Z
+DTEND:20261212T213000Z
+SUMMARY:Dallas Duel: Minnesota v SMU
+LOCATION:Fifth Third Arena · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=dallas-duel-minnesota-v-s
+ mu%7Cfifth-third-arena-frisco%7C12-30-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/fifth-third-arena/
+END:VEVENT
 END:VCALENDAR

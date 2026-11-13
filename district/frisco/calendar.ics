@@ -11,31 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
- frisco|see-details-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261112T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:"The Cottage" by Theatre Frisco
-LOCATION:Black Box Theater · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=-the-cottage-by-theatre-f
- risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
-DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
- strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:multicultural-committee-meeting|6101-frisco-square-blvd-frisco|04-30-pm
- -2026-11-12@letsdoitdallas.com
-DTSTAMP:20261112T223000Z
-DTSTART:20261112T223000Z
-DTEND:20261113T013000Z
-SUMMARY:Multicultural Committee Meeting
-LOCATION:6101 Frisco Square Blvd.
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=multicultural-committee-m
- eeting%7C6101-frisco-square-blvd-frisco%7C04-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
  frisco|see-details-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261113T000000Z
 DTSTART;VALUE=DATE:20261113
@@ -46,18 +21,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-13&e=-the-cottage-by-theatre-f
  risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
 DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
  strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:coffee-with-the-mayor|8000-dallas-pkwy-frisco|08-00-am-2026-11-13@letsd
- oitdallas.com
-DTSTAMP:20261113T140000Z
-DTSTART:20261113T140000Z
-DTEND:20261113T170000Z
-SUMMARY:Coffee with the Mayor
-LOCATION:8000 Dallas Pkwy. · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=coffee-with-the-mayor%7C8
- 000-dallas-pkwy-frisco%7C08-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:rio-grande-valley-vipers-at-texas-legends|comerica-center-frisco|7-00-p
@@ -146,17 +109,34 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=saturday-music-series-at-
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
-UID:artist-led-workshop-art-through-movement-with-marina-shterenberg|6455-p
- age-street-frisco|01-00-pm-2026-11-14@letsdoitdallas.com
+UID:-cancelled-artist-led-workshop-art-through-movement-with-marina-shteren
+ berg|6455-page-street-frisco|01-00-pm-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261114T190000Z
 DTSTART:20261114T190000Z
 DTEND:20261114T220000Z
-SUMMARY:Artist-Led Workshop: Art Through Movement with Marina Shterenberg
+SUMMARY:*CANCELLED* Artist-Led Workshop: Art Through Movement with Marina S
+ hterenberg
 LOCATION:6455 Page Street · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=artist-led-workshop-art-t
- hrough-movement-with-marina-shterenberg%7C6455-page-street-frisco%7C01-00-
- pm
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=-cancelled-artist-led-wor
+ kshop-art-through-movement-with-marina-shterenberg%7C6455-page-street-fris
+ co%7C01-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:dream-bigger-than-texas|hotel-garden-inn-frisco-frisco|1-30-pm-3-30-pm-
+ 2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T193000Z
+DTSTART:20261114T193000Z
+DTEND:20261114T223000Z
+SUMMARY:Dream Bigger Than Texas
+LOCATION:Hotel Garden Inn Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=dream-bigger-than-texas%7
+ Chotel-garden-inn-frisco-frisco%7C1-30-pm-3-30-pm
+DESCRIPTION:Join PathIvy for an exclusive college admissions event designed
+  for high school students and parents aiming for top U.S. universities\, i
+ ncluding Ivy League schools and other highly selective colleges. Led by Vi
+ cky Mehta\, Founder & CEO of PathIvy\, and Zoe\, the session will share e 
+ — More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
@@ -196,6 +176,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-15&e=texas-legends-vs-rio-gran
  de-valley-vipers%7Cfifth-third-arena-frisco%7C3-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:bowling|frisco|01-00-pm-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261117T190000Z
+DTSTART:20261117T190000Z
+DTEND:20261117T220000Z
+SUMMARY:Bowling
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=bowling%7Cfrisco%7C01-00-
+ pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:legislative-committee-meeting|6101-frisco-square-blvd-frisco|03-00-pm-2
@@ -334,6 +325,19 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:hoopfest-basketball-women-s-challenge-session-1|comerica-center-frisco|
+ 1-00-pm-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261122T190000Z
+DTSTART:20261122T190000Z
+DTEND:20261122T220000Z
+SUMMARY:Hoopfest Basketball Women's Challenge Session 1
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=hoopfest-basketball-women
+ -s-challenge-session-1%7Ccomerica-center-frisco%7C1-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:hoopfest-basketball-women-s-challenge-session-2|fifth-third-arena-frisc
  o|3-00-pm-2026-11-23@letsdoitdallas.com
 DTSTAMP:20261123T210000Z
@@ -345,6 +349,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-23&e=hoopfest-basketball-women
  -s-challenge-session-2%7Cfifth-third-arena-frisco%7C3-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:bowling|frisco|01-00-pm-2026-11-24@letsdoitdallas.com
+DTSTAMP:20261124T190000Z
+DTSTART:20261124T190000Z
+DTEND:20261124T220000Z
+SUMMARY:Bowling
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=bowling%7Cfrisco%7C01-00-
+ pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:hoopfest-basketball-women-s-challenge-session-3|fifth-third-arena-frisc
@@ -426,5 +441,31 @@ URL:https://letsdoitdallas.com/?date=2026-12-10&e=2026-dallas-stars-hall-of
  -fame-induction-gala%7Cfifth-third-arena-frisco%7C7-00-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-legends-vs-birmingham-squadron|fifth-third-arena-frisco|7-00-pm-2
+ 026-12-11@letsdoitdallas.com
+DTSTAMP:20261212T010000Z
+DTSTART:20261212T010000Z
+DTEND:20261212T040000Z
+SUMMARY:Texas Legends vs. Birmingham Squadron
+LOCATION:Fifth Third Arena · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=texas-legends-vs-birmingh
+ am-squadron%7Cfifth-third-arena-frisco%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-duel-minnesota-v-smu|fifth-third-arena-frisco|12-30-pm-2026-12-1
+ 2@letsdoitdallas.com
+DTSTAMP:20261212T183000Z
+DTSTART:20261212T183000Z
+DTEND:20261212T213000Z
+SUMMARY:Dallas Duel: Minnesota v SMU
+LOCATION:Fifth Third Arena · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=dallas-duel-minnesota-v-s
+ mu%7Cfifth-third-arena-frisco%7C12-30-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/frisco/
 END:VEVENT
 END:VCALENDAR

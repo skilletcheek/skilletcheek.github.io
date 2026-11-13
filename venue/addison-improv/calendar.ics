@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kev-adams|addison-improv-addison|7-30-pm-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261113T013000Z
-DTSTART:20261113T013000Z
-DTEND:20261113T043000Z
-SUMMARY:Kev Adams
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=kev-adams%7Caddison-impro
- v-addison%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:steve-byrne|addison-improv-addison|7-00-pm-2026-11-13@letsdoitdallas.co
  m
 DTSTAMP:20261114T010000Z
@@ -290,6 +278,32 @@ SUMMARY:Jesus Castillo
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-10&e=jesus-castillo%7Caddison-
  improv-addison%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-o-connor|addison-improv-addison|7-30-pm-2026-12-11@letsdoitdallas
+ .com
+DTSTAMP:20261212T013000Z
+DTSTART:20261212T013000Z
+DTEND:20261212T043000Z
+SUMMARY:Chris O'Connor
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=chris-o-connor%7Caddison-
+ improv-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-o-connor|addison-improv-addison|9-45-pm-2026-12-11@letsdoitdallas
+ .com
+DTSTAMP:20261212T034500Z
+DTSTART:20261212T034500Z
+DTEND:20261212T064500Z
+SUMMARY:Chris O'Connor
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=chris-o-connor%7Caddison-
+ improv-addison%7C9-45-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
 END:VEVENT

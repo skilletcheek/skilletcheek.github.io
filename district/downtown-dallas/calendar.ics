@@ -10,101 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:boomershack-darling-farm-double-bill|poor-david-s-pub-dallas|doors-see-
- listing-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261112T000000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:BOOMERSHACK + DARLING FARM DOUBLE BILL
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=boomershack-darling-farm-
- double-bill%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261112T140000Z
-DTSTART:20261112T140000Z
-DTEND:20261112T170000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-stars-vs-winnipeg-jets|american-airlines-center-dallas|7-00-pm-2
- 026-11-12@letsdoitdallas.com
-DTSTAMP:20261113T010000Z
-DTSTART:20261113T010000Z
-DTEND:20261113T040000Z
-SUMMARY:Dallas Stars vs. Winnipeg Jets
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=dallas-stars-vs-winnipeg-
- jets%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:father-of-peace-the-year-of-madness-the-mystery-century-tour|the-cambri
- dge-room-at-house-of-blues-dallas|7-00-pm-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261113T010000Z
-DTSTART:20261113T010000Z
-DTEND:20261113T040000Z
-SUMMARY:Father Of Peace - The Year Of Madness & The Mystery Century Tour
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=father-of-peace-the-year-
- of-madness-the-mystery-century-tour%7Cthe-cambridge-room-at-house-of-blues
- -dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:jose-madero-usa-tour-2026|house-of-blues-dallas-dallas|7-00-pm-2026-11-
- 12@letsdoitdallas.com
-DTSTAMP:20261113T010000Z
-DTSTART:20261113T010000Z
-DTEND:20261113T040000Z
-SUMMARY:Jose Madero - USA Tour 2026
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=jose-madero-usa-tour-2026
- %7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
- -2026-11-12@letsdoitdallas.com
-DTSTAMP:20261113T013000Z
-DTSTART:20261113T013000Z
-DTEND:20261113T043000Z
-SUMMARY:Buena Vista Social Club (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=buena-vista-social-club-t
- ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-carpenters-songbook-a-live-celebration|majestic-theatre-dallas-dall
- as|7-30-pm-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261113T013000Z
-DTSTART:20261113T013000Z
-DTEND:20261113T043000Z
-SUMMARY:The Carpenters Songbook - A Live Celebration
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=the-carpenters-songbook-a
- -live-celebration%7Cmajestic-theatre-dallas-dallas%7C7-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:poor-david-s-presents-david-nail-down-to-the-studs-tour|poor-david-s-pu
  b-dallas|doors-see-listing-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261113T000000Z
@@ -228,6 +133,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=all-night-with-the-red-el
  vises%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T140000Z
+DTSTART:20261114T140000Z
+DTEND:20261114T170000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|1-30-pm
@@ -1169,5 +1090,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-12&e=charles-milton-gaby-and-f
  riends%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker-magical-christmas-ballet|music-hall-at-fair-park-dallas|3-00
+ -pm-2026-12-12@letsdoitdallas.com
+DTSTAMP:20261212T210000Z
+DTSTART:20261212T210000Z
+DTEND:20261213T000000Z
+SUMMARY:NUTCRACKER! Magical Christmas Ballet
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=nutcracker-magical-christ
+ mas-ballet%7Cmusic-hall-at-fair-park-dallas%7C3-00-pm
+DESCRIPTION:Dance event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

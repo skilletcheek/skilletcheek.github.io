@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-12@letsdoitdall
- as.com
-DTSTAMP:20261113T040000Z
-DTSTART:20261113T040000Z
-DTEND:20261113T070000Z
-SUMMARY:DJ JREAM
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
  -pm-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261114T040000Z
@@ -50,6 +37,23 @@ DESCRIPTION:For many North Texas families\, the holiday season doesn’t of
  ur of Trees at Trinity Falls returns Saturday\, Nov. 14 through Sunday\, D
  ec. 13\, inviting visitors to stroll through beautifully furnished model h
  ome — More: https://letsdoitdallas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:live-watercolor-demo-supporting-big-bend-conservancy|whole-earth-provis
+ ion-co-dallas|10-00-am-1-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T160000Z
+DTSTART:20261114T160000Z
+DTEND:20261114T190000Z
+SUMMARY:Live Watercolor Demo Supporting Big Bend Conservancy
+LOCATION:Whole Earth Provision Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=live-watercolor-demo-supp
+ orting-big-bend-conservancy%7Cwhole-earth-provision-co-dallas%7C10-00-am-1
+ -00-pm
+DESCRIPTION:Join Whole Earth Provision Co. at its Mockingbird location for 
+ a live watercolor demonstration by local artist and Big Bend Conservancy b
+ oard member Billy Hassell. Guests can meet representatives from Big Bend C
+ onservancy\, enjoy refreshments and enter raffles featuring Hassell’s 
+ — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:creativity-ai-automation-an-n8n-workshop-for-artists-and-makers|parr-li

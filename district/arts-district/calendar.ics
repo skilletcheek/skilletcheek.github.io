@@ -11,20 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-ravel-and-gershwin|morton-meyerson-s
- ymphony-center-dallas|7-30-pm-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261113T013000Z
-DTSTART:20261113T013000Z
-DTEND:20261113T043000Z
-SUMMARY:Dallas Symphony Orchestra Presents Ravel and Gershwin
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=dallas-symphony-orchestra
- -presents-ravel-and-gershwin%7Cmorton-meyerson-symphony-center-dallas%7C7-
- 30-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/district/arts-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-symphony-orchestra-presents-ravel-and-gershwin|morton-meyerson-s
  ymphony-center-dallas|7-30-pm-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261114T013000Z
 DTSTART:20261114T013000Z
@@ -126,6 +112,19 @@ SUMMARY:Mystic Pizza - The Musical - Dallas
 LOCATION:Margot and Bill Winspear Opera House · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-21&e=mystic-pizza-the-musical-
  dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C7-30-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:mystic-pizza-the-musical-dallas|margot-and-bill-winspear-opera-house-da
+ llas|1-30-pm-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261122T193000Z
+DTSTART:20261122T193000Z
+DTEND:20261122T223000Z
+SUMMARY:Mystic Pizza - The Musical - Dallas
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=mystic-pizza-the-musical-
+ dallas%7Cmargot-and-bill-winspear-opera-house-dallas%7C1-30-pm
 DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/arts-district/
 END:VEVENT
@@ -524,5 +523,70 @@ URL:https://letsdoitdallas.com/?date=2026-12-10&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-11@letsdoitdallas
+ .com
+DTSTAMP:20261212T013000Z
+DTSTART:20261212T013000Z
+DTEND:20261212T043000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C7-30-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-with-the-dallas-symphony-orchestra|morton-meyerson-symphony-ce
+ nter-dallas|7-30-pm-2026-12-11@letsdoitdallas.com
+DTSTAMP:20261212T013000Z
+DTSTART:20261212T013000Z
+DTEND:20261212T043000Z
+SUMMARY:Holidays with the Dallas Symphony Orchestra
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=holidays-with-the-dallas-
+ symphony-orchestra%7Cmorton-meyerson-symphony-center-dallas%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra|morton-meyerson-symphony-center-dallas|11-00-
+ am-2026-12-12@letsdoitdallas.com
+DTSTAMP:20261212T170000Z
+DTSTART:20261212T170000Z
+DTEND:20261212T200000Z
+SUMMARY:Dallas Symphony Orchestra
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=dallas-symphony-orchestra
+ %7Cmorton-meyerson-symphony-center-dallas%7C11-00-am
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-12-12@letsdoitdallas
+ .com
+DTSTAMP:20261212T200000Z
+DTSTART:20261212T200000Z
+DTEND:20261212T230000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra|morton-meyerson-symphony-center-dallas|2-00-p
+ m-2026-12-12@letsdoitdallas.com
+DTSTAMP:20261212T200000Z
+DTSTART:20261212T200000Z
+DTEND:20261212T230000Z
+SUMMARY:Dallas Symphony Orchestra
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=dallas-symphony-orchestra
+ %7Cmorton-meyerson-symphony-center-dallas%7C2-00-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/district/arts-district/
 END:VEVENT
 END:VCALENDAR

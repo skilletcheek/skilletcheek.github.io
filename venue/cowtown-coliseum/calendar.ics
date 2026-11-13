@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pbr-stockyards-showcase|cowtown-coliseum-fort-worth|7-30-pm-2026-11-12@
- letsdoitdallas.com
-DTSTAMP:20261113T013000Z
-DTSTART:20261113T013000Z
-DTEND:20261113T043000Z
-SUMMARY:PBR Stockyards Showcase
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=pbr-stockyards-showcase%7
- Ccowtown-coliseum-fort-worth%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/cowtown-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
  11-13@letsdoitdallas.com
 DTSTAMP:20261114T013000Z
@@ -163,6 +150,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=stockyards-championship-r
  odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
+ 11-22@letsdoitdallas.com
+DTSTAMP:20261122T193000Z
+DTSTART:20261122T193000Z
+DTEND:20261122T223000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
+DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/cowtown-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:ultimate-bullfighters|cowtown-coliseum-fort-worth|1-30-pm-2026-11-22@le
@@ -423,5 +423,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-10&e=pbr-stockyards-showcase%7
  Ccowtown-coliseum-fort-worth%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/cowtown-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
+ 12-12@letsdoitdallas.com
+DTSTAMP:20261212T193000Z
+DTSTART:20261212T193000Z
+DTEND:20261212T223000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/venue/cowtown-coliseum/
 END:VEVENT
 END:VCALENDAR

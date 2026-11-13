@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kev-adams|addison-improv-addison|7-30-pm-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261113T013000Z
-DTSTART:20261113T013000Z
-DTEND:20261113T043000Z
-SUMMARY:Kev Adams
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=kev-adams%7Caddison-impro
- v-addison%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:steve-byrne|addison-improv-addison|7-00-pm-2026-11-13@letsdoitdallas.co
  m
 DTSTAMP:20261114T010000Z
@@ -90,6 +78,22 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:voices-of-rock|505-travis-street-coppell|07-30-pm-2026-11-14@letsdoitda
+ llas.com
+DTSTAMP:20261115T013000Z
+DTSTART:20261115T013000Z
+DTEND:20261115T043000Z
+SUMMARY:Voices of Rock
+LOCATION:505 Travis Street · Coppell
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=voices-of-rock%7C505-trav
+ is-street-coppell%7C07-30-pm
+DESCRIPTION:The Voices of Rock is a sensational musical group that pays hom
+ age to some of the greatest rock acts of all time. With their incredible v
+ ocal talents and dynamic performances\, they bring to life the iconic song
+ s of bands like Styx\, Boston\, Kansas\, Starship\, Toto\, Led Zeppelin\, 
+ Va — More: https://letsdoitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:steve-byrne|addison-improv-addison|9-00-pm-2026-11-14@letsdoitdallas.co
  m
 DTSTAMP:20261115T030000Z
@@ -127,6 +131,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-15&e=steve-byrne%7Caddison-imp
  rov-addison%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:november-paint-sip-lakeside-sunrise|505-travis-street-coppell|06-00-pm-
+ 2026-11-18@letsdoitdallas.com
+DTSTAMP:20261119T000000Z
+DTSTART:20261119T000000Z
+DTEND:20261119T030000Z
+SUMMARY:November Paint & Sip: Lakeside Sunrise
+LOCATION:505 Travis Street · Coppell
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=november-paint-sip-lakesi
+ de-sunrise%7C505-travis-street-coppell%7C06-00-pm
+DESCRIPTION:Even if you’ve never held a paint brush or can’t draw a str
+ aight line you will be amazed at the beautiful painting you can create in 
+ one inspiring lesson. November 18\, 2026 06:00 PM - 08:00 PM 505 Travis St
+ reetCoppell\, TX 75019 https://www.coppelltx.gov/Calendar.aspx?EID=5098/63
+ 9 — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:doughboys-podcast|addison-improv-addison|7-30-pm-2026-11-18@letsdoitdal
@@ -247,6 +267,51 @@ URL:https://letsdoitdallas.com/?date=2026-11-22&e=deray-davis%7Caddison-imp
  rov-addison%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:thanksgiving-art-camp|505-travis-street-coppell|09-00-am-2026-11-23@let
+ sdoitdallas.com
+DTSTAMP:20261123T150000Z
+DTSTART:20261123T150000Z
+DTEND:20261123T180000Z
+SUMMARY:Thanksgiving Art Camp
+LOCATION:505 Travis Street · Coppell
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=thanksgiving-art-camp%7C5
+ 05-travis-street-coppell%7C09-00-am
+DESCRIPTION:Join the Coppell Arts Center for our Thanksgiving Art Camp for 
+ kids! November 23\, 2026 09:00 AM - 11:45 AM 505 Travis StreetCoppell\, TX
+  75019 https://www.coppelltx.gov/Calendar.aspx?EID=5101/639286934050000000
+  — More: https://letsdoitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:thanksgiving-art-camp|505-travis-street-coppell|09-00-am-2026-11-24@let
+ sdoitdallas.com
+DTSTAMP:20261124T150000Z
+DTSTART:20261124T150000Z
+DTEND:20261124T180000Z
+SUMMARY:Thanksgiving Art Camp
+LOCATION:505 Travis Street · Coppell
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=thanksgiving-art-camp%7C5
+ 05-travis-street-coppell%7C09-00-am
+DESCRIPTION:Join the Coppell Arts Center for our Thanksgiving Art Camp for 
+ kids! November 24\, 2026 09:00 AM - 11:45 AM 505 Travis StreetCoppell\, TX
+  75019 https://www.coppelltx.gov/Calendar.aspx?EID=5102/639286934050000000
+  — More: https://letsdoitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:thanksgiving-art-camp|505-travis-street-coppell|09-00-am-2026-11-25@let
+ sdoitdallas.com
+DTSTAMP:20261125T150000Z
+DTSTART:20261125T150000Z
+DTEND:20261125T180000Z
+SUMMARY:Thanksgiving Art Camp
+LOCATION:505 Travis Street · Coppell
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=thanksgiving-art-camp%7C5
+ 05-travis-street-coppell%7C09-00-am
+DESCRIPTION:Join the Coppell Arts Center for our Thanksgiving Art Camp for 
+ kids! November 25\, 2026 09:00 AM - 11:45 AM 505 Travis StreetCoppell\, TX
+  75019 https://www.coppelltx.gov/Calendar.aspx?EID=5103/639286934050000000
+  — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-nutcracker|eisemann-center-richardson|2-00-pm-2026-11-28@letsdoitda
@@ -388,6 +453,32 @@ SUMMARY:Jesus Castillo
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-10&e=jesus-castillo%7Caddison-
  improv-addison%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-o-connor|addison-improv-addison|7-30-pm-2026-12-11@letsdoitdallas
+ .com
+DTSTAMP:20261212T013000Z
+DTSTART:20261212T013000Z
+DTEND:20261212T043000Z
+SUMMARY:Chris O'Connor
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=chris-o-connor%7Caddison-
+ improv-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-o-connor|addison-improv-addison|9-45-pm-2026-12-11@letsdoitdallas
+ .com
+DTSTAMP:20261212T034500Z
+DTSTART:20261212T034500Z
+DTEND:20261212T064500Z
+SUMMARY:Chris O'Connor
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=chris-o-connor%7Caddison-
+ improv-addison%7C9-45-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT

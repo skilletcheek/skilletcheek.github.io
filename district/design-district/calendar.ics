@@ -10,44 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:helado-negro-and-reyna-tropical-as-helado-tropical-|the-echo-lounge-mus
- ic-hall-dallas|7-00-pm-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261113T010000Z
-DTSTART:20261113T010000Z
-DTEND:20261113T040000Z
-SUMMARY:Helado Negro and Reyna Tropical as "Helado Tropical"
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=helado-negro-and-reyna-tr
- opical-as-helado-tropical-%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:we-are-scientists|am-fm-dallas-dallas|7-00-pm-2026-11-12@letsdoitdallas
- .com
-DTSTAMP:20261113T010000Z
-DTSTART:20261113T010000Z
-DTEND:20261113T040000Z
-SUMMARY:We Are Scientists
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=we-are-scientists%7Cam-fm
- -dallas-dallas%7C7-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:tisoki-ages-18-|silo-dallas|9-00-pm-2026-11-12@letsdoitdallas.com
-DTSTAMP:20261113T030000Z
-DTSTART:20261113T030000Z
-DTEND:20261113T060000Z
-SUMMARY:Tisoki - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=tisoki-ages-18-%7Csilo-da
- llas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:king-buffalo|am-fm-dallas-dallas|7-00-pm-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261114T010000Z
 DTSTART:20261114T010000Z
@@ -473,5 +435,42 @@ URL:https://letsdoitdallas.com/?date=2026-12-10&e=goldie-ages-18-%7Csilo-da
  llas%7C9-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-meredith-marks-you-can-dance-tour|the-echo-lounge-music-hall-dallas|
+ 7-00-pm-2026-12-11@letsdoitdallas.com
+DTSTAMP:20261212T010000Z
+DTSTART:20261212T010000Z
+DTEND:20261212T040000Z
+SUMMARY:DJ Meredith Marks - YOU. CAN. DANCE. Tour
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=dj-meredith-marks-you-can
+ -dance-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:oakwood|am-fm-dallas-dallas|7-00-pm-2026-12-11@letsdoitdallas.com
+DTSTAMP:20261212T010000Z
+DTSTART:20261212T010000Z
+DTEND:20261212T040000Z
+SUMMARY:Oakwood
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=oakwood%7Cam-fm-dallas-da
+ llas%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:wooli-ages-18-|silo-dallas|9-00-pm-2026-12-11@letsdoitdallas.com
+DTSTAMP:20261212T030000Z
+DTSTART:20261212T030000Z
+DTEND:20261212T060000Z
+SUMMARY:Wooli - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=wooli-ages-18-%7Csilo-dal
+ las%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
 END:VEVENT
 END:VCALENDAR

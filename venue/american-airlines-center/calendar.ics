@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-stars-vs-winnipeg-jets|american-airlines-center-dallas|7-00-pm-2
- 026-11-12@letsdoitdallas.com
-DTSTAMP:20261113T010000Z
-DTSTART:20261113T010000Z
-DTEND:20261113T040000Z
-SUMMARY:Dallas Stars vs. Winnipeg Jets
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-12&e=dallas-stars-vs-winnipeg-
- jets%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:karan-aujla-postponed|american-airlines-center-2500-victory-ave-dallas-
  75219-united-states|8-00-pm-2026-11-13@letsdoitdallas.com
 DTSTAMP:20261114T020000Z
