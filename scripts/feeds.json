@@ -290,8 +290,47 @@
   {
    "site": "https://lancaster-tx.com",
    "city": "Lancaster"
+  },
+  {
+   "site": "https://hptx.org",
+   "city": "Highland Park",
+   "organizer": "Town of Highland Park"
+  },
+  {
+   "site": "https://uptexas.org",
+   "city": "University Park"
+  },
+  {
+   "site": "https://desototexas.gov",
+   "city": "DeSoto"
+  },
+  {
+   "site": "https://cityofmesquite.com",
+   "city": "Mesquite"
+  },
+  {
+   "site": "https://rowletttx.gov",
+   "city": "Rowlett"
+  },
+  {
+   "site": "https://duncanvilletx.gov",
+   "city": "Duncanville"
+  },
+  {
+   "site": "https://coppelltx.gov",
+   "city": "Coppell"
+  },
+  {
+   "site": "https://www.cityofbalchsprings.com",
+   "city": "Balch Springs"
+  },
+  {
+   "site": "https://prospertx.gov",
+   "city": "Prosper",
+   "organizer": "Town of Prosper"
   }
  ],
+ "_civicplus_note": "Evaluated 2026-11-13 by probing the CivicPlus path on ~40 DFW city sites. ADDED (Dallas side): Highland Park, University Park, DeSoto, Mesquite, Rowlett, Duncanville, Coppell, Balch Springs (needs www.), Prosper. BLOCKED, 403 to our fetcher -- do not work around: Richardson (cor.net), Carrollton, Lewisville, Keller, Hurst, Euless. NOT CIVICPLUS (404/no items): Plano, Irving, Allen, Addison, Arlington, Grand Prairie, Wylie, Farmers Branch, Denton, Flower Mound, Rockwall. SKIPPED as thin or noise: Little Elm (garage-sale permits), Seagoville and Murphy (closures only), Sachse, The Colony, Forney, Glenn Heights (1-8 items). WORKING but held back pending a decision (Tarrant County, not Dallas side): Bedford (~115/run, mostly senior-center classes -- would swamp a day), Mansfield, Southlake, North Richland Hills.",
  "civicplus_skip": [
   "city council",
   "council meeting",
@@ -317,7 +356,17 @@
   "closed session",
   "special called",
   "agenda review",
-  "closed enrollment"
+  "closed enrollment",
+  "library closed",
+  "closed for",
+  "holiday closing",
+  "garbage",
+  "hazardous waste",
+  "regular meeting",
+  "steering committee",
+  "teen court",
+  "friends of the library meeting",
+  "closing early"
  ],
  "civicplus_categories": {
   "farmers market": "market",
