@@ -258,7 +258,13 @@ rejected** so they don't get re-probed.
 - All city-reporting sources are gated through `is_dfw_city()`. The lat/long
   radius sent to Ticketmaster/SeatGeek is **not** trustworthy on its own.
 - Eventbrite answers 405 to datacenter IPs (not UA-based), so it is refreshed
-  by hand via `scripts/fetch_eventbrite_local.py`, never in CI.
+  by hand via `scripts/fetch_eventbrite_local.py`, never in CI. Since
+  2026-11-13 a weekly **scheduled task on this Mac** runs it with
+  `--publish`: pull, refresh, and commit + push `eventbrite.json` only if
+  `validate()` passes (≥ 50 rows, every date valid and not past, every row a
+  DFW city and an http(s) link, no email address anywhere — the repo is
+  public). Any failure writes and pushes nothing and exits non-zero. It only
+  runs while the Claude app is open; a missed week runs on next launch.
 - Do214's parser is written but **disabled**: it 403s all non-browser UAs and
   their ToS forbids scraping. Don't enable it by faking a User-Agent.
 - Dallasites101 (`fetch_dallasites101`) discovers events via `/event/rss/`
