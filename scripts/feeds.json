@@ -328,9 +328,29 @@
    "site": "https://prospertx.gov",
    "city": "Prosper",
    "organizer": "Town of Prosper"
+  },
+  {
+   "site": "https://www.mansfieldtexas.gov",
+   "city": "Mansfield"
+  },
+  {
+   "site": "https://www.cityofsouthlake.com",
+   "city": "Southlake"
+  },
+  {
+   "site": "https://www.nrhtx.com",
+   "city": "North Richland Hills"
+  },
+  {
+   "site": "https://www.bedfordtx.gov",
+   "city": "Bedford",
+   "skip_locations": [
+    "3524 central dr"
+   ],
+   "_note": "3524 Central Drive is the Bedford Senior Center: ~110 classes a run (billiards, euchre, line dancing), ~95% of the feed. skip_locations drops them; the rest of the calendar stays."
   }
  ],
- "_civicplus_note": "Evaluated 2026-11-13 by probing the CivicPlus path on ~40 DFW city sites. ADDED (Dallas side): Highland Park, University Park, DeSoto, Mesquite, Rowlett, Duncanville, Coppell, Balch Springs (needs www.), Prosper. BLOCKED, 403 to our fetcher -- do not work around: Richardson (cor.net), Carrollton, Lewisville, Keller, Hurst, Euless. NOT CIVICPLUS (404/no items): Plano, Irving, Allen, Addison, Arlington, Grand Prairie, Wylie, Farmers Branch, Denton, Flower Mound, Rockwall. SKIPPED as thin or noise: Little Elm (garage-sale permits), Seagoville and Murphy (closures only), Sachse, The Colony, Forney, Glenn Heights (1-8 items). WORKING but held back pending a decision (Tarrant County, not Dallas side): Bedford (~115/run, mostly senior-center classes -- would swamp a day), Mansfield, Southlake, North Richland Hills.",
+ "_civicplus_note": "Evaluated 2026-11-13 by probing the CivicPlus path on ~40 DFW city sites. ADDED (Dallas side): Highland Park, University Park, DeSoto, Mesquite, Rowlett, Duncanville, Coppell, Balch Springs (needs www.), Prosper. BLOCKED, 403 to our fetcher -- do not work around: Richardson (cor.net), Carrollton, Lewisville, Keller, Hurst, Euless. NOT CIVICPLUS (404/no items): Plano, Irving, Allen, Addison, Arlington, Grand Prairie, Wylie, Farmers Branch, Denton, Flower Mound, Rockwall. SKIPPED as thin or noise: Little Elm (garage-sale permits), Seagoville and Murphy (closures only), Sachse, The Colony, Forney, Glenn Heights (1-8 items). ADDED 2026-11-13 (Tarrant County): Mansfield, Southlake, North Richland Hills, and Bedford with skip_locations dropping its senior center (~110 classes a run, ~95% of its feed).",
  "civicplus_skip": [
   "city council",
   "council meeting",
@@ -366,7 +386,11 @@
   "steering committee",
   "teen court",
   "friends of the library meeting",
-  "closing early"
+  "closing early",
+  "special meeting",
+  "advisory commission",
+  "development corporation",
+  "citizens police academy"
  ],
  "civicplus_categories": {
   "farmers market": "market",

@@ -386,6 +386,33 @@ def test_civicplus_retry():
     print(f"        -> {F._SOURCE_FAULTS[0]}")
 
 
+def test_civicplus_skip_locations():
+    """Bedford: ~95% of its feed is senior-center classes at one address."""
+    print("civicplus: per-city skip_locations drops a location, nothing else")
+
+    def item(title, street):
+        return (f"<item><title>{title}</title><link>https://x.test/{title}</link><description>"
+                "<strong>Event date:</strong> October 12, 2026<br><strong>Event Time:</strong> 10:00 AM"
+                f"<br><strong>Location:</strong> {street}<br>Bedford, TX 76022"
+                "<strong>Description:</strong> x</description></item>")
+
+    feed = "<rss>" + "".join([item(f"Euchre {i}", "3524 Central Drive") for i in range(5)]
+                             + [item("Senior Billiards", "3524 Central Dr")]
+                             + [item(f"Fall Sweep {i}", "2000 Forest Ridge Drive") for i in range(3)]) + "</rss>"
+    cfg = {"civicplus_sites": [{"site": "https://bedford.test", "city": "Bedford",
+                                "skip_locations": ["3524 central dr"]}],
+           "civicplus_skip": []}
+    reset()
+    rows = _with_feeds(cfg, {f"https://bedford.test{F.CIVICPLUS_PATH}": feed}, F.fetch_civicplus)
+    check("both spellings of the senior center are dropped; the rest stays",
+          sorted(r["name"] for r in rows), [f"Fall Sweep {i}" for i in range(3)])
+    check("and skipping is a filter, not a fault", F._SOURCE_FAULTS, [])
+    cfg["civicplus_sites"][0].pop("skip_locations")
+    reset()
+    rows = _with_feeds(cfg, {f"https://bedford.test{F.CIVICPLUS_PATH}": feed}, F.fetch_civicplus)
+    check("without the setting nothing is dropped", len(rows), 9)
+
+
 def _pk_page(n, date="2026-10-12T20:00:00", jsonld=True):
     if not jsonld:
         return "<html>redesigned</html>"
@@ -664,7 +691,7 @@ def main():
     F.SOURCE_COUNTS_FILE = pathlib.Path(tempfile.mkdtemp()) / "source-counts.json"
     for t in (test_sunday_false_alarm, test_zero_rule, test_drop_rule,
               test_bookkeeping, test_parse_health, test_civicplus_health,
-              test_civicplus_multiday, test_civicplus_retry,
+              test_civicplus_multiday, test_civicplus_retry, test_civicplus_skip_locations,
               test_prekindle_health, test_prekindle_per_venue_yield,
               test_singles_health, test_ics_health,
               test_ics_cache_bust, test_ics_per_feed_yield,

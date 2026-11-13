@@ -794,7 +794,13 @@ def fetch_civicplus(start, end):
         # Faults (the shared template moved: an item no longer carries the
         # title or the "Event date:" block, or the date stopped parsing) are
         # counted apart from the filters below them -- see report_parse_health.
-        kept = muted = offarea = long_run = 0
+        kept = muted = offarea = long_run = placed_out = 0
+        # Optional per-city `skip_locations` (feeds.json): Location-block
+        # substrings to drop, case-insensitive. Bedford's calendar is ~95%
+        # senior-center classes at one address (billiards, euchre, dominoes)
+        # whose titles share no word to skip on, and ~110 a run would swamp a
+        # day's listings. A filter, counted apart from municipal and off-area.
+        loc_skip = tuple(x.lower() for x in site.get("skip_locations") or [])
         faults = {"no_title_or_date": 0, "bad_date": 0}
         items = _CP_ITEM.findall(xml)
         for raw in items:
@@ -832,6 +838,9 @@ def fetch_civicplus(start, end):
                 continue
 
             loc = _CP_LOC.search(item)
+            if loc_skip and loc and any(x in _cp_text(loc.group(1)).lower() for x in loc_skip):
+                placed_out += 1
+                continue
             city = (_cp_find_city(loc.group(1)) if loc else None) or site.get("city")
             street = _cp_street(loc.group(1)) if loc else None
             # The venue named in the TITLE beats the address line: "North
@@ -876,6 +885,7 @@ def fetch_civicplus(start, end):
         detail = ", ".join(f"{v} {k}" for k, v in faults.items() if v)
         print(f"civicplus ({label}): {kept} events"
               + (f", {muted} municipal" if muted else "")
+              + (f", {placed_out} at skipped locations" if placed_out else "")
               + (f", {offarea} off-area" if offarea else "")
               + (f", {long_run} over {CP_MAX_RUN_DAYS} days" if long_run else "")
               + (f", {bad} UNPARSED ({detail})" if bad else ""))

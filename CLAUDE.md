@@ -409,16 +409,20 @@ rejected** so they don't get re-probed.
   changing code: those Prekindle 404s cleared on their own within the hour,
   and three dispatched runs in one afternoon were the likely cause.
 - **CivicPlus city calendars** (`fetch_civicplus`, `civicplus_sites` in
-  `feeds.json`) — fifteen DFW suburbs all publish the same RSS at the same
-  path, so this is **one parser for fifteen sources** and another city is one
+  `feeds.json`) — nineteen DFW suburbs all publish the same RSS at the same
+  path, so this is **one parser for nineteen sources** and another city is one
   `{site, city}` line. The original six (Garland, Cedar Hill, Grapevine,
   McKinney, Frisco, Lancaster) were joined on 2026-11-13 by nine Dallas-side
   cities (Highland Park, University Park, DeSoto, Mesquite, Rowlett,
-  Duncanville, Coppell, Balch Springs, Prosper; ~150 more rows). **Read
+  Duncanville, Coppell, Balch Springs, Prosper; ~150 more rows), and four
+  Tarrant cities (Mansfield, Southlake, North Richland Hills, Bedford). A
+  site entry may carry **`skip_locations`** — Location-block substrings
+  dropped as a filter, counted apart from municipal and off-area. Bedford
+  uses it for its senior center (`3524 central dr`, ~110 classes a run whose
+  titles share no word to skip on, ~95% of the feed). **Read
   `_civicplus_note` in `feeds.json` before probing another city**: it lists
   which ~40 were tried, which 403 the fetcher (Richardson, Carrollton,
-  Lewisville… — leave them), which are thin or noise, and four working
-  Tarrant cities held back. ~450 events a run, the library/parks/rec layer
+  Lewisville… — leave them), and which are thin or noise. ~500 events a run, the library/parks/rec layer
   the ticketing APIs never list. Public records from municipal governments, so no ToS question.
 
   **The RSS `pubDate` is NOT the event date** — it is when the listing was
