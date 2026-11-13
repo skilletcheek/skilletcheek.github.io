@@ -351,6 +351,41 @@ def test_civicplus_multiday():
     check("a range that ends before it starts is a fault", len(F._SOURCE_FAULTS), 1)
 
 
+def test_civicplus_retry():
+    """2026-11-12: four cities timed out back to back, a platform blip."""
+    print("civicplus: a city that fails once is retried after the others")
+    cfg = {"civicplus_sites": [{"site": f"https://{c.replace(' ', '')}.test", "city": c}
+                               for c in CP_CITIES], "civicplus_skip": []}
+    feed = _cp_feed(8)
+    calls = {}
+
+    def flaky(url, *a, **k):
+        calls[url] = calls.get(url, 0) + 1
+        if calls[url] == 1 and not url.startswith(("https://McKinney", "https://Frisco")):
+            raise OSError("<urlopen error timed out>")
+        return feed
+
+    real_feeds, real_sleep = F.FEEDS_FILE, F.time.sleep
+    path = pathlib.Path(tempfile.mkdtemp()) / "feeds.json"
+    path.write_text(json.dumps(cfg))
+    F.FEEDS_FILE, F.http_text, F.time.sleep = path, flaky, lambda *_: None
+    try:
+        reset()
+        rows = F.fetch_civicplus(*WINDOW)
+    finally:
+        F.FEEDS_FILE, F.http_text, F.time.sleep = real_feeds, _real_http_text, real_sleep
+    check("all six cities' rows arrive", len(rows), 48)
+    check("each failing city was asked exactly twice",
+          sorted(n for n in calls.values()), [1, 1, 2, 2, 2, 2])
+    check("and nothing faults", F._SOURCE_FAULTS, [])
+
+    reset()
+    _cp([None] * 4 + [_cp_feed(8)] * 2)
+    check("cities that fail twice name the real cause, not a template change",
+          "did not answer" in F._SOURCE_FAULTS[0] and "template" not in F._SOURCE_FAULTS[0], True)
+    print(f"        -> {F._SOURCE_FAULTS[0]}")
+
+
 def _pk_page(n, date="2026-10-12T20:00:00", jsonld=True):
     if not jsonld:
         return "<html>redesigned</html>"
@@ -629,7 +664,7 @@ def main():
     F.SOURCE_COUNTS_FILE = pathlib.Path(tempfile.mkdtemp()) / "source-counts.json"
     for t in (test_sunday_false_alarm, test_zero_rule, test_drop_rule,
               test_bookkeeping, test_parse_health, test_civicplus_health,
-              test_civicplus_multiday,
+              test_civicplus_multiday, test_civicplus_retry,
               test_prekindle_health, test_prekindle_per_venue_yield,
               test_singles_health, test_ics_health,
               test_ics_cache_bust, test_ics_per_feed_yield,

@@ -608,6 +608,7 @@ _CP_ALLDAY = re.compile(r"Event Time:\s*</strong>\s*12:00\s*AM\s*-\s*11:59\s*PM"
 # A run longer than this would put the same row on every day of the month.
 # What reaches it in practice is a months-long training course, not an outing.
 CP_MAX_RUN_DAYS = 31
+CP_RETRY_PAUSE = 20
 _CP_TIME = re.compile(r"Event Time:\s*</strong>\s*(\d{1,2}:\d{2}\s*[AP]\.?M\.?)", re.I)
 _CP_LOC = re.compile(r"Location:\s*</strong>(.*?)(?:<strong>|\Z)", re.I | re.S)
 _CP_BODY = re.compile(r"Description:\s*</strong>(.*)\Z", re.I | re.S)
@@ -753,7 +754,13 @@ def fetch_civicplus(start, end):
     lo, hi = start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
 
     out, fetch_failed, tried = [], 0, 0
-    for site in sites:
+    # A city that fails to fetch is re-queued ONCE, so it is retried after the
+    # rest (about a minute later) plus CP_RETRY_PAUSE. On 2026-11-12 four of
+    # the six cities timed out back to back -- a CivicPlus platform blip, gone
+    # by the next run -- and the site lost ~290 events for five hours.
+    queue = [(site, 1) for site in sites]
+    paused = False
+    for site, attempt in queue:                # grows while iterating, by design
         base = (site.get("site") or "").rstrip("/")
         url = site.get("url") or (base + CIVICPLUS_PATH if base else None)
         if not url:
@@ -767,12 +774,21 @@ def fetch_civicplus(start, end):
         org = ({"name": site.get("organizer") or f"City of {site['city']}",
                 "url": f"{base}/"}
                if site.get("city") and base else None)
-        tried += 1
+        if attempt == 1:
+            tried += 1
+        elif not paused:
+            time.sleep(CP_RETRY_PAUSE)
+            paused = True
         try:
             xml = http_text(url)
         except Exception as e:  # noqa: BLE001
-            print(f"civicplus failed ({url}): {e}", file=sys.stderr)
-            fetch_failed += 1
+            if attempt == 1:
+                print(f"civicplus failed ({url}): {e}; retrying after the other cities",
+                      file=sys.stderr)
+                queue.append((site, 2))
+            else:
+                print(f"civicplus failed again ({url}): {e}", file=sys.stderr)
+                fetch_failed += 1
             continue
 
         # Faults (the shared template moved: an item no longer carries the
@@ -868,6 +884,8 @@ def fetch_civicplus(start, end):
     # One city's feed failing is a blip (McKinney 403'd once, 2026-09-20);
     # most of them failing at once is the platform moving the path.
     report_parse_health("civicplus", tried, fetch_failed, f"{fetch_failed} fetch",
+                        cause="the cities' sites did not answer (twice) -- check whether "
+                              "CivicPlus is down before changing code",
                         unit="city feeds")
     return out
 
@@ -4566,7 +4584,8 @@ SOURCE_UNPARSED_RATIO = 0.5
 SOURCE_UNPARSED_MIN = 5
 
 
-def report_parse_health(name, pages, unparsed, detail="", unit="fetched pages"):
+def report_parse_health(name, pages, unparsed, detail="", unit="fetched pages",
+                        cause="the page template probably changed"):
     """Record a fetcher's parse-failure RATE as a health fault.
 
     Deliberately independent of yield: a source can return a normal-looking
@@ -4589,7 +4608,7 @@ def report_parse_health(name, pages, unparsed, detail="", unit="fetched pages"):
     _SOURCE_FAULTS.append(
         f"{name}: {unparsed} of {pages} {unit} did not parse"
         + (f" ({detail})" if detail else "")
-        + " — the page template probably changed")
+        + f" — {cause}")
 
 
 def _load_source_history() -> list:

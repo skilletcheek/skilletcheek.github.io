@@ -473,6 +473,13 @@ rejected** so they don't get re-probed.
   identical-title pass (which then compared no venue) merge McKinney's
   "National Night Out" into Cedar Hill's — fixed at the root, see "Dedupe".
 
+  **A city that fails to fetch is retried once, after the others** (plus
+  `CP_RETRY_PAUSE`, 20s). On 2026-11-12 Garland, Cedar Hill, Grapevine and
+  Lancaster timed out back to back — a CivicPlus platform blip, clear by the
+  next run — and ~290 events were off the site for five hours. Twice-failed
+  cities alarm as "did not answer", not "template changed": check whether
+  CivicPlus is down before touching the parser.
+
   Its window is a rolling **~14 days**, not `DAYS_AHEAD`, so it thins toward
   the end of the month where Ticketmaster does not. `civicplus_skip` drops
   municipal governance by title substring and `civicplus_categories` infers a
