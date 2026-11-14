@@ -9,6 +9,21 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:mariachazo|texas-trust-cu-theatre-1001-texas-trust-way-grand-prairie-75
+ 050-united-states|8-00-pm-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261115T020000Z
+DTSTART:20261115T020000Z
+DTEND:20261115T050000Z
+SUMMARY:Mariachazo
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-11-14&e=mariachazo%7Ctexas-trust-
+ cu-theatre-1001-texas-trust-way-grand-prairie-75050-united-states%7C8-00-p
+ m
+DESCRIPTION:Presented by: Amplify & PARS Presentan Headliners: Mariachazo S
+ upporting: Mariachi Vargas de Tecalitlán & Nuevo Tecalitlán Mariachi —
+  More: https://letsdoitdallas.com/venue/texas-trust-cu-theatre/
+END:VEVENT
+BEGIN:VEVENT
 UID:don-lemon-w-d-l-hughley|texas-trust-cu-theatre-grand-prairie|8-00-pm-20
  26-11-20@letsdoitdallas.com
 DTSTAMP:20261121T020000Z
@@ -98,5 +113,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-11&e=the-basement-yard%7Ctexas
  -trust-cu-theatre-grand-prairie%7C8-00-pm
 DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/texas-trust-cu-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:scott-bradlee-s-postmodern-jukebox|texas-trust-cu-theatre-grand-prairie
+ |8-00-pm-2026-12-12@letsdoitdallas.com
+DTSTAMP:20261213T020000Z
+DTSTART:20261213T020000Z
+DTEND:20261213T050000Z
+SUMMARY:Scott Bradlee's Postmodern Jukebox
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=scott-bradlee-s-postmoder
+ n-jukebox%7Ctexas-trust-cu-theatre-grand-prairie%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/texas-trust-cu-theatre/
 END:VEVENT
 END:VCALENDAR

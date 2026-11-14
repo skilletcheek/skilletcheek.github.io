@@ -100,4 +100,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-11&e=promising-young-artist-se
 DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
  /letsdoitdallas.com/venue/bruton-theatre/
 END:VEVENT
+BEGIN:VEVENT
+UID:33rd-annual-christmas-kanzaa-concert|bruton-theatre-dallas|8-00-pm-2026
+ -12-12@letsdoitdallas.com
+DTSTAMP:20261213T020000Z
+DTSTART:20261213T020000Z
+DTEND:20261213T050000Z
+SUMMARY:33rd Annual Christmas/Kanzaa Concert
+LOCATION:Bruton Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=33rd-annual-christmas-kan
+ zaa-concert%7Cbruton-theatre-dallas%7C8-00-pm
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/bruton-theatre/
+END:VEVENT
 END:VCALENDAR

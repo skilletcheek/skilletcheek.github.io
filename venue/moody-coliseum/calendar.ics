@@ -9,21 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:smu-mustangs-mens-basketball-vs-ball-state-cardinals-mens-basketball|mo
- ody-coliseum-dallas|8-00-pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T020000Z
-DTSTART:20261114T020000Z
-DTEND:20261114T050000Z
-SUMMARY:SMU Mustangs Mens Basketball vs. Ball State Cardinals Mens Basketba
- ll
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=smu-mustangs-mens-basketb
- all-vs-ball-state-cardinals-mens-basketball%7Cmoody-coliseum-dallas%7C8-00
- -pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-notre-dame-fighting-irish-womens-voll
  eyball|moody-coliseum-dallas|1-00-pm-2026-11-15@letsdoitdallas.com
 DTSTAMP:20261115T190000Z

@@ -10,56 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:king-buffalo|am-fm-dallas-dallas|7-00-pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T010000Z
-DTSTART:20261114T010000Z
-DTEND:20261114T040000Z
-SUMMARY:King Buffalo
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=king-buffalo%7Cam-fm-dall
- as-dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:two-nights-with-they-might-be-giants-16-event|the-echo-lounge-music-hal
- l-dallas|7-00-pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T010000Z
-DTSTART:20261114T010000Z
-DTEND:20261114T040000Z
-SUMMARY:TWO NIGHTS WITH THEY MIGHT BE GIANTS - 16+ Event
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=two-nights-with-they-migh
- t-be-giants-16-event%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:ben-nicky-vini-vici-ages-18-|silo-dallas|9-00-pm-2026-11-13@letsdoitdal
- las.com
-DTSTAMP:20261114T030000Z
-DTSTART:20261114T030000Z
-DTEND:20261114T060000Z
-SUMMARY:Ben Nicky + Vini Vici - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=ben-nicky-vini-vici-ages-
- 18-%7Csilo-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:caroline-carr|am-fm-dallas-dallas|9-30-pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T033000Z
-DTSTART:20261114T033000Z
-DTEND:20261114T063000Z
-SUMMARY:Caroline Carr
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=caroline-carr%7Cam-fm-dal
- las-dallas%7C9-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:two-nights-with-they-might-be-giants-16-event|the-echo-lounge-music-hal
  l-dallas|7-00-pm-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261115T010000Z
@@ -472,5 +422,42 @@ URL:https://letsdoitdallas.com/?date=2026-12-11&e=wooli-ages-18-%7Csilo-dal
  las%7C9-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:teddy-bear-party-2026|the-echo-lounge-music-hall-dallas|8-00-pm-2026-12
+ -12@letsdoitdallas.com
+DTSTAMP:20261213T020000Z
+DTSTART:20261213T020000Z
+DTEND:20261213T050000Z
+SUMMARY:Teddy Bear Party 2026
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=teddy-bear-party-2026%7Ct
+ he-echo-lounge-music-hall-dallas%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:omnom-ages-18-|silo-dallas|9-00-pm-2026-12-12@letsdoitdallas.com
+DTSTAMP:20261213T030000Z
+DTSTART:20261213T030000Z
+DTEND:20261213T060000Z
+SUMMARY:Omnom - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=omnom-ages-18-%7Csilo-dal
+ las%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:rave-jesus|am-fm-dallas-dallas|6-00-pm-2026-12-13@letsdoitdallas.com
+DTSTAMP:20261214T000000Z
+DTSTART:20261214T000000Z
+DTEND:20261214T030000Z
+SUMMARY:Rave Jesus
+LOCATION:AM/FM Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=rave-jesus%7Cam-fm-dallas
+ -dallas%7C6-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/design-district/
 END:VEVENT
 END:VCALENDAR

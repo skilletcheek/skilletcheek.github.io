@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sue-foley|the-kessler-dallas|8-00-pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T020000Z
-DTSTART:20261114T020000Z
-DTEND:20261114T050000Z
-SUMMARY:Sue Foley
-LOCATION:The Kessler · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=sue-foley%7Cthe-kessler-d
- allas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/the-kessler-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:john-violinist|the-kessler-dallas|8-00-pm-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261115T020000Z
 DTSTART:20261115T020000Z
@@ -205,6 +193,19 @@ LOCATION:The Kessler Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-13&e=sequestered-songwriters-m
  att-hillyer-present-matt-the-cat-s-magical-musical-christmas%7Cthe-kessler
  -theater-oak-cliff-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-john-waters-christmas|the-kessler-theater-oak-cliff-dallas|doors-see-
+ listing-2026-12-14@letsdoitdallas.com
+DTSTAMP:20261214T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:A John Waters Christmas
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-14&e=a-john-waters-christmas%7
+ Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT

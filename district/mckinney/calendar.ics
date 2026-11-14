@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:hunger-games-after-hours-6th-12th-grade-|6861-w-eldorado-parkway-mckinn
- ey|06-30-pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T003000Z
-DTSTART:20261114T003000Z
-DTEND:20261114T033000Z
-SUMMARY:Hunger Games After Hours (6th-12th Grade)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=hunger-games-after-hours-
- 6th-12th-grade-%7C6861-w-eldorado-parkway-mckinney%7C06-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:7th-annual-tour-of-trees-at-trinity-falls|trinity-falls-mckinney|10-00-
  am-5-00-pm-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261114T160000Z
@@ -74,20 +62,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-14&e=saturday-chess-meetup-all
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
-UID:beethoven-bach-and-brahms|trinity-presbyterian-church-great-hall-mckinn
- ey|7-00-pm-8-00-pm-2026-11-14@letsdoitdallas.com
+UID:beethoven-bach-and-brahms|trinity-presbyterian-church-great-hall-5871-v
+ irginia-pkwy-mckinney-tx-75071-united-states|7-00-pm-2026-11-14@letsdoitda
+ llas.com
 DTSTAMP:20261115T010000Z
 DTSTART:20261115T010000Z
 DTEND:20261115T040000Z
 SUMMARY:Beethoven\, Bach and Brahms
-LOCATION:Trinity Presbyterian Church (Great Hall) · McKinney
+LOCATION:Trinity Presbyterian  Church (Great Hall) · McKinney
 URL:https://letsdoitdallas.com/?date=2026-11-14&e=beethoven-bach-and-brahms
- %7Ctrinity-presbyterian-church-great-hall-mckinney%7C7-00-pm-8-00-pm
+ %7Ctrinity-presbyterian-church-great-hall-5871-virginia-pkwy-mckinney-tx-7
+ 5071-united-states%7C7-00-pm
 DESCRIPTION:Experience an unforgettable evening of musical masterworks as t
  he McKinney Philharmonic Orchestra celebrates three towering figures of cl
- assical music. The concert opens with Beethoven's stirring Egmont Overture
- \, a powerful tale of courage\, sacrifice\, and triumph. Internationally 
- — More: https://letsdoitdallas.com/district/mckinney/
+ assical music.  The concert opens with Beethoven’s stirring Egmont Overt
+ ure\, a powerful tale of courage\, sacrifice\, and triumph. Internationall
+  — More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
 UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-11-16@
@@ -530,6 +520,54 @@ DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:family-storytime-all-ages-|1201-e-louisiana-st-mckinney|10-30-am-2026-1
+ 1-28@letsdoitdallas.com
+DTSTAMP:20261128T163000Z
+DTSTART:20261128T163000Z
+DTEND:20261128T193000Z
+SUMMARY:Family Storytime (All Ages)
+LOCATION:1201 E. Louisiana St. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=family-storytime-all-ages
+ -%7C1201-e-louisiana-st-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:home-for-the-holidays-a-mckinney-christmas|111-n-tennessee-st-mckinney|
+ 10-30-am-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261128T163000Z
+DTSTART:20261128T163000Z
+DTEND:20261128T193000Z
+SUMMARY:Home for the Holidays\, A McKinney Christmas
+LOCATION:111 N. Tennessee St. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=home-for-the-holidays-a-m
+ ckinney-christmas%7C111-n-tennessee-st-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:nature-walk-storytime-all-ages-|6861-w-eldorado-parkway-mckinney|10-30-
+ am-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261128T163000Z
+DTSTART:20261128T163000Z
+DTEND:20261128T193000Z
+SUMMARY:Nature Walk Storytime (All Ages)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=nature-walk-storytime-all
+ -ages-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-chess-meetup-all-ages-|6861-w-eldorado-parkway-mckinney|11-00-
+ am-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261128T170000Z
+DTSTART:20261128T170000Z
+DTEND:20261128T200000Z
+SUMMARY:Saturday Chess Meetup (All Ages)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=saturday-chess-meetup-all
+ -ages-%7C6861-w-eldorado-parkway-mckinney%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c
  enter-allen|1-00-pm-2026-11-28@letsdoitdallas.com
 DTSTAMP:20261128T190000Z
@@ -619,6 +657,20 @@ LOCATION:Credit Union of Texas Event Center · Allen
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=allen-americans-vs-tahoe-
  knight-monsters-star-wars-night%7Ccredit-union-of-texas-event-center-allen
  %7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:allen-americans-vs-wichita-thunder-white-out-night|credit-union-of-texa
+ s-event-center-allen|7-00-pm-2026-12-12@letsdoitdallas.com
+DTSTAMP:20261213T010000Z
+DTSTART:20261213T010000Z
+DTEND:20261213T040000Z
+SUMMARY:Allen Americans vs Wichita Thunder - White Out Night
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=allen-americans-vs-wichit
+ a-thunder-white-out-night%7Ccredit-union-of-texas-event-center-allen%7C7-0
+ 0-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/mckinney/
 END:VEVENT

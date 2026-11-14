@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:steve-byrne|addison-improv-addison|7-00-pm-2026-11-13@letsdoitdallas.co
- m
-DTSTAMP:20261114T010000Z
-DTSTART:20261114T010000Z
-DTEND:20261114T040000Z
-SUMMARY:Steve Byrne
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=steve-byrne%7Caddison-imp
- rov-addison%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:steve-byrne|addison-improv-addison|9-30-pm-2026-11-13@letsdoitdallas.co
- m
-DTSTAMP:20261114T033000Z
-DTSTART:20261114T033000Z
-DTEND:20261114T063000Z
-SUMMARY:Steve Byrne
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=steve-byrne%7Caddison-imp
- rov-addison%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:steve-byrne|addison-improv-addison|6-30-pm-2026-11-14@letsdoitdallas.co
  m
 DTSTAMP:20261115T003000Z
@@ -304,6 +278,32 @@ SUMMARY:Chris O'Connor
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-11&e=chris-o-connor%7Caddison-
  improv-addison%7C9-45-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-o-connor|addison-improv-addison|7-00-pm-2026-12-12@letsdoitdallas
+ .com
+DTSTAMP:20261213T010000Z
+DTSTART:20261213T010000Z
+DTEND:20261213T040000Z
+SUMMARY:Chris O'Connor
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=chris-o-connor%7Caddison-
+ improv-addison%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-o-connor|addison-improv-addison|9-30-pm-2026-12-12@letsdoitdallas
+ .com
+DTSTAMP:20261213T033000Z
+DTSTART:20261213T033000Z
+DTEND:20261213T063000Z
+SUMMARY:Chris O'Connor
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=chris-o-connor%7Caddison-
+ improv-addison%7C9-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
 END:VEVENT

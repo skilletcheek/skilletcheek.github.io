@@ -9,66 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:annual-outlet-hat-sale|dorfmanmilano-garland|8-00-am-6-00-pm-2026-11-13
- @letsdoitdallas.com
-DTSTAMP:20261113T140000Z
-DTSTART:20261113T140000Z
-DTEND:20261113T170000Z
-SUMMARY:Annual Outlet Hat Sale
-LOCATION:DorfmanMilano · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=annual-outlet-hat-sale%7C
- dorfmanmilano-garland%7C8-00-am-6-00-pm
-DESCRIPTION:Browse a variety of styles at special prices while getting a he
- ad start on holiday shopping. Stop by the Garland location on November 13
- –14 from 8 AM to 6 PM. Bring friends and family along to find the perfec
- t hat for yourself or someone special! Contactless payment accepted and 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:stuffie-sleepover|south-garland-library-garland|12-00-pm-2026-11-13@let
- sdoitdallas.com
-DTSTAMP:20261113T180000Z
-DTSTART:20261113T180000Z
-DTEND:20261113T210000Z
-SUMMARY:Stuffie Sleepover
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=stuffie-sleepover%7Csouth
- -garland-library-garland%7C12-00-pm
-DESCRIPTION:Runs Nov 12 – Nov 13. Your stuffed animals and dolls are invi
- ted to a special sleepover at the library! Drop them off during open hours
-  on Thursday (noon – 8 p.m.) and pick up during open hours on Friday (10
-  a.m. – 6 p.m.). Your stuffie friend will go home with a scrapbook full 
- o — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:silent-book-club-ages-18-|central-library-garland|06-00-pm-2026-11-13@l
- etsdoitdallas.com
-DTSTAMP:20261114T000000Z
-DTSTART:20261114T000000Z
-DTEND:20261114T030000Z
-SUMMARY:Silent Book Club® (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=silent-book-club-ages-18-
- %7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Join us for Silent Book Club® at the Garland Centr
- al Library\, held once a month on Fridays at 6 p.m. — exclusively for ad
- ults 18+. Enjoy a relaxed\, quiet reading environment without assigned boo
- ks or discussion pressure. Bring your own book or browse the library’s c
- oll — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:bye-bye-birdie-ype-presented-by-hometown-theater|521-w-state-street-gar
- land|07-00-pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T010000Z
-DTSTART:20261114T010000Z
-DTEND:20261114T040000Z
-SUMMARY:Bye Bye Birdie: YPE presented by Hometown Theater
-LOCATION:521 W State Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=bye-bye-birdie-ype-presen
- ted-by-hometown-theater%7C521-w-state-street-garland%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:big-4-recycle-day|675-w-walnut-st-garland|09-00-am-2026-11-14@letsdoitd
  allas.com
 DTSTAMP:20261114T150000Z
@@ -947,5 +887,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=thanksgiving-all-garland-
  libraries-closed%7Cgarland%7Csee-details
 DESCRIPTION:Runs Nov 26 – Nov 27. — More: https://letsdoitdallas.com/ci
  ty/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:daddy-s-home-presented-by-plum-tuckered-out-production|300-n-fifth-stre
+ et-garland|06-00-pm-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261129T000000Z
+DTSTART:20261129T000000Z
+DTEND:20261129T030000Z
+SUMMARY:Daddy's Home presented by Plum Tuckered Out Production
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=daddy-s-home-presented-by
+ -plum-tuckered-out-production%7C300-n-fifth-street-garland%7C06-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 END:VCALENDAR

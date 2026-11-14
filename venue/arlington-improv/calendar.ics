@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:michael-blackson|arlington-improv-arlington|7-30-pm-2026-11-13@letsdoit
- dallas.com
-DTSTAMP:20261114T013000Z
-DTSTART:20261114T013000Z
-DTEND:20261114T043000Z
-SUMMARY:Michael Blackson
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=michael-blackson%7Carling
- ton-improv-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:michael-blackson|arlington-improv-arlington|9-45-pm-2026-11-13@letsdoit
- dallas.com
-DTSTAMP:20261114T034500Z
-DTSTART:20261114T034500Z
-DTEND:20261114T064500Z
-SUMMARY:Michael Blackson
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=michael-blackson%7Carling
- ton-improv-arlington%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
  26-11-14@letsdoitdallas.com
 DTSTAMP:20261114T180000Z
@@ -395,6 +369,32 @@ SUMMARY:Arnez J
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-12-11&e=arnez-j%7Carlington-impro
  v-arlington%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:arnez-j|arlington-improv-arlington|7-00-pm-2026-12-12@letsdoitdallas.co
+ m
+DTSTAMP:20261213T010000Z
+DTSTART:20261213T010000Z
+DTEND:20261213T040000Z
+SUMMARY:Arnez J
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=arnez-j%7Carlington-impro
+ v-arlington%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:arnez-j|arlington-improv-arlington|9-30-pm-2026-12-12@letsdoitdallas.co
+ m
+DTSTAMP:20261213T033000Z
+DTSTART:20261213T033000Z
+DTEND:20261213T063000Z
+SUMMARY:Arnez J
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=arnez-j%7Carlington-impro
+ v-arlington%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

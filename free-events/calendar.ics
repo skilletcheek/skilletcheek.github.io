@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
- -pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T040000Z
-DTSTART:20261114T040000Z
-DTEND:20261114T070000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:7th-annual-tour-of-trees-at-trinity-falls|trinity-falls-mckinney|10-00-
  am-5-00-pm-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261114T160000Z
@@ -138,6 +125,21 @@ URL:https://letsdoitdallas.com/?date=2026-11-17&e=the-ox-and-the-waymakers%
  7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:math-treasure-hunt-solve-the-case-of-the-missing-x|bhanzu-learning-cent
+ er-2300-mcdermott-rd-plano|5-30-pm-7-30-pm-2026-11-18@letsdoitdallas.com
+DTSTAMP:20261118T233000Z
+DTSTART:20261118T233000Z
+DTEND:20261119T023000Z
+SUMMARY:Math Treasure Hunt: Solve the Case of the Missing X
+LOCATION:Bhanzu Learning Center · Plano
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=math-treasure-hunt-solve-
+ the-case-of-the-missing-x%7Cbhanzu-learning-center-2300-mcdermott-rd-plano
+ %7C5-30-pm-7-30-pm
+DESCRIPTION:Bhanzu Learning Center hosts a math treasure hunt for kids\, wi
+ th interactive math challenges and a chance to win a LEGO set. Free entry\
+ ; limited seats. — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:wub-wednesday|three-links-deep-ellum-dallas|10-00-pm-2026-11-18@letsdoi

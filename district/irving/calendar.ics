@@ -10,46 +10,22 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ali-macofsky|punch-line-irving-irving|7-00-pm-2026-11-13@letsdoitdallas
- .com
-DTSTAMP:20261114T010000Z
-DTSTART:20261114T010000Z
-DTEND:20261114T040000Z
-SUMMARY:Ali Macofsky
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=ali-macofsky%7Cpunch-line
- -irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:success-jr|punch-line-irving-irving|9-30-pm-2026-11-13@letsdoitdallas.c
- om
-DTSTAMP:20261114T033000Z
-DTSTART:20261114T033000Z
-DTEND:20261114T063000Z
-SUMMARY:Success Jr
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=success-jr%7Cpunch-line-i
- rving-irving%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:speed-dating-in-irving-all-single-professionals-24-39|alamo-drafthouse-
- cinema-las-colinas-irving|4-00-pm-2026-11-14@letsdoitdallas.com
+UID:speed-dating-in-irving-all-single-professionals-24-39|glass-half-full-t
+ aproom-at-alamo-drafthouse-cinema-las-colinas-irving|4-00-pm-2026-11-14@le
+ tsdoitdallas.com
 DTSTAMP:20261114T220000Z
 DTSTART:20261114T220000Z
 DTEND:20261115T010000Z
 SUMMARY:Speed Dating In Irving - All Single Professionals - 24 - 39
-LOCATION:Alamo Drafthouse Cinema-Las Colinas · Irving
+LOCATION:Glass Half Full Taproom at Alamo Drafthouse Cinema-Las Colinas · 
+ Irving
 URL:https://letsdoitdallas.com/?date=2026-11-14&e=speed-dating-in-irving-al
- l-single-professionals-24-39%7Calamo-drafthouse-cinema-las-colinas-irving%
- 7C4-00-pm
-DESCRIPTION:Another Fabulous Singles Event ♥ For Ages 24-39 @ Alamo Draft
- house Cinema-Las Colinas in Irving\, TX. As featured recently in the WSJ\,
-  NPR and TLC 90 Day Fiance - The Single Life. Meet the love of your life a
- t the best and most trusted dating event company in the US. Where else ca 
+ l-single-professionals-24-39%7Cglass-half-full-taproom-at-alamo-drafthouse
+ -cinema-las-colinas-irving%7C4-00-pm
+DESCRIPTION:Another Fabulous Singles Event ♥ For Ages 24-39 @ Glass Half 
+ Full Taproom at Alamo Drafthouse Cinema-Las Colinas in Irving\, TX. As fea
+ tured recently in the WSJ\, NPR and TLC 90 Day Fiance - The Single Life. M
+ eet the love of your life at the best and most trusted dating event compa 
  — More: https://letsdoitdallas.com/district/irving/
 END:VEVENT
 BEGIN:VEVENT
@@ -547,6 +523,32 @@ SUMMARY:Teachers Gone Bad Comedy: Loteria Ed.
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-12-12&e=teachers-gone-bad-comedy-
  loteria-ed-%7Cpunch-line-irving-irving%7C3-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:laurie-kilmartin|punch-line-irving-irving|7-00-pm-2026-12-12@letsdoitda
+ llas.com
+DTSTAMP:20261213T010000Z
+DTSTART:20261213T010000Z
+DTEND:20261213T040000Z
+SUMMARY:Laurie Kilmartin
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=laurie-kilmartin%7Cpunch-
+ line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:laurie-kilmartin|punch-line-irving-irving|9-15-pm-2026-12-12@letsdoitda
+ llas.com
+DTSTAMP:20261213T031500Z
+DTSTART:20261213T031500Z
+DTEND:20261213T061500Z
+SUMMARY:Laurie Kilmartin
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=laurie-kilmartin%7Cpunch-
+ line-irving-irving%7C9-15-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/irving/
 END:VEVENT

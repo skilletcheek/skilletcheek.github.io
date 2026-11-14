@@ -11,45 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
- frisco|see-details-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:"The Cottage" by Theatre Frisco
-LOCATION:Black Box Theater · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=-the-cottage-by-theatre-f
- risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
-DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
- strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:rio-grande-valley-vipers-at-texas-legends|comerica-center-frisco|7-00-p
- m-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T010000Z
-DTSTART:20261114T010000Z
-DTEND:20261114T040000Z
-SUMMARY:Rio Grande Valley Vipers at Texas Legends
-LOCATION:Comerica Center · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=rio-grande-valley-vipers-
- at-texas-legends%7Ccomerica-center-frisco%7C7-00-pm
-DESCRIPTION:nba g league event via SeatGeek. — More: https://letsdoitdall
- as.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:texas-legends-vs-rio-grande-valley-vipers|fifth-third-arena-frisco|7-00
- -pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T010000Z
-DTSTART:20261114T010000Z
-DTEND:20261114T040000Z
-SUMMARY:Texas Legends vs. Rio Grande Valley Vipers
-LOCATION:Fifth Third Arena · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=texas-legends-vs-rio-gran
- de-valley-vipers%7Cfifth-third-arena-frisco%7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
  frisco|see-details-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261114T000000Z
 DTSTART;VALUE=DATE:20261114
@@ -351,6 +312,19 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:hoopfest-basketball-women-s-challenge-session-2|comerica-center-frisco|
+ 3-00-pm-2026-11-23@letsdoitdallas.com
+DTSTAMP:20261123T210000Z
+DTSTART:20261123T210000Z
+DTEND:20261124T000000Z
+SUMMARY:Hoopfest Basketball Women's Challenge Session 2
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=hoopfest-basketball-women
+ -s-challenge-session-2%7Ccomerica-center-frisco%7C3-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:bowling|frisco|01-00-pm-2026-11-24@letsdoitdallas.com
 DTSTAMP:20261124T190000Z
 DTSTART:20261124T190000Z
@@ -375,6 +349,19 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:hoopfest-basketball-women-s-challenge-session-3|comerica-center-frisco|
+ 6-00-pm-2026-11-24@letsdoitdallas.com
+DTSTAMP:20261125T000000Z
+DTSTART:20261125T000000Z
+DTEND:20261125T030000Z
+SUMMARY:Hoopfest Basketball Women's Challenge Session 3
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=hoopfest-basketball-women
+ -s-challenge-session-3%7Ccomerica-center-frisco%7C6-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:hoopfest-basketball-women-s-challenge-session-4|fifth-third-arena-frisc
  o|12-00-pm-2026-11-25@letsdoitdallas.com
 DTSTAMP:20261125T180000Z
@@ -388,6 +375,19 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:hoopfest-basketball-women-s-challenge-session-4|comerica-center-frisco|
+ 12-00-pm-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261125T180000Z
+DTSTART:20261125T180000Z
+DTEND:20261125T210000Z
+SUMMARY:Hoopfest Basketball Women's Challenge Session 4
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=hoopfest-basketball-women
+ -s-challenge-session-4%7Ccomerica-center-frisco%7C12-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:texas-legends-vs-osceola-magic|fifth-third-arena-frisco|7-00-pm-2026-11
  -27@letsdoitdallas.com
 DTSTAMP:20261128T010000Z
@@ -399,6 +399,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=texas-legends-vs-osceola-
  magic%7Cfifth-third-arena-frisco%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-music-series-at-frisco-fresh-market|9215-john-w-elliott-dr-fri
+ sco|11-00-am-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261128T170000Z
+DTSTART:20261128T170000Z
+DTEND:20261128T200000Z
+SUMMARY:Saturday Music Series at Frisco Fresh Market
+LOCATION:9215 John W. Elliott Dr · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=saturday-music-series-at-
+ frisco-fresh-market%7C9215-john-w-elliott-dr-frisco%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:texas-legends-vs-osceola-magic|fifth-third-arena-frisco|3-00-pm-2026-11
@@ -465,6 +477,19 @@ SUMMARY:Dallas Duel: Minnesota v SMU
 LOCATION:Fifth Third Arena · Frisco
 URL:https://letsdoitdallas.com/?date=2026-12-12&e=dallas-duel-minnesota-v-s
  mu%7Cfifth-third-arena-frisco%7C12-30-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-legends-vs-birmingham-squadron|fifth-third-arena-frisco|7-00-pm-2
+ 026-12-12@letsdoitdallas.com
+DTSTAMP:20261213T010000Z
+DTSTART:20261213T010000Z
+DTEND:20261213T040000Z
+SUMMARY:Texas Legends vs. Birmingham Squadron
+LOCATION:Fifth Third Arena · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=texas-legends-vs-birmingh
+ am-squadron%7Cfifth-third-arena-frisco%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
 END:VEVENT

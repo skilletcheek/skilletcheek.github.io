@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:a-night-of-jazz-r-b|211-e-pleasant-run-rd-desoto|07-30-pm-2026-11-13@le
- tsdoitdallas.com
-DTSTAMP:20261114T013000Z
-DTSTART:20261114T013000Z
-DTEND:20261114T043000Z
-SUMMARY:A Night of Jazz & R&B
-LOCATION:211 E Pleasant Run Rd. · DeSoto
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=a-night-of-jazz-r-b%7C211
- -e-pleasant-run-rd-desoto%7C07-30-pm
-DESCRIPTION:Experience smooth melodies and soulful sounds at A Night of Jaz
- z & R&B on November 13 at 7:30 p.m. at the DeSoto Corner Theater. Featurin
- g Deon Q. Sanders and DeWayne Washington\, this Spotlight Concert Series p
- erformance is perfect for a date night or an evening with friends. Pur —
-  More: https://letsdoitdallas.com/city/desoto/
-END:VEVENT
-BEGIN:VEVENT
 UID:cuentos-stories-bilingual-storytime|desoto|01-00-pm-2026-11-14@letsdoit
  dallas.com
 DTSTAMP:20261114T190000Z
@@ -302,5 +286,33 @@ DESCRIPTION:Celebrate the magic of the season with the City of DeSoto’s H
  itors can enjoy six festive events featuring holiday traditions\, family-f
  riendly activities\, and memorable experiences that bring the community to
   — More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:cocoa-cookies-christmas|1400-academy-way-desoto|10-00-am-2026-11-28@let
+ sdoitdallas.com
+DTSTAMP:20261128T160000Z
+DTSTART:20261128T160000Z
+DTEND:20261128T190000Z
+SUMMARY:Cocoa\, Cookies & Christmas
+LOCATION:1400 Academy Way · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=cocoa-cookies-christmas%7
+ C1400-academy-way-desoto%7C10-00-am
+DESCRIPTION:Celebrate the magic of the season with the City of DeSoto’s H
+ ome for the Holidays! Throughout November and December\, residents and vis
+ itors can enjoy six festive events featuring holiday traditions\, family-f
+ riendly activities\, and memorable experiences that bring the community to
+  — More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:cuentos-stories-bilingual-storytime|desoto|01-00-pm-2026-11-28@letsdoit
+ dallas.com
+DTSTAMP:20261128T190000Z
+DTSTART:20261128T190000Z
+DTEND:20261128T220000Z
+SUMMARY:Cuentos & Stories - Bilingual Storytime
+LOCATION:DeSoto
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=cuentos-stories-bilingual
+ -storytime%7Cdesoto%7C01-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
 END:VEVENT
 END:VCALENDAR

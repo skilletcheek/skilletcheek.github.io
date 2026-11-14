@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:two-nights-with-they-might-be-giants-16-event|the-echo-lounge-music-hal
- l-dallas|7-00-pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T010000Z
-DTSTART:20261114T010000Z
-DTEND:20261114T040000Z
-SUMMARY:TWO NIGHTS WITH THEY MIGHT BE GIANTS - 16+ Event
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=two-nights-with-they-migh
- t-be-giants-16-event%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
-UID:two-nights-with-they-might-be-giants-16-event|the-echo-lounge-music-hal
  l-dallas|7-00-pm-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261115T010000Z
 DTSTART:20261115T010000Z
@@ -150,5 +137,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-11&e=dj-meredith-marks-you-can
  -dance-tour%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/venue/the-echo-lounge-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:teddy-bear-party-2026|the-echo-lounge-music-hall-dallas|8-00-pm-2026-12
+ -12@letsdoitdallas.com
+DTSTAMP:20261213T020000Z
+DTSTART:20261213T020000Z
+DTEND:20261213T050000Z
+SUMMARY:Teddy Bear Party 2026
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=teddy-bear-party-2026%7Ct
+ he-echo-lounge-music-hall-dallas%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/the-echo-lounge-music-hall/
 END:VEVENT
 END:VCALENDAR

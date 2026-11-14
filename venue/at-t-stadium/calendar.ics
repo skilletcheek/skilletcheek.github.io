@@ -10,41 +10,41 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-rally-day-tour-dallas-cowboys-locker-room|at-t-
- stadium-arlington|9-00-am-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T150000Z
-DTSTART:20261114T150000Z
-DTEND:20261114T180000Z
+ stadium-arlington|9-20-am-2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T152000Z
+DTSTART:20261114T152000Z
+DTEND:20261114T182000Z
 SUMMARY:AT&T Stadium VIP Guided Rally Day Tour + Dallas Cowboys Locker Room
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-11-14&e=at-t-stadium-vip-guided-r
- ally-day-tour-dallas-cowboys-locker-room%7Cat-t-stadium-arlington%7C9-00-a
+ ally-day-tour-dallas-cowboys-locker-room%7Cat-t-stadium-arlington%7C9-20-a
  m
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/at-t-stadium/
 END:VEVENT
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-rally-day-tour|at-t-stadium-arlington|10-45-am-
+UID:at-t-stadium-vip-guided-rally-day-tour|at-t-stadium-arlington|11-00-am-
  2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T164500Z
-DTSTART:20261114T164500Z
-DTEND:20261114T194500Z
+DTSTAMP:20261114T170000Z
+DTSTART:20261114T170000Z
+DTEND:20261114T200000Z
 SUMMARY:AT&T Stadium VIP Guided Rally Day Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-11-14&e=at-t-stadium-vip-guided-r
- ally-day-tour%7Cat-t-stadium-arlington%7C10-45-am
+ ally-day-tour%7Cat-t-stadium-arlington%7C11-00-am
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/at-t-stadium/
 END:VEVENT
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-rally-day-tour-jerry-jones-experience|at-t-stad
- ium-arlington|12-20-pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T182000Z
-DTSTART:20261114T182000Z
-DTEND:20261114T212000Z
-SUMMARY:AT&T Stadium VIP Guided Rally Day Tour + Jerry Jones Experience
+UID:at-t-stadium-vip-guided-rally-day-tour|at-t-stadium-arlington|12-45-pm-
+ 2026-11-14@letsdoitdallas.com
+DTSTAMP:20261114T184500Z
+DTSTART:20261114T184500Z
+DTEND:20261114T214500Z
+SUMMARY:AT&T Stadium VIP Guided Rally Day Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-11-14&e=at-t-stadium-vip-guided-r
- ally-day-tour-jerry-jones-experience%7Cat-t-stadium-arlington%7C12-20-pm
+ ally-day-tour%7Cat-t-stadium-arlington%7C12-45-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/at-t-stadium/
 END:VEVENT
@@ -374,6 +374,84 @@ SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-11-23&e=at-t-stadium-vip-guided-t
  our%7Cat-t-stadium-arlington%7C9-15-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|11-00-am-2026-11-23
+ @letsdoitdallas.com
+DTSTAMP:20261123T170000Z
+DTSTART:20261123T170000Z
+DTEND:20261123T200000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C11-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|1-00-pm-2026-11-23@
+ letsdoitdallas.com
+DTSTAMP:20261123T190000Z
+DTSTART:20261123T190000Z
+DTEND:20261123T220000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C1-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-11-23@
+ letsdoitdallas.com
+DTSTAMP:20261123T210000Z
+DTSTART:20261123T210000Z
+DTEND:20261124T000000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C3-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-11-24
+ @letsdoitdallas.com
+DTSTAMP:20261124T160000Z
+DTSTART:20261124T160000Z
+DTEND:20261124T190000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C10-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-30-pm-2026-11-24
+ @letsdoitdallas.com
+DTSTAMP:20261124T183000Z
+DTSTART:20261124T183000Z
+DTEND:20261124T213000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C12-30-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-11-24@
+ letsdoitdallas.com
+DTSTAMP:20261124T220000Z
+DTSTART:20261124T220000Z
+DTEND:20261125T010000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C4-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/at-t-stadium/
 END:VEVENT

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kolby-cooper-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-11-13@le
- tsdoitdallas.com
-DTSTAMP:20261114T040000Z
-DTSTART:20261114T040000Z
-DTEND:20261114T070000Z
-SUMMARY:Kolby Cooper (18 and Over)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=kolby-cooper-18-and-over-
- %7Cbilly-bob-s-fort-worth%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/billy-bob-s/
-END:VEVENT
-BEGIN:VEVENT
 UID:ryan-bingham-and-the-texas-gentleman-18-and-over-|billy-bob-s-fort-wort
  h|9-00-pm-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261115T030000Z
@@ -200,6 +187,19 @@ SUMMARY:Stoney LaRue
 LOCATION:Billy Bob's · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-11&e=stoney-larue%7Cbilly-bob-
  s-fort-worth%7C10-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:mike-ryan-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-12-12@letsd
+ oitdallas.com
+DTSTAMP:20261213T040000Z
+DTSTART:20261213T040000Z
+DTEND:20261213T070000Z
+SUMMARY:Mike Ryan (18 and Over)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=mike-ryan-18-and-over-%7C
+ billy-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/billy-bob-s/
 END:VEVENT

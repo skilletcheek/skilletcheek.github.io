@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:texas-legends-vs-rio-grande-valley-vipers|fifth-third-arena-frisco|7-00
- -pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T010000Z
-DTSTART:20261114T010000Z
-DTEND:20261114T040000Z
-SUMMARY:Texas Legends vs. Rio Grande Valley Vipers
-LOCATION:Fifth Third Arena · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=texas-legends-vs-rio-gran
- de-valley-vipers%7Cfifth-third-arena-frisco%7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/venue/fifth-third-arena/
-END:VEVENT
-BEGIN:VEVENT
 UID:texas-legends-vs-rio-grande-valley-vipers|fifth-third-arena-frisco|3-00
  -pm-2026-11-15@letsdoitdallas.com
 DTSTAMP:20261115T210000Z
@@ -161,6 +148,19 @@ SUMMARY:Dallas Duel: Minnesota v SMU
 LOCATION:Fifth Third Arena · Frisco
 URL:https://letsdoitdallas.com/?date=2026-12-12&e=dallas-duel-minnesota-v-s
  mu%7Cfifth-third-arena-frisco%7C12-30-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/fifth-third-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-legends-vs-birmingham-squadron|fifth-third-arena-frisco|7-00-pm-2
+ 026-12-12@letsdoitdallas.com
+DTSTAMP:20261213T010000Z
+DTSTART:20261213T010000Z
+DTEND:20261213T040000Z
+SUMMARY:Texas Legends vs. Birmingham Squadron
+LOCATION:Fifth Third Arena · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=texas-legends-vs-birmingh
+ am-squadron%7Cfifth-third-arena-frisco%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/fifth-third-arena/
 END:VEVENT

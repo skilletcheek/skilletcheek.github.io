@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-symphony-orchestra-presents-ravel-and-gershwin|morton-meyerson-s
- ymphony-center-dallas|7-30-pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T013000Z
-DTSTART:20261114T013000Z
-DTEND:20261114T043000Z
-SUMMARY:Dallas Symphony Orchestra Presents Ravel and Gershwin
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=dallas-symphony-orchestra
- -presents-ravel-and-gershwin%7Cmorton-meyerson-symphony-center-dallas%7C7-
- 30-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/venue/morton-meyerson-symphony-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-symphony-orchestra|morton-meyerson-symphony-center-dallas|7-30-p
  m-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T013000Z
@@ -195,6 +181,32 @@ SUMMARY:Dallas Symphony Orchestra
 LOCATION:Morton Meyerson Symphony Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-12&e=dallas-symphony-orchestra
  %7Cmorton-meyerson-symphony-center-dallas%7C2-00-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/morton-meyerson-symphony-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-with-the-dallas-symphony-orchestra|morton-meyerson-symphony-ce
+ nter-dallas|7-30-pm-2026-12-12@letsdoitdallas.com
+DTSTAMP:20261213T013000Z
+DTSTART:20261213T013000Z
+DTEND:20261213T043000Z
+SUMMARY:Holidays with the Dallas Symphony Orchestra
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=holidays-with-the-dallas-
+ symphony-orchestra%7Cmorton-meyerson-symphony-center-dallas%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/morton-meyerson-symphony-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:holidays-with-the-dallas-symphony-orchestra|morton-meyerson-symphony-ce
+ nter-dallas|2-00-pm-2026-12-13@letsdoitdallas.com
+DTSTAMP:20261213T200000Z
+DTSTART:20261213T200000Z
+DTEND:20261213T230000Z
+SUMMARY:Holidays with the Dallas Symphony Orchestra
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=holidays-with-the-dallas-
+ symphony-orchestra%7Cmorton-meyerson-symphony-center-dallas%7C2-00-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/venue/morton-meyerson-symphony-center/
 END:VEVENT

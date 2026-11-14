@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:steve-byrne|addison-improv-addison|7-00-pm-2026-11-13@letsdoitdallas.co
- m
-DTSTAMP:20261114T010000Z
-DTSTART:20261114T010000Z
-DTEND:20261114T040000Z
-SUMMARY:Steve Byrne
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=steve-byrne%7Caddison-imp
- rov-addison%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-premier-tribute-to-90-s-country-straight-tequila-night|legacy-hall-
- plano|8-00-pm-2026-11-13@letsdoitdallas.com
-DTSTAMP:20261114T020000Z
-DTSTART:20261114T020000Z
-DTEND:20261114T050000Z
-SUMMARY:The Premier Tribute to 90's Country - Straight Tequila Night
-LOCATION:Legacy Hall · Plano
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=the-premier-tribute-to-90
- -s-country-straight-tequila-night%7Clegacy-hall-plano%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:steve-byrne|addison-improv-addison|9-30-pm-2026-11-13@letsdoitdallas.co
- m
-DTSTAMP:20261114T033000Z
-DTSTART:20261114T033000Z
-DTEND:20261114T063000Z
-SUMMARY:Steve Byrne
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-13&e=steve-byrne%7Caddison-imp
- rov-addison%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:creativity-ai-automation-an-n8n-workshop-for-artists-and-makers|parr-li
  brary-6200-windhaven-pkwy-plano|2-00-pm-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261114T200000Z
@@ -131,6 +92,21 @@ URL:https://letsdoitdallas.com/?date=2026-11-15&e=steve-byrne%7Caddison-imp
  rov-addison%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:math-treasure-hunt-solve-the-case-of-the-missing-x|bhanzu-learning-cent
+ er-2300-mcdermott-rd-plano|5-30-pm-7-30-pm-2026-11-18@letsdoitdallas.com
+DTSTAMP:20261118T233000Z
+DTSTART:20261118T233000Z
+DTEND:20261119T023000Z
+SUMMARY:Math Treasure Hunt: Solve the Case of the Missing X
+LOCATION:Bhanzu Learning Center · Plano
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=math-treasure-hunt-solve-
+ the-case-of-the-missing-x%7Cbhanzu-learning-center-2300-mcdermott-rd-plano
+ %7C5-30-pm-7-30-pm
+DESCRIPTION:Bhanzu Learning Center hosts a math treasure hunt for kids\, wi
+ th interactive math challenges and a chance to win a LEGO set. Free entry\
+ ; limited seats. — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:november-paint-sip-lakeside-sunrise|505-travis-street-coppell|06-00-pm-
@@ -479,6 +455,32 @@ SUMMARY:Chris O'Connor
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-11&e=chris-o-connor%7Caddison-
  improv-addison%7C9-45-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-o-connor|addison-improv-addison|7-00-pm-2026-12-12@letsdoitdallas
+ .com
+DTSTAMP:20261213T010000Z
+DTSTART:20261213T010000Z
+DTEND:20261213T040000Z
+SUMMARY:Chris O'Connor
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=chris-o-connor%7Caddison-
+ improv-addison%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-o-connor|addison-improv-addison|9-30-pm-2026-12-12@letsdoitdallas
+ .com
+DTSTAMP:20261213T033000Z
+DTSTART:20261213T033000Z
+DTEND:20261213T063000Z
+SUMMARY:Chris O'Connor
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=chris-o-connor%7Caddison-
+ improv-addison%7C9-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT
