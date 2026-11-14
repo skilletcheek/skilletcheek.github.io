@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:incarnate-word-womens-bb-at-north-texas-womens-bb|unt-coliseum-super-pi
- t-denton|2-00-pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T200000Z
-DTSTART:20261114T200000Z
-DTEND:20261114T230000Z
-SUMMARY:Incarnate Word Womens BB at North Texas Womens BB
-LOCATION:UNT Coliseum (Super Pit) · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=incarnate-word-womens-bb-
- at-north-texas-womens-bb%7Cunt-coliseum-super-pit-denton%7C2-00-pm
-DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
- tsdoitdallas.com/venue/unt-coliseum-super-pit/
-END:VEVENT
-BEGIN:VEVENT
 UID:south-alabama-at-north-texas|unt-coliseum-super-pit-denton|5-00-pm-2026
  -11-14@letsdoitdallas.com
 DTSTAMP:20261114T230000Z
@@ -57,6 +44,19 @@ SUMMARY:University of Dallas (Women) at North Texas Womens BB
 LOCATION:UNT Coliseum (Super Pit) · Denton
 URL:https://letsdoitdallas.com/?date=2026-11-24&e=university-of-dallas-wome
  n-at-north-texas-womens-bb%7Cunt-coliseum-super-pit-denton%7C6-30-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/unt-coliseum-super-pit/
+END:VEVENT
+BEGIN:VEVENT
+UID:wofford-womens-bb-at-north-texas-womens-bb|unt-coliseum-super-pit-dento
+ n|6-30-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T003000Z
+DTSTART:20261128T003000Z
+DTEND:20261128T033000Z
+SUMMARY:Wofford Womens BB at North Texas Womens BB
+LOCATION:UNT Coliseum (Super Pit) · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=wofford-womens-bb-at-nort
+ h-texas-womens-bb%7Cunt-coliseum-super-pit-denton%7C6-30-pm
 DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
  tsdoitdallas.com/venue/unt-coliseum-super-pit/
 END:VEVENT

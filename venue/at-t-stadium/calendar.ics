@@ -9,46 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-rally-day-tour-dallas-cowboys-locker-room|at-t-
- stadium-arlington|9-20-am-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T152000Z
-DTSTART:20261114T152000Z
-DTEND:20261114T182000Z
-SUMMARY:AT&T Stadium VIP Guided Rally Day Tour + Dallas Cowboys Locker Room
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=at-t-stadium-vip-guided-r
- ally-day-tour-dallas-cowboys-locker-room%7Cat-t-stadium-arlington%7C9-20-a
- m
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-rally-day-tour|at-t-stadium-arlington|11-00-am-
- 2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T170000Z
-DTSTART:20261114T170000Z
-DTEND:20261114T200000Z
-SUMMARY:AT&T Stadium VIP Guided Rally Day Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=at-t-stadium-vip-guided-r
- ally-day-tour%7Cat-t-stadium-arlington%7C11-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-rally-day-tour|at-t-stadium-arlington|12-45-pm-
- 2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T184500Z
-DTSTART:20261114T184500Z
-DTEND:20261114T214500Z
-SUMMARY:AT&T Stadium VIP Guided Rally Day Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=at-t-stadium-vip-guided-r
- ally-day-tour%7Cat-t-stadium-arlington%7C12-45-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
 UID:folds-of-honor-north-texas-2026-gala|at-t-stadium-arlington|6-30-pm-11-
  30-pm-2026-11-14@letsdoitdallas.com
 DTSTAMP:20261115T003000Z
@@ -467,6 +427,58 @@ URL:https://letsdoitdallas.com/?date=2026-11-26&e=dallas-cowboys-vs-philade
  lphia-eagles%7Cat-t-stadium-arlington%7C3-30-pm
 DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|9-15-am-2026-11-27@
+ letsdoitdallas.com
+DTSTAMP:20261127T151500Z
+DTSTART:20261127T151500Z
+DTEND:20261127T181500Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C9-15-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-self-guided-tour|at-t-stadium-arlington|11-00-am-2026-11-2
+ 7@letsdoitdallas.com
+DTSTAMP:20261127T170000Z
+DTSTART:20261127T170000Z
+DTEND:20261127T200000Z
+SUMMARY:AT&T Stadium Self Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=at-t-stadium-self-guided-
+ tour%7Cat-t-stadium-arlington%7C11-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|1-00-pm-2026-11-27@
+ letsdoitdallas.com
+DTSTAMP:20261127T190000Z
+DTSTART:20261127T190000Z
+DTEND:20261127T220000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C1-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|3-00-pm-2026-11-27@
+ letsdoitdallas.com
+DTSTAMP:20261127T210000Z
+DTSTART:20261127T210000Z
+DTEND:20261128T000000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C3-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
 END:VEVENT
 BEGIN:VEVENT
 UID:big-12-football-championship|at-t-stadium-arlington|7-00-pm-2026-12-04@

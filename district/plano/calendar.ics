@@ -290,6 +290,32 @@ DESCRIPTION:Join the Coppell Arts Center for our Thanksgiving Art Camp for
   — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:elle-orlando|addison-improv-addison|7-30-pm-2026-11-27@letsdoitdallas.c
+ om
+DTSTAMP:20261128T013000Z
+DTSTART:20261128T013000Z
+DTEND:20261128T043000Z
+SUMMARY:Elle Orlando
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=elle-orlando%7Caddison-im
+ prov-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:elle-orlando|addison-improv-addison|9-45-pm-2026-11-27@letsdoitdallas.c
+ om
+DTSTAMP:20261128T034500Z
+DTSTART:20261128T034500Z
+DTEND:20261128T064500Z
+SUMMARY:Elle Orlando
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=elle-orlando%7Caddison-im
+ prov-addison%7C9-45-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-nutcracker|eisemann-center-richardson|2-00-pm-2026-11-28@letsdoitda
  llas.com
 DTSTAMP:20261128T200000Z
@@ -303,6 +329,32 @@ DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:elle-orlando|addison-improv-addison|7-00-pm-2026-11-28@letsdoitdallas.c
+ om
+DTSTAMP:20261129T010000Z
+DTSTART:20261129T010000Z
+DTEND:20261129T040000Z
+SUMMARY:Elle Orlando
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=elle-orlando%7Caddison-im
+ prov-addison%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:elle-orlando|addison-improv-addison|9-30-pm-2026-11-28@letsdoitdallas.c
+ om
+DTSTAMP:20261129T033000Z
+DTSTART:20261129T033000Z
+DTEND:20261129T063000Z
+SUMMARY:Elle Orlando
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=elle-orlando%7Caddison-im
+ prov-addison%7C9-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-nutcracker|eisemann-center-richardson|2-00-pm-2026-11-29@letsdoitda
  llas.com
 DTSTAMP:20261129T200000Z
@@ -314,6 +366,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-29&e=the-nutcracker%7Ceisemann
  -center-richardson%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:elle-orlando|addison-improv-addison|7-30-pm-2026-11-29@letsdoitdallas.c
+ om
+DTSTAMP:20261130T013000Z
+DTSTART:20261130T013000Z
+DTEND:20261130T043000Z
+SUMMARY:Elle Orlando
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=elle-orlando%7Caddison-im
+ prov-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:vinnie-corrales|addison-improv-addison|7-00-pm-2026-12-02@letsdoitdalla

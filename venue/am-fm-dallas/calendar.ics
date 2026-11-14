@@ -73,6 +73,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/am-fm-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:pretty-sick|am-fm-diner-lounge-dallas-dallas|7-00-pm-2026-11-27@letsdoi
+ tdallas.com
+DTSTAMP:20261128T010000Z
+DTSTART:20261128T010000Z
+DTEND:20261128T040000Z
+SUMMARY:Pretty Sick
+LOCATION:AM/FM Diner & Lounge - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=pretty-sick%7Cam-fm-diner
+ -lounge-dallas-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/am-fm-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:oakwood|am-fm-dallas-dallas|7-00-pm-2026-12-11@letsdoitdallas.com
 DTSTAMP:20261212T010000Z
 DTSTART:20261212T010000Z

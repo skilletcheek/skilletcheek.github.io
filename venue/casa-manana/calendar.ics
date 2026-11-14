@@ -9,6 +9,19 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|3-00-pm-2026-11-27@
+ letsdoitdallas.com
+DTSTAMP:20261127T210000Z
+DTSTART:20261127T210000Z
+DTEND:20261128T000000Z
+SUMMARY:A Christmas Carol - Fort Worth
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=a-christmas-carol-fort-wo
+ rth%7Ccasa-manana-fort-worth%7C3-00-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-music-of-johnny-mathis|casa-manana-fort-worth|7-30-pm-2026-12-01@le
  tsdoitdallas.com
 DTSTAMP:20261202T013000Z
