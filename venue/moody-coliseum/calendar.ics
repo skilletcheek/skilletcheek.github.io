@@ -9,19 +9,19 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:smu-mustangs-womens-volleyball-vs-notre-dame-fighting-irish-womens-voll
- eyball|moody-coliseum-dallas|1-00-pm-2026-11-15@letsdoitdallas.com
+UID:smu-volleyball-vs-notre-dame|moody-coliseum-dallas|1-00-pm-3-00-pm-2026
+ -11-15@letsdoitdallas.com
 DTSTAMP:20261115T190000Z
 DTSTART:20261115T190000Z
 DTEND:20261115T220000Z
-SUMMARY:SMU Mustangs Womens Volleyball vs. Notre Dame Fighting Irish Womens
-  Volleyball
+SUMMARY:SMU Volleyball vs. Notre Dame
 LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=smu-mustangs-womens-volle
- yball-vs-notre-dame-fighting-irish-womens-volleyball%7Cmoody-coliseum-dall
- as%7C1-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/moody-coliseum/
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=smu-volleyball-vs-notre-d
+ ame%7Cmoody-coliseum-dallas%7C1-00-pm-3-00-pm
+DESCRIPTION:Cheer on SMU Volleyball as the Mustangs face Notre Dame in an e
+ xciting ACC matchup at Moody Coliseum. Show your support for the home team
+  and catch an afternoon of competitive collegiate volleyball. — More: ht
+ tps://letsdoitdallas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:nicholls-colonels-at-smu-mustangs-womens-basketball|moody-coliseum-dall

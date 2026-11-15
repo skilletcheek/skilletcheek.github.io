@@ -38,15 +38,44 @@ DESCRIPTION:An evening of art\, music\, pizza\, wine and lattes at Moon Wol
  s.com/city/richardson/
 END:VEVENT
 BEGIN:VEVENT
-UID:chamberlain-ballet-the-nutcracker-richardson|eisemann-center-richardson
- |7-00-pm-2026-11-27@letsdoitdallas.com
+UID:centre-for-dance-the-nutcracker-richardson|bank-of-america-theatre-at-e
+ isemann-center-richardson|1-00-pm-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261122T190000Z
+DTSTART:20261122T190000Z
+DTEND:20261122T220000Z
+SUMMARY:Centre for Dance - The Nutcracker - Richardson
+LOCATION:Bank of America Theatre at Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=centre-for-dance-the-nutc
+ racker-richardson%7Cbank-of-america-theatre-at-eisemann-center-richardson%
+ 7C1-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ city/richardson/
+END:VEVENT
+BEGIN:VEVENT
+UID:centre-for-dance-the-nutcracker-richardson|bank-of-america-theatre-at-e
+ isemann-center-richardson|6-00-pm-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261123T000000Z
+DTSTART:20261123T000000Z
+DTEND:20261123T030000Z
+SUMMARY:Centre for Dance - The Nutcracker - Richardson
+LOCATION:Bank of America Theatre at Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=centre-for-dance-the-nutc
+ racker-richardson%7Cbank-of-america-theatre-at-eisemann-center-richardson%
+ 7C6-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ city/richardson/
+END:VEVENT
+BEGIN:VEVENT
+UID:chamberlain-ballet-the-nutcracker-richardson|hill-performance-hall-at-e
+ isemann-center-richardson|7-00-pm-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261128T010000Z
 DTSTART:20261128T010000Z
 DTEND:20261128T040000Z
 SUMMARY:Chamberlain Ballet - The Nutcracker - Richardson
-LOCATION:Eisemann Center · Richardson
+LOCATION:Hill Performance Hall at Eisemann Center · Richardson
 URL:https://letsdoitdallas.com/?date=2026-11-27&e=chamberlain-ballet-the-nu
- tcracker-richardson%7Ceisemann-center-richardson%7C7-00-pm
+ tcracker-richardson%7Chill-performance-hall-at-eisemann-center-richardson%
+ 7C7-00-pm
 DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
  city/richardson/
 END:VEVENT

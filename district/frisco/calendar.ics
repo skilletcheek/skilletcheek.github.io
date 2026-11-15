@@ -49,15 +49,36 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
-UID:bowling|frisco|01-00-pm-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261117T190000Z
-DTSTART:20261117T190000Z
-DTEND:20261117T220000Z
-SUMMARY:Bowling
-LOCATION:Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=bowling%7Cfrisco%7C01-00-
- pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+UID:tamale-classes-at-cantina-laredo|cantina-laredo-frisco|6-00-pm-9-00-pm-
+ 2026-11-15@letsdoitdallas.com
+DTSTAMP:20261116T000000Z
+DTSTART:20261116T000000Z
+DTEND:20261116T030000Z
+SUMMARY:Tamale Classes at Cantina Laredo
+LOCATION:Cantina Laredo · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-15&e=tamale-classes-at-cantina
+ -laredo%7Ccantina-laredo-frisco%7C6-00-pm-9-00-pm
+DESCRIPTION:Long a tradition in Mexican communities\, tamales are a cherish
+ ed part of celebrations and gatherings. This December\, Cantina Laredo is 
+ bringing the time-honored tradition to life with a series of hands-on tama
+ ladas designed to bring guests together for an evening of food\, learnin 
+ — More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:thanksgiving-tamales-at-cantina-laredo|cantina-laredo-frisco|11-00-am-9
+ -00-pm-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261117T170000Z
+DTSTART:20261117T170000Z
+DTEND:20261117T200000Z
+SUMMARY:Thanksgiving Tamales at Cantina Laredo
+LOCATION:Cantina Laredo · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=thanksgiving-tamales-at-c
+ antina-laredo%7Ccantina-laredo-frisco%7C11-00-am-9-00-pm
+DESCRIPTION:Long a tradition in Mexican communities\, tamales are often a s
+ taple of special occasions and holiday gatherings. In Texas\, they have be
+ come a beloved addition to Thanksgiving celebrations\, bringing a taste of
+  tradition to the holiday table. This Thanksgiving\, Cantina Laredo in Fr 
+ — More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:legislative-committee-meeting|6101-frisco-square-blvd-frisco|03-00-pm-2
@@ -233,17 +254,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-23&e=hoopfest-basketball-women
  -s-challenge-session-2%7Ccomerica-center-frisco%7C3-00-pm
 DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
  tsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:bowling|frisco|01-00-pm-2026-11-24@letsdoitdallas.com
-DTSTAMP:20261124T190000Z
-DTSTART:20261124T190000Z
-DTEND:20261124T220000Z
-SUMMARY:Bowling
-LOCATION:Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-24&e=bowling%7Cfrisco%7C01-00-
- pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:hoopfest-basketball-women-s-challenge-session-3|fifth-third-arena-frisc

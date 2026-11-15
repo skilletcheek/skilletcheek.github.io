@@ -51,22 +51,6 @@ DESCRIPTION:Bhanzu Learning Center hosts a math treasure hunt for kids\, wi
  ; limited seats. — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
-UID:november-paint-sip-lakeside-sunrise|505-travis-street-coppell|06-00-pm-
- 2026-11-18@letsdoitdallas.com
-DTSTAMP:20261119T000000Z
-DTSTART:20261119T000000Z
-DTEND:20261119T030000Z
-SUMMARY:November Paint & Sip: Lakeside Sunrise
-LOCATION:505 Travis Street · Coppell
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=november-paint-sip-lakesi
- de-sunrise%7C505-travis-street-coppell%7C06-00-pm
-DESCRIPTION:Even if you’ve never held a paint brush or can’t draw a str
- aight line you will be amazed at the beautiful painting you can create in 
- one inspiring lesson. November 18\, 2026 06:00 PM - 08:00 PM 505 Travis St
- reetCoppell\, TX 75019 https://www.coppelltx.gov/Calendar.aspx?EID=5098/63
- 9 — More: https://letsdoitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:doughboys-podcast|addison-improv-addison|7-30-pm-2026-11-18@letsdoitdal
  las.com
 DTSTAMP:20261119T013000Z
@@ -174,6 +158,34 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:centre-for-dance-the-nutcracker-richardson|bank-of-america-theatre-at-e
+ isemann-center-richardson|1-00-pm-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261122T190000Z
+DTSTART:20261122T190000Z
+DTEND:20261122T220000Z
+SUMMARY:Centre for Dance - The Nutcracker - Richardson
+LOCATION:Bank of America Theatre at Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=centre-for-dance-the-nutc
+ racker-richardson%7Cbank-of-america-theatre-at-eisemann-center-richardson%
+ 7C1-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:centre-for-dance-the-nutcracker-richardson|bank-of-america-theatre-at-e
+ isemann-center-richardson|6-00-pm-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261123T000000Z
+DTSTART:20261123T000000Z
+DTEND:20261123T030000Z
+SUMMARY:Centre for Dance - The Nutcracker - Richardson
+LOCATION:Bank of America Theatre at Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=centre-for-dance-the-nutc
+ racker-richardson%7Cbank-of-america-theatre-at-eisemann-center-richardson%
+ 7C6-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:deray-davis|addison-improv-addison|7-30-pm-2026-11-22@letsdoitdallas.co
  m
 DTSTAMP:20261123T013000Z
@@ -187,60 +199,16 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
-UID:thanksgiving-art-camp|505-travis-street-coppell|09-00-am-2026-11-23@let
- sdoitdallas.com
-DTSTAMP:20261123T150000Z
-DTSTART:20261123T150000Z
-DTEND:20261123T180000Z
-SUMMARY:Thanksgiving Art Camp
-LOCATION:505 Travis Street · Coppell
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=thanksgiving-art-camp%7C5
- 05-travis-street-coppell%7C09-00-am
-DESCRIPTION:Join the Coppell Arts Center for our Thanksgiving Art Camp for 
- kids! November 23\, 2026 09:00 AM - 11:45 AM 505 Travis StreetCoppell\, TX
-  75019 https://www.coppelltx.gov/Calendar.aspx?EID=5101/639286934050000000
-  — More: https://letsdoitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:thanksgiving-art-camp|505-travis-street-coppell|09-00-am-2026-11-24@let
- sdoitdallas.com
-DTSTAMP:20261124T150000Z
-DTSTART:20261124T150000Z
-DTEND:20261124T180000Z
-SUMMARY:Thanksgiving Art Camp
-LOCATION:505 Travis Street · Coppell
-URL:https://letsdoitdallas.com/?date=2026-11-24&e=thanksgiving-art-camp%7C5
- 05-travis-street-coppell%7C09-00-am
-DESCRIPTION:Join the Coppell Arts Center for our Thanksgiving Art Camp for 
- kids! November 24\, 2026 09:00 AM - 11:45 AM 505 Travis StreetCoppell\, TX
-  75019 https://www.coppelltx.gov/Calendar.aspx?EID=5102/639286934050000000
-  — More: https://letsdoitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:thanksgiving-art-camp|505-travis-street-coppell|09-00-am-2026-11-25@let
- sdoitdallas.com
-DTSTAMP:20261125T150000Z
-DTSTART:20261125T150000Z
-DTEND:20261125T180000Z
-SUMMARY:Thanksgiving Art Camp
-LOCATION:505 Travis Street · Coppell
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=thanksgiving-art-camp%7C5
- 05-travis-street-coppell%7C09-00-am
-DESCRIPTION:Join the Coppell Arts Center for our Thanksgiving Art Camp for 
- kids! November 25\, 2026 09:00 AM - 11:45 AM 505 Travis StreetCoppell\, TX
-  75019 https://www.coppelltx.gov/Calendar.aspx?EID=5103/639286934050000000
-  — More: https://letsdoitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:chamberlain-ballet-the-nutcracker-richardson|eisemann-center-richardson
- |7-00-pm-2026-11-27@letsdoitdallas.com
+UID:chamberlain-ballet-the-nutcracker-richardson|hill-performance-hall-at-e
+ isemann-center-richardson|7-00-pm-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261128T010000Z
 DTSTART:20261128T010000Z
 DTEND:20261128T040000Z
 SUMMARY:Chamberlain Ballet - The Nutcracker - Richardson
-LOCATION:Eisemann Center · Richardson
+LOCATION:Hill Performance Hall at Eisemann Center · Richardson
 URL:https://letsdoitdallas.com/?date=2026-11-27&e=chamberlain-ballet-the-nu
- tcracker-richardson%7Ceisemann-center-richardson%7C7-00-pm
+ tcracker-richardson%7Chill-performance-hall-at-eisemann-center-richardson%
+ 7C7-00-pm
 DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
  district/plano/
 END:VEVENT
