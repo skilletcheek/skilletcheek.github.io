@@ -835,6 +835,26 @@ missing instead of raising a bare `FileNotFoundError`. `verify_reel()` is `verif
 asserts the Reels spec locally, for the same reason: a bad container comes
 back from Meta as a generic "media upload failed" naming no field.
 
+**The apt install is unpinned, so the ffmpeg version moves under this
+workflow.** On 2026-11-14 the runner installed ffmpeg 8.0.1 and all five
+runs that day failed in `build` with `pix_fmt yuvj420p; must be yuv420p` —
+nothing was posted. The frames are JPEGs, which are *full-range* YUV.
+ffmpeg 6 squeezed them to limited range as a side effect of
+`format=yuv420p`; ffmpeg 7+ carries colour range through the filter graph as
+its own property, so the same graph encoded full-range H.264, which ffprobe
+reports as `yuvj420p` and `verify_reel()` correctly refuses.
+`reel_filtergraph()` now asks for the conversion by name
+(`scale=out_range=tv` before `format=yuv420p`) and `render_reel()` tags the
+stream `-color_range tv`. **Both are load-bearing; don't drop the `scale` as
+redundant** — it is redundant only on ffmpeg 6. Output on 6.1.1 is
+unchanged, and a `dry_run` dispatch confirmed the build on the runner's
+ffmpeg 8. When a reel fails `verify_reel()` with no change to this repo,
+read the `installed: ffmpeg version …` line in the "Install ffmpeg" step
+first. A `workflow_dispatch` with `dry_run: true` on a branch is the way to
+test an encode change against the runner's ffmpeg: it builds and verifies
+the reel, posts nothing and commits nothing — but `build` skips itself
+between 00:00 UTC and Dallas's midnight, so dispatch outside that band.
+
 The frames are **the carousel's own renderers** at a different size —
 `render_cover_slide()` / `render_pick_slide()` take `size`, `scale`,
 `safe_bottom`, `swipe` and `max_name_lines`, and that is the entire
