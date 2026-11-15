@@ -234,7 +234,10 @@ const ACTIVITIES = [
   // Night clubs. Hours are each club's own posted hours, read from its site
   // on 2026-11-15, shown Thu-Sat only (a club that opens at noon on Sunday is
   // not a club night). One entry per distinct set of hours, because `time` is
-  // one string. cost is null because none of the four publishes a cover.
+  // one string. cost is null where the club publishes no cover; Round-Up
+  // (free) and Cowboys ($9, 21+) state theirs. `area` is plain "Dallas" where
+  // the club's site names no neighbourhood -- don't guess one. No Fort Worth
+  // club is here because none of the sites tried gave standing hours.
   // Recheck the hours by hand when a club changes them -- nothing refreshes
   // these.
   { name: "Green Light Social", cat: "nightlife", area: "Dallas", venue: "Green Light Social",
@@ -269,6 +272,34 @@ const ACTIVITIES = [
     recur: { weekly: [6] }, time: "3:00 PM – 2:00 AM", cost: null,
     desc: "Texas' oldest lesbian bar, on Cedar Springs since 1989: two floors of DJs, drag downstairs and a patio. 21+.",
     url: "https://sueellensdallas.com/" },
+  { name: "Round-Up Saloon", cat: "nightlife", area: "Oak Lawn, Dallas", venue: "Round-Up Saloon",
+    recur: { weekly: [4,5] }, time: "3:00 PM – 2:00 AM", cost: 0,
+    desc: "Gay saloon and dance hall at 3912 Cedar Springs Rd. 21+, free cover and free parking.",
+    url: "https://roundupsaloon.com/" },
+  { name: "Round-Up Saloon", cat: "nightlife", area: "Oak Lawn, Dallas", venue: "Round-Up Saloon",
+    recur: { weekly: [6] }, time: "12:00 PM – 2:00 AM", cost: 0,
+    desc: "Gay saloon and dance hall at 3912 Cedar Springs Rd. 21+, free cover and free parking.",
+    url: "https://roundupsaloon.com/" },
+  { name: "Candleroom", cat: "nightlife", area: "Dallas", venue: "Candleroom",
+    recur: { weekly: [5,6] }, time: "10:00 PM – 2:00 AM", cost: null,
+    desc: "Nightclub at 5039 Willis Ave with ticketed DJ nights and VIP tables.",
+    url: "https://www.candleroomdallas.com/" },
+  { name: "Stars and Spirits", cat: "nightlife", area: "Dallas", venue: "Stars and Spirits",
+    recur: { weekly: [5,6] }, time: "10:00 PM – 2:00 AM", cost: null,
+    desc: "Nightclub at 2505 Pacific Ave with VIP tables, open Friday and Saturday.",
+    url: "https://www.starsandspirits.com/" },
+  { name: "Club Vivo", cat: "nightlife", area: "Dallas", venue: "Club Vivo",
+    recur: { weekly: [5,6] }, time: "10:00 PM – 2:00 AM", cost: null,
+    desc: "Nightclub at 1930 Pacific Ave, open Friday and Saturday.",
+    url: "https://vivodallas.com/" },
+  { name: "Cowboys Dancehall", cat: "nightlife", area: "Dallas", venue: "Cowboys Dancehall",
+    recur: { weekly: [4] }, time: "7:00 PM – 3:00 AM", cost: 9,
+    desc: "Country dancehall at 10310 Technology Blvd. Ladies' Night: free entry for ladies 21+. Free dance lessons 7–8 PM, then live music. 18+.",
+    url: "https://cowboysdancehall.com/dallas/" },
+  { name: "Cowboys Dancehall", cat: "nightlife", area: "Dallas", venue: "Cowboys Dancehall",
+    recur: { weekly: [5,6] }, time: "7:00 PM – 3:00 AM", cost: 9,
+    desc: "Country dancehall at 10310 Technology Blvd. Free entry until 8 PM and free dance lessons 7–8 PM, then live music. 18+; $30 cover for ages 18–20.",
+    url: "https://cowboysdancehall.com/dallas/" },
 
   // Food & drink
   { name: "Truck Yard Beer Garden", cat: "food", area: "Lower Greenville, Dallas", venue: "Truck Yard",
