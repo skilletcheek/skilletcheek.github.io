@@ -474,8 +474,15 @@ def reel_filtergraph(n: int) -> tuple[list[str], str, float]:
     """
     if n < 1:
         raise ValueError("a reel needs at least one frame")
-    steps = [f"[{i}:v]format=yuv420p,fps={REEL_FPS},setsar=1[v{i}]"
-             for i in range(n)]
+    # out_range=tv is load-bearing. The frames are JPEGs, which are FULL-range
+    # YUV. ffmpeg 6 squeezed them to limited range as a side effect of
+    # format=yuv420p; ffmpeg 7+ carries the range through the graph as its own
+    # property, so the same graph produced full-range H.264, which ffprobe
+    # reports as yuvj420p -- and verify_reel() refused every reel on
+    # 2026-11-14 when the runner's apt started installing ffmpeg 8. Asking
+    # for the conversion by name gives the same output on both.
+    steps = [f"[{i}:v]scale=out_range=tv,format=yuv420p,fps={REEL_FPS},"
+             f"setsar=1[v{i}]" for i in range(n)]
     last, offset = "v0", 0.0
     for i in range(1, n):
         offset += REEL_SECONDS - REEL_XFADE
@@ -513,7 +520,8 @@ def render_reel(frames: list[Path], out_path: Path) -> Path:
     cmd += ["-filter_complex", ";".join(steps),
             "-map", f"[{last}]", "-map", f"{len(frames)}:a",
             "-c:v", "libx264", "-profile:v", "high", "-preset", "veryfast",
-            "-crf", "23", "-pix_fmt", "yuv420p", "-r", str(REEL_FPS),
+            "-crf", "23", "-pix_fmt", "yuv420p", "-color_range", "tv",
+            "-r", str(REEL_FPS),
             "-g", str(REEL_FPS * 2), "-c:a", "aac", "-b:a", "96k",
             "-shortest", "-movflags", "+faststart", str(out_path)]
 
