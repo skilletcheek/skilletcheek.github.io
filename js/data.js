@@ -231,6 +231,45 @@ const ACTIVITIES = [
     desc: "Tuesday pub trivia with local brews in the Design District taproom.",
     url: "https://communitybeer.com" },
 
+  // Night clubs. Hours are each club's own posted hours, read from its site
+  // on 2026-11-15, shown Thu-Sat only (a club that opens at noon on Sunday is
+  // not a club night). One entry per distinct set of hours, because `time` is
+  // one string. cost is null because none of the four publishes a cover.
+  // Recheck the hours by hand when a club changes them -- nothing refreshes
+  // these.
+  { name: "Green Light Social", cat: "nightlife", area: "Dallas", venue: "Green Light Social",
+    recur: { weekly: [4,5] }, time: "6:00 PM – 2:00 AM", cost: null,
+    desc: "Bar and dance club at 2625 Floyd St. Next Gen Thursdays; local DJs going late on Fridays.",
+    url: "https://greenlightsocial.com/dallas/" },
+  { name: "Green Light Social", cat: "nightlife", area: "Dallas", venue: "Green Light Social",
+    recur: { weekly: [6] }, time: "12:00 PM – 2:00 AM", cost: null,
+    desc: "Bar and dance club at 2625 Floyd St. Open-format DJs on Saturday nights.",
+    url: "https://greenlightsocial.com/dallas/" },
+  { name: "Bottled Blonde", cat: "nightlife", area: "Deep Ellum, Dallas", venue: "Bottled Blonde",
+    recur: { weekly: [4] }, time: "6:00 PM – 12:00 AM", cost: null,
+    desc: "Deep Ellum bar and nightclub at 505 N Good Latimer Expy.",
+    url: "https://www.bottledblondepizzeria.com/dallas/" },
+  { name: "Bottled Blonde", cat: "nightlife", area: "Deep Ellum, Dallas", venue: "Bottled Blonde",
+    recur: { weekly: [5] }, time: "8:00 PM – 2:00 AM", cost: null,
+    desc: "Deep Ellum bar and nightclub at 505 N Good Latimer Expy.",
+    url: "https://www.bottledblondepizzeria.com/dallas/" },
+  { name: "Bottled Blonde", cat: "nightlife", area: "Deep Ellum, Dallas", venue: "Bottled Blonde",
+    recur: { weekly: [6] }, time: "6:00 PM – 2:00 AM", cost: null,
+    desc: "Deep Ellum bar and nightclub at 505 N Good Latimer Expy.",
+    url: "https://www.bottledblondepizzeria.com/dallas/" },
+  { name: "Station 4", cat: "nightlife", area: "Oak Lawn, Dallas", venue: "Station 4",
+    recur: { weekly: [4,5,6] }, time: "9:00 PM – 4:00 AM", cost: null,
+    desc: "Dance club at 3911 Cedar Springs Rd, with drag shows in the Rose Room inside. 18+ with physical ID; after-hours from 2 AM.",
+    url: "https://station4dallas.com/" },
+  { name: "Sue Ellen's", cat: "nightlife", area: "Oak Lawn, Dallas", venue: "Sue Ellen's",
+    recur: { weekly: [4,5] }, time: "5:00 PM – 2:00 AM", cost: null,
+    desc: "Texas' oldest lesbian bar, on Cedar Springs since 1989: two floors of DJs, drag downstairs and a patio. 21+.",
+    url: "https://sueellensdallas.com/" },
+  { name: "Sue Ellen's", cat: "nightlife", area: "Oak Lawn, Dallas", venue: "Sue Ellen's",
+    recur: { weekly: [6] }, time: "3:00 PM – 2:00 AM", cost: null,
+    desc: "Texas' oldest lesbian bar, on Cedar Springs since 1989: two floors of DJs, drag downstairs and a patio. 21+.",
+    url: "https://sueellensdallas.com/" },
+
   // Food & drink
   { name: "Truck Yard Beer Garden", cat: "food", area: "Lower Greenville, Dallas", venue: "Truck Yard",
     recur: { daily: true }, time: "4:00 PM – 12:00 AM", cost: 0,
