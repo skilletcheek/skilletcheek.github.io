@@ -10,64 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:creativity-ai-automation-an-n8n-workshop-for-artists-and-makers|parr-li
- brary-6200-windhaven-pkwy-plano|2-00-pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T200000Z
-DTSTART:20261114T200000Z
-DTEND:20261114T230000Z
-SUMMARY:Creativity + AI + Automation: An n8n Workshop for Artists and Maker
- s
-LOCATION:Parr Library · Plano
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=creativity-ai-automation-
- an-n8n-workshop-for-artists-and-makers%7Cparr-library-6200-windhaven-pkwy-
- plano%7C2-00-pm
-DESCRIPTION:Free\, beginner-friendly n8n workshop for artists and makers at
-  Parr Library\, Plano. Hosted by Soft Pyramid with Created to Create. — 
- More: https://letsdoitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:steve-byrne|addison-improv-addison|6-30-pm-2026-11-14@letsdoitdallas.co
- m
-DTSTAMP:20261115T003000Z
-DTSTART:20261115T003000Z
-DTEND:20261115T033000Z
-SUMMARY:Steve Byrne
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=steve-byrne%7Caddison-imp
- rov-addison%7C6-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:voices-of-rock|505-travis-street-coppell|07-30-pm-2026-11-14@letsdoitda
- llas.com
-DTSTAMP:20261115T013000Z
-DTSTART:20261115T013000Z
-DTEND:20261115T043000Z
-SUMMARY:Voices of Rock
-LOCATION:505 Travis Street · Coppell
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=voices-of-rock%7C505-trav
- is-street-coppell%7C07-30-pm
-DESCRIPTION:The Voices of Rock is a sensational musical group that pays hom
- age to some of the greatest rock acts of all time. With their incredible v
- ocal talents and dynamic performances\, they bring to life the iconic song
- s of bands like Styx\, Boston\, Kansas\, Starship\, Toto\, Led Zeppelin\, 
- Va — More: https://letsdoitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:steve-byrne|addison-improv-addison|9-00-pm-2026-11-14@letsdoitdallas.co
- m
-DTSTAMP:20261115T030000Z
-DTSTART:20261115T030000Z
-DTEND:20261115T060000Z
-SUMMARY:Steve Byrne
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=steve-byrne%7Caddison-imp
- rov-addison%7C9-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:asim-azhar|eisemann-center-richardson|7-00-pm-2026-11-15@letsdoitdallas
  .com
 DTSTAMP:20261116T010000Z
@@ -288,6 +230,19 @@ DESCRIPTION:Join the Coppell Arts Center for our Thanksgiving Art Camp for
  kids! November 25\, 2026 09:00 AM - 11:45 AM 505 Travis StreetCoppell\, TX
   75019 https://www.coppelltx.gov/Calendar.aspx?EID=5103/639286934050000000
   — More: https://letsdoitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:chamberlain-ballet-the-nutcracker-richardson|eisemann-center-richardson
+ |7-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T010000Z
+DTSTART:20261128T010000Z
+DTEND:20261128T040000Z
+SUMMARY:Chamberlain Ballet - The Nutcracker - Richardson
+LOCATION:Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=chamberlain-ballet-the-nu
+ tcracker-richardson%7Ceisemann-center-richardson%7C7-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:elle-orlando|addison-improv-addison|7-30-pm-2026-11-27@letsdoitdallas.c
@@ -546,6 +501,19 @@ SUMMARY:Chris O'Connor
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-12&e=chris-o-connor%7Caddison-
  improv-addison%7C9-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-o-connor|addison-improv-addison|7-30-pm-2026-12-13@letsdoitdallas
+ .com
+DTSTAMP:20261214T013000Z
+DTSTART:20261214T013000Z
+DTEND:20261214T043000Z
+SUMMARY:Chris O'Connor
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=chris-o-connor%7Caddison-
+ improv-addison%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT

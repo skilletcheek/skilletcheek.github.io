@@ -9,54 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:robot-puppets-ages-6-12-marionetas-robot-6-12-a-os-de-la-biblioteca-sou
- th-garland|south-garland-library-garland|02-30-pm-2026-11-14@letsdoitdalla
- s.com
-DTSTAMP:20261114T203000Z
-DTSTART:20261114T203000Z
-DTEND:20261114T233000Z
-SUMMARY:Robot Puppets (Ages 6-12) / Marionetas Robot (6-12 Años) de la Bib
- lioteca South Garland
-LOCATION:South Garland Library
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=robot-puppets-ages-6-12-m
- arionetas-robot-6-12-a-os-de-la-biblioteca-south-garland%7Csouth-garland-l
- ibrary-garland%7C02-30-pm
-DESCRIPTION:2:30 p.m.\; Make a “dancing” robot puppet using simple mate
- rials like cardboard and construction paper and then use your creativity t
- o make it your own. November 14\, 2026 02:30 PM - 03:30 PM 4845 Broadway B
- lvd.Garland\, TX 75043 https://www.garlandtx.gov/Calendar.aspx?EID=13317/6
- 39 — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-art-of-kinusaiga-ages-18-|west-garland-library-garland|02-30-pm-202
- 6-11-14@letsdoitdallas.com
-DTSTAMP:20261114T203000Z
-DTSTART:20261114T203000Z
-DTEND:20261114T233000Z
-SUMMARY:The Art of Kinusaiga (Ages 18+)
-LOCATION:West Garland Library
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=the-art-of-kinusaiga-ages
- -18-%7Cwest-garland-library-garland%7C02-30-pm
-DESCRIPTION:2:30 p.m.\; Discover a beautiful blend of creativity\, culture 
- and sustainability at Introduction to Kinusaiga (fabric mosaic art)! Novem
- ber 14\, 2026 02:30 PM - 04:00 PM 3921 W. Walnut St.Garland\, TX 75042 htt
- ps://www.garlandtx.gov/Calendar.aspx?EID=13339/639236122550000000 — More
- : https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:jubin-nautiyal|curtis-culwell-center-garland|8-00-pm-2026-11-14@letsdoi
- tdallas.com
-DTSTAMP:20261115T020000Z
-DTSTART:20261115T020000Z
-DTEND:20261115T050000Z
-SUMMARY:Jubin Nautiyal
-LOCATION:Curtis Culwell Center · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=jubin-nautiyal%7Ccurtis-c
- ulwell-center-garland%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:a-red-door-nutcracker-presented-by-red-door-dance-academy|300-n-fifth-s
  treet-garland|01-30-pm-2026-11-15@letsdoitdallas.com
 DTSTAMP:20261115T193000Z
@@ -807,6 +759,18 @@ SUMMARY:Daddy's Home presented by Plum Tuckered Out Production
 LOCATION:300 N Fifth Street · Garland
 URL:https://letsdoitdallas.com/?date=2026-11-28&e=daddy-s-home-presented-by
  -plum-tuckered-out-production%7C300-n-fifth-street-garland%7C06-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:krishna-leela-by-kalaimamani-madurai-muralidharan|300-n-fifth-street-ga
+ rland|05-00-pm-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261129T230000Z
+DTSTART:20261129T230000Z
+DTEND:20261130T020000Z
+SUMMARY:Krishna Leela by Kalaimamani Madurai Muralidharan
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=krishna-leela-by-kalaimam
+ ani-madurai-muralidharan%7C300-n-fifth-street-garland%7C05-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 END:VCALENDAR

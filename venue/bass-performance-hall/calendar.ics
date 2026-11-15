@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fort-worth-symphony-orchestra-oz-with-orchestra|bass-performance-hall-f
- ort-worth|7-30-pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T013000Z
-DTSTART:20261115T013000Z
-DTEND:20261115T043000Z
-SUMMARY:Fort Worth Symphony Orchestra - Oz with Orchestra
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=fort-worth-symphony-orche
- stra-oz-with-orchestra%7Cbass-performance-hall-fort-worth%7C7-30-pm
-DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
- com/venue/bass-performance-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:lyle-lovett-and-his-small-large-band|bass-performance-hall-fort-worth|7
  -30-pm-2026-11-17@letsdoitdallas.com
 DTSTAMP:20261118T013000Z
@@ -153,5 +140,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-13&e=the-nutcracker%7Cbass-per
  formance-hall-fort-worth%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-ballet-theater-the-nutcracker|bass-performance-hall-fort-worth|7-
+ 00-pm-2026-12-13@letsdoitdallas.com
+DTSTAMP:20261214T010000Z
+DTSTART:20261214T010000Z
+DTEND:20261214T040000Z
+SUMMARY:Texas Ballet Theater: The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=texas-ballet-theater-the-
+ nutcracker%7Cbass-performance-hall-fort-worth%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/bass-performance-hall/
 END:VEVENT
 END:VCALENDAR

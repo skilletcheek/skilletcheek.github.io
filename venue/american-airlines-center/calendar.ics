@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-stars-vs-buffalo-sabres|american-airlines-center-dallas|7-00-pm-
- 2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T010000Z
-DTSTART:20261115T010000Z
-DTEND:20261115T040000Z
-SUMMARY:Dallas Stars vs. Buffalo Sabres
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=dallas-stars-vs-buffalo-s
- abres%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-stars-vs-florida-panthers|american-airlines-center-dallas|7-00-p
  m-2026-11-15@letsdoitdallas.com
 DTSTAMP:20261116T010000Z
@@ -231,6 +218,33 @@ URL:https://letsdoitdallas.com/?date=2026-12-13&e=yuengling-flight-club-pre
  -event-dinner-tso-seating-1-30pm-2-30pm%7Camerican-airlines-center-dallas%
  7C3-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:yuengling-flight-club-pre-event-dinner-tso-seating-6-00pm-7-15pm|americ
+ an-airlines-center-dallas|7-00-pm-2026-12-13@letsdoitdallas.com
+DTSTAMP:20261214T010000Z
+DTSTART:20261214T010000Z
+DTEND:20261214T040000Z
+SUMMARY:Yuengling Flight Club Pre-Event Dinner TSO : Seating 6:00pm-7:15pm
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=yuengling-flight-club-pre
+ -event-dinner-tso-seating-6-00pm-7-15pm%7Camerican-airlines-center-dallas%
+ 7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:trans-siberian-orchestra-the-ghosts-of-christmas-eve|american-airlines-
+ center-dallas|7-30-pm-2026-12-13@letsdoitdallas.com
+DTSTAMP:20261214T013000Z
+DTSTART:20261214T013000Z
+DTEND:20261214T043000Z
+SUMMARY:Trans-Siberian Orchestra - The Ghosts Of Christmas Eve
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=trans-siberian-orchestra-
+ the-ghosts-of-christmas-eve%7Camerican-airlines-center-dallas%7C7-30-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/american-airlines-center/
 END:VEVENT
 END:VCALENDAR

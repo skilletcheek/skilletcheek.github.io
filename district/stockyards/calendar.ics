@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
- 11-14@letsdoitdallas.com
-DTSTAMP:20261114T193000Z
-DTSTART:20261114T193000Z
-DTEND:20261114T223000Z
-SUMMARY:Stockyards Championship Rodeo
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=stockyards-championship-r
- odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
-DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
- district/stockyards/
-END:VEVENT
-BEGIN:VEVENT
-UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
- 11-14@letsdoitdallas.com
-DTSTAMP:20261115T013000Z
-DTSTART:20261115T013000Z
-DTEND:20261115T043000Z
-SUMMARY:Stockyards Championship Rodeo
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=stockyards-championship-r
- odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/stockyards/
-END:VEVENT
-BEGIN:VEVENT
-UID:ryan-bingham-and-the-texas-gentleman-18-and-over-|billy-bob-s-fort-wort
- h|9-00-pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T030000Z
-DTSTART:20261115T030000Z
-DTEND:20261115T060000Z
-SUMMARY:Ryan Bingham and The Texas Gentleman (18 and Over)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=ryan-bingham-and-the-texa
- s-gentleman-18-and-over-%7Cbilly-bob-s-fort-worth%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/stockyards/
-END:VEVENT
-BEGIN:VEVENT
 UID:spirit-of-mexico-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-11-15@l
  etsdoitdallas.com
 DTSTAMP:20261115T193000Z
@@ -645,5 +606,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-13&e=stockyards-championship-r
  odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/stockyards/
+END:VEVENT
+BEGIN:VEVENT
+UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-12-14@
+ letsdoitdallas.com
+DTSTAMP:20261214T183000Z
+DTSTART:20261214T183000Z
+DTEND:20261214T213000Z
+SUMMARY:Legacy of the Longhorn
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-14&e=legacy-of-the-longhorn%7C
+ cowtown-coliseum-fort-worth%7C12-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/stockyards/
 END:VEVENT
 END:VCALENDAR

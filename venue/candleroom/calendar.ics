@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Candleroom — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Candleroom.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:legendary-wednesday|candleroom-dallas|10-00-pm-2026-11-18@letsdoitdalla
+ s.com
+DTSTAMP:20261119T040000Z
+DTSTART:20261119T040000Z
+DTEND:20261119T070000Z
+SUMMARY:Legendary Wednesday
+LOCATION:Candleroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=legendary-wednesday%7Ccan
+ dleroom-dallas%7C10-00-pm
+DESCRIPTION:Legendary Wednesday at Candleroom\, a nightlife lounge and even
+ t venue on Henderson Avenue in Dallas. — More: https://letsdoitdallas.co
+ m/venue/candleroom/
+END:VEVENT
+BEGIN:VEVENT
+UID:exclusive-saturdays-ft-jarm|candleroom-dallas|10-00-pm-2026-11-21@letsd
+ oitdallas.com
+DTSTAMP:20261122T040000Z
+DTSTART:20261122T040000Z
+DTEND:20261122T070000Z
+SUMMARY:Exclusive Saturdays ft JARM
+LOCATION:Candleroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=exclusive-saturdays-ft-ja
+ rm%7Ccandleroom-dallas%7C10-00-pm
+DESCRIPTION:Exclusive Saturdays ft JARM at Candleroom\, a nightlife lounge 
+ and event venue on Henderson Avenue in Dallas. — More: https://letsdoitd
+ allas.com/venue/candleroom/
+END:VEVENT
+BEGIN:VEVENT
+UID:legendary-wednesday|candleroom-dallas|10-00-pm-2026-11-25@letsdoitdalla
+ s.com
+DTSTAMP:20261126T040000Z
+DTSTART:20261126T040000Z
+DTEND:20261126T070000Z
+SUMMARY:Legendary Wednesday
+LOCATION:Candleroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=legendary-wednesday%7Ccan
+ dleroom-dallas%7C10-00-pm
+DESCRIPTION:Legendary Wednesday at Candleroom\, a nightlife lounge and even
+ t venue on Henderson Avenue in Dallas. — More: https://letsdoitdallas.co
+ m/venue/candleroom/
+END:VEVENT
+BEGIN:VEVENT
+UID:habibi-please-|candleroom-dallas|10-00-pm-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261129T040000Z
+DTSTART:20261129T040000Z
+DTEND:20261129T070000Z
+SUMMARY:Habibi Please…
+LOCATION:Candleroom · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=habibi-please-%7Ccandlero
+ om-dallas%7C10-00-pm
+DESCRIPTION:Habibi Please… at Candleroom\, a nightlife lounge and event v
+ enue on Henderson Avenue in Dallas. — More: https://letsdoitdallas.com/v
+ enue/candleroom/
+END:VEVENT
+END:VCALENDAR

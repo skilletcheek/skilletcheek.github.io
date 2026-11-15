@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-fetish-ball|longhorn-ballroom-backyard-amphitheater-dallas|10-00
- -pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T040000Z
-DTSTART:20261115T040000Z
-DTEND:20261115T070000Z
-SUMMARY:Dallas Fetish Ball
-LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=dallas-fetish-ball%7Clong
- horn-ballroom-backyard-amphitheater-dallas%7C10-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/longhorn-ballroom-backyard-amphitheater/
-END:VEVENT
-BEGIN:VEVENT
 UID:tab-benoit-w-jesse-dayton|longhorn-ballroom-backyard-amphitheater-dalla
  s|8-00-pm-2026-11-19@letsdoitdallas.com
 DTSTAMP:20261120T020000Z
@@ -85,6 +72,19 @@ LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-12&e=molly-x-marty-guitars-on-
  fire-the-cosmic-twang-tour%7Clonghorn-ballroom-backyard-amphitheater-dalla
  s%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/longhorn-ballroom-backyard-amphitheater/
+END:VEVENT
+BEGIN:VEVENT
+UID:marlowe-meade-s-christmas-vacation|longhorn-ballroom-backyard-amphithea
+ ter-dallas|7-30-pm-2026-12-13@letsdoitdallas.com
+DTSTAMP:20261214T013000Z
+DTSTART:20261214T013000Z
+DTEND:20261214T043000Z
+SUMMARY:MARLOWE & MEADE???S Christmas Vacation
+LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=marlowe-meade-s-christmas
+ -vacation%7Clonghorn-ballroom-backyard-amphitheater-dallas%7C7-30-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/longhorn-ballroom-backyard-amphitheater/
 END:VEVENT

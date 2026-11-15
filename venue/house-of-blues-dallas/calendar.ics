@@ -3,38 +3,11 @@ VERSION:2.0
 PRODID:-//Lets Do It Dallas//DFW Events//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:House of Blues - Dallas — Lets Do It Dallas
-X-WR-CALDESC:Upcoming shows at House of Blues - Dallas.
+X-WR-CALNAME:House of Blues Dallas — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at House of Blues Dallas.
 X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
-BEGIN:VEVENT
-UID:roz|house-of-blues-dallas-dallas|7-00-pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T010000Z
-DTSTART:20261115T010000Z
-DTEND:20261115T040000Z
-SUMMARY:ROZ
-LOCATION:House of Blues - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=roz%7Chouse-of-blues-dall
- as-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/house-of-blues-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-monster-energy-outbreak-tour-presents-r-z-se-est-haciendo-tarde|hou
- se-of-blues-dallas-dallas|7-00-pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T010000Z
-DTSTART:20261115T010000Z
-DTEND:20261115T040000Z
-SUMMARY:The Monster Energy Outbreak Tour Presents RØZ: SE ESTÁ HACIENDO T
- ARDE
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=the-monster-energy-outbre
- ak-tour-presents-r-z-se-est-haciendo-tarde%7Chouse-of-blues-dallas-dallas%
- 7C7-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/house-of-blues-dallas/
-END:VEVENT
 BEGIN:VEVENT
 UID:dragonforce-inhuman-rampage-20th-anniversary|house-of-blues-dallas-dall
  as|6-30-pm-2026-11-17@letsdoitdallas.com
@@ -138,5 +111,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-08&e=key-glock-big5-live-%7Cho
  use-of-blues-dallas-dallas%7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/house-of-blues-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:whitechapel-20th-anniversary-tour|house-of-blues-dallas-dallas|6-00-pm-
+ 2026-12-14@letsdoitdallas.com
+DTSTAMP:20261215T000000Z
+DTSTART:20261215T000000Z
+DTEND:20261215T030000Z
+SUMMARY:Whitechapel - 20th Anniversary Tour
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-14&e=whitechapel-20th-annivers
+ ary-tour%7Chouse-of-blues-dallas-dallas%7C6-00-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/house-of-blues-dallas/
 END:VEVENT
 END:VCALENDAR

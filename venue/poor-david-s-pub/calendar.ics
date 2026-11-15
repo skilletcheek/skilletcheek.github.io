@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:all-night-with-the-red-elvises|poor-david-s-pub-dallas|doors-see-listin
- g-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:All Night with the Red Elvises
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=all-night-with-the-red-el
- vises%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:songwriter-sunday-with-dezi5-katherine-paterson|poor-david-s-pub-dallas
  |doors-see-listing-2026-11-15@letsdoitdallas.com
 DTSTAMP:20261115T000000Z
@@ -138,6 +125,19 @@ SUMMARY:Charles Milton Gaby and Friends
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-12&e=charles-milton-gaby-and-f
  riends%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
+BEGIN:VEVENT
+UID:honky-tonk-tuesday-with-cory-cross|poor-david-s-pub-dallas|doors-see-li
+ sting-2026-12-15@letsdoitdallas.com
+DTSTAMP:20261215T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Honky Tonk Tuesday with Cory Cross
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-15&e=honky-tonk-tuesday-with-c
+ ory-cross%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT

@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:hot-wheels-monster-trucks-live-glow-n-fire|ariat-arena-fort-worth|11-30
- -am-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T173000Z
-DTSTART:20261114T173000Z
-DTEND:20261114T203000Z
-SUMMARY:Hot Wheels Monster Trucks™ Live Glow-N-Fire
-LOCATION:Ariat Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=hot-wheels-monster-trucks
- -live-glow-n-fire%7Cariat-arena-fort-worth%7C11-30-am
-DESCRIPTION:Motorsports/Racing event via Ticketmaster. — More: https://le
- tsdoitdallas.com/venue/ariat-arena/
-END:VEVENT
-BEGIN:VEVENT
-UID:hot-wheels-monster-trucks-live-glow-n-fire|ariat-arena-fort-worth|6-30-
- pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T003000Z
-DTSTART:20261115T003000Z
-DTEND:20261115T033000Z
-SUMMARY:Hot Wheels Monster Trucks™ Live Glow-N-Fire
-LOCATION:Ariat Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=hot-wheels-monster-trucks
- -live-glow-n-fire%7Cariat-arena-fort-worth%7C6-30-pm
-DESCRIPTION:Motorsports/Racing event via Ticketmaster. — More: https://le
- tsdoitdallas.com/venue/ariat-arena/
-END:VEVENT
-BEGIN:VEVENT
 UID:hot-wheels-monster-trucks-live-glow-n-fire|ariat-arena-fort-worth|1-30-
  pm-2026-11-15@letsdoitdallas.com
 DTSTAMP:20261115T193000Z
@@ -163,5 +137,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-11&e=suites-billy-strings%7Car
  iat-arena-fort-worth%7C7-30-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/ariat-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:suites-uslbm-coast-to-coast-challenge|ariat-arena-fort-worth|see-detail
+ s-2026-12-13@letsdoitdallas.com
+DTSTAMP:20261213T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Suites: USLBM Coast to Coast Challenge
+LOCATION:Ariat Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=suites-uslbm-coast-to-coa
+ st-challenge%7Cariat-arena-fort-worth%7Csee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/ariat-arena/
 END:VEVENT
 END:VCALENDAR

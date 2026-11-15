@@ -10,40 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:7th-annual-tour-of-trees-at-trinity-falls|trinity-falls-mckinney|10-00-
- am-5-00-pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T160000Z
-DTSTART:20261114T160000Z
-DTEND:20261114T190000Z
-SUMMARY:7th Annual Tour of Trees at Trinity Falls
-LOCATION:Trinity Falls · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=7th-annual-tour-of-trees-
- at-trinity-falls%7Ctrinity-falls-mckinney%7C10-00-am-5-00-pm
-DESCRIPTION:For many North Texas families\, the holiday season doesn’t of
- ficially begin until they’ve walked the Tour of Trees. The 7th Annual To
- ur of Trees at Trinity Falls returns Saturday\, Nov. 14 through Sunday\, D
- ec. 13\, inviting visitors to stroll through beautifully furnished model h
- ome — More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:beethoven-bach-and-brahms|trinity-presbyterian-church-great-hall-5871-v
- irginia-pkwy-mckinney-tx-75071-united-states|7-00-pm-2026-11-14@letsdoitda
- llas.com
-DTSTAMP:20261115T010000Z
-DTSTART:20261115T010000Z
-DTEND:20261115T040000Z
-SUMMARY:Beethoven\, Bach and Brahms
-LOCATION:Trinity Presbyterian  Church (Great Hall) · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=beethoven-bach-and-brahms
- %7Ctrinity-presbyterian-church-great-hall-5871-virginia-pkwy-mckinney-tx-7
- 5071-united-states%7C7-00-pm
-DESCRIPTION:Experience an unforgettable evening of musical masterworks as t
- he McKinney Philharmonic Orchestra celebrates three towering figures of cl
- assical music.  The concert opens with Beethoven’s stirring Egmont Overt
- ure\, a powerful tale of courage\, sacrifice\, and triumph. Internationall
-  — More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-11-16@
  letsdoitdallas.com
 DTSTAMP:20261116T163000Z
@@ -569,6 +535,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-29&e=disney-on-ice-presents-ma
  gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C12-00-pm
 DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:home-for-the-holidays-a-mckinney-christmas|111-n-tennessee-st-mckinney|
+ 12-00-pm-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261129T180000Z
+DTSTART:20261129T180000Z
+DTEND:20261129T210000Z
+SUMMARY:Home for the Holidays\, A McKinney Christmas
+LOCATION:111 N. Tennessee St. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=home-for-the-holidays-a-m
+ ckinney-christmas%7C111-n-tennessee-st-mckinney%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
 UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c

@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ali-macofsky|punch-line-irving-irving|7-00-pm-2026-11-14@letsdoitdallas
- .com
-DTSTAMP:20261115T010000Z
-DTSTART:20261115T010000Z
-DTEND:20261115T040000Z
-SUMMARY:Ali Macofsky
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=ali-macofsky%7Cpunch-line
- -irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:ali-macofsky|punch-line-irving-irving|9-15-pm-2026-11-14@letsdoitdallas
- .com
-DTSTAMP:20261115T031500Z
-DTSTART:20261115T031500Z
-DTEND:20261115T061500Z
-SUMMARY:Ali Macofsky
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=ali-macofsky%7Cpunch-line
- -irving-irving%7C9-15-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:comedy-allstars|punch-line-irving-irving|7-00-pm-2026-11-15@letsdoitdal
  las.com
 DTSTAMP:20261116T010000Z
@@ -256,67 +230,67 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT
 BEGIN:VEVENT
-UID:josh-wolf|punch-line-irving-irving|7-30-pm-2026-12-03@letsdoitdallas.co
- m
+UID:jack-fm-presents-josh-wolf|punch-line-irving-irving|7-30-pm-2026-12-03@
+ letsdoitdallas.com
 DTSTAMP:20261204T013000Z
 DTSTART:20261204T013000Z
 DTEND:20261204T043000Z
-SUMMARY:Josh Wolf
+SUMMARY:JACK-FM Presents: Josh Wolf
 LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-12-03&e=josh-wolf%7Cpunch-line-ir
- ving-irving%7C7-30-pm
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=jack-fm-presents-josh-wol
+ f%7Cpunch-line-irving-irving%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT
 BEGIN:VEVENT
-UID:josh-wolf|punch-line-irving-irving|7-00-pm-2026-12-04@letsdoitdallas.co
- m
+UID:jack-fm-presents-josh-wolf|punch-line-irving-irving|7-00-pm-2026-12-04@
+ letsdoitdallas.com
 DTSTAMP:20261205T010000Z
 DTSTART:20261205T010000Z
 DTEND:20261205T040000Z
-SUMMARY:Josh Wolf
+SUMMARY:JACK-FM Presents: Josh Wolf
 LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-12-04&e=josh-wolf%7Cpunch-line-ir
- ving-irving%7C7-00-pm
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=jack-fm-presents-josh-wol
+ f%7Cpunch-line-irving-irving%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT
 BEGIN:VEVENT
-UID:josh-wolf|punch-line-irving-irving|9-15-pm-2026-12-04@letsdoitdallas.co
- m
+UID:jack-fm-presents-josh-wolf|punch-line-irving-irving|9-15-pm-2026-12-04@
+ letsdoitdallas.com
 DTSTAMP:20261205T031500Z
 DTSTART:20261205T031500Z
 DTEND:20261205T061500Z
-SUMMARY:Josh Wolf
+SUMMARY:JACK-FM Presents: Josh Wolf
 LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-12-04&e=josh-wolf%7Cpunch-line-ir
- ving-irving%7C9-15-pm
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=jack-fm-presents-josh-wol
+ f%7Cpunch-line-irving-irving%7C9-15-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT
 BEGIN:VEVENT
-UID:josh-wolf|punch-line-irving-irving|7-00-pm-2026-12-05@letsdoitdallas.co
- m
+UID:jack-fm-presents-josh-wolf|punch-line-irving-irving|7-00-pm-2026-12-05@
+ letsdoitdallas.com
 DTSTAMP:20261206T010000Z
 DTSTART:20261206T010000Z
 DTEND:20261206T040000Z
-SUMMARY:Josh Wolf
+SUMMARY:JACK-FM Presents: Josh Wolf
 LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-12-05&e=josh-wolf%7Cpunch-line-ir
- ving-irving%7C7-00-pm
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=jack-fm-presents-josh-wol
+ f%7Cpunch-line-irving-irving%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT
 BEGIN:VEVENT
-UID:josh-wolf|punch-line-irving-irving|9-15-pm-2026-12-05@letsdoitdallas.co
- m
+UID:jack-fm-presents-josh-wolf|punch-line-irving-irving|9-15-pm-2026-12-05@
+ letsdoitdallas.com
 DTSTAMP:20261206T031500Z
 DTSTART:20261206T031500Z
 DTEND:20261206T061500Z
-SUMMARY:Josh Wolf
+SUMMARY:JACK-FM Presents: Josh Wolf
 LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-12-05&e=josh-wolf%7Cpunch-line-ir
- ving-irving%7C9-15-pm
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=jack-fm-presents-josh-wol
+ f%7Cpunch-line-irving-irving%7C9-15-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT
@@ -420,6 +394,19 @@ SUMMARY:Laurie Kilmartin
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-12-12&e=laurie-kilmartin%7Cpunch-
  line-irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:jessica-michelle-singleton|punch-line-irving-irving|7-30-pm-2026-12-13@
+ letsdoitdallas.com
+DTSTAMP:20261214T013000Z
+DTSTART:20261214T013000Z
+DTEND:20261214T043000Z
+SUMMARY:Jessica Michelle Singleton
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=jessica-michelle-singleto
+ n%7Cpunch-line-irving-irving%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT

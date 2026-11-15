@@ -10,128 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:all-night-with-the-red-elvises|poor-david-s-pub-dallas|doors-see-listin
- g-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:All Night with the Red Elvises
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=all-night-with-the-red-el
- vises%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T140000Z
-DTSTART:20261114T140000Z
-DTEND:20261114T170000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|1-30-pm
- -2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T193000Z
-DTSTART:20261114T193000Z
-DTEND:20261114T223000Z
-SUMMARY:Buena Vista Social Club (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=buena-vista-social-club-t
- ouring-%7Cmusic-hall-at-fair-park-dallas%7C1-30-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-stars-vs-buffalo-sabres|american-airlines-center-dallas|7-00-pm-
- 2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T010000Z
-DTSTART:20261115T010000Z
-DTEND:20261115T040000Z
-SUMMARY:Dallas Stars vs. Buffalo Sabres
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=dallas-stars-vs-buffalo-s
- abres%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:daughtry-20-years-unplugged-tour|majestic-theatre-dallas-dallas|7-00-pm
- -2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T010000Z
-DTSTART:20261115T010000Z
-DTEND:20261115T040000Z
-SUMMARY:Daughtry - 20 Years Unplugged Tour
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=daughtry-20-years-unplugg
- ed-tour%7Cmajestic-theatre-dallas-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:q-marsden-do-you-see-me-|the-cambridge-room-at-house-of-blues-dallas|7-
- 00-pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T010000Z
-DTSTART:20261115T010000Z
-DTEND:20261115T040000Z
-SUMMARY:Q Marsden - Do You See Me?
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=q-marsden-do-you-see-me-%
- 7Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-monster-energy-outbreak-tour-presents-r-z-se-est-haciendo-tarde|hou
- se-of-blues-dallas-dallas|7-00-pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T010000Z
-DTSTART:20261115T010000Z
-DTEND:20261115T040000Z
-SUMMARY:The Monster Energy Outbreak Tour Presents RØZ: SE ESTÁ HACIENDO T
- ARDE
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=the-monster-energy-outbre
- ak-tour-presents-r-z-se-est-haciendo-tarde%7Chouse-of-blues-dallas-dallas%
- 7C7-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|7-30-pm
- -2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T013000Z
-DTSTART:20261115T013000Z
-DTEND:20261115T043000Z
-SUMMARY:Buena Vista Social Club (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=buena-vista-social-club-t
- ouring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-fetish-ball|longhorn-ballroom-backyard-amphitheater-dallas|10-00
- -pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T040000Z
-DTSTART:20261115T040000Z
-DTEND:20261115T070000Z
-SUMMARY:Dallas Fetish Ball
-LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=dallas-fetish-ball%7Clong
- horn-ballroom-backyard-amphitheater-dallas%7C10-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:songwriter-sunday-with-dezi5-katherine-paterson|poor-david-s-pub-dallas
  |doors-see-listing-2026-11-15@letsdoitdallas.com
 DTSTAMP:20261115T000000Z
@@ -1074,5 +952,71 @@ URL:https://letsdoitdallas.com/?date=2026-12-13&e=yuengling-flight-club-pre
  7C3-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:yuengling-flight-club-pre-event-dinner-tso-seating-6-00pm-7-15pm|americ
+ an-airlines-center-dallas|7-00-pm-2026-12-13@letsdoitdallas.com
+DTSTAMP:20261214T010000Z
+DTSTART:20261214T010000Z
+DTEND:20261214T040000Z
+SUMMARY:Yuengling Flight Club Pre-Event Dinner TSO : Seating 6:00pm-7:15pm
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=yuengling-flight-club-pre
+ -event-dinner-tso-seating-6-00pm-7-15pm%7Camerican-airlines-center-dallas%
+ 7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:marlowe-meade-s-christmas-vacation|longhorn-ballroom-backyard-amphithea
+ ter-dallas|7-30-pm-2026-12-13@letsdoitdallas.com
+DTSTAMP:20261214T013000Z
+DTSTART:20261214T013000Z
+DTEND:20261214T043000Z
+SUMMARY:MARLOWE & MEADE???S Christmas Vacation
+LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=marlowe-meade-s-christmas
+ -vacation%7Clonghorn-ballroom-backyard-amphitheater-dallas%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:trans-siberian-orchestra-the-ghosts-of-christmas-eve|american-airlines-
+ center-dallas|7-30-pm-2026-12-13@letsdoitdallas.com
+DTSTAMP:20261214T013000Z
+DTSTART:20261214T013000Z
+DTEND:20261214T043000Z
+SUMMARY:Trans-Siberian Orchestra - The Ghosts Of Christmas Eve
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=trans-siberian-orchestra-
+ the-ghosts-of-christmas-eve%7Camerican-airlines-center-dallas%7C7-30-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:whitechapel-20th-anniversary-tour|house-of-blues-dallas-dallas|6-00-pm-
+ 2026-12-14@letsdoitdallas.com
+DTSTAMP:20261215T000000Z
+DTSTART:20261215T000000Z
+DTEND:20261215T030000Z
+SUMMARY:Whitechapel - 20th Anniversary Tour
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-14&e=whitechapel-20th-annivers
+ ary-tour%7Chouse-of-blues-dallas-dallas%7C6-00-pm
+DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:honky-tonk-tuesday-with-cory-cross|poor-david-s-pub-dallas|doors-see-li
+ sting-2026-12-15@letsdoitdallas.com
+DTSTAMP:20261215T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Honky Tonk Tuesday with Cory Cross
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-15&e=honky-tonk-tuesday-with-c
+ ory-cross%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

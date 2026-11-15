@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:on-cinema-with-tim-heidecker-gregg-turkington|granada-theater-dallas-da
- llas|8-00-pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T020000Z
-DTSTART:20261115T020000Z
-DTEND:20261115T050000Z
-SUMMARY:On Cinema! with Tim Heidecker & Gregg Turkington
-LOCATION:Granada Theater - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=on-cinema-with-tim-heidec
- ker-gregg-turkington%7Cgranada-theater-dallas-dallas%7C8-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-wrecks-with-worry-club-and-kid-sistr|granada-theater-dallas-dallas|
  7-00-pm-2026-11-17@letsdoitdallas.com
 DTSTAMP:20261118T010000Z

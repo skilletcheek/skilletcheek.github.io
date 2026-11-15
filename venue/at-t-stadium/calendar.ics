@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:folds-of-honor-north-texas-2026-gala|at-t-stadium-arlington|6-30-pm-11-
- 30-pm-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261115T003000Z
-DTSTART:20261115T003000Z
-DTEND:20261115T033000Z
-SUMMARY:Folds of Honor North Texas 2026 Gala
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=folds-of-honor-north-texa
- s-2026-gala%7Cat-t-stadium-arlington%7C6-30-pm-11-30-pm
-DESCRIPTION:Join Folds of Honor North Texas on Saturday\, November 14\, for
-  its 2026 Gala at AT&T Stadium. This special evening brings together milit
- ary and first responder families\, veterans\, scholarship recipients\, and
-  members of the North Texas community for a VIP reception\, dinner\, aucti
- on — More: https://letsdoitdallas.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-cowboys-vs-san-francisco-49ers|at-t-stadium-arlington|3-25-pm-20
  26-11-15@letsdoitdallas.com
 DTSTAMP:20261115T212500Z
@@ -477,6 +461,19 @@ SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-11-27&e=at-t-stadium-vip-guided-t
  our%7Cat-t-stadium-arlington%7C3-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/venue/at-t-stadium/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-11-28
+ @letsdoitdallas.com
+DTSTAMP:20261128T160000Z
+DTSTART:20261128T160000Z
+DTEND:20261128T190000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C10-00-am
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/venue/at-t-stadium/
 END:VEVENT

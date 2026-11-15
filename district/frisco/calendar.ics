@@ -11,35 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
- frisco|see-details-2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:"The Cottage" by Theatre Frisco
-LOCATION:Black Box Theater · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=-the-cottage-by-theatre-f
- risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
-DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
- strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:dream-bigger-than-texas|hotel-garden-inn-frisco-frisco|1-30-pm-3-30-pm-
- 2026-11-14@letsdoitdallas.com
-DTSTAMP:20261114T193000Z
-DTSTART:20261114T193000Z
-DTEND:20261114T223000Z
-SUMMARY:Dream Bigger Than Texas
-LOCATION:Hotel Garden Inn Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-14&e=dream-bigger-than-texas%7
- Chotel-garden-inn-frisco-frisco%7C1-30-pm-3-30-pm
-DESCRIPTION:Join PathIvy for an exclusive college admissions event designed
-  for high school students and parents aiming for top U.S. universities\, i
- ncluding Ivy League schools and other highly selective colleges. Led by Vi
- cky Mehta\, Founder & CEO of PathIvy\, and Zoe\, the session will share e 
- — More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
  frisco|see-details-2026-11-15@letsdoitdallas.com
 DTSTAMP:20261115T000000Z
 DTSTART;VALUE=DATE:20261115
@@ -325,6 +296,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-25&e=hoopfest-basketball-women
  -s-challenge-session-4%7Ccomerica-center-frisco%7C12-00-pm
 DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
  tsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:osceola-magic-at-texas-legends|comerica-center-frisco|7-00-pm-2026-11-2
+ 7@letsdoitdallas.com
+DTSTAMP:20261128T010000Z
+DTSTART:20261128T010000Z
+DTEND:20261128T040000Z
+SUMMARY:Osceola Magic at Texas Legends
+LOCATION:Comerica Center · Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=osceola-magic-at-texas-le
+ gends%7Ccomerica-center-frisco%7C7-00-pm
+DESCRIPTION:nba g league event via SeatGeek. — More: https://letsdoitdall
+ as.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:texas-legends-vs-osceola-magic|fifth-third-arena-frisco|7-00-pm-2026-11
