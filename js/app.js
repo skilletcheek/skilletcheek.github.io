@@ -818,7 +818,7 @@ const LISTING_HOSTS = [
   "etix.com", "tixr.com", "showclix.com", "stubhub.com", "vividseats.com",
   "livenation.com", "bandsintown.com", "songkick.com", "meetup.com",
   "facebook.com", "instagram.com", "allevents.in", "do214.com",
-  "dallasites101.com", "whatsupfortworth.com",
+  "dallasites101.com", "whatsupfortworth.com", "speakeasygo.com",
 ];
 /* Mirrors _is_real_venue() + _PLACE_WORDS in fetch_events.py, for the one job
    this layer needs it for: deciding whether splitArea()'s venue can stand in as

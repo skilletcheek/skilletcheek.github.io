@@ -473,6 +473,66 @@ def test_prekindle_per_venue_yield():
           (0, ["prekindle (Venue 5)"]))
 
 
+def _club_page(n, when="October 10, 2026 10:00 PM", city="Dallas", name=True):
+    """The Webflow/microdata template CTRL Room and Candleroom share."""
+    ev = lambda i: (
+        '<div itemtype="https://schema.org/Event" itemscope="">'
+        '<a href="https://tix.test/e%d" itemprop="offers" itemscope="">'
+        '<meta itemprop="url" content="https://tix.test/e%d"/></a>'
+        '<img itemprop="image" src="https://img.test/%d.png"/>'
+        '<p class="event-date"><time itemprop="startDate" data-raw="x">%s</time></p>'
+        % (i, i, i, when)
+        + ('<p itemprop="name" class="event-name">DJ &amp; Friends %d</p>' % i if name else "")
+        + '<div itemprop="location" itemscope><meta itemprop="name" content="Club Dallas" />'
+        '<meta itemprop="addressLocality" content="%s" />'
+        '<meta itemprop="addressRegion" content="TX" /></div>'
+        '<meta itemprop="typicalAgeRange" content="18-" />'
+        '<div itemprop="organizer" itemscope><meta itemprop="name" content="Club Dallas" />'
+        '<link itemprop="url" href="https://club.test/" /></div>'
+        '<meta itemprop="description" content="Party event" /></div>' % city)
+    return "<html>" + "".join(ev(i) for i in range(n)) + "</html>"
+
+
+def _club(page):
+    served = {} if page is None else {"https://club.test/": page}
+    return _with_feeds({"club_pages": [{"url": "https://club.test/", "venue": "Club"}]},
+                       served, F.fetch_club_pages)
+
+
+def test_club_pages():
+    print("club pages: Event microdata on a club's own listing")
+    reset(); F._SUB_YIELDS.clear()
+    rows = _club(_club_page(6))
+    r = rows[0] if rows else {}
+    check("healthy: every block is a row, no fault", (len(rows), F._SOURCE_FAULTS), (6, []))
+    check("date and time come from the <time> element's visible text",
+          (r.get("date"), r.get("time")), ("2026-10-10", "10:00 PM"))
+    check("config venue names the place; title is unescaped; nightlife",
+          (r.get("area"), r.get("name"), r.get("category")),
+          ("Club, Dallas", "DJ & Friends 0", "nightlife"))
+    check("placeholder description dropped, age kept; ticket link and organizer carried",
+          (r.get("description"), r.get("url"), r.get("organizer")),
+          ("Ages 18+.", "https://tix.test/e0", {"name": "Club", "url": "https://club.test/"}))
+    check("per-club yield recorded", F._SUB_YIELDS.get("club_pages (Club)"), 6)
+    reset()
+    rows = _club(_club_page(6, when="2026-10-10 22:00"))
+    check("a start the parser cannot read is a fault and alarms",
+          (len(rows), len(F._SOURCE_FAULTS)), (0, 1))
+    reset()
+    rows = _club(_club_page(6, name=False))
+    check("blocks with no name alarm too", (len(rows), len(F._SOURCE_FAULTS)), (0, 1))
+    reset()
+    rows = _club(_club_page(6, city="Austin"))
+    check("off-area is a filter, not a fault", (len(rows), F._SOURCE_FAULTS), (0, []))
+    reset()
+    rows = _club(_club_page(6, when="January 10, 2027 10:00 PM"))
+    check("beyond the window is a filter, not a fault", (len(rows), F._SOURCE_FAULTS), (0, []))
+    reset(); F._SUB_YIELDS.clear()
+    rows = _club(None)
+    check("a page that fails to fetch still records a 0 for its club",
+          (rows, F._SUB_YIELDS.get("club_pages (Club)")), ([], 0))
+
+
 def _singles_page(n, date="2026-10-04T16:00:00-06:00", city="Dallas"):
     org = '<script type="application/ld+json">{"@type": "Organization", "name": "x"}</script>'
     ev = lambda i: json.dumps({
@@ -693,7 +753,7 @@ def main():
               test_bookkeeping, test_parse_health, test_civicplus_health,
               test_civicplus_multiday, test_civicplus_retry, test_civicplus_skip_locations,
               test_prekindle_health, test_prekindle_per_venue_yield,
-              test_singles_health, test_ics_health,
+              test_singles_health, test_club_pages, test_ics_health,
               test_ics_cache_bust, test_ics_per_feed_yield,
               test_ics_timeout_and_short_body, test_ics_blocked_carry_forward):
         t()

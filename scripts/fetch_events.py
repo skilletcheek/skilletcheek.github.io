@@ -1070,6 +1070,111 @@ def fetch_singles_pages(start, end):
     return out
 
 
+# ------------------------------------------------------------- Club listings
+_CLUB_EVENT_SPLIT = 'itemtype="https://schema.org/Event"'
+
+
+def _club_attr(block, prop):
+    """content= of the first <meta itemprop=prop> in `block`, unescaped."""
+    m = re.search(r'<meta[^>]*itemprop="%s"[^>]*content=(["\'])(.*?)\1' % prop, block, re.S)
+    return _html.unescape(m.group(2)).strip() if m else None
+
+
+def fetch_club_pages(start, end):
+    """Night clubs whose OWN site lists dated, ticketed nights as schema.org
+    Event *microdata* (itemprop attributes, not JSON-LD). Configured in
+    feeds.json's club_pages; read _club_note there before adding one.
+
+    CTRL Room and Candleroom share one Webflow template fed by their ticketing
+    platform, so this is one parser for both, the way Prekindle is. Everything
+    is on the listing page; no per-event visit.
+
+    The start time is read from the <time> element's VISIBLE text ("November
+    14, 2026 10:00 PM"), not its attribute: the two sites spell the attribute
+    differently (datetime="2026-11-14 10:00 pm" vs data-raw="2026-11-14
+    22:00") and the text is the one thing they share.
+
+    `venue` in the config is the display name and wins over the page's own
+    ("CTRL Room Dallas"), so the row dedupes against the same night arriving
+    from Eventbrite as "Ctrl Room, Dallas".
+    """
+    if not FEEDS_FILE.exists():
+        return []
+    try:
+        pages = json.loads(FEEDS_FILE.read_text()).get("club_pages", [])
+    except Exception:  # noqa: BLE001
+        return []
+    lo, hi = start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
+    out = []
+    for p in pages:
+        url, venue = p.get("url"), p.get("venue")
+        if not url:
+            continue
+        key = f"club_pages ({venue or url})"
+        # 0 before the fetch, so a page that never answers still has a key
+        # and can alarm -- same reasoning as the per-feed ICS yields.
+        _SUB_YIELDS[key] = 0
+        try:
+            page = http_text(url)
+        except Exception as e:  # noqa: BLE001
+            print(f"club page failed ({venue or url}): {e}", file=sys.stderr)
+            continue
+        # One page carries every event, so the unit is the Event block. A
+        # block with no name or no readable start is a fault (the template
+        # moved); past, beyond the window and off-area are filters.
+        count = listed = faults = 0
+        for block in page.split(_CLUB_EVENT_SPLIT)[1:]:
+            listed += 1
+            nm = re.search(r'<(?!meta)\w+[^>]*itemprop="name"[^>]*>\s*([^<]+?)\s*<', block)
+            tm = re.search(r'<time[^>]*itemprop="startDate"[^>]*>\s*([^<]+?)\s*</time>', block)
+            try:
+                when = datetime.strptime(tm.group(1), "%B %d, %Y %I:%M %p")
+            except (AttributeError, ValueError):
+                when = None
+            if not (nm and when):
+                faults += 1
+                continue
+            date = when.strftime("%Y-%m-%d")
+            if not lo <= date <= hi:
+                continue
+            loc = block.split('itemprop="location"', 1)[-1]
+            city = _club_attr(loc, "addressLocality")
+            if not is_dfw_city(city, _club_attr(loc, "addressRegion")):
+                continue
+            place = venue or _club_attr(loc, "name")
+            area = ", ".join(x for x in [place, city] if x) or "Dallas"
+            link = _club_attr(block, "url")
+            if not (link or "").startswith(("http://", "https://")):
+                link = url
+            img = re.search(r'<img[^>]*itemprop="image"[^>]*>', block)
+            img = re.search(r'src="([^"]+)"', img.group(0)) if img else None
+            # "Party event" is the template's placeholder, not a description.
+            desc = _club_attr(block, "description")
+            if desc and desc.strip().lower() == "party event":
+                desc = None
+            age = re.match(r"(\d+)-$", _club_attr(block, "typicalAgeRange") or "")
+            if age:
+                desc = f"{desc} Ages {age.group(1)}+." if desc else f"Ages {age.group(1)}+."
+            org = block.split('itemprop="organizer"', 1)
+            organizer = None
+            if len(org) == 2:
+                oname = _club_attr(org[1], "name")
+                ourl = re.search(r'<link[^>]*itemprop="url"[^>]*href="([^"]+)"', org[1])
+                if oname and ourl:
+                    organizer = {"name": venue or oname, "url": ourl.group(1)}
+            out.append(row(_html.unescape(nm.group(1)), "nightlife", area, date,
+                           pretty_time(when.strftime("%H:%M")), None, desc, link,
+                           _html.unescape(img.group(1)) if img else None,
+                           organizer=organizer))
+            count += 1
+        _SUB_YIELDS[key] = count
+        print(f"club page ({venue or url}): {count} events from {listed} listed"
+              + (f", {faults} UNPARSED" if faults else ""))
+        report_parse_health(key, listed, faults,
+                            f"{faults} missing name or start time", unit="listed events")
+    return out
+
+
 # ------------------------------------------------------------------- Eventbrite
 # Eventbrite retired its public event-search API (/v3/events/search/ now 404s
 # without a token, and tokens only reach events you own), so there is no
@@ -1876,7 +1981,7 @@ _LISTING_HOSTS = (
     "etix.com", "tixr.com", "showclix.com", "stubhub.com", "vividseats.com",
     "livenation.com", "bandsintown.com", "songkick.com", "meetup.com",
     "facebook.com", "instagram.com", "allevents.in", "do214.com",
-    "dallasites101.com", "whatsupfortworth.com",
+    "dallasites101.com", "whatsupfortworth.com", "speakeasygo.com",
 )
 
 
@@ -4910,6 +5015,8 @@ def main():
     # and price, so it deserves the same "before Seated" priority.
     # fetch_singles_pages sits with Prekindle: same "scrape the listing page's
     # own JSON-LD, no API key" shape and the same firm price.
+    # fetch_club_pages sits with them: a club's own listing, no key. Its
+    # per-club yields are recorded too, like Prekindle's per-venue ones.
     # fetch_civicplus sits with fetch_ics_feeds: both are calendars published
     # by the organisation that runs the events, so neither is second-hand. It
     # is placed after the ticketing APIs for the usual reason -- when the same
@@ -4925,6 +5032,7 @@ def main():
         ("civicplus", fetch_civicplus(start, end)),
         ("prekindle", fetch_prekindle(start, end)),
         ("singles_pages", fetch_singles_pages(start, end)),
+        ("club_pages", fetch_club_pages(start, end)),
         ("do214", fetch_do214(start, end)),
         ("dallasites101", fetch_dallasites101(start, end)),
         ("seated", fetch_seated(start, end)),

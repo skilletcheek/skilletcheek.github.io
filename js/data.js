@@ -238,6 +238,9 @@ const ACTIVITIES = [
   // (free) and Cowboys ($9, 21+) state theirs. `area` is plain "Dallas" where
   // the club's site names no neighbourhood -- don't guess one. No Fort Worth
   // club is here because none of the sites tried gave standing hours.
+  // Candleroom and CTRL Room are deliberately NOT here: their dated nights
+  // arrive in live-events.json (club_pages in feeds.json), and a standing
+  // entry beside those would list the same Saturday twice.
   // Recheck the hours by hand when a club changes them -- nothing refreshes
   // these.
   { name: "Green Light Social", cat: "nightlife", area: "Dallas", venue: "Green Light Social",
@@ -280,10 +283,6 @@ const ACTIVITIES = [
     recur: { weekly: [6] }, time: "12:00 PM – 2:00 AM", cost: 0,
     desc: "Gay saloon and dance hall at 3912 Cedar Springs Rd. 21+, free cover and free parking.",
     url: "https://roundupsaloon.com/" },
-  { name: "Candleroom", cat: "nightlife", area: "Dallas", venue: "Candleroom",
-    recur: { weekly: [5,6] }, time: "10:00 PM – 2:00 AM", cost: null,
-    desc: "Nightclub at 5039 Willis Ave with ticketed DJ nights and VIP tables.",
-    url: "https://www.candleroomdallas.com/" },
   { name: "Stars and Spirits", cat: "nightlife", area: "Dallas", venue: "Stars and Spirits",
     recur: { weekly: [5,6] }, time: "10:00 PM – 2:00 AM", cost: null,
     desc: "Nightclub at 2505 Pacific Ave with VIP tables, open Friday and Saturday.",

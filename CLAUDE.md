@@ -502,6 +502,36 @@ rejected** so they don't get re-probed.
   category (the RSS carries none) — both **data in `feeds.json`**, because
   every city words its agendas differently and the mapping is a heuristic that
   wants tuning from the feed, not a code change.
+- **Night clubs come in two ways, and a club must be in only one of them**
+  (since 2026-11-15). Until then `nightlife` was 5 of 1,064 feed rows, all
+  speed dating.
+
+  *Dated, ticketed nights* — `fetch_club_pages()`, `club_pages` in
+  `feeds.json`. CTRL Room and Candleroom publish their nights on their own
+  sites as schema.org Event **microdata** (`itemprop` attributes, not
+  JSON-LD), on one shared Webflow template, so it is one parser for both.
+  The start is read from the `<time>` element's **visible text** — the two
+  sites spell the attribute differently (`datetime=` vs `data-raw=`). The
+  config `venue` wins over the page's own name ("CTRL Room Dallas") so the
+  row matches Eventbrite's "Ctrl Room, Dallas". Each club records its own
+  yield (`club_pages (<venue>)`), and a block with no name or unreadable
+  start is a parse fault. Ticket links go to `speakeasygo.com`, which is in
+  both `_LISTING_HOSTS` lists; the organizer is set from the page. **Read
+  `_club_note` in `feeds.json` before probing another club** — it lists the
+  nine checked that day and why each is not usable.
+
+  *Standing hours* — hand-written `ACTIVITIES` in `js/data.js` (homepage
+  only), for clubs that publish opening hours but no dated listing: Green
+  Light Social, Bottled Blonde, Station 4, Sue Ellen's, Round-Up Saloon,
+  Stars and Spirits, Club Vivo, Cowboys Dancehall. Thursday–Saturday only,
+  each on the hours its own site posted on 2026-11-15, one entry per distinct
+  set of hours. Nothing refreshes these. `area` is plain "Dallas" where the
+  club's site names no neighbourhood. No Fort Worth club: none of the sites
+  tried gave standing hours.
+
+  A club with a dated listing gets **no** standing entry — the homepage
+  would show "Candleroom" beside "Exclusive Saturdays ft JARM" on the same
+  night, and the two share no title word for dedupe to merge on.
 - Adding an ICS feed: try `<site>/events/?ical=1`, then
   `/wp-json/tribe/events/v1/events`. **Confirm the content-type is
   `text/calendar`** — several DFW sites answer 200 with an HTML page.
