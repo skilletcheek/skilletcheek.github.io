@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:identity-crisis-18-event-|am-fm-dallas-dallas|9-30-pm-2026-11-15@letsdo
- itdallas.com
-DTSTAMP:20261116T033000Z
-DTSTART:20261116T033000Z
-DTEND:20261116T063000Z
-SUMMARY:Identity Crisis (18+ Event)
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=identity-crisis-18-event-
- %7Cam-fm-dallas-dallas%7C9-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/am-fm-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:chase-petra-w-jer|am-fm-dallas-dallas|7-00-pm-2026-11-17@letsdoitdallas
  .com
 DTSTAMP:20261118T010000Z

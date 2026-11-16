@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:haus-sundays-11-15-26|ctrl-room-dallas|11-00-pm-2026-11-15@letsdoitdall
- as.com
-DTSTAMP:20261116T050000Z
-DTSTART:20261116T050000Z
-DTEND:20261116T080000Z
-SUMMARY:Haus Sundays 11.15.26
-LOCATION:CTRL Room · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=haus-sundays-11-15-26%7Cc
- trl-room-dallas%7C11-00-pm
-DESCRIPTION:Ages 18+. — More: https://letsdoitdallas.com/venue/ctrl-room/
-END:VEVENT
-BEGIN:VEVENT
 UID:brandon-at-ctrl-room-11-20-26|ctrl-room-dallas|10-00-pm-2026-11-20@lets
  doitdallas.com
 DTSTAMP:20261121T040000Z

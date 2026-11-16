@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:asim-azhar|eisemann-center-richardson|7-00-pm-2026-11-15@letsdoitdallas
- .com
-DTSTAMP:20261116T010000Z
-DTSTART:20261116T010000Z
-DTEND:20261116T040000Z
-SUMMARY:Asim Azhar
-LOCATION:Eisemann Center · Richardson
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=asim-azhar%7Ceisemann-cen
- ter-richardson%7C7-00-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:steve-byrne|addison-improv-addison|7-00-pm-2026-11-15@letsdoitdallas.co
- m
-DTSTAMP:20261116T010000Z
-DTSTART:20261116T010000Z
-DTEND:20261116T040000Z
-SUMMARY:Steve Byrne
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=steve-byrne%7Caddison-imp
- rov-addison%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:math-treasure-hunt-solve-the-case-of-the-missing-x|bhanzu-learning-cent
  er-2300-mcdermott-rd-plano|5-30-pm-7-30-pm-2026-11-18@letsdoitdallas.com
 DTSTAMP:20261118T233000Z
@@ -49,6 +23,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-18&e=math-treasure-hunt-solve-
 DESCRIPTION:Bhanzu Learning Center hosts a math treasure hunt for kids\, wi
  th interactive math challenges and a chance to win a LEGO set. Free entry\
  ; limited seats. — More: https://letsdoitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:november-paint-sip-lakeside-sunrise|505-travis-street-coppell|06-00-pm-
+ 2026-11-18@letsdoitdallas.com
+DTSTAMP:20261119T000000Z
+DTSTART:20261119T000000Z
+DTEND:20261119T030000Z
+SUMMARY:November Paint & Sip: Lakeside Sunrise
+LOCATION:505 Travis Street · Coppell
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=november-paint-sip-lakesi
+ de-sunrise%7C505-travis-street-coppell%7C06-00-pm
+DESCRIPTION:Even if you’ve never held a paint brush or can’t draw a str
+ aight line you will be amazed at the beautiful painting you can create in 
+ one inspiring lesson. November 18\, 2026 06:00 PM - 08:00 PM 505 Travis St
+ reetCoppell\, TX 75019 https://www.coppelltx.gov/Calendar.aspx?EID=5098/63
+ 9 — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:doughboys-podcast|addison-improv-addison|7-30-pm-2026-11-18@letsdoitdal
@@ -197,6 +187,51 @@ URL:https://letsdoitdallas.com/?date=2026-11-22&e=deray-davis%7Caddison-imp
  rov-addison%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:thanksgiving-art-camp|505-travis-street-coppell|09-00-am-2026-11-23@let
+ sdoitdallas.com
+DTSTAMP:20261123T150000Z
+DTSTART:20261123T150000Z
+DTEND:20261123T180000Z
+SUMMARY:Thanksgiving Art Camp
+LOCATION:505 Travis Street · Coppell
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=thanksgiving-art-camp%7C5
+ 05-travis-street-coppell%7C09-00-am
+DESCRIPTION:Join the Coppell Arts Center for our Thanksgiving Art Camp for 
+ kids! November 23\, 2026 09:00 AM - 11:45 AM 505 Travis StreetCoppell\, TX
+  75019 https://www.coppelltx.gov/Calendar.aspx?EID=5101/639286934050000000
+  — More: https://letsdoitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:thanksgiving-art-camp|505-travis-street-coppell|09-00-am-2026-11-24@let
+ sdoitdallas.com
+DTSTAMP:20261124T150000Z
+DTSTART:20261124T150000Z
+DTEND:20261124T180000Z
+SUMMARY:Thanksgiving Art Camp
+LOCATION:505 Travis Street · Coppell
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=thanksgiving-art-camp%7C5
+ 05-travis-street-coppell%7C09-00-am
+DESCRIPTION:Join the Coppell Arts Center for our Thanksgiving Art Camp for 
+ kids! November 24\, 2026 09:00 AM - 11:45 AM 505 Travis StreetCoppell\, TX
+  75019 https://www.coppelltx.gov/Calendar.aspx?EID=5102/639286934050000000
+  — More: https://letsdoitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:thanksgiving-art-camp|505-travis-street-coppell|09-00-am-2026-11-25@let
+ sdoitdallas.com
+DTSTAMP:20261125T150000Z
+DTSTART:20261125T150000Z
+DTEND:20261125T180000Z
+SUMMARY:Thanksgiving Art Camp
+LOCATION:505 Travis Street · Coppell
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=thanksgiving-art-camp%7C5
+ 05-travis-street-coppell%7C09-00-am
+DESCRIPTION:Join the Coppell Arts Center for our Thanksgiving Art Camp for 
+ kids! November 25\, 2026 09:00 AM - 11:45 AM 505 Travis StreetCoppell\, TX
+  75019 https://www.coppelltx.gov/Calendar.aspx?EID=5103/639286934050000000
+  — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:chamberlain-ballet-the-nutcracker-richardson|hill-performance-hall-at-e

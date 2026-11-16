@@ -10,43 +10,21 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:spirit-of-mexico-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-11-15@l
- etsdoitdallas.com
-DTSTAMP:20261115T193000Z
-DTSTART:20261115T193000Z
-DTEND:20261115T223000Z
-SUMMARY:Spirit of Mexico Rodeo
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=spirit-of-mexico-rodeo%7C
- cowtown-coliseum-fort-worth%7C1-30-pm
-DESCRIPTION:rodeo event via SeatGeek. — More: https://letsdoitdallas.com/
- district/stockyards/
-END:VEVENT
-BEGIN:VEVENT
-UID:spirit-of-mexico-rodeo|cowtown-coliseum-fort-worth|6-00-pm-2026-11-15@l
- etsdoitdallas.com
-DTSTAMP:20261116T000000Z
-DTSTART:20261116T000000Z
-DTEND:20261116T030000Z
-SUMMARY:Spirit of Mexico Rodeo
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=spirit-of-mexico-rodeo%7C
- cowtown-coliseum-fort-worth%7C6-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/stockyards/
-END:VEVENT
-BEGIN:VEVENT
-UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-11-16@
- letsdoitdallas.com
-DTSTAMP:20261116T183000Z
-DTSTART:20261116T183000Z
-DTEND:20261116T213000Z
-SUMMARY:Legacy of the Longhorn
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-16&e=legacy-of-the-longhorn%7C
- cowtown-coliseum-fort-worth%7C12-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/stockyards/
+UID:rodeo-rink|fort-worth-stockyards-131-east-exchange-avenue-fort-worth-76
+ 164-united-states|all-day-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Rodeo Rink
+LOCATION:Fort Worth Stockyards
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=rodeo-rink%7Cfort-worth-s
+ tockyards-131-east-exchange-avenue-fort-worth-76164-united-states%7Call-da
+ y
+DESCRIPTION:Trade your cowboy boots for ice skates when the Fort Worth Stoc
+ kyards Rodeo Rink returns November 17 through January 3! This unique holid
+ ay attraction brings a Texas twist to winter fun\, transforming the legend
+ ary Stockyards into a festive destination where visitors can lace up\, —
+  More: https://letsdoitdallas.com/district/stockyards/
 END:VEVENT
 BEGIN:VEVENT
 UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-11-17@

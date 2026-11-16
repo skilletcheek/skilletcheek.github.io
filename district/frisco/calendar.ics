@@ -10,61 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:-the-cottage-by-theatre-frisco|black-box-theater-8004-n-dallas-parkway-
- frisco|see-details-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261115T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:"The Cottage" by Theatre Frisco
-LOCATION:Black Box Theater · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=-the-cottage-by-theatre-f
- risco%7Cblack-box-theater-8004-n-dallas-parkway-frisco%7Csee-details
-DESCRIPTION:Runs Oct 30 – Nov 15. — More: https://letsdoitdallas.com/di
- strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:rio-grande-valley-vipers-at-texas-legends|comerica-center-frisco|3-00-p
- m-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261115T210000Z
-DTSTART:20261115T210000Z
-DTEND:20261116T000000Z
-SUMMARY:Rio Grande Valley Vipers at Texas Legends
-LOCATION:Comerica Center · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=rio-grande-valley-vipers-
- at-texas-legends%7Ccomerica-center-frisco%7C3-00-pm
-DESCRIPTION:nba g league event via SeatGeek. — More: https://letsdoitdall
- as.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:texas-legends-vs-rio-grande-valley-vipers|fifth-third-arena-frisco|3-00
- -pm-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261115T210000Z
-DTSTART:20261115T210000Z
-DTEND:20261116T000000Z
-SUMMARY:Texas Legends vs. Rio Grande Valley Vipers
-LOCATION:Fifth Third Arena · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=texas-legends-vs-rio-gran
- de-valley-vipers%7Cfifth-third-arena-frisco%7C3-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:tamale-classes-at-cantina-laredo|cantina-laredo-frisco|6-00-pm-9-00-pm-
- 2026-11-15@letsdoitdallas.com
-DTSTAMP:20261116T000000Z
-DTSTART:20261116T000000Z
-DTEND:20261116T030000Z
-SUMMARY:Tamale Classes at Cantina Laredo
-LOCATION:Cantina Laredo · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=tamale-classes-at-cantina
- -laredo%7Ccantina-laredo-frisco%7C6-00-pm-9-00-pm
-DESCRIPTION:Long a tradition in Mexican communities\, tamales are a cherish
- ed part of celebrations and gatherings. This December\, Cantina Laredo is 
- bringing the time-honored tradition to life with a series of hands-on tama
- ladas designed to bring guests together for an evening of food\, learnin 
- — More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:thanksgiving-tamales-at-cantina-laredo|cantina-laredo-frisco|11-00-am-9
  -00-pm-2026-11-17@letsdoitdallas.com
 DTSTAMP:20261117T170000Z
@@ -79,6 +24,17 @@ DESCRIPTION:Long a tradition in Mexican communities\, tamales are often a s
  come a beloved addition to Thanksgiving celebrations\, bringing a taste of
   tradition to the holiday table. This Thanksgiving\, Cantina Laredo in Fr 
  — More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:bowling|frisco|01-00-pm-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261117T190000Z
+DTSTART:20261117T190000Z
+DTEND:20261117T220000Z
+SUMMARY:Bowling
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=bowling%7Cfrisco%7C01-00-
+ pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:legislative-committee-meeting|6101-frisco-square-blvd-frisco|03-00-pm-2
@@ -117,15 +73,16 @@ URL:https://letsdoitdallas.com/?date=2026-11-18&e=reasonable-accommodations
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
-UID:4th-street-plaza-holiday-tree-lighting|8802-4th-st-frisco|05-30-pm-2026
- -11-19@letsdoitdallas.com
+UID:4th-street-plaza-holiday-tree-lighting-holiday-classic-at-the-silos|880
+ 2-4th-st-frisco|05-30-pm-2026-11-19@letsdoitdallas.com
 DTSTAMP:20261119T233000Z
 DTSTART:20261119T233000Z
 DTEND:20261120T023000Z
-SUMMARY:4th Street Plaza Holiday Tree Lighting
+SUMMARY:4th Street Plaza Holiday Tree Lighting & Holiday Classic at the Sil
+ os
 LOCATION:8802 4th St · Frisco
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=4th-street-plaza-holiday-
- tree-lighting%7C8802-4th-st-frisco%7C05-30-pm
+ tree-lighting-holiday-classic-at-the-silos%7C8802-4th-st-frisco%7C05-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
@@ -254,6 +211,17 @@ URL:https://letsdoitdallas.com/?date=2026-11-23&e=hoopfest-basketball-women
  -s-challenge-session-2%7Ccomerica-center-frisco%7C3-00-pm
 DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
  tsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:bowling|frisco|01-00-pm-2026-11-24@letsdoitdallas.com
+DTSTAMP:20261124T190000Z
+DTSTART:20261124T190000Z
+DTEND:20261124T220000Z
+SUMMARY:Bowling
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=bowling%7Cfrisco%7C01-00-
+ pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:hoopfest-basketball-women-s-challenge-session-3|fifth-third-arena-frisc

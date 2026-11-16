@@ -10,31 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:solardo-ages-21-|silo-dallas|5-00-pm-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261115T230000Z
-DTSTART:20261115T230000Z
-DTEND:20261116T020000Z
-SUMMARY:Solardo - Ages 21+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=solardo-ages-21-%7Csilo-d
- allas%7C5-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:identity-crisis-18-event-|am-fm-dallas-dallas|9-30-pm-2026-11-15@letsdo
- itdallas.com
-DTSTAMP:20261116T033000Z
-DTSTART:20261116T033000Z
-DTEND:20261116T063000Z
-SUMMARY:Identity Crisis (18+ Event)
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=identity-crisis-18-event-
- %7Cam-fm-dallas-dallas%7C9-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:chase-petra-w-jer|am-fm-dallas-dallas|7-00-pm-2026-11-17@letsdoitdallas
  .com
 DTSTAMP:20261118T010000Z
@@ -248,6 +223,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=cure-for-paranoia%7Cthe-e
  cho-lounge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:rosegarden-funeral-party|the-echo-lounge-music-hall-dallas|7-00-pm-2026
+ -11-28@letsdoitdallas.com
+DTSTAMP:20261129T010000Z
+DTSTART:20261129T010000Z
+DTEND:20261129T040000Z
+SUMMARY:Rosegarden Funeral Party
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=rosegarden-funeral-party%
+ 7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/design-district/
 END:VEVENT
 BEGIN:VEVENT
 UID:deorro-ages-18-|silo-dallas|9-00-pm-2026-11-28@letsdoitdallas.com

@@ -10,85 +10,20 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:songwriter-sunday-with-dezi5-katherine-paterson|poor-david-s-pub-dallas
- |doors-see-listing-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261115T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Songwriter Sunday with Dezi5 & Katherine Paterson
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=songwriter-sunday-with-de
- zi5-katherine-paterson%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261115T140000Z
-DTSTART:20261115T140000Z
-DTEND:20261115T170000Z
+ ted-states|8-00-am-2026-11-16@letsdoitdallas.com
+DTSTAMP:20261116T140000Z
+DTSTART:20261116T140000Z
+DTEND:20261116T170000Z
 SUMMARY:Tea Around Town® Dallas
 LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=tea-around-town-dallas%7C
+URL:https://letsdoitdallas.com/?date=2026-11-16&e=tea-around-town-dallas%7C
  tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
 DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
  as brings vibrant city views and a cozy afternoon tea experience aboard ou
  r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
  and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
  — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:buena-vista-social-club-touring-|music-hall-at-fair-park-dallas|1-00-pm
- -2026-11-15@letsdoitdallas.com
-DTSTAMP:20261115T190000Z
-DTSTART:20261115T190000Z
-DTEND:20261115T220000Z
-SUMMARY:Buena Vista Social Club (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=buena-vista-social-club-t
- ouring-%7Cmusic-hall-at-fair-park-dallas%7C1-00-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:elmo-s-got-the-moves|majestic-theatre-dallas-dallas|2-00-pm-2026-11-15@
- letsdoitdallas.com
-DTSTAMP:20261115T200000Z
-DTSTART:20261115T200000Z
-DTEND:20261115T230000Z
-SUMMARY:Elmo's Got the Moves
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=elmo-s-got-the-moves%7Cma
- jestic-theatre-dallas-dallas%7C2-00-pm
-DESCRIPTION:Children's Theatre event via Ticketmaster. — More: https://le
- tsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-stars-vs-florida-panthers|american-airlines-center-dallas|7-00-p
- m-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261116T010000Z
-DTSTART:20261116T010000Z
-DTEND:20261116T040000Z
-SUMMARY:Dallas Stars vs. Florida Panthers
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=dallas-stars-vs-florida-p
- anthers%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:olive-jones-us-tour-2026|the-cambridge-room-at-house-of-blues-dallas|7-
- 00-pm-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261116T010000Z
-DTSTART:20261116T010000Z
-DTEND:20261116T040000Z
-SUMMARY:Olive Jones US Tour 2026
-LOCATION:The Cambridge Room at House Of Blues · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=olive-jones-us-tour-2026%
- 7Cthe-cambridge-room-at-house-of-blues-dallas%7C7-00-pm
-DESCRIPTION:Jazz event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:honky-tonk-tuesday-with-cory-cross|poor-david-s-pub-dallas|doors-see-li
@@ -102,6 +37,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-17&e=honky-tonk-tuesday-with-c
  ory-cross%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-11-17@letsdoitdallas.com
+DTSTAMP:20261117T140000Z
+DTSTART:20261117T140000Z
+DTEND:20261117T170000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-17&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:dragonforce-inhuman-rampage-20th-anniversary|house-of-blues-dallas-dall
@@ -130,6 +81,22 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-11-18@letsdoitdallas.com
+DTSTAMP:20261118T140000Z
+DTSTART:20261118T140000Z
+DTEND:20261118T170000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-18&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-mavericks-vs-golden-state-warriors|american-airlines-center-dall
  as|7-00-pm-2026-11-18@letsdoitdallas.com
 DTSTAMP:20261119T010000Z
@@ -141,6 +108,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-18&e=dallas-mavericks-vs-golde
  n-state-warriors%7Camerican-airlines-center-dallas%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261119T140000Z
+DTSTART:20261119T140000Z
+DTEND:20261119T170000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:bryan-andrews|the-cambridge-room-at-house-of-blues-dallas|7-00-pm-2026-
@@ -538,6 +521,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=dr-seuss-how-the-grinch-s
  0-pm
 DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:true-colors|gilley-s-dallas-dallas|9-00-pm-2026-11-27@letsdoitdallas.co
+ m
+DTSTAMP:20261128T030000Z
+DTSTART:20261128T030000Z
+DTEND:20261128T060000Z
+SUMMARY:True Colors
+LOCATION:Gilley's Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=true-colors%7Cgilley-s-da
+ llas-dallas%7C9-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:dr-seuss-how-the-grinch-stole-christmas-the-musical-touring-|music-hall
@@ -1007,6 +1003,19 @@ DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:dallas-mavericks-vs-milwaukee-bucks|american-airlines-center-dallas|7-0
+ 0-pm-2026-12-14@letsdoitdallas.com
+DTSTAMP:20261215T010000Z
+DTSTART:20261215T010000Z
+DTEND:20261215T040000Z
+SUMMARY:Dallas Mavericks vs. Milwaukee Bucks
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-14&e=dallas-mavericks-vs-milwa
+ ukee-bucks%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:honky-tonk-tuesday-with-cory-cross|poor-david-s-pub-dallas|doors-see-li
  sting-2026-12-15@letsdoitdallas.com
 DTSTAMP:20261215T000000Z
@@ -1016,6 +1025,19 @@ SUMMARY:Honky Tonk Tuesday with Cory Cross
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-15&e=honky-tonk-tuesday-with-c
  ory-cross%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:grits-holiday-show-|poor-david-s-pub-dallas|doors-see-listing-2026-12-1
+ 6@letsdoitdallas.com
+DTSTAMP:20261216T000000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:GRITS Holiday Show!
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-16&e=grits-holiday-show-%7Cpoo
+ r-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
 END:VEVENT

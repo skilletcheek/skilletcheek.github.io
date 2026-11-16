@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-stars-vs-florida-panthers|american-airlines-center-dallas|7-00-p
- m-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261116T010000Z
-DTSTART:20261116T010000Z
-DTEND:20261116T040000Z
-SUMMARY:Dallas Stars vs. Florida Panthers
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=dallas-stars-vs-florida-p
- anthers%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:xg-world-tour-the-core-in-dallas|american-airlines-center-dallas|8-00-p
  m-2026-11-17@letsdoitdallas.com
 DTSTAMP:20261118T020000Z
@@ -246,5 +233,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-13&e=trans-siberian-orchestra-
  the-ghosts-of-christmas-eve%7Camerican-airlines-center-dallas%7C7-30-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-vs-milwaukee-bucks|american-airlines-center-dallas|7-0
+ 0-pm-2026-12-14@letsdoitdallas.com
+DTSTAMP:20261215T010000Z
+DTSTART:20261215T010000Z
+DTEND:20261215T040000Z
+SUMMARY:Dallas Mavericks vs. Milwaukee Bucks
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-14&e=dallas-mavericks-vs-milwa
+ ukee-bucks%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/american-airlines-center/
 END:VEVENT
 END:VCALENDAR

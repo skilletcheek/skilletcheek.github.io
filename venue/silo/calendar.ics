@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:solardo-ages-21-|silo-dallas|5-00-pm-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261115T230000Z
-DTSTART:20261115T230000Z
-DTEND:20261116T020000Z
-SUMMARY:Solardo - Ages 21+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=solardo-ages-21-%7Csilo-d
- allas%7C5-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:3ballmty-ages-18-|silo-dallas|9-00-pm-2026-11-19@letsdoitdallas.com
 DTSTAMP:20261120T030000Z
 DTSTART:20261120T030000Z

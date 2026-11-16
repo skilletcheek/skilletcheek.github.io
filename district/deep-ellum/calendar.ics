@@ -10,67 +10,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jennifer-pena-live|trees-dallas|doors-see-listing-2026-11-15@letsdoitda
- llas.com
-DTSTAMP:20261115T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:JENNIFER PENA LIVE
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=jennifer-pena-live%7Ctree
- s-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:pipe-hillcountry-halfwit-judge-roy-scream|three-links-deep-ellum-dallas
- |7-00-pm-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261116T010000Z
-DTSTART:20261116T010000Z
-DTEND:20261116T040000Z
-SUMMARY:Pipe\, Hillcountry\, Halfwit\, Judge Roy Scream
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=pipe-hillcountry-halfwit-
- judge-roy-scream%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:lizzie-morgan|the-studio-at-the-bomb-factory-dallas|7-30-pm-2026-11-15@
- letsdoitdallas.com
-DTSTAMP:20261116T013000Z
-DTSTART:20261116T013000Z
-DTEND:20261116T043000Z
-SUMMARY:Lizzie Morgan
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=lizzie-morgan%7Cthe-studi
- o-at-the-bomb-factory-dallas%7C7-30-pm
-DESCRIPTION:Religious event via Ticketmaster. — More: https://letsdoitdal
- las.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|10-00-pm-2026-11-15@letsdoitd
- allas.com
-DTSTAMP:20261116T040000Z
-DTSTART:20261116T040000Z
-DTEND:20261116T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
  -pm-2026-11-16@letsdoitdallas.com
-DTSTAMP:20261117T050000Z
-DTSTART:20261117T050000Z
-DTEND:20261117T080000Z
+DTSTAMP:20261117T040000Z
+DTSTART:20261117T040000Z
+DTEND:20261117T070000Z
 SUMMARY:Specialized Karaoke Night with RUEN
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-16&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
@@ -281,6 +229,32 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:11th-annual-kennedy-cruise|trees-dallas|doors-see-listing-2026-11-21@le
+ tsdoitdallas.com
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:11th Annual Kennedy Cruise
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=11th-annual-kennedy-cruis
+ e%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:block-party-|trees-dallas|doors-see-listing-2026-11-21@letsdoitdallas.c
+ om
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:BLOCK PARTY!
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=block-party-%7Ctrees-dall
+ as%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:jalen-ngonda|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-11-21@l
  etsdoitdallas.com
 DTSTAMP:20261122T020000Z
@@ -359,15 +333,15 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
  -pm-2026-11-23@letsdoitdallas.com
-DTSTAMP:20261124T050000Z
-DTSTART:20261124T050000Z
-DTEND:20261124T080000Z
+DTSTAMP:20261124T040000Z
+DTSTART:20261124T040000Z
+DTEND:20261124T070000Z
 SUMMARY:Specialized Karaoke Night with RUEN
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-23&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
@@ -515,15 +489,15 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
  -pm-2026-11-30@letsdoitdallas.com
-DTSTAMP:20261201T050000Z
-DTSTART:20261201T050000Z
-DTEND:20261201T080000Z
+DTSTAMP:20261201T040000Z
+DTSTART:20261201T040000Z
+DTEND:20261201T070000Z
 SUMMARY:Specialized Karaoke Night with RUEN
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-30&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT

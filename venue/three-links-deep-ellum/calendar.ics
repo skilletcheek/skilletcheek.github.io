@@ -9,41 +9,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pipe-hillcountry-halfwit-judge-roy-scream|three-links-deep-ellum-dallas
- |7-00-pm-2026-11-15@letsdoitdallas.com
-DTSTAMP:20261116T010000Z
-DTSTART:20261116T010000Z
-DTEND:20261116T040000Z
-SUMMARY:Pipe\, Hillcountry\, Halfwit\, Judge Roy Scream
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=pipe-hillcountry-halfwit-
- judge-roy-scream%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|10-00-pm-2026-11-15@letsdoitd
- allas.com
-DTSTAMP:20261116T040000Z
-DTSTART:20261116T040000Z
-DTEND:20261116T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
  -pm-2026-11-16@letsdoitdallas.com
-DTSTAMP:20261117T050000Z
-DTSTART:20261117T050000Z
-DTEND:20261117T080000Z
+DTSTAMP:20261117T040000Z
+DTSTART:20261117T040000Z
+DTEND:20261117T070000Z
 SUMMARY:Specialized Karaoke Night with RUEN
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-16&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
 END:VEVENT
@@ -178,15 +152,15 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
  -pm-2026-11-23@letsdoitdallas.com
-DTSTAMP:20261124T050000Z
-DTSTART:20261124T050000Z
-DTEND:20261124T080000Z
+DTSTAMP:20261124T040000Z
+DTSTART:20261124T040000Z
+DTEND:20261124T070000Z
 SUMMARY:Specialized Karaoke Night with RUEN
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-23&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
 END:VEVENT
@@ -296,15 +270,15 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|11-00
+UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
  -pm-2026-11-30@letsdoitdallas.com
-DTSTAMP:20261201T050000Z
-DTSTART:20261201T050000Z
-DTEND:20261201T080000Z
+DTSTAMP:20261201T040000Z
+DTSTART:20261201T040000Z
+DTEND:20261201T070000Z
 SUMMARY:Specialized Karaoke Night with RUEN
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-30&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C11-00-pm
+ -with-ruen%7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/three-links-deep-ellum/
 END:VEVENT

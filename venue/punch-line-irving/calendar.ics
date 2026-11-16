@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:comedy-allstars|punch-line-irving-irving|7-00-pm-2026-11-15@letsdoitdal
- las.com
-DTSTAMP:20261116T010000Z
-DTSTART:20261116T010000Z
-DTEND:20261116T040000Z
-SUMMARY:Comedy Allstars
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=comedy-allstars%7Cpunch-l
- ine-irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:jay-badlani|punch-line-irving-irving|7-00-pm-2026-11-15@letsdoitdallas.
- com
-DTSTAMP:20261116T010000Z
-DTSTART:20261116T010000Z
-DTEND:20261116T040000Z
-SUMMARY:Jay Badlani
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=jay-badlani%7Cpunch-line-
- irving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:whatever-gen-x-does-stand-up|punch-line-irving-irving|7-30-pm-2026-11-1
  8@letsdoitdallas.com
 DTSTAMP:20261119T013000Z

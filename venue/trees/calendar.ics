@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:jennifer-pena-live|trees-dallas|doors-see-listing-2026-11-15@letsdoitda
- llas.com
-DTSTAMP:20261115T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:JENNIFER PENA LIVE
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=jennifer-pena-live%7Ctree
- s-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
-END:VEVENT
-BEGIN:VEVENT
 UID:forbidden-tour|trees-dallas|doors-see-listing-2026-11-18@letsdoitdallas
  .com
 DTSTAMP:20261118T000000Z
@@ -57,6 +44,32 @@ URL:https://letsdoitdallas.com/?date=2026-11-20&e=southfm%7Ctrees-dallas%7C
  8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/trees/
+END:VEVENT
+BEGIN:VEVENT
+UID:11th-annual-kennedy-cruise|trees-dallas|doors-see-listing-2026-11-21@le
+ tsdoitdallas.com
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:11th Annual Kennedy Cruise
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=11th-annual-kennedy-cruis
+ e%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:block-party-|trees-dallas|doors-see-listing-2026-11-21@letsdoitdallas.c
+ om
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:BLOCK PARTY!
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=block-party-%7Ctrees-dall
+ as%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
+ /
 END:VEVENT
 BEGIN:VEVENT
 UID:n8noface|trees-dallas|7-30-pm-2026-11-24@letsdoitdallas.com

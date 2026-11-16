@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:michael-blackson|arlington-improv-arlington|7-00-pm-2026-11-15@letsdoit
- dallas.com
-DTSTAMP:20261116T010000Z
-DTSTART:20261116T010000Z
-DTEND:20261116T040000Z
-SUMMARY:Michael Blackson
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-15&e=michael-blackson%7Carling
- ton-improv-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-11-17@letsdoitdal
  las.com
 DTSTAMP:20261118T003000Z
