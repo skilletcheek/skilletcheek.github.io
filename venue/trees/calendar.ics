@@ -84,17 +84,17 @@ DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
-UID:as-i-lay-dying-the-curse-within-commissary|trees-dallas|doors-see-listi
- ng-2026-11-28@letsdoitdallas.com
-DTSTAMP:20261128T000000Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:AS I LAY DYING * THE CURSE WITHIN * COMMISSARY
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-28&e=as-i-lay-dying-the-curse-
- within-commissary%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+UID:as-i-lay-dying|trees-dallas-dallas|8-00-pm-2026-11-28@letsdoitdallas.co
+ m
+DTSTAMP:20261129T020000Z
+DTSTART:20261129T020000Z
+DTEND:20261129T050000Z
+SUMMARY:As I Lay Dying
+LOCATION:Trees - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=as-i-lay-dying%7Ctrees-da
+ llas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
 UID:darkest-hour|trees-dallas|doors-see-listing-2026-12-02@letsdoitdallas.c

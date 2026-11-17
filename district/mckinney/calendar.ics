@@ -10,30 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:music-movement-storytime-3-5-years-|6861-w-eldorado-pkwy-mckinney|11-30
- -am-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261117T173000Z
-DTSTART:20261117T173000Z
-DTEND:20261117T203000Z
-SUMMARY:Music & Movement Storytime (3-5 Years)
-LOCATION:6861 W. Eldorado Pkwy. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=music-movement-storytime-
- 3-5-years-%7C6861-w-eldorado-pkwy-mckinney%7C11-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:mad-science-k-5th-grade-|6861-w-eldorado-pkwy-mckinney|04-30-pm-2026-11
- -17@letsdoitdallas.com
-DTSTAMP:20261117T223000Z
-DTSTART:20261117T223000Z
-DTEND:20261118T013000Z
-SUMMARY:Mad Science (K-5th Grade)
-LOCATION:6861 W. Eldorado Pkwy. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=mad-science-k-5th-grade-%
- 7C6861-w-eldorado-pkwy-mckinney%7C04-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:american-mahjong-hour-adults-|6861-w-eldorado-parkway-mckinney|06-30-pm
  -2026-11-17@letsdoitdallas.com
 DTSTAMP:20261118T003000Z

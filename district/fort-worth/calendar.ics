@@ -10,23 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
- et-fort-worth-76107-united-states|10-00-am-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261117T160000Z
-DTSTART:20261117T160000Z
-DTEND:20261117T190000Z
-SUMMARY:Forces at Play
-LOCATION:Fort Worth Museum of Science and History
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=forces-at-play%7Cfort-wor
- th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
- -states%7C10-00-am
-DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
-  an interactive exhibit that explores the science behind some of the world
- ’s most beloved sports. Through hands-on activities and historical colle
- ctions\, visitors discover how forces like gravity\, friction\, and moment
- um impac — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
  ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-17@lets
  doitdallas.com
@@ -295,6 +278,38 @@ DESCRIPTION:Brad Williams leads an all star tribute to one of the greatest
  ost iconic jazz standards there are. A special Thursday night treat for mu
  sic lovers.  Show time: 8 pm – Doors open at 7 pm — More: https://lets
  doitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-show-playtown|magnolia-motor-lounge-3803-southwest-blvd-fort-worth
+ -76116-united-states|9-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T030000Z
+DTSTART:20261120T030000Z
+DTEND:20261120T060000Z
+SUMMARY:FREE SHOW - Playtown
+LOCATION:Magnolia Motor Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=free-show-playtown%7Cmagn
+ olia-motor-lounge-3803-southwest-blvd-fort-worth-76116-united-states%7C9-0
+ 0-pm
+DESCRIPTION:FREE SHOW – Playtown Doors at 7:00 PM  – Show at 8:00 PM 
+     FREE GA   Ages 21+ — More: https://letsdoitdallas.com/district/fort
+ -worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:christmas-in-the-garden|fort-worth-botanic-garden-1700-university-drive
+ -fort-worth-76107-united-states|all-day-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Christmas in the Garden
+LOCATION:Fort Worth Botanic Garden
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=christmas-in-the-garden%7
+ Cfort-worth-botanic-garden-1700-university-drive-fort-worth-76107-united-s
+ tates%7Call-day
+DESCRIPTION:The Fort Worth Botanic Garden\, in partnership with Sony Music\
+ , is excited to bring back Christmas in the Garden\, the beloved holiday t
+ radition that transforms Fort Worth’s most beautiful green space into a 
+ shimmering winter wonderland filled with the sounds of the season. Running
+  — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:tcu-horned-frogs-womens-volleyball-vs-arizona-state-sun-devils-womens-v

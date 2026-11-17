@@ -113,6 +113,19 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:minka-electric-tongues-ellum|three-links-deep-ellum-dallas|7-30-pm-2026
+ -11-19@letsdoitdallas.com
+DTSTAMP:20261120T013000Z
+DTSTART:20261120T013000Z
+DTEND:20261120T043000Z
+SUMMARY:MINKA\, Electric Tongues \, Ellum
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=minka-electric-tongues-el
+ lum%7Cthree-links-deep-ellum-dallas%7C7-30-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:alex-jean|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-11-19@lets
  doitdallas.com
 DTSTAMP:20261120T020000Z
@@ -124,19 +137,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-19&e=alex-jean%7Cthe-studio-at
  -the-bomb-factory-dallas%7C8-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:minka-electric-tongues|three-links-deep-ellum-dallas|8-00-pm-2026-11-19
- @letsdoitdallas.com
-DTSTAMP:20261120T020000Z
-DTSTART:20261120T020000Z
-DTEND:20261120T050000Z
-SUMMARY:MINKA\, Electric Tongues
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=minka-electric-tongues%7C
- three-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:daley|trees-dallas|8-30-pm-2026-11-19@letsdoitdallas.com
@@ -411,19 +411,6 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:as-i-lay-dying-the-curse-within-commissary|trees-dallas|doors-see-listi
- ng-2026-11-28@letsdoitdallas.com
-DTSTAMP:20261128T000000Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:AS I LAY DYING * THE CURSE WITHIN * COMMISSARY
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-28&e=as-i-lay-dying-the-curse-
- within-commissary%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:maximum-aggression-xcape-venadryl-eyebleed|three-links-deep-ellum-dalla
  s|7-00-pm-2026-11-28@letsdoitdallas.com
 DTSTAMP:20261129T010000Z
@@ -435,6 +422,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=maximum-aggression-xcape-
  venadryl-eyebleed%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:as-i-lay-dying|trees-dallas-dallas|8-00-pm-2026-11-28@letsdoitdallas.co
+ m
+DTSTAMP:20261129T020000Z
+DTSTART:20261129T020000Z
+DTEND:20261129T050000Z
+SUMMARY:As I Lay Dying
+LOCATION:Trees - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=as-i-lay-dying%7Ctrees-da
+ llas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:emo-nite-18-|deep-ellum-live-dallas|9-00-pm-2026-11-28@letsdoitdallas.c
