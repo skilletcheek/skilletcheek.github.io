@@ -249,6 +249,17 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:bowling|frisco|01-00-pm-2026-12-01@letsdoitdallas.com
+DTSTAMP:20261201T190000Z
+DTSTART:20261201T190000Z
+DTEND:20261201T220000Z
+SUMMARY:Bowling
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=bowling%7Cfrisco%7C01-00-
+ pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:portland-timbers-at-fc-dallas-western-conference-round-one-home-game-2-
  if-necessary-|toyota-stadium-frisco|see-details-2026-12-02@letsdoitdallas.
  com

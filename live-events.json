@@ -1,17 +1,5 @@
 [
  {
-  "name": "Specialized Karaoke Night with RUEN",
-  "category": "music",
-  "area": "Three Links Deep Ellum, Dallas",
-  "city": "Dallas",
-  "date": "2026-11-16",
-  "time": "10:00 PM",
-  "cost": 0,
-  "description": "Alternative event via Ticketmaster.",
-  "url": "https://www.ticketweb.com/event/specialized-karaoke-night-with-ruen-three-links-deep-ellum-tickets/14405094",
-  "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_16_9.jpg"
- },
- {
   "name": "A Very Stix Christmas",
   "category": "food",
   "area": "McKinney",
@@ -140,38 +128,6 @@
   }
  },
  {
-  "name": "Baby & Me Storytime (0-18 Months)",
-  "category": "family",
-  "area": "DeSoto",
-  "city": "DeSoto",
-  "date": "2026-11-17",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.desototexas.gov/Calendar.aspx?EID=1811",
-  "image": null,
-  "organizer": {
-   "name": "City of DeSoto",
-   "url": "https://desototexas.gov/"
-  }
- },
- {
-  "name": "Baby Bounce & Read (Birth-18 Months)",
-  "category": "family",
-  "area": "Central Library, Garland",
-  "city": "Garland",
-  "date": "2026-11-17",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "10:00 a.m.; Babies, birth to 18 months, and their caregivers will learn, play, and grow together in this lap-sit storytime that introduces books, rhymes, tickles, and bounces designed to incorporate early literacy practices into their everyday lives. November 17, 2026 10:00 AM - ",
-  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=12920",
-  "image": null,
-  "organizer": {
-   "name": "City of Garland",
-   "url": "https://garlandtx.gov/"
-  }
- },
- {
   "name": "Baby Story Time",
   "category": "family",
   "area": "Lancaster",
@@ -188,38 +144,6 @@
   }
  },
  {
-  "name": "Baby Story Time",
-  "category": "family",
-  "area": "1400 Main Street, Suite 130, Southlake",
-  "city": "Southlake",
-  "date": "2026-11-17",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://southlake.libcal.com/calendar?cid=21458&t=g&d=0000-00-00&cal=21458&audience=10074&ct=80114&inc=0",
-  "image": null,
-  "organizer": {
-   "name": "City of Southlake",
-   "url": "https://www.cityofsouthlake.com/"
-  }
- },
- {
-  "name": "Baby Story Time (0 to 12 months)",
-  "category": "family",
-  "area": "8383 Preston Center Plaza, Suite 200, University Park",
-  "city": "University Park",
-  "date": "2026-11-17",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "Intended for non-walkers and crawlers ages 0 to 12 months. Stories, movement and music for babies and caregivers to enjoy together. November 17, 2026 10:30 AM - 11:00 AM 8383 Preston Center Plaza Suite 200University Park, TX 75205 https://www.uptexas.org/Calendar.aspx?EID=3372/63",
-  "url": "https://www.uptexas.org/Calendar.aspx?EID=3372",
-  "image": null,
-  "organizer": {
-   "name": "City of University Park",
-   "url": "https://uptexas.org/"
-  }
- },
- {
   "name": "Beginner's Yoga",
   "category": "sports",
   "area": "310 E. Parkerville Road, Cedar Hill",
@@ -233,22 +157,6 @@
   "organizer": {
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
-  }
- },
- {
-  "name": "Bilingual Toddler Storytime",
-  "category": "family",
-  "area": "300 West Grubb Drive, Mesquite",
-  "city": "Mesquite",
-  "date": "2026-11-17",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "Library storytime will meet every Tuesday at 10:30 AM at theMain Library. Join us as we read books and learn fun songs. For more information, please call the Main Library at 972-216-6220. November 17, 2026 10:30 AM - 11:00 AM 300 West Grubb DriveMesquite, TX 75149 https://www.cit",
-  "url": "https://www.cityofmesquite.com/Calendar.aspx?EID=11813",
-  "image": null,
-  "organizer": {
-   "name": "City of Mesquite",
-   "url": "https://cityofmesquite.com/"
   }
  },
  {
@@ -300,6 +208,18 @@
   }
  },
  {
+  "name": "Camerata and Chorale",
+  "category": "music",
+  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
+  "city": "Denton",
+  "date": "2026-11-17",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.",
+  "url": "https://calendar.unt.edu/event/concert-choir-and-chorale5",
+  "image": null
+ },
+ {
   "name": "Chase Petra w/ JER",
   "category": "music",
   "area": "AM/FM Dallas, Dallas",
@@ -338,18 +258,6 @@
    "name": "City of Garland",
    "url": "https://garlandtx.gov/"
   }
- },
- {
-  "name": "Dock Open Mic",
-  "category": "festival",
-  "area": "dock bookshop, 6637 Meadowbrook Dr, Fort Worth Tx, 75116",
-  "city": null,
-  "date": "2026-11-17",
-  "time": "7:00 AM",
-  "cost": null,
-  "description": "The Dock open mic presents Speak And Be Published. Everyone who reads gets their poem published in an anthology   June 16, 2026 at 7:30 PM CDT  The Dock Bookshop  $7",
-  "url": "https://whatsupfortworth.com/event/dock-open-mic-with-mike-g/2026-11-17/",
-  "image": null
  },
  {
   "name": "Dominoes",
@@ -572,22 +480,6 @@
   "image": "https://s1.ticketm.net/dam/a/d59/79828ecd-727b-444e-a6c6-c04e33708d59_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Little Picasso Art Class",
-  "category": "arts",
-  "area": "1700 Veterans Memorial Parkway, Lancaster",
-  "city": "Lancaster",
-  "date": "2026-11-17",
-  "time": "10:15 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8456",
-  "image": null,
-  "organizer": {
-   "name": "City of Lancaster",
-   "url": "https://lancaster-tx.com/"
-  }
- },
- {
   "name": "Lyle Lovett and his Small Large Band",
   "category": "music",
   "area": "Bass Performance Hall, Fort Worth",
@@ -756,18 +648,6 @@
   }
  },
  {
-  "name": "Sinfonietta Fall Concert",
-  "category": "music",
-  "area": "Recital Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-11-17",
-  "time": "5:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/sinfonietta-fall-concert26",
-  "image": null
- },
- {
   "name": "Spanish Conversation Circle (Ages 18+)",
   "category": "family",
   "area": "South Garland Library, Garland",
@@ -796,38 +676,6 @@
   "image": [
    "https://speeddatingdallas.com/images/fifty13-speed-dating-divorced.jpg"
   ]
- },
- {
-  "name": "Story Time for Tots (18mo-3Y)",
-  "category": "family",
-  "area": "104 S. Wisteria St., Mansfield",
-  "city": "Mansfield",
-  "date": "2026-11-17",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "Come enjoy books, songs, finger-plays and rhymes. Story Time for Tots introduces toddlers and parents to developmentally appropriate literature and related activities. It introduces group listening skills and provides interaction with others. Tickets are required for this storyti",
-  "url": "https://www.mansfieldtexas.gov/Calendar.aspx?EID=9048",
-  "image": null,
-  "organizer": {
-   "name": "City of Mansfield",
-   "url": "https://www.mansfieldtexas.gov/"
-  }
- },
- {
-  "name": "Storytime for Toddlers/Preschoolers",
-  "category": "family",
-  "area": "Grapevine",
-  "city": "Grapevine",
-  "date": "2026-11-17",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "Books, songs, parachutes and more! Toddlers/Preschoolers are welcome and no registrations is needed. (This is a Ticketed Program; please stop at the Children's Desk 15 minutes before the program to receive tickets. 1 per attendee.) November 17, 2026 10:30 AM - 11:00 AM Grapevine,",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17861",
-  "image": null,
-  "organizer": {
-   "name": "City of Grapevine",
-   "url": "https://grapevinetexas.gov/"
-  }
  },
  {
   "name": "Tea Around Town® Dallas",
@@ -934,38 +782,6 @@
   "image": null
  },
  {
-  "name": "Tiny Tots Sensory Adventures",
-  "category": "family",
-  "area": "1700 Veterans Memorial Parkway, Lancaster",
-  "city": "Lancaster",
-  "date": "2026-11-17",
-  "time": "09:15 AM",
-  "cost": null,
-  "description": "Sensory Play November 17, 2026 09:15 AM - 10:00 AM 1700 Veterans Memorial ParkwayLancaster, TX 75146 https://www.lancaster-tx.com/Calendar.aspx?EID=8379/639220566530000000",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8379",
-  "image": null,
-  "organizer": {
-   "name": "City of Lancaster",
-   "url": "https://lancaster-tx.com/"
-  }
- },
- {
-  "name": "Toddler Storytime",
-  "category": "family",
-  "area": "12450 Elam Rd, Balch Springs",
-  "city": "Balch Springs",
-  "date": "2026-11-17",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.balchspringstx.gov/Calendar.aspx?EID=4642",
-  "image": null,
-  "organizer": {
-   "name": "City of Balch Springs",
-   "url": "https://www.cityofbalchsprings.com/"
-  }
- },
- {
   "name": "Toddler Time (18-36 Months)",
   "category": "family",
   "area": "Central Library, Garland",
@@ -982,6 +798,18 @@
   }
  },
  {
+  "name": "UNT Guitar Ensemble Concert",
+  "category": "music",
+  "area": "Recital Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-11-17",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.     This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/unt-guitar-ensemble-concert262",
+  "image": null
+ },
+ {
   "name": "Unwind with Yarn (Adults)",
   "category": "arts",
   "area": "6861 W Eldorado Parkway, McKinney",
@@ -991,22 +819,6 @@
   "cost": null,
   "description": "",
   "url": "https://mckinneytexas.libcal.com/calendar/jjgl/fall2026_unwindwithyarn",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
-  "name": "Wobblers & Walkers (10-20 Months)",
-  "category": "sports",
-  "area": "6861 W Eldorado Parkway, McKinney",
-  "city": "McKinney",
-  "date": "2026-11-17",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/Fall_WobblersWalkers",
   "image": null,
   "organizer": {
    "name": "City of McKinney",
@@ -1334,18 +1146,6 @@
   "image": null
  },
  {
-  "name": "Doctoral Recital: Henry Cao, saxophone",
-  "category": "music",
-  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-11-18",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/doctoral-recital-henry-cao-saxophone",
-  "image": null
- },
- {
   "name": "Doctoral Recital: Hunter Gross, percussion",
   "category": "music",
   "area": "Recital Hall at the Music Building, Denton",
@@ -1358,15 +1158,15 @@
   "image": null
  },
  {
-  "name": "Doctoral Recital: John Griffin, clarinet",
+  "name": "Doctoral Recital: Shengjie Liu, piano",
   "category": "music",
   "area": "Paul Voertman Concert Hall at the Music Building, Denton",
   "city": "Denton",
   "date": "2026-11-18",
-  "time": "5:00 PM",
+  "time": "6:30 PM",
   "cost": null,
-  "description": "Important Links and Information      Program  Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/doctoral-recital-john-griffin-clarinet",
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/doctoral-recital-shengjie-liu-piano",
   "image": null
  },
  {
@@ -2276,7 +2076,7 @@
   "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/Disappear_Here_EFCF560F-E995-A481-D23F096F79E82BE2_efd86d7e-abaa-dc5e-44c82bd23aaeace0.jpg"
  },
  {
-  "name": "Adult Pickleball: Adult Intermediate",
+  "name": "Adult Pickleball: Adult Beginner",
   "category": "sports",
   "area": "621 S Coit Rd., Prosper",
   "city": "Prosper",
@@ -2284,7 +2084,7 @@
   "time": "See details",
   "cost": null,
   "description": "",
-  "url": "https://www.prospertx.gov/Calendar.aspx?EID=6359",
+  "url": "https://www.prospertx.gov/Calendar.aspx?EID=6343",
   "image": null,
   "organizer": {
    "name": "Town of Prosper",
@@ -2968,15 +2768,15 @@
   }
  },
  {
-  "name": "Masters Recital: Nicolas Clark, jazz cello",
+  "name": "Monk’s Music; A Tribute to the Thelonious Monk",
   "category": "music",
-  "area": "Lab West at the Music Building, Denton",
-  "city": "Denton",
+  "area": "Scat Jazz Lounge, 111 W 4th St, Fort Worth, 76102, United States",
+  "city": "Fort Worth",
   "date": "2026-11-19",
   "time": "8:00 PM",
   "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/masters-recital-nicolas-clark-jazz-cello",
+  "description": "Brad Williams leads an all star tribute to one of the greatest jazz pianists and composers, Thelonious Monk. An evening of some of the most iconic jazz standards there are. A special Thursday night treat for music lovers.  Show time: 8 pm – Doors open at 7 pm",
+  "url": "https://whatsupfortworth.com/event/monks-music-a-tribute-to-the-thelonious-monk/",
   "image": null
  },
  {
@@ -3148,7 +2948,7 @@
   "time": "06:00 PM",
   "cost": null,
   "description": "Kiddos ages 8 to 12 are invited to join us the third Thursday of each month at 6:00 p.m. as we explore the various parts of S.T.E.A.M. through hands-on activities! All materials will be provided and registration is required November 19, 2026 06:00 PM - 07:00 PM 104 S. Wisteria St",
-  "url": "https://www.mansfieldtexas.gov/Calendar.aspx?EID=9109",
+  "url": "https://www.mansfieldtexas.gov/Calendar.aspx?EID=9071",
   "image": null,
   "organizer": {
    "name": "City of Mansfield",
@@ -3342,6 +3142,18 @@
    "name": "City of Grapevine",
    "url": "https://grapevinetexas.gov/"
   }
+ },
+ {
+  "name": "Wind Symphony and Wind Orchestra",
+  "category": "music",
+  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
+  "city": "Denton",
+  "date": "2026-11-19",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link below.      Patron assistance carts will be available at this performance to assist those with mobil",
+  "url": "https://calendar.unt.edu/event/wind-symphony-and-wind-orchestra5",
+  "image": null
  },
  {
   "name": "Yogalates",
@@ -3756,15 +3568,15 @@
   "image": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Doctoral Recital: Nicholas Losos, trombone",
+  "name": "Doctoral Recital: Yan Li, collaborative piano",
   "category": "music",
   "area": "Recital Hall at the Music Building, Denton",
   "city": "Denton",
   "date": "2026-11-20",
-  "time": "5:00 PM",
+  "time": "6:30 PM",
   "cost": null,
   "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/doctoral-recital-nicholas-losos-trombone",
+  "url": "https://calendar.unt.edu/event/doctoral-recital-yan-li-collaborative-piano",
   "image": null
  },
  {
@@ -3778,18 +3590,6 @@
   "description": "Theatre event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pge3",
   "image": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Early Music Concert",
-  "category": "music",
-  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-11-20",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information     Program  Please note, this program is subject to change. Final program will be available by the day of the performance.     Livestream link below.",
-  "url": "https://calendar.unt.edu/event/copy-of-baroque-orchestra",
-  "image": null
  },
  {
   "name": "Elijah Scott",
@@ -4042,18 +3842,6 @@
    "name": "City of Grapevine",
    "url": "https://grapevinetexas.gov/"
   }
- },
- {
-  "name": "Masters Recital: Brandon Lau, piano",
-  "category": "music",
-  "area": "Recital Hall at the Music Building, Denton",
-  "city": "Denton",
-  "date": "2026-11-20",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
-  "url": "https://calendar.unt.edu/event/masters-recital-brandon-lau-piano",
-  "image": null
  },
  {
   "name": "Mystic Pizza - The Musical - Dallas",
@@ -10844,6 +10632,214 @@
   "image": "https://s1.ticketm.net/dam/e/2d7/fe113ce1-a334-42e5-b9d1-86458445c2d7_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "ABCs of Medicare (18+)",
+  "category": "family",
+  "area": "104 S. Wisteria St., Mansfield",
+  "city": "Mansfield",
+  "date": "2026-12-01",
+  "time": "06:00 PM",
+  "cost": null,
+  "description": "Do you have questions about Medicare and didn’t know what to ask or who to ask? Here’s your opportunity to ask those questions in a casual setting. Join a representative that will discuss your rights, options, and entitlements so you can make informed decisions about Medicare. Pr",
+  "url": "https://www.mansfieldtexas.gov/Calendar.aspx?EID=9088",
+  "image": null,
+  "organizer": {
+   "name": "City of Mansfield",
+   "url": "https://www.mansfieldtexas.gov/"
+  }
+ },
+ {
+  "name": "American Mahjong Hour (Adults)",
+  "category": "family",
+  "area": "6861 W Eldorado Parkway, McKinney",
+  "city": "McKinney",
+  "date": "2026-12-01",
+  "time": "06:30 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/winter_Tuesday_AmericanMahjongHour",
+  "image": null,
+  "organizer": {
+   "name": "City of McKinney",
+   "url": "https://mckinneytexas.org/"
+  }
+ },
+ {
+  "name": "Art Studio (18+)",
+  "category": "arts",
+  "area": "Grapevine",
+  "city": "Grapevine",
+  "date": "2026-12-01",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "Use our sewing machines, Cricut, and other tools to work on your own projects or start something new. Bring your own project and ideas! This is a welcoming space for creatives 18+. *Library Card Required* December 1, 2026 10:00 AM - 01:00 PM Grapevine, TX 76051 https://www.grapev",
+  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17412",
+  "image": null,
+  "organizer": {
+   "name": "City of Grapevine",
+   "url": "https://grapevinetexas.gov/"
+  }
+ },
+ {
+  "name": "Art is Life",
+  "category": "arts",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-01",
+  "time": "05:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=17750",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "Baby & Me Storytime (0-18 Months)",
+  "category": "family",
+  "area": "DeSoto",
+  "city": "DeSoto",
+  "date": "2026-12-01",
+  "time": "10:30 AM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.desototexas.gov/Calendar.aspx?EID=1813",
+  "image": null,
+  "organizer": {
+   "name": "City of DeSoto",
+   "url": "https://desototexas.gov/"
+  }
+ },
+ {
+  "name": "Baby Story Time",
+  "category": "family",
+  "area": "Lancaster",
+  "city": "Lancaster",
+  "date": "2026-12-01",
+  "time": "11:30 AM",
+  "cost": null,
+  "description": "Rhymes, songs, and movement December 1, 2026 11:30 AM - 12:30 PM Lancaster, TX 75146 https://www.lancaster-tx.com/Calendar.aspx?EID=7683/639077970340000000",
+  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=7683",
+  "image": null,
+  "organizer": {
+   "name": "City of Lancaster",
+   "url": "https://lancaster-tx.com/"
+  }
+ },
+ {
+  "name": "Baby Story Time",
+  "category": "family",
+  "area": "1400 Main Street, Suite 130, Southlake",
+  "city": "Southlake",
+  "date": "2026-12-01",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "",
+  "url": "https://southlake.libcal.com/calendar?cid=21458&t=g&d=0000-00-00&cal=21458&audience=10074&ct=80114&inc=0",
+  "image": null,
+  "organizer": {
+   "name": "City of Southlake",
+   "url": "https://www.cityofsouthlake.com/"
+  }
+ },
+ {
+  "name": "Beginner's Yoga",
+  "category": "sports",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-01",
+  "time": "07:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=17804",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "Bilingual Toddler Storytime",
+  "category": "family",
+  "area": "300 West Grubb Drive, Mesquite",
+  "city": "Mesquite",
+  "date": "2026-12-01",
+  "time": "10:30 AM",
+  "cost": null,
+  "description": "Library storytime will meet every Tuesday at 10:30 AM at theMain Library. Join us as we read books and learn fun songs. For more information, please call the Main Library at 972-216-6220. December 1, 2026 10:30 AM - 11:00 AM 300 West Grubb DriveMesquite, TX 75149 https://www.city",
+  "url": "https://www.cityofmesquite.com/Calendar.aspx?EID=11815",
+  "image": null,
+  "organizer": {
+   "name": "City of Mesquite",
+   "url": "https://cityofmesquite.com/"
+  }
+ },
+ {
+  "name": "Bowling",
+  "category": "family",
+  "area": "Frisco",
+  "city": "Frisco",
+  "date": "2026-12-01",
+  "time": "01:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.prospertx.gov/Calendar.aspx?EID=5463",
+  "image": null,
+  "organizer": {
+   "name": "Town of Prosper",
+   "url": "https://prospertx.gov/"
+  }
+ },
+ {
+  "name": "CHAT Youth Empowerment Program",
+  "category": "family",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-01",
+  "time": "04:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=17976",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "Canceled | McKinney Urban Transit District Board (MUTD)",
+  "category": "family",
+  "area": "401 E. Virginia St., McKinney",
+  "city": "McKinney",
+  "date": "2026-12-01",
+  "time": "05:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.mckinneytexas.org/Calendar.aspx?EID=37476",
+  "image": null,
+  "organizer": {
+   "name": "City of McKinney",
+   "url": "https://mckinneytexas.org/"
+  }
+ },
+ {
+  "name": "Community Blood Drive at the Library",
+  "category": "family",
+  "area": "Grapevine",
+  "city": "Grapevine",
+  "date": "2026-12-01",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "The library is partnering with the American Red Cross to host a community blood drive and invite neighbors to make a life-saving difference. Donating blood is a simple act that can help patients in emergencies, surgeries, and ongoing medical care. Whether you’re a first-time dono",
+  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16808",
+  "image": null,
+  "organizer": {
+   "name": "City of Grapevine",
+   "url": "https://grapevinetexas.gov/"
+  }
+ },
+ {
   "name": "David Archuleta",
   "category": "music",
   "area": "Arlington Music Hall, Arlington",
@@ -10868,6 +10864,22 @@
   "image": null
  },
  {
+  "name": "Dominoes",
+  "category": "family",
+  "area": "407 E. First St., Prosper",
+  "city": "Prosper",
+  "date": "2026-12-01",
+  "time": "09:00 AM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.prospertx.gov/Calendar.aspx?EID=6624",
+  "image": null,
+  "organizer": {
+   "name": "Town of Prosper",
+   "url": "https://prospertx.gov/"
+  }
+ },
+ {
   "name": "Honky Tonk Tuesday with Texas Zephyrs",
   "category": "music",
   "area": "Poor David's Pub, Dallas",
@@ -10878,6 +10890,54 @@
   "description": "Live at Poor David's Pub.",
   "url": "http://www.prekindle.com/event/74182-honky-tonk-tuesday-with-texas-zephers-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527948943319487"
+ },
+ {
+  "name": "Inferno Volleyball: Youth Volleyball Program",
+  "category": "family",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-01",
+  "time": "06:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=19530",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "Keep Mesquite Beautiful Youth Environmental Leaders Meeting",
+  "category": "family",
+  "area": "1616 N Galloway Ave, Mesquite",
+  "city": "Mesquite",
+  "date": "2026-12-01",
+  "time": "05:15 PM",
+  "cost": null,
+  "description": "Youth Environmental Leaders is open to high school students who live in or attend school in Mesquite. Students may earn service hours while making a difference in the Mesquite environment! Students may join at any time during the year. Competitive scholarships are available to YE",
+  "url": "https://www.cityofmesquite.com/Calendar.aspx?EID=11069",
+  "image": null,
+  "organizer": {
+   "name": "City of Mesquite",
+   "url": "https://cityofmesquite.com/"
+  }
+ },
+ {
+  "name": "Kids Jam ages 5-12",
+  "category": "family",
+  "area": "1700 Veterans Memorial Parkway, Lancaster",
+  "city": "Lancaster",
+  "date": "2026-12-01",
+  "time": "05:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8432",
+  "image": null,
+  "organizer": {
+   "name": "City of Lancaster",
+   "url": "https://lancaster-tx.com/"
+  }
  },
  {
   "name": "Legacy of the Longhorn",
@@ -10908,6 +10968,86 @@
   }
  },
  {
+  "name": "Little Picasso Art Class",
+  "category": "arts",
+  "area": "1700 Veterans Memorial Parkway, Lancaster",
+  "city": "Lancaster",
+  "date": "2026-12-01",
+  "time": "10:15 AM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8458",
+  "image": null,
+  "organizer": {
+   "name": "City of Lancaster",
+   "url": "https://lancaster-tx.com/"
+  }
+ },
+ {
+  "name": "Mad Science (K-5th Grade)",
+  "category": "family",
+  "area": "6861 W. Eldorado Pkwy., McKinney",
+  "city": "McKinney",
+  "date": "2026-12-01",
+  "time": "04:30 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/madscience_winter",
+  "image": null,
+  "organizer": {
+   "name": "City of McKinney",
+   "url": "https://mckinneytexas.org/"
+  }
+ },
+ {
+  "name": "Mahjongg: Instructional Play (18+)",
+  "category": "family",
+  "area": "104 S. Wisteria St., Mansfield",
+  "city": "Mansfield",
+  "date": "2026-12-01",
+  "time": "01:00 PM",
+  "cost": null,
+  "description": "Join us for Mahjong at the library! The first Tuesday of each month is an instructional play session for beginners and those looking to build their skills. Registration is required. December 1, 2026 01:00 PM - 03:00 PM 104 S. Wisteria St.Mansfield, TX 76063 https://www.mansfieldt",
+  "url": "https://www.mansfieldtexas.gov/Calendar.aspx?EID=9111",
+  "image": null,
+  "organizer": {
+   "name": "City of Mansfield",
+   "url": "https://www.mansfieldtexas.gov/"
+  }
+ },
+ {
+  "name": "Music & Movement Storytime (3-5 Years)",
+  "category": "family",
+  "area": "6861 W. Eldorado Pkwy., McKinney",
+  "city": "McKinney",
+  "date": "2026-12-01",
+  "time": "11:30 AM",
+  "cost": null,
+  "description": "",
+  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/winter_MusicMovement",
+  "image": null,
+  "organizer": {
+   "name": "City of McKinney",
+   "url": "https://mckinneytexas.org/"
+  }
+ },
+ {
+  "name": "Preschool Open Play",
+  "category": "family",
+  "area": "1400 Main Street, Suite 130, Southlake",
+  "city": "Southlake",
+  "date": "2026-12-01",
+  "time": "11:15 AM",
+  "cost": null,
+  "description": "",
+  "url": "https://southlake.libcal.com/calendar?cid=21458&t=g&d=0000-00-00&cal=21458&audience=10073&ct=80114&inc=0",
+  "image": null,
+  "organizer": {
+   "name": "City of Southlake",
+   "url": "https://www.cityofsouthlake.com/"
+  }
+ },
+ {
   "name": "SMU Mustangs Mens Basketball vs. Stephen F. Austin Lumberjacks Mens Basketball",
   "category": "sports",
   "area": "Moody Coliseum, Dallas",
@@ -10921,6 +11061,38 @@
   "organizer": {
    "name": "SMU Mustangs",
    "url": "https://smumustangs.com"
+  }
+ },
+ {
+  "name": "Senior Gentle Yoga (Instructor Led)",
+  "category": "sports",
+  "area": "Bedford",
+  "city": "Bedford",
+  "date": "2026-12-01",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "Come enjoy a very exciting and intense yoga class led by our instructor Marsha! Chairs are provided upon request. December 1, 2026 10:00 AM - 11:00 AM Bedford, TX 76021 https://bedfordtx.gov/Calendar.aspx?EID=19199/639301677060000000",
+  "url": "https://bedfordtx.gov/Calendar.aspx?EID=19199",
+  "image": null,
+  "organizer": {
+   "name": "City of Bedford",
+   "url": "https://www.bedfordtx.gov/"
+  }
+ },
+ {
+  "name": "Sensory Santa & Christmas Shoppe",
+  "category": "family",
+  "area": "250 W First St., Prosper",
+  "city": "Prosper",
+  "date": "2026-12-01",
+  "time": "04:30 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.prospertx.gov/Calendar.aspx?EID=6557",
+  "image": null,
+  "organizer": {
+   "name": "Town of Prosper",
+   "url": "https://prospertx.gov/"
   }
  },
  {
@@ -10938,6 +11110,54 @@
   ]
  },
  {
+  "name": "Story Time for Tots (18mo-3Y)",
+  "category": "family",
+  "area": "Geyer Commons, Mansfield",
+  "city": "Mansfield",
+  "date": "2026-12-01",
+  "time": "10:30 AM",
+  "cost": null,
+  "description": "Come enjoy books, songs, finger-plays and rhymes. Story Time for Tots introduces toddlers and parents to developmentally appropriate literature and related activities. It introduces group listening skills and provides interaction with others. This event will be held at Geyer Comm",
+  "url": "https://www.mansfieldtexas.gov/Calendar.aspx?EID=9106",
+  "image": null,
+  "organizer": {
+   "name": "City of Mansfield",
+   "url": "https://www.mansfieldtexas.gov/"
+  }
+ },
+ {
+  "name": "Storytime for Toddlers/Preschoolers",
+  "category": "family",
+  "area": "Grapevine",
+  "city": "Grapevine",
+  "date": "2026-12-01",
+  "time": "10:30 AM",
+  "cost": null,
+  "description": "Books, songs, parachutes and more! Toddlers/Preschoolers are welcome and no registrations is needed. (This is a Ticketed Program; please stop at the Children's Desk 15 minutes before the program to receive tickets. 1 per attendee.) December 1, 2026 10:30 AM - 11:00 AM Grapevine, ",
+  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17865",
+  "image": null,
+  "organizer": {
+   "name": "City of Grapevine",
+   "url": "https://grapevinetexas.gov/"
+  }
+ },
+ {
+  "name": "Teen Tuesdays - Teen Holiday Gift Making Party",
+  "category": "family",
+  "area": "DeSoto",
+  "city": "DeSoto",
+  "date": "2026-12-01",
+  "time": "05:30 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.desototexas.gov/Calendar.aspx?EID=1951",
+  "image": null,
+  "organizer": {
+   "name": "City of DeSoto",
+   "url": "https://desototexas.gov/"
+  }
+ },
+ {
   "name": "The Music of Johnny Mathis",
   "category": "festival",
   "area": "Casa Manana, Fort Worth",
@@ -10948,6 +11168,118 @@
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P4qd",
   "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "Tiny Tots Sensory Adventures",
+  "category": "family",
+  "area": "1700 Veterans Memorial Parkway, Lancaster",
+  "city": "Lancaster",
+  "date": "2026-12-01",
+  "time": "09:15 AM",
+  "cost": null,
+  "description": "Sensory Play December 1, 2026 09:15 AM - 10:00 AM 1700 Veterans Memorial ParkwayLancaster, TX 75146 https://www.lancaster-tx.com/Calendar.aspx?EID=8381/639220566530000000",
+  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8381",
+  "image": null,
+  "organizer": {
+   "name": "City of Lancaster",
+   "url": "https://lancaster-tx.com/"
+  }
+ },
+ {
+  "name": "Toddler Storytime",
+  "category": "family",
+  "area": "12450 Elam Rd, Balch Springs",
+  "city": "Balch Springs",
+  "date": "2026-12-01",
+  "time": "10:30 AM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.balchspringstx.gov/Calendar.aspx?EID=4644",
+  "image": null,
+  "organizer": {
+   "name": "City of Balch Springs",
+   "url": "https://www.cityofbalchsprings.com/"
+  }
+ },
+ {
+  "name": "Welcome to Night Vale Game (18+)",
+  "category": "family",
+  "area": "104 S. Wisteria St., Mansfield",
+  "city": "Mansfield",
+  "date": "2026-12-01",
+  "time": "06:00 PM",
+  "cost": null,
+  "description": "Join us for a short session the Welcome to Night Vale role-playing game where players will become citizens of the fabled town. New players are welcome to attend, as pre-generated characters and an overview of the setting will be given at the start of each session. Meeting on the ",
+  "url": "https://www.mansfieldtexas.gov/Calendar.aspx?EID=9112",
+  "image": null,
+  "organizer": {
+   "name": "City of Mansfield",
+   "url": "https://www.mansfieldtexas.gov/"
+  }
+ },
+ {
+  "name": "Wobblers & Walkers (10-20 Months)",
+  "category": "sports",
+  "area": "6861 W Eldorado Parkway, McKinney",
+  "city": "McKinney",
+  "date": "2026-12-01",
+  "time": "10:30 AM",
+  "cost": null,
+  "description": "",
+  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/WobblersAndWalker_WinterJJG",
+  "image": null,
+  "organizer": {
+   "name": "City of McKinney",
+   "url": "https://mckinneytexas.org/"
+  }
+ },
+ {
+  "name": "Wreath Making (18+)",
+  "category": "family",
+  "area": "104 S. Wisteria St., Mansfield",
+  "city": "Mansfield",
+  "date": "2026-12-01",
+  "time": "06:00 PM",
+  "cost": null,
+  "description": "Celebrate the holiday season by creating your own wreath to take home! Join us for a fun and relaxing class where you'll design and create your very own holiday wreath to brighten your door, wall, or favorite space. All materials will be provided. Registration is required. Decemb",
+  "url": "https://www.mansfieldtexas.gov/Calendar.aspx?EID=9115",
+  "image": null,
+  "organizer": {
+   "name": "City of Mansfield",
+   "url": "https://www.mansfieldtexas.gov/"
+  }
+ },
+ {
+  "name": "Yogalates",
+  "category": "sports",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-01",
+  "time": "12:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=17621",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "Zumba in the Park",
+  "category": "outdoors",
+  "area": "104 S Broad St., Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-01",
+  "time": "06:30 PM",
+  "cost": null,
+  "description": "Zumba in the Park returns September 1, bringing back the music, the energy, and the community spirit that makes this one of Cedar Hill's most-loved annual fitness programs. Come dance, get active, and enjoy beautiful evenings outdoors with fellow residents. Best of all, it's comp",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=19707",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
  },
  {
   "name": "A Christmas Carol",
@@ -11538,6 +11870,18 @@
   "image": null
  },
  {
+  "name": "Stockyards Championship Rodeo",
+  "category": "sports",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-12-04",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Miscellaneous event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfbK",
+  "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
   "name": "Tacarra Williams",
   "category": "arts",
   "area": "Arlington Improv, Arlington",
@@ -11855,6 +12199,18 @@
   "cost": null,
   "description": "Miscellaneous event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OpPI",
+  "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Stockyards Championship Rodeo",
+  "category": "sports",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-12-05",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Miscellaneous event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfbx",
   "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
@@ -12728,6 +13084,18 @@
   "image": "https://s1.ticketm.net/dam/a/c94/51653144-df22-4fad-82b9-696d923a3c94_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "Stockyards Championship Rodeo",
+  "category": "sports",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-12-11",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Miscellaneous event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfbt",
+  "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
   "name": "Stoney LaRue",
   "category": "music",
   "area": "Billy Bob's, Fort Worth",
@@ -13189,6 +13557,18 @@
   "cost": null,
   "description": "Miscellaneous event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OpPY",
+  "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Stockyards Championship Rodeo",
+  "category": "sports",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-12-12",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Miscellaneous event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfbY",
   "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
@@ -13681,7 +14061,7 @@
   "cost": 22.0,
   "description": "Live at Poor David's Pub.",
   "url": "http://www.prekindle.com/event/79173-grits-band-holiday-show-dallas",
-  "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527948942069360"
+  "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527948934219270"
  },
  {
   "name": "North Texas Mean Green Men's Basketball vs. Winthrop Eagles Mens Basketball",

@@ -10,21 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dock-open-mic|dock-bookshop-6637-meadowbrook-dr-fort-worth-tx-75116|7-0
- 0-am-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261117T130000Z
-DTSTART:20261117T130000Z
-DTEND:20261117T160000Z
-SUMMARY:Dock Open Mic
-LOCATION:dock bookshop · Fort Worth Tx
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=dock-open-mic%7Cdock-book
- shop-6637-meadowbrook-dr-fort-worth-tx-75116%7C7-00-am
-DESCRIPTION:The Dock open mic presents Speak And Be Published. Everyone who
-  reads gets their poem published in an anthology   June 16\, 2026 at 7:30 
- PM CDT  The Dock Bookshop  $7 — More: https://letsdoitdallas.com/distric
- t/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
  et-fort-worth-76107-united-states|10-00-am-2026-11-17@letsdoitdallas.com
 DTSTAMP:20261117T160000Z
@@ -293,6 +278,23 @@ URL:https://letsdoitdallas.com/?date=2026-11-19&e=tcu-horned-frogs-mens-bas
  -fort-worth%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:monk-s-music-a-tribute-to-the-thelonious-monk|scat-jazz-lounge-111-w-4t
+ h-st-fort-worth-76102-united-states|8-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T020000Z
+DTSTART:20261120T020000Z
+DTEND:20261120T050000Z
+SUMMARY:Monk’s Music\; A Tribute to the Thelonious Monk
+LOCATION:Scat Jazz Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=monk-s-music-a-tribute-to
+ -the-thelonious-monk%7Cscat-jazz-lounge-111-w-4th-st-fort-worth-76102-unit
+ ed-states%7C8-00-pm
+DESCRIPTION:Brad Williams leads an all star tribute to one of the greatest 
+ jazz pianists and composers\, Thelonious Monk. An evening of some of the m
+ ost iconic jazz standards there are. A special Thursday night treat for mu
+ sic lovers.  Show time: 8 pm – Doors open at 7 pm — More: https://lets
+ doitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:tcu-horned-frogs-womens-volleyball-vs-arizona-state-sun-devils-womens-v

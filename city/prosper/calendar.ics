@@ -84,15 +84,15 @@ URL:https://letsdoitdallas.com/?date=2026-11-18&e=watercolor-painting-fall-
 DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
 END:VEVENT
 BEGIN:VEVENT
-UID:adult-pickleball-adult-intermediate|621-s-coit-rd-prosper|see-details-2
- 026-11-19@letsdoitdallas.com
+UID:adult-pickleball-adult-beginner|621-s-coit-rd-prosper|see-details-2026-
+ 11-19@letsdoitdallas.com
 DTSTAMP:20261119T000000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-SUMMARY:Adult Pickleball: Adult Intermediate
+SUMMARY:Adult Pickleball: Adult Beginner
 LOCATION:621 S Coit Rd. · Prosper
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=adult-pickleball-adult-in
- termediate%7C621-s-coit-rd-prosper%7Csee-details
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=adult-pickleball-adult-be
+ ginner%7C621-s-coit-rd-prosper%7Csee-details
 DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
 END:VEVENT
 BEGIN:VEVENT
@@ -320,6 +320,29 @@ SUMMARY:Prosper Chess Tournament
 LOCATION:407 E. First St. · Prosper
 URL:https://letsdoitdallas.com/?date=2026-11-30&e=prosper-chess-tournament%
  7C407-e-first-st-prosper%7C04-45-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
+END:VEVENT
+BEGIN:VEVENT
+UID:dominoes|407-e-first-st-prosper|09-00-am-2026-12-01@letsdoitdallas.com
+DTSTAMP:20261201T150000Z
+DTSTART:20261201T150000Z
+DTEND:20261201T180000Z
+SUMMARY:Dominoes
+LOCATION:407 E. First St. · Prosper
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=dominoes%7C407-e-first-st
+ -prosper%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
+END:VEVENT
+BEGIN:VEVENT
+UID:sensory-santa-christmas-shoppe|250-w-first-st-prosper|04-30-pm-2026-12-
+ 01@letsdoitdallas.com
+DTSTAMP:20261201T223000Z
+DTSTART:20261201T223000Z
+DTEND:20261202T013000Z
+SUMMARY:Sensory Santa & Christmas Shoppe
+LOCATION:250 W First St. · Prosper
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=sensory-santa-christmas-s
+ hoppe%7C250-w-first-st-prosper%7C04-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
 END:VEVENT
 BEGIN:VEVENT
