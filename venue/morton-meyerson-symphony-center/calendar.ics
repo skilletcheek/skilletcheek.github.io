@@ -210,4 +210,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-13&e=holidays-with-the-dallas-
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/venue/morton-meyerson-symphony-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra-presets-brassy-holidays|morton-meyerson-symph
+ ony-center-dallas|7-30-pm-2026-12-15@letsdoitdallas.com
+DTSTAMP:20261216T013000Z
+DTSTART:20261216T013000Z
+DTEND:20261216T043000Z
+SUMMARY:Dallas Symphony Orchestra Presets Brassy Holidays
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-15&e=dallas-symphony-orchestra
+ -presets-brassy-holidays%7Cmorton-meyerson-symphony-center-dallas%7C7-30-p
+ m
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/morton-meyerson-symphony-center/
+END:VEVENT
 END:VCALENDAR

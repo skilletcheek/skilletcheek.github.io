@@ -247,4 +247,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-14&e=dallas-mavericks-vs-milwa
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/american-airlines-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:dallas-stars-vs-washington-capitals|american-airlines-center-dallas|8-3
+ 0-pm-2026-12-15@letsdoitdallas.com
+DTSTAMP:20261216T023000Z
+DTSTART:20261216T023000Z
+DTEND:20261216T053000Z
+SUMMARY:Dallas Stars vs. Washington Capitals
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-15&e=dallas-stars-vs-washingto
+ n-capitals%7Camerican-airlines-center-dallas%7C8-30-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/american-airlines-center/
+END:VEVENT
 END:VCALENDAR

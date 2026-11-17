@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UNT Superpit — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at UNT Superpit.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:north-texas-mean-green-men-s-basketball-vs-bradley-braves-mens-basketba
+ ll|unt-superpit-denton|see-details-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261204T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:North Texas Mean Green Men's Basketball vs. Bradley Braves Mens Bas
+ ketball
+LOCATION:UNT Superpit · Denton
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=north-texas-mean-green-me
+ n-s-basketball-vs-bradley-braves-mens-basketball%7Cunt-superpit-denton%7Cs
+ ee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/unt-superpit/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-men-s-basketball-vs-mississippi-valley-delta-dev
+ ils-mens-basketball|unt-superpit-denton|see-details-2026-12-06@letsdoitdal
+ las.com
+DTSTAMP:20261206T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:North Texas Mean Green Men's Basketball vs. Mississippi Valley Delt
+ a Devils Mens Basketball
+LOCATION:UNT Superpit · Denton
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=north-texas-mean-green-me
+ n-s-basketball-vs-mississippi-valley-delta-devils-mens-basketball%7Cunt-su
+ perpit-denton%7Csee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/unt-superpit/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-men-s-basketball-vs-winthrop-eagles-mens-basketb
+ all|unt-superpit-denton|see-details-2026-12-16@letsdoitdallas.com
+DTSTAMP:20261216T000000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:North Texas Mean Green Men's Basketball vs. Winthrop Eagles Mens Ba
+ sketball
+LOCATION:UNT Superpit · Denton
+URL:https://letsdoitdallas.com/?date=2026-12-16&e=north-texas-mean-green-me
+ n-s-basketball-vs-winthrop-eagles-mens-basketball%7Cunt-superpit-denton%7C
+ see-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/unt-superpit/
+END:VEVENT
+END:VCALENDAR

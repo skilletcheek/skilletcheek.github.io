@@ -141,4 +141,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-16&e=grits-holiday-show-%7Cpoo
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
+BEGIN:VEVENT
+UID:shed-g-friends-ugly-sweater-comedy-show|poor-david-s-pub-dallas|doors-s
+ ee-listing-2026-12-17@letsdoitdallas.com
+DTSTAMP:20261217T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Shed G & Friends - Ugly Sweater Comedy Show
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-17&e=shed-g-friends-ugly-sweat
+ er-comedy-show%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
 END:VCALENDAR

@@ -1,47 +1,27 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "counts": {
-  "ticketmaster": 433,
+  "ticketmaster": 441,
   "seatgeek": 300,
-  "ics_feeds": 54,
-  "civicplus": 433,
-  "prekindle": 49,
+  "ics_feeds": 51,
+  "civicplus": 409,
+  "prekindle": 50,
   "singles_pages": 4,
   "club_pages": 10,
   "do214": 0,
   "dallasites101": 7,
   "seated": 2,
-  "ics_feeds (whatsupfortworth.com)": 30,
+  "ics_feeds (whatsupfortworth.com)": 27,
   "ics_feeds (calendar.unt.edu)": 24,
   "prekindle (Granada Theater)": 9,
   "prekindle (The Kessler Theater)": 15,
-  "prekindle (Poor David's Pub)": 10,
+  "prekindle (Poor David's Pub)": 11,
   "prekindle (Trees)": 15,
   "club_pages (CTRL Room)": 6,
   "club_pages (Candleroom)": 4
  },
  "alarms": [],
  "history": [
-  {
-   "date": "2026-11-10",
-   "counts": {
-    "ticketmaster": 469,
-    "seatgeek": 300,
-    "ics_feeds": 70,
-    "civicplus": 330,
-    "prekindle": 46,
-    "singles_pages": 7,
-    "do214": 0,
-    "dallasites101": 8,
-    "seated": 2,
-    "ics_feeds (whatsupfortworth.com)": 22,
-    "ics_feeds (calendar.unt.edu)": 48,
-    "prekindle (Granada Theater)": 10,
-    "prekindle (The Kessler Theater)": 15,
-    "prekindle (Poor David's Pub)": 9,
-    "prekindle (Trees)": 12
-   }
-  },
   {
    "date": "2026-11-10",
    "counts": {
@@ -310,6 +290,29 @@
     "prekindle (Granada Theater)": 9,
     "prekindle (The Kessler Theater)": 15,
     "prekindle (Poor David's Pub)": 10,
+    "prekindle (Trees)": 15,
+    "club_pages (CTRL Room)": 6,
+    "club_pages (Candleroom)": 4
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "counts": {
+    "ticketmaster": 441,
+    "seatgeek": 300,
+    "ics_feeds": 51,
+    "civicplus": 409,
+    "prekindle": 50,
+    "singles_pages": 4,
+    "club_pages": 10,
+    "do214": 0,
+    "dallasites101": 7,
+    "seated": 2,
+    "ics_feeds (whatsupfortworth.com)": 27,
+    "ics_feeds (calendar.unt.edu)": 24,
+    "prekindle (Granada Theater)": 9,
+    "prekindle (The Kessler Theater)": 15,
+    "prekindle (Poor David's Pub)": 11,
     "prekindle (Trees)": 15,
     "club_pages (CTRL Room)": 6,
     "club_pages (Candleroom)": 4

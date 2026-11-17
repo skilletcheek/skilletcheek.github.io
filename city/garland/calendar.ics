@@ -9,37 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:grow-with-google-design-thinking-for-entrepreneurs-ages-18-|central-lib
- rary-garland|06-00-pm-2026-11-16@letsdoitdallas.com
-DTSTAMP:20261117T000000Z
-DTSTART:20261117T000000Z
-DTEND:20261117T030000Z
-SUMMARY:Grow with Google: Design Thinking for Entrepreneurs (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-16&e=grow-with-google-design-t
- hinking-for-entrepreneurs-ages-18-%7Ccentral-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Learn how to foster creativity and innovation throu
- gh the design thinking process. This workshop introduces the principles of
-  design thinking\, demonstrates how to apply them to solve problems and co
- vers the basics of turning ideas into prototypes. November 16\, 2026 06: 
- — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:loom-workshop-ages-13-|central-library-garland|06-00-pm-2026-11-16@lets
- doitdallas.com
-DTSTAMP:20261117T000000Z
-DTSTART:20261117T000000Z
-DTEND:20261117T030000Z
-SUMMARY:Loom Workshop (Ages 13+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-16&e=loom-workshop-ages-13-%7C
- central-library-garland%7C06-00-pm
-DESCRIPTION:6:00 p.m.\; Celebrate Native American Heritage Month by learnin
- g about loom work. November 16\, 2026 06:00 PM - 07:30 PM 625 Austin St.Ga
- rland\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13309/6392707
- 04510000000 — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:baby-bounce-read-birth-18-months-|central-library-garland|10-00-am-2026
  -11-17@letsdoitdallas.com
 DTSTAMP:20261117T160000Z
@@ -604,6 +573,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=nutcracker-presented-by-r
  ockwall-ballet-company-and-ck-studio%7C300-n-fifth-street-garland%7C06-00-
  pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-garland|granville-arts-center-garland|6-00-pm-2026-11-21
+ @letsdoitdallas.com
+DTSTAMP:20261122T000000Z
+DTSTART:20261122T000000Z
+DTEND:20261122T030000Z
+SUMMARY:The Nutcracker - Garland
+LOCATION:Granville Arts Center · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=the-nutcracker-garland%7C
+ granville-arts-center-garland%7C6-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:nutcracker-presented-by-rockwall-ballet-company-and-ck-studio|300-n-fif

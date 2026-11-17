@@ -9,68 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cash-bingo|407-e-first-st-prosper|01-00-pm-2026-11-16@letsdoitdallas.co
- m
-DTSTAMP:20261116T190000Z
-DTSTART:20261116T190000Z
-DTEND:20261116T220000Z
-SUMMARY:Cash Bingo
-LOCATION:407 E. First St. · Prosper
-URL:https://letsdoitdallas.com/?date=2026-11-16&e=cash-bingo%7C407-e-first-
- st-prosper%7C01-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
-END:VEVENT
-BEGIN:VEVENT
-UID:prosper-chess-tournament|407-e-first-st-prosper|04-45-pm-2026-11-16@let
- sdoitdallas.com
-DTSTAMP:20261116T224500Z
-DTSTART:20261116T224500Z
-DTEND:20261117T014500Z
-SUMMARY:Prosper Chess Tournament
-LOCATION:407 E. First St. · Prosper
-URL:https://letsdoitdallas.com/?date=2026-11-16&e=prosper-chess-tournament%
- 7C407-e-first-st-prosper%7C04-45-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
-END:VEVENT
-BEGIN:VEVENT
-UID:navigating-medicare-and-chronic-conditions-with-confidence|200-s-main-s
- t-prosper|06-00-pm-2026-11-16@letsdoitdallas.com
-DTSTAMP:20261117T000000Z
-DTSTART:20261117T000000Z
-DTEND:20261117T030000Z
-SUMMARY:Navigating Medicare and Chronic Conditions with Confidence
-LOCATION:200 S Main St · Prosper
-URL:https://letsdoitdallas.com/?date=2026-11-16&e=navigating-medicare-and-c
- hronic-conditions-with-confidence%7C200-s-main-st-prosper%7C06-00-pm
-DESCRIPTION:Adult Program November 16\, 2026 06:00 PM - 07:30 PM 200 S Main
-  StProsper\, TX 75078 https://www.prospertx.gov/Calendar.aspx?EID=6222/639
- 204210240000000 — More: https://letsdoitdallas.com/city/prosper/
-END:VEVENT
-BEGIN:VEVENT
-UID:adult-pickleball-adult-beginner-evening-|621-s-coit-rd-prosper|06-30-pm
- -2026-11-16@letsdoitdallas.com
-DTSTAMP:20261117T003000Z
-DTSTART:20261117T003000Z
-DTEND:20261117T033000Z
-SUMMARY:Adult Pickleball: Adult Beginner (Evening)
-LOCATION:621 S Coit Rd. · Prosper
-URL:https://letsdoitdallas.com/?date=2026-11-16&e=adult-pickleball-adult-be
- ginner-evening-%7C621-s-coit-rd-prosper%7C06-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
-END:VEVENT
-BEGIN:VEVENT
-UID:adult-tennis|700-n-coleman-st-prosper|07-00-pm-2026-11-16@letsdoitdalla
- s.com
-DTSTAMP:20261117T010000Z
-DTSTART:20261117T010000Z
-DTEND:20261117T040000Z
-SUMMARY:Adult Tennis
-LOCATION:700 N. Coleman St. · Prosper
-URL:https://letsdoitdallas.com/?date=2026-11-16&e=adult-tennis%7C700-n-cole
- man-st-prosper%7C07-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
-END:VEVENT
-BEGIN:VEVENT
 UID:adult-pickleball-adult-beginner|621-s-coit-rd-prosper|see-details-2026-
  11-17@letsdoitdallas.com
 DTSTAMP:20261117T000000Z
