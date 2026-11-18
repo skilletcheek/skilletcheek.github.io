@@ -9,46 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:adult-pickleball-adult-beginner|621-s-coit-rd-prosper|see-details-2026-
- 11-17@letsdoitdallas.com
-DTSTAMP:20261117T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:Adult Pickleball: Adult Beginner
-LOCATION:621 S Coit Rd. · Prosper
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=adult-pickleball-adult-be
- ginner%7C621-s-coit-rd-prosper%7Csee-details
-DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
-END:VEVENT
-BEGIN:VEVENT
-UID:speed-dating-in-prosper-all-single-professionals-50-|black-hawk-brewery
- -prosper|7-00-pm-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261118T010000Z
-DTSTART:20261118T010000Z
-DTEND:20261118T040000Z
-SUMMARY:Speed Dating In Prosper - All Single Professionals 50+
-LOCATION:Black Hawk Brewery · Prosper
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=speed-dating-in-prosper-a
- ll-single-professionals-50-%7Cblack-hawk-brewery-prosper%7C7-00-pm
-DESCRIPTION:Another Fabulous Singles Event ♥ For Ages 50+ @ Black Hawk Br
- ewery in Prosper\, TX. As featured recently in the WSJ\, NPR and TLC 90 Da
- y Fiance - The Single Life. Meet the love of your life at the best and mos
- t trusted dating event company in the US. Where else can you meet up 14 a 
- — More: https://letsdoitdallas.com/city/prosper/
-END:VEVENT
-BEGIN:VEVENT
-UID:senior-strength|407-e-first-st-prosper|08-00-am-2026-11-18@letsdoitdall
- as.com
-DTSTAMP:20261118T140000Z
-DTSTART:20261118T140000Z
-DTEND:20261118T170000Z
-SUMMARY:Senior Strength
-LOCATION:407 E. First St. · Prosper
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=senior-strength%7C407-e-f
- irst-st-prosper%7C08-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
-END:VEVENT
-BEGIN:VEVENT
 UID:watercolor-painting-fall-sessions|407-e-first-st-prosper|10-00-am-2026-
  11-18@letsdoitdallas.com
 DTSTAMP:20261118T160000Z
@@ -337,6 +297,30 @@ DESCRIPTION:Another Fabulous Singles Event ♥ For Ages 24-39 @ Black Hawk
  Day Fiance - The Single Life. Meet the love of your life at the best and m
  ost trusted dating event company in the US. Where else can you meet up 14 
  — More: https://letsdoitdallas.com/city/prosper/
+END:VEVENT
+BEGIN:VEVENT
+UID:senior-strength|407-e-first-st-prosper|08-00-am-2026-12-02@letsdoitdall
+ as.com
+DTSTAMP:20261202T140000Z
+DTSTART:20261202T140000Z
+DTEND:20261202T170000Z
+SUMMARY:Senior Strength
+LOCATION:407 E. First St. · Prosper
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=senior-strength%7C407-e-f
+ irst-st-prosper%7C08-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
+END:VEVENT
+BEGIN:VEVENT
+UID:community-engagement-committee-cec-meeting|250-w-first-st-prosper|06-00
+ -pm-2026-12-02@letsdoitdallas.com
+DTSTAMP:20261203T000000Z
+DTSTART:20261203T000000Z
+DTEND:20261203T030000Z
+SUMMARY:Community Engagement Committee (CEC) Meeting
+LOCATION:250 W First St. · Prosper
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=community-engagement-comm
+ ittee-cec-meeting%7C250-w-first-st-prosper%7C06-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
 END:VEVENT
 BEGIN:VEVENT
 UID:speed-dating-in-prosper-prosper-all-singles-44-59|black-hawk-brewery-pr

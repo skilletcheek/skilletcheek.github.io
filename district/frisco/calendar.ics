@@ -10,46 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:thanksgiving-tamales-at-cantina-laredo|cantina-laredo-frisco|11-00-am-9
- -00-pm-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261117T170000Z
-DTSTART:20261117T170000Z
-DTEND:20261117T200000Z
-SUMMARY:Thanksgiving Tamales at Cantina Laredo
-LOCATION:Cantina Laredo · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=thanksgiving-tamales-at-c
- antina-laredo%7Ccantina-laredo-frisco%7C11-00-am-9-00-pm
-DESCRIPTION:Long a tradition in Mexican communities\, tamales are often a s
- taple of special occasions and holiday gatherings. In Texas\, they have be
- come a beloved addition to Thanksgiving celebrations\, bringing a taste of
-  tradition to the holiday table. This Thanksgiving\, Cantina Laredo in Fr 
- — More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:legislative-committee-meeting|6101-frisco-square-blvd-frisco|03-00-pm-2
- 026-11-17@letsdoitdallas.com
-DTSTAMP:20261117T210000Z
-DTSTART:20261117T210000Z
-DTEND:20261118T000000Z
-SUMMARY:Legislative Committee Meeting
-LOCATION:6101 Frisco Square Blvd.
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=legislative-committee-mee
- ting%7C6101-frisco-square-blvd-frisco%7C03-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:walnut-wednesday-walnut-s-friendsgiving|6455-page-street-frisco|10-00-a
- m-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261118T160000Z
-DTSTART:20261118T160000Z
-DTEND:20261118T190000Z
-SUMMARY:Walnut Wednesday: Walnut’s Friendsgiving
-LOCATION:6455 Page Street · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=walnut-wednesday-walnut-s
- -friendsgiving%7C6455-page-street-frisco%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:community-meet-greet-frisco-fire-chief-finalists|8300-mckinney-rd-frisc
  o|06-00-pm-2026-11-18@letsdoitdallas.com
 DTSTAMP:20261119T000000Z
@@ -74,16 +34,15 @@ URL:https://letsdoitdallas.com/?date=2026-11-18&e=reasonable-accommodations
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
-UID:4th-street-plaza-holiday-tree-lighting-holiday-classic-at-the-silos|880
- 2-4th-st-frisco|05-30-pm-2026-11-19@letsdoitdallas.com
+UID:4th-street-plaza-holiday-tree-lighting-holiday-film-at-the-silos|8802-4
+ th-st-frisco|05-30-pm-2026-11-19@letsdoitdallas.com
 DTSTAMP:20261119T233000Z
 DTSTART:20261119T233000Z
 DTEND:20261120T023000Z
-SUMMARY:4th Street Plaza Holiday Tree Lighting & Holiday Classic at the Sil
- os
+SUMMARY:4th Street Plaza Holiday Tree Lighting & Holiday Film at the Silos
 LOCATION:8802 4th St · Frisco
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=4th-street-plaza-holiday-
- tree-lighting-holiday-classic-at-the-silos%7C8802-4th-st-frisco%7C05-30-pm
+ tree-lighting-holiday-film-at-the-silos%7C8802-4th-st-frisco%7C05-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
@@ -275,6 +234,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-02&e=portland-timbers-at-fc-da
  um-frisco%7Csee-details
 DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:frosty-5k-packet-pickup|5828-nancy-jane-lane-frisco|06-30-am-2026-12-02
+ @letsdoitdallas.com
+DTSTAMP:20261202T123000Z
+DTSTART:20261202T123000Z
+DTEND:20261202T153000Z
+SUMMARY:Frosty 5K Packet Pickup
+LOCATION:5828 Nancy Jane Lane · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=frosty-5k-packet-pickup%7
+ C5828-nancy-jane-lane-frisco%7C06-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-dallas-stars-hall-of-fame-induction-gala|fifth-third-arena-frisco|

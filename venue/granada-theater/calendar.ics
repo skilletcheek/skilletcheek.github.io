@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-wrecks-with-worry-club-and-kid-sistr|granada-theater-dallas-dallas|
- 7-00-pm-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261118T010000Z
-DTSTART:20261118T010000Z
-DTEND:20261118T040000Z
-SUMMARY:The Wrecks with Worry Club and Kid Sistr
-LOCATION:Granada Theater - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=the-wrecks-with-worry-clu
- b-and-kid-sistr%7Cgranada-theater-dallas-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-afghan-whigs|granada-theater-dallas-dallas|8-00-pm-2026-11-20@letsd
  oitdallas.com
 DTSTAMP:20261121T020000Z
@@ -111,6 +98,20 @@ LOCATION:Granada Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-12&e=a-merry-little-christmas-
  show-with-ricki-derek%7Cgranada-theater-lower-greenville-dallas%7Cdoors-se
  e-listing
+DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
+ enue/granada-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:straight-tequila-night-an-evening-with|granada-theater-lower-greenville
+ -dallas|doors-see-listing-2026-12-18@letsdoitdallas.com
+DTSTAMP:20261218T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Straight Tequila Night - AN EVENING WITH
+LOCATION:Granada Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-18&e=straight-tequila-night-an
+ -evening-with%7Cgranada-theater-lower-greenville-dallas%7Cdoors-see-listin
+ g
 DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT

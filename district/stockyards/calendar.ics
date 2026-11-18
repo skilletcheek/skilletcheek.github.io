@@ -10,23 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:rodeo-rink|fort-worth-stockyards-131-east-exchange-avenue-fort-worth-76
- 164-united-states|all-day-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261117T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:Rodeo Rink
-LOCATION:Fort Worth Stockyards
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=rodeo-rink%7Cfort-worth-s
- tockyards-131-east-exchange-avenue-fort-worth-76164-united-states%7Call-da
- y
-DESCRIPTION:Trade your cowboy boots for ice skates when the Fort Worth Stoc
- kyards Rodeo Rink returns November 17 through January 3! This unique holid
- ay attraction brings a Texas twist to winter fun\, transforming the legend
- ary Stockyards into a festive destination where visitors can lace up\, —
-  More: https://letsdoitdallas.com/district/stockyards/
-END:VEVENT
-BEGIN:VEVENT
 UID:pbr-stockyards-showcase|cowtown-coliseum-fort-worth|7-30-pm-2026-11-19@
  letsdoitdallas.com
 DTSTAMP:20261120T013000Z

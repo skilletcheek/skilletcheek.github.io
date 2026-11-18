@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:graphic-novel-book-club-ages-18-|central-library-garland|06-30-pm-2026-
- 11-17@letsdoitdallas.com
-DTSTAMP:20261118T003000Z
-DTSTART:20261118T003000Z
-DTEND:20261118T033000Z
-SUMMARY:Graphic Novel Book Club (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=graphic-novel-book-club-a
- ges-18-%7Ccentral-library-garland%7C06-30-pm
-DESCRIPTION:6:30 p.m.\; Join us for Graphic Novel Book Club where we talk o
- ut exciting graphic novels every month. Read the book beforehand for discu
- ssion. November 17\, 2026 06:30 PM - 07:30 PM 625 Austin St.Garland\, TX 7
- 5040 https://www.garlandtx.gov/Calendar.aspx?EID=13002/63922757359000000 
- — More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:medicaid-and-chip-application-renewal-assistance-with-parkland-hospital
  |central-library-garland|10-00-am-2026-11-18@letsdoitdallas.com
 DTSTAMP:20261118T160000Z
@@ -37,22 +21,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-18&e=medicaid-and-chip-applica
  tion-renewal-assistance-with-parkland-hospital%7Ccentral-library-garland%7
  C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/venue/central-library/
-END:VEVENT
-BEGIN:VEVENT
-UID:sensory-friendly-storytime|central-library-garland|10-00-am-2026-11-18@
- letsdoitdallas.com
-DTSTAMP:20261118T160000Z
-DTSTART:20261118T160000Z
-DTEND:20261118T190000Z
-SUMMARY:Sensory-Friendly Storytime
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=sensory-friendly-storytim
- e%7Ccentral-library-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Join us for Sensory-Friendly Storytime\, a welcomi
- ng and inclusive storytime experience designed for children and individual
- s with sensory sensitivities and developmental differences. This modified 
- storytime aims to provide a calm\, consistent and comfortable environmen 
- — More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 BEGIN:VEVENT
 UID:thrills-chills-book-club-ages-18-|central-library-garland|06-30-pm-2026
@@ -133,5 +101,19 @@ DESCRIPTION:10:00 a.m.\; Families with children ages 0-5 can enjoy Play & L
  ination\, creativity and problem-solving. This program offers a chance for
   children and caregivers to play together. November 21\, 2026 10:00 AM - 1
   — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:medicaid-and-chip-application-renewal-assistance-with-parkland-hospital
+ |central-library-garland|10-00-am-2026-12-02@letsdoitdallas.com
+DTSTAMP:20261202T160000Z
+DTSTART:20261202T160000Z
+DTEND:20261202T190000Z
+SUMMARY:Medicaid and CHIP Application & Renewal Assistance with Parkland Ho
+ spital
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=medicaid-and-chip-applica
+ tion-renewal-assistance-with-parkland-hospital%7Ccentral-library-garland%7
+ C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/venue/central-library/
 END:VEVENT
 END:VCALENDAR

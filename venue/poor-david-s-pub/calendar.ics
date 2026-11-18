@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:honky-tonk-tuesday-with-cory-cross|poor-david-s-pub-dallas|doors-see-li
- sting-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261117T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:Honky Tonk Tuesday with Cory Cross
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=honky-tonk-tuesday-with-c
- ory-cross%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:friendsgiving-a-harvest-night-of-live-music-with-gustavo-monsante-|-jfi
  -|-jj-the-mystics|poor-david-s-pub-dallas|doors-see-listing-2026-11-20@let
  sdoitdallas.com
@@ -151,6 +138,19 @@ SUMMARY:Shed G & Friends - Ugly Sweater Comedy Show
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-17&e=shed-g-friends-ugly-sweat
  er-comedy-show%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
+BEGIN:VEVENT
+UID:ian-moore-annual-holiday-show-|poor-david-s-pub-dallas|doors-see-listin
+ g-2026-12-18@letsdoitdallas.com
+DTSTAMP:20261218T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Ian Moore Annual Holiday Show!
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-18&e=ian-moore-annual-holiday-
+ show-%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT

@@ -10,37 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
- ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-17@lets
- doitdallas.com
-DTSTAMP:20261117T160000Z
-DTSTART:20261117T160000Z
-DTEND:20261117T190000Z
-SUMMARY:Puzzling Adventures Scavenger Hunt
-LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=puzzling-adventures-scave
- nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
- rth-76102-united-states%7C10-00-am
-DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
- uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
- e\, and an informative self-guided walking tour. Each adventure consists o
- f a series of locations that you are guided to where you are required t 
- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:lyle-lovett-and-his-small-large-band|bass-performance-hall-fort-worth|7
- -30-pm-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261118T013000Z
-DTSTART:20261118T013000Z
-DTEND:20261118T043000Z
-SUMMARY:Lyle Lovett and his Small Large Band
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=lyle-lovett-and-his-small
- -large-band%7Cbass-performance-hall-fort-worth%7C7-30-pm
-DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
  et-fort-worth-76107-united-states|10-00-am-2026-11-18@letsdoitdallas.com
 DTSTAMP:20261118T160000Z
@@ -310,6 +279,41 @@ DESCRIPTION:The Fort Worth Botanic Garden\, in partnership with Sony Music\
  radition that transforms Fort Worth’s most beautiful green space into a 
  shimmering winter wonderland filled with the sounds of the season. Running
   — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:creativemornings-fort-worth-presents-jason-valendy|j-o-agency-440-s-mai
+ n-st-fort-worth-tx-76104-united-states|8-30-am-2026-11-20@letsdoitdallas.c
+ om
+DTSTAMP:20261120T143000Z
+DTSTART:20261120T143000Z
+DTEND:20261120T173000Z
+SUMMARY:CreativeMornings Fort Worth Presents Jason Valendy
+LOCATION:J.O. Agency · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=creativemornings-fort-wor
+ th-presents-jason-valendy%7Cj-o-agency-440-s-main-st-fort-worth-tx-76104-u
+ nited-states%7C8-30-am
+DESCRIPTION:The CreativeMornings theme for November is Devotion. Creativity
+  is often portrayed as a flash of inspiration\, but more often it looks li
+ ke a labor of love. Time spent tending to a craft\, page by page\, brushst
+ roke by brushstroke\, with no guarantees that the end result will pay off 
+ — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261120T160000Z
+DTSTART:20261120T160000Z
+DTEND:20261120T190000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:tcu-horned-frogs-womens-volleyball-vs-arizona-state-sun-devils-womens-v
@@ -960,6 +964,32 @@ DTEND:20261216T043000Z
 SUMMARY:The Music of Johnny Mathis
 LOCATION:Casa Manana · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-15&e=the-music-of-johnny-mathi
+ s%7Ccasa-manana-fort-worth%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:suites-pentatonix-christmas-in-the-city-tour|ariat-arena-fort-worth|7-0
+ 0-pm-2026-12-16@letsdoitdallas.com
+DTSTAMP:20261217T010000Z
+DTSTART:20261217T010000Z
+DTEND:20261217T040000Z
+SUMMARY:Suites: Pentatonix: Christmas in the City Tour
+LOCATION:Ariat Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-16&e=suites-pentatonix-christm
+ as-in-the-city-tour%7Cariat-arena-fort-worth%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-music-of-johnny-mathis|casa-manana-fort-worth|7-30-pm-2026-12-16@le
+ tsdoitdallas.com
+DTSTAMP:20261217T013000Z
+DTSTART:20261217T013000Z
+DTEND:20261217T043000Z
+SUMMARY:The Music of Johnny Mathis
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-16&e=the-music-of-johnny-mathi
  s%7Ccasa-manana-fort-worth%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/

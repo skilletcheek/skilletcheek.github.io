@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-11-17@letsdoitdal
- las.com
-DTSTAMP:20261118T003000Z
-DTSTART:20261118T003000Z
-DTEND:20261118T033000Z
-SUMMARY:Test Your Mic
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=test-your-mic%7Carlington
- -improv-arlington%7C6-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:flame-and-friends|arlington-improv-arlington|7-30-pm-2026-11-19@letsdoi
  tdallas.com
 DTSTAMP:20261120T013000Z
@@ -139,6 +126,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT
 BEGIN:VEVENT
+UID:family-magic-comedy-for-all-ages|arlington-improv-arlington|12-00-pm-20
+ 26-11-28@letsdoitdallas.com
+DTSTAMP:20261128T180000Z
+DTSTART:20261128T180000Z
+DTEND:20261128T210000Z
+SUMMARY:Family Magic & Comedy for All Ages
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=family-magic-comedy-for-a
+ ll-ages%7Carlington-improv-arlington%7C12-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
 UID:kier-junior-spates|arlington-improv-arlington|4-00-pm-2026-11-28@letsdo
  itdallas.com
 DTSTAMP:20261128T220000Z
@@ -174,6 +174,19 @@ SUMMARY:Kier ÂJuniorâ Spates
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-11-29&e=kier-junior-spates%7Carli
  ngton-improv-arlington%7C8-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:test-your-mic|arlington-improv-arlington|6-30-pm-2026-12-01@letsdoitdal
+ las.com
+DTSTAMP:20261202T003000Z
+DTSTART:20261202T003000Z
+DTEND:20261202T033000Z
+SUMMARY:Test Your Mic
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=test-your-mic%7Carlington
+ -improv-arlington%7C6-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

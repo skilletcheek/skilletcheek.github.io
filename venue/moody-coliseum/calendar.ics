@@ -9,21 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:smu-mustangs-mens-basketball-vs-oral-roberts-golden-eagles-mens-basketb
- all|moody-coliseum-dallas|7-00-pm-2026-11-17@letsdoitdallas.com
-DTSTAMP:20261118T010000Z
-DTSTART:20261118T010000Z
-DTEND:20261118T040000Z
-SUMMARY:SMU Mustangs Mens Basketball vs. Oral Roberts Golden Eagles Mens Ba
- sketball
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=smu-mustangs-mens-basketb
- all-vs-oral-roberts-golden-eagles-mens-basketball%7Cmoody-coliseum-dallas%
- 7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:smu-mustangs-mens-basketball-vs-south-alabama-jaguars-mens-basketball|m
  oody-coliseum-dallas|7-00-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T010000Z

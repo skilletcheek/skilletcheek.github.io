@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
- -17@letsdoitdallas.com
-DTSTAMP:20261118T040000Z
-DTSTART:20261118T040000Z
-DTEND:20261118T070000Z
-SUMMARY:The Ox and The Waymakers
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
- com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:h-e-b-s-annual-feast-of-sharing-holiday-dinner|fair-park-8211-centennia
  l-building-dallas|3-00-pm-7-00-pm-2026-11-18@letsdoitdallas.com
 DTSTAMP:20261118T210000Z

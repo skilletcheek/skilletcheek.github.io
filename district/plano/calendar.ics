@@ -25,22 +25,6 @@ DESCRIPTION:Bhanzu Learning Center hosts a math treasure hunt for kids\, wi
  ; limited seats. — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
-UID:november-paint-sip-lakeside-sunrise|505-travis-street-coppell|06-00-pm-
- 2026-11-18@letsdoitdallas.com
-DTSTAMP:20261119T000000Z
-DTSTART:20261119T000000Z
-DTEND:20261119T030000Z
-SUMMARY:November Paint & Sip: Lakeside Sunrise
-LOCATION:505 Travis Street · Coppell
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=november-paint-sip-lakesi
- de-sunrise%7C505-travis-street-coppell%7C06-00-pm
-DESCRIPTION:Even if you’ve never held a paint brush or can’t draw a str
- aight line you will be amazed at the beautiful painting you can create in 
- one inspiring lesson. November 18\, 2026 06:00 PM - 08:00 PM 505 Travis St
- reetCoppell\, TX 75019 https://www.coppelltx.gov/Calendar.aspx?EID=5098/63
- 9 — More: https://letsdoitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:doughboys-podcast|addison-improv-addison|7-30-pm-2026-11-18@letsdoitdal
  las.com
 DTSTAMP:20261119T013000Z
@@ -517,6 +501,19 @@ SUMMARY:Chris O'Connor
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-13&e=chris-o-connor%7Caddison-
  improv-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:fiona-cauley|addison-improv-addison|7-30-pm-2026-12-16@letsdoitdallas.c
+ om
+DTSTAMP:20261217T013000Z
+DTSTART:20261217T013000Z
+DTEND:20261217T043000Z
+SUMMARY:Fiona Cauley
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-16&e=fiona-cauley%7Caddison-im
+ prov-addison%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT

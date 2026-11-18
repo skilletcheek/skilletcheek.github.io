@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:moral-decaine-flowerbed|three-links-deep-ellum-dallas|8-00-pm-2026-11-1
- 7@letsdoitdallas.com
-DTSTAMP:20261118T020000Z
-DTSTART:20261118T020000Z
-DTEND:20261118T050000Z
-SUMMARY:MORAL\, Decaine\, Flowerbed
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=moral-decaine-flowerbed%7
- Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
- -17@letsdoitdallas.com
-DTSTAMP:20261118T040000Z
-DTSTART:20261118T040000Z
-DTEND:20261118T070000Z
-SUMMARY:The Ox and The Waymakers
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:big-ass-truck|three-links-deep-ellum-dallas|6-30-pm-2026-11-18@letsdoit
  dallas.com
 DTSTAMP:20261119T003000Z
@@ -61,15 +35,15 @@ DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/venue/three-links-deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:minka-electric-tongues-ellum|three-links-deep-ellum-dallas|7-30-pm-2026
- -11-19@letsdoitdallas.com
+UID:minka-electric-tongues-ellum-s-underground|three-links-deep-ellum-dalla
+ s|7-30-pm-2026-11-19@letsdoitdallas.com
 DTSTAMP:20261120T013000Z
 DTSTART:20261120T013000Z
 DTEND:20261120T043000Z
-SUMMARY:MINKA\, Electric Tongues \, Ellum
+SUMMARY:MINKA\, Electric Tongues \, Ellum's Underground
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=minka-electric-tongues-el
- lum%7Cthree-links-deep-ellum-dallas%7C7-30-pm
+ lum-s-underground%7Cthree-links-deep-ellum-dallas%7C7-30-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/venue/three-links-deep-ellum/
 END:VEVENT

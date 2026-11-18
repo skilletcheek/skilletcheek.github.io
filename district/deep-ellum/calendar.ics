@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:moral-decaine-flowerbed|three-links-deep-ellum-dallas|8-00-pm-2026-11-1
- 7@letsdoitdallas.com
-DTSTAMP:20261118T020000Z
-DTSTART:20261118T020000Z
-DTEND:20261118T050000Z
-SUMMARY:MORAL\, Decaine\, Flowerbed
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=moral-decaine-flowerbed%7
- Cthree-links-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
- -17@letsdoitdallas.com
-DTSTAMP:20261118T040000Z
-DTSTART:20261118T040000Z
-DTEND:20261118T070000Z
-SUMMARY:The Ox and The Waymakers
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-17&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:forbidden-tour|trees-dallas|doors-see-listing-2026-11-18@letsdoitdallas
  .com
 DTSTAMP:20261118T000000Z
@@ -113,15 +87,15 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:minka-electric-tongues-ellum|three-links-deep-ellum-dallas|7-30-pm-2026
- -11-19@letsdoitdallas.com
+UID:minka-electric-tongues-ellum-s-underground|three-links-deep-ellum-dalla
+ s|7-30-pm-2026-11-19@letsdoitdallas.com
 DTSTAMP:20261120T013000Z
 DTSTART:20261120T013000Z
 DTEND:20261120T043000Z
-SUMMARY:MINKA\, Electric Tongues \, Ellum
+SUMMARY:MINKA\, Electric Tongues \, Ellum's Underground
 LOCATION:Three Links Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=minka-electric-tongues-el
- lum%7Cthree-links-deep-ellum-dallas%7C7-30-pm
+ lum-s-underground%7Cthree-links-deep-ellum-dallas%7C7-30-pm
 DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
  doitdallas.com/district/deep-ellum/
 END:VEVENT
@@ -707,5 +681,31 @@ URL:https://letsdoitdallas.com/?date=2026-12-13&e=2026-oneus-world-tour-ful
  l-moon%7Cthe-bomb-factory-dallas%7C7-30-pm
 DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:miniature-tigers|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-12-
+ 16@letsdoitdallas.com
+DTSTAMP:20261217T020000Z
+DTSTART:20261217T020000Z
+DTEND:20261217T050000Z
+SUMMARY:Miniature Tigers
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-16&e=miniature-tigers%7Cthe-st
+ udio-at-the-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:lemon-twigs-love-of-my-life|trees-dallas|doors-see-listing-2026-12-18@l
+ etsdoitdallas.com
+DTSTAMP:20261218T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:LEMON TWIGS * LOVE OF MY LIFE
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-18&e=lemon-twigs-love-of-my-li
+ fe%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
 END:VEVENT
 END:VCALENDAR
