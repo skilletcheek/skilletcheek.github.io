@@ -9,23 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:daniil-trifonov|bass-performance-hall-525-commerce-street-fort-worth-76
- 102-united-states|7-30-pm-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261119T013000Z
-DTSTART:20261119T013000Z
-DTEND:20261119T043000Z
-SUMMARY:Daniil Trifonov
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=daniil-trifonov%7Cbass-pe
- rformance-hall-525-commerce-street-fort-worth-76102-united-states%7C7-30-p
- m
-DESCRIPTION:Experience the Joy of Music This season Cliburn Concerts invite
- s you to experience joy: the awe of seeing near superhuman virtuosity at t
- he Kimbell Art Museum\; a memorable evening spent with friends at Tannahil
- l’s Music Hall\; a weekend celebration at the Modern Art Museum of Fort 
- — More: https://letsdoitdallas.com/venue/bass-performance-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:fort-worth-symphony-orchestra-rachmaninoff-copland-dvorak|bass-performa
  nce-hall-fort-worth|7-30-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T013000Z
@@ -157,5 +140,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-13&e=texas-ballet-theater-the-
  nutcracker%7Cbass-performance-hall-fort-worth%7C7-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker|bass-performance-hall-fort-worth|7-00-pm-2026-12-17@lets
+ doitdallas.com
+DTSTAMP:20261218T010000Z
+DTSTART:20261218T010000Z
+DTEND:20261218T040000Z
+SUMMARY:The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-17&e=the-nutcracker%7Cbass-per
+ formance-hall-fort-worth%7C7-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/bass-performance-hall/
 END:VEVENT
 END:VCALENDAR

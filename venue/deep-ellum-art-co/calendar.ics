@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Deep Ellum Art Co. — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Deep Ellum Art Co..
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hedras|deep-ellum-art-co-dallas|8-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T020000Z
+DTSTART:20261120T020000Z
+DTEND:20261120T050000Z
+SUMMARY:Hedras
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=hedras%7Cdeep-ellum-art-c
+ o-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/deep-ellum-art-co/
+END:VEVENT
+BEGIN:VEVENT
+UID:seth-david|deep-ellum-art-co-dallas|10-00-pm-2026-11-20@letsdoitdallas.
+ com
+DTSTAMP:20261121T040000Z
+DTSTART:20261121T040000Z
+DTEND:20261121T070000Z
+SUMMARY:Seth David
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=seth-david%7Cdeep-ellum-a
+ rt-co-dallas%7C10-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/deep-ellum-art-co/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-floozies-21-|deep-ellum-art-co-dallas|8-00-pm-2026-11-21@letsdoitda
+ llas.com
+DTSTAMP:20261122T020000Z
+DTSTART:20261122T020000Z
+DTEND:20261122T050000Z
+SUMMARY:The Floozies - 21+
+LOCATION:Deep Ellum Art Co · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=the-floozies-21-%7Cdeep-e
+ llum-art-co-dallas%7C8-00-pm
+DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/deep-ellum-art-co/
+END:VEVENT
+END:VCALENDAR

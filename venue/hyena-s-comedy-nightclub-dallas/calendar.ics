@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hyena's Comedy Nightclub - Dallas — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Hyena's Comedy Nightclub - Dallas.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:alex-reymundo|hyena-s-comedy-nightclub-dallas-dallas|8-00-pm-2026-11-20
+ @letsdoitdallas.com
+DTSTAMP:20261121T020000Z
+DTSTART:20261121T020000Z
+DTEND:20261121T050000Z
+SUMMARY:Alex Reymundo
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=alex-reymundo%7Chyena-s-c
+ omedy-nightclub-dallas-dallas%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:prime-time-comedy|hyena-s-comedy-nightclub-dallas-dallas|8-30-pm-2026-1
+ 1-20@letsdoitdallas.com
+DTSTAMP:20261121T023000Z
+DTSTART:20261121T023000Z
+DTEND:20261121T053000Z
+SUMMARY:Prime Time Comedy
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=prime-time-comedy%7Chyena
+ -s-comedy-nightclub-dallas-dallas%7C8-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:alex-reymundo|hyena-s-comedy-nightclub-dallas-dallas|10-00-pm-2026-11-2
+ 0@letsdoitdallas.com
+DTSTAMP:20261121T040000Z
+DTSTART:20261121T040000Z
+DTEND:20261121T070000Z
+SUMMARY:Alex Reymundo
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=alex-reymundo%7Chyena-s-c
+ omedy-nightclub-dallas-dallas%7C10-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:roast-battle-league|hyena-s-comedy-nightclub-dallas-dallas|10-00-pm-202
+ 6-11-20@letsdoitdallas.com
+DTSTAMP:20261121T040000Z
+DTSTART:20261121T040000Z
+DTEND:20261121T070000Z
+SUMMARY:Roast Battle League
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=roast-battle-league%7Chye
+ na-s-comedy-nightclub-dallas-dallas%7C10-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:eric-eaton|hyena-s-comedy-nightclub-dallas-dallas|6-00-pm-2026-11-21@le
+ tsdoitdallas.com
+DTSTAMP:20261122T000000Z
+DTSTART:20261122T000000Z
+DTEND:20261122T030000Z
+SUMMARY:Eric Eaton
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=eric-eaton%7Chyena-s-come
+ dy-nightclub-dallas-dallas%7C6-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:eric-eaton|hyena-s-comedy-nightclub-dallas-dallas|8-00-pm-2026-11-21@le
+ tsdoitdallas.com
+DTSTAMP:20261122T020000Z
+DTSTART:20261122T020000Z
+DTEND:20261122T050000Z
+SUMMARY:Eric Eaton
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=eric-eaton%7Chyena-s-come
+ dy-nightclub-dallas-dallas%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:casey-rocket|hyena-s-comedy-nightclub-dallas-dallas|8-00-pm-2026-11-27@
+ letsdoitdallas.com
+DTSTAMP:20261128T020000Z
+DTSTART:20261128T020000Z
+DTEND:20261128T050000Z
+SUMMARY:Casey Rocket
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=casey-rocket%7Chyena-s-co
+ medy-nightclub-dallas-dallas%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+END:VCALENDAR

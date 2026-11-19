@@ -138,4 +138,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-16&e=alt-103-7-presents-smith-
 DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/house-of-blues-dallas/
 END:VEVENT
+BEGIN:VEVENT
+UID:raven-second-to-none-live-18-event|house-of-blues-dallas-dallas|7-00-pm
+ -2026-12-17@letsdoitdallas.com
+DTSTAMP:20261218T010000Z
+DTSTART:20261218T010000Z
+DTEND:20261218T040000Z
+SUMMARY:Raven: Second To None Live - 18+ Event
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-17&e=raven-second-to-none-live
+ -18-event%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
+ oitdallas.com/venue/house-of-blues-dallas/
+END:VEVENT
 END:VCALENDAR

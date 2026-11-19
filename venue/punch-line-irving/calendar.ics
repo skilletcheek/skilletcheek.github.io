@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:whatever-gen-x-does-stand-up|punch-line-irving-irving|7-30-pm-2026-11-1
- 8@letsdoitdallas.com
-DTSTAMP:20261119T013000Z
-DTSTART:20261119T013000Z
-DTEND:20261119T043000Z
-SUMMARY:Whatever! Gen X Does Stand-up
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=whatever-gen-x-does-stand
- -up%7Cpunch-line-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:chris-redd|punch-line-irving-irving|7-30-pm-2026-11-19@letsdoitdallas.c
  om
 DTSTAMP:20261120T013000Z
@@ -394,6 +381,19 @@ SUMMARY:The Bad Parenting Comedy Tour
 LOCATION:Punch Line Irving
 URL:https://letsdoitdallas.com/?date=2026-12-16&e=the-bad-parenting-comedy-
  tour%7Cpunch-line-irving-irving%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:chloe-radcliffe|punch-line-irving-irving|7-30-pm-2026-12-17@letsdoitdal
+ las.com
+DTSTAMP:20261218T013000Z
+DTSTART:20261218T013000Z
+DTEND:20261218T043000Z
+SUMMARY:Chloe Radcliffe
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-17&e=chloe-radcliffe%7Cpunch-l
+ ine-irving-irving%7C7-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
 END:VEVENT

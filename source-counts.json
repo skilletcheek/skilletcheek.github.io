@@ -1,47 +1,29 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "counts": {
-  "ticketmaster": 447,
-  "seatgeek": 300,
-  "ics_feeds": 49,
-  "civicplus": 408,
-  "prekindle": 51,
-  "singles_pages": 3,
-  "club_pages": 15,
+  "ticketmaster": 453,
+  "seatgeek": 299,
+  "ics_feeds": 43,
+  "civicplus": 415,
+  "prekindle": 52,
+  "singles_pages": 2,
+  "club_pages": 16,
   "do214": 0,
-  "dallasites101": 8,
-  "seated": 2,
+  "dallasites101": 9,
+  "seated": 3,
   "ics_feeds (whatsupfortworth.com)": 29,
-  "ics_feeds (calendar.unt.edu)": 20,
-  "prekindle (Granada Theater)": 9,
+  "ics_feeds (calendar.unt.edu)": 14,
+  "prekindle (Granada Theater)": 10,
   "prekindle (The Kessler Theater)": 15,
-  "prekindle (Poor David's Pub)": 11,
-  "prekindle (Trees)": 16,
-  "club_pages (CTRL Room)": 11,
-  "club_pages (Candleroom)": 4
+  "prekindle (Poor David's Pub)": 12,
+  "prekindle (Trees)": 15,
+  "club_pages (CTRL Room)": 13,
+  "club_pages (Candleroom)": 3
  },
- "alarms": [],
+ "alarms": [
+  "ics_feeds (calendar.unt.edu): 33 -> 14 (below 50% of its 14-run baseline)"
+ ],
  "history": [
-  {
-   "date": "2026-11-12",
-   "counts": {
-    "ticketmaster": 458,
-    "seatgeek": 300,
-    "ics_feeds": 69,
-    "civicplus": 57,
-    "prekindle": 52,
-    "singles_pages": 6,
-    "do214": 0,
-    "dallasites101": 11,
-    "seated": 2,
-    "ics_feeds (whatsupfortworth.com)": 28,
-    "ics_feeds (calendar.unt.edu)": 41,
-    "prekindle (Granada Theater)": 11,
-    "prekindle (The Kessler Theater)": 15,
-    "prekindle (Poor David's Pub)": 12,
-    "prekindle (Trees)": 14
-   }
-  },
   {
    "date": "2026-11-12",
    "counts": {
@@ -328,6 +310,29 @@
     "prekindle (Trees)": 16,
     "club_pages (CTRL Room)": 11,
     "club_pages (Candleroom)": 4
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "counts": {
+    "ticketmaster": 453,
+    "seatgeek": 299,
+    "ics_feeds": 43,
+    "civicplus": 415,
+    "prekindle": 52,
+    "singles_pages": 2,
+    "club_pages": 16,
+    "do214": 0,
+    "dallasites101": 9,
+    "seated": 3,
+    "ics_feeds (whatsupfortworth.com)": 29,
+    "ics_feeds (calendar.unt.edu)": 14,
+    "prekindle (Granada Theater)": 10,
+    "prekindle (The Kessler Theater)": 15,
+    "prekindle (Poor David's Pub)": 12,
+    "prekindle (Trees)": 15,
+    "club_pages (CTRL Room)": 13,
+    "club_pages (Candleroom)": 3
    }
   }
  ]

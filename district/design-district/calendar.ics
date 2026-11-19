@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:amble|the-echo-lounge-music-hall-dallas|7-00-pm-2026-11-18@letsdoitdall
- as.com
-DTSTAMP:20261119T010000Z
-DTSTART:20261119T010000Z
-DTEND:20261119T040000Z
-SUMMARY:Amble
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=amble%7Cthe-echo-lounge-m
- usic-hall-dallas%7C7-00-pm
-DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:holywatr-deo-gratias-tour|the-echo-lounge-music-hall-dallas|7-00-pm-202
  6-11-19@letsdoitdallas.com
 DTSTAMP:20261120T010000Z
@@ -123,6 +110,19 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/design-district/
 END:VEVENT
 BEGIN:VEVENT
+UID:dj-habibeats|the-echo-lounge-music-hall-dallas|10-00-pm-2026-11-21@lets
+ doitdallas.com
+DTSTAMP:20261122T040000Z
+DTSTART:20261122T040000Z
+DTEND:20261122T070000Z
+SUMMARY:DJ Habibeats
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=dj-habibeats%7Cthe-echo-l
+ ounge-music-hall-dallas%7C10-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
 UID:live-nation-presents-yallah-habibi-crew-21-event|the-echo-lounge-music-
  hall-dallas|10-00-pm-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T040000Z
@@ -134,6 +134,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=live-nation-presents-yall
  ah-habibi-crew-21-event%7Cthe-echo-lounge-music-hall-dallas%7C10-00-pm
 DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:yalla-21-|the-echo-lounge-music-hall-dallas|10-00-pm-2026-11-21@letsdoi
+ tdallas.com
+DTSTAMP:20261122T040000Z
+DTSTART:20261122T040000Z
+DTEND:20261122T070000Z
+SUMMARY:Yalla (21+)
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=yalla-21-%7Cthe-echo-loun
+ ge-music-hall-dallas%7C10-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/design-district/
 END:VEVENT
 BEGIN:VEVENT
 UID:josh-fawaz-ages-18-|silo-dallas|7-00-pm-2026-11-22@letsdoitdallas.com
@@ -197,19 +210,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=cure-for-paranoia%7Cthe-e
  cho-lounge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:rosegarden-funeral-party|the-echo-lounge-music-hall-dallas|7-00-pm-2026
- -11-28@letsdoitdallas.com
-DTSTAMP:20261129T010000Z
-DTSTART:20261129T010000Z
-DTEND:20261129T040000Z
-SUMMARY:Rosegarden Funeral Party
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-28&e=rosegarden-funeral-party%
- 7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/design-district/
 END:VEVENT
 BEGIN:VEVENT
 UID:deorro-ages-18-|silo-dallas|9-00-pm-2026-11-28@letsdoitdallas.com
@@ -420,5 +420,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-13&e=sam-wolfe-ages-18-%7Csilo
  -dallas%7C7-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:mitis-ages-18-|silo-dallas|9-00-pm-2026-12-17@letsdoitdallas.com
+DTSTAMP:20261218T030000Z
+DTSTART:20261218T030000Z
+DTEND:20261218T060000Z
+SUMMARY:MitiS - Ages 18+
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-17&e=mitis-ages-18-%7Csilo-dal
+ las%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
 END:VEVENT
 END:VCALENDAR

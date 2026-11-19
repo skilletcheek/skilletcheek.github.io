@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bahamas|the-kessler-theater-dallas|8-00-pm-2026-11-18@letsdoitdallas.co
- m
-DTSTAMP:20261119T020000Z
-DTSTART:20261119T020000Z
-DTEND:20261119T050000Z
-SUMMARY:Bahamas
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=bahamas%7Cthe-kessler-the
- ater-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/the-kessler-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:north-mississippi-allstars|the-kessler-theater-dallas|8-00-pm-2026-11-2
  0@letsdoitdallas.com
 DTSTAMP:20261121T020000Z
@@ -206,6 +193,20 @@ SUMMARY:Hayes Carll - Grateful for Christmas Tour - Night 1
 LOCATION:The Kessler Theater · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-18&e=hayes-carll-grateful-for-
  christmas-tour-night-1%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-
+ listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
+UID:hayes-carll-grateful-for-christmas-tour-night-2|the-kessler-theater-oak
+ -cliff-dallas|doors-see-listing-2026-12-19@letsdoitdallas.com
+DTSTAMP:20261219T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Hayes Carll - Grateful for Christmas Tour - Night 2
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=hayes-carll-grateful-for-
+ christmas-tour-night-2%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-
  listing
 DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/

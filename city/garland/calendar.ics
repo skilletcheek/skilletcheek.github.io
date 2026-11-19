@@ -9,38 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:thrills-chills-book-club-ages-18-|central-library-garland|06-30-pm-2026
- -11-18@letsdoitdallas.com
-DTSTAMP:20261119T003000Z
-DTSTART:20261119T003000Z
-DTEND:20261119T033000Z
-SUMMARY:Thrills & Chills Book Club (Ages 18+)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=thrills-chills-book-club-
- ages-18-%7Ccentral-library-garland%7C06-30-pm
-DESCRIPTION:6:30 p.m.\; An adult book club for mystery and thriller enthusi
- asts! Join us for engaging discussions and enjoy light refreshments. Novem
- ber 18\, 2026 06:30 PM - 07:30 PM 625 Austin St.Garland\, TX 75040 https:/
- /www.garlandtx.gov/Calendar.aspx?EID=13005/639227577960000000 — More: ht
- tps://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:preschool-discovery-3-5-years-|central-library-garland|10-00-am-2026-11
- -19@letsdoitdallas.com
-DTSTAMP:20261119T160000Z
-DTSTART:20261119T160000Z
-DTEND:20261119T190000Z
-SUMMARY:Preschool Discovery (3-5 Years)
-LOCATION:Central Library · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=preschool-discovery-3-5-y
- ears-%7Ccentral-library-garland%7C10-00-am
-DESCRIPTION:10:00 a.m.\; Preschool Discovery is designed for ages 3 to 5-ye
- ar-olds and their caregivers. Enjoy books\, songs\, exploring colors\, let
- ters\, numbers\, and much more that will help develop your preschooler's e
- arly literacy skills. November 19\, 2026 10:00 AM - 11:00 AM 625 Austin St
- .G — More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:cuentos-y-cantos-0-5-a-os-|biblioteca-central-garland|11-00-am-2026-11-
  19@letsdoitdallas.com
 DTSTAMP:20261119T170000Z
@@ -135,6 +103,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-19&e=dr-seuss-how-the-grinch-s
  tole-christmas-the-musical-presented-by-breitling-performing-arts%7C300-n-
  fifth-street-garland%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:dr-seuss-how-the-grinch-stole-christmas-garland|granville-arts-center-g
+ arland|7-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T010000Z
+DTSTART:20261120T010000Z
+DTEND:20261120T040000Z
+SUMMARY:Dr. Seuss How the Grinch Stole Christmas - Garland
+LOCATION:Granville Arts Center · Garland
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=dr-seuss-how-the-grinch-s
+ tole-christmas-garland%7Cgranville-arts-center-garland%7C7-00-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:baby-bounce-read-birth-18-months-|south-garland-library-garland|10-00-a

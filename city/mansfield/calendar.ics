@@ -9,37 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:no-blues-rock-jam-|fat-daddy-s-mansfield-781-west-debbie-lane-mansfield
- -76063-united-states|7-00-pm-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261119T010000Z
-DTSTART:20261119T010000Z
-DTEND:20261119T040000Z
-SUMMARY:NO BLUES Rock Jam!
-LOCATION:Fat Daddy’s Mansfield
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=no-blues-rock-jam-%7Cfat-
- daddy-s-mansfield-781-west-debbie-lane-mansfield-76063-united-states%7C7-0
- 0-pm
-DESCRIPTION:presented by Daniel “Skeetholio” Ellsberg No Blues Allowed.
-  Just Rock n Roll Every Wednesday Night 7-10PM NO COVER CHARGE! — More: 
- https://letsdoitdallas.com/city/mansfield/
-END:VEVENT
-BEGIN:VEVENT
-UID:story-time-for-tots-18mo-3y-|104-s-wisteria-st-mansfield|10-30-am-2026-
- 11-19@letsdoitdallas.com
-DTSTAMP:20261119T163000Z
-DTSTART:20261119T163000Z
-DTEND:20261119T193000Z
-SUMMARY:Story Time for Tots (18mo-3Y)
-LOCATION:104 S. Wisteria St. · Mansfield
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=story-time-for-tots-18mo-
- 3y-%7C104-s-wisteria-st-mansfield%7C10-30-am
-DESCRIPTION:Come enjoy books\, songs\, finger-plays and rhymes. Story Time 
- for Tots introduces toddlers and parents to developmentally appropriate li
- terature and related activities. It introduces group listening skills and 
- provides interaction with others. November 19\, 2026 10:30 AM - 11:00 AM 
- — More: https://letsdoitdallas.com/city/mansfield/
-END:VEVENT
-BEGIN:VEVENT
 UID:homeschool-book-club-12y-17y-|104-s-wisteria-st-mansfield|01-00-pm-2026
  -11-19@letsdoitdallas.com
 DTSTAMP:20261119T190000Z
@@ -204,22 +173,6 @@ DESCRIPTION:soccer event via SeatGeek. — More: https://letsdoitdallas.com
  /city/mansfield/
 END:VEVENT
 BEGIN:VEVENT
-UID:concacaf-women-s-championship-quarterfinals-canada-vs-panama-mexico-vs-
- haiti-|texas-health-mansfield-stadium-mansfield|12-00-pm-2026-11-28@letsdo
- itdallas.com
-DTSTAMP:20261128T180000Z
-DTSTART:20261128T180000Z
-DTEND:20261128T210000Z
-SUMMARY:CONCACAF Women's Championship - Quarterfinals (Canada vs Panama\, M
- exico vs Haiti)
-LOCATION:Texas Health Mansfield Stadium
-URL:https://letsdoitdallas.com/?date=2026-11-28&e=concacaf-women-s-champion
- ship-quarterfinals-canada-vs-panama-mexico-vs-haiti-%7Ctexas-health-mansfi
- eld-stadium-mansfield%7C12-00-pm
-DESCRIPTION:soccer event via SeatGeek. — More: https://letsdoitdallas.com
- /city/mansfield/
-END:VEVENT
-BEGIN:VEVENT
 UID:bilingual-story-time|104-s-wisteria-st-mansfield|10-30-am-2026-11-30@le
  tsdoitdallas.com
 DTSTAMP:20261130T163000Z
@@ -362,5 +315,53 @@ DESCRIPTION:Get into the holiday spirit by creating your own charming snowf
   festive decoration perfect for your tree or holiday décor. All supplies 
  provided. Registration is required. December 2\, 2026 01:00 PM - 02:00 —
   More: https://letsdoitdallas.com/city/mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:story-time-for-tots-18mo-3y-|104-s-wisteria-st-mansfield|10-30-am-2026-
+ 12-03@letsdoitdallas.com
+DTSTAMP:20261203T163000Z
+DTSTART:20261203T163000Z
+DTEND:20261203T193000Z
+SUMMARY:Story Time for Tots (18mo-3Y)
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=story-time-for-tots-18mo-
+ 3y-%7C104-s-wisteria-st-mansfield%7C10-30-am
+DESCRIPTION:Come enjoy books\, songs\, finger-plays and rhymes. Story Time 
+ for Tots introduces toddlers and parents to developmentally appropriate li
+ terature and related activities. It introduces group listening skills and 
+ provides interaction with others. December 3\, 2026 10:30 AM - 11:00 AM 
+ — More: https://letsdoitdallas.com/city/mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:painting-palooza-18-|104-s-wisteria-st-mansfield|11-00-am-2026-12-03@le
+ tsdoitdallas.com
+DTSTAMP:20261203T170000Z
+DTSTART:20261203T170000Z
+DTEND:20261203T200000Z
+SUMMARY:Painting Palooza (18+)
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=painting-palooza-18-%7C10
+ 4-s-wisteria-st-mansfield%7C11-00-am
+DESCRIPTION:Join us for a fun and relaxing painting experience. Choose from
+  the provided wooden decor and bring it to life with your own personal tou
+ ch! All supplies provided. Registration is required. December 3\, 2026 11:
+ 00 AM - 12:00 PM 104 S. Wisteria St.Mansfield\, TX 76063 https://www.ma 
+ — More: https://letsdoitdallas.com/city/mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:s-mores-stories-with-mpd-santa|104-s-wisteria-st-mansfield|05-00-pm-202
+ 6-12-03@letsdoitdallas.com
+DTSTAMP:20261203T230000Z
+DTSTART:20261203T230000Z
+DTEND:20261204T020000Z
+SUMMARY:S'mores & Stories With MPD & Santa
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=s-mores-stories-with-mpd-
+ santa%7C104-s-wisteria-st-mansfield%7C05-00-pm
+DESCRIPTION:Mansfield Police Department joins us for crafts\, s'mores\, and
+  letter writing followed by a story from the big guy himself! Bring the fa
+ mily for some cozy holiday fun. Registration is not required. December 3\,
+  2026 05:00 PM - 07:00 PM 104 S. Wisteria St.Mansfield\, TX 76063 https:/ 
+ — More: https://letsdoitdallas.com/city/mansfield/
 END:VEVENT
 END:VCALENDAR

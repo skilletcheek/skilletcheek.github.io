@@ -113,4 +113,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-16&e=william-beckmann-las-posa
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/majestic-theatre-dallas/
 END:VEVENT
+BEGIN:VEVENT
+UID:112|majestic-theatre-dallas-dallas|8-00-pm-2026-12-17@letsdoitdallas.co
+ m
+DTSTAMP:20261218T020000Z
+DTSTART:20261218T020000Z
+DTEND:20261218T050000Z
+SUMMARY:112
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-17&e=112%7Cmajestic-theatre-da
+ llas-dallas%7C8-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/majestic-theatre-dallas/
+END:VEVENT
 END:VCALENDAR

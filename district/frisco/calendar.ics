@@ -10,30 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:community-meet-greet-frisco-fire-chief-finalists|8300-mckinney-rd-frisc
- o|06-00-pm-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261119T000000Z
-DTSTART:20261119T000000Z
-DTEND:20261119T030000Z
-SUMMARY:Community Meet & Greet - Frisco Fire Chief Finalists
-LOCATION:8300 McKinney Rd · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=community-meet-greet-fris
- co-fire-chief-finalists%7C8300-mckinney-rd-frisco%7C06-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:reasonable-accommodations-board|6101-frisco-square-blvd-frisco|06-30-pm
- -2026-11-18@letsdoitdallas.com
-DTSTAMP:20261119T003000Z
-DTSTART:20261119T003000Z
-DTEND:20261119T033000Z
-SUMMARY:Reasonable Accommodations Board
-LOCATION:6101 Frisco Square Blvd.
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=reasonable-accommodations
- -board%7C6101-frisco-square-blvd-frisco%7C06-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:4th-street-plaza-holiday-tree-lighting-holiday-film-at-the-silos|8802-4
  th-st-frisco|05-30-pm-2026-11-19@letsdoitdallas.com
 DTSTAMP:20261119T233000Z
@@ -106,6 +82,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=texas-legends-vs-memphis-
  hustle%7Cfifth-third-arena-frisco%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:emerald-city-band|rollertown-beerworks-frisco-frisco|8-00-pm-2026-11-21
+ @letsdoitdallas.com
+DTSTAMP:20261122T020000Z
+DTSTART:20261122T020000Z
+DTEND:20261122T050000Z
+SUMMARY:Emerald City Band
+LOCATION:Rollertown Beerworks - Frisco
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=emerald-city-band%7Crolle
+ rtown-beerworks-frisco-frisco%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
 UID:hoopfest-basketball-women-s-challenge-session-1|fifth-third-arena-frisc
@@ -248,6 +237,30 @@ URL:https://letsdoitdallas.com/?date=2026-12-02&e=frosty-5k-packet-pickup%7
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:frosty-5k-packet-pickup|5828-nancy-jane-lane-frisco|08-00-am-2026-12-03
+ @letsdoitdallas.com
+DTSTAMP:20261203T140000Z
+DTSTART:20261203T140000Z
+DTEND:20261203T170000Z
+SUMMARY:Frosty 5K Packet Pickup
+LOCATION:5828 Nancy Jane Lane · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=frosty-5k-packet-pickup%7
+ C5828-nancy-jane-lane-frisco%7C08-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:plaza-live-|8802-4th-street-frisco|06-00-pm-2026-12-03@letsdoitdallas.c
+ om
+DTSTAMP:20261204T000000Z
+DTSTART:20261204T000000Z
+DTEND:20261204T030000Z
+SUMMARY:Plaza Live!
+LOCATION:8802 4th Street · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=plaza-live-%7C8802-4th-st
+ reet-frisco%7C06-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-dallas-stars-hall-of-fame-induction-gala|fifth-third-arena-frisco|
  7-00-pm-2026-12-10@letsdoitdallas.com
 DTSTAMP:20261211T010000Z
@@ -296,6 +309,19 @@ SUMMARY:Texas Legends vs. Birmingham Squadron
 LOCATION:Fifth Third Arena · Frisco
 URL:https://letsdoitdallas.com/?date=2026-12-12&e=texas-legends-vs-birmingh
  am-squadron%7Cfifth-third-arena-frisco%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-legends-college-classic-friday|fifth-third-arena-frisco|1-00-pm-2
+ 026-12-18@letsdoitdallas.com
+DTSTAMP:20261218T190000Z
+DTSTART:20261218T190000Z
+DTEND:20261218T220000Z
+SUMMARY:Texas Legends College Classic FRIDAY
+LOCATION:Fifth Third Arena · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-18&e=texas-legends-college-cla
+ ssic-friday%7Cfifth-third-arena-frisco%7C1-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
 END:VEVENT

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bodysnatcher-with-gideon-psycho-frame-and-volatile-ways|puzzles-deep-el
- lum-dallas|7-00-pm-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261119T010000Z
-DTSTART:20261119T010000Z
-DTEND:20261119T040000Z
-SUMMARY:Bodysnatcher with Gideon\, Psycho-Frame\, and Volatile Ways
-LOCATION:Puzzles Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=bodysnatcher-with-gideon-
- psycho-frame-and-volatile-ways%7Cpuzzles-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/puzzles-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:beauty-school-dropout-with-no-love-for-the-middle-child|puzzles-deep-el
  lum-dallas|7-30-pm-2026-11-19@letsdoitdallas.com
 DTSTAMP:20261120T013000Z
@@ -31,6 +18,19 @@ SUMMARY:Beauty School Dropout with No Love For The Middle Child
 LOCATION:Puzzles Deep Ellum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=beauty-school-dropout-wit
  h-no-love-for-the-middle-child%7Cpuzzles-deep-ellum-dallas%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/puzzles-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:i-set-my-friends-on-fire|puzzles-deep-ellum-dallas|7-00-pm-2026-11-20@l
+ etsdoitdallas.com
+DTSTAMP:20261121T010000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:I Set My Friends On Fire
+LOCATION:Puzzles Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=i-set-my-friends-on-fire%
+ 7Cpuzzles-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/puzzles-deep-ellum/
 END:VEVENT

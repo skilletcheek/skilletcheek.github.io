@@ -87,6 +87,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/billy-bob-s/
 END:VEVENT
 BEGIN:VEVENT
+UID:william-clark-green|billy-bob-s-texas-fort-worth|10-00-pm-2026-11-26@le
+ tsdoitdallas.com
+DTSTAMP:20261127T040000Z
+DTSTART:20261127T040000Z
+DTEND:20261127T070000Z
+SUMMARY:William Clark Green
+LOCATION:Billy Bob's Texas · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=william-clark-green%7Cbil
+ ly-bob-s-texas-fort-worth%7C10-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
 UID:chase-matthews-ages-18-|billy-bob-s-fort-worth|10-00-pm-2026-11-27@lets
  doitdallas.com
 DTSTAMP:20261128T040000Z
@@ -189,5 +202,31 @@ URL:https://letsdoitdallas.com/?date=2026-12-12&e=mike-ryan-18-and-over-%7C
  billy-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:wade-forster-18-and-over-|billy-bob-s-fort-worth|9-00-pm-2026-12-17@let
+ sdoitdallas.com
+DTSTAMP:20261218T030000Z
+DTSTART:20261218T030000Z
+DTEND:20261218T060000Z
+SUMMARY:Wade Forster (18 and Over)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-17&e=wade-forster-18-and-over-
+ %7Cbilly-bob-s-fort-worth%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:randy-rogers-band|billy-bob-s-texas-fort-worth|7-00-pm-2026-12-19@letsd
+ oitdallas.com
+DTSTAMP:20261220T010000Z
+DTSTART:20261220T010000Z
+DTEND:20261220T040000Z
+SUMMARY:Randy Rogers Band
+LOCATION:Billy Bob's Texas · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=randy-rogers-band%7Cbilly
+ -bob-s-texas-fort-worth%7C7-00-pm
+DESCRIPTION:Randy Rogers Band live at Billy Bob's Texas. — More: https://
+ letsdoitdallas.com/venue/billy-bob-s/
 END:VEVENT
 END:VCALENDAR

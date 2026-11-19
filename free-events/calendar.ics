@@ -10,51 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:h-e-b-s-annual-feast-of-sharing-holiday-dinner|fair-park-8211-centennia
- l-building-dallas|3-00-pm-7-00-pm-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261118T210000Z
-DTSTART:20261118T210000Z
-DTEND:20261119T000000Z
-SUMMARY:H-E-B’s Annual Feast of Sharing Holiday Dinner
-LOCATION:Fair Park &#8211\; Centennial Building · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=h-e-b-s-annual-feast-of-s
- haring-holiday-dinner%7Cfair-park-8211-centennial-building-dallas%7C3-00-p
- m-7-00-pm
-DESCRIPTION:H-E-B and Central Market’s annual Feast of Sharing invites th
- e community to enjoy a free\, family-friendly holiday meal with live music
- \, a kids’ zone\, and visits with Santa and Mrs. Claus. More than 40 soc
- ial service agencies will also share helpful resources. Meals are availabl
- e — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:math-treasure-hunt-solve-the-case-of-the-missing-x|bhanzu-learning-cent
- er-2300-mcdermott-rd-plano|5-30-pm-7-30-pm-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261118T233000Z
-DTSTART:20261118T233000Z
-DTEND:20261119T023000Z
-SUMMARY:Math Treasure Hunt: Solve the Case of the Missing X
-LOCATION:Bhanzu Learning Center · Plano
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=math-treasure-hunt-solve-
- the-case-of-the-missing-x%7Cbhanzu-learning-center-2300-mcdermott-rd-plano
- %7C5-30-pm-7-30-pm
-DESCRIPTION:Bhanzu Learning Center hosts a math treasure hunt for kids\, wi
- th interactive math challenges and a chance to win a LEGO set. Free entry\
- ; limited seats. — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:wub-wednesday|three-links-deep-ellum-dallas|10-00-pm-2026-11-18@letsdoi
- tdallas.com
-DTSTAMP:20261119T040000Z
-DTSTART:20261119T040000Z
-DTEND:20261119T070000Z
-SUMMARY:Wub Wednesday
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=wub-wednesday%7Cthree-lin
- ks-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:artist-talk-contemporary-myths-the-stories-that-build-unite-and-divide|
  dallas-contemporary-dallas|6-00-pm-7-00-pm-2026-11-19@letsdoitdallas.com
 DTSTAMP:20261120T000000Z
@@ -71,6 +26,22 @@ DESCRIPTION:This conversation examines the enduring role of myth and storyt
  apidly changing world. The discussion explores how narrative can shape our
   understanding of cultural change\, human experience\, and the future. —
   More: https://letsdoitdallas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:young-professionals-fall-social-winter-drive|gallery-defi-dallas|6-00-p
+ m-8-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T000000Z
+DTSTART:20261120T000000Z
+DTEND:20261120T030000Z
+SUMMARY:Young Professionals Fall Social & Winter Drive
+LOCATION:Gallery DeFi · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=young-professionals-fall-
+ social-winter-drive%7Cgallery-defi-dallas%7C6-00-pm-8-00-pm
+DESCRIPTION:Connect with fellow young professionals at RRC Next’s network
+ ing event at Gallery DeFi\, featuring light bites\, nonalcoholic refreshme
+ nts\, and an immersive art experience. Learn more about Recovery Resource 
+ Council’s mission\, meet emerging leaders across DFW\, and explore ways 
+ to g — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:aurora-biennial-performance-eva-papamargariti-disappear-here|dallas-con

@@ -10,87 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
- ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-18@lets
- doitdallas.com
-DTSTAMP:20261118T160000Z
-DTSTART:20261118T160000Z
-DTEND:20261118T190000Z
-SUMMARY:Puzzling Adventures Scavenger Hunt
-LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=puzzling-adventures-scave
- nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
- rth-76102-united-states%7C10-00-am
-DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
- uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
- e\, and an informative self-guided walking tour. Each adventure consists o
- f a series of locations that you are guided to where you are required t 
- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:ut-arlington-womens-bb-at-tcu-womens-bb|ed-rae-schollmaier-arena-fort-w
- orth|6-30-pm-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261119T003000Z
-DTSTART:20261119T003000Z
-DTEND:20261119T033000Z
-SUMMARY:UT Arlington Womens BB at TCU Womens BB
-LOCATION:Ed & Rae Schollmaier Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=ut-arlington-womens-bb-at
- -tcu-womens-bb%7Ced-rae-schollmaier-arena-fort-worth%7C6-30-pm
-DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
- tsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:daniil-trifonov|bass-performance-hall-525-commerce-street-fort-worth-76
- 102-united-states|7-30-pm-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261119T013000Z
-DTSTART:20261119T013000Z
-DTEND:20261119T043000Z
-SUMMARY:Daniil Trifonov
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=daniil-trifonov%7Cbass-pe
- rformance-hall-525-commerce-street-fort-worth-76102-united-states%7C7-30-p
- m
-DESCRIPTION:Experience the Joy of Music This season Cliburn Concerts invite
- s you to experience joy: the awe of seeing near superhuman virtuosity at t
- he Kimbell Art Museum\; a memorable evening spent with friends at Tannahil
- l’s Music Hall\; a weekend celebration at the Modern Art Museum of Fort 
- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:big-mike-|-3rd-wednesday|magnolia-motor-lounge-3803-southwest-blvd-fort
- -worth-76116-united-states|8-00-pm-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261119T020000Z
-DTSTART:20261119T020000Z
-DTEND:20261119T050000Z
-SUMMARY:BIG MIKE | 3rd Wednesday
-LOCATION:Magnolia Motor Lounge · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=big-mike-%7C-3rd-wednesda
- y%7Cmagnolia-motor-lounge-3803-southwest-blvd-fort-worth-76116-united-stat
- es%7C8-00-pm
-DESCRIPTION:BIG MIKE | 3rd Wednesday – CCR Night with RTB2 and friends!  
- Doors at 7:00 PM  – Show at 8:00 PM   FREE GA  Ages 21+  @outhouseticke
- ts Share it and tag a few friends! — More: https://letsdoitdallas.com/di
- strict/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:wizop-wednesday-s-open-mic-night|big-laugh-comedy-club-fort-worth-604-m
- ain-st-suite-100-fort-worth|9-30-pm-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261119T033000Z
-DTSTART:20261119T033000Z
-DTEND:20261119T063000Z
-SUMMARY:Wizop Wednesday's Open Mic Night
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=wizop-wednesday-s-open-mi
- c-night%7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-wort
- h%7C9-30-pm
-DESCRIPTION:Wizop Wednesdays: Open Mic Comedy  Looking for a midweek jolt o
- f ridiculous? Wizop Wednesdays is where fresh jokes are born\, wild bits g
- et tested\, and legends-in-the-making grab the mic. It’s raw\, fast\, an
- d absolutely addictive\, your new Wednesday night ritual.  Expect lightnin
- g- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
  et-fort-worth-76107-united-states|10-00-am-2026-11-19@letsdoitdallas.com
 DTSTAMP:20261119T160000Z
@@ -299,6 +218,24 @@ DESCRIPTION:The primary objective of the National Multicultural Western Her
  ore: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:pizza-on-the-patio-at-caf-modern|modern-art-museum-of-fort-worth-3200-d
+ arnell-street-fort-worth-76107-united-states|5-00-pm-2026-11-20@letsdoitda
+ llas.com
+DTSTAMP:20261120T230000Z
+DTSTART:20261120T230000Z
+DTEND:20261121T020000Z
+SUMMARY:Pizza on the Patio at Café Modern
+LOCATION:Modern Art Museum of Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=pizza-on-the-patio-at-caf
+ -modern%7Cmodern-art-museum-of-fort-worth-3200-darnell-street-fort-worth-7
+ 6107-united-states%7C5-00-pm
+DESCRIPTION:Enjoy a fall evening outside with Pizza on the Patio at Café M
+ odern! Join us on November 6\, November 20\, and November 27 from 5-8 pm f
+ or an evening of delicious food and drinks on the patio at the Modern Art 
+ Museum of Fort Worth.   Café Modern’s Executive Chef Jett Mora and his
+  t — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:tcu-horned-frogs-womens-volleyball-vs-arizona-state-sun-devils-womens-v
  olleyball|ed-and-rae-schollmaier-arena-fort-worth|6-30-pm-2026-11-20@letsd
  oitdallas.com
@@ -313,6 +250,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-20&e=tcu-horned-frogs-womens-v
  lmaier-arena-fort-worth%7C6-30-pm
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:eric-eaton|hyena-s-comedy-night-club-fort-worth-fort-worth|7-00-pm-2026
+ -11-20@letsdoitdallas.com
+DTSTAMP:20261121T010000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:Eric Eaton
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=eric-eaton%7Chyena-s-come
+ dy-night-club-fort-worth-fort-worth%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:fort-worth-symphony-orchestra-rachmaninoff-copland-dvorak|bass-performa
@@ -342,17 +292,59 @@ DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:tcu-horned-frogs-football-vs-utah-utes-football|amon-g-carter-stadium-f
- ort-worth|see-details-2026-11-21@letsdoitdallas.com
-DTSTAMP:20261121T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:TCU Horned Frogs Football vs. Utah Utes Football
-LOCATION:Amon G. Carter Stadium · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=tcu-horned-frogs-football
- -vs-utah-utes-football%7Camon-g-carter-stadium-fort-worth%7Csee-details
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/district/fort-worth/
+UID:ricki-derek-the-vegas-six|scat-jazz-lounge-111-w-4th-st-fort-worth-7610
+ 2-united-states|8-00-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T020000Z
+DTSTART:20261121T020000Z
+DTEND:20261121T050000Z
+SUMMARY:Ricki Derek & the Vegas Six
+LOCATION:Scat Jazz Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=ricki-derek-the-vegas-six
+ %7Cscat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-states%7C8-00-pm
+DESCRIPTION:Imagine yourself on the strip in early 60’s when the Copa at 
+ the Sands was the place to be. You don’t need a time machine or a loan\,
+  Ricki and his band swing into Scat for a fun night of some of the greates
+ t songs ever written. If the sounds of Ricki and the band don’t get your
+  f — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:shakey-graves|tulips-ftw-fort-worth|8-00-pm-2026-11-20@letsdoitdallas.c
+ om
+DTSTAMP:20261121T020000Z
+DTSTART:20261121T020000Z
+DTEND:20261121T050000Z
+SUMMARY:Shakey Graves
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=shakey-graves%7Ctulips-ft
+ w-fort-worth%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:eric-eaton|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-pm-2026
+ -11-20@letsdoitdallas.com
+DTSTAMP:20261121T033000Z
+DTSTART:20261121T033000Z
+DTEND:20261121T063000Z
+SUMMARY:Eric Eaton
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=eric-eaton%7Chyena-s-come
+ dy-night-club-fort-worth-fort-worth%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:alex-reymundo|hyena-s-comedy-night-club-fort-worth-fort-worth|7-00-pm-2
+ 026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T010000Z
+DTSTART:20261122T010000Z
+DTEND:20261122T040000Z
+SUMMARY:Alex Reymundo
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=alex-reymundo%7Chyena-s-c
+ omedy-night-club-fort-worth-fort-worth%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-triples-world-tour-andless-in-fort-worth|will-rogers-auditorium-fo
@@ -395,6 +387,45 @@ DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:rob-baird|the-post-at-river-east-fort-worth|8-00-pm-2026-11-21@letsdoit
+ dallas.com
+DTSTAMP:20261122T020000Z
+DTSTART:20261122T020000Z
+DTEND:20261122T050000Z
+SUMMARY:Rob Baird
+LOCATION:The Post at River East · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=rob-baird%7Cthe-post-at-r
+ iver-east-fort-worth%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:shakey-graves|tulips-ftw-fort-worth|8-00-pm-2026-11-21@letsdoitdallas.c
+ om
+DTSTAMP:20261122T020000Z
+DTSTART:20261122T020000Z
+DTEND:20261122T050000Z
+SUMMARY:Shakey Graves
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=shakey-graves%7Ctulips-ft
+ w-fort-worth%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-football-vs-utah-utes-football|amon-g-carter-stadium-f
+ ort-worth|8-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T020000Z
+DTSTART:20261122T020000Z
+DTEND:20261122T050000Z
+SUMMARY:TCU Horned Frogs Football vs. Utah Utes Football
+LOCATION:Amon G. Carter Stadium · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=tcu-horned-frogs-football
+ -vs-utah-utes-football%7Camon-g-carter-stadium-fort-worth%7C8-00-pm
+DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
+ as.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:carousel-club-burlesque-presents-rhinestone-rodeo-ages-18-up-|tannahill
  -s-music-hall-lounge-fort-worth|9-00-pm-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T030000Z
@@ -407,6 +438,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=carousel-club-burlesque-p
  worth%7C9-00-pm
 DESCRIPTION:Variety event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:alex-reymundo|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-pm-2
+ 026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T033000Z
+DTSTART:20261122T033000Z
+DTEND:20261122T063000Z
+SUMMARY:Alex Reymundo
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=alex-reymundo%7Chyena-s-c
+ omedy-night-club-fort-worth-fort-worth%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:ls-hoops-with-heart-weekend-i|ariat-arena-fort-worth|12-00-pm-2026-11-2
@@ -465,6 +509,19 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:clay-parker|the-post-at-river-east-fort-worth|6-00-pm-2026-11-22@letsdo
+ itdallas.com
+DTSTAMP:20261123T000000Z
+DTSTART:20261123T000000Z
+DTEND:20261123T030000Z
+SUMMARY:Clay Parker
+LOCATION:The Post at River East · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=clay-parker%7Cthe-post-at
+ -river-east-fort-worth%7C6-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|3-00-pm-2026-11-27@
  letsdoitdallas.com
 DTSTAMP:20261127T210000Z
@@ -517,6 +574,19 @@ DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:sophie-buddle|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm-2
+ 026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T020000Z
+DTSTART:20261128T020000Z
+DTEND:20261128T050000Z
+SUMMARY:Sophie Buddle
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=sophie-buddle%7Chyena-s-c
+ omedy-night-club-fort-worth-fort-worth%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:gannon-fremin-ccrev|tannahill-s-music-hall-lounge-fort-worth|9-00-pm-20
  26-11-27@letsdoitdallas.com
 DTSTAMP:20261128T030000Z
@@ -528,32 +598,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=gannon-fremin-ccrev%7Ctan
  nahill-s-music-hall-lounge-fort-worth%7C9-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|1-00-pm-2026-11-28@
- letsdoitdallas.com
-DTSTAMP:20261128T190000Z
-DTSTART:20261128T190000Z
-DTEND:20261128T220000Z
-SUMMARY:A Christmas Carol - Fort Worth
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-28&e=a-christmas-carol-fort-wo
- rth%7Ccasa-manana-fort-worth%7C1-00-pm
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|5-00-pm-2026-11-28@
- letsdoitdallas.com
-DTSTAMP:20261128T230000Z
-DTSTART:20261128T230000Z
-DTEND:20261129T020000Z
-SUMMARY:A Christmas Carol - Fort Worth
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-28&e=a-christmas-carol-fort-wo
- rth%7Ccasa-manana-fort-worth%7C5-00-pm
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:home-for-the-holidays|bass-performance-hall-fort-worth|7-30-pm-2026-11-
@@ -581,19 +625,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=aj-mclean-presents-alexan
  C8-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|11-00-am-2026-11-29
- @letsdoitdallas.com
-DTSTAMP:20261129T170000Z
-DTSTART:20261129T170000Z
-DTEND:20261129T200000Z
-SUMMARY:A Christmas Carol - Fort Worth
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-29&e=a-christmas-carol-fort-wo
- rth%7Ccasa-manana-fort-worth%7C11-00-am
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:106-1-kiss-fm-s-jingle-ball-presented-by-capital-one|ariat-arena-fort-w
@@ -986,6 +1017,32 @@ DTEND:20261217T043000Z
 SUMMARY:The Music of Johnny Mathis
 LOCATION:Casa Manana · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-16&e=the-music-of-johnny-mathi
+ s%7Ccasa-manana-fort-worth%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker|bass-performance-hall-fort-worth|7-00-pm-2026-12-17@lets
+ doitdallas.com
+DTSTAMP:20261218T010000Z
+DTSTART:20261218T010000Z
+DTEND:20261218T040000Z
+SUMMARY:The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-17&e=the-nutcracker%7Cbass-per
+ formance-hall-fort-worth%7C7-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-music-of-johnny-mathis|casa-manana-fort-worth|7-30-pm-2026-12-17@le
+ tsdoitdallas.com
+DTSTAMP:20261218T013000Z
+DTSTART:20261218T013000Z
+DTEND:20261218T043000Z
+SUMMARY:The Music of Johnny Mathis
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-17&e=the-music-of-johnny-mathi
  s%7Ccasa-manana-fort-worth%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/

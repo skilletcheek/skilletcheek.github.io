@@ -10,68 +10,16 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:forbidden-tour|trees-dallas|doors-see-listing-2026-11-18@letsdoitdallas
- .com
-DTSTAMP:20261118T000000Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:FORBIDDEN TOUR
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=forbidden-tour%7Ctrees-da
- llas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:big-ass-truck|three-links-deep-ellum-dallas|6-30-pm-2026-11-18@letsdoit
- dallas.com
-DTSTAMP:20261119T003000Z
-DTSTART:20261119T003000Z
-DTEND:20261119T033000Z
-SUMMARY:Big Ass Truck
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=big-ass-truck%7Cthree-lin
- ks-deep-ellum-dallas%7C6-30-pm
-DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:bodysnatcher-with-gideon-psycho-frame-and-volatile-ways|puzzles-deep-el
- lum-dallas|7-00-pm-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261119T010000Z
-DTSTART:20261119T010000Z
-DTEND:20261119T040000Z
-SUMMARY:Bodysnatcher with Gideon\, Psycho-Frame\, and Volatile Ways
-LOCATION:Puzzles Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=bodysnatcher-with-gideon-
- psycho-frame-and-volatile-ways%7Cpuzzles-deep-ellum-dallas%7C7-00-pm
+UID:omb-peezy|club-dada-dallas|7-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T010000Z
+DTSTART:20261120T010000Z
+DTEND:20261120T040000Z
+SUMMARY:OMB Peezy
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=omb-peezy%7Cclub-dada-dal
+ las%7C7-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:cannelle|rbc-deep-ellum-dallas|7-00-pm-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261119T010000Z
-DTSTART:20261119T010000Z
-DTEND:20261119T040000Z
-SUMMARY:Cannelle
-LOCATION:RBC Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=cannelle%7Crbc-deep-ellum
- -dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:wub-wednesday|three-links-deep-ellum-dallas|10-00-pm-2026-11-18@letsdoi
- tdallas.com
-DTSTAMP:20261119T040000Z
-DTSTART:20261119T040000Z
-DTEND:20261119T070000Z
-SUMMARY:Wub Wednesday
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=wub-wednesday%7Cthree-lin
- ks-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:beauty-school-dropout-with-no-love-for-the-middle-child|puzzles-deep-el
@@ -113,6 +61,18 @@ DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:hedras|deep-ellum-art-co-dallas|8-00-pm-2026-11-19@letsdoitdallas.com
+DTSTAMP:20261120T020000Z
+DTSTART:20261120T020000Z
+DTEND:20261120T050000Z
+SUMMARY:Hedras
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-19&e=hedras%7Cdeep-ellum-art-c
+ o-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:daley|trees-dallas|8-30-pm-2026-11-19@letsdoitdallas.com
 DTSTAMP:20261120T023000Z
 DTSTART:20261120T023000Z
@@ -151,6 +111,31 @@ DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:i-set-my-friends-on-fire|puzzles-deep-ellum-dallas|7-00-pm-2026-11-20@l
+ etsdoitdallas.com
+DTSTAMP:20261121T010000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:I Set My Friends On Fire
+LOCATION:Puzzles Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=i-set-my-friends-on-fire%
+ 7Cpuzzles-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:jay-roxxx|club-dada-dallas|7-00-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T010000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:Jay Roxxx
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=jay-roxxx%7Cclub-dada-dal
+ las%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:all-the-feels-r-and-b-16-and-under-with-parent-or-legal-guardian-|the-b
  omb-factory-dallas|8-00-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T020000Z
@@ -175,6 +160,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-20&e=southfm%7Ctrees-dallas%7C
  8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:seth-david|deep-ellum-art-co-dallas|10-00-pm-2026-11-20@letsdoitdallas.
+ com
+DTSTAMP:20261121T040000Z
+DTSTART:20261121T040000Z
+DTEND:20261121T070000Z
+SUMMARY:Seth David
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=seth-david%7Cdeep-ellum-a
+ rt-co-dallas%7C10-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
@@ -385,6 +383,19 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:as-i-lay-dying-the-curse-within-commissary|trees-dallas|doors-see-listi
+ ng-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:AS I LAY DYING * THE CURSE WITHIN * COMMISSARY
+LOCATION:Trees · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=as-i-lay-dying-the-curse-
+ within-commissary%7Ctrees-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
+ ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:maximum-aggression-xcape-venadryl-eyebleed|three-links-deep-ellum-dalla
  s|7-00-pm-2026-11-28@letsdoitdallas.com
 DTSTAMP:20261129T010000Z
@@ -396,19 +407,6 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=maximum-aggression-xcape-
  venadryl-eyebleed%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:as-i-lay-dying|trees-dallas-dallas|8-00-pm-2026-11-28@letsdoitdallas.co
- m
-DTSTAMP:20261129T020000Z
-DTSTART:20261129T020000Z
-DTEND:20261129T050000Z
-SUMMARY:As I Lay Dying
-LOCATION:Trees - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-28&e=as-i-lay-dying%7Ctrees-da
- llas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:emo-nite-18-|deep-ellum-live-dallas|9-00-pm-2026-11-28@letsdoitdallas.c

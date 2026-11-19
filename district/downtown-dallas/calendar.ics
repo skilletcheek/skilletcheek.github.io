@@ -11,35 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261118T140000Z
-DTSTART:20261118T140000Z
-DTEND:20261118T170000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-mavericks-vs-golden-state-warriors|american-airlines-center-dall
- as|7-00-pm-2026-11-18@letsdoitdallas.com
-DTSTAMP:20261119T010000Z
-DTSTART:20261119T010000Z
-DTEND:20261119T040000Z
-SUMMARY:Dallas Mavericks vs. Golden State Warriors
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-18&e=dallas-mavericks-vs-golde
- n-state-warriors%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-11-19@letsdoitdallas.com
 DTSTAMP:20261119T140000Z
 DTSTART:20261119T140000Z
@@ -295,19 +266,6 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:mama-s-broke-reunion-album-release-tour|poor-david-s-pub-dallas|doors-s
- ee-listing-2026-11-22@letsdoitdallas.com
-DTSTAMP:20261122T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Mama’s Broke Reunion Album Release Tour
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=mama-s-broke-reunion-albu
- m-release-tour%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-stars-vs-pittsburgh-penguins|american-airlines-center-dallas|6-0
  0-pm-2026-11-22@letsdoitdallas.com
 DTSTAMP:20261123T000000Z
@@ -345,6 +303,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-22&e=charlie-zaa%7Chouse-of-bl
  ues-dallas-dallas%7C7-00-pm
 DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:mama-s-broke|poor-david-s-pub-dallas|8-00-pm-2026-11-22@letsdoitdallas.
+ com
+DTSTAMP:20261123T020000Z
+DTSTART:20261123T020000Z
+DTEND:20261123T050000Z
+SUMMARY:Mama's Broke
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=mama-s-broke%7Cpoor-david
+ -s-pub-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:mojo-brookzz|majestic-theatre-dallas-dallas|9-00-pm-2026-11-22@letsdoit
@@ -1078,6 +1049,45 @@ DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:raven-second-to-none-live-18-event|house-of-blues-dallas-dallas|7-00-pm
+ -2026-12-17@letsdoitdallas.com
+DTSTAMP:20261218T010000Z
+DTSTART:20261218T010000Z
+DTEND:20261218T040000Z
+SUMMARY:Raven: Second To None Live - 18+ Event
+LOCATION:House of Blues Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-17&e=raven-second-to-none-live
+ -18-event%7Chouse-of-blues-dallas-dallas%7C7-00-pm
+DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
+ oitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-phantom-of-the-opera-touring-|music-hall-at-fair-park-dallas|7-30-p
+ m-2026-12-17@letsdoitdallas.com
+DTSTAMP:20261218T013000Z
+DTSTART:20261218T013000Z
+DTEND:20261218T043000Z
+SUMMARY:The Phantom of the Opera (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-17&e=the-phantom-of-the-opera-
+ touring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:112|majestic-theatre-dallas-dallas|8-00-pm-2026-12-17@letsdoitdallas.co
+ m
+DTSTAMP:20261218T020000Z
+DTSTART:20261218T020000Z
+DTEND:20261218T050000Z
+SUMMARY:112
+LOCATION:Majestic Theatre Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-17&e=112%7Cmajestic-theatre-da
+ llas-dallas%7C8-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:ian-moore-annual-holiday-show-|poor-david-s-pub-dallas|doors-see-listin
  g-2026-12-18@letsdoitdallas.com
 DTSTAMP:20261218T000000Z
@@ -1087,6 +1097,19 @@ SUMMARY:Ian Moore Annual Holiday Show!
 LOCATION:Poor David's Pub · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-18&e=ian-moore-annual-holiday-
  show-%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:cameron-matthew-ray-birthday-bash-|poor-david-s-pub-dallas|doors-see-li
+ sting-2026-12-19@letsdoitdallas.com
+DTSTAMP:20261219T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Cameron Matthew Ray Birthday Bash!
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=cameron-matthew-ray-birth
+ day-bash-%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
 END:VEVENT

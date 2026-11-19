@@ -33,6 +33,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=petie-at-ctrl-room-11-21-
 DESCRIPTION:Ages 18+. — More: https://letsdoitdallas.com/venue/ctrl-room/
 END:VEVENT
 BEGIN:VEVENT
+UID:haus-sundays-11-22-26|ctrl-room-dallas|11-00-pm-2026-11-22@letsdoitdall
+ as.com
+DTSTAMP:20261123T050000Z
+DTSTART:20261123T050000Z
+DTEND:20261123T080000Z
+SUMMARY:Haus Sundays 11.22.26
+LOCATION:CTRL Room · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=haus-sundays-11-22-26%7Cc
+ trl-room-dallas%7C11-00-pm
+DESCRIPTION:Ages 18+. — More: https://letsdoitdallas.com/venue/ctrl-room/
+END:VEVENT
+BEGIN:VEVENT
 UID:5th-annual-dancegiving-at-ctrl-room-11-26-26|ctrl-room-dallas|10-00-pm-
  2026-11-26@letsdoitdallas.com
 DTSTAMP:20261127T040000Z
@@ -113,6 +125,18 @@ SUMMARY:Cazes at CTRL Room 12.18.26
 LOCATION:CTRL Room · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-18&e=cazes-at-ctrl-room-12-18-
  26%7Cctrl-room-dallas%7C10-00-pm
+DESCRIPTION:Ages 18+. — More: https://letsdoitdallas.com/venue/ctrl-room/
+END:VEVENT
+BEGIN:VEVENT
+UID:mashbit-at-ctrl-room-12-19-26|ctrl-room-dallas|10-00-pm-2026-12-19@lets
+ doitdallas.com
+DTSTAMP:20261220T040000Z
+DTSTART:20261220T040000Z
+DTEND:20261220T070000Z
+SUMMARY:MASHBIT at CTRL Room 12.19.26
+LOCATION:CTRL Room · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=mashbit-at-ctrl-room-12-1
+ 9-26%7Cctrl-room-dallas%7C10-00-pm
 DESCRIPTION:Ages 18+. — More: https://letsdoitdallas.com/venue/ctrl-room/
 END:VEVENT
 END:VCALENDAR
