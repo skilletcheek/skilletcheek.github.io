@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:homeschool-book-club-12y-17y-|104-s-wisteria-st-mansfield|01-00-pm-2026
- -11-19@letsdoitdallas.com
-DTSTAMP:20261119T190000Z
-DTSTART:20261119T190000Z
-DTEND:20261119T220000Z
-SUMMARY:Homeschool Book Club (12Y-17Y)
-LOCATION:104 S. Wisteria St. · Mansfield
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=homeschool-book-club-12y-
- 17y-%7C104-s-wisteria-st-mansfield%7C01-00-pm
-DESCRIPTION:Come discuss some of your favorite genres of books with other t
- eens of the library! From popular Manga to top-rated teen fiction\, it's y
- our choice. Registration is required and snacks are provided. November: Th
- e Hunger Games by Suzanne Collins November 19\, 2026 01:00 PM - 02:00 P 
- — More: https://letsdoitdallas.com/city/mansfield/
-END:VEVENT
-BEGIN:VEVENT
 UID:chess-club-all-ages-|104-s-wisteria-st-mansfield|06-00-pm-2026-11-19@le
  tsdoitdallas.com
 DTSTAMP:20261120T000000Z
@@ -83,6 +67,20 @@ DESCRIPTION:Come in for open playtime in our Family Place Library area. Bri
  lay. Parents are required to remain with children at all times. No registr
  ation is required. November 20\, 2026 11:00 AM - 12:00 PM 104 S. Wiste —
   More: https://letsdoitdallas.com/city/mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:reputation-w-whiskey-girl|fat-daddy-s-mansfield-781-west-debbie-lane-ma
+ nsfield-76063-united-states|8-30-pm-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T023000Z
+DTSTART:20261121T023000Z
+DTEND:20261121T053000Z
+SUMMARY:Reputation w/Whiskey Girl
+LOCATION:Fat Daddy’s Mansfield
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=reputation-w-whiskey-girl
+ %7Cfat-daddy-s-mansfield-781-west-debbie-lane-mansfield-76063-united-state
+ s%7C8-30-pm
+DESCRIPTION:$5 online or with reservation at the bar $7 at the door — Mor
+ e: https://letsdoitdallas.com/city/mansfield/
 END:VEVENT
 BEGIN:VEVENT
 UID:online-practice-sat-act-test-13-17-|mansfield|09-00-am-2026-11-21@letsd
@@ -157,20 +155,36 @@ URL:https://letsdoitdallas.com/?date=2026-11-23&e=cozy-community-cleanup%7C
 DESCRIPTION:More: https://letsdoitdallas.com/city/mansfield/
 END:VEVENT
 BEGIN:VEVENT
-UID:concacaf-women-s-championship-quarterfinals-usa-vs-el-salvador-jamaica-
- vs-costa-rica-|texas-health-mansfield-stadium-mansfield|4-00-pm-2026-11-27
- @letsdoitdallas.com
-DTSTAMP:20261127T220000Z
-DTSTART:20261127T220000Z
-DTEND:20261128T010000Z
-SUMMARY:CONCACAF Women's Championship - Quarterfinals (USA vs El Salvador\,
-  Jamaica vs Costa Rica)
+UID:2026-concacaf-w-championship-quarterfinals-1-4-usa-vs-slv-and-jam-vs-cr
+ c|texas-health-mansfield-stadium-mansfield|5-00-pm-2026-11-27@letsdoitdall
+ as.com
+DTSTAMP:20261127T230000Z
+DTSTART:20261127T230000Z
+DTEND:20261128T020000Z
+SUMMARY:2026 Concacaf W Championship Quarterfinals 1 & 4: USA vs SLV and JA
+ M vs CRC
 LOCATION:Texas Health Mansfield Stadium
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=concacaf-women-s-champion
- ship-quarterfinals-usa-vs-el-salvador-jamaica-vs-costa-rica-%7Ctexas-healt
- h-mansfield-stadium-mansfield%7C4-00-pm
-DESCRIPTION:soccer event via SeatGeek. — More: https://letsdoitdallas.com
- /city/mansfield/
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=2026-concacaf-w-champions
+ hip-quarterfinals-1-4-usa-vs-slv-and-jam-vs-crc%7Ctexas-health-mansfield-s
+ tadium-mansfield%7C5-00-pm
+DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-concacaf-w-championship-quarterfinals-2-3-can-vs-pan-and-mex-vs-ha
+ i|texas-health-mansfield-stadium-mansfield|1-00-pm-2026-11-28@letsdoitdall
+ as.com
+DTSTAMP:20261128T190000Z
+DTSTART:20261128T190000Z
+DTEND:20261128T220000Z
+SUMMARY:2026 Concacaf W Championship Quarterfinals 2 & 3: CAN vs PAN and ME
+ X vs HAI
+LOCATION:Texas Health Mansfield Stadium
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=2026-concacaf-w-champions
+ hip-quarterfinals-2-3-can-vs-pan-and-mex-vs-hai%7Ctexas-health-mansfield-s
+ tadium-mansfield%7C1-00-pm
+DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/mansfield/
 END:VEVENT
 BEGIN:VEVENT
 UID:bilingual-story-time|104-s-wisteria-st-mansfield|10-30-am-2026-11-30@le
@@ -235,6 +249,19 @@ DESCRIPTION:Join us for Mahjong at the library! The first Tuesday of each m
  uild their skills. Registration is required. December 1\, 2026 01:00 PM - 
  03:00 PM 104 S. Wisteria St.Mansfield\, TX 76063 https://www.mansfieldt 
  — More: https://letsdoitdallas.com/city/mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-concacaf-w-championship-all-semifinals|texas-health-mansfield-stad
+ ium-mansfield|5-00-pm-2026-12-01@letsdoitdallas.com
+DTSTAMP:20261201T230000Z
+DTSTART:20261201T230000Z
+DTEND:20261202T020000Z
+SUMMARY:2026 Concacaf W Championship All Semifinals
+LOCATION:Texas Health Mansfield Stadium
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=2026-concacaf-w-champions
+ hip-all-semifinals%7Ctexas-health-mansfield-stadium-mansfield%7C5-00-pm
+DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/mansfield/
 END:VEVENT
 BEGIN:VEVENT
 UID:abcs-of-medicare-18-|104-s-wisteria-st-mansfield|06-00-pm-2026-12-01@le
@@ -315,6 +342,19 @@ DESCRIPTION:Get into the holiday spirit by creating your own charming snowf
   festive decoration perfect for your tree or holiday décor. All supplies 
  provided. Registration is required. December 2\, 2026 01:00 PM - 02:00 —
   More: https://letsdoitdallas.com/city/mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-concacaf-w-championship-play-in-rounds|texas-health-mansfield-stad
+ ium-mansfield|1-00-pm-2026-12-02@letsdoitdallas.com
+DTSTAMP:20261202T190000Z
+DTSTART:20261202T190000Z
+DTEND:20261202T220000Z
+SUMMARY:2026 Concacaf W Championship Play-In Rounds
+LOCATION:Texas Health Mansfield Stadium
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=2026-concacaf-w-champions
+ hip-play-in-rounds%7Ctexas-health-mansfield-stadium-mansfield%7C1-00-pm
+DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
+ .com/city/mansfield/
 END:VEVENT
 BEGIN:VEVENT
 UID:story-time-for-tots-18mo-3y-|104-s-wisteria-st-mansfield|10-30-am-2026-

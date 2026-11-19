@@ -10,30 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:faith-forward-mckinney-gathering|401-e-virginia-st-mckinney|10-00-am-20
- 26-11-19@letsdoitdallas.com
-DTSTAMP:20261119T160000Z
-DTSTART:20261119T160000Z
-DTEND:20261119T190000Z
-SUMMARY:Faith Forward McKinney Gathering
-LOCATION:401 E. Virginia St. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=faith-forward-mckinney-ga
- thering%7C401-e-virginia-st-mckinney%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:little-explorers-3-5-years-|6861-w-eldorado-parkway-mckinney|11-30-am-2
- 026-11-19@letsdoitdallas.com
-DTSTAMP:20261119T173000Z
-DTSTART:20261119T173000Z
-DTEND:20261119T203000Z
-SUMMARY:Little Explorers (3-5 Years)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=little-explorers-3-5-year
- s-%7C6861-w-eldorado-parkway-mckinney%7C11-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:anime-art-6th-12th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-202
  6-11-19@letsdoitdallas.com
 DTSTAMP:20261119T223000Z
@@ -43,18 +19,6 @@ SUMMARY:Anime & Art (6th-12th Grade)
 LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-11-19&e=anime-art-6th-12th-grade-
  %7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
-UID:hoa-neighborhood-leaders-training|6861-eldorado-pkwy-mckinney|06-00-pm-
- 2026-11-19@letsdoitdallas.com
-DTSTAMP:20261120T000000Z
-DTSTART:20261120T000000Z
-DTEND:20261120T030000Z
-SUMMARY:HOA Neighborhood Leaders Training
-LOCATION:6861 Eldorado Pkwy. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=hoa-neighborhood-leaders-
- training%7C6861-eldorado-pkwy-mckinney%7C06-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
