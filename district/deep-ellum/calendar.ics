@@ -10,94 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:omb-peezy|club-dada-dallas|7-00-pm-2026-11-19@letsdoitdallas.com
-DTSTAMP:20261120T010000Z
-DTSTART:20261120T010000Z
-DTEND:20261120T040000Z
-SUMMARY:OMB Peezy
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=omb-peezy%7Cclub-dada-dal
- las%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:beauty-school-dropout-with-no-love-for-the-middle-child|puzzles-deep-el
- lum-dallas|7-30-pm-2026-11-19@letsdoitdallas.com
-DTSTAMP:20261120T013000Z
-DTSTART:20261120T013000Z
-DTEND:20261120T043000Z
-SUMMARY:Beauty School Dropout with No Love For The Middle Child
-LOCATION:Puzzles Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=beauty-school-dropout-wit
- h-no-love-for-the-middle-child%7Cpuzzles-deep-ellum-dallas%7C7-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:minka-electric-tongues-ellum-s-underground|three-links-deep-ellum-dalla
- s|7-30-pm-2026-11-19@letsdoitdallas.com
-DTSTAMP:20261120T013000Z
-DTSTART:20261120T013000Z
-DTEND:20261120T043000Z
-SUMMARY:MINKA\, Electric Tongues \, Ellum's Underground
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=minka-electric-tongues-el
- lum-s-underground%7Cthree-links-deep-ellum-dallas%7C7-30-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:alex-jean|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-11-19@lets
- doitdallas.com
-DTSTAMP:20261120T020000Z
-DTSTART:20261120T020000Z
-DTEND:20261120T050000Z
-SUMMARY:Alex Jean
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=alex-jean%7Cthe-studio-at
- -the-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:hedras|deep-ellum-art-co-dallas|8-00-pm-2026-11-19@letsdoitdallas.com
-DTSTAMP:20261120T020000Z
-DTSTART:20261120T020000Z
-DTEND:20261120T050000Z
-SUMMARY:Hedras
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=hedras%7Cdeep-ellum-art-c
- o-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:daley|trees-dallas|8-30-pm-2026-11-19@letsdoitdallas.com
-DTSTAMP:20261120T023000Z
-DTSTART:20261120T023000Z
-DTEND:20261120T053000Z
-SUMMARY:Daley
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=daley%7Ctrees-dallas%7C8-
- 30-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-19@letsdoitdall
- as.com
-DTSTAMP:20261120T040000Z
-DTSTART:20261120T040000Z
-DTEND:20261120T070000Z
-SUMMARY:DJ JREAM
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:heal-the-hurt-magdalene-rose-unbroken-reign|three-links-deep-ellum-dall
  as|7-00-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T010000Z
@@ -705,5 +617,20 @@ URL:https://letsdoitdallas.com/?date=2026-12-18&e=lemon-twigs-love-of-my-li
  fe%7Ctrees-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
  ep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:offended-by-everything-van-full-of-nuns-said-the-people-aim-to-please|t
+ hree-links-deep-ellum-dallas|7-00-pm-2026-12-18@letsdoitdallas.com
+DTSTAMP:20261219T010000Z
+DTSTART:20261219T010000Z
+DTEND:20261219T040000Z
+SUMMARY:Offended By Everything\, Van Full of Nuns\, Said the People\, Aim T
+ o Please
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-18&e=offended-by-everything-va
+ n-full-of-nuns-said-the-people-aim-to-please%7Cthree-links-deep-ellum-dall
+ as%7C7-00-pm
+DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

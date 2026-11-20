@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:flame-and-friends|arlington-improv-arlington|7-30-pm-2026-11-19@letsdoi
- tdallas.com
-DTSTAMP:20261120T013000Z
-DTSTART:20261120T013000Z
-DTEND:20261120T043000Z
-SUMMARY:Flame and Friends
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=flame-and-friends%7Carlin
- gton-improv-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:godfrey|arlington-improv-arlington|7-30-pm-2026-11-20@letsdoitdallas.co
  m
 DTSTAMP:20261121T013000Z
@@ -382,6 +369,32 @@ SUMMARY:Alfred Robles: Vatos with Gatos Tour
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-12-17&e=alfred-robles-vatos-with-
  gatos-tour%7Carlington-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:alfred-robles-vatos-with-gatos-tour|arlington-improv-arlington|7-30-pm-
+ 2026-12-18@letsdoitdallas.com
+DTSTAMP:20261219T013000Z
+DTSTART:20261219T013000Z
+DTEND:20261219T043000Z
+SUMMARY:Alfred Robles: Vatos with Gatos Tour
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-12-18&e=alfred-robles-vatos-with-
+ gatos-tour%7Carlington-improv-arlington%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:alfred-robles-vatos-with-gatos-tour|arlington-improv-arlington|9-45-pm-
+ 2026-12-18@letsdoitdallas.com
+DTSTAMP:20261219T034500Z
+DTSTART:20261219T034500Z
+DTEND:20261219T064500Z
+SUMMARY:Alfred Robles: Vatos with Gatos Tour
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-12-18&e=alfred-robles-vatos-with-
+ gatos-tour%7Carlington-improv-arlington%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

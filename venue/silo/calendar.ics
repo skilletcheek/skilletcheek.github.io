@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:3ballmty-ages-18-|silo-dallas|9-00-pm-2026-11-19@letsdoitdallas.com
-DTSTAMP:20261120T030000Z
-DTSTART:20261120T030000Z
-DTEND:20261120T060000Z
-SUMMARY:3BALLMTY - Ages 18+
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=3ballmty-ages-18-%7Csilo-
- dallas%7C9-00-pm
-DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/silo/
-END:VEVENT
-BEGIN:VEVENT
 UID:crankdat-18-and-over-|silo-dallas|9-00-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T030000Z
 DTSTART:20261121T030000Z
@@ -213,5 +201,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-17&e=mitis-ages-18-%7Csilo-dal
  las%7C9-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/silo/
+END:VEVENT
+BEGIN:VEVENT
+UID:dillstradamus-18-|silo-dallas|9-00-pm-2026-12-18@letsdoitdallas.com
+DTSTAMP:20261219T030000Z
+DTSTART:20261219T030000Z
+DTEND:20261219T060000Z
+SUMMARY:Dillstradamus (18+)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-18&e=dillstradamus-18-%7Csilo-
+ dallas%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/silo/
 END:VEVENT
 END:VCALENDAR

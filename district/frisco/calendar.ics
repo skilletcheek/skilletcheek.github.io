@@ -10,42 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:4th-street-plaza-holiday-tree-lighting-holiday-film-at-the-silos|8802-4
- th-st-frisco|05-30-pm-2026-11-19@letsdoitdallas.com
-DTSTAMP:20261119T233000Z
-DTSTART:20261119T233000Z
-DTEND:20261120T023000Z
-SUMMARY:4th Street Plaza Holiday Tree Lighting & Holiday Film at the Silos
-LOCATION:8802 4th St · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=4th-street-plaza-holiday-
- tree-lighting-holiday-film-at-the-silos%7C8802-4th-st-frisco%7C05-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:plaza-live-|8802-4th-street-frisco|06-00-pm-2026-11-19@letsdoitdallas.c
- om
-DTSTAMP:20261120T000000Z
-DTSTART:20261120T000000Z
-DTEND:20261120T030000Z
-SUMMARY:Plaza Live!
-LOCATION:8802 4th Street · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=plaza-live-%7C8802-4th-st
- reet-frisco%7C06-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:illuminate-christmas-movie-classics|6455-page-street-frisco|06-30-pm-20
- 26-11-19@letsdoitdallas.com
-DTSTAMP:20261120T003000Z
-DTSTART:20261120T003000Z
-DTEND:20261120T033000Z
-SUMMARY:Illuminate: Christmas Movie Classics
-LOCATION:6455 Page Street · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=illuminate-christmas-movi
- e-classics%7C6455-page-street-frisco%7C06-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:saturday-music-series-at-frisco-fresh-market|9215-john-w-elliott-dr-fri
  sco|11-00-am-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261121T170000Z
@@ -322,6 +286,19 @@ SUMMARY:Texas Legends College Classic FRIDAY
 LOCATION:Fifth Third Arena · Frisco
 URL:https://letsdoitdallas.com/?date=2026-12-18&e=texas-legends-college-cla
  ssic-friday%7Cfifth-third-arena-frisco%7C1-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-legends-college-classic-saturday|fifth-third-arena-frisco|5-00-pm
+ -2026-12-19@letsdoitdallas.com
+DTSTAMP:20261219T230000Z
+DTSTART:20261219T230000Z
+DTEND:20261220T020000Z
+SUMMARY:Texas Legends College Classic SATURDAY
+LOCATION:Fifth Third Arena · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=texas-legends-college-cla
+ ssic-saturday%7Cfifth-third-arena-frisco%7C5-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
 END:VEVENT

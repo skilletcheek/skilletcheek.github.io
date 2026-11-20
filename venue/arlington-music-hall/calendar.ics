@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:symphony-arlington-the-music-of-dance|arlington-music-hall-arlington|7-
- 30-pm-2026-11-19@letsdoitdallas.com
-DTSTAMP:20261120T013000Z
-DTSTART:20261120T013000Z
-DTEND:20261120T043000Z
-SUMMARY:Symphony Arlington - The Music of Dance
-LOCATION:Arlington Music Hall
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=symphony-arlington-the-mu
- sic-of-dance%7Carlington-music-hall-arlington%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/arlington-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:beatles-vs-stones-a-musical-showdown|arlington-music-hall-arlington|7-3
  0-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T013000Z
@@ -59,6 +46,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-22&e=the-queen-of-soul-arlingt
  on%7Carlington-music-hall-arlington%7C6-00-pm
 DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-arlington|arlington-music-hall-arlington|1-30-pm-2026-11
+ -28@letsdoitdallas.com
+DTSTAMP:20261128T193000Z
+DTSTART:20261128T193000Z
+DTEND:20261128T223000Z
+SUMMARY:The Nutcracker - Arlington
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=the-nutcracker-arlington%
+ 7Carlington-music-hall-arlington%7C1-30-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/arlington-music-hall/
 END:VEVENT
 BEGIN:VEVENT
 UID:david-archuleta|arlington-music-hall-arlington|7-30-pm-2026-12-01@letsd

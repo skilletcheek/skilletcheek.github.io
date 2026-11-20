@@ -9,30 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:adult-pickleball-adult-beginner|621-s-coit-rd-prosper|see-details-2026-
- 11-19@letsdoitdallas.com
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Adult Pickleball: Adult Beginner
-LOCATION:621 S Coit Rd. · Prosper
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=adult-pickleball-adult-be
- ginner%7C621-s-coit-rd-prosper%7Csee-details
-DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
-END:VEVENT
-BEGIN:VEVENT
-UID:seedballs-and-bees-family|200-s-main-st-prosper|06-00-pm-2026-11-19@let
- sdoitdallas.com
-DTSTAMP:20261120T000000Z
-DTSTART:20261120T000000Z
-DTEND:20261120T030000Z
-SUMMARY:Seedballs and Bees Family
-LOCATION:200 S Main St · Prosper
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=seedballs-and-bees-family
- %7C200-s-main-st-prosper%7C06-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
-END:VEVENT
-BEGIN:VEVENT
 UID:mahjong|407-e-first-st-prosper|12-00-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261120T180000Z
 DTSTART:20261120T180000Z
@@ -279,6 +255,17 @@ DTEND:20261203T210000Z
 SUMMARY:Canasta
 LOCATION:407 E. First St. · Prosper
 URL:https://letsdoitdallas.com/?date=2026-12-03&e=canasta%7C407-e-first-st-
+ prosper%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
+END:VEVENT
+BEGIN:VEVENT
+UID:mahjong|407-e-first-st-prosper|12-00-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261204T180000Z
+DTSTART:20261204T180000Z
+DTEND:20261204T210000Z
+SUMMARY:Mahjong
+LOCATION:407 E. First St. · Prosper
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=mahjong%7C407-e-first-st-
  prosper%7C12-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
 END:VEVENT

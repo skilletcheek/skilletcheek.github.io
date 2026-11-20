@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pbr-stockyards-showcase|cowtown-coliseum-fort-worth|7-30-pm-2026-11-19@
- letsdoitdallas.com
-DTSTAMP:20261120T013000Z
-DTSTART:20261120T013000Z
-DTEND:20261120T043000Z
-SUMMARY:PBR Stockyards Showcase
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=pbr-stockyards-showcase%7
- Ccowtown-coliseum-fort-worth%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/stockyards/
-END:VEVENT
-BEGIN:VEVENT
-UID:gunnar-latham-18-and-over-|billy-bob-s-fort-worth|9-00-pm-2026-11-19@le
- tsdoitdallas.com
-DTSTAMP:20261120T030000Z
-DTSTART:20261120T030000Z
-DTEND:20261120T060000Z
-SUMMARY:Gunnar Latham (18 and Over)
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=gunnar-latham-18-and-over
- -%7Cbilly-bob-s-fort-worth%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/stockyards/
-END:VEVENT
-BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
  11-20@letsdoitdallas.com
 DTSTAMP:20261121T013000Z
@@ -658,6 +632,32 @@ URL:https://letsdoitdallas.com/?date=2026-12-17&e=wade-forster-18-and-over-
  %7Cbilly-bob-s-fort-worth%7C9-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/stockyards/
+END:VEVENT
+BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
+ 12-18@letsdoitdallas.com
+DTSTAMP:20261219T013000Z
+DTSTART:20261219T013000Z
+DTEND:20261219T043000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-18&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/district/stockyards/
+END:VEVENT
+BEGIN:VEVENT
+UID:kaitlin-butts-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-12-18@l
+ etsdoitdallas.com
+DTSTAMP:20261219T040000Z
+DTSTART:20261219T040000Z
+DTEND:20261219T070000Z
+SUMMARY:Kaitlin Butts (18 and Over)
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-18&e=kaitlin-butts-18-and-over
+ -%7Cbilly-bob-s-fort-worth%7C10-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/stockyards/
 END:VEVENT
 BEGIN:VEVENT
 UID:randy-rogers-band|billy-bob-s-texas-fort-worth|7-00-pm-2026-12-19@letsd

@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:daley|trees-dallas|8-30-pm-2026-11-19@letsdoitdallas.com
-DTSTAMP:20261120T023000Z
-DTSTART:20261120T023000Z
-DTEND:20261120T053000Z
-SUMMARY:Daley
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=daley%7Ctrees-dallas%7C8-
- 30-pm
-DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
- m/venue/trees/
-END:VEVENT
-BEGIN:VEVENT
 UID:southfm|trees-dallas|8-00-pm-2026-11-20@letsdoitdallas.com
 DTSTAMP:20261121T020000Z
 DTSTART:20261121T020000Z

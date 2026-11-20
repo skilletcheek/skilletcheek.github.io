@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:deray-davis|addison-improv-addison|7-30-pm-2026-11-19@letsdoitdallas.co
- m
-DTSTAMP:20261120T013000Z
-DTSTART:20261120T013000Z
-DTEND:20261120T043000Z
-SUMMARY:DeRay Davis
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=deray-davis%7Caddison-imp
- rov-addison%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:bryan-callen|mic-drop-comedy-plano-plano|7-00-pm-2026-11-20@letsdoitdal
  las.com
 DTSTAMP:20261121T010000Z
@@ -308,6 +295,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:damon-wayans-jr-|mic-drop-comedy-plano-plano|9-30-pm-2026-11-27@letsdoi
+ tdallas.com
+DTSTAMP:20261128T033000Z
+DTSTART:20261128T033000Z
+DTEND:20261128T063000Z
+SUMMARY:Damon Wayans Jr.
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=damon-wayans-jr-%7Cmic-dr
+ op-comedy-plano-plano%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:elle-orlando|addison-improv-addison|9-30-pm-2026-11-27@letsdoitdallas.c
  om
 DTSTAMP:20261128T033000Z
@@ -577,6 +577,19 @@ SUMMARY:Fiona Cauley
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-16&e=fiona-cauley%7Caddison-im
  prov-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:stone-cold-and-the-jackal|addison-improv-addison|1-00-pm-2026-12-19@let
+ sdoitdallas.com
+DTSTAMP:20261219T190000Z
+DTSTART:20261219T190000Z
+DTEND:20261219T220000Z
+SUMMARY:Stone Cold and the Jackal
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=stone-cold-and-the-jackal
+ %7Caddison-improv-addison%7C1-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT

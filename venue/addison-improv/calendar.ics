@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:deray-davis|addison-improv-addison|7-30-pm-2026-11-19@letsdoitdallas.co
- m
-DTSTAMP:20261120T013000Z
-DTSTART:20261120T013000Z
-DTEND:20261120T043000Z
-SUMMARY:DeRay Davis
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=deray-davis%7Caddison-imp
- rov-addison%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:deray-davis|addison-improv-addison|7-30-pm-2026-11-20@letsdoitdallas.co
  m
 DTSTAMP:20261121T013000Z
@@ -343,6 +330,19 @@ SUMMARY:Fiona Cauley
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-16&e=fiona-cauley%7Caddison-im
  prov-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:stone-cold-and-the-jackal|addison-improv-addison|1-00-pm-2026-12-19@let
+ sdoitdallas.com
+DTSTAMP:20261219T190000Z
+DTSTART:20261219T190000Z
+DTEND:20261219T220000Z
+SUMMARY:Stone Cold and the Jackal
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=stone-cold-and-the-jackal
+ %7Caddison-improv-addison%7C1-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
 END:VEVENT

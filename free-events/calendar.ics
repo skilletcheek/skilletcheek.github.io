@@ -10,68 +10,36 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:artist-talk-contemporary-myths-the-stories-that-build-unite-and-divide|
- dallas-contemporary-dallas|6-00-pm-7-00-pm-2026-11-19@letsdoitdallas.com
-DTSTAMP:20261120T000000Z
-DTSTART:20261120T000000Z
-DTEND:20261120T030000Z
-SUMMARY:Artist Talk: Contemporary Myths: The Stories That Build\, Unite\, a
- nd Divide
-LOCATION:Dallas Contemporary
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=artist-talk-contemporary-
- myths-the-stories-that-build-unite-and-divide%7Cdallas-contemporary-dallas
- %7C6-00-pm-7-00-pm
-DESCRIPTION:This conversation examines the enduring role of myth and storyt
- elling in making sense of existential questions and the uncertainty of a r
- apidly changing world. The discussion explores how narrative can shape our
-  understanding of cultural change\, human experience\, and the future. —
-  More: https://letsdoitdallas.com/free-events/
+UID:frost-tex-mex-breakfast|frost-bank-lake-arlington-financial-center-arli
+ ngton|9-00-am-11-00-am-2026-11-20@letsdoitdallas.com
+DTSTAMP:20261120T150000Z
+DTSTART:20261120T150000Z
+DTEND:20261120T180000Z
+SUMMARY:Frost Tex-Mex Breakfast
+LOCATION:Frost Bank Lake Arlington Financial Center
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=frost-tex-mex-breakfast%7
+ Cfrost-bank-lake-arlington-financial-center-arlington%7C9-00-am-11-00-am
+DESCRIPTION:Join us to celebrate the grand opening of our all new Lake Arli
+ ngton Financial Center with a Tex-Mex breakfast. We will have breakfast ta
+ cos and coffee while supplies last along with live music. This event is fr
+ ee and open to the public. We hope to see you there! — More: https://let
+ sdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:young-professionals-fall-social-winter-drive|gallery-defi-dallas|6-00-p
- m-8-00-pm-2026-11-19@letsdoitdallas.com
-DTSTAMP:20261120T000000Z
-DTSTART:20261120T000000Z
-DTEND:20261120T030000Z
-SUMMARY:Young Professionals Fall Social & Winter Drive
-LOCATION:Gallery DeFi · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=young-professionals-fall-
- social-winter-drive%7Cgallery-defi-dallas%7C6-00-pm-8-00-pm
-DESCRIPTION:Connect with fellow young professionals at RRC Next’s network
- ing event at Gallery DeFi\, featuring light bites\, nonalcoholic refreshme
- nts\, and an immersive art experience. Learn more about Recovery Resource 
- Council’s mission\, meet emerging leaders across DFW\, and explore ways 
- to g — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:aurora-biennial-performance-eva-papamargariti-disappear-here|dallas-con
- temporary-dallas|7-00-pm-9-00-pm-2026-11-19@letsdoitdallas.com
-DTSTAMP:20261120T010000Z
-DTSTART:20261120T010000Z
-DTEND:20261120T040000Z
-SUMMARY:AURORA Biennial Performance: Eva Papamargariti\, Disappear Here
-LOCATION:Dallas Contemporary
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=aurora-biennial-performan
- ce-eva-papamargariti-disappear-here%7Cdallas-contemporary-dallas%7C7-00-pm
- -9-00-pm
-DESCRIPTION:Disappear Here is an audiovisual installation with performative
-  elements exploring emerging forms of storytelling\, mythmaking\, and digi
- tal lore within the landscape of the attention economy and doomscrolling. 
- Through avatars\, memes\, short videos\, AI prompts\, images\, and online 
- co — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-19@letsdoitdall
- as.com
-DTSTAMP:20261120T040000Z
-DTSTART:20261120T040000Z
-DTEND:20261120T070000Z
-SUMMARY:DJ JREAM
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-19&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/free-events/
+UID:-requiem-melissa-tucker-s-solo-art-exhibition|dallas|7-00-pm-11-00-pm-2
+ 026-11-20@letsdoitdallas.com
+DTSTAMP:20261121T010000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:"REQUIEM"-Melissa Tucker's Solo Art Exhibition
+LOCATION:Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-20&e=-requiem-melissa-tucker-s
+ -solo-art-exhibition%7Cdallas%7C7-00-pm-11-00-pm
+DESCRIPTION:Tucker Art Projects presents Requiem\, a solo exhibition by Dal
+ las artist Melissa Tucker exploring mortality\, memory\, love\, and the en
+ during beauty of things left behind. Rooted in the classical traditions of
+  vanitas painting and trompe-l'œil\, the exhibition examines the fleeting
+  — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:heal-the-hurt-magdalene-rose-unbroken-reign|three-links-deep-ellum-dall
@@ -111,6 +79,38 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=block-party-%7Ctrees-dall
  as%7Cdoors-see-listing
 DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/free-events
  /
+END:VEVENT
+BEGIN:VEVENT
+UID:first-ever-similac-social-club-in-dallas|arts-district-mansion-dallas|1
+ 2-00-pm-5-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T180000Z
+DTSTART:20261121T180000Z
+DTEND:20261121T210000Z
+SUMMARY:First-Ever Similac Social Club in Dallas
+LOCATION:Arts District Mansion · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=first-ever-similac-social
+ -club-in-dallas%7Carts-district-mansion-dallas%7C12-00-pm-5-00-pm
+DESCRIPTION:Event Highlights: • Social Lounge & Gifting: Attendees will r
+ eceive free Similac samples\, self-care gifts for parents and practical ba
+ by items\, with a welcoming space to connect with other local Dallas famil
+ ies. • The Parents’ Refill Lounge: A dedicated reset space offering li
+ ght — More: https://letsdoitdallas.com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:backyard-bird-feeding-101|wild-birds-unlimited-north-dallas-dallas|1-30
+ -pm-2-15-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T193000Z
+DTSTART:20261121T193000Z
+DTEND:20261121T223000Z
+SUMMARY:Backyard Bird Feeding 101
+LOCATION:Wild Birds Unlimited - North Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=backyard-bird-feeding-101
+ %7Cwild-birds-unlimited-north-dallas-dallas%7C1-30-pm-2-15-pm
+DESCRIPTION:Been curious about feeding your backyard birds but aren't sure 
+ where to start? Join Wild Birds Unlimited for their FREE Backyard Bird Fee
+ ding 101 class! We'll cover everything you need to know to get started\, f
+ rom choosing the right feeders and foods to attract a variety of local —
+  More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:dj-sneak305|three-links-deep-ellum-dallas|10-00-pm-2026-11-22@letsdoitd
