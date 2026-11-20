@@ -799,6 +799,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:holiday-hootenanny-|poor-david-s-pub-dallas|doors-see-listing-2026-12-1
+ 3@letsdoitdallas.com
+DTSTAMP:20261213T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Holiday Hootenanny!
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=holiday-hootenanny-%7Cpoo
+ r-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:trans-siberian-orchestra-the-ghosts-of-christmas-eve|american-airlines-
  center-dallas|3-00-pm-2026-12-13@letsdoitdallas.com
 DTSTAMP:20261213T210000Z

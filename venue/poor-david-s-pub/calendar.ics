@@ -103,6 +103,19 @@ DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
 BEGIN:VEVENT
+UID:holiday-hootenanny-|poor-david-s-pub-dallas|doors-see-listing-2026-12-1
+ 3@letsdoitdallas.com
+DTSTAMP:20261213T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Holiday Hootenanny!
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-13&e=holiday-hootenanny-%7Cpoo
+ r-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
+BEGIN:VEVENT
 UID:honky-tonk-tuesday-with-cory-cross|poor-david-s-pub-dallas|doors-see-li
  sting-2026-12-15@letsdoitdallas.com
 DTSTAMP:20261215T000000Z
