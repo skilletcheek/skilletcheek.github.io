@@ -10,24 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pumpkin-spice-half-marathon-10k-5k-1mile|panther-island-pavilion-395-pu
- rcey-street-fort-worth-76102-united-states|6-30-am-2026-11-21@letsdoitdall
- as.com
-DTSTAMP:20261121T123000Z
-DTSTART:20261121T123000Z
-DTEND:20261121T153000Z
-SUMMARY:Pumpkin Spice Half Marathon\, 10K\, 5K\, & 1Mile
-LOCATION:Panther Island Pavilion · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=pumpkin-spice-half-marath
- on-10k-5k-1mile%7Cpanther-island-pavilion-395-purcey-street-fort-worth-761
- 02-united-states%7C6-30-am
-DESCRIPTION:All Things Pumpkin Spice   Oh my gourd\, we love fall y’all! 
- It’s time for pumpkin spice lattes\, hot chocolate\, flannels\, sweaters
- \, and of course hitting that PR on a chilly morning run! Join us for a Ha
- lf Marathon\, 10K\, 5K or just a scenic fun run with all the autumn fall f
- oliage — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
  et-fort-worth-76107-united-states|10-00-am-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261121T160000Z
@@ -61,23 +43,6 @@ DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
  e\, and an informative self-guided walking tour. Each adventure consists o
  f a series of locations that you are guided to where you are required t 
  — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:bass-hall-tour|bass-performance-hall-525-commerce-street-fort-worth-761
- 02-united-states|10-30-am-2026-11-21@letsdoitdallas.com
-DTSTAMP:20261121T163000Z
-DTSTART:20261121T163000Z
-DTEND:20261121T193000Z
-SUMMARY:Bass Hall Tour
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=bass-hall-tour%7Cbass-per
- formance-hall-525-commerce-street-fort-worth-76102-united-states%7C10-30-a
- m
-DESCRIPTION:Tours of Bass Performance Hall are scheduled for select Satur
- days beginning at 10:30 a.m. in the Grand Lobby.  These complimentary\, do
- cent-led tours are designed for parties of less than 9. This tour 
- includes a history of the building\, its architecture and the many mura
- ls by the — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:national-multi-cultural-western-heritage-museum|the-national-multicultu
@@ -266,6 +231,40 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=alex-reymundo%7Chyena-s-c
  omedy-night-club-fort-worth-fort-worth%7C9-30-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:big-laugh-spotlight|big-laugh-comedy-club-fort-worth-604-main-st-suite-
+ 100-fort-worth-tx-76102-united-states|10-00-pm-2026-11-21@letsdoitdallas.c
+ om
+DTSTAMP:20261122T040000Z
+DTSTART:20261122T040000Z
+DTEND:20261122T070000Z
+SUMMARY:Big Laugh Spotlight
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=big-laugh-spotlight%7Cbig
+ -laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-un
+ ited-states%7C10-00-pm
+DESCRIPTION:Big sets. Real laughs. No filler.  Big Laugh Spotlight is a sta
+ nd-up comedy recording series built to showcase comedians the right way. E
+ ach show features 3–4 standout comedians performing extended 15–20 min
+ ute sets\, recorded live in front of a real audience.  This isn’t an ope
+ n — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:matthew-banks-quintet|scat-jazz-lounge-111-w-4th-st-fort-worth-76102-un
+ ited-states|10-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T040000Z
+DTSTART:20261122T040000Z
+DTEND:20261122T070000Z
+SUMMARY:Matthew Banks Quintet
+LOCATION:Scat Jazz Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=matthew-banks-quintet%7Cs
+ cat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-states%7C10-00-pm
+DESCRIPTION:Matthew Banks is a Dallas based jazz clarinetist\, saxophonist\
+ , and bassoonist. A native Texan\, Matt specializes in Swing and other ear
+ ly varieties of jazz\, often playing on instruments a hundred years old or
+  more to evoke the sound of the era. Come by for the finest swing anthems 
+ — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:ls-hoops-with-heart-weekend-i|ariat-arena-fort-worth|12-00-pm-2026-11-2

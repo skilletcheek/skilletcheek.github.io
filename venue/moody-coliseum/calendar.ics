@@ -37,6 +37,19 @@ DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
+UID:virginia-womens-bb-at-smu-womens-bb|moody-coliseum-dallas|5-00-pm-2026-
+ 11-29@letsdoitdallas.com
+DTSTAMP:20261129T230000Z
+DTSTART:20261129T230000Z
+DTEND:20261130T020000Z
+SUMMARY:Virginia Womens BB at SMU Womens BB
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=virginia-womens-bb-at-smu
+ -womens-bb%7Cmoody-coliseum-dallas%7C5-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
 UID:smu-mustangs-mens-basketball-vs-stephen-f-austin-lumberjacks-mens-baske
  tball|moody-coliseum-dallas|7-00-pm-2026-12-01@letsdoitdallas.com
 DTSTAMP:20261202T010000Z

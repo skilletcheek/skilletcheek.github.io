@@ -288,6 +288,19 @@ DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:damon-wayans-jr-|mic-drop-comedy-plano-plano|6-00-pm-2026-11-29@letsdoi
+ tdallas.com
+DTSTAMP:20261130T000000Z
+DTSTART:20261130T000000Z
+DTEND:20261130T030000Z
+SUMMARY:Damon Wayans Jr.
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=damon-wayans-jr-%7Cmic-dr
+ op-comedy-plano-plano%7C6-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:elle-orlando|addison-improv-addison|6-00-pm-2026-11-29@letsdoitdallas.c
  om
 DTSTAMP:20261130T000000Z

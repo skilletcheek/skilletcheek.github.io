@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:saturday-music-series-at-frisco-fresh-market|9215-john-w-elliott-dr-fri
- sco|11-00-am-2026-11-21@letsdoitdallas.com
-DTSTAMP:20261121T170000Z
-DTSTART:20261121T170000Z
-DTEND:20261121T200000Z
-SUMMARY:Saturday Music Series at Frisco Fresh Market
-LOCATION:9215 John W. Elliott Dr · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=saturday-music-series-at-
- frisco-fresh-market%7C9215-john-w-elliott-dr-frisco%7C11-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:portland-timbers-at-fc-dallas-mls-cup-round-1-gm-1-hg-1-|toyota-stadium
  -frisco|3-00-pm-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261121T210000Z

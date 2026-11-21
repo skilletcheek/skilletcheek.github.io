@@ -41,6 +41,19 @@ DESCRIPTION:Soccer event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/texas-health-mansfield-stadium/
 END:VEVENT
 BEGIN:VEVENT
+UID:concacaf-women-s-championship-semifinals|texas-health-mansfield-stadium
+ -mansfield|12-00-pm-2026-12-01@letsdoitdallas.com
+DTSTAMP:20261201T180000Z
+DTSTART:20261201T180000Z
+DTEND:20261201T210000Z
+SUMMARY:CONCACAF Women's Championship - Semifinals
+LOCATION:Texas Health Mansfield Stadium
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=concacaf-women-s-champion
+ ship-semifinals%7Ctexas-health-mansfield-stadium-mansfield%7C12-00-pm
+DESCRIPTION:soccer event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/texas-health-mansfield-stadium/
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-concacaf-w-championship-all-semifinals|texas-health-mansfield-stad
  ium-mansfield|5-00-pm-2026-12-01@letsdoitdallas.com
 DTSTAMP:20261201T230000Z

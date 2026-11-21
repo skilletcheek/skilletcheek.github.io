@@ -48,18 +48,16 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/bishop-arts/
 END:VEVENT
 BEGIN:VEVENT
-UID:ripe-with-special-guest-by-the-good-night|the-kessler-theater-oak-cliff
- -dallas|doors-see-listing-2026-11-29@letsdoitdallas.com
-DTSTAMP:20261129T000000Z
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-SUMMARY:Ripe with special guest By The Good Night
+UID:ripe|the-kessler-theater-dallas|8-00-pm-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261130T020000Z
+DTSTART:20261130T020000Z
+DTEND:20261130T050000Z
+SUMMARY:Ripe
 LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-29&e=ripe-with-special-guest-b
- y-the-good-night%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listin
- g
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/district/bishop-arts/
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=ripe%7Cthe-kessler-theate
+ r-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/bishop-arts/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-milk-carton-kids-lost-cause-lover-fool-holiday-tour|the-kessler-the
