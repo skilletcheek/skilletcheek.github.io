@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:band-of-heathens-w-donavon-frankenreiter|longhorn-ballroom-backyard-amp
- hitheater-dallas|6-30-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T003000Z
-DTSTART:20261121T003000Z
-DTEND:20261121T033000Z
-SUMMARY:Band of Heathens w/ Donavon Frankenreiter
-LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=band-of-heathens-w-donavo
- n-frankenreiter%7Clonghorn-ballroom-backyard-amphitheater-dallas%7C6-30-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/longhorn-ballroom-backyard-amphitheater/
-END:VEVENT
-BEGIN:VEVENT
 UID:buzzcocks|longhorn-ballroom-backyard-amphitheater-dallas|8-00-pm-2026-1
  1-21@letsdoitdallas.com
 DTSTAMP:20261122T020000Z

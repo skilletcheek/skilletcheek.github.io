@@ -9,18 +9,22 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fort-worth-symphony-orchestra-rachmaninoff-copland-dvorak|bass-performa
- nce-hall-fort-worth|7-30-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T013000Z
-DTSTART:20261121T013000Z
-DTEND:20261121T043000Z
-SUMMARY:Fort Worth Symphony Orchestra - Rachmaninoff\, Copland\, Dvorak
+UID:bass-hall-tour|bass-performance-hall-525-commerce-street-fort-worth-761
+ 02-united-states|10-30-am-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T163000Z
+DTSTART:20261121T163000Z
+DTEND:20261121T193000Z
+SUMMARY:Bass Hall Tour
 LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=fort-worth-symphony-orche
- stra-rachmaninoff-copland-dvorak%7Cbass-performance-hall-fort-worth%7C7-30
- -pm
-DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
- com/venue/bass-performance-hall/
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=bass-hall-tour%7Cbass-per
+ formance-hall-525-commerce-street-fort-worth-76102-united-states%7C10-30-a
+ m
+DESCRIPTION:Tours of Bass Performance Hall are scheduled for select Satur
+ days beginning at 10:30 a.m. in the Grand Lobby.  These complimentary\, do
+ cent-led tours are designed for parties of less than 9. This tour 
+ includes a history of the building\, its architecture and the many mura
+ ls by the — More: https://letsdoitdallas.com/venue/bass-performance-hal
+ l/
 END:VEVENT
 BEGIN:VEVENT
 UID:fort-worth-symphony-orchestra-rachmaninoff-copland-dvorak|bass-performa
@@ -176,6 +180,32 @@ DTEND:20261219T230000Z
 SUMMARY:The Nutcracker
 LOCATION:Bass Performance Hall · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-19&e=the-nutcracker%7Cbass-per
+ formance-hall-fort-worth%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker|bass-performance-hall-fort-worth|8-00-pm-2026-12-19@lets
+ doitdallas.com
+DTSTAMP:20261220T020000Z
+DTSTART:20261220T020000Z
+DTEND:20261220T050000Z
+SUMMARY:The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=the-nutcracker%7Cbass-per
+ formance-hall-fort-worth%7C8-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker|bass-performance-hall-fort-worth|2-00-pm-2026-12-20@lets
+ doitdallas.com
+DTSTAMP:20261220T200000Z
+DTSTART:20261220T200000Z
+DTEND:20261220T230000Z
+SUMMARY:The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=the-nutcracker%7Cbass-per
  formance-hall-fort-worth%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/bass-performance-hall/

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:beatles-vs-stones-a-musical-showdown|arlington-music-hall-arlington|7-3
- 0-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T013000Z
-DTSTART:20261121T013000Z
-DTEND:20261121T043000Z
-SUMMARY:Beatles vs Stones - A Musical Showdown
-LOCATION:Arlington Music Hall
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=beatles-vs-stones-a-music
- al-showdown%7Carlington-music-hall-arlington%7C7-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/arlington-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:larry-gatlin-the-gatlin-brothers|arlington-music-hall-arlington|7-30-pm
  -2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T013000Z
@@ -57,6 +44,19 @@ SUMMARY:The Nutcracker - Arlington
 LOCATION:Arlington Music Hall
 URL:https://letsdoitdallas.com/?date=2026-11-28&e=the-nutcracker-arlington%
  7Carlington-music-hall-arlington%7C1-30-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/arlington-music-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-arlington|arlington-music-hall-arlington|6-00-pm-2026-11
+ -28@letsdoitdallas.com
+DTSTAMP:20261129T000000Z
+DTSTART:20261129T000000Z
+DTEND:20261129T030000Z
+SUMMARY:The Nutcracker - Arlington
+LOCATION:Arlington Music Hall
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=the-nutcracker-arlington%
+ 7Carlington-music-hall-arlington%7C6-00-pm
 DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
  venue/arlington-music-hall/
 END:VEVENT

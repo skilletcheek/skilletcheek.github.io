@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-afghan-whigs|granada-theater-dallas-dallas|8-00-pm-2026-11-20@letsd
- oitdallas.com
-DTSTAMP:20261121T020000Z
-DTSTART:20261121T020000Z
-DTEND:20261121T050000Z
-SUMMARY:The Afghan Whigs
-LOCATION:Granada Theater - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=the-afghan-whigs%7Cgranad
- a-theater-dallas-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/granada-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:dad-rock-night-2000s-rock-tribute-|granada-theater-dallas-dallas|8-00-p
  m-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T020000Z
@@ -116,17 +103,16 @@ DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
  enue/granada-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:victor-wooten-and-the-wooten-brothers-an-evening-with|granada-theater-l
- ower-greenville-dallas|doors-see-listing-2026-12-19@letsdoitdallas.com
-DTSTAMP:20261219T000000Z
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-SUMMARY:Victor Wooten and The Wooten Brothers - An Evening With
-LOCATION:Granada Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-12-19&e=victor-wooten-and-the-woo
- ten-brothers-an-evening-with%7Cgranada-theater-lower-greenville-dallas%7Cd
- oors-see-listing
-DESCRIPTION:Live at Granada Theater. — More: https://letsdoitdallas.com/v
- enue/granada-theater/
+UID:the-wooten-brothers|granada-theater-tx-dallas|8-00-pm-2026-12-19@letsdo
+ itdallas.com
+DTSTAMP:20261220T020000Z
+DTSTART:20261220T020000Z
+DTEND:20261220T050000Z
+SUMMARY:The Wooten Brothers
+LOCATION:Granada Theater - TX · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=the-wooten-brothers%7Cgra
+ nada-theater-tx-dallas%7C8-00-pm
+DESCRIPTION:Jazz event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/granada-theater/
 END:VEVENT
 END:VCALENDAR

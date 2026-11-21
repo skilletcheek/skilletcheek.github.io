@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chris-redd|punch-line-irving-irving|7-00-pm-2026-11-20@letsdoitdallas.c
- om
-DTSTAMP:20261121T010000Z
-DTSTART:20261121T010000Z
-DTEND:20261121T040000Z
-SUMMARY:Chris Redd
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=chris-redd%7Cpunch-line-i
- rving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:stoned-vs-drunk-vs-sober|punch-line-irving-irving|9-30-pm-2026-11-20@le
- tsdoitdallas.com
-DTSTAMP:20261121T033000Z
-DTSTART:20261121T033000Z
-DTEND:20261121T063000Z
-SUMMARY:Stoned vs Drunk vs Sober
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=stoned-vs-drunk-vs-sober%
- 7Cpunch-line-irving-irving%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:chris-redd|punch-line-irving-irving|7-00-pm-2026-11-21@letsdoitdallas.c
  om
 DTSTAMP:20261122T010000Z
@@ -409,5 +383,44 @@ URL:https://letsdoitdallas.com/?date=2026-12-18&e=comedy-allstars%7Cpunch-l
  ine-irving-irving%7C9-30-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:taylor-williamson|punch-line-irving-irving|7-00-pm-2026-12-19@letsdoitd
+ allas.com
+DTSTAMP:20261220T010000Z
+DTSTART:20261220T010000Z
+DTEND:20261220T040000Z
+SUMMARY:Taylor Williamson
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=taylor-williamson%7Cpunch
+ -line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:taylor-williamson|punch-line-irving-irving|9-15-pm-2026-12-19@letsdoitd
+ allas.com
+DTSTAMP:20261220T031500Z
+DTSTART:20261220T031500Z
+DTEND:20261220T061500Z
+SUMMARY:Taylor Williamson
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=taylor-williamson%7Cpunch
+ -line-irving-irving%7C9-15-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:cynthia-lee-fontaine-presents-drag-brunch-at-the-punch|punch-line-irvin
+ g-irving|12-00-pm-2026-12-20@letsdoitdallas.com
+DTSTAMP:20261220T180000Z
+DTSTART:20261220T180000Z
+DTEND:20261220T210000Z
+SUMMARY:Cynthia Lee Fontaine Presents: Drag Brunch at the Punch
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=cynthia-lee-fontaine-pres
+ ents-drag-brunch-at-the-punch%7Cpunch-line-irving-irving%7C12-00-pm
+DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
+ oitdallas.com/venue/punch-line-irving/
 END:VEVENT
 END:VCALENDAR

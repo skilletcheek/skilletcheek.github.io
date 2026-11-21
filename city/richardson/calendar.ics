@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:a-holiday-tribute-to-michael-buble|eisemann-center-richardson|8-00-pm-2
- 026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T020000Z
-DTSTART:20261121T020000Z
-DTEND:20261121T050000Z
-SUMMARY:A Holiday Tribute to Michael Buble
-LOCATION:Eisemann Center · Richardson
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=a-holiday-tribute-to-mich
- ael-buble%7Ceisemann-center-richardson%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/city/richardson/
-END:VEVENT
-BEGIN:VEVENT
 UID:art-after-hours-art-music-and-lattes-at-moon-wolf|moon-wolf-provisions-
  920-custer-rd-richardson|6-00-pm-9-00-pm-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T000000Z

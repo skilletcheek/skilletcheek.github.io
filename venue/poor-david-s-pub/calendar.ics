@@ -9,22 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:friendsgiving-a-harvest-night-of-live-music-with-gustavo-monsante-|-jfi
- -|-jj-the-mystics|poor-david-s-pub-dallas|doors-see-listing-2026-11-20@let
- sdoitdallas.com
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Friendsgiving: A Harvest Night of Live Music with Gustavo Monsante 
- | JFI | JJ & The Mystics
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=friendsgiving-a-harvest-n
- ight-of-live-music-with-gustavo-monsante-%7C-jfi-%7C-jj-the-mystics%7Cpoor
- -david-s-pub-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
- venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:mama-s-broke|poor-david-s-pub-dallas|8-00-pm-2026-11-22@letsdoitdallas.
  com
 DTSTAMP:20261123T020000Z

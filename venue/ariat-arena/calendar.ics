@@ -164,4 +164,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-18&e=matt-rife-stay-golden-wor
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/ariat-arena/
 END:VEVENT
+BEGIN:VEVENT
+UID:matt-rife-stay-golden-world-tour|ariat-arena-fort-worth|8-00-pm-2026-12
+ -19@letsdoitdallas.com
+DTSTAMP:20261220T020000Z
+DTSTART:20261220T020000Z
+DTEND:20261220T050000Z
+SUMMARY:Matt Rife: Stay Golden World Tour
+LOCATION:Ariat Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=matt-rife-stay-golden-wor
+ ld-tour%7Cariat-arena-fort-worth%7C8-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/ariat-arena/
+END:VEVENT
 END:VCALENDAR

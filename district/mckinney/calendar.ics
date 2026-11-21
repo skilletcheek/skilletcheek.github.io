@@ -10,20 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:allen-americans-vs-kansas-city-mavericks-red-out|credit-union-of-texas-
- event-center-allen|7-00-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T010000Z
-DTSTART:20261121T010000Z
-DTEND:20261121T040000Z
-SUMMARY:Allen Americans vs Kansas City Mavericks - Red Out
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=allen-americans-vs-kansas
- -city-mavericks-red-out%7Ccredit-union-of-texas-event-center-allen%7C7-00-
- pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:native-american-heritage-celebration-all-ages-|6861-w-eldorado-parkway-
  mckinney|10-00-am-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261121T160000Z
@@ -564,6 +550,30 @@ DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
+UID:roy-and-helen-hall-grand-reopening-all-ages-|101-e-hunt-st-mckinney|10-
+ 00-am-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T160000Z
+DTSTART:20261205T160000Z
+DTEND:20261205T190000Z
+SUMMARY:Roy and Helen Hall Grand Reopening (All Ages)
+LOCATION:101 E Hunt st · McKinney
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=roy-and-helen-hall-grand-
+ reopening-all-ages-%7C101-e-hunt-st-mckinney%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-chess-meetup-all-ages-|6861-w-eldorado-parkway-mckinney|11-00-
+ am-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T170000Z
+DTSTART:20261205T170000Z
+DTEND:20261205T200000Z
+SUMMARY:Saturday Chess Meetup (All Ages)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=saturday-chess-meetup-all
+ -ages-%7C6861-w-eldorado-parkway-mckinney%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:allen-americans-vs-tahoe-knight-monsters-star-wars-night|credit-union-o
  f-texas-event-center-allen|7-00-pm-2026-12-05@letsdoitdallas.com
 DTSTAMP:20261206T010000Z
@@ -615,6 +625,19 @@ SUMMARY:Allen Americans vs Rapid City Rush
 LOCATION:Credit Union of Texas Event Center · Allen
 URL:https://letsdoitdallas.com/?date=2026-12-18&e=allen-americans-vs-rapid-
  city-rush%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:allen-americans-vs-rapid-city-rush-teddy-toss|credit-union-of-texas-eve
+ nt-center-allen|7-00-pm-2026-12-19@letsdoitdallas.com
+DTSTAMP:20261220T010000Z
+DTSTART:20261220T010000Z
+DTEND:20261220T040000Z
+SUMMARY:Allen Americans vs Rapid City Rush - Teddy Toss
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=allen-americans-vs-rapid-
+ city-rush-teddy-toss%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/mckinney/
 END:VEVENT

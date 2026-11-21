@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-symphony-orchestra|morton-meyerson-symphony-center-dallas|7-30-p
- m-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T013000Z
-DTSTART:20261121T013000Z
-DTEND:20261121T043000Z
-SUMMARY:Dallas Symphony Orchestra
-LOCATION:Morton Meyerson Symphony Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=dallas-symphony-orchestra
- %7Cmorton-meyerson-symphony-center-dallas%7C7-30-pm
-DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
- las.com/venue/morton-meyerson-symphony-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-debussy-s-la-mer-and-karen-gomyo|mor
  ton-meyerson-symphony-center-dallas|7-30-pm-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T013000Z
@@ -259,6 +246,32 @@ DTEND:20261219T230000Z
 SUMMARY:Dallas Symphony Orchestra
 LOCATION:Morton Meyerson Symphony Center · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-19&e=dallas-symphony-orchestra
+ %7Cmorton-meyerson-symphony-center-dallas%7C2-00-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/morton-meyerson-symphony-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra|morton-meyerson-symphony-center-dallas|7-30-p
+ m-2026-12-19@letsdoitdallas.com
+DTSTAMP:20261220T013000Z
+DTSTART:20261220T013000Z
+DTEND:20261220T043000Z
+SUMMARY:Dallas Symphony Orchestra
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=dallas-symphony-orchestra
+ %7Cmorton-meyerson-symphony-center-dallas%7C7-30-pm
+DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
+ las.com/venue/morton-meyerson-symphony-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-symphony-orchestra|morton-meyerson-symphony-center-dallas|2-00-p
+ m-2026-12-20@letsdoitdallas.com
+DTSTAMP:20261220T200000Z
+DTSTART:20261220T200000Z
+DTEND:20261220T230000Z
+SUMMARY:Dallas Symphony Orchestra
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=dallas-symphony-orchestra
  %7Cmorton-meyerson-symphony-center-dallas%7C2-00-pm
 DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/venue/morton-meyerson-symphony-center/

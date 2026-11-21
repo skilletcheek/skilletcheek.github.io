@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tear-dungeon|rubber-gloves-denton|8-00-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T020000Z
-DTSTART:20261121T020000Z
-DTEND:20261121T050000Z
-SUMMARY:Tear Dungeon
-LOCATION:Rubber Gloves · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=tear-dungeon%7Crubber-glo
- ves-denton%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/rubber-gloves/
-END:VEVENT
-BEGIN:VEVENT
 UID:jejune|rubber-gloves-denton|8-00-pm-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T020000Z
 DTSTART:20261122T020000Z
@@ -53,6 +41,19 @@ SUMMARY:HO99O9
 LOCATION:Rubber Gloves · Denton
 URL:https://letsdoitdallas.com/?date=2026-11-24&e=ho99o9%7Crubber-gloves-de
  nton%7C7-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/rubber-gloves/
+END:VEVENT
+BEGIN:VEVENT
+UID:sunday-cruise|rubber-gloves-denton|8-00-pm-2026-11-28@letsdoitdallas.co
+ m
+DTSTAMP:20261129T020000Z
+DTSTART:20261129T020000Z
+DTEND:20261129T050000Z
+SUMMARY:Sunday Cruise
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=sunday-cruise%7Crubber-gl
+ oves-denton%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/rubber-gloves/
 END:VEVENT

@@ -9,15 +9,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:adaptive-shining-soccer-stars-parent-me-ages-2-5-|1454-e-first-st-prosp
- er|09-30-am-2026-11-21@letsdoitdallas.com
-DTSTAMP:20261121T153000Z
-DTSTART:20261121T153000Z
-DTEND:20261121T183000Z
-SUMMARY:Adaptive Shining Soccer Stars (Parent & Me\, Ages 2-5)
+UID:adaptive-shining-soccer-stars-ages-6-9-|1454-e-first-st-prosper|10-05-a
+ m-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261121T160500Z
+DTSTART:20261121T160500Z
+DTEND:20261121T190500Z
+SUMMARY:Adaptive Shining Soccer Stars (Ages 6-9)
 LOCATION:1454 E. First St. · Prosper
 URL:https://letsdoitdallas.com/?date=2026-11-21&e=adaptive-shining-soccer-s
- tars-parent-me-ages-2-5-%7C1454-e-first-st-prosper%7C09-30-am
+ tars-ages-6-9-%7C1454-e-first-st-prosper%7C10-05-am
 DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
 END:VEVENT
 BEGIN:VEVENT
@@ -256,6 +256,18 @@ SUMMARY:Mahjong
 LOCATION:407 E. First St. · Prosper
 URL:https://letsdoitdallas.com/?date=2026-12-04&e=mahjong%7C407-e-first-st-
  prosper%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
+END:VEVENT
+BEGIN:VEVENT
+UID:prosper-christmas-festival|250-w-first-st-prosper|03-00-pm-2026-12-05@l
+ etsdoitdallas.com
+DTSTAMP:20261205T210000Z
+DTSTART:20261205T210000Z
+DTEND:20261206T000000Z
+SUMMARY:Prosper Christmas Festival
+LOCATION:250 W First St. · Prosper
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=prosper-christmas-festiva
+ l%7C250-w-first-st-prosper%7C03-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/prosper/
 END:VEVENT
 BEGIN:VEVENT

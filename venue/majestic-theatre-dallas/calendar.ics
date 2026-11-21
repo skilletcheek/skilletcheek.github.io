@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-fab-four-tribute-to-the-beatles-a-hard-day-s-night|majestic-theatre
- -dallas-dallas|7-30-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T013000Z
-DTSTART:20261121T013000Z
-DTEND:20261121T043000Z
-SUMMARY:The Fab Four: Tribute to the Beatles' A Hard Day's Night
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=the-fab-four-tribute-to-t
- he-beatles-a-hard-day-s-night%7Cmajestic-theatre-dallas-dallas%7C7-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:mojo-brookzz|majestic-theatre-dallas-dallas|7-00-pm-2026-11-21@letsdoit
  dallas.com
 DTSTAMP:20261122T010000Z

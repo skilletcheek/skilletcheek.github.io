@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:north-mississippi-allstars|the-kessler-theater-dallas|8-00-pm-2026-11-2
- 0@letsdoitdallas.com
-DTSTAMP:20261121T020000Z
-DTSTART:20261121T020000Z
-DTEND:20261121T050000Z
-SUMMARY:North Mississippi Allstars
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=north-mississippi-allstar
- s%7Cthe-kessler-theater-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/the-kessler-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:margaret-glaspy-with-anna-tivel|the-kessler-theater-dallas|8-00-pm-2026
  -11-21@letsdoitdallas.com
 DTSTAMP:20261122T020000Z
@@ -198,18 +185,17 @@ DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:hayes-carll-grateful-for-christmas-tour-night-2|the-kessler-theater-oak
- -cliff-dallas|doors-see-listing-2026-12-19@letsdoitdallas.com
-DTSTAMP:20261219T000000Z
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-SUMMARY:Hayes Carll - Grateful for Christmas Tour - Night 2
-LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-12-19&e=hayes-carll-grateful-for-
- christmas-tour-night-2%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-
- listing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/venue/the-kessler-theater/
+UID:hayes-carll-w-calder-allen|the-kessler-dallas|8-00-pm-2026-12-19@letsdo
+ itdallas.com
+DTSTAMP:20261220T020000Z
+DTSTART:20261220T020000Z
+DTEND:20261220T050000Z
+SUMMARY:Hayes Carll w/ Calder Allen
+LOCATION:The Kessler · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=hayes-carll-w-calder-alle
+ n%7Cthe-kessler-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:kat-edmonson-have-your-merry-christmas-with-me|the-kessler-theater-oak-

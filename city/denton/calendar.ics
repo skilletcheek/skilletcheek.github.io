@@ -9,65 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:doctoral-recital-nicholas-losos-trombone|recital-hall-at-the-music-buil
- ding-denton|5-00-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261120T230000Z
-DTSTART:20261120T230000Z
-DTEND:20261121T020000Z
-SUMMARY:Doctoral Recital: Nicholas Losos\, trombone
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=doctoral-recital-nicholas
- -losos-trombone%7Crecital-hall-at-the-music-building-denton%7C5-00-pm
-DESCRIPTION:Important Links and Information      Program  Please note\, thi
- s program is subject to change. Final program will be available by the day
-  of the performance.      Livestream is not available for this event.     
-   This event is free and open to the public with general seating. — More
- : https://letsdoitdallas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:early-music-concert|paul-voertman-concert-hall-at-the-music-building-de
- nton|8-00-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T020000Z
-DTSTART:20261121T020000Z
-DTEND:20261121T050000Z
-SUMMARY:Early Music Concert
-LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=early-music-concert%7Cpau
- l-voertman-concert-hall-at-the-music-building-denton%7C8-00-pm
-DESCRIPTION:Important Links and Information     Program  Please note\, this
-  program is subject to change. Final program will be available by the day 
- of the performance.     Livestream link below. — More: https://letsdoitd
- allas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:masters-recital-brandon-lau-piano|recital-hall-at-the-music-building-de
- nton|8-00-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T020000Z
-DTSTART:20261121T020000Z
-DTEND:20261121T050000Z
-SUMMARY:Masters Recital: Brandon Lau\, piano
-LOCATION:Recital Hall at the Music Building · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=masters-recital-brandon-l
- au-piano%7Crecital-hall-at-the-music-building-denton%7C8-00-pm
-DESCRIPTION:Important Links and Information      Program    Please note\, t
- his program is subject to change. Final program will be available by the d
- ay of the performance.      Livestream is not available for this event.   
-     This event is free and open to the public with general seating. — Mo
- re: https://letsdoitdallas.com/city/denton/
-END:VEVENT
-BEGIN:VEVENT
-UID:tear-dungeon|rubber-gloves-denton|8-00-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T020000Z
-DTSTART:20261121T020000Z
-DTEND:20261121T050000Z
-SUMMARY:Tear Dungeon
-LOCATION:Rubber Gloves · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=tear-dungeon%7Crubber-glo
- ves-denton%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/city/denton/
-END:VEVENT
-BEGIN:VEVENT
 UID:jejune|rubber-gloves-denton|8-00-pm-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T020000Z
 DTSTART:20261122T020000Z
@@ -156,6 +97,19 @@ DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
  as.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
+UID:sunday-cruise|rubber-gloves-denton|8-00-pm-2026-11-28@letsdoitdallas.co
+ m
+DTSTAMP:20261129T020000Z
+DTSTART:20261129T020000Z
+DTEND:20261129T050000Z
+SUMMARY:Sunday Cruise
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=sunday-cruise%7Crubber-gl
+ oves-denton%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/city/denton/
+END:VEVENT
+BEGIN:VEVENT
 UID:doctoral-recital-chelsea-day-soprano|paul-voertman-concert-hall-at-the-
  music-building-denton|6-30-pm-2026-11-30@letsdoitdallas.com
 DTSTAMP:20261201T003000Z
@@ -166,6 +120,23 @@ LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
 URL:https://letsdoitdallas.com/?date=2026-11-30&e=doctoral-recital-chelsea-
  day-soprano%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C6-
  30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:doctoral-recital-jiaxin-ou-collaborative-piano|recital-hall-at-the-musi
+ c-building-denton|6-30-pm-2026-11-30@letsdoitdallas.com
+DTSTAMP:20261201T003000Z
+DTSTART:20261201T003000Z
+DTEND:20261201T033000Z
+SUMMARY:Doctoral Recital: Jiaxin Ou\, collaborative piano
+LOCATION:Recital Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-30&e=doctoral-recital-jiaxin-o
+ u-collaborative-piano%7Crecital-hall-at-the-music-building-denton%7C6-30-p
+ m
 DESCRIPTION:Important Links and Information      Program    Please note\, t
  his program is subject to change. Final program will be available by the d
  ay of the performance.      Livestream is not available for this event.   
@@ -285,6 +256,21 @@ LOCATION:UNT Superpit · Denton
 URL:https://letsdoitdallas.com/?date=2026-12-16&e=north-texas-mean-green-me
  n-s-basketball-vs-winthrop-eagles-mens-basketball%7Cunt-superpit-denton%7C
  see-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-men-s-basketball-vs-bethune-cookman-wildcats-men
+ s-basketball|unt-superpit-denton|see-details-2026-12-20@letsdoitdallas.com
+DTSTAMP:20261220T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:North Texas Mean Green Men's Basketball vs. Bethune-Cookman Wildcat
+ s Mens Basketball
+LOCATION:UNT Superpit · Denton
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=north-texas-mean-green-me
+ n-s-basketball-vs-bethune-cookman-wildcats-mens-basketball%7Cunt-superpit-
+ denton%7Csee-details
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/city/denton/
 END:VEVENT

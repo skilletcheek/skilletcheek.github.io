@@ -48,6 +48,45 @@ DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/casa-manana/
 END:VEVENT
 BEGIN:VEVENT
+UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|5-00-pm-2026-11-28@
+ letsdoitdallas.com
+DTSTAMP:20261128T230000Z
+DTSTART:20261128T230000Z
+DTEND:20261129T020000Z
+SUMMARY:A Christmas Carol - Fort Worth
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=a-christmas-carol-fort-wo
+ rth%7Ccasa-manana-fort-worth%7C5-00-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|11-00-am-2026-11-29
+ @letsdoitdallas.com
+DTSTAMP:20261129T170000Z
+DTSTART:20261129T170000Z
+DTEND:20261129T200000Z
+SUMMARY:A Christmas Carol - Fort Worth
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=a-christmas-carol-fort-wo
+ rth%7Ccasa-manana-fort-worth%7C11-00-am
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|3-00-pm-2026-11-29@
+ letsdoitdallas.com
+DTSTAMP:20261129T210000Z
+DTSTART:20261129T210000Z
+DTEND:20261130T000000Z
+SUMMARY:A Christmas Carol - Fort Worth
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=a-christmas-carol-fort-wo
+ rth%7Ccasa-manana-fort-worth%7C3-00-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-music-of-johnny-mathis|casa-manana-fort-worth|7-30-pm-2026-12-01@le
  tsdoitdallas.com
 DTSTAMP:20261202T013000Z
@@ -251,6 +290,19 @@ DTEND:20261219T050000Z
 SUMMARY:The Music of Johnny Mathis
 LOCATION:Casa Manana · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-18&e=the-music-of-johnny-mathi
+ s%7Ccasa-manana-fort-worth%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-music-of-johnny-mathis|casa-manana-fort-worth|8-00-pm-2026-12-19@le
+ tsdoitdallas.com
+DTSTAMP:20261220T020000Z
+DTSTART:20261220T020000Z
+DTEND:20261220T050000Z
+SUMMARY:The Music of Johnny Mathis
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=the-music-of-johnny-mathi
  s%7Ccasa-manana-fort-worth%7C8-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/casa-manana/

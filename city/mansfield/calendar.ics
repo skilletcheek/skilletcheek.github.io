@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:reputation-w-whiskey-girl|fat-daddy-s-mansfield-781-west-debbie-lane-ma
- nsfield-76063-united-states|8-30-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T023000Z
-DTSTART:20261121T023000Z
-DTEND:20261121T053000Z
-SUMMARY:Reputation w/Whiskey Girl
-LOCATION:Fat Daddy’s Mansfield
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=reputation-w-whiskey-girl
- %7Cfat-daddy-s-mansfield-781-west-debbie-lane-mansfield-76063-united-state
- s%7C8-30-pm
-DESCRIPTION:$5 online or with reservation at the bar $7 at the door — Mor
- e: https://letsdoitdallas.com/city/mansfield/
-END:VEVENT
-BEGIN:VEVENT
 UID:online-practice-sat-act-test-13-17-|mansfield|09-00-am-2026-11-21@letsd
  oitdallas.com
 DTSTAMP:20261121T150000Z
@@ -81,6 +67,36 @@ LOCATION:604 W. Broad St. · Mansfield
 URL:https://letsdoitdallas.com/?date=2026-11-21&e=hands-on-history%7C604-w-
  broad-st-mansfield%7C11-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/city/mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-zeppelin-project-w-to-jo|fat-daddy-s-mansfield-781-west-debbie-lane
+ -mansfield-76063-united-states|8-30-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T023000Z
+DTSTART:20261122T023000Z
+DTEND:20261122T053000Z
+SUMMARY:The Zeppelin Project w/To-Jo
+LOCATION:Fat Daddy’s Mansfield
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=the-zeppelin-project-w-to
+ -jo%7Cfat-daddy-s-mansfield-781-west-debbie-lane-mansfield-76063-united-st
+ ates%7C8-30-pm
+DESCRIPTION:The longest-running Led Zeppelin tribute band in Texas! $5 onli
+ ne or with reservation at the bar $7 at the door — More: https://letsdoi
+ tdallas.com/city/mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-dallas-moralez-live-on-the-patio|fat-daddy-s-mansfield-781-west-debb
+ ie-lane-mansfield-76063-united-states|9-00-pm-2026-11-21@letsdoitdallas.co
+ m
+DTSTAMP:20261122T030000Z
+DTSTART:20261122T030000Z
+DTEND:20261122T060000Z
+SUMMARY:DJ Dallas Moralez - Live on the Patio
+LOCATION:Fat Daddy’s Mansfield
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=dj-dallas-moralez-live-on
+ -the-patio%7Cfat-daddy-s-mansfield-781-west-debbie-lane-mansfield-76063-un
+ ited-states%7C9-00-pm
+DESCRIPTION:9PM – 1AM — More: https://letsdoitdallas.com/city/mansfield
+ /
 END:VEVENT
 BEGIN:VEVENT
 UID:cozy-community-cleanup|303-n-walnut-creek-dr-mansfield|10-00-am-2026-11
@@ -343,5 +359,49 @@ DESCRIPTION:Mansfield Police Department joins us for crafts\, s'mores\, and
  mily for some cozy holiday fun. Registration is not required. December 3\,
   2026 05:00 PM - 07:00 PM 104 S. Wisteria St.Mansfield\, TX 76063 https:/ 
  — More: https://letsdoitdallas.com/city/mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:spice-club-18-|104-s-wisteria-st-mansfield|10-30-am-2026-12-05@letsdoit
+ dallas.com
+DTSTAMP:20261205T163000Z
+DTSTART:20261205T163000Z
+DTEND:20261205T193000Z
+SUMMARY:Spice Club (18+)
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=spice-club-18-%7C104-s-wi
+ steria-st-mansfield%7C10-30-am
+DESCRIPTION:For all those interested in experiencing new spices and herbs. 
+ Come and join us for our monthly meetings to receive that month's spice\, 
+ participate in an activity\, and recipe swap! Program is free and registra
+ tion is required. This is a rescheduled event that was previously liste 
+ — More: https://letsdoitdallas.com/city/mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:story-time-for-tots-18mo-3y-|104-s-wisteria-st-mansfield|10-30-am-2026-
+ 12-05@letsdoitdallas.com
+DTSTAMP:20261205T163000Z
+DTSTART:20261205T163000Z
+DTEND:20261205T193000Z
+SUMMARY:Story Time for Tots (18mo-3Y)
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=story-time-for-tots-18mo-
+ 3y-%7C104-s-wisteria-st-mansfield%7C10-30-am
+DESCRIPTION:Come enjoy books\, songs\, finger-plays and rhymes. Story Time 
+ for Tots introduces toddlers and parents to developmentally appropriate li
+ terature and related activities. It introduces group listening skills and 
+ provides interaction with others. December 5\, 2026 10:30 AM - 11:00 AM 
+ — More: https://letsdoitdallas.com/city/mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-at-the-house|604-w-broad-st-mansfield|11-00-am-2026-12-05@letsd
+ oitdallas.com
+DTSTAMP:20261205T170000Z
+DTSTART:20261205T170000Z
+DTEND:20261205T200000Z
+SUMMARY:Holiday at the House
+LOCATION:604 W. Broad St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=holiday-at-the-house%7C60
+ 4-w-broad-st-mansfield%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/mansfield/
 END:VEVENT
 END:VCALENDAR

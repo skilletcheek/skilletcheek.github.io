@@ -9,45 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:deray-davis|addison-improv-addison|7-30-pm-2026-11-20@letsdoitdallas.co
- m
-DTSTAMP:20261121T013000Z
-DTSTART:20261121T013000Z
-DTEND:20261121T043000Z
-SUMMARY:DeRay Davis
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=deray-davis%7Caddison-imp
- rov-addison%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:deray-davis|addison-improv-addison|9-45-pm-2026-11-20@letsdoitdallas.co
- m
-DTSTAMP:20261121T034500Z
-DTSTART:20261121T034500Z
-DTEND:20261121T064500Z
-SUMMARY:DeRay Davis
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=deray-davis%7Caddison-imp
- rov-addison%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-11
- -21@letsdoitdallas.com
-DTSTAMP:20261121T200000Z
-DTSTART:20261121T200000Z
-DTEND:20261121T230000Z
-SUMMARY:Family Magic & Comedy For All Ages
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=family-magic-comedy-for-a
- ll-ages%7Caddison-improv-addison%7C2-00-pm
-DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
- doitdallas.com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:deray-davis|addison-improv-addison|7-00-pm-2026-11-21@letsdoitdallas.co
  m
 DTSTAMP:20261122T010000Z
@@ -83,6 +44,19 @@ SUMMARY:DeRay Davis
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-11-22&e=deray-davis%7Caddison-imp
  rov-addison%7C7-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:deray-davis|addison-improv-addison|9-45-pm-2026-11-22@letsdoitdallas.co
+ m
+DTSTAMP:20261123T034500Z
+DTSTART:20261123T034500Z
+DTEND:20261123T064500Z
+SUMMARY:DeRay Davis
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=deray-davis%7Caddison-imp
+ rov-addison%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/addison-improv/
 END:VEVENT
@@ -202,6 +176,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-04&e=natasha-leggero%7Caddison
  -improv-addison%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-12
+ -05@letsdoitdallas.com
+DTSTAMP:20261205T200000Z
+DTSTART:20261205T200000Z
+DTEND:20261205T230000Z
+SUMMARY:Family Magic & Comedy For All Ages
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=family-magic-comedy-for-a
+ ll-ages%7Caddison-improv-addison%7C2-00-pm
+DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
+ doitdallas.com/venue/addison-improv/
 END:VEVENT
 BEGIN:VEVENT
 UID:natasha-leggero|addison-improv-addison|7-00-pm-2026-12-05@letsdoitdalla
@@ -343,6 +330,19 @@ SUMMARY:Stone Cold and the Jackal
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-19&e=stone-cold-and-the-jackal
  %7Caddison-improv-addison%7C1-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:flip-phone-lord-of-the-rings-yule-drag-brunch|addison-improv-addison|2-
+ 00-pm-2026-12-20@letsdoitdallas.com
+DTSTAMP:20261220T200000Z
+DTSTART:20261220T200000Z
+DTEND:20261220T230000Z
+SUMMARY:Flip Phone: Lord of the Rings Yule Drag Brunch
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=flip-phone-lord-of-the-ri
+ ngs-yule-drag-brunch%7Caddison-improv-addison%7C2-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
 END:VEVENT

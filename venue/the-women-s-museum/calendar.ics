@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:promising-young-artist-series-two-guitars-|the-women-s-museum-dallas|9-
- 00-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T030000Z
-DTSTART:20261121T030000Z
-DTEND:20261121T060000Z
-SUMMARY:Promising Young Artist Series "Two Guitars"
-LOCATION:The Women's Museum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=promising-young-artist-se
- ries-two-guitars-%7Cthe-women-s-museum-dallas%7C9-00-pm
-DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
- /letsdoitdallas.com/venue/the-women-s-museum/
-END:VEVENT
-BEGIN:VEVENT
-UID:promising-young-artist-series-two-guitars-|the-women-s-museum-dallas|9-
  00-pm-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T030000Z
 DTSTART:20261122T030000Z
@@ -82,6 +69,19 @@ DTEND:20261219T060000Z
 SUMMARY:Marvin On Piano
 LOCATION:The Women's Museum · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-18&e=marvin-on-piano%7Cthe-wom
+ en-s-museum-dallas%7C9-00-pm
+DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
+ /letsdoitdallas.com/venue/the-women-s-museum/
+END:VEVENT
+BEGIN:VEVENT
+UID:marvin-on-piano|the-women-s-museum-dallas|9-00-pm-2026-12-19@letsdoitda
+ llas.com
+DTSTAMP:20261220T030000Z
+DTSTART:20261220T030000Z
+DTEND:20261220T060000Z
+SUMMARY:Marvin On Piano
+LOCATION:The Women's Museum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=marvin-on-piano%7Cthe-wom
  en-s-museum-dallas%7C9-00-pm
 DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
  /letsdoitdallas.com/venue/the-women-s-museum/

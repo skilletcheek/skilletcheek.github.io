@@ -10,97 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bryan-callen|mic-drop-comedy-plano-plano|7-00-pm-2026-11-20@letsdoitdal
- las.com
-DTSTAMP:20261121T010000Z
-DTSTART:20261121T010000Z
-DTEND:20261121T040000Z
-SUMMARY:Bryan Callen
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=bryan-callen%7Cmic-drop-c
- omedy-plano-plano%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:deray-davis|addison-improv-addison|7-30-pm-2026-11-20@letsdoitdallas.co
- m
-DTSTAMP:20261121T013000Z
-DTSTART:20261121T013000Z
-DTEND:20261121T043000Z
-SUMMARY:DeRay Davis
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=deray-davis%7Caddison-imp
- rov-addison%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:a-holiday-tribute-to-michael-buble|eisemann-center-richardson|8-00-pm-2
- 026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T020000Z
-DTSTART:20261121T020000Z
-DTEND:20261121T050000Z
-SUMMARY:A Holiday Tribute to Michael Buble
-LOCATION:Eisemann Center · Richardson
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=a-holiday-tribute-to-mich
- ael-buble%7Ceisemann-center-richardson%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:tristan-roberson|legacy-hall-plano|8-00-pm-2026-11-20@letsdoitdallas.co
- m
-DTSTAMP:20261121T020000Z
-DTSTART:20261121T020000Z
-DTEND:20261121T050000Z
-SUMMARY:Tristan Roberson
-LOCATION:Legacy Hall · Plano
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=tristan-roberson%7Clegacy
- -hall-plano%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:bryan-adams|mic-drop-comedy-plano-plano|9-30-pm-2026-11-20@letsdoitdall
- as.com
-DTSTAMP:20261121T033000Z
-DTSTART:20261121T033000Z
-DTEND:20261121T063000Z
-SUMMARY:Bryan Adams
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=bryan-adams%7Cmic-drop-co
- medy-plano-plano%7C9-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:deray-davis|addison-improv-addison|9-45-pm-2026-11-20@letsdoitdallas.co
- m
-DTSTAMP:20261121T034500Z
-DTSTART:20261121T034500Z
-DTEND:20261121T064500Z
-SUMMARY:DeRay Davis
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=deray-davis%7Caddison-imp
- rov-addison%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-11
- -21@letsdoitdallas.com
-DTSTAMP:20261121T200000Z
-DTSTART:20261121T200000Z
-DTEND:20261121T230000Z
-SUMMARY:Family Magic & Comedy For All Ages
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=family-magic-comedy-for-a
- ll-ages%7Caddison-improv-addison%7C2-00-pm
-DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
- doitdallas.com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:art-after-hours-art-music-and-lattes-at-moon-wolf|moon-wolf-provisions-
  920-custer-rd-richardson|6-00-pm-9-00-pm-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T000000Z
@@ -210,6 +119,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:deray-davis|addison-improv-addison|9-45-pm-2026-11-22@letsdoitdallas.co
+ m
+DTSTAMP:20261123T034500Z
+DTSTART:20261123T034500Z
+DTEND:20261123T064500Z
+SUMMARY:DeRay Davis
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=deray-davis%7Caddison-imp
+ rov-addison%7C9-45-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:chamberlain-ballet-the-nutcracker-richardson|hill-performance-hall-at-e
  isemann-center-richardson|7-00-pm-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261128T010000Z
@@ -248,6 +170,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=elle-orlando%7Caddison-im
  prov-addison%7C7-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:totally-80s|legacy-hall-plano|8-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T020000Z
+DTSTART:20261128T020000Z
+DTEND:20261128T050000Z
+SUMMARY:Totally 80s
+LOCATION:Legacy Hall · Plano
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=totally-80s%7Clegacy-hall
+ -plano%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:damon-wayans-jr-|mic-drop-comedy-plano-plano|9-30-pm-2026-11-27@letsdoi
@@ -302,6 +236,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:damon-wayans-jr-|mic-drop-comedy-plano-plano|7-00-pm-2026-11-28@letsdoi
+ tdallas.com
+DTSTAMP:20261129T010000Z
+DTSTART:20261129T010000Z
+DTEND:20261129T040000Z
+SUMMARY:Damon Wayans Jr.
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=damon-wayans-jr-%7Cmic-dr
+ op-comedy-plano-plano%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:elle-orlando|addison-improv-addison|8-30-pm-2026-11-28@letsdoitdallas.c
  om
 DTSTAMP:20261129T023000Z
@@ -313,6 +260,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=elle-orlando%7Caddison-im
  prov-addison%7C8-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:damon-wayans-jr-|mic-drop-comedy-plano-plano|9-30-pm-2026-11-28@letsdoi
+ tdallas.com
+DTSTAMP:20261129T033000Z
+DTSTART:20261129T033000Z
+DTEND:20261129T063000Z
+SUMMARY:Damon Wayans Jr.
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=damon-wayans-jr-%7Cmic-dr
+ op-comedy-plano-plano%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-nutcracker|eisemann-center-richardson|2-00-pm-2026-11-29@letsdoitda
@@ -391,6 +351,35 @@ URL:https://letsdoitdallas.com/?date=2026-12-04&e=natasha-leggero%7Caddison
  -improv-addison%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-make-take-crafts|505-travis-street-coppell|09-00-am-2026-12-05
+ @letsdoitdallas.com
+DTSTAMP:20261205T150000Z
+DTSTART:20261205T150000Z
+DTEND:20261205T180000Z
+SUMMARY:Saturday Make & Take Crafts
+LOCATION:505 Travis Street · Coppell
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=saturday-make-take-crafts
+ %7C505-travis-street-coppell%7C09-00-am
+DESCRIPTION:How about a fun\, creative start to your weekend? Bring your fa
+ mily to the Coppell Arts Center on the first Saturday of every month for a
+  FREE make-and-take craft! Stop by anytime between 9 AM to 12 PM to create
+  your craft. Kids will receive a do-it-yourself craft kit that they ca —
+  More: https://letsdoitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-12
+ -05@letsdoitdallas.com
+DTSTAMP:20261205T200000Z
+DTSTART:20261205T200000Z
+DTEND:20261205T230000Z
+SUMMARY:Family Magic & Comedy For All Ages
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=family-magic-comedy-for-a
+ ll-ages%7Caddison-improv-addison%7C2-00-pm
+DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
+ doitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:natasha-leggero|addison-improv-addison|7-00-pm-2026-12-05@letsdoitdalla
@@ -545,6 +534,19 @@ SUMMARY:Stone Cold and the Jackal
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-19&e=stone-cold-and-the-jackal
  %7Caddison-improv-addison%7C1-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:flip-phone-lord-of-the-rings-yule-drag-brunch|addison-improv-addison|2-
+ 00-pm-2026-12-20@letsdoitdallas.com
+DTSTAMP:20261220T200000Z
+DTSTART:20261220T200000Z
+DTEND:20261220T230000Z
+SUMMARY:Flip Phone: Lord of the Rings Yule Drag Brunch
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=flip-phone-lord-of-the-ri
+ ngs-yule-drag-brunch%7Caddison-improv-addison%7C2-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT

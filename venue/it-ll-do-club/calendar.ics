@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:murda-beatz|it-ll-do-club-dallas|9-00-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T030000Z
-DTSTART:20261121T030000Z
-DTEND:20261121T060000Z
-SUMMARY:Murda Beatz
-LOCATION:It'll Do Club · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=murda-beatz%7Cit-ll-do-cl
- ub-dallas%7C9-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/it-ll-do-club/
-END:VEVENT
-BEGIN:VEVENT
 UID:kyle-watson|it-ll-do-club-dallas|9-00-pm-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T030000Z
 DTSTART:20261122T030000Z
@@ -41,6 +29,19 @@ SUMMARY:Bag Raiders
 LOCATION:It'll Do Club · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-27&e=bag-raiders%7Cit-ll-do-cl
  ub-dallas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/it-ll-do-club/
+END:VEVENT
+BEGIN:VEVENT
+UID:gene-farris-21-|it-ll-do-club-dallas|9-00-pm-2026-11-28@letsdoitdallas.
+ com
+DTSTAMP:20261129T030000Z
+DTSTART:20261129T030000Z
+DTEND:20261129T060000Z
+SUMMARY:Gene Farris (21+)
+LOCATION:It'll Do Club · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=gene-farris-21-%7Cit-ll-d
+ o-club-dallas%7C9-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/it-ll-do-club/
 END:VEVENT

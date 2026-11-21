@@ -10,96 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:heal-the-hurt-magdalene-rose-unbroken-reign|three-links-deep-ellum-dall
- as|7-00-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T010000Z
-DTSTART:20261121T010000Z
-DTEND:20261121T040000Z
-SUMMARY:Heal The Hurt\, Magdalene Rose\, Unbroken Reign
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=heal-the-hurt-magdalene-r
- ose-unbroken-reign%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:i-set-my-friends-on-fire|puzzles-deep-ellum-dallas|7-00-pm-2026-11-20@l
- etsdoitdallas.com
-DTSTAMP:20261121T010000Z
-DTSTART:20261121T010000Z
-DTEND:20261121T040000Z
-SUMMARY:I Set My Friends On Fire
-LOCATION:Puzzles Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=i-set-my-friends-on-fire%
- 7Cpuzzles-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:jay-roxxx|club-dada-dallas|7-00-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T010000Z
-DTSTART:20261121T010000Z
-DTEND:20261121T040000Z
-SUMMARY:Jay Roxxx
-LOCATION:Club Dada · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=jay-roxxx%7Cclub-dada-dal
- las%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:all-the-feels-r-and-b-16-and-under-with-parent-or-legal-guardian-|the-b
- omb-factory-dallas|8-00-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T020000Z
-DTSTART:20261121T020000Z
-DTEND:20261121T050000Z
-SUMMARY:All The Feels R and B (16 and Under with Parent or Legal Guardian)
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=all-the-feels-r-and-b-16-
- and-under-with-parent-or-legal-guardian-%7Cthe-bomb-factory-dallas%7C8-00-
- pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:southfm|trees-dallas|8-00-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T020000Z
-DTSTART:20261121T020000Z
-DTEND:20261121T050000Z
-SUMMARY:SouthFM
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=southfm%7Ctrees-dallas%7C
- 8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:seth-david|deep-ellum-art-co-dallas|10-00-pm-2026-11-20@letsdoitdallas.
- com
-DTSTAMP:20261121T040000Z
-DTSTART:20261121T040000Z
-DTEND:20261121T070000Z
-SUMMARY:Seth David
-LOCATION:Deep Ellum Art Co. · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=seth-david%7Cdeep-ellum-a
- rt-co-dallas%7C10-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
- -pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T040000Z
-DTSTART:20261121T040000Z
-DTEND:20261121T070000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:11th-annual-kennedy-cruise|trees-dallas|doors-see-listing-2026-11-21@le
  tsdoitdallas.com
 DTSTAMP:20261121T000000Z
@@ -163,6 +73,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-21&e=paul-cauthen%7Cthe-bomb-f
  actory-dallas%7C8-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-floozies|deep-ellum-art-company-3200-commerce-street-dallas-tx-7522
+ 6-united-states|8-00-pm-2026-11-21@letsdoitdallas.com
+DTSTAMP:20261122T020000Z
+DTSTART:20261122T020000Z
+DTEND:20261122T050000Z
+SUMMARY:The Floozies
+LOCATION:Deep Ellum Art Company · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-21&e=the-floozies%7Cdeep-ellum
+ -art-company-3200-commerce-street-dallas-tx-75226-united-states%7C8-00-pm
+DESCRIPTION:The Floozies with 5AM November 21st Dallas\, TX Deep Ellum Art 
+ Co.  Brothers Matt and Mark Hill are the sonic visionaries behind electron
+ ic-funk powerhouse The Floozies. Certified heavyweights in the world of ja
+ m and future-groove\, the Kansas City-based tandem champion authentic f 
+ — More: https://letsdoitdallas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-floozies-21-|deep-ellum-art-co-dallas|8-00-pm-2026-11-21@letsdoitda
@@ -295,17 +221,17 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:as-i-lay-dying-the-curse-within-commissary|trees-dallas|doors-see-listi
- ng-2026-11-28@letsdoitdallas.com
-DTSTAMP:20261128T000000Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
-SUMMARY:AS I LAY DYING * THE CURSE WITHIN * COMMISSARY
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-28&e=as-i-lay-dying-the-curse-
- within-commissary%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
+UID:honeycomb|deep-ellum-art-co-dallas|6-00-pm-2026-11-28@letsdoitdallas.co
+ m
+DTSTAMP:20261129T000000Z
+DTSTART:20261129T000000Z
+DTEND:20261129T030000Z
+SUMMARY:Honeycomb
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=honeycomb%7Cdeep-ellum-ar
+ t-co-dallas%7C6-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:maximum-aggression-xcape-venadryl-eyebleed|three-links-deep-ellum-dalla
@@ -319,6 +245,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=maximum-aggression-xcape-
  venadryl-eyebleed%7Cthree-links-deep-ellum-dallas%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:as-i-lay-dying|trees-dallas-dallas|8-00-pm-2026-11-28@letsdoitdallas.co
+ m
+DTSTAMP:20261129T020000Z
+DTSTART:20261129T020000Z
+DTEND:20261129T050000Z
+SUMMARY:As I Lay Dying
+LOCATION:Trees - Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=as-i-lay-dying%7Ctrees-da
+ llas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:emo-nite-18-|deep-ellum-live-dallas|9-00-pm-2026-11-28@letsdoitdallas.c
@@ -632,5 +571,31 @@ URL:https://letsdoitdallas.com/?date=2026-12-18&e=offended-by-everything-va
  as%7C7-00-pm
 DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:luis-coronel-kevin-ortiz-nuestra-historia-tour-in-dallas|rbc-deep-ellum
+ -dallas|8-00-pm-2026-12-19@letsdoitdallas.com
+DTSTAMP:20261220T020000Z
+DTSTART:20261220T020000Z
+DTEND:20261220T050000Z
+SUMMARY:Luis Coronel & Kevin Ortiz: NUESTRA HISTORIA TOUR in Dallas
+LOCATION:RBC Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=luis-coronel-kevin-ortiz-
+ nuestra-historia-tour-in-dallas%7Crbc-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:mad-mexicans-la-santa-chinga|three-links-deep-ellum-dallas|8-00-pm-2026
+ -12-19@letsdoitdallas.com
+DTSTAMP:20261220T020000Z
+DTSTART:20261220T020000Z
+DTEND:20261220T050000Z
+SUMMARY:Mad Mexicans \, La Santa Chinga
+LOCATION:Three Links Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=mad-mexicans-la-santa-chi
+ nga%7Cthree-links-deep-ellum-dallas%7C8-00-pm
+DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
+ allas.com/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

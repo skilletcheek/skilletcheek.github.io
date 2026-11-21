@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:brett-goldstein-sex-death-small-talk|music-hall-at-fair-park-dallas|7-0
- 0-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T010000Z
-DTSTART:20261121T010000Z
-DTEND:20261121T040000Z
-SUMMARY:Brett Goldstein: Sex\, Death & Small Talk
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=brett-goldstein-sex-death
- -small-talk%7Cmusic-hall-at-fair-park-dallas%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/music-hall-at-fair-park/
-END:VEVENT
-BEGIN:VEVENT
 UID:dr-seuss-how-the-grinch-stole-christmas-the-musical-touring-|music-hall
  -at-fair-park-dallas|7-30-pm-2026-11-25@letsdoitdallas.com
 DTSTAMP:20261126T013000Z
@@ -262,6 +249,32 @@ SUMMARY:The Phantom of the Opera (Touring)
 LOCATION:Music Hall At Fair Park · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-19&e=the-phantom-of-the-opera-
  touring-%7Cmusic-hall-at-fair-park-dallas%7C1-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/music-hall-at-fair-park/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-phantom-of-the-opera-touring-|music-hall-at-fair-park-dallas|7-30-p
+ m-2026-12-19@letsdoitdallas.com
+DTSTAMP:20261220T013000Z
+DTSTART:20261220T013000Z
+DTEND:20261220T043000Z
+SUMMARY:The Phantom of the Opera (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=the-phantom-of-the-opera-
+ touring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/music-hall-at-fair-park/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-phantom-of-the-opera-touring-|music-hall-at-fair-park-dallas|1-00-p
+ m-2026-12-20@letsdoitdallas.com
+DTSTAMP:20261220T190000Z
+DTSTART:20261220T190000Z
+DTEND:20261220T220000Z
+SUMMARY:The Phantom of the Opera (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=the-phantom-of-the-opera-
+ touring-%7Cmusic-hall-at-fair-park-dallas%7C1-00-pm
 DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/music-hall-at-fair-park/
 END:VEVENT

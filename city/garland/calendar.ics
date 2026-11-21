@@ -9,33 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:copland-el-salon-mexico-iona-batchelder-cello-presented-by-garland-symp
- hony-orchestra|300-n-fifth-street-garland|07-30-pm-2026-11-20@letsdoitdall
- as.com
-DTSTAMP:20261121T013000Z
-DTSTART:20261121T013000Z
-DTEND:20261121T043000Z
-SUMMARY:Copland\, El Salon Mexico - Iona Batchelder\, cello - presented by 
- Garland Symphony Orchestra
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=copland-el-salon-mexico-i
- ona-batchelder-cello-presented-by-garland-symphony-orchestra%7C300-n-fifth
- -street-garland%7C07-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:rocky-50th-anniversary-presented-by-garland-cultural-arts|521-w-state-s
- treet-garland|08-00-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T020000Z
-DTSTART:20261121T020000Z
-DTEND:20261121T050000Z
-SUMMARY:Rocky 50th Anniversary presented by Garland Cultural Arts
-LOCATION:521 W State Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=rocky-50th-anniversary-pr
- esented-by-garland-cultural-arts%7C521-w-state-street-garland%7C08-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:play-learn-0-5-years-|central-library-garland|10-00-am-2026-11-21@letsd
  oitdallas.com
 DTSTAMP:20261121T160000Z
@@ -226,14 +199,52 @@ URL:https://letsdoitdallas.com/?date=2026-12-04&e=charles-dickens-a-christm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-best-christmas-pageant-ever-presented-by-garland-civic-theatre|300-
- n-fifth-street-garland|07-30-pm-2026-12-04@letsdoitdallas.com
+UID:the-nutcracker-presented-by-the-dallas-ballet-company|300-n-fifth-stree
+ t-garland|07-30-pm-2026-12-04@letsdoitdallas.com
 DTSTAMP:20261205T013000Z
 DTSTART:20261205T013000Z
 DTEND:20261205T043000Z
+SUMMARY:The Nutcracker presented by the Dallas Ballet Company
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-nutcracker-presented-
+ by-the-dallas-ballet-company%7C300-n-fifth-street-garland%7C07-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-presented-by-the-dallas-ballet-company|300-n-fifth-stree
+ t-garland|02-00-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T200000Z
+DTSTART:20261205T200000Z
+DTEND:20261205T230000Z
+SUMMARY:The Nutcracker presented by the Dallas Ballet Company
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=the-nutcracker-presented-
+ by-the-dallas-ballet-company%7C300-n-fifth-street-garland%7C02-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:charles-dickens-a-christmas-carol-presented-by-company-of-rowlett-perfo
+ rmers|521-w-state-street-garland|07-30-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T013000Z
+DTSTART:20261206T013000Z
+DTEND:20261206T043000Z
+SUMMARY:Charles Dickens’ A Christmas Carol presented by Company of Rowlet
+ t Performers
+LOCATION:521 W State Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=charles-dickens-a-christm
+ as-carol-presented-by-company-of-rowlett-performers%7C521-w-state-street-g
+ arland%7C07-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-best-christmas-pageant-ever-presented-by-garland-civic-theatre|300-
+ n-fifth-street-garland|07-30-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T013000Z
+DTSTART:20261206T013000Z
+DTEND:20261206T043000Z
 SUMMARY:The Best Christmas Pageant Ever presented by Garland Civic Theatre
 LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-best-christmas-pagean
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=the-best-christmas-pagean
  t-ever-presented-by-garland-civic-theatre%7C300-n-fifth-street-garland%7C0
  7-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/

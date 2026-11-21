@@ -22,6 +22,32 @@ DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
  venue/moody-performance-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:avant-chamber-ballet-the-nutcracker|moody-performance-hall-dallas|7-00-
+ pm-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261129T010000Z
+DTSTART:20261129T010000Z
+DTEND:20261129T040000Z
+SUMMARY:Avant Chamber Ballet - The Nutcracker
+LOCATION:Moody Performance Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=avant-chamber-ballet-the-
+ nutcracker%7Cmoody-performance-hall-dallas%7C7-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/moody-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:avant-chamber-ballet-the-nutcracker|moody-performance-hall-dallas|2-00-
+ pm-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261129T200000Z
+DTSTART:20261129T200000Z
+DTEND:20261129T230000Z
+SUMMARY:Avant Chamber Ballet - The Nutcracker
+LOCATION:Moody Performance Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=avant-chamber-ballet-the-
+ nutcracker%7Cmoody-performance-hall-dallas%7C2-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/moody-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:ballet-north-texas-presents-the-nutcracker|moody-performance-hall-dalla
  s|8-00-pm-2026-12-18@letsdoitdallas.com
 DTSTAMP:20261219T020000Z
@@ -44,6 +70,45 @@ SUMMARY:Ballet North Texas presents The Nutcracker
 LOCATION:Moody Performance Hall · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-19&e=ballet-north-texas-presen
  ts-the-nutcracker%7Cmoody-performance-hall-dallas%7C2-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/moody-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:ballet-north-texas-presents-the-nutcracker|moody-performance-hall-dalla
+ s|8-00-pm-2026-12-19@letsdoitdallas.com
+DTSTAMP:20261220T020000Z
+DTSTART:20261220T020000Z
+DTEND:20261220T050000Z
+SUMMARY:Ballet North Texas presents The Nutcracker
+LOCATION:Moody Performance Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=ballet-north-texas-presen
+ ts-the-nutcracker%7Cmoody-performance-hall-dallas%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/moody-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:ballet-north-texas-presents-the-nutcracker|moody-performance-hall-dalla
+ s|1-00-pm-2026-12-20@letsdoitdallas.com
+DTSTAMP:20261220T190000Z
+DTSTART:20261220T190000Z
+DTEND:20261220T220000Z
+SUMMARY:Ballet North Texas presents The Nutcracker
+LOCATION:Moody Performance Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=ballet-north-texas-presen
+ ts-the-nutcracker%7Cmoody-performance-hall-dallas%7C1-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/moody-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:ballet-north-texas-presents-the-nutcracker|moody-performance-hall-dalla
+ s|5-00-pm-2026-12-20@letsdoitdallas.com
+DTSTAMP:20261220T230000Z
+DTSTART:20261220T230000Z
+DTEND:20261221T020000Z
+SUMMARY:Ballet North Texas presents The Nutcracker
+LOCATION:Moody Performance Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=ballet-north-texas-presen
+ ts-the-nutcracker%7Cmoody-performance-hall-dallas%7C5-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/moody-performance-hall/
 END:VEVENT

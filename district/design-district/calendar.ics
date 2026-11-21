@@ -10,44 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:an-evening-with-band-of-horses|the-echo-lounge-music-hall-dallas|7-00-p
- m-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T010000Z
-DTSTART:20261121T010000Z
-DTEND:20261121T040000Z
-SUMMARY:An Evening With Band Of Horses
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=an-evening-with-band-of-h
- orses%7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:aterciopelados|am-fm-dallas-dallas|7-00-pm-2026-11-20@letsdoitdallas.co
- m
-DTSTAMP:20261121T010000Z
-DTSTART:20261121T010000Z
-DTEND:20261121T040000Z
-SUMMARY:Aterciopelados
-LOCATION:AM/FM Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=aterciopelados%7Cam-fm-da
- llas-dallas%7C7-00-pm
-DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
-UID:crankdat-18-and-over-|silo-dallas|9-00-pm-2026-11-20@letsdoitdallas.com
-DTSTAMP:20261121T030000Z
-DTSTART:20261121T030000Z
-DTEND:20261121T060000Z
-SUMMARY:Crankdat (18 and Over)
-LOCATION:SILO · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-20&e=crankdat-18-and-over-%7Cs
- ilo-dallas%7C9-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/design-district/
-END:VEVENT
-BEGIN:VEVENT
 UID:ez-band|am-fm-dallas-dallas|7-00-pm-2026-11-21@letsdoitdallas.com
 DTSTAMP:20261122T010000Z
 DTSTART:20261122T010000Z
@@ -185,6 +147,19 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=cure-for-paranoia%7Cthe-e
  cho-lounge-music-hall-dallas%7C7-00-pm
 DESCRIPTION:Hip-Hop/Rap event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:rosegarden-funeral-party|the-echo-lounge-music-hall-dallas|7-00-pm-2026
+ -11-28@letsdoitdallas.com
+DTSTAMP:20261129T010000Z
+DTSTART:20261129T010000Z
+DTEND:20261129T040000Z
+SUMMARY:Rosegarden Funeral Party
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=rosegarden-funeral-party%
+ 7Cthe-echo-lounge-music-hall-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/design-district/
 END:VEVENT
 BEGIN:VEVENT
 UID:deorro-ages-18-|silo-dallas|9-00-pm-2026-11-28@letsdoitdallas.com
@@ -419,5 +394,31 @@ URL:https://letsdoitdallas.com/?date=2026-12-18&e=dillstradamus-18-%7Csilo-
  dallas%7C9-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:yaelokre|the-echo-lounge-music-hall-dallas|7-00-pm-2026-12-19@letsdoitd
+ allas.com
+DTSTAMP:20261220T010000Z
+DTSTART:20261220T010000Z
+DTEND:20261220T040000Z
+SUMMARY:Yaelokre
+LOCATION:The Echo Lounge & Music Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=yaelokre%7Cthe-echo-loung
+ e-music-hall-dallas%7C7-00-pm
+DESCRIPTION:Folk event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/design-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:valentino-khan-18-and-over-|silo-dallas|9-00-pm-2026-12-19@letsdoitdall
+ as.com
+DTSTAMP:20261220T030000Z
+DTSTART:20261220T030000Z
+DTEND:20261220T060000Z
+SUMMARY:Valentino Khan (18 and Over)
+LOCATION:SILO · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=valentino-khan-18-and-ove
+ r-%7Csilo-dallas%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/district/design-district/
 END:VEVENT
 END:VCALENDAR
