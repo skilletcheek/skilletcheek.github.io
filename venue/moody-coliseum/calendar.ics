@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:grand-canyon-womens-bb-at-smu-womens-bb|moody-coliseum-dallas|5-00-pm-2
- 026-11-21@letsdoitdallas.com
-DTSTAMP:20261121T230000Z
-DTSTART:20261121T230000Z
-DTEND:20261122T020000Z
-SUMMARY:Grand Canyon Womens BB at SMU Womens BB
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=grand-canyon-womens-bb-at
- -smu-womens-bb%7Cmoody-coliseum-dallas%7C5-00-pm
-DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
- tsdoitdallas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:smu-mustangs-womens-volleyball-vs-georgia-tech-yellow-jackets-womens-vo
  lleyball|moody-coliseum-dallas|1-00-pm-2026-11-25@letsdoitdallas.com
 DTSTAMP:20261125T190000Z
@@ -63,6 +50,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-01&e=smu-mustangs-mens-basketb
  s%7C7-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/moody-coliseum/
+END:VEVENT
+BEGIN:VEVENT
+UID:georgia-womens-bb-at-smu-womens-bb|moody-coliseum-dallas|8-15-pm-2026-1
+ 2-02@letsdoitdallas.com
+DTSTAMP:20261203T021500Z
+DTSTART:20261203T021500Z
+DTEND:20261203T051500Z
+SUMMARY:Georgia Womens BB at SMU Womens BB
+LOCATION:Moody Coliseum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=georgia-womens-bb-at-smu-
+ womens-bb%7Cmoody-coliseum-dallas%7C8-15-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/moody-coliseum/
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-mustangs-mens-basketball-vs-texas-san-antonio-roadrunners-mens-bask

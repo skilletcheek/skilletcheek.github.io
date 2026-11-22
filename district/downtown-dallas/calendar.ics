@@ -11,100 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-11-21@letsdoitdallas.com
-DTSTAMP:20261121T140000Z
-DTSTART:20261121T140000Z
-DTEND:20261121T170000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:better-than-ezra-legends-of-the-fall-closer-to-the-edge|house-of-blues-
- dallas-dallas|6-30-pm-2026-11-21@letsdoitdallas.com
-DTSTAMP:20261122T003000Z
-DTSTART:20261122T003000Z
-DTEND:20261122T033000Z
-SUMMARY:Better Than Ezra - Legends of the Fall: Closer To The Edge
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=better-than-ezra-legends-
- of-the-fall-closer-to-the-edge%7Chouse-of-blues-dallas-dallas%7C6-30-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-mavericks-vs-la-clippers|american-airlines-center-dallas|7-00-pm
- -2026-11-21@letsdoitdallas.com
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:Dallas Mavericks vs. LA Clippers
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=dallas-mavericks-vs-la-cl
- ippers%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:mojo-brookzz|majestic-theatre-dallas-dallas|7-00-pm-2026-11-21@letsdoit
- dallas.com
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:Mojo Brookzz
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=mojo-brookzz%7Cmajestic-t
- heatre-dallas-dallas%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:static-dress-injury-episode-usa-tour|gilley-s-dallas-dallas|7-00-pm-202
- 6-11-21@letsdoitdallas.com
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:STATIC DRESS: INJURY EPISODE USA TOUR
-LOCATION:Gilley's Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=static-dress-injury-episo
- de-usa-tour%7Cgilley-s-dallas-dallas%7C7-00-pm
-DESCRIPTION:Rock event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:buzzcocks|longhorn-ballroom-backyard-amphitheater-dallas|8-00-pm-2026-1
- 1-21@letsdoitdallas.com
-DTSTAMP:20261122T020000Z
-DTSTART:20261122T020000Z
-DTEND:20261122T050000Z
-SUMMARY:Buzzcocks
-LOCATION:Longhorn Ballroom & Backyard Amphitheater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=buzzcocks%7Clonghorn-ball
- room-backyard-amphitheater-dallas%7C8-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:mojo-brookzz|majestic-theatre-dallas-dallas|10-00-pm-2026-11-21@letsdoi
- tdallas.com
-DTSTAMP:20261122T040000Z
-DTSTART:20261122T040000Z
-DTEND:20261122T070000Z
-SUMMARY:Mojo Brookzz
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=mojo-brookzz%7Cmajestic-t
- heatre-dallas-dallas%7C10-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-11-22@letsdoitdallas.com
 DTSTAMP:20261122T140000Z
 DTSTART:20261122T140000Z
@@ -185,6 +91,38 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-11-23@letsdoitdallas.com
+DTSTAMP:20261123T140000Z
+DTSTART:20261123T140000Z
+DTEND:20261123T170000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-23&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-11-24@letsdoitdallas.com
+DTSTAMP:20261124T140000Z
+DTSTART:20261124T140000Z
+DTEND:20261124T170000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-24&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:imminence-axis-mundi-tour-north-america-2026|south-side-ballroom-dallas
  |7-00-pm-2026-11-24@letsdoitdallas.com
 DTSTAMP:20261125T010000Z
@@ -196,6 +134,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-24&e=imminence-axis-mundi-tour
  -north-america-2026%7Csouth-side-ballroom-dallas%7C7-00-pm
 DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
+ ted-states|8-00-am-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261125T140000Z
+DTSTART:20261125T140000Z
+DTEND:20261125T170000Z
+SUMMARY:Tea Around Town® Dallas
+LOCATION:Tea Around Town · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=tea-around-town-dallas%7C
+ tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
+DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
+ as brings vibrant city views and a cozy afternoon tea experience aboard ou
+ r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
+ and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
+ — More: https://letsdoitdallas.com/district/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:dallas-stars-vs-nashville-predators|american-airlines-center-dallas|7-0
@@ -520,6 +474,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-03&e=disney-descendants-zombie
  7C7-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:tbd-at-dallas-mavericks|american-airlines-center-dallas|3-30-am-2026-12
+ -04@letsdoitdallas.com
+DTSTAMP:20261204T093000Z
+DTSTART:20261204T093000Z
+DTEND:20261204T123000Z
+SUMMARY:TBD at Dallas Mavericks
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=tbd-at-dallas-mavericks%7
+ Camerican-airlines-center-dallas%7C3-30-am
+DESCRIPTION:nba event via SeatGeek. — More: https://letsdoitdallas.com/di
+ strict/downtown-dallas/
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-with-the-beatles-ft-abbey-road-trip|poor-david-s-pub-dallas|d
@@ -1122,5 +1089,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-20&e=denny-love-show-love-tour
  %7Chouse-of-blues-dallas-dallas%7C6-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-phantom-of-the-opera-touring-|music-hall-at-fair-park-dallas|7-00-p
+ m-2026-12-20@letsdoitdallas.com
+DTSTAMP:20261221T010000Z
+DTSTART:20261221T010000Z
+DTEND:20261221T040000Z
+SUMMARY:The Phantom of the Opera (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=the-phantom-of-the-opera-
+ touring-%7Cmusic-hall-at-fair-park-dallas%7C7-00-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

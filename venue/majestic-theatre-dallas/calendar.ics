@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mojo-brookzz|majestic-theatre-dallas-dallas|7-00-pm-2026-11-21@letsdoit
- dallas.com
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:Mojo Brookzz
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=mojo-brookzz%7Cmajestic-t
- heatre-dallas-dallas%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:mojo-brookzz|majestic-theatre-dallas-dallas|10-00-pm-2026-11-21@letsdoi
- tdallas.com
-DTSTAMP:20261122T040000Z
-DTSTART:20261122T040000Z
-DTEND:20261122T070000Z
-SUMMARY:Mojo Brookzz
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=mojo-brookzz%7Cmajestic-t
- heatre-dallas-dallas%7C10-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:mojo-brookzz|majestic-theatre-dallas-dallas|6-00-pm-2026-11-22@letsdoit
  dallas.com
 DTSTAMP:20261123T000000Z

@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:alex-reymundo|hyena-s-comedy-night-club-fort-worth-fort-worth|7-00-pm-2
- 026-11-21@letsdoitdallas.com
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:Alex Reymundo
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=alex-reymundo%7Chyena-s-c
- omedy-night-club-fort-worth-fort-worth%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/hyena-s-comedy-night-club-fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:alex-reymundo|hyena-s-comedy-night-club-fort-worth-fort-worth|9-30-pm-2
- 026-11-21@letsdoitdallas.com
-DTSTAMP:20261122T033000Z
-DTSTART:20261122T033000Z
-DTEND:20261122T063000Z
-SUMMARY:Alex Reymundo
-LOCATION:Hyena's Comedy Night Club - Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=alex-reymundo%7Chyena-s-c
- omedy-night-club-fort-worth-fort-worth%7C9-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/hyena-s-comedy-night-club-fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:sophie-buddle|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm-2
  026-11-27@letsdoitdallas.com
 DTSTAMP:20261128T020000Z

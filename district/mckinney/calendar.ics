@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:allen-americans-vs-kansas-city-mavericks|credit-union-of-texas-event-ce
- nter-allen|7-00-pm-2026-11-21@letsdoitdallas.com
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:Allen Americans vs Kansas City Mavericks
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=allen-americans-vs-kansas
- -city-mavericks%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:turkey-bowl-flag-football-with-mckinney-police|1-duvall-st-mckinney|08-
  00-am-2026-11-23@letsdoitdallas.com
 DTSTAMP:20261123T140000Z
@@ -550,6 +537,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=allen-americans-vs-tahoe-
  %7C7-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:genealogy-office-hours-adults-|6861-w-eldorado-parkway-mckinney|11-00-a
+ m-2026-12-06@letsdoitdallas.com
+DTSTAMP:20261206T170000Z
+DTSTART:20261206T170000Z
+DTEND:20261206T200000Z
+SUMMARY:Genealogy Office Hours (Adults)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=genealogy-office-hours-ad
+ ults-%7C6861-w-eldorado-parkway-mckinney%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
 UID:allen-americans-vs-wichita-thunder-white-out-night|credit-union-of-texa

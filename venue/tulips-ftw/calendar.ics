@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tulips FTW — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Tulips FTW.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:sunny-sweeney|tulips-ftw-fort-worth|8-00-pm-2026-12-02@letsdoitdallas.c
+ om
+DTSTAMP:20261203T020000Z
+DTSTART:20261203T020000Z
+DTEND:20261203T050000Z
+SUMMARY:Sunny Sweeney
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=sunny-sweeney%7Ctulips-ft
+ w-fort-worth%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/tulips-ftw/
+END:VEVENT
+BEGIN:VEVENT
+UID:mason-lively|tulips-ftw-fort-worth|8-00-pm-2026-12-03@letsdoitdallas.co
+ m
+DTSTAMP:20261204T020000Z
+DTSTART:20261204T020000Z
+DTEND:20261204T050000Z
+SUMMARY:Mason Lively
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=mason-lively%7Ctulips-ftw
+ -fort-worth%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/tulips-ftw/
+END:VEVENT
+BEGIN:VEVENT
+UID:emo-nite-18-|tulips-ftw-fort-worth|9-00-pm-2026-12-19@letsdoitdallas.co
+ m
+DTSTAMP:20261220T030000Z
+DTSTART:20261220T030000Z
+DTEND:20261220T060000Z
+SUMMARY:Emo Nite - 18+
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=emo-nite-18-%7Ctulips-ftw
+ -fort-worth%7C9-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/venue/tulips-ftw/
+END:VEVENT
+END:VCALENDAR

@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chris-redd|punch-line-irving-irving|7-00-pm-2026-11-21@letsdoitdallas.c
- om
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:Chris Redd
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=chris-redd%7Cpunch-line-i
- rving-irving%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
-UID:chris-redd|punch-line-irving-irving|9-15-pm-2026-11-21@letsdoitdallas.c
- om
-DTSTAMP:20261122T031500Z
-DTSTART:20261122T031500Z
-DTEND:20261122T061500Z
-SUMMARY:Chris Redd
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=chris-redd%7Cpunch-line-i
- rving-irving%7C9-15-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/punch-line-irving/
-END:VEVENT
-BEGIN:VEVENT
 UID:cynthia-lee-fontaine-presents-drag-brunch-at-the-punch|punch-line-irvin
  g-irving|12-00-pm-2026-11-22@letsdoitdallas.com
 DTSTAMP:20261122T180000Z
@@ -422,5 +396,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-20&e=cynthia-lee-fontaine-pres
  ents-drag-brunch-at-the-punch%7Cpunch-line-irving-irving%7C12-00-pm
 DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
  oitdallas.com/venue/punch-line-irving/
+END:VEVENT
+BEGIN:VEVENT
+UID:antoine-scott-friends|punch-line-irving-irving|7-00-pm-2026-12-20@letsd
+ oitdallas.com
+DTSTAMP:20261221T010000Z
+DTSTART:20261221T010000Z
+DTEND:20261221T040000Z
+SUMMARY:Antoine Scott & Friends
+LOCATION:Punch Line Irving
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=antoine-scott-friends%7Cp
+ unch-line-irving-irving%7C7-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/punch-line-irving/
 END:VEVENT
 END:VCALENDAR

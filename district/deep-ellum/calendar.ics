@@ -10,100 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:11th-annual-kennedy-cruise|trees-dallas|doors-see-listing-2026-11-21@le
- tsdoitdallas.com
-DTSTAMP:20261121T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:11th Annual Kennedy Cruise
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=11th-annual-kennedy-cruis
- e%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:block-party-|trees-dallas|doors-see-listing-2026-11-21@letsdoitdallas.c
- om
-DTSTAMP:20261121T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:BLOCK PARTY!
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=block-party-%7Ctrees-dall
- as%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:jalen-ngonda|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-11-21@l
- etsdoitdallas.com
-DTSTAMP:20261122T020000Z
-DTSTART:20261122T020000Z
-DTEND:20261122T050000Z
-SUMMARY:Jalen Ngonda
-LOCATION:The Studio at the Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=jalen-ngonda%7Cthe-studio
- -at-the-bomb-factory-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:oso-oso-with-liquid-mike-bugsy-moran|puzzles-deep-ellum-dallas|8-00-pm-
- 2026-11-21@letsdoitdallas.com
-DTSTAMP:20261122T020000Z
-DTSTART:20261122T020000Z
-DTEND:20261122T050000Z
-SUMMARY:Oso Oso with Liquid Mike\, Bugsy Moran
-LOCATION:Puzzles Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=oso-oso-with-liquid-mike-
- bugsy-moran%7Cpuzzles-deep-ellum-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:paul-cauthen|the-bomb-factory-dallas|8-00-pm-2026-11-21@letsdoitdallas.
- com
-DTSTAMP:20261122T020000Z
-DTSTART:20261122T020000Z
-DTEND:20261122T050000Z
-SUMMARY:Paul Cauthen
-LOCATION:The Bomb Factory · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=paul-cauthen%7Cthe-bomb-f
- actory-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-floozies|deep-ellum-art-company-3200-commerce-street-dallas-tx-7522
- 6-united-states|8-00-pm-2026-11-21@letsdoitdallas.com
-DTSTAMP:20261122T020000Z
-DTSTART:20261122T020000Z
-DTEND:20261122T050000Z
-SUMMARY:The Floozies
-LOCATION:Deep Ellum Art Company · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=the-floozies%7Cdeep-ellum
- -art-company-3200-commerce-street-dallas-tx-75226-united-states%7C8-00-pm
-DESCRIPTION:The Floozies with 5AM November 21st Dallas\, TX Deep Ellum Art 
- Co.  Brothers Matt and Mark Hill are the sonic visionaries behind electron
- ic-funk powerhouse The Floozies. Certified heavyweights in the world of ja
- m and future-groove\, the Kansas City-based tandem champion authentic f 
- — More: https://letsdoitdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-floozies-21-|deep-ellum-art-co-dallas|8-00-pm-2026-11-21@letsdoitda
- llas.com
-DTSTAMP:20261122T020000Z
-DTSTART:20261122T020000Z
-DTEND:20261122T050000Z
-SUMMARY:The Floozies - 21+
-LOCATION:Deep Ellum Art Co · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=the-floozies-21-%7Cdeep-e
- llum-art-co-dallas%7C8-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:dj-sneak305|three-links-deep-ellum-dallas|10-00-pm-2026-11-22@letsdoitd
  allas.com
 DTSTAMP:20261123T040000Z
@@ -325,17 +231,29 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:darkest-hour|trees-dallas|doors-see-listing-2026-12-02@letsdoitdallas.c
- om
-DTSTAMP:20261202T000000Z
-DTSTART;VALUE=DATE:20261202
-DTEND;VALUE=DATE:20261203
-SUMMARY:DARKEST HOUR
-LOCATION:Trees · Dallas
+UID:the-pineapple-thief|the-bomb-factory-dallas-dallas|8-00-pm-2026-12-01@l
+ etsdoitdallas.com
+DTSTAMP:20261202T020000Z
+DTSTART:20261202T020000Z
+DTEND:20261202T050000Z
+SUMMARY:The Pineapple Thief
+LOCATION:The Bomb Factory - Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=the-pineapple-thief%7Cthe
+ -bomb-factory-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:darkest-hour|trees-dallas-dallas|8-00-pm-2026-12-02@letsdoitdallas.com
+DTSTAMP:20261203T020000Z
+DTSTART:20261203T020000Z
+DTEND:20261203T050000Z
+SUMMARY:Darkest Hour
+LOCATION:Trees - Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-02&e=darkest-hour%7Ctrees-dall
- as%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
+ as-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-olllam|club-dada-dallas|8-00-pm-2026-12-02@letsdoitdallas.com
@@ -363,17 +281,56 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
-UID:dirty-rotten-imbeciles|trees-dallas|doors-see-listing-2026-12-03@letsdo
- itdallas.com
-DTSTAMP:20261203T000000Z
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261204
-SUMMARY:DIRTY ROTTEN IMBECILES
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-12-03&e=dirty-rotten-imbeciles%7C
- trees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/district/de
- ep-ellum/
+UID:the-crimson-armada|deep-ellum-dallas|5-30-pm-2026-12-03@letsdoitdallas.
+ com
+DTSTAMP:20261203T233000Z
+DTSTART:20261203T233000Z
+DTEND:20261204T023000Z
+SUMMARY:The Crimson Armada
+LOCATION:Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=the-crimson-armada%7Cdeep
+ -ellum-dallas%7C5-30-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:d-r-i-dirty-rotten-imbeciles|trees-dallas-dallas|8-00-pm-2026-12-03@let
+ sdoitdallas.com
+DTSTAMP:20261204T020000Z
+DTSTART:20261204T020000Z
+DTEND:20261204T050000Z
+SUMMARY:D.R.I. - Dirty Rotten Imbeciles
+LOCATION:Trees - Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=d-r-i-dirty-rotten-imbeci
+ les%7Ctrees-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:kendall-street-company|deep-ellum-art-co-dallas|8-00-pm-2026-12-03@lets
+ doitdallas.com
+DTSTAMP:20261204T020000Z
+DTSTART:20261204T020000Z
+DTEND:20261204T050000Z
+SUMMARY:Kendall Street Company
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=kendall-street-company%7C
+ deep-ellum-art-co-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:mondo-cozmo|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-12-03@le
+ tsdoitdallas.com
+DTSTAMP:20261204T020000Z
+DTSTART:20261204T020000Z
+DTEND:20261204T050000Z
+SUMMARY:Mondo Cozmo
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=mondo-cozmo%7Cthe-studio-
+ at-the-bomb-factory-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:catch-your-breath-16-and-under-with-parent-or-legal-guardian-|the-studi

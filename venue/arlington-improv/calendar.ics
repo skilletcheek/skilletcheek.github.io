@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:godfrey|arlington-improv-arlington|7-00-pm-2026-11-21@letsdoitdallas.co
- m
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:Godfrey
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=godfrey%7Carlington-impro
- v-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:godfrey|arlington-improv-arlington|9-30-pm-2026-11-21@letsdoitdallas.co
- m
-DTSTAMP:20261122T033000Z
-DTSTART:20261122T033000Z
-DTEND:20261122T063000Z
-SUMMARY:Godfrey
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=godfrey%7Carlington-impro
- v-arlington%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:godfrey|arlington-improv-arlington|7-00-pm-2026-11-22@letsdoitdallas.co
  m
 DTSTAMP:20261123T010000Z
@@ -395,6 +369,19 @@ SUMMARY:Alfred Robles: Vatos with Gatos Tour
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-12-19&e=alfred-robles-vatos-with-
  gatos-tour%7Carlington-improv-arlington%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/arlington-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:alfred-robles-vatos-with-gatos-tour|arlington-improv-arlington|7-00-pm-
+ 2026-12-20@letsdoitdallas.com
+DTSTAMP:20261221T010000Z
+DTSTART:20261221T010000Z
+DTEND:20261221T040000Z
+SUMMARY:Alfred Robles: Vatos with Gatos Tour
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=alfred-robles-vatos-with-
+ gatos-tour%7Carlington-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/arlington-improv/
 END:VEVENT

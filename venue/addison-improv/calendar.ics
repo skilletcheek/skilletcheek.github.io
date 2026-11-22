@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:deray-davis|addison-improv-addison|7-00-pm-2026-11-21@letsdoitdallas.co
- m
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:DeRay Davis
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=deray-davis%7Caddison-imp
- rov-addison%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:deray-davis|addison-improv-addison|9-30-pm-2026-11-21@letsdoitdallas.co
- m
-DTSTAMP:20261122T033000Z
-DTSTART:20261122T033000Z
-DTEND:20261122T063000Z
-SUMMARY:DeRay Davis
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=deray-davis%7Caddison-imp
- rov-addison%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:deray-davis|addison-improv-addison|7-30-pm-2026-11-22@letsdoitdallas.co
  m
 DTSTAMP:20261123T013000Z

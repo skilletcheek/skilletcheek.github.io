@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:portland-timbers-at-fc-dallas-mls-cup-round-1-gm-1-hg-1-|toyota-stadium
- -frisco|3-00-pm-2026-11-21@letsdoitdallas.com
-DTSTAMP:20261121T210000Z
-DTSTART:20261121T210000Z
-DTEND:20261122T000000Z
-SUMMARY:Portland Timbers at FC Dallas - MLS Cup Round 1 (Gm 1\, HG 1)
-LOCATION:Toyota Stadium · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=portland-timbers-at-fc-da
- llas-mls-cup-round-1-gm-1-hg-1-%7Ctoyota-stadium-frisco%7C3-00-pm
-DESCRIPTION:mls event via SeatGeek. — More: https://letsdoitdallas.com/di
- strict/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:texas-legends-vs-memphis-hustle|fifth-third-arena-frisco|7-00-pm-2026-1
- 1-21@letsdoitdallas.com
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:Texas Legends vs. Memphis Hustle
-LOCATION:Fifth Third Arena · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=texas-legends-vs-memphis-
- hustle%7Cfifth-third-arena-frisco%7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
-UID:emerald-city-band|rollertown-beerworks-frisco-frisco|8-00-pm-2026-11-21
- @letsdoitdallas.com
-DTSTAMP:20261122T020000Z
-DTSTART:20261122T020000Z
-DTEND:20261122T050000Z
-SUMMARY:Emerald City Band
-LOCATION:Rollertown Beerworks - Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=emerald-city-band%7Crolle
- rtown-beerworks-frisco-frisco%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:hoopfest-basketball-women-s-challenge-session-1|fifth-third-arena-frisc
  o|1-00-pm-2026-11-22@letsdoitdallas.com
 DTSTAMP:20261122T190000Z
@@ -361,6 +322,19 @@ SUMMARY:Texas Legends College Classic SUNDAY
 LOCATION:Fifth Third Arena · Frisco
 URL:https://letsdoitdallas.com/?date=2026-12-20&e=texas-legends-college-cla
  ssic-sunday%7Cfifth-third-arena-frisco%7C5-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-legends-college-classic-monday|fifth-third-arena-frisco|3-00-pm-2
+ 026-12-21@letsdoitdallas.com
+DTSTAMP:20261221T210000Z
+DTSTART:20261221T210000Z
+DTEND:20261222T000000Z
+SUMMARY:Texas Legends College Classic MONDAY
+LOCATION:Fifth Third Arena · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-21&e=texas-legends-college-cla
+ ssic-monday%7Cfifth-third-arena-frisco%7C3-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
 END:VEVENT

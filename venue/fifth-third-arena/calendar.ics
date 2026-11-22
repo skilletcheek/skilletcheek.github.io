@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:texas-legends-vs-memphis-hustle|fifth-third-arena-frisco|7-00-pm-2026-1
- 1-21@letsdoitdallas.com
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:Texas Legends vs. Memphis Hustle
-LOCATION:Fifth Third Arena · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=texas-legends-vs-memphis-
- hustle%7Cfifth-third-arena-frisco%7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/venue/fifth-third-arena/
-END:VEVENT
-BEGIN:VEVENT
 UID:hoopfest-basketball-women-s-challenge-session-1|fifth-third-arena-frisc
  o|1-00-pm-2026-11-22@letsdoitdallas.com
 DTSTAMP:20261122T190000Z
@@ -187,6 +174,19 @@ SUMMARY:Texas Legends College Classic SUNDAY
 LOCATION:Fifth Third Arena · Frisco
 URL:https://letsdoitdallas.com/?date=2026-12-20&e=texas-legends-college-cla
  ssic-sunday%7Cfifth-third-arena-frisco%7C5-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/fifth-third-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-legends-college-classic-monday|fifth-third-arena-frisco|3-00-pm-2
+ 026-12-21@letsdoitdallas.com
+DTSTAMP:20261221T210000Z
+DTSTART:20261221T210000Z
+DTEND:20261222T000000Z
+SUMMARY:Texas Legends College Classic MONDAY
+LOCATION:Fifth Third Arena · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-21&e=texas-legends-college-cla
+ ssic-monday%7Cfifth-third-arena-frisco%7C3-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/fifth-third-arena/
 END:VEVENT

@@ -9,45 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dj-habibeats|the-echo-lounge-music-hall-dallas|10-00-pm-2026-11-21@lets
- doitdallas.com
-DTSTAMP:20261122T040000Z
-DTSTART:20261122T040000Z
-DTEND:20261122T070000Z
-SUMMARY:DJ Habibeats
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=dj-habibeats%7Cthe-echo-l
- ounge-music-hall-dallas%7C10-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
-UID:live-nation-presents-yallah-habibi-crew-21-event|the-echo-lounge-music-
- hall-dallas|10-00-pm-2026-11-21@letsdoitdallas.com
-DTSTAMP:20261122T040000Z
-DTSTART:20261122T040000Z
-DTEND:20261122T070000Z
-SUMMARY:Live Nation Presents: Yallah Habibi Crew - 21+ Event
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=live-nation-presents-yall
- ah-habibi-crew-21-event%7Cthe-echo-lounge-music-hall-dallas%7C10-00-pm
-DESCRIPTION:World event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
-UID:yalla-21-|the-echo-lounge-music-hall-dallas|10-00-pm-2026-11-21@letsdoi
- tdallas.com
-DTSTAMP:20261122T040000Z
-DTSTART:20261122T040000Z
-DTEND:20261122T070000Z
-SUMMARY:Yalla (21+)
-LOCATION:The Echo Lounge & Music Hall · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=yalla-21-%7Cthe-echo-loun
- ge-music-hall-dallas%7C10-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/the-echo-lounge-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:cure-for-paranoia|the-echo-lounge-music-hall-dallas|7-00-pm-2026-11-28@
  letsdoitdallas.com
 DTSTAMP:20261129T010000Z

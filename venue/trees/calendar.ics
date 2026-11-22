@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:11th-annual-kennedy-cruise|trees-dallas|doors-see-listing-2026-11-21@le
- tsdoitdallas.com
-DTSTAMP:20261121T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:11th Annual Kennedy Cruise
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=11th-annual-kennedy-cruis
- e%7Ctrees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
-END:VEVENT
-BEGIN:VEVENT
-UID:block-party-|trees-dallas|doors-see-listing-2026-11-21@letsdoitdallas.c
- om
-DTSTAMP:20261121T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:BLOCK PARTY!
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=block-party-%7Ctrees-dall
- as%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
-END:VEVENT
-BEGIN:VEVENT
 UID:n8noface|trees-dallas|7-30-pm-2026-11-24@letsdoitdallas.com
 DTSTAMP:20261125T013000Z
 DTSTART:20261125T013000Z
@@ -60,30 +34,29 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
-UID:darkest-hour|trees-dallas|doors-see-listing-2026-12-02@letsdoitdallas.c
- om
-DTSTAMP:20261202T000000Z
-DTSTART;VALUE=DATE:20261202
-DTEND;VALUE=DATE:20261203
-SUMMARY:DARKEST HOUR
-LOCATION:Trees · Dallas
+UID:darkest-hour|trees-dallas-dallas|8-00-pm-2026-12-02@letsdoitdallas.com
+DTSTAMP:20261203T020000Z
+DTSTART:20261203T020000Z
+DTEND:20261203T050000Z
+SUMMARY:Darkest Hour
+LOCATION:Trees - Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-02&e=darkest-hour%7Ctrees-dall
- as%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+ as-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
-UID:dirty-rotten-imbeciles|trees-dallas|doors-see-listing-2026-12-03@letsdo
- itdallas.com
-DTSTAMP:20261203T000000Z
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261204
-SUMMARY:DIRTY ROTTEN IMBECILES
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-12-03&e=dirty-rotten-imbeciles%7C
- trees-dallas%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/venue/trees
- /
+UID:d-r-i-dirty-rotten-imbeciles|trees-dallas-dallas|8-00-pm-2026-12-03@let
+ sdoitdallas.com
+DTSTAMP:20261204T020000Z
+DTSTART:20261204T020000Z
+DTEND:20261204T050000Z
+SUMMARY:D.R.I. - Dirty Rotten Imbeciles
+LOCATION:Trees - Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=d-r-i-dirty-rotten-imbeci
+ les%7Ctrees-dallas-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/trees/
 END:VEVENT
 BEGIN:VEVENT
 UID:letdown|trees-dallas|8-00-pm-2026-12-04@letsdoitdallas.com

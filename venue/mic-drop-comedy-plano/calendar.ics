@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bryan-adams|mic-drop-comedy-plano-plano|7-00-pm-2026-11-21@letsdoitdall
- as.com
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:Bryan Adams
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=bryan-adams%7Cmic-drop-co
- medy-plano-plano%7C7-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/mic-drop-comedy-plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:bryan-adams|mic-drop-comedy-plano-plano|9-30-pm-2026-11-21@letsdoitdall
- as.com
-DTSTAMP:20261122T033000Z
-DTSTART:20261122T033000Z
-DTEND:20261122T063000Z
-SUMMARY:Bryan Adams
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=bryan-adams%7Cmic-drop-co
- medy-plano-plano%7C9-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/mic-drop-comedy-plano/
-END:VEVENT
-BEGIN:VEVENT
 UID:damon-wayans-jr-|mic-drop-comedy-plano-plano|7-00-pm-2026-11-27@letsdoi
  tdallas.com
 DTSTAMP:20261128T010000Z
@@ -96,6 +70,19 @@ SUMMARY:Damon Wayans Jr.
 LOCATION:Mic Drop Comedy - Plano
 URL:https://letsdoitdallas.com/?date=2026-11-29&e=damon-wayans-jr-%7Cmic-dr
  op-comedy-plano-plano%7C6-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/mic-drop-comedy-plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:damon-williams|mic-drop-comedy-plano-plano|7-30-pm-2026-12-02@letsdoitd
+ allas.com
+DTSTAMP:20261203T013000Z
+DTSTART:20261203T013000Z
+DTEND:20261203T043000Z
+SUMMARY:Damon Williams
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=damon-williams%7Cmic-drop
+ -comedy-plano-plano%7C7-30-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /venue/mic-drop-comedy-plano/
 END:VEVENT

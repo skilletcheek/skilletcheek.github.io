@@ -10,58 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:wade-bowen|billy-bob-s-texas-fort-worth|7-00-pm-2026-11-21@letsdoitdall
- as.com
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:Wade Bowen
-LOCATION:Billy Bob's Texas · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=wade-bowen%7Cbilly-bob-s-
- texas-fort-worth%7C7-00-pm
-DESCRIPTION:Wade Bowen live at Billy Bob's Texas. — More: https://letsdoi
- tdallas.com/district/stockyards/
-END:VEVENT
-BEGIN:VEVENT
-UID:lone-star-murder-mystery-dinner-show|billy-bob-s-fort-worth|7-30-pm-202
- 6-11-21@letsdoitdallas.com
-DTSTAMP:20261122T013000Z
-DTSTART:20261122T013000Z
-DTEND:20261122T043000Z
-SUMMARY:Lone Star Murder Mystery & Dinner show
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=lone-star-murder-mystery-
- dinner-show%7Cbilly-bob-s-fort-worth%7C7-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/stockyards/
-END:VEVENT
-BEGIN:VEVENT
-UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
- 11-21@letsdoitdallas.com
-DTSTAMP:20261122T013000Z
-DTSTART:20261122T013000Z
-DTEND:20261122T043000Z
-SUMMARY:Stockyards Championship Rodeo
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=stockyards-championship-r
- odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/stockyards/
-END:VEVENT
-BEGIN:VEVENT
-UID:wade-bowen-ages-18-|billy-bob-s-fort-worth|10-00-pm-2026-11-21@letsdoit
- dallas.com
-DTSTAMP:20261122T040000Z
-DTSTART:20261122T040000Z
-DTEND:20261122T070000Z
-SUMMARY:Wade Bowen - Ages 18+
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=wade-bowen-ages-18-%7Cbil
- ly-bob-s-fort-worth%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/stockyards/
-END:VEVENT
-BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
  11-22@letsdoitdallas.com
 DTSTAMP:20261122T193000Z
@@ -656,6 +604,32 @@ SUMMARY:Randy Rogers Band
 LOCATION:Billy Bob's · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-19&e=randy-rogers-band%7Cbilly
  -bob-s-fort-worth%7C10-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/stockyards/
+END:VEVENT
+BEGIN:VEVENT
+UID:premier-womens-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-12-20@let
+ sdoitdallas.com
+DTSTAMP:20261221T013000Z
+DTSTART:20261221T013000Z
+DTEND:20261221T043000Z
+SUMMARY:Premier Womens Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=premier-womens-rodeo%7Cco
+ wtown-coliseum-fort-worth%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/stockyards/
+END:VEVENT
+BEGIN:VEVENT
+UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-12-21@
+ letsdoitdallas.com
+DTSTAMP:20261221T183000Z
+DTSTART:20261221T183000Z
+DTEND:20261221T213000Z
+SUMMARY:Legacy of the Longhorn
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-21&e=legacy-of-the-longhorn%7C
+ cowtown-coliseum-fort-worth%7C12-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/stockyards/
 END:VEVENT

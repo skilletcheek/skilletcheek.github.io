@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-mavericks-vs-la-clippers|american-airlines-center-dallas|7-00-pm
- -2026-11-21@letsdoitdallas.com
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:Dallas Mavericks vs. LA Clippers
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=dallas-mavericks-vs-la-cl
- ippers%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-stars-vs-pittsburgh-penguins|american-airlines-center-dallas|6-0
  0-pm-2026-11-22@letsdoitdallas.com
 DTSTAMP:20261123T000000Z
@@ -100,6 +87,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-03&e=disney-descendants-zombie
  7C7-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/american-airlines-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:tbd-at-dallas-mavericks|american-airlines-center-dallas|3-30-am-2026-12
+ -04@letsdoitdallas.com
+DTSTAMP:20261204T093000Z
+DTSTART:20261204T093000Z
+DTEND:20261204T123000Z
+SUMMARY:TBD at Dallas Mavericks
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=tbd-at-dallas-mavericks%7
+ Camerican-airlines-center-dallas%7C3-30-am
+DESCRIPTION:nba event via SeatGeek. — More: https://letsdoitdallas.com/ve
+ nue/american-airlines-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:dallas-stars-vs-toronto-maple-leafs|american-airlines-center-dallas|6-3

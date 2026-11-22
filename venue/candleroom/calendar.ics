@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:exclusive-saturdays-ft-jarm|candleroom-dallas|10-00-pm-2026-11-21@letsd
- oitdallas.com
-DTSTAMP:20261122T040000Z
-DTSTART:20261122T040000Z
-DTEND:20261122T070000Z
-SUMMARY:Exclusive Saturdays ft JARM
-LOCATION:Candleroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=exclusive-saturdays-ft-ja
- rm%7Ccandleroom-dallas%7C10-00-pm
-DESCRIPTION:Exclusive Saturdays ft JARM at Candleroom\, a nightlife lounge 
- and event venue on Henderson Avenue in Dallas. — More: https://letsdoitd
- allas.com/venue/candleroom/
-END:VEVENT
-BEGIN:VEVENT
 UID:legendary-wednesday|candleroom-dallas|10-00-pm-2026-11-25@letsdoitdalla
  s.com
 DTSTAMP:20261126T040000Z

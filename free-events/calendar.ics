@@ -10,49 +10,20 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:block-party-|trees-dallas|doors-see-listing-2026-11-21@letsdoitdallas.c
- om
-DTSTAMP:20261121T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:BLOCK PARTY!
-LOCATION:Trees · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=block-party-%7Ctrees-dall
- as%7Cdoors-see-listing
-DESCRIPTION:Live at Trees. — More: https://letsdoitdallas.com/free-events
- /
-END:VEVENT
-BEGIN:VEVENT
-UID:first-ever-similac-social-club-in-dallas|arts-district-mansion-dallas|1
- 2-00-pm-5-00-pm-2026-11-21@letsdoitdallas.com
-DTSTAMP:20261121T180000Z
-DTSTART:20261121T180000Z
-DTEND:20261121T210000Z
-SUMMARY:First-Ever Similac Social Club in Dallas
-LOCATION:Arts District Mansion · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=first-ever-similac-social
- -club-in-dallas%7Carts-district-mansion-dallas%7C12-00-pm-5-00-pm
-DESCRIPTION:Event Highlights: • Social Lounge & Gifting: Attendees will r
- eceive free Similac samples\, self-care gifts for parents and practical ba
- by items\, with a welcoming space to connect with other local Dallas famil
- ies. • The Parents’ Refill Lounge: A dedicated reset space offering li
- ght — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:backyard-bird-feeding-101|wild-birds-unlimited-north-dallas-dallas|1-30
- -pm-2-15-pm-2026-11-21@letsdoitdallas.com
-DTSTAMP:20261121T193000Z
-DTSTART:20261121T193000Z
-DTEND:20261121T223000Z
-SUMMARY:Backyard Bird Feeding 101
-LOCATION:Wild Birds Unlimited - North Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=backyard-bird-feeding-101
- %7Cwild-birds-unlimited-north-dallas-dallas%7C1-30-pm-2-15-pm
-DESCRIPTION:Been curious about feeding your backyard birds but aren't sure 
- where to start? Join Wild Birds Unlimited for their FREE Backyard Bird Fee
- ding 101 class! We'll cover everything you need to know to get started\, f
- rom choosing the right feeders and foods to attract a variety of local —
-  More: https://letsdoitdallas.com/free-events/
+UID:turtle-creek-arts-festival|reverchon-park-dallas|10-00-am-5-00-pm-2026-
+ 11-22@letsdoitdallas.com
+DTSTAMP:20261122T160000Z
+DTSTART:20261122T160000Z
+DTEND:20261122T190000Z
+SUMMARY:Turtle Creek Arts Festival
+LOCATION:Reverchon Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=turtle-creek-arts-festiva
+ l%7Creverchon-park-dallas%7C10-00-am-5-00-pm
+DESCRIPTION:Set among 43 acres of green space in the heart of Dallas\, the 
+ festival invites you to slow down\, explore\, and connect with the people 
+ behind the artwork. Discover the work of approximately 100 artists\, inclu
+ ding painters\, photographers\, sculptors\, metalworkers\, glass artists\,
+  and — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:dj-sneak305|three-links-deep-ellum-dallas|10-00-pm-2026-11-22@letsdoitd

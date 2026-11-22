@@ -11,13 +11,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:texas-christkindl-market|globe-life-field-734-stadium-drive-arlington-7
- 6011-united-states|11-00-am-2026-11-21@letsdoitdallas.com
-DTSTAMP:20261121T170000Z
-DTSTART:20261121T170000Z
-DTEND:20261121T200000Z
+ 6011-united-states|11-00-am-2026-11-22@letsdoitdallas.com
+DTSTAMP:20261122T170000Z
+DTSTART:20261122T170000Z
+DTEND:20261122T200000Z
 SUMMARY:Texas Christkindl Market
 LOCATION:Globe Life Field · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=texas-christkindl-market%
+URL:https://letsdoitdallas.com/?date=2026-11-22&e=texas-christkindl-market%
  7Cglobe-life-field-734-stadium-drive-arlington-76011-united-states%7C11-00
  -am
 DESCRIPTION:Friday\, November 20\, 2026 – Wednesday\, December 23\, 2026 
@@ -25,71 +25,6 @@ DESCRIPTION:Friday\, November 20\, 2026 – Wednesday\, December 23\, 2026
  Experience the magic of the holiday season at the Texas Christkindl Market
  \, returning to the North Plaza at Globe Life Field in Arlington\, Texas! 
  Ins — More: https://letsdoitdallas.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-rally-day-tour|at-t-stadium-arlington|4-00-pm-2
- 026-11-21@letsdoitdallas.com
-DTSTAMP:20261121T220000Z
-DTSTART:20261121T220000Z
-DTEND:20261122T010000Z
-SUMMARY:AT&T Stadium VIP Guided Rally Day Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=at-t-stadium-vip-guided-r
- ally-day-tour%7Cat-t-stadium-arlington%7C4-00-pm
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:godfrey|arlington-improv-arlington|7-00-pm-2026-11-21@letsdoitdallas.co
- m
-DTSTAMP:20261122T010000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T040000Z
-SUMMARY:Godfrey
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=godfrey%7Carlington-impro
- v-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:larry-gatlin-the-gatlin-brothers|arlington-music-hall-arlington|7-30-pm
- -2026-11-21@letsdoitdallas.com
-DTSTAMP:20261122T013000Z
-DTSTART:20261122T013000Z
-DTEND:20261122T043000Z
-SUMMARY:Larry Gatlin & The Gatlin Brothers
-LOCATION:Arlington Music Hall
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=larry-gatlin-the-gatlin-b
- rothers%7Carlington-music-hall-arlington%7C7-30-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:godfrey|arlington-improv-arlington|9-30-pm-2026-11-21@letsdoitdallas.co
- m
-DTSTAMP:20261122T033000Z
-DTSTART:20261122T033000Z
-DTEND:20261122T063000Z
-SUMMARY:Godfrey
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=godfrey%7Carlington-impro
- v-arlington%7C9-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:los-rehenes|rio-bravo-arlington-arlington|10-00-pm-2026-11-21@letsdoitd
- allas.com
-DTSTAMP:20261122T040000Z
-DTSTART:20261122T040000Z
-DTEND:20261122T070000Z
-SUMMARY:Los Rehenes
-LOCATION:Rio Bravo Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-21&e=los-rehenes%7Crio-bravo-a
- rlington-arlington%7C10-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:dallas-cowboys-vs-tennessee-titans|at-t-stadium-arlington|12-00-pm-2026
@@ -664,6 +599,123 @@ DESCRIPTION:Pop event via Ticketmaster. — More: https://letsdoitdallas.co
  m/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
+UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|10-00-am-20
+ 26-12-02@letsdoitdallas.com
+DTSTAMP:20261202T160000Z
+DTSTART:20261202T160000Z
+DTEND:20261202T190000Z
+SUMMARY:AT&T Stadium Owner's Experience Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=at-t-stadium-owner-s-expe
+ rience-tour%7Cat-t-stadium-arlington%7C10-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-owner-s-experience-tour|at-t-stadium-arlington|12-00-pm-20
+ 26-12-02@letsdoitdallas.com
+DTSTAMP:20261202T180000Z
+DTSTART:20261202T180000Z
+DTEND:20261202T210000Z
+SUMMARY:AT&T Stadium Owner's Experience Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=at-t-stadium-owner-s-expe
+ rience-tour%7Cat-t-stadium-arlington%7C12-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-12-02@
+ letsdoitdallas.com
+DTSTAMP:20261202T200000Z
+DTSTART:20261202T200000Z
+DTEND:20261202T230000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C2-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-12-02@
+ letsdoitdallas.com
+DTSTAMP:20261202T220000Z
+DTSTART:20261202T220000Z
+DTEND:20261203T010000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C4-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-12-03
+ @letsdoitdallas.com
+DTSTAMP:20261203T160000Z
+DTSTART:20261203T160000Z
+DTEND:20261203T190000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C10-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-00-pm-2026-12-03
+ @letsdoitdallas.com
+DTSTAMP:20261203T180000Z
+DTSTART:20261203T180000Z
+DTEND:20261203T210000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C12-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-12-03@
+ letsdoitdallas.com
+DTSTAMP:20261203T200000Z
+DTSTART:20261203T200000Z
+DTEND:20261203T230000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C2-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|4-00-pm-2026-12-03@
+ letsdoitdallas.com
+DTSTAMP:20261203T220000Z
+DTSTART:20261203T220000Z
+DTEND:20261204T010000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C4-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:waka-flocka-flame|texas-live-arlington|7-00-pm-2026-12-03@letsdoitdalla
+ s.com
+DTSTAMP:20261204T010000Z
+DTSTART:20261204T010000Z
+DTEND:20261204T040000Z
+SUMMARY:Waka Flocka Flame
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=waka-flocka-flame%7Ctexas
+ -live-arlington%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
 UID:tacarra-williams|arlington-improv-arlington|7-30-pm-2026-12-03@letsdoit
  dallas.com
 DTSTAMP:20261204T013000Z
@@ -920,6 +972,19 @@ SUMMARY:Alfred Robles: Vatos with Gatos Tour
 LOCATION:Arlington Improv
 URL:https://letsdoitdallas.com/?date=2026-12-19&e=alfred-robles-vatos-with-
  gatos-tour%7Carlington-improv-arlington%7C9-30-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:alfred-robles-vatos-with-gatos-tour|arlington-improv-arlington|7-00-pm-
+ 2026-12-20@letsdoitdallas.com
+DTSTAMP:20261221T010000Z
+DTSTART:20261221T010000Z
+DTEND:20261221T040000Z
+SUMMARY:Alfred Robles: Vatos with Gatos Tour
+LOCATION:Arlington Improv
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=alfred-robles-vatos-with-
+ gatos-tour%7Carlington-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
 END:VEVENT
