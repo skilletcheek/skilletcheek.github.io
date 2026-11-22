@@ -210,6 +210,19 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
+UID:bradley-at-north-texas|unt-coliseum-super-pit-denton|7-00-pm-2026-12-04
+ @letsdoitdallas.com
+DTSTAMP:20261205T010000Z
+DTSTART:20261205T010000Z
+DTEND:20261205T040000Z
+SUMMARY:Bradley at North Texas
+LOCATION:UNT Coliseum (Super Pit) · Denton
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=bradley-at-north-texas%7C
+ unt-coliseum-super-pit-denton%7C7-00-pm
+DESCRIPTION:ncaa basketball event via SeatGeek. — More: https://letsdoitd
+ allas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
 UID:sounds-of-the-holidays-2026|winspear-performance-hall-at-the-murchison-
  performing-arts-center-denton|7-30-pm-2026-12-04@letsdoitdallas.com
 DTSTAMP:20261205T013000Z

@@ -11,20 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:centre-for-dance-the-nutcracker-richardson|bank-of-america-theatre-at-e
- isemann-center-richardson|1-00-pm-2026-11-22@letsdoitdallas.com
-DTSTAMP:20261122T190000Z
-DTSTART:20261122T190000Z
-DTEND:20261122T220000Z
-SUMMARY:Centre for Dance - The Nutcracker - Richardson
-LOCATION:Bank of America Theatre at Eisemann Center · Richardson
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=centre-for-dance-the-nutc
- racker-richardson%7Cbank-of-america-theatre-at-eisemann-center-richardson%
- 7C1-00-pm
-DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
- district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:centre-for-dance-the-nutcracker-richardson|bank-of-america-theatre-at-e
  isemann-center-richardson|6-00-pm-2026-11-22@letsdoitdallas.com
 DTSTAMP:20261123T000000Z
 DTSTART:20261123T000000Z
@@ -283,6 +269,32 @@ URL:https://letsdoitdallas.com/?date=2026-12-03&e=robyn-schall%7Caddison-im
  prov-addison%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:yannis-pappas|mic-drop-comedy-plano-plano|7-00-pm-2026-12-04@letsdoitda
+ llas.com
+DTSTAMP:20261205T010000Z
+DTSTART:20261205T010000Z
+DTEND:20261205T040000Z
+SUMMARY:Yannis Pappas
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=yannis-pappas%7Cmic-drop-
+ comedy-plano-plano%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:dl-hughley|the-addison-improv-addison|7-30-pm-2026-12-04@letsdoitdallas
+ .com
+DTSTAMP:20261205T013000Z
+DTSTART:20261205T013000Z
+DTEND:20261205T043000Z
+SUMMARY:DL Hughley
+LOCATION:The Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=dl-hughley%7Cthe-addison-
+ improv-addison%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:natasha-leggero|addison-improv-addison|7-30-pm-2026-12-04@letsdoitdalla

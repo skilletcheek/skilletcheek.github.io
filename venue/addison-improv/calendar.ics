@@ -126,6 +126,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
 END:VEVENT
 BEGIN:VEVENT
+UID:dl-hughley|the-addison-improv-addison|7-30-pm-2026-12-04@letsdoitdallas
+ .com
+DTSTAMP:20261205T013000Z
+DTSTART:20261205T013000Z
+DTEND:20261205T043000Z
+SUMMARY:DL Hughley
+LOCATION:The Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=dl-hughley%7Cthe-addison-
+ improv-addison%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
 UID:natasha-leggero|addison-improv-addison|7-30-pm-2026-12-04@letsdoitdalla
  s.com
 DTSTAMP:20261205T013000Z

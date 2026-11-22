@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fort-worth-symphony-orchestra-rachmaninoff-copland-dvorak|bass-performa
- nce-hall-fort-worth|2-00-pm-2026-11-22@letsdoitdallas.com
-DTSTAMP:20261122T200000Z
-DTSTART:20261122T200000Z
-DTEND:20261122T230000Z
-SUMMARY:Fort Worth Symphony Orchestra - Rachmaninoff\, Copland\, Dvorak
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=fort-worth-symphony-orche
- stra-rachmaninoff-copland-dvorak%7Cbass-performance-hall-fort-worth%7C2-00
- -pm
-DESCRIPTION:classical event via SeatGeek. — More: https://letsdoitdallas.
- com/venue/bass-performance-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:home-for-the-holidays|bass-performance-hall-fort-worth|7-30-pm-2026-11-
  27@letsdoitdallas.com
 DTSTAMP:20261128T013000Z

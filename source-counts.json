@@ -1,17 +1,17 @@
 {
  "date": "2026-11-22",
  "counts": {
-  "ticketmaster": 460,
+  "ticketmaster": 457,
   "seatgeek": 299,
-  "ics_feeds": 33,
-  "civicplus": 374,
+  "ics_feeds": 34,
+  "civicplus": 371,
   "prekindle": 46,
   "singles_pages": 2,
   "club_pages": 16,
   "do214": 0,
   "dallasites101": 4,
   "seated": 2,
-  "ics_feeds (whatsupfortworth.com)": 26,
+  "ics_feeds (whatsupfortworth.com)": 27,
   "ics_feeds (calendar.unt.edu)": 7,
   "prekindle (Granada Theater)": 8,
   "prekindle (The Kessler Theater)": 14,
@@ -22,31 +22,6 @@
  },
  "alarms": [],
  "history": [
-  {
-   "date": "2026-11-15",
-   "counts": {
-    "ticketmaster": 455,
-    "seatgeek": 300,
-    "ics_feeds": 40,
-    "civicplus": 98,
-    "prekindle": 47,
-    "singles_pages": 4,
-    "club_pages": 11,
-    "do214": 0,
-    "dallasites101": 5,
-    "seated": 2,
-    "ics_feeds (calendar.unt.edu)": 36,
-    "prekindle (Granada Theater)": 9,
-    "prekindle (The Kessler Theater)": 14,
-    "prekindle (Poor David's Pub)": 10,
-    "prekindle (Trees)": 14,
-    "club_pages (CTRL Room)": 7,
-    "club_pages (Candleroom)": 4
-   },
-   "blocked": [
-    "ics_feeds (whatsupfortworth.com)"
-   ]
-  },
   {
    "date": "2026-11-16",
    "counts": {
@@ -337,6 +312,29 @@
     "dallasites101": 4,
     "seated": 2,
     "ics_feeds (whatsupfortworth.com)": 26,
+    "ics_feeds (calendar.unt.edu)": 7,
+    "prekindle (Granada Theater)": 8,
+    "prekindle (The Kessler Theater)": 14,
+    "prekindle (Poor David's Pub)": 13,
+    "prekindle (Trees)": 11,
+    "club_pages (CTRL Room)": 13,
+    "club_pages (Candleroom)": 3
+   }
+  },
+  {
+   "date": "2026-11-22",
+   "counts": {
+    "ticketmaster": 457,
+    "seatgeek": 299,
+    "ics_feeds": 34,
+    "civicplus": 371,
+    "prekindle": 46,
+    "singles_pages": 2,
+    "club_pages": 16,
+    "do214": 0,
+    "dallasites101": 4,
+    "seated": 2,
+    "ics_feeds (whatsupfortworth.com)": 27,
     "ics_feeds (calendar.unt.edu)": 7,
     "prekindle (Granada Theater)": 8,
     "prekindle (The Kessler Theater)": 14,
