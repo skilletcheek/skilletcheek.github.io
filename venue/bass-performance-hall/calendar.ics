@@ -74,6 +74,19 @@ DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
  om/venue/bass-performance-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:mamma-mia-fort-worth|bass-performance-hall-fort-worth|7-30-pm-2026-12-0
+ 4@letsdoitdallas.com
+DTSTAMP:20261205T013000Z
+DTSTART:20261205T013000Z
+DTEND:20261205T043000Z
+SUMMARY:Mamma Mia! - Fort Worth
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=mamma-mia-fort-worth%7Cba
+ ss-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
+ om/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-nutcracker|bass-performance-hall-fort-worth|8-00-pm-2026-12-11@lets
  doitdallas.com
 DTSTAMP:20261212T020000Z
@@ -228,5 +241,31 @@ URL:https://letsdoitdallas.com/?date=2026-12-21&e=the-nutcracker%7Cbass-per
  formance-hall-fort-worth%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker|bass-performance-hall-fort-worth|7-00-pm-2026-12-21@lets
+ doitdallas.com
+DTSTAMP:20261222T010000Z
+DTSTART:20261222T010000Z
+DTEND:20261222T040000Z
+SUMMARY:The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-21&e=the-nutcracker%7Cbass-per
+ formance-hall-fort-worth%7C7-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-ballet-theater-the-nutcracker|bass-performance-hall-fort-worth|2-
+ 00-pm-2026-12-22@letsdoitdallas.com
+DTSTAMP:20261222T200000Z
+DTSTART:20261222T200000Z
+DTEND:20261222T230000Z
+SUMMARY:Texas Ballet Theater: The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-22&e=texas-ballet-theater-the-
+ nutcracker%7Cbass-performance-hall-fort-worth%7C2-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/bass-performance-hall/
 END:VEVENT
 END:VCALENDAR

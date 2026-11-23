@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Grand Prairie\, TX — Lets Do It Dallas
+X-WR-CALDESC:Upcoming events in Grand Prairie\, Texas.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:rene-vaca-w-that-mexican-ot|texas-trust-cu-theatre-grand-prairie|8-00-p
+ m-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T020000Z
+DTSTART:20261128T020000Z
+DTEND:20261128T050000Z
+SUMMARY:Rene Vaca w/ That Mexican OT
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=rene-vaca-w-that-mexican-
+ ot%7Ctexas-trust-cu-theatre-grand-prairie%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/city/grand-prairie/
+END:VEVENT
+BEGIN:VEVENT
+UID:charlie-wilson-w-jody-watley|texas-trust-cu-theatre-grand-prairie|8-00-
+ pm-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261129T020000Z
+DTSTART:20261129T020000Z
+DTEND:20261129T050000Z
+SUMMARY:Charlie Wilson w/ Jody Watley
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=charlie-wilson-w-jody-wat
+ ley%7Ctexas-trust-cu-theatre-grand-prairie%7C8-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/city/grand-prairie/
+END:VEVENT
+BEGIN:VEVENT
+UID:cirque-italia-grand-prairie|traders-village-grand-prairie-grand-prairie
+ |7-30-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T013000Z
+DTSTART:20261205T013000Z
+DTEND:20261205T043000Z
+SUMMARY:Cirque Italia - Grand Prairie
+LOCATION:Traders Village - Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=cirque-italia-grand-prair
+ ie%7Ctraders-village-grand-prairie-grand-prairie%7C7-30-pm
+DESCRIPTION:circus event via SeatGeek. — More: https://letsdoitdallas.com
+ /city/grand-prairie/
+END:VEVENT
+BEGIN:VEVENT
+UID:chris-tucker|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-12-04@le
+ tsdoitdallas.com
+DTSTAMP:20261205T020000Z
+DTSTART:20261205T020000Z
+DTEND:20261205T050000Z
+SUMMARY:Chris Tucker
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=chris-tucker%7Ctexas-trus
+ t-cu-theatre-grand-prairie%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/city/grand-prairie/
+END:VEVENT
+BEGIN:VEVENT
+UID:sam-barber|texas-trust-cu-theatre-grand-prairie|7-00-pm-2026-12-05@lets
+ doitdallas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Sam Barber
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=sam-barber%7Ctexas-trust-
+ cu-theatre-grand-prairie%7C7-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/city/grand-prairie/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-basement-yard|texas-trust-cu-theatre-grand-prairie|8-00-pm-2026-12-
+ 11@letsdoitdallas.com
+DTSTAMP:20261212T020000Z
+DTSTART:20261212T020000Z
+DTEND:20261212T050000Z
+SUMMARY:The Basement Yard
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=the-basement-yard%7Ctexas
+ -trust-cu-theatre-grand-prairie%7C8-00-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/city/grand-prairie/
+END:VEVENT
+BEGIN:VEVENT
+UID:scott-bradlee-s-postmodern-jukebox|texas-trust-cu-theatre-grand-prairie
+ |8-00-pm-2026-12-12@letsdoitdallas.com
+DTSTAMP:20261213T020000Z
+DTSTART:20261213T020000Z
+DTEND:20261213T050000Z
+SUMMARY:Scott Bradlee's Postmodern Jukebox
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-12-12&e=scott-bradlee-s-postmoder
+ n-jukebox%7Ctexas-trust-cu-theatre-grand-prairie%7C8-00-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/city/grand-prairie/
+END:VEVENT
+BEGIN:VEVENT
+UID:whiplash|texas-trust-cu-theatre-grand-prairie|7-30-pm-2026-12-19@letsdo
+ itdallas.com
+DTSTAMP:20261220T013000Z
+DTSTART:20261220T013000Z
+DTEND:20261220T043000Z
+SUMMARY:Whiplash
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=whiplash%7Ctexas-trust-cu
+ -theatre-grand-prairie%7C7-30-pm
+DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
+ com/city/grand-prairie/
+END:VEVENT
+BEGIN:VEVENT
+UID:mannheim-steamroller-christmas|texas-trust-cu-theatre-grand-prairie|7-3
+ 0-pm-2026-12-21@letsdoitdallas.com
+DTSTAMP:20261222T013000Z
+DTSTART:20261222T013000Z
+DTEND:20261222T043000Z
+SUMMARY:Mannheim Steamroller Christmas
+LOCATION:Texas Trust CU Theatre · Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-12-21&e=mannheim-steamroller-chri
+ stmas%7Ctexas-trust-cu-theatre-grand-prairie%7C7-30-pm
+DESCRIPTION:New Age event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/city/grand-prairie/
+END:VEVENT
+END:VCALENDAR

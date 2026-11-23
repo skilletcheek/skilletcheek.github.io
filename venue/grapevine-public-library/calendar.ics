@@ -9,23 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bonus-brain-builders-note-time-change-|grapevine-public-library-1201-mu
- nicipal-way-grapevine|11-00-am-2026-11-23@letsdoitdallas.com
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T170000Z
-DTEND:20261123T200000Z
-SUMMARY:Bonus Brain Builders--Note Time Change!
-LOCATION:Grapevine Public Library
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=bonus-brain-builders-note
- -time-change-%7Cgrapevine-public-library-1201-municipal-way-grapevine%7C11
- -00-am
-DESCRIPTION:Build your brain with you build with manipulatives\, legos\, ma
- rble runs\, magnatiles\, Squiz\, blocks\, and even Mr. Potato Head! No reg
- istration or supplies needed. Just bring your imagination. November 23\, 2
- 026 11:00 AM - 02:00 PM Grapevine Public Library 1201 Municipal WayGrapevi
- ne — More: https://letsdoitdallas.com/venue/grapevine-public-library/
-END:VEVENT
-BEGIN:VEVENT
 UID:board-game-afternoon|grapevine-public-library-1201-municipal-way-grapev
  ine|01-00-pm-2026-11-24@letsdoitdallas.com
 DTSTAMP:20261124T190000Z
@@ -124,5 +107,21 @@ DESCRIPTION:Saturday\, Dec. 5 & Sunday\, Dec. 6 from 10 am to 5 pm Pottery\
  intings\, and More. All sales benefit The Friends of the Grapevine Public 
  Library! December 6\, 2026 10:00 AM - 05:00 PM Grapevine Public Library 12
  01 Mu — More: https://letsdoitdallas.com/venue/grapevine-public-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
+ grapevine|04-30-pm-2026-12-07@letsdoitdallas.com
+DTSTAMP:20261207T223000Z
+DTSTART:20261207T223000Z
+DTEND:20261208T013000Z
+SUMMARY:After-School Cinema & Snacks
+LOCATION:Grapevine Public Library
+URL:https://letsdoitdallas.com/?date=2026-12-07&e=after-school-cinema-snack
+ s%7Cgrapevine-public-library-1201-municipal-way-grapevine%7C04-30-pm
+DESCRIPTION:Kick back after school\, bring your favorite snacks\, and enjoy
+  a movie with friends! For teens ages 13 and up. December 7\, 2026 04:30 P
+ M - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine\, TX 760
+ 51 https://www.grapevinetexas.gov/Calendar.aspx?EID=17658/639210354230000 
+ — More: https://letsdoitdallas.com/venue/grapevine-public-library/
 END:VEVENT
 END:VCALENDAR

@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:deray-davis|addison-improv-addison|7-30-pm-2026-11-22@letsdoitdallas.co
- m
-DTSTAMP:20261123T013000Z
-DTSTART:20261123T013000Z
-DTEND:20261123T043000Z
-SUMMARY:DeRay Davis
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=deray-davis%7Caddison-imp
- rov-addison%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:deray-davis|addison-improv-addison|9-45-pm-2026-11-22@letsdoitdallas.co
- m
-DTSTAMP:20261123T034500Z
-DTSTART:20261123T034500Z
-DTEND:20261123T064500Z
-SUMMARY:DeRay Davis
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=deray-davis%7Caddison-imp
- rov-addison%7C9-45-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:elle-orlando|addison-improv-addison|7-00-pm-2026-11-27@letsdoitdallas.c
  om
 DTSTAMP:20261128T010000Z
@@ -124,19 +98,6 @@ URL:https://letsdoitdallas.com/?date=2026-12-03&e=robyn-schall%7Caddison-im
  prov-addison%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
-END:VEVENT
-BEGIN:VEVENT
-UID:dl-hughley|the-addison-improv-addison|7-30-pm-2026-12-04@letsdoitdallas
- .com
-DTSTAMP:20261205T013000Z
-DTSTART:20261205T013000Z
-DTEND:20261205T043000Z
-SUMMARY:DL Hughley
-LOCATION:The Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-12-04&e=dl-hughley%7Cthe-addison-
- improv-addison%7C7-30-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/addison-improv/
 END:VEVENT
 BEGIN:VEVENT
 UID:natasha-leggero|addison-improv-addison|7-30-pm-2026-12-04@letsdoitdalla

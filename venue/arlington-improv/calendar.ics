@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:godfrey|arlington-improv-arlington|7-00-pm-2026-11-22@letsdoitdallas.co
- m
-DTSTAMP:20261123T010000Z
-DTSTART:20261123T010000Z
-DTEND:20261123T040000Z
-SUMMARY:Godfrey
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=godfrey%7Carlington-impro
- v-arlington%7C7-00-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/arlington-improv/
-END:VEVENT
-BEGIN:VEVENT
 UID:shed-g-and-friends|arlington-improv-arlington|7-30-pm-2026-11-25@letsdo
  itdallas.com
 DTSTAMP:20261126T013000Z

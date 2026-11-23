@@ -69,4 +69,20 @@ URL:https://letsdoitdallas.com/?date=2026-12-20&e=north-texas-mean-green-me
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/venue/unt-superpit/
 END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-men-s-basketball-vs-southwest-new-mexico-mustang
+ s-men-basketball|unt-superpit-denton|see-details-2026-12-22@letsdoitdallas
+ .com
+DTSTAMP:20261222T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:North Texas Mean Green Men's Basketball vs. Southwest New Mexico Mu
+ stangs Men Basketball
+LOCATION:UNT Superpit · Denton
+URL:https://letsdoitdallas.com/?date=2026-12-22&e=north-texas-mean-green-me
+ n-s-basketball-vs-southwest-new-mexico-mustangs-men-basketball%7Cunt-super
+ pit-denton%7Csee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/unt-superpit/
+END:VEVENT
 END:VCALENDAR

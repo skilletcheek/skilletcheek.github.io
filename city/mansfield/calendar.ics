@@ -9,16 +9,19 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cozy-community-cleanup|303-n-walnut-creek-dr-mansfield|10-00-am-2026-11
- -23@letsdoitdallas.com
-DTSTAMP:20261123T160000Z
-DTSTART:20261123T160000Z
-DTEND:20261123T190000Z
-SUMMARY:Cozy Community Cleanup
-LOCATION:303 N. Walnut Creek Dr. · Mansfield
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=cozy-community-cleanup%7C
- 303-n-walnut-creek-dr-mansfield%7C10-00-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/mansfield/
+UID:no-blues-rock-jam-|fat-daddy-s-mansfield-781-west-debbie-lane-mansfield
+ -76063-united-states|7-00-pm-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261126T010000Z
+DTSTART:20261126T010000Z
+DTEND:20261126T040000Z
+SUMMARY:NO BLUES Rock Jam!
+LOCATION:Fat Daddy’s Mansfield
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=no-blues-rock-jam-%7Cfat-
+ daddy-s-mansfield-781-west-debbie-lane-mansfield-76063-united-states%7C7-0
+ 0-pm
+DESCRIPTION:presented by Daniel “Skeetholio” Ellsberg No Blues Allowed.
+  Just Rock n Roll Every Wednesday Night 7-10PM NO COVER CHARGE! — More: 
+ https://letsdoitdallas.com/city/mansfield/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-concacaf-w-championship-quarterfinals-1-4-usa-vs-slv-and-jam-vs-cr
@@ -326,5 +329,21 @@ LOCATION:604 W. Broad St. · Mansfield
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=holiday-at-the-house%7C60
  4-w-broad-st-mansfield%7C11-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/city/mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:bilingual-story-time|104-s-wisteria-st-mansfield|10-30-am-2026-12-07@le
+ tsdoitdallas.com
+DTSTAMP:20261207T163000Z
+DTSTART:20261207T163000Z
+DTEND:20261207T193000Z
+SUMMARY:Bilingual Story Time
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-07&e=bilingual-story-time%7C10
+ 4-s-wisteria-st-mansfield%7C10-30-am
+DESCRIPTION:Children 3-6 years old\, both English and Spanish speakers\, wi
+ th a caregiver can enjoy 30 minutes of books\, songs\, finger-plays and rh
+ ymes in both English and Spanish. This story time fosters emergent literac
+ y\, reinforces group listening skills and allows children to become famili
+  — More: https://letsdoitdallas.com/city/mansfield/
 END:VEVENT
 END:VCALENDAR

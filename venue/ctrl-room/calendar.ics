@@ -9,18 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:haus-sundays-11-22-26|ctrl-room-dallas|11-00-pm-2026-11-22@letsdoitdall
- as.com
-DTSTAMP:20261123T050000Z
-DTSTART:20261123T050000Z
-DTEND:20261123T080000Z
-SUMMARY:Haus Sundays 11.22.26
-LOCATION:CTRL Room · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=haus-sundays-11-22-26%7Cc
- trl-room-dallas%7C11-00-pm
-DESCRIPTION:Ages 18+. — More: https://letsdoitdallas.com/venue/ctrl-room/
-END:VEVENT
-BEGIN:VEVENT
 UID:perreo-giving-reggaeton-party|ctrl-room-dallas|9-00-pm-2026-11-25@letsd
  oitdallas.com
 DTSTAMP:20261126T030000Z

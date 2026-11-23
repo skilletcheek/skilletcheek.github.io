@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mojo-brookzz|majestic-theatre-dallas-dallas|6-00-pm-2026-11-22@letsdoit
- dallas.com
-DTSTAMP:20261123T000000Z
-DTSTART:20261123T000000Z
-DTEND:20261123T030000Z
-SUMMARY:Mojo Brookzz
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=mojo-brookzz%7Cmajestic-t
- heatre-dallas-dallas%7C6-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:mojo-brookzz|majestic-theatre-dallas-dallas|9-00-pm-2026-11-22@letsdoit
- dallas.com
-DTSTAMP:20261123T030000Z
-DTSTART:20261123T030000Z
-DTEND:20261123T060000Z
-SUMMARY:Mojo Brookzz
-LOCATION:Majestic Theatre Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=mojo-brookzz%7Cmajestic-t
- heatre-dallas-dallas%7C9-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/venue/majestic-theatre-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:outlander-in-concert|majestic-theatre-dallas-dallas|7-30-pm-2026-11-25@
  letsdoitdallas.com
 DTSTAMP:20261126T013000Z

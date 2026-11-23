@@ -9,6 +9,20 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:jim-milan-s-bucket-list-jazz-band|tulips-ftw-112-saint-louis-avenue-for
+ t-worth-76104-united-states|7-30-pm-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261126T013000Z
+DTSTART:20261126T013000Z
+DTEND:20261126T043000Z
+SUMMARY:Jim Milan's Bucket List Jazz Band
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=jim-milan-s-bucket-list-j
+ azz-band%7Ctulips-ftw-112-saint-louis-avenue-fort-worth-76104-united-state
+ s%7C7-30-pm
+DESCRIPTION:Event Details — More: https://letsdoitdallas.com/venue/tulips
+ -ftw/
+END:VEVENT
+BEGIN:VEVENT
 UID:sunny-sweeney|tulips-ftw-fort-worth|8-00-pm-2026-12-02@letsdoitdallas.c
  om
 DTSTAMP:20261203T020000Z

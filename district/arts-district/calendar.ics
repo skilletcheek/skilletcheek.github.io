@@ -691,4 +691,30 @@ URL:https://letsdoitdallas.com/?date=2026-12-20&e=a-drag-queen-christmas%7C
 DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
  tdallas.com/district/arts-district/
 END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-21@letsdoitdallas
+ .com
+DTSTAMP:20261222T013000Z
+DTSTART:20261222T013000Z
+DTEND:20261222T043000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-21&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C7-30-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/arts-district/
+END:VEVENT
+BEGIN:VEVENT
+UID:cirque-musica|margot-and-bill-winspear-opera-house-dallas|7-30-pm-2026-
+ 12-21@letsdoitdallas.com
+DTSTAMP:20261222T013000Z
+DTSTART:20261222T013000Z
+DTEND:20261222T043000Z
+SUMMARY:Cirque Musica
+LOCATION:Margot and Bill Winspear Opera House · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-21&e=cirque-musica%7Cmargot-an
+ d-bill-winspear-opera-house-dallas%7C7-30-pm
+DESCRIPTION:Performance Art event via Ticketmaster. — More: https://letsd
+ oitdallas.com/district/arts-district/
+END:VEVENT
 END:VCALENDAR

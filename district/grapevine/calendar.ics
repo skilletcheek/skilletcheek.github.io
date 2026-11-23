@@ -10,83 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
- e-tx-76051-united-states|8-00-am-2026-11-22@letsdoitdallas.com
-DTSTAMP:20261122T140000Z
-DTSTART:20261122T140000Z
-DTEND:20261122T170000Z
-SUMMARY:Phenomenomaly at Meow Wolf
-LOCATION:Meow Wolf · Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=phenomenomaly-at-meow-wol
- f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
- C8-00-am
-DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
-  live immersive performance series inside The Real Unreal. Blending intera
- ctive theater with a rotating lineup of North Texas talent\, the experienc
- e unfolds around guests as they explore\, featuring music\, dance\, comedy
- \, — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:stem-lab-18-|grapevine|10-00-am-2026-11-23@letsdoitdallas.com
-DTSTAMP:20261123T160000Z
-DTSTART:20261123T160000Z
-DTEND:20261123T190000Z
-SUMMARY:STEM Lab (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=stem-lab-18-%7Cgrapevine%
- 7C10-00-am
-DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
- at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
- ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
- edgeable staff will be available to provide guidance\, tips\, and support 
- as — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:bonus-brain-builders-note-time-change-|grapevine-public-library-1201-mu
- nicipal-way-grapevine|11-00-am-2026-11-23@letsdoitdallas.com
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T170000Z
-DTEND:20261123T200000Z
-SUMMARY:Bonus Brain Builders--Note Time Change!
-LOCATION:Grapevine Public Library
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=bonus-brain-builders-note
- -time-change-%7Cgrapevine-public-library-1201-municipal-way-grapevine%7C11
- -00-am
-DESCRIPTION:Build your brain with you build with manipulatives\, legos\, ma
- rble runs\, magnatiles\, Squiz\, blocks\, and even Mr. Potato Head! No reg
- istration or supplies needed. Just bring your imagination. November 23\, 2
- 026 11:00 AM - 02:00 PM Grapevine Public Library 1201 Municipal WayGrapevi
- ne — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:junk-journaling-club-ages-7-12-|grapevine|11-00-am-2026-11-23@letsdoitd
- allas.com
-DTSTAMP:20261123T170000Z
-DTSTART:20261123T170000Z
-DTEND:20261123T200000Z
-SUMMARY:Junk Journaling Club (Ages 7-12)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=junk-journaling-club-ages
- -7-12-%7Cgrapevine%7C11-00-am
-DESCRIPTION:Unleash your creativity at our Junk Journaling Club! Designed f
- or children ages 7-12\, this hands-on club invites participants to create 
- unique\, personalized journals using recycled papers\, craft supplies\, an
- d found objects. Learn techniques like layering\, collage\, and embellishm
- e — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:kids-crochet-club-ages-7-12-|grapevine|01-30-pm-2026-11-23@letsdoitdall
- as.com
-DTSTAMP:20261123T193000Z
-DTSTART:20261123T193000Z
-DTEND:20261123T223000Z
-SUMMARY:Kids Crochet Club (ages 7-12)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=kids-crochet-club-ages-7-
- 12-%7Cgrapevine%7C01-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:38th-annual-carol-of-lights|historic-main-street-636-s-main-street-grap
  evine-tx-76051-united-states|4-00-pm-2026-11-23@letsdoitdallas.com
 DTSTAMP:20261123T220000Z
@@ -729,5 +652,81 @@ DESCRIPTION:Unleash your creativity and make a journal that’s completely
  collage\, doodle\, decorate\, write\, and experiment with different papers
  \, stickers\, ephemera\, and other fun materials. Whether you’re new to 
  junk journalin — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:stem-lab-18-|grapevine|10-00-am-2026-12-07@letsdoitdallas.com
+DTSTAMP:20261207T160000Z
+DTSTART:20261207T160000Z
+DTEND:20261207T190000Z
+SUMMARY:STEM Lab (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-12-07&e=stem-lab-18-%7Cgrapevine%
+ 7C10-00-am
+DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
+ at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
+ ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
+ edgeable staff will be available to provide guidance\, tips\, and support 
+ as — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:after-school-cinema-snacks|grapevine-public-library-1201-municipal-way-
+ grapevine|04-30-pm-2026-12-07@letsdoitdallas.com
+DTSTAMP:20261207T223000Z
+DTSTART:20261207T223000Z
+DTEND:20261208T013000Z
+SUMMARY:After-School Cinema & Snacks
+LOCATION:Grapevine Public Library
+URL:https://letsdoitdallas.com/?date=2026-12-07&e=after-school-cinema-snack
+ s%7Cgrapevine-public-library-1201-municipal-way-grapevine%7C04-30-pm
+DESCRIPTION:Kick back after school\, bring your favorite snacks\, and enjoy
+  a movie with friends! For teens ages 13 and up. December 7\, 2026 04:30 P
+ M - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine\, TX 760
+ 51 https://www.grapevinetexas.gov/Calendar.aspx?EID=17658/639210354230000 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:minecraft-lab-mods-machines-more|grapevine|05-00-pm-2026-12-07@letsdoit
+ dallas.com
+DTSTAMP:20261207T230000Z
+DTSTART:20261207T230000Z
+DTEND:20261208T020000Z
+SUMMARY:Minecraft Lab - Mods\, Machines\, & More
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-12-07&e=minecraft-lab-mods-machin
+ es-more%7Cgrapevine%7C05-00-pm
+DESCRIPTION:Who: Ages 8+ What: Step into the Esports Academy Minecraft Lab 
+ this Monday and experiment with a brand-new set of server-wide mods! Build
+  steampunk contraptions\, hunt Pokémon and challenge trainers across wild
+  biomes\, or design complex machines\, clever circuits\, and fully automat
+  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:knit-crochet-circle|grapevine|05-30-pm-2026-12-07@letsdoitdallas.com
+DTSTAMP:20261207T233000Z
+DTSTART:20261207T233000Z
+DTEND:20261208T023000Z
+SUMMARY:Knit & Crochet Circle
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-12-07&e=knit-crochet-circle%7Cgra
+ pevine%7C05-30-pm
+DESCRIPTION:Looking for a cozy way to unwind and connect with fellow yarn e
+ nthusiasts? Join us Mondays for our casual Knit & Crochet Circle! Whether 
+ you're a seasoned pro or just picking up your first set of needles or hook
+ s\, this is the perfect opportunity to share your latest projects\, swa 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:board-of-zoning-adjustment-meeting|planning-and-zoning-conference-room-
+ 2nd-floor-200-south-main-street-grapevine|06-15-pm-2026-12-07@letsdoitdall
+ as.com
+DTSTAMP:20261208T001500Z
+DTSTART:20261208T001500Z
+DTEND:20261208T031500Z
+SUMMARY:Board of Zoning Adjustment Meeting
+LOCATION:Planning and Zoning Conference Room - 2nd Floor · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-12-07&e=board-of-zoning-adjustmen
+ t-meeting%7Cplanning-and-zoning-conference-room-2nd-floor-200-south-main-s
+ treet-grapevine%7C06-15-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/grapevine/
 END:VEVENT
 END:VCALENDAR

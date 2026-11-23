@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:3-o-clock-sunday-evening-musical-1-of-3|bruton-theatre-dallas|3-00-pm-2
- 026-11-22@letsdoitdallas.com
-DTSTAMP:20261122T210000Z
-DTSTART:20261122T210000Z
-DTEND:20261123T000000Z
-SUMMARY:3 O' Clock Sunday Evening Musical 1 of 3
-LOCATION:Bruton Theatre · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=3-o-clock-sunday-evening-
- musical-1-of-3%7Cbruton-theatre-dallas%7C3-00-pm
-DESCRIPTION:Miscellaneous Theatre event via Ticketmaster. — More: https:/
- /letsdoitdallas.com/venue/bruton-theatre/
-END:VEVENT
-BEGIN:VEVENT
 UID:33rd-annual-christmas-kanzaa-concert-student-performance|bruton-theatre
  -dallas|10-00-am-2026-12-11@letsdoitdallas.com
 DTSTAMP:20261211T160000Z

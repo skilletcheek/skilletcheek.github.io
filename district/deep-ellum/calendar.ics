@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|10-00-pm-2026-11-22@letsdoitd
- allas.com
-DTSTAMP:20261123T040000Z
-DTSTART:20261123T040000Z
-DTEND:20261123T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:iconic-altitude-guyceritops|three-links-deep-ellum-dallas|7-00-pm-2026-
  11-23@letsdoitdallas.com
 DTSTAMP:20261124T010000Z
@@ -374,6 +361,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:broadway-rave-dallas|deep-ellum-dallas|9-00-pm-2026-12-04@letsdoitdalla
+ s.com
+DTSTAMP:20261205T030000Z
+DTSTART:20261205T030000Z
+DTEND:20261205T060000Z
+SUMMARY:Broadway Rave - Dallas
+LOCATION:Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=broadway-rave-dallas%7Cde
+ ep-ellum-dallas%7C9-00-pm
+DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:upon-a-burning-body|trees-dallas|7-00-pm-2026-12-05@letsdoitdallas.com
 DTSTAMP:20261206T010000Z
 DTSTART:20261206T010000Z
@@ -567,5 +567,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-19&e=mad-mexicans-la-santa-chi
  nga%7Cthree-links-deep-ellum-dallas%7C8-00-pm
 DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:pepe-tovar|club-dada-dallas|9-00-pm-2026-12-20@letsdoitdallas.com
+DTSTAMP:20261221T030000Z
+DTSTART:20261221T030000Z
+DTEND:20261221T060000Z
+SUMMARY:Pepe Tovar
+LOCATION:Club Dada · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-20&e=pepe-tovar%7Cclub-dada-da
+ llas%7C9-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/deep-ellum/
 END:VEVENT
 END:VCALENDAR

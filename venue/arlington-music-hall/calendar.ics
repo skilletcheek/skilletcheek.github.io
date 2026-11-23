@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-queen-of-soul-arlington|arlington-music-hall-arlington|6-00-pm-2026
- -11-22@letsdoitdallas.com
-DTSTAMP:20261123T000000Z
-DTSTART:20261123T000000Z
-DTEND:20261123T030000Z
-SUMMARY:The Queen of Soul - Arlington
-LOCATION:Arlington Music Hall
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=the-queen-of-soul-arlingt
- on%7Carlington-music-hall-arlington%7C6-00-pm
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/arlington-music-hall/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-nutcracker-arlington|arlington-music-hall-arlington|1-30-pm-2026-11
  -28@letsdoitdallas.com
 DTSTAMP:20261128T193000Z

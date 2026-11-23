@@ -10,19 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:hoopfest-basketball-women-s-challenge-session-1|fifth-third-arena-frisc
- o|1-00-pm-2026-11-22@letsdoitdallas.com
-DTSTAMP:20261122T190000Z
-DTSTART:20261122T190000Z
-DTEND:20261122T220000Z
-SUMMARY:Hoopfest Basketball Women's Challenge Session 1
-LOCATION:Fifth Third Arena · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=hoopfest-basketball-women
- -s-challenge-session-1%7Cfifth-third-arena-frisco%7C1-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/frisco/
-END:VEVENT
-BEGIN:VEVENT
 UID:hoopfest-basketball-women-s-challenge-session-2|fifth-third-arena-frisc
  o|3-00-pm-2026-11-23@letsdoitdallas.com
 DTSTAMP:20261123T210000Z
@@ -337,5 +324,20 @@ URL:https://letsdoitdallas.com/?date=2026-12-21&e=texas-legends-college-cla
  ssic-monday%7Cfifth-third-arena-frisco%7C3-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:donate-to-american-heart-association-texas-legends-college-classic|fift
+ h-third-arena-frisco|11-59-pm-2026-12-21@letsdoitdallas.com
+DTSTAMP:20261222T055900Z
+DTSTART:20261222T055900Z
+DTEND:20261222T085900Z
+SUMMARY:Donate to American Heart Association - Texas Legends College Classi
+ c
+LOCATION:Fifth Third Arena · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-21&e=donate-to-american-heart-
+ association-texas-legends-college-classic%7Cfifth-third-arena-frisco%7C11-
+ 59-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/frisco/
 END:VEVENT
 END:VCALENDAR

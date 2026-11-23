@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mama-s-broke|poor-david-s-pub-dallas|8-00-pm-2026-11-22@letsdoitdallas.
- com
-DTSTAMP:20261123T020000Z
-DTSTART:20261123T020000Z
-DTEND:20261123T050000Z
-SUMMARY:Mama's Broke
-LOCATION:Poor David's Pub · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=mama-s-broke%7Cpoor-david
- -s-pub-dallas%7C8-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/poor-david-s-pub/
-END:VEVENT
-BEGIN:VEVENT
 UID:honky-tonk-tuesday-with-texas-zephyrs|poor-david-s-pub-dallas|doors-see
  -listing-2026-12-01@letsdoitdallas.com
 DTSTAMP:20261201T000000Z

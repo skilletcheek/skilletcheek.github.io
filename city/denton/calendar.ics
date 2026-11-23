@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bob-schneider|dan-s-silverleaf-denton|3-00-pm-2026-11-22@letsdoitdallas
- .com
-DTSTAMP:20261122T210000Z
-DTSTART:20261122T210000Z
-DTEND:20261123T000000Z
-SUMMARY:Bob Schneider
-LOCATION:Dan's Silverleaf · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=bob-schneider%7Cdan-s-sil
- verleaf-denton%7C3-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/city/denton/
-END:VEVENT
-BEGIN:VEVENT
 UID:university-of-dallas-women-at-north-texas-womens-bb|unt-coliseum-super-
  pit-denton|6-30-pm-2026-11-24@letsdoitdallas.com
 DTSTAMP:20261125T003000Z
@@ -241,6 +228,19 @@ DESCRIPTION:Celebrate the holiday season with the UNT Brass Band\, the Two
  — More: https://letsdoitdallas.com/city/denton/
 END:VEVENT
 BEGIN:VEVENT
+UID:rickshaw-billie-s-burger-patrol|rubber-gloves-denton|8-00-pm-2026-12-04
+ @letsdoitdallas.com
+DTSTAMP:20261205T020000Z
+DTSTART:20261205T020000Z
+DTEND:20261205T050000Z
+SUMMARY:Rickshaw Billie's Burger Patrol
+LOCATION:Rubber Gloves · Denton
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=rickshaw-billie-s-burger-
+ patrol%7Crubber-gloves-denton%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/city/denton/
+END:VEVENT
+BEGIN:VEVENT
 UID:north-texas-mean-green-men-s-basketball-vs-mississippi-valley-delta-dev
  ils-mens-basketball|unt-superpit-denton|see-details-2026-12-06@letsdoitdal
  las.com
@@ -299,6 +299,22 @@ LOCATION:UNT Superpit · Denton
 URL:https://letsdoitdallas.com/?date=2026-12-20&e=north-texas-mean-green-me
  n-s-basketball-vs-bethune-cookman-wildcats-mens-basketball%7Cunt-superpit-
  denton%7Csee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/city/denton/
+END:VEVENT
+BEGIN:VEVENT
+UID:north-texas-mean-green-men-s-basketball-vs-southwest-new-mexico-mustang
+ s-men-basketball|unt-superpit-denton|see-details-2026-12-22@letsdoitdallas
+ .com
+DTSTAMP:20261222T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:North Texas Mean Green Men's Basketball vs. Southwest New Mexico Mu
+ stangs Men Basketball
+LOCATION:UNT Superpit · Denton
+URL:https://letsdoitdallas.com/?date=2026-12-22&e=north-texas-mean-green-me
+ n-s-basketball-vs-southwest-new-mexico-mustangs-men-basketball%7Cunt-super
+ pit-denton%7Csee-details
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/city/denton/
 END:VEVENT

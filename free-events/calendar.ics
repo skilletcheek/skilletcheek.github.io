@@ -10,35 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:turtle-creek-arts-festival|reverchon-park-dallas|10-00-am-5-00-pm-2026-
- 11-22@letsdoitdallas.com
-DTSTAMP:20261122T160000Z
-DTSTART:20261122T160000Z
-DTEND:20261122T190000Z
-SUMMARY:Turtle Creek Arts Festival
-LOCATION:Reverchon Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=turtle-creek-arts-festiva
- l%7Creverchon-park-dallas%7C10-00-am-5-00-pm
-DESCRIPTION:Set among 43 acres of green space in the heart of Dallas\, the 
- festival invites you to slow down\, explore\, and connect with the people 
- behind the artwork. Discover the work of approximately 100 artists\, inclu
- ding painters\, photographers\, sculptors\, metalworkers\, glass artists\,
-  and — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-sneak305|three-links-deep-ellum-dallas|10-00-pm-2026-11-22@letsdoitd
- allas.com
-DTSTAMP:20261123T040000Z
-DTSTART:20261123T040000Z
-DTEND:20261123T070000Z
-SUMMARY:DJ SNEAK305
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=dj-sneak305%7Cthree-links
- -deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:iconic-altitude-guyceritops|three-links-deep-ellum-dallas|7-00-pm-2026-
  11-23@letsdoitdallas.com
 DTSTAMP:20261124T010000Z
@@ -76,6 +47,23 @@ URL:https://letsdoitdallas.com/?date=2026-11-24&e=the-ox-and-the-waymakers%
  7Cthree-links-deep-ellum-dallas%7C10-00-pm
 DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
  com/free-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:black-friday-is-back-at-buffalo-exchange-with-75-off-sale-items|buffalo
+ -exchange-dallas|11-00-am-8-00-pm-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261125T170000Z
+DTSTART:20261125T170000Z
+DTEND:20261125T200000Z
+SUMMARY:Black Friday is Back at Buffalo Exchange with 75% Off Sale Items
+LOCATION:Buffalo Exchange · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=black-friday-is-back-at-b
+ uffalo-exchange-with-75-off-sale-items%7Cbuffalo-exchange-dallas%7C11-00-a
+ m-8-00-pm
+DESCRIPTION:Get your wishlists ready! From Wednesday\, 11/25 through Monday
+  11/30\, we’re giving you a head start on holiday shopping with a sweet 
+ Black Friday deal: shop a special selection of clothes\, shoes and accesso
+ ries at 75% off at all Buffalo Exchange locations\, excluding outlets. Plu
+ s — More: https://letsdoitdallas.com/free-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:wub-wednesday|three-links-deep-ellum-dallas|10-00-pm-2026-11-25@letsdoi

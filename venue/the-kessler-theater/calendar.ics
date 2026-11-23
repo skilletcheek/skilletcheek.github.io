@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:landslide-tribute-to-fleetwood-mac|the-kessler-dallas|8-00-pm-2026-11-2
- 2@letsdoitdallas.com
-DTSTAMP:20261123T020000Z
-DTSTART:20261123T020000Z
-DTEND:20261123T050000Z
-SUMMARY:Landslide - Tribute to Fleetwood Mac
-LOCATION:The Kessler · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=landslide-tribute-to-flee
- twood-mac%7Cthe-kessler-dallas%7C8-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/the-kessler-theater/
-END:VEVENT
-BEGIN:VEVENT
 UID:nacho-redondo|the-kessler-dallas|8-00-pm-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261128T020000Z
 DTSTART:20261128T020000Z
@@ -46,18 +33,17 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-milk-carton-kids-lost-cause-lover-fool-holiday-tour|the-kessler-the
- ater-oak-cliff-dallas|doors-see-listing-2026-12-04@letsdoitdallas.com
-DTSTAMP:20261204T000000Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:The Milk Carton Kids Lost Cause Lover Fool HOLIDAY TOUR
+UID:the-milk-carton-kids|the-kessler-theater-dallas|8-00-pm-2026-12-04@lets
+ doitdallas.com
+DTSTAMP:20261205T020000Z
+DTSTART:20261205T020000Z
+DTEND:20261205T050000Z
+SUMMARY:The Milk Carton Kids
 LOCATION:The Kessler Theater · Dallas
-URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-milk-carton-kids-lost
- -cause-lover-fool-holiday-tour%7Cthe-kessler-theater-oak-cliff-dallas%7Cdo
- ors-see-listing
-DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
- om/venue/the-kessler-theater/
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-milk-carton-kids%7Cth
+ e-kessler-theater-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
 UID:jd-mcpherson|the-kessler-dallas|8-00-pm-2026-12-05@letsdoitdallas.com

@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:It'll Do Club — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at It'll Do Club.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bag-raiders|it-ll-do-club-dallas|9-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T030000Z
+DTSTART:20261128T030000Z
+DTEND:20261128T060000Z
+SUMMARY:Bag Raiders
+LOCATION:It'll Do Club · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=bag-raiders%7Cit-ll-do-cl
+ ub-dallas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/it-ll-do-club/
+END:VEVENT
+BEGIN:VEVENT
+UID:gene-farris-21-|it-ll-do-club-dallas|9-00-pm-2026-11-28@letsdoitdallas.
+ com
+DTSTAMP:20261129T030000Z
+DTSTART:20261129T030000Z
+DTEND:20261129T060000Z
+SUMMARY:Gene Farris (21+)
+LOCATION:It'll Do Club · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=gene-farris-21-%7Cit-ll-d
+ o-club-dallas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/it-ll-do-club/
+END:VEVENT
+BEGIN:VEVENT
+UID:twin-diplomacy|it-ll-do-club-dallas|9-00-pm-2026-12-04@letsdoitdallas.c
+ om
+DTSTAMP:20261205T030000Z
+DTSTART:20261205T030000Z
+DTEND:20261205T060000Z
+SUMMARY:Twin Diplomacy
+LOCATION:It'll Do Club · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=twin-diplomacy%7Cit-ll-do
+ -club-dallas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/it-ll-do-club/
+END:VEVENT
+END:VCALENDAR

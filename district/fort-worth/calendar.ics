@@ -11,95 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
- ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-22@lets
- doitdallas.com
-DTSTAMP:20261122T160000Z
-DTSTART:20261122T160000Z
-DTEND:20261122T190000Z
-SUMMARY:Puzzling Adventures Scavenger Hunt
-LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=puzzling-adventures-scave
- nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
- rth-76102-united-states%7C10-00-am
-DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
- uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
- e\, and an informative self-guided walking tour. Each adventure consists o
- f a series of locations that you are guided to where you are required t 
- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:ls-hoops-with-heart-weekend-i|ariat-arena-fort-worth|12-00-pm-2026-11-2
- 2@letsdoitdallas.com
-DTSTAMP:20261122T180000Z
-DTSTART:20261122T180000Z
-DTEND:20261122T210000Z
-SUMMARY:LS² - Hoops with Heart - Weekend I
-LOCATION:Ariat Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=ls-hoops-with-heart-weeke
- nd-i%7Cariat-arena-fort-worth%7C12-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:clay-parker|the-post-at-river-east-fort-worth|6-00-pm-2026-11-22@letsdo
- itdallas.com
-DTSTAMP:20261123T000000Z
-DTSTART:20261123T000000Z
-DTEND:20261123T030000Z
-SUMMARY:Clay Parker
-LOCATION:The Post at River East · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=clay-parker%7Cthe-post-at
- -river-east-fort-worth%7C6-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:fort-worth-parade-of-lights|downtown-fort-worth|6-00-pm-2026-11-22@lets
- doitdallas.com
-DTSTAMP:20261123T000000Z
-DTSTART:20261123T000000Z
-DTEND:20261123T030000Z
-SUMMARY:Fort Worth Parade of Lights
-LOCATION:Downtown Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=fort-worth-parade-of-ligh
- ts%7Cdowntown-fort-worth%7C6-00-pm
-DESCRIPTION:The GM Financial Parade of Lights is the largest illuminated h
- oliday parade in Texas and one of Downtown Fort Worth’s most cherished 
- traditions\, welcoming thousands of families\, friends\, and visitors each
-  year to kick off the holiday season in style.  Make a full day of it in D
- ow — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-black-dog-jazz-jam|scat-jazz-lounge-111-w-4th-st-fort-worth-76102-u
- nited-states|8-00-pm-2026-11-22@letsdoitdallas.com
-DTSTAMP:20261123T020000Z
-DTSTART:20261123T020000Z
-DTEND:20261123T050000Z
-SUMMARY:The Black Dog Jazz Jam
-LOCATION:Scat Jazz Lounge · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=the-black-dog-jazz-jam%7C
- scat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-states%7C8-00-pm
-DESCRIPTION:Don’t miss this long running tradition at the Lounge. It’s 
- the Black Dog Jazz Jam with Joey Carter & Paul Metzger as your fearless ba
- nd leaders. Come sit in or just take it all in as musicians from near and 
- far gather every Sunday and make music together.  21 & up only. — More: 
- https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:caleb-martin-free-show|magnolia-motor-lounge-3803-southwest-blvd-fort-w
- orth-76116-united-states|9-00-pm-2026-11-22@letsdoitdallas.com
-DTSTAMP:20261123T030000Z
-DTSTART:20261123T030000Z
-DTEND:20261123T060000Z
-SUMMARY:Caleb Martin FREE SHOW
-LOCATION:Magnolia Motor Lounge · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-22&e=caleb-martin-free-show%7C
- magnolia-motor-lounge-3803-southwest-blvd-fort-worth-76116-united-states%7
- C9-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
  ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-23@lets
  doitdallas.com
 DTSTAMP:20261123T160000Z
@@ -252,6 +163,102 @@ URL:https://letsdoitdallas.com/?date=2026-11-25&e=steve-helms-%7C-4th-wedne
 DESCRIPTION:STEVE HELMS | 4th Wednesday Every 4th Wednesday at 9:00PM   No 
  cover / No Ticket Needed      Ages 21+ @outhouseticketsShare it and tag a
   few friends! — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:jim-milan-s-bucket-list-jazz-band|tulips-ftw-112-saint-louis-avenue-for
+ t-worth-76104-united-states|7-30-pm-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261126T013000Z
+DTSTART:20261126T013000Z
+DTEND:20261126T043000Z
+SUMMARY:Jim Milan's Bucket List Jazz Band
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=jim-milan-s-bucket-list-j
+ azz-band%7Ctulips-ftw-112-saint-louis-avenue-fort-worth-76104-united-state
+ s%7C7-30-pm
+DESCRIPTION:Event Details — More: https://letsdoitdallas.com/district/for
+ t-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-dick-beldings|magnolia-motor-lounge-3803-southwest-blvd-fort-worth-
+ 76116-united-states|9-00-pm-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261126T030000Z
+DTSTART:20261126T030000Z
+DTEND:20261126T060000Z
+SUMMARY:The Dick Beldings
+LOCATION:Magnolia Motor Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=the-dick-beldings%7Cmagno
+ lia-motor-lounge-3803-southwest-blvd-fort-worth-76116-united-states%7C9-00
+ -pm
+DESCRIPTION:The Dick Beldings  Doors at 7:00 PM   $10 – Advanced GA ($15 
+ at the door) $80 – Table of 4 $120 – Table of 6  Ages 21+  @outhouseti
+ ckets Share it and tag a few friends! — More: https://letsdoitdallas.com
+ /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:wizop-wednesday-s-open-mic-night|big-laugh-comedy-club-fort-worth-604-m
+ ain-st-suite-100-fort-worth-tx-76102-united-states|9-30-pm-2026-11-25@lets
+ doitdallas.com
+DTSTAMP:20261126T033000Z
+DTSTART:20261126T033000Z
+DTEND:20261126T063000Z
+SUMMARY:Wizop Wednesday's Open Mic Night
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=wizop-wednesday-s-open-mi
+ c-night%7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-wort
+ h-tx-76102-united-states%7C9-30-pm
+DESCRIPTION:Wizop Wednesdays: Open Mic Comedy  Looking for a midweek jolt o
+ f ridiculous? Wizop Wednesdays is where fresh jokes are born\, wild bits g
+ et tested\, and legends-in-the-making grab the mic. It’s raw\, fast\, an
+ d absolutely addictive\, your new Wednesday night ritual.  Expect lightnin
+ g- — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:fort-worth-turkey-trot|general-worth-square-main-street-fort-worth-tx-7
+ 6102|7-00-am-2026-11-26@letsdoitdallas.com
+DTSTAMP:20261126T130000Z
+DTSTART:20261126T130000Z
+DTEND:20261126T160000Z
+SUMMARY:Fort Worth Turkey Trot
+LOCATION:General Worth Square · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=fort-worth-turkey-trot%7C
+ general-worth-square-main-street-fort-worth-tx-76102%7C7-00-am
+DESCRIPTION:Start your Thanksgiving Day off right and experience the fun\, 
+ family-friendly atmosphere of the YMCA Turkey Trot. With a 5K\, 8K or 1K G
+ obbler Trot\, you can choose to run\, jog or walk for fun. Strollers and d
+ ogs are welcome! — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:annual-ymca-turkey-trot-event|fort-worth|7-45-am-2026-11-26@letsdoitdal
+ las.com
+DTSTAMP:20261126T134500Z
+DTSTART:20261126T134500Z
+DTEND:20261126T164500Z
+SUMMARY:Annual YMCA Turkey Trot Event
+LOCATION:Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=annual-ymca-turkey-trot-e
+ vent%7Cfort-worth%7C7-45-am
+DESCRIPTION:Start your Thanksgiving Day off right and experience the fun\, 
+ family-friendly atmosphere of the YMCA Turkey Trot. With a 5K\, 8K or 1K G
+ obbler Trot\, you can choose to run\, jog or walk for fun. Strollers and d
+ ogs are welcome! When you register for the YMCA Turkey Trot\, you’re sig
+ ni — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|10-00-am-2026-11-26@letsdoitdallas.com
+DTSTAMP:20261126T160000Z
+DTSTART:20261126T160000Z
+DTEND:20261126T190000Z
+SUMMARY:Forces at Play
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=forces-at-play%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C10-00-am
+DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
+  an interactive exhibit that explores the science behind some of the world
+ ’s most beloved sports. Through hands-on activities and historical colle
+ ctions\, visitors discover how forces like gravity\, friction\, and moment
+ um impac — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|3-00-pm-2026-11-27@
@@ -642,6 +649,32 @@ URL:https://letsdoitdallas.com/?date=2026-12-03&e=mason-lively%7Ctulips-ftw
  -fort-worth%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:mamma-mia-fort-worth|bass-performance-hall-fort-worth|7-30-pm-2026-12-0
+ 4@letsdoitdallas.com
+DTSTAMP:20261205T013000Z
+DTSTART:20261205T013000Z
+DTEND:20261205T043000Z
+SUMMARY:Mamma Mia! - Fort Worth
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=mamma-mia-fort-worth%7Cba
+ ss-performance-hall-fort-worth%7C7-30-pm
+DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:dedrick-flynn|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm-2
+ 026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T020000Z
+DTSTART:20261205T020000Z
+DTEND:20261205T050000Z
+SUMMARY:Dedrick Flynn
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=dedrick-flynn%7Chyena-s-c
+ omedy-night-club-fort-worth-fort-worth%7C8-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-music-of-johnny-mathis|casa-manana-fort-worth|8-00-pm-2026-12-04@le
@@ -1209,5 +1242,47 @@ URL:https://letsdoitdallas.com/?date=2026-12-21&e=the-nutcracker%7Cbass-per
  formance-hall-fort-worth%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker|bass-performance-hall-fort-worth|7-00-pm-2026-12-21@lets
+ doitdallas.com
+DTSTAMP:20261222T010000Z
+DTSTART:20261222T010000Z
+DTEND:20261222T040000Z
+SUMMARY:The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-21&e=the-nutcracker%7Cbass-per
+ formance-hall-fort-worth%7C7-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:tcu-horned-frogs-mens-basketball-vs-houston-christian-huskies-mens-bask
+ etball|ed-and-rae-schollmaier-arena-fort-worth|see-details-2026-12-22@lets
+ doitdallas.com
+DTSTAMP:20261222T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:TCU Horned Frogs Mens Basketball vs. Houston Christian Huskies Mens
+  Basketball
+LOCATION:Ed and Rae Schollmaier Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-22&e=tcu-horned-frogs-mens-bas
+ ketball-vs-houston-christian-huskies-mens-basketball%7Ced-and-rae-schollma
+ ier-arena-fort-worth%7Csee-details
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-ballet-theater-the-nutcracker|bass-performance-hall-fort-worth|2-
+ 00-pm-2026-12-22@letsdoitdallas.com
+DTSTAMP:20261222T200000Z
+DTSTART:20261222T200000Z
+DTEND:20261222T230000Z
+SUMMARY:Texas Ballet Theater: The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-22&e=texas-ballet-theater-the-
+ nutcracker%7Cbass-performance-hall-fort-worth%7C2-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
 END:VEVENT
 END:VCALENDAR
