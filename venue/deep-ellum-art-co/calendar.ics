@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Deep Ellum Art Co. — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Deep Ellum Art Co..
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:honeycomb|deep-ellum-art-co-dallas|6-00-pm-2026-11-28@letsdoitdallas.co
+ m
+DTSTAMP:20261129T000000Z
+DTSTART:20261129T000000Z
+DTEND:20261129T030000Z
+SUMMARY:Honeycomb
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=honeycomb%7Cdeep-ellum-ar
+ t-co-dallas%7C6-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/deep-ellum-art-co/
+END:VEVENT
+BEGIN:VEVENT
+UID:kendall-street-company|deep-ellum-art-co-dallas|8-00-pm-2026-12-03@lets
+ doitdallas.com
+DTSTAMP:20261204T020000Z
+DTSTART:20261204T020000Z
+DTEND:20261204T050000Z
+SUMMARY:Kendall Street Company
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=kendall-street-company%7C
+ deep-ellum-art-co-dallas%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/deep-ellum-art-co/
+END:VEVENT
+BEGIN:VEVENT
+UID:heyz-21-|deep-ellum-art-co-dallas|10-00-pm-2026-12-04@letsdoitdallas.co
+ m
+DTSTAMP:20261205T040000Z
+DTSTART:20261205T040000Z
+DTEND:20261205T070000Z
+SUMMARY:Heyz (21+)
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=heyz-21-%7Cdeep-ellum-art
+ -co-dallas%7C10-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/deep-ellum-art-co/
+END:VEVENT
+END:VCALENDAR

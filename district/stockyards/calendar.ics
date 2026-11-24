@@ -465,15 +465,15 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/stockyards/
 END:VEVENT
 BEGIN:VEVENT
-UID:pbr-stockyards-showcase|cowtown-coliseum-fort-worth|7-30-pm-2026-12-17@
- letsdoitdallas.com
-DTSTAMP:20261218T013000Z
-DTSTART:20261218T013000Z
-DTEND:20261218T043000Z
-SUMMARY:PBR Stockyards Showcase
+UID:premier-womens-rodeo|cowtown-coliseum-fort-worth|7-00-pm-2026-12-17@let
+ sdoitdallas.com
+DTSTAMP:20261218T010000Z
+DTSTART:20261218T010000Z
+DTEND:20261218T040000Z
+SUMMARY:Premier Womens Rodeo
 LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-12-17&e=pbr-stockyards-showcase%7
- Ccowtown-coliseum-fort-worth%7C7-30-pm
+URL:https://letsdoitdallas.com/?date=2026-12-17&e=premier-womens-rodeo%7Cco
+ wtown-coliseum-fort-worth%7C7-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/stockyards/
 END:VEVENT
@@ -491,17 +491,17 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/stockyards/
 END:VEVENT
 BEGIN:VEVENT
-UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
- 12-18@letsdoitdallas.com
-DTSTAMP:20261219T013000Z
-DTSTART:20261219T013000Z
-DTEND:20261219T043000Z
-SUMMARY:Stockyards Championship Rodeo
+UID:premier-womens-rodeo|cowtown-coliseum-fort-worth|7-00-pm-2026-12-18@let
+ sdoitdallas.com
+DTSTAMP:20261219T010000Z
+DTSTART:20261219T010000Z
+DTEND:20261219T040000Z
+SUMMARY:Premier Womens Rodeo
 LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-12-18&e=stockyards-championship-r
- odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/stockyards/
+URL:https://letsdoitdallas.com/?date=2026-12-18&e=premier-womens-rodeo%7Cco
+ wtown-coliseum-fort-worth%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/stockyards/
 END:VEVENT
 BEGIN:VEVENT
 UID:kaitlin-butts-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-12-18@l
@@ -517,6 +517,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/stockyards/
 END:VEVENT
 BEGIN:VEVENT
+UID:premier-womens-rodeo|cowtown-coliseum-fort-worth|7-00-pm-2026-12-19@let
+ sdoitdallas.com
+DTSTAMP:20261220T010000Z
+DTSTART:20261220T010000Z
+DTEND:20261220T040000Z
+SUMMARY:Premier Womens Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=premier-womens-rodeo%7Cco
+ wtown-coliseum-fort-worth%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/stockyards/
+END:VEVENT
+BEGIN:VEVENT
 UID:randy-rogers-band|billy-bob-s-texas-fort-worth|7-00-pm-2026-12-19@letsd
  oitdallas.com
 DTSTAMP:20261220T010000Z
@@ -528,19 +541,6 @@ URL:https://letsdoitdallas.com/?date=2026-12-19&e=randy-rogers-band%7Cbilly
  -bob-s-texas-fort-worth%7C7-00-pm
 DESCRIPTION:Randy Rogers Band live at Billy Bob's Texas. — More: https://
  letsdoitdallas.com/district/stockyards/
-END:VEVENT
-BEGIN:VEVENT
-UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|7-30-pm-2026-
- 12-19@letsdoitdallas.com
-DTSTAMP:20261220T013000Z
-DTSTART:20261220T013000Z
-DTEND:20261220T043000Z
-SUMMARY:Stockyards Championship Rodeo
-LOCATION:Cowtown Coliseum · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-12-19&e=stockyards-championship-r
- odeo%7Ccowtown-coliseum-fort-worth%7C7-30-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/district/stockyards/
 END:VEVENT
 BEGIN:VEVENT
 UID:randy-rogers-band|billy-bob-s-fort-worth|10-00-pm-2026-12-19@letsdoitda
@@ -590,6 +590,19 @@ DTEND:20261222T213000Z
 SUMMARY:Legacy of the Longhorn
 LOCATION:Cowtown Coliseum · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-22&e=legacy-of-the-longhorn%7C
+ cowtown-coliseum-fort-worth%7C12-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/stockyards/
+END:VEVENT
+BEGIN:VEVENT
+UID:legacy-of-the-longhorn|cowtown-coliseum-fort-worth|12-30-pm-2026-12-23@
+ letsdoitdallas.com
+DTSTAMP:20261223T183000Z
+DTSTART:20261223T183000Z
+DTEND:20261223T213000Z
+SUMMARY:Legacy of the Longhorn
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-23&e=legacy-of-the-longhorn%7C
  cowtown-coliseum-fort-worth%7C12-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/stockyards/

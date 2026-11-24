@@ -9,54 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:braiding-101|310-e-parkerville-road-cedar-hill|05-00-pm-2026-11-23@lets
- doitdallas.com
-DTSTAMP:20261123T230000Z
-DTSTART:20261123T230000Z
-DTEND:20261124T020000Z
-SUMMARY:Braiding 101
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=braiding-101%7C310-e-park
- erville-road-cedar-hill%7C05-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:step-aerobics-extreme-hip-hop|310-e-parkerville-road-cedar-hill|06-00-p
- m-2026-11-23@letsdoitdallas.com
-DTSTAMP:20261124T000000Z
-DTSTART:20261124T000000Z
-DTEND:20261124T030000Z
-SUMMARY:Step Aerobics/Extreme Hip Hop
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=step-aerobics-extreme-hip
- -hop%7C310-e-parkerville-road-cedar-hill%7C06-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:volleyball-open-play|310-e-parkerville-road-cedar-hill|06-30-pm-2026-11
- -23@letsdoitdallas.com
-DTSTAMP:20261124T003000Z
-DTSTART:20261124T003000Z
-DTEND:20261124T033000Z
-SUMMARY:Volleyball: Open Play
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=volleyball-open-play%7C31
- 0-e-parkerville-road-cedar-hill%7C06-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:lp-dance-ages-3-7-|310-e-parkerville-road-cedar-hill|07-15-pm-2026-11-2
- 3@letsdoitdallas.com
-DTSTAMP:20261124T011500Z
-DTSTART:20261124T011500Z
-DTEND:20261124T041500Z
-SUMMARY:LP Dance (Ages 3-7)
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=lp-dance-ages-3-7-%7C310-
- e-parkerville-road-cedar-hill%7C07-15-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:yogalates|310-e-parkerville-road-cedar-hill|12-00-pm-2026-11-24@letsdoi
  tdallas.com
 DTSTAMP:20261124T180000Z

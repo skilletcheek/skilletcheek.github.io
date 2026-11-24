@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:iconic-altitude-guyceritops|three-links-deep-ellum-dallas|7-00-pm-2026-
- 11-23@letsdoitdallas.com
-DTSTAMP:20261124T010000Z
-DTSTART:20261124T010000Z
-DTEND:20261124T040000Z
-SUMMARY:IcoNic\, Altitude\, Guyceritops
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=iconic-altitude-guycerito
- ps%7Cthree-links-deep-ellum-dallas%7C7-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
-UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
- -pm-2026-11-23@letsdoitdallas.com
-DTSTAMP:20261124T040000Z
-DTSTART:20261124T040000Z
-DTEND:20261124T070000Z
-SUMMARY:Specialized Karaoke Night with RUEN
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=specialized-karaoke-night
- -with-ruen%7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
- allas.com/district/deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:n8noface|trees-dallas|7-30-pm-2026-11-24@letsdoitdallas.com
 DTSTAMP:20261125T013000Z
 DTSTART:20261125T013000Z
@@ -372,6 +346,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-04&e=broadway-rave-dallas%7Cde
  ep-ellum-dallas%7C9-00-pm
 DESCRIPTION:entertainment event via SeatGeek. — More: https://letsdoitdal
  las.com/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
+UID:heyz-21-|deep-ellum-art-co-dallas|10-00-pm-2026-12-04@letsdoitdallas.co
+ m
+DTSTAMP:20261205T040000Z
+DTSTART:20261205T040000Z
+DTEND:20261205T070000Z
+SUMMARY:Heyz (21+)
+LOCATION:Deep Ellum Art Co. · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=heyz-21-%7Cdeep-ellum-art
+ -co-dallas%7C10-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
 UID:upon-a-burning-body|trees-dallas|7-00-pm-2026-12-05@letsdoitdallas.com

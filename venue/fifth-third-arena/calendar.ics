@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:hoopfest-basketball-women-s-challenge-session-2|fifth-third-arena-frisc
- o|3-00-pm-2026-11-23@letsdoitdallas.com
-DTSTAMP:20261123T210000Z
-DTSTART:20261123T210000Z
-DTEND:20261124T000000Z
-SUMMARY:Hoopfest Basketball Women's Challenge Session 2
-LOCATION:Fifth Third Arena · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=hoopfest-basketball-women
- -s-challenge-session-2%7Cfifth-third-arena-frisco%7C3-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/venue/fifth-third-arena/
-END:VEVENT
-BEGIN:VEVENT
 UID:hoopfest-basketball-women-s-challenge-session-3|fifth-third-arena-frisc
  o|6-00-pm-2026-11-24@letsdoitdallas.com
 DTSTAMP:20261125T000000Z

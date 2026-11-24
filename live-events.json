@@ -1,73 +1,5 @@
 [
  {
-  "name": "38th Annual Carol of Lights",
-  "category": "festival",
-  "area": "Historic Main Street, 636 S. Main Street, Grapevine, TX, 76051, United States",
-  "city": "Grapevine",
-  "date": "2026-11-23",
-  "time": "4:00 PM",
-  "cost": null,
-  "description": "Carol of Lights is the official kickoff to the Christmas Capital of Texas® season! Gather on Historic Main Street for an enchanting evening filled with live Christmas music, dazzling lights and plenty of seasonal cheer as Grapevine officially lights up for Christmas.",
-  "url": "https://whatsupfortworth.com/event/38th-annual-carol-of-lights/",
-  "image": null
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-11-23",
-  "time": "3:00 PM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-11-23-3-pm/18251935",
-  "image": null
- },
- {
-  "name": "Big Sprouts Garden Class",
-  "category": "outdoors",
-  "area": "1700 Veterans Memorial Parkway, Lancaster",
-  "city": "Lancaster",
-  "date": "2026-11-23",
-  "time": "05:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8305",
-  "image": null,
-  "organizer": {
-   "name": "City of Lancaster",
-   "url": "https://lancaster-tx.com/"
-  }
- },
- {
-  "name": "Braiding 101",
-  "category": "family",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-11-23",
-  "time": "05:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=16698",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
- },
- {
-  "name": "Hoopfest Basketball Women's Challenge Session 2",
-  "category": "sports",
-  "area": "Fifth Third Arena, Frisco",
-  "city": "Frisco",
-  "date": "2026-11-23",
-  "time": "3:00 PM",
-  "cost": null,
-  "description": "Basketball event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/hoopfest-basketball-womens-challenge-session-2-frisco-texas-11-23-2026/event/0C00653C9FDC57CC",
-  "image": "https://s1.ticketm.net/dam/a/fb1/f82478cd-eb12-4b9c-8da8-ca10d6507fb1_RETINA_PORTRAIT_16_9.jpg"
- },
- {
   "name": "IcoNic, Altitude, Guyceritops",
   "category": "music",
   "area": "Three Links Deep Ellum, Dallas",
@@ -80,130 +12,6 @@
   "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_PORTRAIT_16_9.jpg"
  },
  {
-  "name": "LP Dance (Ages 3-7)",
-  "category": "family",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-11-23",
-  "time": "07:15 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=18152",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
- },
- {
-  "name": "Light Up Rowlett Nomination Period",
-  "category": "family",
-  "area": "Rowlett",
-  "city": "Rowlett",
-  "date": "2026-11-23",
-  "time": "See details",
-  "cost": null,
-  "description": "Runs Nov 20 – Dec 6.",
-  "url": "https://www.rowletttx.gov/Calendar.aspx?EID=17229",
-  "image": null,
-  "organizer": {
-   "name": "City of Rowlett",
-   "url": "https://rowletttx.gov/"
-  }
- },
- {
-  "name": "Mindful Me: Stretch & Breath",
-  "category": "sports",
-  "area": "1700 Veterans Memorial Parkway, Lancaster",
-  "city": "Lancaster",
-  "date": "2026-11-23",
-  "time": "06:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8330",
-  "image": null,
-  "organizer": {
-   "name": "City of Lancaster",
-   "url": "https://lancaster-tx.com/"
-  }
- },
- {
-  "name": "Mor ve Otesi in Dallas presented by One World Sound & Serdar Ilhan",
-  "category": "arts",
-  "area": "300 N Fifth Street, Garland",
-  "city": "Garland",
-  "date": "2026-11-23",
-  "time": "08:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13439",
-  "image": null,
-  "organizer": {
-   "name": "City of Garland",
-   "url": "https://garlandtx.gov/"
-  }
- },
- {
-  "name": "Next Gen Art Lab",
-  "category": "arts",
-  "area": "1700 Veterans Memorial Parkway, Lancaster",
-  "city": "Lancaster",
-  "date": "2026-11-23",
-  "time": "07:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8355",
-  "image": null,
-  "organizer": {
-   "name": "City of Lancaster",
-   "url": "https://lancaster-tx.com/"
-  }
- },
- {
-  "name": "Pajama Storytime",
-  "category": "family",
-  "area": "DeSoto",
-  "city": "DeSoto",
-  "date": "2026-11-23",
-  "time": "06:30 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.desototexas.gov/Calendar.aspx?EID=1899",
-  "image": null,
-  "organizer": {
-   "name": "City of DeSoto",
-   "url": "https://desototexas.gov/"
-  }
- },
- {
-  "name": "Puzzling Adventures Scavenger Hunt",
-  "category": "festival",
-  "area": "Puzzling Adventures Start & Finish Location, 400 Jones St, Fort Worth, 76102, United States",
-  "city": "Fort Worth",
-  "date": "2026-11-23",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "Consistently rated the best local scavenger hunt since 2016!  Puzzling Adventures are a cross between a scavenger hunt, an adventure race, and an informative self-guided walking tour. Each adventure consists of a series of locations that you are guided to where you are required t",
-  "url": "https://whatsupfortworth.com/event/puzzling-adventures-scavenger-hunt/2026-11-23/",
-  "image": null
- },
- {
-  "name": "School's Out Adventure Camp",
-  "category": "family",
-  "area": "1700 Veterans Memorial Pkwy, Lancaster",
-  "city": "Lancaster",
-  "date": "2026-11-23",
-  "time": "07:30 AM",
-  "cost": null,
-  "description": "Runs Nov 23 – Nov 25.",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8234",
-  "image": null,
-  "organizer": {
-   "name": "City of Lancaster",
-   "url": "https://lancaster-tx.com/"
-  }
- },
- {
   "name": "Specialized Karaoke Night with RUEN",
   "category": "music",
   "area": "Three Links Deep Ellum, Dallas",
@@ -214,78 +22,6 @@
   "description": "Alternative event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/specialized-karaoke-night-with-ruen-three-links-deep-ellum-tickets/14405104",
   "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Step Aerobics/Extreme Hip Hop",
-  "category": "sports",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-11-23",
-  "time": "06:00 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=18556",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
- },
- {
-  "name": "Tea Around Town® Dallas",
-  "category": "festival",
-  "area": "Tea Around Town, 646 Main Street, Dallas, 75202, United States",
-  "city": "Dallas",
-  "date": "2026-11-23",
-  "time": "8:00 AM",
-  "cost": null,
-  "description": "Turn Dallas into your own mobile tea room! Tea Around Town Dallas brings vibrant city views and a cozy afternoon tea experience aboard our elegant double-decker bus. Sip teas, enjoy freshly prepared pastries, and take in landmarks like the Arts District, Reunion Tower, and the Da",
-  "url": "https://whatsupfortworth.com/event/tea-around-town-dallas/2026-11-23/",
-  "image": null
- },
- {
-  "name": "The Big Laugh Open Mic",
-  "category": "arts",
-  "area": "Big Laugh Comedy Club – Fort Worth, 604 Main St, Suite 100, Fort Worth, TX, 76102, United States",
-  "city": "Fort Worth",
-  "date": "2026-11-23",
-  "time": "8:00 PM",
-  "cost": null,
-  "description": "Have you wondered to yourself, “where can I go on a Monday to get a good laugh?” Look no further because we have the spot for you. The Big Laugh Open Mic is a perfect setting for anyone who is looking to laugh and have a good time.  So grab your grandma or your side piece and hea",
-  "url": "https://whatsupfortworth.com/event/the-big-laugh-open-mic/2026-11-23/",
-  "image": null
- },
- {
-  "name": "Turkey Bowl - Flag Football with McKinney Police",
-  "category": "family",
-  "area": "1 Duvall St., McKinney",
-  "city": "McKinney",
-  "date": "2026-11-23",
-  "time": "08:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.mckinneytexas.org/Calendar.aspx?EID=37187",
-  "image": null,
-  "organizer": {
-   "name": "City of McKinney",
-   "url": "https://mckinneytexas.org/"
-  }
- },
- {
-  "name": "Volleyball: Open Play",
-  "category": "sports",
-  "area": "310 E. Parkerville Road, Cedar Hill",
-  "city": "Cedar Hill",
-  "date": "2026-11-23",
-  "time": "06:30 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=19610",
-  "image": null,
-  "organizer": {
-   "name": "City of Cedar Hill",
-   "url": "https://cedarhilltx.com/"
-  }
  },
  {
   "name": "AT&T Stadium VIP Guided Tour",
@@ -2192,18 +1928,6 @@
   "image": null
  },
  {
-  "name": "AT&T Stadium Self Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-11-27",
-  "time": "11:00 AM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-self-guided-tour-tickets/stadium-tours/2026-11-27-11-am/18595087",
-  "image": null
- },
- {
   "name": "AT&T Stadium VIP Guided Tour",
   "category": "sports",
   "area": "AT&T Stadium, Arlington",
@@ -2213,6 +1937,18 @@
   "cost": null,
   "description": "stadium tours event via SeatGeek.",
   "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-11-27-9-15-am/18251941",
+  "image": null
+ },
+ {
+  "name": "AT&T Stadium VIP Guided Tour",
+  "category": "sports",
+  "area": "AT&T Stadium, Arlington",
+  "city": "Arlington",
+  "date": "2026-11-27",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "stadium tours event via SeatGeek.",
+  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-11-27-11-am/18251943",
   "image": null
  },
  {
@@ -6606,12 +6342,28 @@
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949014205486"
  },
  {
+  "name": "Portland Timbers at FC Dallas - MLS Cup Round 1 (Gm 3, HG 2)",
+  "category": "sports",
+  "area": "Toyota Stadium, Frisco",
+  "city": "Frisco",
+  "date": "2026-12-02",
+  "time": "3:30 AM",
+  "cost": null,
+  "description": "mls event via SeatGeek.",
+  "url": "https://seatgeek.com/fc-dallas-tickets/mls/2026-12-02-3-30-am/18406935",
+  "image": null,
+  "organizer": {
+   "name": "FC Dallas",
+   "url": "https://www.fcdallas.com"
+  }
+ },
+ {
   "name": "Portland Timbers at FC Dallas: Western Conference Round One (Home Game 2, If Necessary)",
   "category": "sports",
   "area": "Toyota Stadium, Frisco",
   "city": "Frisco",
   "date": "2026-12-02",
-  "time": "See details",
+  "time": "7:00 PM",
   "cost": null,
   "description": "Soccer event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7OAt",
@@ -7954,6 +7706,18 @@
   "image": null
  },
  {
+  "name": "Asif Ali",
+  "category": "arts",
+  "area": "Hyena's Comedy Nightclub - Dallas, Dallas",
+  "city": "Dallas",
+  "date": "2026-12-04",
+  "time": "10:00 PM",
+  "cost": null,
+  "description": "comedy event via SeatGeek.",
+  "url": "https://seatgeek.com/asif-ali-tickets/comedy/2026-12-04-10-pm/18781588",
+  "image": null
+ },
+ {
   "name": "Avant Chamber Ballet - The Nutcracker",
   "category": "arts",
   "area": "Moody Performance Hall, Dallas",
@@ -8126,6 +7890,18 @@
   "image": null
  },
  {
+  "name": "Dedrick Flynn",
+  "category": "arts",
+  "area": "Hyena's Comedy Night Club - Fort Worth, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-12-04",
+  "time": "10:00 PM",
+  "cost": null,
+  "description": "comedy event via SeatGeek.",
+  "url": "https://seatgeek.com/dedrick-flynn-tickets/comedy/2026-12-04-10-pm/18569494",
+  "image": null
+ },
+ {
   "name": "Deejay AL at CTRL Room 12.4.26",
   "category": "nightlife",
   "area": "CTRL Room, Dallas",
@@ -8135,7 +7911,7 @@
   "cost": null,
   "description": "Ages 18+.",
   "url": "https://speakeasygo.com/CTRL-Room-Dallas/Deejay-AL-at-CTRL-Room-12.4.26?eid=EVE-SUHOMI",
-  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6af1aef2fefb7472c94cb683_6ae0de7d7cc0b421c360063c_0iJFw-1791495300563-l2Hp.webp",
+  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6b04f18bb3d315632e68f7bc_9blPr-1795486090591-iTMP.jpeg",
   "organizer": {
    "name": "CTRL Room",
    "url": "https://www.ctrlroomdallas.com/"
@@ -8196,6 +7972,18 @@
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
   }
+ },
+ {
+  "name": "Heyz (21+)",
+  "category": "music",
+  "area": "Deep Ellum Art Co., Dallas",
+  "city": "Dallas",
+  "date": "2026-12-04",
+  "time": "10:00 PM",
+  "cost": null,
+  "description": "concert event via SeatGeek.",
+  "url": "https://seatgeek.com/heyz-tickets/dallas-texas-deep-ellum-art-co-2026-12-04-10-pm/concert/18825560",
+  "image": null
  },
  {
   "name": "Holiday Lights in the Park",
@@ -8346,7 +8134,7 @@
   "time": "7:30 PM",
   "cost": null,
   "description": "broadway event via SeatGeek.",
-  "url": "https://seatgeek.com/mamma-mia-tickets/broadway/2026-12-04-7-30-pm/18302164",
+  "url": "https://seatgeek.com/mamma-mia-tickets/broadway/2026-12-04-7-30-pm/18101229",
   "image": null
  },
  {
@@ -12496,16 +12284,16 @@
   "image": "https://s1.ticketm.net/dam/a/e6e/0eb80e8b-1230-420e-be9a-913ee3362e6e_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "PBR Stockyards Showcase",
+  "name": "Premier Womens Rodeo",
   "category": "festival",
   "area": "Cowtown Coliseum, Fort Worth",
   "city": "Fort Worth",
   "date": "2026-12-17",
-  "time": "7:30 PM",
+  "time": "7:00 PM",
   "cost": null,
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OprZ",
-  "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
+  "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
   "name": "Raven: Second To None Live - 18+ Event",
@@ -12732,6 +12520,30 @@
   "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "Gabriel Iglesias",
+  "category": "arts",
+  "area": "Addison Improv, Addison",
+  "city": "Addison",
+  "date": "2026-12-18",
+  "time": "6:00 PM",
+  "cost": 67,
+  "description": "Comedy event via Ticketmaster.",
+  "url": "https://www.ticketweb.com/event/gabriel-iglesias-addison-improv-tickets/15059993",
+  "image": "https://s1.ticketm.net/dam/a/f02/33a32096-d2fb-45cf-9d95-b71260f94f02_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "Gabriel Iglesias",
+  "category": "arts",
+  "area": "Addison Improv, Addison",
+  "city": "Addison",
+  "date": "2026-12-18",
+  "time": "9:00 PM",
+  "cost": 67,
+  "description": "Comedy event via Ticketmaster.",
+  "url": "https://www.ticketweb.com/event/gabriel-iglesias-addison-improv-tickets/15060013",
+  "image": "https://s1.ticketm.net/dam/a/f02/33a32096-d2fb-45cf-9d95-b71260f94f02_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
   "name": "Hayes Carll - Grateful for Christmas Tour - Night 1",
   "category": "music",
   "area": "The Kessler Theater, Oak Cliff, Dallas",
@@ -12816,6 +12628,18 @@
   "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "Premier Womens Rodeo",
+  "category": "festival",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-12-18",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "Live event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYp7",
+  "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
   "name": "Robert Earl Keen",
   "category": "music",
   "area": "House of Blues Dallas , Dallas",
@@ -12826,18 +12650,6 @@
   "description": "Country event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/robert-earl-keen-dallas-texas-12-18-2026/event/0C00653EC7BCBBB5",
   "image": "https://s1.ticketm.net/dam/a/d12/4ccbce5b-9d33-43ad-9da4-d33fe89e5d12_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Stockyards Championship Rodeo",
-  "category": "sports",
-  "area": "Cowtown Coliseum, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-12-18",
-  "time": "7:30 PM",
-  "cost": null,
-  "description": "Miscellaneous event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYp7",
-  "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
   "name": "Straight Tequila Night - AN EVENING WITH",
@@ -13096,6 +12908,30 @@
   "image": "https://s1.ticketm.net/dam/a/bd6/32e3c503-5c23-4d1b-96fe-887a218c0bd6_1035051_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "Gabriel Iglesias",
+  "category": "arts",
+  "area": "Addison Improv, Addison",
+  "city": "Addison",
+  "date": "2026-12-19",
+  "time": "5:00 PM",
+  "cost": 67,
+  "description": "Comedy event via Ticketmaster.",
+  "url": "https://www.ticketweb.com/event/gabriel-iglesias-addison-improv-tickets/15060023",
+  "image": "https://s1.ticketm.net/dam/a/f02/33a32096-d2fb-45cf-9d95-b71260f94f02_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "Gabriel Iglesias",
+  "category": "arts",
+  "area": "Addison Improv, Addison",
+  "city": "Addison",
+  "date": "2026-12-19",
+  "time": "8:00 PM",
+  "cost": 67,
+  "description": "Comedy event via Ticketmaster.",
+  "url": "https://www.ticketweb.com/event/gabriel-iglesias-addison-improv-tickets/15060003",
+  "image": "https://s1.ticketm.net/dam/a/f02/33a32096-d2fb-45cf-9d95-b71260f94f02_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
   "name": "Grief Sucks: A One Man Show By KevOnStage",
   "category": "arts",
   "area": "House of Blues Dallas , Dallas",
@@ -13196,6 +13032,18 @@
   "image": "https://s1.ticketm.net/dam/a/238/b3bb5076-6b92-45d8-b5a5-e5e700a50238_RETINA_PORTRAIT_16_9.jpg"
  },
  {
+  "name": "Premier Womens Rodeo",
+  "category": "festival",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-12-19",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "Live event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYpA",
+  "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
   "name": "Randy Rogers Band",
   "category": "festival",
   "area": "Billy Bob's, Fort Worth",
@@ -13230,18 +13078,6 @@
   "description": "Country event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/robert-earl-keen-fort-worth-texas-12-19-2026/event/0C00653CECA0CABD",
   "image": "https://s1.ticketm.net/dam/a/d12/4ccbce5b-9d33-43ad-9da4-d33fe89e5d12_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Stockyards Championship Rodeo",
-  "category": "sports",
-  "area": "Cowtown Coliseum, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-12-19",
-  "time": "7:30 PM",
-  "cost": null,
-  "description": "Miscellaneous event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OYpA",
-  "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
   "name": "Stone Cold and the Jackal",
@@ -13800,6 +13636,70 @@
   "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg"
  },
  {
+  "name": "A Christmas Carol",
+  "category": "festival",
+  "area": "Wyly Theatre, Dallas",
+  "city": "Dallas",
+  "date": "2026-12-22",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Holiday event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvkvs",
+  "image": "https://s1.ticketm.net/dam/a/ad0/9e298f24-e4c3-4bdf-9cd1-b2cf1058dad0_1364211_RETINA_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Cirque Musica",
+  "category": "arts",
+  "area": "Margot and Bill Winspear Opera House, Dallas",
+  "city": "Dallas",
+  "date": "2026-12-22",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Performance Art event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZ8uP",
+  "image": "https://s1.ticketm.net/dam/a/b5c/53a0549e-068e-42f4-ac7c-ebcdaa592b5c_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "Dallas Stars vs. Calgary Flames",
+  "category": "sports",
+  "area": "American Airlines Center, Dallas",
+  "city": "Dallas",
+  "date": "2026-12-22",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "Hockey event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/dallas-stars-vs-calgary-flames-dallas-texas-12-22-2026/event/0C0064EDD91AA0E7",
+  "image": "https://s1.ticketm.net/dam/a/8e2/21595241-e1e4-436b-b8c1-413f429288e2_RETINA_PORTRAIT_16_9.jpg",
+  "organizer": {
+   "name": "Dallas Stars",
+   "url": "https://www.nhl.com/stars"
+  }
+ },
+ {
+  "name": "Hunxho - 2Night Only Tour",
+  "category": "music",
+  "area": "House of Blues Dallas , Dallas",
+  "city": "Dallas",
+  "date": "2026-12-22",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "Hip-Hop/Rap event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/hunxho-2night-only-tour-dallas-texas-12-22-2026/event/0C006536D8D4F47D",
+  "image": "https://s1.ticketm.net/dam/a/970/76b9d21a-ce0e-48ba-9aa1-a8225049c970_RETINA_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Landon Talks 'Twas the Night Before Christmas, Y'all: A Southern Christmas Comedy Show",
+  "category": "festival",
+  "area": "Addison Improv, Addison",
+  "city": "Addison",
+  "date": "2026-12-22",
+  "time": "7:30 PM",
+  "cost": 38,
+  "description": "Live event via Ticketmaster.",
+  "url": "https://www.ticketweb.com/event/landon-talks-twas-the-night-addison-improv-tickets/15064613",
+  "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
   "name": "Legacy of the Longhorn",
   "category": "festival",
   "area": "Cowtown Coliseum, Fort Worth",
@@ -13822,6 +13722,22 @@
   "description": "Basketball event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7AAs",
   "image": "https://s1.ticketm.net/dam/c/093/c74cfd95-af21-4e64-9f85-47677b951093_105651_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "SMU Mustangs Mens Basketball vs. Oklahoma Sooners Mens Basketball",
+  "category": "sports",
+  "area": "Moody Coliseum, Dallas",
+  "city": "Dallas",
+  "date": "2026-12-22",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Basketball event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P3Og",
+  "image": "https://s1.ticketm.net/dam/a/0ea/ad83d421-7d0a-4603-a0b5-7c2ed58a90ea_245261_TABLET_LANDSCAPE_16_9.jpg",
+  "organizer": {
+   "name": "SMU Mustangs",
+   "url": "https://smumustangs.com"
+  }
  },
  {
   "name": "TCU Horned Frogs Mens Basketball vs. Houston Christian Huskies Mens Basketball",
@@ -13850,5 +13766,65 @@
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pyfk",
   "image": "https://s1.ticketm.net/dam/c/2a8/2e8badd2-d540-49e6-9273-09e813c412a8_105741_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "Texas Ballet Theater: The Nutcracker",
+  "category": "arts",
+  "area": "Bass Performance Hall, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-12-22",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "Live event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pyfa",
+  "image": "https://s1.ticketm.net/dam/c/2a8/2e8badd2-d540-49e6-9273-09e813c412a8_105741_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "The Phantom of the Opera (Touring)",
+  "category": "arts",
+  "area": "Music Hall At Fair Park, Dallas",
+  "city": "Dallas",
+  "date": "2026-12-22",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Theatre event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/the-phantom-of-the-opera-touring-dallas-texas-12-22-2026/event/0C0064BCBEACB62D",
+  "image": "https://s1.ticketm.net/dam/a/1c8/4c6416b3-a0d2-41ac-a495-e40cae8581c8_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "Legacy of the Longhorn",
+  "category": "festival",
+  "area": "Cowtown Coliseum, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-12-23",
+  "time": "12:30 PM",
+  "cost": null,
+  "description": "Live event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed84",
+  "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Texas Ballet Theater: The Nutcracker",
+  "category": "arts",
+  "area": "Bass Performance Hall, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-12-23",
+  "time": "2:00 PM",
+  "cost": null,
+  "description": "Live event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PyfF",
+  "image": "https://s1.ticketm.net/dam/c/2a8/2e8badd2-d540-49e6-9273-09e813c412a8_105741_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "Will Holiday's Grand Ol' Christmas Show",
+  "category": "arts",
+  "area": "House of Blues Dallas , Dallas",
+  "city": "Dallas",
+  "date": "2026-12-23",
+  "time": "5:00 PM",
+  "cost": null,
+  "description": "Variety event via Ticketmaster.",
+  "url": "https://www.ticketmaster.com/will-holidays-grand-ol-christmas-show-dallas-texas-12-23-2026/event/0C0064CA0668F4BE",
+  "image": "https://s1.ticketm.net/dam/c/360/89e64469-b2d6-421b-9237-94493e677360_105971_RETINA_LANDSCAPE_16_9.jpg"
  }
 ]

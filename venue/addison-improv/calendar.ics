@@ -269,6 +269,32 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
 END:VEVENT
 BEGIN:VEVENT
+UID:gabriel-iglesias|addison-improv-addison|6-00-pm-2026-12-18@letsdoitdall
+ as.com
+DTSTAMP:20261219T000000Z
+DTSTART:20261219T000000Z
+DTEND:20261219T030000Z
+SUMMARY:Gabriel Iglesias
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-18&e=gabriel-iglesias%7Caddiso
+ n-improv-addison%7C6-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:gabriel-iglesias|addison-improv-addison|9-00-pm-2026-12-18@letsdoitdall
+ as.com
+DTSTAMP:20261219T030000Z
+DTSTART:20261219T030000Z
+DTEND:20261219T060000Z
+SUMMARY:Gabriel Iglesias
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-18&e=gabriel-iglesias%7Caddiso
+ n-improv-addison%7C9-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
 UID:stone-cold-and-the-jackal|addison-improv-addison|1-00-pm-2026-12-19@let
  sdoitdallas.com
 DTSTAMP:20261219T190000Z
@@ -282,6 +308,32 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
 END:VEVENT
 BEGIN:VEVENT
+UID:gabriel-iglesias|addison-improv-addison|5-00-pm-2026-12-19@letsdoitdall
+ as.com
+DTSTAMP:20261219T230000Z
+DTSTART:20261219T230000Z
+DTEND:20261220T020000Z
+SUMMARY:Gabriel Iglesias
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=gabriel-iglesias%7Caddiso
+ n-improv-addison%7C5-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:gabriel-iglesias|addison-improv-addison|8-00-pm-2026-12-19@letsdoitdall
+ as.com
+DTSTAMP:20261220T020000Z
+DTSTART:20261220T020000Z
+DTEND:20261220T050000Z
+SUMMARY:Gabriel Iglesias
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-19&e=gabriel-iglesias%7Caddiso
+ n-improv-addison%7C8-00-pm
+DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
 UID:flip-phone-lord-of-the-rings-yule-drag-brunch|addison-improv-addison|2-
  00-pm-2026-12-20@letsdoitdallas.com
 DTSTAMP:20261220T200000Z
@@ -291,6 +343,21 @@ SUMMARY:Flip Phone: Lord of the Rings Yule Drag Brunch
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-20&e=flip-phone-lord-of-the-ri
  ngs-yule-drag-brunch%7Caddison-improv-addison%7C2-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/addison-improv/
+END:VEVENT
+BEGIN:VEVENT
+UID:landon-talks-twas-the-night-before-christmas-y-all-a-southern-christmas
+ -comedy-show|addison-improv-addison|7-30-pm-2026-12-22@letsdoitdallas.com
+DTSTAMP:20261223T013000Z
+DTSTART:20261223T013000Z
+DTEND:20261223T043000Z
+SUMMARY:Landon Talks 'Twas the Night Before Christmas\, Y'all: A Southern C
+ hristmas Comedy Show
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-22&e=landon-talks-twas-the-nig
+ ht-before-christmas-y-all-a-southern-christmas-comedy-show%7Caddison-impro
+ v-addison%7C7-30-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/addison-improv/
 END:VEVENT

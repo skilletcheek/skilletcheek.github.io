@@ -10,42 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
- ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-23@lets
- doitdallas.com
-DTSTAMP:20261123T160000Z
-DTSTART:20261123T160000Z
-DTEND:20261123T190000Z
-SUMMARY:Puzzling Adventures Scavenger Hunt
-LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=puzzling-adventures-scave
- nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
- rth-76102-united-states%7C10-00-am
-DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
- uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
- e\, and an informative self-guided walking tour. Each adventure consists o
- f a series of locations that you are guided to where you are required t 
- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-big-laugh-open-mic|big-laugh-comedy-club-fort-worth-604-main-st-sui
- te-100-fort-worth-tx-76102-united-states|8-00-pm-2026-11-23@letsdoitdallas
- .com
-DTSTAMP:20261124T020000Z
-DTSTART:20261124T020000Z
-DTEND:20261124T050000Z
-SUMMARY:The Big Laugh Open Mic
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-23&e=the-big-laugh-open-mic%7C
- big-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102
- -united-states%7C8-00-pm
-DESCRIPTION:Have you wondered to yourself\, “where can I go on a Monday t
- o get a good laugh?” Look no further because we have the spot for you. T
- he Big Laugh Open Mic is a perfect setting for anyone who is looking to la
- ugh and have a good time.  So grab your grandma or your side piece and hea
-  — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:dock-open-mic|dock-bookshop-6637-meadowbrook-dr-fort-worth-tx-75116|7-0
  0-am-2026-11-24@letsdoitdallas.com
 DTSTAMP:20261124T130000Z
@@ -690,6 +654,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:dedrick-flynn|hyena-s-comedy-night-club-fort-worth-fort-worth|10-00-pm-
+ 2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T040000Z
+DTSTART:20261205T040000Z
+DTEND:20261205T070000Z
+SUMMARY:Dedrick Flynn
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=dedrick-flynn%7Chyena-s-c
+ omedy-night-club-fort-worth-fort-worth%7C10-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:suites-for-king-country|ariat-arena-fort-worth|7-00-pm-2026-12-05@letsd
  oitdallas.com
 DTSTAMP:20261206T010000Z
@@ -1281,6 +1258,32 @@ DTEND:20261222T230000Z
 SUMMARY:Texas Ballet Theater: The Nutcracker
 LOCATION:Bass Performance Hall · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-22&e=texas-ballet-theater-the-
+ nutcracker%7Cbass-performance-hall-fort-worth%7C2-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-ballet-theater-the-nutcracker|bass-performance-hall-fort-worth|7-
+ 00-pm-2026-12-22@letsdoitdallas.com
+DTSTAMP:20261223T010000Z
+DTSTART:20261223T010000Z
+DTEND:20261223T040000Z
+SUMMARY:Texas Ballet Theater: The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-22&e=texas-ballet-theater-the-
+ nutcracker%7Cbass-performance-hall-fort-worth%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-ballet-theater-the-nutcracker|bass-performance-hall-fort-worth|2-
+ 00-pm-2026-12-23@letsdoitdallas.com
+DTSTAMP:20261223T200000Z
+DTSTART:20261223T200000Z
+DTEND:20261223T230000Z
+SUMMARY:Texas Ballet Theater: The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-23&e=texas-ballet-theater-the-
  nutcracker%7Cbass-performance-hall-fort-worth%7C2-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
