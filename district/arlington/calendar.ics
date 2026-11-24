@@ -10,28 +10,15 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|10-00-am-2026-11-24
- @letsdoitdallas.com
-DTSTAMP:20261124T160000Z
-DTSTART:20261124T160000Z
-DTEND:20261124T190000Z
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|2-00-pm-2026-11-24@
+ letsdoitdallas.com
+DTSTAMP:20261124T200000Z
+DTSTART:20261124T200000Z
+DTEND:20261124T230000Z
 SUMMARY:AT&T Stadium VIP Guided Tour
 LOCATION:AT&T Stadium · Arlington
 URL:https://letsdoitdallas.com/?date=2026-11-24&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C10-00-am
-DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
- las.com/district/arlington/
-END:VEVENT
-BEGIN:VEVENT
-UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|12-30-pm-2026-11-24
- @letsdoitdallas.com
-DTSTAMP:20261124T183000Z
-DTSTART:20261124T183000Z
-DTEND:20261124T213000Z
-SUMMARY:AT&T Stadium VIP Guided Tour
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-24&e=at-t-stadium-vip-guided-t
- our%7Cat-t-stadium-arlington%7C12-30-pm
+ our%7Cat-t-stadium-arlington%7C2-00-pm
 DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
  las.com/district/arlington/
 END:VEVENT
@@ -673,6 +660,45 @@ URL:https://letsdoitdallas.com/?date=2026-12-04&e=tacarra-williams%7Carling
  ton-improv-arlington%7C9-45-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|9-00-am-2026-12-05@
+ letsdoitdallas.com
+DTSTAMP:20261205T150000Z
+DTSTART:20261205T150000Z
+DTEND:20261205T180000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C9-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|11-00-am-2026-12-05
+ @letsdoitdallas.com
+DTSTAMP:20261205T170000Z
+DTSTART:20261205T170000Z
+DTEND:20261205T200000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C11-00-am
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
+END:VEVENT
+BEGIN:VEVENT
+UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|1-00-pm-2026-12-05@
+ letsdoitdallas.com
+DTSTAMP:20261205T190000Z
+DTSTART:20261205T190000Z
+DTEND:20261205T220000Z
+SUMMARY:AT&T Stadium VIP Guided Tour
+LOCATION:AT&T Stadium · Arlington
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=at-t-stadium-vip-guided-t
+ our%7Cat-t-stadium-arlington%7C1-00-pm
+DESCRIPTION:stadium tours event via SeatGeek. — More: https://letsdoitdal
+ las.com/district/arlington/
 END:VEVENT
 BEGIN:VEVENT
 UID:tacarra-williams|arlington-improv-arlington|7-00-pm-2026-12-05@letsdoit

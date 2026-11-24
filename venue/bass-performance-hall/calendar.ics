@@ -87,6 +87,19 @@ DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
  om/venue/bass-performance-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:mamma-mia-fort-worth|bass-performance-hall-fort-worth|1-30-pm-2026-12-0
+ 5@letsdoitdallas.com
+DTSTAMP:20261205T193000Z
+DTSTART:20261205T193000Z
+DTEND:20261205T223000Z
+SUMMARY:Mamma Mia! - Fort Worth
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=mamma-mia-fort-worth%7Cba
+ ss-performance-hall-fort-worth%7C1-30-pm
+DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
+ om/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-nutcracker|bass-performance-hall-fort-worth|8-00-pm-2026-12-11@lets
  doitdallas.com
 DTSTAMP:20261212T020000Z

@@ -109,6 +109,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-01&e=bowling%7Cfrisco%7C01-00-
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:budget-and-audit-committee-meeting|6101-frisco-square-blvd-suite-600-fr
+ isco|04-00-pm-2026-12-01@letsdoitdallas.com
+DTSTAMP:20261201T220000Z
+DTSTART:20261201T220000Z
+DTEND:20261202T010000Z
+SUMMARY:Budget and Audit Committee Meeting
+LOCATION:6101 Frisco Square Blvd.
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=budget-and-audit-committe
+ e-meeting%7C6101-frisco-square-blvd-suite-600-frisco%7C04-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:portland-timbers-at-fc-dallas-mls-cup-round-1-gm-3-hg-2-|toyota-stadium
  -frisco|3-30-am-2026-12-02@letsdoitdallas.com
 DTSTAMP:20261202T093000Z
@@ -173,6 +185,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-03&e=plaza-live-%7C8802-4th-st
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:tbd-at-fc-dallas-mls-cup-conference-semifinals|toyota-stadium-frisco|3-
+ 30-am-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T093000Z
+DTSTART:20261205T093000Z
+DTEND:20261205T123000Z
+SUMMARY:TBD at FC Dallas - MLS Cup Conference Semifinals
+LOCATION:Toyota Stadium · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=tbd-at-fc-dallas-mls-cup-
+ conference-semifinals%7Ctoyota-stadium-frisco%7C3-30-am
+DESCRIPTION:mls event via SeatGeek. — More: https://letsdoitdallas.com/di
+ strict/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:breakfast-with-santa|8300-mckinney-rd-frisco|08-00-am-2026-12-05@letsdo
  itdallas.com
 DTSTAMP:20261205T140000Z
@@ -218,6 +243,17 @@ SUMMARY:Merry Main Street
 LOCATION:6101 Frisco Square Blvd
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=merry-main-street%7C6101-
  frisco-square-blvd-frisco%7C03-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:bowling|frisco|01-00-pm-2026-12-08@letsdoitdallas.com
+DTSTAMP:20261208T190000Z
+DTSTART:20261208T190000Z
+DTEND:20261208T220000Z
+SUMMARY:Bowling
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=bowling%7Cfrisco%7C01-00-
+ pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT

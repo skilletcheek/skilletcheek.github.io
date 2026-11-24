@@ -62,6 +62,19 @@ DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/tannahill-s-music-hall-lounge/
 END:VEVENT
 BEGIN:VEVENT
+UID:smoked-honey|tannahill-s-music-hall-lounge-fort-worth|9-00-pm-2026-12-1
+ 6@letsdoitdallas.com
+DTSTAMP:20261217T030000Z
+DTSTART:20261217T030000Z
+DTEND:20261217T060000Z
+SUMMARY:Smoked Honey
+LOCATION:Tannahill's Music Hall & Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-16&e=smoked-honey%7Ctannahill-
+ s-music-hall-lounge-fort-worth%7C9-00-pm
+DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
+ m/venue/tannahill-s-music-hall-lounge/
+END:VEVENT
+BEGIN:VEVENT
 UID:robert-earl-keen|tannahill-s-music-hall-lounge-fort-worth|8-00-pm-2026-
  12-19@letsdoitdallas.com
 DTSTAMP:20261220T020000Z
