@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Magnolia Motor Lounge — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Magnolia Motor Lounge.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:steve-helms-|-4th-wednesday|magnolia-motor-lounge-3803-southwest-blvd-f
+ ort-worth-76116-united-states|7-00-pm-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261126T010000Z
+DTSTART:20261126T010000Z
+DTEND:20261126T040000Z
+SUMMARY:STEVE HELMS | 4th Wednesday
+LOCATION:Magnolia Motor Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=steve-helms-%7C-4th-wedne
+ sday%7Cmagnolia-motor-lounge-3803-southwest-blvd-fort-worth-76116-united-s
+ tates%7C7-00-pm
+DESCRIPTION:STEVE HELMS | 4th Wednesday Every 4th Wednesday at 9:00PM   No 
+ cover / No Ticket Needed      Ages 21+ @outhouseticketsShare it and tag a
+  few friends! — More: https://letsdoitdallas.com/venue/magnolia-motor-lo
+ unge/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-dick-beldings|magnolia-motor-lounge-3803-southwest-blvd-fort-worth-
+ 76116-united-states|9-00-pm-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261126T030000Z
+DTSTART:20261126T030000Z
+DTEND:20261126T060000Z
+SUMMARY:The Dick Beldings
+LOCATION:Magnolia Motor Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=the-dick-beldings%7Cmagno
+ lia-motor-lounge-3803-southwest-blvd-fort-worth-76116-united-states%7C9-00
+ -pm
+DESCRIPTION:The Dick Beldings  Doors at 7:00 PM   $10 – Advanced GA ($15 
+ at the door) $80 – Table of 4 $120 – Table of 6  Ages 21+  @outhouseti
+ ckets Share it and tag a few friends! — More: https://letsdoitdallas.com
+ /venue/magnolia-motor-lounge/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-show-playtown|magnolia-motor-lounge-3803-southwest-blvd-fort-worth
+ -76116-united-states|9-00-pm-2026-11-26@letsdoitdallas.com
+DTSTAMP:20261127T030000Z
+DTSTART:20261127T030000Z
+DTEND:20261127T060000Z
+SUMMARY:FREE SHOW - Playtown
+LOCATION:Magnolia Motor Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=free-show-playtown%7Cmagn
+ olia-motor-lounge-3803-southwest-blvd-fort-worth-76116-united-states%7C9-0
+ 0-pm
+DESCRIPTION:FREE SHOW – Playtown Doors at 7:00 PM  – Show at 8:00 PM 
+     FREE GA   Ages 21+ — More: https://letsdoitdallas.com/venue/magnoli
+ a-motor-lounge/
+END:VEVENT
+END:VCALENDAR

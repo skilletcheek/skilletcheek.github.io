@@ -317,4 +317,30 @@ URL:https://letsdoitdallas.com/?date=2026-12-22&e=the-phantom-of-the-opera-
 DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/music-hall-at-fair-park/
 END:VEVENT
+BEGIN:VEVENT
+UID:the-phantom-of-the-opera-touring-|music-hall-at-fair-park-dallas|7-30-p
+ m-2026-12-23@letsdoitdallas.com
+DTSTAMP:20261224T013000Z
+DTSTART:20261224T013000Z
+DTEND:20261224T043000Z
+SUMMARY:The Phantom of the Opera (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-23&e=the-phantom-of-the-opera-
+ touring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/music-hall-at-fair-park/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-phantom-of-the-opera-touring-|music-hall-at-fair-park-dallas|1-30-p
+ m-2026-12-24@letsdoitdallas.com
+DTSTAMP:20261224T193000Z
+DTSTART:20261224T193000Z
+DTEND:20261224T223000Z
+SUMMARY:The Phantom of the Opera (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-24&e=the-phantom-of-the-opera-
+ touring-%7Cmusic-hall-at-fair-park-dallas%7C1-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/music-hall-at-fair-park/
+END:VEVENT
 END:VCALENDAR

@@ -10,56 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dock-open-mic|dock-bookshop-6637-meadowbrook-dr-fort-worth-tx-75116|7-0
- 0-am-2026-11-24@letsdoitdallas.com
-DTSTAMP:20261124T130000Z
-DTSTART:20261124T130000Z
-DTEND:20261124T160000Z
-SUMMARY:Dock Open Mic
-LOCATION:dock bookshop · Fort Worth Tx
-URL:https://letsdoitdallas.com/?date=2026-11-24&e=dock-open-mic%7Cdock-book
- shop-6637-meadowbrook-dr-fort-worth-tx-75116%7C7-00-am
-DESCRIPTION:The Dock open mic presents Speak And Be Published. Everyone who
-  reads gets their poem published in an anthology   June 16\, 2026 at 7:30 
- PM CDT  The Dock Bookshop  $7 — More: https://letsdoitdallas.com/distric
- t/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
- et-fort-worth-76107-united-states|10-00-am-2026-11-24@letsdoitdallas.com
-DTSTAMP:20261124T160000Z
-DTSTART:20261124T160000Z
-DTEND:20261124T190000Z
-SUMMARY:Forces at Play
-LOCATION:Fort Worth Museum of Science and History
-URL:https://letsdoitdallas.com/?date=2026-11-24&e=forces-at-play%7Cfort-wor
- th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
- -states%7C10-00-am
-DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
-  an interactive exhibit that explores the science behind some of the world
- ’s most beloved sports. Through hands-on activities and historical colle
- ctions\, visitors discover how forces like gravity\, friction\, and moment
- um impac — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
- ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-24@lets
- doitdallas.com
-DTSTAMP:20261124T160000Z
-DTSTART:20261124T160000Z
-DTEND:20261124T190000Z
-SUMMARY:Puzzling Adventures Scavenger Hunt
-LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-24&e=puzzling-adventures-scave
- nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
- rth-76102-united-states%7C10-00-am
-DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
- uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
- e\, and an informative self-guided walking tour. Each adventure consists o
- f a series of locations that you are guided to where you are required t 
- — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
  et-fort-worth-76107-united-states|10-00-am-2026-11-25@letsdoitdallas.com
 DTSTAMP:20261125T160000Z
@@ -223,6 +173,75 @@ DESCRIPTION:April 25\, 2026 – February 28\, 2027    Forces at Play is
  ’s most beloved sports. Through hands-on activities and historical colle
  ctions\, visitors discover how forces like gravity\, friction\, and moment
  um impac — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:puzzling-adventures-scavenger-hunt|puzzling-adventures-start-finish-loc
+ ation-400-jones-st-fort-worth-76102-united-states|10-00-am-2026-11-26@lets
+ doitdallas.com
+DTSTAMP:20261126T160000Z
+DTSTART:20261126T160000Z
+DTEND:20261126T190000Z
+SUMMARY:Puzzling Adventures Scavenger Hunt
+LOCATION:Puzzling Adventures Start & Finish Location · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=puzzling-adventures-scave
+ nger-hunt%7Cpuzzling-adventures-start-finish-location-400-jones-st-fort-wo
+ rth-76102-united-states%7C10-00-am
+DESCRIPTION:Consistently rated the best local scavenger hunt since 2016!  P
+ uzzling Adventures are a cross between a scavenger hunt\, an adventure rac
+ e\, and an informative self-guided walking tour. Each adventure consists o
+ f a series of locations that you are guided to where you are required t 
+ — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:national-multi-cultural-western-heritage-museum|the-national-multicultu
+ ral-western-heritage-museum-2201-dottie-lynn-pkwy-suite-115-fort-worth-761
+ 20-united-states|11-00-am-2026-11-26@letsdoitdallas.com
+DTSTAMP:20261126T170000Z
+DTSTART:20261126T170000Z
+DTEND:20261126T200000Z
+SUMMARY:National Multi Cultural Western Heritage Museum
+LOCATION:The National Multicultural Western Heritage Museum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=national-multi-cultural-w
+ estern-heritage-museum%7Cthe-national-multicultural-western-heritage-museu
+ m-2201-dottie-lynn-pkwy-suite-115-fort-worth-76120-united-states%7C11-00-a
+ m
+DESCRIPTION:The primary objective of the National Multicultural Western Her
+ itage Museum and Hall of Fame is to offer the visitor a true and complete 
+ historical perspective of the people and activities that built the unique 
+ culture of the American West. The work of artists who documented the — M
+ ore: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:come-to-good-thanksgiving-sunset-viewing|keith-house-4814-edwards-ranch
+ -rd-fort-worth-tx-76109|5-23-pm-2026-11-26@letsdoitdallas.com
+DTSTAMP:20261126T232300Z
+DTSTART:20261126T232300Z
+DTEND:20261127T022300Z
+SUMMARY:Come to Good: Thanksgiving Sunset Viewing
+LOCATION:Keith House · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=come-to-good-thanksgiving
+ -sunset-viewing%7Ckeith-house-4814-edwards-ranch-rd-fort-worth-tx-76109%7C
+ 5-23-pm
+DESCRIPTION:Whoever’s at your table is welcome at ours. Spend Thanksgivin
+ g evening beneath James Turrell’s Skyspace\, Come to Good. Sunset viewin
+ gs also run Wednesday 11/25\, Friday 11/27\, and a bonus Saturday viewing 
+ on 11/28.  As the day passes from dusk to dark\, the sky seen through the 
+ ope — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:free-show-playtown|magnolia-motor-lounge-3803-southwest-blvd-fort-worth
+ -76116-united-states|9-00-pm-2026-11-26@letsdoitdallas.com
+DTSTAMP:20261127T030000Z
+DTSTART:20261127T030000Z
+DTEND:20261127T060000Z
+SUMMARY:FREE SHOW - Playtown
+LOCATION:Magnolia Motor Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=free-show-playtown%7Cmagn
+ olia-motor-lounge-3803-southwest-blvd-fort-worth-76116-united-states%7C9-0
+ 0-pm
+DESCRIPTION:FREE SHOW – Playtown Doors at 7:00 PM  – Show at 8:00 PM 
+     FREE GA   Ages 21+ — More: https://letsdoitdallas.com/district/fort
+ -worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|3-00-pm-2026-11-27@
@@ -691,6 +710,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=mamma-mia-fort-worth%7Cba
  ss-performance-hall-fort-worth%7C1-30-pm
 DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
  om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-fort-worth|i-m-terrell-performing-arts-center-fort-worth
+ |2-00-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T200000Z
+DTSTART:20261205T200000Z
+DTEND:20261205T230000Z
+SUMMARY:The Nutcracker - Fort Worth
+LOCATION:I.M. Terrell Performing Arts Center · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=the-nutcracker-fort-worth
+ %7Ci-m-terrell-performing-arts-center-fort-worth%7C2-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:suites-for-king-country|ariat-arena-fort-worth|7-00-pm-2026-12-05@letsd
@@ -1323,6 +1355,32 @@ DTEND:20261223T230000Z
 SUMMARY:Texas Ballet Theater: The Nutcracker
 LOCATION:Bass Performance Hall · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-23&e=texas-ballet-theater-the-
+ nutcracker%7Cbass-performance-hall-fort-worth%7C2-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker|bass-performance-hall-fort-worth|7-00-pm-2026-12-23@lets
+ doitdallas.com
+DTSTAMP:20261224T010000Z
+DTSTART:20261224T010000Z
+DTEND:20261224T040000Z
+SUMMARY:The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-23&e=the-nutcracker%7Cbass-per
+ formance-hall-fort-worth%7C7-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-ballet-theater-the-nutcracker|bass-performance-hall-fort-worth|2-
+ 00-pm-2026-12-24@letsdoitdallas.com
+DTSTAMP:20261224T200000Z
+DTSTART:20261224T200000Z
+DTEND:20261224T230000Z
+SUMMARY:Texas Ballet Theater: The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-24&e=texas-ballet-theater-the-
  nutcracker%7Cbass-performance-hall-fort-worth%7C2-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/

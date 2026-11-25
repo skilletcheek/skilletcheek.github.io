@@ -349,6 +349,20 @@ DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
  doitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:royal-dance-ballet-academy-the-nutcracker-richardson|bank-of-america-th
+ eatre-at-eisemann-center-richardson|2-00-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T200000Z
+DTSTART:20261205T200000Z
+DTEND:20261205T230000Z
+SUMMARY:Royal Dance Ballet Academy - The Nutcracker - Richardson
+LOCATION:Bank of America Theatre at Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=royal-dance-ballet-academ
+ y-the-nutcracker-richardson%7Cbank-of-america-theatre-at-eisemann-center-r
+ ichardson%7C2-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:natasha-leggero|addison-improv-addison|7-00-pm-2026-12-05@letsdoitdalla
  s.com
 DTSTAMP:20261206T010000Z
@@ -581,6 +595,19 @@ LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-22&e=landon-talks-twas-the-nig
  ht-before-christmas-y-all-a-southern-christmas-comedy-show%7Caddison-impro
  v-addison%7C7-30-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:fresh-faces-fest|addison-improv-addison|7-00-pm-2026-12-23@letsdoitdall
+ as.com
+DTSTAMP:20261224T010000Z
+DTSTART:20261224T010000Z
+DTEND:20261224T040000Z
+SUMMARY:Fresh Faces Fest
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-23&e=fresh-faces-fest%7Caddiso
+ n-improv-addison%7C7-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
 END:VEVENT

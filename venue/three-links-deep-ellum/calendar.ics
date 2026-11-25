@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:the-ox-and-the-waymakers|three-links-deep-ellum-dallas|10-00-pm-2026-11
- -24@letsdoitdallas.com
-DTSTAMP:20261125T040000Z
-DTSTART:20261125T040000Z
-DTEND:20261125T070000Z
-SUMMARY:The Ox and The Waymakers
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-24&e=the-ox-and-the-waymakers%
- 7Cthree-links-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Blues event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/three-links-deep-ellum/
-END:VEVENT
-BEGIN:VEVENT
 UID:randy-s-cheeseburger-picnic-trailer-park-boys-live-in-dallas-tx|three-l
  inks-deep-ellum-dallas|8-00-pm-2026-11-25@letsdoitdallas.com
 DTSTAMP:20261126T020000Z

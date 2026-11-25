@@ -61,6 +61,19 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/city/grand-prairie/
 END:VEVENT
 BEGIN:VEVENT
+UID:cirque-italia-grand-prairie|traders-village-grand-prairie-grand-prairie
+ |1-30-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T193000Z
+DTSTART:20261205T193000Z
+DTEND:20261205T223000Z
+SUMMARY:Cirque Italia - Grand Prairie
+LOCATION:Traders Village - Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=cirque-italia-grand-prair
+ ie%7Ctraders-village-grand-prairie-grand-prairie%7C1-30-pm
+DESCRIPTION:circus event via SeatGeek. — More: https://letsdoitdallas.com
+ /city/grand-prairie/
+END:VEVENT
+BEGIN:VEVENT
 UID:sam-barber|texas-trust-cu-theatre-grand-prairie|7-00-pm-2026-12-05@lets
  doitdallas.com
 DTSTAMP:20261206T010000Z

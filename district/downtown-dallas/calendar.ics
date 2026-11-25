@@ -11,35 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-11-24@letsdoitdallas.com
-DTSTAMP:20261124T140000Z
-DTSTART:20261124T140000Z
-DTEND:20261124T170000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-24&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:imminence-axis-mundi-tour-north-america-2026|south-side-ballroom-dallas
- |7-00-pm-2026-11-24@letsdoitdallas.com
-DTSTAMP:20261125T010000Z
-DTSTART:20261125T010000Z
-DTEND:20261125T040000Z
-SUMMARY:Imminence- Axis Mundi Tour: North America 2026
-LOCATION:South Side Ballroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-24&e=imminence-axis-mundi-tour
- -north-america-2026%7Csouth-side-ballroom-dallas%7C7-00-pm
-DESCRIPTION:Metal event via Ticketmaster. — More: https://letsdoitdallas.
- com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-11-25@letsdoitdallas.com
 DTSTAMP:20261125T140000Z
 DTSTART:20261125T140000Z
@@ -1085,6 +1056,32 @@ LOCATION:House of Blues Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-23&e=will-holiday-s-grand-ol-c
  hristmas-show%7Chouse-of-blues-dallas-dallas%7C5-00-pm
 DESCRIPTION:Variety event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-phantom-of-the-opera-touring-|music-hall-at-fair-park-dallas|7-30-p
+ m-2026-12-23@letsdoitdallas.com
+DTSTAMP:20261224T013000Z
+DTSTART:20261224T013000Z
+DTEND:20261224T043000Z
+SUMMARY:The Phantom of the Opera (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-23&e=the-phantom-of-the-opera-
+ touring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-phantom-of-the-opera-touring-|music-hall-at-fair-park-dallas|1-30-p
+ m-2026-12-24@letsdoitdallas.com
+DTSTAMP:20261224T193000Z
+DTSTART:20261224T193000Z
+DTEND:20261224T223000Z
+SUMMARY:The Phantom of the Opera (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-24&e=the-phantom-of-the-opera-
+ touring-%7Cmusic-hall-at-fair-park-dallas%7C1-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

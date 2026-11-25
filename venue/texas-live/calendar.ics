@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Texas Live! — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Texas Live!.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:martin-la-galla-y-su-paraiso-de-durango|texas-live-1650-east-randol-mil
+ l-road-arlington-76011-united-states|8-00-pm-2026-11-25@letsdoitdallas.com
+DTSTAMP:20261126T020000Z
+DTSTART:20261126T020000Z
+DTEND:20261126T050000Z
+SUMMARY:Martin La Galla y su Paraiso De Durango
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-25&e=martin-la-galla-y-su-para
+ iso-de-durango%7Ctexas-live-1650-east-randol-mill-road-arlington-76011-uni
+ ted-states%7C8-00-pm
+DESCRIPTION:Celebrate Thanksgiving Eve at PBR Texas with live music\, cold 
+ drinks\, and a night of nonstop fun! — More: https://letsdoitdallas.com/
+ venue/texas-live/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-vs-philadelphia|texas-live-1650-east-randol-mill-road-arlington-
+ 76011-united-states|3-30-pm-2026-11-26@letsdoitdallas.com
+DTSTAMP:20261126T213000Z
+DTSTART:20261126T213000Z
+DTEND:20261127T003000Z
+SUMMARY:Dallas vs Philadelphia
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=dallas-vs-philadelphia%7C
+ texas-live-1650-east-randol-mill-road-arlington-76011-united-states%7C3-30
+ -pm
+DESCRIPTION:The 2026 Dallas football season is coming—reserve your table 
+ now for the ultimate game day experience. — More: https://letsdoitdallas
+ .com/venue/texas-live/
+END:VEVENT
+BEGIN:VEVENT
+UID:waka-flocka-flame|texas-live-arlington|7-00-pm-2026-12-03@letsdoitdalla
+ s.com
+DTSTAMP:20261204T010000Z
+DTSTART:20261204T010000Z
+DTEND:20261204T040000Z
+SUMMARY:Waka Flocka Flame
+LOCATION:Texas Live! · Arlington
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=waka-flocka-flame%7Ctexas
+ -live-arlington%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/texas-live/
+END:VEVENT
+END:VCALENDAR
