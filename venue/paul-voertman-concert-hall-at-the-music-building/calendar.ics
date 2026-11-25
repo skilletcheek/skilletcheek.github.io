@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Paul Voertman Concert Hall at the Music Building — Lets Do I
+ t Dallas
+X-WR-CALDESC:Upcoming shows at Paul Voertman Concert Hall at the Music Buil
+ ding.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:doctoral-recital-chelsea-day-soprano|paul-voertman-concert-hall-at-the-
+ music-building-denton|6-30-pm-2026-11-30@letsdoitdallas.com
+DTSTAMP:20261201T003000Z
+DTSTART:20261201T003000Z
+DTEND:20261201T033000Z
+SUMMARY:Doctoral Recital: Chelsea Day\, soprano
+LOCATION:Paul Voertman Concert Hall at the Music Building · Denton
+URL:https://letsdoitdallas.com/?date=2026-11-30&e=doctoral-recital-chelsea-
+ day-soprano%7Cpaul-voertman-concert-hall-at-the-music-building-denton%7C6-
+ 30-pm
+DESCRIPTION:Important Links and Information      Program    Please note\, t
+ his program is subject to change. Final program will be available by the d
+ ay of the performance.      Livestream is not available for this event.   
+     This event is free and open to the public with general seating. — Mo
+ re: https://letsdoitdallas.com/venue/paul-voertman-concert-hall-at-the-mus
+ ic-building/
+END:VEVENT
+END:VCALENDAR

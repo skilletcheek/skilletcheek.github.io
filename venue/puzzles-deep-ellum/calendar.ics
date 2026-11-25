@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Puzzles Deep Ellum — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Puzzles Deep Ellum.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:born-of-osiris-and-miss-may-i-with-convictions-and-downswing|puzzles-de
+ ep-ellum-dallas|7-00-pm-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261130T010000Z
+DTSTART:20261130T010000Z
+DTEND:20261130T040000Z
+SUMMARY:Born Of Osiris and Miss May I with Convictions and Downswing
+LOCATION:Puzzles Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=born-of-osiris-and-miss-m
+ ay-i-with-convictions-and-downswing%7Cpuzzles-deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/puzzles-deep-ellum/
+END:VEVENT
+END:VCALENDAR
