@@ -2681,7 +2681,7 @@ def _group_repeats(events):
 
 
 def _hub_html(title, desc, canonical, events, app_link, heading, note, path,
-              cal_url=None):
+              cal_url=None, extra=""):
     rows = "\n".join(_hub_row(e, count=n, last=last)
                      for e, n, last in _group_repeats(events)[:60]) \
         or "<li>Fresh listings load nightly — check the live radar.</li>"
@@ -2721,8 +2721,57 @@ def _hub_html(title, desc, canonical, events, app_link, heading, note, path,
 <a class="cta" href="{app_link}">( OPEN THE LIVE RADAR ↗ )</a>
 {subscribe}
 <ul>{rows}</ul>
+{extra}
 {_site_nav(f"/{path}/")}
 </body></html>"""
+
+
+FREE_PLACES_FILE = ROOT / "free-places.json"
+
+
+def _free_places_html() -> str:
+    """The "Always free" block on /free-events/, from free-places.json (DATA,
+    hand-edited -- see its _readme for what qualifies).
+
+    /free-events/ was the most-shown page in Search Console (638 impressions in
+    90 days) yet ranked around 42 for "free things to do in dallas": it held
+    only that day's listings, while the pages above it list places that are
+    free every day. Each place links its district page as well as its own
+    site, so the block is internal linking too.
+
+    A bad entry is dropped loudly; an unreadable file renders nothing. Neither
+    may cost the page its nightly listings."""
+    try:
+        places = json.loads(FREE_PLACES_FILE.read_text()).get("places", [])
+    except (OSError, ValueError) as e:
+        print(f"free-places.json unreadable, no 'Always free' block: {e}",
+              file=sys.stderr)
+        return ""
+    labels = {s: l for s, l, _m in DISTRICTS}
+    groups = {}
+    for pl in places:
+        if not pl.get("name") or not pl.get("note") or pl.get("district") not in labels:
+            print(f"WARNING: free-places.json entry skipped (needs name, note "
+                  f"and a DISTRICTS slug): {pl!r}", file=sys.stderr)
+            continue
+        url = str(pl.get("url") or "")
+        name = f"<strong>{_html.escape(pl['name'])}</strong>"
+        if url.startswith("https://"):
+            name = f'<a href="{_html.escape(url, quote=True)}" rel="noopener">{name}</a>'
+        d = pl["district"]
+        groups.setdefault(pl.get("group") or "DFW", []).append(
+            f'<li>{name} <span>/ {_html.escape(pl["note"])} · '
+            f'<a href="/district/{d}/">{_html.escape(labels[d])}</a></span></li>')
+    if not groups:
+        return ""
+    # Styled inline, not in _PAGE_CSS: that string is in every generated page,
+    # so touching it rewrites all of them and resubmits them to IndexNow.
+    return ('<h2 style="color:#fff;font-size:1.3rem;margin:48px 0 4px">'
+            'Always free in Dallas–Fort Worth</h2>\n'
+            '<p>Places that cost nothing to visit on any day they are open, '
+            'whatever is on the calendar above.</p>\n'
+            + "\n".join(f'<p class="k">/ {_html.escape(g.upper())}</p>'
+                        f'<ul>{"".join(rows)}</ul>' for g, rows in groups.items()))
 
 
 def _nearby_venues(slug, city, district, limit=6):
@@ -4460,7 +4509,8 @@ def write_hubs(events):
 
     empty_hubs = []
 
-    def emit(path, title, desc, evs, app_link, heading, note, calendar=False):
+    def emit(path, title, desc, evs, app_link, heading, note, calendar=False,
+             extra=""):
         # Always written and always linked from _site_nav(), so nothing here
         # ever becomes an orphan — but a hub with no listings stays out of the
         # sitemap and carries noindex (see _hub_html). It rejoins both the
@@ -4478,7 +4528,7 @@ def write_hubs(events):
                              desc, evs) if calendar else None
         url = _write_page(path, _hub_html(
             title, desc, f"{SITE}/{path}/", evs, app_link, heading, note, path,
-            cal_url=cal))
+            cal_url=cal, extra=extra))
         (pages if evs else empty_hubs).append(url)
 
     # Titles lead with "Dallas" and carry the date. The 2026-11-25 Search
@@ -4514,7 +4564,7 @@ def write_hubs(events):
          "Free events in Dallas–Fort Worth today and this weekend: free museums, "
          "free live music, markets and library programs, refreshed nightly.",
          [e for e in events if e.get("cost") == 0], "/?free=1", "FREE IN DFW", "COST HUB",
-         calendar=True)
+         calendar=True, extra=_free_places_html())
 
     for slug, label, _match in DISTRICTS:
         evs = [e for e in events if _slugify_matches(e["area"]) == slug]

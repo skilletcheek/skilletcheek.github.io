@@ -48,6 +48,8 @@ strategy, or anything else you wouldn't publish at letsdoitdallas.com/<file>.
     venue-districts.json    DATA: venue -> district, for venues whose `area`
                                   never names one (36% of rows)
     partners.json           DATA: founding-partner wall
+    free-places.json        DATA: 'Always free' block on /free-events/;
+                                  free every open day only, see its _readme
     live-events.json        GENERATED nightly
     press.json              GENERATED nightly
     source-counts.json      GENERATED nightly; per-source yields + alarms
