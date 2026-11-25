@@ -35,9 +35,17 @@
     "A variant that names its city after ' - ' ('Improv Comedy Club - Arlington')",
     "is matched WITH that city: the comparison otherwise drops the suffix, and",
     "'Improv Comedy Club' alone would also catch the Addison club. Write the",
-    "suffix whenever the bare name is a chain's."
+    "suffix whenever the bare name is a chain's.",
+    "",
+    "Wyly Theatre (2026-11-25): one building, two spellings across sources, and",
+    "each built its own /venue/ page. The long name is canonical because its",
+    "URL is the one Search Console showed ranking. 'Wyly Studio Theatre' is a",
+    "different room in the same building and is deliberately NOT aliased."
   ],
   "aliases": {
+    "Wyly Theatre - AT&T Performing Arts Center": [
+      "Wyly Theatre"
+    ],
     "The Shops at Redbird": [
       "Southwest Center Mall",
       "Universoul Circus - Dallas - The Shops at Redbird"

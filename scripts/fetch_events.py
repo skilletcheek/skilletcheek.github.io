@@ -2916,6 +2916,11 @@ def write_venues(events):
     for slug, r in registry.items():
         if slug in keep or not r.get("name"):
             continue
+        # Merged by an alias since it was published: its rows now land on the
+        # canonical venue's page, so this one is retired at once rather than
+        # left up for VENUE_GRACE_DAYS as a dormant duplicate of a live page.
+        if _venue_slug(_canonical_venue(r["name"])) != slug:
+            continue
         cutoff = (datetime.strptime(r.get("last") or today, "%Y-%m-%d")
                   + timedelta(days=VENUE_GRACE_DAYS)).strftime("%Y-%m-%d")
         if today <= cutoff:
