@@ -949,15 +949,15 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:suites-uslbm-coast-to-coast-challenge|ariat-arena-fort-worth|see-detail
- s-2026-12-13@letsdoitdallas.com
-DTSTAMP:20261213T000000Z
-DTSTART;VALUE=DATE:20261213
-DTEND;VALUE=DATE:20261214
+UID:suites-uslbm-coast-to-coast-challenge|ariat-arena-fort-worth|1-00-pm-20
+ 26-12-13@letsdoitdallas.com
+DTSTAMP:20261213T190000Z
+DTSTART:20261213T190000Z
+DTEND:20261213T220000Z
 SUMMARY:Suites: USLBM Coast to Coast Challenge
 LOCATION:Ariat Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-13&e=suites-uslbm-coast-to-coa
- st-challenge%7Cariat-arena-fort-worth%7Csee-details
+ st-challenge%7Cariat-arena-fort-worth%7C1-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/fort-worth/
 END:VEVENT

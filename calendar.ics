@@ -132,18 +132,6 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:kids-art-studio-k-5th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-
- 2026-11-25@letsdoitdallas.com
-DTSTAMP:20261125T223000Z
-DTSTART:20261125T223000Z
-DTEND:20261126T013000Z
-SUMMARY:Kids Art Studio (K-5th Grade)
-LOCATION:6861 W Eldorado Parkway · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=kids-art-studio-k-5th-gra
- de-%7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:art-creativity-lab|1700-veterans-memorial-parkway-lancaster|05-00-pm-20
  26-11-25@letsdoitdallas.com
 DTSTAMP:20261125T230000Z
@@ -4973,6 +4961,18 @@ SUMMARY:Adult Book Club
 LOCATION:6861 W. Eldorado Pkwy. · McKinney
 URL:https://letsdoitdallas.com/?date=2026-12-02&e=adult-book-club%7C6861-w-
  eldorado-pkwy-mckinney%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:computer-classes-for-adults-typing-refresher|211-e-pleasant-run-rd-deso
+ to|12-00-pm-2026-12-02@letsdoitdallas.com
+DTSTAMP:20261202T180000Z
+DTSTART:20261202T180000Z
+DTEND:20261202T210000Z
+SUMMARY:Computer Classes for Adults - Typing Refresher
+LOCATION:211 E. Pleasant Run Rd. · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=computer-classes-for-adul
+ ts-typing-refresher%7C211-e-pleasant-run-rd-desoto%7C12-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
@@ -10323,6 +10323,19 @@ DESCRIPTION:Experience the wizarding wonderland of Harry Potter at ICE\, Ga
   — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:computer-classes-for-adults-using-library-digital-services|211-e-pleasa
+ nt-run-rd-desoto|12-00-pm-2026-12-09@letsdoitdallas.com
+DTSTAMP:20261209T180000Z
+DTSTART:20261209T180000Z
+DTEND:20261209T210000Z
+SUMMARY:Computer Classes for Adults - Using Library Digital Services
+LOCATION:211 E. Pleasant Run Rd. · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=computer-classes-for-adul
+ ts-using-library-digital-services%7C211-e-pleasant-run-rd-desoto%7C12-00-p
+ m
+DESCRIPTION:More: https://letsdoitdallas.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:lunch-circuit|310-e-parkerville-road-cedar-hill|12-00-pm-2026-12-09@let
  sdoitdallas.com
 DTSTAMP:20261209T180000Z
@@ -11715,15 +11728,15 @@ URL:https://letsdoitdallas.com/?date=2026-12-13&e=holiday-hootenanny-%7Cpoo
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:suites-uslbm-coast-to-coast-challenge|ariat-arena-fort-worth|see-detail
- s-2026-12-13@letsdoitdallas.com
-DTSTAMP:20261213T000000Z
-DTSTART;VALUE=DATE:20261213
-DTEND;VALUE=DATE:20261214
+UID:suites-uslbm-coast-to-coast-challenge|ariat-arena-fort-worth|1-00-pm-20
+ 26-12-13@letsdoitdallas.com
+DTSTAMP:20261213T190000Z
+DTSTART:20261213T190000Z
+DTEND:20261213T220000Z
 SUMMARY:Suites: USLBM Coast to Coast Challenge
 LOCATION:Ariat Arena · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-13&e=suites-uslbm-coast-to-coa
- st-challenge%7Cariat-arena-fort-worth%7Csee-details
+ st-challenge%7Cariat-arena-fort-worth%7C1-00-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/
 END:VEVENT
