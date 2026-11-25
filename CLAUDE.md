@@ -72,6 +72,7 @@ get clobbered; change the **Python** instead:
   and `/things-to-do/*/` topic pages (see below)
 - `/venue/*/` venue pages (`write_venues()`), `/venue/` directory
   (`write_venue_index()`)
+- `venue/pages.json` — the venue-page registry (`write_venues()`); see below
 - `/advertise/` (`write_advertise()`), `/submit/` (`write_submit()`)
 - the district link block in **`index.html`**, between the `SITEMAP-NAV:START`
   / `SITEMAP-NAV:END` comments (`write_home_nav()`). The rest of index.html is
@@ -85,8 +86,23 @@ stamping all 59 URLs with today's date every night is a freshness signal Google
 learns to discard. The homepage is deliberately always today: its markup is
 static but the listings it renders come from `live-events.json`.
 
-`write_venues()` **deletes** venue directories that no longer clear
-`VENUE_MIN_EVENTS` (`_prune_stale_venues()`). Without it a venue that went
+**A venue page is hard to earn and slow to lose, since 2026-11-25.** It takes
+`VENUE_MIN_EVENTS` (3) upcoming events to get one, but once published it is
+kept while the venue has any (`VENUE_KEEP_EVENTS`, 1), and with none it stays
+up **dormant** — noindexed, out of the sitemap, still in `/venue/` — until
+`VENUE_GRACE_DAYS` (90) past the last show it listed. `venue/pages.json`
+remembers which pages exist, how to render one with no rows, and that date.
+Before this, a page was deleted the night a room dipped under 3, and the rooms
+that rank are exactly the ones that hover at 0–2 in a 30-day window: the
+2026-11-25 Search Console audit found 13 of the 25 venue pages Google was
+serving deleted, 17% of all impressions — Rodeo West, the site's most-shown
+page, had been created on Oct 19 and deleted on Nov 19. That file was seeded
+by hand once, with those 13 recovered from git history; the nightly run owns
+it from then on. If it goes missing the loader bootstraps from the venue
+directories on disk, so nothing is pruned for being unregistered.
+
+After the grace period `write_venues()` **deletes** the directory
+(`_prune_stale_venues()`). Without it a venue that went
 quiet kept serving a 200 while dropping out of the sitemap and every listing —
 an orphan Google can never confirm. It refuses to prune when it would delete
 more pages than it kept, on the same reasoning as `COLLAPSE_GUARD_RATIO`.

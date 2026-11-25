@@ -2121,6 +2121,24 @@ def _display_area(area: str) -> str:
 # current feed yields ~40 pages.
 VENUE_MIN_EVENTS = 3
 
+# ...but only to EARN one. Once published, a page is kept while the venue has
+# any upcoming event, and for VENUE_GRACE_DAYS after the last one it listed.
+# Until 2026-11-25 a page was deleted the night a venue dipped under 3, and the
+# rooms that rank best are exactly the ones that do: big halls book a few runs
+# a quarter, so they hover at 0-2 in a 30-day window. Search Console showed 13
+# of the 25 venue pages Google was serving had been deleted that way -- Rodeo
+# West (356 impressions, position 12, the site's most-shown page), Winspear,
+# Wyly, Dickies Arena -- 17% of all impressions pointing at 404s. Rodeo West's
+# page was created on Oct 19 and deleted on Nov 19; every flap throws away
+# whatever standing the URL had built.
+VENUE_KEEP_EVENTS = 1
+VENUE_GRACE_DAYS = 90
+
+# Which venue pages have been published, with what is needed to render one
+# that has no listings right now, and the date of the last show it listed.
+# GENERATED (write_venues()); covered by `venue` in the workflow's git add.
+VENUE_REGISTRY = ROOT / "venue" / "pages.json"
+
 # A /city/<slug>/ page needs this many upcoming events to be worth serving.
 # Lower than this is a doorway page: a "things to do in X" URL with two
 # listings is the kind of thin page Google files under "Discovered - currently
@@ -2753,8 +2771,18 @@ def _venue_html(name, city, street, canonical, events, slug, district,
     desc = (f"Upcoming events at {esc_name}"
             f"{f' in {_html.escape(city)}' if city else ''} — dates, times and tickets on the "
             "Lets Do It Dallas event radar.")
-    rows = "\n".join(_hub_row(e, omit_venue=_venue_slug(name), count=n, last=last)
-                     for e, n, last in _group_repeats(events)[:60])
+    rows = "\n".join(_hub_row(e, omit_venue=_venue_slug(name), count=n, last=lst)
+                     for e, n, lst in _group_repeats(events)[:60])
+    # A dormant page (published before, nothing listed now -- see
+    # VENUE_GRACE_DAYS) says so plainly and is noindexed like an empty hub,
+    # but keeps its URL, its links and its place in /venue/ so it comes back
+    # without starting over the first night the room books something.
+    robots = ""
+    if not events:
+        robots = '<meta name="robots" content="noindex,follow"/>\n'
+        rows = (f"<li>No shows on the calendar for the next {DAYS_AHEAD} days."
+                f" New dates show up here the night they are announced"
+                f" — or try the venues nearby.</li>")
     d_label = next((l for s, l, _m in DISTRICTS if s == district), None)
     d_href = f"/district/{district}/" if d_label else None
     # The city crumb is skipped when it would resolve to the district link
@@ -2797,7 +2825,7 @@ def _venue_html(name, city, street, canonical, events, slug, district,
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>{title}</title>
 <meta name="description" content="{desc}"/>
-<link rel="canonical" href="{canonical}"/>
+{robots}<link rel="canonical" href="{canonical}"/>
 <meta property="og:title" content="{title}"/>
 <meta property="og:description" content="{desc}"/>
 <meta property="og:type" content="website"/>
@@ -2860,18 +2888,38 @@ def write_venues(events):
     # slug maps, so every venue that will get a page has to be known before the
     # first page renders — filling the maps as we render meant a venue could
     # only ever cross-link to venues earlier in the alphabet.
+    #
+    # Which venues get a page: VENUE_MIN_EVENTS to earn one, VENUE_KEEP_EVENTS
+    # to keep it, and a registered page with nothing listed stays up, dormant,
+    # until VENUE_GRACE_DAYS past the last show it carried.
+    registry = _load_venue_registry()
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     keep = {}
     _VENUE_PAGES.clear()
     _VENUE_META.clear()
-    for slug, g in sorted(by_venue.items()):
-        if len(g["events"]) < VENUE_MIN_EVENTS:
+    for slug, g in by_venue.items():
+        floor = VENUE_KEEP_EVENTS if slug in registry else VENUE_MIN_EVENTS
+        if len(g["events"]) >= floor:
+            g["events"].sort(key=lambda e: (e["date"], e.get("time") or ""))
+            prev = (registry.get(slug) or {}).get("last") or ""
+            g["last"] = max(prev, g["events"][-1]["date"])
+            keep[slug] = g
+    for slug, r in registry.items():
+        if slug in keep or not r.get("name"):
             continue
-        g["events"].sort(key=lambda e: (e["date"], e.get("time") or ""))
-        keep[slug] = g
+        cutoff = (datetime.strptime(r.get("last") or today, "%Y-%m-%d")
+                  + timedelta(days=VENUE_GRACE_DAYS)).strftime("%Y-%m-%d")
+        if today <= cutoff:
+            keep[slug] = {"name": r["name"], "street": r.get("street"),
+                          "city": r.get("city"), "events": [],
+                          "last": r.get("last"), "district": r.get("district")}
+    keep = dict(sorted(keep.items()))
+    for slug, g in keep.items():
         _VENUE_PAGES[slug] = g["name"]
         _VENUE_META[slug] = {
             "name": g["name"], "city": g["city"], "count": len(g["events"]),
-            "district": _slugify_matches(g["events"][0].get("area", "")),
+            "district": (_slugify_matches(g["events"][0].get("area", ""))
+                         if g["events"] else g.get("district")),
         }
 
     urls = []
@@ -2881,17 +2929,61 @@ def write_venues(events):
         # returns None for a room with nothing in the next CAL_DAYS.
         cal = write_calendar(f"venue/{slug}", f"{g['name']} — Lets Do It Dallas",
                              f"Upcoming shows at {g['name']}.", g["events"])
-        urls.append(_write_page(f"venue/{slug}", _venue_html(
+        if cal is None:
+            # Nothing links a calendar that write_calendar() declined, but the
+            # one written while the room was busy would still be served, frozen.
+            (ROOT / "venue" / slug / CAL_NAME).unlink(missing_ok=True)
+        url = _write_page(f"venue/{slug}", _venue_html(
             g["name"], g["city"], g["street"], f"{SITE}/venue/{slug}/",
-            g["events"], slug, _VENUE_META[slug]["district"], cal_url=cal)))
+            g["events"], slug, _VENUE_META[slug]["district"], cal_url=cal))
+        # A dormant page is noindexed, so it stays out of the sitemap like an
+        # empty hub; it is still linked from /venue/ and its neighbours.
+        if g["events"]:
+            urls.append(url)
     urls.append(write_venue_index())
-    print(f"wrote {len(keep)} venue pages (of {len(by_venue)} venues seen) + /venue/")
-    _prune_stale_venues(keep)
+    dormant = sorted(s for s, g in keep.items() if not g["events"])
+    print(f"wrote {len(keep)} venue pages (of {len(by_venue)} venues seen) + /venue/"
+          + (f"; {len(dormant)} dormant, noindexed: {', '.join(dormant)}"
+             if dormant else ""))
+    if _prune_stale_venues(keep):
+        _save_venue_registry(keep)
     return urls
 
 
+def _load_venue_registry() -> dict:
+    """slug -> {name, street, city, district, last} for every published venue
+    page. Bootstraps from the venue directories on disk when the file is
+    missing, so a first run (or a deleted file) never prunes a live page just
+    because it was never registered -- those carry no name, though, so they
+    are kept by the KEEP floor while they have events and not rendered dormant.
+    """
+    try:
+        return json.loads(VENUE_REGISTRY.read_text()).get("venues", {})
+    except (OSError, ValueError):
+        d = ROOT / "venue"
+        return {p.name: {} for p in d.iterdir() if p.is_dir()} if d.exists() else {}
+
+
+def _save_venue_registry(keep):
+    out = {slug: {"name": g["name"], "street": g.get("street"),
+                  "city": g.get("city"), "district": _VENUE_META[slug]["district"],
+                  "last": g.get("last")}
+           for slug, g in keep.items()}
+    text = json.dumps({
+        "_note": "GENERATED by write_venues() in scripts/fetch_events.py -- do not "
+                 "hand-edit. Every published venue page, what is needed to render it "
+                 "with no listings, and the date of the last show it carried. A page "
+                 "is kept while it has any upcoming event and for VENUE_GRACE_DAYS "
+                 "after `last`.",
+        "venues": out}, indent=1, sort_keys=True, ensure_ascii=False) + "\n"
+    if not VENUE_REGISTRY.exists() or VENUE_REGISTRY.read_text() != text:
+        VENUE_REGISTRY.write_text(text)
+
+
 def _prune_stale_venues(keep):
-    """Delete venue pages for venues that have dropped below VENUE_MIN_EVENTS.
+    """Delete venue pages that write_venues() no longer keeps: no upcoming
+    event and more than VENUE_GRACE_DAYS past the last one. Returns False when
+    it refuses to prune (a broken feed), True otherwise.
 
     Nothing removed a venue directory once written, so a room that stopped
     announcing shows kept serving a 200 while falling out of the sitemap and
@@ -2903,7 +2995,7 @@ def _prune_stale_venues(keep):
     """
     d = ROOT / "venue"
     if not d.exists():
-        return
+        return True
     stale = [p for p in d.iterdir() if p.is_dir() and p.name not in keep]
     # A run that would delete more pages than it kept is a broken feed, not a
     # quiet month. Same reasoning as COLLAPSE_GUARD_RATIO in main().
@@ -2911,7 +3003,9 @@ def _prune_stale_venues(keep):
         print(f"REFUSING TO PRUNE: {len(stale)} stale venue pages vs {len(keep)} "
               f"kept — that looks like a broken feed, not venues going quiet.",
               file=sys.stderr)
-        return
+        # False so the registry is NOT rewritten from a broken feed: it would
+        # forget every page this run declined to delete.
+        return False
     for p in stale:
         for f in p.iterdir():
             f.unlink()
@@ -2919,6 +3013,7 @@ def _prune_stale_venues(keep):
     if stale:
         print(f"pruned {len(stale)} stale venue pages: "
               f"{', '.join(sorted(p.name for p in stale))}")
+    return True
 
 
 def write_venue_index():
