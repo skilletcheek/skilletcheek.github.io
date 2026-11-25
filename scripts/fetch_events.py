@@ -2955,8 +2955,14 @@ def write_venues(events):
     keep = {}
     _VENUE_PAGES.clear()
     _VENUE_META.clear()
+    # A page an alias merged into another counts as registered under the
+    # canonical slug, so the merge keeps the KEEP floor rather than making the
+    # surviving page re-earn VENUE_MIN_EVENTS -- otherwise a room with 1-2
+    # shows would lose both URLs the night its alias landed.
+    registered = set(registry) | {_venue_slug(_canonical_venue(r["name"]))
+                                  for r in registry.values() if r.get("name")}
     for slug, g in by_venue.items():
-        floor = VENUE_KEEP_EVENTS if slug in registry else VENUE_MIN_EVENTS
+        floor = VENUE_KEEP_EVENTS if slug in registered else VENUE_MIN_EVENTS
         if len(g["events"]) >= floor:
             g["events"].sort(key=lambda e: (e["date"], e.get("time") or ""))
             prev = (registry.get(slug) or {}).get("last") or ""

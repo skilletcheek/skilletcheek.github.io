@@ -40,9 +40,17 @@
     "Wyly Theatre (2026-11-25): one building, two spellings across sources, and",
     "each built its own /venue/ page. The long name is canonical because its",
     "URL is the one Search Console showed ranking. 'Wyly Studio Theatre' is a",
-    "different room in the same building and is deliberately NOT aliased."
+    "different room in the same building and is deliberately NOT aliased.",
+    "",
+    "Ed & Rae Schollmaier Arena (2026-11-25): '&' and 'and' already compare equal,",
+    "so dedupe never split it -- but the page slug keeps the difference, and the",
+    "two spellings built /venue/ed-rae-.../ and /venue/ed-and-rae-.../. The '&'",
+    "spelling is canonical because its URL is the one Search Console showed."
   ],
   "aliases": {
+    "Ed & Rae Schollmaier Arena": [
+      "Ed and Rae Schollmaier Arena"
+    ],
     "Wyly Theatre - AT&T Performing Arts Center": [
       "Wyly Theatre"
     ],
