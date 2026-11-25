@@ -3,8 +3,9 @@ VERSION:2.0
 PRODID:-//Lets Do It Dallas//DFW Events//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Wyly Theatre — Lets Do It Dallas
-X-WR-CALDESC:Upcoming shows at Wyly Theatre.
+X-WR-CALNAME:Wyly Theatre - AT&T Performing Arts Center — Lets Do It Dall
+ as
+X-WR-CALDESC:Upcoming shows at Wyly Theatre - AT&T Performing Arts Center.
 X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -19,7 +20,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-27&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-11-27@letsdoitdallas
@@ -32,7 +33,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-27&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-11-28@letsdoitdallas
@@ -45,7 +46,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-28&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-11-28@letsdoitdallas
@@ -58,7 +59,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-28&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-11-29@letsdoitdallas
@@ -71,7 +72,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-11-29&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-02@letsdoitdallas
@@ -84,7 +85,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-02&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-03@letsdoitdallas
@@ -97,7 +98,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-03&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-04@letsdoitdallas
@@ -110,7 +111,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-04&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-12-05@letsdoitdallas
@@ -123,7 +124,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|8-00-pm-2026-12-05@letsdoitdallas
@@ -136,7 +137,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C8-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-12-06@letsdoitdallas
@@ -149,7 +150,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-06&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-09@letsdoitdallas
@@ -162,7 +163,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-09&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-10@letsdoitdallas
@@ -175,7 +176,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-10&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-11@letsdoitdallas
@@ -188,7 +189,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-11&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-12-12@letsdoitdallas
@@ -201,7 +202,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-12&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-12@letsdoitdallas
@@ -214,7 +215,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-12&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-12-13@letsdoitdallas
@@ -227,7 +228,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-13&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-17@letsdoitdallas
@@ -240,7 +241,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-17&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-18@letsdoitdallas
@@ -253,7 +254,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-18&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-12-19@letsdoitdallas
@@ -266,7 +267,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-19&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-19@letsdoitdallas
@@ -279,7 +280,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-19&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-12-20@letsdoitdallas
@@ -292,7 +293,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-20&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-20@letsdoitdallas
@@ -305,7 +306,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-20&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-21@letsdoitdallas
@@ -318,7 +319,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-21&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-22@letsdoitdallas
@@ -331,7 +332,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-22&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-23@letsdoitdallas
@@ -344,7 +345,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-23&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C7-30-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|12-00-pm-2026-12-24@letsdoitdalla
@@ -357,7 +358,7 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-24&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C12-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|4-00-pm-2026-12-24@letsdoitdallas
@@ -370,6 +371,6 @@ LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-24&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C4-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre/
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
 END:VEVENT
 END:VCALENDAR
