@@ -9,44 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:all-garland-libraries-close-at-6-00-pm|garland|06-00-pm-2026-11-25@lets
- doitdallas.com
-DTSTAMP:20261126T000000Z
-DTSTART:20261126T000000Z
-DTEND:20261126T030000Z
-SUMMARY:All Garland Libraries close at 6:00 PM
-LOCATION:Garland
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=all-garland-libraries-clo
- se-at-6-00-pm%7Cgarland%7C06-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:thanksgiving-all-garland-libraries-closed|garland|see-details-2026-11-2
- 6@letsdoitdallas.com
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Thanksgiving: All Garland Libraries closed
-LOCATION:Garland
-URL:https://letsdoitdallas.com/?date=2026-11-26&e=thanksgiving-all-garland-
- libraries-closed%7Cgarland%7Csee-details
-DESCRIPTION:Runs Nov 26 – Nov 27. — More: https://letsdoitdallas.com/ci
- ty/garland/
-END:VEVENT
-BEGIN:VEVENT
-UID:thanksgiving-all-garland-libraries-closed|garland|see-details-2026-11-2
- 7@letsdoitdallas.com
-DTSTAMP:20261127T000000Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Thanksgiving: All Garland Libraries closed
-LOCATION:Garland
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=thanksgiving-all-garland-
- libraries-closed%7Cgarland%7Csee-details
-DESCRIPTION:Runs Nov 26 – Nov 27. — More: https://letsdoitdallas.com/ci
- ty/garland/
-END:VEVENT
-BEGIN:VEVENT
 UID:daddy-s-home-presented-by-plum-tuckered-out-production|300-n-fifth-stre
  et-garland|06-00-pm-2026-11-28@letsdoitdallas.com
 DTSTAMP:20261129T000000Z
@@ -244,15 +206,16 @@ URL:https://letsdoitdallas.com/?date=2026-12-04&e=charles-dickens-a-christm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-nutcracker-presented-by-the-dallas-ballet-company|300-n-fifth-stree
- t-garland|07-30-pm-2026-12-04@letsdoitdallas.com
+UID:the-best-christmas-pageant-ever-presented-by-garland-civic-theatre|300-
+ n-fifth-street-garland|07-30-pm-2026-12-04@letsdoitdallas.com
 DTSTAMP:20261205T013000Z
 DTSTART:20261205T013000Z
 DTEND:20261205T043000Z
-SUMMARY:The Nutcracker presented by the Dallas Ballet Company
+SUMMARY:The Best Christmas Pageant Ever presented by Garland Civic Theatre
 LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-nutcracker-presented-
- by-the-dallas-ballet-company%7C300-n-fifth-street-garland%7C07-30-pm
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-best-christmas-pagean
+ t-ever-presented-by-garland-civic-theatre%7C300-n-fifth-street-garland%7C0
+ 7-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
@@ -311,6 +274,25 @@ DESCRIPTION:2:30 p.m.\; Celebrate the holiday season with a festive craftin
   decorations at multiple hands-on stations. Each station offers the tools\
  , materials and step-by-step instructions needed to make a unique seaso 
  — More: https://letsdoitdallas.com/city/garland/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-maker-fest-diamond-painting-ages-18-festival-maker-navide-o-pin
+ tura-con-diamantes-a-os-18-de-la-biblioteca-south-garland|south-garland-li
+ brary-garland|02-30-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T203000Z
+DTSTART:20261205T203000Z
+DTEND:20261205T233000Z
+SUMMARY:Holiday Maker Fest: Diamond Painting (Ages 18+) / Festival Maker Na
+ videño: Pintura con Diamantes (Años 18+) de la Biblioteca South Garland
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=holiday-maker-fest-diamon
+ d-painting-ages-18-festival-maker-navide-o-pintura-con-diamantes-a-os-18-d
+ e-la-biblioteca-south-garland%7Csouth-garland-library-garland%7C02-30-pm
+DESCRIPTION:2:30 p.m.\; Get into the holiday spirit with a relaxing afterno
+ on of diamond painting! Decorate a festive holiday ornament with colorful 
+ sparkling “diamonds” to create a unique piece to take home. All suppli
+ es will be provided. Enjoy holiday cookies and hot cocoa while you create!
+  — More: https://letsdoitdallas.com/city/garland/
 END:VEVENT
 BEGIN:VEVENT
 UID:puzzle-race|north-garland-library-garland|02-30-pm-2026-12-05@letsdoitd

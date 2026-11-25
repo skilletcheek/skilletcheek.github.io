@@ -10,53 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:stem-lab-18-|grapevine|10-00-am-2026-11-25@letsdoitdallas.com
-DTSTAMP:20261125T160000Z
-DTSTART:20261125T160000Z
-DTEND:20261125T190000Z
-SUMMARY:STEM Lab (18+)
-LOCATION:Grapevine
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=stem-lab-18-%7Cgrapevine%
- 7C10-00-am
-DESCRIPTION:Mondays & Wednesdays 10 AM-1:00 PM (Adults\, ages 18+) Join us 
- at Grapevine Makerspace for our STEM Lab! During this session\, you’ll h
- ave access to 3D printers\, laser cutters\, and other equipment. Our knowl
- edgeable staff will be available to provide guidance\, tips\, and support 
- as — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:thanksgiving-colorama|grapevine-public-library-1201-municipal-way-grape
- vine|10-00-am-2026-11-25@letsdoitdallas.com
-DTSTAMP:20261125T160000Z
-DTSTART:20261125T160000Z
-DTEND:20261125T190000Z
-SUMMARY:Thanksgiving Colorama
-LOCATION:Grapevine Public Library
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=thanksgiving-colorama%7Cg
- rapevine-public-library-1201-municipal-way-grapevine%7C10-00-am
-DESCRIPTION:Use chalk\, crayons\, & markers to decorate butcher paper and o
- ther fun items throughout the Children's Dept. You can even decorate your 
- own Thanksgiving placemat! November 25\, 2026 10:00 AM - 04:00 PM Grapevin
- e Public Library 1201 Municipal WayGrapevine\, TX 76051 https://www.grape 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
-UID:thanksgiving-break-freeplay-day-|grapevine-public-library-1201-municipa
- l-way-grapevine|12-00-pm-2026-11-25@letsdoitdallas.com
-DTSTAMP:20261125T180000Z
-DTSTART:20261125T180000Z
-DTEND:20261125T210000Z
-SUMMARY:Thanksgiving Break Freeplay Day!
-LOCATION:Grapevine Public Library
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=thanksgiving-break-freepl
- ay-day-%7Cgrapevine-public-library-1201-municipal-way-grapevine%7C12-00-pm
-DESCRIPTION:Thanksgiving Break Freeplay Day in the Esports Academy for Ages
-  8+. Come & go from 12 to 4 pm to play computer and console games. Novembe
- r 25\, 2026 12:00 PM - 04:00 PM Grapevine Public Library 1201 Municipal Wa
- yGrapevine\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID= 
- — More: https://letsdoitdallas.com/district/grapevine/
-END:VEVENT
-BEGIN:VEVENT
 UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
  e-tx-76051-united-states|8-00-am-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261127T140000Z

@@ -9,21 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:smu-mustangs-womens-volleyball-vs-georgia-tech-yellow-jackets-womens-vo
- lleyball|moody-coliseum-dallas|1-00-pm-2026-11-25@letsdoitdallas.com
-DTSTAMP:20261125T190000Z
-DTSTART:20261125T190000Z
-DTEND:20261125T220000Z
-SUMMARY:SMU Mustangs Womens Volleyball vs. Georgia Tech Yellow Jackets Wome
- ns Volleyball
-LOCATION:Moody Coliseum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=smu-mustangs-womens-volle
- yball-vs-georgia-tech-yellow-jackets-womens-volleyball%7Cmoody-coliseum-da
- llas%7C1-00-pm
-DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
- tdallas.com/venue/moody-coliseum/
-END:VEVENT
-BEGIN:VEVENT
 UID:virginia-womens-bb-at-smu-womens-bb|moody-coliseum-dallas|5-00-pm-2026-
  11-29@letsdoitdallas.com
 DTSTAMP:20261129T230000Z
