@@ -10,18 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-11-25@
- letsdoitdallas.com
-DTSTAMP:20261125T163000Z
-DTSTART:20261125T163000Z
-DTEND:20261125T193000Z
-SUMMARY:Baby & Me (0-10 Months)
-LOCATION:6861 W. Eldorado Pkwy. · McKinney
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=baby-me-0-10-months-%7C68
- 61-w-eldorado-pkwy-mckinney%7C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
-END:VEVENT
-BEGIN:VEVENT
 UID:kids-art-studio-k-5th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-
  2026-11-25@letsdoitdallas.com
 DTSTAMP:20261125T223000Z
@@ -548,6 +536,54 @@ SUMMARY:Creative Arts Studio (Adults)
 LOCATION:6861 W. Eldorado Pkwy. · McKinney
 URL:https://letsdoitdallas.com/?date=2026-12-08&e=creative-arts-studio-adul
  ts-%7C6861-w-eldorado-pkwy-mckinney%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-12-09@
+ letsdoitdallas.com
+DTSTAMP:20261209T163000Z
+DTSTART:20261209T163000Z
+DTEND:20261209T193000Z
+SUMMARY:Baby & Me (0-10 Months)
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=baby-me-0-10-months-%7C68
+ 61-w-eldorado-pkwy-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:creative-writers-workshop-adults-|6861-w-eldorado-pkwy-mckinney|01-00-p
+ m-2026-12-09@letsdoitdallas.com
+DTSTAMP:20261209T190000Z
+DTSTART:20261209T190000Z
+DTEND:20261209T220000Z
+SUMMARY:Creative Writers Workshop (Adults)
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=creative-writers-workshop
+ -adults-%7C6861-w-eldorado-pkwy-mckinney%7C01-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:kids-art-studio-k-5th-grade-|6861-w-eldorado-parkway-mckinney|04-30-pm-
+ 2026-12-09@letsdoitdallas.com
+DTSTAMP:20261209T223000Z
+DTSTART:20261209T223000Z
+DTEND:20261210T013000Z
+SUMMARY:Kids Art Studio (K-5th Grade)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=kids-art-studio-k-5th-gra
+ de-%7C6861-w-eldorado-parkway-mckinney%7C04-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:true-crime-book-club-adults-|6861-w-eldorado-pkwy-mckinney|07-00-pm-202
+ 6-12-09@letsdoitdallas.com
+DTSTAMP:20261210T010000Z
+DTSTART:20261210T010000Z
+DTEND:20261210T040000Z
+SUMMARY:True Crime Book Club (Adults)
+LOCATION:6861 W. Eldorado Pkwy. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=true-crime-book-club-adul
+ ts-%7C6861-w-eldorado-pkwy-mckinney%7C07-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT

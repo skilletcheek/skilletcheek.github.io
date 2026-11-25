@@ -9,30 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:55-fitness-class|310-e-parkerville-road-cedar-hill|08-15-am-2026-11-25@
- letsdoitdallas.com
-DTSTAMP:20261125T141500Z
-DTSTART:20261125T141500Z
-DTEND:20261125T171500Z
-SUMMARY:55+ Fitness Class
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=55-fitness-class%7C310-e-
- parkerville-road-cedar-hill%7C08-15-am
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:lunch-circuit|310-e-parkerville-road-cedar-hill|12-00-pm-2026-11-25@let
- sdoitdallas.com
-DTSTAMP:20261125T180000Z
-DTSTART:20261125T180000Z
-DTEND:20261125T210000Z
-SUMMARY:Lunch Circuit
-LOCATION:310 E. Parkerville Road · Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=lunch-circuit%7C310-e-par
- kerville-road-cedar-hill%7C12-00-pm
-DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
 UID:art-is-life|310-e-parkerville-road-cedar-hill|05-00-pm-2026-11-25@letsd
  oitdallas.com
 DTSTAMP:20261125T230000Z
@@ -905,6 +881,79 @@ SUMMARY:Beginner's Yoga
 LOCATION:310 E. Parkerville Road · Cedar Hill
 URL:https://letsdoitdallas.com/?date=2026-12-08&e=beginner-s-yoga%7C310-e-p
  arkerville-road-cedar-hill%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:55-fitness-class|310-e-parkerville-road-cedar-hill|08-15-am-2026-12-09@
+ letsdoitdallas.com
+DTSTAMP:20261209T141500Z
+DTSTART:20261209T141500Z
+DTEND:20261209T171500Z
+SUMMARY:55+ Fitness Class
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=55-fitness-class%7C310-e-
+ parkerville-road-cedar-hill%7C08-15-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:55-senior-activity-center-expansion-groundbreaking-celebration|310-e-pa
+ rkerville-road-cedar-hill|10-30-am-2026-12-09@letsdoitdallas.com
+DTSTAMP:20261209T163000Z
+DTSTART:20261209T163000Z
+DTEND:20261209T193000Z
+SUMMARY:55+ Senior Activity Center Expansion Groundbreaking Celebration
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=55-senior-activity-center
+ -expansion-groundbreaking-celebration%7C310-e-parkerville-road-cedar-hill%
+ 7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:lunch-circuit|310-e-parkerville-road-cedar-hill|12-00-pm-2026-12-09@let
+ sdoitdallas.com
+DTSTAMP:20261209T180000Z
+DTSTART:20261209T180000Z
+DTEND:20261209T210000Z
+SUMMARY:Lunch Circuit
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=lunch-circuit%7C310-e-par
+ kerville-road-cedar-hill%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-is-life|310-e-parkerville-road-cedar-hill|05-00-pm-2026-12-09@letsd
+ oitdallas.com
+DTSTAMP:20261209T230000Z
+DTSTART:20261209T230000Z
+DTEND:20261210T020000Z
+SUMMARY:Art is Life
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=art-is-life%7C310-e-parke
+ rville-road-cedar-hill%7C05-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:you-up-next-live-music-talent-showcase|310-e-parkerville-road-cedar-hil
+ l|05-00-pm-2026-12-09@letsdoitdallas.com
+DTSTAMP:20261209T230000Z
+DTSTART:20261209T230000Z
+DTEND:20261210T020000Z
+SUMMARY:You Up Next - Live Music Talent Showcase
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=you-up-next-live-music-ta
+ lent-showcase%7C310-e-parkerville-road-cedar-hill%7C05-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
+END:VEVENT
+BEGIN:VEVENT
+UID:lp-dance-ages-3-7-|310-e-parkerville-road-cedar-hill|07-15-pm-2026-12-0
+ 9@letsdoitdallas.com
+DTSTAMP:20261210T011500Z
+DTSTART:20261210T011500Z
+DTEND:20261210T041500Z
+SUMMARY:LP Dance (Ages 3-7)
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=lp-dance-ages-3-7-%7C310-
+ e-parkerville-road-cedar-hill%7C07-15-pm
 DESCRIPTION:More: https://letsdoitdallas.com/city/cedar-hill/
 END:VEVENT
 END:VCALENDAR

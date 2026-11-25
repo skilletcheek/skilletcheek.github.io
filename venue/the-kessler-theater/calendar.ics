@@ -58,6 +58,19 @@ DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/venue/the-kessler-theater/
 END:VEVENT
 BEGIN:VEVENT
+UID:boco-music-school-2026-winter-recital|the-kessler-theater-oak-cliff-dal
+ las|doors-see-listing-2026-12-06@letsdoitdallas.com
+DTSTAMP:20261206T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:BOCO Music School 2026 Winter Recital
+LOCATION:The Kessler Theater · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=boco-music-school-2026-wi
+ nter-recital%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
+ om/venue/the-kessler-theater/
+END:VEVENT
+BEGIN:VEVENT
 UID:jack-ingram-acoustic-holiday-tour|the-kessler-theater-oak-cliff-dallas|
  doors-see-listing-2026-12-10@letsdoitdallas.com
 DTSTAMP:20261210T000000Z
