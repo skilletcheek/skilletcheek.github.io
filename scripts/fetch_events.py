@@ -2764,13 +2764,22 @@ def _venue_html(name, city, street, canonical, events, slug, district,
     # venue pages (max 101 chars) — long venue names ate the budget before the
     # brand suffix even started. Drop the suffix rather than the venue name or
     # city when it doesn't fit; the domain still shows on its own SERP line.
-    title_base = f"{esc_name} — Shows{f' in {_html.escape(city)}' if city else ''}"
-    title = f"{title_base} | Lets Do It Dallas"
-    if len(title) > 60:
-        title = title_base
-    desc = (f"Upcoming events at {esc_name}"
-            f"{f' in {_html.escape(city)}' if city else ''} — dates, times and tickets on the "
-            "Lets Do It Dallas event radar.")
+    #
+    # Since 2026-11-25 the words are the ones people search for a venue:
+    # "bass hall schedule", "rodeo west dallas upcoming events", "the post
+    # fort worth upcoming events" (Search Console audit), and the city is
+    # skipped when the name already carries it ("Rodeo West Dallas").
+    in_city = (f" — {_html.escape(city)}"
+               if city and city.lower() not in name.lower() else "")
+    title = _fit_title(
+        f"{esc_name} Schedule & Upcoming Events{in_city} | Lets Do It Dallas",
+        f"{esc_name} Schedule & Upcoming Events{in_city}",
+        f"{esc_name} Upcoming Events{in_city}",
+        f"{esc_name} Upcoming Events",
+        f"{esc_name} Events")
+    desc = (f"{esc_name} schedule: upcoming shows and events"
+            f"{f' in {_html.escape(city)}' if city else ''}, with dates, times and "
+            "ticket links, refreshed nightly.")
     rows = "\n".join(_hub_row(e, omit_venue=_venue_slug(name), count=n, last=lst)
                      for e, n, lst in _group_repeats(events)[:60])
     # A dormant page (published before, nothing listed now -- see
@@ -4384,6 +4393,53 @@ def cmd_indexnow(argv) -> int:
     return submit_indexnow(urls)
 
 
+def _fit_title(*candidates) -> str:
+    """The first candidate that fits Google's ~60-character title display,
+    or the last one. Every generated title used to end " | Lets Do It
+    Dallas", which spent a third of that budget on a brand the result's own
+    domain line already shows; the query words go first and the brand only
+    where there is room."""
+    for t in candidates:
+        if len(_html.unescape(t)) <= 60:
+            return t
+    return candidates[-1]
+
+
+def _short_day(d) -> str:
+    return f"{d.strftime('%b')} {d.day}"
+
+
+def _weekend_span(sat) -> str:
+    """"Nov 28–29", or "Jan 31–Feb 1" across a month end."""
+    sun = sat + timedelta(days=1)
+    if sun.month == sat.month:
+        return f"{_short_day(sat)}–{sun.day}"
+    return f"{_short_day(sat)}–{_short_day(sun)}"
+
+
+def _district_title(slug, label, matches):
+    """"Design District Events & Things to Do in Dallas" -- the 2026-11-25
+    Search Console audit had "design district events" at position 5 with no
+    clicks against a title reading "Things to Do in Design District": the
+    query's own words, in its order, and the city the neighbourhood is in."""
+    # The FIRST match term only: later ones are catch-alls ("northwest
+    # dallas" is filed under Plano), and reading them named Plano a Dallas
+    # neighbourhood.
+    city = DISTRICT_CITY.get(matches[0])
+    if city and city.lower() in label.lower():
+        where = label                           # "Downtown Dallas"
+        tail = ""
+    elif city:
+        where, tail = label, f" in {city}"      # neighbourhoods
+    else:
+        where, tail = f"{label}, TX", ""        # the suburb districts
+    base = f"{where} Events & Things to Do{tail}"
+    return (_fit_title(f"{base} | Lets Do It Dallas", base),
+            f"Upcoming events and things to do in {label}"
+            f"{f', {city}' if city and city.lower() not in label.lower() else ''}"
+            f" — concerts, shows, markets and nightlife, refreshed nightly.")
+
+
 def write_hubs(events):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     _check_city_drift()
@@ -4420,27 +4476,45 @@ def write_hubs(events):
             cal_url=cal))
         (pages if evs else empty_hubs).append(url)
 
+    # Titles lead with "Dallas" and carry the date. The 2026-11-25 Search
+    # Console audit: /this-weekend/ said only "DFW", and ranked 15 for "things
+    # to do in dfw this weekend" but 33 for the same query with "dallas" --
+    # the more-searched one. A date in a time-window title is the usual lever
+    # on click rate: it says the page is about THIS weekend, not an old one.
+    # "DFW" stays in, as the second spelling people use.
+    now = datetime.now(timezone.utc)
     tonight = [e for e in events if e["date"] == today]
-    emit("tonight", "Things to Do in Dallas–Fort Worth Tonight | Lets Do It Dallas",
-         "Tonight's live events, music, pop-ups, and nightlife across DFW. Real-time event radar on Lets Do It Dallas.",
+    tn = f"{now.strftime('%a')}, {_short_day(now)}"
+    emit("tonight", _fit_title(
+             f"Things to Do in Dallas Tonight ({tn}) | DFW Events",
+             f"Things to Do in Dallas Tonight ({tn})"),
+         f"What's on tonight, {tn}, in Dallas–Fort Worth: concerts, comedy, "
+         "pop-ups and nightlife, refreshed every night.",
          tonight, "/?view=tonight", "TONIGHT IN DALLAS–FORT WORTH", "TIME HUB")
 
-    now = datetime.now(timezone.utc)
     sat = now + timedelta(days=(5 - now.weekday()) % 7)
     wknd = {sat.strftime("%Y-%m-%d"), (sat + timedelta(days=1)).strftime("%Y-%m-%d")}
-    emit("this-weekend", "Things to Do in DFW This Weekend | Lets Do It Dallas",
-         "This weekend's events, festivals, markets and shows across Dallas–Fort Worth.",
+    ws = _weekend_span(sat)
+    emit("this-weekend", _fit_title(
+             f"Things to Do in Dallas This Weekend ({ws}) | DFW",
+             f"Things to Do in Dallas This Weekend ({ws})"),
+         f"This weekend in Dallas–Fort Worth, {ws}: festivals, markets, "
+         "concerts and shows, refreshed every night.",
          [e for e in events if e["date"] in wknd], "/?view=weekend", "THIS WEEKEND IN DFW", "TIME HUB")
 
-    emit("free-events", "Free Things to Do in Dallas–Fort Worth | Lets Do It Dallas",
-         "Free events, free museums, free live music and markets across DFW.",
+    # /free-events/ is the site's most-shown page (638 impressions) at
+    # position ~42: a ranking problem more than a title one. The searches it
+    # appears for say "today" and "this weekend" as often as neither.
+    emit("free-events", "Free Things to Do in Dallas Today & This Weekend | DFW",
+         "Free events in Dallas–Fort Worth today and this weekend: free museums, "
+         "free live music, markets and library programs, refreshed nightly.",
          [e for e in events if e.get("cost") == 0], "/?free=1", "FREE IN DFW", "COST HUB",
          calendar=True)
 
     for slug, label, _match in DISTRICTS:
         evs = [e for e in events if _slugify_matches(e["area"]) == slug]
-        emit(f"district/{slug}", f"Things to Do in {label} | Lets Do It Dallas",
-             f"Live events, music, and nightlife in {label} — part of the Lets Do It Dallas real-time event radar.",
+        d_title, d_desc = _district_title(slug, label, _match)
+        emit(f"district/{slug}", d_title, d_desc,
              evs, f"/?district={slug}", label.upper(), "DISTRICT HUB",
              calendar=True)
 
@@ -4454,7 +4528,8 @@ def write_hubs(events):
         # so a terms-only topic (Christmas, comedy) opens the unfiltered radar.
         cats = t.get("categories") or ()
         app_link = f"/?cat={','.join(cats)}" if cats else "/"
-        emit(f"things-to-do/{t['slug']}", t["title"], t["desc"], evs, app_link,
+        emit(f"things-to-do/{t['slug']}",
+             _fit_title(t["title"], t["title"].split(" | ")[0]), t["desc"], evs, app_link,
              t["heading"], "THINGS TO DO", calendar=True)
 
     pages += write_cities(events)
