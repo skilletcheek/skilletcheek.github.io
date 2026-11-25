@@ -68,7 +68,8 @@ get clobbered; change the **Python** instead:
 - `social/cards/*.jpg` and `social/posted.json` — written by the *other*
   workflow (`scripts/social_post.py`, see "Daily social post"), not by
   `fetch_events.py`. Editing `posted.json` by hand is how you double-post.
-- `/tonight/`, `/this-weekend/`, `/free-events/`, `/district/*/` hub pages
+- `/tonight/`, `/this-weekend/`, `/free-events/`, `/district/*/` hub pages,
+  and `/things-to-do/*/` topic pages (see below)
 - `/venue/*/` venue pages (`write_venues()`), `/venue/` directory
   (`write_venue_index()`)
 - `/advertise/` (`write_advertise()`), `/submit/` (`write_submit()`)
@@ -553,6 +554,29 @@ rejected** so they don't get re-probed.
   Rejected 2026-09-28: fortworthreport.org (robots.txt disallows `/events/`,
   and `?ical=1` exports only ~2 days), dallasdoinggood.com (social-service
   listings, not things to do).
+
+## Topic pages — `/things-to-do/<slug>/`
+
+Districts, cities and venues answer *where*; people search by occasion and
+type ("christmas events dallas", "comedy shows dallas"). Since 2026-11-25
+`topic_pages` in `feeds.json` defines one hub per search intent — Christmas,
+New Year's Eve, kids, live music, comedy, sports — emitted by `write_hubs()`
+through the same `emit()` as the districts, so they get the same
+noindex-when-empty rule, a calendar, a `/ THINGS TO DO` row in `_site_nav()`
+and a column in the homepage's generated nav block. **Adding one is data
+only**: the workflow's `git add` covers `things-to-do` as one directory.
+
+A row matches on category, a word-bounded title phrase, or a venue phrase,
+minus `exclude`; `months` gates seasonal pages by the event's month, so out of
+season the page goes empty and noindexed but keeps its URL for next year.
+**Read `_topic_note` before adding a topic** — Kids deliberately ignores the
+`family` category (the city calendars file senior lunches and adult classes
+there), and theater and date night were tried and rejected. After changing a
+matcher, sample its titles from `live-events.json`: a phrase like "holiday"
+also catches "Thanksgiving Holiday | City Offices Closed".
+
+New Year's Eve stays empty (noindexed) until the 30-day feed window reaches
+Dec 31, i.e. from about Dec 1.
 
 ## Feeds — RSS and iCalendar
 

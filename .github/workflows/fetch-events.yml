@@ -61,7 +61,7 @@ jobs:
           git add -A live-events.json press.json sitemap.xml robots.txt eventbrite.json \
                      source-counts.json \
                      feed.xml calendar.ics ffd9813217969d9353baca4cea7b0cb1.txt \
-                     tonight this-weekend free-events district venue city advertise submit
+                     tonight this-weekend free-events district venue city things-to-do advertise submit
           if git diff --cached --quiet; then
             echo "No changes."
           else

@@ -2328,6 +2328,68 @@ _TIME_HUBS = [("/tonight/", "Tonight"), ("/this-weekend/", "This Weekend"),
               ("/free-events/", "Free Events")]
 
 
+def _load_topics() -> list:
+    """`topic_pages` from feeds.json: one hub per search intent, at
+    /things-to-do/<slug>/. See `_topic_note` there for the matching rules.
+
+    Loaded once at import, like _VENUE_DISTRICTS, because _site_nav() needs the
+    list on every page and the venue pages render before write_topics() runs.
+    A malformed entry is dropped loudly rather than failing the run: a missing
+    topic page is a lost landing page, a failed run is a stale site."""
+    try:
+        raw = json.loads(FEEDS_FILE.read_text()).get("topic_pages", [])
+    except (OSError, ValueError) as e:
+        print(f"feeds.json unreadable, no topic pages: {e}", file=sys.stderr)
+        return []
+    out = []
+    for t in raw:
+        slug, heading = t.get("slug"), t.get("heading")
+        if not (slug and heading and t.get("title") and t.get("desc")) \
+                or not re.fullmatch(r"[a-z0-9-]+", slug):
+            print(f"WARNING: topic_pages entry skipped (needs a lowercase "
+                  f"slug, heading, title, desc): {t!r}", file=sys.stderr)
+            continue
+        out.append(t)
+    return out
+
+
+_TOPICS = _load_topics()
+
+
+def _phrases(words):
+    """A word-boundary regex for a list of phrases, or None for an empty list.
+    Boundaries, not substrings: "elf" must not match "shelf", nor "nye"
+    "Kenye"."""
+    words = [w.lower() for w in words or () if w]
+    if not words:
+        return None
+    return re.compile(r"\b(?:" + "|".join(re.escape(w) for w in words) + r")\b")
+
+
+def _topic_matcher(t):
+    """Predicate over event rows for one topic_pages entry."""
+    cats = set(t.get("categories") or ())
+    terms, venues = _phrases(t.get("terms")), _phrases(t.get("venue_terms"))
+    exclude = _phrases(t.get("exclude"))
+    months = set(t.get("months") or ())
+
+    def match(e):
+        name = (e.get("name") or "").lower()
+        if exclude and exclude.search(name):
+            return False
+        if months and int(e["date"][5:7]) not in months:
+            return False
+        venue = (e.get("area") or "").split(",")[0].lower()
+        return (e.get("category") in cats
+                or bool(terms and terms.search(name))
+                or bool(venues and venues.search(venue)))
+    return match
+
+
+def _topic_links():
+    return [(f"/things-to-do/{t['slug']}/", t["heading"]) for t in _TOPICS]
+
+
 def _nav_links(pairs, current):
     """Render a link row, printing the current page as text rather than a
     self-link — a page linking to itself is noise for a reader and a crawler."""
@@ -2351,12 +2413,17 @@ def _site_nav(current: str = "") -> str:
     # Site-wide feeds, on every generated page. Not in `more` above because
     # _nav_links() would compare them against `current` as if they were pages.
     feeds = [(f"{SITE}/feed.xml", "RSS"), (f"{SITE}/{CAL_NAME}", "Calendar (.ics)")]
+    topics = _topic_links()
+    topic_block = (f'<p class="k">/ THINGS TO DO</p>'
+                   f'<p class="nav">{_nav_links(topics, current)}</p>'
+                   if topics else "")
     city_block = (f'<p class="k">/ CITIES</p>'
                   f'<p class="nav">{_nav_links(cities, current)}</p>'
                   if cities else "")
     return (f'<nav class="sitenav" aria-label="Browse Lets Do It Dallas">'
             f'<p class="k">/ WHEN</p>'
             f'<p class="nav">{_nav_links(_TIME_HUBS, current)}</p>'
+            f'{topic_block}'
             f'<p class="k">/ DISTRICTS</p>'
             f'<p class="nav">{_nav_links(districts, current)}</p>'
             f'{city_block}'
@@ -3756,7 +3823,14 @@ def write_home_nav():
                 f'{city_links}\n'
                 f'    <a href="/city/">All DFW cities →</a>\n'
                 f'  </div>\n') if city_links else ""
+    topic_links = "\n".join(f'    <a href="{href}">{_html.escape(label)}</a>'
+                            for href, label in _topic_links())
+    topic_col = (f'  <div class="f-col f-wide">\n'
+                 f'    <div class="f-head">/ THINGS TO DO</div>\n'
+                 f'{topic_links}\n'
+                 f'  </div>\n') if topic_links else ""
     block = (f'{_HOME_NAV_START}\n'
+             f'{topic_col}'
              f'  <div class="f-col f-wide">\n'
              f'    <div class="f-head">/ DISTRICTS</div>\n'
              f'{links}\n'
@@ -4241,7 +4315,10 @@ def write_hubs(events):
         # meaning changes under them every night, over events the site-wide
         # calendar already carries. Districts and "free" are durable queries
         # and get one.
-        cal = write_calendar(path, f"{heading.title()} — Lets Do It Dallas",
+        # Mixed-case headings (the topic pages: "New Year's Eve in DFW") are
+        # used as written; .title() would make that "New Year'S Eve In Dfw".
+        label = heading.title() if heading.isupper() else heading
+        cal = write_calendar(path, f"{label} — Lets Do It Dallas",
                              desc, evs) if calendar else None
         url = _write_page(path, _hub_html(
             title, desc, f"{SITE}/{path}/", evs, app_link, heading, note, path,
@@ -4271,6 +4348,19 @@ def write_hubs(events):
              f"Live events, music, and nightlife in {label} — part of the Lets Do It Dallas real-time event radar.",
              evs, f"/?district={slug}", label.upper(), "DISTRICT HUB",
              calendar=True)
+
+    # One hub per search intent -- see `_topic_note` in feeds.json. Durable
+    # queries, so each gets a calendar like the districts do; a seasonal one
+    # out of season is simply empty, which noindexes it and drops the
+    # calendar until the season comes round again.
+    for t in _TOPICS:
+        evs = [e for e in events if _topic_matcher(t)(e)]
+        # The radar can filter by category (?cat=) but not by a title phrase,
+        # so a terms-only topic (Christmas, comedy) opens the unfiltered radar.
+        cats = t.get("categories") or ()
+        app_link = f"/?cat={','.join(cats)}" if cats else "/"
+        emit(f"things-to-do/{t['slug']}", t["title"], t["desc"], evs, app_link,
+             t["heading"], "THINGS TO DO", calendar=True)
 
     pages += write_cities(events)
 
