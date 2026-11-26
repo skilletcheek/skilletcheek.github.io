@@ -75,6 +75,8 @@ get clobbered; change the **Python** instead:
 - `/venue/*/` venue pages (`write_venues()`), `/venue/` directory
   (`write_venue_index()`)
 - `venue/pages.json` — the venue-page registry (`write_venues()`); see below
+- `/event/*/` event pages, `/event/` directory and `event/pages.json`
+  (`write_events()`); see "Event pages" below
 - `/advertise/` (`write_advertise()`), `/submit/` (`write_submit()`)
 - the district link block in **`index.html`**, between the `SITEMAP-NAV:START`
   / `SITEMAP-NAV:END` comments (`write_home_nav()`). The rest of index.html is
@@ -572,6 +574,36 @@ rejected** so they don't get re-probed.
   Rejected 2026-09-28: fortworthreport.org (robots.txt disallows `/events/`,
   and `?ical=1` exports only ~2 days), dallasdoinggood.com (social-service
   listings, not things to do).
+
+## Event pages — `/event/<name>-<venue>/`
+
+Since 2026-11-25. The Search Console audit that day found the homepage's
+`?date=&e=` deep links earning about half of all clicks at position ~6:
+people search for a specific show, and those client-rendered URLs (canonical
+`/`) were the only thing that matched. `write_events()` serves the same thing
+as real HTML — ~650 pages, ~5 MB, byte-stable across identical builds.
+
+- **One page per show at a venue, not per performance.** `_event_slug()` is
+  name + canonical venue (or city, for rows with no real venue) and carries no
+  date; a 28-night run is one page listing 28 dates and 28 Event JSON-LD items.
+  Changing the slug shape changes every URL — treat it as frozen, like
+  `_feed_id()`.
+- **`_collect_event_pages()` runs before any listing renders**, because
+  `_hub_row()` links each row's title to its event page and moves the ticket
+  link beside it. The pages themselves are written after the venues, so they
+  can link venue pages. Reorder that and the links silently vanish, the same
+  trap as `write_venues()`.
+- **Lifecycle:** a page exists while its show has an upcoming date. When it
+  ends it is left untouched for `EVENT_GRACE_DAYS` (7), listed under
+  "Recently ended" on `/event/` (so never an orphan) and kept out of the
+  sitemap, then deleted. `event/pages.json` records the last date. Deleting
+  more pages than are kept is refused, as for venues.
+- **`/event/` is the guaranteed parent.** An event at an unmatched venue in a
+  city with no page appears on no hub; the directory links every one.
+- Not done: the homepage's `?e=` deep links still point their canonical at
+  `/`. Pointing them at the event page needs `_event_slug()` mirrored in
+  `js/app.js` — a two-layer mirror, so verify it in the browser preview over
+  every row, the way `_venue_tokens()` was.
 
 ## Topic pages — `/things-to-do/<slug>/`
 

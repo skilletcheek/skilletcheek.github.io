@@ -2425,7 +2425,7 @@ def _site_nav(current: str = "") -> str:
     # the districts are: a page whose only inbound link is a listing row is an
     # orphan by the next nightly run, when the rows move.
     cities = [(f"/city/{slug}/", m["name"]) for slug, m in _CITY_PAGES.items()]
-    more = [("/city/", "All cities"), ("/venue/", "All venues"),
+    more = [("/event/", "All events"), ("/city/", "All cities"), ("/venue/", "All venues"),
             ("/advertise/", "Advertise"), ("/submit/", "Submit an event"),
             ("/", "letsdoitdallas.com")]
     # Site-wide feeds, on every generated page. Not in `more` above because
@@ -2635,7 +2635,10 @@ def _hub_row(e, omit_venue=None, count=1, last=None):
     """
     url = e["url"] if str(e.get("url") or "").startswith(("http://", "https://")) else "#"
     venue, _street, _city = _split_area(e["area"])
-    slug = _venue_slug(venue) if venue else None
+    # Through the alias table, like write_venues(): "Wyly Theatre" rows have to
+    # find the page the canonical name built, or the venue link silently drops.
+    slug = _venue_slug(_canonical_venue(venue)) if venue else None
+    ev = _event_slug(e)
     if count > 1 and last and last != e["date"]:
         bits = [f'{count} dates', f'{_fmt_day(e["date"])} – {_fmt_day(last)}']
     else:
@@ -2643,9 +2646,17 @@ def _hub_row(e, omit_venue=None, count=1, last=None):
     if slug != omit_venue:
         where = _html.escape(_display_area(e["area"]))
         bits.append(f'<a href="/venue/{slug}/">{where}</a>' if slug in _VENUE_PAGES else where)
-    return (f'<li><a href="{_html.escape(url, quote=True)}" rel="noopener">'
-            f'<strong>{_html.escape(e["name"])}</strong></a> '
-            f'<span>/ {" · ".join(bits)}</span></li>')
+    # The title goes to the show's own page when it has one, and the ticket
+    # link moves beside it: internal links are what get event pages crawled.
+    if ev in _EVENT_PAGES:
+        if url != "#":
+            bits.append(f'<a href="{_html.escape(url, quote=True)}" rel="noopener">tickets ↗</a>')
+        head = f'<a href="/event/{ev}/"><strong>{_html.escape(e["name"])}</strong></a>'
+    else:
+        head = (f'<a href="{_html.escape(url, quote=True)}" rel="noopener">'
+                f'<strong>{_html.escape(e["name"])}</strong></a>')
+    return f'<li>{head} <span>/ {" · ".join(bits)}</span></li>'
+
 
 
 def _fmt_day(iso):
@@ -3136,6 +3147,276 @@ upcoming shows.</p>
 {"".join(blocks)}
 <p class="foot">Run one of these rooms? <a href="/submit/">List your shows free</a>.</p>
 {_site_nav("/venue/")}
+</body></html>""")
+
+
+# ============================================================== event pages
+# One page per show at a venue: /event/<name>-<venue>/. The 2026-11-25 Search
+# Console audit found the homepage's ?date=&e= deep links earning about half of
+# all clicks at position ~6 -- people search for a specific show ("zedd dallas",
+# "nurse john against medical advice tour"), and those URLs were the only thing
+# on the domain that matched. They are client-rendered views of the homepage
+# with a static canonical of "/", so whether Google keeps them is up to Google.
+# These are the same pages, served as real HTML with their own canonical.
+#
+# A run (a residency, a tour stop with matinees, a weekly trivia night) is ONE
+# page listing every date, not one page per performance: 28 near-identical
+# pages for A Christmas Carol is exactly the doorway pattern _group_repeats()
+# exists to avoid.
+#
+# Lifecycle: a page exists while its show has an upcoming date. When the last
+# date passes it is left exactly as it was for EVENT_GRACE_DAYS, listed under
+# "Recently ended" in /event/ so it is never an orphan, then deleted. The
+# morning after a concert is when people search for the setlist and the
+# photos; a 404 then is a wasted visit.
+EVENT_GRACE_DAYS = 7
+EVENT_REGISTRY = ROOT / "event" / "pages.json"
+
+# slug -> upcoming rows, sorted. Filled by _collect_event_pages() BEFORE any
+# listing renders, because _hub_row() links each row to its event page.
+_EVENT_PAGES = {}
+
+
+def _event_slug(e) -> str:
+    """name + canonical venue (or city, for rows with no real venue). No date:
+    the same show at the same room is one page however many nights it runs."""
+    venue, _street, city = _split_area(e.get("area", ""))
+    where = (_canonical_venue(venue) if venue and _is_real_venue(venue)
+             else city or venue or "dfw")
+    name = _venue_slug(e.get("name", ""))[:50].strip("-") or "event"
+    return f"{name}-{_venue_slug(where)[:30].strip('-')}".strip("-")
+
+
+def _collect_event_pages(events):
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    _EVENT_PAGES.clear()
+    for e in events:
+        if e.get("date", "") >= today and e.get("name"):
+            _EVENT_PAGES.setdefault(_event_slug(e), []).append(e)
+    for rows in _EVENT_PAGES.values():
+        rows.sort(key=lambda e: (e["date"], _time_minutes(e.get("time")) or 0))
+
+
+def _day_label(iso, weekday=True) -> str:
+    d = datetime.strptime(iso, "%Y-%m-%d")
+    return f"{d.strftime('%a')}, {_short_day(d)}" if weekday else _short_day(d)
+
+
+def _date_span(rows) -> str:
+    first, last = rows[0]["date"], rows[-1]["date"]
+    if first == last:
+        return _day_label(first)
+    return f"{_day_label(first, False)} – {_day_label(last, False)}"
+
+
+def _event_html(slug, rows) -> str:
+    e = rows[0]
+    name = e["name"]
+    venue, street, city = _split_area(e["area"])
+    real = bool(venue and _is_real_venue(venue))
+    canon = _canonical_venue(venue) if real else None
+    vslug = _venue_slug(canon) if canon else None
+    place = canon or _display_area(e["area"])
+    span = _date_span(rows)
+    esc_name, esc_place = _html.escape(name), _html.escape(place)
+    in_city = (f", {_html.escape(city)}"
+               if city and city.lower() not in place.lower() else "")
+    title = _fit_title(
+        f"{esc_name} at {esc_place}{in_city} — {span} | Lets Do It Dallas",
+        f"{esc_name} at {esc_place}{in_city} — {span}",
+        f"{esc_name} at {esc_place} — {span}",
+        # A long venue name costs the place entirely; the city is the part a
+        # local search ("storytime grapevine") actually carries.
+        *([f"{esc_name} in {_html.escape(city)} — {span}"]
+          if city and city.lower() not in name.lower() else []),
+        f"{esc_name} — {span}",
+        esc_name)
+    desc = _html.escape(
+        f"{name} at {place}{', ' + city if city and city.lower() not in place.lower() else ''}"
+        f" — {span}. "
+        + (f"{len(rows)} dates, with times and ticket links."
+           if len(rows) > 1 else "Time, location and ticket link."),
+        quote=True)
+    canonical = f"{SITE}/event/{slug}/"
+    district = _slugify_matches(e.get("area", ""))
+    d_label = next((l for s, l, _m in DISTRICTS if s == district), None)
+
+    where_bits = []
+    if vslug and vslug in _VENUE_PAGES:
+        where_bits.append(f'<a href="/venue/{vslug}/">{esc_place}</a>')
+    else:
+        where_bits.append(esc_place)
+    if street:
+        where_bits.append(_html.escape(street))
+    c_href = _city_surface(city) if city else None
+    if city and city.lower() not in place.lower():
+        where_bits.append(f'<a href="{c_href}">{_html.escape(city)}</a>'
+                          if c_href and c_href != "/" else _html.escape(city))
+    if d_label:
+        where_bits.append(f'<a href="/district/{district}/">{_html.escape(d_label)}</a>')
+
+    dates = "\n".join(
+        f'<li><strong>{_day_label(r["date"])}</strong> '
+        f'<span>/ {_html.escape(r.get("time") or "See details")}'
+        + (f' · <a href="{_html.escape(r["url"], quote=True)}" rel="noopener">tickets ↗</a>'
+           if str(r.get("url") or "").startswith(("http://", "https://"))
+           and r.get("url") != e.get("url") else "")
+        + '</span></li>'
+        for r in rows[:60])
+    about = (e.get("description") or "").strip()
+    if len(about) > 600:
+        about = about[:600].rsplit(" ", 1)[0] + "…"
+    about_html = f"<p>{_html.escape(about)}</p>" if about else ""
+    tickets = (f'<a class="cta" href="{_html.escape(e["url"], quote=True)}" rel="noopener">'
+               f'( TICKETS &amp; DETAILS ↗ )</a>'
+               if str(e.get("url") or "").startswith(("http://", "https://")) else "")
+    radar = (f'<a class="cta" href="/?date={e["date"]}&amp;e='
+             f'{urllib.parse.quote(_event_uid(e))}">( SEE WHAT ELSE IS ON THAT DAY ↗ )</a>')
+    more = ""
+    if vslug and vslug in _VENUE_PAGES:
+        more = (f'<p class="foot">More at <a href="/venue/{vslug}/">{esc_place}</a>'
+                + (f' · more in <a href="/district/{district}/">{_html.escape(d_label)}</a>'
+                   if d_label else "") + "</p>")
+    trail = [("Home", "/"), ("Events", "/event/")]
+    if vslug and vslug in _VENUE_PAGES:
+        trail.append((place, f"/venue/{vslug}/"))
+    trail.append((name, None))
+    _img, _alt = _og_image(rows)
+    og_img = _html.escape(_img, quote=True)
+    og_alt = _html.escape(_alt, quote=True)
+    return f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>{title}</title>
+<meta name="description" content="{desc}"/>
+<link rel="canonical" href="{canonical}"/>
+<meta property="og:title" content="{title}"/>
+<meta property="og:description" content="{desc}"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="{canonical}"/>
+<meta property="og:image" content="{og_img}"/>
+<meta property="og:image:alt" content="{og_alt}"/>
+<meta name="twitter:card" content="summary_large_image"/>
+{_FEED_LINK}
+<meta name="twitter:image" content="{og_img}"/>
+<script type="application/ld+json">{_jsonld(rows)}</script>
+<script type="application/ld+json">{_breadcrumb_jsonld(trail)}</script>
+<style>{_PAGE_CSS}</style>{_analytics_snippet()}</head><body>
+<p class="k">/ LETS DO IT DALLAS — <a href="/event/">EVENTS</a></p>
+<h1>{esc_name}</h1>
+<p class="k">{" · ".join(where_bits)}</p>
+{tickets}
+{about_html}
+<p class="k">/ {"DATES" if len(rows) > 1 else "WHEN"}</p>
+<ul>{dates}</ul>
+{radar}
+{more}
+<p class="foot">Something wrong here? <a href="/submit/">Send a correction or list your own event</a>.</p>
+{_site_nav(f"/event/{slug}/")}
+</body></html>"""
+
+
+def _load_event_registry() -> dict:
+    try:
+        return json.loads(EVENT_REGISTRY.read_text()).get("events", {})
+    except (OSError, ValueError):
+        return {}
+
+
+def write_events() -> list:
+    """Write every /event/<slug>/ page plus the /event/ directory; prune pages
+    past EVENT_GRACE_DAYS. Returns the URLs for the sitemap: upcoming events
+    and the directory, not the ended ones in their grace week."""
+    today = datetime.now(timezone.utc)
+    cutoff = (today - timedelta(days=EVENT_GRACE_DAYS)).strftime("%Y-%m-%d")
+    registry = _load_event_registry()
+    urls = []
+    for slug, rows in sorted(_EVENT_PAGES.items()):
+        urls.append(_write_page(f"event/{slug}", _event_html(slug, rows)))
+        registry[slug] = {"name": rows[0]["name"], "last": rows[-1]["date"]}
+
+    # Ended shows: left as they were until the grace week is up.
+    ended = {s: r for s, r in registry.items()
+             if s not in _EVENT_PAGES and r.get("last", "") >= cutoff
+             and (ROOT / "event" / s / "index.html").exists()}
+    keep = set(_EVENT_PAGES) | set(ended)
+    d = ROOT / "event"
+    stale = [p for p in d.iterdir() if p.is_dir() and p.name not in keep] if d.exists() else []
+    # Same reasoning as _prune_stale_venues(): deleting more than we kept is a
+    # broken feed, not a quiet month. Refuse, and leave the registry alone.
+    if stale and len(stale) > len(keep):
+        print(f"REFUSING TO PRUNE: {len(stale)} event pages vs {len(keep)} kept",
+              file=sys.stderr)
+    else:
+        for p in stale:
+            for f in p.iterdir():
+                f.unlink()
+            p.rmdir()
+        registry = {s: r for s, r in registry.items() if s in keep}
+        text = json.dumps({
+            "_note": "GENERATED by write_events() in scripts/fetch_events.py -- do "
+                     "not hand-edit. Every /event/ page and the last date it listed; "
+                     "a page is deleted EVENT_GRACE_DAYS after that.",
+            "events": registry}, indent=1, sort_keys=True, ensure_ascii=False) + "\n"
+        if not EVENT_REGISTRY.exists() or EVENT_REGISTRY.read_text() != text:
+            EVENT_REGISTRY.write_text(text)
+
+    urls.append(_write_event_index(ended))
+    print(f"wrote {len(_EVENT_PAGES)} event pages + /event/"
+          + (f"; {len(ended)} ended, kept {EVENT_GRACE_DAYS} days" if ended else "")
+          + (f"; pruned {len(stale)}" if stale and len(stale) <= len(keep) else ""))
+    return urls
+
+
+def _write_event_index(ended) -> str:
+    """/event/ -- every upcoming show, by its first upcoming date. The one page
+    guaranteed to link every event page: a listing row on a hub moves nightly,
+    and an event at an unmatched venue in a city with no page appears on no hub
+    at all."""
+    by_day = {}
+    for slug, rows in _EVENT_PAGES.items():
+        by_day.setdefault(rows[0]["date"], []).append((slug, rows))
+    blocks = []
+    for day in sorted(by_day):
+        items = sorted(by_day[day], key=lambda sr: sr[1][0]["name"].lower())
+        lis = "".join(
+            f'<li><a href="/event/{slug}/"><strong>{_html.escape(rows[0]["name"])}</strong></a> '
+            f'<span>/ {_html.escape(_display_area(rows[0]["area"]))}'
+            + (f' · {len(rows)} dates, through {_day_label(rows[-1]["date"], False)}'
+               if len(rows) > 1 else "")
+            + '</span></li>'
+            for slug, rows in items)
+        blocks.append(f'<p class="k">/ {_html.escape(_day_label(day).upper())}</p><ul>{lis}</ul>')
+    if ended:
+        lis = "".join(f'<li><a href="/event/{s}/">{_html.escape(r.get("name") or s)}</a></li>'
+                      for s, r in sorted(ended.items(), key=lambda sr: sr[1].get("last", ""),
+                                         reverse=True))
+        blocks.append(f'<p class="k">/ RECENTLY ENDED</p><ul>{lis}</ul>')
+    title = "All Upcoming Events in Dallas–Fort Worth | Lets Do It Dallas"
+    desc = (f"Every show, game, market and class on the Lets Do It Dallas radar for "
+            f"the next {DAYS_AHEAD} days, by date.")
+    canonical = f"{SITE}/event/"
+    return _write_page("event", f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>{title}</title>
+<meta name="description" content="{desc}"/>
+<link rel="canonical" href="{canonical}"/>
+<meta property="og:title" content="{title}"/>
+<meta property="og:description" content="{desc}"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="{canonical}"/>
+<meta property="og:image" content="{SITE}/og-image.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+{_FEED_LINK}
+<meta name="twitter:image" content="{SITE}/og-image.png"/>
+<style>{_PAGE_CSS}</style>{_analytics_snippet()}</head><body>
+<p class="k">/ LETS DO IT DALLAS — EVENT DIRECTORY</p>
+<h1>EVERY UPCOMING EVENT IN DFW</h1>
+<p>{len(_EVENT_PAGES)} shows, games and happenings across Dallas–Fort Worth in the
+next {DAYS_AHEAD} days. Pick a day on the <a href="/">live radar</a> to see them by time.</p>
+{"".join(blocks)}
+{_site_nav("/event/")}
 </body></html>""")
 
 
@@ -3992,6 +4273,7 @@ def write_home_nav():
     topic_col = (f'  <div class="f-col f-wide">\n'
                  f'    <div class="f-head">/ THINGS TO DO</div>\n'
                  f'{topic_links}\n'
+                 f'    <a href="/event/">Every upcoming event →</a>\n'
                  f'  </div>\n') if topic_links else ""
     block = (f'{_HOME_NAV_START}\n'
              f'{topic_col}'
@@ -4508,6 +4790,10 @@ def write_hubs(events):
     # directory all read _CITY_PAGES, and the venue pages render first. Move
     # this below and every city link on the site silently disappears.
     _collect_city_pages(events)
+    # Also before any listing renders: _hub_row() links each row to its event
+    # page, so the set of event pages has to be known first. The pages
+    # themselves are written last, once _VENUE_PAGES is filled.
+    _collect_event_pages(events)
     # First of the writers: it fills _VENUE_PAGES, which _hub_row() reads to
     # link listings to venue pages. Emitting the hubs before this leaves those
     # links off.
@@ -4594,6 +4880,7 @@ def write_hubs(events):
              t["heading"], "THINGS TO DO", calendar=True)
 
     pages += write_cities(events)
+    pages += write_events()
 
     # After the hubs exist, so its "SEO landing pages" count is accurate.
     pages.append(write_advertise())
