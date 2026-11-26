@@ -10,6 +10,38 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:thanksgiving-dinner-at-iii-forks|iii-forks-addison|11-00-am-8-00-pm-202
+ 6-11-26@letsdoitdallas.com
+DTSTAMP:20261126T170000Z
+DTSTART:20261126T170000Z
+DTEND:20261126T200000Z
+SUMMARY:Thanksgiving Dinner at III Forks
+LOCATION:III Forks · Addison
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=thanksgiving-dinner-at-ii
+ i-forks%7Ciii-forks-addison%7C11-00-am-8-00-pm
+DESCRIPTION:III Forks is a beloved dining destination\, especially for cele
+ bratory occasions. This year\, the restaurant\, with locations in Addison 
+ and Frisco\, will host an exquisite Thanksgiving feast featuring elevated 
+ versions of the holiday’s traditional\, comforting dishes. Rarely open f
+ or — More: https://letsdoitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:thanksgiving-dinner-at-silver-fox|silver-fox-richardson|12-00-pm-6-00-p
+ m-2026-11-26@letsdoitdallas.com
+DTSTAMP:20261126T180000Z
+DTSTART:20261126T180000Z
+DTEND:20261126T210000Z
+SUMMARY:Thanksgiving Dinner at Silver Fox
+LOCATION:Silver Fox · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-26&e=thanksgiving-dinner-at-si
+ lver-fox%7Csilver-fox-richardson%7C12-00-pm-6-00-pm
+DESCRIPTION:Silver Fox\, North Texas’ leading neighborhood steakhouse\, i
+ s making Thanksgiving effortless with a holiday menu that puts an elevated
+  spin on the flavors and traditions of the season. On Thursday\, Nov. 26 f
+ rom noon to 6 p.m.\, guests can gather around the table at Silver Fox for 
+ a — More: https://letsdoitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:chamberlain-ballet-the-nutcracker-richardson|hill-performance-hall-at-e
  isemann-center-richardson|7-00-pm-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261128T010000Z
@@ -374,19 +406,6 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=natasha-leggero%7Caddison
  -improv-addison%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
-END:VEVENT
-BEGIN:VEVENT
-UID:yannis-pappas|mic-drop-comedy-plano-plano|7-00-pm-2026-12-05@letsdoitda
- llas.com
-DTSTAMP:20261206T010000Z
-DTSTART:20261206T010000Z
-DTEND:20261206T040000Z
-SUMMARY:Yannis Pappas
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-12-05&e=yannis-pappas%7Cmic-drop-
- comedy-plano-plano%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:natasha-leggero|addison-improv-addison|9-30-pm-2026-12-05@letsdoitdalla

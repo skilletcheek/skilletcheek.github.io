@@ -62,6 +62,24 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/things-to-do/comedy/
 END:VEVENT
 BEGIN:VEVENT
+UID:post-turkey-day-comedy-weekend|big-laugh-comedy-club-fort-worth-604-mai
+ n-st-suite-100-fort-worth-tx-76102-united-states|7-30-pm-2026-11-27@letsdo
+ itdallas.com
+DTSTAMP:20261128T013000Z
+DTSTART:20261128T013000Z
+DTEND:20261128T043000Z
+SUMMARY:Post-Turkey Day Comedy Weekend
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=post-turkey-day-comedy-we
+ ekend%7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-
+ tx-76102-united-states%7C7-30-pm
+DESCRIPTION:Post-Turkey Day Comedy Weekend Laugh Off the Leftovers Turkey
+ ’s done. The leftovers can wait. It’s time to laugh! Black Friday thro
+ ugh Sunday\, Big Laugh is bringing you 10 comedy shows across both rooms. 
+ Your favorite showcases\, three nights of nonstop laughs\, and plenty of r
+ easo — More: https://letsdoitdallas.com/things-to-do/comedy/
+END:VEVENT
+BEGIN:VEVENT
 UID:casey-rocket|hyena-s-comedy-nightclub-dallas-dallas|8-00-pm-2026-11-27@
  letsdoitdallas.com
 DTSTAMP:20261128T020000Z
@@ -582,6 +600,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/things-to-do/comedy/
 END:VEVENT
 BEGIN:VEVENT
+UID:natasha-leggero|hyena-s-comedy-nightclub-dallas-dallas|7-30-pm-2026-12-
+ 04@letsdoitdallas.com
+DTSTAMP:20261205T013000Z
+DTSTART:20261205T013000Z
+DTEND:20261205T043000Z
+SUMMARY:Natasha Leggero
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=natasha-leggero%7Chyena-s
+ -comedy-nightclub-dallas-dallas%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /things-to-do/comedy/
+END:VEVENT
+BEGIN:VEVENT
 UID:tacarra-williams|arlington-improv-arlington|7-30-pm-2026-12-04@letsdoit
  dallas.com
 DTSTAMP:20261205T013000Z
@@ -686,6 +717,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/things-to-do/comedy/
 END:VEVENT
 BEGIN:VEVENT
+UID:natasha-leggero|hyena-s-comedy-nightclub-dallas-dallas|9-45-pm-2026-12-
+ 04@letsdoitdallas.com
+DTSTAMP:20261205T034500Z
+DTSTART:20261205T034500Z
+DTEND:20261205T064500Z
+SUMMARY:Natasha Leggero
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=natasha-leggero%7Chyena-s
+ -comedy-nightclub-dallas-dallas%7C9-45-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /things-to-do/comedy/
+END:VEVENT
+BEGIN:VEVENT
 UID:tacarra-williams|arlington-improv-arlington|9-45-pm-2026-12-04@letsdoit
  dallas.com
 DTSTAMP:20261205T034500Z
@@ -738,19 +782,6 @@ DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
  doitdallas.com/things-to-do/comedy/
 END:VEVENT
 BEGIN:VEVENT
-UID:marlon-wayans|hyena-s-comedy-nightclub-dallas-dallas|6-00-pm-2026-12-05
- @letsdoitdallas.com
-DTSTAMP:20261206T000000Z
-DTSTART:20261206T000000Z
-DTEND:20261206T030000Z
-SUMMARY:Marlon Wayans
-LOCATION:Hyena's Comedy Nightclub - Dallas
-URL:https://letsdoitdallas.com/?date=2026-12-05&e=marlon-wayans%7Chyena-s-c
- omedy-nightclub-dallas-dallas%7C6-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /things-to-do/comedy/
-END:VEVENT
-BEGIN:VEVENT
 UID:jack-fm-presents-josh-wolf|punch-line-irving-irving|7-00-pm-2026-12-05@
  letsdoitdallas.com
 DTSTAMP:20261206T010000Z
@@ -788,19 +819,6 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=tacarra-williams%7Carling
  ton-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/things-to-do/comedy/
-END:VEVENT
-BEGIN:VEVENT
-UID:yannis-pappas|mic-drop-comedy-plano-plano|7-00-pm-2026-12-05@letsdoitda
- llas.com
-DTSTAMP:20261206T010000Z
-DTSTART:20261206T010000Z
-DTEND:20261206T040000Z
-SUMMARY:Yannis Pappas
-LOCATION:Mic Drop Comedy - Plano
-URL:https://letsdoitdallas.com/?date=2026-12-05&e=yannis-pappas%7Cmic-drop-
- comedy-plano-plano%7C7-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /things-to-do/comedy/
 END:VEVENT
 BEGIN:VEVENT
 UID:jack-fm-presents-josh-wolf|punch-line-irving-irving|9-15-pm-2026-12-05@

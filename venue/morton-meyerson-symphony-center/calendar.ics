@@ -57,6 +57,32 @@ DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/venue/morton-meyerson-symphony-center/
 END:VEVENT
 BEGIN:VEVENT
+UID:millennial-choirs-and-orchestras-dallas|morton-meyerson-symphony-center
+ -dallas|5-00-pm-2026-12-01@letsdoitdallas.com
+DTSTAMP:20261201T230000Z
+DTSTART:20261201T230000Z
+DTEND:20261202T020000Z
+SUMMARY:Millennial Choirs and Orchestras - Dallas
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=millennial-choirs-and-orc
+ hestras-dallas%7Cmorton-meyerson-symphony-center-dallas%7C5-00-pm
+DESCRIPTION:vocal event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/morton-meyerson-symphony-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:millennial-choirs-and-orchestras-dallas|morton-meyerson-symphony-center
+ -dallas|8-00-pm-2026-12-01@letsdoitdallas.com
+DTSTAMP:20261202T020000Z
+DTSTART:20261202T020000Z
+DTEND:20261202T050000Z
+SUMMARY:Millennial Choirs and Orchestras - Dallas
+LOCATION:Morton Meyerson Symphony Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=millennial-choirs-and-orc
+ hestras-dallas%7Cmorton-meyerson-symphony-center-dallas%7C8-00-pm
+DESCRIPTION:vocal event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/morton-meyerson-symphony-center/
+END:VEVENT
+BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-disney-s-the-muppet-christmas-carol-
  in-concert-live-to-film|morton-meyerson-symphony-center-dallas|7-30-pm-202
  6-12-04@letsdoitdallas.com

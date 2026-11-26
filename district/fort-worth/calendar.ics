@@ -10,21 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fort-worth-turkey-trot|general-worth-square-main-street-fort-worth-tx-7
- 6102|7-00-am-2026-11-26@letsdoitdallas.com
-DTSTAMP:20261126T130000Z
-DTSTART:20261126T130000Z
-DTEND:20261126T160000Z
-SUMMARY:Fort Worth Turkey Trot
-LOCATION:General Worth Square · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-26&e=fort-worth-turkey-trot%7C
- general-worth-square-main-street-fort-worth-tx-76102%7C7-00-am
-DESCRIPTION:Start your Thanksgiving Day off right and experience the fun\, 
- family-friendly atmosphere of the YMCA Turkey Trot. With a 5K\, 8K or 1K G
- obbler Trot\, you can choose to run\, jog or walk for fun. Strollers and d
- ogs are welcome! — More: https://letsdoitdallas.com/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:annual-ymca-turkey-trot-event|fort-worth|7-45-am-2026-11-26@letsdoitdal
  las.com
 DTSTAMP:20261126T134500Z
@@ -194,6 +179,24 @@ DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:pizza-on-the-patio-at-caf-modern|modern-art-museum-of-fort-worth-3200-d
+ arnell-street-fort-worth-76107-united-states|5-00-pm-2026-11-27@letsdoitda
+ llas.com
+DTSTAMP:20261127T230000Z
+DTSTART:20261127T230000Z
+DTEND:20261128T020000Z
+SUMMARY:Pizza on the Patio at Café Modern
+LOCATION:Modern Art Museum of Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=pizza-on-the-patio-at-caf
+ -modern%7Cmodern-art-museum-of-fort-worth-3200-darnell-street-fort-worth-7
+ 6107-united-states%7C5-00-pm
+DESCRIPTION:Enjoy a fall evening outside with Pizza on the Patio at Café M
+ odern! Join us on November 6\, November 20\, and November 27 from 5-8 pm f
+ or an evening of delicious food and drinks on the patio at the Modern Art 
+ Museum of Fort Worth.   Café Modern’s Executive Chef Jett Mora and his
+  t — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|7-00-pm-2026-11-27@
  letsdoitdallas.com
 DTSTAMP:20261128T010000Z
@@ -220,6 +223,24 @@ DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
  sdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:post-turkey-day-comedy-weekend|big-laugh-comedy-club-fort-worth-604-mai
+ n-st-suite-100-fort-worth-tx-76102-united-states|7-30-pm-2026-11-27@letsdo
+ itdallas.com
+DTSTAMP:20261128T013000Z
+DTSTART:20261128T013000Z
+DTEND:20261128T043000Z
+SUMMARY:Post-Turkey Day Comedy Weekend
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=post-turkey-day-comedy-we
+ ekend%7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-
+ tx-76102-united-states%7C7-30-pm
+DESCRIPTION:Post-Turkey Day Comedy Weekend Laugh Off the Leftovers Turkey
+ ’s done. The leftovers can wait. It’s time to laugh! Black Friday thro
+ ugh Sunday\, Big Laugh is bringing you 10 comedy shows across both rooms. 
+ Your favorite showcases\, three nights of nonstop laughs\, and plenty of r
+ easo — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:intocable-cultura-tour-2026|ariat-arena-fort-worth|8-00-pm-2026-11-27@l
  etsdoitdallas.com
 DTSTAMP:20261128T020000Z
@@ -233,6 +254,39 @@ DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
  com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
+UID:mike-graham-w-special-guest-kerri-lick|magnolia-motor-lounge-3803-south
+ west-blvd-fort-worth-76116-united-states|8-00-pm-2026-11-27@letsdoitdallas
+ .com
+DTSTAMP:20261128T020000Z
+DTSTART:20261128T020000Z
+DTEND:20261128T050000Z
+SUMMARY:Mike Graham w/ special guest Kerri Lick
+LOCATION:Magnolia Motor Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=mike-graham-w-special-gue
+ st-kerri-lick%7Cmagnolia-motor-lounge-3803-southwest-blvd-fort-worth-76116
+ -united-states%7C8-00-pm
+DESCRIPTION:Mike Graham w/ special guest Kerri Lick  7:00 DOORS – 8:00 MU
+ SIC   $10 – GA ($15 at door) $80 – Table of 4 $120 – Table of 6 $160
+  – Table of 8  Ages 21+  @outhousetickets   Share it and tag a few fri
+ ends! — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:quamon-fowler|scat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-sta
+ tes|8-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T020000Z
+DTSTART:20261128T020000Z
+DTEND:20261128T050000Z
+SUMMARY:Quamon Fowler
+LOCATION:Scat Jazz Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=quamon-fowler%7Cscat-jazz
+ -lounge-111-w-4th-st-fort-worth-76102-united-states%7C8-00-pm
+DESCRIPTION:Saxophonist Quamon Fowler has been honing his craft most of his
+  life. He was mentored by legendary clarinetist Alvin Batiste\, performing
+  in Baton Rouge and New Orleans\, sparking the release of his debut album 
+ “Introducing Quamon Fowler”. He was selected as a Panasonic Young Solo
+ i — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:sophie-buddle|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm-2
  026-11-27@letsdoitdallas.com
 DTSTAMP:20261128T020000Z
@@ -244,6 +298,20 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=sophie-buddle%7Chyena-s-c
  omedy-night-club-fort-worth-fort-worth%7C8-00-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:-parrand-n-ft-quimikoz-del-son|tulips-ftw-112-saint-louis-avenue-fort-w
+ orth-76104-united-states|8-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T020000Z
+DTSTART:20261128T020000Z
+DTEND:20261128T050000Z
+SUMMARY:¡Parrandón! ft. Quimikoz Del Son
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=-parrand-n-ft-quimikoz-de
+ l-son%7Ctulips-ftw-112-saint-louis-avenue-fort-worth-76104-united-states%7
+ C8-00-pm
+DESCRIPTION:Event Details — More: https://letsdoitdallas.com/district/for
+ t-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:gannon-fremin-ccrev|tannahill-s-music-hall-lounge-fort-worth|9-00-pm-20
@@ -647,19 +715,6 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=mamma-mia-fort-worth%7Cba
  ss-performance-hall-fort-worth%7C1-30-pm
 DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
  om/district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-nutcracker-fort-worth|i-m-terrell-performing-arts-center-fort-worth
- |2-00-pm-2026-12-05@letsdoitdallas.com
-DTSTAMP:20261205T200000Z
-DTSTART:20261205T200000Z
-DTEND:20261205T230000Z
-SUMMARY:The Nutcracker - Fort Worth
-LOCATION:I.M. Terrell Performing Arts Center · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-12-05&e=the-nutcracker-fort-worth
- %7Ci-m-terrell-performing-arts-center-fort-worth%7C2-00-pm
-DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
- district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|5-00-pm-2026-12-05@

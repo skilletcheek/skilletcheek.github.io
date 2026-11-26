@@ -48,6 +48,19 @@ DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /venue/hyena-s-comedy-nightclub-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:natasha-leggero|hyena-s-comedy-nightclub-dallas-dallas|7-30-pm-2026-12-
+ 04@letsdoitdallas.com
+DTSTAMP:20261205T013000Z
+DTSTART:20261205T013000Z
+DTEND:20261205T043000Z
+SUMMARY:Natasha Leggero
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=natasha-leggero%7Chyena-s
+ -comedy-nightclub-dallas-dallas%7C7-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:asif-ali|hyena-s-comedy-nightclub-dallas-dallas|8-00-pm-2026-12-04@lets
  doitdallas.com
 DTSTAMP:20261205T020000Z
@@ -61,6 +74,19 @@ DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /venue/hyena-s-comedy-nightclub-dallas/
 END:VEVENT
 BEGIN:VEVENT
+UID:natasha-leggero|hyena-s-comedy-nightclub-dallas-dallas|9-45-pm-2026-12-
+ 04@letsdoitdallas.com
+DTSTAMP:20261205T034500Z
+DTSTART:20261205T034500Z
+DTEND:20261205T064500Z
+SUMMARY:Natasha Leggero
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=natasha-leggero%7Chyena-s
+ -comedy-nightclub-dallas-dallas%7C9-45-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
 UID:asif-ali|hyena-s-comedy-nightclub-dallas-dallas|10-00-pm-2026-12-04@let
  sdoitdallas.com
 DTSTAMP:20261205T040000Z
@@ -70,19 +96,6 @@ SUMMARY:Asif Ali
 LOCATION:Hyena's Comedy Nightclub - Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-04&e=asif-ali%7Chyena-s-comedy
  -nightclub-dallas-dallas%7C10-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/hyena-s-comedy-nightclub-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:marlon-wayans|hyena-s-comedy-nightclub-dallas-dallas|6-00-pm-2026-12-05
- @letsdoitdallas.com
-DTSTAMP:20261206T000000Z
-DTSTART:20261206T000000Z
-DTEND:20261206T030000Z
-SUMMARY:Marlon Wayans
-LOCATION:Hyena's Comedy Nightclub - Dallas
-URL:https://letsdoitdallas.com/?date=2026-12-05&e=marlon-wayans%7Chyena-s-c
- omedy-nightclub-dallas-dallas%7C6-00-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /venue/hyena-s-comedy-nightclub-dallas/
 END:VEVENT

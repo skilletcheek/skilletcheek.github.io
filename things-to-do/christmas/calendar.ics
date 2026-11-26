@@ -36,6 +36,23 @@ DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
+UID:texas-christkindl-market|globe-life-field-734-stadium-drive-arlington-7
+ 6011-united-states|11-00-am-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261127T170000Z
+DTSTART:20261127T170000Z
+DTEND:20261127T200000Z
+SUMMARY:Texas Christkindl Market
+LOCATION:Globe Life Field · Arlington
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=texas-christkindl-market%
+ 7Cglobe-life-field-734-stadium-drive-arlington-76011-united-states%7C11-00
+ -am
+DESCRIPTION:Friday\, November 20\, 2026 – Wednesday\, December 23\, 2026 
+  Experience the magic of the holidays at the Texas Christkindl Market!    
+ Experience the magic of the holiday season at the Texas Christkindl Market
+ \, returning to the North Plaza at Globe Life Field in Arlington\, Texas! 
+ Ins — More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-11-27@letsdoitdallas
  .com
 DTSTAMP:20261127T200000Z
@@ -672,8 +689,8 @@ URL:https://letsdoitdallas.com/?date=2026-12-03&e=annual-tree-lighting-cere
  mony%7C4202-armstrong-pkwy-highland-park%7C06-00-pm
 DESCRIPTION:Ring in the holiday season as we gather to light the Landmark P
  ecan Tree! December 3\, 2026 06:00 PM - 08:00 PM 4202 Armstrong PkwyHighla
- nd Park\, TX 75205 https://www.hptx.org/Calendar.aspx?EID=5449/63930619553
- 0000000 — More: https://letsdoitdallas.com/things-to-do/christmas/
+ nd Park\, TX 75205 https://www.hptx.org/m/calendar/event/detail/5449/63930
+ 6195530000000 — More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-tree-lighting|balch-springs|06-00-pm-2026-12-03@letsdoitdalla
@@ -816,15 +833,15 @@ DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
-UID:a-christmas-carol-carrollton|carrollton-plaza-arts-center-carrollton|7-
- 30-pm-2026-12-04@letsdoitdallas.com
+UID:a-christmas-carol-garland|carrollton-plaza-arts-center-carrollton|7-30-
+ pm-2026-12-04@letsdoitdallas.com
 DTSTAMP:20261205T013000Z
 DTSTART:20261205T013000Z
 DTEND:20261205T043000Z
-SUMMARY:A Christmas Carol - Carrollton
+SUMMARY:A Christmas Carol - Garland
 LOCATION:Carrollton Plaza Arts Center
-URL:https://letsdoitdallas.com/?date=2026-12-04&e=a-christmas-carol-carroll
- ton%7Ccarrollton-plaza-arts-center-carrollton%7C7-30-pm
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=a-christmas-carol-garland
+ %7Ccarrollton-plaza-arts-center-carrollton%7C7-30-pm
 DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/things-to-do/christmas/
 END:VEVENT
@@ -888,19 +905,6 @@ DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
  /things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-best-christmas-pageant-ever-presented-by-garland-civic-theatre|300-
- n-fifth-street-garland|07-30-pm-2026-12-04@letsdoitdallas.com
-DTSTAMP:20261205T013000Z
-DTSTART:20261205T013000Z
-DTEND:20261205T043000Z
-SUMMARY:The Best Christmas Pageant Ever presented by Garland Civic Theatre
-LOCATION:300 N Fifth Street · Garland
-URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-best-christmas-pagean
- t-ever-presented-by-garland-civic-theatre%7C300-n-fifth-street-garland%7C0
- 7-30-pm
-DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-nutcracker-terrell|terrell-performing-arts-center-terrell|7-30-pm-2
  026-12-04@letsdoitdallas.com
 DTSTAMP:20261205T013000Z
@@ -912,6 +916,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-nutcracker-terrell%7C
  terrell-performing-arts-center-terrell%7C7-30-pm
 DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
  things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-presented-by-the-dallas-ballet-company|300-n-fifth-stree
+ t-garland|07-30-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T013000Z
+DTSTART:20261205T013000Z
+DTEND:20261205T043000Z
+SUMMARY:The Nutcracker presented by the Dallas Ballet Company
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-nutcracker-presented-
+ by-the-dallas-ballet-company%7C300-n-fifth-street-garland%7C07-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-nutcracker-w-texas-ballet-theater|margot-and-bill-winspear-opera-ho
@@ -1102,15 +1118,15 @@ DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
  things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-nutcracker-fort-worth|i-m-terrell-performing-arts-center-fort-worth
- |2-00-pm-2026-12-05@letsdoitdallas.com
+UID:the-nutcracker-terrell|terrell-performing-arts-center-terrell|2-00-pm-2
+ 026-12-05@letsdoitdallas.com
 DTSTAMP:20261205T200000Z
 DTSTART:20261205T200000Z
 DTEND:20261205T230000Z
-SUMMARY:The Nutcracker - Fort Worth
-LOCATION:I.M. Terrell Performing Arts Center · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-12-05&e=the-nutcracker-fort-worth
- %7Ci-m-terrell-performing-arts-center-fort-worth%7C2-00-pm
+SUMMARY:The Nutcracker - Terrell
+LOCATION:Terrell Performing Arts Center
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=the-nutcracker-terrell%7C
+ terrell-performing-arts-center-terrell%7C2-00-pm
 DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
  things-to-do/christmas/
 END:VEVENT
@@ -1549,6 +1565,33 @@ URL:https://letsdoitdallas.com/?date=2026-12-10&e=jack-ingram-acoustic-holi
  day-tour%7Cthe-kessler-theater-oak-cliff-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at The Kessler Theater. — More: https://letsdoitdallas.c
  om/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:make-it-ugly-ugly-sweater-decorating-party|211-e-pleasant-run-rd-desoto
+ |04-00-pm-2026-12-10@letsdoitdallas.com
+DTSTAMP:20261210T220000Z
+DTSTART:20261210T220000Z
+DTEND:20261211T010000Z
+SUMMARY:Make it Ugly: Ugly Sweater Decorating Party
+LOCATION:211 E. Pleasant Run Rd. · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-10&e=make-it-ugly-ugly-sweater
+ -decorating-party%7C211-e-pleasant-run-rd-desoto%7C04-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:santa-s-helpers-toy-drive|111-n-tennessee-st-mckinney|05-00-pm-2026-12-
+ 10@letsdoitdallas.com
+DTSTAMP:20261210T230000Z
+DTSTART:20261210T230000Z
+DTEND:20261211T020000Z
+SUMMARY:Santa's Helpers Toy Drive
+LOCATION:111 N. Tennessee St. · McKinney
+URL:https://letsdoitdallas.com/?date=2026-12-10&e=santa-s-helpers-toy-drive
+ %7C111-n-tennessee-st-mckinney%7C05-00-pm
+DESCRIPTION:Calling all Elves! December 10\, 2026 05:00 PM - 08:00 PM 111 N
+ . Tennessee St.McKinney\, TX 75069 https://www.mckinneytexas.org/Calendar.
+ aspx?EID=37186/639281102440000000 — More: https://letsdoitdallas.com/thi
+ ngs-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-10@letsdoitdallas

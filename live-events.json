@@ -1,129 +1,5 @@
 [
  {
-  "name": "Dallas Stars vs. Nashville Predators",
-  "category": "sports",
-  "area": "American Airlines Center, Dallas",
-  "city": "Dallas",
-  "date": "2026-11-25",
-  "time": "7:00 PM",
-  "cost": null,
-  "description": "Hockey event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/dallas-stars-vs-nashville-predators-dallas-texas-11-25-2026/event/0C0064EDD90AA0D1",
-  "image": "https://s1.ticketm.net/dam/a/8e2/21595241-e1e4-436b-b8c1-413f429288e2_RETINA_PORTRAIT_16_9.jpg",
-  "organizer": {
-   "name": "Dallas Stars",
-   "url": "https://www.nhl.com/stars"
-  }
- },
- {
-  "name": "Disney On Ice presents Magic in the Stars",
-  "category": "festival",
-  "area": "Credit Union of Texas Event Center, Allen",
-  "city": "Allen",
-  "date": "2026-11-25",
-  "time": "7:00 PM",
-  "cost": null,
-  "description": "Ice Shows event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/disney-on-ice-presents-magic-in-allen-texas-11-25-2026/event/0C0064F6CAA99C48",
-  "image": "https://s1.ticketm.net/dam/a/654/b07e2979-e523-483b-a209-ba7c1c04a654_RETINA_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Dr. Seuss' How the Grinch Stole Christmas! The Musical (Touring)",
-  "category": "arts",
-  "area": "Music Hall At Fair Park, Dallas",
-  "city": "Dallas",
-  "date": "2026-11-25",
-  "time": "7:30 PM",
-  "cost": null,
-  "description": "Theatre event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/dr-seuss-how-the-grinch-stole-dallas-texas-11-25-2026/event/0C0064AFCDDBC564",
-  "image": "https://s1.ticketm.net/dam/a/acb/cef79e09-1d04-4972-8f92-39d02cd48acb_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Outlander in Concert",
-  "category": "festival",
-  "area": "Majestic Theatre Dallas, Dallas",
-  "city": "Dallas",
-  "date": "2026-11-25",
-  "time": "7:30 PM",
-  "cost": null,
-  "description": "Live event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PZ47",
-  "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Randy's Cheeseburger Picnic (Trailer Park Boys) Live In Dallas TX",
-  "category": "festival",
-  "area": "Three Links Deep Ellum, Dallas",
-  "city": "Dallas",
-  "date": "2026-11-25",
-  "time": "8:00 PM",
-  "cost": 41,
-  "description": "Live event via Ticketmaster.",
-  "url": "https://www.ticketweb.com/event/randys-cheeseburger-picnic-trailer-park-three-links-deep-ellum-tickets/15027203",
-  "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Sam Riggs - Ages 18+",
-  "category": "music",
-  "area": "Billy Bob's, Fort Worth",
-  "city": "Fort Worth",
-  "date": "2026-11-25",
-  "time": "9:00 PM",
-  "cost": null,
-  "description": "Other event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZg8y",
-  "image": "https://s1.ticketm.net/dam/a/3ae/805b9bc3-8c3e-4087-8592-dddef4d5d3ae_1035061_TABLET_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Shed G and Friends",
-  "category": "arts",
-  "area": "Arlington Improv, Arlington",
-  "city": "Arlington",
-  "date": "2026-11-25",
-  "time": "7:30 PM",
-  "cost": null,
-  "description": "Comedy event via Ticketmaster.",
-  "url": "https://www.ticketweb.com/event/shed-g-and-friends-arlington-improv-tickets/14395344?REFERRAL_ID=tmfeed",
-  "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg"
- },
- {
-  "name": "Virtual Riot & Blanke - Ages 18+",
-  "category": "music",
-  "area": "SILO, Dallas",
-  "city": "Dallas",
-  "date": "2026-11-25",
-  "time": "9:00 PM",
-  "cost": null,
-  "description": "Other event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvJaK",
-  "image": "https://s1.ticketm.net/dam/a/6bf/d029e880-324b-4138-9150-7331553f06bf_1488761_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "We Funny Wednesdays",
-  "category": "arts",
-  "area": "Punch Line Irving, Irving",
-  "city": "Irving",
-  "date": "2026-11-25",
-  "time": "7:30 PM",
-  "cost": null,
-  "description": "Comedy event via Ticketmaster.",
-  "url": "https://www.ticketmaster.com/we-funny-wednesdays-irving-texas-11-25-2026/event/0C006534CCE9A22F",
-  "image": "https://s1.ticketm.net/dam/e/29a/cf3d0166-3a85-48d0-ab42-8022237e329a_RETINA_PORTRAIT_16_9.jpg"
- },
- {
-  "name": "Wub Wednesday",
-  "category": "music",
-  "area": "Three Links Deep Ellum, Dallas",
-  "city": "Dallas",
-  "date": "2026-11-25",
-  "time": "10:00 PM",
-  "cost": 0,
-  "description": "Dance/Electronic event via Ticketmaster.",
-  "url": "https://www.ticketweb.com/event/wub-wednesday-three-links-deep-ellum-tickets/14405204",
-  "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_PORTRAIT_16_9.jpg"
- },
- {
   "name": "5th Annual Dancegiving at CTRL Room 11.26.26",
   "category": "nightlife",
   "area": "CTRL Room, Dallas",
@@ -194,22 +70,6 @@
   "description": "Celebrate Thanksgiving at Asador with a festive brunch buffet featuring seasonal favorites, chef-crafted dishes, a made-to-order omelet station, a New York strip carving station, and an array of desserts. Whether you're celebrating with family, gathering with friends or visiting ",
   "url": "https://www.opentable.com/booking/experiences-availability?rid=56605&restref=56605&experienceId=820240&utm_source=external&utm_medium=referral&utm_campaign=shared",
   "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/Thanksgiving-2026-dessert_24272D80-04F9-08C3-73B3534FA72DF172_244ef43e-dd59-3c3d-cbf7e1c67b0457aa.jpg"
- },
- {
-  "name": "Chair Yoga",
-  "category": "sports",
-  "area": "407 E. First St., Prosper",
-  "city": "Prosper",
-  "date": "2026-11-26",
-  "time": "08:00 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.prospertx.gov/Calendar.aspx?EID=5562",
-  "image": null,
-  "organizer": {
-   "name": "Town of Prosper",
-   "url": "https://prospertx.gov/"
-  }
  },
  {
   "name": "Come to Good: Thanksgiving Sunset Viewing",
@@ -300,18 +160,6 @@
   "image": null
  },
  {
-  "name": "Fort Worth Turkey Trot",
-  "category": "festival",
-  "area": "General Worth Square, Main Street, Fort Worth, TX, 76102",
-  "city": "Fort Worth",
-  "date": "2026-11-26",
-  "time": "7:00 AM",
-  "cost": null,
-  "description": "Start your Thanksgiving Day off right and experience the fun, family-friendly atmosphere of the YMCA Turkey Trot. With a 5K, 8K or 1K Gobbler Trot, you can choose to run, jog or walk for fun. Strollers and dogs are welcome!",
-  "url": "https://whatsupfortworth.com/event/fort-worth-turkey-trot/",
-  "image": null
- },
- {
   "name": "Light Up Rowlett Nomination Period",
   "category": "family",
   "area": "Rowlett",
@@ -364,6 +212,18 @@
   "image": null
  },
  {
+  "name": "Thanksgiving Brunch & Dinner at JW Steakhouse",
+  "category": "food",
+  "area": "JW Steakhouse, Dallas",
+  "city": "Dallas",
+  "date": "2026-11-26",
+  "time": "10:00 AM–6:30 PM",
+  "cost": null,
+  "description": "Gather and give thanks at JW Steakhouse with two harvest-inspired dining experiences. Enjoy a festive Thanksgiving Brunch featuring the rich flavors of the season, or gather with family and friends for a refined Thanksgiving Dinner showcasing a thoughtfully curated prix fixe menu",
+  "url": "https://www.dallasites101.com/event/thanksgiving-brunch-%26-dinner-at-jw-steakhouse/17926/",
+  "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/Screen-Shot-2026-11-13-at-2.45.18-PM_62C7F22D-A92B-05B1-5E26CBE42A22F6AC_62ce5a32-c094-7777-c7b53a1f12d50021.png"
+ },
+ {
   "name": "Thanksgiving Closure for City of Cedar Hill Facilities",
   "category": "family",
   "area": "Cedar Hill",
@@ -378,6 +238,42 @@
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
   }
+ },
+ {
+  "name": "Thanksgiving Dinner at III Forks",
+  "category": "food",
+  "area": "III Forks, Addison",
+  "city": "Addison",
+  "date": "2026-11-26",
+  "time": "11:00 AM–8:00 PM",
+  "cost": 20.0,
+  "description": "III Forks is a beloved dining destination, especially for celebratory occasions. This year, the restaurant, with locations in Addison and Frisco, will host an exquisite Thanksgiving feast featuring elevated versions of the holiday’s traditional, comforting dishes. Rarely open for",
+  "url": "https://www.dallasites101.com/event/thanksgiving-dinner-at-iii-forks/17749/",
+  "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/III-Forks-Thanksgiving_1E141AC0-9C56-9FC7-11A2FBF5A34E1BF2_1e165234-ebba-63f3-43f6024636b60dd6.jpg"
+ },
+ {
+  "name": "Thanksgiving Dinner at Mesa Mezcal",
+  "category": "food",
+  "area": "Mesa Mezcal, Irving",
+  "city": "Irving",
+  "date": "2026-11-26",
+  "time": "4:00 PM–8:00 PM",
+  "cost": 12.0,
+  "description": "Celebrate Thanksgiving with a family-style dinner at Mesa Mezcal featuring roasted turkey breast with chipotle cranberry relish, poblano cornbread stuffing, garlic mashed potatoes, braised green beans with bacon, fresh salad, and warm dinner rolls. Choose between pumpkin pie and ",
+  "url": "https://www.dallasites101.com/event/thanksgiving-dinner-at-mesa-mezcal/17796/",
+  "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/WlGQd9TIxU-1pnl52EG5pA.large-2-_56E75393-FBA2-0401-78AEDD0736146E97_56ea0ee9-d78f-4946-979eba384062048b.jpg"
+ },
+ {
+  "name": "Thanksgiving Dinner at Silver Fox",
+  "category": "food",
+  "area": "Silver Fox, Richardson",
+  "city": "Richardson",
+  "date": "2026-11-26",
+  "time": "12:00 PM–6:00 PM",
+  "cost": 20.0,
+  "description": "Silver Fox, North Texas’ leading neighborhood steakhouse, is making Thanksgiving effortless with a holiday menu that puts an elevated spin on the flavors and traditions of the season. On Thursday, Nov. 26 from noon to 6 p.m., guests can gather around the table at Silver Fox for a",
+  "url": "https://www.dallasites101.com/event/thanksgiving-dinner-at-silver-fox/17750/",
+  "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/dallasites101/SF-Thanksgiving_1E7E37D3-0A8E-0388-3B464C51D644FA55_1e8046f9-0500-f6d8-08667c28aeb14b85.jpg"
  },
  {
   "name": "William Clark Green",
@@ -452,6 +348,18 @@
   "image": null
  },
  {
+  "name": "AT&T Stadium Self Guided Tour",
+  "category": "sports",
+  "area": "AT&T Stadium, Arlington",
+  "city": "Arlington",
+  "date": "2026-11-27",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "stadium tours event via SeatGeek.",
+  "url": "https://seatgeek.com/at-t-stadium-self-guided-tour-tickets/stadium-tours/2026-11-27-11-am/18595087",
+  "image": null
+ },
+ {
   "name": "AT&T Stadium VIP Guided Tour",
   "category": "sports",
   "area": "AT&T Stadium, Arlington",
@@ -461,18 +369,6 @@
   "cost": null,
   "description": "stadium tours event via SeatGeek.",
   "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-11-27-9-15-am/18251941",
-  "image": null
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-11-27",
-  "time": "11:00 AM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-11-27-11-am/18251943",
   "image": null
  },
  {
@@ -625,6 +521,18 @@
   "cost": null,
   "description": "concert event via SeatGeek.",
   "url": "https://seatgeek.com/conjunto-rio-grande-tickets/dallas-texas-escapade-2001-dallas-2026-11-27-8-pm/concert/18827015",
+  "image": null
+ },
+ {
+  "name": "County Line Records & WMG Vinyl Take-Back Event",
+  "category": "music",
+  "area": "County Line Records, 600 N Main St Building B, Keller, TX, 76248, United States",
+  "city": "Keller",
+  "date": "2026-11-27",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "Drop into County Line Records for an afternoon of crate digging. While you’re there drop off your damaged or unplayable vinyl records to help support vinyl recycling efforts! Collection bins will be out through the end of September.",
+  "url": "https://whatsupfortworth.com/event/county-line-records-wmg-vinyl-take-back-event/2026-11-27/",
   "image": null
  },
  {
@@ -944,6 +852,18 @@
   }
  },
  {
+  "name": "Mike Graham w/ special guest Kerri Lick",
+  "category": "music",
+  "area": "Magnolia Motor Lounge, 3803 Southwest Blvd, Fort Worth, 76116, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-27",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Mike Graham w/ special guest Kerri Lick  7:00 DOORS – 8:00 MUSIC   $10 – GA ($15 at door) $80 – Table of 4 $120 – Table of 6 $160 – Table of 8  Ages 21+  @outhousetickets   Share it and tag a few friends!",
+  "url": "https://whatsupfortworth.com/event/mike-graham-w-special-guest-kerri-lick/",
+  "image": null
+ },
+ {
   "name": "Nacho Redondo",
   "category": "festival",
   "area": "The Kessler, Dallas",
@@ -992,6 +912,30 @@
   "image": null
  },
  {
+  "name": "Pizza on the Patio at Café Modern",
+  "category": "festival",
+  "area": "Modern Art Museum of Fort Worth, 3200 Darnell Street, Fort Worth, 76107, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-27",
+  "time": "5:00 PM",
+  "cost": null,
+  "description": "Enjoy a fall evening outside with Pizza on the Patio at Café Modern! Join us on November 6, November 20, and November 27 from 5-8 pm for an evening of delicious food and drinks on the patio at the Modern Art Museum of Fort Worth.   Café Modern’s Executive Chef Jett Mora and his t",
+  "url": "https://whatsupfortworth.com/event/pizza-on-the-patio-at-cafe-modern/2026-11-27/",
+  "image": null
+ },
+ {
+  "name": "Post-Turkey Day Comedy Weekend",
+  "category": "arts",
+  "area": "Big Laugh Comedy Club – Fort Worth, 604 Main St, Suite 100, Fort Worth, TX, 76102, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-27",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Post-Turkey Day Comedy Weekend Laugh Off the Leftovers Turkey’s done. The leftovers can wait. It’s time to laugh! Black Friday through Sunday, Big Laugh is bringing you 10 comedy shows across both rooms. Your favorite showcases, three nights of nonstop laughs, and plenty of reaso",
+  "url": "https://whatsupfortworth.com/event/post-turkey-day-comedy-weekend/",
+  "image": null
+ },
+ {
   "name": "Pretty Sick",
   "category": "music",
   "area": "AM/FM Diner & Lounge - Dallas, Dallas",
@@ -1025,6 +969,18 @@
   "cost": null,
   "description": "Consistently rated the best local scavenger hunt since 2016!  Puzzling Adventures are a cross between a scavenger hunt, an adventure race, and an informative self-guided walking tour. Each adventure consists of a series of locations that you are guided to where you are required t",
   "url": "https://whatsupfortworth.com/event/puzzling-adventures-scavenger-hunt/2026-11-27/",
+  "image": null
+ },
+ {
+  "name": "Quamon Fowler",
+  "category": "music",
+  "area": "Scat Jazz Lounge, 111 W 4th St, Fort Worth, 76102, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-27",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Saxophonist Quamon Fowler has been honing his craft most of his life. He was mentored by legendary clarinetist Alvin Batiste, performing in Baton Rouge and New Orleans, sparking the release of his debut album “Introducing Quamon Fowler”. He was selected as a Panasonic Young Soloi",
+  "url": "https://whatsupfortworth.com/event/quamon-fowler-20/",
   "image": null
  },
  {
@@ -1124,7 +1080,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "Join Miss Victoria and Mr. Tre for Story Time at the Highland Park Library, 2nd Floor Town Hall. This Story Time is designed for all ages. Read stories, sing, and follow along with Miss Victoria and Mr. Tre. Tickets will be required for entry to Story Time. Tickets are free and w",
-  "url": "https://www.hptx.org/Calendar.aspx?EID=4936",
+  "url": "https://www.hptx.org/m/calendar/event/detail/4936",
   "image": null,
   "organizer": {
    "name": "Town of Highland Park",
@@ -1144,6 +1100,18 @@
   "image": null
  },
  {
+  "name": "Texas Christkindl Market",
+  "category": "festival",
+  "area": "Globe Life Field, 734 Stadium Drive, Arlington, 76011, United States",
+  "city": "Arlington",
+  "date": "2026-11-27",
+  "time": "11:00 AM",
+  "cost": null,
+  "description": "Friday, November 20, 2026 – Wednesday, December 23, 2026  Experience the magic of the holidays at the Texas Christkindl Market!    Experience the magic of the holiday season at the Texas Christkindl Market, returning to the North Plaza at Globe Life Field in Arlington, Texas! Ins",
+  "url": "https://whatsupfortworth.com/event/texas-christkindl-market-2/2026-11-27/",
+  "image": null
+ },
+ {
   "name": "Texas Legends vs. Osceola Magic",
   "category": "sports",
   "area": "Fifth Third Arena, Frisco",
@@ -1154,6 +1122,18 @@
   "description": "Basketball event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/texas-legends-vs-osceola-magic-frisco-texas-11-27-2026/event/0C00651A99C65730",
   "image": "https://s1.ticketm.net/dam/a/ab3/7e32d8e3-4bec-463e-9a26-ff9300288ab3_1134781_RETINA_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Texas VS College Station",
+  "category": "sports",
+  "area": "Texas Live!, 1650 East Randol Mill Road, Arlington, 76011, United States",
+  "city": "Arlington",
+  "date": "2026-11-27",
+  "time": "6:30 PM",
+  "cost": null,
+  "description": "Big game. Bigger screen. See who wins one of the biggest rivalries in college football!",
+  "url": "https://whatsupfortworth.com/event/texas-vs-college-station/",
+  "image": null
  },
  {
   "name": "Thanksgiving Closure for City of Cedar Hill Facilities",
@@ -1192,7 +1172,7 @@
   "time": "10:30 AM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=7770",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/7770",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -1261,6 +1241,18 @@
   "cost": null,
   "description": "ncaa womens basketball event via SeatGeek.",
   "url": "https://seatgeek.com/north-texas-mean-green-womens-basketball-tickets/ncaa-womens-basketball/2026-11-27-6-30-pm/18634767",
+  "image": null
+ },
+ {
+  "name": "¡Parrandón! ft. Quimikoz Del Son",
+  "category": "music",
+  "area": "Tulips FTW, 112 Saint Louis Avenue, Fort Worth, 76104, United States",
+  "city": "Fort Worth",
+  "date": "2026-11-27",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "Event Details",
+  "url": "https://whatsupfortworth.com/event/parrandon-ft-quimikoz-del-son/",
   "image": null
  },
  {
@@ -1471,8 +1463,8 @@
   "date": "2026-11-28",
   "time": "11:30 AM",
   "cost": null,
-  "description": "Where creativity meets construction! November 28, 2026 11:30 AM - 12:30 PM Lancaster Veterans Memorial Library 1600 Veterans Memorial ParkwayLancaster, TX 75146 https://www.lancaster-tx.com/Calendar.aspx?EID=8153/639151463420000000",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8153",
+  "description": "Where creativity meets construction! November 28, 2026 11:30 AM - 12:30 PM Lancaster Veterans Memorial Library 1600 Veterans Memorial ParkwayLancaster, TX 75146 https://www.lancaster-tx.com/m/calendar/event/detail/8153/639151463420000000",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8153",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -1568,7 +1560,7 @@
   "time": "11:30 AM",
   "cost": null,
   "description": "Registration Required to attend. Ongoing Campaign. Join us in the Library Boardroom for the ongoing campaign of D&D 5e. Space for this game is very limited but new players are welcome. We invite everyone that would like to spectate or get additional information to join us at any ",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17322",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17322",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -1840,7 +1832,7 @@
   "time": "10:30 AM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=7813",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/7813",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -2104,7 +2096,7 @@
   "time": "12:00 PM",
   "cost": null,
   "description": "Interested in podcasting or recording music? Come learn how to use the library’s Recording Studio! To reserve and use the Recording Studio, you must first complete a mandatory orientation. Orientations are offered on Saturdays from 12 to 4 pm. No registration or appointment neede",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16737",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/16737",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -2219,8 +2211,8 @@
   "date": "2026-11-28",
   "time": "10:00 AM",
   "cost": null,
-  "description": "Help us make quilts for the Grapevine Animal Shelter & local hospital or bring your own stitching project. Adults only (18+), Library Card & Registration Required to attend. November 28, 2026 10:00 AM - 01:00 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17461",
+  "description": "Help us make quilts for the Grapevine Animal Shelter & local hospital or bring your own stitching project. Adults only (18+), Library Card & Registration Required to attend. November 28, 2026 10:00 AM - 01:00 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17461",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -2495,8 +2487,8 @@
   "date": "2026-11-29",
   "time": "10:30 AM",
   "cost": null,
-  "description": "Use your creativity, critical thinking, and maker skills to make crafts for your friends and family using the art and craft supplies provided on the Art Cart. November 29, 2026 10:30 AM - 02:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17517/63916954",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17517",
+  "description": "Use your creativity, critical thinking, and maker skills to make crafts for your friends and family using the art and craft supplies provided on the Art Cart. November 29, 2026 10:30 AM - 02:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/detail/17517/63",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17517",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -2804,7 +2796,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "This open session gives you access to sewing machines, knitting tools, and more fiber arts equipment. Our knowledgeable staff will be on hand to guide you, share tips, and support you as you work on your projects. Open to adults 18+, library card in good standing required. Open t",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16984",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/16984",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -2979,8 +2971,8 @@
   "date": "2026-11-30",
   "time": "04:30 PM",
   "cost": null,
-  "description": "Kick back after school, bring your favorite snacks, and enjoy a movie with friends! For teens ages 13 and up. November 30, 2026 04:30 PM - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17657/63921035423000",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17657",
+  "description": "Kick back after school, bring your favorite snacks, and enjoy a movie with friends! For teens ages 13 and up. November 30, 2026 04:30 PM - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/detail/17657/63921035",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17657",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -3040,7 +3032,7 @@
   "time": "05:00 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8306",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8306",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -3204,7 +3196,7 @@
   "time": "05:30 PM",
   "cost": null,
   "description": "Looking for a cozy way to unwind and connect with fellow yarn enthusiasts? Join us Mondays for our casual Knit & Crochet Circle! Whether you're a seasoned pro or just picking up your first set of needles or hooks, this is the perfect opportunity to share your latest projects, swa",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16866",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/16866",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -3264,7 +3256,7 @@
   "time": "06:00 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8331",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8331",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -3280,7 +3272,7 @@
   "time": "05:00 PM",
   "cost": null,
   "description": "Who: Ages 8+ What: Step into the Esports Academy Minecraft Lab this Monday and experiment with a brand-new set of server-wide mods! Build steampunk contraptions, hunt Pokémon and challenge trainers across wild biomes, or design complex machines, clever circuits, and fully automat",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17889",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17889",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -3296,7 +3288,7 @@
   "time": "07:00 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8356",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8356",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -3344,7 +3336,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "Mondays & Wednesdays 10 AM-1:00 PM (Adults, ages 18+) Join us at Grapevine Makerspace for our STEM Lab! During this session, you’ll have access to 3D printers, laser cutters, and other equipment. Our knowledgeable staff will be available to provide guidance, tips, and support as ",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17829",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17829",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -3564,7 +3556,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "Use our sewing machines, Cricut, and other tools to work on your own projects or start something new. Bring your own project and ideas! This is a welcoming space for creatives 18+. *Library Card Required* December 1, 2026 10:00 AM - 01:00 PM Grapevine, TX 76051 https://www.grapev",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17412",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17412",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -3611,8 +3603,8 @@
   "date": "2026-12-01",
   "time": "11:30 AM",
   "cost": null,
-  "description": "Rhymes, songs, and movement December 1, 2026 11:30 AM - 12:30 PM Lancaster, TX 75146 https://www.lancaster-tx.com/Calendar.aspx?EID=7683/639077970340000000",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=7683",
+  "description": "Rhymes, songs, and movement December 1, 2026 11:30 AM - 12:30 PM Lancaster, TX 75146 https://www.lancaster-tx.com/m/calendar/event/detail/7683/639077970340000000",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/7683",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -3752,7 +3744,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "The library is partnering with the American Red Cross to host a community blood drive and invite neighbors to make a life-saving difference. Donating blood is a simple act that can help patients in emergencies, surgeries, and ongoing medical care. Whether you’re a first-time dono",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16808",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/16808",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -3852,7 +3844,7 @@
   "time": "05:00 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8432",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8432",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -3896,7 +3888,7 @@
   "time": "10:15 AM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8458",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8458",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -3945,6 +3937,30 @@
   "cost": null,
   "description": "broadway event via SeatGeek.",
   "url": "https://seatgeek.com/mamma-mia-tickets/broadway/2026-12-01-7-30-pm/18302162",
+  "image": null
+ },
+ {
+  "name": "Millennial Choirs and Orchestras - Dallas",
+  "category": "arts",
+  "area": "Morton Meyerson Symphony Center, Dallas",
+  "city": "Dallas",
+  "date": "2026-12-01",
+  "time": "5:00 PM",
+  "cost": null,
+  "description": "vocal event via SeatGeek.",
+  "url": "https://seatgeek.com/millennial-choirs-and-orchestras-tickets/vocal/2026-12-01-5-pm/18881821",
+  "image": null
+ },
+ {
+  "name": "Millennial Choirs and Orchestras - Dallas",
+  "category": "arts",
+  "area": "Morton Meyerson Symphony Center, Dallas",
+  "city": "Dallas",
+  "date": "2026-12-01",
+  "time": "8:00 PM",
+  "cost": null,
+  "description": "vocal event via SeatGeek.",
+  "url": "https://seatgeek.com/millennial-choirs-and-orchestras-tickets/vocal/2026-12-01-8-pm/18881820",
   "image": null
  },
  {
@@ -4094,7 +4110,7 @@
   "time": "10:30 AM",
   "cost": null,
   "description": "Books, songs, parachutes and more! Toddlers/Preschoolers are welcome and no registrations is needed. (This is a Ticketed Program; please stop at the Children's Desk 15 minutes before the program to receive tickets. 1 per attendee.) December 1, 2026 10:30 AM - 11:00 AM Grapevine, ",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17865",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17865",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -4193,8 +4209,8 @@
   "date": "2026-12-01",
   "time": "09:15 AM",
   "cost": null,
-  "description": "Sensory Play December 1, 2026 09:15 AM - 10:00 AM 1700 Veterans Memorial ParkwayLancaster, TX 75146 https://www.lancaster-tx.com/Calendar.aspx?EID=8381/639220566530000000",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8381",
+  "description": "Sensory Play December 1, 2026 09:15 AM - 10:00 AM 1700 Veterans Memorial ParkwayLancaster, TX 75146 https://www.lancaster-tx.com/m/calendar/event/detail/8381/639220566530000000",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8381",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -4442,7 +4458,7 @@
   "time": "05:00 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8281",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8281",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -4457,8 +4473,8 @@
   "date": "2026-12-02",
   "time": "06:00 PM",
   "cost": null,
-  "description": "Not all art has to be Fine Art. Make Fun Art. Join us for a fun evening of feel-good, no-pressure, creativity. All supplies will be provided. Adults only. (18+). Registration Required. December 2, 2026 06:00 PM - 07:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calenda",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17428",
+  "description": "Not all art has to be Fine Art. Make Fun Art. Join us for a fun evening of feel-good, no-pressure, creativity. All supplies will be provided. Adults only. (18+). Registration Required. December 2, 2026 06:00 PM - 07:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calen",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17428",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -4694,7 +4710,7 @@
   "time": "09:00 AM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8254",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8254",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -4841,8 +4857,8 @@
   "date": "2026-12-02",
   "time": "04:30 PM",
   "cost": null,
-  "description": "Drop by the Esports Academy and get some extra practice time or ranked play. Ages 12 and up. December 2, 2026 04:30 PM - 07:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17754/639232829710000000",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17754",
+  "description": "Drop by the Esports Academy and get some extra practice time or ranked play. Ages 12 and up. December 2, 2026 04:30 PM - 07:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/detail/17754/639232829710000000",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17754",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -4998,7 +5014,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "Mondays & Wednesdays 10 AM-1:00 PM (Adults, ages 18+) Join us at Grapevine Makerspace for our STEM Lab! During this session, you’ll have access to 3D printers, laser cutters, and other equipment. Our knowledgeable staff will be available to provide guidance, tips, and support as ",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17910",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17910",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -5074,7 +5090,7 @@
   "time": "10:30 AM",
   "cost": null,
   "description": "Books, songs, parachutes and more! Toddlers/Preschoolers are welcome and no registrations is needed. (This is a Ticketed Program; please stop at the Children's Desk 15 minutes before the program to receive tickets. 1 per attendee.) December 2, 2026 10:30 AM - 11:00 AM Grapevine, ",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17866",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17866",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -5214,7 +5230,7 @@
   "time": "09:45 AM",
   "cost": null,
   "description": "",
-  "url": "https://www.hptx.org/Calendar.aspx?EID=5329",
+  "url": "https://www.hptx.org/m/calendar/event/detail/5329",
   "image": null,
   "organizer": {
    "name": "Town of Highland Park",
@@ -5329,8 +5345,8 @@
   "date": "2026-12-03",
   "time": "06:00 PM",
   "cost": null,
-  "description": "Ring in the holiday season as we gather to light the Landmark Pecan Tree! December 3, 2026 06:00 PM - 08:00 PM 4202 Armstrong PkwyHighland Park, TX 75205 https://www.hptx.org/Calendar.aspx?EID=5449/639306195530000000",
-  "url": "https://www.hptx.org/Calendar.aspx?EID=5449",
+  "description": "Ring in the holiday season as we gather to light the Landmark Pecan Tree! December 3, 2026 06:00 PM - 08:00 PM 4202 Armstrong PkwyHighland Park, TX 75205 https://www.hptx.org/m/calendar/event/detail/5449/639306195530000000",
+  "url": "https://www.hptx.org/m/calendar/event/detail/5449",
   "image": null,
   "organizer": {
    "name": "Town of Highland Park",
@@ -5378,7 +5394,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "Join Miss Victoria for Story Time at the Highland Park Library, 2nd Floor Town Hall. This Story Time is designed for ages 0-2. Read stories, sing, and follow along with Miss Victoria. Tickets will be required for entry to Story Time. Tickets are free and will be handed out each T",
-  "url": "https://www.hptx.org/Calendar.aspx?EID=4885",
+  "url": "https://www.hptx.org/m/calendar/event/detail/4885",
   "image": null,
   "organizer": {
    "name": "Town of Highland Park",
@@ -5711,10 +5727,10 @@
   "area": "Deep Ellum Art Co., Dallas",
   "city": "Dallas",
   "date": "2026-12-03",
-  "time": "8:00 PM",
+  "time": "7:00 PM",
   "cost": null,
   "description": "concert event via SeatGeek.",
-  "url": "https://seatgeek.com/kendall-street-company-tickets/dallas-texas-deep-ellum-art-co-2026-12-03-8-pm/concert/18825606",
+  "url": "https://seatgeek.com/kendall-street-company-tickets/dallas-texas-deep-ellum-art-co-2026-12-03-7-pm/concert/18825606",
   "image": null
  },
  {
@@ -5834,7 +5850,7 @@
   "time": "02:00 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.hptx.org/Calendar.aspx?EID=5294",
+  "url": "https://www.hptx.org/m/calendar/event/detail/5294",
   "image": null,
   "organizer": {
    "name": "Town of Highland Park",
@@ -5849,8 +5865,8 @@
   "date": "2026-12-03",
   "time": "12:30 PM",
   "cost": null,
-  "description": "Learn to Play Mahjong Thursdays 12:30-4:30. Beginners, please arrive at 12:30. Open play tables available on a first come first serve basis, Space is Limited. Ages 18 and up. December 3, 2026 12:30 PM - 04:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17577",
+  "description": "Learn to Play Mahjong Thursdays 12:30-4:30. Beginners, please arrive at 12:30. Open play tables available on a first come first serve basis, Space is Limited. Ages 18 and up. December 3, 2026 12:30 PM - 04:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17577",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -5917,8 +5933,8 @@
   "date": "2026-12-03",
   "time": "10:30 AM",
   "cost": null,
-  "description": "Books, songs, music, parachutes and more! Toddlers to school age are welcome! Space is limited. Tickets are available 15 minutes before storytime. December 3, 2026 10:30 AM - 11:00 AM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17902/639300940360000000",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17902",
+  "description": "Books, songs, music, parachutes and more! Toddlers to school age are welcome! Space is limited. Tickets are available 15 minutes before storytime. December 3, 2026 10:30 AM - 11:00 AM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/detail/17902/639300940360000",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17902",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -6225,8 +6241,8 @@
   "date": "2026-12-03",
   "time": "06:00 PM",
   "cost": null,
-  "description": "Join us virtually for a downright intoxicating conversation with bestselling fantasy author Helen Scheuerer as we delve into her thrilling new novel, Kiss of the Black Flame. December 3, 2026 06:00 PM - 11:59 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17890",
+  "description": "Join us virtually for a downright intoxicating conversation with bestselling fantasy author Helen Scheuerer as we delve into her thrilling new novel, Kiss of the Black Flame. December 3, 2026 06:00 PM - 11:59 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17890",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -6286,7 +6302,7 @@
   "image": "https://s1.ticketm.net/dam/a/ad0/9e298f24-e4c3-4bdf-9cd1-b2cf1058dad0_1364211_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "A Christmas Carol - Carrollton",
+  "name": "A Christmas Carol - Garland",
   "category": "arts",
   "area": "Carrollton Plaza Arts Center, Carrollton",
   "city": "Carrollton",
@@ -6318,7 +6334,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "Use our sewing machines, Cricut, and other tools to work on your own projects or start something new. Bring your own project and ideas! This is a welcoming space for creatives 18+. *Library Card Required* December 4, 2026 10:00 AM - 01:00 PM Grapevine, TX 76051 https://www.grapev",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17413",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17413",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -6599,10 +6615,10 @@
   "area": "Deep Ellum Art Co., Dallas",
   "city": "Dallas",
   "date": "2026-12-04",
-  "time": "10:00 PM",
+  "time": "9:00 PM",
   "cost": null,
   "description": "concert event via SeatGeek.",
-  "url": "https://seatgeek.com/heyz-tickets/dallas-texas-deep-ellum-art-co-2026-12-04-10-pm/concert/18825560",
+  "url": "https://seatgeek.com/heyz-tickets/dallas-texas-deep-ellum-art-co-2026-12-04-9-pm/concert/18825560",
   "image": null
  },
  {
@@ -6706,7 +6722,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "Our Lifelong Learners program invites adults ages 55+ to gather, learn, and create together on the first Friday of each month from 10:00–11:30 a.m. The library provides all supplies and step-by-step instruction—just bring your curiosity! No registration required. This month’s act",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16545",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/16545",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -6753,8 +6769,8 @@
   "date": "2026-12-04",
   "time": "12:30 PM",
   "cost": null,
-  "description": "Open Play Fridays 12:30-4:30. Tables available on a first come first serve basis, Space is Limited. Players, please bring your own cards and bags. Ages 18 and up. December 4, 2026 12:30 PM - 04:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17597/63920",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17597",
+  "description": "Open Play Fridays 12:30-4:30. Tables available on a first come first serve basis, Space is Limited. Players, please bring your own cards and bags. Ages 18 and up. December 4, 2026 12:30 PM - 04:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/detail/17597",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17597",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -6824,6 +6840,30 @@
   "description": "Comedy event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/natasha-leggero-addison-improv-tickets/15013673",
   "image": "https://s1.ticketm.net/dam/a/486/fbc36e25-f57e-4687-9d99-c9e7fae6a486_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Natasha Leggero",
+  "category": "arts",
+  "area": "Hyena's Comedy Nightclub - Dallas, Dallas",
+  "city": "Dallas",
+  "date": "2026-12-04",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "comedy event via SeatGeek.",
+  "url": "https://seatgeek.com/natasha-leggero-tickets/comedy/2026-12-04-7-30-pm/18905644",
+  "image": null
+ },
+ {
+  "name": "Natasha Leggero",
+  "category": "arts",
+  "area": "Hyena's Comedy Nightclub - Dallas, Dallas",
+  "city": "Dallas",
+  "date": "2026-12-04",
+  "time": "9:45 PM",
+  "cost": null,
+  "description": "comedy event via SeatGeek.",
+  "url": "https://seatgeek.com/natasha-leggero-tickets/comedy/2026-12-04-9-45-pm/18905645",
+  "image": null
  },
  {
   "name": "Neal McCoy - Ages 18+",
@@ -6986,7 +7026,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "Join Miss Victoria and Mr. Tre for Story Time at the Highland Park Library, 2nd Floor Town Hall. This Story Time is designed for all ages. Read stories, sing, and follow along with Miss Victoria and Mr. Tre. Tickets will be required for entry to Story Time. Tickets are free and w",
-  "url": "https://www.hptx.org/Calendar.aspx?EID=4937",
+  "url": "https://www.hptx.org/m/calendar/event/detail/4937",
   "image": null,
   "organizer": {
    "name": "Town of Highland Park",
@@ -7046,34 +7086,6 @@
   "image": null
  },
  {
-  "name": "The Best Christmas Pageant Ever presented by Garland Civic Theatre",
-  "category": "arts",
-  "area": "300 N Fifth Street, Garland",
-  "city": "Garland",
-  "date": "2026-12-04",
-  "time": "07:30 PM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13446",
-  "image": null,
-  "organizer": {
-   "name": "City of Garland",
-   "url": "https://garlandtx.gov/"
-  }
- },
- {
-  "name": "The Black Academy of Arts and Letters - Dallas",
-  "category": "arts",
-  "area": "The Womens Museum - Dallas, Dallas",
-  "city": "Dallas",
-  "date": "2026-12-04",
-  "time": "9:00 PM",
-  "cost": null,
-  "description": "theater event via SeatGeek.",
-  "url": "https://seatgeek.com/the-black-academy-of-arts-and-letters-tickets/theater/2026-12-04-9-pm/18622360",
-  "image": null
- },
- {
   "name": "The Milk Carton Kids",
   "category": "music",
   "area": "The Kessler Theater, Dallas",
@@ -7110,6 +7122,22 @@
   "image": null
  },
  {
+  "name": "The Nutcracker presented by the Dallas Ballet Company",
+  "category": "arts",
+  "area": "300 N Fifth Street, Garland",
+  "city": "Garland",
+  "date": "2026-12-04",
+  "time": "07:30 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13457",
+  "image": null,
+  "organizer": {
+   "name": "City of Garland",
+   "url": "https://garlandtx.gov/"
+  }
+ },
+ {
   "name": "The Nutcracker w/ Texas Ballet Theater",
   "category": "festival",
   "area": "Margot and Bill Winspear Opera House, Dallas",
@@ -7130,7 +7158,7 @@
   "time": "10:30 AM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=7771",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/7771",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -7362,7 +7390,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "Saturday, Dec. 5 & Sunday, Dec. 6 from 10 am to 5 pm Pottery, Jewelry, Handwoven Scarves, Woodworking, Ornaments, Accessories, Paintings, and More. All sales benefit The Friends of the Grapevine Public Library! December 5, 2026 10:00 AM - 05:00 PM Grapevine Public Library 1201 Mu",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17939",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17939",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -7378,7 +7406,7 @@
   "time": "01:00 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.hptx.org/Calendar.aspx?EID=5403",
+  "url": "https://www.hptx.org/m/calendar/event/detail/5403",
   "image": null,
   "organizer": {
    "name": "Town of Highland Park",
@@ -7417,8 +7445,8 @@
   "date": "2026-12-05",
   "time": "11:30 AM",
   "cost": null,
-  "description": "Where creativity meets construction! December 5, 2026 11:30 AM - 12:30 PM Lancaster Veterans Memorial Library 1600 Veterans Memorial ParkwayLancaster, TX 75146 https://www.lancaster-tx.com/Calendar.aspx?EID=8154/639151463420000000",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8154",
+  "description": "Where creativity meets construction! December 5, 2026 11:30 AM - 12:30 PM Lancaster Veterans Memorial Library 1600 Veterans Memorial ParkwayLancaster, TX 75146 https://www.lancaster-tx.com/m/calendar/event/detail/8154/639151463420000000",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8154",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -7434,7 +7462,7 @@
   "time": "02:00 PM",
   "cost": null,
   "description": "Join us for a fun day of board and card gaming at the library. Select from our collection of board games, card games, party games, or bring your own games! 1st & 3rd Saturdays (and those ocassional 5th Saturdays: 1/31, 5/30, 8/29, & 10/31) For Adults, ages 18+ December 5, 2026 02",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16476",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/16476",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -7658,7 +7686,7 @@
   "time": "10:30 AM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=7814",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/7814",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -7722,7 +7750,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "",
-  "url": "https://www.hptx.org/Calendar.aspx?EID=5406",
+  "url": "https://www.hptx.org/m/calendar/event/detail/5406",
   "image": null,
   "organizer": {
    "name": "Town of Highland Park",
@@ -7938,18 +7966,6 @@
   "image": null
  },
  {
-  "name": "Marlon Wayans",
-  "category": "arts",
-  "area": "Hyena's Comedy Nightclub - Dallas, Dallas",
-  "city": "Dallas",
-  "date": "2026-12-05",
-  "time": "6:00 PM",
-  "cost": null,
-  "description": "comedy event via SeatGeek.",
-  "url": "https://seatgeek.com/marlon-wayans-tickets/comedy/2026-12-05-6-pm/18804942",
-  "image": null
- },
- {
   "name": "Mental Health First Aid Workshop",
   "category": "family",
   "area": "211 E. Pleasant Run Rd., DeSoto",
@@ -8145,8 +8161,8 @@
   "date": "2026-12-05",
   "time": "02:30 PM",
   "cost": null,
-  "description": "The 1st and 3rd Saturday the library is visited by therapy dogs. They love to listen to children practice reading! No registration needed. December 5, 2026 02:30 PM - 03:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17688/639221334170000000",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17688",
+  "description": "The 1st and 3rd Saturday the library is visited by therapy dogs. They love to listen to children practice reading! No registration needed. December 5, 2026 02:30 PM - 03:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/detail/17688/639221334170000000",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17688",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -8162,7 +8178,7 @@
   "time": "12:00 PM",
   "cost": null,
   "description": "Interested in podcasting or recording music? Come learn how to use the library’s Recording Studio! To reserve and use the Recording Studio, you must first complete a mandatory orientation. Orientations are offered on Saturdays from 12 to 4 pm. No registration or appointment neede",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16738",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/16738",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -8345,8 +8361,8 @@
   "date": "2026-12-05",
   "time": "10:00 AM",
   "cost": null,
-  "description": "Help us make quilts for the Grapevine Animal Shelter & local hospital or bring your own stitching project. Adults only (18+), Library Card & Registration Required to attend. December 5, 2026 10:00 AM - 01:00 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17462",
+  "description": "Help us make quilts for the Grapevine Animal Shelter & local hospital or bring your own stitching project. Adults only (18+), Library Card & Registration Required to attend. December 5, 2026 10:00 AM - 01:00 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/d",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17462",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -8451,10 +8467,10 @@
   "area": "Longhorn Ballroom, Dallas",
   "city": "Dallas",
   "date": "2026-12-05",
-  "time": "3:00 PM",
+  "time": "4:00 PM",
   "cost": null,
   "description": "music festival event via SeatGeek.",
-  "url": "https://seatgeek.com/that-pressure-fest-tickets/dallas-texas-longhorn-ballroom-2026-12-05-3-pm/music-festival/18856800",
+  "url": "https://seatgeek.com/that-pressure-fest-tickets/dallas-texas-longhorn-ballroom-2026-12-05-4-pm/music-festival/18856800",
   "image": null
  },
  {
@@ -8474,18 +8490,6 @@
   }
  },
  {
-  "name": "The Black Angels",
-  "category": "music",
-  "area": "Ferris Wheelers Backyard and BBQ, Dallas",
-  "city": "Dallas",
-  "date": "2026-12-05",
-  "time": "6:00 PM",
-  "cost": null,
-  "description": "concert event via SeatGeek.",
-  "url": "https://seatgeek.com/the-black-angels-tickets/dallas-texas-am-fm-diner-and-lounge-dallas-2026-12-05-6-pm/concert/18836394",
-  "image": null
- },
- {
   "name": "The Music of Johnny Mathis",
   "category": "festival",
   "area": "Casa Manana, Fort Worth",
@@ -8498,15 +8502,15 @@
   "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg"
  },
  {
-  "name": "The Nutcracker - Fort Worth",
+  "name": "The Nutcracker - Terrell",
   "category": "arts",
-  "area": "I.M. Terrell Performing Arts Center, Fort Worth",
-  "city": "Fort Worth",
+  "area": "Terrell Performing Arts Center, Terrell",
+  "city": "Terrell",
   "date": "2026-12-05",
   "time": "2:00 PM",
   "cost": null,
   "description": "dance event via SeatGeek.",
-  "url": "https://seatgeek.com/the-nutcracker-tickets/dance/2026-12-05-2-pm/18779608",
+  "url": "https://seatgeek.com/the-nutcracker-tickets/dance/2026-12-05-2-pm/18815350",
   "image": null
  },
  {
@@ -8578,18 +8582,6 @@
   }
  },
  {
-  "name": "Yannis Pappas",
-  "category": "arts",
-  "area": "Mic Drop Comedy - Plano, Plano",
-  "city": "Plano",
-  "date": "2026-12-05",
-  "time": "7:00 PM",
-  "cost": null,
-  "description": "comedy event via SeatGeek.",
-  "url": "https://seatgeek.com/yannis-pappas-tickets/comedy/2026-12-05-7-pm/18632102",
-  "image": null
- },
- {
   "name": "\"The Parents Have Entered the Chat\" Comedy Jam",
   "category": "arts",
   "area": "Arlington Improv, Arlington",
@@ -8645,8 +8637,8 @@
   "date": "2026-12-06",
   "time": "10:30 AM",
   "cost": null,
-  "description": "Use your creativity, critical thinking, and maker skills to make crafts for your friends and family using the art and craft supplies provided on the Art Cart. December 6, 2026 10:30 AM - 02:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17518/639169542",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17518",
+  "description": "Use your creativity, critical thinking, and maker skills to make crafts for your friends and family using the art and craft supplies provided on the Art Cart. December 6, 2026 10:30 AM - 02:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/detail/17518/639",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17518",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -8662,7 +8654,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "Saturday, Dec. 5 & Sunday, Dec. 6 from 10 am to 5 pm Pottery, Jewelry, Handwoven Scarves, Woodworking, Ornaments, Accessories, Paintings, and More. All sales benefit The Friends of the Grapevine Public Library! December 6, 2026 10:00 AM - 05:00 PM Grapevine Public Library 1201 Mu",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17940",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17940",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -8850,7 +8842,7 @@
   "time": "12:30 PM",
   "cost": null,
   "description": "Who: Ages 8+ What: The Esports Academy's gaming PCs and consoles will be available for tournament practice during the holiday-themed Super Smash Bros.Tournament and Mario Kart Grand Prix. Stop by this Sunday to hone your in-game skills, learn strategy, and compete with peers! Whe",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17929",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17929",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -8926,7 +8918,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "This open session gives you access to sewing machines, knitting tools, and more fiber arts equipment. Our knowledgeable staff will be on hand to guide you, share tips, and support you as you work on your projects. Open to adults 18+, library card in good standing required. Open t",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16985",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/16985",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -8981,8 +8973,8 @@
   "date": "2026-12-06",
   "time": "02:00 PM",
   "cost": null,
-  "description": "Join us in the Children's Department for a family friendly Christmas movie. This week is Olive the other Reindeer! December 6, 2026 02:00 PM - 03:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17941/639305333150000000",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17941",
+  "description": "Join us in the Children's Department for a family friendly Christmas movie. This week is Olive the other Reindeer! December 6, 2026 02:00 PM - 03:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/detail/17941/639305333150000000",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17941",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -8998,7 +8990,7 @@
   "time": "02:00 PM",
   "cost": null,
   "description": "Unleash your creativity and make a journal that’s completely your own! ✂️📓 Join us for a relaxed, creative space where you can collage, doodle, decorate, write, and experiment with different papers, stickers, ephemera, and other fun materials. Whether you’re new to junk journalin",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17696",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17696",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -9052,7 +9044,7 @@
   "city": "Dallas",
   "date": "2026-12-06",
   "time": "Doors — see listing",
-  "cost": 40.0,
+  "cost": 36.0,
   "description": "Live at Trees.",
   "url": "http://www.prekindle.com/event/59962-westside-boogie-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949037153577"
@@ -9077,8 +9069,8 @@
   "date": "2026-12-07",
   "time": "04:30 PM",
   "cost": null,
-  "description": "Kick back after school, bring your favorite snacks, and enjoy a movie with friends! For teens ages 13 and up. December 7, 2026 04:30 PM - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17658/639210354230000",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17658",
+  "description": "Kick back after school, bring your favorite snacks, and enjoy a movie with friends! For teens ages 13 and up. December 7, 2026 04:30 PM - 06:00 PM Grapevine Public Library 1201 Municipal WayGrapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/detail/17658/639210354",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17658",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -9126,7 +9118,7 @@
   "time": "05:00 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8307",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8307",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -9158,7 +9150,7 @@
   "time": "06:15 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16214",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/16214",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -9270,7 +9262,7 @@
   "time": "06:00 PM",
   "cost": null,
   "description": "Join us for the City of Lancaster’s Annual Tree Lighting Ceremony as we kick off the holiday season with an evening of festive cheer, sparkling lights and Christmas magic! ❤️💚 📅 Monday, December 7, 2026 ⏰ 6:00 p.m–6:45 p.m. 📍 Historic Town Square Breezeway Gather your family and ",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8486",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8486",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -9286,7 +9278,7 @@
   "time": "05:30 PM",
   "cost": null,
   "description": "Looking for a cozy way to unwind and connect with fellow yarn enthusiasts? Join us Mondays for our casual Knit & Crochet Circle! Whether you're a seasoned pro or just picking up your first set of needles or hooks, this is the perfect opportunity to share your latest projects, swa",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=16867",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/16867",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -9330,7 +9322,7 @@
   "time": "06:00 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8332",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8332",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -9346,7 +9338,7 @@
   "time": "05:00 PM",
   "cost": null,
   "description": "Who: Ages 8+ What: Step into the Esports Academy Minecraft Lab this Monday and experiment with a brand-new set of server-wide mods! Build steampunk contraptions, hunt Pokémon and challenge trainers across wild biomes, or design complex machines, clever circuits, and fully automat",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17930",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17930",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -9362,7 +9354,7 @@
   "time": "07:00 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8357",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8357",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -9394,7 +9386,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "Mondays & Wednesdays 10 AM-1:00 PM (Adults, ages 18+) Join us at Grapevine Makerspace for our STEM Lab! During this session, you’ll have access to 3D printers, laser cutters, and other equipment. Our knowledgeable staff will be available to provide guidance, tips, and support as ",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17911",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17911",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -9502,7 +9494,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "Use our sewing machines, Cricut, and other tools to work on your own projects or start something new. Bring your own project and ideas! This is a welcoming space for creatives 18+. *Library Card Required* December 8, 2026 10:00 AM - 01:00 PM Grapevine, TX 76051 https://www.grapev",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17414",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17414",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -9549,8 +9541,8 @@
   "date": "2026-12-08",
   "time": "11:30 AM",
   "cost": null,
-  "description": "Rhymes, songs, and movement December 8, 2026 11:30 AM - 12:30 PM Lancaster, TX 75146 https://www.lancaster-tx.com/Calendar.aspx?EID=7684/639077970340000000",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=7684",
+  "description": "Rhymes, songs, and movement December 8, 2026 11:30 AM - 12:30 PM Lancaster, TX 75146 https://www.lancaster-tx.com/m/calendar/event/detail/7684/639077970340000000",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/7684",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -9710,7 +9702,7 @@
   "time": "05:00 PM",
   "cost": null,
   "description": "Welcome to the realms of Dungeons and Dragons! Here at the Grapevine Public Library, you will be embarking on a quick journey. Register for the session and we will be looking forward to having you at the table! For teens 13 and up. REGISTRATION IS REQUIRED. Make sure your level 3",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17766",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17766",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -9802,7 +9794,7 @@
   "time": "05:00 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8433",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8433",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -9830,7 +9822,7 @@
   "time": "10:15 AM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8459",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8459",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -9878,7 +9870,7 @@
   "time": "04:30 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.hptx.org/Calendar.aspx?EID=4840",
+  "url": "https://www.hptx.org/m/calendar/event/detail/4840",
   "image": null,
   "organizer": {
    "name": "Town of Highland Park",
@@ -10036,7 +10028,7 @@
   "time": "10:30 AM",
   "cost": null,
   "description": "Books, songs, parachutes and more! Toddlers/Preschoolers are welcome and no registrations is needed. (This is a Ticketed Program; please stop at the Children's Desk 15 minutes before the program to receive tickets. 1 per attendee.) December 8, 2026 10:30 AM - 11:00 AM Grapevine, ",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17867",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17867",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -10111,8 +10103,8 @@
   "date": "2026-12-08",
   "time": "09:15 AM",
   "cost": null,
-  "description": "Sensory Play December 8, 2026 09:15 AM - 10:00 AM 1700 Veterans Memorial ParkwayLancaster, TX 75146 https://www.lancaster-tx.com/Calendar.aspx?EID=8382/639220566530000000",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8382",
+  "description": "Sensory Play December 8, 2026 09:15 AM - 10:00 AM 1700 Veterans Memorial ParkwayLancaster, TX 75146 https://www.lancaster-tx.com/m/calendar/event/detail/8382/639220566530000000",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8382",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -10160,7 +10152,7 @@
   "time": "01:00 PM",
   "cost": null,
   "description": "What happens when the country you love forces you out, leaving you just two days to abandon everything you’ve ever known? Join us online for an extraordinary conversation with author and essayist Ana Hebra Flaster as we discuss her sweeping yet deeply intimate memoir Property of ",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17891",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17891",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -10264,7 +10256,7 @@
   "time": "05:00 PM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8282",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8282",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -10404,7 +10396,7 @@
   "time": "09:00 AM",
   "cost": null,
   "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=8255",
+  "url": "https://www.lancaster-tx.com/m/calendar/event/detail/8255",
   "image": null,
   "organizer": {
    "name": "City of Lancaster",
@@ -10535,8 +10527,8 @@
   "date": "2026-12-09",
   "time": "04:30 PM",
   "cost": null,
-  "description": "Drop by the Esports Academy and get some extra practice time or ranked play. Ages 12 and up. December 9, 2026 04:30 PM - 07:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17755/639232829710000000",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17755",
+  "description": "Drop by the Esports Academy and get some extra practice time or ranked play. Ages 12 and up. December 9, 2026 04:30 PM - 07:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/detail/17755/639232829710000000",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17755",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -10600,7 +10592,7 @@
   "time": "10:00 AM",
   "cost": null,
   "description": "Mondays & Wednesdays 10 AM-1:00 PM (Adults, ages 18+) Join us at Grapevine Makerspace for our STEM Lab! During this session, you’ll have access to 3D printers, laser cutters, and other equipment. Our knowledgeable staff will be available to provide guidance, tips, and support as ",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17912",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17912",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -10664,7 +10656,7 @@
   "time": "10:30 AM",
   "cost": null,
   "description": "Books, songs, parachutes and more! Toddlers/Preschoolers are welcome and no registrations is needed. (This is a Ticketed Program; please stop at the Children's Desk 15 minutes before the program to receive tickets. 1 per attendee.) December 9, 2026 10:30 AM - 11:00 AM Grapevine, ",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17868",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17868",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -10735,8 +10727,8 @@
   "date": "2026-12-09",
   "time": "06:30 PM",
   "cost": null,
-  "description": "📖 Book for Discussion: TBD 🗓️ Meets 2nd Wednesday of the Month • 6:30 PM Open to new members; come & go, join us anytime! Email jnpettit@grapevinetexas.gov for more info December 9, 2026 06:30 PM - 07:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=1712",
-  "url": "https://www.grapevinetexas.gov/Calendar.aspx?EID=17129",
+  "description": "📖 Book for Discussion: TBD 🗓️ Meets 2nd Wednesday of the Month • 6:30 PM Open to new members; come & go, join us anytime! Email jnpettit@grapevinetexas.gov for more info December 9, 2026 06:30 PM - 07:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/detai",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17129",
   "image": null,
   "organizer": {
    "name": "City of Grapevine",
@@ -10844,7 +10836,7 @@
   "time": "09:45 AM",
   "cost": null,
   "description": "",
-  "url": "https://www.hptx.org/Calendar.aspx?EID=5330",
+  "url": "https://www.hptx.org/m/calendar/event/detail/5330",
   "image": null,
   "organizer": {
    "name": "Town of Highland Park",
@@ -10865,6 +10857,22 @@
   "organizer": {
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "(iOS) E-books & More: Digital Collections Class",
+  "category": "family",
+  "area": "8383 Preston Center Plaza, Suite 200, University Park",
+  "city": "University Park",
+  "date": "2026-12-10",
+  "time": "06:00 PM",
+  "cost": null,
+  "description": "Join this class to learn how to download e-books, audiobooks, movies, tv shows, music albums, comics, graphic novels, and magazines, all for free with your library card! These can be accessed on your computers, Kindles, tablets, and smartphones. Bring your device and library card",
+  "url": "https://www.uptexas.org/Calendar.aspx?EID=2751",
+  "image": null,
+  "organizer": {
+   "name": "City of University Park",
+   "url": "https://uptexas.org/"
   }
  },
  {
@@ -10892,6 +10900,22 @@
   "image": "https://s1.ticketm.net/dam/a/ad0/9e298f24-e4c3-4bdf-9cd1-b2cf1058dad0_1364211_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "American Mahjong Hour (Adults)",
+  "category": "family",
+  "area": "6861 W Eldorado Parkway, McKinney",
+  "city": "McKinney",
+  "date": "2026-12-10",
+  "time": "01:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/winter_Monday_AmericanMahjongHour",
+  "image": null,
+  "organizer": {
+   "name": "City of McKinney",
+   "url": "https://mckinneytexas.org/"
+  }
+ },
+ {
   "name": "Arnez J",
   "category": "arts",
   "area": "Arlington Improv, Arlington",
@@ -10902,6 +10926,38 @@
   "description": "Comedy event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/arnez-j-arlington-improv-tickets/14127474?REFERRAL_ID=tmfeed",
   "image": "https://s1.ticketm.net/dam/a/4bb/71868cde-7ce8-4cae-b269-f199bbedd4bb_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "Art is Life",
+  "category": "arts",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-10",
+  "time": "05:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=17755",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "Baby Bounce",
+  "category": "family",
+  "area": "Highland Park Library, Highland Park",
+  "city": "Highland Park",
+  "date": "2026-12-10",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "Join Miss Victoria for Story Time at the Highland Park Library, 2nd Floor Town Hall. This Story Time is designed for ages 0-2. Read stories, sing, and follow along with Miss Victoria. Tickets will be required for entry to Story Time. Tickets are free and will be handed out each T",
+  "url": "https://www.hptx.org/m/calendar/event/detail/4886",
+  "image": null,
+  "organizer": {
+   "name": "Town of Highland Park",
+   "url": "https://hptx.org/"
+  }
  },
  {
   "name": "Beartooth: Pure Ecstasy World Tour",
@@ -10916,6 +10972,166 @@
   "image": "https://s1.ticketm.net/dam/a/aa5/5f021378-b93c-460a-b8e8-b32f1fbbeaa5_RETINA_PORTRAIT_16_9.jpg"
  },
  {
+  "name": "Book Ornaments (18+)",
+  "category": "family",
+  "area": "104 S. Wisteria St., Mansfield",
+  "city": "Mansfield",
+  "date": "2026-12-10",
+  "time": "06:00 PM",
+  "cost": null,
+  "description": "Come paint the cover of your favorite book onto an ornament! Recreate the cover, add your own creative twist, or keep it simple with a title or symbol. Make it as detailed or as simple as you like, and create a one-of-a-kind ornament inspired by a book you love! All supplies will",
+  "url": "https://www.mansfieldtexas.gov/Calendar.aspx?EID=9119",
+  "image": null,
+  "organizer": {
+   "name": "City of Mansfield",
+   "url": "https://www.mansfieldtexas.gov/"
+  }
+ },
+ {
+  "name": "Branching Out: McKinney Trees (Adults)",
+  "category": "family",
+  "area": "6861 W Eldorado Parkway, McKinney",
+  "city": "McKinney",
+  "date": "2026-12-10",
+  "time": "07:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/fall_BranchingOutMcKinneyTrees",
+  "image": null,
+  "organizer": {
+   "name": "City of McKinney",
+   "url": "https://mckinneytexas.org/"
+  }
+ },
+ {
+  "name": "CHAT Youth Empowerment Program",
+  "category": "family",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-10",
+  "time": "04:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=17979",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "Canasta",
+  "category": "family",
+  "area": "407 E. First St., Prosper",
+  "city": "Prosper",
+  "date": "2026-12-10",
+  "time": "12:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.prospertx.gov/Calendar.aspx?EID=6738",
+  "image": null,
+  "organizer": {
+   "name": "Town of Prosper",
+   "url": "https://prospertx.gov/"
+  }
+ },
+ {
+  "name": "Career Toolkit (Ages 18+)",
+  "category": "family",
+  "area": "North Garland Library, Garland",
+  "city": "Garland",
+  "date": "2026-12-10",
+  "time": "01:00 PM",
+  "cost": null,
+  "description": "1:00 p.m.; Build your career toolkit in a friendly, hands-on workshop designed to help you strengthen essential job skills. Join us twice a month, except in December, to learn practical skills and explore library resources that can support your job search. Topics include resumes,",
+  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13544",
+  "image": null,
+  "organizer": {
+   "name": "City of Garland",
+   "url": "https://garlandtx.gov/"
+  }
+ },
+ {
+  "name": "Chair Yoga",
+  "category": "sports",
+  "area": "407 E. First St., Prosper",
+  "city": "Prosper",
+  "date": "2026-12-10",
+  "time": "08:00 AM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.prospertx.gov/Calendar.aspx?EID=5564",
+  "image": null,
+  "organizer": {
+   "name": "Town of Prosper",
+   "url": "https://prospertx.gov/"
+  }
+ },
+ {
+  "name": "Chess Club (All Ages)",
+  "category": "family",
+  "area": "104 S. Wisteria St., Mansfield",
+  "city": "Mansfield",
+  "date": "2026-12-10",
+  "time": "06:00 PM",
+  "cost": null,
+  "description": "Learn how to play chess or just brush up on your skills. All ages and levels welcome. This program is free with no registration required. December 10, 2026 06:00 PM - 07:30 PM 104 S. Wisteria St.Mansfield, TX 76063 https://www.mansfieldtexas.gov/Calendar.aspx?EID=9094/63929918813",
+  "url": "https://www.mansfieldtexas.gov/Calendar.aspx?EID=9094",
+  "image": null,
+  "organizer": {
+   "name": "City of Mansfield",
+   "url": "https://www.mansfieldtexas.gov/"
+  }
+ },
+ {
+  "name": "Crochet Club (6th-12th Grade)",
+  "category": "arts",
+  "area": "6861 W Eldorado Parkway, McKinney",
+  "city": "McKinney",
+  "date": "2026-12-10",
+  "time": "04:30 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/winter_crochetclub",
+  "image": null,
+  "organizer": {
+   "name": "City of McKinney",
+   "url": "https://mckinneytexas.org/"
+  }
+ },
+ {
+  "name": "Cursive and Handwriting Workshop",
+  "category": "family",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-10",
+  "time": "06:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=16404",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "D&D at the Library: Encounters (18+)",
+  "category": "family",
+  "area": "104 S. Wisteria St., Mansfield",
+  "city": "Mansfield",
+  "date": "2026-12-10",
+  "time": "06:00 PM",
+  "cost": null,
+  "description": "Start a new adventure at the Mansfield Public Library! Join us for a short session of Dungeons and Dragons 5th Edition. Adventure through an encounter with other players in the hit tabletop roleplaying game. New players are encouraged to attend, as pre-generated characters and a ",
+  "url": "https://www.mansfieldtexas.gov/Calendar.aspx?EID=9114",
+  "image": null,
+  "organizer": {
+   "name": "City of Mansfield",
+   "url": "https://www.mansfieldtexas.gov/"
+  }
+ },
+ {
   "name": "Elefante - Ages 21+",
   "category": "music",
   "area": "Club VIVO, Dallas",
@@ -10926,6 +11142,22 @@
   "description": "Other event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAx-7",
   "image": "https://s1.ticketm.net/dam/a/bf1/065f696c-1669-42c6-a4cd-2841556cbbf1_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "English Learners’ Conversation Club (Ages 18+)",
+  "category": "family",
+  "area": "North Garland Library, Garland",
+  "city": "Garland",
+  "date": "2026-12-10",
+  "time": "06:30 PM",
+  "cost": null,
+  "description": "6:30 p.m.; The English Conversation Club is a friendly, supportive space for adults to practice speaking English whether you’re new to English or have been learning for a while. Each session features guided discussions, opportunities to ask questions and fun language activities. ",
+  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13549",
+  "image": null,
+  "organizer": {
+   "name": "City of Garland",
+   "url": "https://garlandtx.gov/"
+  }
  },
  {
   "name": "Face To Face ??? Celebrating 35 Years",
@@ -10976,6 +11208,22 @@
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527949007942819"
  },
  {
+  "name": "Jay's Swing Camp",
+  "category": "sports",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-10",
+  "time": "07:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=18071",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
   "name": "Jesus Castillo",
   "category": "festival",
   "area": "Addison Improv, Addison",
@@ -10986,6 +11234,22 @@
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/jesus-castillo-addison-improv-tickets/14425944",
   "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Kidokinetics",
+  "category": "family",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-10",
+  "time": "02:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=16304",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
  },
  {
   "name": "Koe Wetzel w/ Parker McCollum",
@@ -11000,6 +11264,38 @@
   "image": "https://s1.ticketm.net/dam/a/11b/e42f09d5-8050-43d0-baf8-582503adb11b_RETINA_PORTRAIT_16_9.jpg"
  },
  {
+  "name": "LEGO® Robotics – Thursdays at 6:00 p.m.",
+  "category": "family",
+  "area": "3900 Main Street, Rowlett",
+  "city": "Rowlett",
+  "date": "2026-12-10",
+  "time": "06:00 PM",
+  "cost": null,
+  "description": "Put your problem-solving skills to the test while using awesome SPIKE™ tech. Participants will bring custom creations to life through coding and hands-on engineering. Build awesome robots, master the code, and level up your engineering skills as you tackle epic hands-on missions.",
+  "url": "https://www.rowletttx.gov/Calendar.aspx?EID=17684",
+  "image": null,
+  "organizer": {
+   "name": "City of Rowlett",
+   "url": "https://rowletttx.gov/"
+  }
+ },
+ {
+  "name": "LP Dance (Ages 8-15)",
+  "category": "arts",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-10",
+  "time": "05:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=18246",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
   "name": "Legacy of the Longhorn",
   "category": "festival",
   "area": "Cowtown Coliseum, Fort Worth",
@@ -11010,6 +11306,102 @@
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAed8K",
   "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Library Playdate",
+  "category": "family",
+  "area": "2600 Oates Drive, Mesquite",
+  "city": "Mesquite",
+  "date": "2026-12-10",
+  "time": "10:30 AM",
+  "cost": null,
+  "description": "Children will be able to play, socialize, and learn with fun active play activities. December 10, 2026 10:30 AM - 11:00 AM 2600 Oates DriveMesquite, TX 75150 https://www.cityofmesquite.com/m/calendar/event/detail/11951/639293824100000000",
+  "url": "https://www.cityofmesquite.com/m/calendar/event/detail/11951",
+  "image": null,
+  "organizer": {
+   "name": "City of Mesquite",
+   "url": "https://cityofmesquite.com/"
+  }
+ },
+ {
+  "name": "Little Explorers (3-5 Years)",
+  "category": "family",
+  "area": "6861 W Eldorado Parkway, McKinney",
+  "city": "McKinney",
+  "date": "2026-12-10",
+  "time": "11:30 AM",
+  "cost": null,
+  "description": "",
+  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/winter_littleexplorers",
+  "image": null,
+  "organizer": {
+   "name": "City of McKinney",
+   "url": "https://mckinneytexas.org/"
+  }
+ },
+ {
+  "name": "Mahjong: Learn & Play",
+  "category": "family",
+  "area": "Grapevine",
+  "city": "Grapevine",
+  "date": "2026-12-10",
+  "time": "12:30 PM",
+  "cost": null,
+  "description": "Learn to Play Mahjong Thursdays 12:30-4:30. Beginners, please arrive at 12:30. Open play tables available on a first come first serve basis, Space is Limited. Ages 18 and up. December 10, 2026 12:30 PM - 04:30 PM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17578",
+  "image": null,
+  "organizer": {
+   "name": "City of Grapevine",
+   "url": "https://grapevinetexas.gov/"
+  }
+ },
+ {
+  "name": "Make it Ugly: Ugly Sweater Decorating Party",
+  "category": "arts",
+  "area": "211 E. Pleasant Run Rd., DeSoto",
+  "city": "DeSoto",
+  "date": "2026-12-10",
+  "time": "04:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.desototexas.gov/Calendar.aspx?EID=1923",
+  "image": null,
+  "organizer": {
+   "name": "City of DeSoto",
+   "url": "https://desototexas.gov/"
+  }
+ },
+ {
+  "name": "Multicultural Committee Meeting",
+  "category": "family",
+  "area": "8000 N. Dallas Pkwy., Frisco",
+  "city": "Frisco",
+  "date": "2026-12-10",
+  "time": "05:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.friscotexas.gov/Calendar.aspx?EID=6553",
+  "image": null,
+  "organizer": {
+   "name": "City of Frisco",
+   "url": "https://friscotexas.gov/"
+  }
+ },
+ {
+  "name": "Music & Movement Storytime",
+  "category": "family",
+  "area": "Grapevine",
+  "city": "Grapevine",
+  "date": "2026-12-10",
+  "time": "10:30 AM",
+  "cost": null,
+  "description": "Books, songs, music, parachutes and more! Toddlers to school age are welcome! Space is limited. Tickets are available 15 minutes before storytime. December 10, 2026 10:30 AM - 11:00 AM Grapevine, TX 76051 https://www.grapevinetexas.gov/m/calendar/event/detail/17903/63930094036000",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17903",
+  "image": null,
+  "organizer": {
+   "name": "City of Grapevine",
+   "url": "https://grapevinetexas.gov/"
+  }
  },
  {
   "name": "Ola Dada",
@@ -11048,6 +11440,214 @@
   "image": "https://s1.ticketm.net/dam/a/c94/51653144-df22-4fad-82b9-696d923a3c94_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "Project Prosper",
+  "category": "family",
+  "area": "200 S Main St, Prosper",
+  "city": "Prosper",
+  "date": "2026-12-10",
+  "time": "01:00 PM",
+  "cost": null,
+  "description": "Ages 11 - 17 December 10, 2026 01:00 PM - 02:00 PM 200 S Main StProsper, TX 75078 https://www.prospertx.gov/Calendar.aspx?EID=6234/639204226340000000",
+  "url": "https://www.prospertx.gov/Calendar.aspx?EID=6234",
+  "image": null,
+  "organizer": {
+   "name": "Town of Prosper",
+   "url": "https://prospertx.gov/"
+  }
+ },
+ {
+  "name": "Ready to React CPR Training",
+  "category": "family",
+  "area": "2100 Taylor Burk Dr., McKinney",
+  "city": "McKinney",
+  "date": "2026-12-10",
+  "time": "06:30 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://mckinneyforms.mckinneytexas.org/260365813809058",
+  "image": null,
+  "organizer": {
+   "name": "City of McKinney",
+   "url": "https://mckinneytexas.org/"
+  }
+ },
+ {
+  "name": "Santa's Helpers Toy Drive",
+  "category": "family",
+  "area": "111 N. Tennessee St., McKinney",
+  "city": "McKinney",
+  "date": "2026-12-10",
+  "time": "05:00 PM",
+  "cost": null,
+  "description": "Calling all Elves! December 10, 2026 05:00 PM - 08:00 PM 111 N. Tennessee St.McKinney, TX 75069 https://www.mckinneytexas.org/Calendar.aspx?EID=37186/639281102440000000",
+  "url": "https://www.mckinneytexas.org/Calendar.aspx?EID=37186",
+  "image": null,
+  "organizer": {
+   "name": "City of McKinney",
+   "url": "https://mckinneytexas.org/"
+  }
+ },
+ {
+  "name": "Senior Gentle Yoga (Instructor Led)",
+  "category": "sports",
+  "area": "2700 Cummings Drive, Bedford",
+  "city": "Bedford",
+  "date": "2026-12-10",
+  "time": "09:00 AM",
+  "cost": null,
+  "description": "Come enjoy a very exciting and intense yoga class led by our instructor Marsha! Chairs are provided upon request. December 10, 2026 09:00 AM - 10:00 AM 2700 Cummings DriveBedford, TX 76021 https://bedfordtx.gov/m/calendar/event/detail/19205/639301677420000000",
+  "url": "https://bedfordtx.gov/m/calendar/event/detail/19205",
+  "image": null,
+  "organizer": {
+   "name": "City of Bedford",
+   "url": "https://www.bedfordtx.gov/"
+  }
+ },
+ {
+  "name": "Senior HEB ISD Suzuki Strings Performance",
+  "category": "family",
+  "area": "Bedford",
+  "city": "Bedford",
+  "date": "2026-12-10",
+  "time": "09:45 AM",
+  "cost": null,
+  "description": "Join us for an amazing performance by the amazing HEB Suzuki Strings. Pre-Registration Required December 10, 2026 09:45 AM - 10:45 AM Bedford, TX 76021 https://bedfordtx.gov/m/calendar/event/detail/19218/639305921040000000",
+  "url": "https://bedfordtx.gov/m/calendar/event/detail/19218",
+  "image": null,
+  "organizer": {
+   "name": "City of Bedford",
+   "url": "https://www.bedfordtx.gov/"
+  }
+ },
+ {
+  "name": "Senior You Can Paint - \"Calla Lily\"",
+  "category": "arts",
+  "area": "Bedford",
+  "city": "Bedford",
+  "date": "2026-12-10",
+  "time": "05:00 PM",
+  "cost": null,
+  "description": "You Can Paint by the Robert Garden School of Art is back! Beginners learn basics of color mixing, brushstrokes and perspective while completing a detailed landscape or seascape. All art supplies, canvas, paint brushes, easel and detailed lesson plan are provided. December 10, 202",
+  "url": "https://bedfordtx.gov/m/calendar/event/detail/19219",
+  "image": null,
+  "organizer": {
+   "name": "City of Bedford",
+   "url": "https://www.bedfordtx.gov/"
+  }
+ },
+ {
+  "name": "Sensory-Friendly Celebration",
+  "category": "family",
+  "area": "Central Library, Garland",
+  "city": "Garland",
+  "date": "2026-12-10",
+  "time": "05:00 PM",
+  "cost": null,
+  "description": "5:00 p.m.; A peaceful, come-and-go holiday evening for friends of all ages with sensory sensitivities, and anyone who prefers a quieter, more relaxed space. Caregivers and family are welcome, too! December 10, 2026 05:00 PM - 07:00 PM 625 Austin St.Garland, TX 75040 https://www.g",
+  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13495",
+  "image": null,
+  "organizer": {
+   "name": "City of Garland",
+   "url": "https://garlandtx.gov/"
+  }
+ },
+ {
+  "name": "Sensory-Friendly Celebration",
+  "category": "family",
+  "area": "625 Austin St., Garland",
+  "city": "Garland",
+  "date": "2026-12-10",
+  "time": "05:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13475",
+  "image": null,
+  "organizer": {
+   "name": "City of Garland",
+   "url": "https://garlandtx.gov/"
+  }
+ },
+ {
+  "name": "Step Aerobics/Extreme Hip Hop",
+  "category": "sports",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-10",
+  "time": "06:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=18561",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "Story Time for Tots (18mo-3Y)",
+  "category": "family",
+  "area": "104 S. Wisteria St., Mansfield",
+  "city": "Mansfield",
+  "date": "2026-12-10",
+  "time": "10:30 AM",
+  "cost": null,
+  "description": "Come enjoy books, songs, finger-plays and rhymes. Story Time for Tots introduces toddlers and parents to developmentally appropriate literature and related activities. It introduces group listening skills and provides interaction with others. December 10, 2026 10:30 AM - 11:00 AM",
+  "url": "https://www.mansfieldtexas.gov/Calendar.aspx?EID=9084",
+  "image": null,
+  "organizer": {
+   "name": "City of Mansfield",
+   "url": "https://www.mansfieldtexas.gov/"
+  }
+ },
+ {
+  "name": "Storytime – Wednesdays & Thursdays at 10:00 a.m. & 11:00 a.m.",
+  "category": "family",
+  "area": "3900 Main Street, Rowlett",
+  "city": "Rowlett",
+  "date": "2026-12-10",
+  "time": "10:00 AM",
+  "cost": null,
+  "description": "For toddlers and preschoolers (ages 0 to 4) who can actively engage and listen for 30 minutes. Due to limited space, tickets are required for entry and can be collected at the reference desk the day of the program. December 10, 2026 10:00 AM - 10:30 AM 3900 Main StreetRowlett, TX",
+  "url": "https://www.rowletttx.gov/Calendar.aspx?EID=17662",
+  "image": null,
+  "organizer": {
+   "name": "City of Rowlett",
+   "url": "https://rowletttx.gov/"
+  }
+ },
+ {
+  "name": "Teenz Place After-School Hour (Ages 13-17)",
+  "category": "family",
+  "area": "North Garland Library, Garland",
+  "city": "Garland",
+  "date": "2026-12-10",
+  "time": "04:00 PM",
+  "cost": null,
+  "description": "4:00 p.m.; Teens ages 13 to 17 can hang out for games, Wi-Fi and snacks. This program runs Tuesday through Thursday from 4 to 5 p.m. Bring friends and relax after school. December 10, 2026 04:00 PM - 05:00 PM 3845 N. Garland Ave.Garland, TX 75040 https://www.garlandtx.gov/Calenda",
+  "url": "https://www.garlandtx.gov/Calendar.aspx?EID=13501",
+  "image": null,
+  "organizer": {
+   "name": "City of Garland",
+   "url": "https://garlandtx.gov/"
+  }
+ },
+ {
+  "name": "The Librarians Documentary Screening",
+  "category": "family",
+  "area": "211 E. Pleasant Run Rd., DeSoto",
+  "city": "DeSoto",
+  "date": "2026-12-10",
+  "time": "06:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.desototexas.gov/Calendar.aspx?EID=2072",
+  "image": null,
+  "organizer": {
+   "name": "City of DeSoto",
+   "url": "https://desototexas.gov/"
+  }
+ },
+ {
   "name": "The Music of Johnny Mathis",
   "category": "festival",
   "area": "Casa Manana, Fort Worth",
@@ -11058,6 +11658,70 @@
   "description": "Live event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P4qo",
   "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg"
+ },
+ {
+  "name": "Toddler Time (16 Months-3 Years)",
+  "category": "family",
+  "area": "6861 W Eldorado Parkway, McKinney",
+  "city": "McKinney",
+  "date": "2026-12-10",
+  "time": "10:30 AM",
+  "cost": null,
+  "description": "",
+  "url": "https://mckinneytexas.libcal.com/calendar/jjgl/winter_Thursday_ToddlerTime",
+  "image": null,
+  "organizer": {
+   "name": "City of McKinney",
+   "url": "https://mckinneytexas.org/"
+  }
+ },
+ {
+  "name": "Virtual Author Talk with Robin Ha",
+  "category": "arts",
+  "area": "Grapevine",
+  "city": "Grapevine",
+  "date": "2026-12-10",
+  "time": "01:00 PM",
+  "cost": null,
+  "description": "Cooking authentic Korean food at home doesn't have to be intimidating or complicated—in fact, it can be as fun and engaging as reading your favorite graphic novel! Join us for a virtual conversation with artist and author Robin Ha as we explore her New York Times bestselling book",
+  "url": "https://www.grapevinetexas.gov/m/calendar/event/detail/17892",
+  "image": null,
+  "organizer": {
+   "name": "City of Grapevine",
+   "url": "https://grapevinetexas.gov/"
+  }
+ },
+ {
+  "name": "Yogalates",
+  "category": "sports",
+  "area": "310 E. Parkerville Road, Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-10",
+  "time": "12:00 PM",
+  "cost": null,
+  "description": "",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=17624",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
+ },
+ {
+  "name": "Zumba in the Park",
+  "category": "outdoors",
+  "area": "104 S Broad St., Cedar Hill",
+  "city": "Cedar Hill",
+  "date": "2026-12-10",
+  "time": "06:30 PM",
+  "cost": null,
+  "description": "Zumba in the Park returns September 1, bringing back the music, the energy, and the community spirit that makes this one of Cedar Hill's most-loved annual fitness programs. Come dance, get active, and enjoy beautiful evenings outdoors with fellow residents. Best of all, it's comp",
+  "url": "https://www.cedarhilltx.com/Calendar.aspx?EID=19708",
+  "image": null,
+  "organizer": {
+   "name": "City of Cedar Hill",
+   "url": "https://cedarhilltx.com/"
+  }
  },
  {
   "name": "33rd Annual Christmas/Kanzaa Concert- Student Performance",
@@ -11270,7 +11934,7 @@
   "city": "Dallas",
   "date": "2026-12-11",
   "time": "Doors — see listing",
-  "cost": 17.0,
+  "cost": 15.3,
   "description": "Live at Trees.",
   "url": "http://www.prekindle.com/event/83795-the-emo-night-tour-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527948963343818"
@@ -11578,7 +12242,7 @@
   "city": "Dallas",
   "date": "2026-12-12",
   "time": "Doors — see listing",
-  "cost": 16.0,
+  "cost": 14.4,
   "description": "Live at Trees.",
   "url": "http://www.prekindle.com/event/84362-gothcumbia-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527948940884717"
@@ -11870,7 +12534,7 @@
   "city": "Dallas",
   "date": "2026-12-13",
   "time": "Doors — see listing",
-  "cost": 25.0,
+  "cost": 22.5,
   "description": "Live at Trees.",
   "url": "http://www.prekindle.com/event/99259-dizzy-sunfist-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527948963355312"
@@ -12738,7 +13402,7 @@
   "city": "Dallas",
   "date": "2026-12-18",
   "time": "Doors — see listing",
-  "cost": 25.0,
+  "cost": 22.5,
   "description": "Live at Trees.",
   "url": "http://www.prekindle.com/event/36528-lemon-twisg-dallas",
   "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852527948933432050"

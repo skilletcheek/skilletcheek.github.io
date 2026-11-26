@@ -22,28 +22,27 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/deep-ellum-art-co/
 END:VEVENT
 BEGIN:VEVENT
-UID:kendall-street-company|deep-ellum-art-co-dallas|8-00-pm-2026-12-03@lets
+UID:kendall-street-company|deep-ellum-art-co-dallas|7-00-pm-2026-12-03@lets
  doitdallas.com
-DTSTAMP:20261204T020000Z
-DTSTART:20261204T020000Z
-DTEND:20261204T050000Z
+DTSTAMP:20261204T010000Z
+DTSTART:20261204T010000Z
+DTEND:20261204T040000Z
 SUMMARY:Kendall Street Company
 LOCATION:Deep Ellum Art Co. · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-03&e=kendall-street-company%7C
- deep-ellum-art-co-dallas%7C8-00-pm
+ deep-ellum-art-co-dallas%7C7-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/deep-ellum-art-co/
 END:VEVENT
 BEGIN:VEVENT
-UID:heyz-21-|deep-ellum-art-co-dallas|10-00-pm-2026-12-04@letsdoitdallas.co
- m
-DTSTAMP:20261205T040000Z
-DTSTART:20261205T040000Z
-DTEND:20261205T070000Z
+UID:heyz-21-|deep-ellum-art-co-dallas|9-00-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T030000Z
+DTSTART:20261205T030000Z
+DTEND:20261205T060000Z
 SUMMARY:Heyz (21+)
 LOCATION:Deep Ellum Art Co. · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-04&e=heyz-21-%7Cdeep-ellum-art
- -co-dallas%7C10-00-pm
+ -co-dallas%7C9-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/deep-ellum-art-co/
 END:VEVENT
