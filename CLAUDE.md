@@ -600,10 +600,13 @@ as real HTML — ~650 pages, ~5 MB, byte-stable across identical builds.
   more pages than are kept is refused, as for venues.
 - **`/event/` is the guaranteed parent.** An event at an unmatched venue in a
   city with no page appears on no hub; the directory links every one.
-- Not done: the homepage's `?e=` deep links still point their canonical at
-  `/`. Pointing them at the event page needs `_event_slug()` mirrored in
-  `js/app.js` — a two-layer mirror, so verify it in the browser preview over
-  every row, the way `_venue_tokens()` was.
+- **The homepage's `?e=` deep links point their canonical at the event page**
+  (`canonicalForEvent()` in `js/app.js`, since 2026-11-25), and back to `/`
+  when the drawer closes. `eventSlug()` there MIRRORS `_event_slug()` — see
+  "Two-layer mirrors". It is applied only when the slug is in
+  `/event/pages.json`: eventbrite.json, sponsored and curated `ACTIVITIES`
+  rows never reach the build and have no page, and a canonical at a 404 is
+  worse than `/`.
 
 ## Topic pages — `/things-to-do/<slug>/`
 
@@ -1260,6 +1263,15 @@ source description get a factual "`<name>` at `<venue>, <city>`." line
 (`_jsonld_description()`, mirrored inline in `updateSeo()`). Missing `price` is
 left alone on purpose: `cost` is null on ~85% of rows and inventing one is
 worse than the warning.
+
+`_event_slug()` (`fetch_events.py`) / `eventSlug()` (`js/app.js`) build the
+`/event/` URL a `?e=` deep link names as its canonical. Both lean on mirrors
+already listed here (`_split_area()`, `_is_real_venue()`, the alias table via
+`_canonical_venue()` / `_canonicalVenue()` in `js/sources.js`), so drift in
+any of those shows up here too. Cross-check by hashing both over every row of
+`live-events.json` in the browser preview; they agreed on all 763 on
+2026-11-25. A mismatch is not a 404 (JS only uses slugs listed in
+`/event/pages.json`) but it silently leaves that event's canonical at `/`.
 
 `SOCIAL` (`fetch_events.py`) is a three-way one, and the only one where two of
 the three copies are hand-written markup: the constant, index.html's `sameAs`,

@@ -447,6 +447,12 @@ function _venueKey(name, keepSuffix = false) {
 
 /* A renamed venue shares no tokens with its old name, so rewrite known
    variants to one canonical name first — see venue-aliases.json. */
+/* `name` rewritten through venue-aliases.json, or unchanged. Mirrors
+   _canonical_venue() in scripts/fetch_events.py: suffix-qualified key first. */
+function _canonicalVenue(name) {
+  return _venueAliases.get(_venueKey(name, true)) || _venueAliases.get(_venueKey(name)) || name;
+}
+
 function _venueTokens(area) {
   const key = _venueKey(area);
   // the suffix-qualified alias first, so "… - Arlington" beats "…"

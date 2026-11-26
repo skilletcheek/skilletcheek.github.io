@@ -1029,6 +1029,55 @@ function trapFocus(panel, e) {
   else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
 }
 
+/* ---- event pages: canonical for ?e= ----------------------------------------
+
+   An open drawer puts ?e= in the URL, and Google indexed those URLs: they
+   earned about half of all search clicks (Search Console, 2026-11-25). Since
+   then every show has a real page at /event/<slug>/, written by
+   write_events() in scripts/fetch_events.py, so the deep link names that page
+   as its canonical instead of "/" -- one URL collects the signals, not two.
+
+   eventSlug() MIRRORS _event_slug() there. Change one, change both, and
+   rerun the cross-check over live-events.json in the browser preview. It is
+   only ever applied when the slug is in /event/pages.json (the list of pages
+   that exist): rows that never reach the build -- eventbrite.json, sponsored,
+   curated ACTIVITIES -- have no page, and a canonical pointing at a 404 is
+   worse than none. */
+function _slugPart(s) {
+  return String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}
+function _trimSlug(s, n) { return s.slice(0, n).replace(/^-+|-+$/g, ""); }
+function eventSlug(a) {
+  const [venue, , city] = splitArea(a.area);
+  const where = venue && isRealVenue(venue) ? _canonicalVenue(venue) : (city || venue || "dfw");
+  const name = _trimSlug(_trimSlug(_slugPart(a.name), 60), 50) || "event";
+  return `${name}-${_trimSlug(_trimSlug(_slugPart(where), 60), 30)}`.replace(/^-+|-+$/g, "");
+}
+let _eventPages = null;   // Promise<Set<slug>>, fetched on the first drawer open
+function _eventPageSet() {
+  if (!_eventPages) {
+    _eventPages = fetch("/event/pages.json")
+      .then((r) => (r.ok ? r.json() : { events: {} }))
+      .then((j) => new Set(Object.keys(j.events || {})))
+      .catch(() => new Set());
+  }
+  return _eventPages;
+}
+const _HOME_CANONICAL = "https://letsdoitdallas.com/";
+function setCanonical(href) {
+  const link = document.querySelector('link[rel="canonical"]');
+  if (link) link.setAttribute("href", href);
+}
+function canonicalForEvent(a) {
+  const key = uid(a), slug = eventSlug(a);
+  _eventPageSet().then((pages) => {
+    // The drawer may have moved on while the list was loading.
+    if (state.openEvent === key && pages.has(slug)) {
+      setCanonical(`${_HOME_CANONICAL}event/${slug}/`);
+    }
+  });
+}
+
 function openDrawer(a) {
   drawerOpener = document.activeElement;
   const c = CATEGORIES[a.cat] || { label: "Event" };
@@ -1060,6 +1109,8 @@ function openDrawer(a) {
   // deep-link the open event so SHARE and a browser reload both land on it
   state.openEvent = uid(a);
   syncUrl();
+  setCanonical(_HOME_CANONICAL);
+  if (!isHouseAd) canonicalForEvent(a);
   const panel = modal.querySelector(".modal-panel");
   panel.onkeydown = (e) => trapFocus(panel, e);
   el("modalClose").focus();
@@ -1080,6 +1131,7 @@ function closeDrawer() {
   document.body.classList.remove("drawer-open");
   state.openEvent = null;
   syncUrl();
+  setCanonical(_HOME_CANONICAL);
   // back to the card they came from, not the top of the document
   if (drawerOpener && document.contains(drawerOpener)) drawerOpener.focus();
   drawerOpener = null;
