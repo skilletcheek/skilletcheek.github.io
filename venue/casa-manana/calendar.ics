@@ -152,6 +152,19 @@ DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/casa-manana/
 END:VEVENT
 BEGIN:VEVENT
+UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|5-00-pm-2026-12-05@
+ letsdoitdallas.com
+DTSTAMP:20261205T230000Z
+DTSTART:20261205T230000Z
+DTEND:20261206T020000Z
+SUMMARY:A Christmas Carol - Fort Worth
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=a-christmas-carol-fort-wo
+ rth%7Ccasa-manana-fort-worth%7C5-00-pm
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-music-of-johnny-mathis|casa-manana-fort-worth|8-00-pm-2026-12-05@le
  tsdoitdallas.com
 DTSTAMP:20261206T020000Z

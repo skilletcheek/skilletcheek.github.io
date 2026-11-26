@@ -9,30 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:perreo-giving-reggaeton-party|ctrl-room-dallas|9-00-pm-2026-11-25@letsd
- oitdallas.com
-DTSTAMP:20261126T030000Z
-DTSTART:20261126T030000Z
-DTEND:20261126T060000Z
-SUMMARY:Perreo Giving — Reggaeton Party
-LOCATION:CTRL Room · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=perreo-giving-reggaeton-p
- arty%7Cctrl-room-dallas%7C9-00-pm
-DESCRIPTION:Ages 18+. — More: https://letsdoitdallas.com/venue/ctrl-room/
-END:VEVENT
-BEGIN:VEVENT
-UID:tree-haus-blackout-wednesday|ctrl-room-dallas|9-00-pm-2026-11-25@letsdo
- itdallas.com
-DTSTAMP:20261126T030000Z
-DTSTART:20261126T030000Z
-DTEND:20261126T060000Z
-SUMMARY:Tree Haus Blackout Wednesday
-LOCATION:CTRL Room · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=tree-haus-blackout-wednes
- day%7Cctrl-room-dallas%7C9-00-pm
-DESCRIPTION:Ages 18+. — More: https://letsdoitdallas.com/venue/ctrl-room/
-END:VEVENT
-BEGIN:VEVENT
 UID:5th-annual-dancegiving-at-ctrl-room-11-26-26|ctrl-room-dallas|10-00-pm-
  2026-11-26@letsdoitdallas.com
 DTSTAMP:20261127T040000Z
@@ -137,6 +113,18 @@ SUMMARY:MASHBIT at CTRL Room 12.19.26
 LOCATION:CTRL Room · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-19&e=mashbit-at-ctrl-room-12-1
  9-26%7Cctrl-room-dallas%7C10-00-pm
+DESCRIPTION:Ages 18+. — More: https://letsdoitdallas.com/venue/ctrl-room/
+END:VEVENT
+BEGIN:VEVENT
+UID:habibi-house-at-tree-haus-12-26-26|ctrl-room-dallas|10-00-pm-2026-12-26
+ @letsdoitdallas.com
+DTSTAMP:20261227T040000Z
+DTSTART:20261227T040000Z
+DTEND:20261227T070000Z
+SUMMARY:Habibi House at Tree Haus 12.26.26
+LOCATION:CTRL Room · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-26&e=habibi-house-at-tree-haus
+ -12-26-26%7Cctrl-room-dallas%7C10-00-pm
 DESCRIPTION:Ages 18+. — More: https://letsdoitdallas.com/venue/ctrl-room/
 END:VEVENT
 END:VCALENDAR

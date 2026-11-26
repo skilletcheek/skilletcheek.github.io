@@ -11,36 +11,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:black-friday-is-back-at-buffalo-exchange-with-75-off-sale-items|buffalo
- -exchange-dallas|11-00-am-8-00-pm-2026-11-25@letsdoitdallas.com
-DTSTAMP:20261125T170000Z
-DTSTART:20261125T170000Z
-DTEND:20261125T200000Z
-SUMMARY:Black Friday is Back at Buffalo Exchange with 75% Off Sale Items
-LOCATION:Buffalo Exchange · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=black-friday-is-back-at-b
- uffalo-exchange-with-75-off-sale-items%7Cbuffalo-exchange-dallas%7C11-00-a
- m-8-00-pm
-DESCRIPTION:Get your wishlists ready! From Wednesday\, 11/25 through Monday
-  11/30\, we’re giving you a head start on holiday shopping with a sweet 
- Black Friday deal: shop a special selection of clothes\, shoes and accesso
- ries at 75% off at all Buffalo Exchange locations\, excluding outlets. Plu
- s — More: https://letsdoitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:wub-wednesday|three-links-deep-ellum-dallas|10-00-pm-2026-11-25@letsdoi
- tdallas.com
-DTSTAMP:20261126T040000Z
-DTSTART:20261126T040000Z
-DTEND:20261126T070000Z
-SUMMARY:Wub Wednesday
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=wub-wednesday%7Cthree-lin
- ks-deep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-26@letsdoitdall
  as.com
 DTSTAMP:20261127T040000Z

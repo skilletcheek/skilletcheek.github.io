@@ -10,50 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:shed-g-and-friends|arlington-improv-arlington|7-30-pm-2026-11-25@letsdo
- itdallas.com
-DTSTAMP:20261126T013000Z
-DTSTART:20261126T013000Z
-DTEND:20261126T043000Z
-SUMMARY:Shed G and Friends
-LOCATION:Arlington Improv
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=shed-g-and-friends%7Carli
- ngton-improv-arlington%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/things-to-do/comedy/
-END:VEVENT
-BEGIN:VEVENT
-UID:we-funny-wednesdays|punch-line-irving-irving|7-30-pm-2026-11-25@letsdoi
- tdallas.com
-DTSTAMP:20261126T013000Z
-DTSTART:20261126T013000Z
-DTEND:20261126T043000Z
-SUMMARY:We Funny Wednesdays
-LOCATION:Punch Line Irving
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=we-funny-wednesdays%7Cpun
- ch-line-irving-irving%7C7-30-pm
-DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
- .com/things-to-do/comedy/
-END:VEVENT
-BEGIN:VEVENT
-UID:wizop-wednesday-s-open-mic-night|big-laugh-comedy-club-fort-worth-604-m
- ain-st-suite-100-fort-worth-tx-76102-united-states|9-30-pm-2026-11-25@lets
- doitdallas.com
-DTSTAMP:20261126T033000Z
-DTSTART:20261126T033000Z
-DTEND:20261126T063000Z
-SUMMARY:Wizop Wednesday's Open Mic Night
-LOCATION:Big Laugh Comedy Club – Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=wizop-wednesday-s-open-mi
- c-night%7Cbig-laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-wort
- h-tx-76102-united-states%7C9-30-pm
-DESCRIPTION:Wizop Wednesdays: Open Mic Comedy  Looking for a midweek jolt o
- f ridiculous? Wizop Wednesdays is where fresh jokes are born\, wild bits g
- et tested\, and legends-in-the-making grab the mic. It’s raw\, fast\, an
- d absolutely addictive\, your new Wednesday night ritual.  Expect lightnin
- g- — More: https://letsdoitdallas.com/things-to-do/comedy/
-END:VEVENT
-BEGIN:VEVENT
 UID:damon-wayans-jr-|mic-drop-comedy-plano-plano|7-00-pm-2026-11-27@letsdoi
  tdallas.com
 DTSTAMP:20261128T010000Z
@@ -780,6 +736,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=family-magic-comedy-for-a
  ll-ages%7Caddison-improv-addison%7C2-00-pm
 DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
  doitdallas.com/things-to-do/comedy/
+END:VEVENT
+BEGIN:VEVENT
+UID:marlon-wayans|hyena-s-comedy-nightclub-dallas-dallas|6-00-pm-2026-12-05
+ @letsdoitdallas.com
+DTSTAMP:20261206T000000Z
+DTSTART:20261206T000000Z
+DTEND:20261206T030000Z
+SUMMARY:Marlon Wayans
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=marlon-wayans%7Chyena-s-c
+ omedy-nightclub-dallas-dallas%7C6-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /things-to-do/comedy/
 END:VEVENT
 BEGIN:VEVENT
 UID:jack-fm-presents-josh-wolf|punch-line-irving-irving|7-00-pm-2026-12-05@

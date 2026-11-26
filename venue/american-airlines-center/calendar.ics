@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-stars-vs-nashville-predators|american-airlines-center-dallas|7-0
- 0-pm-2026-11-25@letsdoitdallas.com
-DTSTAMP:20261126T010000Z
-DTSTART:20261126T010000Z
-DTEND:20261126T040000Z
-SUMMARY:Dallas Stars vs. Nashville Predators
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=dallas-stars-vs-nashville
- -predators%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/venue/american-airlines-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-stars-vs-utah-mammoth|american-airlines-center-dallas|7-00-pm-20
  26-11-28@letsdoitdallas.com
 DTSTAMP:20261129T010000Z

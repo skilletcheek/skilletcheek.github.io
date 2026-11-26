@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Firehouse Theatre — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Firehouse Theatre.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:disney-s-frozen-the-musical-farmers-branch|firehouse-theatre-farmers-br
+ anch|7-30-pm-2026-12-03@letsdoitdallas.com
+DTSTAMP:20261204T013000Z
+DTSTART:20261204T013000Z
+DTEND:20261204T043000Z
+SUMMARY:Disney's Frozen - The Musical - Farmers Branch
+LOCATION:Firehouse Theatre · Farmers Branch
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=disney-s-frozen-the-music
+ al-farmers-branch%7Cfirehouse-theatre-farmers-branch%7C7-30-pm
+DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
+ om/venue/firehouse-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-s-frozen-the-musical-farmers-branch|firehouse-theatre-farmers-br
+ anch|7-30-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T013000Z
+DTSTART:20261205T013000Z
+DTEND:20261205T043000Z
+SUMMARY:Disney's Frozen - The Musical - Farmers Branch
+LOCATION:Firehouse Theatre · Farmers Branch
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=disney-s-frozen-the-music
+ al-farmers-branch%7Cfirehouse-theatre-farmers-branch%7C7-30-pm
+DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
+ om/venue/firehouse-theatre/
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-s-frozen-the-musical-farmers-branch|firehouse-theatre-farmers-br
+ anch|2-30-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T203000Z
+DTSTART:20261205T203000Z
+DTEND:20261205T233000Z
+SUMMARY:Disney's Frozen - The Musical - Farmers Branch
+LOCATION:Firehouse Theatre · Farmers Branch
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=disney-s-frozen-the-music
+ al-farmers-branch%7Cfirehouse-theatre-farmers-branch%7C2-30-pm
+DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
+ om/venue/firehouse-theatre/
+END:VEVENT
+END:VCALENDAR

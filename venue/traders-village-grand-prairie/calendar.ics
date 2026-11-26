@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Traders Village - Grand Prairie — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Traders Village - Grand Prairie.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:cirque-italia-grand-prairie|traders-village-grand-prairie-grand-prairie
+ |7-30-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T013000Z
+DTSTART:20261205T013000Z
+DTEND:20261205T043000Z
+SUMMARY:Cirque Italia - Grand Prairie
+LOCATION:Traders Village - Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=cirque-italia-grand-prair
+ ie%7Ctraders-village-grand-prairie-grand-prairie%7C7-30-pm
+DESCRIPTION:circus event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/traders-village-grand-prairie/
+END:VEVENT
+BEGIN:VEVENT
+UID:cirque-italia-grand-prairie|traders-village-grand-prairie-grand-prairie
+ |1-30-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T193000Z
+DTSTART:20261205T193000Z
+DTEND:20261205T223000Z
+SUMMARY:Cirque Italia - Grand Prairie
+LOCATION:Traders Village - Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=cirque-italia-grand-prair
+ ie%7Ctraders-village-grand-prairie-grand-prairie%7C1-30-pm
+DESCRIPTION:circus event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/traders-village-grand-prairie/
+END:VEVENT
+BEGIN:VEVENT
+UID:cirque-italia-grand-prairie|traders-village-grand-prairie-grand-prairie
+ |4-30-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T223000Z
+DTSTART:20261205T223000Z
+DTEND:20261206T013000Z
+SUMMARY:Cirque Italia - Grand Prairie
+LOCATION:Traders Village - Grand Prairie
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=cirque-italia-grand-prair
+ ie%7Ctraders-village-grand-prairie-grand-prairie%7C4-30-pm
+DESCRIPTION:circus event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/traders-village-grand-prairie/
+END:VEVENT
+END:VCALENDAR

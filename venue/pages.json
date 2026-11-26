@@ -109,7 +109,7 @@
   "ctrl-room": {
    "city": "Dallas",
    "district": null,
-   "last": "2026-12-19",
+   "last": "2026-12-26",
    "name": "CTRL Room",
    "street": null
   },
@@ -144,7 +144,7 @@
   "ferris-wheelers-backyard-and-bbq": {
    "city": "Dallas",
    "district": null,
-   "last": "2026-12-03",
+   "last": "2026-12-05",
    "name": "Ferris Wheelers Backyard and BBQ",
    "street": null
   },
@@ -153,6 +153,13 @@
    "district": "frisco",
    "last": "2026-12-21",
    "name": "Fifth Third Arena",
+   "street": null
+  },
+  "firehouse-theatre": {
+   "city": "Farmers Branch",
+   "district": null,
+   "last": "2026-12-05",
+   "name": "Firehouse Theatre",
    "street": null
   },
   "fort-worth-museum-of-science-and-history": {
@@ -165,7 +172,7 @@
   "granada-theater": {
    "city": "Dallas",
    "district": "lower-greenville",
-   "last": "2026-12-19",
+   "last": "2026-12-26",
    "name": "Granada Theater",
    "street": null
   },
@@ -200,7 +207,7 @@
   "hyena-s-comedy-nightclub-dallas": {
    "city": "Dallas",
    "district": null,
-   "last": "2026-12-04",
+   "last": "2026-12-05",
    "name": "Hyena's Comedy Nightclub - Dallas",
    "street": null
   },
@@ -312,7 +319,7 @@
   "poor-david-s-pub": {
    "city": "Dallas",
    "district": "downtown-dallas",
-   "last": "2026-12-20",
+   "last": "2026-12-26",
    "name": "Poor David's Pub",
    "street": null
   },
@@ -340,7 +347,7 @@
   "restaurant-degolyer-at-the-dallas-arboretum": {
    "city": "Dallas",
    "district": null,
-   "last": "2026-12-19",
+   "last": "2026-12-26",
    "name": "Restaurant DeGolyer at the Dallas Arboretum",
    "street": "8525 Garland Rd"
   },
@@ -424,7 +431,7 @@
   "the-kessler-theater": {
    "city": "Dallas",
    "district": "bishop-arts",
-   "last": "2026-12-20",
+   "last": "2026-12-26",
    "name": "The Kessler Theater",
    "street": null
   },
@@ -470,6 +477,13 @@
    "name": "Toyota Stadium",
    "street": null
   },
+  "traders-village-grand-prairie": {
+   "city": "Grand Prairie",
+   "district": null,
+   "last": "2026-12-05",
+   "name": "Traders Village - Grand Prairie",
+   "street": null
+  },
   "trees": {
    "city": "Dallas",
    "district": "deep-ellum",
@@ -482,7 +496,7 @@
    "district": "fort-worth",
    "last": "2026-12-19",
    "name": "Tulips FTW",
-   "street": "112 Saint Louis Avenue"
+   "street": null
   },
   "university-park-public-library": {
    "city": "University Park",

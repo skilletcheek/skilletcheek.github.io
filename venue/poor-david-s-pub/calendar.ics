@@ -164,4 +164,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-20&e=kenny-hunter-s-christmas-
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  venue/poor-david-s-pub/
 END:VEVENT
+BEGIN:VEVENT
+UID:boxing-day-with-the-dead-thing|poor-david-s-pub-dallas|doors-see-listin
+ g-2026-12-26@letsdoitdallas.com
+DTSTAMP:20261226T000000Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:BOXING DAY with The Dead Thing
+LOCATION:Poor David's Pub · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-26&e=boxing-day-with-the-dead-
+ thing%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
+DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
+ venue/poor-david-s-pub/
+END:VEVENT
 END:VCALENDAR

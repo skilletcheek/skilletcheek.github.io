@@ -10,45 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:hoopfest-basketball-women-s-challenge-session-4|fifth-third-arena-frisc
- o|12-00-pm-2026-11-25@letsdoitdallas.com
-DTSTAMP:20261125T180000Z
-DTSTART:20261125T180000Z
-DTEND:20261125T210000Z
-SUMMARY:Hoopfest Basketball Women's Challenge Session 4
-LOCATION:Fifth Third Arena · Frisco
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=hoopfest-basketball-women
- -s-challenge-session-4%7Cfifth-third-arena-frisco%7C12-00-pm
-DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
- llas.com/things-to-do/sports/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-stars-vs-nashville-predators|american-airlines-center-dallas|7-0
- 0-pm-2026-11-25@letsdoitdallas.com
-DTSTAMP:20261126T010000Z
-DTSTART:20261126T010000Z
-DTEND:20261126T040000Z
-SUMMARY:Dallas Stars vs. Nashville Predators
-LOCATION:American Airlines Center · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=dallas-stars-vs-nashville
- -predators%7Camerican-airlines-center-dallas%7C7-00-pm
-DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
- .com/things-to-do/sports/
-END:VEVENT
-BEGIN:VEVENT
-UID:oklahoma-warriors-at-lone-star-brahmas|nytex-sports-centre-north-richla
- nd-hills|7-00-pm-2026-11-25@letsdoitdallas.com
-DTSTAMP:20261126T010000Z
-DTSTART:20261126T010000Z
-DTEND:20261126T040000Z
-SUMMARY:Oklahoma Warriors at Lone Star Brahmas
-LOCATION:NYTEX Sports Centre · North Richland Hills
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=oklahoma-warriors-at-lone
- -star-brahmas%7Cnytex-sports-centre-north-richland-hills%7C7-00-pm
-DESCRIPTION:minor league hockey event via SeatGeek. — More: https://letsd
- oitdallas.com/things-to-do/sports/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-cowboys-vs-philadelphia-eagles|at-t-stadium-arlington|3-30-pm-20
  26-11-26@letsdoitdallas.com
 DTSTAMP:20261126T213000Z

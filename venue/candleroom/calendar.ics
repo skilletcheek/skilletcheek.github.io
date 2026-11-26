@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:legendary-wednesday|candleroom-dallas|10-00-pm-2026-11-25@letsdoitdalla
- s.com
-DTSTAMP:20261126T040000Z
-DTSTART:20261126T040000Z
-DTEND:20261126T070000Z
-SUMMARY:Legendary Wednesday
-LOCATION:Candleroom · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-25&e=legendary-wednesday%7Ccan
- dleroom-dallas%7C10-00-pm
-DESCRIPTION:Legendary Wednesday at Candleroom\, a nightlife lounge and even
- t venue on Henderson Avenue in Dallas. — More: https://letsdoitdallas.co
- m/venue/candleroom/
-END:VEVENT
-BEGIN:VEVENT
 UID:black-friday-a-proper-affair-|candleroom-dallas|10-00-pm-2026-11-27@let
  sdoitdallas.com
 DTSTAMP:20261128T040000Z
