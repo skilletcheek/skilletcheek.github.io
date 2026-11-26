@@ -10,6 +10,48 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:story-time|highland-park-library-highland-park|10-00-am-2026-11-27@lets
+ doitdallas.com
+DTSTAMP:20261127T160000Z
+DTSTART:20261127T160000Z
+DTEND:20261127T190000Z
+SUMMARY:Story Time
+LOCATION:Highland Park Library
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=story-time%7Chighland-par
+ k-library-highland-park%7C10-00-am
+DESCRIPTION:Join Miss Victoria and Mr. Tre for Story Time at the Highland P
+ ark Library\, 2nd Floor Town Hall. This Story Time is designed for all age
+ s. Read stories\, sing\, and follow along with Miss Victoria and Mr. Tre. 
+ Tickets will be required for entry to Story Time. Tickets are free and w 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-story-time|lancaster-veterans-memorial-library-1600-veterans-me
+ morial-parkway-lancaster|10-30-am-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261127T163000Z
+DTSTART:20261127T163000Z
+DTEND:20261127T193000Z
+SUMMARY:Toddler Story Time
+LOCATION:Lancaster Veterans Memorial Library
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=toddler-story-time%7Clanc
+ aster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%7
+ C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-story-time|lancaster-veterans-memorial-library-1600-veterans-mem
+ orial-parkway-lancaster|10-30-am-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261128T163000Z
+DTSTART:20261128T163000Z
+DTEND:20261128T193000Z
+SUMMARY:Family Story Time
+LOCATION:Lancaster Veterans Memorial Library
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=family-story-time%7Clanca
+ ster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%7C
+ 10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
 UID:family-storytime-all-ages-|1201-e-louisiana-st-mckinney|10-30-am-2026-1
  1-28@letsdoitdallas.com
 DTSTAMP:20261128T163000Z
@@ -71,6 +113,34 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=cuentos-stories-bilingual
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
+UID:baby-bookworms|12450-elam-rd-balch-springs|10-30-am-2026-11-30@letsdoit
+ dallas.com
+DTSTAMP:20261130T163000Z
+DTSTART:20261130T163000Z
+DTEND:20261130T193000Z
+SUMMARY:Baby Bookworms
+LOCATION:12450 Elam Rd · Balch Springs
+URL:https://letsdoitdallas.com/?date=2026-11-30&e=baby-bookworms%7C12450-el
+ am-rd-balch-springs%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:bilingual-story-time|104-s-wisteria-st-mansfield|10-30-am-2026-11-30@le
+ tsdoitdallas.com
+DTSTAMP:20261130T163000Z
+DTSTART:20261130T163000Z
+DTEND:20261130T193000Z
+SUMMARY:Bilingual Story Time
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-11-30&e=bilingual-story-time%7C10
+ 4-s-wisteria-st-mansfield%7C10-30-am
+DESCRIPTION:Children 3-6 years old\, both English and Spanish speakers\, wi
+ th a caregiver can enjoy 30 minutes of books\, songs\, finger-plays and rh
+ ymes in both English and Spanish. This story time fosters emergent literac
+ y\, reinforces group listening skills and allows children to become famili
+  — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
 UID:pajama-storytime|desoto|06-30-pm-2026-11-30@letsdoitdallas.com
 DTSTAMP:20261201T003000Z
 DTSTART:20261201T003000Z
@@ -80,6 +150,33 @@ LOCATION:DeSoto
 URL:https://letsdoitdallas.com/?date=2026-11-30&e=pajama-storytime%7Cdesoto
  %7C06-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-tuesday-open-play|5300-main-street-rowlett|09-00-am-2026-12-01@
+ letsdoitdallas.com
+DTSTAMP:20261201T150000Z
+DTSTART:20261201T150000Z
+DTEND:20261201T180000Z
+SUMMARY:Toddler Tuesday Open Play
+LOCATION:5300 Main Street · Rowlett
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=toddler-tuesday-open-play
+ %7C5300-main-street-rowlett%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:tiny-tots-sensory-adventures|1700-veterans-memorial-parkway-lancaster|0
+ 9-15-am-2026-12-01@letsdoitdallas.com
+DTSTAMP:20261201T151500Z
+DTSTART:20261201T151500Z
+DTEND:20261201T181500Z
+SUMMARY:Tiny Tots Sensory Adventures
+LOCATION:1700 Veterans Memorial Parkway · Lancaster
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=tiny-tots-sensory-adventu
+ res%7C1700-veterans-memorial-parkway-lancaster%7C09-15-am
+DESCRIPTION:Sensory Play December 1\, 2026 09:15 AM - 10:00 AM 1700 Veteran
+ s Memorial ParkwayLancaster\, TX 75146 https://www.lancaster-tx.com/Calend
+ ar.aspx?EID=8381/639220566530000000 — More: https://letsdoitdallas.com/t
+ hings-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
 UID:baby-story-time|1400-main-street-suite-130-southlake|10-00-am-2026-12-0
@@ -122,6 +219,50 @@ DESCRIPTION:Library storytime will meet every Tuesday at 10:30 AM at theMai
  — More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
+UID:story-time-for-tots-18mo-3y-|geyer-commons-mansfield|10-30-am-2026-12-0
+ 1@letsdoitdallas.com
+DTSTAMP:20261201T163000Z
+DTSTART:20261201T163000Z
+DTEND:20261201T193000Z
+SUMMARY:Story Time for Tots (18mo-3Y)
+LOCATION:Geyer Commons · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=story-time-for-tots-18mo-
+ 3y-%7Cgeyer-commons-mansfield%7C10-30-am
+DESCRIPTION:Come enjoy books\, songs\, finger-plays and rhymes. Story Time 
+ for Tots introduces toddlers and parents to developmentally appropriate li
+ terature and related activities. It introduces group listening skills and 
+ provides interaction with others. This event will be held at Geyer Comm 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-12-01@letsd
+ oitdallas.com
+DTSTAMP:20261201T163000Z
+DTSTART:20261201T163000Z
+DTEND:20261201T193000Z
+SUMMARY:Storytime for Toddlers/Preschoolers
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=storytime-for-toddlers-pr
+ eschoolers%7Cgrapevine%7C10-30-am
+DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
+ welcome and no registrations is needed. (This is a Ticketed Program\; plea
+ se stop at the Children's Desk 15 minutes before the program to receive ti
+ ckets. 1 per attendee.) December 1\, 2026 10:30 AM - 11:00 AM Grapevine\, 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-storytime|12450-elam-rd-balch-springs|10-30-am-2026-12-01@letsd
+ oitdallas.com
+DTSTAMP:20261201T163000Z
+DTSTART:20261201T163000Z
+DTEND:20261201T193000Z
+SUMMARY:Toddler Storytime
+LOCATION:12450 Elam Rd · Balch Springs
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=toddler-storytime%7C12450
+ -elam-rd-balch-springs%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
 UID:preschool-open-play|1400-main-street-suite-130-southlake|11-15-am-2026-
  12-01@letsdoitdallas.com
 DTSTAMP:20261201T171500Z
@@ -132,6 +273,20 @@ LOCATION:1400 Main Street · Southlake
 URL:https://letsdoitdallas.com/?date=2026-12-01&e=preschool-open-play%7C140
  0-main-street-suite-130-southlake%7C11-15-am
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-story-time|lancaster|11-30-am-2026-12-01@letsdoitdallas.com
+DTSTAMP:20261201T173000Z
+DTSTART:20261201T173000Z
+DTEND:20261201T203000Z
+SUMMARY:Baby Story Time
+LOCATION:Lancaster
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=baby-story-time%7Clancast
+ er%7C11-30-am
+DESCRIPTION:Rhymes\, songs\, and movement December 1\, 2026 11:30 AM - 12:3
+ 0 PM Lancaster\, TX 75146 https://www.lancaster-tx.com/Calendar.aspx?EID=7
+ 683/639077970340000000 — More: https://letsdoitdallas.com/things-to-do/k
+ ids/
 END:VEVENT
 BEGIN:VEVENT
 UID:music-movement-storytime-3-5-years-|6861-w-eldorado-pkwy-mckinney|11-30
@@ -146,6 +301,30 @@ URL:https://letsdoitdallas.com/?date=2026-12-01&e=music-movement-storytime-
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
+UID:sensory-santa-christmas-shoppe|250-w-first-st-prosper|04-30-pm-2026-12-
+ 01@letsdoitdallas.com
+DTSTAMP:20261201T223000Z
+DTSTART:20261201T223000Z
+DTEND:20261202T013000Z
+SUMMARY:Sensory Santa & Christmas Shoppe
+LOCATION:250 W First St. · Prosper
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=sensory-santa-christmas-s
+ hoppe%7C250-w-first-st-prosper%7C04-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:kids-jam-ages-5-12|1700-veterans-memorial-parkway-lancaster|05-00-pm-20
+ 26-12-01@letsdoitdallas.com
+DTSTAMP:20261201T230000Z
+DTSTART:20261201T230000Z
+DTEND:20261202T020000Z
+SUMMARY:Kids Jam ages 5-12
+LOCATION:1700 Veterans Memorial Parkway · Lancaster
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=kids-jam-ages-5-12%7C1700
+ -veterans-memorial-parkway-lancaster%7C05-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
 UID:teen-tuesdays-teen-holiday-gift-making-party|desoto|05-30-pm-2026-12-01
  @letsdoitdallas.com
 DTSTAMP:20261201T233000Z
@@ -156,6 +335,34 @@ LOCATION:DeSoto
 URL:https://letsdoitdallas.com/?date=2026-12-01&e=teen-tuesdays-teen-holida
  y-gift-making-party%7Cdesoto%7C05-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:homeschool-p-e-|1700-veterans-memorial-parkway-lancaster|09-00-am-2026-
+ 12-02@letsdoitdallas.com
+DTSTAMP:20261202T150000Z
+DTSTART:20261202T150000Z
+DTEND:20261202T180000Z
+SUMMARY:Homeschool P.E.
+LOCATION:1700 Veterans Memorial Parkway · Lancaster
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=homeschool-p-e-%7C1700-ve
+ terans-memorial-parkway-lancaster%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:storytime-wednesdays-thursdays-at-10-00-a-m-11-00-a-m-|3900-main-street
+ -rowlett|10-00-am-2026-12-02@letsdoitdallas.com
+DTSTAMP:20261202T160000Z
+DTSTART:20261202T160000Z
+DTEND:20261202T190000Z
+SUMMARY:Storytime – Wednesdays & Thursdays at 10:00 a.m. & 11:00 a.m.
+LOCATION:3900 Main Street · Rowlett
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=storytime-wednesdays-thur
+ sdays-at-10-00-a-m-11-00-a-m-%7C3900-main-street-rowlett%7C10-00-am
+DESCRIPTION:For toddlers and preschoolers (ages 0 to 4) who can actively en
+ gage and listen for 30 minutes. Due to limited space\, tickets are require
+ d for entry and can be collected at the reference desk the day of the prog
+ ram. December 2\, 2026 10:00 AM - 10:30 AM 3900 Main StreetRowlett\, TX 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
 UID:toddler-story-time|1400-main-street-suite-130-southlake|10-00-am-2026-1
@@ -182,6 +389,22 @@ URL:https://letsdoitdallas.com/?date=2026-12-02&e=baby-me-0-10-months-%7C68
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
+UID:listener-s-storytime-3y-6y-|104-s-wisteria-st-mansfield|10-30-am-2026-1
+ 2-02@letsdoitdallas.com
+DTSTAMP:20261202T163000Z
+DTSTART:20261202T163000Z
+DTEND:20261202T193000Z
+SUMMARY:Listener's Storytime (3Y-6Y)
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=listener-s-storytime-3y-6
+ y-%7C104-s-wisteria-st-mansfield%7C10-30-am
+DESCRIPTION:30 minutes of books\, musical movement\, listening skills\, and
+  bubbles for children aged 3-6 years. December 2\, 2026 10:30 AM - 11:00 A
+ M 104 S. Wisteria St.Mansfield\, TX 76063 https://www.mansfieldtexas.gov/C
+ alendar.aspx?EID=9080/639299186100000000 — More: https://letsdoitdallas.
+ com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
 UID:preschool-storytime|300-west-grubb-drive-mesquite|10-30-am-2026-12-02@l
  etsdoitdallas.com
 DTSTAMP:20261202T163000Z
@@ -195,6 +418,34 @@ DESCRIPTION:Join us every Wednesday for stories\, playtime and bubbles! Dec
  ember 2\, 2026 10:30 AM - 11:00 AM 300 West Grubb DriveMesquite\, TX 75149
   https://www.cityofmesquite.com/m/calendar/event/detail/11780/639178182790
  000000 — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-storytime|12450-elam-rd-balch-springs|10-30-am-2026-12-02@let
+ sdoitdallas.com
+DTSTAMP:20261202T163000Z
+DTSTART:20261202T163000Z
+DTEND:20261202T193000Z
+SUMMARY:Preschool Storytime
+LOCATION:12450 Elam Rd · Balch Springs
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=preschool-storytime%7C124
+ 50-elam-rd-balch-springs%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-12-02@letsd
+ oitdallas.com
+DTSTAMP:20261202T163000Z
+DTSTART:20261202T163000Z
+DTEND:20261202T193000Z
+SUMMARY:Storytime for Toddlers/Preschoolers
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=storytime-for-toddlers-pr
+ eschoolers%7Cgrapevine%7C10-30-am
+DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
+ welcome and no registrations is needed. (This is a Ticketed Program\; plea
+ se stop at the Children's Desk 15 minutes before the program to receive ti
+ ckets. 1 per attendee.) December 2\, 2026 10:30 AM - 11:00 AM Grapevine\, 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
 UID:turbo-toddlers-storytime-18-months-3-years-|desoto|10-30-am-2026-12-02@
@@ -245,6 +496,38 @@ URL:https://letsdoitdallas.com/?date=2026-12-02&e=kids-art-studio-k-5th-gra
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
+UID:baby-bounce|highland-park-library-highland-park|10-00-am-2026-12-03@let
+ sdoitdallas.com
+DTSTAMP:20261203T160000Z
+DTSTART:20261203T160000Z
+DTEND:20261203T190000Z
+SUMMARY:Baby Bounce
+LOCATION:Highland Park Library
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=baby-bounce%7Chighland-pa
+ rk-library-highland-park%7C10-00-am
+DESCRIPTION:Join Miss Victoria for Story Time at the Highland Park Library\
+ , 2nd Floor Town Hall. This Story Time is designed for ages 0-2. Read stor
+ ies\, sing\, and follow along with Miss Victoria. Tickets will be required
+  for entry to Story Time. Tickets are free and will be handed out each T 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:storytime-wednesdays-thursdays-at-10-00-a-m-11-00-a-m-|3900-main-street
+ -rowlett|10-00-am-2026-12-03@letsdoitdallas.com
+DTSTAMP:20261203T160000Z
+DTSTART:20261203T160000Z
+DTEND:20261203T190000Z
+SUMMARY:Storytime – Wednesdays & Thursdays at 10:00 a.m. & 11:00 a.m.
+LOCATION:3900 Main Street · Rowlett
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=storytime-wednesdays-thur
+ sdays-at-10-00-a-m-11-00-a-m-%7C3900-main-street-rowlett%7C10-00-am
+DESCRIPTION:For toddlers and preschoolers (ages 0 to 4) who can actively en
+ gage and listen for 30 minutes. Due to limited space\, tickets are require
+ d for entry and can be collected at the reference desk the day of the prog
+ ram. December 3\, 2026 10:00 AM - 10:30 AM 3900 Main StreetRowlett\, TX 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
 UID:library-playdate|2600-oates-drive-mesquite|10-30-am-2026-12-03@letsdoit
  dallas.com
 DTSTAMP:20261203T163000Z
@@ -259,6 +542,38 @@ DESCRIPTION:Children will be able to play\, socialize\, and learn with fun
  riveMesquite\, TX 75150 https://www.cityofmesquite.com/m/calendar/event/de
  tail/11950/639293824100000000 — More: https://letsdoitdallas.com/things-
  to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:music-movement-storytime|grapevine|10-30-am-2026-12-03@letsdoitdallas.c
+ om
+DTSTAMP:20261203T163000Z
+DTSTART:20261203T163000Z
+DTEND:20261203T193000Z
+SUMMARY:Music & Movement Storytime
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=music-movement-storytime%
+ 7Cgrapevine%7C10-30-am
+DESCRIPTION:Books\, songs\, music\, parachutes and more! Toddlers to school
+  age are welcome! Space is limited. Tickets are available 15 minutes befor
+ e storytime. December 3\, 2026 10:30 AM - 11:00 AM Grapevine\, TX 76051 ht
+ tps://www.grapevinetexas.gov/Calendar.aspx?EID=17902/639300940360000000 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:story-time-for-tots-18mo-3y-|104-s-wisteria-st-mansfield|10-30-am-2026-
+ 12-03@letsdoitdallas.com
+DTSTAMP:20261203T163000Z
+DTSTART:20261203T163000Z
+DTEND:20261203T193000Z
+SUMMARY:Story Time for Tots (18mo-3Y)
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=story-time-for-tots-18mo-
+ 3y-%7C104-s-wisteria-st-mansfield%7C10-30-am
+DESCRIPTION:Come enjoy books\, songs\, finger-plays and rhymes. Story Time 
+ for Tots introduces toddlers and parents to developmentally appropriate li
+ terature and related activities. It introduces group listening skills and 
+ provides interaction with others. December 3\, 2026 10:30 AM - 11:00 AM 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
 UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
@@ -299,6 +614,79 @@ DESCRIPTION:The Mesquite Arts Center and Mesquite Public Library are partne
  e Main Library. On December 3\, 2026\, Mesquite Arts Center staff will joi
  n the Homeschool Hangout in the Children’s Section of the Main Library f
   — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:s-mores-stories-with-mpd-santa|104-s-wisteria-st-mansfield|05-00-pm-202
+ 6-12-03@letsdoitdallas.com
+DTSTAMP:20261203T230000Z
+DTSTART:20261203T230000Z
+DTEND:20261204T020000Z
+SUMMARY:S'mores & Stories With MPD & Santa
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=s-mores-stories-with-mpd-
+ santa%7C104-s-wisteria-st-mansfield%7C05-00-pm
+DESCRIPTION:Mansfield Police Department joins us for crafts\, s'mores\, and
+  letter writing followed by a story from the big guy himself! Bring the fa
+ mily for some cozy holiday fun. Registration is not required. December 3\,
+  2026 05:00 PM - 07:00 PM 104 S. Wisteria St.Mansfield\, TX 76063 https:/ 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:lego-robotics-thursdays-at-6-00-p-m-|3900-main-street-rowlett|06-00-pm-
+ 2026-12-03@letsdoitdallas.com
+DTSTAMP:20261204T000000Z
+DTSTART:20261204T000000Z
+DTEND:20261204T030000Z
+SUMMARY:LEGO® Robotics – Thursdays at 6:00 p.m.
+LOCATION:3900 Main Street · Rowlett
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=lego-robotics-thursdays-a
+ t-6-00-p-m-%7C3900-main-street-rowlett%7C06-00-pm
+DESCRIPTION:Put your problem-solving skills to the test while using awesome
+  SPIKE™ tech. Participants will bring custom creations to life through c
+ oding and hands-on engineering. Build awesome robots\, master the code\, a
+ nd level up your engineering skills as you tackle epic hands-on missions. 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:canva-for-kids|310-e-parkerville-road-cedar-hill|07-00-pm-2026-12-03@le
+ tsdoitdallas.com
+DTSTAMP:20261204T010000Z
+DTSTART:20261204T010000Z
+DTEND:20261204T040000Z
+SUMMARY:Canva for Kids
+LOCATION:310 E. Parkerville Road · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=canva-for-kids%7C310-e-pa
+ rkerville-road-cedar-hill%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:story-time|highland-park-library-highland-park|10-00-am-2026-12-04@lets
+ doitdallas.com
+DTSTAMP:20261204T160000Z
+DTSTART:20261204T160000Z
+DTEND:20261204T190000Z
+SUMMARY:Story Time
+LOCATION:Highland Park Library
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=story-time%7Chighland-par
+ k-library-highland-park%7C10-00-am
+DESCRIPTION:Join Miss Victoria and Mr. Tre for Story Time at the Highland P
+ ark Library\, 2nd Floor Town Hall. This Story Time is designed for all age
+ s. Read stories\, sing\, and follow along with Miss Victoria and Mr. Tre. 
+ Tickets will be required for entry to Story Time. Tickets are free and w 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-story-time|lancaster-veterans-memorial-library-1600-veterans-me
+ morial-parkway-lancaster|10-30-am-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261204T163000Z
+DTSTART:20261204T163000Z
+DTEND:20261204T193000Z
+SUMMARY:Toddler Story Time
+LOCATION:Lancaster Veterans Memorial Library
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=toddler-story-time%7Clanc
+ aster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%7
+ C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
 UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
@@ -353,6 +741,35 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=roy-and-helen-hall-grand-
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
+UID:family-story-time|lancaster-veterans-memorial-library-1600-veterans-mem
+ orial-parkway-lancaster|10-30-am-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T163000Z
+DTSTART:20261205T163000Z
+DTEND:20261205T193000Z
+SUMMARY:Family Story Time
+LOCATION:Lancaster Veterans Memorial Library
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=family-story-time%7Clanca
+ ster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%7C
+ 10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:story-time-for-tots-18mo-3y-|104-s-wisteria-st-mansfield|10-30-am-2026-
+ 12-05@letsdoitdallas.com
+DTSTAMP:20261205T163000Z
+DTSTART:20261205T163000Z
+DTEND:20261205T193000Z
+SUMMARY:Story Time for Tots (18mo-3Y)
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=story-time-for-tots-18mo-
+ 3y-%7C104-s-wisteria-st-mansfield%7C10-30-am
+DESCRIPTION:Come enjoy books\, songs\, finger-plays and rhymes. Story Time 
+ for Tots introduces toddlers and parents to developmentally appropriate li
+ terature and related activities. It introduces group listening skills and 
+ provides interaction with others. December 5\, 2026 10:30 AM - 11:00 AM 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
 UID:saturday-chess-meetup-all-ages-|6861-w-eldorado-parkway-mckinney|11-00-
  am-2026-12-05@letsdoitdallas.com
 DTSTAMP:20261205T170000Z
@@ -390,6 +807,22 @@ DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
  doitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
+UID:teen-junk-journal-club-ages-13-17-|grapevine|02-00-pm-2026-12-06@letsdo
+ itdallas.com
+DTSTAMP:20261206T200000Z
+DTSTART:20261206T200000Z
+DTEND:20261206T230000Z
+SUMMARY:Teen Junk Journal Club (ages 13-17)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=teen-junk-journal-club-ag
+ es-13-17-%7Cgrapevine%7C02-00-pm
+DESCRIPTION:Unleash your creativity and make a journal that’s completely 
+ your own! ✂️📓 Join us for a relaxed\, creative space where you can 
+ collage\, doodle\, decorate\, write\, and experiment with different papers
+ \, stickers\, ephemera\, and other fun materials. Whether you’re new to 
+ junk journalin — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
 UID:baby-me-0-10-months-|6861-w-eldorado-pkwy-mckinney|10-30-am-2026-12-07@
  letsdoitdallas.com
 DTSTAMP:20261207T163000Z
@@ -400,6 +833,34 @@ LOCATION:6861 W. Eldorado Pkwy. · McKinney
 URL:https://letsdoitdallas.com/?date=2026-12-07&e=baby-me-0-10-months-%7C68
  61-w-eldorado-pkwy-mckinney%7C10-30-am
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-bookworms|12450-elam-rd-balch-springs|10-30-am-2026-12-07@letsdoit
+ dallas.com
+DTSTAMP:20261207T163000Z
+DTSTART:20261207T163000Z
+DTEND:20261207T193000Z
+SUMMARY:Baby Bookworms
+LOCATION:12450 Elam Rd · Balch Springs
+URL:https://letsdoitdallas.com/?date=2026-12-07&e=baby-bookworms%7C12450-el
+ am-rd-balch-springs%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:bilingual-story-time|104-s-wisteria-st-mansfield|10-30-am-2026-12-07@le
+ tsdoitdallas.com
+DTSTAMP:20261207T163000Z
+DTSTART:20261207T163000Z
+DTEND:20261207T193000Z
+SUMMARY:Bilingual Story Time
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-07&e=bilingual-story-time%7C10
+ 4-s-wisteria-st-mansfield%7C10-30-am
+DESCRIPTION:Children 3-6 years old\, both English and Spanish speakers\, wi
+ th a caregiver can enjoy 30 minutes of books\, songs\, finger-plays and rh
+ ymes in both English and Spanish. This story time fosters emergent literac
+ y\, reinforces group listening skills and allows children to become famili
+  — More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
 UID:cultural-storytime-3-5-years-|6861-w-eldorado-pkwy-mckinney|11-30-am-20
@@ -423,6 +884,33 @@ LOCATION:DeSoto
 URL:https://letsdoitdallas.com/?date=2026-12-07&e=pajama-storytime%7Cdesoto
  %7C06-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-tuesday-open-play|5300-main-street-rowlett|09-00-am-2026-12-08@
+ letsdoitdallas.com
+DTSTAMP:20261208T150000Z
+DTSTART:20261208T150000Z
+DTEND:20261208T180000Z
+SUMMARY:Toddler Tuesday Open Play
+LOCATION:5300 Main Street · Rowlett
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=toddler-tuesday-open-play
+ %7C5300-main-street-rowlett%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:tiny-tots-sensory-adventures|1700-veterans-memorial-parkway-lancaster|0
+ 9-15-am-2026-12-08@letsdoitdallas.com
+DTSTAMP:20261208T151500Z
+DTSTART:20261208T151500Z
+DTEND:20261208T181500Z
+SUMMARY:Tiny Tots Sensory Adventures
+LOCATION:1700 Veterans Memorial Parkway · Lancaster
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=tiny-tots-sensory-adventu
+ res%7C1700-veterans-memorial-parkway-lancaster%7C09-15-am
+DESCRIPTION:Sensory Play December 8\, 2026 09:15 AM - 10:00 AM 1700 Veteran
+ s Memorial ParkwayLancaster\, TX 75146 https://www.lancaster-tx.com/Calend
+ ar.aspx?EID=8382/639220566530000000 — More: https://letsdoitdallas.com/t
+ hings-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
 UID:baby-story-time|1400-main-street-suite-130-southlake|10-00-am-2026-12-0
@@ -465,6 +953,50 @@ DESCRIPTION:Library storytime will meet every Tuesday at 10:30 AM at theMai
  — More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
+UID:story-time-for-tots-18mo-3y-|104-s-wisteria-st-mansfield|10-30-am-2026-
+ 12-08@letsdoitdallas.com
+DTSTAMP:20261208T163000Z
+DTSTART:20261208T163000Z
+DTEND:20261208T193000Z
+SUMMARY:Story Time for Tots (18mo-3Y)
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=story-time-for-tots-18mo-
+ 3y-%7C104-s-wisteria-st-mansfield%7C10-30-am
+DESCRIPTION:Come enjoy books\, songs\, finger-plays and rhymes. Story Time 
+ for Tots introduces toddlers and parents to developmentally appropriate li
+ terature and related activities. It introduces group listening skills and 
+ provides interaction with others. Tickets are required for this storyti 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-12-08@letsd
+ oitdallas.com
+DTSTAMP:20261208T163000Z
+DTSTART:20261208T163000Z
+DTEND:20261208T193000Z
+SUMMARY:Storytime for Toddlers/Preschoolers
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=storytime-for-toddlers-pr
+ eschoolers%7Cgrapevine%7C10-30-am
+DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
+ welcome and no registrations is needed. (This is a Ticketed Program\; plea
+ se stop at the Children's Desk 15 minutes before the program to receive ti
+ ckets. 1 per attendee.) December 8\, 2026 10:30 AM - 11:00 AM Grapevine\, 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-storytime|12450-elam-rd-balch-springs|10-30-am-2026-12-08@letsd
+ oitdallas.com
+DTSTAMP:20261208T163000Z
+DTSTART:20261208T163000Z
+DTEND:20261208T193000Z
+SUMMARY:Toddler Storytime
+LOCATION:12450 Elam Rd · Balch Springs
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=toddler-storytime%7C12450
+ -elam-rd-balch-springs%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
 UID:preschool-open-play|1400-main-street-suite-130-southlake|11-15-am-2026-
  12-08@letsdoitdallas.com
 DTSTAMP:20261208T171500Z
@@ -475,6 +1007,20 @@ LOCATION:1400 Main Street · Southlake
 URL:https://letsdoitdallas.com/?date=2026-12-08&e=preschool-open-play%7C140
  0-main-street-suite-130-southlake%7C11-15-am
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-story-time|lancaster|11-30-am-2026-12-08@letsdoitdallas.com
+DTSTAMP:20261208T173000Z
+DTSTART:20261208T173000Z
+DTEND:20261208T203000Z
+SUMMARY:Baby Story Time
+LOCATION:Lancaster
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=baby-story-time%7Clancast
+ er%7C11-30-am
+DESCRIPTION:Rhymes\, songs\, and movement December 8\, 2026 11:30 AM - 12:3
+ 0 PM Lancaster\, TX 75146 https://www.lancaster-tx.com/Calendar.aspx?EID=7
+ 684/639077970340000000 — More: https://letsdoitdallas.com/things-to-do/k
+ ids/
 END:VEVENT
 BEGIN:VEVENT
 UID:music-movement-storytime-3-5-years-|6861-w-eldorado-pkwy-mckinney|11-30
@@ -489,6 +1035,34 @@ URL:https://letsdoitdallas.com/?date=2026-12-08&e=music-movement-storytime-
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
+UID:kids-jam-ages-5-12|1700-veterans-memorial-parkway-lancaster|05-00-pm-20
+ 26-12-08@letsdoitdallas.com
+DTSTAMP:20261208T230000Z
+DTSTART:20261208T230000Z
+DTEND:20261209T020000Z
+SUMMARY:Kids Jam ages 5-12
+LOCATION:1700 Veterans Memorial Parkway · Lancaster
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=kids-jam-ages-5-12%7C1700
+ -veterans-memorial-parkway-lancaster%7C05-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:mpl-teen-collective-13y-17y-|104-s-wisteria-st-mansfield|05-00-pm-2026-
+ 12-08@letsdoitdallas.com
+DTSTAMP:20261208T230000Z
+DTSTART:20261208T230000Z
+DTEND:20261209T020000Z
+SUMMARY:MPL Teen Collective (13Y-17Y)
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=mpl-teen-collective-13y-1
+ 7y-%7C104-s-wisteria-st-mansfield%7C05-00-pm
+DESCRIPTION:MPL Teen Collective is a member led library program for teens 1
+ 3 years to 17 years old. Come hang out with snacks\, activities\, and help
+  plan library programs every other Wednesday from 4 P.M. until 5:30 PM res
+ uming on June 11. To earn volunteer hours for participation\, please vis 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
 UID:teen-tuesdays-north-pole-popcorn-bar-competition|desoto|05-30-pm-2026-1
  2-08@letsdoitdallas.com
 DTSTAMP:20261208T233000Z
@@ -499,6 +1073,34 @@ LOCATION:DeSoto
 URL:https://letsdoitdallas.com/?date=2026-12-08&e=teen-tuesdays-north-pole-
  popcorn-bar-competition%7Cdesoto%7C05-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:homeschool-p-e-|1700-veterans-memorial-parkway-lancaster|09-00-am-2026-
+ 12-09@letsdoitdallas.com
+DTSTAMP:20261209T150000Z
+DTSTART:20261209T150000Z
+DTEND:20261209T180000Z
+SUMMARY:Homeschool P.E.
+LOCATION:1700 Veterans Memorial Parkway · Lancaster
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=homeschool-p-e-%7C1700-ve
+ terans-memorial-parkway-lancaster%7C09-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:storytime-wednesdays-thursdays-at-10-00-a-m-11-00-a-m-|3900-main-street
+ -rowlett|10-00-am-2026-12-09@letsdoitdallas.com
+DTSTAMP:20261209T160000Z
+DTSTART:20261209T160000Z
+DTEND:20261209T190000Z
+SUMMARY:Storytime – Wednesdays & Thursdays at 10:00 a.m. & 11:00 a.m.
+LOCATION:3900 Main Street · Rowlett
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=storytime-wednesdays-thur
+ sdays-at-10-00-a-m-11-00-a-m-%7C3900-main-street-rowlett%7C10-00-am
+DESCRIPTION:For toddlers and preschoolers (ages 0 to 4) who can actively en
+ gage and listen for 30 minutes. Due to limited space\, tickets are require
+ d for entry and can be collected at the reference desk the day of the prog
+ ram. December 9\, 2026 10:00 AM - 10:30 AM 3900 Main StreetRowlett\, TX 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
 UID:toddler-story-time|1400-main-street-suite-130-southlake|10-00-am-2026-1
@@ -525,6 +1127,22 @@ URL:https://letsdoitdallas.com/?date=2026-12-09&e=baby-me-0-10-months-%7C68
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
+UID:listener-s-storytime-3y-6y-|104-s-wisteria-st-mansfield|10-30-am-2026-1
+ 2-09@letsdoitdallas.com
+DTSTAMP:20261209T163000Z
+DTSTART:20261209T163000Z
+DTEND:20261209T193000Z
+SUMMARY:Listener's Storytime (3Y-6Y)
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=listener-s-storytime-3y-6
+ y-%7C104-s-wisteria-st-mansfield%7C10-30-am
+DESCRIPTION:30 minutes of books\, musical movement\, listening skills\, and
+  bubbles for children aged 3-6 years. December 9\, 2026 10:30 AM - 11:00 A
+ M 104 S. Wisteria St.Mansfield\, TX 76063 https://www.mansfieldtexas.gov/C
+ alendar.aspx?EID=9081/639299186100000000 — More: https://letsdoitdallas.
+ com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
 UID:preschool-storytime|300-west-grubb-drive-mesquite|10-30-am-2026-12-09@l
  etsdoitdallas.com
 DTSTAMP:20261209T163000Z
@@ -538,6 +1156,34 @@ DESCRIPTION:Join us every Wednesday for stories\, playtime and bubbles! Dec
  ember 9\, 2026 10:30 AM - 11:00 AM 300 West Grubb DriveMesquite\, TX 75149
   https://www.cityofmesquite.com/m/calendar/event/detail/11781/639178182790
  000000 — More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:preschool-storytime|12450-elam-rd-balch-springs|10-30-am-2026-12-09@let
+ sdoitdallas.com
+DTSTAMP:20261209T163000Z
+DTSTART:20261209T163000Z
+DTEND:20261209T193000Z
+SUMMARY:Preschool Storytime
+LOCATION:12450 Elam Rd · Balch Springs
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=preschool-storytime%7C124
+ 50-elam-rd-balch-springs%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:storytime-for-toddlers-preschoolers|grapevine|10-30-am-2026-12-09@letsd
+ oitdallas.com
+DTSTAMP:20261209T163000Z
+DTSTART:20261209T163000Z
+DTEND:20261209T193000Z
+SUMMARY:Storytime for Toddlers/Preschoolers
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=storytime-for-toddlers-pr
+ eschoolers%7Cgrapevine%7C10-30-am
+DESCRIPTION:Books\, songs\, parachutes and more! Toddlers/Preschoolers are 
+ welcome and no registrations is needed. (This is a Ticketed Program\; plea
+ se stop at the Children's Desk 15 minutes before the program to receive ti
+ ckets. 1 per attendee.) December 9\, 2026 10:30 AM - 11:00 AM Grapevine\, 
+ — More: https://letsdoitdallas.com/things-to-do/kids/
 END:VEVENT
 BEGIN:VEVENT
 UID:turbo-toddlers-storytime-18-months-3-years-|desoto|10-30-am-2026-12-09@

@@ -320,6 +320,22 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:saturday-make-take-crafts|505-travis-street-coppell|09-00-am-2026-12-05
+ @letsdoitdallas.com
+DTSTAMP:20261205T150000Z
+DTSTART:20261205T150000Z
+DTEND:20261205T180000Z
+SUMMARY:Saturday Make & Take Crafts
+LOCATION:505 Travis Street · Coppell
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=saturday-make-take-crafts
+ %7C505-travis-street-coppell%7C09-00-am
+DESCRIPTION:How about a fun\, creative start to your weekend? Bring your fa
+ mily to the Coppell Arts Center on the first Saturday of every month for a
+  FREE make-and-take craft! Stop by anytime between 9 AM to 12 PM to create
+  your craft. Kids will receive a do-it-yourself craft kit that they ca —
+  More: https://letsdoitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:family-magic-comedy-for-all-ages|addison-improv-addison|2-00-pm-2026-12
  -05@letsdoitdallas.com
 DTSTAMP:20261205T200000Z
@@ -358,6 +374,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=natasha-leggero%7Caddison
  -improv-addison%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:yannis-pappas|mic-drop-comedy-plano-plano|7-00-pm-2026-12-05@letsdoitda
+ llas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Yannis Pappas
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=yannis-pappas%7Cmic-drop-
+ comedy-plano-plano%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:natasha-leggero|addison-improv-addison|9-30-pm-2026-12-05@letsdoitdalla

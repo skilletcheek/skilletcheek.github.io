@@ -1,0 +1,122 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Central Library — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Central Library.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:adopt-a-stuffy-buddy|central-library-garland|10-00-am-2026-12-01@letsdo
+ itdallas.com
+DTSTAMP:20261201T160000Z
+DTSTART:20261201T160000Z
+DTEND:20261201T190000Z
+SUMMARY:Adopt-A-Stuffy Buddy
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=adopt-a-stuffy-buddy%7Cce
+ ntral-library-garland%7C10-00-am
+DESCRIPTION:10:00 a.m.\; Volunteers have been sewing stuffed buddies all ye
+ ar long in the makerspace. Children are invited to pick their own buddy to
+  adopt and take home. Stuffy Buddies are limited\, so sign up and reserve 
+ a time to pick up your new friend. December 1\, 2026 10:00 AM - 11:00 AM 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:medicaid-and-chip-application-renewal-assistance-with-parkland-hospital
+ |central-library-garland|10-00-am-2026-12-02@letsdoitdallas.com
+DTSTAMP:20261202T160000Z
+DTSTART:20261202T160000Z
+DTEND:20261202T190000Z
+SUMMARY:Medicaid and CHIP Application & Renewal Assistance with Parkland Ho
+ spital
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=medicaid-and-chip-applica
+ tion-renewal-assistance-with-parkland-hospital%7Ccentral-library-garland%7
+ C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:crochet-corner-ages-13-|central-library-garland|06-00-pm-2026-12-02@let
+ sdoitdallas.com
+DTSTAMP:20261203T000000Z
+DTSTART:20261203T000000Z
+DTEND:20261203T030000Z
+SUMMARY:Crochet Corner (Ages 13+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=crochet-corner-ages-13-%7
+ Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Whether you are a seasoned crocheter or just starti
+ ng out\, join us for a fun\, cozy hour of crocheting. At each program\, we
+  will go through making a creation from the monthly Crochet Corner display
+  together as an active tutorial. Basic guidance\, some hooks for use durin
+  — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:upcycled-planner-workshop-ages-18-|central-library-garland|06-00-pm-202
+ 6-12-03@letsdoitdallas.com
+DTSTAMP:20261204T000000Z
+DTSTART:20261204T000000Z
+DTEND:20261204T030000Z
+SUMMARY:Upcycled Planner Workshop (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=upcycled-planner-workshop
+ -ages-18-%7Ccentral-library-garland%7C06-00-pm
+DESCRIPTION:6:00 p.m.\; Turn yesterday's planner into tomorrow's inspiratio
+ n! Join Untrash Creative Reuse to learn how to upcycle old calendars and p
+ lanners into a unique planner for the new year. This fun\, eco-friendly wo
+ rkshop is perfect for anyone who enjoys crafting and reducing waste. Al 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:club-de-lectura-a-os-18-|biblioteca-central-garland|06-30-pm-2026-12-03
+ @letsdoitdallas.com
+DTSTAMP:20261204T003000Z
+DTSTART:20261204T003000Z
+DTEND:20261204T033000Z
+SUMMARY:Club de Lectura (Años 18+)
+LOCATION:Biblioteca Central · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=club-de-lectura-a-os-18-%
+ 7Cbiblioteca-central-garland%7C06-30-pm
+DESCRIPTION:6:30 p.m.\; ¿Te gusta leer en español — o quieres leer más
+  en español? ¡Únete a nuestro Club de Lectura en Español! Lee el libro
+  del mes antes de nuestra reunión y acompáñanos en una amena discusión
+ . Descubre nuevos títulos\, comparte tus ideas y disfruta de excelente co
+ mpañía — ¡t — More: https://letsdoitdallas.com/venue/central-librar
+ y/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-maker-fest-ages-18-|central-library-garland|05-00-pm-2026-12-08
+ @letsdoitdallas.com
+DTSTAMP:20261208T230000Z
+DTSTART:20261208T230000Z
+DTEND:20261209T020000Z
+SUMMARY:Holiday Maker Fest (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=holiday-maker-fest-ages-1
+ 8-%7Ccentral-library-garland%7C05-00-pm
+DESCRIPTION:5:00 p.m.\; Get into the holiday spirit by making a holiday-the
+ med craft prepped using the maker machines. Enjoy refreshments and holiday
+  music while crafting. All supplies included. December 8\, 2026 05:00 PM -
+  07:30 PM 625 Austin St.Garland\, TX 75040 https://www.garlandtx.gov/Cal 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-social-hour-harpessence-holiday-concert-ages-18-|central-library-ga
+ rland|02-00-pm-2026-12-09@letsdoitdallas.com
+DTSTAMP:20261209T200000Z
+DTSTART:20261209T200000Z
+DTEND:20261209T230000Z
+SUMMARY:The Social Hour: Harpessence Holiday Concert (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=the-social-hour-harpessen
+ ce-holiday-concert-ages-18-%7Ccentral-library-garland%7C02-00-pm
+DESCRIPTION:2:00 p.m.\; Let your heart be lifted by the glow of Christmas m
+ usic performed by four magnificent concert grand harps. From beloved carol
+ s to joyful seasonal favorites\, this enchanting program brings the warmth
+ \, sparkle and spirit of the holidays to life. December 9\, 2026 02:00 PM 
+ — More: https://letsdoitdallas.com/venue/central-library/
+END:VEVENT
+END:VCALENDAR

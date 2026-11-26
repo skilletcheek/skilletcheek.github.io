@@ -541,6 +541,18 @@ DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
+UID:holiday-tree-lighting-in-centennial-park|3800-university-boulevard-univ
+ ersity-park|03-00-pm-2026-11-29@letsdoitdallas.com
+DTSTAMP:20261129T210000Z
+DTSTART:20261129T210000Z
+DTEND:20261130T000000Z
+SUMMARY:Holiday Tree Lighting in Centennial Park
+LOCATION:3800 University Boulevard · University Park
+URL:https://letsdoitdallas.com/?date=2026-11-29&e=holiday-tree-lighting-in-
+ centennial-park%7C3800-university-boulevard-university-park%7C03-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
 UID:dr-seuss-how-the-grinch-stole-christmas-the-musical-touring-|music-hall
  -at-fair-park-dallas|6-30-pm-2026-11-29@letsdoitdallas.com
 DTSTAMP:20261130T003000Z
@@ -553,6 +565,18 @@ URL:https://letsdoitdallas.com/?date=2026-11-29&e=dr-seuss-how-the-grinch-s
  0-pm
 DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:sensory-santa-christmas-shoppe|250-w-first-st-prosper|04-30-pm-2026-12-
+ 01@letsdoitdallas.com
+DTSTAMP:20261201T223000Z
+DTSTART:20261201T223000Z
+DTEND:20261202T013000Z
+SUMMARY:Sensory Santa & Christmas Shoppe
+LOCATION:250 W First St. · Prosper
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=sensory-santa-christmas-s
+ hoppe%7C250-w-first-st-prosper%7C04-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
 UID:teen-tuesdays-teen-holiday-gift-making-party|desoto|05-30-pm-2026-12-01
@@ -609,6 +633,61 @@ DESCRIPTION:The Mesquite Arts Center and Mesquite Public Library are partne
   — More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
+UID:s-mores-stories-with-mpd-santa|104-s-wisteria-st-mansfield|05-00-pm-202
+ 6-12-03@letsdoitdallas.com
+DTSTAMP:20261203T230000Z
+DTSTART:20261203T230000Z
+DTEND:20261204T020000Z
+SUMMARY:S'mores & Stories With MPD & Santa
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=s-mores-stories-with-mpd-
+ santa%7C104-s-wisteria-st-mansfield%7C05-00-pm
+DESCRIPTION:Mansfield Police Department joins us for crafts\, s'mores\, and
+  letter writing followed by a story from the big guy himself! Bring the fa
+ mily for some cozy holiday fun. Registration is not required. December 3\,
+  2026 05:00 PM - 07:00 PM 104 S. Wisteria St.Mansfield\, TX 76063 https:/ 
+ — More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-on-the-hill|600-cedar-st-cedar-hill|05-30-pm-2026-12-03@letsdoi
+ tdallas.com
+DTSTAMP:20261203T233000Z
+DTSTART:20261203T233000Z
+DTEND:20261204T023000Z
+SUMMARY:Holiday on the Hill
+LOCATION:600 Cedar St · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=holiday-on-the-hill%7C600
+ -cedar-st-cedar-hill%7C05-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:annual-tree-lighting-ceremony|4202-armstrong-pkwy-highland-park|06-00-p
+ m-2026-12-03@letsdoitdallas.com
+DTSTAMP:20261204T000000Z
+DTSTART:20261204T000000Z
+DTEND:20261204T030000Z
+SUMMARY:Annual Tree Lighting Ceremony
+LOCATION:4202 Armstrong Pkwy · Highland Park
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=annual-tree-lighting-cere
+ mony%7C4202-armstrong-pkwy-highland-park%7C06-00-pm
+DESCRIPTION:Ring in the holiday season as we gather to light the Landmark P
+ ecan Tree! December 3\, 2026 06:00 PM - 08:00 PM 4202 Armstrong PkwyHighla
+ nd Park\, TX 75205 https://www.hptx.org/Calendar.aspx?EID=5449/63930619553
+ 0000000 — More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:christmas-tree-lighting|balch-springs|06-00-pm-2026-12-03@letsdoitdalla
+ s.com
+DTSTAMP:20261204T000000Z
+DTSTART:20261204T000000Z
+DTEND:20261204T030000Z
+SUMMARY:Christmas Tree Lighting
+LOCATION:Balch Springs
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=christmas-tree-lighting%7
+ Cbalch-springs%7C06-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
 UID:nrh-christmas-tree-lighting|9010-grand-avenue-north-richland-hills|06-0
  0-pm-2026-12-03@letsdoitdallas.com
 DTSTAMP:20261204T000000Z
@@ -651,6 +730,37 @@ DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
+UID:senior-christmas-lunch|bedford|11-30-am-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261204T173000Z
+DTSTART:20261204T173000Z
+DTEND:20261204T203000Z
+SUMMARY:Senior Christmas Lunch
+LOCATION:Bedford
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=senior-christmas-lunch%7C
+ bedford%7C11-30-am
+DESCRIPTION:Just us for a great Christmas Lunch hosted by the Bedford Senio
+ r Activity Center. Must pre-register to attend December 4\, 2026 11:30 AM 
+ - 12:30 PM Bedford\, TX 76021 https://bedfordtx.gov/m/calendar/event/detai
+ l/19213/639305916490000000 — More: https://letsdoitdallas.com/things-to-
+ do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:christmas-in-the-park|2801-forest-ridge-dr-bedford|05-00-pm-2026-12-04@
+ letsdoitdallas.com
+DTSTAMP:20261204T230000Z
+DTSTART:20261204T230000Z
+DTEND:20261205T020000Z
+SUMMARY:Christmas in the Park
+LOCATION:2801 Forest Ridge Dr. · Bedford
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=christmas-in-the-park%7C2
+ 801-forest-ridge-dr-bedford%7C05-00-pm
+DESCRIPTION:It’s the most wonderful time of the year! Christmas in the Pa
+ rk will kick off the holiday season in Bedford with performances by local 
+ HEB ISD choirs and bands\, a holiday marketplace\, winter activities\, a m
+ eet and greet with Santa and Mrs. Claus. and much more. The annual tree li
+  — More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
 UID:holiday-lights-in-the-park|100-james-collins-boulevard-duncanville|05-0
  0-pm-2026-12-04@letsdoitdallas.com
 DTSTAMP:20261204T230000Z
@@ -661,6 +771,23 @@ LOCATION:100 James Collins Boulevard · Duncanville
 URL:https://letsdoitdallas.com/?date=2026-12-04&e=holiday-lights-in-the-par
  k%7C100-james-collins-boulevard-duncanville%7C05-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:library-booth-at-garland-christmas-on-the-square|downtown-garland-squar
+ e-520-w-state-street-garland|05-00-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261204T230000Z
+DTSTART:20261204T230000Z
+DTEND:20261205T020000Z
+SUMMARY:Library Booth at Garland Christmas on the Square
+LOCATION:Downtown Garland Square
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=library-booth-at-garland-
+ christmas-on-the-square%7Cdowntown-garland-square-520-w-state-street-garla
+ nd%7C05-00-pm
+DESCRIPTION:5:00 p.m.\; Visit the library’s booth during Christmas on the
+  Square to take pictures with a surprise book character and learn more abo
+ ut all the library has to offer! December 4\, 2026 05:00 PM - 09:00 PM Dow
+ ntown Garland Square 520 W. State StreetGarland\, TX 75040 https://www.gar
+  — More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
 UID:avant-chamber-ballet-the-nutcracker|moody-performance-hall-dallas|7-00-
@@ -700,6 +827,20 @@ URL:https://letsdoitdallas.com/?date=2026-12-04&e=a-christmas-carol-carroll
  ton%7Ccarrollton-plaza-arts-center-carrollton%7C7-30-pm
 DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:charles-dickens-a-christmas-carol-presented-by-company-of-rowlett-perfo
+ rmers|521-w-state-street-garland|07-30-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T013000Z
+DTSTART:20261205T013000Z
+DTEND:20261205T043000Z
+SUMMARY:Charles Dickens’ A Christmas Carol presented by Company of Rowlet
+ t Performers
+LOCATION:521 W State Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=charles-dickens-a-christm
+ as-carol-presented-by-company-of-rowlett-performers%7C521-w-state-street-g
+ arland%7C07-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
 UID:dallas-symphony-orchestra-presents-disney-s-the-muppet-christmas-carol-
@@ -745,6 +886,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-best-christmas-pagean
  t-ever-garland%7Cgranville-arts-center-garland%7C7-30-pm
 DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
  /things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-best-christmas-pageant-ever-presented-by-garland-civic-theatre|300-
+ n-fifth-street-garland|07-30-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T013000Z
+DTSTART:20261205T013000Z
+DTEND:20261205T043000Z
+SUMMARY:The Best Christmas Pageant Ever presented by Garland Civic Theatre
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-best-christmas-pagean
+ t-ever-presented-by-garland-civic-theatre%7C300-n-fifth-street-garland%7C0
+ 7-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-nutcracker-terrell|terrell-performing-arts-center-terrell|7-30-pm-2
@@ -798,6 +952,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=breakfast-with-santa%7C83
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
+UID:gingerbread-house-workshop|4700-drexel-dr-highland-park|10-00-am-2026-1
+ 2-05@letsdoitdallas.com
+DTSTAMP:20261205T160000Z
+DTSTART:20261205T160000Z
+DTEND:20261205T190000Z
+SUMMARY:Gingerbread House Workshop
+LOCATION:4700 Drexel Dr · Highland Park
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=gingerbread-house-worksho
+ p%7C4700-drexel-dr-highland-park%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
 UID:hometown-holiday-marketplace|1400-academy-way-desoto|10-00-am-2026-12-0
  5@letsdoitdallas.com
 DTSTAMP:20261205T160000Z
@@ -807,6 +973,34 @@ SUMMARY:Hometown Holiday Marketplace
 LOCATION:1400 Academy Way · DeSoto
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=hometown-holiday-marketpl
  ace%7C1400-academy-way-desoto%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-bead-creations|north-garland-library-garland|10-30-am-2026-12-0
+ 5@letsdoitdallas.com
+DTSTAMP:20261205T163000Z
+DTSTART:20261205T163000Z
+DTEND:20261205T193000Z
+SUMMARY:Holiday Bead Creations
+LOCATION:North Garland Library
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=holiday-bead-creations%7C
+ north-garland-library-garland%7C10-30-am
+DESCRIPTION:10:30 a.m.\; Families can make beaded holiday and winter-themed
+  ornaments using colorful beads and festive patterns. Enjoy hot cocoa whil
+ e you craft. December 5\, 2026 10:30 AM - 11:30 AM 3845 N. Garland Ave.Gar
+ land\, TX 75040 https://www.garlandtx.gov/Calendar.aspx?EID=13535/639311 
+ — More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:christmas-wellness-expo|450-n-highway-suite-300-cedar-hill|11-00-am-202
+ 6-12-05@letsdoitdallas.com
+DTSTAMP:20261205T170000Z
+DTSTART:20261205T170000Z
+DTEND:20261205T200000Z
+SUMMARY:Christmas Wellness Expo
+LOCATION:450 N. Highway Suite 300 · Cedar Hill
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=christmas-wellness-expo%7
+ C450-n-highway-suite-300-cedar-hill%7C11-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
@@ -825,6 +1019,18 @@ DESCRIPTION:A seasonal three-course seated tea in the DeGolyer Tea Room of
  the Pudding: roasted chestnut bisque\, savory tea sandwiches and holiday s
  weets\, with holiday teas. Ages 10 and up\; reservations required. — Mor
  e: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-at-the-house|604-w-broad-st-mansfield|11-00-am-2026-12-05@letsd
+ oitdallas.com
+DTSTAMP:20261205T170000Z
+DTSTART:20261205T170000Z
+DTEND:20261205T200000Z
+SUMMARY:Holiday at the House
+LOCATION:604 W. Broad St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=holiday-at-the-house%7C60
+ 4-w-broad-st-mansfield%7C11-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|1-00-pm-2026-12-05@
@@ -909,6 +1115,18 @@ DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
  things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-nutcracker-presented-by-the-dallas-ballet-company|300-n-fifth-stree
+ t-garland|02-00-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T200000Z
+DTSTART:20261205T200000Z
+DTEND:20261205T230000Z
+SUMMARY:The Nutcracker presented by the Dallas Ballet Company
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=the-nutcracker-presented-
+ by-the-dallas-ballet-company%7C300-n-fifth-street-garland%7C02-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-nutcracker-w-texas-ballet-theater|margot-and-bill-winspear-opera-ho
  use-dallas|2-00-pm-2026-12-05@letsdoitdallas.com
 DTSTAMP:20261205T200000Z
@@ -920,6 +1138,53 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=the-nutcracker-w-texas-ba
  llet-theater%7Cmargot-and-bill-winspear-opera-house-dallas%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-maker-fest-ages-18-|west-garland-library-garland|02-30-pm-2026-
+ 12-05@letsdoitdallas.com
+DTSTAMP:20261205T203000Z
+DTSTART:20261205T203000Z
+DTEND:20261205T233000Z
+SUMMARY:Holiday Maker Fest (Ages 18+)
+LOCATION:West Garland Library
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=holiday-maker-fest-ages-1
+ 8-%7Cwest-garland-library-garland%7C02-30-pm
+DESCRIPTION:2:30 p.m.\; Celebrate the holiday season with a festive craftin
+ g experience. Adults are invited to create their own holiday ornaments and
+  decorations at multiple hands-on stations. Each station offers the tools\
+ , materials and step-by-step instructions needed to make a unique seaso 
+ — More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-maker-fest-diamond-painting-ages-18-festival-maker-navide-o-pin
+ tura-con-diamantes-a-os-18-de-la-biblioteca-south-garland|south-garland-li
+ brary-garland|02-30-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T203000Z
+DTSTART:20261205T203000Z
+DTEND:20261205T233000Z
+SUMMARY:Holiday Maker Fest: Diamond Painting (Ages 18+) / Festival Maker Na
+ videño: Pintura con Diamantes (Años 18+) de la Biblioteca South Garland
+LOCATION:South Garland Library
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=holiday-maker-fest-diamon
+ d-painting-ages-18-festival-maker-navide-o-pintura-con-diamantes-a-os-18-d
+ e-la-biblioteca-south-garland%7Csouth-garland-library-garland%7C02-30-pm
+DESCRIPTION:2:30 p.m.\; Get into the holiday spirit with a relaxing afterno
+ on of diamond painting! Decorate a festive holiday ornament with colorful 
+ sparkling “diamonds” to create a unique piece to take home. All suppli
+ es will be provided. Enjoy holiday cookies and hot cocoa while you create!
+  — More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:prosper-christmas-festival|250-w-first-st-prosper|03-00-pm-2026-12-05@l
+ etsdoitdallas.com
+DTSTAMP:20261205T210000Z
+DTSTART:20261205T210000Z
+DTEND:20261206T000000Z
+SUMMARY:Prosper Christmas Festival
+LOCATION:250 W First St. · Prosper
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=prosper-christmas-festiva
+ l%7C250-w-first-st-prosper%7C03-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|5-00-pm-2026-12-05@
@@ -935,6 +1200,18 @@ DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
+UID:holiday-main-street-fest-parade|rowlett|05-00-pm-2026-12-05@letsdoitdal
+ las.com
+DTSTAMP:20261205T230000Z
+DTSTART:20261205T230000Z
+DTEND:20261206T020000Z
+SUMMARY:Holiday Main Street Fest & Parade
+LOCATION:Rowlett
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=holiday-main-street-fest-
+ parade%7Crowlett%7C05-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
 UID:mesquite-symphony-orchestra-presents-holiday-magic-|1527-n-galloway-ave
  -mesquite|05-00-pm-2026-12-05@letsdoitdallas.com
 DTSTAMP:20261205T230000Z
@@ -944,6 +1221,20 @@ SUMMARY:Mesquite Symphony Orchestra presents "Holiday Magic"
 LOCATION:1527 N. Galloway Ave. · Mesquite
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=mesquite-symphony-orchest
  ra-presents-holiday-magic-%7C1527-n-galloway-ave-mesquite%7C05-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:charles-dickens-a-christmas-carol-presented-by-company-of-rowlett-perfo
+ rmers|521-w-state-street-garland|07-30-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T013000Z
+DTSTART:20261206T013000Z
+DTEND:20261206T043000Z
+SUMMARY:Charles Dickens’ A Christmas Carol presented by Company of Rowlet
+ t Performers
+LOCATION:521 W State Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=charles-dickens-a-christm
+ as-carol-presented-by-company-of-rowlett-performers%7C521-w-state-street-g
+ arland%7C07-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
@@ -977,6 +1268,19 @@ DESCRIPTION:Please join the Mesquite Arts Theatre for A Christmas Story. Hu
  llows 9-year-old Ralphie Parker in his quest to get a genuine Red Ryder BB
   gun under the tree for Christmas. A Christmas Story is destined to b — 
  More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-best-christmas-pageant-ever-presented-by-garland-civic-theatre|300-
+ n-fifth-street-garland|07-30-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T013000Z
+DTSTART:20261206T013000Z
+DTEND:20261206T043000Z
+SUMMARY:The Best Christmas Pageant Ever presented by Garland Civic Theatre
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=the-best-christmas-pagean
+ t-ever-presented-by-garland-civic-theatre%7C300-n-fifth-street-garland%7C0
+ 7-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|8-00-pm-2026-12-05@letsdoitdallas
@@ -1031,6 +1335,20 @@ DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
+UID:charles-dickens-a-christmas-carol-presented-by-company-of-rowlett-perfo
+ rmers|521-w-state-street-garland|02-00-pm-2026-12-06@letsdoitdallas.com
+DTSTAMP:20261206T200000Z
+DTSTART:20261206T200000Z
+DTEND:20261206T230000Z
+SUMMARY:Charles Dickens’ A Christmas Carol presented by Company of Rowlet
+ t Performers
+LOCATION:521 W State Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=charles-dickens-a-christm
+ as-carol-presented-by-company-of-rowlett-performers%7C521-w-state-street-g
+ arland%7C02-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
 UID:christmas-in-the-park|600-gross-rd-mesquite|02-00-pm-2026-12-06@letsdoi
  tdallas.com
 DTSTAMP:20261206T200000Z
@@ -1063,6 +1381,18 @@ DESCRIPTION:Classical event via Ticketmaster. — More: https://letsdoitdal
  las.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
+UID:the-nutcracker-presented-by-the-dallas-ballet-company|300-n-fifth-stree
+ t-garland|02-00-pm-2026-12-06@letsdoitdallas.com
+DTSTAMP:20261206T200000Z
+DTSTART:20261206T200000Z
+DTEND:20261206T230000Z
+SUMMARY:The Nutcracker presented by the Dallas Ballet Company
+LOCATION:300 N Fifth Street · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=the-nutcracker-presented-
+ by-the-dallas-ballet-company%7C300-n-fifth-street-garland%7C02-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
 UID:the-nutcracker-w-texas-ballet-theater|margot-and-bill-winspear-opera-ho
  use-dallas|2-00-pm-2026-12-06@letsdoitdallas.com
 DTSTAMP:20261206T200000Z
@@ -1092,6 +1422,55 @@ DESCRIPTION:Please join the Mesquite Arts Theatre for A Christmas Story. Hu
  More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
+UID:historic-town-square-tree-lighting-ceremony|100-w-main-st-lancaster|06-
+ 00-pm-2026-12-07@letsdoitdallas.com
+DTSTAMP:20261208T000000Z
+DTSTART:20261208T000000Z
+DTEND:20261208T030000Z
+SUMMARY:Historic Town Square Tree Lighting Ceremony
+LOCATION:100 W Main St · Lancaster
+URL:https://letsdoitdallas.com/?date=2026-12-07&e=historic-town-square-tree
+ -lighting-ceremony%7C100-w-main-st-lancaster%7C06-00-pm
+DESCRIPTION:Join us for the City of Lancaster’s Annual Tree Lighting Cere
+ mony as we kick off the holiday season with an evening of festive cheer\, 
+ sparkling lights and Christmas magic! ❤️💚 📅 Monday\, December 7\
+ , 2026 ⏰ 6:00 p.m–6:45 p.m. 📍 Historic Town Square Breezeway Gather
+  your family and — More: https://letsdoitdallas.com/things-to-do/christm
+ as/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-maker-fest-ages-18-|central-library-garland|05-00-pm-2026-12-08
+ @letsdoitdallas.com
+DTSTAMP:20261208T230000Z
+DTSTART:20261208T230000Z
+DTEND:20261209T020000Z
+SUMMARY:Holiday Maker Fest (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=holiday-maker-fest-ages-1
+ 8-%7Ccentral-library-garland%7C05-00-pm
+DESCRIPTION:5:00 p.m.\; Get into the holiday spirit by making a holiday-the
+ med craft prepped using the maker machines. Enjoy refreshments and holiday
+  music while crafting. All supplies included. December 8\, 2026 05:00 PM -
+  07:30 PM 625 Austin St.Garland\, TX 75040 https://www.garlandtx.gov/Cal 
+ — More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-christmas-trees-18-|104-s-wisteria-st-mansfield|06-00-pm-2026-12
+ -08@letsdoitdallas.com
+DTSTAMP:20261209T000000Z
+DTSTART:20261209T000000Z
+DTEND:20261209T030000Z
+SUMMARY:Fabric Christmas Trees (18+)
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=fabric-christmas-trees-18
+ -%7C104-s-wisteria-st-mansfield%7C06-00-pm
+DESCRIPTION:Add a handmade touch to your seasonal décor with a charming no
+ -sew Christmas tree! Using strips of fabric\, you’ll craft a festive tre
+ e that’s perfect for displaying throughout the holidays. All supplies wi
+ ll be provided. Registration is required. December 8\, 2026 06:00 PM - 07:
+ 00 — More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
 UID:walnut-wednesday-winter-wonderland|6455-page-street-frisco|10-00-am-202
  6-12-09@letsdoitdallas.com
 DTSTAMP:20261209T160000Z
@@ -1102,6 +1481,34 @@ LOCATION:6455 Page Street · Frisco
 URL:https://letsdoitdallas.com/?date=2026-12-09&e=walnut-wednesday-winter-w
  onderland%7C6455-page-street-frisco%7C10-00-am
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:christmas-at-the-gin|204-w-broadway-st-prosper|10-30-am-2026-12-09@lets
+ doitdallas.com
+DTSTAMP:20261209T163000Z
+DTSTART:20261209T163000Z
+DTEND:20261209T193000Z
+SUMMARY:Christmas at the Gin
+LOCATION:204 W Broadway St · Prosper
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=christmas-at-the-gin%7C20
+ 4-w-broadway-st-prosper%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-social-hour-harpessence-holiday-concert-ages-18-|central-library-ga
+ rland|02-00-pm-2026-12-09@letsdoitdallas.com
+DTSTAMP:20261209T200000Z
+DTSTART:20261209T200000Z
+DTEND:20261209T230000Z
+SUMMARY:The Social Hour: Harpessence Holiday Concert (Ages 18+)
+LOCATION:Central Library · Garland
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=the-social-hour-harpessen
+ ce-holiday-concert-ages-18-%7Ccentral-library-garland%7C02-00-pm
+DESCRIPTION:2:00 p.m.\; Let your heart be lifted by the glow of Christmas m
+ usic performed by four magnificent concert grand harps. From beloved carol
+ s to joyful seasonal favorites\, this enchanting program brings the warmth
+ \, sparkle and spirit of the holidays to life. December 9\, 2026 02:00 PM 
+ — More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
 UID:world-ballet-company-the-nutcracker-with-a-live-orchestra|majestic-thea

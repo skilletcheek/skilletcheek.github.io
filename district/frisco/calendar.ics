@@ -61,6 +61,17 @@ DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:bowling|frisco|01-00-pm-2026-12-01@letsdoitdallas.com
+DTSTAMP:20261201T190000Z
+DTSTART:20261201T190000Z
+DTEND:20261201T220000Z
+SUMMARY:Bowling
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=bowling%7Cfrisco%7C01-00-
+ pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:budget-and-audit-committee-meeting|6101-frisco-square-blvd-suite-600-fr
  isco|04-00-pm-2026-12-01@letsdoitdallas.com
 DTSTAMP:20261201T220000Z
@@ -195,6 +206,17 @@ SUMMARY:Merry Main Street
 LOCATION:6101 Frisco Square Blvd
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=merry-main-street%7C6101-
  frisco-square-blvd-frisco%7C03-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
+UID:bowling|frisco|01-00-pm-2026-12-08@letsdoitdallas.com
+DTSTAMP:20261208T190000Z
+DTSTART:20261208T190000Z
+DTEND:20261208T220000Z
+SUMMARY:Bowling
+LOCATION:Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=bowling%7Cfrisco%7C01-00-
+ pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
