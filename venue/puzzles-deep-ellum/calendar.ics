@@ -9,6 +9,19 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:emo-nite-event-18-|puzzles-deep-ellum-dallas|9-00-pm-2026-11-28@letsdoi
+ tdallas.com
+DTSTAMP:20261129T030000Z
+DTSTART:20261129T030000Z
+DTEND:20261129T060000Z
+SUMMARY:Emo Nite ( Event) (18+)
+LOCATION:Puzzles Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=emo-nite-event-18-%7Cpuzz
+ les-deep-ellum-dallas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/puzzles-deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:born-of-osiris-and-miss-may-i-with-convictions-and-downswing|puzzles-de
  ep-ellum-dallas|7-00-pm-2026-11-29@letsdoitdallas.com
 DTSTAMP:20261130T010000Z

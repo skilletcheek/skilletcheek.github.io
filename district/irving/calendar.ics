@@ -23,6 +23,23 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/irving/
 END:VEVENT
 BEGIN:VEVENT
+UID:holiday-tree-lighting-at-the-ritz-carlton-las-colinas|ritz-carlton-dall
+ as-las-colinas-irving|5-00-pm-7-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261127T230000Z
+DTSTART:20261127T230000Z
+DTEND:20261128T020000Z
+SUMMARY:Holiday Tree Lighting at The Ritz-Carlton Las Colinas
+LOCATION:Ritz-Carlton Dallas · Irving
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=holiday-tree-lighting-at-
+ the-ritz-carlton-las-colinas%7Critz-carlton-dallas-las-colinas-irving%7C5-
+ 00-pm-7-00-pm
+DESCRIPTION:Join The Ritz-Carlton Dallas\, Las Colinas to officially welcom
+ e the holiday season with our annual Holiday Tree Lighting celebration. Ga
+ ther on the Pool Deck to marvel at a beautifully decorated holiday tree wh
+ ile enjoying festive cocktails\, seasonal treats\, and live carolers. Br 
+ — More: https://letsdoitdallas.com/district/irving/
+END:VEVENT
+BEGIN:VEVENT
 UID:darren-fleet|punch-line-irving-irving|7-00-pm-2026-11-27@letsdoitdallas
  .com
 DTSTAMP:20261128T010000Z

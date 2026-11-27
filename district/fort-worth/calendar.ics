@@ -10,6 +10,23 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:enchanted-garden-at-the-fort-worth-botanic-garden|fort-worth-botanic-ga
+ rden-fort-worth|8-00-am-5-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261127T140000Z
+DTSTART:20261127T140000Z
+DTEND:20261127T170000Z
+SUMMARY:Enchanted Garden at the Fort Worth Botanic Garden
+LOCATION:Fort Worth Botanic Garden
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=enchanted-garden-at-the-f
+ ort-worth-botanic-garden%7Cfort-worth-botanic-garden-fort-worth%7C8-00-am-
+ 5-00-pm
+DESCRIPTION:Runs Sep 12 – Nov 30. Take a fairy-tale journey through the G
+ arden and discover a magical new exhibition featuring enchanting creatures
+  of legend. From September 12th to November 30\, twelve life-size sculptur
+ es of beloved characters—including fairies\, unicorns and wizards—will
+  be — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
 UID:forces-at-play|fort-worth-museum-of-science-and-history-1600-gendy-stre
  et-fort-worth-76107-united-states|10-00-am-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261127T160000Z
@@ -93,6 +110,39 @@ DESCRIPTION:Enjoy a fall evening outside with Pizza on the Patio at Café M
  or an evening of delicious food and drinks on the patio at the Modern Art 
  Museum of Fort Worth.   Café Modern’s Executive Chef Jett Mora and his
   t — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:christmas-in-the-garden-at-the-fort-worth-botanic-garden|fort-worth-bot
+ anic-garden-fort-worth|5-30-pm-9-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261127T233000Z
+DTSTART:20261127T233000Z
+DTEND:20261128T023000Z
+SUMMARY:Christmas in the Garden at the Fort Worth Botanic Garden
+LOCATION:Fort Worth Botanic Garden
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=christmas-in-the-garden-a
+ t-the-fort-worth-botanic-garden%7Cfort-worth-botanic-garden-fort-worth%7C5
+ -30-pm-9-00-pm
+DESCRIPTION:Runs Nov 20 – Jan 3. Christmas cheer grows here! The Fort Wor
+ th Botanic Garden and Sony Music bring back Christmas in the Garden\, a ho
+ liday tradition glowing with 22 light installations and a curated soundtra
+ ck of seasonal favorites. Revisit the beloved Winter Cathedral\, discover 
+ — More: https://letsdoitdallas.com/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:spanish-language-tour|modern-art-museum-of-fort-worth-fort-worth|6-00-p
+ m-7-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T000000Z
+DTSTART:20261128T000000Z
+DTEND:20261128T030000Z
+SUMMARY:Spanish-language Tour
+LOCATION:Modern Art Museum of Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=spanish-language-tour%7Cm
+ odern-art-museum-of-fort-worth-fort-worth%7C6-00-pm-7-00-pm
+DESCRIPTION:Runs Mar 27 – Dec 25. Step into a more immersive way to exper
+ ience art with the Spanish-Language Tour at the Modern Art Museum of Fort 
+ Worth where culture and language come together in a unique\, engaging sett
+ ing. Enjoy a docent-led journey through stunning galleries as you explor 
+ — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|7-00-pm-2026-11-27@
@@ -270,6 +320,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=sophie-buddle%7Chyena-s-c
  omedy-night-club-fort-worth-fort-worth%7C10-00-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:polar-pj-party|fort-worth-museum-of-science-and-history-1600-gendy-stre
+ et-fort-worth-76107-united-states|8-30-am-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261128T143000Z
+DTSTART:20261128T143000Z
+DTEND:20261128T173000Z
+SUMMARY:Polar PJ Party
+LOCATION:Fort Worth Museum of Science and History
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=polar-pj-party%7Cfort-wor
+ th-museum-of-science-and-history-1600-gendy-street-fort-worth-76107-united
+ -states%7C8-30-am
+DESCRIPTION:Put on your favorite jammies\, enjoy winter activities and expe
+ rience the magic of The Polar Express in the Jane & John Justin Foundation
+  Omni Theater!  Activities: 8:30 AM – 12:30 PM  Showtimes: 9:00 AM and 1
+ 1:00 AM — More: https://letsdoitdallas.com/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|1-00-pm-2026-11-28@
@@ -582,6 +648,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-04&e=mamma-mia-fort-worth%7Cba
  ss-performance-hall-fort-worth%7C7-30-pm
 DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
  om/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-fort-worth|i-m-terrell-performing-arts-center-fort-worth
+ |7-30-pm-2026-12-04@letsdoitdallas.com
+DTSTAMP:20261205T013000Z
+DTSTART:20261205T013000Z
+DTEND:20261205T043000Z
+SUMMARY:The Nutcracker - Fort Worth
+LOCATION:I.M. Terrell Performing Arts Center · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-nutcracker-fort-worth
+ %7Ci-m-terrell-performing-arts-center-fort-worth%7C7-30-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:dedrick-flynn|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm-2

@@ -10,6 +10,22 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:ice-featuring-harry-potter-at-gaylord-texan|gaylord-texan-grapevine|see
+ -details-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:ICE! featuring Harry Potter at Gaylord Texan
+LOCATION:Gaylord Texan · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=ice-featuring-harry-potte
+ r-at-gaylord-texan%7Cgaylord-texan-grapevine%7Csee-details
+DESCRIPTION:Runs Nov 13 – Jan 3. Experience a winter wonderland at ICE! a
+ t Gaylord Texan Resort\, featuring more than two million pounds of hand-ca
+ rved ice sculptures and immersive scenes inspired by Harry Potter. Explore
+  breathtaking frozen displays\, two-story ice slides\, and interactive hol
+  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
 UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
  e-tx-76051-united-states|8-00-am-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261127T140000Z
@@ -18,6 +34,23 @@ DTEND:20261127T170000Z
 SUMMARY:Phenomenomaly at Meow Wolf
 LOCATION:Meow Wolf · Grapevine
 URL:https://letsdoitdallas.com/?date=2026-11-27&e=phenomenomaly-at-meow-wol
+ f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
+ C8-00-am
+DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
+  live immersive performance series inside The Real Unreal. Blending intera
+ ctive theater with a rotating lineup of North Texas talent\, the experienc
+ e unfolds around guests as they explore\, featuring music\, dance\, comedy
+ \, — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:phenomenomaly-at-meow-wolf|meow-wolf-3000-grapevine-mills-pkwy-grapevin
+ e-tx-76051-united-states|8-00-am-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261128T140000Z
+DTSTART:20261128T140000Z
+DTEND:20261128T170000Z
+SUMMARY:Phenomenomaly at Meow Wolf
+LOCATION:Meow Wolf · Grapevine
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=phenomenomaly-at-meow-wol
  f%7Cmeow-wolf-3000-grapevine-mills-pkwy-grapevine-tx-76051-united-states%7
  C8-00-am
 DESCRIPTION:This summer\, Meow Wolf Grapevine brings back Phenomenomaly\, a
@@ -791,5 +824,50 @@ DESCRIPTION:Cooking authentic Korean food at home doesn't have to be intimi
   your favorite graphic novel! Join us for a virtual conversation with arti
  st and author Robin Ha as we explore her New York Times bestselling book 
  — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-studio-18-|grapevine|10-00-am-2026-12-11@letsdoitdallas.com
+DTSTAMP:20261211T160000Z
+DTSTART:20261211T160000Z
+DTEND:20261211T190000Z
+SUMMARY:Art Studio (18+)
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=art-studio-18-%7Cgrapevin
+ e%7C10-00-am
+DESCRIPTION:Use our sewing machines\, Cricut\, and other tools to work on y
+ our own projects or start something new. Bring your own project and ideas!
+  This is a welcoming space for creatives 18+. *Library Card Required* Dece
+ mber 11\, 2026 10:00 AM - 01:00 PM Grapevine\, TX 76051 https://www.grape 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:mahjong-open-play|grapevine|12-30-pm-2026-12-11@letsdoitdallas.com
+DTSTAMP:20261211T183000Z
+DTSTART:20261211T183000Z
+DTEND:20261211T213000Z
+SUMMARY:Mahjong: Open Play
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=mahjong-open-play%7Cgrape
+ vine%7C12-30-pm
+DESCRIPTION:Open Play Fridays 12:30-4:30. Tables available on a first come 
+ first serve basis\, Space is Limited. Players\, please bring your own card
+ s and bags. Ages 18 and up. December 11\, 2026 12:30 PM - 04:30 PM Grapevi
+ ne\, TX 76051 https://www.grapevinetexas.gov/Calendar.aspx?EID=17598/6392 
+ — More: https://letsdoitdallas.com/district/grapevine/
+END:VEVENT
+BEGIN:VEVENT
+UID:kidzart-|grapevine|05-15-pm-2026-12-11@letsdoitdallas.com
+DTSTAMP:20261211T231500Z
+DTSTART:20261211T231500Z
+DTEND:20261212T021500Z
+SUMMARY:KidzArt!
+LOCATION:Grapevine
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=kidzart-%7Cgrapevine%7C05
+ -15-pm
+DESCRIPTION:Volunteers from our area high schools will be bringing their cr
+ eativity to the library. Join us for this fun afterschool craft time. Dece
+ mber 11\, 2026 05:15 PM - 05:45 PM Grapevine\, TX 76051 https://www.grapev
+ inetexas.gov/Calendar.aspx?EID=17876/639284448890000000 — More: https://
+ letsdoitdallas.com/district/grapevine/
 END:VEVENT
 END:VCALENDAR

@@ -10,6 +10,22 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:cityline-night-market|cityline-plaza-richardson|6-00-pm-10-00-pm-2026-1
+ 1-27@letsdoitdallas.com
+DTSTAMP:20261128T000000Z
+DTSTART:20261128T000000Z
+DTEND:20261128T030000Z
+SUMMARY:CityLine Night Market
+LOCATION:CityLine Plaza · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=cityline-night-market%7Cc
+ ityline-plaza-richardson%7C6-00-pm-10-00-pm
+DESCRIPTION:Runs Jul 10 – Dec 11. The CityLine Night Market by The Boho M
+ arket returns in 2026 on the second Friday of each month through December!
+  Discover 30+ booths featuring handmade and vintage goods\, enjoy live mus
+ ic while you shop\, and soak in the lively atmosphere with friends and fa 
+ — More: https://letsdoitdallas.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:chamberlain-ballet-the-nutcracker-richardson|hill-performance-hall-at-e
  isemann-center-richardson|7-00-pm-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261128T010000Z
@@ -48,6 +64,24 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=elle-orlando%7Caddison-im
  prov-addison%7C7-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker-presented-by-chamberlain-ballet|charles-w-eisemann-cente
+ r-for-performing-arts-richardson|7-00-pm-9-15-pm-2026-11-27@letsdoitdallas
+ .com
+DTSTAMP:20261128T010000Z
+DTSTART:20261128T010000Z
+DTEND:20261128T040000Z
+SUMMARY:The Nutcracker Presented by Chamberlain Ballet
+LOCATION:Charles W. Eisemann Center for Performing Arts · Richardson
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=the-nutcracker-presented-
+ by-chamberlain-ballet%7Ccharles-w-eisemann-center-for-performing-arts-rich
+ ardson%7C7-00-pm-9-15-pm
+DESCRIPTION:Experience the holiday magic of Chamberlain Ballet’s The Nutc
+ racker\, featuring New York City Ballet stars India Bradley as the Sugar P
+ lum Fairy and Tyler Angle as her Cavalier. From the thrilling battle scene
+  to the sparkling Land of the Sweets\, enjoy a timeless holiday classic b 
+ — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:totally-80s|legacy-hall-plano|8-00-pm-2026-11-27@letsdoitdallas.com
@@ -99,6 +133,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-28&e=the-nutcracker%7Ceisemann
  -center-richardson%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/plano/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-magical-night-at-vitruvian-lights|vitruvian-park-addison|6-00-pm-10-0
+ 0-pm-2026-11-28@letsdoitdallas.com
+DTSTAMP:20261129T000000Z
+DTSTART:20261129T000000Z
+DTEND:20261129T030000Z
+SUMMARY:A Magical Night at Vitruvian Lights
+LOCATION:Vitruvian Park · Addison
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=a-magical-night-at-vitruv
+ ian-lights%7Cvitruvian-park-addison%7C6-00-pm-10-00-pm
+DESCRIPTION:The holiday season will shine brighter than ever as Vitruvian P
+ ark in Addison kicks off the 14th annual Vitruvian Lights with its festive
+  tree lighting celebration on Saturday\, Nov. 28. Beginning at 6 p.m.\, Sa
+ nta Claus will flip the switch on more than 1.2 million sparkling LED l 
+ — More: https://letsdoitdallas.com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
 UID:elle-orlando|addison-improv-addison|6-00-pm-2026-11-28@letsdoitdallas.c

@@ -506,4 +506,32 @@ DESCRIPTION:Start a new adventure at the Mansfield Public Library! Join us
   players are encouraged to attend\, as pre-generated characters and a — 
  More: https://letsdoitdallas.com/city/mansfield/
 END:VEVENT
+BEGIN:VEVENT
+UID:baby-story-time-0-18mo-|104-s-wisteria-st-mansfield|10-30-am-2026-12-11
+ @letsdoitdallas.com
+DTSTAMP:20261211T163000Z
+DTSTART:20261211T163000Z
+DTEND:20261211T193000Z
+SUMMARY:Baby Story Time (0-18mo)
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=baby-story-time-0-18mo-%7
+ C104-s-wisteria-st-mansfield%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/mansfield/
+END:VEVENT
+BEGIN:VEVENT
+UID:family-place-playtime|104-s-wisteria-st-mansfield|11-00-am-2026-12-11@l
+ etsdoitdallas.com
+DTSTAMP:20261211T170000Z
+DTSTART:20261211T170000Z
+DTEND:20261211T200000Z
+SUMMARY:Family Place Playtime
+LOCATION:104 S. Wisteria St. · Mansfield
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=family-place-playtime%7C1
+ 04-s-wisteria-st-mansfield%7C11-00-am
+DESCRIPTION:Come in for open playtime in our Family Place Library area. Bri
+ ng your young children to play with others while building skills through p
+ lay. Parents are required to remain with children at all times. No registr
+ ation is required. December 11\, 2026 11:00 AM - 12:00 PM 104 S. Wiste —
+  More: https://letsdoitdallas.com/city/mansfield/
+END:VEVENT
 END:VCALENDAR

@@ -269,6 +269,18 @@ DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/frisco/
 END:VEVENT
 BEGIN:VEVENT
+UID:coffee-with-the-mayor|8000-dallas-pkwy-frisco|08-00-am-2026-12-11@letsd
+ oitdallas.com
+DTSTAMP:20261211T140000Z
+DTSTART:20261211T140000Z
+DTEND:20261211T170000Z
+SUMMARY:Coffee with the Mayor
+LOCATION:8000 Dallas Pkwy. · Frisco
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=coffee-with-the-mayor%7C8
+ 000-dallas-pkwy-frisco%7C08-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/frisco/
+END:VEVENT
+BEGIN:VEVENT
 UID:texas-legends-vs-birmingham-squadron|fifth-third-arena-frisco|7-00-pm-2
  026-12-11@letsdoitdallas.com
 DTSTAMP:20261212T010000Z

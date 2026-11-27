@@ -10,6 +10,22 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:7th-annual-tour-of-trees-at-trinity-falls|trinity-falls-mckinney|10-00-
+ am-5-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261127T160000Z
+DTSTART:20261127T160000Z
+DTEND:20261127T190000Z
+SUMMARY:7th Annual Tour of Trees at Trinity Falls
+LOCATION:Trinity Falls · McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=7th-annual-tour-of-trees-
+ at-trinity-falls%7Ctrinity-falls-mckinney%7C10-00-am-5-00-pm
+DESCRIPTION:Runs Nov 14 – Dec 13. For many North Texas families\, the hol
+ iday season doesn’t officially begin until they’ve walked the Tour of 
+ Trees. The 7th Annual Tour of Trees at Trinity Falls returns Saturday\, No
+ v. 14 through Sunday\, Dec. 13\, inviting visitors to stroll through beaut
+ ifull — More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
 UID:home-for-the-holidays-a-mckinney-christmas|111-n-tennessee-st-mckinney|
  10-30-am-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261127T163000Z
@@ -46,6 +62,21 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=disney-on-ice-presents-ma
  gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C3-00-pm
 DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
  las.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-very-stix-christmas|mckinney|7-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T010000Z
+DTSTART:20261128T010000Z
+DTEND:20261128T040000Z
+SUMMARY:A Very Stix Christmas
+LOCATION:McKinney
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=a-very-stix-christmas%7Cm
+ ckinney%7C7-00-pm
+DESCRIPTION:Runs Nov 17 – Jan 3. Tinseltown Tavern returns to The Stix Ic
+ ehouse in McKinney from November 17\, 2026\, through January 3\, 2027\, wi
+ th festive events throughout the holiday season. Enjoy Pictures with Santa
+ \, Christmas trivia and music bingo\, an ugly sweater contest\, snowball f
+ ight — More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT
 UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c
@@ -622,6 +653,30 @@ SUMMARY:Branching Out: McKinney Trees (Adults)
 LOCATION:6861 W Eldorado Parkway · McKinney
 URL:https://letsdoitdallas.com/?date=2026-12-10&e=branching-out-mckinney-tr
  ees-adults-%7C6861-w-eldorado-parkway-mckinney%7C07-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:toddler-time-16-months-3-years-|6861-w-eldorado-parkway-mckinney|10-30-
+ am-2026-12-11@letsdoitdallas.com
+DTSTAMP:20261211T163000Z
+DTSTART:20261211T163000Z
+DTEND:20261211T193000Z
+SUMMARY:Toddler Time (16 Months-3 Years)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=toddler-time-16-months-3-
+ years-%7C6861-w-eldorado-parkway-mckinney%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
+END:VEVENT
+BEGIN:VEVENT
+UID:nerf-attck-6th-12th-|6861-w-eldorado-parkway-mckinney|06-30-pm-2026-12-
+ 11@letsdoitdallas.com
+DTSTAMP:20261212T003000Z
+DTSTART:20261212T003000Z
+DTEND:20261212T033000Z
+SUMMARY:Nerf ATTCK (6th-12th)
+LOCATION:6861 W Eldorado Parkway · McKinney
+URL:https://letsdoitdallas.com/?date=2026-12-11&e=nerf-attck-6th-12th-%7C68
+ 61-w-eldorado-parkway-mckinney%7C06-30-pm
 DESCRIPTION:More: https://letsdoitdallas.com/district/mckinney/
 END:VEVENT
 BEGIN:VEVENT

@@ -10,6 +10,22 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:vanta-athletics|12th-floor-parking-plaza-of-the-americas-dallas|8-00-am
+ -2026-11-27@letsdoitdallas.com
+DTSTAMP:20261127T140000Z
+DTSTART:20261127T140000Z
+DTEND:20261127T170000Z
+SUMMARY:Vanta Athletics
+LOCATION:12th Floor. Parking - Plaza of the Americas · Dallas
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=vanta-athletics%7C12th-fl
+ oor-parking-plaza-of-the-americas-dallas%7C8-00-am
+DESCRIPTION:Runs Jun 30 – Dec 31. Dallas’ newest rooftop sports destina
+ tion brings soccer\, basketball\, and community together 12 stories above 
+ the city. With pickup games\, tournaments\, training sessions\, events\, a
+ nd a rooftop space for every occasion\, it’s a one-of-a-kind spot for at
+ hletes a — More: https://letsdoitdallas.com/things-to-do/sports/
+END:VEVENT
+BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
  11-27@letsdoitdallas.com
 DTSTAMP:20261127T193000Z
