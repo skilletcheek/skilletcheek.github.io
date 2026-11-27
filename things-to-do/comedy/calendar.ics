@@ -813,6 +813,32 @@ DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /things-to-do/comedy/
 END:VEVENT
 BEGIN:VEVENT
+UID:asif-ali|hyena-s-comedy-nightclub-dallas-dallas|7-00-pm-2026-12-05@lets
+ doitdallas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Asif Ali
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=asif-ali%7Chyena-s-comedy
+ -nightclub-dallas-dallas%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /things-to-do/comedy/
+END:VEVENT
+BEGIN:VEVENT
+UID:dedrick-flynn|hyena-s-comedy-night-club-fort-worth-fort-worth|7-00-pm-2
+ 026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Dedrick Flynn
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=dedrick-flynn%7Chyena-s-c
+ omedy-night-club-fort-worth-fort-worth%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /things-to-do/comedy/
+END:VEVENT
+BEGIN:VEVENT
 UID:jack-fm-presents-josh-wolf|punch-line-irving-irving|7-00-pm-2026-12-05@
  letsdoitdallas.com
 DTSTAMP:20261206T010000Z
@@ -850,6 +876,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=tacarra-williams%7Carling
  ton-improv-arlington%7C7-00-pm
 DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/things-to-do/comedy/
+END:VEVENT
+BEGIN:VEVENT
+UID:yannis-pappas|mic-drop-comedy-plano-plano|7-00-pm-2026-12-05@letsdoitda
+ llas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Yannis Pappas
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=yannis-pappas%7Cmic-drop-
+ comedy-plano-plano%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /things-to-do/comedy/
 END:VEVENT
 BEGIN:VEVENT
 UID:jack-fm-presents-josh-wolf|punch-line-irving-irving|9-15-pm-2026-12-05@

@@ -426,6 +426,19 @@ DESCRIPTION:Comedy event via Ticketmaster. — More: https://letsdoitdallas
  .com/district/plano/
 END:VEVENT
 BEGIN:VEVENT
+UID:yannis-pappas|mic-drop-comedy-plano-plano|7-00-pm-2026-12-05@letsdoitda
+ llas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Yannis Pappas
+LOCATION:Mic Drop Comedy - Plano
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=yannis-pappas%7Cmic-drop-
+ comedy-plano-plano%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/plano/
+END:VEVENT
+BEGIN:VEVENT
 UID:natasha-leggero|addison-improv-addison|9-30-pm-2026-12-05@letsdoitdalla
  s.com
 DTSTAMP:20261206T033000Z

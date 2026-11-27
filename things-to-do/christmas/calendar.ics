@@ -1022,15 +1022,15 @@ DESCRIPTION:family event via SeatGeek. — More: https://letsdoitdallas.com
  /things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-nutcracker-fort-worth|i-m-terrell-performing-arts-center-fort-worth
- |7-30-pm-2026-12-04@letsdoitdallas.com
+UID:the-nutcracker-terrell|terrell-performing-arts-center-terrell|7-30-pm-2
+ 026-12-04@letsdoitdallas.com
 DTSTAMP:20261205T013000Z
 DTSTART:20261205T013000Z
 DTEND:20261205T043000Z
-SUMMARY:The Nutcracker - Fort Worth
-LOCATION:I.M. Terrell Performing Arts Center · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-nutcracker-fort-worth
- %7Ci-m-terrell-performing-arts-center-fort-worth%7C7-30-pm
+SUMMARY:The Nutcracker - Terrell
+LOCATION:Terrell Performing Arts Center
+URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-nutcracker-terrell%7C
+ terrell-performing-arts-center-terrell%7C7-30-pm
 DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
  things-to-do/christmas/
 END:VEVENT
@@ -1355,6 +1355,19 @@ LOCATION:1527 N. Galloway Ave. · Mesquite
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=mesquite-symphony-orchest
  ra-presents-holiday-magic-%7C1527-n-galloway-ave-mesquite%7C05-00-pm
 DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:avant-chamber-ballet-the-nutcracker|moody-performance-hall-dallas|7-00-
+ pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Avant Chamber Ballet - The Nutcracker
+LOCATION:Moody Performance Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=avant-chamber-ballet-the-
+ nutcracker%7Cmoody-performance-hall-dallas%7C7-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
 UID:charles-dickens-a-christmas-carol-presented-by-company-of-rowlett-perfo

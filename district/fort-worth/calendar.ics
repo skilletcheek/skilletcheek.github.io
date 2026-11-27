@@ -650,19 +650,6 @@ DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
  om/district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
-UID:the-nutcracker-fort-worth|i-m-terrell-performing-arts-center-fort-worth
- |7-30-pm-2026-12-04@letsdoitdallas.com
-DTSTAMP:20261205T013000Z
-DTSTART:20261205T013000Z
-DTEND:20261205T043000Z
-SUMMARY:The Nutcracker - Fort Worth
-LOCATION:I.M. Terrell Performing Arts Center · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-12-04&e=the-nutcracker-fort-worth
- %7Ci-m-terrell-performing-arts-center-fort-worth%7C7-30-pm
-DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
- district/fort-worth/
-END:VEVENT
-BEGIN:VEVENT
 UID:dedrick-flynn|hyena-s-comedy-night-club-fort-worth-fort-worth|8-00-pm-2
  026-12-04@letsdoitdallas.com
 DTSTAMP:20261205T020000Z
@@ -739,6 +726,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=a-christmas-carol-fort-wo
  rth%7Ccasa-manana-fort-worth%7C5-00-pm
 DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/fort-worth/
+END:VEVENT
+BEGIN:VEVENT
+UID:dedrick-flynn|hyena-s-comedy-night-club-fort-worth-fort-worth|7-00-pm-2
+ 026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Dedrick Flynn
+LOCATION:Hyena's Comedy Night Club - Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=dedrick-flynn%7Chyena-s-c
+ omedy-night-club-fort-worth-fort-worth%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /district/fort-worth/
 END:VEVENT
 BEGIN:VEVENT
 UID:suites-for-king-country|ariat-arena-fort-worth|7-00-pm-2026-12-05@letsd

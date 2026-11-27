@@ -10,35 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:story-time|highland-park-library-highland-park|10-00-am-2026-11-27@lets
- doitdallas.com
-DTSTAMP:20261127T160000Z
-DTSTART:20261127T160000Z
-DTEND:20261127T190000Z
-SUMMARY:Story Time
-LOCATION:Highland Park Library
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=story-time%7Chighland-par
- k-library-highland-park%7C10-00-am
-DESCRIPTION:Join Miss Victoria and Mr. Tre for Story Time at the Highland P
- ark Library\, 2nd Floor Town Hall. This Story Time is designed for all age
- s. Read stories\, sing\, and follow along with Miss Victoria and Mr. Tre. 
- Tickets will be required for entry to Story Time. Tickets are free and w 
- — More: https://letsdoitdallas.com/things-to-do/kids/
-END:VEVENT
-BEGIN:VEVENT
-UID:toddler-story-time|lancaster-veterans-memorial-library-1600-veterans-me
- morial-parkway-lancaster|10-30-am-2026-11-27@letsdoitdallas.com
-DTSTAMP:20261127T163000Z
-DTSTART:20261127T163000Z
-DTEND:20261127T193000Z
-SUMMARY:Toddler Story Time
-LOCATION:Lancaster Veterans Memorial Library
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=toddler-story-time%7Clanc
- aster-veterans-memorial-library-1600-veterans-memorial-parkway-lancaster%7
- C10-30-am
-DESCRIPTION:More: https://letsdoitdallas.com/things-to-do/kids/
-END:VEVENT
-BEGIN:VEVENT
 UID:santa-paws-at-galleria-dallas|galleria-dallas-dallas|6-00-pm-9-00-pm-20
  26-11-27@letsdoitdallas.com
 DTSTAMP:20261128T000000Z

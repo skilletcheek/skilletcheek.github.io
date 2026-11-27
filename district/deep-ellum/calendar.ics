@@ -295,6 +295,19 @@ DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/district/deep-ellum/
 END:VEVENT
 BEGIN:VEVENT
+UID:taken-by-tides|puzzles-deep-ellum-dallas|7-00-pm-2026-12-05@letsdoitdal
+ las.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Taken by Tides
+LOCATION:Puzzles Deep Ellum · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=taken-by-tides%7Cpuzzles-
+ deep-ellum-dallas%7C7-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/district/deep-ellum/
+END:VEVENT
+BEGIN:VEVENT
 UID:upon-a-burning-body|trees-dallas|7-00-pm-2026-12-05@letsdoitdallas.com
 DTSTAMP:20261206T010000Z
 DTSTART:20261206T010000Z

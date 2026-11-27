@@ -74,6 +74,19 @@ DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
  venue/moody-performance-hall/
 END:VEVENT
 BEGIN:VEVENT
+UID:avant-chamber-ballet-the-nutcracker|moody-performance-hall-dallas|7-00-
+ pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Avant Chamber Ballet - The Nutcracker
+LOCATION:Moody Performance Hall · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=avant-chamber-ballet-the-
+ nutcracker%7Cmoody-performance-hall-dallas%7C7-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ venue/moody-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
 UID:ballet-north-texas-presents-the-nutcracker|moody-performance-hall-dalla
  s|8-00-pm-2026-12-18@letsdoitdallas.com
 DTSTAMP:20261219T020000Z

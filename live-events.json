@@ -101,18 +101,6 @@
   "area": "AT&T Stadium, Arlington",
   "city": "Arlington",
   "date": "2026-11-27",
-  "time": "9:15 AM",
-  "cost": null,
-  "description": "stadium tours event via SeatGeek.",
-  "url": "https://seatgeek.com/at-t-stadium-vip-guided-tour-tickets/stadium-tours/2026-11-27-9-15-am/18251941",
-  "image": null
- },
- {
-  "name": "AT&T Stadium VIP Guided Tour",
-  "category": "sports",
-  "area": "AT&T Stadium, Arlington",
-  "city": "Arlington",
-  "date": "2026-11-27",
   "time": "1:00 PM",
   "cost": null,
   "description": "stadium tours event via SeatGeek.",
@@ -861,7 +849,7 @@
   "cost": null,
   "description": "Ages 18+.",
   "url": "https://speakeasygo.com/CTRL-Room-Dallas/Rafael-Cerato-at-CTRL-Room-11.27.26?eid=EVE-8ZB3P8",
-  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6b064108c7d790c139da6ae9_PE4Oo-1787191297940-k5dM.png",
+  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6b064108c7d790c139da6ae9_PE4Oo-1787191297940-k5dM.avif",
   "organizer": {
    "name": "CTRL Room",
    "url": "https://www.ctrlroomdallas.com/"
@@ -988,22 +976,6 @@
   "image": "https://s1.ticketm.net/dam/c/a95/d4e56c3a-e15d-4351-a7d0-a7a8ebf95a95_105381_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Story Time",
-  "category": "family",
-  "area": "Highland Park Library, Highland Park",
-  "city": "Highland Park",
-  "date": "2026-11-27",
-  "time": "10:00 AM",
-  "cost": null,
-  "description": "Join Miss Victoria and Mr. Tre for Story Time at the Highland Park Library, 2nd Floor Town Hall. This Story Time is designed for all ages. Read stories, sing, and follow along with Miss Victoria and Mr. Tre. Tickets will be required for entry to Story Time. Tickets are free and w",
-  "url": "https://www.hptx.org/Calendar.aspx?EID=4936",
-  "image": null,
-  "organizer": {
-   "name": "Town of Highland Park",
-   "url": "https://hptx.org/"
-  }
- },
- {
   "name": "Tea Around Town® Dallas",
   "category": "festival",
   "area": "Tea Around Town, 646 Main Street, Dallas, 75202, United States",
@@ -1092,22 +1064,6 @@
   "image": "https://s1.ticketm.net/dam/a/322/1a42a97d-e908-484a-89c2-e23974317322_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
-  "name": "Toddler Story Time",
-  "category": "family",
-  "area": "Lancaster Veterans Memorial Library, 1600 Veterans Memorial Parkway, Lancaster",
-  "city": "Lancaster",
-  "date": "2026-11-27",
-  "time": "10:30 AM",
-  "cost": null,
-  "description": "",
-  "url": "https://www.lancaster-tx.com/Calendar.aspx?EID=7770",
-  "image": null,
-  "organizer": {
-   "name": "City of Lancaster",
-   "url": "https://lancaster-tx.com/"
-  }
- },
- {
   "name": "Totally 80s",
   "category": "music",
   "area": "Legacy Hall, Plano",
@@ -1154,7 +1110,7 @@
   "city": "Dallas",
   "date": "2026-11-27",
   "time": "9:00 PM",
-  "cost": 24,
+  "cost": 31,
   "description": "Dance/Electronic event via Ticketmaster.",
   "url": "https://www.ticketweb.com/event/true-colors-gilleys-dallas-tickets/14449224",
   "image": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_PORTRAIT_16_9.jpg"
@@ -2449,7 +2405,7 @@
   "cost": null,
   "description": "Ages 18+.",
   "url": "https://speakeasygo.com/CTRL-Room-Dallas/Zillamatic-at-CTRL-Room-11.28.26?eid=EVE-0XIS1H",
-  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6b05fc2d57438ce2ff1e8f38_gDyTi-1795547024307-spe8.png",
+  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6b05fc2d57438ce2ff1e8f38_gDyTi-1795547024307-spe8.avif",
   "organizer": {
    "name": "CTRL Room",
    "url": "https://www.ctrlroomdallas.com/"
@@ -3208,6 +3164,30 @@
   }
  },
  {
+  "name": "Doctoral Recital: Chelsea Day, soprano",
+  "category": "music",
+  "area": "Paul Voertman Concert Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-11-30",
+  "time": "6:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/doctoral-recital-chelsea-day-soprano",
+  "image": null
+ },
+ {
+  "name": "Doctoral Recital: Jiaxin Ou, collaborative piano",
+  "category": "music",
+  "area": "Recital Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-11-30",
+  "time": "6:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/copy-of-doctoral-recital-jiaxin-ou-collaborative-piano",
+  "image": null
+ },
+ {
   "name": "Elizabeth Cook",
   "category": "music",
   "area": "Dan's Silverleaf, Denton",
@@ -3462,6 +3442,18 @@
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
   }
+ },
+ {
+  "name": "Studio Recital: Students of Malcolm Matthews, organ",
+  "category": "music",
+  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
+  "city": "Denton",
+  "date": "2026-11-30",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.       This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/studio-recital-students-of-malcolm-matthews-organ",
+  "image": null
  },
  {
   "name": "106.1 KISS FM's Jingle Ball Presented by Capital One",
@@ -3798,6 +3790,18 @@
   "description": "Pop event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKPs",
   "image": "https://s1.ticketm.net/dam/a/f24/0a7b5625-54ef-439d-8573-b91bd7644f24_TABLET_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Doctoral Recital: Jingyi Zhang, collaborative piano",
+  "category": "music",
+  "area": "Recital Hall at the Music Building, Denton",
+  "city": "Denton",
+  "date": "2026-12-01",
+  "time": "6:30 PM",
+  "cost": null,
+  "description": "Important Links and Information      Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream is not available for this event.     This event is free and open to the public with general seating.",
+  "url": "https://calendar.unt.edu/event/copy-of-doctoral-recital-jingyi-zhang-collaborative-piano",
+  "image": null
  },
  {
   "name": "Dominoes",
@@ -5906,7 +5910,7 @@
   "time": "7:30 PM",
   "cost": null,
   "description": "broadway event via SeatGeek.",
-  "url": "https://seatgeek.com/mamma-mia-tickets/broadway/2026-12-03-7-30-pm/18302163",
+  "url": "https://seatgeek.com/mamma-mia-tickets/broadway/2026-12-03-7-30-pm/18101227",
   "image": null
  },
  {
@@ -6571,7 +6575,7 @@
   "cost": null,
   "description": "Ages 18+.",
   "url": "https://speakeasygo.com/CTRL-Room-Dallas/Deejay-AL-at-CTRL-Room-12.4.26?eid=EVE-SUHOMI",
-  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6b074a763f2e6c965ff01e67_9blPr-1795486090591-iTMP.jpeg",
+  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6b074a763f2e6c965ff01e67_9blPr-1795486090591-iTMP.avif",
   "organizer": {
    "name": "CTRL Room",
    "url": "https://www.ctrlroomdallas.com/"
@@ -7018,6 +7022,18 @@
   "image": "https://s1.ticketm.net/dam/a/708/f7c8d91b-1b41-4db8-9bce-0cb20526d708_RETINA_PORTRAIT_16_9.jpg"
  },
  {
+  "name": "Sounds of the Holidays 2026",
+  "category": "music",
+  "area": "Winspear Performance Hall at the Murchison Performing Arts Center, Denton",
+  "city": "Denton",
+  "date": "2026-12-04",
+  "time": "7:30 PM",
+  "cost": null,
+  "description": "Celebrate the holiday season with the UNT Brass Band, the Two O'Clock Lab Band, and Jazz Singers!     Important Links and Information     Program    Please note, this program is subject to change. Final program will be available by the day of the performance.      Livestream link",
+  "url": "https://calendar.unt.edu/event/sounds-of-the-holidays-5357",
+  "image": null
+ },
+ {
   "name": "Stockyards Championship Rodeo",
   "category": "sports",
   "area": "Cowtown Coliseum, Fort Worth",
@@ -7122,15 +7138,15 @@
   "image": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg"
  },
  {
-  "name": "The Nutcracker - Fort Worth",
+  "name": "The Nutcracker - Terrell",
   "category": "arts",
-  "area": "I.M. Terrell Performing Arts Center, Fort Worth",
-  "city": "Fort Worth",
+  "area": "Terrell Performing Arts Center, Terrell",
+  "city": "Terrell",
   "date": "2026-12-04",
   "time": "7:30 PM",
   "cost": null,
   "description": "dance event via SeatGeek.",
-  "url": "https://seatgeek.com/the-nutcracker-tickets/dance/2026-12-04-7-30-pm/18779648",
+  "url": "https://seatgeek.com/the-nutcracker-tickets/dance/2026-12-04-7-30-pm/18815346",
   "image": null
  },
  {
@@ -7410,6 +7426,18 @@
   }
  },
  {
+  "name": "Asif Ali",
+  "category": "arts",
+  "area": "Hyena's Comedy Nightclub - Dallas, Dallas",
+  "city": "Dallas",
+  "date": "2026-12-05",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "comedy event via SeatGeek.",
+  "url": "https://seatgeek.com/asif-ali-tickets/comedy/2026-12-05-7-pm/18781579",
+  "image": null
+ },
+ {
   "name": "Author Talk and Signing with David McCloskey",
   "category": "arts",
   "area": "4700 Drexel Dr, Highland Park",
@@ -7435,6 +7463,18 @@
   "cost": null,
   "description": "dance event via SeatGeek.",
   "url": "https://seatgeek.com/the-nutcracker-tickets/dance/2026-12-05-2-pm/18519315",
+  "image": null
+ },
+ {
+  "name": "Avant Chamber Ballet - The Nutcracker",
+  "category": "arts",
+  "area": "Moody Performance Hall, Dallas",
+  "city": "Dallas",
+  "date": "2026-12-05",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "dance event via SeatGeek.",
+  "url": "https://seatgeek.com/the-nutcracker-tickets/dance/2026-12-05-7-pm/18519319",
   "image": null
  },
  {
@@ -7620,6 +7660,18 @@
   "description": "Hobby/Special Interest Expos event via Ticketmaster.",
   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P-uA",
   "image": "https://s1.ticketm.net/dam/a/119/6be0af86-1e4c-42a4-8273-a17aea993119_RETINA_LANDSCAPE_16_9.jpg"
+ },
+ {
+  "name": "Dedrick Flynn",
+  "category": "arts",
+  "area": "Hyena's Comedy Night Club - Fort Worth, Fort Worth",
+  "city": "Fort Worth",
+  "date": "2026-12-05",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "comedy event via SeatGeek.",
+  "url": "https://seatgeek.com/dedrick-flynn-tickets/comedy/2026-12-05-7-pm/18569495",
+  "image": null
  },
  {
   "name": "Disney's Frozen - The Musical - Farmers Branch",
@@ -8063,7 +8115,7 @@
   "cost": null,
   "description": "Ages 18+.",
   "url": "https://speakeasygo.com/CTRL-Room-Dallas/MissingNo.-Presents%3A-Decompression-at-Tree-Haus-12.5.26?eid=EVE-XA3G9Q",
-  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6af256663b55b7945cde8f55_OXSpC-1794263557030-omra.png",
+  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6af256663b55b7945cde8f55_OXSpC-1794263557030-omra.avif",
   "organizer": {
    "name": "CTRL Room",
    "url": "https://www.ctrlroomdallas.com/"
@@ -8486,6 +8538,18 @@
   "image": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_RETINA_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "Taken by Tides",
+  "category": "music",
+  "area": "Puzzles Deep Ellum, Dallas",
+  "city": "Dallas",
+  "date": "2026-12-05",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "concert event via SeatGeek.",
+  "url": "https://seatgeek.com/taken-by-tides-tickets/dallas-texas-puzzles-deep-ellum-2026-12-05-7-pm/concert/18835275",
+  "image": null
+ },
+ {
   "name": "That Pressure Fest (Saturday Pass)",
   "category": "music",
   "area": "Longhorn Ballroom, Dallas",
@@ -8512,6 +8576,18 @@
    "name": "City of Garland",
    "url": "https://garlandtx.gov/"
   }
+ },
+ {
+  "name": "The Black Angels",
+  "category": "music",
+  "area": "Ferris Wheelers Backyard and BBQ, Dallas",
+  "city": "Dallas",
+  "date": "2026-12-05",
+  "time": "6:00 PM",
+  "cost": null,
+  "description": "concert event via SeatGeek.",
+  "url": "https://seatgeek.com/the-black-angels-tickets/dallas-texas-am-fm-diner-and-lounge-dallas-2026-12-05-6-pm/concert/18836394",
+  "image": null
  },
  {
   "name": "The Music of Johnny Mathis",
@@ -8604,6 +8680,18 @@
    "name": "City of Cedar Hill",
    "url": "https://cedarhilltx.com/"
   }
+ },
+ {
+  "name": "Yannis Pappas",
+  "category": "arts",
+  "area": "Mic Drop Comedy - Plano, Plano",
+  "city": "Plano",
+  "date": "2026-12-05",
+  "time": "7:00 PM",
+  "cost": null,
+  "description": "comedy event via SeatGeek.",
+  "url": "https://seatgeek.com/yannis-pappas-tickets/comedy/2026-12-05-7-pm/18632102",
+  "image": null
  },
  {
   "name": "\"The Parents Have Entered the Chat\" Comedy Jam",
@@ -11208,6 +11296,18 @@
   "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_16_9.jpg"
  },
  {
+  "name": "Honors College Medallion Ceremony: Fall 2026",
+  "category": "music",
+  "area": "Murchison Performing Arts Center, Denton",
+  "city": "Denton",
+  "date": "2026-12-10",
+  "time": "6:00 PM",
+  "cost": null,
+  "description": "The Fall 2026 Honors College Medallion Ceremony celebrates Honors College members who are graduating in Fall 2026 with Honors College Awards. Honors College members who are eligible to receive an award at the 2026 Fall Medallion ceremony will be notified by the Honors College Adv",
+  "url": "https://calendar.unt.edu/event/honors-college-medallion-ceremony-fall-2026",
+  "image": null
+ },
+ {
   "name": "Jack Ingram: Acoustic Holiday Tour",
   "category": "music",
   "area": "The Kessler Theater, Oak Cliff, Dallas",
@@ -12585,7 +12685,7 @@
   "cost": null,
   "description": "Ages 18+.",
   "url": "https://speakeasygo.com/CTRL-Room-Dallas/Danny-Avila-at-CTRL-Room-12.12.26?eid=EVE-R6PE67",
-  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6af1b634dcf9caa538700138_6adf8ca80b1f4e6c468937d0_mX8xT-1793035085945-qhn1.webp",
+  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6af1b634dcf9caa538700138_6adf8ca80b1f4e6c468937d0_mX8xT-1793035085945-qhn1.avif",
   "organizer": {
    "name": "CTRL Room",
    "url": "https://www.ctrlroomdallas.com/"
@@ -13525,7 +13625,7 @@
   "cost": null,
   "description": "Ages 18+.",
   "url": "https://speakeasygo.com/CTRL-Room-Dallas/TECHNOBUS-DALLAS?eid=EVE-UN95JT",
-  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6afcf3538325ed4e79444368_JcW3h-1794962258661-UHnA.png",
+  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6afcf3538325ed4e79444368_JcW3h-1794962258661-UHnA.avif",
   "organizer": {
    "name": "CTRL Room",
    "url": "https://www.ctrlroomdallas.com/"
@@ -13673,7 +13773,7 @@
   "cost": null,
   "description": "Ages 18+.",
   "url": "https://speakeasygo.com/CTRL-Room-Dallas/Cazes-at-CTRL-Room-12.18.26?eid=EVE-ES14YE",
-  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6aff487148fffb0c61508ed6_fAmyD-1795115118844-3T9M.png",
+  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6aff487148fffb0c61508ed6_fAmyD-1795115118844-3T9M.avif",
   "organizer": {
    "name": "CTRL Room",
    "url": "https://www.ctrlroomdallas.com/"
@@ -14185,7 +14285,7 @@
   "cost": null,
   "description": "Ages 18+.",
   "url": "https://speakeasygo.com/CTRL-Room-Dallas/MASHBIT-at-CTRL-Room-12.19.26?eid=EVE-19V363",
-  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6af1b6ed369e728c55292f34_6ada5a199230f6d7c1a67fca_vpKEf-1792694796051-b30C.webp",
+  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6af1b6ed369e728c55292f34_6ada5a199230f6d7c1a67fca_vpKEf-1792694796051-b30C.avif",
   "organizer": {
    "name": "CTRL Room",
    "url": "https://www.ctrlroomdallas.com/"
@@ -15177,7 +15277,7 @@
   "cost": null,
   "description": "Ages 18+.",
   "url": "https://speakeasygo.com/CTRL-Room-Dallas/Habibi-House-at-Tree-Haus-12.26.26?eid=EVE-WX5YHG",
-  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6afca89e18c94400659cdcad_uV7mA-1794867424872-hWlg.png",
+  "image": "https://cdn.prod.website-files.com/69c17a74a763699ce65b1b9f/6afca89e18c94400659cdcad_uV7mA-1794867424872-hWlg.avif",
   "organizer": {
    "name": "CTRL Room",
    "url": "https://www.ctrlroomdallas.com/"
