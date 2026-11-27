@@ -158,6 +158,24 @@ DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/things-to-do/comedy/
 END:VEVENT
 BEGIN:VEVENT
+UID:uncensored-unhinged|big-laugh-comedy-club-fort-worth-604-main-st-suite-
+ 100-fort-worth-tx-76102-united-states|9-30-pm-2026-11-27@letsdoitdallas.co
+ m
+DTSTAMP:20261128T033000Z
+DTSTART:20261128T033000Z
+DTEND:20261128T063000Z
+SUMMARY:Uncensored & Unhinged
+LOCATION:Big Laugh Comedy Club – Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=uncensored-unhinged%7Cbig
+ -laugh-comedy-club-fort-worth-604-main-st-suite-100-fort-worth-tx-76102-un
+ ited-states%7C9-30-pm
+DESCRIPTION:Fort Worth’s Boldest Stand-Up Comedy Show  This isn’t your 
+ average comedy night. Uncensored & Unhinged is a one-night-only explosion 
+ of raw\, fearless\, and outrageously funny stand-up that pushes the limits
+  and punches straight through them.  This is where comics say the things y
+ o — More: https://letsdoitdallas.com/things-to-do/comedy/
+END:VEVENT
+BEGIN:VEVENT
 UID:kier-junior-spates|arlington-improv-arlington|9-45-pm-2026-11-27@letsdo
  itdallas.com
 DTSTAMP:20261128T034500Z
@@ -780,6 +798,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=family-magic-comedy-for-a
  ll-ages%7Caddison-improv-addison%7C2-00-pm
 DESCRIPTION:Magic & Illusion event via Ticketmaster. — More: https://lets
  doitdallas.com/things-to-do/comedy/
+END:VEVENT
+BEGIN:VEVENT
+UID:marlon-wayans|hyena-s-comedy-nightclub-dallas-dallas|6-00-pm-2026-12-05
+ @letsdoitdallas.com
+DTSTAMP:20261206T000000Z
+DTSTART:20261206T000000Z
+DTEND:20261206T030000Z
+SUMMARY:Marlon Wayans
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=marlon-wayans%7Chyena-s-c
+ omedy-nightclub-dallas-dallas%7C6-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /things-to-do/comedy/
 END:VEVENT
 BEGIN:VEVENT
 UID:jack-fm-presents-josh-wolf|punch-line-irving-irving|7-00-pm-2026-12-05@

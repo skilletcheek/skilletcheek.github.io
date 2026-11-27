@@ -11,19 +11,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-26@letsdoitdall
- as.com
-DTSTAMP:20261127T040000Z
-DTSTART:20261127T040000Z
-DTEND:20261127T070000Z
-SUMMARY:DJ JREAM
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-26&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/free-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
  -pm-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261128T040000Z

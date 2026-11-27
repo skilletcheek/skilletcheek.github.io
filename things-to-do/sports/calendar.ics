@@ -10,34 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-cowboys-vs-philadelphia-eagles|at-t-stadium-arlington|3-30-pm-20
- 26-11-26@letsdoitdallas.com
-DTSTAMP:20261126T213000Z
-DTSTART:20261126T213000Z
-DTEND:20261127T003000Z
-SUMMARY:Dallas Cowboys vs. Philadelphia Eagles
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-26&e=dallas-cowboys-vs-philade
- lphia-eagles%7Cat-t-stadium-arlington%7C3-30-pm
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/things-to-do/sports/
-END:VEVENT
-BEGIN:VEVENT
-UID:dallas-vs-philadelphia|texas-live-1650-east-randol-mill-road-arlington-
- 76011-united-states|3-30-pm-2026-11-26@letsdoitdallas.com
-DTSTAMP:20261126T213000Z
-DTSTART:20261126T213000Z
-DTEND:20261127T003000Z
-SUMMARY:Dallas vs Philadelphia
-LOCATION:Texas Live! · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-26&e=dallas-vs-philadelphia%7C
- texas-live-1650-east-randol-mill-road-arlington-76011-united-states%7C3-30
- -pm
-DESCRIPTION:The 2026 Dallas football season is coming—reserve your table 
- now for the ultimate game day experience. — More: https://letsdoitdallas
- .com/things-to-do/sports/
-END:VEVENT
-BEGIN:VEVENT
 UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
  11-27@letsdoitdallas.com
 DTSTAMP:20261127T193000Z
@@ -1077,5 +1049,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-22&e=smu-mustangs-mens-basketb
  all-vs-oklahoma-sooners-mens-basketball%7Cmoody-coliseum-dallas%7C7-30-pm
 DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
  llas.com/things-to-do/sports/
+END:VEVENT
+BEGIN:VEVENT
+UID:stockyards-championship-rodeo|cowtown-coliseum-fort-worth|1-30-pm-2026-
+ 12-26@letsdoitdallas.com
+DTSTAMP:20261226T193000Z
+DTSTART:20261226T193000Z
+DTEND:20261226T223000Z
+SUMMARY:Stockyards Championship Rodeo
+LOCATION:Cowtown Coliseum · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-26&e=stockyards-championship-r
+ odeo%7Ccowtown-coliseum-fort-worth%7C1-30-pm
+DESCRIPTION:Miscellaneous event via Ticketmaster. — More: https://letsdoi
+ tdallas.com/things-to-do/sports/
 END:VEVENT
 END:VCALENDAR

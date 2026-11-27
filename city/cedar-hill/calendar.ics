@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:thanksgiving-closure-for-city-of-cedar-hill-facilities|cedar-hill|see-d
- etails-2026-11-26@letsdoitdallas.com
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Thanksgiving Closure for City of Cedar Hill Facilities
-LOCATION:Cedar Hill
-URL:https://letsdoitdallas.com/?date=2026-11-26&e=thanksgiving-closure-for-
- city-of-cedar-hill-facilities%7Ccedar-hill%7Csee-details
-DESCRIPTION:Runs Nov 26 – Nov 27. — More: https://letsdoitdallas.com/ci
- ty/cedar-hill/
-END:VEVENT
-BEGIN:VEVENT
-UID:thanksgiving-closure-for-city-of-cedar-hill-facilities|cedar-hill|see-d
  etails-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127

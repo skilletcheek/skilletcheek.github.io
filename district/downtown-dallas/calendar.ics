@@ -11,22 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-11-26@letsdoitdallas.com
-DTSTAMP:20261126T140000Z
-DTSTART:20261126T140000Z
-DTEND:20261126T170000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-26&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261127T140000Z
 DTSTART:20261127T140000Z
@@ -1056,5 +1040,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-26&e=boxing-day-with-the-dead-
  thing%7Cpoor-david-s-pub-dallas%7Cdoors-see-listing
 DESCRIPTION:Live at Poor David's Pub. — More: https://letsdoitdallas.com/
  district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-phantom-of-the-opera-touring-|music-hall-at-fair-park-dallas|1-30-p
+ m-2026-12-26@letsdoitdallas.com
+DTSTAMP:20261226T193000Z
+DTSTART:20261226T193000Z
+DTEND:20261226T223000Z
+SUMMARY:The Phantom of the Opera (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-26&e=the-phantom-of-the-opera-
+ touring-%7Cmusic-hall-at-fair-park-dallas%7C1-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
 END:VEVENT
 END:VCALENDAR

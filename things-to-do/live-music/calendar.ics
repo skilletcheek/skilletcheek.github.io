@@ -10,65 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:county-line-records-wmg-vinyl-take-back-event|county-line-records-600-n
- -main-st-building-b-keller-tx-76248-united-states|11-00-am-2026-11-26@lets
- doitdallas.com
-DTSTAMP:20261126T170000Z
-DTSTART:20261126T170000Z
-DTEND:20261126T200000Z
-SUMMARY:County Line Records & WMG Vinyl Take-Back Event
-LOCATION:County Line Records · Keller
-URL:https://letsdoitdallas.com/?date=2026-11-26&e=county-line-records-wmg-v
- inyl-take-back-event%7Ccounty-line-records-600-n-main-st-building-b-keller
- -tx-76248-united-states%7C11-00-am
-DESCRIPTION:Drop into County Line Records for an afternoon of crate digging
- . While you’re there drop off your damaged or unplayable vinyl records t
- o help support vinyl recycling efforts! Collection bins will be out throug
- h the end of September. — More: https://letsdoitdallas.com/things-to-do/
- live-music/
-END:VEVENT
-BEGIN:VEVENT
-UID:free-show-playtown|magnolia-motor-lounge-3803-southwest-blvd-fort-worth
- -76116-united-states|9-00-pm-2026-11-26@letsdoitdallas.com
-DTSTAMP:20261127T030000Z
-DTSTART:20261127T030000Z
-DTEND:20261127T060000Z
-SUMMARY:FREE SHOW - Playtown
-LOCATION:Magnolia Motor Lounge · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-26&e=free-show-playtown%7Cmagn
- olia-motor-lounge-3803-southwest-blvd-fort-worth-76116-united-states%7C9-0
- 0-pm
-DESCRIPTION:FREE SHOW – Playtown Doors at 7:00 PM  – Show at 8:00 PM 
-     FREE GA   Ages 21+ — More: https://letsdoitdallas.com/things-to-do/
- live-music/
-END:VEVENT
-BEGIN:VEVENT
-UID:dj-jream|three-links-deep-ellum-dallas|10-00-pm-2026-11-26@letsdoitdall
- as.com
-DTSTAMP:20261127T040000Z
-DTSTART:20261127T040000Z
-DTEND:20261127T070000Z
-SUMMARY:DJ JREAM
-LOCATION:Three Links Deep Ellum · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-26&e=dj-jream%7Cthree-links-de
- ep-ellum-dallas%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/things-to-do/live-music/
-END:VEVENT
-BEGIN:VEVENT
-UID:william-clark-green|billy-bob-s-texas-fort-worth|10-00-pm-2026-11-26@le
- tsdoitdallas.com
-DTSTAMP:20261127T040000Z
-DTSTART:20261127T040000Z
-DTEND:20261127T070000Z
-SUMMARY:William Clark Green
-LOCATION:Billy Bob's Texas · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-26&e=william-clark-green%7Cbil
- ly-bob-s-texas-fort-worth%7C10-00-pm
-DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
- m/things-to-do/live-music/
-END:VEVENT
-BEGIN:VEVENT
 UID:prince-tribute-george-michael-tribute-purple-faith|granada-theater-lowe
  r-greenville-dallas|doors-see-listing-2026-11-27@letsdoitdallas.com
 DTSTAMP:20261127T000000Z
@@ -255,6 +196,21 @@ DESCRIPTION:Event Details — More: https://letsdoitdallas.com/things-to-do
  /live-music/
 END:VEVENT
 BEGIN:VEVENT
+UID:all-the-small-things-w-ain-t-it-fun|fat-daddy-s-mansfield-781-west-debb
+ ie-lane-mansfield-76063-united-states|8-30-pm-2026-11-27@letsdoitdallas.co
+ m
+DTSTAMP:20261128T023000Z
+DTSTART:20261128T023000Z
+DTEND:20261128T053000Z
+SUMMARY:All The Small Things w/Ain't It Fun
+LOCATION:Fat Daddy’s Mansfield
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=all-the-small-things-w-ai
+ n-t-it-fun%7Cfat-daddy-s-mansfield-781-west-debbie-lane-mansfield-76063-un
+ ited-states%7C8-30-pm
+DESCRIPTION:$5 online or with reservation at the bar $7 at the door — Mor
+ e: https://letsdoitdallas.com/things-to-do/live-music/
+END:VEVENT
+BEGIN:VEVENT
 UID:truck-stop-gamblers|hoots-burleson|8-30-pm-2026-11-27@letsdoitdallas.co
  m
 DTSTAMP:20261128T023000Z
@@ -329,6 +285,22 @@ URL:https://letsdoitdallas.com/?date=2026-11-27&e=chase-matthews-ages-18-%7
  Cbilly-bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
  com/things-to-do/live-music/
+END:VEVENT
+BEGIN:VEVENT
+UID:quamon-fowler|scat-jazz-lounge-111-w-4th-st-fort-worth-76102-united-sta
+ tes|10-00-pm-2026-11-27@letsdoitdallas.com
+DTSTAMP:20261128T040000Z
+DTSTART:20261128T040000Z
+DTEND:20261128T070000Z
+SUMMARY:Quamon Fowler
+LOCATION:Scat Jazz Lounge · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=quamon-fowler%7Cscat-jazz
+ -lounge-111-w-4th-st-fort-worth-76102-united-states%7C10-00-pm
+DESCRIPTION:Saxophonist Quamon Fowler has been honing his craft most of his
+  life. He was mentored by legendary clarinetist Alvin Batiste\, performing
+  in Baton Rouge and New Orleans\, sparking the release of his debut album 
+ “Introducing Quamon Fowler”. He was selected as a Panasonic Young Solo
+ i — More: https://letsdoitdallas.com/things-to-do/live-music/
 END:VEVENT
 BEGIN:VEVENT
 UID:specialized-karaoke-night-with-ruen|three-links-deep-ellum-dallas|10-00
@@ -1345,6 +1317,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=that-pressure-fest-saturd
  ay-pass-%7Clonghorn-ballroom-dallas%7C4-00-pm
 DESCRIPTION:music festival event via SeatGeek. — More: https://letsdoitda
  llas.com/things-to-do/live-music/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-black-angels|ferris-wheelers-backyard-and-bbq-dallas|6-00-pm-2026-1
+ 2-05@letsdoitdallas.com
+DTSTAMP:20261206T000000Z
+DTSTART:20261206T000000Z
+DTEND:20261206T030000Z
+SUMMARY:The Black Angels
+LOCATION:Ferris Wheelers Backyard and BBQ · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=the-black-angels%7Cferris
+ -wheelers-backyard-and-bbq-dallas%7C6-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/things-to-do/live-music/
 END:VEVENT
 BEGIN:VEVENT
 UID:randy-rogers-band|silver-saloon-terrell|7-00-pm-2026-12-05@letsdoitdall

@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-cowboys-vs-philadelphia-eagles|at-t-stadium-arlington|3-30-pm-20
- 26-11-26@letsdoitdallas.com
-DTSTAMP:20261126T213000Z
-DTSTART:20261126T213000Z
-DTEND:20261127T003000Z
-SUMMARY:Dallas Cowboys vs. Philadelphia Eagles
-LOCATION:AT&T Stadium · Arlington
-URL:https://letsdoitdallas.com/?date=2026-11-26&e=dallas-cowboys-vs-philade
- lphia-eagles%7Cat-t-stadium-arlington%7C3-30-pm
-DESCRIPTION:Football event via Ticketmaster. — More: https://letsdoitdall
- as.com/venue/at-t-stadium/
-END:VEVENT
-BEGIN:VEVENT
 UID:at-t-stadium-vip-guided-tour|at-t-stadium-arlington|9-15-am-2026-11-27@
  letsdoitdallas.com
 DTSTAMP:20261127T151500Z

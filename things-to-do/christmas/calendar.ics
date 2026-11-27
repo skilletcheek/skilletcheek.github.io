@@ -689,8 +689,8 @@ URL:https://letsdoitdallas.com/?date=2026-12-03&e=annual-tree-lighting-cere
  mony%7C4202-armstrong-pkwy-highland-park%7C06-00-pm
 DESCRIPTION:Ring in the holiday season as we gather to light the Landmark P
  ecan Tree! December 3\, 2026 06:00 PM - 08:00 PM 4202 Armstrong PkwyHighla
- nd Park\, TX 75205 https://www.hptx.org/m/calendar/event/detail/5449/63930
- 6195530000000 — More: https://letsdoitdallas.com/things-to-do/christmas/
+ nd Park\, TX 75205 https://www.hptx.org/Calendar.aspx?EID=5449/63930619553
+ 0000000 — More: https://letsdoitdallas.com/things-to-do/christmas/
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-tree-lighting|balch-springs|06-00-pm-2026-12-03@letsdoitdalla
@@ -757,9 +757,9 @@ URL:https://letsdoitdallas.com/?date=2026-12-04&e=senior-christmas-lunch%7C
  bedford%7C11-30-am
 DESCRIPTION:Just us for a great Christmas Lunch hosted by the Bedford Senio
  r Activity Center. Must pre-register to attend December 4\, 2026 11:30 AM 
- - 12:30 PM Bedford\, TX 76021 https://bedfordtx.gov/m/calendar/event/detai
- l/19213/639305916490000000 — More: https://letsdoitdallas.com/things-to-
- do/christmas/
+ - 12:30 PM Bedford\, TX 76021 https://bedfordtx.gov/Calendar.aspx?EID=1921
+ 3/639305916490000000 — More: https://letsdoitdallas.com/things-to-do/chr
+ istmas/
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-in-the-park|2801-forest-ridge-dr-bedford|05-00-pm-2026-12-04@
@@ -2510,5 +2510,31 @@ DESCRIPTION:A seasonal three-course seated tea in the DeGolyer Tea Room of
  the Pudding: roasted chestnut bisque\, savory tea sandwiches and holiday s
  weets\, with holiday teas. Ages 10 and up\; reservations required. — Mor
  e: https://letsdoitdallas.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-12-26@letsdoitdallas
+ .com
+DTSTAMP:20261226T200000Z
+DTSTART:20261226T200000Z
+DTEND:20261226T230000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-26&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/things-to-do/christmas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-nutcracker|bass-performance-hall-fort-worth|2-00-pm-2026-12-26@lets
+ doitdallas.com
+DTSTAMP:20261226T200000Z
+DTSTART:20261226T200000Z
+DTEND:20261226T230000Z
+SUMMARY:The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-26&e=the-nutcracker%7Cbass-per
+ formance-hall-fort-worth%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/things-to-do/christmas/
 END:VEVENT
 END:VCALENDAR
