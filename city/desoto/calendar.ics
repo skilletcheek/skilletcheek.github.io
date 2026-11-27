@@ -1,0 +1,288 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DeSoto\, TX — Lets Do It Dallas
+X-WR-CALDESC:Upcoming events in DeSoto\, Texas.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:tree-lighting|1400-academy-way-desoto|04-00-pm-2026-11-27@letsdoitdalla
+ s.com
+DTSTAMP:20261127T220000Z
+DTSTART:20261127T220000Z
+DTEND:20261128T010000Z
+SUMMARY:Tree Lighting
+LOCATION:1400 Academy Way · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=tree-lighting%7C1400-acad
+ emy-way-desoto%7C04-00-pm
+DESCRIPTION:Celebrate the magic of the season with the City of DeSoto’s H
+ ome for the Holidays! Throughout November and December\, residents and vis
+ itors can enjoy six festive events featuring holiday traditions\, family-f
+ riendly activities\, and memorable experiences that bring the community to
+  — More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:cocoa-cookies-christmas|1400-academy-way-desoto|10-00-am-2026-11-28@let
+ sdoitdallas.com
+DTSTAMP:20261128T160000Z
+DTSTART:20261128T160000Z
+DTEND:20261128T190000Z
+SUMMARY:Cocoa\, Cookies & Christmas
+LOCATION:1400 Academy Way · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=cocoa-cookies-christmas%7
+ C1400-academy-way-desoto%7C10-00-am
+DESCRIPTION:Celebrate the magic of the season with the City of DeSoto’s H
+ ome for the Holidays! Throughout November and December\, residents and vis
+ itors can enjoy six festive events featuring holiday traditions\, family-f
+ riendly activities\, and memorable experiences that bring the community to
+  — More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:cuentos-stories-bilingual-storytime|desoto|01-00-pm-2026-11-28@letsdoit
+ dallas.com
+DTSTAMP:20261128T190000Z
+DTSTART:20261128T190000Z
+DTEND:20261128T220000Z
+SUMMARY:Cuentos & Stories - Bilingual Storytime
+LOCATION:DeSoto
+URL:https://letsdoitdallas.com/?date=2026-11-28&e=cuentos-stories-bilingual
+ -storytime%7Cdesoto%7C01-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:pajama-storytime|desoto|06-30-pm-2026-11-30@letsdoitdallas.com
+DTSTAMP:20261201T003000Z
+DTSTART:20261201T003000Z
+DTEND:20261201T033000Z
+SUMMARY:Pajama Storytime
+LOCATION:DeSoto
+URL:https://letsdoitdallas.com/?date=2026-11-30&e=pajama-storytime%7Cdesoto
+ %7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-me-storytime-0-18-months-|desoto|10-30-am-2026-12-01@letsdoitdalla
+ s.com
+DTSTAMP:20261201T163000Z
+DTSTART:20261201T163000Z
+DTEND:20261201T193000Z
+SUMMARY:Baby & Me Storytime (0-18 Months)
+LOCATION:DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=baby-me-storytime-0-18-mo
+ nths-%7Cdesoto%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:teen-tuesdays-teen-holiday-gift-making-party|desoto|05-30-pm-2026-12-01
+ @letsdoitdallas.com
+DTSTAMP:20261201T233000Z
+DTSTART:20261201T233000Z
+DTEND:20261202T023000Z
+SUMMARY:Teen Tuesdays - Teen Holiday Gift Making Party
+LOCATION:DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-01&e=teen-tuesdays-teen-holida
+ y-gift-making-party%7Cdesoto%7C05-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:turbo-toddlers-storytime-18-months-3-years-|desoto|10-30-am-2026-12-02@
+ letsdoitdallas.com
+DTSTAMP:20261202T163000Z
+DTSTART:20261202T163000Z
+DTEND:20261202T193000Z
+SUMMARY:Turbo Toddlers Storytime (18 Months - 3 Years)
+LOCATION:DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=turbo-toddlers-storytime-
+ 18-months-3-years-%7Cdesoto%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:computer-classes-for-adults-typing-refresher|211-e-pleasant-run-rd-deso
+ to|12-00-pm-2026-12-02@letsdoitdallas.com
+DTSTAMP:20261202T180000Z
+DTSTART:20261202T180000Z
+DTEND:20261202T210000Z
+SUMMARY:Computer Classes for Adults - Typing Refresher
+LOCATION:211 E. Pleasant Run Rd. · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=computer-classes-for-adul
+ ts-typing-refresher%7C211-e-pleasant-run-rd-desoto%7C12-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:park-board|211-e-pleasant-run-road-desoto|05-30-pm-2026-12-02@letsdoitd
+ allas.com
+DTSTAMP:20261202T233000Z
+DTSTART:20261202T233000Z
+DTEND:20261203T023000Z
+SUMMARY:Park Board
+LOCATION:211 E. Pleasant Run Road · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-02&e=park-board%7C211-e-pleasa
+ nt-run-road-desoto%7C05-30-pm
+DESCRIPTION:This meeting will take place in the Council Chambers. December 
+ 2\, 2026 05:30 PM - 07:00 PM 211 E. Pleasant Run RoadDeSoto\, TX 75115 htt
+ ps://www.desototexas.gov/Calendar.aspx?EID=1750/639214326650000000 — Mor
+ e: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:keep-desoto-beautiful-corporation|desoto|06-30-pm-2026-12-03@letsdoitda
+ llas.com
+DTSTAMP:20261204T003000Z
+DTSTART:20261204T003000Z
+DTEND:20261204T033000Z
+SUMMARY:Keep DeSoto Beautiful Corporation
+LOCATION:DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=keep-desoto-beautiful-cor
+ poration%7Cdesoto%7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:library-board|211-e-pleasant-run-road-desoto|07-00-pm-2026-12-03@letsdo
+ itdallas.com
+DTSTAMP:20261204T010000Z
+DTSTART:20261204T010000Z
+DTEND:20261204T040000Z
+SUMMARY:Library Board
+LOCATION:211 E. Pleasant Run Road · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-03&e=library-board%7C211-e-ple
+ asant-run-road-desoto%7C07-00-pm
+DESCRIPTION:This meeting will take place in the Council Chambers. December 
+ 3\, 2026 07:00 PM - 08:00 PM 211 E. Pleasant Run RoadDeSoto\, TX 75115 htt
+ ps://www.desototexas.gov/Calendar.aspx?EID=1060/639137579210000000 — Mor
+ e: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:hometown-holiday-marketplace|1400-academy-way-desoto|10-00-am-2026-12-0
+ 5@letsdoitdallas.com
+DTSTAMP:20261205T160000Z
+DTSTART:20261205T160000Z
+DTEND:20261205T190000Z
+SUMMARY:Hometown Holiday Marketplace
+LOCATION:1400 Academy Way · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=hometown-holiday-marketpl
+ ace%7C1400-academy-way-desoto%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:mental-health-first-aid-workshop|211-e-pleasant-run-rd-desoto|10-00-am-
+ 2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T160000Z
+DTSTART:20261205T160000Z
+DTEND:20261205T190000Z
+SUMMARY:Mental Health First Aid Workshop
+LOCATION:211 E. Pleasant Run Rd. · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=mental-health-first-aid-w
+ orkshop%7C211-e-pleasant-run-rd-desoto%7C10-00-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:cuentos-stories-bilingual-storytime|desoto|01-00-pm-2026-12-05@letsdoit
+ dallas.com
+DTSTAMP:20261205T190000Z
+DTSTART:20261205T190000Z
+DTEND:20261205T220000Z
+SUMMARY:Cuentos & Stories - Bilingual Storytime
+LOCATION:DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=cuentos-stories-bilingual
+ -storytime%7Cdesoto%7C01-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:local-author-event-diamond-dallas|211-e-pleasant-run-rd-desoto|01-00-pm
+ -2026-12-05@letsdoitdallas.com
+DTSTAMP:20261205T190000Z
+DTSTART:20261205T190000Z
+DTEND:20261205T220000Z
+SUMMARY:Local Author Event – Diamond Dallas
+LOCATION:211 E. Pleasant Run Rd. · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=local-author-event-diamon
+ d-dallas%7C211-e-pleasant-run-rd-desoto%7C01-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:pajama-storytime|desoto|06-30-pm-2026-12-07@letsdoitdallas.com
+DTSTAMP:20261208T003000Z
+DTSTART:20261208T003000Z
+DTEND:20261208T033000Z
+SUMMARY:Pajama Storytime
+LOCATION:DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-07&e=pajama-storytime%7Cdesoto
+ %7C06-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-me-storytime-0-18-months-|desoto|10-30-am-2026-12-08@letsdoitdalla
+ s.com
+DTSTAMP:20261208T163000Z
+DTSTART:20261208T163000Z
+DTEND:20261208T193000Z
+SUMMARY:Baby & Me Storytime (0-18 Months)
+LOCATION:DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=baby-me-storytime-0-18-mo
+ nths-%7Cdesoto%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:teen-tuesdays-north-pole-popcorn-bar-competition|desoto|05-30-pm-2026-1
+ 2-08@letsdoitdallas.com
+DTSTAMP:20261208T233000Z
+DTSTART:20261208T233000Z
+DTEND:20261209T023000Z
+SUMMARY:Teen Tuesdays - North Pole Popcorn Bar Competition
+LOCATION:DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-08&e=teen-tuesdays-north-pole-
+ popcorn-bar-competition%7Cdesoto%7C05-30-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:turbo-toddlers-storytime-18-months-3-years-|desoto|10-30-am-2026-12-09@
+ letsdoitdallas.com
+DTSTAMP:20261209T163000Z
+DTSTART:20261209T163000Z
+DTEND:20261209T193000Z
+SUMMARY:Turbo Toddlers Storytime (18 Months - 3 Years)
+LOCATION:DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=turbo-toddlers-storytime-
+ 18-months-3-years-%7Cdesoto%7C10-30-am
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:computer-classes-for-adults-using-library-digital-services|211-e-pleasa
+ nt-run-rd-desoto|12-00-pm-2026-12-09@letsdoitdallas.com
+DTSTAMP:20261209T180000Z
+DTSTART:20261209T180000Z
+DTEND:20261209T210000Z
+SUMMARY:Computer Classes for Adults - Using Library Digital Services
+LOCATION:211 E. Pleasant Run Rd. · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-09&e=computer-classes-for-adul
+ ts-using-library-digital-services%7C211-e-pleasant-run-rd-desoto%7C12-00-p
+ m
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:make-it-ugly-ugly-sweater-decorating-party|211-e-pleasant-run-rd-desoto
+ |04-00-pm-2026-12-10@letsdoitdallas.com
+DTSTAMP:20261210T220000Z
+DTSTART:20261210T220000Z
+DTEND:20261211T010000Z
+SUMMARY:Make it Ugly: Ugly Sweater Decorating Party
+LOCATION:211 E. Pleasant Run Rd. · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-10&e=make-it-ugly-ugly-sweater
+ -decorating-party%7C211-e-pleasant-run-rd-desoto%7C04-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-librarians-documentary-screening|211-e-pleasant-run-rd-desoto|06-00
+ -pm-2026-12-10@letsdoitdallas.com
+DTSTAMP:20261211T000000Z
+DTSTART:20261211T000000Z
+DTEND:20261211T030000Z
+SUMMARY:The Librarians Documentary Screening
+LOCATION:211 E. Pleasant Run Rd. · DeSoto
+URL:https://letsdoitdallas.com/?date=2026-12-10&e=the-librarians-documentar
+ y-screening%7C211-e-pleasant-run-rd-desoto%7C06-00-pm
+DESCRIPTION:More: https://letsdoitdallas.com/city/desoto/
+END:VEVENT
+END:VCALENDAR

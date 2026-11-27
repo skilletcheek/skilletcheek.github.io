@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lets Do It Dallas//DFW Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fat Daddy’s Mansfield — Lets Do It Dallas
+X-WR-CALDESC:Upcoming shows at Fat Daddy’s Mansfield.
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:all-the-small-things-w-ain-t-it-fun|fat-daddy-s-mansfield-781-west-debb
+ ie-lane-mansfield-76063-united-states|8-30-pm-2026-11-27@letsdoitdallas.co
+ m
+DTSTAMP:20261128T023000Z
+DTSTART:20261128T023000Z
+DTEND:20261128T053000Z
+SUMMARY:All The Small Things w/Ain't It Fun
+LOCATION:Fat Daddy’s Mansfield
+URL:https://letsdoitdallas.com/?date=2026-11-27&e=all-the-small-things-w-ai
+ n-t-it-fun%7Cfat-daddy-s-mansfield-781-west-debbie-lane-mansfield-76063-un
+ ited-states%7C8-30-pm
+DESCRIPTION:$5 online or with reservation at the bar $7 at the door — Mor
+ e: https://letsdoitdallas.com/venue/fat-daddy-s-mansfield/
+END:VEVENT
+END:VCALENDAR

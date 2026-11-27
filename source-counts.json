@@ -3,7 +3,7 @@
  "counts": {
   "ticketmaster": 458,
   "seatgeek": 299,
-  "ics_feeds": 34,
+  "ics_feeds": 27,
   "civicplus": 459,
   "prekindle": 47,
   "singles_pages": 2,
@@ -12,7 +12,7 @@
   "dallasites101": 25,
   "seated": 2,
   "ics_feeds (whatsupfortworth.com)": 27,
-  "ics_feeds (calendar.unt.edu)": 7,
+  "ics_feeds (calendar.unt.edu)": 0,
   "prekindle (Granada Theater)": 9,
   "prekindle (The Kessler Theater)": 15,
   "prekindle (Poor David's Pub)": 13,
@@ -20,33 +20,10 @@
   "club_pages (CTRL Room)": 11,
   "club_pages (Candleroom)": 2
  },
- "alarms": [],
+ "alarms": [
+  "ics_feeds (calendar.unt.edu): 7 -> 0 (source produced nothing; baseline over 14 run(s))"
+ ],
  "history": [
-  {
-   "date": "2026-11-24",
-   "counts": {
-    "ticketmaster": 461,
-    "seatgeek": 299,
-    "ics_feeds": 26,
-    "civicplus": 389,
-    "prekindle": 44,
-    "singles_pages": 2,
-    "club_pages": 15,
-    "do214": 0,
-    "dallasites101": 3,
-    "seated": 2,
-    "ics_feeds (calendar.unt.edu)": 7,
-    "prekindle (Granada Theater)": 8,
-    "prekindle (The Kessler Theater)": 13,
-    "prekindle (Poor David's Pub)": 12,
-    "prekindle (Trees)": 11,
-    "club_pages (CTRL Room)": 12,
-    "club_pages (Candleroom)": 3
-   },
-   "blocked": [
-    "ics_feeds (whatsupfortworth.com)"
-   ]
-  },
   {
    "date": "2026-11-25",
    "counts": {
@@ -342,6 +319,29 @@
     "seated": 2,
     "ics_feeds (whatsupfortworth.com)": 27,
     "ics_feeds (calendar.unt.edu)": 7,
+    "prekindle (Granada Theater)": 9,
+    "prekindle (The Kessler Theater)": 15,
+    "prekindle (Poor David's Pub)": 13,
+    "prekindle (Trees)": 10,
+    "club_pages (CTRL Room)": 11,
+    "club_pages (Candleroom)": 2
+   }
+  },
+  {
+   "date": "2026-11-27",
+   "counts": {
+    "ticketmaster": 458,
+    "seatgeek": 299,
+    "ics_feeds": 27,
+    "civicplus": 459,
+    "prekindle": 47,
+    "singles_pages": 2,
+    "club_pages": 13,
+    "do214": 0,
+    "dallasites101": 25,
+    "seated": 2,
+    "ics_feeds (whatsupfortworth.com)": 27,
+    "ics_feeds (calendar.unt.edu)": 0,
     "prekindle (Granada Theater)": 9,
     "prekindle (The Kessler Theater)": 15,
     "prekindle (Poor David's Pub)": 13,
