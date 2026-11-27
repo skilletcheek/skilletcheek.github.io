@@ -46,6 +46,7 @@ Stdlib only — no pip installs needed.
 """
 
 import html as _html
+import email.utils
 import json
 import os
 import re
@@ -1674,6 +1675,23 @@ def fetch_dallasites101(start, end):
     urls = sorted({_strip_cdata(m) for m in re.findall(r"<link>(.*?)</link>", feed, re.S)
                    if "/event/" in m and "/event/rss" not in m})   # channel self-link
 
+    # Each RSS item is one OCCURRENCE, and its pubDate is the day it falls on
+    # ("Fri, 27 Nov 2026 23:59:59 -0600"), unlike CivicPlus, whose pubDate is
+    # a publication stamp. It matters for runs: the page's JSON-LD carries the
+    # run's first day as startDate, so Thanksgiving week -- when the whole
+    # rolling window was Tour of Trees (Nov 14 - Dec 13), Rudolph (Nov 21 -
+    # Dec 20) and the like -- read as 30 of 30 "past" and the source zeroed.
+    occurs = {}
+    for item in re.findall(r"<item>(.*?)</item>", feed, re.S):
+        lm = re.search(r"<link>(.*?)</link>", item, re.S)
+        pm = re.search(r"<pubDate>(.*?)</pubDate>", item, re.S)
+        if lm and pm:
+            try:
+                occurs[_strip_cdata(lm.group(1)).strip()] = email.utils.parsedate_to_datetime(
+                    _strip_cdata(pm.group(1)).strip()).strftime("%Y-%m-%d")
+            except (TypeError, ValueError):
+                pass
+
     # Split FAULTS (this page did not parse -- the template moved) from the
     # ordinary filters below them (`past`, `off_area` -- the page parsed fine
     # and the event simply is not ours). Only the first group means anything
@@ -1681,6 +1699,7 @@ def fetch_dallasites101(start, end):
     # city-parsing bug read as a working noise filter.
     FAULTS = ("fetch", "no_jsonld", "bad_json", "not_event")
     skipped = dict.fromkeys(FAULTS + ("past", "off_area"), 0)
+    ongoing = 0
 
     out = []
     for url in urls:
@@ -1714,6 +1733,18 @@ def fetch_dallasites101(start, end):
             continue
 
         date, _ = _jsonld_start(ev.get("startDate"))
+        run_note = ""
+        if date and date < lo:
+            # A run already under way: list it on the day the feed says this
+            # occurrence falls, if that day is inside both the run and our
+            # window. Only that day -- a run's range does not say which days
+            # have a show (Rudolph plays some dates, not all of them).
+            last, _ = _jsonld_start(ev.get("endDate"))
+            on = occurs.get(url.strip())
+            if last and on and date <= on <= last and lo <= on <= hi:
+                run_note = f"Runs {_fmt_day(date)} – {_fmt_day(last)}. "
+                date = on
+                ongoing += 1
         if not (date and lo <= date <= hi):
             skipped["past"] += 1
             continue
@@ -1754,13 +1785,16 @@ def fetch_dallasites101(start, end):
 
         # reuses Eventbrite's generic keyword pass (no Eventbrite-specific tags
         # involved when `tags` is None) rather than duplicating EB_KEYWORDS
+        desc = ev.get("description")
         out.append(row(
-            ev["name"], eb_category(None, ev["name"] + " " + (ev.get("description") or "")),
-            area, date, time_str, cost, ev.get("description"), ticket_url, image,
+            ev["name"], eb_category(None, ev["name"] + " " + (desc or "")),
+            area, date, time_str, cost, (run_note + (desc or "")).strip() or None,
+            ticket_url, image,
         ))
     unparsed = sum(skipped[k] for k in FAULTS)
     detail = ", ".join(f"{v} {k}" for k, v in skipped.items() if v)
     print(f"dallasites101: {len(out)} events from {len(urls)} links"
+          + (f", {ongoing} of them runs already under way" if ongoing else "")
           + (f" ({detail})" if detail else ""))
     report_parse_health("dallasites101", len(urls), unparsed,
                         ", ".join(f"{skipped[k]} {k}" for k in FAULTS if skipped[k]))
@@ -2147,6 +2181,18 @@ VENUE_REGISTRY = ROOT / "venue" / "pages.json"
 # pages start reading thin, lower it as the feed grows.
 CITY_MIN_EVENTS = 5
 
+# ...to EARN a city page. Like venues (VENUE_KEEP_EVENTS), a published one is
+# kept while the city has any upcoming event, and with none it stays up,
+# dormant and noindexed, for CITY_GRACE_DAYS after its last listed event.
+# Until 2026-11-27 a city that dipped under the bar was deleted that night:
+# Addison and Richardson got pages in the Nov 26 run and 404'd by the next.
+# And because _site_nav() lists every city page on every page, each such flap
+# rewrote all ~760 generated pages and sent them all to IndexNow (758 and 771
+# "changed" URLs on consecutive nights). A stable city set is a stable footer.
+CITY_KEEP_EVENTS = 1
+CITY_GRACE_DAYS = 90
+CITY_REGISTRY = ROOT / "city" / "pages.json"
+
 # ...and listings from at least this many distinct venues. Measured against
 # live-events.json on 2026-07-31, every suburb that cleared CITY_MIN_EVENTS on
 # its own was dominated by ONE room: Addison was 29/29 Addison Improv, Grand
@@ -2220,14 +2266,61 @@ def _collect_city_pages(events):
         venue, _street, _c = _split_area(e.get("area", ""))
         if venue and _is_real_venue(venue):
             venues.setdefault(city, set()).add(_venue_slug(venue))
+    registry = _load_city_registry()
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     _CITY_PAGES.clear()
     for city, n in sorted(counts.items()):
         slug = _city_slug(city)
-        if (not slug or slug in _CITY_HUB_SKIP or n < CITY_MIN_EVENTS
-                or len(venues.get(city, ())) < CITY_MIN_VENUES):
+        if not slug or slug in _CITY_HUB_SKIP:
             continue
-        _CITY_PAGES[slug] = {"name": city, "count": n}
+        earned = n >= CITY_MIN_EVENTS and len(venues.get(city, ())) >= CITY_MIN_VENUES
+        kept = slug in registry and n >= CITY_KEEP_EVENTS
+        if earned or kept:
+            _CITY_PAGES[slug] = {"name": city, "count": n}
+    # Registered cities with nothing listed: dormant until the grace runs out.
+    for slug, r in registry.items():
+        if slug in _CITY_PAGES or slug in _CITY_HUB_SKIP or not r.get("name"):
+            continue
+        cutoff = (datetime.strptime(r.get("last") or today, "%Y-%m-%d")
+                  + timedelta(days=CITY_GRACE_DAYS)).strftime("%Y-%m-%d")
+        if today <= cutoff:
+            _CITY_PAGES[slug] = {"name": r["name"], "count": 0,
+                                 "last": r.get("last")}
+    # Sorted by name, so a city joining or going dormant moves only its own
+    # entry in the footer, not the order of the rest.
+    ordered = dict(sorted(_CITY_PAGES.items(), key=lambda kv: kv[1]["name"]))
+    _CITY_PAGES.clear()
+    _CITY_PAGES.update(ordered)
     return _CITY_PAGES
+
+
+def _load_city_registry() -> dict:
+    """slug -> {name, last} for every published city page. Bootstraps from the
+    directories on disk when the file is missing, so a lost file never prunes a
+    live page; those carry no name, so they are kept by the KEEP floor while
+    they have events and are not rendered dormant."""
+    try:
+        return json.loads(CITY_REGISTRY.read_text()).get("cities", {})
+    except (OSError, ValueError):
+        d = ROOT / "city"
+        return {p.name: {} for p in d.iterdir() if p.is_dir()} if d.exists() else {}
+
+
+def _save_city_registry(last_by_slug):
+    prev = _load_city_registry()
+    out = {}
+    for slug, meta in _CITY_PAGES.items():
+        last = max(filter(None, [last_by_slug.get(slug), meta.get("last"),
+                                 (prev.get(slug) or {}).get("last")]), default=None)
+        out[slug] = {"name": meta["name"], "last": last}
+    text = json.dumps({
+        "_note": "GENERATED by write_cities() in scripts/fetch_events.py -- do not "
+                 "hand-edit. Every published /city/ page and the date of the last "
+                 "event it listed; a page is kept while the city has any event and "
+                 "for CITY_GRACE_DAYS after `last`.",
+        "cities": out}, indent=1, sort_keys=True, ensure_ascii=False) + "\n"
+    if not CITY_REGISTRY.exists() or CITY_REGISTRY.read_text() != text:
+        CITY_REGISTRY.write_text(text)
 
 
 def _city_surface(city: str):
@@ -3443,7 +3536,10 @@ def write_cities(events):
         esc_name = _html.escape(name)
         cal = write_calendar(f"city/{slug}", f"{name}, TX — Lets Do It Dallas",
                              f"Upcoming events in {name}, Texas.", evs)
-        urls.append(_write_page(f"city/{slug}", _hub_html(
+        if cal is None:
+            # A dormant city: no calendar is linked, so drop the frozen one.
+            (ROOT / "city" / slug / CAL_NAME).unlink(missing_ok=True)
+        url = (_write_page(f"city/{slug}", _hub_html(
             f"Things to Do in {esc_name}, TX | Lets Do It Dallas",
             f"Upcoming events, live music, markets and things to do in "
             f"{esc_name}, Texas — dates, times and tickets on the Lets Do It "
@@ -3453,14 +3549,23 @@ def write_cities(events):
             # live app already filtered to the same city
             f"/?city={urllib.parse.quote(name)}",
             esc_name.upper(), "CITY HUB", f"city/{slug}", cal_url=cal)))
+        # An empty hub is noindexed by _hub_html(); keep it out of the sitemap
+        # too, as emit() does for districts.
+        if evs:
+            urls.append(url)
     urls.append(write_city_index(by_city))
-    print(f"wrote {len(_CITY_PAGES)} city pages + /city/")
-    _prune_stale_cities()
+    dormant = sorted(s for s, m in _CITY_PAGES.items() if not by_city.get(s))
+    print(f"wrote {len(_CITY_PAGES)} city pages + /city/"
+          + (f"; {len(dormant)} dormant, noindexed: {', '.join(dormant)}" if dormant else ""))
+    if _prune_stale_cities():
+        _save_city_registry({slug: max(e["date"] for e in evs)
+                             for slug, evs in by_city.items() if evs})
     return urls
 
 
 def _prune_stale_cities():
-    """Delete city pages that no longer clear CITY_MIN_EVENTS.
+    """Delete city pages write_cities() no longer keeps: no upcoming event and
+    past CITY_GRACE_DAYS. Returns False when it refuses (a broken feed).
 
     Identical reasoning to _prune_stale_venues(): a page left serving a 200
     after it fell out of the sitemap and every listing is an orphan the crawler
@@ -3468,7 +3573,7 @@ def _prune_stale_cities():
     """
     d = ROOT / "city"
     if not d.exists():
-        return
+        return True
     stale = [p for p in d.iterdir() if p.is_dir() and p.name not in _CITY_PAGES]
     # Same guard as _prune_stale_venues(), plus an absolute floor. That one
     # compares against ~36 kept pages, where "more stale than kept" really does
@@ -3483,7 +3588,7 @@ def _prune_stale_cities():
         print(f"REFUSING TO PRUNE: {len(stale)} stale city pages vs "
               f"{len(_CITY_PAGES)} kept — that looks like a broken feed, not "
               f"cities going quiet.", file=sys.stderr)
-        return
+        return False      # and leave the registry alone, as for venues
     for p in stale:
         for f in p.iterdir():
             f.unlink()
@@ -3491,6 +3596,7 @@ def _prune_stale_cities():
     if stale:
         print(f"pruned {len(stale)} stale city pages: "
               f"{', '.join(sorted(p.name for p in stale))}")
+    return True
 
 
 def write_city_index(by_city):

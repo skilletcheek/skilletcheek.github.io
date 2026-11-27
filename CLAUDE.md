@@ -75,6 +75,7 @@ get clobbered; change the **Python** instead:
 - `/venue/*/` venue pages (`write_venues()`), `/venue/` directory
   (`write_venue_index()`)
 - `venue/pages.json` — the venue-page registry (`write_venues()`); see below
+- `city/pages.json` — the city-page registry (`write_cities()`), same rules
 - `/event/*/` event pages, `/event/` directory and `event/pages.json`
   (`write_events()`); see "Event pages" below
 - `/advertise/` (`write_advertise()`), `/submit/` (`write_submit()`)
@@ -104,6 +105,15 @@ page, had been created on Oct 19 and deleted on Nov 19. That file was seeded
 by hand once, with those 13 recovered from git history; the nightly run owns
 it from then on. If it goes missing the loader bootstraps from the venue
 directories on disk, so nothing is pruned for being unregistered.
+
+**City pages follow the same rule, since 2026-11-27** (`CITY_KEEP_EVENTS`,
+`CITY_GRACE_DAYS`, `city/pages.json`): earned at `CITY_MIN_EVENTS` across
+`CITY_MIN_VENUES`, kept while the city has any event, dormant for 90 days
+after. It matters more for cities than for venues because `_site_nav()`
+lists every city page on every page: Addison and Richardson were created and
+deleted on consecutive runs, each flap rewrote all ~760 generated pages, and
+IndexNow was sent 758 and 771 "changed" URLs on two nights running. A city
+going dormant now changes only the pages that listed its events.
 
 After the grace period `write_venues()` **deletes** the directory
 (`_prune_stale_venues()`). Without it a venue that went
@@ -295,7 +305,15 @@ rejected** so they don't get re-probed.
   caught and fixed 2026-08-27) then follows each RSS `<link>` to the
   per-event page's JSON-LD — no bulk API. Small yield (~8), no key,
   `Crawl-delay: 2` in its robots.txt is honored with a `time.sleep(2.0)` per
-  event page. Its JSON-LD has no time-of-day and no ticket link; both are
+  event page. **Each RSS item is one occurrence, and its `pubDate` is the day it falls
+on** — unlike CivicPlus, where `pubDate` is a publication stamp. A run's
+page carries the run's FIRST day as `startDate`, so on Thanksgiving week
+2026, when the whole window was ongoing holiday runs (Tour of Trees,
+Rudolph, Christmas in the Garden), all 30 read as past and the source
+zeroed. A run already under way is now listed on its item's `pubDate` (if
+inside the run and the window), with "Runs X – Y." opening its description
+— that day only, since a run's range does not say which days have a show.
+Its JSON-LD has no time-of-day and no ticket link; both are
   recovered from a `var time = "..."` string and an embedded `"Tickets
   URL"`/`"admission"` blob in the page source. The RSS feed has no category
   or pagination query params — `?category=`, `?page=` are silently ignored —
