@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:elle-orlando|addison-improv-addison|7-00-pm-2026-11-27@letsdoitdallas.c
- om
-DTSTAMP:20261128T010000Z
-DTSTART:20261128T010000Z
-DTEND:20261128T040000Z
-SUMMARY:Elle Orlando
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=elle-orlando%7Caddison-im
- prov-addison%7C7-00-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/city/addison/
-END:VEVENT
-BEGIN:VEVENT
-UID:elle-orlando|addison-improv-addison|9-30-pm-2026-11-27@letsdoitdallas.c
- om
-DTSTAMP:20261128T033000Z
-DTSTART:20261128T033000Z
-DTEND:20261128T063000Z
-SUMMARY:Elle Orlando
-LOCATION:Addison Improv
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=elle-orlando%7Caddison-im
- prov-addison%7C9-30-pm
-DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
- om/city/addison/
-END:VEVENT
-BEGIN:VEVENT
 UID:elle-orlando|addison-improv-addison|6-00-pm-2026-11-28@letsdoitdallas.c
  om
 DTSTAMP:20261129T000000Z
@@ -387,6 +361,19 @@ SUMMARY:Fresh Faces Fest
 LOCATION:Addison Improv
 URL:https://letsdoitdallas.com/?date=2026-12-23&e=fresh-faces-fest%7Caddiso
  n-improv-addison%7C7-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/city/addison/
+END:VEVENT
+BEGIN:VEVENT
+UID:angelia-walker-trial-by-funny|addison-improv-addison|6-00-pm-2026-12-27
+ @letsdoitdallas.com
+DTSTAMP:20261228T000000Z
+DTSTART:20261228T000000Z
+DTEND:20261228T030000Z
+SUMMARY:Angelia Walker Trial By Funny
+LOCATION:Addison Improv
+URL:https://letsdoitdallas.com/?date=2026-12-27&e=angelia-walker-trial-by-f
+ unny%7Caddison-improv-addison%7C6-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/city/addison/
 END:VEVENT

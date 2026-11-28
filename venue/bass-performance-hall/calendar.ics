@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:home-for-the-holidays|bass-performance-hall-fort-worth|7-30-pm-2026-11-
- 27@letsdoitdallas.com
-DTSTAMP:20261128T013000Z
-DTSTART:20261128T013000Z
-DTEND:20261128T043000Z
-SUMMARY:Home for the Holidays
-LOCATION:Bass Performance Hall · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=home-for-the-holidays%7Cb
- ass-performance-hall-fort-worth%7C7-30-pm
-DESCRIPTION:Fairs & Festivals event via Ticketmaster. — More: https://let
- sdoitdallas.com/venue/bass-performance-hall/
-END:VEVENT
-BEGIN:VEVENT
-UID:home-for-the-holidays|bass-performance-hall-fort-worth|7-30-pm-2026-11-
  28@letsdoitdallas.com
 DTSTAMP:20261129T013000Z
 DTSTART:20261129T013000Z
@@ -96,6 +83,19 @@ SUMMARY:Mamma Mia! - Fort Worth
 LOCATION:Bass Performance Hall · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=mamma-mia-fort-worth%7Cba
  ss-performance-hall-fort-worth%7C1-30-pm
+DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
+ om/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:mamma-mia-fort-worth|bass-performance-hall-fort-worth|7-30-pm-2026-12-0
+ 5@letsdoitdallas.com
+DTSTAMP:20261206T013000Z
+DTSTART:20261206T013000Z
+DTEND:20261206T043000Z
+SUMMARY:Mamma Mia! - Fort Worth
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=mamma-mia-fort-worth%7Cba
+ ss-performance-hall-fort-worth%7C7-30-pm
 DESCRIPTION:broadway event via SeatGeek. — More: https://letsdoitdallas.c
  om/venue/bass-performance-hall/
 END:VEVENT
@@ -345,5 +345,31 @@ URL:https://letsdoitdallas.com/?date=2026-12-26&e=the-nutcracker%7Cbass-per
  formance-hall-fort-worth%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-ballet-theater-the-nutcracker|bass-performance-hall-fort-worth|8-
+ 00-pm-2026-12-26@letsdoitdallas.com
+DTSTAMP:20261227T020000Z
+DTSTART:20261227T020000Z
+DTEND:20261227T050000Z
+SUMMARY:Texas Ballet Theater: The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-26&e=texas-ballet-theater-the-
+ nutcracker%7Cbass-performance-hall-fort-worth%7C8-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/bass-performance-hall/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-ballet-theater-the-nutcracker|bass-performance-hall-fort-worth|2-
+ 00-pm-2026-12-27@letsdoitdallas.com
+DTSTAMP:20261227T200000Z
+DTSTART:20261227T200000Z
+DTEND:20261227T230000Z
+SUMMARY:Texas Ballet Theater: The Nutcracker
+LOCATION:Bass Performance Hall · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-27&e=texas-ballet-theater-the-
+ nutcracker%7Cbass-performance-hall-fort-worth%7C2-00-pm
+DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
+ om/venue/bass-performance-hall/
 END:VEVENT
 END:VCALENDAR

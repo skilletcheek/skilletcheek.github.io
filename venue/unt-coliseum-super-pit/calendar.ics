@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:wofford-womens-bb-at-north-texas-womens-bb|unt-coliseum-super-pit-dento
- n|6-30-pm-2026-11-27@letsdoitdallas.com
-DTSTAMP:20261128T003000Z
-DTSTART:20261128T003000Z
-DTEND:20261128T033000Z
-SUMMARY:Wofford Womens BB at North Texas Womens BB
-LOCATION:UNT Coliseum (Super Pit) · Denton
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=wofford-womens-bb-at-nort
- h-texas-womens-bb%7Cunt-coliseum-super-pit-denton%7C6-30-pm
-DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
- tsdoitdallas.com/venue/unt-coliseum-super-pit/
-END:VEVENT
-BEGIN:VEVENT
 UID:baylor-womens-bb-at-north-texas-womens-bb|unt-coliseum-super-pit-denton
  |6-30-pm-2026-12-02@letsdoitdallas.com
 DTSTAMP:20261203T003000Z

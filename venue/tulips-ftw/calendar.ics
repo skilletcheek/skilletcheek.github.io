@@ -9,20 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:-parrand-n-ft-quimikoz-del-son|tulips-ftw-112-saint-louis-avenue-fort-w
- orth-76104-united-states|8-00-pm-2026-11-27@letsdoitdallas.com
-DTSTAMP:20261128T020000Z
-DTSTART:20261128T020000Z
-DTEND:20261128T050000Z
-SUMMARY:¡Parrandón! ft. Quimikoz Del Son
-LOCATION:Tulips FTW · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=-parrand-n-ft-quimikoz-de
- l-son%7Ctulips-ftw-112-saint-louis-avenue-fort-worth-76104-united-states%7
- C8-00-pm
-DESCRIPTION:Event Details — More: https://letsdoitdallas.com/venue/tulips
- -ftw/
-END:VEVENT
-BEGIN:VEVENT
 UID:sunny-sweeney|tulips-ftw-fort-worth|8-00-pm-2026-12-02@letsdoitdallas.c
  om
 DTSTAMP:20261203T020000Z
@@ -45,6 +31,18 @@ SUMMARY:Mason Lively
 LOCATION:Tulips FTW · Fort Worth
 URL:https://letsdoitdallas.com/?date=2026-12-03&e=mason-lively%7Ctulips-ftw
  -fort-worth%7C8-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/tulips-ftw/
+END:VEVENT
+BEGIN:VEVENT
+UID:futurebirds|tulips-ftw-fort-worth|8-00-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T020000Z
+DTSTART:20261206T020000Z
+DTEND:20261206T050000Z
+SUMMARY:Futurebirds
+LOCATION:Tulips FTW · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=futurebirds%7Ctulips-ftw-
+ fort-worth%7C8-00-pm
 DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
  m/venue/tulips-ftw/
 END:VEVENT

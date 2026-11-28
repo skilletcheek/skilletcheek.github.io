@@ -36,6 +36,19 @@ DESCRIPTION:Alternative event via Ticketmaster. — More: https://letsdoitd
  allas.com/venue/the-studio-at-the-bomb-factory/
 END:VEVENT
 BEGIN:VEVENT
+UID:riot|the-studio-at-the-bomb-factory-dallas|9-00-pm-2026-12-05@letsdoitd
+ allas.com
+DTSTAMP:20261206T030000Z
+DTSTART:20261206T030000Z
+DTEND:20261206T060000Z
+SUMMARY:Riot
+LOCATION:The Studio at the Bomb Factory · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=riot%7Cthe-studio-at-the-
+ bomb-factory-dallas%7C9-00-pm
+DESCRIPTION:concert event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/the-studio-at-the-bomb-factory/
+END:VEVENT
+BEGIN:VEVENT
 UID:miniature-tigers|the-studio-at-the-bomb-factory-dallas|8-00-pm-2026-12-
  16@letsdoitdallas.com
 DTSTAMP:20261217T020000Z

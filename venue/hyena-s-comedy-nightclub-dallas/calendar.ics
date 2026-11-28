@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:casey-rocket|hyena-s-comedy-nightclub-dallas-dallas|8-00-pm-2026-11-27@
- letsdoitdallas.com
-DTSTAMP:20261128T020000Z
-DTSTART:20261128T020000Z
-DTEND:20261128T050000Z
-SUMMARY:Casey Rocket
-LOCATION:Hyena's Comedy Nightclub - Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=casey-rocket%7Chyena-s-co
- medy-nightclub-dallas-dallas%7C8-00-pm
-DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
- /venue/hyena-s-comedy-nightclub-dallas/
-END:VEVENT
-BEGIN:VEVENT
 UID:sophie-buddle|hyena-s-comedy-nightclub-dallas-dallas|7-00-pm-2026-11-28
  @letsdoitdallas.com
 DTSTAMP:20261129T010000Z
@@ -122,6 +109,45 @@ SUMMARY:Asif Ali
 LOCATION:Hyena's Comedy Nightclub - Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=asif-ali%7Chyena-s-comedy
  -nightclub-dallas-dallas%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:natasha-leggero|hyena-s-comedy-nightclub-dallas-dallas|7-00-pm-2026-12-
+ 05@letsdoitdallas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Natasha Leggero
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=natasha-leggero%7Chyena-s
+ -comedy-nightclub-dallas-dallas%7C7-00-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:asif-ali|hyena-s-comedy-nightclub-dallas-dallas|9-30-pm-2026-12-05@lets
+ doitdallas.com
+DTSTAMP:20261206T033000Z
+DTSTART:20261206T033000Z
+DTEND:20261206T063000Z
+SUMMARY:Asif Ali
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=asif-ali%7Chyena-s-comedy
+ -nightclub-dallas-dallas%7C9-30-pm
+DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
+ /venue/hyena-s-comedy-nightclub-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:natasha-leggero|hyena-s-comedy-nightclub-dallas-dallas|9-30-pm-2026-12-
+ 05@letsdoitdallas.com
+DTSTAMP:20261206T033000Z
+DTSTART:20261206T033000Z
+DTEND:20261206T063000Z
+SUMMARY:Natasha Leggero
+LOCATION:Hyena's Comedy Nightclub - Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=natasha-leggero%7Chyena-s
+ -comedy-nightclub-dallas-dallas%7C9-30-pm
 DESCRIPTION:comedy event via SeatGeek. — More: https://letsdoitdallas.com
  /venue/hyena-s-comedy-nightclub-dallas/
 END:VEVENT

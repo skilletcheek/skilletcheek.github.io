@@ -9,32 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|3-00-pm-2026-11-27@
- letsdoitdallas.com
-DTSTAMP:20261127T210000Z
-DTSTART:20261127T210000Z
-DTEND:20261128T000000Z
-SUMMARY:A Christmas Carol - Fort Worth
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=a-christmas-carol-fort-wo
- rth%7Ccasa-manana-fort-worth%7C3-00-pm
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/casa-manana/
-END:VEVENT
-BEGIN:VEVENT
-UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|7-00-pm-2026-11-27@
- letsdoitdallas.com
-DTSTAMP:20261128T010000Z
-DTSTART:20261128T010000Z
-DTEND:20261128T040000Z
-SUMMARY:A Christmas Carol - Fort Worth
-LOCATION:Casa Manana · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=a-christmas-carol-fort-wo
- rth%7Ccasa-manana-fort-worth%7C7-00-pm
-DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
- m/venue/casa-manana/
-END:VEVENT
-BEGIN:VEVENT
 UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|1-00-pm-2026-11-28@
  letsdoitdallas.com
 DTSTAMP:20261128T190000Z
@@ -176,6 +150,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=the-music-of-johnny-mathi
  s%7Ccasa-manana-fort-worth%7C8-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/casa-manana/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol-fort-worth|casa-manana-fort-worth|11-00-am-2026-12-06
+ @letsdoitdallas.com
+DTSTAMP:20261206T170000Z
+DTSTART:20261206T170000Z
+DTEND:20261206T200000Z
+SUMMARY:A Christmas Carol - Fort Worth
+LOCATION:Casa Manana · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=a-christmas-carol-fort-wo
+ rth%7Ccasa-manana-fort-worth%7C11-00-am
+DESCRIPTION:theater event via SeatGeek. — More: https://letsdoitdallas.co
+ m/venue/casa-manana/
 END:VEVENT
 BEGIN:VEVENT
 UID:the-music-of-johnny-mathis|casa-manana-fort-worth|7-00-pm-2026-12-06@le

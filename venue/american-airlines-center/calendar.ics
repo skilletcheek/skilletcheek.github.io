@@ -207,4 +207,17 @@ URL:https://letsdoitdallas.com/?date=2026-12-22&e=dallas-stars-vs-calgary-f
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/american-airlines-center/
 END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-vs-phoenix-suns|american-airlines-center-dallas|7-00-p
+ m-2026-12-26@letsdoitdallas.com
+DTSTAMP:20261227T010000Z
+DTSTART:20261227T010000Z
+DTEND:20261227T040000Z
+SUMMARY:Dallas Mavericks vs. Phoenix Suns
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-26&e=dallas-mavericks-vs-phoen
+ ix-suns%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/venue/american-airlines-center/
+END:VEVENT
 END:VCALENDAR

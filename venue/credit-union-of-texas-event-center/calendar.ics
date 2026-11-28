@@ -10,45 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c
- enter-allen|11-00-am-2026-11-27@letsdoitdallas.com
-DTSTAMP:20261127T170000Z
-DTSTART:20261127T170000Z
-DTEND:20261127T200000Z
-SUMMARY:Disney On Ice presents Magic in the Stars
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=disney-on-ice-presents-ma
- gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C11-00-am
-DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
- las.com/venue/credit-union-of-texas-event-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c
- enter-allen|3-00-pm-2026-11-27@letsdoitdallas.com
-DTSTAMP:20261127T210000Z
-DTSTART:20261127T210000Z
-DTEND:20261128T000000Z
-SUMMARY:Disney On Ice presents Magic in the Stars
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=disney-on-ice-presents-ma
- gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C3-00-pm
-DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
- las.com/venue/credit-union-of-texas-event-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c
- enter-allen|7-00-pm-2026-11-27@letsdoitdallas.com
-DTSTAMP:20261128T010000Z
-DTSTART:20261128T010000Z
-DTEND:20261128T040000Z
-SUMMARY:Disney On Ice presents Magic in the Stars
-LOCATION:Credit Union of Texas Event Center · Allen
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=disney-on-ice-presents-ma
- gic-in-the-stars%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
-DESCRIPTION:Ice Shows event via Ticketmaster. — More: https://letsdoitdal
- las.com/venue/credit-union-of-texas-event-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:disney-on-ice-presents-magic-in-the-stars|credit-union-of-texas-event-c
  enter-allen|1-00-pm-2026-11-28@letsdoitdallas.com
 DTSTAMP:20261128T190000Z
 DTSTART:20261128T190000Z
@@ -191,6 +152,19 @@ SUMMARY:Allen Americans vs Rapid City Rush - Teddy Toss
 LOCATION:Credit Union of Texas Event Center · Allen
 URL:https://letsdoitdallas.com/?date=2026-12-19&e=allen-americans-vs-rapid-
  city-rush-teddy-toss%7Ccredit-union-of-texas-event-center-allen%7C7-00-pm
+DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
+ .com/venue/credit-union-of-texas-event-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:allen-americans-vs-tulsa-oilers|credit-union-of-texas-event-center-alle
+ n|5-00-pm-2026-12-27@letsdoitdallas.com
+DTSTAMP:20261227T230000Z
+DTSTART:20261227T230000Z
+DTEND:20261228T020000Z
+SUMMARY:Allen Americans vs Tulsa Oilers
+LOCATION:Credit Union of Texas Event Center · Allen
+URL:https://letsdoitdallas.com/?date=2026-12-27&e=allen-americans-vs-tulsa-
+ oilers%7Ccredit-union-of-texas-event-center-allen%7C5-00-pm
 DESCRIPTION:Hockey event via Ticketmaster. — More: https://letsdoitdallas
  .com/venue/credit-union-of-texas-event-center/
 END:VEVENT

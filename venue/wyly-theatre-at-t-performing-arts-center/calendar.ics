@@ -10,32 +10,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-11-27@letsdoitdallas
- .com
-DTSTAMP:20261127T200000Z
-DTSTART:20261127T200000Z
-DTEND:20261127T230000Z
-SUMMARY:A Christmas Carol
-LOCATION:Wyly Theatre · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=a-christmas-carol%7Cwyly-
- theatre-dallas%7C2-00-pm
-DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre-at-t-performing-arts-center/
-END:VEVENT
-BEGIN:VEVENT
-UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-11-27@letsdoitdallas
- .com
-DTSTAMP:20261128T013000Z
-DTSTART:20261128T013000Z
-DTEND:20261128T043000Z
-SUMMARY:A Christmas Carol
-LOCATION:Wyly Theatre · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=a-christmas-carol%7Cwyly-
- theatre-dallas%7C7-30-pm
-DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
- s.com/venue/wyly-theatre-at-t-performing-arts-center/
-END:VEVENT
-BEGIN:VEVENT
 UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-11-28@letsdoitdallas
  .com
 DTSTAMP:20261128T200000Z
@@ -382,6 +356,32 @@ DTEND:20261226T230000Z
 SUMMARY:A Christmas Carol
 LOCATION:Wyly Theatre · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-26&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C2-00-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|7-30-pm-2026-12-26@letsdoitdallas
+ .com
+DTSTAMP:20261227T013000Z
+DTSTART:20261227T013000Z
+DTEND:20261227T043000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-26&e=a-christmas-carol%7Cwyly-
+ theatre-dallas%7C7-30-pm
+DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/wyly-theatre-at-t-performing-arts-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:a-christmas-carol|wyly-theatre-dallas|2-00-pm-2026-12-27@letsdoitdallas
+ .com
+DTSTAMP:20261227T200000Z
+DTSTART:20261227T200000Z
+DTEND:20261227T230000Z
+SUMMARY:A Christmas Carol
+LOCATION:Wyly Theatre · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-27&e=a-christmas-carol%7Cwyly-
  theatre-dallas%7C2-00-pm
 DESCRIPTION:Holiday event via Ticketmaster. — More: https://letsdoitdalla
  s.com/venue/wyly-theatre-at-t-performing-arts-center/

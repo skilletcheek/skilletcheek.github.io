@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:intocable-cultura-tour-2026|ariat-arena-fort-worth|8-00-pm-2026-11-27@l
- etsdoitdallas.com
-DTSTAMP:20261128T020000Z
-DTSTART:20261128T020000Z
-DTEND:20261128T050000Z
-SUMMARY:Intocable: Cultura Tour 2026
-LOCATION:Ariat Arena · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=intocable-cultura-tour-20
- 26%7Cariat-arena-fort-worth%7C8-00-pm
-DESCRIPTION:Latin event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/ariat-arena/
-END:VEVENT
-BEGIN:VEVENT
 UID:106-1-kiss-fm-s-jingle-ball-presented-by-capital-one|ariat-arena-fort-w
  orth|7-30-pm-2026-12-01@letsdoitdallas.com
 DTSTAMP:20261202T013000Z
@@ -59,6 +46,19 @@ URL:https://letsdoitdallas.com/?date=2026-12-05&e=suites-for-king-country%7
  Cariat-arena-fort-worth%7C7-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/ariat-arena/
+END:VEVENT
+BEGIN:VEVENT
+UID:lone-star-series-texas-vs-tcu|ariat-arena-fort-worth|12-00-pm-2026-12-0
+ 6@letsdoitdallas.com
+DTSTAMP:20261206T180000Z
+DTSTART:20261206T180000Z
+DTEND:20261206T210000Z
+SUMMARY:Lone Star Series: Texas vs TCU
+LOCATION:Ariat Arena · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-06&e=lone-star-series-texas-vs
+ -tcu%7Cariat-arena-fort-worth%7C12-00-pm
+DESCRIPTION:ncaa womens basketball event via SeatGeek. — More: https://le
+ tsdoitdallas.com/venue/ariat-arena/
 END:VEVENT
 BEGIN:VEVENT
 UID:suites-ls-hoops-with-heart-weekend-ii|ariat-arena-fort-worth|4-00-pm-20

@@ -11,90 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
- ted-states|8-00-am-2026-11-27@letsdoitdallas.com
-DTSTAMP:20261127T140000Z
-DTSTART:20261127T140000Z
-DTEND:20261127T170000Z
-SUMMARY:Tea Around Town® Dallas
-LOCATION:Tea Around Town · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=tea-around-town-dallas%7C
- tea-around-town-646-main-street-dallas-75202-united-states%7C8-00-am
-DESCRIPTION:Turn Dallas into your own mobile tea room! Tea Around Town Dall
- as brings vibrant city views and a cozy afternoon tea experience aboard ou
- r elegant double-decker bus. Sip teas\, enjoy freshly prepared pastries\, 
- and take in landmarks like the Arts District\, Reunion Tower\, and the Da 
- — More: https://letsdoitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dr-seuss-how-the-grinch-stole-christmas-the-musical-touring-|music-hall
- -at-fair-park-dallas|11-00-am-2026-11-27@letsdoitdallas.com
-DTSTAMP:20261127T170000Z
-DTSTART:20261127T170000Z
-DTEND:20261127T200000Z
-SUMMARY:Dr. Seuss' How the Grinch Stole Christmas! The Musical (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=dr-seuss-how-the-grinch-s
- tole-christmas-the-musical-touring-%7Cmusic-hall-at-fair-park-dallas%7C11-
- 00-am
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dr-seuss-how-the-grinch-stole-christmas-the-musical-touring-|music-hall
- -at-fair-park-dallas|3-00-pm-2026-11-27@letsdoitdallas.com
-DTSTAMP:20261127T210000Z
-DTSTART:20261127T210000Z
-DTEND:20261128T000000Z
-SUMMARY:Dr. Seuss' How the Grinch Stole Christmas! The Musical (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=dr-seuss-how-the-grinch-s
- tole-christmas-the-musical-touring-%7Cmusic-hall-at-fair-park-dallas%7C3-0
- 0-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:an-intimate-evening-with-tamar-braxton|house-of-blues-dallas-dallas|7-0
- 0-pm-2026-11-27@letsdoitdallas.com
-DTSTAMP:20261128T010000Z
-DTSTART:20261128T010000Z
-DTEND:20261128T040000Z
-SUMMARY:An Intimate Evening With Tamar Braxton
-LOCATION:House of Blues Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=an-intimate-evening-with-
- tamar-braxton%7Chouse-of-blues-dallas-dallas%7C7-00-pm
-DESCRIPTION:R&B event via Ticketmaster. — More: https://letsdoitdallas.co
- m/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:dr-seuss-how-the-grinch-stole-christmas-the-musical-touring-|music-hall
- -at-fair-park-dallas|7-00-pm-2026-11-27@letsdoitdallas.com
-DTSTAMP:20261128T010000Z
-DTSTART:20261128T010000Z
-DTEND:20261128T040000Z
-SUMMARY:Dr. Seuss' How the Grinch Stole Christmas! The Musical (Touring)
-LOCATION:Music Hall At Fair Park · Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=dr-seuss-how-the-grinch-s
- tole-christmas-the-musical-touring-%7Cmusic-hall-at-fair-park-dallas%7C7-0
- 0-pm
-DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
- s.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:true-colors|gilley-s-dallas-dallas|9-00-pm-2026-11-27@letsdoitdallas.co
- m
-DTSTAMP:20261128T030000Z
-DTSTART:20261128T030000Z
-DTEND:20261128T060000Z
-SUMMARY:True Colors
-LOCATION:Gilley's Dallas
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=true-colors%7Cgilley-s-da
- llas-dallas%7C9-00-pm
-DESCRIPTION:Dance/Electronic event via Ticketmaster. — More: https://lets
- doitdallas.com/district/downtown-dallas/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-around-town-dallas|tea-around-town-646-main-street-dallas-75202-uni
  ted-states|8-00-am-2026-11-28@letsdoitdallas.com
 DTSTAMP:20261128T140000Z
 DTSTART:20261128T140000Z
@@ -1067,6 +983,45 @@ SUMMARY:The Phantom of the Opera (Touring)
 LOCATION:Music Hall At Fair Park · Dallas
 URL:https://letsdoitdallas.com/?date=2026-12-26&e=the-phantom-of-the-opera-
  touring-%7Cmusic-hall-at-fair-park-dallas%7C1-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:dallas-mavericks-vs-phoenix-suns|american-airlines-center-dallas|7-00-p
+ m-2026-12-26@letsdoitdallas.com
+DTSTAMP:20261227T010000Z
+DTSTART:20261227T010000Z
+DTEND:20261227T040000Z
+SUMMARY:Dallas Mavericks vs. Phoenix Suns
+LOCATION:American Airlines Center · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-26&e=dallas-mavericks-vs-phoen
+ ix-suns%7Camerican-airlines-center-dallas%7C7-00-pm
+DESCRIPTION:Basketball event via Ticketmaster. — More: https://letsdoitda
+ llas.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-phantom-of-the-opera-touring-|music-hall-at-fair-park-dallas|7-30-p
+ m-2026-12-26@letsdoitdallas.com
+DTSTAMP:20261227T013000Z
+DTSTART:20261227T013000Z
+DTEND:20261227T043000Z
+SUMMARY:The Phantom of the Opera (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-26&e=the-phantom-of-the-opera-
+ touring-%7Cmusic-hall-at-fair-park-dallas%7C7-30-pm
+DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/district/downtown-dallas/
+END:VEVENT
+BEGIN:VEVENT
+UID:the-phantom-of-the-opera-touring-|music-hall-at-fair-park-dallas|1-00-p
+ m-2026-12-27@letsdoitdallas.com
+DTSTAMP:20261227T190000Z
+DTSTART:20261227T190000Z
+DTEND:20261227T220000Z
+SUMMARY:The Phantom of the Opera (Touring)
+LOCATION:Music Hall At Fair Park · Dallas
+URL:https://letsdoitdallas.com/?date=2026-12-27&e=the-phantom-of-the-opera-
+ touring-%7Cmusic-hall-at-fair-park-dallas%7C1-00-pm
 DESCRIPTION:Theatre event via Ticketmaster. — More: https://letsdoitdalla
  s.com/district/downtown-dallas/
 END:VEVENT

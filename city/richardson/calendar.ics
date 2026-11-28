@@ -9,54 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cityline-night-market|cityline-plaza-richardson|6-00-pm-10-00-pm-2026-1
- 1-27@letsdoitdallas.com
-DTSTAMP:20261128T000000Z
-DTSTART:20261128T000000Z
-DTEND:20261128T030000Z
-SUMMARY:CityLine Night Market
-LOCATION:CityLine Plaza · Richardson
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=cityline-night-market%7Cc
- ityline-plaza-richardson%7C6-00-pm-10-00-pm
-DESCRIPTION:Runs Jul 10 – Dec 11. The CityLine Night Market by The Boho M
- arket returns in 2026 on the second Friday of each month through December!
-  Discover 30+ booths featuring handmade and vintage goods\, enjoy live mus
- ic while you shop\, and soak in the lively atmosphere with friends and fa 
- — More: https://letsdoitdallas.com/city/richardson/
-END:VEVENT
-BEGIN:VEVENT
-UID:chamberlain-ballet-the-nutcracker-richardson|hill-performance-hall-at-e
- isemann-center-richardson|7-00-pm-2026-11-27@letsdoitdallas.com
-DTSTAMP:20261128T010000Z
-DTSTART:20261128T010000Z
-DTEND:20261128T040000Z
-SUMMARY:Chamberlain Ballet - The Nutcracker - Richardson
-LOCATION:Hill Performance Hall at Eisemann Center · Richardson
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=chamberlain-ballet-the-nu
- tcracker-richardson%7Chill-performance-hall-at-eisemann-center-richardson%
- 7C7-00-pm
-DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
- city/richardson/
-END:VEVENT
-BEGIN:VEVENT
-UID:the-nutcracker-presented-by-chamberlain-ballet|charles-w-eisemann-cente
- r-for-performing-arts-richardson|7-00-pm-9-15-pm-2026-11-27@letsdoitdallas
- .com
-DTSTAMP:20261128T010000Z
-DTSTART:20261128T010000Z
-DTEND:20261128T040000Z
-SUMMARY:The Nutcracker Presented by Chamberlain Ballet
-LOCATION:Charles W. Eisemann Center for Performing Arts · Richardson
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=the-nutcracker-presented-
- by-chamberlain-ballet%7Ccharles-w-eisemann-center-for-performing-arts-rich
- ardson%7C7-00-pm-9-15-pm
-DESCRIPTION:Experience the holiday magic of Chamberlain Ballet’s The Nutc
- racker\, featuring New York City Ballet stars India Bradley as the Sugar P
- lum Fairy and Tyler Angle as her Cavalier. From the thrilling battle scene
-  to the sparkling Land of the Sweets\, enjoy a timeless holiday classic b 
- — More: https://letsdoitdallas.com/city/richardson/
-END:VEVENT
-BEGIN:VEVENT
 UID:the-nutcracker|eisemann-center-richardson|2-00-pm-2026-11-28@letsdoitda
  llas.com
 DTSTAMP:20261128T200000Z
@@ -93,6 +45,20 @@ LOCATION:Bank of America Theatre at Eisemann Center · Richardson
 URL:https://letsdoitdallas.com/?date=2026-12-05&e=royal-dance-ballet-academ
  y-the-nutcracker-richardson%7Cbank-of-america-theatre-at-eisemann-center-r
  ichardson%7C2-00-pm
+DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
+ city/richardson/
+END:VEVENT
+BEGIN:VEVENT
+UID:royal-dance-ballet-academy-the-nutcracker-richardson|bank-of-america-th
+ eatre-at-eisemann-center-richardson|7-00-pm-2026-12-05@letsdoitdallas.com
+DTSTAMP:20261206T010000Z
+DTSTART:20261206T010000Z
+DTEND:20261206T040000Z
+SUMMARY:Royal Dance Ballet Academy - The Nutcracker - Richardson
+LOCATION:Bank of America Theatre at Eisemann Center · Richardson
+URL:https://letsdoitdallas.com/?date=2026-12-05&e=royal-dance-ballet-academ
+ y-the-nutcracker-richardson%7Cbank-of-america-theatre-at-eisemann-center-r
+ ichardson%7C7-00-pm
 DESCRIPTION:dance event via SeatGeek. — More: https://letsdoitdallas.com/
  city/richardson/
 END:VEVENT

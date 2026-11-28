@@ -9,19 +9,6 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chase-matthews-ages-18-|billy-bob-s-fort-worth|10-00-pm-2026-11-27@lets
- doitdallas.com
-DTSTAMP:20261128T040000Z
-DTSTART:20261128T040000Z
-DTEND:20261128T070000Z
-SUMMARY:Chase Matthews - Ages 18+
-LOCATION:Billy Bob's · Fort Worth
-URL:https://letsdoitdallas.com/?date=2026-11-27&e=chase-matthews-ages-18-%7
- Cbilly-bob-s-fort-worth%7C10-00-pm
-DESCRIPTION:Other event via Ticketmaster. — More: https://letsdoitdallas.
- com/venue/billy-bob-s/
-END:VEVENT
-BEGIN:VEVENT
 UID:william-clark-green-18-and-over-|billy-bob-s-fort-worth|10-00-pm-2026-1
  1-28@letsdoitdallas.com
 DTSTAMP:20261129T040000Z
@@ -163,5 +150,18 @@ URL:https://letsdoitdallas.com/?date=2026-12-19&e=randy-rogers-band%7Cbilly
  -bob-s-fort-worth%7C10-00-pm
 DESCRIPTION:Live event via Ticketmaster. — More: https://letsdoitdallas.c
  om/venue/billy-bob-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:eli-young-band|billy-bob-s-fort-worth|10-00-pm-2026-12-26@letsdoitdalla
+ s.com
+DTSTAMP:20261227T040000Z
+DTSTART:20261227T040000Z
+DTEND:20261227T070000Z
+SUMMARY:Eli Young Band
+LOCATION:Billy Bob's · Fort Worth
+URL:https://letsdoitdallas.com/?date=2026-12-26&e=eli-young-band%7Cbilly-bo
+ b-s-fort-worth%7C10-00-pm
+DESCRIPTION:Country event via Ticketmaster. — More: https://letsdoitdalla
+ s.com/venue/billy-bob-s/
 END:VEVENT
 END:VCALENDAR
